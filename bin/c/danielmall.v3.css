@@ -174,18 +174,18 @@ ol.articles .meta { position: relative; left: -10px; }
             #masthead h1 a:hover, #masthead h1 a:focus { opacity: 1; background-position: 90px 22px; }
     
     #masthead nav ul { width: 283px; height: 12px; background: transparent url(/i/screen/nav2.gif) no-repeat 0 0; position: absolute; top: 13px; right: 0; }
-    #home #masthead nav ul { width: 336px; height: 16px; background-image: url(/i/screen/home-nav.gif); top: 72px; }
+    #home #masthead nav ul { width: 330px; height: 14px; background-image: url(/i/screen/home-nav2.gif); top: 72px; }
         #masthead nav a, #masthead mark { border: none; height: 32px; position: absolute; top: -10px; opacity: 0; background-position: 10px 10px; }
-        #home #masthead nav a { height: 14px; background-position: 0 0; }
+        #home #masthead nav a { height: 34px; background-position: 10px 10px; top: -10px; }
         #masthead nav a:hover, #masthead .current a, #masthead mark { opacity: 1; }
         #nav-work a, #nav-work mark { background-image: url(/i/screen/nav-work2.gif); width: 57px; left: -10px; }
-        #home #nav-work a { background-image: url(/i/screen/home-nav-work.gif); width: 46px; left: 1px; top: 2px; }
+        #home #nav-work a { background-image: url(/i/screen/home-nav-work2.gif); width: 66px; left: -10px; }
         #nav-articles a, #nav-articles mark { background-image: url(/i/screen/nav-articles2.gif); width: 71px; left: 61px; }
-        #home #nav-articles a { background-image: url(/i/screen/home-nav-articles.gif); width: 66px; left: 83px; top: 1px; }
+        #home #nav-articles a { background-image: url(/i/screen/home-nav-articles2.gif); width: 85px; left: 71px; top: 1px; }
         #nav-about a, #nav-about mark { background-image: url(/i/screen/nav-about2.gif); width: 60px; left: 147px; }
-        #home #nav-about a { background-image: url(/i/screen/home-nav-about.gif); width: 51px; left: 184px; top: 2px; }
+        #home #nav-about a { background-image: url(/i/screen/home-nav-about2.gif); width: 71px; left: 171px; }
         #nav-contact a, #nav-contact mark { background-image: url(/i/screen/nav-contact2.gif); width: 69px; left: 222px; }
-        #home #nav-contact a { background-image: url(/i/screen/home-nav-contact.gif); width: 64px; left: 272px; top: 1px; }
+        #home #nav-contact a { background-image: url(/i/screen/home-nav-contact2.gif); width: 84px; left: 256px; }
     
 #wrap { width: 800px; margin: 0 auto; }
 
