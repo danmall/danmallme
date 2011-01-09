@@ -30,6 +30,7 @@ if($_SERVER['SERVER_NAME'] == 'hybrid2.danielmall.com'){ // testing
     $config['tmpl_file_basepath'] = '/home/54386/domains/hybrid2.danielmall.com/html/assets/templates';
     $config['theme_folder_path'] = '/home/54386/domains/hybrid2.danielmall.com/html/themes/';
     $config['theme_folder_url'] = 'http://hybrid2.danielmall.com/themes/';
+    $config['base_url']	= "http://hybrid2.danielmall.com/";
     
 }else if($_SERVER['SERVER_NAME'] == 'mahogany.danielmall.com'){ // live
 
@@ -39,6 +40,7 @@ if($_SERVER['SERVER_NAME'] == 'hybrid2.danielmall.com'){ // testing
     $config['tmpl_file_basepath'] = '/home/54386/domains/mahogany.danielmall.com/html/assets/templates';
     $config['theme_folder_path'] = '/home/54386/domains/mahogany.danielmall.com/html/themes/';
     $config['theme_folder_url'] = 'http://mahogany.danielmall.com/themes/';
+    $config['base_url']	= "http://mahogany.danielmall.com/";
 
 
 }else if($_SERVER['SERVER_NAME'] == 'danielmall.com'){ // live
@@ -48,7 +50,8 @@ if($_SERVER['SERVER_NAME'] == 'hybrid2.danielmall.com'){ // testing
     $config['site_path'] = '/path/to/site/';
     $config['tmpl_file_basepath'] = '/Users/danielmall/Sites/hybrid/branches/ee2.1/bin/assets/templates';
     $config['theme_folder_path'] = '/Users/danielmall/Sites/hybrid/branches/ee2.1/bin/themes/';
-    $config['theme_folder_url'] = 'http://dan.local:8888/themes/';*/
+    $config['theme_folder_url'] = 'http://dan.local:8888/themes/';
+    $config['base_url']	= "http://dan.local:8888/";*/
 
     
 }else{ // testing locally
@@ -61,6 +64,7 @@ if($_SERVER['SERVER_NAME'] == 'hybrid2.danielmall.com'){ // testing
     $config['tmpl_file_basepath'] = '/Users/danielmall/Sites/mahogany/bin/assets/templates';
     $config['theme_folder_path'] = '/Users/danielmall/Sites/mahogany/bin/themes/';
     $config['theme_folder_url'] = 'http://dan.local:8888/themes/';
+    $config['base_url']	= "http://dan.local:8888/";
     
 }
 
@@ -80,7 +84,7 @@ if($_SERVER['SERVER_NAME'] == 'hybrid2.danielmall.com'){ // testing
 |	http://example.com/
 |
 */
-$config['base_url']	= "http://dan.local:8888/";
+//$config['base_url']	= "http://dan.local:8888/";
 
 /*
 |--------------------------------------------------------------------------
