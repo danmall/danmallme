@@ -1,0 +1,219 @@
+/*
+* Author:       Leevi Grahan
+* Contact:      leevi@newism.com.au
+* Version:      0.1
+* Notes:        Styles for all table groups and tables
+*
+* CONTENTS
+* --------------------------------------------------------------------------------
+* =tg       Table groups
+* =table    Standard tables
+* =data     Date Tables
+*/
+
+/*
+
+Tables and Table groups
+
+<div class='mor-tg'>
+    <h2>Header</h2>
+    <div class='info'>Some information about the table group</div>
+    <div class='mor-alert error'>Error relating to the table group</div>
+    <table>
+        <thead>
+            <tr>
+                <th scope='col'>Header</th>
+                <th scope='col'>Header 2</th>
+            </tr>
+        </thead>
+        <body>
+            <tr>
+                <th scope='row'>Header</th>
+                <td>Content</td>
+            </tr>
+        </thead>
+</div>
+*/
+
+.mor .tg,
+.mor .tg h2,
+.mor .tg h3,
+.mor table{
+    border-color:rgb(167,182,191);
+    border-style:solid;
+    border-width:0;
+	position:relative;
+}
+
+/* =tg
+------------------------------------------------------------------------------*/
+.mor .tg{
+    background:transparent;
+    border-width:1px;
+    color:#333;
+    margin-top:9px;
+    margin-bottom:18px;
+    -webkit-box-shadow:#fff 0 1px 0;
+}
+.mor .tg > :first-child{border-top:0 !important;}
+.mor .tg h2{
+    background:#323f47;
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.1)), to(rgba(255,255,255,0))),
+        -webkit-gradient(radial, 50% 0, 0, 50% 0, 400, from(rgba(72,102,118,.1)), to(rgba(72,102,118,0)));
+    background-image:-moz-linear-gradient(top, rgba(255,255,255,.1), rgba(255,255,255,0));
+    border-left-width:0;
+    border-right-width:0;
+    text-shadow: 0px -1px 0px #000;
+    color:#fff;
+    font-size:14px;
+    font-weight:normal;
+    line-height:20px;
+    margin:-4px -1px 0 -1px;
+    padding:8px 10px;
+    position:relative;
+    text-transform:uppercase;
+    -webkit-border-top-left-radius:4px;
+    -webkit-border-top-right-radius:4px;
+    -moz-border-radius:4px 4px 0 0;
+}
+
+.mor .tg h3{
+    background:#fff;
+    border-top-color:#a7b6bf;
+    border-top-width:1px;
+    border-top-style:solid;
+    color:#333 !important;
+    font-size:14px !important;
+    margin:0 !important;
+    padding:10px !important;
+    text-transform:uppercase;
+}
+
+.mor .tg h2 + h3{border-top:0;}
+.mor .tg ul, .mor .tg ol{margin:15px 0 0 30px; list-style-type:disc;}
+.mor .tg ol{list-style-type:alpha;}
+.mor .tg .menu{margin:0;}
+
+.mor .tg .info :first-child{margin-top:0!important;}
+.mor .tg .info :last-child{margin-bottom:0!important;}
+
+/* =table
+------------------------------------------------------------------------------*/
+
+.mor table{
+	background:#fff;
+    border-collapse:collapse;
+    color:#666;
+    font-size:11px;
+    margin:0!important;
+    width:100%;
+}
+    .mor table .note{
+        color:#666;
+        display:block;
+        font-weight:normal;
+        font-size:10px;
+        margin-top:3px;
+    }
+    .mor table tr{}
+        .mor table th,
+        .mor table td{line-height:18px; padding:6px 10px;}
+        .mor table th{font-size:11px; text-align:left; vertical-align:middle;}
+        .mor table th.sub-heading{font-weight:normal; width:130px;}
+        .mor table td{font-size:10px;}
+        .mor table td.dragHandle{cursor:move;}
+
+        .mor table thead{
+            background-color:#adbcc4;
+            background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.2)), to(rgba(255,255,255,0)));            background-image:-moz-linear-gradient(top, rgba(255,255,255,.1), rgba(255,255,255,0));
+            background-image:-moz-linear-gradient(top, rgba(255,255,255,.2), rgba(255,255,255,0));
+            border-top:1px solid #a7b6bf;
+            border-bottom:none;
+            color:#fff;
+            text-shadow:0 -1px 1px #7d8d96;
+        }
+		.mor table:first-child thead:first-child{border-top:0;}
+            .mor table thead tr{border-bottom:1px solid #fff;}
+            .mor table thead th{font-size:12px;}
+        .mor table tfoot{
+            border-top:3px double #a7b6bf;
+            font-weight:bold;
+        }
+
+
+    .mor table tbody tr{border-top:1px dotted #a7b6bf;}
+    .mor table tbody:first-child tr:first-child{border-top-style:solid;}
+    .mor table tbody tr.odd{}
+    .mor table tbody tr.even{background-color: #f5f8f9}
+
+    .mor table tbody th[scope=row]{width:200px;}
+
+/* =datatable Data tables are used for displaying tabular data
+------------------------------------------------------------------------------*/
+
+    .mor table.data col.id{width:50px;}
+    .mor table.data col.date{width:120px;}
+
+    .mor table.data th:first-child,
+    .mor table.data td:first-child{border-left:none;}
+    .mor table.data th{border-left:1px dotted rgba(255, 255, 255,.25);}
+    .mor table.data td{border-left:1px dotted rgba(184, 198, 206,.5)}
+
+    .mor table.data tbody th,
+    .mor table.data tbody td{padding:4px 10px;}
+    .mor table.data tbody th[scope=row]{width:auto;}
+
+/* =col-sortable Sortable columns
+------------------------------------------------------------------------------*/
+
+.mor table.col-sortable thead th.header{
+	background-image:url('../../images/bg/sort-unsorted.png');
+	background-repeat:no-repeat;
+	background-position:center right;
+	cursor:pointer;
+	padding-right:20px;
+}
+
+.mor table.col-sortable thead th.header:hover{background-image:url('../../images/bg/sort-unsorted-hover.png');}
+.mor table.col-sortable thead th.header.headerSortDown,
+.mor table.col-sortable thead th.header.headerSortUp{background-color:rgba(255,255,255,.1);}
+.mor table.col-sortable thead th.header.headerSortDown{background-image: url('../../images/bg/sort-down.png'); }
+.mor table.col-sortable thead th.header.headerSortUp{background-image: url('../../images/bg/sort-up.png'); }
+
+/* =row-sortable Sortable rows
+------------------------------------------------------------------------------*/
+
+.mor table.row-sortable tr.tDnD_whileDrag,
+.mor table.row-sortable tr.odd.tDnD_whileDrag{
+    background:#323f47;
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.4)), to(rgba(0,0,0,.2))),
+        -webkit-gradient(radial, 50% 0, 0, 50% 0, 400, from(rgba(72,102,118,.2)), to(rgba(72,102,118,0)));
+    background-image:-moz-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,.2));
+	border-top-style:solid;
+	border-top-color:#000;
+	border-bottom-color:#000;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	cursor:move;
+}
+
+.mor table.row-sortable tr td.dragHandle{width:18px;}
+.mor table.row-sortable tr.tDnD_whileDrag th,
+.mor table.row-sortable tr.tDnD_whileDrag td{color:#fff; text-shadow:#000 0 -1px 0;}
+
+
+/* =cloneable Cloneable tables allow the user to add as many rows as nessecary
+------------------------------------------------------------------------------*/
+.mor table.cloneable{
+	border-bottom:1px solid rgb(167,182,191);
+}
+.mor table.cloneable + .actions{
+	background:#fff;
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.1));
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,.1)));
+}
+.mor table.cloneable + .actions:active{background:#fff;}
+.mor table.cloneable + .actions .add{
+	padding-top:27px;
+	width:100%;
+}

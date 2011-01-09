@@ -1,0 +1,52 @@
+{exp:channel:entries channel="work" limit="1" status="open" show_future_entries="yes"}
+{embed="_inc/.doctype"}
+<head>
+    <title>&ldquo;{title},&rdquo; work by Dan Mall</title>
+    {embed="_inc/.meta"}
+    {embed="_inc/.cssReference"}
+    {embed="_inc/.jsReference"}
+    {if work-head != ""}
+    {work-head}
+    {/if}
+</head>
+
+<body id="work">	
+	
+	{embed="_inc/.header"}
+	
+	<div id="work-area-wrap">
+	    
+	    <section id="work-area">
+	        
+	        <nav class="breadcrumbs">	            
+	            <ul>
+	                <li id="breadcrumbs-home"><a href="/">Home</a></li>
+	                <li id="breadcrumbs-work"><a href="/work/">Work</a></li>
+	            </ul>
+	        </nav><?php '/.breadcrumbs' ?>
+	        
+	        <hgroup>
+    	        <h1 class="phark">{title}</h1>
+    	        {if work-subtitle}<h2>{work-subtitle}</h2>{/if}
+    	    </hgroup>
+	        
+	        {work-body}
+	        
+	    </section><?php '/#work-area'?>
+	    
+	    
+	</div><?php '/#work-area-wrap' ?>
+	
+	{/exp:channel:entries}
+	
+	
+	
+	<div id="wrap">
+    	
+    	{embed="_inc/.footer"}
+    	
+    	
+    </div><?php '/#wrap' ?>
+    
+	
+{embed="_inc/.close"}

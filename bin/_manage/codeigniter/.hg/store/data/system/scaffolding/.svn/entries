@@ -1,0 +1,48 @@
+8
+
+dir
+20
+https://danielmall.svn.beanstalkapp.com/hybrid/branches/ee2.1/bin/_manage/codeigniter/.hg/store/data/system/scaffolding
+https://danielmall.svn.beanstalkapp.com/hybrid
+
+
+
+2010-07-19T11:20:52.995950Z
+20
+danielmall
+
+
+svn:special svn:externals svn:needs-lock
+
+index.html.i
+file
+
+
+
+
+2010-07-07T14:03:30.000000Z
+5f45d9c4d139824cc3d035e2b29410b2
+2010-07-19T11:20:52.995950Z
+20
+danielmall
+has-props
+
+images
+dir
+
+_scaffolding.php.i
+file
+
+
+
+
+2010-07-07T14:03:30.000000Z
+ac925d11fae6fb07824ba123cb93b5c4
+2010-07-19T11:20:52.995950Z
+20
+danielmall
+has-props
+
+views
+dir
+

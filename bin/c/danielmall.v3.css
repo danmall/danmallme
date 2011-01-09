@@ -1,0 +1,389 @@
+/*
+*************************************************
+
+DANIELMALL.COM
+General Screen Styles
+
+Created by the ridiculous Dan Mall
+http://www.danielmall.com/
+
+*************************************************
+*/
+
+
+/*-------------------------------------------    
+
+    COLOR INDEX
+    
+    
+    #231f20     Dark Grey
+    #656262     Text Color
+    #7f7f7f     Dotted Border
+    #f77000     Link Orange
+    
+    
+    
+    Z-INDEX
+    
+    4           .projects li:hover
+    3           .projects li
+    2           #work-landing #content
+    1           #work-subnav
+    
+-------------------------------------------*/
+
+
+
+
+/*-------------------------------------------    
+    General Selectors
+-------------------------------------------*/
+* { margin: 0; padding: 0; line-height: 1.5; }
+body { font: normal 62.5% Georgia, 'Times New Roman', serif; color: #656262; background: #fff; border-top: 8px solid #231f20; padding-top: 2px; }
+
+
+/* block level */
+
+h1 { font-weight: normal; font-size: 29px; color: #231f20; margin: 0 0 0.5em; }
+ol.articles h1 a { color: #231f20; border-color: #b2b2b2;  }
+.comment-list h1 { font: normal 16px 'Trebuchet MS', Arial, sans-serif; color: #231f20; }
+h2 { font-family: 'Trebuchet MS', Arial, sans-serif; margin: 0 0 0.5em; color: #231f20; }
+h3 {  }
+h4 {  }
+h5 {  }
+h6 {  }
+
+p, ul, dl, ol { font-size: 12px; margin: 0 0 1.5em;  }
+
+dd { /*margin: 0 0 0 15px;*/ }
+
+blockquote { margin: 0 0 1.2em; }
+
+table { }
+	tr {  }
+	th, td {  }
+	
+
+/* inline */
+
+em { font-style: italic; }
+strong { font-weight: bold; }
+
+a { color: #f77000; text-decoration: none; border-bottom: 1px solid #f76e00; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; }
+a:hover, a:focus { color: #231f20; border-bottom: 1px dotted #7f7f7f; }
+
+img { display: block; margin: 0 0 10px 10px; float: left; }
+
+a img { border: none; }
+
+abbr { font-size: 90%; letter-spacing: 0.25em;  }
+
+form { margin: 0 0 1em; }
+    form > div { margin: 0 0 2em; position: relative; padding-bottom: 2em; }
+    div.options > div { margin-bottom: 0.25em; }
+    input[type="text"], textarea { font: 12px 'Trebuchet MS', Arial, sans-serif; color: #626262; background-color: #f5f5f5; border: 1px solid #fff; padding: 5px; } 
+    input:focus, textarea:focus { background-color: #fdfdfd; border-right: 1px solid #f4f4f4; border-bottom: 1px solid #f4f4f4; }
+    input[type="checkbox"] { margin-right: 0.5em; }
+    label { display: block; font: 11px 'Trebuchet MS', Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.1em; color: #aaa; margin: 0 0 0.25em; position: absolute; bottom: 0; }
+        label em { font-family: Georgia, 'Times New Roman', serif; font-style: italic; text-transform: none; letter-spacing: 0; }
+    input[type="checkbox"] + label { display: inline; position: static; } 
+
+code { /*font: 12px/1 'Courier New', Courier, monospace;*/ }
+
+sub, sup { line-height: 0; }
+
+header, footer, nav, section, article, mark, hgroup { display: block; }
+
+
+
+/*-------------------------------------------    
+    Global combinations
+-------------------------------------------*/
+
+/* Phark Image Replacement - http://phark.typepad.com/phark/2003/08/accessible_imag.html */
+#masthead nav a, #masthead mark, li[id^="year"] h2, #work-subnav a, #work-subnav mark, #work .breadcrumbs a, .phark { display: block; text-indent: -9999px; background-position: 0 0; background-repeat: no-repeat; background-color: transparent; }
+
+/* Trimming Outline in Firefox - http://snook.ca/archives/html_and_css/trimming_long_o  */
+/*\*/ #masthead nav a, #work-subnav a, .phark-link { overflow: hidden; } /**/
+
+/* Easy Clearing - http://www.positioniseverything.net/easyclearing.html */ 
+.easy-clearing:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+.pagination b { position: absolute; left: -9999px; }
+
+.real-hide { display: none; }
+
+.projects, .no-marker { list-style: none; }
+
+
+/*-------------------------------------------    
+    Reusable Elements
+-------------------------------------------*/
+.main { width: 560px; float: right; border-left: 1px dotted #7f7f7f; }
+
+ol.articles > li { padding: 1.25em 40px 0; border-top: 1px dotted #7f7f7f; }
+
+.meta { font: 78% 'Trebuchet MS', Arial, sans-serif; margin: 0; text-transform: uppercase; letter-spacing: 0.25em; color: #a2a2a2; width: 100%; }
+ol.articles .meta { position: relative; left: -10px; }
+    .meta li { float: left; border-left: 1px solid #e5e5e5; }
+    .meta li:first-child { border: none; }
+        .meta a { color: #a2a2a2; border: none; display: block; }
+        .meta a:hover, .meta a:focus { color: #f77000; }
+    .categories, .meta a { padding: 0.75em 10px; }
+        .categories a { display: inline; padding: 0; }
+        .categories a:hover, .categories a:focus { color: #f77000; }
+        
+.pagination { font-family: 'Trebuchet MS', Arial, sans-serif; margin: 0; border-top: 1px dotted #7f7f7f; padding: 1em 0 1em  40px; font-size: 14px; }
+    .pagination li { float: left; margin: 0 3px 0 0; }
+        .pagination a, .pagination mark { display: block; border: none; padding: 0.26em 10px; color: #fff; background: #e7e7e7; border-radius: 2.5em; -moz-border-radius: 2.5em; -webkit-border-radius: 2.5em; }
+        .pagination a:hover, .pagination a:focus { background: #f77000; }
+        .pagination mark { background: #231f20; }
+        
+#fusion { width: 130px; border-bottom: 1px dotted #7f7f7f; margin: 0 0 2em; }
+    #fusion img { float: none; margin: 0; }
+    .fusiontext a { color: #656262; border: none; font-size: 11px; margin: -0.5em 0 0.5em; display: block; }
+    a.powered { font-family: Georgia, 'Times New Roman', serif; color: #aeaeae; font-style: italic; border: none; font-size: 11px; position: relative; top: -1em; }
+    
+.comment-list { font: 12px 'Trebuchet MS', Arial, sans-serif; }    
+    .comment-list header { position: relative; padding: 1.5em 0 0; }
+        .comment-list header time { position: absolute; top: 0; }
+        .comment-list header time a { color: #cfcfcf; font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.1em; border: none; }
+        .comment-list header time a:hover, .comment-list header time a:focus { color: #aaa; }
+    .comment-list li { padding: 1em 10px 0 60px; border-bottom: 1px dotted #7f7f7f; position: relative; }
+        .comment-list p { font-size: 12px; }
+        .gravatar { position: absolute; top: 0; left: -60px; float: none; margin: 0; }
+        
+.main, .sub { float: left; }
+
+.work-meta dt { font: 14px 'Trebuchet MS', Arial, sans-serif; color: #cecece; text-transform: uppercase; letter-spacing: 0.1em; }
+.work-meta dd { font-style: italic; }
+        
+
+/*-------------------------------------------    
+    Basic Structure
+-------------------------------------------*/
+#masthead-wrap { border-top: 1px solid #231f20; border-bottom: 1px solid #bdbdbd; margin: 0 0 30px; }
+#article #masthead-wrap, #about-landing #masthead-wrap { margin-bottom: 0; }
+    #masthead { width: 800px; margin: 0 auto; height: 40px; position: relative; }
+    #home #masthead { height: 170px; }
+        #masthead h1 { background: transparent url(/i/screen/logo-bg-over.png) no-repeat 0 0; width: 86px; height: 69px; position: absolute; top: -11px; left: -8px; }
+        #home #masthead h1 { background-image: url(/i/screen/home-logo.png); width: 361px; height: 130px; top: 7px; }
+            #masthead h1 a { background: transparent url(/i/screen/back-home.gif) no-repeat 80px 22px; width: 259px; height: 49px; position: absolute; top: 0; left: 0; border: none; opacity: 0; transition-timing-function: ease-out; -moz-transition-timing-function: ease-out; -webkit-transition-timing-function: ease-out; }
+            #masthead h1 a:hover, #masthead h1 a:focus { opacity: 1; background-position: 90px 22px; }
+    
+    #masthead nav ul { width: 295px; height: 12px; background: transparent url(/i/screen/nav.gif) no-repeat 0 0; position: absolute; top: 13px; right: 0; }
+    #home #masthead nav ul { width: 336px; height: 16px; background-image: url(/i/screen/home-nav.gif); top: 72px; }
+        #masthead nav a, #masthead mark { border: none; height: 12px; position: absolute; top: 0; opacity: 0; }
+        #home #masthead nav a { height: 14px; }
+        #masthead nav a:hover, #masthead .current a, #masthead mark { opacity: 1; }
+        #nav-work a, #nav-work mark { background-image: url(/i/screen/nav-work.gif); width: 39px; left: 0; }
+        #home #nav-work a { background-image: url(/i/screen/home-nav-work.gif); width: 46px; left: 1px; top: 2px; }
+        #nav-articles a, #nav-articles mark { background-image: url(/i/screen/nav-articles.gif); width: 56px; left: 77px; }
+        #home #nav-articles a { background-image: url(/i/screen/home-nav-articles.gif); width: 66px; left: 83px; top: 1px; }
+        #nav-about a, #nav-about mark { background-image: url(/i/screen/nav-about.gif); width: 43px; left: 167px; }
+        #home #nav-about a { background-image: url(/i/screen/home-nav-about.gif); width: 51px; left: 184px; top: 2px; }
+        #nav-contact a, #nav-contact mark { background-image: url(/i/screen/nav-contact.gif); width: 54px; left: 240px; }
+        #home #nav-contact a { background-image: url(/i/screen/home-nav-contact.gif); width: 64px; left: 272px; top: 1px; }
+    
+#wrap { width: 800px; margin: 0 auto; }
+
+footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margin-bottom: 50px; padding: 1em 0 1.5em; font-family: 'Trebuchet MS', Arial, sans-serif; clear: both; }
+    footer ul { margin: 0; }
+        footer li { display: inline; margin: 0 20px 0 0; font-size: 11px; }
+            footer a { color: #656262; border-bottom: 1px dotted #656262; }
+            footer a:hover { border-bottom-style: solid; }
+
+
+
+/*-------------------------------------------    
+    Home page
+-------------------------------------------*/
+#hero { background: #231f20; height: 332px; margin-top: -100px; border: none; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; }
+
+#home #content { margin: 5px 0 2em; border-top: 1px dotted #7f7f7f; background: transparent url(/i/screen/home-dotted-faux.gif) repeat-y 416px 0; }
+
+    #posts { width: 405px; padding-right: 15px; float: left; margin-right: 2px; }
+    #home ol.articles > li { padding-left: 0; border: none; border-bottom: 1px dotted #7f7f7f; }
+        /*#home ol.articles .meta { font-size: 75%; left: -10px; }
+                    #home .permalink a, #home .comments a, #home .categories { padding: 0.75em 10px; }*/
+    
+    #home #work { width: 228px; padding: 35px 0 0 15px; float: left; background: transparent url(/i/screen/latest-work.png) no-repeat 0 3px; position: relative; }        
+        #home #work h1 a { width: 230px; height: 30px; position: absolute; border: none; background: transparent url(/i/screen/latest-work-bullet.gif) no-repeat 208px center; left: 0; top: 3px; opacity: 0; }
+        #home #work h1 a:hover, #home #work h1 a:focus { opacity: 1; }
+    
+    #ads { float: left; padding: 10px 0 0 3px; }
+    
+    .more-articles { background: transparent url(/i/screen/more-articles.gif) no-repeat 0 0; width: 150px; height: 14px; position: relative; }
+        .more-articles a { border: none; display: block; background: transparent url(/i/screen/more-bullet.gif) no-repeat 92px center; width: 150px; height: 14px; position: absolute; left: 0; top: 0; }
+        .more-articles a:hover, .more-articles a:focus { background-position: 95px center; }
+
+
+
+
+/*-------------------------------------------    
+    Work
+-------------------------------------------*/
+#work-landing hgroup h1 { background-image: url(/i/screen/the-work.gif); width: 668px; height: 106px; margin: 50px auto 10px; }
+#work-landing hgroup h2 { text-align: center; font-weight: normal; font-size: 12px; margin-bottom: 50px; } 
+
+#work-landing #content { border-top: 1px dotted #7f7f7f; position: relative; z-index: 2; }
+
+    #work-subnav { width: 391px; height: 42px; position: relative; margin: 0 auto -1px; background: transparent url(/i/screen/work-subnav.png) no-repeat 0 0; z-index: 1; }
+        #work-subnav li { position: absolute; top: 0; }
+            #work-subnav a, #work-subnav mark { border: none; height: 42px; opacity: 0; background: transparent url(/i/screen/work-subnav.png) no-repeat 0 0; }
+            #work-subnav mark { opacity: 1; }
+            #work-subnav a:hover, #work-subnav a:focus { opacity: 1; }
+        #work-portfolio { left: 0; }
+            #work-portfolio a { width: 89px; background-position: 0 -42px; }
+            #work-portfolio mark { width: 89px; background-position: 0 -84px; }
+        #work-speaking { left: 93px; }
+            #work-speaking a { width: 180px; background-position: -93px -42px; }
+            #work-speaking mark { width: 180px; background-position: -93px -84px; }
+        #work-publications { left: 277px; }
+            #work-publications a { width: 114px; left: 0; background-position: -277px -42px; }
+            #work-publications mark { width: 114px; left: 0; background-position: -277px -84px; }
+
+    #work-browser { float: right; width: 650px; border: none; }
+        .projects li { position: absolute; z-index: 3; }
+        .projects li:hover { z-index: 4; }
+            
+             /* 2010 */
+            #ge-healthymagination { top: 10px; left: 15px; }
+            #doghouse { top: -25px; left: 170px; }
+            #design-swap { top: 25px; left: 320px; }
+            #transformers { top: -15px; left: 450px; }
+            
+            /* 2009 */
+            #weizmann { top: -40px; left: -25px; }
+            #preventiv { top: 50px; left: 110px; }
+            #four24 { top: -25px; left: 230px; }
+            #mica { top: 35px; left: 350px; }
+            #jetwaders { top: -45px; left: 455px; }
+            
+            /* 2008 */
+            #housing-works { top: 0; left: 50px; }
+            #planeteye { top: 30px; left: 220px; }
+            #posse-foundation { top: -25px; left: 420px; }
+            
+            /* 2007 */
+            #parc-rittenhouse { top: 0; left: 150px; }
+            #krylon { top: -30px; left: 380px; }
+            
+            /* 2008 */
+            #swfir { top: -15px; left: 210px; }
+        
+            .projects a { display: block; width: 180px; height: 180px; background: #ff7000; color: #fff; font: bold 16px Helvetica, Arial, sans-serif; border-radius: 100px; -moz-border-radius: 100px; -webkit-border-radius: 100px; text-align: center; display: table-cell; vertical-align: middle; border: none; opacity: 0.75; transition: all 0.15s linear; -moz-transition: all 0.15s linear; -webkit-transition: all 0.15s linear; padding: 10px; }
+            .projects a:hover, .projects a:focus { opacity: 1; background: #231f20; border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0;}
+
+    #clients { width: 136px; padding: 1em 10px 0 0; border-right: 1px dotted #7f7f7f; }
+        #clients h1 { font: bold 14px 'Trebuchet MS', Arial, sans-serif; margin-bottom: 1.5em; }
+            #clients li { margin-bottom: 0.65em; line-height: 1.2; font-size: 11px; }
+            li[id^="year"] { height: 200px; border-bottom: 1px dotted #7f7f7f; position: relative; }
+                li[id^="year"] h2 { width: 38px; height: 12px; position: absolute; bottom: 7px; left: 10px; }
+                #year2010 h2 { background-image: url(/i/screen/2010.gif); }
+                #year2009 h2 { background-image: url(/i/screen/2009.gif); }
+                #year2008 h2 { background-image: url(/i/screen/2008.gif); }
+                #year2007 h2 { background-image: url(/i/screen/2007.gif); }
+                #year2006 h2 { background-image: url(/i/screen/2006.gif); }
+                
+#work-area { width: 800px; margin: 0 auto; }
+    #work .breadcrumbs { background: transparent url(/i/screen/breadcrumbs-bg.gif) no-repeat 0 0; width: 144px; height: 15px; margin: 0 auto 10px; position: relative; }
+        #work .breadcrumbs ul { list-style: none; }
+            #work .breadcrumbs li { position: absolute; top: 0; }
+                #work .breadcrumbs a { border: none; height: 15px; width: 52px; opacity: 0; }
+                #work .breadcrumbs a:hover, #work .breadcrumbs a:focus { opacity: 1; }
+            #breadcrumbs-home { left: 0; }
+                #breadcrumbs-home a { background-image: url(/i/screen/breadcrumbs-home.gif); }
+            #breadcrumbs-work { left: 79px; }
+                #breadcrumbs-work a { background-image: url(/i/screen/breadcrumbs-work.gif); }
+    
+    #work-area hgroup { text-align: center; margin: 0 0 2em; }
+        #work-area hgroup h1 { margin-bottom: 0; }
+        #work-area hgroup h2 { margin: 0 0 0.2em; }
+    
+
+/*-------------------------------------------    
+    Articles
+-------------------------------------------*/
+
+#article-landing hgroup h1 { background-image: url(/i/screen/articles-headline.gif); width: 238px; height: 47px; margin: 20px 0 0.25em 40px; }
+#article-landing hgroup h2 { color: #bdbbbc; font-size: 21px; margin: 0 0 1em 40px; font-weight: normal; }
+
+#article-landing .main { float: right; }
+
+#article-landing .sub { padding-top: 24px; width: 200px; }
+    #article-landing .sub h1 { background-image: url(/i/screen/displaying.gif); width: 85px; height: 15px; }
+    #article-landing .sub li { border-bottom: 1px solid #ddd; }
+        #article-landing .sub li a, #article-landing .sub li mark { display: block; border: none; padding: 0.3em 7px; }
+
+#comments-wrap, #article-meta header { width: 800px; margin: 0 auto; }
+
+#article-meta { background: #231f20; }
+    #article-meta header { text-transform: uppercase; letter-spacing: 0.1em; padding: 0.5em 0; }
+        #article-meta h1 { color: #fff; font-size: 15px; float: left; margin: 0; }
+        #article-meta p { color: #fff; float: right; margin: 0; font: 11px 'Trebuchet MS', Arial, sans-serif; position: relative; top: 0.2em; min-width: 153px; }
+        #article-meta a { color: #fff; border-color: #fff; }
+
+#comment-form input[type="text"], #contact-form input[type="text"] { width: 350px; }
+#comment-form textarea, #contact-form textarea { width: 550px; } 
+
+
+
+#article .main { width: 608px; border: none; border-right: 1px solid #231f20; padding: 2em 15px 50px 0; }
+#article-link-format { width: 800px; margin: 3em auto; }
+
+#article .sub { width: 153px; padding: 20px 0 0 20px; } 
+
+    #article .sub section { margin: 0 0 3em; }
+    
+        #article-info h2 { background-image: url(/i/screen/article-info-heading.gif); width: 98px; height: 19px; margin: 0 0 10px; }
+        #article-info time { font-size: 12px; }
+        
+        #article-tags h2 { background-image: url(/i/screen/tags-heading.gif); width: 36px; height: 19px; margin: 0 0 10px; }
+        #article-tags li { background: transparent url(/i/screen/tags-bullet.gif) no-repeat 0 center; padding-left: 12px; }
+            #article-tags a { font-style: italic; color: #686868; border: none; }
+            #article-tags a:hover, #article-tags a:focus { color: #f77000; }
+
+
+/*-------------------------------------------    
+    About
+-------------------------------------------*/
+#about-landing #intro { padding: 165px 0 2em 320px; border-bottom: 1px dotted #7f7f7f; background: transparent url(/i/screen/dan-headshot.png) no-repeat 40px 0; margin: -50px 0 5px; }
+    #about-landing #intro h1 { background-image: url(/i/screen/about-headline.png); width: 472px; height: 69px; margin: 0 0 0.5em; }
+    #about-landing #intro p { font-size: 15px; color: #231f20; line-height: 1.7; }
+        #about-landing #intro cite { font-size: 13px; color: #b0b0b0; }
+        #about-landing #intro cite a { color: #b0b0b0; border-color: #ddd; }
+
+#about-landing .main { width: 627px; float: left; border: none; }
+#about-landing .sub { width: 150px; padding: 10px 0 0 15px; float: right; border-left: 1px dotted #7f7f7f; }
+
+#dig { width: 289px; float: left; padding-right: 15px; }
+#about-site { width: 294px; float: left; padding-left: 15px; border-left: 1px dotted #7f7f7f; margin-bottom: 5px; }
+#history { border-top: 1px dotted #7f7f7f; clear: left; }
+
+
+/*-------------------------------------------    
+    Contact
+-------------------------------------------*/
+#contact-landing .main { width: 550px; border: none; border-right: 1px dotted #7f7f7f; padding: 0 30px 0 0;  }
+    #contact-landing .main header h1 { background-image: url(/i/screen/contact-dan-headline.png); width: 488px; height: 63px; margin: 0 0 15px; }
+    
+#contact-landing .sub { width: 170px; padding: 0 0 0 30px; }
+    #contact-landing .sub header h1 { background-image: url(/i/screen/find-me-elsewhere.png); width: 147px; height: 14px; margin: 25px 0 15px; }
+    #contact-landing .sub ul { margin: 0 0 3em; }
+    #contact-landing .sub li { margin: 0 0 1em; }
+        #contact-landing .sub li a { display: block; border: none; padding-left: 25px; min-height: 16px; font-style: italic; }
+        #contact-landing .sub li a:link, #contact-landing .sub li a:visited { color: #686868; }
+        #contact-landing #twitter a { background: transparent url(/i/screen/twitter_16.png) no-repeat 0 center; }
+        #contact-landing #dribbble a { background: transparent url(/i/screen/dribbble_16.png) no-repeat 0 center; }
+        #contact-landing #flickr a { background: transparent url(/i/screen/flickr_16.png) no-repeat 0 center; }
+        #contact-landing #cargo a { background: transparent url(/i/screen/cargo_16.png) no-repeat 0 center; }
+        #contact-landing #forrst a { background: transparent url(/i/screen/forrst_16.png) no-repeat 0 center; }
+        #contact-landing #linkedin a { background: transparent url(/i/screen/linkedin_16.png) no-repeat 0 center; }
+        #contact-landing #readernaut a { background: transparent url(/i/screen/readernaut_16.png) no-repeat 0 center; }
+        
+        #contact-landing .sub li a:hover, #contact-landing .sub li a:focus { background-position: 3px center !important; color: #000; }
+        
+    #contact-landing .sub small { border-top: 1px solid #e5e5e5; padding: 2em 0 0; }
+    #contact-landing .sub small:before { content: "* "; }
+        

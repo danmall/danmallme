@@ -1,0 +1,94 @@
+{embed="_inc/.doctype"}
+<head>
+    <title>Articles by Dan Mall</title>
+    {embed="_inc/.meta"}
+    {embed="_inc/.cssReference"}
+    {embed="_inc/.jsReference"}
+</head>
+
+<body id="article-landing" class="articles">	
+	
+	{embed="_inc/.header"}
+	
+	<div id="wrap">
+	
+    	<section id="content">
+
+	        <div class="main">
+
+        	    <hgroup>
+            	    <h1 class="phark">Articles</h1>
+            	    <h2>A subhead goes here</h2>
+            	</hgroup>
+                
+                <?php /* ?>
+            	<ol class="pagination easy-clearing no-marker">
+            	    <li><mark>1</mark></li>
+            	    <li><a href="/articles/2/" title="Page 2 of Articles"><b>Page</b> 2</a></li>
+            	    <li><a href="/articles/3/" title="Page 3 of Articles"><b>Page</b> 3</a></li>
+            	    <li><a href="/articles/4/" title="Page 4 of Articles"><b>Page</b> 4</a></li>
+            	    <li><a href="/articles/5/" title="Page 5 of Articles"><b>Page</b> 5</a></li>
+            	    <li><a href="/articles/6/" title="Page 6 of Articles"><b>Page</b> 6</a></li>
+            	    <li><a href="/articles/7/" title="Page 7 of Articles"><b>Page</b> 7</a></li>
+            	    <li><a href="/articles/8/" title="Page 8 of Articles"><b>Page</b> 8</a></li>
+            	    <li><a href="/articles/9/" title="Page 9 of Articles"><b>Page</b> 9</a></li>
+            	</ol><?php '/.pagination' */ ?>
+            	
+            	
+            	{exp:channel:entries channel="articles" limit="10" show_future_entries="yes" orderby="date" sort="desc" disable="|member_data|trackbacks" paginate="both"}
+            	    {if count == 1}<ol class="articles no-marker">{/if}
+            	        
+            	        <li>
+                	        <article>
+                                
+                                {if article-format == "Article"}
+                	            <header>
+                	                <h1><a href="{title_permalink="articles/article"}">{title}</a></h1>
+                	            </header>
+                	            {/if}
+
+                	            {article-excerpt}
+
+                	            <ul class="meta easy-clearing no-marker">
+                	                <li class="permalink"><a href="{title_permalink="articles/article"}"><time datetime="{entry_date format="%Y-%m-%d"}">{entry_date format="%M %d %Y"}</time></a></li>
+                	                <li class="comments"><a href="{title_permalink="articles/article"}#comments">{comment_total} comments</a></li>
+                	                <li class="categories">{categories backspace="2"}<a href="{path='channel/index'}">{category_name}</a>, {/categories}</li>
+                	            </ul><?php '/.meta' ?>
+
+                	        </article>
+                	    </li>
+            	    {if count == total_results}</ol>{/if}
+            	{/exp:channel:entries}
+            	
+            	
+            </div><?php '/.main' ?>
+            
+            
+            <div class="sub">
+                
+                {embed="_inc/.fusion"}
+                
+                <header>
+                    <h1 class="phark">Displaying</h1>
+                </header>
+                
+                <ul class="no-marker">
+                    <li><mark>All Categories</mark></li>
+                    <li><a href="/articles/categories/design/">Design</a></li>
+                    <li><a href="/articles/categories/typography/">Typography</a></li>
+                    <li><a href="/articles/categories/conferences/">Conferences</a></li>
+                </ul>
+                
+            </div><?php '/.sub' ?>
+	
+	
+    		{embed="_inc/.footer"}
+	
+	
+    	</section><?php '/#content' ?>
+    	
+    	
+    </div><?php '/#wrap'?>
+    
+	
+{embed="_inc/.close"}

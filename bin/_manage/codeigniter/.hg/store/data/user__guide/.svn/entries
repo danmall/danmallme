@@ -1,0 +1,124 @@
+8
+
+dir
+20
+https://danielmall.svn.beanstalkapp.com/hybrid/branches/ee2.1/bin/_manage/codeigniter/.hg/store/data/user__guide
+https://danielmall.svn.beanstalkapp.com/hybrid
+
+
+
+2010-07-19T11:20:52.995950Z
+20
+danielmall
+
+
+svn:special svn:externals svn:needs-lock
+
+toc.html.i
+file
+
+
+
+
+2010-07-07T14:03:44.000000Z
+fb53cbedc5e9cc1b5a9f53bd794db06e
+2010-07-19T11:20:52.995950Z
+20
+danielmall
+has-props
+
+changelog.html.i
+file
+
+
+
+
+2010-07-07T14:03:32.000000Z
+45cd2b6895b9b6824128110ebbb1e432
+2010-07-19T11:20:52.995950Z
+20
+danielmall
+has-props
+
+doc__style
+dir
+
+nav
+dir
+
+scripts
+dir
+
+index.html.i
+file
+
+
+
+
+2010-07-07T14:03:42.000000Z
+1d84756f8ab5ba9d999375287e5fa6b2
+2010-07-19T11:20:52.995950Z
+20
+danielmall
+has-props
+
+installation
+dir
+
+helpers
+dir
+
+database
+dir
+
+images
+dir
+
+overview
+dir
+
+userguide.css.i
+file
+
+
+
+
+2010-07-07T14:03:44.000000Z
+ca39343ea85defe3da25d15983fb4312
+2010-07-19T11:20:52.995950Z
+20
+danielmall
+has-props
+
+changelog.html.d
+file
+
+
+
+
+2010-07-07T14:03:32.000000Z
+8973dcf2b2b67ef2657d71a9d8fd75ee
+2010-07-19T11:20:52.995950Z
+20
+danielmall
+has-props
+
+libraries
+dir
+
+license.html.i
+file
+
+
+
+
+2010-07-07T14:03:44.000000Z
+54401fe9a77fee84f37889b89f862b04
+2010-07-19T11:20:52.995950Z
+20
+danielmall
+has-props
+
+general
+dir
+

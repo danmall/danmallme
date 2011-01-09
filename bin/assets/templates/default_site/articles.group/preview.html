@@ -1,0 +1,200 @@
+{exp:channel:entries channel="articles" limit="1" status="draft" show_future_entries="yes"}
+{embed="_inc/.doctype"}
+<head>
+    <title>&ldquo;{title},&rdquo; an article by Dan Mall</title>
+    {embed="_inc/.meta"}
+    {embed="_inc/.cssReference"}
+    {embed="_inc/.jsReference"}
+    {if article-head != ""}
+    {article-head}
+    {/if}
+</head>
+
+<body id="article" class="articles">	
+	
+	{embed="_inc/.header"}
+	
+	<div id="article-area-wrap">
+	    
+	    <section id="article-area">
+	        
+	        {if article-format == "Link"}
+    	        {if article-body == ""}
+    	        <div id="article-link-format">
+    	            <h1>{title}</h1>
+    	            {article-excerpt}
+    	        </div>
+    	        {if:else}
+    	        {article-body}
+    	        {/if}
+	        {if:else}
+	        {article-body}
+	        {/if}
+	        
+	    </section><?php '/#article-area'?>
+	    
+	    
+	</div><?php '/#article-area-wrap' ?>
+	
+	
+	<div id="comments">
+	
+	    <section id="article-meta">
+
+	        <header>
+	            <h1>{if comment_total == 0}No comments <a href="#comment-form">yet</a>&hellip;{if:else}{comment_total} Comments{/if}</h1>
+	            <p>Posted in {categories backspace="2"}<a href="{path='channel/index'}">{category_name}</a>, {/categories}</p>
+	        </header>
+        
+	    </section><?php '/#article-meta' ?>
+	    
+	    {/exp:channel:entries}
+	    	    
+	    
+	    <div id="comments-wrap">    
+            
+            <div class="main">
+                
+                {!--
+        	    <ol class="comment-list">
+                    <li>
+                        <header>	                    
+                            <h1><a href="#">Kevin Cornell</a> shouts&hellip;</h1>
+                            <time datetime="2008-01-27T11:55:00"><a href="#comment1" title="Link to this comment">At 11:55 AM on January 27, 2008</a></time>
+                        </header>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </li>
+                    <li>
+                        <header>	                    
+                            <h1><a href="#">Kevin Cornell</a> shouts&hellip;</h1>
+                            <time datetime="2008-01-27T11:55:00"><a href="#comment2" title="Link to this comment">At 11:55 AM on January 27, 2008</a></time>
+                        </header>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </li>
+                </ol><?php '/.comment-list' ?> --}
+                
+        
+                {exp:comment:entries sort="asc"}                
+                {if count == 1}<ol class="comment-list">{/if}
+                    <li id="comment{comment_id}">
+                        <header>	                    
+                            <h1>
+                                {if url}<a href="{url}">{/if}
+                                    <img class="gravatar" src="{exp:gravatar name="{name}" size="40" rating="R" default="{site_url}/i/gravatar-temp.gif"}" alt="{name}" />
+                                    {name}
+                                {if url}</a>{/if}
+                                 shouts&hellip;
+                            </h1>
+                            <time datetime="{comment_date format="%Y-%m-%dT%g:%i:00"}"><a href="#comment{comment_id}" title="Link to this comment">{count}. At {comment_date format="%g:%i %A on %F %j %Y"}</a></time>
+                        </header>
+                        {comment}
+                    </li>
+                {if count == total_results}</ol>{/if}
+                {/exp:comment:entries}
+                
+                
+                <section id="comment-form">
+            
+                    {exp:comment:form channel="articles" preview="channel/preview" form_id="comment-form"}
+                    
+                    {if logged_out}
+                    <div>
+                        <label for="comment-name">Name <em>(required)</em></label>
+                        <input type="text" id="comment-name" name="name" required />
+                    </div>
+                    
+                    <div>
+                        <label for="comment-email">Email Address <em>(required)</em></label>
+                        <input type="text" id="comment-email" name="email" required />
+                    </div>
+            
+                    <div>
+                        <label for="comment-website">Website</label>
+                        <input type="text" id="comment-website" name="url" />
+                    </div>
+                    {!--
+                    <div>
+                        <label for="comment-inflection">Inflection</label>
+                        <select id="comment-inflection" name="">
+                            <option value="says">says</option>
+                            <option value="shouts">shouts</option>
+                            <option value="says">whispers</option>
+                            <option value="says">hesitates</option>
+                            <option value="other">other</option>
+                        </select>
+                    </div>--}
+                    
+                    {/if}
+            
+                    <div>
+                        <label for="comment-message">Comment <em>(required)</em></label>
+                        <textarea id="comment-message" name="comment" cols="70" rows="10" required></textarea>
+                    </div>
+            
+                    <div class="options">
+                        <div>
+                            <input type="checkbox" id="comment-save-info" name="{save_info}" />
+                            <label for="comment-save-info">Save my info</label>                        
+                        </div>
+                        <div>
+                            <input type="checkbox" id="comment-notify" name="{notify_me}" />
+                            <label for="comment-notify">Notify me by email of follow-up comments</label>                        
+                        </div>
+                    </div>
+            
+                    <div class="submit">
+                        <input type="submit" value="Post" />
+                    </div>
+
+                    {/exp:comment:form}
+            
+                </section><?php '/#comment-form'?>
+                
+            </div><?php '/.main '?>
+	    
+	    
+    	    <div class="sub">
+	        
+    	        {embed="_inc/.fusion"}
+	        
+    	        <section id="article-info">
+        	        <header>
+        	            <h2>Article Info</h2>
+        	        </header>
+        	        <time datetime="2009-01-27T">Published January 27, 2009 at 11:45 <abbr title="Ante Meridian">AM</abbr></time>
+    	        </section><?php '/#article-info' ?>
+	        
+	        
+    	        <section id="article-tags">
+        	        <header>
+        	            <h2>Tags</h2>
+        	        </header>
+    	        
+        	        <ul>
+        	            <li><a href="#">redesign</a></li>
+        	            <li><a href="#">bearskinrug</a></li>
+        	            <li><a href="#">markhuot</a></li>
+        	            <li><a href="#">expressionengine</a></li>
+        	        </ul>
+    	        
+    	        </section><?php '/#article-tags' ?>
+	        
+	        
+    	    </div><?php '/.sub' ?>
+    	    
+    	    
+    	</div><?php '/#comments-wrap' ?>
+	    
+	        
+	</div><?php '/#comments' ?>
+	
+	
+	<div id="wrap">
+    	
+    	{embed="_inc/.footer"}
+    	
+    	
+    </div><?php '/#wrap' ?>
+    
+	
+{embed="_inc/.close"}

@@ -1,0 +1,97 @@
+8
+
+dir
+20
+https://danielmall.svn.beanstalkapp.com/hybrid/branches/ee2.1/bin/_manage/codeigniter/.hg/store
+https://danielmall.svn.beanstalkapp.com/hybrid
+
+
+
+2010-07-19T11:20:52.995950Z
+20
+danielmall
+
+
+svn:special svn:externals svn:needs-lock
+
+undo
+file
+
+
+
+
+2010-07-07T14:03:44.000000Z
+f2be047269db52bd6e1c9480d1e594a5
+2010-07-19T11:20:52.995950Z
+20
+danielmall
+has-props
+
+fncache
+file
+
+
+
+
+2010-07-07T14:03:44.000000Z
+b73f883f820caaac5857af8a858aef21
+2010-07-19T11:20:52.995950Z
+20
+danielmall
+has-props
+
+00manifest.d
+file
+
+
+
+
+2010-07-07T14:03:24.000000Z
+696a0bc62549c78acc0215bb0aed5f37
+2010-07-19T11:20:52.995950Z
+20
+danielmall
+has-props
+
+00changelog.d
+file
+
+
+
+
+2010-07-07T14:03:44.000000Z
+7a2a8937affa93b3d1cc0c7da504eb26
+2010-07-19T11:20:52.995950Z
+20
+danielmall
+has-props
+
+data
+dir
+
+00manifest.i
+file
+
+
+
+
+2010-07-07T14:03:24.000000Z
+935442b5ca3f4babb007ac8aa6f3bde0
+2010-07-19T11:20:52.995950Z
+20
+danielmall
+has-props
+
+00changelog.i
+file
+
+
+
+
+2010-07-07T14:03:44.000000Z
+0abcd0626a6c76e830097f21c961bb28
+2010-07-19T11:20:52.995950Z
+20
+danielmall
+has-props
+

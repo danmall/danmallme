@@ -1,0 +1,14 @@
+.icon{
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	display:inline-block;
+	height:0;
+	overflow:hidden;
+	padding-top:18px;
+	width:18px;
+}
+
+.icon.add{background-image:url('../../images/icons/morphine/add.png');}
+.icon.delete{background-image:url('../../images/icons/morphine/subtract.png');}
+.icon.sort{background-image:url('../../images/icons/morphine/drag-y.png'); cursor:move;}

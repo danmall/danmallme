@@ -1,0 +1,42 @@
+8
+
+dir
+20
+https://danielmall.svn.beanstalkapp.com/hybrid/branches/ee2.1/bin/_manage/codeigniter/.hg/store/data/user__guide/doc__style
+https://danielmall.svn.beanstalkapp.com/hybrid
+
+
+
+2010-07-19T11:20:52.995950Z
+20
+danielmall
+
+
+svn:special svn:externals svn:needs-lock
+
+index.html.i
+file
+
+
+
+
+2010-07-07T14:03:32.000000Z
+5c2053b2edab828ed82f0a09208dcc3e
+2010-07-19T11:20:52.995950Z
+20
+danielmall
+has-props
+
+template.html.i
+file
+
+
+
+
+2010-07-07T14:03:32.000000Z
+df330f609ace940efe7d2ad1eeda81c6
+2010-07-19T11:20:52.995950Z
+20
+danielmall
+has-props
+

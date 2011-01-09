@@ -1,0 +1,89 @@
+button, .btn{
+	cursor:pointer;
+	display:inline-block;
+	font-family:arial;
+	font-size:12px;
+	list-style-type:none;
+	margin-right:9px;
+	padding:0 15px;
+	text-shadow: 0 -1px 0 #990e38;
+	text-decoration:none!important;
+	-webkit-border-radius:20px!important;
+	-moz-border-radius:20px!important;
+}
+
+button{height:27px;}
+.btn{line-height:25px; color:inherit!important;}
+
+button:hover, .btn:hover{}
+button:active, .btn:active{background-image:none!important; position:relative; top:1px;}
+
+/* standard buttons */
+button, .btn{
+	background-color:#fafbfc;
+	background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#fafbfc), to(#c8d2d7)); 
+	background-image:-moz-linear-gradient(top, #fafbfc, #c8d2d7);
+	border:1px solid #92a5b0;
+	color:#535d63;
+	text-shadow:0 1px 0 #fff;
+	position:relative;
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.3);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.3);
+}
+
+
+.tg table + button, .tg table + .btn{
+	width:100%;
+	border-width:1px 0;
+	display:block;
+	margin:0 0 -1px 0;
+	padding-left:0;
+	padding-right:0;
+	text-indent:10px;
+	text-align:left;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+}
+.tg table + button:hover,
+.tg table + button:active,
+.tg table + .btn:hover,
+.tg table + .btn:active{position:static;}
+
+button[type=submit], .btn.submit{
+	background:#ec008c; /* override EE */
+	background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ec008c), to(#ba0070));
+	background-image:-moz-linear-gradient(top, #ec008c, #ba0070);
+	border:1px solid #ba0070;
+	border-bottom-color:#a10060;
+	color:#fff!important;
+	text-shadow: 0 -1px 0 #a10060;
+	
+}
+
+button.add, .btn.add{
+	background-color:#94bf11;
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#a8d913), to(#80a60f));
+	background-image:-moz-linear-gradient(top, #a8d913, #80a60f);
+	border:1px solid #80a60f;
+	border-bottom-color:#6c8c0d;
+	color:#fff!important;
+	text-shadow: 0 -1px 0 #6c8c0d;
+}
+
+button.delete, .btn.delete{
+	background-color:#e7292e;
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#e7292e), to(#9e0b0f));
+	background-image:-moz-linear-gradient(top, #e7292e, #9e0b0f);
+	border:1px solid #9a1d22;
+	border-bottom-color:#520608;
+	color:#fff!important;
+	text-shadow: 0 -1px 0 #520608;
+}
+
+/* SAFARI - override firefoxes defaults */
+@media screen and (-webkit-min-device-pixel-ratio:0){
+	button{
+		padding-top:0;
+		padding-bottom:0;
+	}
+}

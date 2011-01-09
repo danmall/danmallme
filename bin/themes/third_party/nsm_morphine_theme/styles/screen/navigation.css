@@ -1,0 +1,54 @@
+/*
+* Author: 		Leevi Grahan
+* Contact:		leevi@newism.com.au
+* Version:		0.1
+* Notes:		Styles for all navigation elements
+*
+* CONTENTS
+* --------------------------------------------------------------------------------
+* =nav					General navigation class; IE horizontal menus etc
+*/
+
+/* =nav
+------------------------------------------------------------------------------*/
+nav{}
+	.menu,
+	.menu li{margin:0; padding:0; list-style:none;}
+		.menu li a{display:block;}
+
+	.menu.horizontal li,
+	.menu.tabs li{float:left;}
+
+.menu.tabs{
+    background-color:#c8d2d7;
+    background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, .2)), to(rgba(255, 255, 255, 0))); 
+	border-top:1px solid #bec7cc;
+	border-bottom:1px solid #fff;
+	margin:0 0 18px 0;
+	overflow:auto;
+	padding:7px 7px 0 7px;
+}
+.tg .menu.tabs{border-bottom:0;}
+.menu.tabs:first-child{}
+    .menu.tabs a{
+        background:rgba(255,255,255,1);
+        color:#415058;
+        font-size:9px;
+        font-weight:bold;
+        margin-right:7px;
+        margin-bottom:7px;
+        padding:6px 10px 5px 10px;
+        text-decoration:none;
+        text-transform:uppercase;
+        -webkit-border-radius:30px;
+        -moz-border-radius:30px;
+    }
+    .menu.tabs a.active{
+		color:#fff;
+		font-weight:normal;
+		background:rgba(116,132,140,.3);
+		background:rgba(125, 141, 150,.7);
+		text-shadow:0 -1px 0 rgba(0,0,0,.2);
+		-moz-box-shadow: inset 0 1px 0 rgba(0,0,0,.2), 0 1px 0 rgba(255,255,255,.5);
+		-webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,.2);
+    }
