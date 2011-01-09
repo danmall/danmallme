@@ -36,8 +36,8 @@ if($_SERVER['SERVER_NAME'] == 'hybrid2.danielmall.com'){ // testing
     $config['cp_url'] = "http://mahogany.danielmall.com/_manage/index.php";
     $config['site_url'] = 'http://mahogany.danielmall.com/';
     $config['site_path'] = '/path/to/site/';
-    $config['tmpl_file_basepath'] = '/domains/mahogany.danielmall.com/html/assets/templates';
-    $config['theme_folder_path'] = '/domains/mahogany.danielmall.com/html/themes/';
+    $config['tmpl_file_basepath'] = '/home/54386/domains/mahogany.danielmall.com/html/assets/templates';
+    $config['theme_folder_path'] = '/home/54386/domains/mahogany.danielmall.com/html/themes/';
     $config['theme_folder_url'] = 'http://mahogany.danielmall.com/themes/';
 
 
