@@ -26,6 +26,7 @@ http://www.danielmall.com/
     
     Z-INDEX
     
+    2000        #home #masthead
     4           .projects li:hover
     3           .projects li
     2           #work-landing #content
@@ -166,7 +167,7 @@ ol.articles .meta { position: relative; left: -10px; }
 #masthead-wrap { border-top: 1px solid #231f20; border-bottom: 1px solid #bdbdbd; margin: 0 0 30px; }
 #article #masthead-wrap, #about-landing #masthead-wrap { margin-bottom: 0; }
     #masthead { width: 800px; margin: 0 auto; height: 40px; position: relative; }
-    #home #masthead { height: 128px; }
+    #home #masthead { height: 128px; z-index: 2000; }
         #masthead h1 { background: transparent url(/i/screen/logo-bg-over.png) no-repeat 0 0; width: 86px; height: 69px; position: absolute; top: -11px; left: -8px; }
         /*#home #masthead h1 { background-image: url(/i/screen/home-logo.png); width: 361px; height: 130px; top: 7px; }*/
         #home #masthead h1 { background-image: url(/i/screen/home-logo2.png); width: 407px; height: 120px; top: 15px; left: -145px; }
@@ -220,9 +221,15 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
         .more-articles a { border: none; display: block; background: transparent url(/i/screen/more-bullet.gif) no-repeat 92px center; width: 150px; height: 14px; position: absolute; left: 0; top: 0; }
         .more-articles a:hover, .more-articles a:focus { background-position: 95px center; }*/
 
-#home #masthead-wrap { margin-bottom: 0; z-index: 2000; position: relative; }
+#home #masthead-wrap { margin-bottom: 0; }
 
-.home-row { height: 225px; width: 100%; background: #f7f7f7; border-bottom: 1px solid #dedede; overflow: hidden; position: relative; border-top: 4px solid #fafafa; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; }
+#roles { position: absolute; top: 95px; font: 14px 'Trebuchet MS', Arial, sans-serif; color: #929090; text-transform: uppercase; letter-spacing: 0.1em; }
+    #roles li { display: none; }
+    #roles li:before { content: "/"; opacity: 0.5; padding: 0 7px 0 3px; }
+    #roles li:first-child:before { content: ""; padding: 0; }
+    #roles li:nth-child(1), #roles li:nth-child(2) {  display: inline-block; }
+
+.home-row { height: 200px; width: 100%; background: #f7f7f7; border-bottom: 1px solid #dedede; overflow: hidden; position: relative; border-top: 4px solid transparent; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; }
 .home-row:hover { overflow: visible; z-index: 100; background: #fff; border-top: 4px solid #fff; }
 .home-row:hover + .home-row { border-top: 4px solid rgba(0, 0, 0, 0.02); }
     .home-row .inner { width: 800px; margin: 0 auto; position: relative; }
@@ -234,6 +241,8 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
     .home-round-item { position: absolute; }
         .home-round-item a { width: 217px; height: 217px; border-radius: 217px; transition: all 0.1s ease-in; -moz-transition: all 0.1s ease-in; -webkit-transition: all 0.1s ease-in; -o-transition: all 0.1s ease-in; transform-origin: 50% 50%; -moz-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; background-position: center center; border: none; }
         .home-round-item a:hover, .home-round-item a:focus { width: 225px; height: 225px; border-radius: 225px; margin-left: -4px; margin-top: -4px; }
+    .home-row .more { position: absolute; left: 0; top: 70px; }
+    #home #links .more { top: 50px; }
 
 #home #links { height: auto; }    
     #home #links .inner { padding: 30px 0 0 160px; width: 640px; }

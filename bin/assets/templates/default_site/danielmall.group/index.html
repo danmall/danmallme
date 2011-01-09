@@ -19,19 +19,21 @@
 		        <h1 class="phark">Featured Work</h1>
 		
     			<ul class="no-marker">				
-    				<li class="home-round-item" style="left: 145px; top: 20px;">
-    				    <a href="/work/morsel/" class="phark" style="background-image: url(/i/home/morsel.jpg);">Morsel</a>
+    				<li class="home-round-item" style="left: 125px; top: 5px;">
+    				    <a href="/work/detail/morsel/" class="phark" style="background-image: url(/i/home/morsel.jpg);">Morsel</a>
     				</li>
-    				<li class="home-round-item" style="left: 315px; top: 5px;">
-    				    <a href="/work/healthymagination/" class="phark" style="background-image: url(/i/home/healthymagination.jpg);">healthymagination</a>
+    				<li class="home-round-item" style="left: 305px; top: 2px;">
+    				    <a href="/work/detail/healthymagination/" class="phark" style="background-image: url(/i/home/healthymagination.jpg);">healthymagination</a>
     				</li>								
-    				<li class="home-round-item" style="left: 434px; top: 23px;">
-    				    <a href="/work/design-swap/" class="phark" style="background-image: url(/i/home/design-swap.gif);">Design Swap</a>
+    				<li class="home-round-item" style="left: 444px; top: 12px;">
+    				    <a href="/work/detail/design-swap/" class="phark" style="background-image: url(/i/home/design-swap.gif);">Design Swap</a>
     				</li>				
-    				<li class="home-round-item" style="left: 580px; top: 30px;">
-    				    <a href="/work/transformers/" class="phark" style="background-image: url(/i/home/transformers.jpg);">Transformers</a>
+    				<li class="home-round-item" style="left: 600px; top: 6px;">
+    				    <a href="/work/detail/transformers/" class="phark" style="background-image: url(/i/home/transformers.jpg);">Transformers</a>
     				</li>				    				
     			</ul>
+    			
+    			<p class="more"><a href="/work/">See all</a></p>
     			
     		</div>{!-- '/.inner' --}
     		
@@ -46,11 +48,21 @@
     		    <h1 class="phark">Latest Articles</h1>
 	    
     		    <ul class="no-marker">				
-    				<li class="home-round-item" style="left: 145px; top: 20px;"><a href="/work/happy-cog/">Happy Cog</a></li>				
-    				<li class="home-round-item" style="left: 320px; top: 15px;"><a href="/work/mica/"><acronym title="Maryland Institute College of Art">MICA</acronym></a></li>				
-    				<li class="home-round-item" style="left: 434px; top: 23px;"><a href="/work/housing-works/">Housing Works</a></li>				
-    				<li class="home-round-item" style="left: 580px; top: 30px;"><a href="/work/four24/">Four24</a></li>				
+    				<li class="home-round-item" style="left: 120px; top: 15px;">
+    				    <a href="/work/detail/morsel/" class="phark" style="background-image: url(/i/home/design-swap.gif);">Morsel</a>
+    				</li>
+    				<li class="home-round-item" style="left: 285px; top: 2px;">
+    				    <a href="/work/detail/healthymagination/" class="phark" style="background-image: url(/i/home/morsel.jpg);">healthymagination</a>
+    				</li>								
+    				<li class="home-round-item" style="left: 444px; top: 12px;">
+    				    <a href="/work/detail/design-swap/" class="phark" style="background-image: url(/i/home/transformers.jpg);">Design Swap</a>
+    				</li>				
+    				<li class="home-round-item" style="left: 600px; top: 6px;">
+    				    <a href="/work/detail/transformers/" class="phark" style="background-image: url(/i/home/healthymagination.jpg);">Transformers</a>
+    				</li>				    				
     			</ul>
+    			
+    			<p class="more"><a href="#">See all</a></p>
         		
     		</div>{!-- '/.inner' --}
 		
@@ -63,7 +75,7 @@
 		    
     		    <h1 class="phark">Links</h1>
 	    
-    		    {exp:channel:entries channel="articles" limit="5" show_future_entries="yes" orderby="date" sort="desc"}
+    		    {exp:channel:entries channel="articles" limit="4" show_future_entries="yes" orderby="date" sort="desc"}
 
                 		{if count == 1}<ol class="articles no-marker easy-clearing">{/if}
                         
@@ -80,6 +92,8 @@
                 	    {if count == total_results}</ol>{/if}
 
         		{/exp:channel:entries}
+        		
+        		<p class="more"><a href="#">See all</a></p>
 			
 			</div>{!-- '/.inner' --}
 		
