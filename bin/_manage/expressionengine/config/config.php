@@ -46,8 +46,10 @@ if($_SERVER['SERVER_NAME'] == 'hybrid2.danielmall.com'){ // testing
     $config['cp_url'] = "http://dan.local:8888/_manage/index.php";
     $config['site_url'] = 'http://dan.local:8888/';
     $config['site_path'] = '/path/to/site/';
-    $config['tmpl_file_basepath'] = '/Users/danielmall/Sites/hybrid/branches/ee2.1/bin/assets/templates';
-    $config['theme_folder_path'] = '/Users/danielmall/Sites/hybrid/branches/ee2.1/bin/themes/';
+    /*$config['tmpl_file_basepath'] = '/Users/danielmall/Sites/hybrid/branches/ee2.1/bin/assets/templates';
+    $config['theme_folder_path'] = '/Users/danielmall/Sites/hybrid/branches/ee2.1/bin/themes/';*/
+    $config['tmpl_file_basepath'] = '/Users/danielmall/Sites/mahogany/bin/assets/templates';
+    $config['theme_folder_path'] = '/Users/danielmall/Sites/mahogany/bin/themes/';
     $config['theme_folder_url'] = 'http://dan.local:8888/themes/';
     
 }

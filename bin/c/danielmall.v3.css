@@ -198,8 +198,8 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
 /*-------------------------------------------    
     Home page
 -------------------------------------------*/
-#hero { background: #231f20; height: 332px; margin-top: -100px; border: none; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; }
-
+/*#hero { background: #231f20; height: 332px; margin-top: -100px; border: none; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; }
+*/
 #home #content { margin: 5px 0 2em; border-top: 1px dotted #7f7f7f; background: transparent url(/i/screen/home-dotted-faux.gif) repeat-y 416px 0; }
 
     #posts { width: 405px; padding-right: 15px; float: left; margin-right: 2px; }

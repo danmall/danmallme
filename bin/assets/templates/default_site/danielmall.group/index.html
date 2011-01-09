@@ -11,15 +11,24 @@
 	{embed="_inc/.header"}
 	
 	<div id="wrap">
-	
-    	<div id="hero">
-		
-    		<h2>A Fine Collection of Wildlife</h2>
-		
-    	</div><?php '/#hero' ?>
     	
 	
     	<div id="content" class="easy-clearing">
+    	    
+    	    <section id="work">
+    		    <header>
+    			    <h1><a class="phark phark-link" href="/work/">Latest Work</a></h1>
+    			</header>
+			
+    			<ul class="work">				
+    				<li id="happy-cog"><a href="/work/happy-cog/">Happy Cog</a></li>				
+    				<li id="mica"><a href="/work/mica/"><acronym title="Maryland Institute College of Art">MICA</acronym></a></li>				
+    				<li id="housing-works"><a href="/work/housing-works/">Housing Works</a></li>				
+    				<li id="four24"><a href="/work/four24/">Four24</a></li>				
+    			</ul>
+		
+    		</section>{!-- '/#work' --}
+    		
 	
     		<section id="posts">
 		    
@@ -32,7 +41,7 @@
                                     
                                     {if article-format == "Article"}
                     	            <header>
-                    	                <h1><a href="{title_permalink="articles/article"}">{title}</a></h1>
+                    	                <h1><a href="{title_permalink="articles/article"}">{title} </a></h1>
                     	            </header>
                     	            {/if}
 
@@ -42,7 +51,7 @@
                     	                <li class="permalink"><a href="{title_permalink="articles/article"}"><time datetime="{entry_date format="%Y-%m-%d"}">{entry_date format="%M %d %Y"}</time></a></li>
                     	                <li class="comments"><a href="{title_permalink="articles/article"}#comments">{comment_total} comments</a></li>
                     	                <li class="categories">{categories backspace="2"}<a href="{path='channel/index'}">{category_name}</a>, {/categories}</li>
-                    	            </ul><?php '/.meta' ?>
+                    	            </ul>{!-- '/.meta' --}
 
                     	        </article>
                     	    </li>
@@ -52,42 +61,29 @@
 			
     			<p class="more-articles"><a class="phark phark-link" href="/articles/">More articles</a></p>
 			
-    		</section><?php '/#posts' ?>
-		
-		
-    		<section id="work">
-    		    <header>
-    			    <h1><a class="phark phark-link" href="/work/">Latest Work</a></h1>
-    			</header>
-			
-    			<ul class="work">				
-    				<li id="happy-cog"><a href="/work/happy-cog/">Happy Cog</a></li>				
-    				<li id="mica"><a href="/work/mica/"><acronym title="Maryland Institute College of Art">MICA</acronym></a></li>				
-    				<li id="housing-works"><a href="/work/housing-works/">Housing Works</a></li>				
-    				<li id="four24"><a href="/work/four24/">Four24</a></li>				
-    			</ul>
-		
-    		</section><?php '/#work' ?>
-		
+    		</section>{!-- '/#posts' --}
+    		
 		
     		<section id="ads">
 		    
     		    {embed="_inc/.fusion"}
 		    
 		    
-    		</section><?php '/#ads'?>
+    		</section>{!-- '/.ads' --}
 		
     		
-    	</div><?php '/#content' ?>
+    	</div>{!-- '/#content' --}
     	
     	
     	{embed="_inc/.footer"}
     	
     	
-    </div><?php '/#wrap'?>
+    </div>{!-- '/#wrap' --}
     
 	
 {embed="_inc/.close"}
+
+
 
 
 {!--
