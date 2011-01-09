@@ -168,24 +168,23 @@ ol.articles .meta { position: relative; left: -10px; }
 #article #masthead-wrap, #about-landing #masthead-wrap { margin-bottom: 0; }
     #masthead { width: 800px; margin: 0 auto; height: 40px; position: relative; }
     #home #masthead { height: 128px; z-index: 2000; }
-        #masthead h1 { background: transparent url(/i/screen/logo-bg-over.png) no-repeat 0 0; width: 86px; height: 69px; position: absolute; top: -11px; left: -8px; }
-        /*#home #masthead h1 { background-image: url(/i/screen/home-logo.png); width: 361px; height: 130px; top: 7px; }*/
+        #masthead h1 { background: transparent url(/i/screen/logo-bg-over2.png) no-repeat 0 0; width: 86px; height: 69px; position: absolute; top: -11px; left: -8px; }
         #home #masthead h1 { background-image: url(/i/screen/home-logo2.png); width: 407px; height: 120px; top: 15px; left: -145px; }
             #masthead h1 a { background: transparent url(/i/screen/back-home.gif) no-repeat 80px 22px; width: 259px; height: 49px; position: absolute; top: 0; left: 0; border: none; opacity: 0; transition-timing-function: ease-out; -moz-transition-timing-function: ease-out; -webkit-transition-timing-function: ease-out; }
             #masthead h1 a:hover, #masthead h1 a:focus { opacity: 1; background-position: 90px 22px; }
     
-    #masthead nav ul { width: 295px; height: 12px; background: transparent url(/i/screen/nav.gif) no-repeat 0 0; position: absolute; top: 13px; right: 0; }
+    #masthead nav ul { width: 283px; height: 12px; background: transparent url(/i/screen/nav2.gif) no-repeat 0 0; position: absolute; top: 13px; right: 0; }
     #home #masthead nav ul { width: 336px; height: 16px; background-image: url(/i/screen/home-nav.gif); top: 72px; }
-        #masthead nav a, #masthead mark { border: none; height: 12px; position: absolute; top: 0; opacity: 0; }
-        #home #masthead nav a { height: 14px; }
+        #masthead nav a, #masthead mark { border: none; height: 32px; position: absolute; top: -10px; opacity: 0; background-position: 10px 10px; }
+        #home #masthead nav a { height: 14px; background-position: 0 0; }
         #masthead nav a:hover, #masthead .current a, #masthead mark { opacity: 1; }
-        #nav-work a, #nav-work mark { background-image: url(/i/screen/nav-work.gif); width: 39px; left: 0; }
+        #nav-work a, #nav-work mark { background-image: url(/i/screen/nav-work2.gif); width: 57px; left: -10px; }
         #home #nav-work a { background-image: url(/i/screen/home-nav-work.gif); width: 46px; left: 1px; top: 2px; }
-        #nav-articles a, #nav-articles mark { background-image: url(/i/screen/nav-articles.gif); width: 56px; left: 77px; }
+        #nav-articles a, #nav-articles mark { background-image: url(/i/screen/nav-articles2.gif); width: 71px; left: 61px; }
         #home #nav-articles a { background-image: url(/i/screen/home-nav-articles.gif); width: 66px; left: 83px; top: 1px; }
-        #nav-about a, #nav-about mark { background-image: url(/i/screen/nav-about.gif); width: 43px; left: 167px; }
+        #nav-about a, #nav-about mark { background-image: url(/i/screen/nav-about2.gif); width: 60px; left: 147px; }
         #home #nav-about a { background-image: url(/i/screen/home-nav-about.gif); width: 51px; left: 184px; top: 2px; }
-        #nav-contact a, #nav-contact mark { background-image: url(/i/screen/nav-contact.gif); width: 54px; left: 240px; }
+        #nav-contact a, #nav-contact mark { background-image: url(/i/screen/nav-contact2.gif); width: 69px; left: 222px; }
         #home #nav-contact a { background-image: url(/i/screen/home-nav-contact.gif); width: 64px; left: 272px; top: 1px; }
     
 #wrap { width: 800px; margin: 0 auto; }
@@ -202,24 +201,6 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
 /*-------------------------------------------    
     Home page
 -------------------------------------------*/
-/*#hero { background: #231f20; height: 332px; margin-top: -100px; border: none; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; }
-*/
-/*#home #content { margin: 5px 0 2em; border-top: 1px dotted #7f7f7f; background: transparent url(/i/screen/home-dotted-faux.gif) repeat-y 416px 0; }/*
-
-    /*#posts { width: 405px; padding-right: 15px; float: left; margin-right: 2px; }
-    #home ol.articles > li { padding-left: 0; border: none; border-bottom: 1px dotted #7f7f7f; }*/
-        /*#home ol.articles .meta { font-size: 75%; left: -10px; }
-                    #home .permalink a, #home .comments a, #home .categories { padding: 0.75em 10px; }*/
-    
-    /*#home #work { width: 228px; padding: 35px 0 0 15px; float: left; background: transparent url(/i/screen/latest-work.png) no-repeat 0 3px; position: relative; }        
-        #home #work h1 a { width: 230px; height: 30px; position: absolute; border: none; background: transparent url(/i/screen/latest-work-bullet.gif) no-repeat 208px center; left: 0; top: 3px; opacity: 0; }
-        #home #work h1 a:hover, #home #work h1 a:focus { opacity: 1; }*/
-    
-    /*#ads { float: left; padding: 10px 0 0 3px; }
-    
-    .more-articles { background: transparent url(/i/screen/more-articles.gif) no-repeat 0 0; width: 150px; height: 14px; position: relative; }
-        .more-articles a { border: none; display: block; background: transparent url(/i/screen/more-bullet.gif) no-repeat 92px center; width: 150px; height: 14px; position: absolute; left: 0; top: 0; }
-        .more-articles a:hover, .more-articles a:focus { background-position: 95px center; }*/
 
 #home #masthead-wrap { margin-bottom: 0; }
 
@@ -302,7 +283,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
             /* 2008 */
             #swfir { top: -15px; left: 210px; }
         
-            .projects a { display: block; width: 180px; height: 180px; background: #ff7000; color: #fff; font: bold 16px Helvetica, Arial, sans-serif; border-radius: 100px; -moz-border-radius: 100px; -webkit-border-radius: 100px; text-align: center; display: table-cell; vertical-align: middle; border: none; opacity: 0.75; transition: all 0.15s linear; -moz-transition: all 0.15s linear; -webkit-transition: all 0.15s linear; padding: 10px; }
+            .projects a { display: block; width: 180px; height: 180px; background: #ff7000; background: rgba(115, 174, 8, 1); color: #fff; font: bold 16px Helvetica, Arial, sans-serif; border-radius: 100px; -moz-border-radius: 100px; -webkit-border-radius: 100px; text-align: center; display: table-cell; vertical-align: middle; border: none; opacity: 0.75; transition: all 0.15s linear; -moz-transition: all 0.15s linear; -webkit-transition: all 0.15s linear; padding: 10px; }
             .projects a:hover, .projects a:focus { opacity: 1; background: #231f20; /*border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0;*/ }
 
     #clients { width: 136px; padding: 1em 10px 0 0; border-right: 1px dotted #7f7f7f; }
