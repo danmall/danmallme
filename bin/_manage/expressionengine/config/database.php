@@ -4,7 +4,7 @@ $active_group = 'expressionengine';
 $active_record = TRUE;
 
 
-if($_SERVER['SERVER_NAME'] == 'hybrid2.danielmall.com'){ // testing
+if($_SERVER['SERVER_NAME'] == 'hybrid2.danielmall.com' || $_SERVER['SERVER_NAME'] == 'mahogany.danielmall.com'){ // testing
     
     $db['expressionengine']['hostname'] = "internal-db.s54386.gridserver.com";
     $db['expressionengine']['username'] = "db54386";
