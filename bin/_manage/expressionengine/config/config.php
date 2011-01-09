@@ -31,14 +31,24 @@ if($_SERVER['SERVER_NAME'] == 'hybrid2.danielmall.com'){ // testing
     $config['theme_folder_path'] = '/home/54386/domains/hybrid2.danielmall.com/html/themes/';
     $config['theme_folder_url'] = 'http://hybrid2.danielmall.com/themes/';
     
+}else if($_SERVER['SERVER_NAME'] == 'mahogany.danielmall.com'){ // live
+
+    $config['cp_url'] = "http://mahogany.danielmall.com/_manage/index.php";
+    $config['site_url'] = 'http://mahogany.danielmall.com/';
+    $config['site_path'] = '/path/to/site/';
+    $config['tmpl_file_basepath'] = '/domains/mahogany.danielmall.com/html/assets/templates';
+    $config['theme_folder_path'] = '/domains/mahogany.danielmall.com/html/themes/';
+    $config['theme_folder_url'] = 'http://mahogany.danielmall.com/themes/';
+
+
 }else if($_SERVER['SERVER_NAME'] == 'danielmall.com'){ // live
 
-        /*$config['cp_url'] = "http://dan.local:8888/_manage/index.php";
-        $config['site_url'] = 'http://dan.local:8888/';
-        $config['site_path'] = '/path/to/site/';
-        $config['tmpl_file_basepath'] = '/Users/danielmall/Sites/hybrid/branches/ee2.1/bin/assets/templates';
-        $config['theme_folder_path'] = '/Users/danielmall/Sites/hybrid/branches/ee2.1/bin/themes/';
-        $config['theme_folder_url'] = 'http://dan.local:8888/themes/';*/
+    /*$config['cp_url'] = "http://dan.local:8888/_manage/index.php";
+    $config['site_url'] = 'http://dan.local:8888/';
+    $config['site_path'] = '/path/to/site/';
+    $config['tmpl_file_basepath'] = '/Users/danielmall/Sites/hybrid/branches/ee2.1/bin/assets/templates';
+    $config['theme_folder_path'] = '/Users/danielmall/Sites/hybrid/branches/ee2.1/bin/themes/';
+    $config['theme_folder_url'] = 'http://dan.local:8888/themes/';*/
 
     
 }else{ // testing locally

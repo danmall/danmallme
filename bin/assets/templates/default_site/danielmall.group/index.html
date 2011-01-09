@@ -10,75 +10,86 @@
 	
 	{embed="_inc/.header"}
 	
-	<div id="wrap">
-    	
-	
-    	<div id="content" class="easy-clearing">
-    	    
-    	    <section id="work">
-    		    <header>
-    			    <h1><a class="phark phark-link" href="/work/">Latest Work</a></h1>
-    			</header>
-			
-    			<ul class="work">				
-    				<li id="happy-cog"><a href="/work/happy-cog/">Happy Cog</a></li>				
-    				<li id="mica"><a href="/work/mica/"><acronym title="Maryland Institute College of Art">MICA</acronym></a></li>				
-    				<li id="housing-works"><a href="/work/housing-works/">Housing Works</a></li>				
-    				<li id="four24"><a href="/work/four24/">Four24</a></li>				
-    			</ul>
+	<div id="content" class="easy-clearing">
+	    
+	    <section id="work" class="home-row">
+	        
+	        <div class="inner">
+		    
+		        <h1 class="phark">Featured Work</h1>
 		
-    		</section>{!-- '/#work' --}
+    			<ul class="no-marker">				
+    				<li class="home-round-item" style="left: 145px; top: 20px;">
+    				    <a href="/work/morsel/" class="phark" style="background-image: url(/i/home/morsel.jpg);">Morsel</a>
+    				</li>
+    				<li class="home-round-item" style="left: 315px; top: 5px;">
+    				    <a href="/work/healthymagination/" class="phark" style="background-image: url(/i/home/healthymagination.jpg);">healthymagination</a>
+    				</li>								
+    				<li class="home-round-item" style="left: 434px; top: 23px;">
+    				    <a href="/work/design-swap/" class="phark" style="background-image: url(/i/home/design-swap.gif);">Design Swap</a>
+    				</li>				
+    				<li class="home-round-item" style="left: 580px; top: 30px;">
+    				    <a href="/work/transformers/" class="phark" style="background-image: url(/i/home/transformers.jpg);">Transformers</a>
+    				</li>				    				
+    			</ul>
+    			
+    		</div>{!-- '/.inner' --}
     		
 	
-    		<section id="posts">
+		</section>{!-- '/#work' --}
+				
+
+		<section id="latest-articles" class="home-row">
 		    
-    		    {exp:channel:entries channel="articles" limit="10" show_future_entries="yes"}
+		    <div class="inner">
+		    
+    		    <h1 class="phark">Latest Articles</h1>
+	    
+    		    <ul class="no-marker">				
+    				<li class="home-round-item" style="left: 145px; top: 20px;"><a href="/work/happy-cog/">Happy Cog</a></li>				
+    				<li class="home-round-item" style="left: 320px; top: 15px;"><a href="/work/mica/"><acronym title="Maryland Institute College of Art">MICA</acronym></a></li>				
+    				<li class="home-round-item" style="left: 434px; top: 23px;"><a href="/work/housing-works/">Housing Works</a></li>				
+    				<li class="home-round-item" style="left: 580px; top: 30px;"><a href="/work/four24/">Four24</a></li>				
+    			</ul>
+        		
+    		</div>{!-- '/.inner' --}
+		
+		</section>{!-- '/#latest-articles' --}
+		
+		
+		<section id="links" class="home-row">
+		    
+		    <div class="inner">
+		    
+    		    <h1 class="phark">Links</h1>
+	    
+    		    {exp:channel:entries channel="articles" limit="5" show_future_entries="yes" orderby="date" sort="desc"}
 
-                		{if count == 1}<ol class="articles no-marker">{/if}
-
+                		{if count == 1}<ol class="articles no-marker easy-clearing">{/if}
+                        
+                            {if article-format == "Link"}
                 	        <li>
-                    	        <article>
-                                    
-                                    {if article-format == "Article"}
-                    	            <header>
-                    	                <h1><a href="{title_permalink="articles/article"}">{title} </a></h1>
-                    	            </header>
-                    	            {/if}
-
+                    	        <article>                  	            
                     	            {article-excerpt}
-
-                    	            <ul class="meta easy-clearing no-marker">
-                    	                <li class="permalink"><a href="{title_permalink="articles/article"}"><time datetime="{entry_date format="%Y-%m-%d"}">{entry_date format="%M %d %Y"}</time></a></li>
-                    	                <li class="comments"><a href="{title_permalink="articles/article"}#comments">{comment_total} comments</a></li>
-                    	                <li class="categories">{categories backspace="2"}<a href="{path='channel/index'}">{category_name}</a>, {/categories}</li>
-                    	            </ul>{!-- '/.meta' --}
+                    	            <p class="meta permalink"><a href="{title_permalink="articles/article"}"><time datetime="{entry_date format="%Y-%m-%d"}">{entry_date format="%M %d %Y"}</time></a></p>
 
                     	        </article>
                     	    </li>
+                    	    {/if}
+                	    
                 	    {if count == total_results}</ol>{/if}
 
         		{/exp:channel:entries}
 			
-    			<p class="more-articles"><a class="phark phark-link" href="/articles/">More articles</a></p>
-			
-    		</section>{!-- '/#posts' --}
-    		
+			</div>{!-- '/.inner' --}
 		
-    		<section id="ads">
-		    
-    		    {embed="_inc/.fusion"}
-		    
-		    
-    		</section>{!-- '/.ads' --}
+		</section>{!-- '/#links' --}
+	
 		
-    		
-    	</div>{!-- '/#content' --}
-    	
-    	
-    	{embed="_inc/.footer"}
-    	
-    	
-    </div>{!-- '/#wrap' --}
+	</div>{!-- '/#content' --}
+	
+	
+	{embed="_inc/.footer"}
     
 	
 {embed="_inc/.close"}
