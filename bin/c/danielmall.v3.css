@@ -133,7 +133,7 @@ ol.articles .meta { position: relative; left: -10px; }
         .meta a:hover, .meta a:focus { color: #73ae08; }
     .categories, .meta a { padding: 0.75em 10px; }
         .categories a { display: inline; padding: 0; }
-        .categories a:hover, .categories a:focus { color: #f77000; }
+        .categories a:hover, .categories a:focus { color: #73ae08; }
         
 .pagination { font-family: 'Trebuchet MS', Arial, sans-serif; margin: 0; border-top: 1px dotted #7f7f7f; padding: 1em 0 1em  40px; font-size: 14px; }
     .pagination li { float: left; margin: 0 3px 0 0; }
@@ -191,7 +191,7 @@ ol.articles .meta { position: relative; left: -10px; }
 
 footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margin-bottom: 50px; padding: 1em 0 1.5em; font-family: 'Trebuchet MS', Arial, sans-serif; clear: both; }
     footer ul { margin: 0; }
-    #home footer { margin: 0 auto; width: 800px; border: none; padding-top: 40px; }
+    #home footer { margin: 0 auto; width: 800px; border: none; padding: 40px 0 4em; }
         footer li { display: inline; margin: 0 20px 0 0; font-size: 11px; }
             footer a { color: #656262; border-bottom: 1px dotted #656262; }
             footer a:hover { border-bottom-style: solid; }
@@ -239,9 +239,9 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
 
 #work-landing #content { border-top: 1px dotted #7f7f7f; position: relative; z-index: 2; }
 
-    #work-subnav { width: 391px; height: 42px; position: relative; margin: 0 auto -1px; background: transparent url(/i/screen/work-subnav.png) no-repeat 0 0; z-index: 1; }
+    #work-subnav { width: 391px; height: 42px; position: relative; margin: 0 auto -1px; background: transparent url(/i/screen/work-subnav2.png) no-repeat 0 0; z-index: 1; }
         #work-subnav li { position: absolute; top: 0; }
-            #work-subnav a, #work-subnav mark { border: none; height: 42px; opacity: 0; background: transparent url(/i/screen/work-subnav.png) no-repeat 0 0; }
+            #work-subnav a, #work-subnav mark { border: none; height: 42px; opacity: 0; background: transparent url(/i/screen/work-subnav2.png) no-repeat 0 0; }
             #work-subnav mark { opacity: 1; }
             #work-subnav a:hover, #work-subnav a:focus { opacity: 1; }
         #work-portfolio { left: 0; }
@@ -256,34 +256,8 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
 
     #work-browser { float: right; width: 650px; border: none; }
         .projects li { position: absolute; z-index: 3; }
-        .projects li:hover { z-index: 4; }
-            
-             /* 2010 */
-            #ge-healthymagination { top: 10px; left: 15px; }
-            #doghouse { top: -25px; left: 170px; }
-            #design-swap { top: 25px; left: 320px; }
-            #transformers { top: -15px; left: 450px; }
-            
-            /* 2009 */
-            #weizmann { top: -40px; left: -25px; }
-            #preventiv { top: 50px; left: 110px; }
-            #four24 { top: -25px; left: 230px; }
-            #mica { top: 35px; left: 350px; }
-            #jetwaders { top: -45px; left: 455px; }
-            
-            /* 2008 */
-            #housing-works { top: 0; left: 50px; }
-            #planeteye { top: 30px; left: 220px; }
-            #posse-foundation { top: -25px; left: 420px; }
-            
-            /* 2007 */
-            #parc-rittenhouse { top: 0; left: 150px; }
-            #krylon { top: -30px; left: 380px; }
-            
-            /* 2008 */
-            #swfir { top: -15px; left: 210px; }
-        
-            .projects a { display: block; width: 180px; height: 180px; background: #ff7000; background: rgba(115, 174, 8, 1); color: #fff; font: bold 16px Helvetica, Arial, sans-serif; border-radius: 100px; -moz-border-radius: 100px; -webkit-border-radius: 100px; text-align: center; display: table-cell; vertical-align: middle; border: none; opacity: 0.75; transition: all 0.15s linear; -moz-transition: all 0.15s linear; -webkit-transition: all 0.15s linear; padding: 10px; }
+        .projects li:hover { z-index: 4; }        
+            .projects a { display: block; width: 180px; height: 180px; background: #ff7000; background: rgba(115, 174, 8, 1); color: #fff; font: bold 16px Helvetica, Arial, sans-serif; border-radius: 100px; -moz-border-radius: 100px; -webkit-border-radius: 100px; text-align: center; display: table-cell; vertical-align: middle; border: none; opacity: 0.75; transition: all 0.15s linear; -moz-transition: all 0.15s linear; -webkit-transition: all 0.15s linear; padding: 10px; transform-origin: 50% 50%; -moz-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; }
             .projects a:hover, .projects a:focus { opacity: 1; background: #231f20; /*border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0;*/ }
 
     #clients { width: 136px; padding: 1em 10px 0 0; border-right: 1px dotted #7f7f7f; }
