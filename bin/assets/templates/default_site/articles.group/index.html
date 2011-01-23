@@ -40,12 +40,10 @@
             	        
             	        <li>
                 	        <article>
-                                
-                                {if article-format == "Article"}
+                	            
                 	            <header>
                 	                <h1><a href="{title_permalink="articles/article"}">{title}</a></h1>
                 	            </header>
-                	            {/if}
 
                 	            {article-excerpt}
 
@@ -53,7 +51,7 @@
                 	                <li class="permalink"><a href="{title_permalink="articles/article"}"><time datetime="{entry_date format="%Y-%m-%d"}">{entry_date format="%M %d %Y"}</time></a></li>
                 	                <li class="comments"><a href="{title_permalink="articles/article"}#comments">{comment_total} comments</a></li>
                 	                <li class="categories">{categories backspace="2"}<a href="{path='channel/index'}">{category_name}</a>, {/categories}</li>
-                	            </ul><!-- $1 -->
+                	            </ul><!-- .meta -->
 
                 	        </article>
                 	    </li>

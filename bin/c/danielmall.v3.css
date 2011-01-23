@@ -264,12 +264,15 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
         #clients h1 { font: bold 14px 'Trebuchet MS', Arial, sans-serif; margin-bottom: 1.5em; }
             #clients li { margin-bottom: 0.65em; line-height: 1.2; font-size: 11px; }
             li[id^="year"] { height: 200px; border-bottom: 1px dotted #7f7f7f; position: relative; }
-                li[id^="year"] h2 { width: 38px; height: 12px; position: absolute; bottom: 7px; left: 10px; }
-                #year2010 h2 { background-image: url(/i/screen/2010.gif); }
-                #year2009 h2 { background-image: url(/i/screen/2009.gif); }
-                #year2008 h2 { background-image: url(/i/screen/2008.gif); }
-                #year2007 h2 { background-image: url(/i/screen/2007.gif); }
-                #year2006 h2 { background-image: url(/i/screen/2006.gif); }
+                #year2010 { height: 300px; }
+                #year2007 { height: 170px; }
+                #year2006 { height: 160px; }
+                    li[id^="year"] h2 { width: 38px; height: 12px; position: absolute; bottom: 7px; left: 10px; }
+                    #year2010 h2 { background-image: url(/i/screen/2010.gif); }
+                    #year2009 h2 { background-image: url(/i/screen/2009.gif); }
+                    #year2008 h2 { background-image: url(/i/screen/2008.gif); }
+                    #year2007 h2 { background-image: url(/i/screen/2007.gif); }
+                    #year2006 h2 { background-image: url(/i/screen/2006.gif); }
                 
 #work-area { width: 800px; margin: 0 auto; }
     #work .breadcrumbs { background: transparent url(/i/screen/breadcrumbs-bg.gif) no-repeat 0 0; width: 144px; height: 15px; margin: 0 auto 10px; position: relative; }
