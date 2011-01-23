@@ -234,8 +234,8 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
 /*-------------------------------------------    
     Work
 -------------------------------------------*/
-#work-landing hgroup h1 { background-image: url(/i/screen/the-work.gif); width: 668px; height: 106px; margin: 50px auto 10px; }
-#work-landing hgroup h2 { text-align: center; font-weight: normal; font-size: 12px; margin-bottom: 50px; } 
+#the-work h1 { background-image: url(/i/screen/the-work.gif); width: 668px; height: 106px; margin: 50px auto 10px; }
+#the-work h2 { text-align: center; font-weight: normal; font-size: 12px; margin-bottom: 50px; } 
 
 #work-landing #content { border-top: 1px dotted #7f7f7f; position: relative; z-index: 2; }
 
