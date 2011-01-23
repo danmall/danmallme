@@ -109,13 +109,13 @@ header, footer, nav, section, article, mark, hgroup { display: block; }
 /*\*/ #masthead nav a, #work-subnav a, .phark-link { overflow: hidden; } /**/
 
 /* Easy Clearing - http://www.positioniseverything.net/easyclearing.html */ 
-.easy-clearing:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+#tweets ul:after, .easy-clearing:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
 
 .pagination b { position: absolute; left: -9999px; }
 
 .real-hide { display: none; }
 
-.projects, .no-marker { list-style: none; }
+#tweets ul, .projects, .no-marker { list-style: none; }
 
 
 /*-------------------------------------------    
@@ -123,10 +123,10 @@ header, footer, nav, section, article, mark, hgroup { display: block; }
 -------------------------------------------*/
 .main { width: 560px; float: right; border-left: 1px dotted #7f7f7f; }
 
-ol.articles > li { padding: 1.25em 40px 0; border-top: 1px dotted #7f7f7f; }
+ol.articles > li, #tweets li { padding: 1.25em 40px 0; border-top: 1px dotted #7f7f7f; }
 
 .meta { font: 78% 'Trebuchet MS', Arial, sans-serif; margin: 0; text-transform: uppercase; letter-spacing: 0.25em; color: #a2a2a2; width: 100%; }
-ol.articles .meta { position: relative; left: -10px; }
+ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
     .meta li { float: left; border-left: 1px solid #e5e5e5; }
     .meta li:first-child { border: none; }
         .meta a { color: #a2a2a2; border: none; display: block; }
@@ -226,8 +226,8 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
     #home #links .more { top: 50px; }
 
 #home #links { height: auto; }    
-    #home #links .inner { padding: 30px 0 0 160px; width: 640px; }
-        #home #links .articles li { width: 130px; padding: 0 30px 20px 0; float: left; border: none; }
+    #home #links .inner, #tweet .inner { padding: 30px 0 0 160px; width: 640px; }
+        #home #links .articles li, #tweets li { width: 130px; padding: 0 30px 20px 0; float: left; border: none; }
 
 
 
