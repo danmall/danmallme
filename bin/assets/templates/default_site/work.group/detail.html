@@ -4,8 +4,10 @@
     <title>&ldquo;{title},&rdquo; work by Dan Mall</title>
     {embed="_inc/.meta"}
     {embed="_inc/.cssReference"}
-    {embed="_inc/.jsReference"}
+    {embed="_inc/.jsReference"}   
     {if work-head != ""}
+    
+    <!-- custom styles and script for this page -->
     {work-head}
     {/if}
 </head>
@@ -26,7 +28,7 @@
 	        </nav><!-- .breadcrumbs -->
 	        
 	        <hgroup>
-    	        <h1 class="phark">{title}</h1>
+    	        <h1 class="page-title phark">{title}</h1>
     	        {if work-subtitle}<h2>{work-subtitle}</h2>{/if}
     	    </hgroup>
 	        

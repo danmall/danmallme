@@ -168,8 +168,8 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
     .work-row .inner:before { content: ""; display: block; position: absolute; left: 0; top: 0; }
     .work-row .inner article { position: relative; z-index: 3; }
 
-.more a { display: inline-block; border-radius: 4px; background: #231f20; color: #fff; text-transform: uppercase; padding: 0.5em 13px; font-family: 'Trebuchet MS', Arial, sans-serif; }
-.more a:hover, .more a:focus { background: #73ae08; }
+.work-row .more a { display: inline-block; border-radius: 4px; background: #231f20; color: #fff; text-transform: uppercase; padding: 0.5em 13px; font-family: 'Trebuchet MS', Arial, sans-serif; }
+.work-row .more a:hover, .work-row .more a:focus { background: #73ae08; }
         
 
 /*-------------------------------------------    
@@ -297,7 +297,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
                 #breadcrumbs-work a { background-image: url(/i/screen/breadcrumbs-work.gif); }
     
     #work-area hgroup { text-align: center; margin: 0 0 2em; }
-        #work-area hgroup h1 { margin-bottom: 0; }
+        #work-area hgroup h1 { margin: 0 auto 0.5em; }
         #work-area hgroup h2 { margin: 0 0 0.2em; }
     
     #publications #content { border-top: 1px dotted #7f7f7f; padding: 0 0 2em; position: relative; z-index: 2; width: 800px; margin: 0 auto; }    
