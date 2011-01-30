@@ -91,6 +91,7 @@ form { margin: 0 0 1em; }
     label { display: block; font: 11px 'Trebuchet MS', Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.1em; color: #aaa; margin: 0 0 0.25em; position: absolute; bottom: 0; }
         label em { font-family: Georgia, 'Times New Roman', serif; font-style: italic; text-transform: none; letter-spacing: 0; }
     input[type="checkbox"] + label { display: inline; position: static; } 
+    input.button { transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; outline: none; border: none; }
 
 code { /*font: 12px/1 'Courier New', Courier, monospace;*/ }
 
@@ -168,8 +169,8 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
     .work-row .inner:before { content: ""; display: block; position: absolute; left: 0; top: 0; }
     .work-row .inner article { position: relative; z-index: 3; }
 
-.work-row .more a { display: inline-block; border-radius: 4px; background: #231f20; color: #fff; text-transform: uppercase; padding: 0.5em 13px; font-family: 'Trebuchet MS', Arial, sans-serif; }
-.work-row .more a:hover, .work-row .more a:focus { background: #73ae08; }
+.work-row .more a, .button { display: inline-block; border-radius: 4px; background: #231f20; color: #fff; text-transform: uppercase; padding: 0.5em 13px; font-family: 'Trebuchet MS', Arial, sans-serif; }
+.work-row .more a:hover, .work-row .more a:focus, .button:hover, .button:focus { background: #73ae08; }
         
 
 /*-------------------------------------------    
@@ -367,8 +368,8 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
 #about-landing #intro { padding: 165px 0 2em 320px; border-bottom: 1px dotted #7f7f7f; background: transparent url(/i/screen/dan-headshot.png) no-repeat 40px 0; margin: -50px 0 5px; }
     #about-landing #intro h1 { background-image: url(/i/screen/about-headline.png); width: 472px; height: 69px; margin: 0 0 0.5em; }
     #about-landing #intro p { font-size: 15px; color: #231f20; line-height: 1.7; }
-        #about-landing #intro cite { font-size: 13px; color: #b0b0b0; }
-        #about-landing #intro cite a { color: #b0b0b0; border-color: #ddd; }
+        #about-landing #intro cite.credit { font-size: 13px; color: #b0b0b0; }
+            #about-landing #intro cite.credit a { color: #b0b0b0; border-color: #ddd; }
 
 #about-landing .main { width: 627px; float: left; border: none; }
 #about-landing .sub { width: 150px; padding: 10px 0 0 15px; float: right; border-left: 1px dotted #7f7f7f; }
