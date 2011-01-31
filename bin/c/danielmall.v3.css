@@ -114,7 +114,7 @@ header, footer, nav, section, article, mark, hgroup { display: block; }
 /* Easy Clearing - http://www.positioniseverything.net/easyclearing.html */ 
 #tweets ul:after, .easy-clearing:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
 
-.pagination b { position: absolute; left: -9999px; }
+.offscreen, .pagination b, #fowd2010 .rotator li, #flashpitt2009 .rotator li  { position: absolute; left: -9999px; }
 
 .real-hide { display: none; }
 
@@ -316,8 +316,44 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
             #publications #content > ol li h1 { font: 18px 'Trebuchet MS', Arial, sans-serif; margin-bottom: 0.75em; }
                 #publications #content > ol li h1 a { line-height: 1.3; }
         #publications li .meta { font-size: 11px; margin: -0.75em 0 0.75em; }
+    
         
-        
+    #speaking #content { border-top: 1px dotted #7f7f7f; padding: 0 0 2em; position: relative; z-index: 2; }    
+        #speaking .work-row { height: 350px; padding: 0; }
+            #speaking .work-row .inner { position: relative; padding: 0; width: 800px; }
+                #speaking .work-row a { transition: all 0s linear; -moz-transition: all 0s linear; -webkit-transition: all 0s linear; -o-transition: all 0s linear; }
+    
+        #inspire-conf { background: transparent url(/i/screen/work/speaking/inspire-conf.png) no-repeat center 0; }
+            #inspire-conf p.more { position: absolute; top: 290px; left: 330px; }
+            #inspire-conf a { background: transparent url(/i/screen/work/speaking/inspire-register.png) no-repeat 0 0; width: 135px; height: 24px; padding: 0; border: none; }
+            #inspire-conf a:hover, #inspire-conf a:focus { background-position: 0 -24px; }
+        #sva-flash-intensive { background: #000 url(/i/screen/work/speaking/sva.png) no-repeat center 0; }
+        #miami-ad-school { background: #d9498b url(/i/screen/work/speaking/miami-ad-school.png) no-repeat center 0; }
+            #miami-ad-school .more { color: #fff; font: 21px 'Trebuchet MS', Arial, sans-serif; position: absolute; top: 200px; text-align: center; width: 800px; }
+                #miami-ad-school .more a { background: rgba(0, 0, 0, 0.2); }
+                #miami-ad-school .more a:hover, #miami-ad-school .more a:focus { background: rgba(0, 0, 0, 0.5); }
+        #fowd2010 { background: #000 url(/i/screen/work/speaking/fowd2010.jpg) no-repeat center 0; }
+            #fowd2010 .rotator { position: absolute; }
+        #sxsw2010 { background: #000 url(/i/screen/work/speaking/sxsw2010.jpg) no-repeat center 0; }
+            #sxsw2010 article { padding: 115px 0 0; position: relative; left: -8px; width: 500px; }
+                #sxsw2010 p { font: 16px 'Trebuchet MS', Arial, sans-serif; color: #999; }
+                #sxsw2010 .more a { background: rgba(255, 255, 255, 0.2); border: none; }
+                #sxsw2010 .more a:hover, #sxsw2010 .more a:focus { background: rgba(255, 255, 255, 0.3); }
+            #sxsw2010 a { color: #ff9792; }
+            #sxsw2010 blockquote { position: relative; left: -9px; }
+                #sxsw2010 blockquote p { font-size: 13px; }
+                #sxsw2010 blockquote p:first-child { font-size: 20px; color: #ccc; margin-bottom: 0.25em; }
+                #sxsw2010 blockquote p:first-child:before { content: "\201c"; }
+                #sxsw2010 blockquote p:first-child:after { content: "\201d"; }
+                #sxsw2010 blockquote p:last-child:before { content: "\2014"; }
+        #flashpitt2009 { background: #000 url(/i/screen/work/speaking/flashpitt2009.jpg) no-repeat center 0; }
+            #flashpitt2009 .rotator { position: absolute; }
+        #fowd2008 { background: #000 url(/i/screen/work/speaking/fowd2008.jpg) no-repeat center 0; position: relative; }
+            #speaking #fowd2008 .inner, #speaking #fowd2008 article { position: static; }
+                #fowd2008 hgroup { width: 384px; height: 317px; display: block; background: transparent url(/i/screen/work/speaking/fowd2008-sketch.png) no-repeat center 0; position: absolute; right: 0; bottom: 0;  }
+                    #fowd2008 .more { position: relative; top: 250px; left: -10px; font-size: 16px;  }
+                        #fowd2008 .more a { background: none; text-transform: none; border-bottom: 1px solid rgba(255, 255, 255, 0.2); padding: 0; }
+                        #fowd2008 .more a:hover, #fowd2008 .more a:focus { border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
 
 /*-------------------------------------------    
     Articles
