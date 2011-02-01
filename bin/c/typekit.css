@@ -1,0 +1,81 @@
+/*
+*************************************************
+
+DANIELMALL.COM
+Typekit Screen Styles
+Styles that only apply when Typekit is enabled
+
+Created by the ridiculous Dan Mall
+http://www.danielmall.com/
+
+*************************************************
+*/
+
+
+
+
+
+/*-------------------------------------------    
+    General Selectors
+-------------------------------------------*/
+
+
+
+
+/*-------------------------------------------    
+    Global combinations
+-------------------------------------------*/
+
+
+
+
+/*-------------------------------------------    
+    Reusable Elements
+-------------------------------------------*/
+.work-row .more a, .button { font-size: 16px; font-family: "urbana-1","urbana-2"; font-weight: 200; padding-top: 0.25em; padding-bottom: 0.15em; letter-spacing: 0.1em; }
+
+        
+
+/*-------------------------------------------    
+    Basic Structure
+-------------------------------------------*/
+
+
+
+
+/*-------------------------------------------    
+    Home page
+-------------------------------------------*/
+#roles { font-size: 16px; font-family: "urbana-1","urbana-2"; font-weight: 200; /*font-family: "pill-gothic-300mg-1","pill-gothic-300mg-2";*/ }
+
+
+
+/*-------------------------------------------    
+    Work
+-------------------------------------------*/
+#the-work h2 { font-size: 16px; color: #757575; font-family: "urbana-1","urbana-2"; font-weight: 200; /*font-family: "pill-gothic-300mg-1","pill-gothic-300mg-2"; */}
+
+#clients h1 { font-size: 18px; font-family: "urbana-1","urbana-2"; font-weight: 400; }
+
+#publications #content > ol li h1 { font-size: 20px; font-family: "urbana-1","urbana-2"; font-weight: 200; }
+
+#sxsw2010 p { font-size: 18px; font-family: "urbana-1","urbana-2"; font-weight: 200; }
+
+#fowd2008 .more a { letter-spacing: 0; }
+
+    
+
+/*-------------------------------------------    
+    Articles
+-------------------------------------------*/
+
+
+
+/*-------------------------------------------    
+    About
+-------------------------------------------*/
+#about-landing #content h1 { font-size: 22px; font-family: "urbana-1","urbana-2"; font-weight: 600; }
+
+/*-------------------------------------------    
+    Contact
+-------------------------------------------*/
