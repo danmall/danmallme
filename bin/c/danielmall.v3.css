@@ -106,19 +106,19 @@ header, footer, nav, section, article, mark, hgroup { display: block; }
 -------------------------------------------*/
 
 /* Phark Image Replacement - http://phark.typepad.com/phark/2003/08/accessible_imag.html */
-#masthead nav a, #masthead mark, li[id^="year"] h2, #work-subnav a, #work-subnav mark, #work .breadcrumbs a, .phark { display: block; text-indent: -9999px; background-position: 0 0; background-repeat: no-repeat; background-color: transparent; }
+.phark, #masthead nav a, #masthead mark, li[id^="year"] h2, #work-subnav a, #work-subnav mark, #work .breadcrumbs a, #fowd2010 li:first-child blockquote, #flashpitt2009 .rotator li:first-child blockquote { display: block; text-indent: -9999px; background-position: 0 0; background-repeat: no-repeat; background-color: transparent; }
 
 /* Trimming Outline in Firefox - http://snook.ca/archives/html_and_css/trimming_long_o  */
-/*\*/ #masthead nav a, #work-subnav a, .phark-link { overflow: hidden; } /**/
+/*\*/ .phark-link, #masthead nav a, #work-subnav a { overflow: hidden; } /**/
 
 /* Easy Clearing - http://www.positioniseverything.net/easyclearing.html */ 
-#tweets ul:after, .easy-clearing:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.easy-clearing:after, #tweets ul:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
 
 .offscreen, .pagination b, #fowd2010 .rotator li, #flashpitt2009 .rotator li  { position: absolute; left: -9999px; }
 
 .real-hide { display: none; }
 
-#tweets ul, .projects, .no-marker { list-style: none; }
+.no-marker, #tweets ul, .projects { list-style: none; }
 
 
 /*-------------------------------------------    
@@ -332,8 +332,14 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
             #miami-ad-school .more { color: #fff; font: 21px 'Trebuchet MS', Arial, sans-serif; position: absolute; top: 200px; text-align: center; width: 800px; }
                 #miami-ad-school .more a { background: rgba(0, 0, 0, 0.2); }
                 #miami-ad-school .more a:hover, #miami-ad-school .more a:focus { background: rgba(0, 0, 0, 0.5); }
-        #fowd2010 { background: #000 url(/i/screen/work/speaking/fowd2010.jpg) no-repeat center 0; }
-            #fowd2010 .rotator { position: absolute; }
+        #fowd2010 { background: #000 url(/i/screen/work/speaking/fowd2010_2.jpg) no-repeat center 0; }
+            #fowd2010 .rotator { position: absolute; list-style: none; left: 360px; top: 178px; }
+                #fowd2010 li:first-child { position: static; }
+                    #fowd2010 li:first-child blockquote { background: #000 url(/i/screen/work/speaking/fowd2010-quote1.png) no-repeat 0 0; width: 333px; height: 102px; }
+            #speaking #fowd2010 .inner { height: 350px; }
+            #speaking #fowd2010 article { position: static; }
+            #fowd2010 .credit { position: absolute; bottom: -10px; left: 220px; }
+                #fowd2010 .credit a:hover, #fowd2010 .credit a:focus { color: #fff; }
         #sxsw2010 { background: #000 url(/i/screen/work/speaking/sxsw2010.jpg) no-repeat center 0; }
             #sxsw2010 article { padding: 115px 0 0; position: relative; left: -8px; width: 500px; }
                 #sxsw2010 p { font: 16px 'Trebuchet MS', Arial, sans-serif; color: #999; }
@@ -347,7 +353,9 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
                 #sxsw2010 blockquote p:first-child:after { content: "\201d"; }
                 #sxsw2010 blockquote p:last-child:before { content: "\2014"; }
         #flashpitt2009 { background: #000 url(/i/screen/work/speaking/flashpitt2009.jpg) no-repeat center 0; }
-            #flashpitt2009 .rotator { position: absolute; }
+            #flashpitt2009 .rotator { position: absolute; list-style: none; left: 0; top: 145px; }
+                #flashpitt2009 .rotator li:first-child { position: static; }
+                #flashpitt2009 .rotator li:first-child blockquote { background: transparent url(/i/screen/work/speaking/flashpitt2009-quote1.png) no-repeat 0 0; width: 620px; height: 102px; }
         #fowd2008 { background: #000 url(/i/screen/work/speaking/fowd2008.jpg) no-repeat center 0; position: relative; }
             #speaking #fowd2008 .inner, #speaking #fowd2008 article { position: static; }
                 #fowd2008 hgroup { width: 384px; height: 317px; display: block; background: transparent url(/i/screen/work/speaking/fowd2008-sketch.png) no-repeat center 0; position: absolute; right: 0; bottom: 0;  }
