@@ -92,6 +92,7 @@ form { margin: 0 0 1em; }
         label em { font-family: Georgia, 'Times New Roman', serif; font-style: italic; text-transform: none; letter-spacing: 0; }
     input[type="checkbox"] + label { display: inline; position: static; } 
     input.button { transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; outline: none; border: none; }
+    input.button:hover { cursor: pointer; }
 
 code { /*font: 12px/1 'Courier New', Courier, monospace;*/ }
 
@@ -416,7 +417,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
             #about-landing #intro cite.credit a { color: #b0b0b0; border-color: #ddd; }
 
 #about-landing .main { width: 627px; float: left; border: none; }
-#about-landing .sub { width: 150px; padding: 10px 0 0 15px; float: right; border-left: 1px dotted #7f7f7f; }
+#about-landing .sub { width: 150px; padding: 3px 0 0 15px; float: right; border-left: 1px dotted #7f7f7f; }
 
 #dig { width: 289px; float: left; padding-right: 15px; }
 #about-site { width: 294px; float: left; padding-left: 15px; border-left: 1px dotted #7f7f7f; margin-bottom: 5px; }
