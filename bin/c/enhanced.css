@@ -47,6 +47,8 @@ http://www.danielmall.com/
 -------------------------------------------*/
 #tweet h1 { background-image: url(/i/screen/latest-tweets.png); }
 
+#tweets li { width: 180px; }
+#tweets p { margin-bottom: 0.75em; }
 
 
 /*-------------------------------------------    
