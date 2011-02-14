@@ -60,7 +60,15 @@ http://www.danielmall.com/
 /*-------------------------------------------    
     Articles
 -------------------------------------------*/
+#dsq-pagination, #dsq-sort-by, #dsq-global-toolbar { display: none; }
 
+#dsq-content .dsq-avatar { left: -10px !important; }
+
+.dsq-post-tools, .dsq-textarea-background { background: #f5f5f5 !important; border-radius: 0 !important; border: none !important; -webkit-box-shadow: none !important; }
+
+.dsq-post-tools { background: none !important; }
+
+.dsq-post-tools .dsq-post-as .dsq-button { top: 40px !important; }
 
 
 /*-------------------------------------------    
