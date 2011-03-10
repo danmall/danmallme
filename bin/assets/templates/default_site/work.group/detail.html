@@ -1,11 +1,3 @@
-<?php
-
-/* Navigation from project to project hack */
-$prevEntryTitle = '{exp:channel:prev_entry}{title}{/exp:channel:prev_entry}';
-$nextEntryTitle = '{exp:channel:next_entry}{title}{/exp:channel:next_entry}';
-
-?>
-
 {exp:channel:entries channel="work" limit="1" orderby="work-order" sort="desc" status="open" show_future_entries="yes"}
 {embed="_inc/.doctype"}
 <head>
@@ -35,22 +27,27 @@ $nextEntryTitle = '{exp:channel:next_entry}{title}{/exp:channel:next_entry}';
 	            </ul>
 	        </nav><!-- .breadcrumbs -->
 	        
-	        <div>
+	        <div id="project-header">
     	        <hgroup>
         	        <h1 class="page-title phark">{title}</h1>
-        	        {if work-subtitle}<h2>{work-subtitle}</h2>{/if}
+        	        {if work-subtitle}<h2 class="project-subtitle">{work-subtitle}</h2>{/if}
         	    </hgroup>
         	    
-        	    {exp:weblog:prev_entry}
-                <p>Previous entry: <a href="{path='work/detail'}"><?php echo $prevEntryTitle; ?></a></p>        	    
-                {/exp:weblog:prev_entry}
-                
-        	    {exp:weblog:next_entry}
-                <p>Next entry: <a href="{path='work/detail'}"><?php echo $nextEntryTitle; ?></a></p>
-                {/exp:weblog:next_entry}
+        	    <ul id="project-nav" class="no-marker">
+        	        {if work-prev}
+        	        <li class="prev">        	            
+            	        {work-prev}
+        	        </li>
+        	        {/if}
+        	        {if work-next}
+        	        <li class="next">            	        
+            	        {work-next}            	        
+        	        </li>
+        	        {/if}
+        	    </ul><!-- #project-nav -->
         	    
-    	    </div>
-	        
+    	    </div><!-- #project-header -->
+
 	        {work-body}
 	        
 	    </section><!-- #work-area -->

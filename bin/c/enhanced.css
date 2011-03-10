@@ -9,7 +9,17 @@ Created by the ridiculous Dan Mall
 http://www.danielmall.com/
 
 *************************************************
-*/
+
+
+
+/*-------------------------------------------        
+    
+    Z-INDEX
+    
+    2           #clients-headline1
+    1           #clients-headline2
+    
+-------------------------------------------*/
 
 
 
@@ -25,7 +35,8 @@ http://www.danielmall.com/
 /*-------------------------------------------    
     Global combinations
 -------------------------------------------*/
-
+/* Easy Clearing - http://www.positioniseverything.net/easyclearing.html */ 
+.carbonad:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
 
 
 
@@ -38,6 +49,15 @@ http://www.danielmall.com/
 /*-------------------------------------------    
     Basic Structure
 -------------------------------------------*/
+
+
+/*-------------------------------------------    
+    Carbon Ads
+-------------------------------------------*/
+.carbonad { background: none !important; border: none !important; height: auto !important; margin: 0 0 2em; }
+.carbonad-text { height: auto !important; margin-left: 0 !important; font-family: Georgia, 'Times New Roman', serif !important; margin: 0 0 1em; }
+.carbonad-image, .carbonad-tag { margin: 0 !important; font-family: Georgia, 'Times New Roman', serif !important; }
+.carbonad a:hover, .carbonad a:focus { color: #73ae08 !important; }
 
 
 
@@ -54,7 +74,16 @@ http://www.danielmall.com/
 /*-------------------------------------------    
     Work
 -------------------------------------------*/
+#work-landing #clients { padding-top: 70px; }
 
+#clients-headline1 { z-index: 2; }
+#clients-headline2 { z-index: 1; }
+
+#work-landing .mask-wrapper { position: absolute; top: 20px; width: 130px; }
+    #work-landing .mask { background: #fff; right: 0; top: -5px; position: absolute; height: 40px; width: 0; }
+    #clients-headline2 .mask { width: 130px; /*left: 0; right: auto; */}
+    
+#project-header .page-title, .project-subtitle { opacity: 0; }
     
 
 /*-------------------------------------------    
@@ -70,6 +99,7 @@ http://www.danielmall.com/
 
 .dsq-post-tools .dsq-post-as .dsq-button { top: 40px !important; }
 
+#article-landing .main { position: relative; left: -75px; }
 
 /*-------------------------------------------    
     About

@@ -49,7 +49,8 @@ body { font: normal 62.5% Georgia, 'Times New Roman', serif; color: #656262; bac
 /* block level */
 
 h1 { font-weight: normal; font-size: 29px; color: #231f20; margin: 0 0 0.5em; }
-ol.articles h1 a { color: #231f20; border-color: #b2b2b2;  }
+ol.articles h1 a { color: #231f20; border-color: #b2b2b2; }
+ol.articles h1 a:hover, ol.articles h1 a:focus { color: #73ae08; }
 .comment-list h1 { font: normal 16px 'Trebuchet MS', Arial, sans-serif; color: #231f20; }
 h2 { font-family: 'Trebuchet MS', Arial, sans-serif; margin: 0 0 0.5em; color: #231f20; }
 h3 {  }
@@ -80,7 +81,7 @@ img { display: block; margin: 0 0 10px 10px; float: left; }
 
 a img { border: none; }
 
-abbr { font-size: 90%; letter-spacing: 0.25em;  }
+abbr { font-size: 90%; letter-spacing: 0.25em; text-transform: uppercase; }
 
 form { margin: 0 0 1em; }
     form > div { margin: 0 0 2em; position: relative; padding-bottom: 2em; }
@@ -107,13 +108,13 @@ header, footer, nav, section, article, mark, hgroup { display: block; }
 -------------------------------------------*/
 
 /* Phark Image Replacement - http://phark.typepad.com/phark/2003/08/accessible_imag.html */
-.phark, #masthead nav a, #masthead mark, li[id^="year"] h2, #work-subnav a, #work-subnav mark, #work .breadcrumbs a, #fowd2010 li:first-child blockquote, #flashpitt2009 .rotator li:first-child blockquote { display: block; text-indent: -9999px; background-position: 0 0; background-repeat: no-repeat; background-color: transparent; }
+.phark, #masthead nav a, #masthead mark, li[id^="year"] h2, #work-subnav a, #work-subnav mark, #work .breadcrumbs a, #fowd2010 li:first-child blockquote, #flashpitt2009 .rotator li:first-child blockquote, #project-nav a { display: block; text-indent: -9999px; background-position: 0 0; background-repeat: no-repeat; background-color: transparent; }
 
 /* Trimming Outline in Firefox - http://snook.ca/archives/html_and_css/trimming_long_o  */
-/*\*/ .phark-link, #masthead nav a, #work-subnav a { overflow: hidden; } /**/
+/*\*/ .phark-link, #masthead nav a, #work-subnav a, #project-nav a { overflow: hidden; } /**/
 
 /* Easy Clearing - http://www.positioniseverything.net/easyclearing.html */ 
-.easy-clearing:after, #tweets ul:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.easy-clearing:after, #tweets ul:after, #work-content:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
 
 .offscreen, .pagination b, #fowd2010 .rotator li, #flashpitt2009 .rotator li  { position: absolute; left: -9999px; }
 
@@ -144,11 +145,6 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
         .pagination a, .pagination mark { display: block; border: none; padding: 0.26em 10px; color: #fff; background: #e7e7e7; border-radius: 2.5em; -moz-border-radius: 2.5em; -webkit-border-radius: 2.5em; }
         .pagination a:hover, .pagination a:focus { background: #f77000; }
         .pagination mark { background: #231f20; }
-        
-/*#fusion { width: 130px; border-bottom: 1px dotted #7f7f7f; margin: 0 0 2em; }
-    #fusion img { float: none; margin: 0; }
-    .fusiontext a { color: #656262; border: none; font-size: 11px; margin: -0.5em 0 0.5em; display: block; }
-    a.powered { font-family: Georgia, 'Times New Roman', serif; color: #aeaeae; font-style: italic; border: none; font-size: 11px; position: relative; top: -1em; }*/
     
 .comment-list { font: 12px 'Trebuchet MS', Arial, sans-serif; }    
     .comment-list header { position: relative; padding: 1.5em 0 0; }
@@ -233,7 +229,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
     #home #latest-articles h1 { background-image: url(/i/screen/home-latest-articles.png); }
     #home #links h1 { background-image: url(/i/screen/home-links.png); }
     .home-round-item { position: absolute; }
-        .home-round-item a { width: 217px; height: 217px; border-radius: 217px; transition: all 0.1s ease-in; -moz-transition: all 0.1s ease-in; -webkit-transition: all 0.1s ease-in; -o-transition: all 0.1s ease-in; transform-origin: 50% 50%; -moz-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; background-position: center center; border: none; }
+        .home-round-item a { width: 217px; height: 217px; -webkit-border-radius: 217px; -moz-border-radius: 217px; border-radius: 217px; transition: all 0.1s ease-in; -moz-transition: all 0.1s ease-in; -webkit-transition: all 0.1s ease-in; -o-transition: all 0.1s ease-in; transform-origin: 50% 50%; -moz-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; background-position: center center; border: none; }
         .home-round-item a:hover, .home-round-item a:focus { width: 225px; height: 225px; border-radius: 225px; margin-left: -4px; margin-top: -4px; }
     .home-row .more { position: absolute; left: 0; top: 70px; }
     #home #links .more { top: 50px; }
@@ -272,7 +268,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
         .projects li:hover { z-index: 4; }        
             .projects a { display: block; width: 180px; height: 180px; background: #ff7000; background: rgba(115, 174, 8, 1); color: #fff; font: bold 16px Helvetica, Arial, sans-serif; border-radius: 100px; -moz-border-radius: 100px; -webkit-border-radius: 100px; text-align: center; display: table-cell; vertical-align: middle; border: none; opacity: 0.75; transition: all 0.15s linear; -moz-transition: all 0.15s linear; -webkit-transition: all 0.15s linear; padding: 10px; transform-origin: 50% 50%; -moz-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; }
             .projects a:hover, .projects a:focus { opacity: 1; background: #231f20; /*border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0;*/ }
-
+    
     #clients { width: 136px; padding: 1em 10px 0 0; border-right: 1px dotted #7f7f7f; }
         #clients h1 { font: bold 14px 'Trebuchet MS', Arial, sans-serif; margin-bottom: 1.5em; }
             #clients li { margin-bottom: 0.65em; line-height: 1.2; font-size: 11px; }
@@ -288,19 +284,44 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
                     #year2006 h2 { background-image: url(/i/screen/2006.gif); }
                 
 #work-area { width: 800px; margin: 0 auto; }
-    #work .breadcrumbs { background: transparent url(/i/screen/breadcrumbs-bg.gif) no-repeat 0 0; width: 144px; height: 15px; margin: 0 auto 10px; position: relative; }
+    #work .breadcrumbs { background: #999 url(/i/screen/work/breadcrumbs-mask.png) no-repeat 0 0; width: 144px; height: 15px; margin: 0 auto 10px; position: relative; }
         #work .breadcrumbs ul { list-style: none; }
             #work .breadcrumbs li { position: absolute; top: 0; }
                 #work .breadcrumbs a { border: none; height: 15px; width: 52px; opacity: 0; }
                 #work .breadcrumbs a:hover, #work .breadcrumbs a:focus { opacity: 1; }
             #breadcrumbs-home { left: 0; }
-                #breadcrumbs-home a { background-image: url(/i/screen/breadcrumbs-home.gif); }
+                #work #breadcrumbs-home a { background-image: url(/i/screen/work/breadcrumbs-mask.png); background-color: #73ae08; }
             #breadcrumbs-work { left: 79px; }
-                #breadcrumbs-work a { background-image: url(/i/screen/breadcrumbs-work.gif); }
+                #work #breadcrumbs-work a { background-image: url(/i/screen/work/breadcrumbs-mask.png); background-color: #73ae08; background-position: -79px 0; }
     
     #work-area hgroup { text-align: center; margin: 0 0 2em; }
         #work-area hgroup h1 { margin: 0 auto 0.5em; }
         #work-area hgroup h2 { margin: 0 0 0.2em; }
+    
+    #project-header { position: relative; margin: 0 0 30px; }
+        #project-header hgroup { position: relative; }
+        #project-nav { background: transparent url(/i/screen/work/project-nav.png) no-repeat 0 0; width: 800px; height: 45px; position: absolute; top: 25px; left: 0; }
+            #project-nav li { position: absolute; top: 0; width: 45px; height: 45px; opacity: 0; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; }
+            #project-header:hover li { opacity: 1; }
+                #project-nav a { background: transparent url(/i/screen/work/project-nav-over2.png) no-repeat 0 0; width: 45px; height: 45px; border: none; opacity: 0; }
+                #project-nav a:hover, #project-nav a:focus { opacity: 1; }
+            #project-nav .prev { left: 0; background: transparent url(/i/screen/work/project-nav-over.png) no-repeat 0 0; }
+            #project-nav .next { right: 0; background: transparent url(/i/screen/work/project-nav-over.png) no-repeat -755px 0; }
+                #project-nav .next a { background-position: -755px 0; }
+                
+    .browser-chrome-wrap { position: relative; margin: 0 0 -150px; z-index: 1; width: 800px; }    
+        .browser-chrome { padding: 59px 0 0; background: transparent url(/i/screen/work/browser-chrome-top.jpg) no-repeat center 0; position: absolute; width: 950px; left: -42px; top: 0; }
+        .browser-chrome-wrap img { margin: 0 0 0 91px; float: none; }
+        .browser-chrome-wrap .inner { padding: 0 0 250px; background: transparent url(/i/screen/work/browser-bottom.jpg) no-repeat 0 bottom; }
+
+    #work-content { position: relative; z-index: 2; border-top: 1px dotted #7f7f7f; background: transparent url(/i/screen/work/work-content-bg.jpg) repeat-y 0 0; }
+        #work-content .main { width: 540px; float: left; border: none; padding: 20px 20px 2em 0; }
+            #work-content .main p, #work-content .main ol, #work-content .main ul { font-size: 14px; }
+        #work-content .sub { width: 200px; float: none; margin: 0 0 0 560px; padding: 20px; }
+            #work-content .sub h2 { color: #000; text-transform: uppercase; margin: 0 0 0.1em; }
+            #work-content .sub p, #work-content .sub ol, #work-content .sub ul { list-style: none; font-style: italic; padding-left: 8px; text-indent: -8px; }
+
+        #work-content p:last-child { margin-bottom: 0; }
     
     #publications #content { border-top: 1px dotted #7f7f7f; padding: 0 0 2em; position: relative; z-index: 2; width: 800px; margin: 0 auto; }    
         
@@ -398,10 +419,8 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
 
     #article .sub section { margin: 0 0 3em; }
     
-        #article-info h2 { background-image: url(/i/screen/article-info-heading.gif); width: 98px; height: 19px; margin: 0 0 10px; }
         #article-info time { font-size: 12px; }
         
-        #article-tags h2 { background-image: url(/i/screen/tags-heading.gif); width: 36px; height: 19px; margin: 0 0 10px; }
         #article-tags li { background: transparent url(/i/screen/tags-bullet.gif) no-repeat 0 center; padding-left: 12px; }
             #article-tags a { font-style: italic; color: #686868; border: none; }
             #article-tags a:hover, #article-tags a:focus { color: #f77000; }
@@ -412,7 +431,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
 -------------------------------------------*/
 #about-landing #intro { padding: 165px 0 2em 320px; border-bottom: 1px dotted #7f7f7f; background: transparent url(/i/screen/dan-headshot.png) no-repeat 40px 0; margin: -50px 0 5px; }
     #about-landing #intro h1 { background-image: url(/i/screen/about-headline.png); width: 472px; height: 69px; margin: 0 0 0.5em; }
-    #about-landing #intro p { font-size: 15px; color: #231f20; line-height: 1.7; }
+    #about-landing #intro p { font-size: 15px; color: #231f20; line-height: 1.7; padding-right: 10px; }
         #about-landing #intro cite.credit { font-size: 13px; color: #b0b0b0; }
             #about-landing #intro cite.credit a { color: #b0b0b0; border-color: #ddd; }
 
