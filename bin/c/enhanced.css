@@ -70,6 +70,17 @@ http://www.danielmall.com/
 #tweets li { width: 180px; }
 #tweets p { margin-bottom: 0.75em; }
 
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	border: 1px solid #111;
+	background-color: #eee;
+	padding: 5px;
+	opacity: 0.85;
+}
+#tooltip h3, #tooltip div { margin: 0; }
+
+
 
 /*-------------------------------------------    
     Work
@@ -81,9 +92,9 @@ http://www.danielmall.com/
 
 #work-landing .mask-wrapper { position: absolute; top: 20px; width: 130px; }
     #work-landing .mask { background: #fff; right: 0; top: -5px; position: absolute; height: 40px; width: 0; }
-    #clients-headline2 .mask { width: 130px; /*left: 0; right: auto; */}
+    #clients-headline2 .mask { width: 130px; }
     
-#project-header .page-title, .project-subtitle { opacity: 0; }
+#project-header .page-title, .project-subtitle, .browser-chrome-wrap, .project-image { opacity: 0; }
     
 
 /*-------------------------------------------    

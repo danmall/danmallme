@@ -28,11 +28,13 @@ http://www.danielmall.com/
     
     2000        #home #masthead
     4           .projects li:hover
+    3           .browser-chrome-wrap #project-url
     3           .projects li
     3           #publications .inner article
     2           #work-landing #content
     1           #work-subnav
     1           #p24ways-2010
+    1           .browser-chrome-wrap
     
 -------------------------------------------*/
 
@@ -42,8 +44,8 @@ http://www.danielmall.com/
 /*-------------------------------------------    
     General Selectors
 -------------------------------------------*/
-* { margin: 0; padding: 0; line-height: 1.5; }
-body { font: normal 62.5% Georgia, 'Times New Roman', serif; color: #656262; background: #fff; border-top: 8px solid #231f20; padding-top: 2px; }
+/** { margin: 0; padding: 0; line-height: 1.5; }*/
+body { font: normal 62.5%/1.5 Georgia, 'Times New Roman', serif; color: #656262; background: #fff; border-top: 8px solid #231f20; padding-top: 2px; }
 
 
 /* block level */
@@ -81,7 +83,7 @@ img { display: block; margin: 0 0 10px 10px; float: left; }
 
 a img { border: none; }
 
-abbr { font-size: 90%; letter-spacing: 0.25em; text-transform: uppercase; }
+abbr, abbr[title] { font-size: 85%; letter-spacing: 0.1em; text-transform: uppercase; border: none; }
 
 form { margin: 0 0 1em; }
     form > div { margin: 0 0 2em; position: relative; padding-bottom: 2em; }
@@ -196,7 +198,7 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
         #nav-contact a, #nav-contact mark { background-image: url(/i/screen/nav-contact2.gif); width: 69px; left: 222px; }
         #home #nav-contact a { background-image: url(/i/screen/home-nav-contact2.gif); width: 84px; left: 256px; }
     
-.wrap { width: 800px; margin: 0 auto; }
+.wrap, .wrap800 { width: 800px; margin: 0 auto; }
 
 footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margin-bottom: 50px; padding: 1em 0 1.5em; font-family: 'Trebuchet MS', Arial, sans-serif; clear: both; }
     footer ul { margin: 0; }
@@ -266,7 +268,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
     #work-browser { float: right; width: 650px; border: none; }
         .projects li { position: absolute; z-index: 3; }
         .projects li:hover { z-index: 4; }        
-            .projects a { display: block; width: 180px; height: 180px; background: #ff7000; background: rgba(115, 174, 8, 1); color: #fff; font: bold 16px Helvetica, Arial, sans-serif; border-radius: 100px; -moz-border-radius: 100px; -webkit-border-radius: 100px; text-align: center; display: table-cell; vertical-align: middle; border: none; opacity: 0.75; transition: all 0.15s linear; -moz-transition: all 0.15s linear; -webkit-transition: all 0.15s linear; padding: 10px; transform-origin: 50% 50%; -moz-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; }
+            .projects a { display: block; width: 180px; height: 180px; background: #ff7000; background: rgba(115, 174, 8, 1); color: #fff; font: bold 16px Helvetica, Arial, sans-serif; border-radius: 100px; -moz-border-radius: 100px; -webkit-border-radius: 100px; text-align: center; display: table-cell; vertical-align: middle; border: none; opacity: 0.75; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; padding: 10px; transform-origin: 50% 50%; -moz-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; }
             .projects a:hover, .projects a:focus { opacity: 1; background: #231f20; /*border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0;*/ }
     
     #clients { width: 136px; padding: 1em 10px 0 0; border-right: 1px dotted #7f7f7f; }
@@ -276,14 +278,14 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
                 #year2010 { height: 300px; }
                 #year2007 { height: 170px; }
                 #year2006 { height: 160px; }
-                    li[id^="year"] h2 { width: 38px; height: 12px; position: absolute; bottom: 7px; left: 10px; }
+                    li[id^="year"] h2 { width: 38px; height: 12px; position: absolute; top: 4px; left: 10px; }
                     #year2010 h2 { background-image: url(/i/screen/2010.gif); }
                     #year2009 h2 { background-image: url(/i/screen/2009.gif); }
                     #year2008 h2 { background-image: url(/i/screen/2008.gif); }
                     #year2007 h2 { background-image: url(/i/screen/2007.gif); }
                     #year2006 h2 { background-image: url(/i/screen/2006.gif); }
                 
-#work-area { width: 800px; margin: 0 auto; }
+/*#work-area { width: 800px; margin: 0 auto; }*/
     #work .breadcrumbs { background: #999 url(/i/screen/work/breadcrumbs-mask.png) no-repeat 0 0; width: 144px; height: 15px; margin: 0 auto 10px; position: relative; }
         #work .breadcrumbs ul { list-style: none; }
             #work .breadcrumbs li { position: absolute; top: 0; }
@@ -295,7 +297,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
                 #work #breadcrumbs-work a { background-image: url(/i/screen/work/breadcrumbs-mask.png); background-color: #73ae08; background-position: -79px 0; }
     
     #work-area hgroup { text-align: center; margin: 0 0 2em; }
-        #work-area hgroup h1 { margin: 0 auto 0.5em; }
+        #work-area hgroup h1 { margin: 0 auto 0.3em; }
         #work-area hgroup h2 { margin: 0 0 0.2em; }
     
     #project-header { position: relative; margin: 0 0 30px; }
@@ -308,8 +310,13 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
             #project-nav .prev { left: 0; background: transparent url(/i/screen/work/project-nav-over.png) no-repeat 0 0; }
             #project-nav .next { right: 0; background: transparent url(/i/screen/work/project-nav-over.png) no-repeat -755px 0; }
                 #project-nav .next a { background-position: -755px 0; }
-                
+                    
+    .project-image { width: 100%; min-width: 800px; }
+        .project-image .wrap { position: relative; }
+    
     .browser-chrome-wrap { position: relative; margin: 0 0 -150px; z-index: 1; width: 800px; }    
+        .browser-chrome-wrap #project-url, .project-url { position: absolute; top: 34px; left: 116px; z-index: 3; font: 10px 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #999; border: none; }
+        .browser-chrome-wrap #project-url:hover, .project-url:hover { color: #73ae08; border: none; }
         .browser-chrome { padding: 59px 0 0; background: transparent url(/i/screen/work/browser-chrome-top.jpg) no-repeat center 0; position: absolute; width: 950px; left: -42px; top: 0; }
         .browser-chrome-wrap img { margin: 0 0 0 91px; float: none; }
         .browser-chrome-wrap .inner { padding: 0 0 250px; background: transparent url(/i/screen/work/browser-bottom.jpg) no-repeat 0 bottom; }
@@ -319,7 +326,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
             #work-content .main p, #work-content .main ol, #work-content .main ul { font-size: 14px; }
         #work-content .sub { width: 200px; float: none; margin: 0 0 0 560px; padding: 20px; }
             #work-content .sub h2 { color: #000; text-transform: uppercase; margin: 0 0 0.1em; }
-            #work-content .sub p, #work-content .sub ol, #work-content .sub ul { list-style: none; font-style: italic; padding-left: 8px; text-indent: -8px; }
+            #work-content .sub p, #work-content .sub ol, #work-content .sub ul { list-style: none; font-style: italic; padding-left: 8px; text-indent: -8px; font-size: 11px; }
 
         #work-content p:last-child { margin-bottom: 0; }
     
