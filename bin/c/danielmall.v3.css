@@ -94,7 +94,7 @@ form { margin: 0 0 1em; }
     label { display: block; font: 11px 'Trebuchet MS', Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.1em; color: #aaa; margin: 0 0 0.25em; position: absolute; bottom: 0; }
         label em { font-family: Georgia, 'Times New Roman', serif; font-style: italic; text-transform: none; letter-spacing: 0; }
     input[type="checkbox"] + label { display: inline; position: static; } 
-    input.button { transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; outline: none; border: none; }
+    input.button { transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; outline: none; border: none; padding: 0.5em 15px 0.4em; }
     input.button:hover { cursor: pointer; }
 
 code { font: 12px/1 'Courier New', Courier, monospace; }
