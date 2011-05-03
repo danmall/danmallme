@@ -274,8 +274,10 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
     #clients { width: 136px; padding: 1em 10px 0 0; border-right: 1px dotted #7f7f7f; }
         #clients h1 { font: bold 14px 'Trebuchet MS', Arial, sans-serif; margin-bottom: 1.5em; }
             #clients li { margin-bottom: 0.65em; line-height: 1.2; font-size: 11px; }
+            #clients ul > li { padding-left: 10px; text-indent: -10px; }
             li[id^="year"] { height: 200px; border-bottom: 1px dotted #7f7f7f; position: relative; }
                 #year2010 { height: 300px; }
+                #year2009 { height: 275px; }
                 #year2007 { height: 170px; }
                 #year2006 { height: 160px; }
                     li[id^="year"] h2 { width: 38px; height: 12px; position: absolute; top: 4px; left: 10px; }
@@ -299,6 +301,11 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
     #work-area hgroup { text-align: center; margin: 0 0 2em; }
         #work-area hgroup h1 { margin: 0 auto 0.3em; }
         #work-area hgroup h2 { margin: 0 0 0.2em; }
+        
+        #work-area-wrap #pullquote, #work-area-wrap #awards { width: 800px; border-bottom: 1px dotted #7f7f7f; }
+            #work-area-wrap #awards { position: relative; }
+            #work-area-wrap #awards ul { list-style: none; }
+                #work-area-wrap #awards a { border: none; position: absolute; }
     
     #project-header { position: relative; margin: 0 0 30px; }
         #project-header hgroup { position: relative; }
@@ -321,7 +328,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
         .browser-chrome-wrap img { margin: 0 0 0 91px; float: none; }
         .browser-chrome-wrap .inner { padding: 0 0 250px; background: transparent url(/i/screen/work/browser-bottom.jpg) no-repeat 0 bottom; }
 
-    #work-content { position: relative; z-index: 2; border-top: 1px dotted #7f7f7f; background: transparent url(/i/screen/work/work-content-bg.jpg) repeat-y 0 0; }
+    #work-content { position: relative; z-index: 2; border-top: 1px dotted #7f7f7f; background: transparent url(/i/screen/work/work-content-bg.jpg) repeat-y 50% 0; min-width: 800px; }
         #work-content .main { width: 540px; float: left; border: none; padding: 20px 20px 2em 0; }
             #work-content .main p, #work-content .main ol, #work-content .main ul { font-size: 14px; }
         #work-content .sub { width: 200px; float: none; margin: 0 0 0 560px; padding: 20px; }
