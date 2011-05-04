@@ -317,6 +317,8 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
             #project-nav .prev { left: 0; background: transparent url(/i/screen/work/project-nav-over.png) no-repeat 0 0; }
             #project-nav .next { right: 0; background: transparent url(/i/screen/work/project-nav-over.png) no-repeat -755px 0; }
                 #project-nav .next a { background-position: -755px 0; }
+                
+                #facebook-like > iframe { margin-top: 10px; }
                     
     .project-image { width: 100%; min-width: 800px; }
         .project-image .wrap { position: relative; }

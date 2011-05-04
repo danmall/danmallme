@@ -91,8 +91,24 @@ $(document).ready(function() {
         
             $('#project-header .page-title').fadeTo(_animationSpeed, 1);
             $('#project-header .project-subtitle').delay(_animationDelay).fadeTo(_animationSpeed, 1);
+            $('#project-header #facebook-like').delay(_animationDelay*2).fadeTo(_animationSpeed, 1);
             $('.browser-chrome-wrap, .project-image').delay(_animationDelay*3).fadeTo(_animationSpeed, 1);
         
+        },
+        
+        
+        /* Stupid Facebook */
+        
+        moveLikeButton: function(){
+            
+            var TOTAL_WIDTH = 800;
+            var likeButton = $('#facebook-like');
+            var likeButtonWidth = likeButton.width();
+            var _marginLeft = (TOTAL_WIDTH - likeButtonWidth)/2;
+            
+            likeButton.css('margin-left', _marginLeft + 'px');
+            
+            
         }
     
     
@@ -111,9 +127,14 @@ $(document).ready(function() {
     
     // WORK
     dmall.initClientsRollOver();
+    dmall.moveLikeButton();
     dmall.fadeInTitle();
     
     
 });
+
+window.onload = function(){
+    dmall.moveLikeButton();
+}
 
 

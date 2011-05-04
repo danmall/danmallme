@@ -94,7 +94,7 @@ http://www.danielmall.com/
     #work-landing .mask { background: #fff; right: 0; top: -5px; position: absolute; height: 40px; width: 0; }
     #clients-headline2 .mask { width: 130px; }
     
-#project-header .page-title, .project-subtitle, .browser-chrome-wrap, .project-image { opacity: 0; }
+#project-header .page-title, .project-subtitle, .browser-chrome-wrap, .project-image, #facebook-like { opacity: 0; }
     
 
 /*-------------------------------------------    
