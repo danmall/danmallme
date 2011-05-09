@@ -79,11 +79,11 @@ strong { font-weight: bold; }
 a { color: #73ae08; text-decoration: none; border-bottom: 1px dotted rgba(115, 174, 8, 0.4); transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; }
 a:hover, a:focus { color: #231f20; border-bottom: 1px dotted #7f7f7f; }
 
-img { display: block; margin: 0 0 10px 10px; float: left; }
+img { display: block; margin: 0 10px 10px 0; float: left; }
 
 a img { border: none; }
 
-abbr, abbr[title] { font-size: 85%; letter-spacing: 0.1em; text-transform: uppercase; border: none; }
+abbr, abbr[title], acronym { font-size: 85%; letter-spacing: 0.1em; text-transform: uppercase; border: none; }
 
 form { margin: 0 0 1em; }
     form > div { margin: 0 0 2em; position: relative; padding-bottom: 2em; }
@@ -97,7 +97,7 @@ form { margin: 0 0 1em; }
     input.button { transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; outline: none; border: none; padding: 0.5em 15px 0.4em; }
     input.button:hover { cursor: pointer; }
 
-code { font: 12px/1 'Courier New', Courier, monospace; }
+code { font: 13px/1 Consolas, 'Courier New', Courier, monospace; color: #999; }
 
 sub, sup { line-height: 0; }
 
@@ -338,6 +338,10 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
             #work-content .sub p, #work-content .sub ol, #work-content .sub ul { list-style: none; font-style: italic; padding-left: 8px; text-indent: -8px; font-size: 11px; }
 
         #work-content p:last-child { margin-bottom: 0; }
+        
+        #bibliography { border-top: 1px solid #eee; padding-top: 1.5em; }
+            #bibliography h1 { font: 15px 'Trebuchet MS', Arial, sans-serif; }
+            #work-content #bibliography p, #work-content #bibliography ol, #work-content #bibliography ul { font-size: 12px; }
     
     #publications #content { border-top: 1px dotted #7f7f7f; padding: 0 0 2em; position: relative; z-index: 2; width: 800px; margin: 0 auto; }    
         
@@ -445,7 +449,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
 /*-------------------------------------------    
     About
 -------------------------------------------*/
-#about-landing #intro { padding: 165px 0 2em 320px; border-bottom: 1px dotted #7f7f7f; background: transparent url(/i/screen/dan-headshot.png) no-repeat 40px 0; margin: -50px 0 5px; }
+#about-landing #intro { padding: 165px 0 2em 305px; border-bottom: 1px dotted #7f7f7f; background: transparent url(/i/screen/dan-headshot.png) no-repeat 40px 0; margin: -50px 0 5px; }
     #about-landing #intro h1 { background-image: url(/i/screen/about-headline.png); width: 472px; height: 69px; margin: 0 0 0.5em; }
     #about-landing #intro p { font-size: 15px; color: #231f20; line-height: 1.7; padding-right: 10px; }
         #about-landing #intro cite.credit { font-size: 13px; color: #b0b0b0; }
