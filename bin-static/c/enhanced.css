@@ -70,15 +70,13 @@ http://www.danielmall.com/
 #tweets li { width: 180px; }
 #tweets p { margin-bottom: 0.75em; }
 
-#tooltip {
-	position: absolute;
-	z-index: 3000;
-	border: 1px solid #111;
-	background-color: #eee;
-	padding: 5px;
-	opacity: 0.85;
-}
+#tooltip { position: absolute; z-index: 3000; border: none; background: rgba(38, 34, 35, 0.9); padding: 15px; width: 220px; }
+    #tooltip h1 { color: #fff; margin: 0; }
+    #tooltip p { color: rgba(255, 255, 255, 0.6); font-style: italic; font-size: 13px; }
+
 #tooltip h3, #tooltip div { margin: 0; }
+
+#home #work, #home #work li, #home #latest-articles, #home #latest-articles li, #home #tweet { opacity: 0; }
 
 
 

@@ -20,6 +20,23 @@ $(document).ready(function() {
         /*-------------------------------------------    
             Home
         -------------------------------------------*/
+        
+        initHomepageAnimation: function(){
+            
+            var _delay = 300;
+            var _animationSpeed = 1000;
+            
+            $('body#home #work').delay(_delay*0).fadeTo(500, 1);
+            $('body#home #work li:eq(0)').delay(_delay*1).fadeTo(_animationSpeed, 1);
+            $('body#home #work li:eq(1)').delay(_delay*2).fadeTo(_animationSpeed, 1);
+            $('body#home #work li:eq(2)').delay(_delay*3).fadeTo(_animationSpeed, 1);
+            $('body#home #work li:eq(3)').delay(_delay*4).fadeTo(_animationSpeed, 1);
+            
+            $('body#home #latest-articles').delay(_delay*3).fadeTo(250, 1);
+            $('body#home #latest-articles li:eq(0)').delay(_delay*5).fadeTo(_animationSpeed, 1);
+
+            $('#tweet').delay(_delay*3).fadeTo(1500, 1);
+        },
     
         homeTooltip: function(){
         
@@ -27,10 +44,10 @@ $(document).ready(function() {
                 bodyHandler: function() { 
                     _tooltipText = $(this).attr('data-tooltip-content');
                     return _tooltipText; 
-                }
-                ,showURL: false
-                ,track: true
-                ,fade: 250
+                },
+                showURL: false,
+                track: true,
+                fade: 250
             });
         
         },
@@ -122,6 +139,7 @@ $(document).ready(function() {
     -------------------------------------------*/
     // HOME
     dmall.homeTooltip();
+    dmall.initHomepageAnimation();
     
     // WORK
     dmall.initClientsRollOver();

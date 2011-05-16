@@ -32,7 +32,7 @@ http://www.danielmall.com/
 /*-------------------------------------------    
     Reusable Elements
 -------------------------------------------*/
-.work-row .more a, .button { font-size: 16px; font-family: "urbana-1","urbana-2"; font-weight: 200; padding-top: 0.25em; padding-bottom: 0.15em; letter-spacing: 0.1em; }
+.work-row .more a, .button { font-size: 16px; font-family: "urbana-1","urbana-2"; font-weight: 300; padding-top: 0.25em; padding-bottom: 0.15em; letter-spacing: 0.1em; }
 
         
 
@@ -46,22 +46,24 @@ http://www.danielmall.com/
 /*-------------------------------------------    
     Home page
 -------------------------------------------*/
-#roles { font-size: 16px; font-family: "urbana-1","urbana-2"; font-weight: 200; }
+#roles { font-size: 16px; font-family: "urbana-1","urbana-2"; font-weight: 300; }
+
+#tooltip h1 { font-size: 26px; font-family: "urbana-1","urbana-2"; font-weight: 300; text-transform: uppercase; }
 
 
 
 /*-------------------------------------------    
     Work
 -------------------------------------------*/
-#the-work h2, #work-area h2, #work-content .sub h2 { font-size: 16px; color: #757575; font-family: "urbana-1","urbana-2"; font-weight: 200; }
+#the-work h2, #work-area h2, #work-content .sub h2 { font-size: 16px; color: #757575; font-family: "urbana-1","urbana-2"; font-weight: 300; }
 
 #clients h1 { font-size: 16px; font-family: "urbana-1","urbana-2"; font-weight: 400; }
 
-#publications #content > ol li h1 { font-size: 20px; font-family: "urbana-1","urbana-2"; font-weight: 200; }
+#publications #content > ol li h1 { font-size: 20px; font-family: "urbana-1","urbana-2"; font-weight: 300; }
 
-#sxsw2010 p { font-size: 18px; font-family: "urbana-1","urbana-2"; font-weight: 200; }
+#sxsw2010 p { font-size: 18px; font-family: "urbana-1","urbana-2"; font-weight: 300; }
 
-#fowd2008 .more a { letter-spacing: 0; }
+#fowd3008 .more a { letter-spacing: 0; }
 
 .projects a { font-size: 16px; font-family: "urbana-1","urbana-2"; font-weight: 400; }
 
@@ -74,9 +76,9 @@ http://www.danielmall.com/
 /*-------------------------------------------    
     Articles
 -------------------------------------------*/
-#article-landing .main hgroup h2 { font-size: 16px; color: #999; font-family: "urbana-1","urbana-2"; font-weight: 200; }
+#article-landing .main hgroup h2 { font-size: 16px; color: #999; font-family: "urbana-1","urbana-2"; font-weight: 300; }
 
-#article-info h2, #article-tags h2 { font-size: 16px; color: #000; font-family: "urbana-1","urbana-2"; font-weight: 200; text-transform: uppercase; }
+#article-info h2, #article-tags h2 { font-size: 16px; color: #000; font-family: "urbana-1","urbana-2"; font-weight: 300; text-transform: uppercase; }
 
 
 /*-------------------------------------------    

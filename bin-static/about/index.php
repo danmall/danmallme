@@ -76,11 +76,11 @@
         	                <caption class="offscreen">A brief professional history</caption>
         	                <tr id="tmx">
         	                    <th>2004</th>
-        	                    <td>Intern at <a class="phark" href="http://tmxcommunications.com/">TMX Communications</a></td>
+        	                    <td>Intern at <a class="phark phark-link" href="http://tmxcommunications.com/">TMX Communications</a></td>
         	                </tr>
         	                <tr id="ei">
         	                    <th>2004&ndash;2005</th>
-        	                    <td>User Experience Designer at <a class="phark" href="http://electronicink.com/">Electronic Ink</a></td>
+        	                    <td>User Experience Designer at <a class="phark phark-link" href="http://electronicink.com/">Electronic Ink</a></td>
         	                </tr>
         	                <tr id="pixelworthy">
     	                        <th>2005&ndash;2006</th>
@@ -88,11 +88,11 @@
         	                </tr>
         	                <tr id="hc">
     	                        <th>2006&ndash;2009</th>
-        	                    <td>Interactive Director at <a class="phark" href="http://happycog.com/">Happy Cog</a></td>
+        	                    <td>Interactive Director at <a class="phark phark-link" href="http://happycog.com/">Happy Cog</a></td>
         	                </tr>
         	                <tr id="bss">
     	                        <th><mark>2009&ndash;present</mark></th>
-        	                    <td><mark>Senior Designer at <a class="phark" href="http://bigspaceship.com/">Big Spaceship</a></mark>
+        	                    <td><mark>Senior Designer at <a class="phark phark-link" href="http://bigspaceship.com/">Big Spaceship</a></mark>
         	                </td>	                    
         	            </table>
     	                
