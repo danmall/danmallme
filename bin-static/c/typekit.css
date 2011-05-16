@@ -1,0 +1,93 @@
+/*
+*************************************************
+
+DANIELMALL.COM
+Typekit Screen Styles
+Styles that only apply when Typekit is enabled
+
+Created by the ridiculous Dan Mall
+http://www.danielmall.com/
+
+*************************************************
+*/
+
+
+
+
+
+/*-------------------------------------------    
+    General Selectors
+-------------------------------------------*/
+
+
+
+
+/*-------------------------------------------    
+    Global combinations
+-------------------------------------------*/
+
+
+
+
+/*-------------------------------------------    
+    Reusable Elements
+-------------------------------------------*/
+.work-row .more a, .button { font-size: 16px; font-family: "urbana-1","urbana-2"; font-weight: 200; padding-top: 0.25em; padding-bottom: 0.15em; letter-spacing: 0.1em; }
+
+        
+
+/*-------------------------------------------    
+    Basic Structure
+-------------------------------------------*/
+
+
+
+
+/*-------------------------------------------    
+    Home page
+-------------------------------------------*/
+#roles { font-size: 16px; font-family: "urbana-1","urbana-2"; font-weight: 200; }
+
+
+
+/*-------------------------------------------    
+    Work
+-------------------------------------------*/
+#the-work h2, #work-area h2, #work-content .sub h2 { font-size: 16px; color: #757575; font-family: "urbana-1","urbana-2"; font-weight: 200; }
+
+#clients h1 { font-size: 16px; font-family: "urbana-1","urbana-2"; font-weight: 400; }
+
+#publications #content > ol li h1 { font-size: 20px; font-family: "urbana-1","urbana-2"; font-weight: 200; }
+
+#sxsw2010 p { font-size: 18px; font-family: "urbana-1","urbana-2"; font-weight: 200; }
+
+#fowd2008 .more a { letter-spacing: 0; }
+
+.projects a { font-size: 16px; font-family: "urbana-1","urbana-2"; font-weight: 400; }
+
+#work-content .sub h2 { font-weight: 400; color: #bbb; }
+
+#bibliography h1 { font-size: 16px; font-family: "urbana-1","urbana-2"; font-weight: 400; }
+
+    
+
+/*-------------------------------------------    
+    Articles
+-------------------------------------------*/
+#article-landing .main hgroup h2 { font-size: 16px; color: #999; font-family: "urbana-1","urbana-2"; font-weight: 200; }
+
+#article-info h2, #article-tags h2 { font-size: 16px; color: #000; font-family: "urbana-1","urbana-2"; font-weight: 200; text-transform: uppercase; }
+
+
+/*-------------------------------------------    
+    About
+-------------------------------------------*/
+#about-landing #content h1 { font-size: 22px; font-family: "urbana-1","urbana-2"; font-weight: 600; margin-bottom: 0.25em; }
+
+#history th { font-size: 18px; font-family: "urbana-1","urbana-2"; font-weight: 600; color: #fff; opacity: 1; padding-top: 0.75em; }
+
+#fact-soda dd { font-size: 60px; font-family: "gloriola-display-thin-1","gloriola-display-thin-2"; top: 50px; }
+
+/*-------------------------------------------    
+    Contact
+-------------------------------------------*/
