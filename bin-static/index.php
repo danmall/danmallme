@@ -29,7 +29,7 @@
     				    <a data-tooltip-content="<h1>Morsel</h1><p>Your daily step toward better health.</p>" href="/work/morsel/" class="phark" style="background-image: url(/i/screen/home/morsel2.jpg);">Morsel</a>
     				</li>
     				<li class="home-round-item" style="left: 305px; top: 6px; z-index: 2;">
-    				    <a data-tooltip-content="<h1>Housing Works</h1><p>Housing prevents AIDS. Housing Saves Lives.</p>" href="/work/housing-works/" class="phark" style="background-image: url(/i/screen/home/housing-works.jpg);">Transformers</a>
+    				    <a data-tooltip-content="<h1>Housing Works</h1><p>Housing prevents <abbr>AIDS</abbr>. Housing Saves Lives.</p>" href="/work/housing-works/" class="phark" style="background-image: url(/i/screen/home/housing-works.jpg);">Transformers</a>
     				</li>
     				<li class="home-round-item" style="left: 444px; top: 2px; z-index: 1;">
     				    <a data-tooltip-content="<h1>healthymagination</h1><p>A shared commitment to better health. Together.</p>" href="/work/healthymagination/" class="phark" style="background-image: url(/i/screen/home/healthymagination3.png);">healthymagination</a>

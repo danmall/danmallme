@@ -224,9 +224,9 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
     #roles li:first-child:before { content: ""; padding: 0; }
     #roles li:nth-child(1), #roles li:nth-child(2) {  display: inline-block; }
 
-.home-row { height: 200px; width: 100%; background: #f7f7f7; border-bottom: 1px solid #dedede; overflow: hidden; position: relative; border-top: 4px solid transparent; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; }
+.home-row { height: 200px; width: 100%; background: #f7f7f7; border-bottom: 1px solid #dedede; overflow: hidden; position: relative; border-top: 4px solid #f7f7f7; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; }
 .home-row:hover { overflow: visible; z-index: 100; background: #fff; border-top: 4px solid #fff; }
-.home-row:hover + .home-row { border-top: 4px solid rgba(0, 0, 0, 0.02); }
+.home-row:hover + .home-row { border-top: 4px solid rgba(0, 0, 0, 0.03); }
     .home-row .inner { width: 800px; margin: 0 auto; position: relative; }
     .home-row ul { margin: 0; }
     .home-row h1 { position: absolute; top: 30px; left: 0; width: 80px; height: 40px; }

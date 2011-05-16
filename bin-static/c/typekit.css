@@ -48,7 +48,7 @@ http://www.danielmall.com/
 -------------------------------------------*/
 #roles { font-size: 16px; font-family: "urbana-1","urbana-2"; font-weight: 300; }
 
-#tooltip h1 { font-size: 26px; font-family: "urbana-1","urbana-2"; font-weight: 300; text-transform: uppercase; }
+#tooltip h1 { font-size: 26px; font-family: "urbana-1","urbana-2"; font-weight: 300; /*text-transform: uppercase;*/ }
 
 
 
