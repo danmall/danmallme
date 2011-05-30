@@ -91,7 +91,7 @@ abbr, abbr[title], acronym { font-size: 85%; letter-spacing: 0.1em; text-transfo
 form { margin: 0 0 1em; }
     form > div { margin: 0 0 2em; position: relative; padding-bottom: 2em; }
     div.options > div { margin-bottom: 0.25em; }    
-    input[type="text"], textarea { font: 12px 'Trebuchet MS', Arial, sans-serif; color: #626262; color: #999; background-color: #f5f5f5; border: 1px solid #fff; padding: 5px; transition: all 0.1s linear; -moz-transition: all 0.1s linear; -webkit-transition: all 0.1s linear; -o-transition: all 0.1s linear; } 
+    input[type="text"], textarea { font: 12px 'Trebuchet MS', Arial, sans-serif; color: #626262; color: #999; background-color: #f5f5f5; background: #eee; border: 1px solid #fff; padding: 5px; transition: all 0.1s linear; -moz-transition: all 0.1s linear; -webkit-transition: all 0.1s linear; -o-transition: all 0.1s linear; } 
     input[type="text"]:focus, textarea:focus { background-color: #fdfdfd; border-right: 1px solid #f4f4f4; border-bottom: 1px solid #f4f4f4; outline: none; color: #73ae08; }
     input[type="checkbox"] { margin-right: 0.5em; }
     label { display: block; font: 11px 'Trebuchet MS', Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.1em; color: #aaa; margin: 0 0 0.25em; position: absolute; bottom: 0; }
