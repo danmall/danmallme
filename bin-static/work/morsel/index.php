@@ -78,9 +78,9 @@
 
             <div class="main">
 
-                <p>Morsel is a mobile app that makes healthier decisions part of everyday life. It offers simple, fun daily tasks that help individuals get healthier, one step at a time. Using simple social motivation and a few gaming mechanics, Morsel seeks to make improving your own health just a little bit easier.</p>
+                <p><a href="http://healthymagination.com/projects/morsel/">Morsel</a> is a mobile app that makes healthier decisions part of everyday life. It offers simple, fun daily tasks that help individuals get healthier, one step at a time. Using simple social motivation and a few gaming mechanics, Morsel seeks to make improving your own health just a little bit easier.</p>
 
-        <p>After the first version of the app caught on as part of the healthymagination partnership with the 2010 Winter Olympics, we decided to give Morsel a well-needed upgrade. Adding offline capabilities, the ability to browse multiple categories of Morsels, and many different platforms for access (Facebook, mobile, web browser), Morsel hopefully makes being healthy one step easier.</p>
+        <p>After the first version of the app caught on as part of the <a href="/work/healthymagination/">healthymagination</a> partnership with the 2010 Winter Olympics, we decided to give Morsel a well-needed upgrade. Adding offline capabilities, the ability to browse multiple categories of Morsels, and many different platforms for access (Facebook, mobile, web browser), Morsel hopefully makes being healthy one step easier.</p>
 
             </div><!-- .main -->
 

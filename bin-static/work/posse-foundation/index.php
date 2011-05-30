@@ -60,15 +60,27 @@
             <div class="wrap">
 
                 <blockquote id="pullquote" class="phark">
-                    <p>Dan’s a designer who uncovers the underlying elements of your company’s brand. And I don’t mean your logo, your typefaces, your color scheme, but the core things that symbolize the essence of your organization—which he then translates beautifully into designs that go beyond your expectations.</p>
+                    <p>Dan&rsquo;s a designer who uncovers the underlying elements of your company&rsquo;s brand. And I don&rsquo;t mean your logo, your typefaces, your color scheme, but the core things that symbolize the essence of your organization&mdash;which he then translates beautifully into designs that go beyond your expectations.</p>
                     <p><cite>Rico Blancaflor, Vice President, Strategic Projects, The Posse Foundation, Inc.</cite></p>
                 </blockquote>
 
                 <div class="main">
 
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+                    <p>In 1989, Debbie Bial asked an underprivileged student why he dropped out of college. He said, &ldquo;It would have been easier if I had my posse with me.&rdquo; That was the birth of the Posse Foundation.</p> 
 
-                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus.</p>
+                    <p>The Posse Foundation is a nonprofit organization that sends kids to college in groups, or "posses." They have immediate support system and groups of friends, a factor that has led to a 90% graduation rate among kids that go to college in a posse. Employers have also found that hiring students from posses brings them natural leaders and overall hard workers.</p>
+
+                    <p>This design concept put the students on the front lines of the website. By showcasing success stories, this direction hoped to motivate and inspire the site&rsquo;s audience of prospective posse members, their parents, and potential donors.</p>
+                    
+                    <section id="bibliography">
+
+                        <h1>Read more</h1>
+
+                        <ul>
+                            <li><a href="http://happycog.com/create/posse/">The Posse Foundation Website Redesign,</a> a Happy Cog case study</li>
+                        </ul>
+
+                    </section><!-- #bibliography -->
 
                 </div><!-- .main -->
 

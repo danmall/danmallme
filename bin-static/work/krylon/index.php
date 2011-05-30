@@ -66,9 +66,17 @@
 
                 <div class="main">
 
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+                    <p>Krylon&rsquo;s website looked terribly out of date. Even though it was updated weekly, the previous design made it look old and stodgy. It was time to bring this Sherwin-Williams&rsquo; brand into the 21st century.</p>
 
-                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus.</p>
+                    <p>I art directed a redesign that created a community around the Krylon brand. By connecting with moms, educators, and artists, this spray paint leader in color and inspiration became a go-to resource for people interested in arts and crafts.</p>
+                    
+                    <section id="bibliography">
+
+                        <h1>Read more</h1>
+
+                        <p><a href="http://happycog.com/create/krylon/">Krylon Website Redesign,</a> a Happy Cog case study</p>
+
+                    </section><!-- #bibliography -->
 
                 </div><!-- .main -->
 
