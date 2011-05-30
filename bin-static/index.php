@@ -26,20 +26,20 @@
 		
     			<ul class="no-marker">				
     				<li class="home-round-item" style="left: 125px; top: 1px; z-index: 2;">
-    				    <a data-tooltip-content="<h1>Morsel</h1><p>Your daily step toward better health.</p>" href="/work/morsel/" class="phark" style="background-image: url(/i/screen/home/morsel2.jpg);">Morsel</a>
+    				    <a data-tooltip-content="<h1>Morsel</h1><p>Your daily step toward better health.</p>" href="/work/morsel/" class="phark phark-link" style="background-image: url(/i/screen/home/morsel2.jpg);">Morsel</a>
     				</li>
     				<li class="home-round-item" style="left: 305px; top: 6px; z-index: 2;">
-    				    <a data-tooltip-content="<h1>Housing Works</h1><p>Housing prevents <abbr>AIDS</abbr>. Housing Saves Lives.</p>" href="/work/housing-works/" class="phark" style="background-image: url(/i/screen/home/housing-works.jpg);">Transformers</a>
+    				    <a data-tooltip-content="<h1>Housing Works</h1><p>Housing prevents <abbr>AIDS</abbr>. Housing Saves Lives.</p>" href="/work/housing-works/" class="phark phark-link" style="background-image: url(/i/screen/home/housing-works.jpg);">Transformers</a>
     				</li>
     				<li class="home-round-item" style="left: 444px; top: 2px; z-index: 1;">
-    				    <a data-tooltip-content="<h1>healthymagination</h1><p>A shared commitment to better health. Together.</p>" href="/work/healthymagination/" class="phark" style="background-image: url(/i/screen/home/healthymagination3.png);">healthymagination</a>
+    				    <a data-tooltip-content="<h1>healthymagination</h1><p>A shared commitment to better health. Together.</p>" href="/work/healthymagination/" class="phark phark-link" style="background-image: url(/i/screen/home/healthymagination3.png);">healthymagination</a>
     				</li>								
     				<?php /* ?><li class="home-round-item" style="left: 444px; top: 12px;">
-    				    <a href="/work/design-swap/" class="phark" style="background-image: url(/i/screen/home/design-swap.gif);">Design Swap</a>
+    				    <a href="/work/design-swap/" class="phark phark-link" style="background-image: url(/i/screen/home/design-swap.gif);">Design Swap</a>
     				</li><?php */ ?>
     				
     				<li class="home-round-item" style="left: 600px; top: 0; z-index: 3;">
-    				    <a data-tooltip-content="<h1>JetWaders</h1><p>Modern-day jelly shoes.</p>" href="/work/jetwaders/" class="phark" style="background-image: url(/i/screen/home/jetwaders.jpg);">JetWaders</a>
+    				    <a data-tooltip-content="<h1>JetWaders</h1><p>Modern-day jelly shoes.</p>" href="/work/jetwaders/" class="phark phark-link" style="background-image: url(/i/screen/home/jetwaders.jpg);">JetWaders</a>
     				</li>		
     				
     			</ul>
@@ -60,7 +60,7 @@
 	    
     		    <ul class="no-marker">				
     				<li class="home-round-item" style="left: 100px; top: 15px;">
-    				    <a data-tooltip-content="<h1>Five.</h1><p>Wow. After five long years, it feels great to have a new site.</p>" href="/articles/five/" class="phark" style="background-image: url(/articles/five/home-five.png);">Morsel</a>
+    				    <a data-tooltip-content="<h1>Five.</h1><p>Wow. After five long years, it feels great to have a new site.</p>" href="/articles/five/" class="phark phark-link" style="background-image: url(/articles/five/home-five.png);">Five</a>
     				</li>
     				<?php /* ?><li class="home-round-item" style="left: 285px; top: 2px;">
     				    <a href="/work/healthymagination/" class="phark" style="background-image: url(/_assets/home/morsel.jpg);">healthymagination</a>

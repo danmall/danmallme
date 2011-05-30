@@ -46,7 +46,8 @@ http://www.danielmall.com/
 /*-------------------------------------------    
     Home page
 -------------------------------------------*/
-#roles { font-size: 16px; font-family: "urbana-1","urbana-2"; font-weight: 300; }
+#roles, #master-roles { font-size: 16px; font-family: "urbana-1","urbana-2"; font-weight: 300; }
+    #master-roles span { opacity: 0.5; }
 
 #tooltip h1 { font-size: 26px; font-family: "urbana-1","urbana-2"; font-weight: 300; /*text-transform: uppercase;*/ }
 

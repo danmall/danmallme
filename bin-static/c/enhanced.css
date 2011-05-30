@@ -80,6 +80,11 @@ http://www.danielmall.com/
 
 .animation-container { width: 0; opacity: 0; }
 
+#roles { display: none; }
+
+#master-roles { position: absolute; top: 95px; }
+    #master-roles-mask { position: absolute; background: #fff; top: 95px; }
+
 
 
 /*-------------------------------------------    

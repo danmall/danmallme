@@ -76,9 +76,7 @@
 
                         <h1>Read more</h1>
 
-                        <ul>
-                            <li><a href="http://happycog.com/create/posse/">The Posse Foundation Website Redesign,</a> a Happy Cog case study</li>
-                        </ul>
+                        <p><a href="http://happycog.com/create/posse/">The Posse Foundation Website Redesign,</a> a Happy Cog case study</p>                    
 
                     </section><!-- #bibliography -->
 

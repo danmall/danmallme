@@ -72,6 +72,39 @@ $(document).ready(function() {
             });
         
         },
+        
+        initRoles: function(){            
+                        
+            $('#roles').after('<div id="master-roles"></div><div id="master-roles-mask"></div>');            
+            dmall.shuffleRoles();
+            setInterval(function(){
+                dmall.shuffleRoles()
+                }, 5000);
+            
+            
+        },
+        
+        shuffleRoles: function(){
+            
+            $('#master-roles-mask').animate({left: '0px'}, 500, 'easeInQuad', function(){
+                var _totalRoles = $('#roles li').length;
+                var _randomPosition1 = Math.floor(Math.random()*_totalRoles);
+                var _randomPosition2 = Math.floor(Math.random()*_totalRoles);
+                if(_randomPosition1 == _randomPosition2){
+                    _randomPosition2++;
+                }
+
+                var _position1 = $('#roles li').eq(_randomPosition1).html();
+                var _position2 = $('#roles li').eq(_randomPosition2).html();
+
+                $('#master-roles').html(_position1 + ' <span>/</span> ' + _position2);
+
+                $('#master-roles-mask').css({ height: $('#master-roles').height(), width: $('#master-roles').width() });
+                $('#master-roles-mask').animate({left: $('#master-roles').width() + 'px'}, 600, 'easeInOutCirc');
+            });
+            
+            
+        },
     
     
 
@@ -81,7 +114,8 @@ $(document).ready(function() {
 
         initClientsRollOver: function(){
         
-            var _animationSpeed = 300;
+            var _animationSpeed1 = 400;
+            var _animationSpeed2 = 700;
             var _animationDelay = 200;
         
             $('#work-landing #clients h1').wrap('<div id="clients-headline1" class="mask-wrapper"></div>');
@@ -95,25 +129,25 @@ $(document).ready(function() {
             
                 $('#clients-headline1 .mask').animate({
                      width: '130px'
-                }, _animationSpeed, function(){
+                }, _animationSpeed1, 'easeInOutCirc', function(){
                     _doppelganger.css('z-index', 2);                
                 });
 
                 $('#clients-headline2 .mask').delay(_animationDelay).animate({
                      width: '0'
-                }, _animationSpeed);            
+                }, _animationSpeed2, 'easeInOutCirc');            
             
             }).mouseleave(function(){    
                     
                 $('#clients-headline2 .mask').animate({
                      width: '130px'
-                }, _animationSpeed, function(){
+                }, _animationSpeed1, 'easeInOutCirc', function(){
                     _doppelganger.css('z-index', 1);                
                 });
             
                 $('#clients-headline1 .mask').delay(_animationDelay).animate({
                      width: '0'
-                }, _animationSpeed);
+                }, _animationSpeed2, 'easeInOutCirc');
             
             });
 
@@ -214,6 +248,7 @@ $(document).ready(function() {
     // HOME
     dmall.homeTooltip();
     dmall.initHomepageAnimation();
+    dmall.initRoles();
     
     // WORK
     dmall.initClientsRollOver();

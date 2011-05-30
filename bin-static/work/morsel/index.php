@@ -55,6 +55,8 @@
         	    </span>
         	    
     	    </div><!-- #project-header -->
+    	    
+    	    <a class="phark phark-link mobile-fwa" href="http://www.thefwa.com/mobile/morsel">As seen on m.fwa.com</a>
 	        
 	    </section><!-- #work-area -->
 	    

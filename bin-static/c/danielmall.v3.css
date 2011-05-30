@@ -176,6 +176,10 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
 
 .work-row .more a, .button { display: inline-block; border-radius: 4px; background: #231f20; color: #fff; text-transform: uppercase; padding: 0.5em 13px; font-family: 'Trebuchet MS', Arial, sans-serif; }
 .work-row .more a:hover, .work-row .more a:focus, .button:hover, .button:focus { background: #73ae08; }
+
+.fwa { background-image: url(/i/screen/fwa.png); width: 100px; height: 100px; position: absolute; top: 52px; right: 0; border: none; }
+.mobile-fwa { background-image: url(/i/screen/m.fwa.png); width: 76px; height: 77px; position: absolute; top: 52px; right: 0; border: none; }
+.fwa:hover, .mobile-fwa:hover { border: none; }
         
 
 /*-------------------------------------------    
@@ -221,7 +225,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
 
 #home #masthead-wrap { margin-bottom: 0; }
 
-#roles { position: absolute; top: 95px; font: 14px 'Trebuchet MS', Arial, sans-serif; color: #929090; text-transform: uppercase; letter-spacing: 0.1em; }
+#roles, #master-roles { position: absolute; top: 95px; font: 14px 'Trebuchet MS', Arial, sans-serif; color: #929090; text-transform: uppercase; letter-spacing: 0.1em; }
     #roles li { display: none; }
     #roles li:before { content: "/"; opacity: 0.5; padding: 0 7px 0 3px; }
     #roles li:first-child:before { content: ""; padding: 0; }
@@ -294,16 +298,15 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
                     #year2007 h2 { background-image: url(/i/screen/2007.gif); }
                     #year2006 h2 { background-image: url(/i/screen/2006.gif); }
                 
-/*#work-area { width: 800px; margin: 0 auto; }*/
-    #work .breadcrumbs { background: #999 url(/i/screen/work/breadcrumbs-mask.png) no-repeat 0 0; width: 144px; height: 15px; margin: 0 auto 10px; position: relative; }
-        #work .breadcrumbs ul { list-style: none; }
-            #work .breadcrumbs li { position: absolute; top: 0; }
-                #work .breadcrumbs a { border: none; height: 15px; width: 52px; opacity: 0; }
-                #work .breadcrumbs a:hover, #work .breadcrumbs a:focus { opacity: 1; }
-            #breadcrumbs-home { left: 0; }
-                #work #breadcrumbs-home a { background-image: url(/i/screen/work/breadcrumbs-mask.png); background-color: #73ae08; }
-            #breadcrumbs-work { left: 79px; }
-                #work #breadcrumbs-work a { background-image: url(/i/screen/work/breadcrumbs-mask.png); background-color: #73ae08; background-position: -79px 0; }
+#work .breadcrumbs { background: #999 url(/i/screen/work/breadcrumbs-mask.png) no-repeat 0 0; width: 144px; height: 15px; margin: 0 auto 10px; position: relative; }
+    #work .breadcrumbs ul { list-style: none; }
+        #work .breadcrumbs li { position: absolute; top: 0; }
+            #work .breadcrumbs a { border: none; height: 15px; width: 52px; opacity: 0; }
+            #work .breadcrumbs a:hover, #work .breadcrumbs a:focus { opacity: 1; }
+        #breadcrumbs-home { left: 0; }
+            #work #breadcrumbs-home a { background-image: url(/i/screen/work/breadcrumbs-mask.png); background-color: #73ae08; }
+        #breadcrumbs-work { left: 79px; }
+            #work #breadcrumbs-work a { background-image: url(/i/screen/work/breadcrumbs-mask.png); background-color: #73ae08; background-position: -79px 0; }
     
     #work-area hgroup { text-align: center; margin: 0 0 2em; }
         #work-area hgroup h1 { margin: 0 auto 0.3em; }

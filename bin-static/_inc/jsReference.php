@@ -1,4 +1,5 @@
-<?php /* ?><script src="/mint/?js"></script><?php */ ?>
+<!-- Mint -->
+    <script src="/mint/?js"></script>
 
     <!-- Typekit -->
     <script src="http://use.typekit.com/byv8xvy.js"></script>

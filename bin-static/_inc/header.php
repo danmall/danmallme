@@ -11,6 +11,7 @@
                 <li>Strategist</li>
                 <li>Teacher</li>                
                 <li>Singer</li>
+                <li>Speaker</li>
                 <li>Pianist</li>
                 <li>Dad-to-be</li>
                 <li>Husband</li>

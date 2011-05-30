@@ -48,12 +48,12 @@
 		            <li id="year2009">
 		                <h2>2009</h2>
 		                <ul class="projects">
+		                    <li style="top: -125px; left: 195px;"><a href="/work/typedia/">Typedia</a></li>
 		                    <li style="top: -15px; left: 75px;"><a href="/work/weizmann/">American Committee for the Weizmann Institute of Science</a></li>
 		                    <li style="top: 120px; left: 130px;"><a href="/work/preventiv/">Pr&eacute;ventiv Water</a></li>
 		                    <li style="top: 25px; left: 250px;"><a href="/work/four24/">Four24</a></li>
 		                    <li style="top: 105px; left: 350px;"><a href="/work/mica/">MICA</a></li>
-		                    <li style="top: 35px; left: 455px;"><a href="/work/jetwaders/">JetWaders</a></li>
-		                    <li style="top: -125px; left: 195px;"><a href="/work/typedia/">Typedia</a></li>
+		                    <li style="top: 35px; left: 455px;"><a href="/work/jetwaders/">JetWaders</a></li>		                    
 		                </ul>
 		            </li>
 		            <li id="year2008">
