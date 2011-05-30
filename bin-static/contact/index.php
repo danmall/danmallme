@@ -21,9 +21,19 @@
             	    <h1 class="phark">Contact Dan</h1>
             	</header>
             	
-            	<p>I&rsquo;m all ears. Well, not <em>all</em> ears, because I&rsquo;d probably look something like <a href="http://www.insidefurniture.com/insidefurniture/images/2008/02/21/all_ears.jpg">this</a>. That would be strange.</p>
+            	<p>I&rsquo;m all ears. Well, not <em>all</em> ears, because I&rsquo;d probably look something like <a id="all-ears" href="http://www.insidefurniture.com/insidefurniture/images/2008/02/21/all_ears.jpg">this</a>. That would be strange.</p>
+            	
+            	<?php if(isset ($_GET['error'])) { ?> 
+            	<div class="error">
+            	    <p>Something seems to have gone wrong. Please try again.</p>
+            	</div><!-- .error -->
+            	<?php } ?>
                 
-                <form id="contact-form" method="post" action="#">
+                <form id="contact-form" method="post" action="/contact/script/">
+                    
+                    <script>
+                	document.write('<div id="all-ears-container"><img src="/i/all-ears.jpg" /></div>');
+                	</script>
                     
                     <div>
                         <label for="contact-name">Name <em>(required)</em></label>
@@ -37,12 +47,12 @@
             
                     <div>
                         <label for="contact-website">Website</label>
-                        <input type="text" id="contact-website" name="contact-url" value="http://" />
+                        <input type="text" id="contact-website" name="contact-website" value="http://" />
                     </div>
                     
                     <div>
                         <label for="contact-subject">Subject <em>(required)</em></label>
-                        <select id="contact-subject" name="subject" required>
+                        <select id="contact-subject" name="contact-subject" required>
                             <option value="">Please select a subject&hellip;</option>
                 			<option value="You&rsquo;d be perfect for a project I have!">You&rsquo;d be perfect for a project I have!</option>
                 			<option value="I&rsquo;d like you to write about&hellip;">I&rsquo;d like you to write about&hellip;</option>
@@ -55,12 +65,12 @@
 
                     <div>
                         <label for="contact-message">Comment <em>(required)</em></label>
-                        <textarea id="contact-message" name="contact-comment" cols="70" rows="10" required></textarea>
+                        <textarea id="contact-message" name="contact-message" cols="70" rows="10" required></textarea>
                     </div>
                     
                     <div>
                         <label for="contact-test">Prove you&rsquo;re human: what color is grass? <em>(required)</em></label>
-                        <input type="text" id="contact-test" name="contact-test" />
+                        <input type="text" id="contact-test" name="contact-test" required />
                     </div>
 
                     <div class="submit">

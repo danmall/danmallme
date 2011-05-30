@@ -23,20 +23,41 @@ $(document).ready(function() {
         
         initHomepageAnimation: function(){
             
-            var _delay = 300;
+            var _delay = 250;
             var _animationSpeed = 1000;
+            var _itemWidth = 225;
+            var _tweetWidth = 180;
             
+            
+            /*  ------ ANIMATION SEQUENCE: Wish I had SimpleSequencer here ------ */
+            
+            $('body#home #work li a, body#home #latest-articles li a').wrap('<div class="animation-container" />');
+            
+            // 1. fade in "Featured Work" row
             $('body#home #work').delay(_delay*0).fadeTo(500, 1);
-            $('body#home #work li:eq(0)').delay(_delay*1).animate({opacity: '1'/*, marginTop: '0'*/}, _animationSpeed);
-            $('body#home #work li:eq(1)').delay(_delay*2).animate({opacity: '1'/*, marginTop: '0'*/}, _animationSpeed);
-            $('body#home #work li:eq(2)').delay(_delay*3).animate({opacity: '1'/*, marginTop: '0'*/}, _animationSpeed);
-            $('body#home #work li:eq(3)').delay(_delay*4).animate({opacity: '1'/*, marginTop: '0'*/}, _animationSpeed);
             
+            // 2. fade in "Featured Work" row items
+            var _totalFeatured = $('body#home #work li').length;
+            this.animateRoundElement(_delay, _animationSpeed, _totalFeatured, $('body#home #work li'), 0, _itemWidth);
+            
+            // 3. fade In "Latest Articles" row
             $('body#home #latest-articles').delay(_delay*3).fadeTo(250, 1);
-            $('body#home #latest-articles li:eq(0)').delay(_delay*5).fadeTo(_animationSpeed, 1);
-
-            $('#tweet').delay(_delay*3).fadeTo(1750, 1);
+            
+            // 4. animate in "Latest Articles" row items
+            var _totalLatestArticles = $('body#home #latest-articles li').length;
+            var _latestArticlesDelayOffset = _totalFeatured;
+            this.animateRoundElement(_delay, _animationSpeed, _totalLatestArticles, $('body#home #latest-articles li'), _latestArticlesDelayOffset, _itemWidth);            
+            
+            // 5. fade in "Tweets" row
+            $('#tweet').delay(_delay*6).fadeTo(500, 1);
+            
         },
+        
+        animateRoundElement: function($delay, $animationSpeed, $total, $element, $offset, $w){
+            for(var i = 0; i < $total; i++){
+                $($element).eq(i).find('.animation-container').delay($delay*(i + $offset + 1)).animate({width: $w + 'px', opacity: 1}, $animationSpeed, 'easeInOutCirc');
+            }
+        },        
     
         homeTooltip: function(){
         
@@ -97,6 +118,20 @@ $(document).ready(function() {
             });
 
         },
+        
+        /* Animation for landing page */
+        
+        animateWorkLandingElements: function(){
+            
+            var _projectWidth = 200;
+            var _delay = 200;
+            var _animationSpeed = 1100;
+            var _totalProjects = $('#work-landing .projects li').length;
+            
+            for(var i = 0; i < _totalProjects; i++){
+                $('#work-landing .projects li:eq(' + i + ')').delay(_delay*i).animate({opacity: 1}, _animationSpeed, 'easeInOutCirc');
+            }
+        },
     
     
         /* Staggered animation for project headers */
@@ -124,6 +159,45 @@ $(document).ready(function() {
             
             likeButton.css('margin-left', (TOTAL_WIDTH - likeButtonWidth)/2 + 'px');            
             
+        },
+        
+        
+        /*-------------------------------------------    
+            Contact
+        -------------------------------------------*/
+        
+        allEars: function(){
+            $('#all-ears').mouseover(function(){
+                $('#all-ears-container').fadeIn('normal');
+            }).mouseout(function(){
+                $('#all-ears-container').fadeOut('normal');
+            }).click(function(){
+                return false;
+            });
+        },
+        
+        validateContactForm: function(){
+            
+            $('#contact-form input, #contact-form textarea').blur(function(){
+                if($(this).val() != ''){
+                    $(this).removeClass('error');
+                }
+            });
+            
+            $('#contact-form').submit(function(){
+                var _atLeastOneIsEmpty = false;
+                $('#contact-form input[required], #contact-form select[required], #contact-form textarea[required]').each(function(){
+                    if($(this).attr('value') == ''){
+                        $(this).addClass('error');
+                        _atLeastOneIsEmpty = true;
+                    }
+                });
+                
+                if(_atLeastOneIsEmpty){
+                    return false;
+                }
+                
+            });
         }
     
     
@@ -143,14 +217,21 @@ $(document).ready(function() {
     
     // WORK
     dmall.initClientsRollOver();
+    dmall.animateWorkLandingElements();
     dmall.moveLikeButton();
     dmall.fadeInTitle();
+    
+    // CONTACT
+    dmall.allEars();
+    dmall.validateContactForm();
     
     
 });
 
 window.onload = function(){
-    dmall.moveLikeButton();
+    //dmall.moveLikeButton();
 }
+
+
 
 
