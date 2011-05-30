@@ -1,0 +1,16 @@
+#five { width: 800px; margin: 0 auto; position: relative; }
+
+#intro { background: #8bc209; padding: 60px 0 80px; border-bottom: 5px solid #fff; }
+    #intro h1 { background-image: url(5.png); width: 480px; height: 481px; position: absolute; left: -340px; top: -30px; }
+    #intro h2 { background-image: url(wow.png); width: 586px; height: 68px; margin-bottom: 25px; }
+    #intro-text { width: 610px; position: relative; left: 250px; z-index: 1; }
+        #intro-text p { color: #000; font-size: 14px; }
+        
+#split3 { border-top: 1px solid #8bc209; padding-top: 70px; }
+    #split3 > section { width: 235px; float: left; padding: 0 30px 0 0; }
+    #cms-who h1 { background-image: url(cms-who.png); width: 235px; height: 30px; }
+    #no-rss h1 { background-image: url(no-rss.png); width: 235px; height: 30px; }
+    #on-help h1 { background-image: url(on-help.png); width: 235px; height: 30px; }
+    
+#forward { border-top: 1px solid #ccc; padding-top: 30px; margin: 2em 0 4em; }
+    #forward h1 { background-image: url(forward.png); width: 807px; height: 30px; }

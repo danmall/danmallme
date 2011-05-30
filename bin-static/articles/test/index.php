@@ -65,8 +65,8 @@
                     var disqus_shortname = 'danielmall'; // required: replace example with your forum shortname
 
                     // The following are highly recommended additional parameters. Remove the slashes in front to use.
-                    // var disqus_identifier = 'unique_dynamic_id_1234';
-                    // var disqus_url = 'http://example.com/permalink-to-page.html';
+                    var disqus_identifier = 'unique_dynamic_id_1234';
+                    var disqus_url = 'http://example.com/permalink-to-page.html';
                     var disqus_developer = 1;
 
                     /* * * DON'T EDIT BELOW THIS LINE * * */

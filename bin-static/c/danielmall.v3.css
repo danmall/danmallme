@@ -107,7 +107,8 @@ sub, sup { line-height: 0; }
 
 header, footer, nav, section, article, mark, hgroup { display: block; }
 
-
+::selection { background: #73ae08; color: #fff; }
+::-moz-selection { background: #73ae08; color: #fff; }
 
 /*-------------------------------------------    
     Global combinations
@@ -134,7 +135,8 @@ header, footer, nav, section, article, mark, hgroup { display: block; }
 -------------------------------------------*/
 .main { width: 560px; float: right; border-left: 1px dotted #7f7f7f; }
 
-ol.articles > li, #tweets li { padding: 1.25em 40px 0; border-top: 1px dotted #7f7f7f; }
+ol.articles { border-top: 1px dotted #7f7f7f; }
+ol.articles > li, #tweets li { padding: 1.25em 40px 0; border-bottom: 1px dotted #7f7f7f; }
 
 .meta { font: 78% 'Trebuchet MS', Arial, sans-serif; margin: 0; text-transform: uppercase; letter-spacing: 0.25em; color: #a2a2a2; width: 100%; }
 ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
@@ -183,7 +185,7 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
 #article #masthead-wrap, #about-landing #masthead-wrap { margin-bottom: 0; }
     #masthead { width: 800px; margin: 0 auto; height: 40px; position: relative; }
     #home #masthead { height: 128px; z-index: 2000; }
-        #masthead h1 { background: transparent url(/i/screen/logo-bg-over2.png) no-repeat 0 0; width: 86px; height: 69px; position: absolute; top: -11px; left: -8px; }
+        #masthead h1 { background: transparent url(/i/screen/logo-bg-over2.png) no-repeat 0 0; width: 86px; height: 69px; position: absolute; top: -11px; left: -8px; z-index: 2000; }
         #home #masthead h1 { background-image: url(/i/screen/home-logo2.png); width: 407px; height: 120px; top: 15px; left: -145px; }
             #masthead h1 a { background: transparent url(/i/screen/back-home.gif) no-repeat 80px 22px; width: 259px; height: 49px; position: absolute; top: 0; left: 0; border: none; opacity: 0; transition-timing-function: ease-out; -moz-transition-timing-function: ease-out; -webkit-transition-timing-function: ease-out; }
             #masthead h1 a:hover, #masthead h1 a:focus { opacity: 1; background-position: 90px 22px; }
@@ -349,7 +351,8 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
             #work-content #bibliography p, #work-content #bibliography ol, #work-content #bibliography ul { font-size: 12px; }
     
     #publications #content { border-top: 1px dotted #7f7f7f; padding: 0 0 2em; position: relative; z-index: 2; width: 800px; margin: 0 auto; }    
-        
+        #typekit .inner:before { left: 40px; top: 60px; width: 273px; height: 73px; background: transparent url(/i/screen/publications-typekit.png) no-repeat 0 0; }
+        #mc .inner:before { left: 60px; top: 20px; width: 249px; height: 194px; background: transparent url(/i/screen/publications-mc.png) no-repeat 0 0; }
     #p24ways-2010 { z-index: 1; min-height: 280px; }
         #p24ways-2010 .inner:before { left: -30px; width: 322px; height: 295px; background: transparent url(/i/screen/publications-24ways2010.png) no-repeat 0 0; z-index: 1; }
         #soda .inner:before { left: -60px; width: 524px; height: 123px; background: transparent url(/i/screen/publications-soda.png) no-repeat 0 0; }
@@ -359,6 +362,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
         #p24ways-2009 .inner:before { left: 120px; top: 35px; width: 139px; height: 145px; background: transparent url(/i/screen/publications-24ways2009.png) no-repeat 0 0; }
         #dotnet .inner:before { left: 20px; top: auto; bottom: 0; width: 332px; height: 261px; height: 200px; background: transparent url(/i/screen/publications-dotnet.jpg) no-repeat 0 0; }
         #ala-semanticflash .inner:before { left: 100px; width: 204px; height: 205px; background: transparent url(/i/screen/publications-semanticflash.jpg) no-repeat 0 0; }
+        
     
             #publications #content > ol li h1 { font: 18px 'Trebuchet MS', Arial, sans-serif; margin-bottom: 0.75em; }
                 #publications #content > ol li h1 a { line-height: 1.3; }
@@ -417,7 +421,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
 #article-landing hgroup h1 { background-image: url(/i/screen/articles-headline.gif); width: 238px; height: 47px; margin: 20px 0 0.25em 40px; }
 #article-landing hgroup h2 { color: #bdbbbc; font-size: 21px; margin: 0 0 1em 40px; font-weight: normal; }
 
-#article-landing .main { float: right; }
+#article-landing .main { float: right; min-height: 300px; }
 
 #article-landing .sub { padding-top: 24px; width: 200px; }
     #article-landing .sub h1 { background-image: url(/i/screen/displaying.gif); width: 85px; height: 15px; }
@@ -431,6 +435,8 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
         #article-meta h1 { color: #fff; font-size: 15px; float: left; margin: 0; }
         #article-meta p { color: #fff; float: right; margin: 0; font: 11px 'Trebuchet MS', Arial, sans-serif; position: relative; top: 0.2em; min-width: 153px; }
         #article-meta a { color: #fff; border-color: #fff; }
+        
+#article-area-wrap { border-bottom: 35px solid #231f20; padding-bottom: 30px; }
 
 #comment-form input[type="text"], #contact-form input[type="text"], #contact-form select { width: 350px; }
 #comment-form textarea, #contact-form textarea { width: 550px; } 

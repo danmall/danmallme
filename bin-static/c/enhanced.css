@@ -104,7 +104,7 @@ http://www.danielmall.com/
 -------------------------------------------*/
 #dsq-pagination, #dsq-sort-by, #dsq-global-toolbar { display: none; }
 
-#dsq-content .dsq-avatar { left: -10px !important; }
+/*#dsq-content .dsq-avatar { left: -10px !important; }*/
 
 .dsq-post-tools, .dsq-textarea-background { background: #f5f5f5 !important; border-radius: 0 !important; border: none !important; -webkit-box-shadow: none !important; }
 
@@ -112,7 +112,29 @@ http://www.danielmall.com/
 
 .dsq-post-tools .dsq-post-as .dsq-button { top: 40px !important; }
 
+#dsq-content { margin-top: -40px; }
+    #dsq-content h3 { position: relative !important; top: -8px; color: #231f20; font-weight: normal; font-size: 16px; }
+    #dsq-content #dsq-reply h3 { top: 0; border-top: 10px solid #231f20; padding-top: 0.5em; }
+        #dsq-num-posts { color: #fff; position: absolute; top: 0; left: 0; }
+        #dsq-num-posts:after { content: " comments"; }
+
+.dsq-comment { border-top: 1px dotted #7f7f7f; padding: 1.5em 0 !important; }
+.dsq-comment:first-child { border-top: none; padding-top: 0 !important;}
+    .dsq-comment-header { background: none !important; border: none !important; padding: 0 !important; }
+    .dsq-commenter-name { font: bold 16px 'Trebuchet MS', Arial, sans-serif; }
+    .dsq-comment-body { padding-left: 56px !important; }
+    
+    .dsq-post-tools .dsq-post-as .dsq-button { display: inline-block; border-radius: 4px !important; background: #231f20 !important; color: #fff !important; text-transform: uppercase; padding: 0.5em 13px !important; font-family: 'Trebuchet MS', Arial, sans-serif; border: none !important; box-shadow: none !important; -webkit-box-shadow: none !important; text-shadow: none !important; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear;}
+    .dsq-post-tools .dsq-post-as .dsq-button:hover { background: #73ae08 !important; }
+
+
+#dsq-account-dropdown { position: relative; top: 2.5em; z-index: 10; }
+
 #article-landing .main { position: relative; left: -75px; }
+
+.meta .comments { width: 300px; }
+
+
 
 
 

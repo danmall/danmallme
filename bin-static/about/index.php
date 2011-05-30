@@ -92,7 +92,7 @@
         	                </tr>
         	                <tr id="bss">
     	                        <th><mark>2009&ndash;present</mark></th>
-        	                    <td><mark>Senior Designer at <a class="phark phark-link" href="http://bigspaceship.com/">Big Spaceship</a></mark>
+        	                    <td><mark>Art Director at <a class="phark phark-link" href="http://bigspaceship.com/">Big Spaceship</a></mark>
         	                </td>	                    
         	            </table>
     	                

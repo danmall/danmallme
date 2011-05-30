@@ -35,61 +35,18 @@
             	    <li><a href="/articles/9/" title="Page 9 of Articles"><b>Page</b> 9</a></li>
             	</ol><?php '/.pagination' */ ?>
             	
-            	
             	<ol class="articles no-marker">            	        
         	        <li>
             	        <article>
-
             	            <header>
-            	                <h1><a href="/articles/test/">Fourth of July, Baybuh!</a></h1>
+            	                <h1><a href="/articles/five/">Five</a></h1>
             	            </header>
-
-            	            <p>Fourth article excerpt.</p>
-
+            	            <p>Wow. After five long years, it feels great to have a new site.</p>
             	            <ul class="meta easy-clearing no-marker">
-            	                <li class="permalink"><a href="/articles/test/"><time datetime="2010-07-18">Jul 18 2010</time></a></li>
-            	                <li class="comments"><a href="/articles/test/">4 comments</a></li>
+            	                <li class="permalink"><a href="/articles/five/"><time datetime="2011-05-30T03:40:00">May 30, 2011</time></a></li>
+            	                <li class="comments"><a href="http://dan.local:8888/articles/five#disqus_thread" data-disqus-identifier="five"></a></li>
             	                <?php /* ?><li class="categories"><a href="/channel/C11">design</a>, <a href="http://mahogany.danielmall.com/channel/C10">html</a></li><?php */ ?>
             	            </ul><!-- .meta -->
-
-            	        </article>
-            	    </li>
-
-
-        	        <li>
-            	        <article>
-
-            	            <header>
-            	                <h1><a href="/articles/test/">The Second Article</a></h1>
-            	            </header>
-
-            	            <p>The second article.</p>
-
-            	            <ul class="meta easy-clearing no-marker">
-            	                <li class="permalink"><a href="/articles/test/"><time datetime="2010-07-16">Jul 16 2010</time></a></li>
-            	                <li class="comments"><a href="/articles/test/">0 comments</a></li>
-            	                <?php /* ?><li class="categories"><a href="/channel/C9">css</a></li><?php */ ?>
-            	            </ul><!-- .meta -->
-
-            	        </article>
-            	    </li>
-
-
-        	        <li>
-            	        <article>
-
-            	            <header>
-            	                <h1><a href="/articles/test/">Test Article 1</a></h1>
-            	            </header>
-
-            	            <p>Excerpt 1, baby!</p>
-
-            	            <ul class="meta easy-clearing no-marker">
-            	                <li class="permalink"><a href="/articles/test/"><time datetime="2010-07-16">Jul 16 2010</time></a></li>
-            	                <li class="comments"><a href="/articles/test/">0 comments</a></li>
-            	                <?php /* ?><li class="categories"><a href="/channel/C12">typography</a></li><?php */ ?>
-            	            </ul><!-- .meta -->
-
             	        </article>
             	    </li>
         	    </ol>
@@ -124,6 +81,19 @@
     	
     	
     </div><!-- .wrap -->
+    
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'danielmall'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
     
 	
 <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/close.php"); echo "\n"; ?>

@@ -34,6 +34,26 @@
 	<section id="content">
 	       
 	    <ol class="no-marker">
+	        <li class="work-row" id="typekit">
+	            <div class="inner">
+    	            <article>
+    	                <h1><a href="http://blog.typekit.com/2011/05/17/type-study-stereo-typography/">Type Study: Stereo-Typography</a></h1>
+    	                <p class="meta">Typekit Blog, Mar 17 2011</p>
+    	                <p>Designing with stereotypes makes those initial choices a bit easier. Big = loud. Small = quiet. Smooth = elegant. Irregular = experimental. Enter stereo-typography, the art of using stereotypes to inform your type choices.</p>
+    	                <p class="more"><a href="http://blog.typekit.com/2011/05/17/type-study-stereo-typography/">Read the article</a></p>
+    	            </article>
+    	        </div>
+	        </li>
+	        <li class="work-row" id="mc">
+	            <div class="inner">
+    	            <article>
+    	                <h1><a href="http://methodandcraft.com/articles/invisible-deliverables">Invisible Deliverables</a></h1>
+    	                <p class="meta">Method &amp; Craft, Feb 28 2011</p>
+    	                <p>Spending too much time on those essential project deliverables? Suprisingly, adding a few smart steps can increase efficiency &amp; smooth communication.</p>
+    	                <p class="more"><a href="http://methodandcraft.com/articles/invisible-deliverables">Read the article</a></p>
+    	            </article>
+    	        </div>
+	        </li>
 	        <li class="work-row" id="p24ways-2010">
 	            <div class="inner">
     	            <article>
