@@ -44,7 +44,7 @@
             	            <p>Wow. After five long years, it feels great to have a new site.</p>
             	            <ul class="meta easy-clearing no-marker">
             	                <li class="permalink"><a href="/articles/five/"><time datetime="2011-05-30T03:40:00">May 30, 2011</time></a></li>
-            	                <li class="comments"><a href="http://dan.local:8888/articles/five#disqus_thread" data-disqus-identifier="five"></a></li>
+            	                <li class="comments"><a href="/articles/five#disqus_thread" data-disqus-identifier="five"></a></li>
             	                <?php /* ?><li class="categories"><a href="/channel/C11">design</a>, <a href="http://mahogany.danielmall.com/channel/C10">html</a></li><?php */ ?>
             	            </ul><!-- .meta -->
             	        </article>
