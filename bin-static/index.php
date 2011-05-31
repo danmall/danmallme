@@ -13,6 +13,8 @@
 </head>
 
 <body class="home" id="home">	
+    
+    <img id="logo" src="/i/logo.png" alt="Dan Mall" />
 	
 	<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/header.php"); echo "\n"; ?>
 	
