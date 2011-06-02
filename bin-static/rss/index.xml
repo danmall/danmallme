@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+<channel>
+    <title>Dan Mall: Articles</title>
+    <description>Musings from the brain of Dan Mall and friends.</description>
+    <link>http://www.danielmall.com/</link>
+    <dc:language>en</dc:language>
+    <dc:rights>Copyright 2005&ndash;2011</dc:rights>
+    <pubDate>Thurs, 02 Jun 2011 01:49:47 GMT</pubDate>
+    <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Five</title>
+        <description>Wow. After five long years, it feels great to have a new site.</description>
+        <link>http://www.danielmall.com/articles/five/</link>
+        <guid>http://www.danielmall.com/articles/five/</guid>
+        <pubDate>Mon, 30 May 2011 03:40:00 GMT</pubDate>
+    </item>
+</channel>
