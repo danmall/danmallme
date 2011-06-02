@@ -5,3 +5,4 @@
     <?php } else { ?>
     <meta name="viewport" content="width=900" />
     <?php } ?>
+    <link type="application/rss+xml" rel="alternate" title="Articles" href="http://feeds.feedburner.com/dan-mall-articles" /> 

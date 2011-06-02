@@ -8,6 +8,7 @@
     		<li>Powered by Hand Coding&trade;</li>
     		<li>Graciously hosted by <a href="http://www.mediatemple.net/go/order/?refdom=danielmall.com">Media Temple</a></li>
     		<li>Follow <a href="http://twitter.com/danielmall">@danielmall</a></li>
+    		<li><a href="http://feeds.feedburner.com/dan-mall-articles">RSS</a></li>
     	</ul>
 
     </footer>

@@ -35,7 +35,19 @@
             	    <li><a href="/articles/9/" title="Page 9 of Articles"><b>Page</b> 9</a></li>
             	</ol><?php '/.pagination' */ ?>
             	
-            	<ol class="articles no-marker">            	        
+            	<ol class="articles no-marker">   
+            	    <li>
+            	        <article>
+            	            <header>
+            	                <h1><a href="/articles/now-i-have-rss/">Now I Have <abbr title="Really Simple Syndication">RSS</abbr></a></h1>
+            	            </header>
+            	            <p>Happy?</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/now-i-have-rss/"><time datetime="2011-06-02T01:14:15">Jun 2, 2011</time></a></li>
+            	                <li class="comments"><a href="/articles/now-i-have-rss#disqus_thread" data-disqus-identifier="now-i-have-rss"></a></li>
+            	                <?php /* ?><li class="categories"><a href="/channel/C11">design</a>, <a href="http://mahogany.danielmall.com/channel/C10">html</a></li><?php */ ?>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
         	        <li>
             	        <article>
             	            <header>

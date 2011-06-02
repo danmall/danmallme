@@ -60,8 +60,11 @@
 		    
     		    <h1 class="phark">Latest Articles</h1>
 	    
-    		    <ul class="no-marker">				
-    				<li class="home-round-item" style="left: 100px; top: 15px;">
+    		    <ul class="no-marker">	
+    		        <li class="home-round-item" style="left: 100px; top: 15px;">
+    				    <a data-tooltip-content="<h1>Now I Have RSS.</h1><p>Happy?</p>" href="/articles/now-i-have-rss/" class="phark phark-link" style="background-image: url(/articles/now-i-have-rss/now-i-have-rss-home.png);">Now I Have RSS</a>
+    				</li>			
+    				<li class="home-round-item" style="left: 300px; top: 10px;">
     				    <a data-tooltip-content="<h1>Five.</h1><p>Wow. After five long years, it feels great to have a new site.</p>" href="/articles/five/" class="phark phark-link" style="background-image: url(/articles/five/home-five.png);">Five</a>
     				</li>
     				<?php /* ?><li class="home-round-item" style="left: 285px; top: 2px;">
