@@ -13,7 +13,7 @@ $installPepper = "SI_BirdFeeder";
 
 class SI_BirdFeeder extends Pepper
 {
-	var $version	= 203;
+	var $version	= 206;
 	var $info		= array
 	(
 		'pepperName'	=> 'Bird Feeder',
@@ -62,6 +62,10 @@ class SI_BirdFeeder extends Pepper
 	);
 	var $manifest = array
 	(
+		'visit' => array
+		(
+			'referred_by_feed'	=> "TINYINT(1) NOT NULL DEFAULT '0'"
+		),
 		'readership' => array
 		(
 			'id'					=> "INT(11) unsigned NOT NULL auto_increment",
@@ -141,6 +145,19 @@ class SI_BirdFeeder extends Pepper
 	}
 	
 	/**************************************************************************
+	 onRecord()
+	 **************************************************************************/
+	function onRecord()
+	{
+		$referredByFeed = 0;
+		if (isset($_GET['referer']) && empty($_GET['referer']) && isset($_COOKIE['MintReferredByFeed']))
+		{
+			$referredByFeed = 1;
+		}
+		return array('referred_by_feed' => $referredByFeed);
+	}
+	
+	/**************************************************************************
 	 onRecordFeed()
 	 **************************************************************************/
 	function onRecordFeed()
@@ -185,17 +202,26 @@ class SI_BirdFeeder extends Pepper
 		$reader					= $ua['reader'];
 		$reader_version			= $ua['version'];
 		$reader_count			= $this->getSubscriberCount($http_ua);
-		$reader_checksum		= crc32($ip.$reader.$feed_url);
+		$reader_feed_id			= $this->getReaderFeedId($http_ua);
+		$reader_checksum		= crc32(($reader_feed_id!=-1?$reader_feed_id:$ip).$reader.$feed_url);
+		
+		// DEBUG
+		$tmp_debug_message 			 = "UA........: {$http_ua}\r";
+		$tmp_debug_message 			.= "IP........: {$ip}\r";
+		$tmp_debug_message 			.= "Reader....: {$reader}\r";
+		$tmp_debug_message 			.= "Count.....: {$reader_count}\r";
+		$tmp_debug_message 			.= "Feed......: {$feed_url}\r";
+		$tmp_debug_message			.= "Checksum..: {$reader_checksum}\r";
 		
 		// If this is the first hit of the day
 		if (!isset($readership[$feed][0][$today]))
 		{
 			// delete all readers from before today
-			$this->query("DELETE FROM `{$this->db['tblPrefix']}readership` WHERE `dt` < $yesterday");
+			$this->query("DELETE FROM `{$this->db['tblPrefix']}readership` WHERE `dt` < $today"); // TODO: was $yesterday
 			
 			// and establish a default
 			$readership[$feed][0][$today] = 0;
-		}
+		}		
 		
 		// SELECT should be feed-specific
 		$query	= "SELECT `id`, `reader_count`
@@ -216,7 +242,16 @@ class SI_BirdFeeder extends Pepper
 										`dt` = '".time()."' WHERE `id`={$existingReader['id']}"); 
 						
 						// add the difference to the current days total.
-						$readership[$feed][0][$today] += $reader_count - $existingReader['reader_count'];
+						$total_diff = $reader_count - $existingReader['reader_count'];
+						$readership[$feed][0][$today] += $total_diff;
+
+						// DEBUG
+						$tmp_debug_message .= "Add.......: {$total_diff}\r";
+					}
+					else
+					{
+						// DEBUG
+						$tmp_debug_message .= "Add.......: 0\r";
 					}
 				}
 			}
@@ -224,11 +259,20 @@ class SI_BirdFeeder extends Pepper
 			{
 				$this->query("INSERT INTO `{$this->db['tblPrefix']}readership` 
 							(`reader`, `reader_version`, `reader_checksum`, `feed_checksum`, `reader_count`, `dt`) VALUES 
-							('$reader', '$reader_version', '$reader_checksum', '$feed_checksum', '$reader_count', ".time().")");
+							('{$reader}', '{$reader_version}', '{$reader_checksum}', '{$feed_checksum}', '{$reader_count}', ".time().")");
 				
 				// add to current days total
 				$readership[$feed][0][$today] += $reader_count;
+				
+				// DEBUG
+				$tmp_debug_message .= "Add.......: {$reader_count}\r";
 			}
+		}
+		
+		// DEBUG
+		if ($reader == 'Netvibes' || $reader == 'Google Reader' || $reader == 'FeedFetcher')
+		{
+			// mail('mint@haveamint.com', "{$reader} {$reader_checksum}", $tmp_debug_message, 'From: Bird Feeder <birdfeeder@haveamint.com>'."\r\n");
 		}
 		
 		// Do some averaging for this week and current month
@@ -282,16 +326,21 @@ class SI_BirdFeeder extends Pepper
 			exit();
 		}
 		
-		$feed			= $_GET['feed'];
-		$seed 			= $this->escapeSQL($_GET['seed']);
- 		$seed_title		= $this->escapeSQL(str_replace(array('<![CDATA[', ']]>'), '', $_GET['seed_title']));
-		$seed_checksum	= crc32($seed);
-		$feed_checksum	= crc32($feed);
-		$feed			= $this->escapeSQL($feed);
+		if (!isset($_COOKIE['MintIgnore']) || $_COOKIE['MintIgnore']!='true')
+		{
+			$this->Mint->bakeCookie('MintReferredByFeed', 1);
 		
-		$this->query("INSERT INTO `{$this->db['tblPrefix']}seeds` 
-					(`seed`, `seed_title`, `seed_checksum`, `feed`, `feed_checksum`, `dt`) VALUES 
-					('$seed', '$seed_title', '$seed_checksum', '$feed', '$feed_checksum', ".time().")");
+			$feed			= $_GET['feed'];
+			$seed 			= $this->escapeSQL($_GET['seed']);
+	 		$seed_title		= $this->escapeSQL(str_replace(array('<![CDATA[', ']]>'), '', $_GET['seed_title']));
+			$seed_checksum	= crc32($seed);
+			$feed_checksum	= crc32($feed);
+			$feed			= $this->escapeSQL($feed);
+		
+			$this->query("INSERT INTO `{$this->db['tblPrefix']}seeds` 
+						(`seed`, `seed_title`, `seed_checksum`, `feed`, `feed_checksum`, `dt`) VALUES 
+						('$seed', '$seed_title', '$seed_checksum', '$feed', '$feed_checksum', ".time().")");
+		}
 		
 		header("Location:{$_GET['seed']}");
 		exit();
@@ -459,6 +508,8 @@ HTML;
 	 **************************************************************************/
 	function onSavePreferences() 
 	{	
+		$this->prefs['feederDir'] = $_POST['feederDir'];
+		
 		$aggregateFeeds = (isset($_POST['aggregateFeeds']))?$_POST['aggregateFeeds']:0;
 		
 		if ($this->prefs['aggregateFeeds'] != $aggregateFeeds)
@@ -1196,7 +1247,7 @@ HTML;
 			'version'	=> 'Unknown'
 		);
 
-		if (preg_match('!(akregator|Alertbear|AlestiFeedBot|AppleSyndication|attensaonline|BlogBridge|bloglines|BonEcho|cfnetwork|endo|everyfeed-spider|FeedBlitz|feedbringer|feeddemon|Feedfetcher(?:-Google)|Feedpath|feedlounge|feedmania|feedness|feedonfeeds|Feedreader|Feedshow|feedster|firefox|FreshReader|Google Desktop|greatnews|gregarius|hanrss|Hatena RSS|ifeedyou|intraVnews|kinja|liferea|LiteFeeds|livedoor|livejournal|magpierss|Megite|Moreoverbot|MSOffice|netnewswire|netvibes|newsalloy|newsfire|newsfox|newsgator|newsgatoronline|Newshutch|NewzCrawler|Newzie|nif|Opera|Pluck|pluckfeed|Polynews|protopage|pulpfiction|Reblog|reddit|rojo|rssbandit|RSScache\.com|RssFwd|rssowl|RssReader|safari|sage|sharpreader|shrook|Syndic8|theport|thunderbird|UltraLiberalFeedParser|universalfeedparser|vienna|WDNews\.net|yahoofeed|YandexBlog|zfeeder)(?: \(|/|[^/]*/|\s*)v?([0-9.]*)!i', $user_agent, $m))
+		if (preg_match('!(akregator|Alertbear|AlestiFeedBot|Apple-PubSub|AppleSyndication|AttensaEnterprise|attensaonline|BlogBridge|bloglines|BonEcho|cfnetwork|Eldono|endo|everyfeed-spider|FeedBlitz|feedbringer|feeddemon|FeedEachOther|Feedfetcher(?:-Google)|FeedFetcher|Feedpath|feedlounge|feedmania|feedness|feedonfeeds|Feedreader|Feedshow|feedster|Fever|firefox|FreshReader|Google Desktop|greatnews|gregarius|hanrss|Hatena RSS|ifeedyou|intraVnews|kinja|liferea|LiteFeeds|livedoor|livejournal|magpierss|Megite|Moreoverbot|MSOffice|netnewswire|netvibes|newsalloy|newsfire|newsfox|newsgator|newsgatoronline|Newshutch|NewzCrawler|Newzie|nif|Opera|Peeriodicals|Pluck|pluckfeed|Polynews|protopage|pulpfiction|Reblog|reddit|rojo|Rome Client|rssbandit|RSScache\.com|RssFwd|RSS Menu|rssowl|RSS Popper|RssReader|safari|sage|sharpreader|shrook|SimplePie|Spinn3r|Syndic8|TechnoratiSnoop|theport|thunderbird|UltraLiberalFeedParser|universalfeedparser|vienna|WDNews\.net|yahoofeed|YandexBlog|zfeeder)(?: \(|/|[^/]*/|\s*)v?([0-9.]*)!i', $user_agent, $m))
 		{
 			if (isset($m[1]) && !empty($m[1]))
 			{
@@ -1227,18 +1278,39 @@ HTML;
 	function getSubscriberCount($ua)
 	{
 		$count = 1;
-		if (preg_match('!(\d+)?[ :]?(?:subscriber|reader|user|suscriptore)(?:s|\(s\))?[ :]?(\d+)?!i', $ua, $m))
+		if (preg_match_all('!(\d+)?[ :]?(?:subscriber|reader|user|suscriptore)(?:s|\(s\))?[ :]?(\d+)?!i', $ua, $m))
 		{	
-			if (!empty($m[1]))
+			foreach($m[0] as $i => $n)
 			{
-				$count = $m[1];
-			}
-			else if (isset($m[2]))
-			{
-				$count = $m[2];
+				if (!empty($m[1][$i]))
+				{
+					$count = $m[1][$i];
+					break;
+				}
+				else if (isset($m[2][$i]) && !empty($m[2][$i]))
+				{
+					$count = $m[2][$i];
+					break;
+				}
 			}
 		}
 		return $count;
+	}
+	
+	/**************************************************************************
+	 getReaderFeedId()
+	 **************************************************************************/
+	function getReaderFeedId($ua)
+	{
+		$id = -1;
+		if (preg_match('#(feedId|feed-id)[:=]\s*(\d+)#i', $ua, $m))
+		{
+			if (isset($m[2]))
+			{
+				$id = $m[2];
+			}
+		}
+		return $id;
 	}
 	
 	/**************************************************************************
