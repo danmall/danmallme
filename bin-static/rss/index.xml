@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2011</dc:rights>
-    <pubDate>Thurs, 02 Jun 2011 01:49:47 GMT</pubDate>
+    <pubDate>Thurs, 09 Jun 2011 06:59:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Why I Love the Netflix Redesign</title>
+        <description>Netflix should be applauded for their bold redesign.</description>
+        <link>http://danielmall.com/articles/why-i-love-the-netflix-redesign/</link>
+        <guid>http://danielmall.com/articles/why-i-love-the-netflix-redesign/</guid>
+        <pubDate>Thurs, 09 Jun 2011 06:57:00 GMT</pubDate>
+    </item>
     <item>
         <title>Now I Have RSS</title>
         <description>Happy?</description>

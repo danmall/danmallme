@@ -61,21 +61,15 @@
     		    <h1 class="phark">Latest Articles</h1>
 	    
     		    <ul class="no-marker">	
-    		        <li class="home-round-item" style="left: 100px; top: 15px;">
-    				    <a data-tooltip-content="<h1>Now I Have RSS.</h1><p>Happy?</p>" href="/articles/now-i-have-rss/" class="phark phark-link" style="background-image: url(/articles/now-i-have-rss/now-i-have-rss-home.png);">Now I Have RSS</a>
-    				</li>			
-    				<li class="home-round-item" style="left: 300px; top: 10px;">
-    				    <a data-tooltip-content="<h1>Five.</h1><p>Wow. After five long years, it feels great to have a new site.</p>" href="/articles/five/" class="phark phark-link" style="background-image: url(/articles/five/home-five.png);">Five</a>
+    		        <li class="home-round-item" style="left: 100px; top: 6px; z-index: 3;">
+    				    <a data-tooltip-content="<h1>Why I Love the Netflix Redesign</h1><p>Netflix should be applauded for their bold redesign.</p>" href="/articles/why-i-love-the-netflix-redesign/" class="phark phark-link" style="background-image: url(/articles/why-i-love-the-netflix-redesign/netflix-home.png);">Why I Love the Netflix Redesign</a>
     				</li>
-    				<?php /* ?><li class="home-round-item" style="left: 285px; top: 2px;">
-    				    <a href="/work/healthymagination/" class="phark" style="background-image: url(/_assets/home/morsel.jpg);">healthymagination</a>
-    				</li>								
-    				<li class="home-round-item" style="left: 444px; top: 12px;">
-    				    <a href="/work/design-swap/" class="phark" style="background-image: url(/_assets/home/transformers.jpg);">Design Swap</a>
-    				</li>				
-    				<li class="home-round-item" style="left: 600px; top: 6px;">
-    				    <a href="/work/transformers/" class="phark" style="background-image: url(/_assets/home/healthymagination.jpg);">Transformers</a>
-    				</li><?php */ ?>			    				
+    		        <li class="home-round-item" style="left: 300px; top: 20px; z-index: 1;">
+    				    <a data-tooltip-content="<h1>Now I Have RSS</h1><p>Happy?</p>" href="/articles/now-i-have-rss/" class="phark phark-link" style="background-image: url(/articles/now-i-have-rss/now-i-have-rss-home.png);">Now I Have RSS</a>
+    				</li>			
+    				<li class="home-round-item" style="left: 500px; top: 12px; z-index: 2;">
+    				    <a data-tooltip-content="<h1>Five</h1><p>Wow. After five long years, it feels great to have a new site.</p>" href="/articles/five/" class="phark phark-link" style="background-image: url(/articles/five/home-five.png);">Five</a>
+    				</li>			    				
     			</ul>
     			
     			<p class="more"><a href="/articles/">See all</a></p>

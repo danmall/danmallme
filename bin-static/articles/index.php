@@ -39,6 +39,18 @@
             	    <li>
             	        <article>
             	            <header>
+            	                <h1><a href="/articles/why-i-love-the-netflix-redesign/">Why I Love the Netflix Redesign</a></h1>
+            	            </header>
+            	            <p>Netflix should be applauded for their bold redesign.</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/why-i-love-the-netflix-redesign/"><time datetime="2011-06-09T06:57:00">Jun 9, 2011</time></a></li>
+            	                <li class="comments"><a href="/articles/why-i-love-the-netflix-redesign#disqus_thread" data-disqus-identifier="why-i-love-the-netflix-redesign"></a></li>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
+        	        </li>
+            	    <li>
+            	        <article>
+            	            <header>
             	                <h1><a href="/articles/now-i-have-rss/">Now I Have <abbr title="Really Simple Syndication">RSS</abbr></a></h1>
             	            </header>
             	            <p>Happy?</p>
@@ -47,7 +59,8 @@
             	                <li class="comments"><a href="/articles/now-i-have-rss#disqus_thread" data-disqus-identifier="now-i-have-rss"></a></li>
             	                <?php /* ?><li class="categories"><a href="/channel/C11">design</a>, <a href="http://mahogany.danielmall.com/channel/C10">html</a></li><?php */ ?>
             	            </ul><!-- .meta -->
-            	        </article>        	        
+            	        </article>
+            	    </li>        	        
         	        <li>
             	        <article>
             	            <header>
