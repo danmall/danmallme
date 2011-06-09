@@ -8,7 +8,7 @@
     #netflix a:hover, #netflix a:focus { border-bottom: 1px solid rgba(255, 255, 255, 1); color: #aa3114; background: #fff; }
     #netflix em { color: #fffc00; font-style: normal; }
     
-::selection { background: #fff; color: #aa3114; }
-::-moz-selection { background: #fff; color: #aa3114; }
+#netflix::selection { background: #fff; color: #aa3114; }
+#netflix::-moz-selection { background: #fff; color: #aa3114; }
     
 
