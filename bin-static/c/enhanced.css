@@ -90,13 +90,16 @@ http://www.danielmall.com/
 /*-------------------------------------------    
     Work
 -------------------------------------------*/
-#work-landing #clients { padding-top: 70px; }
+/*#work-landing #clients { padding-top: 70px; }*/
+
+#work-landing #clients { overflow: hidden; padding-top: 20px; position: relative; }
+    #new-mask { background: #fff; left: 136px; top: 15px; position: absolute; height: 50px; width: 200px; }
 
 #clients-headline1 { z-index: 2; }
 #clients-headline2 { z-index: 1; }
 
 #work-landing .mask-wrapper { position: absolute; top: 20px; width: 130px; }
-    #work-landing .mask { background: #fff; right: 0; top: -5px; position: absolute; height: 40px; width: 0; }
+    #work-landing .mask { background: blue; right: 0; top: -5px; position: absolute; height: 40px; width: 0; }
     #clients-headline2 .mask { width: 130px; }
     
 #work-landing .projects li { opacity: 0; }

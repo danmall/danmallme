@@ -111,43 +111,27 @@ $(document).ready(function() {
         /*-------------------------------------------    
             Work
         -------------------------------------------*/
-
+        
         initClientsRollOver: function(){
         
             var _animationSpeed1 = 400;
-            var _animationSpeed2 = 700;
             var _animationDelay = 200;
-        
-            $('#work-landing #clients h1').wrap('<div id="clients-headline1" class="mask-wrapper"></div>');
-            var _clientsHeadline = $('#clients-headline1');
-            _clientsHeadline.append('<div class="mask"></div>');
-
-            _clientsHeadline.after('<div id="clients-headline2" class="mask-wrapper"><h1 id="doppelganger">Clients that couldn&rsquo;t live without me</h1><div class="mask"></div></div>');
-            var _doppelganger = $('#clients-headline2');
-        
+            
+            $('#work-landing #clients h1').after('<div id="new-mask"></div>')
+            
             $('#work-landing #clients').mouseenter(function(){
             
-                $('#clients-headline1 .mask').animate({
-                     width: '130px'
-                }, _animationSpeed1, 'easeInOutCirc', function(){
-                    _doppelganger.css('z-index', 2);                
-                });
-
-                $('#clients-headline2 .mask').delay(_animationDelay).animate({
-                     width: '0'
-                }, _animationSpeed2, 'easeInOutCirc');            
-            
-            }).mouseleave(function(){    
-                    
-                $('#clients-headline2 .mask').animate({
-                     width: '130px'
-                }, _animationSpeed1, 'easeInOutCirc', function(){
-                    _doppelganger.css('z-index', 1);                
+                $('#new-mask').stop().animate({ left: '0px'}, _animationSpeed1, 'easeInOutCirc', function(){
+                    $('#work-landing #clients h1').html("Clients that couldn&rsquo;t live without me");
+                    $(this).animate( { left: '136px'}, _animationSpeed1, 'easeInOutCirc');
                 });
             
-                $('#clients-headline1 .mask').delay(_animationDelay).animate({
-                     width: '0'
-                }, _animationSpeed2, 'easeInOutCirc');
+            }).mouseleave(function(){
+                
+                $('#new-mask').stop().animate({ left: '0px'}, _animationSpeed1, 'easeInOutCirc', function(){
+                    $('#work-landing #clients h1').html("Clients I couldn&rsquo;t live without");
+                    $(this).animate( { left: '136px'}, _animationSpeed1, 'easeInOutCirc');
+                });
             
             });
 
