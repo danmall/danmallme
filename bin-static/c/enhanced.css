@@ -131,6 +131,7 @@ http://www.danielmall.com/
     .dsq-comment-header { background: none !important; border: none !important; padding: 0 !important; }
     .dsq-commenter-name { font: bold 16px 'Trebuchet MS', Arial, sans-serif; }
     .dsq-comment-body { padding-left: 56px !important; }
+    .dsq-comment blockquote { margin-bottom: -1.5em; }
     
     .dsq-post-tools .dsq-post-as .dsq-button { display: inline-block; border-radius: 4px !important; background: #231f20 !important; color: #fff !important; text-transform: uppercase; padding: 0.5em 13px !important; font-family: 'Trebuchet MS', Arial, sans-serif; border: none !important; box-shadow: none !important; -webkit-box-shadow: none !important; text-shadow: none !important; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear;}
     .dsq-post-tools .dsq-post-as .dsq-button:hover { background: #73ae08 !important; }

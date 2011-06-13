@@ -64,7 +64,8 @@ p, ul, dl, ol { font-size: 12px; margin: 0 0 1.5em;  }
 
 dd { /*margin: 0 0 0 15px;*/ }
 
-blockquote { margin: 0 0 1.2em; }
+blockquote { margin: 0; padding: 0.9em 0 0 45px; background: transparent url(/i/screen/blockquote.gif) no-repeat 0 0; }
+    blockquote p, blockquote ol, blockquote ul { font: 16px Arial, sans-serif; font-style: italic; color: #777; }
 
 table { font-size: 13px; }
 	tr {  }
