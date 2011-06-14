@@ -155,6 +155,7 @@
                         <li><a rel="met friend" href="http://portfolio.justinfreiler.com/">Justin Freiler</a></li>
                         <li><a rel="met friend" href="http://plasticmind.com/">Jesse Gardner</a></li>
                         <li><a rel="met friend" href="http://weightshift.com/">Naz Hamid</a></li>
+                        <li><a rel="met friend" href="http://brianhoff.net/">Brian Hoff</a></li>
                         <li><a rel="met friend" href="http://markhuot.com/">Mark Huot</a></li>
                         <li><a rel="met friend" href="http://shauninman.com/">Shaun Inman</a></li>
                         <li><a rel="met friend co-worker" href="http://ayakaito.com/">Ayaka Ito</a></li>
