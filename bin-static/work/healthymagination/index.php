@@ -132,7 +132,8 @@
                         <li>Design</li>
                         <li>Strategy</li>
                     </ul>
-
+                    
+                    <?php /* ?>
                     <h2>Team</h2>
                     <ul>
                         <li><a href="http://bigspaceship.com/">Michael Lebowitz</a>&mdash;Creative Direction</li>
@@ -142,6 +143,7 @@
                         <li><a href="http://www.danielscheibel.com/">Daniel Scheibel</a>&mdash;Development &amp; Strategy</li>
                         <li>Ranae Heuer&mdash;Production &amp; Account Management</li>
                     </ul>
+                    <?php */ ?>
 
                     <h2>Agency</h2>
                     <p><a href="http://bigspaceship.com/">Big Spaceship</a></p>

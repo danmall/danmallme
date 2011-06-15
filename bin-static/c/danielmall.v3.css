@@ -212,7 +212,7 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
 .wrap, .wrap800 { width: 800px; margin: 0 auto; }
 
 footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margin-bottom: 50px; padding: 1em 0 1.5em; font-family: 'Trebuchet MS', Arial, sans-serif; clear: both; }
-    footer ul { margin: 0; }
+    /*footer ul { margin: 0; }*/
     #home footer { margin: 0 auto; width: 800px; border: none; padding: 40px 0 4em; }
         footer li { display: inline; margin: 0 20px 0 0; font-size: 11px; }
             footer a { color: #656262; border-bottom: 1px dotted #656262; }

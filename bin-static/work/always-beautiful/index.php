@@ -116,7 +116,8 @@
                         <li>Design</li>
                         <li>Illustration</li>
                     </ul>
-
+                    
+                    <?php /* ?>
                     <h2>Team</h2>
                     <ul>
                         <li><a href="http://lifeislottery.com/">Jarrod Riddle</a>&mdash;Design, Illustration</li>
@@ -128,6 +129,7 @@
                         <li>Shannon Heuer&mdash;Production</li>
                         <li><a href="http://nookajones.com/">Nooka Jones</a>&mdash;Production</li>
                     </ul>
+                    <?php */ ?>
 
                     <h2>Year</h2>
                     <p>2010</p>

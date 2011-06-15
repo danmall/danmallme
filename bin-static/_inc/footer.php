@@ -7,8 +7,13 @@
     		<li>Powered by <a href="http://www.expressionengine.com/index.php?affiliate=danielmall">ExpressionEngine</a></li><?php */ ?>
     		<li>Powered by Hand Coding&trade;</li>
     		<li>Graciously hosted by <a href="http://www.mediatemple.net/go/order/?refdom=danielmall.com">Media Temple</a></li>
-    		<li>Follow <a href="http://twitter.com/danielmall">@danielmall</a></li>
+    		<noscript><li>Follow <a href="http://twitter.com/danielmall">@danielmall</a></li></noscript>
     		<li><a href="http://feeds.feedburner.com/dan-mall-articles">RSS</a></li>
     	</ul>
+    	
+    	<script>
+    	document.write('<section id="twitter-follow"><a href="http://twitter.com/danielmall" class="twitter-follow-button">Follow @danielmall</a></section>');    	
+    	</script>
+    	<script src="http://platform.twitter.com/widgets.js"></script>
 
     </footer>

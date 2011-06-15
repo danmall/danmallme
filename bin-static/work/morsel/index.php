@@ -98,7 +98,8 @@
                     <li>Strategy</li>
                     <li>User Experience</li>
                 </ul>
-
+                
+                <?php /* ?>
                 <h2>Team</h2>
                 <ul>
                     <li><a href="http://www.ivanaskwith.com/">Ivan Askwith</a>&mdash;Strategy</li>
@@ -108,6 +109,7 @@
                     <li>Ranae Heuer&mdash;Production &amp; Account Management</li>
                     <li><a href="http://two-bulls.com/">Two Bulls</a>&mdash;Development</li>
                 </ul>
+                <?php */ ?>
 
                 <h2>Agency</h2>
                 <p><a href="http://bigspaceship.com/">Big Spaceship</a></p>

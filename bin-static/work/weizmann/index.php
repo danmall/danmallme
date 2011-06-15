@@ -82,7 +82,8 @@
                         <li>Animation</li>
                         <li>Front-end Development</li>
                     </ul>
-
+                    
+                    <?php /* ?>
                     <h2>Team</h2>
                     <ul>
                         <li><a href="http://blog.damian-atkinson.com/">Damian Atkinson</a>&mdash;Design, Animation</li>
@@ -93,6 +94,7 @@
                         <li>Shannon Heuer&mdash;Production</li>
                         <li><a href="http://gilbertyeh.com/">Gil Yeh</a>&mdash;Information Architecture</li>
                     </ul>
+                    <?php */ ?>
 
                     <h2>Year</h2>
                     <p>2010</p>

@@ -77,9 +77,11 @@
                         <li>Art Direction</li>
                         <li>Design</li>
                     </ul>
-
+                    
+                    <?php /* ?>
                     <h2>Team</h2>
                     <p><a href="http://bigspaceship.com/">Michael Lebowitz</a>&mdash;Creative Direction</p>        
+                    <?php */ ?>
 
                     <h2>Year</h2>
                     <p>2010</p>
