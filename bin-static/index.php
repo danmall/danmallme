@@ -290,7 +290,7 @@
                     	} 
                     	// In case the RSS feed did not parse or load correctly, show a link to the Twitter account.
                     	if (!$tweet_found){
-                    		echo $twitter_wrap_open.$tweet_wrap_open.'Oops, our twitter feed is unavailable right now. '.$meta_wrap_open.'<a href="http://twitter.com/'.$twitter_user_id.'">Follow us on Twitter</a>'.$meta_wrap_close.$tweet_wrap_close.$twitter_wrap_close;
+                    		echo $twitter_wrap_open.$tweet_wrap_open.'Oops, my twitter feed is unavailable right now. '.$meta_wrap_open.'<a href="http://twitter.com/'.$twitter_user_id.'">Follow me on Twitter</a>'.$meta_wrap_close.$tweet_wrap_close.$twitter_wrap_close;
                     	}
                     }
 
