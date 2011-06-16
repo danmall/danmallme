@@ -216,12 +216,18 @@ $(document).ready(function() {
                 }
                 
             });
-        }
+        },
     
     
         /*-------------------------------------------    
             Global Functions
         -------------------------------------------*/
+        
+        initTwitterAnywhere: function(){
+            twttr.anywhere(function (T) {
+                T.hovercards();
+              });
+        }
         
     }
     
@@ -243,6 +249,9 @@ $(document).ready(function() {
     // CONTACT
     dmall.allEars();
     dmall.validateContactForm();
+    
+    // GLOBAL
+    //dmall.initTwitterAnywhere();
     
     
 });
