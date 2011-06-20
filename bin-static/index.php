@@ -109,7 +109,6 @@
 		
 		</section><!-- /#links --><?php */ ?>
 		
-		<?php /* ?>
 		<script>
 		document.write('<section id="tweet" class="home-row"><div class="inner"><h1 class="phark">Latest Tweets</h1><div id="tweets"></div><p class="more">from <a href="http://twitter.com/danielmall">@danielmall</a></p></div></section>');
         getTwitters('tweets', { 
@@ -122,8 +121,8 @@
         });
         
 		</script>
-		<?php */ ?>
 		
+		<?php /* 
 		<section id="tweet" class="home-row">
 		    <div class="inner"><h1 class="phark">Latest Tweets</h1>
 		        <div id="tweets">
@@ -150,10 +149,11 @@
                      * Feed parsing: http://boagworld.com/forum/comments.php?DiscussionID=4639
                      */
                      
-
+                     /*
                     function display_latest_tweets(
                     	$twitter_user_id,
-                    	$cache_file = 'http://attic.danielmall.com/twitter.txt',
+                    	//$cache_file = '/twitter.txt',
+                    	$cache_file = '../_inc/twitter.php',
                     	$tweets_to_display = 3,
                     	$ignore_replies = true,
                     	//$twitter_wrap_open = '<h2>Latest tweets</h2><ul id="twitter">',
@@ -294,12 +294,12 @@
                     	}
                     }
 
-                    display_latest_tweets('danielmall');
+                    display_latest_tweets('danielmall'); */
 
                     ?>
-		          
+		        <?php /* ?>  
 		        </div>
-		        <p class="more">from <a href="http://twitter.com/danielmall">@danielmall</a></p>
+		        <p class="more">from <a href="http://twitter.com/danielmall">@danielmall</a></p><?php */ ?>
 		    </div>
 		</section><!-- #tweet -->
 			
