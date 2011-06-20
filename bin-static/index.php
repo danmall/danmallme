@@ -117,7 +117,7 @@
             enableLinks: true, 
             ignoreReplies: true, 
             clearContents: true,
-            template: '<div class="animation-clip-container"><article><p>%text%</p><p class="meta"><a href="http://twitter.com/%user_screen_name%/statuses/%id%/"><time datetime="">%time%</time></a></p></article></div>'
+            template: '<div class="animation-clip-container"><article><p>%text%</p><p class="meta"><a href="http://twitter.com/%user_screen_name%/statuses/%id_str%/"><time datetime="">%time%</time></a></p></article></div>'
         });
         
 		</script>
