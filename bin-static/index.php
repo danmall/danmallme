@@ -153,7 +153,7 @@
 
                     function display_latest_tweets(
                     	$twitter_user_id,
-                    	$cache_file = './twitter.txt',
+                    	$cache_file = 'http://attic.danielmall.com/twitter.txt',
                     	$tweets_to_display = 3,
                     	$ignore_replies = true,
                     	//$twitter_wrap_open = '<h2>Latest tweets</h2><ul id="twitter">',
