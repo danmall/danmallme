@@ -42,7 +42,9 @@
         		    <?php } ?>       		
         		<?php } else { ?>
         		<li id="nav-articles"><a href="/articles/">Articles</a></li>
-        		<?php } ?>
+        		<?php } ?>        		
+
+        		<li id="nav-links"><a href="http://links.danielmall.com/">Links</a></li>
         		
         		<?php if($_SERVER['REQUEST_URI'] == '/about/') { ?>
         		<li id="nav-about"><mark>About</mark></li>
