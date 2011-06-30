@@ -379,7 +379,14 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
         #speaking .work-row { height: 350px; padding: 0; }
             #speaking .work-row .inner { position: relative; padding: 0; width: 800px; }
                 #speaking .work-row a { transition: all 0s linear; -moz-transition: all 0s linear; -webkit-transition: all 0s linear; -o-transition: all 0s linear; }
-    
+        
+        #breakthroughs { background: #e9193a url(/i/screen/work/speaking/breakthroughs.png) no-repeat center 0; height: 0; }
+            #breakthroughs .inner { height: 350px; }
+                #breakthroughs .inner article { position: static; }
+                    #breakthroughs .register { position: absolute; top: 196px; left: 76px; }
+                        #breakthroughs .register a { font: 16px Georgia, 'Times New Roman', serif; font-style: italic; color: #fff; border: none; width: 7em; background: #000; padding: 0.75em 1em; display: block; }
+                        #breakthroughs .register a:hover, #breakthroughs .register a:focus { color: #ff0029; }
+                        #breakthroughs .register .point { display: block; background-image: url(/i/screen/work/speaking/breakthroughs-point.png); width: 10px; height: 9px; position: absolute; bottom: -9px; left: 10px;  }
         #inspire-conf { background: transparent url(/i/screen/work/speaking/inspire-conf.png) no-repeat center 0; }
             #inspire-conf p.more { position: absolute; top: 290px; left: 330px; }
             #inspire-conf a { background: transparent url(/i/screen/work/speaking/inspire-register.png) no-repeat 0 0; width: 135px; height: 24px; padding: 0; border: none; }

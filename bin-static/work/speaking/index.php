@@ -32,7 +32,7 @@
 	
 	<section id="content">
 	       
-	    <ol class="no-marker">
+	    <ol class="no-marker">	        
 	        <li class="work-row vevent" id="inspire-conf">
 	            <div class="inner">
     	            <article>
@@ -42,6 +42,18 @@
     	            </article>
     	        </div>
 	        </li>
+	        <li class="work-row vevent" id="breakthroughs">
+	            <div class="inner">
+    	            <article>
+    	                <hgroup class="offscreen">
+        	                <h1 class="summary">Responsive Web Design: Design once, display everywhere?</h1>
+        	                <h2>Webinar&mdash;<abbr class="dtstart" title="2011-07-27T12:00:00">Wednesday, July 27 at 12:00PM EST</abbr></h2>
+    	                </hgroup>
+    	                <p class="register"><a href="http://www.aiga.org/webinar-responsive-web-design/">Register Now</a><span class="point phark"></span></p>
+    	                <p class="offscreen">Breakthroughs: A free webinar series designed by Adobe and AIGA, exclusively for members.</p>
+    	            </article>
+    	        </div>
+	        </li><!-- #breakthroughs -->
 	        <li class="work-row vevent" id="sva-flash-intensive">
 	            <div class="inner">
     	            <article>
