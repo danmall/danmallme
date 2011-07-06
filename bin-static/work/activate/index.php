@@ -45,7 +45,7 @@
             	        <a href="/work/morsel">Morsel</a>
         	        </li><?php */ ?>
         	        <li class="next">            	        
-            	        <a href="/work/healthymagination/">healthymagination</a>            	        
+            	        <a href="/work/coupon-craze/">Coupon Craze</a>            	        
         	        </li>
         	    </ul><!-- #project-nav -->
         	    

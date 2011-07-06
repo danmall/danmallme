@@ -37,7 +37,8 @@
 		            <li id="year2011">
 		                <h2>2011</h2>
 		                <ul class="projects">
-		                    <li style="top: 8px; left: 48px;"><a href="/work/activate/">Activate</a></li>
+		                    <li style="top: -10px; left: 48px;"><a href="/work/activate/">Activate</a></li>
+		                    <li style="top: 25px; left: 270px;"><a href="/work/coupon-craze/">Coupon Craze</a></li>
 		                </ul>
 		            </li>
 		            <li id="year2010">

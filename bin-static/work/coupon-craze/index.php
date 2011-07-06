@@ -6,15 +6,11 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/jsReference.php"); echo "\n"; ?>
     <style>
-        .page-title { background-image: url(activate.png); width: 474px; height: 88px; }
+        .page-title { background-image: url(coupon-craze.png); width: 598px; height: 86px; }
         #project-header hgroup { top: 12px; }  
 
-        .project-image { height: 730px; background: transparent url(activate-hero.jpg) no-repeat center 0; margin-bottom: 0; }
-        .project-url { left: -36px; top: 34px; }
-        
-        #awards { background: transparent url(always-beautiful-awards.png) no-repeat 0 0; height: 319px; }
-            #fwa a { width: 162px; height: 70px; top: 135px; left: 170px; }
-            #webby a { width: 226px; height: 143px; top: 113px; left: 448px; }
+        .project-image { height: 1584px; background: transparent url(coupon-craze-hero.jpg) no-repeat center 0; margin-bottom: 0; }
+        .project-url { left: 158px; top: 26px; font-size: 9px; }
                 
     </style>
 </head>
@@ -58,7 +54,7 @@
 	    </section><!-- #work-area -->
 	    
 	    <div class="project-image">
-            <div class="wrap"><a class="project-url" href="http://activatedrinks.com/">http://activatedrinks.com/</a></div>
+            <div class="wrap"><a class="project-url" href="http://couponcraze.com/">http://couponcraze.com/</a></div>
         </div>
 
         <section id="work-content">
@@ -67,21 +63,13 @@
 
                 <div class="main">
                     
-                    <p>Putting a new twist on vitamin-enhanced water, ACTIVATE has built their brand through innovative product design and the promise of &ldquo;a turn for the better&rdquo;&mdash;fresh vitamins released into the bottle with a simple twist of the cap. We began our ongoing relationship with the brand by crafting a digital foundation that mirrors their innovative personality, while visually showcasing the power of fresh vitamins.</p>
-
-                    <p>ACTIVATE represents more than just a drink&mdash;it&rsquo;s an action, a transition, and ultimately, a moment. Tasked with creating a digital presence to update the brand&rsquo;s image, we created a free-flowing site that encouraged consumers to explore the product for themselves. </p>
-
-                    <p>Upon landing at <a href="http://activatedrinks.com/">ACTIVATEdrinks.com</a>, users are prompted to &ldquo;twist the cap,&rdquo; activating a rich vertical animation experience that guides you through each section with a flow of vitamins and water. As you scroll, a custom parallax effect gives depth to layers of content and flowing water that changes color as you explore.</p>
-
-                    <p>Using design cues from the new .com, we created a rich tab for ACTIVATE&rsquo;s new Facebook presence. Vibrant colors showcase the brand&rsquo;s updated identity, while custom units allow fans to search for retailers, get free samples, and explore the brand&rsquo;s longstanding partnership with Nourish America. </p>
-
-                    <p>Ultimately, ACTIVATE&rsquo;s new digital presence showcases the brand&rsquo;s unique personality and affinity for innovation&mdash;and the possibilities that come with a turn for the better.</p>
+                    <p>MSDS approached me to craft an intelligent design system for Coupon Craze, the former leader in online coupons. After they had gone through thorough branding and <abbr title="Information Architecture">IA</abbr> phases, I came in to translate that thinking into a design. Despite a plethora of elements on screen, I created a visual hierarchy that gives the sense of a wealth of content without being too overwhelming.</p>
 
                     <section id="bibliography">
 
                         <h1>See more</h1>
 
-                        <p><a href="http://www.bigspaceship.com/portfolio/activate-drinks/">Activate Drinks,</a> a case study by Big Spaceship</p>
+                        <p><a href="http://www.ms-ds.com/client/coupon-craze/tag/interactive.html">Coupon Craze,</a> a case study by MSDS</p>
 
                     </section><!-- #bibliography -->
 
@@ -90,7 +78,7 @@
                 <div class="sub">
 
                     <h2>Client</h2>
-                    <p>ACTIVATE Drinks</p>
+                    <p>Coupon Craze</p>
 
                     <h2>Role</h2>
                     <ul>
@@ -114,10 +102,10 @@
                     <p>2011</p>
 
                     <h2>Agency</h2>
-                    <p><a href="http://bigspaceship.com/">Big Spaceship</a></p>
+                    <p><a href="http://ms-ds.com/">MSDS</a></p>
 
                     <h2>Live Site</h2>
-                    <p><a href="http://activatedrinks.com/">Activate</a></p>
+                    <p><a href="http://couponcraze.com/">Coupon Craze</a></p>
 
                 </div><!-- .sub -->
 
