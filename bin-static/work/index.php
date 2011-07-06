@@ -34,6 +34,12 @@
 		    <section id="work-browser" class="main">
 		        
 		        <ul class="no-marker">
+		            <li id="year2011">
+		                <h2>2011</h2>
+		                <ul class="projects">
+		                    <li style="top: 8px; left: 48px;"><a href="/work/activate/">Activate</a></li>
+		                </ul>
+		            </li>
 		            <li id="year2010">
 		                <h2>2010</h2>
 		                <ul class="projects">

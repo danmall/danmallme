@@ -43,6 +43,9 @@
         	    </hgroup>
 
         	    <ul id="project-nav" class="no-marker">
+        	        <li class="prev">        	            
+            	        <a href="/work/activate/">Activate</a>
+        	        </li>
                     <li class="next">            	        
     	                <a href="/work/design-swap/">Design Swap</a>            	        
 	                </li>
