@@ -105,6 +105,10 @@ http://www.danielmall.com/
 #work-landing .projects li { opacity: 0; }
     
 #project-header .page-title, .project-subtitle, .browser-chrome-wrap, .project-image, #facebook-like { opacity: 0; }
+
+#work #tooltip { position: absolute; z-index: 3000; border: none; background: rgba(38, 34, 35, 0.9); padding: 1.5em 15px 1em; width: auto; max-width: 200px; }
+    .work-tooltip { display: block; color: #fff; margin: 0 0 0.1em; line-height: 1.1; }
+
     
 
 /*-------------------------------------------    

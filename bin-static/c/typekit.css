@@ -50,7 +50,8 @@ blockquote p { line-height: 1.2; }
 #roles, #master-roles { font-size: 16px; font-family: "urbana-1","urbana-2"; font-weight: 300; }
     #master-roles span { opacity: 0.5; }
 
-#tooltip h1 { font-size: 26px; font-family: "urbana-1","urbana-2"; font-weight: 300; /*text-transform: uppercase;*/ }
+#tooltip h1, .work-tooltip { font-size: 26px; font-family: "urbana-1","urbana-2"; font-weight: 300; /*text-transform: uppercase;*/ }
+.work-tooltip { font-size: 20px; }
 
 
 

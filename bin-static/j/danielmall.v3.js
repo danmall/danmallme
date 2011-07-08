@@ -179,6 +179,23 @@ $(document).ready(function() {
             
         },
         
+        /* Tooltip for prev/next arrows */
+        
+        initProjectNavTooltip: function(){
+        
+            $("#project-nav a").tooltip({
+                bodyHandler: function() { 
+                    //_tooltipText = $(this).attr('data-tooltip-content');
+                    _tooltipText = $(this).html();
+                    return '<span class="work-tooltip">' + _tooltipText + '</span>'; 
+                },
+                showURL: false,
+                track: true,
+                fade: 250
+            });
+        
+        },
+        
         
         /*-------------------------------------------    
             Contact
@@ -245,6 +262,7 @@ $(document).ready(function() {
     dmall.animateWorkLandingElements();
     dmall.moveLikeButton();
     dmall.fadeInTitle();
+    dmall.initProjectNavTooltip();
     
     // CONTACT
     dmall.allEars();
