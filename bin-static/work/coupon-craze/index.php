@@ -41,7 +41,7 @@
             	        <a href="/work/activate/">Activate</a>
         	        </li>
         	        <li class="next">            	        
-            	        <a href="/work/healthymagination/">healthymagination</a>            	        
+            	        <a href="/work/extra/">Extra 30-Day Snackdown Challenge</a>            	        
         	        </li>
         	    </ul><!-- #project-nav -->
         	    

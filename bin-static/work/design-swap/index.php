@@ -106,7 +106,7 @@
                 <h2>Year</h2>
                 <p>2010</p>
 
-                <h2>Status</h2>
+                <h2>Live Site</h2>
                 <p><a href="http://design-swap.danielmall.com/">A Day in the Life of Brian Hoff</a></p>
 
             </div><!-- .sub -->

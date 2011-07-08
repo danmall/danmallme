@@ -38,7 +38,8 @@
 		                <h2>2011</h2>
 		                <ul class="projects">
 		                    <li style="top: -10px; left: 48px;"><a href="/work/activate/">Activate</a></li>
-		                    <li style="top: 25px; left: 270px;"><a href="/work/coupon-craze/">Coupon Craze</a></li>
+		                    <li style="top: 25px; left: 230px;"><a href="/work/coupon-craze/">Coupon Craze</a></li>
+		                    <li style="top: -2px; left: 411px;"><a href="/work/extra/">Extra 30-Day <span style="white-space: nowrap;">Snackdown Challenge</span></a></li>
 		                </ul>
 		            </li>
 		            <li id="year2010">
@@ -108,7 +109,7 @@
                     <li>Carlisle Wide Plank Floors</li>
                     <li>CFM Direct</li>
                     <li>Comhaltas</li>
-                    <?php /* ?><li>Crayola</li><?php */ ?>
+                    <li>Crayola</li>
                     <li>Daily Kos</li>
                     <li>Electrolux</li>
                     <li>Environmental Defense</li>
@@ -143,6 +144,7 @@
                     <li><a href="/work/posse/">The Posse Foundation</a></li>
                     <li><a href="/work/preventiv/">Pr&eacute;ventiv Water</a></li>
                     <li>PulseTracer</li>
+                    <li>Reebok</li>
                     <li><a href="/work/krylon/">Sherwin-Williams</a></li>
                     <li>SmartyPig</li>
                     <li>T. Rowe Price</li>

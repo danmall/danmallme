@@ -44,7 +44,7 @@
 
         	    <ul id="project-nav" class="no-marker">
         	        <li class="prev">        	            
-            	        <a href="/work/coupon-craze/">Coupon Craze</a>
+            	        <a href="/work/extra/">Extra 30-Day Snackdown Challenge</a>
         	        </li>
                     <li class="next">            	        
     	                <a href="/work/design-swap/">Design Swap</a>            	        
