@@ -411,7 +411,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
                 #sxsw2010 .more a { background: rgba(255, 255, 255, 0.2); border: none; }
                 #sxsw2010 .more a:hover, #sxsw2010 .more a:focus { background: rgba(255, 255, 255, 0.3); }
             #sxsw2010 a { color: #ff9792; }
-            #sxsw2010 blockquote { position: relative; left: -9px; }
+            #sxsw2010 blockquote { position: relative; left: -9px; padding: 0; background: none; }
                 #sxsw2010 blockquote p { font-size: 13px; }
                 #sxsw2010 blockquote p:first-child { font-size: 20px; color: #ccc; margin-bottom: 0.25em; }
                 #sxsw2010 blockquote p:first-child:before { content: "\201c"; }
