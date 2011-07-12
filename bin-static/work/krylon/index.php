@@ -40,6 +40,9 @@
         	        <li class="prev">        	            
             	        <a href="/work/posse-foundation/">The Posse Foundation</a>
         	        </li>
+        	        <li class="next">        	            
+            	        <a href="/work/fogbugz/">Fogbugz</a>
+        	        </li>
         	    </ul><!-- #project-nav -->
         	    
         	    <span id="facebook-like">

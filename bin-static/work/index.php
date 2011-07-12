@@ -77,6 +77,7 @@
 		                <ul class="projects">
 		                    <?php /* ?><li style="top: -15px; left: 420px;"><a href="/work/parc-rittenhouse/">Parc Rittenhouse</a></li><?php */ ?>
 		                    <li style="top: -40px; left: 80px;"><a href="/work/krylon/">Krylon</a></li>
+		                    <li style="top: 20px; left: 310px;"><a href="/work/fogbugz/">Fogbugz</a></li>
 		                </ul>
 		            </li>
 		            <?php /* ?>
