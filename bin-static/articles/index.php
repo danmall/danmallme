@@ -36,7 +36,19 @@
             	    <li><a href="/articles/9/" title="Page 9 of Articles"><b>Page</b> 9</a></li>
             	</ol><?php '/.pagination' */ ?>
             	
-            	<ol class="articles no-marker">   
+            	<ol class="articles no-marker">
+            	    <li>
+            	        <article>
+            	            <header>
+            	                <h1><a href="/articles/photoshop-clusters/">Photoshop Clusters</a></h1>
+            	            </header>
+            	            <p>An idea for configuring Photoshop.</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/photoshop-clusters/"><time datetime="2011-07-13T07:37:00">Jul 13, 2011</time></a></li>
+            	                <li class="comments"><a href="/articles/photoshop-clusters#disqus_thread" data-disqus-identifier="photoshop-clusters"></a></li>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
+        	        </li>   
             	    <li>
             	        <article>
             	            <header>
