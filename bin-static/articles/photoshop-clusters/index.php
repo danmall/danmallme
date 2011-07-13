@@ -23,7 +23,7 @@
 	            <h2>An idea for configuring Photoshop</h2>
 	        </hgroup>
 	        
-	        <p>When I get to work every day, opening Photoshop is one of the first things I do. I usually don&rsquo;t close it until I leave for the day. I use it consistently and still learn something new about it every day. I&rsquo;m amazed at how much smarts are actually built into it.</p> 
+	        <p>When I get to work every day, opening <a href="http://www.adobe.com/products/photoshop.html">Adobe Photoshop</a> is one of the first things I do. I usually don&rsquo;t close it until I leave for the day. I use it consistently and still learn something new about it every day. I&rsquo;m amazed at how much smarts are actually built into it.</p> 
 
             <p>That&rsquo;s not to say it&rsquo;s without flaws. Photoshop is a beast. The application has been through <a href="http://en.wikipedia.org/wiki/Adobe_Photoshop_release_history">17 different versions</a>. It&rsquo;s heavy, and each new version all but requires a nearly maxed out machine to run. I&rsquo;d imagine there&rsquo;s a lot of legacy bloat in the app. While I&rsquo;d love to see Adobe start from scratch and build a lean, mean, new Photoshop, that might not be possible for a number of reasons. </p>
 
