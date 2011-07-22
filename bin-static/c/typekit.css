@@ -93,7 +93,7 @@ blockquote p { line-height: 1.2; }
 
 #history th { font-size: 18px; font-family: "urbana-1","urbana-2"; font-weight: 600; color: #fff; opacity: 1; padding-top: 0.75em; }
 
-#fact-soda dd { font-size: 60px; font-family: "gloriola-display-thin-1","gloriola-display-thin-2"; top: 50px; }
+#fact-soda dd { font-size: 60px; font-family: "gloriola-display-thin-1","gloriola-display-thin-2"; top: 60px; line-height: 1; }
 
 /*-------------------------------------------    
     Contact

@@ -107,7 +107,11 @@
         	            <div id="fact-soda">
         	                <dl>
         	                    <dt class="phark">Days without soda</dt>        	                    
-        	                        <dd><?php echo abs(strtotime(date('Y-m-d')) - strtotime("2011-03-26"))/86400; ?></dd>        	                        
+        	                        <dd>
+        	                            <del>116</del><br />
+        	                            <?php /* echo abs(strtotime(date('Y-m-d')) - strtotime("2011-03-26"))/86400; */ ?>
+        	                            <?php echo abs(strtotime(date('Y-m-d')) - strtotime("2011-07-20"))/86400; ?>
+        	                        </dd>        	                        
         	                </dl>
         	            </div><!-- #fact-soda -->
         	            
