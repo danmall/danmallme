@@ -11,6 +11,14 @@
 
         .project-image { height: 1584px; background: transparent url(coupon-craze-hero.jpg) no-repeat center 0; margin-bottom: 0; }
         .project-url { left: 158px; top: 26px; font-size: 9px; }
+    
+        #work-content .wrap { padding-top: 300px; position: relative; }
+
+        #work-area-wrap #pullquote { background: #fff url(coupon-craze-quote.png) no-repeat -15px 15px; height: 300px; /*position: relative; left: -6px; width: 800px; */position: absolute; top: 0; padding: 0; }
+        
+        #awards { background: transparent url(coupon-craze-awards.png) no-repeat 0 0; height: 280px; border-top: 1px dotted #7d7d7d; }       
+            #horizon a { width: 252px; height: 113px; top: 109px; left: 55px; }
+            #communicator a { width: 227px; height: 134px; top: 103px; left: 473px; }
                 
     </style>
 </head>
@@ -60,6 +68,22 @@
         <section id="work-content">
 
             <div class="wrap">
+                
+                <blockquote id="pullquote" class="phark">
+                    <p>Dan has worked with my studio on several projects, and what you immediately recognize when you meet him is how excited he is to work together to do great work. So it&rsquo;s not surprising that the results follow. I prize design thinkers who understand how to unite business goals with creative decision-making and technical know-how. Dan&rsquo;s an exceptional partner in this regard because he&rsquo;s as intelligent about seeing the big picture for a brand as he is about properly fine-tuning the visual details to support it.</p>
+                    <p><cite>Mathew Schwartz, Founder &amp; Chief Creative Officer, MSDS</cite></p>
+                </blockquote>
+                
+                <section id="awards">
+
+                    <h1 class="phark">Awards &amp; Recognition</h1>
+
+                    <ul>
+                        <li id="horizon"><a class="phark phark-link" href="http://www.horizoninteractiveawards.com/winners/archive/2010/">Horizon Interactive Awards</a></li>
+                        <li id="communicator"><a class="phark phark-link" href="http://www.communicatorawards.com/winners/list/?l=M&amp;pageNum_winners=1&amp;totalRows_winners=52&amp;event=6&amp;category=4&amp;award=D">The Communicator Awards: Silver Medal</a></li>
+                    </ul>
+
+                </section>
 
                 <div class="main">
                     
