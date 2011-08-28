@@ -381,13 +381,20 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
             #speaking .work-row .inner { position: relative; padding: 0; width: 800px; }
                 #speaking .work-row a { transition: all 0s linear; -moz-transition: all 0s linear; -webkit-transition: all 0s linear; -o-transition: all 0s linear; }
         
+        #newadventures2012 { background: #fff url(/i/screen/work/speaking/newadventures2012.png) no-repeat center 72px; }        
+            #newadventures2012 a.cta { background: transparent url(/i/screen/work/speaking/newadventures2012-cta.png) no-repeat 0 3px; width: 150px; height: 62px; border: none; position: absolute; left: 50%; margin-left: -75px; top: 290px; }
+                #newadventures2012 a.cta:hover, #newadventures2012 a.cta:focus { background-position: 0 0; }
         #breakthroughs { background: #e9193a url(/i/screen/work/speaking/breakthroughs.png) no-repeat center 0; height: 0; }
             #breakthroughs .inner { height: 350px; }
                 #breakthroughs .inner article { position: static; }
                     #breakthroughs .register { position: absolute; top: 196px; left: 76px; }
-                        #breakthroughs .register a { font: 16px Georgia, 'Times New Roman', serif; font-style: italic; color: #fff; border: none; width: 7em; background: #000; padding: 0.75em 1em; display: block; }
+                        #breakthroughs .register a { font: 16px Georgia, 'Times New Roman', serif; font-style: italic; color: #fff; border: none; width: 9em; background: #000; padding: 0.75em 1em; display: block; }
                         #breakthroughs .register a:hover, #breakthroughs .register a:focus { color: #ff0029; }
                         #breakthroughs .register .point { display: block; background-image: url(/i/screen/work/speaking/breakthroughs-point.png); width: 10px; height: 9px; position: absolute; bottom: -9px; left: 10px;  }
+        #sxsw2011 { background: #000 url(/i/screen/work/speaking/sxsw2011.jpg) no-repeat center 0; }
+            #sxsw2011 p { text-align: center; position: relative; top: 320px; color: rgba(255, 255, 255, 0.5); }
+            #sxsw2011 a.cta { background-image: url(/i/screen/work/speaking/sxsw2011-cta.png); width: 279px; height: 36px; border: none; position: absolute; left: 50%; margin-left: -140px; top: 120px; }
+            #sxsw2011 a.cta:hover, #sxsw2011 a.cta:focus { background-position: 0 -36px; }
         #inspire-conf { background: transparent url(/i/screen/work/speaking/inspire-conf.png) no-repeat center 0; }
             #inspire-conf p.more { position: absolute; top: 290px; left: 330px; }
             #inspire-conf a { background: transparent url(/i/screen/work/speaking/inspire-register.png) no-repeat 0 0; width: 135px; height: 24px; padding: 0; border: none; }

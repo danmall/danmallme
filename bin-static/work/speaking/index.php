@@ -32,7 +32,19 @@
 	
 	<section id="content">
 	       
-	    <ol class="no-marker">	        
+	    <ol class="no-marker">
+	        <li class="work-row vevent" id="newadventures2012">
+	            <div class="inner">
+    	            <article>
+    	                <hgroup class="offscreen">
+        	                <h1 class="summary">New Adventures in Web Design</h1>
+        	                <h2><abbr class="dtstart" title="2011-07-27T12:00:00">18&mdash;19 January 2012</abbr>, Nottingham Albert Hall, <span class="region">UK</span></h2>
+    	                </hgroup>
+    	                <p><a class="cta phark" href="http://2012.newadventuresconf.com/">Learn More</a></p>
+    	            </article>
+    	        </div>
+	        </li><!-- #breakthroughs -->
+	        <?php /* ?>
 	        <li class="work-row vevent" id="inspire-conf">
 	            <div class="inner">
     	            <article>
@@ -42,6 +54,7 @@
     	            </article>
     	        </div>
 	        </li>
+	        <?php */ ?>	        
 	        <li class="work-row vevent" id="breakthroughs">
 	            <div class="inner">
     	            <article>
@@ -49,11 +62,23 @@
         	                <h1 class="summary">Responsive Web Design: Design once, display everywhere?</h1>
         	                <h2>Webinar&mdash;<abbr class="dtstart" title="2011-07-27T12:00:00">Wednesday, July 27 at 12:00PM EST</abbr></h2>
     	                </hgroup>
-    	                <p class="register"><a href="http://www.aiga.org/webinar-responsive-web-design/">Register Now</a><span class="point phark"></span></p>
+    	                <p class="register"><a href="http://www.aiga.org/webinar-responsive-web-design/">Watch the Archive</a><span class="point phark"></span></p>
     	                <p class="offscreen">Breakthroughs: A free webinar series designed by Adobe and AIGA, exclusively for members.</p>
     	            </article>
     	        </div>
 	        </li><!-- #breakthroughs -->
+	        <li class="work-row vevent" id="sxsw2011">
+	            <div class="inner">
+    	            <article>
+    	                <hgroup class="offscreen">
+    	                    <h1 class="summary">Jeffrey Zeldman&rsquo;s Awesome Internet Design Panel</h1>
+    	                    <h2><abbr title="South by Southwest">SXSW</abbr>&mdash;<abbr class="dtstart" title="2011-05-13T17:00">March 2011</abbr></h2>
+    	                </hgroup>
+    	                <a class="cta phark" href="http://www.youtube.com/watch?v=DSUIvacY4XA">Watch excerpts from the talk</a>
+    	                <p>Photo by <a href="http://adactio.com/" title="Jeremy Keith">Jeremy Keith</a></p>
+    	            </article>
+    	        </div>
+	        </li><!-- #sxsw2011 -->
 	        <li class="work-row vevent" id="sva-flash-intensive">
 	            <div class="inner">
     	            <article>
@@ -69,7 +94,7 @@
 	            <div class="inner">
     	            <article>
 	                    <h1 class="summary offscreen">Miami Ad School</h1>
-    	                <p class="more">Teaching <strong>Digital Campaigns</strong>. <a href="http://miamiadschool.danielmall.com/pop527/">Check out the syllabus&nbsp;&raquo;</a></p>
+    	                <p class="more">Taught <strong>Digital Campaigns</strong>. <a href="http://miamiadschool.danielmall.com/pop527/">Check out the syllabus&nbsp;&raquo;</a></p>
     	            </article>
     	        </div>
 	        </li>

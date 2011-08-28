@@ -165,5 +165,8 @@ http://www.danielmall.com/
 -------------------------------------------*/
 
 #contact-form { position: relative; }
+
+#all-ears { cursor: help; }
+
 #all-ears-container { display: none; position: absolute; right: -15px; top: 11em; top: 0; } 
     #all-ears-container img { float: none; margin: 0; width: 200px; }

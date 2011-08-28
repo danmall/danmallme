@@ -56,7 +56,7 @@
                             <option value="">Please select a subject&hellip;</option>
                 			<option value="You&rsquo;d be perfect for a project I have!">You&rsquo;d be perfect for a project I have!</option>
                 			<option value="I&rsquo;d like you to write about&hellip;">I&rsquo;d like you to write about&hellip;</option>
-                			<option value="I&rsquo;d like you to speak at my conference">I&rsquo;d like you to speak at my conference</option>
+                			<option value="I&rsquo;d like you to speak at my conference/school/company">I&rsquo;d like you to speak at my conference/school/company</option>
                 			<option value="I&rsquo;m having a problem viewing your site">I&rsquo;m having a problem viewing your site</option>
                 			<option value="Just saying hello">Just saying hello</option>
                 			<option value="Other">Other</option>
