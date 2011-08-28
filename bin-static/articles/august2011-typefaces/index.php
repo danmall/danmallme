@@ -72,7 +72,7 @@
     	            <section class="info easy-clearing">
     	                <dl>
     	                    <dt>Foundry</dt>
-    	                        <dd><a href="http://www.dardenstudio.com/">Darden Studio</a></dd>
+    	                        <dd><a href="http://www.dardenstudio.com/typefaces/omnes_pro">Darden Studio</a></dd>
     	                </dl>
     	                <dl>
     	                    <dt>More Info</dt>
@@ -100,7 +100,7 @@
     	            <section class="info easy-clearing">
     	                <dl>
     	                    <dt>Foundry</dt>
-    	                        <dd><a href="http://www.typograp.com/">HVD Fonts</a></dd>
+    	                        <dd><a href="http://www.hvdfonts.com/">HVD Fonts</a></dd>
     	                </dl>
     	                <dl>
     	                    <dt>More Info</dt>
