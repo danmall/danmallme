@@ -40,6 +40,18 @@
             	    <li>
             	        <article>
             	            <header>
+            	                <h1><a href="/articles/august2011-typefaces/">Typefaces I Used This Month</a></h1>
+            	            </header>
+            	            <p>Be adventurous and experiment with new faces, but don&rsquo;t forget about the classics.</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/august2011-typefaces/"><time datetime="2011-08-27T11:51:33">Aug 27, 2011</time></a></li>
+            	                <li class="comments"><a href="/articles/august2011-typefaces/#disqus_thread" data-disqus-identifier="august2011-typefaces"></a></li>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
+        	        </li>
+            	    <li>
+            	        <article>
+            	            <header>
             	                <h1><a href="/articles/photoshop-clusters/">Photoshop Clusters</a></h1>
             	            </header>
             	            <p>An idea for configuring Photoshop.</p>

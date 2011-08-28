@@ -65,17 +65,22 @@
 	    
     		    <ul class="no-marker">	
     		        <li class="home-round-item" style="left: 100px; top: 6px; z-index: 3;">
-    				    <a data-tooltip-content="<h1>Photoshop Clusters</h1><p>An idea for configuring Photoshop.</p>" href="/articles/photoshop-clusters/" class="phark phark-link" style="background-image: url(/articles/photoshop-clusters/home-thumb.jpg);">Photoshop Clusters</a>
+    				    <a data-tooltip-content="<h1>Typefaces I Used This Month</h1><p>Be adventurous and experiment with new faces, but don&rsquo;t forget about the classics.</p>" href="/articles/august2011-typefaces/" class="phark phark-link" style="background-image: url(/articles/august2011-typefaces/home-thumb.png);">Typefaces I Used This Month</a>
     				</li>
     		        <li class="home-round-item" style="left: 270px; top: 6px; z-index: 2;">
-    				    <a data-tooltip-content="<h1>Why I Love the Netflix Redesign</h1><p>Netflix should be applauded for their bold redesign.</p>" href="/articles/why-i-love-the-netflix-redesign/" class="phark phark-link" style="background-image: url(/articles/why-i-love-the-netflix-redesign/netflix-home.png);">Why I Love the Netflix Redesign</a>
+    				    <a data-tooltip-content="<h1>Photoshop Clusters</h1><p>An idea for configuring Photoshop.</p>" href="/articles/photoshop-clusters/" class="phark phark-link" style="background-image: url(/articles/photoshop-clusters/home-thumb.jpg);">Photoshop Clusters</a>
     				</li>
     		        <li class="home-round-item" style="left: 430px; top: 20px; z-index: 1;">
+    				    <a data-tooltip-content="<h1>Why I Love the Netflix Redesign</h1><p>Netflix should be applauded for their bold redesign.</p>" href="/articles/why-i-love-the-netflix-redesign/" class="phark phark-link" style="background-image: url(/articles/why-i-love-the-netflix-redesign/netflix-home.png);">Why I Love the Netflix Redesign</a>
+    				</li>
+    		        <li class="home-round-item" style="left: 600px; top: 12px; z-index: 2;">
     				    <a data-tooltip-content="<h1>Now I Have RSS</h1><p>Happy?</p>" href="/articles/now-i-have-rss/" class="phark phark-link" style="background-image: url(/articles/now-i-have-rss/now-i-have-rss-home.png);">Now I Have RSS</a>
-    				</li>			
+    				</li>
+    				<?php /* ?>			
     				<li class="home-round-item" style="left: 600px; top: 12px; z-index: 2;">
     				    <a data-tooltip-content="<h1>Five</h1><p>Wow. After five long years, it feels great to have a new site.</p>" href="/articles/five/" class="phark phark-link" style="background-image: url(/articles/five/home-five.png);">Five</a>
-    				</li>			    				
+    				</li>
+    				<?php */ ?>			    				
     			</ul>
     			
     			<p class="more"><a href="/articles/">See all</a></p>

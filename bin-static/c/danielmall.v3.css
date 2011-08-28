@@ -138,6 +138,7 @@ header, footer, nav, section, article, mark, hgroup { display: block; }
 
 ol.articles { border-top: 1px dotted #7f7f7f; }
 ol.articles > li, #tweets li { padding: 1.25em 40px 0; border-bottom: 1px dotted #7f7f7f; }
+ol.articles > li:last-child { border-bottom: none; }
 
 .meta { font: 78% 'Trebuchet MS', Arial, sans-serif; margin: 0; text-transform: uppercase; letter-spacing: 0.25em; color: #a2a2a2; width: 100%; }
 ol.articles .meta, #tweets .meta { position: relative; left: -10px; }

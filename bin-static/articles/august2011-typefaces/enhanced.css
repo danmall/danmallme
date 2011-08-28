@@ -1,0 +1,15 @@
+#august2011-typefaces .char2 { margin-left: -0.109em }
+#august2011-typefaces .char21 { margin-left: 0em }
+#august2011-typefaces .char14 { margin-left: -0.016em }
+#august2011-typefaces.char15 { margin-left: 0.016em }
+#august2011-typefaces .char16 { margin-left: 0.016em }
+#august2011-typefaces.char4 { margin-left: 0.016em }
+
+.typeface h1 { position: absolute; left: -9999px; }
+.typeface { display: none; }
+
+#august2011-typefaces nav { width: 160px; position: absolute; top: 155px; z-index: 1000; }
+    #august2011-typefaces nav li { border-bottom: 1px solid #ccc; }
+        #august2011-typefaces nav a { color: #ccc; display: block; padding: 0.5em 0; font-size: 14px; border: none; }
+        #august2011-typefaces nav a:hover, nav a:focus { color: #c00000; }
+        #august2011-typefaces nav .current a { color: #222; }
