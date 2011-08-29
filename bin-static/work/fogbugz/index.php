@@ -42,9 +42,9 @@
                     <li class="prev">        	            
             	        <a href="/work/krylon/">Krylon</a>
         	        </li>
-        	        <?php /* ?><li class="next">            	        
-            	        <a href="/work/morsel/">Morsel</a>            	        
-        	        </li><?php */ ?>
+        	        <li class="next">            	        
+            	        <a href="/work/logos/">Assorted Logos</a>            	        
+        	        </li>
 	            </ul><!-- #project-nav -->
         	    
         	    <span id="facebook-like">

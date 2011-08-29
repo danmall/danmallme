@@ -80,6 +80,12 @@
 		                    <li style="top: 20px; left: 310px;"><a href="/work/fogbugz/">Fogbugz</a></li>
 		                </ul>
 		            </li>
+		            <li id="year-misc">
+		                <h2><abbr title="Miscellaneous">Misc</abbr></h2>
+		                <ul class="projects">
+		                    <li style="top: -40px; left: 180px;"><a href="/work/logos/">Assorted Logos</a></li>
+		                </ul>
+		            </li>
 		            <?php /* ?>
 		            <li id="year2006">
 		                <h2>2006</h2>

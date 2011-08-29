@@ -286,11 +286,12 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
             .projects a:visited { background: #ccc; }
             .projects a:hover, .projects a:focus { opacity: 1; background: #231f20; /*border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0;*/ }
     
-    #clients { width: 136px; padding: 1em 10px 0 0; border-right: 1px dotted #7f7f7f; }
+    #clients { width: 136px; padding: 1em 10px 100px 0; border-right: 1px dotted #7f7f7f; }
         #clients h1 { font: bold 14px 'Trebuchet MS', Arial, sans-serif; margin-bottom: 1.5em; }
             #clients li { margin-bottom: 0.65em; line-height: 1.2; font-size: 11px; }
             #clients ul > li { padding-left: 10px; text-indent: -10px; }
             li[id^="year"] { height: 200px; border-bottom: 1px dotted #7f7f7f; position: relative; }
+            li[id^="year"]:last-child { border-bottom: none; }
                 #year2010 { height: 300px; }
                 #year2009 { height: 275px; }
                 #year2007 { height: 170px; }
@@ -302,6 +303,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
                     #year2008 h2 { background-image: url(/i/screen/2008.gif); }
                     #year2007 h2 { background-image: url(/i/screen/2007.gif); }
                     #year2006 h2 { background-image: url(/i/screen/2006.gif); }
+                    #year-misc h2 { background-image: url(/i/screen/misc.gif); }
                 
 #work .breadcrumbs { background: #999 url(/i/screen/work/breadcrumbs-mask.png) no-repeat 0 0; width: 144px; height: 15px; margin: 0 auto 10px; position: relative; }
     #work .breadcrumbs ul { list-style: none; }
