@@ -6,7 +6,7 @@
     #august2011-typefaces a:hover, #august2011-typefaces a:focus { color: #222; }
     
     #august2011-typefaces img { float: none; margin: 0 auto 2em; }
-    #august2011-typefaces hgroup h1 { font-size: 64px; color: #444; font-weight: bold; letter-spacing: -4px; margin: 0 0 0.15em; }
+    #august2011-typefaces hgroup h1, #august2011-typefaces #respond { font-size: 64px; color: #444; font-weight: bold; letter-spacing: -4px; margin: 0 0 0.15em; }
     #august2011-typefaces hgroup h2 { font: bold 16px Helvetica, Arial, sans-serif; color: #bababa; letter-spacing: -0.1em; padding: 0 0 3em; border-bottom: 1px solid #727272; }
     
     .typeface { padding: 20px 0 0 160px; position: relative; border-bottom: 1px solid #727272; }
@@ -20,6 +20,8 @@
                 .info dt { font-size: 11px; color: #bababa; text-transform: uppercase; letter-spacing: 0.1em; margin: 0 0 1em; }
                     .info dd { font-size: 18px; letter-spacing: -0.1em; margin: 0 0 0.5em; line-height: 1.1; text-indent: -10px; padding: 0 0 0 10px; }
                         .info a { border: none; }
+                        
+    #august2011-typefaces #respond { font-size: 42px; letter-spacing: -2px; padding-top: 1em; }
 
     
 #august2011-typefaces ::selection { background: #c00000; color: #fff; }

@@ -197,6 +197,8 @@
     	            </section><!-- .info -->
     	               
     	        </section><!-- #clarendon -->
+    	        
+    	        <h1 id="respond">What typefaces have <em>you</em> used this month?</h1>
 	            
 	        </div><!-- .inner -->
 	    
