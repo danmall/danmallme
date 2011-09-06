@@ -34,6 +34,26 @@
 	<section id="content">
 	       
 	    <ol class="no-marker">
+	        <li class="work-row" id="one-two">
+	            <div class="inner">
+    	            <article>
+    	                <h1><a href="http://one-two-one-two-microphone-check.com/dan-mall-lifestyle/">The Lifestyle Questionnare</a></h1>
+    	                <p class="meta">One Two One Two Microphone Check, Aug 29, 2011</p>
+    	                <p>One Two One Two Microphone Check is about finding people who make things happen in various cultural fields. I answered a few questions about my lifestyle.</p>
+    	                <p class="more"><a href="http://one-two-one-two-microphone-check.com/dan-mall-lifestyle/">Read the interview</a></p>
+    	            </article>
+    	        </div>
+	        </li>
+	        <li class="work-row" id="designersmx">
+	            <div class="inner">
+    	            <article>
+    	                <h1><a href="http://designers.mx/#/mixes/listen/modulus">Modulus</a></h1>
+    	                <p class="meta">Designers.MX, Aug 28 2011</p>
+    	                <p>A mix a submitted to Designers.MX, a site featuring music that fuels designers&rsquo;s creativity.</p>
+    	                <p class="more"><a href="http://designers.mx/#/mixes/listen/modulus">Listen to the mix</a></p>
+    	            </article>
+    	        </div>
+	        </li>
 	        <li class="work-row" id="typekit">
 	            <div class="inner">
     	            <article>

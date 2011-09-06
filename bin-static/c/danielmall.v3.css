@@ -361,6 +361,8 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
             #work-content #bibliography p, #work-content #bibliography ol, #work-content #bibliography ul { font-size: 12px; }
     
     #publications #content { border-top: 1px dotted #7f7f7f; padding: 0 0 2em; position: relative; z-index: 2; width: 800px; margin: 0 auto; }    
+        #one-two .inner:before { left: 70px; top: 80px; width: 222px; height: 51px; background: transparent url(/i/screen/publications-onetwo.png) no-repeat 0 0; }
+        #designersmx .inner:before { left: 80px; top: 12px; width: 202px; height: 202px; background: transparent url(/i/screen/publications-designersmx.png) no-repeat 0 0; }
         #typekit .inner:before { left: 40px; top: 60px; width: 273px; height: 73px; background: transparent url(/i/screen/publications-typekit.png) no-repeat 0 0; }
         #mc .inner:before { left: 60px; top: 20px; width: 249px; height: 194px; background: transparent url(/i/screen/publications-mc.png) no-repeat 0 0; }
     #p24ways-2010 { z-index: 1; min-height: 280px; }
