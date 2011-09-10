@@ -13,7 +13,7 @@
                 <li>Singer</li>
                 <li>Speaker</li>
                 <li>Pianist</li>
-                <li>Dad-to-be</li>
+                <li>New Dad</li>
                 <li>Husband</li>
                 <li>Creative Director</li>
             </ul>
