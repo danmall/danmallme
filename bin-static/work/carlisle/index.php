@@ -1,15 +1,16 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/doctype.php"); echo "\n"; ?>
 <head>
-    <title>&ldquo;Pr&eacute;ventiv Water,&rdquo; work by Dan Mall</title>
+    <title>&ldquo;Carlisle Wide Plank Floors,&rdquo; work by Dan Mall</title>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/meta.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/jsReference.php"); echo "\n"; ?>
     <style>
-        .page-title { background-image: url(preventiv.png); width: 599px; height: 57px; }
-        #project-header hgroup { top: 18px; }
+        .page-title { background-image: url(carlisle.png); width: 450px; height: 89px; }
+        #project-header hgroup { top: 1px; }  
 
-        .project-image { height: 522px; background: transparent url(preventiv-hero.jpg) no-repeat center 0 }
+        .project-image { height: 1456px; background: transparent url(carlisle-hero.jpg) no-repeat center 0; margin-bottom: 0; }
+                
     </style>
 </head>
 
@@ -30,21 +31,21 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">Pr&eacute;ventiv Water</h1>
-        	        <h2 class="project-subtitle">Heart Healthy Water with No Carbs or Sugars</h2>     	    
+        	        <h1 class="page-title phark">Carlisle Wide Plank Floors</h1>
+        	        <h2 class="project-subtitle">It&rsquo;s not just a floor; it&rsquo;s a folk art.</h2>        	    
         	    </hgroup>
 
         	    <ul id="project-nav" class="no-marker">
         	        <li class="prev">        	            
-            	        <a href="/work/weizmann/">American Committee for the Weizmann Institute of Science</a>
+            	        <a href="/work/preventiv/">Pr&eacute;ventiv Water</a>
         	        </li>
         	        <li class="next">            	        
-            	        <a href="/work/carlisle/">Carlisle Wide Plank Floors</a>            	        
+            	        <a href="/work/four24/">Four24</a>
         	        </li>
         	    </ul><!-- #project-nav -->
         	    
         	    <span id="facebook-like">
-        	        <iframe src="http://www.facebook.com/plugins/like.php?href=http://danielmall.com//work/preventiv/" scrolling="no" frameborder="0" style="border:none; height: 30px;"></iframe>
+        	        <iframe src="http://www.facebook.com/plugins/like.php?href=http://danielmall.com/work/carlisle/" scrolling="no" frameborder="0" style="border:none; height: 30px;"></iframe>
         	    </span>
         	    
     	    </div><!-- #project-header -->
@@ -58,38 +59,45 @@
             <div class="wrap">
 
                 <div class="main">
+                    
+                    <p>Carlisle Wide Plank Floors is an amazing company. From the sales staff to the <abbr title="Chief Executive Officer">CEO</abbr>, everyone that works there is incredibly passionate about what they do.</p>
+                    
+                    <p>To do justice to the beautiful quality of floors Carlisle creates, my approach to the site was a very visual, immersive experience for browsing. The whole art form of their floors has somewhat of a mythology to it, so my strategy for the navigation was to make it a story to shape a narrative around the content. The design here balances hierarchy of content with a simple, visual adventure to celebrate the pride built into every floor.</p>
 
-                    <p>Could a water product have the same benefits as wine? That&rsquo;s what Preventiv water was created to answer.</p>
+                    <section id="bibliography">
 
-                    <p>A small brochure-esque site, I art directed the design for this new beverage company. Using mostly product shots combined with elegant typography, the results were a beautiful, non-templated, easily-managed site that would extol the virtues of of a heart-healthy water.</p>
+                        <h1>See more</h1>
+
+                        <p><a href="http://happycog.com/create/carlisle/">Carlisle Wide Plank Floors Website Redesign,</a> a case study by Happy Cog</p>
+
+                    </section><!-- #bibliography -->
 
                 </div><!-- .main -->
 
                 <div class="sub">
 
                     <h2>Client</h2>
-                    <p>Preventive Beverages, LLC.</p>
+                    <p>Carlisle Wide Plank Floors</p>
 
                     <h2>Role</h2>
                     <ul>
                         <li>Art Direction</li>
                         <li>Design</li>
                     </ul>
-
+                    
                     <h2>Team</h2>
                     <ul>
-                        <li><a href="http://chriscashdollar.com/">Chris Cashdollar</a>, Design</li>
-                        <li><a href="http://kevinsharon.com/">Kevin Sharon</a>, Design</li>
+                        <li><a href="http://chriscashdollar.com/">Chris Cashdollar</a>&mdash;Creative Direction</li>
                     </ul>
-
-                    <h2>Agency</h2>
-                    <p><a href="http://happycog.com/">Happy Cog</a></p>
 
                     <h2>Year</h2>
                     <p>2009</p>
 
+                    <h2>Agency</h2>
+                    <p><a href="http://happycog.com/">Happy Cog</a></p>
+
                     <h2>Status</h2>
-                    <p>No longer online</p>
+                    <p>Unsold</p>
 
                 </div><!-- .sub -->
 
@@ -108,4 +116,4 @@
     </div><!-- #wrap -->
     
 	
-<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/close.php"); echo "\n"; ?>y6
+<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/close.php"); echo "\n"; ?>

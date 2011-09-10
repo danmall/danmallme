@@ -36,7 +36,7 @@
 
         	    <ul id="project-nav" class="no-marker">
         	        <li class="prev">        	            
-            	        <a href="/work/preventiv/">Pr&acute;ventiv Water</a>
+            	        <a href="/work/carlisle/">Carlisle Wide Plank Floors</a>
         	        </li>
         	        <li class="next">            	        
             	        <a href="/work/mica/">Maryland Institute College of Art</a>            	        
