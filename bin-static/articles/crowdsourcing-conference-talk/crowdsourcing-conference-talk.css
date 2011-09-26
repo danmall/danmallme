@@ -21,6 +21,7 @@
 		#speakers p:first-child { margin-top: 80px; }
 		
 		#change p:first-child { margin-top: 50px; }
+			#change footer { margin-top: 80px; }
 		
 		#new-adventures p:first-child { margin-top: 40px; }
 		
@@ -31,6 +32,10 @@
 		#delivery h2 { margin-top: 30px; }
 		
 		#examples h2 { margin-top: 80px; }
+		
+		#first-step p:first-child { margin-top: 60px; }
+		
+		#you p:first-child { margin-top: 50px; }
 		
 #crowdsourcing-conference-talk ::selection { background: #b50000; color: #fff; }
 #crowdsourcing-conference-talk ::-moz-selection { background: #b50000; color: #fff; }

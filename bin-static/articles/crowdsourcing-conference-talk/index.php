@@ -45,69 +45,75 @@
 						}
 						
 					</script>
-					<p class="pagination">1/11</p>
+					<p class="pagination">1/12</p>
 				</section><!-- #title -->
 			
 				<section id="intro" class="slide">
-					<p>Lately, there&rsquo;s been a <a href="#">lot</a> <a href="#">of</a> <a href="#">buzz</a> about the state of web design conferences.</p>
-					<p class="pagination">2/11</p>
+					<p>Lately, there&rsquo;s been a <a title="&ldquo;The X-factorisation of the Web,&rdquo; by Andy Budd" href="http://www.andybudd.com/archives/2011/09/the_xfactorisation_of_the_web/">lot</a> <a title="&ldquo;7 ways web conferences suck (and how to fix them),&rdquo; by Rhobert Hoekman Jr. for .NET Magazine" href="http://www.netmagazine.com/features/7-ways-web-conferences-suck-and-how-fix-them">of</a> <a title="&ldquo;Is Conference Pricing Out of Control?&rdquo; by Jeffrey Way for Nettuts" href="http://net.tutsplus.com/articles/general/is-conference-pricing-out-of-control/">buzz</a> about the state of web design conferences.</p>
+					<p class="pagination">2/12</p>
 				</section><!-- #intro -->
 			
 				<section id="attendees" class="slide">
 					<p>Generally, attendees aren&rsquo;t challenged enough by speakers&rsquo; content.</p>
-					<p class="pagination">3/11</p>
+					<p class="pagination">3/12</p>
 				</section><!-- #attendees -->
 			
 				<section id="speakers" class="slide">
 					<p>Generally, speakers aren&rsquo;t paid enough to put significant time into research and study for their talks (even though they often do).</p>
-					<p class="pagination">4/11</p>
+					<p class="pagination">4/12</p>
 				</section><!-- #speakers -->
 			
 				<section id="change" class="slide">
 					<p>Let&rsquo;s change that.</p>
 					<p>I&rsquo;m putting my money where my mouth is.*</p>
 					<footer>* On my face!</footer>
-					<p class="pagination">5/11</p>
+					<p class="pagination">5/12</p>
 				</section><!-- #change -->
 			
 				<section id="new-adventures" class="slide">
-					<p>I&rsquo;ll be at the <a href="http://2012.newadventuresconf.com/">New Adventures</a> conference in January.</p> 
+					<p>I&rsquo;ll be at the <a href="http://2012.newadventuresconf.com/">New Adventures</a> conference in Nottingham in January.</p> 
 					<p><em>What should I talk about?</em></p>
-					<p class="pagination">6/11</p>
+					<p class="pagination">6/12</p>
 				</section><!-- #new-adventures -->
 			
 				<section id="help" class="slide">
 					<p>Here&rsquo;s how you can help.</p> 
-					<p>Leave me a comment with&hellip;</p>
-					<p class="pagination">7/11</p>
+					<p>Leave a comment with&hellip;</p>
+					<p class="pagination">7/12</p>
 				</section><!-- #help -->
 			
 				<section id="topics" class="slide">
 					<h2>How you can help. Leave a comment with&hellip;</h2>
 					<p>Topic suggestions: what should I talk about?</p>
 					<small>Typography? Flash? CSS? All? None?</small>
-					<p class="pagination">8/11</p>
+					<p class="pagination">8/12</p>
 				</section><!-- #topics -->
 			
 				<section id="delivery" class="slide">
 					<h2>How you can help. Leave a comment with&hellip;</h2>
-					<p>Delivery suggestions: how should I present my content?</p>
+					<p>Delivery suggestions: <em>how</em> should I present my content?</p>
 					<small>Tell stories? Show practical examples? Participatory visual aids?</small>
-					<p class="pagination">9/11</p>
+					<p class="pagination">9/12</p>
 				</section><!-- #delivery -->
 			
 				<section id="examples" class="slide">
 					<h2>How you can help. Leave a comment with&hellip;</h2>
 					<p>Examples: what great talks have you seen that you would like more of ?</p>
-					<p class="pagination">10/11</p>
+					<p class="pagination">10/12</p>
 				</section><!-- #examples -->
 			
 				<section id="first-step" class="slide">
-					<p>It&rsquo;ll take effort from everyone to get conferences to the next level.</p>
-					<p><em>Hopefully, this is the first step.</em></p>
-					<footer>Please Leave a comment below.</footer>
-					<p class="pagination">11/11</p>
-				</section><!-- #examples -->
+					<p>It&rsquo;ll take effort from everyone&mdash;speakers, attendees, and event organizers&mdash;to get conferences to the next level.</p>
+					<?php /* ?><p><em>Hopefully, this is the first step.</em></p>
+					<footer>Please Leave a comment below.</footer><?php */ ?>
+					<p class="pagination">11/12</p>
+				</section><!-- #first-step -->
+				
+				<section id="you" class="slide">
+					<p>What do you think about the state of web design conferences?</p>
+					<p>What can I do to improve it?</p>
+					<p class="pagination">12/12</p>
+				</section><!-- #first-step -->
 				
 				<script>
 					$(document).ready(function() {
@@ -187,9 +193,13 @@
 						
 						function swipe($event, $direction){
 							if($direction == "left"){
-								currentSlide++;								
+								if(currentSlide < MAX_SLIDES){
+									currentSlide++;								
+								}
 							}else if($direction == "right"){
-								currentSlide--;
+								if(currentSlide > 0){
+									currentSlide--;
+								}
 							}
 							
 							$.address.value($('.slide').eq(currentSlide).attr('id'));							
