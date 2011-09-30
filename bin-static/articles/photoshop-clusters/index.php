@@ -38,6 +38,8 @@
             <p>This could provide for some fast Photoshop experiences: lighter, more nimble builds that are easily rebootable and potentially even reduce crashes. It also could extend to the other Adobe apps, as well as being easily sharable across multiple machines (home, work, etc.) and even to other people.</p> 
 
             <p>What do you think? Is this possible? A bad idea? Is anyone out there doing this already, either with Photoshop or another app?</p>
+			
+			<small>* This article has been graciously <a href="http://www.azoft.com/people/seremina/edu/ph_clusters.html">translated into Romanian</a> by Alexandra Seremina.</small>
 	    
 	    </section><!-- #photoshop-clusters -->	    
 	    
