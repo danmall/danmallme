@@ -37,6 +37,18 @@
             	</ol><?php '/.pagination' */ ?>
             	
             	<ol class="articles no-marker">
+					<li>
+            	        <article>
+            	            <header>
+            	                <h1><a href="/articles/you-the-conference-organizer/">You, the Conference Organizer</a></h1>
+            	            </header>
+            	            <p>Plan your dream conference.</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/you-the-conference-organizer/"><time datetime="2011-09-30T06:31:07">Sep 30, 2011</time></a></li>
+            	                <li class="comments"><a href="/articles/you-the-conference-organizer/#disqus_thread" data-disqus-identifier="you-the-conference-organizer"></a></li>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
+        	        </li>
             	    <li>
             	        <article>
             	            <header>
