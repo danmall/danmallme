@@ -221,8 +221,8 @@
                     var disqus_shortname = 'danielmall'; // required: replace example with your forum shortname
 
                     // The following are highly recommended additional parameters. Remove the slashes in front to use.
-                    var disqus_identifier = 'crowdsourcing-conference-talk';
-                    var disqus_url = 'http://danielmall.com/articles/crowdsourcing-conference-talk/';
+                    var disqus_identifier = 'you-the-conference-organizer';
+                    var disqus_url = 'http://danielmall.com/articles/you-the-conference-organizer/';
                     var disqus_developer = 1;
 
                     /* * * DON'T EDIT BELOW THIS LINE * * */
