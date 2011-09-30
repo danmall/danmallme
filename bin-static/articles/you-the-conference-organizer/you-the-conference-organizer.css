@@ -1,0 +1,34 @@
+#article-area-wrap { background: #000 url(curtains.jpg) no-repeat 50% 0; font: normal 36px Georgia, 'Times New Roman', serif; }
+
+#you-the-conference-organizer { margin: 0 auto; position: relative; padding: 40px 0 300px; background: transparent url(seats.jpg) no-repeat 50% bottom; color: #1a2127; }
+
+	#you-the-conference-organizer .inner { position: relative; width: 800px; margin: 0 auto; }
+
+		.slide { width: 700px; min-height: 312px; position: relative; padding: 60px 50px; background: transparent url(slide.jpg) no-repeat 0 0; text-align: center; }
+			.slide p { font-size: 33px; margin: 0 0 1em; }
+			.slide p:first-child { margin-top: 100px; }
+			.slide small, .slide aside { font-size: 18px; line-height: 1.3; display: block; }
+			.slide footer, .slide h2, .slide .pagination { color: #818181; text-transform: uppercase; font: 13px Georgia, 'Times New Roman'; letter-spacing: 0.25em; padding: 0; border: none; margin: 0 0 2em; }
+			.slide .pagination { border: none; padding: 0; margin: 0; position: absolute; bottom: 2em; width: 800px; text-align: center; left: 0; }
+			.slide a { color: #b50000; border: none; text-decoration: underline; }
+			.slide a:hover, .slide a:focus { color: #5c6e85; }
+			.cta a { font-size: 13px; letter-spacing: 0.15em; text-transform: uppercase; }
+
+		#title h1 { font-size: 60px; margin-top: 10px; }
+		
+		#attendees p:first-child, #speakers p:first-child { margin-top: 80px; }
+	
+		#existing-conferences p[id] { font-size: 22px; width: 300px; text-align: left; position: absolute; }
+			#existing-conferences #aea { top: 50px; left: 75px; margin: 0; }
+			#existing-conferences #fowd { top: 50px; left: 420px; }
+			#existing-conferences #na { top: 240px; left: 75px; }
+			#existing-conferences #dconstruct { top: 240px; left: 420px; }
+			
+		#price p:first-child, #theme p:first-child, #goals p:first-child, #money p:first-child { margin-top: 70px; }
+
+		#organizers p:first-child { margin-top: 20px; font-size: 28px; }
+		
+		#you p:first-child { margin-top: 30px; }
+		
+#you-the-conference-organizer ::selection { background: #b50000; color: #fff; }
+#you-the-conference-organizer ::-moz-selection { background: #b50000; color: #fff; }
