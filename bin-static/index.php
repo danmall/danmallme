@@ -65,7 +65,7 @@
 	    
     		    <ul class="no-marker">
 					<li class="home-round-item" style="left: 100px; top: 6px; z-index: 4;">
-    				    <a data-tooltip-content="<h1>You, the Conference Organizer</h1><p>Plan your dream conference.</p>" href="/articles/august2011-typefaces/" class="phark phark-link" style="background-image: url(/articles/you-the-conference-organizer/home-thumb.jpg);">You, the Conference Organizer</a>
+    				    <a data-tooltip-content="<h1>You, the Conference Organizer</h1><p>Plan your dream conference.</p>" href="/articles/you-the-conference-organizer/" class="phark phark-link" style="background-image: url(/articles/you-the-conference-organizer/home-thumb.jpg);">You, the Conference Organizer</a>
     				</li>	
     		        <li class="home-round-item" style="left: 270px; top: 8px; z-index: 3;">
     				    <a data-tooltip-content="<h1>Typefaces I Used This Month</h1><p>Be adventurous and experiment with new faces, but don&rsquo;t forget about the classics.</p>" href="/articles/august2011-typefaces/" class="phark phark-link" style="background-image: url(/articles/august2011-typefaces/home-thumb.png);">Typefaces I Used This Month</a>
