@@ -1,0 +1,14 @@
+#article-area-wrap { background: #f4f4f4; font: normal 12px 'Courier New', Courier, monospace; }
+
+#brooklyn-beta-2011 { margin: 0 auto; width: 600px; text-align: center; text-transform: lowercase; padding: 8em 0 0; }
+	#brooklyn-beta-2011 h1 { margin: 0 0 6em; font-size: 14px; font-weight: bold; }	
+	#brooklyn-beta-2011 li { margin: 0 0 2.7em; }
+	#brooklyn-beta-2011 abbr { font-size: 95%; border: none; text-decoration: none; letter-spacing: 0.25em; }
+	#brooklyn-beta-2011 a { color: #c20500; text-decoration: none; border: none; }
+	#brooklyn-beta-2011 a:hover, #brooklyn-beta-2011 a:focus { text-decoration: underline; }
+	#brooklyn-beta-2011 .hashtag { opacity: 0.5; }
+	
+	#endcap { margin: 20em 0 10em; }
+		
+/*#brooklyn-beta-2011 ::selection { background: #b50000; color: #fff; }
+#brooklyn-beta-2011 ::-moz-selection { background: #b50000; color: #fff; }*/

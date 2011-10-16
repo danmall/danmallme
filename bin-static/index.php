@@ -64,19 +64,22 @@
     		    <h1 class="phark">Latest Articles</h1>
 	    
     		    <ul class="no-marker">
-					<li class="home-round-item" style="left: 100px; top: 6px; z-index: 4;">
+    		        <li class="home-round-item" style="left: 100px; top: 13px; z-index: 4;">
+    				    <a data-tooltip-content="<h1>What I Loved About Brooklyn Beta</h1><p>Hands down the best industry event I&rsquo;ve ever attended.</p>" href="/articles/brooklyn-beta-2011/" class="phark phark-link" style="background-image: url(/articles/brooklyn-beta-2011/home-thumb.jpg);">What I Loved About Brooklyn Beta</a>
+    				</li>
+					<li class="home-round-item" style="left: 270px; top: 8px; z-index: 3;">
     				    <a data-tooltip-content="<h1>You, the Conference Organizer</h1><p>Plan your dream conference.</p>" href="/articles/you-the-conference-organizer/" class="phark phark-link" style="background-image: url(/articles/you-the-conference-organizer/home-thumb.jpg);">You, the Conference Organizer</a>
     				</li>	
-    		        <li class="home-round-item" style="left: 270px; top: 8px; z-index: 3;">
+    		        <li class="home-round-item" style="left: 430px; top: 20px; z-index: 2;">
     				    <a data-tooltip-content="<h1>Typefaces I Used This Month</h1><p>Be adventurous and experiment with new faces, but don&rsquo;t forget about the classics.</p>" href="/articles/august2011-typefaces/" class="phark phark-link" style="background-image: url(/articles/august2011-typefaces/home-thumb.png);">Typefaces I Used This Month</a>
     				</li>
-    		        <li class="home-round-item" style="left: 430px; top: 20px; z-index: 2;">
+    		        <li class="home-round-item" style="left: 600px; top: 8px; z-index: 1;">
     				    <a data-tooltip-content="<h1>Photoshop Clusters</h1><p>An idea for configuring Photoshop.</p>" href="/articles/photoshop-clusters/" class="phark phark-link" style="background-image: url(/articles/photoshop-clusters/home-thumb.jpg);">Photoshop Clusters</a>
     				</li>
-    		        <li class="home-round-item" style="left: 600px; top: 8px; z-index: 1;">
+    				<?php /* ?>	
+    		        <li class="home-round-item" style="">
     				    <a data-tooltip-content="<h1>Why I Love the Netflix Redesign</h1><p>Netflix should be applauded for their bold redesign.</p>" href="/articles/why-i-love-the-netflix-redesign/" class="phark phark-link" style="background-image: url(/articles/why-i-love-the-netflix-redesign/netflix-home.png);">Why I Love the Netflix Redesign</a>
-					</li>
-					<?php /* ?>		
+					</li>						
     				<li class="home-round-item" style="left: 600px; top: 12px; z-index: 2;">
     				    <a data-tooltip-content="<h1>Now I Have RSS</h1><p>Happy?</p>" href="/articles/now-i-have-rss/" class="phark phark-link" style="background-image: url(/articles/now-i-have-rss/now-i-have-rss-home.png);">Now I Have RSS</a>
     				</li>

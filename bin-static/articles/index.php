@@ -37,6 +37,18 @@
             	</ol><?php '/.pagination' */ ?>
             	
             	<ol class="articles no-marker">
+            	    <li>
+            	        <article>
+            	            <header>
+            	                <h1><a href="/articles/brooklyn-beta-2011/">What I Loved About Brooklyn Beta</a></h1>
+            	            </header>
+            	            <p>Hands down the best industry event I&rsquo;ve ever attended.</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/brooklyn-beta-2011/"><time datetime="2011-10-15T22:18:26">Oct 15, 2011</time></a></li>
+            	                <script>document.write('<li class="comments"><a href="/articles/brooklyn-beta-2011/#disqus_thread" data-disqus-identifier="brooklyn-beta-2011"></a></li>');</script>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
+        	        </li>
 					<li>
             	        <article>
             	            <header>

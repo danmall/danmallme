@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2011</dc:rights>
-    <pubDate>Fri, 30 Sep 2011 06:31:07 GMT</pubDate>
+    <pubDate>Sat, 15 Oct 2011 22:18:26 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>What I Loved About Brooklyn Beta</title>
+        <description>Hands down the best industry event I've ever attended.</description>
+        <link>http://danielmall.com/articles/brooklyn-beta-2011/</link>
+        <guid>http://danielmall.com/articles/brooklyn-beta-2011/</guid>
+        <pubDate>Sat, 15 Oct 2011 22:18:26 GMT</pubDate>
+    </item>
 	<item>
         <title>You, the Conference Organizer</title>
         <description>Plan your dream conference.</description>
