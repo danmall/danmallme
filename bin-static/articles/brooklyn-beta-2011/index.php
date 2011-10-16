@@ -33,7 +33,7 @@
                 <li><a href="http://fictivecameron.com/" rel="friend met">Cameron Koczon</a>&rsquo;s crazy-inspiring rally for designers at the C-level</li>
                 <li><a href="http://superfluousbanter.org/" rel="friend met">Dan Rubin</a>&rsquo;s attempt to woo me with a Cap&rsquo;n &amp; Coke</li>                
                 <li>Meeting <a href="http://joshuablankenship.com/blog/" rel="friend met">Joshua Blankenship</a> in person and learning how a church can value design</li>
-                <li>Speculating with <a href="http://seangaffney.cc/" rel="friend met">Sean Gaffney</a> about making 3-year plans</li>
+                <li>Speculating with <a href="http://seangaffney.cc/" rel="friend met">Sean Gaffney</a> about 3-year plans</li>
                 <li>Meeting <a href="http://twitter.com/tyler_thompson" rel="friend met">Tyler Thompson</a> in person and acknowledging that we&rsquo;re both frauds</li>
                 <li>Being too shy to introduce myself to <a href="http://www.lukew.com/">Luke Wroblewski</a></li>
                 <li>Finally meeting <a href="http://www.desandro.com/">Dave Desandro</a> and professing my love for <a href="http://isotope.metafizzy.co/">Isotope</a> and <a href="http://masonry.desandro.com/">Masonry</a></li>
