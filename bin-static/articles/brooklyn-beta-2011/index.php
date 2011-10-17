@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/doctype.php"); echo "\n"; ?>
 <head profile="http://gmpg.org/xfn/11">
-    <title>&ldquo;Why I Loved Brooklyn Beta,&rdquo; an article by Dan Mall</title>
+    <title>&ldquo;What I Loved About Brooklyn Beta,&rdquo; an article by Dan Mall</title>
     <meta name="description" content="Crowdsourcing the Conference Talk" />
     <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/meta.php"); echo "\n"; ?>
     
