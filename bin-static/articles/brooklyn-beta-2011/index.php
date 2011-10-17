@@ -82,6 +82,7 @@
                 <li>Making mutual connections with <a href="http://twitter.com/jaminjantz" rel="met friend">Jamin Jantz</a></li>
                 <li>Hearing about <a href="http://lachstock.com.au/" rel="met friend">Lachlan Hardy</a>&rsquo;s incredibly awesome entrepreneurial ideas</li>
                 <li>Eating a mozzarella and tomato salad in front of <a href="http://drinkerthinker.com/" rel="friend met">Lizzy Galle</a> days before</li>
+                <li>Meeting <a href="http://twitter.com/#!/zachmccullough" rel="met">Zach McCullough</a> of <a href="http://www.behance.net/zachmccullough">Behance</a></li>
                 <li>Getting <a href="http://www.ethanmarcotte.com/" rel="friend met">Ethan Marcotte</a> to give his excellent <a href="http://www.alistapart.com/articles/responsive-web-design/">Responsive Web Design</a> talk at <a href="http://bigspaceship.com/">Big Spaceship</a> while he was in town</li>
                 <li>Being able to congratulate <a href="http://www.aworkinglibrary.com/" rel="friend met">Mandy Brown</a> in person on <a href="http://blog.typekit.com/2011/10/03/adobe-acquires-typekit/">the acquisition of Typekit</a> and for the incredible work in <a href="http://thisismadebyhand.com/">Made by Hand</a></li>
                 <li>Seeing <a href="http://www.brainpickings.org/" rel="met friend">Maria Popova</a> after a few years</li>
