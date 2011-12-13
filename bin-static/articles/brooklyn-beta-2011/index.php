@@ -26,10 +26,11 @@
 			<h1>What I Loved About Brooklyn Beta</h1>
 				
 			<ul class="no-marker">
+			    <li>The wonderful <a href="http://shiflett.org/blog/2011/oct/brooklyn-beta-opening">lessons</a> <a href="http://shiflett.org/" rel="friend met">Chris Shiflett</a> shared</li>
+			    <li>An incredibly passionate call to arms from <a href="http://twitter.com/todd_park">Todd Park</a> of the <abbr title="United States">US</abbr> Department of Health and Human Services</li>
                 <li><a href="http://incisive.nu/" rel="friend met">Erin Kissane</a>&rsquo;s newly pinked hair</li>                
                 <li><a href="http://colly.com/" rel="friend met">Simon Collison</a> demoed the awesome <a href="http://twitter.com/fanzinefm">Fanzine</a></li>
-                <li>A long-awaited sneak peek of <a href="http://www.letscaravan.com/">Caravan</a> by <a href="http://www.nateabele.com/" rel="friend neighbor met">Nate Abele</a>, <a href="http://energy7.com/" rel="friend met">Erica Heinz</a>, and team</li>
-                <li>An incredibly passionate call to arms from <a href="http://twitter.com/todd_park">Todd Park</a> of the <abbr title="United States">US</abbr> Department of Health and Human Services</li>
+                <li>A long-awaited sneak peek of <a href="http://www.letscaravan.com/">Caravan</a> by <a href="http://www.nateabele.com/" rel="friend neighbor met">Nate Abele</a>, <a href="http://energy7.com/" rel="friend met">Erica Heinz</a>, and team</li>                
                 <li><a href="http://fictivecameron.com/" rel="friend met">Cameron Koczon</a>&rsquo;s crazy-inspiring rally for designers at the C-level</li>
                 <li><a href="http://superfluousbanter.org/" rel="friend met">Dan Rubin</a>&rsquo;s attempt to woo me with a Cap&rsquo;n &amp; Coke</li>                
                 <li>Meeting <a href="http://joshuablankenship.com/blog/" rel="friend met">Joshua Blankenship</a> in person and learning how a church can value design</li>
@@ -54,7 +55,7 @@
                 <li>Sitting next to <a href="http://cameronmoll.com/" rel="friend met">Cameron Moll</a> for exactly one talk</li>
                 <li>Trying to convince <a href="http://chandlervdw.com/" rel="friend met">Chandler Van de Water</a> to launch his app early and revise quickly</li>
                 <li>Getting my picture taken by <a href="http://chrisglass.com/" rel="friend met">Chris Glass</a></li>
-                <li>Highly recommending <a href="http://shop.ugmonk.com/" rel="friend met">Jeff Sheldon</a> to <a href="http://shiflett.org/" rel="friend met">Chris Shiflett</a> as a speaker for next year&rsquo;s <span class="hashtag">#brooklynbeta</span> (already can&rsquo;t wait)</li>
+                <li>Highly recommending <a href="http://shop.ugmonk.com/" rel="friend met">Jeff Sheldon</a> as a speaker for next year&rsquo;s <span class="hashtag">#brooklynbeta</span> (already can&rsquo;t wait)</li>
                 <li>Continually feeling bad for calling <span class="hashtag">#brooklynbeta</span> a conference (it&rsquo;s way more)</li>
                 <li>Chatting with <a href="http://danleatherman.com/">Dan Leatherman</a> about when we went from &ldquo;Daniel&rdquo; to &ldquo;Dan&rdquo;</li>
                 <li>Lefty handshaking <a href="http://www.iamdavedawson.com/" rel="friend met">Dave Dawson</a>, who hurt his right elbow (get better, Dave!)</li>
