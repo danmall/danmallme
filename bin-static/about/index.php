@@ -18,7 +18,7 @@
         	    <h1 class="phark">About Dan</h1>
         	</header>
         	
-        	<p>I&rsquo;m Dan Mall, an award-winning art director and designer from <del>Philadelphia</del> <ins>Brooklyn</ins>, an enthralled husband and new dad, Art Director at <a href="http://www.bigspaceship.com/">Big Spaceship</a>, former Interactive Director at <a href="http://www.happycog.com/">Happy Cog</a>, technical editor for <cite><a href="http://www.alistapart.com/">A List Apart</a></cite>, <nobr>co-founder</nobr> of <a href="http://typedia.com/">Typedia</a> and <acronym title="swf Image Replacement"><span style="text-transform: none; letter-spacing: 0;">swf</span>IR</acronym>, and singer/keyboard player for contemporary-Christian band <a href="http://www.four24.com/">Four24</a>. I write about design and other issues on <a href="http://twitter.com/danielmall">Twitter</a> and <a href="/articles/">right here on this site</a>.</p>
+        	<p>I&rsquo;m Dan Mall, an award-winning art director and designer from <del>Philadelphia</del> <ins>Brooklyn</ins>, an enthralled husband and new dad, Design Director at <a href="http://www.bigspaceship.com/">Big Spaceship</a>, former Interactive Director at <a href="http://www.happycog.com/">Happy Cog</a>, technical editor for <cite><a href="http://www.alistapart.com/">A List Apart</a></cite>, <nobr>co-founder</nobr> of <a href="http://typedia.com/">Typedia</a> and <acronym title="swf Image Replacement"><span style="text-transform: none; letter-spacing: 0;">swf</span>IR</acronym>, and singer/keyboard player for contemporary-Christian band <a href="http://www.four24.com/">Four24</a>. I write about design and other issues on <a href="http://twitter.com/danielmall">Twitter</a> and <a href="/articles/">right here on this site</a>.</p>
         	
         	<p><cite class="credit">Photo by <a href="http://pkarl.com/">Pete Karl II</a></cite></p>
         	
@@ -92,7 +92,7 @@
         	                </tr>
         	                <tr id="bss">
     	                        <th><mark>2009&ndash;present</mark></th>
-        	                    <td><mark>Art Director at <a class="phark phark-link" href="http://bigspaceship.com/">Big Spaceship</a></mark>
+        	                    <td><mark>Design Director at <a class="phark phark-link" href="http://bigspaceship.com/">Big Spaceship</a></mark>
         	                </td>	                    
         	            </table>
     	                
@@ -110,7 +110,7 @@
         	                        <dd>
         	                            <del>116</del><br />
         	                            <?php /* echo abs(strtotime(date('Y-m-d')) - strtotime("2011-03-26"))/86400; */ ?>
-        	                            <?php echo abs(strtotime(date('Y-m-d')) - strtotime("2011-07-20"))/86400; ?>
+        	                            <?php echo round(abs(strtotime(date('Y-m-d')) - strtotime("2011-07-20"))/86400); ?>
         	                        </dd>        	                        
         	                </dl>
         	            </div><!-- #fact-soda -->
