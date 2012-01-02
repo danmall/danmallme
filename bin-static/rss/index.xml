@@ -7,12 +7,20 @@
     xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
     <title>Dan Mall: Articles</title>
-    <description>Musings from the brain of Dan Mall and friends.</description>
+    <description>Musings from the brain of Dan Mall.</description>
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2011</dc:rights>
-    <pubDate>Sat, 15 Oct 2011 22:18:26 GMT</pubDate>
+    <pubDate>Mon, 2 Jan 2012 12:06:30 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Sketchbooks</title>
+        <description>Celebrating rituals that encourage new beginnings.</description>
+        <link>http://danielmall.com/articles/sketchbooks/</link>
+        <guid>http://danielmall.com/articles/sketchbooks/</guid>
+        <pubDate>Mon, 2 Jan 2012 12:06:30 GMT</pubDate>
+    </item>
+	
     <item>
         <title>What I Loved About Brooklyn Beta</title>
         <description>Hands down the best industry event I've ever attended.</description>
