@@ -40,6 +40,19 @@
             	    <li>
             	        <article>
             	            <header>
+            	                <h1><a href="/articles/sketchbooks/">Sketchbooks</a></h1>
+            	            </header>
+            	            <p>Celebrating rituals that encourage new beginnings.</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/sketchbooks/"><time datetime="2012-01-02T12:06:30">Jan 2, 2012</time></a></li>
+            	                <script>document.write('<li class="comments"><a href="/articles/sketchbooks/#disqus_thread" data-disqus-identifier="sketchbooks"></a></li>');</script>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
+        	        </li>
+					
+            	    <li>
+            	        <article>
+            	            <header>
             	                <h1><a href="/articles/brooklyn-beta-2011/">What I Loved About Brooklyn Beta</a></h1>
             	            </header>
             	            <p>Hands down the best industry event I&rsquo;ve ever attended.</p>

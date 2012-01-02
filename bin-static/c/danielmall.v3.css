@@ -122,7 +122,7 @@ header, footer, nav, section, article, mark, hgroup { display: block; }
 /*\*/ .phark-link, #masthead nav a, #work-subnav a, #project-nav a { overflow: hidden; } /**/
 
 /* Easy Clearing - http://www.positioniseverything.net/easyclearing.html */ 
-.easy-clearing:after, #tweets ul:after, #work-content:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix:after, .easy-clearing:after, #tweets ul:after, #work-content:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
 
 .offscreen, .pagination b, #fowd2010 .rotator li, #flashpitt2009 .rotator li  { position: absolute; left: -9999px; }
 
