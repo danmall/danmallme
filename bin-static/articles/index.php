@@ -37,6 +37,21 @@
             	</ol><?php '/.pagination' */ ?>
             	
             	<ol class="articles no-marker">
+					
+            	    <li>
+            	        <article>
+            	            <header>
+            	                <h1><a href="/articles/farewell-big-spaceship/">Farewell, Big Spaceship</a></h1>
+            	            </header>
+            	            <p>Today is my last day at Big Spaceship.</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/farewell-big-spaceship/"><time datetime="2012-01-02T10:30:00">Jan 27, 2012</time></a></li>
+            	                <script>document.write('<li class="comments"><a href="/articles/farewell-big-spaceship/#disqus_thread" data-disqus-identifier="farewell-bss"></a></li>');</script>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
+        	        </li>
+					
+					
             	    <li>
             	        <article>
             	            <header>

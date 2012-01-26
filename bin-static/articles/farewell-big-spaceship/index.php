@@ -84,7 +84,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2012-01-02T12:06:30">Published January 2, 2011 at 12:06 <abbr title="Post Meridian">PM</abbr></time>
+        	        <time datetime="2012-01-27T12:06:30">Published January 27, 2012 at 10:30 <abbr title="Post Meridian">AM</abbr></time>
     	        </section><!-- /#article-info -->
     	        
     	        
