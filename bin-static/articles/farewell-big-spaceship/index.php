@@ -31,9 +31,9 @@
 			
 			<h1><span class="lettering-hook">Today</span> is my last day at <a href="http://bigspaceship.com/">Big Spaceship</a>.</h1>
 			
-			<p>I&rsquo;ve learned a lot here&hellip; more than I probably should have. It&rsquo;s been great to have the opportunity to work with some of the best in the world at what they do. I&rsquo;m incredibly grateful to Michael Lebowitz and the whole crew at Big Spaceship for the incredible opportunity to be a part of the team.</p>
+			<p>I&rsquo;ve learned a lot here&hellip; more than I probably should have. It&rsquo;s been great to have the opportunity to work with some of the best in the world at what they do. I&rsquo;m incredibly grateful to Michael Lebowitz and the whole crew at Big Spaceship for the opportunity to be a part of that amazing team.</p>
 
-			<p>I’ve got some very exciting things on the horizon. Stay tuned.</p>
+			<p>A bittersweet decision for sure, but I&rsquo;ve got some very exciting things on the horizon. I&rsquo;ll post a follow up about those very things shortly. Stay tuned!</p>
 	    
 	    </section><!-- #farewell-bss -->	    
 	    

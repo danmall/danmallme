@@ -11,8 +11,16 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2011</dc:rights>
-    <pubDate>Mon, 2 Jan 2012 12:06:30 GMT</pubDate>
+    <pubDate>Mon, 27 Jan 2012 10:30:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Farewell, Big Spaceship</title>
+        <description>Today is my last day at Big Spaceship.</description>
+        <link>http://danielmall.com/articles/farewell-big-spaceship/</link>
+        <guid>http://danielmall.com/articles/farewell-big-spaceship/</guid>
+        <pubDate>Mon, 27 Jan 2012 10:30:00 GMT</pubDate>
+    </item>
+	
     <item>
         <title>Sketchbooks</title>
         <description>Celebrating rituals that encourage new beginnings.</description>
