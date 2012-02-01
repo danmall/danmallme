@@ -41,11 +41,25 @@
             	    <li>
             	        <article>
             	            <header>
+            	                <h1><a href="/articles/introducing-superfriendly/">Introducing SuperFriendly</a></h1>
+            	            </header>
+            	            <p>Today&rsquo;s my birthday. This year, I got myself a new house, a new (old) city, and my very own design studio.</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/introducing-superfriendly/"><time datetime="2012-02-01T14:00:00">Feb 1, 2012</time></a></li>
+            	                <script>document.write('<li class="comments"><a href="/articles/introducing-superfriendly/#disqus_thread" data-disqus-identifier="introducing-superfriendly1"></a></li>');</script>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
+        	        </li>
+					
+					
+            	    <li>
+            	        <article>
+            	            <header>
             	                <h1><a href="/articles/farewell-big-spaceship/">Farewell, Big Spaceship</a></h1>
             	            </header>
             	            <p>Today is my last day at Big Spaceship.</p>
             	            <ul class="meta easy-clearing no-marker">
-            	                <li class="permalink"><a href="/articles/farewell-big-spaceship/"><time datetime="2012-01-02T10:30:00">Jan 27, 2012</time></a></li>
+            	                <li class="permalink"><a href="/articles/farewell-big-spaceship/"><time datetime="2012-01-27T10:30:00">Jan 27, 2012</time></a></li>
             	                <script>document.write('<li class="comments"><a href="/articles/farewell-big-spaceship/#disqus_thread" data-disqus-identifier="farewell-bss"></a></li>');</script>
             	            </ul><!-- .meta -->
             	        </article>        	        

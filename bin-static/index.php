@@ -66,20 +66,25 @@
     		    <ul class="no-marker">
 					
     		        <li class="home-round-item" style="left: 100px; top: 13px; z-index: 4;">
+    				    <a data-tooltip-content="<h1>Introducing SuperFriendly</h1><p>Today&rsquo;s my birthday. This year, I got myself a new house, a new (old) city, and my very own design studio.</p>" href="/articles/introducing-superfriendly/" class="phark phark-link" style="background-image: url(/articles/introducing-superfriendly/home-thumb.gif);">Introducing SuperFriendly</a>
+    				</li>
+					
+    		        <li class="home-round-item" style="left: 270px; top: 8px; z-index: 3;">
     				    <a data-tooltip-content="<h1>Farewell, Big Spaceship</h1><p>Today is my last day at Big Spaceship.</p>" href="/articles/farewell-big-spaceship/" class="phark phark-link" style="background-image: url(/articles/farewell-big-spaceship/home-thumb.png);">Farewell, Big Spaceship</a>
     				</li>					
 					
-    		        <li class="home-round-item" style="left: 270px; top: 8px; z-index: 3;">
+    		        <li class="home-round-item" style="left: 430px; top: 20px; z-index: 2;">
     				    <a data-tooltip-content="<h1>Sketchbooks</h1><p>Celebrating rituals that encourage new beginnings.</p>" href="/articles/sketchbooks/" class="phark phark-link" style="background-image: url(/articles/sketchbooks/home-thumb2.jpg);">Sketchbooks</a>
     				</li>
 					
-    		        <li class="home-round-item" style="left: 430px; top: 20px; z-index: 2;">
+    		        <li class="home-round-item" style="left: 600px; top: 8px; z-index: 1;">
     				    <a data-tooltip-content="<h1>What I Loved About Brooklyn Beta</h1><p>Hands down the best industry event I&rsquo;ve ever attended.</p>" href="/articles/brooklyn-beta-2011/" class="phark phark-link" style="background-image: url(/articles/brooklyn-beta-2011/home-thumb.jpg);">What I Loved About Brooklyn Beta</a>
     				</li>
+					<?php /* ?>	
 					<li class="home-round-item" style="left: 600px; top: 8px; z-index: 1;">
     				    <a data-tooltip-content="<h1>You, the Conference Organizer</h1><p>Plan your dream conference.</p>" href="/articles/you-the-conference-organizer/" class="phark phark-link" style="background-image: url(/articles/you-the-conference-organizer/home-thumb.jpg);">You, the Conference Organizer</a>
     				</li>	
-					<?php /* ?>	
+					
     		        <li class="home-round-item" style="left: 600px; top: 8px; z-index: 1;">
     				    <a data-tooltip-content="<h1>Typefaces I Used This Month</h1><p>Be adventurous and experiment with new faces, but don&rsquo;t forget about the classics.</p>" href="/articles/august2011-typefaces/" class="phark phark-link" style="background-image: url(/articles/august2011-typefaces/home-thumb.png);">Typefaces I Used This Month</a>
     				</li>    		        

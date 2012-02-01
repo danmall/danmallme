@@ -10,17 +10,23 @@
     <description>Musings from the brain of Dan Mall.</description>
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
-    <dc:rights>Copyright 2005-2011</dc:rights>
-    <pubDate>Mon, 27 Jan 2012 10:30:00 GMT</pubDate>
+    <dc:rights>Copyright 2005-2012</dc:rights>
+    <pubDate>Mon, 1 Feb 2012 14:00:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Introducing SuperFriendly</title>
+        <description>Today is my last day at Big Spaceship.</description>
+        <link>http://danielmall.com/articles/introducing-superfriendly/</link>
+        <guid>http://danielmall.com/articles/introducing-superfriendly/</guid>
+        <pubDate>Mon, 1 Feb 2012 14:00:00 GMT</pubDate>
+    </item>	
     <item>
         <title>Farewell, Big Spaceship</title>
         <description>Today is my last day at Big Spaceship.</description>
         <link>http://danielmall.com/articles/farewell-big-spaceship/</link>
         <guid>http://danielmall.com/articles/farewell-big-spaceship/</guid>
         <pubDate>Mon, 27 Jan 2012 10:30:00 GMT</pubDate>
-    </item>
-	
+    </item>	
     <item>
         <title>Sketchbooks</title>
         <description>Celebrating rituals that encourage new beginnings.</description>

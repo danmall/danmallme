@@ -1,0 +1,13 @@
+#article-area-wrap { background: #e75224; font: normal 18px/1.6 Georgia, 'Times New Roman', serif; color: #d2d2d2; }
+
+#introducing-superfriendly { margin: 0 auto; width: 600px; padding: 50px 0; position: relative; }
+	#introducing-superfriendly h1 { background-image: url(i/introducing-superfriendly.png); width: 351px; height: 163px; margin: 0 auto 25px; }
+	#introducing-superfriendly p { font-size: 18px; color: #6f2917; }
+	#introducing-superfriendly a { color: #fff; border: none; }
+	#introducing-superfriendly a:hover, #introducing-superfriendly a:focus { color: #fff; background: #000; }
+	
+	#signature { position: absolute; top: 60px; left: 50%; margin-left: -200px; }
+	.flash #introducing-superfriendly h1 { margin-bottom: 50px; }
+		
+#introducing-superfriendly ::selection { background: rgba(255, 255, 255, 0.2); color: #fff; }
+#introducing-superfriendly ::-moz-selection { background: rgba(255, 255, 255, 0.2); color: #fff; }
