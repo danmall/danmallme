@@ -52,6 +52,13 @@
 				<p>Lastly, I&rsquo;ve also co-founded a startup and have been working on that product as I get time. I can&rsquo;t say much more than that yet, but follow along if that piques your interest, as I&rsquo;ll be sharing more news about that in the very near future.</p>
 
 				<p>Changes!</p>
+				
+				<footer id="footnote">
+					<p>Amidst all the excitement, I forgot to mention 2 people without whom the SuperFriendly brand would not have been as strong.</p>
+					<p>I hired <a href="http://www.sergeyshapiro.com/">Sergey Shapiro</a> to create the SuperFriendly logo for me. Sergey&rsquo;s style was perfect for the look I was envisioning, and he executed brilliantly.</p>
+					<p>I struggled to find the right words to encapsulate what SuperFriendly means to me. In a last minute bout of desperation, I reached out to <a href="http://www.pixelingo.com/">Carolyn Wood</a>, who stayed up with me until the wee hours of the morning to help craft the right tone and find the words I could not.</p>
+					<p>To these friends, I am ever grateful.</p>
+				</footer><!-- #footnote -->
 			
 		    </section><!-- #introducing-superfriendly -->	  			
 	    

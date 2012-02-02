@@ -8,6 +8,9 @@
 	
 	#signature { position: absolute; top: 60px; left: 50%; margin-left: -200px; }
 	.flash #introducing-superfriendly h1 { margin-bottom: 50px; }
+	
+	#footnote { border-top: 1px solid rgba(0, 0, 0, 0.2); border-bottom: none; }
+		#footnote p { font: 14px/1.5 Georgia, 'Times New Roman', serif; }
 		
 #introducing-superfriendly ::selection { background: rgba(255, 255, 255, 0.2); color: #fff; }
 #introducing-superfriendly ::-moz-selection { background: rgba(255, 255, 255, 0.2); color: #fff; }
