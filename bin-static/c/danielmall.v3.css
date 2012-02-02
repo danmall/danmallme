@@ -502,7 +502,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
     #dig p { font-size: 13px; line-height: 1.7; margin-left: 330px; }
     #dig header + p { float: left; margin-left: 0; width: 310px; padding-right: 30px; }
 #about-site { width: 194px; float: left; padding-left: 15px; border-left: 1px dotted #7f7f7f; margin-bottom: 5px; }
-#history { border-top: 1px dotted #7f7f7f; float: left; background: transparent url(/i/screen/history-bg.gif) no-repeat 0 60px; min-height: 800px; position: relative; width: 380px; border-right: 1px dotted #7f7f7f; padding: 0 20px 0 0; }
+#history { border-top: 1px dotted #7f7f7f; float: left; background: transparent url(/i/screen/about/history-bg2.gif) no-repeat 0 60px; min-height: 1000px; position: relative; width: 380px; border-right: 1px dotted #7f7f7f; padding: 0 20px 0 0; }
     #history hgroup h1 { float: left; }
     #history hgroup p { float: right; margin-top: 2em; text-transform: lowercase; font-style: italic; padding-right: 77px; background: transparent url(/i/screen/about/linkedin.png) no-repeat right -18px; position: relative; top: 1px; }
         #linkedin span { position: relative; top: 1px; }
@@ -521,6 +521,10 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
             #hc a { background-image: url(/i/screen/about/hc.png); width: 144px; height: 29px; }
         #bss th, #bss td { top: 636px; }
             #bss a { background-image: url(/i/screen/about/bss.png); width: 122px; height: 17px; }
+        #superfriendly th { top: 772px; }
+		#superfriendly td { top: 757px; }
+            #superfriendly a { background-image: url(/i/screen/about/superfriendly.png); width: 152px; height: 56px; }
+		
 #facts { margin-left: 400px; width: 205px; border-top: 1px dotted #7f7f7f; padding: 0 10px; }
     div[id^="fact-"] { border-top: 1px dotted #7f7f7f; }
     div[id^="fact-"]:first-child { border: none; }

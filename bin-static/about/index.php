@@ -91,9 +91,13 @@
         	                    <td>Interactive Director at <a class="phark phark-link" href="http://happycog.com/">Happy Cog</a></td>
         	                </tr>
         	                <tr id="bss">
-    	                        <th><mark>2009&ndash;present</mark></th>
-        	                    <td><mark>Design Director at <a class="phark phark-link" href="http://bigspaceship.com/">Big Spaceship</a></mark>
+    	                        <th>2009&ndash;2012</th>
+        	                    <td>Design Director at <a class="phark phark-link" href="http://bigspaceship.com/">Big Spaceship</a></td>	                    
+        	                <tr id="superfriendly">
+    	                        <th><mark>2012&ndash;present</mark></th>
+        	                    <td><mark>Founder/Design Director at <a class="phark phark-link" href="http://superfriend.ly/">SuperFriendly</a></mark>
         	                </td>	                    
+							
         	            </table>
     	                
         	        </section><!-- #history -->
