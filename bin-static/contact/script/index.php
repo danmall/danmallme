@@ -12,7 +12,7 @@
 	$contactMessage = $_POST["contact-message"];
 	$contactTest = $_POST["contact-test"];	
 
-	$sendTo = "dan@danielmall.com, emilymall@me.com";
+	$sendTo = "dan@danielmall.com, emilymall@me.com, info@superfriend.ly";
 	$subject = $contactName."'s email from DanielMall.com";
 	//$headers = 'From: '.$contactName.' <'.$contactEmail.'> '. $contactEmail;
 	$headers = 'From: '.$contactName.' <'.$contactEmail.'> ';
