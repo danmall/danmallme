@@ -39,7 +39,7 @@
 
             <p>What do you think? Is this possible? A bad idea? Is anyone out there doing this already, either with Photoshop or another app?</p>
 			
-			<small>* This article has been graciously <a href="http://www.azoft.com/people/seremina/edu/ph_clusters.html">translated into Romanian</a> by Alexandra Seremina.</small>
+			<small>* This article has been graciously <a href="http://www.azoft.com/people/seremina/edu/ph_clusters.html">translated into Romanian</a> by Alexandra Seremina and <a href="http://www.leiste.de/science/photoshop-clusters">translated into German</a> by Alexey Gnatuk.</small>
 	    
 	    </section><!-- #photoshop-clusters -->	    
 	    
