@@ -34,6 +34,8 @@
 			<p>I&rsquo;ve learned a lot here&hellip; more than I probably should have. It&rsquo;s been great to have the opportunity to work with some of the best in the world at what they do. I&rsquo;m incredibly grateful to Michael Lebowitz and the whole crew at Big Spaceship for the opportunity to be a part of that amazing team.</p>
 
 			<p>A bittersweet decision for sure, but I&rsquo;ve got some very exciting things on the horizon. I&rsquo;ll post a follow up about those very things shortly. Stay tuned!</p>
+			
+			<p><strong>Update:</strong> <a href="/articles/introducing-superfriendly/">SuperFriendly is open for business!</a></p>
 	    
 	    </section><!-- #farewell-bss -->	    
 	    
