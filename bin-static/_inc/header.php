@@ -15,7 +15,6 @@
                 <li>Pianist</li>
                 <li>New Dad</li>
                 <li>Husband</li>
-                <li>Creative Director</li>
             </ul>
             <?php } else { ?>
             <h1><a class="phark phark-link" href="/">Daniel Mall</a></h1>

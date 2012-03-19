@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2012</dc:rights>
-    <pubDate>Mon, 1 Feb 2012 14:00:00 GMT</pubDate>
+    <pubDate>Mon, 19 Mar 2012 11:45:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Grok Reads</title>
+        <description>A list of some great books mentioned in Grok sessions.</description>
+        <link>http://danielmall.com/articles/grok-reads/</link>
+        <guid>http://danielmall.com/articles/grok-reads/</guid>
+        <pubDate>Mon, 19 Mar 2012 11:45:00 GMT</pubDate>
+    </item>	
     <item>
         <title>Introducing SuperFriendly</title>
         <description>Today is my last day at Big Spaceship.</description>

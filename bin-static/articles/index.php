@@ -41,6 +41,20 @@
             	    <li>
             	        <article>
             	            <header>
+            	                <h1><a href="/articles/grok-reads/">Grok Reads</a></h1>
+            	            </header>
+            	            <p>A list of some great books mentioned in <a href="http://grok.cc/">Grok</a> sessions.</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/grok-reads/"><time datetime="2012-03-19T11:45:00">Mar 19, 2012</time></a></li>
+            	                <script>document.write('<li class="comments"><a href="/articles/grok-reads/#disqus_thread" data-disqus-identifier="grok-reads"></a></li>');</script>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
+        	        </li>
+					
+					
+            	    <li>
+            	        <article>
+            	            <header>
             	                <h1><a href="/articles/introducing-superfriendly/">Introducing SuperFriendly</a></h1>
             	            </header>
             	            <p>Today&rsquo;s my birthday. This year, I got myself a new house, a new (old) city, and my very own design studio.</p>
