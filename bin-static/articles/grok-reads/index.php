@@ -6,7 +6,7 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/meta.php"); echo "\n"; ?>
     
     <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/cssReference.php"); echo "\n"; ?>	
-	<script type="text/javascript" src="http://use.typekit.com/kef5cyq.js"></script>
+	<script src="http://use.typekit.com/kef5cyq.js"></script>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/jsReference.php"); echo "\n"; ?> 
 	<link rel="stylesheet" href="grok-reads.css" />	
     
@@ -17,88 +17,84 @@
 	<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/header.php"); echo "\n"; ?>
 	
 	<div id="article-area-wrap">
-	    
+			
 	    <section id="grok-reads" class="clearfix">
 			
-		    <section id="grok-reads" class="clearfix">
-			
-				<h1 class="offscreen">Grok Reads</h1>
+			<h1 class="offscreen">Grok Reads</h1>
 				
-				<p>Last week, I had the pleasure of attending <a href="http://grok.cc/">Greenville Grok</a> in Greenville, <abbr title="South Carolina">SC</abbr>. Though there were many great things about it&mdash;check out roundups by <a href="http://garrettstjohn.com/entry/greenville-grok/">Garrett St. John</a>, <a href="http://wiseacredigital.com/blog/437">Paul Armstrong</a>, <a href="http://blog.ismaelburciaga.com/tag/grok/">Ismael Burciaga</a>, <a href="http://brandonhoulihan.com/2012/reflecting-on-grok/">Brandon Houlihan</a>, and <a href="http://blumercpas.com/blog/comments/what_is_a_grok">Jason Blumer</a>&mdash; one of the things that impressed me the most was how well read all of the attendees seemed to be. I started to compile a list of the books mentioned in each session. Though there&rsquo;s are only a handful here, I&rsquo;m hoping they act as good references for what went on at Grok. And, if you attended the event and can think of some books that aren&rsquo;t part of the list, mention them in the comments and I&rsquo;ll be happy to add them.</p>
+			<p>Last week, I had the pleasure of attending <a href="http://grok.cc/">Greenville Grok</a> in Greenville, <abbr title="South Carolina">SC</abbr>. Though there were many great things about it&mdash;check out roundups by <a href="http://garrettstjohn.com/entry/greenville-grok/">Garrett St. John</a>, <a href="http://wiseacredigital.com/blog/437">Paul Armstrong</a>, <a href="http://blog.ismaelburciaga.com/tag/grok/">Ismael Burciaga</a>, <a href="http://brandonhoulihan.com/2012/reflecting-on-grok/">Brandon Houlihan</a>, and <a href="http://blumercpas.com/blog/comments/what_is_a_grok">Jason Blumer</a>&mdash; one of the things that impressed me the most was how well read all of the attendees seemed to be. I started to compile a list of the books mentioned in each session. Though there&rsquo;s are only a handful here, I&rsquo;m hoping they act as good references for what went on at Grok. And, if you attended the event and can think of some books that aren&rsquo;t part of the list, mention them in the comments and I&rsquo;ll be happy to add them.</p>
 				
-				<p>Happy reading!</p>
+			<p>Happy reading!</p>
 				
-				<ul class="books no-marker">					
-					<li>
-						<h2>
-							<a style="background-image: url(i/varieties.jpg);" href="https://www.amazon.com/dp/B004SXMZOE/ref=as_li_ss_til?tag=danielmall-20&amp;camp=0&amp;creative=0&amp;linkCode=as4&amp;creativeASIN=B004SXMZOE&amp;adid=15Q81ASV7ZQ9GD99F1EW&amp;">
-								Varieties of a Religious Experience
-							</a>
-						</h2>
-						<h3>by William James</h3>
-					</li>
-					<li>
-						<h2>
-							<a style="background-image: url(i/dysfunctions.jpg);" href="https://www.amazon.com/dp/0787960756/ref=as_li_ss_til?tag=danielmall-20&amp;camp=0&amp;creative=0&amp;linkCode=as4&amp;creativeASIN=0787960756&amp;adid=1BPMAFY982GPXY6Q07CG&amp;">
-								The Five Dysfunctions of a Team
-							</a>
-						</h2>
-						<h3>by Patrick Lencioni</h3>	
-					</li>
-					<li>
-						<h2>
-							<a style="background-image: url(i/remote-research.png);" href="http://rosenfeldmedia.com/books/remote-research/">
-								Remote Research
-							</a>
-						</h2>
-						<h3>by Nate Bolt &amp; Tony Tulathimutte</h3>
-					</li>
-					<li>
-						<h2>
-							<a style="background-image: url(i/strengthsfinder.png);" href="https://www.amazon.com/dp/159562015X/ref=as_li_ss_til?tag=danielmall-20&amp;camp=0&amp;creative=0&amp;linkCode=as4&amp;creativeASIN=159562015X&amp;adid=1BTADGJEMAKY2X348KNW&amp;">
-								StrengthsFinder 2.0
-							</a>
-						</h2>
-						<h3>by Tom Rath</h3>
-					</li>
-					<li>
-						<h2>
-							<a style="background-image: url(i/thinketh.jpg);" href="https://www.amazon.com/dp/1612930220/ref=as_li_ss_til?tag=danielmall-20&amp;camp=0&amp;creative=0&amp;linkCode=as4&amp;creativeASIN=1612930220&amp;adid=18XXE07GGZ9YDG4D407T&amp;">
-								As a Man Thinketh
-							</a>
-						</h2>
-						<h3>by James Allen</h3>	
-					</li>
-					<li>
-						<h2>
-							<a style="background-image: url(i/design-is-a-job.png);" href="http://www.abookapart.com/products/design-is-a-job">
-								Design is a Job
-							</a>
-						</h2>
-						<h3>by Mike Monteiro</h3>
-					</li>
-					<li>
-						<h2>
-							<a style="background-image: url(i/trusted-advisor.png);" href="https://www.amazon.com/dp/0743212347/ref=as_li_ss_til?tag=danielmall-20&amp;camp=0&amp;creative=0&amp;linkCode=as4&amp;creativeASIN=0743212347&amp;adid=0G19XC79N4EM2P1JVJN7&amp;">
-								The Trusted Advisor
-							</a>
-						</h2>
-						<h3>by David H. Maister</h3>
-					</li>
-					<li>
-						<h2>
-							<a style="background-image: url(i/design-professionalism.png);" href="http://designprofessionalism.com/">
-								Design Professionalism
-							</a>
-						</h2>
-						<h3>by Andy Rutledge</h3>
-					</li>			
-				</ul><!-- .books -->
+			<ul class="books no-marker">					
+				<li>
+					<h2>
+						<a style="background-image: url(i/varieties.jpg);" href="https://www.amazon.com/dp/B004SXMZOE/ref=as_li_ss_til?tag=danielmall-20&amp;camp=0&amp;creative=0&amp;linkCode=as4&amp;creativeASIN=B004SXMZOE&amp;adid=15Q81ASV7ZQ9GD99F1EW&amp;">
+							Varieties of a Religious Experience
+						</a>
+					</h2>
+					<h3>by William James</h3>
+				</li>
+				<li>
+					<h2>
+						<a style="background-image: url(i/dysfunctions.jpg);" href="https://www.amazon.com/dp/0787960756/ref=as_li_ss_til?tag=danielmall-20&amp;camp=0&amp;creative=0&amp;linkCode=as4&amp;creativeASIN=0787960756&amp;adid=1BPMAFY982GPXY6Q07CG&amp;">
+							The Five Dysfunctions of a Team
+						</a>
+					</h2>
+					<h3>by Patrick Lencioni</h3>	
+				</li>
+				<li>
+					<h2>
+						<a style="background-image: url(i/remote-research.png);" href="http://rosenfeldmedia.com/books/remote-research/">
+							Remote Research
+						</a>
+					</h2>
+					<h3>by Nate Bolt &amp; Tony Tulathimutte</h3>
+				</li>
+				<li>
+					<h2>
+						<a style="background-image: url(i/strengthsfinder.png);" href="https://www.amazon.com/dp/159562015X/ref=as_li_ss_til?tag=danielmall-20&amp;camp=0&amp;creative=0&amp;linkCode=as4&amp;creativeASIN=159562015X&amp;adid=1BTADGJEMAKY2X348KNW&amp;">
+							StrengthsFinder 2.0
+						</a>
+					</h2>
+					<h3>by Tom Rath</h3>
+				</li>
+				<li>
+					<h2>
+						<a style="background-image: url(i/thinketh.jpg);" href="https://www.amazon.com/dp/1612930220/ref=as_li_ss_til?tag=danielmall-20&amp;camp=0&amp;creative=0&amp;linkCode=as4&amp;creativeASIN=1612930220&amp;adid=18XXE07GGZ9YDG4D407T&amp;">
+							As a Man Thinketh
+						</a>
+					</h2>
+					<h3>by James Allen</h3>	
+				</li>
+				<li>
+					<h2>
+						<a style="background-image: url(i/design-is-a-job.png);" href="http://www.abookapart.com/products/design-is-a-job">
+							Design is a Job
+						</a>
+					</h2>
+					<h3>by Mike Monteiro</h3>
+				</li>
+				<li>
+					<h2>
+						<a style="background-image: url(i/trusted-advisor.png);" href="https://www.amazon.com/dp/0743212347/ref=as_li_ss_til?tag=danielmall-20&amp;camp=0&amp;creative=0&amp;linkCode=as4&amp;creativeASIN=0743212347&amp;adid=0G19XC79N4EM2P1JVJN7&amp;">
+							The Trusted Advisor
+						</a>
+					</h2>
+					<h3>by David H. Maister</h3>
+				</li>
+				<li>
+					<h2>
+						<a style="background-image: url(i/design-professionalism.png);" href="http://designprofessionalism.com/">
+							Design Professionalism
+						</a>
+					</h2>
+					<h3>by Andy Rutledge</h3>
+				</li>			
+			</ul><!-- .books -->
 				
 			
-		    </section><!-- #grok-reads -->	  			
-	    
-	    </section><!-- #grok-reads -->	    
+	    </section><!-- #grok-reads -->	  	
 	    
 	</div><!-- /#article-area-wrap -->	
 	
