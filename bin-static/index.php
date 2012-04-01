@@ -27,13 +27,13 @@
 		        <h1 class="phark">Featured Work</h1>
 		
     			<ul class="no-marker">
-    			    <li class="home-round-item" style="left: 125px; top: 2px; z-index: 3;">
+    			    <li class="home-round-item position1">
     				    <a data-tooltip-content="<h1>Activate</h1><p>A turn for the better.</p>" href="/work/activate/" class="phark phark-link" style="background-image: url(/i/screen/home/activate2.jpg);">Activate</a>
     				</li>				
-    				<li class="home-round-item" style="left: 305px; top: 1px; z-index: 2;">
+    				<li class="home-round-item position2">
     				    <a data-tooltip-content="<h1>Morsel</h1><p>Your daily step toward better health.</p>" href="/work/morsel/" class="phark phark-link" style="background-image: url(/i/screen/home/morsel2.jpg);">Morsel</a>
     				</li>
-    				<li class="home-round-item" style="left: 444px; top: 6px; z-index: 1;">
+    				<li class="home-round-item position3">
     				    <a data-tooltip-content="<h1>Housing Works</h1><p>Housing prevents <abbr>AIDS</abbr>. Housing Saves Lives.</p>" href="/work/housing-works/" class="phark phark-link" style="background-image: url(/i/screen/home/housing-works.jpg);">Transformers</a>
     				</li>
     				<?php /* ?><li class="home-round-item" style="left: 444px; top: 2px; z-index: 1;">
@@ -43,7 +43,7 @@
     				    <a href="/work/design-swap/" class="phark phark-link" style="background-image: url(/i/screen/home/design-swap.gif);">Design Swap</a>
     				</li><?php */ ?>
     				
-    				<li class="home-round-item" style="left: 600px; top: 0; z-index: 3;">
+    				<li class="home-round-item position4">
     				    <a data-tooltip-content="<h1>JetWaders</h1><p>Modern-day jelly shoes.</p>" href="/work/jetwaders/" class="phark phark-link" style="background-image: url(/i/screen/home/jetwaders.jpg);">JetWaders</a>
     				</li>		
     				
@@ -65,19 +65,19 @@
 	    
     		    <ul class="no-marker">
 					
-    		        <li class="home-round-item" style="left: 100px; top: 13px; z-index: 4;">
+    		        <li class="home-round-item position1">
     				    <a data-tooltip-content="<h1>Grok Reads</h1><p>A list of some great books mentioned in Greenville Grok sessions.</p>" href="/articles/grok-reads/" class="phark phark-link" style="background-image: url(/articles/grok-reads/home-thumb.jpg);">Grok Reads</a>
     				</li>
 					
-    		        <li class="home-round-item" style="left: 270px; top: 8px; z-index: 3;">
+    		        <li class="home-round-item position2">
     				    <a data-tooltip-content="<h1>Introducing SuperFriendly</h1><p>Today&rsquo;s my birthday. This year, I got myself a new house, a new (old) city, and my very own design studio.</p>" href="/articles/introducing-superfriendly/" class="phark phark-link" style="background-image: url(/articles/introducing-superfriendly/home-thumb.gif);">Introducing SuperFriendly</a>
     				</li>
 					
-    		        <li class="home-round-item" style="left: 430px; top: 20px; z-index: 2;">
+    		        <li class="home-round-item position3">
     				    <a data-tooltip-content="<h1>Farewell, Big Spaceship</h1><p>Today is my last day at Big Spaceship.</p>" href="/articles/farewell-big-spaceship/" class="phark phark-link" style="background-image: url(/articles/farewell-big-spaceship/home-thumb.png);">Farewell, Big Spaceship</a>
     				</li>					
 					
-    		        <li class="home-round-item" style="left: 600px; top: 8px; z-index: 1;">
+    		        <li class="home-round-item position4">
     				    <a data-tooltip-content="<h1>Sketchbooks</h1><p>Celebrating rituals that encourage new beginnings.</p>" href="/articles/sketchbooks/" class="phark phark-link" style="background-image: url(/articles/sketchbooks/home-thumb2.jpg);">Sketchbooks</a>
     				</li>
 					<?php /* ?>	
@@ -144,6 +144,53 @@
 			</div><!-- /.inner -->
 		
 		</section><!-- /#links --><?php */ ?>
+		
+		<section id="dribbble" class="home-row">
+			
+			<div class="inner">
+				
+				<h1 class="phark">From Dribbble</h1>
+				
+				<ul class="no-marker">
+			
+				<?php
+				
+					/* 
+						http://martinbean.github.com/dribbble-php/ 
+						https://github.com/martinbean/dribbble-php
+					*/
+
+					require 'php/dribbble.php';
+
+					$dribbble = new Dribbble();
+
+					try {
+					    $my_shots = $dribbble->get_player_shots('danielmall');
+						$i = 1;
+						
+						foreach ($my_shots->shots as $shot) {
+							if($i <= 4){
+								echo '<li class="home-round-item position' . $i . '"><a class="phark phark-link" href="' . $shot->url . '" style="background-image: url(' . $shot->image_url .');"></a></li>';
+								echo "\n";
+								$i++;
+							}else{
+								break;
+							}
+						}
+					}
+					catch (DribbbleException $e) {
+					    //echo 'Error: ' . $e->getMessage();
+					}
+			
+				?>
+				</ul>
+				
+				<p class="more"><a href="http://dribbble.com/danielmall">See all</a></p>
+			
+			</div><!-- .inner -->
+			
+		</section><!-- #dribbble -->
+		
 		
 		<script>
 		document.write('<section id="tweet" class="home-row"><div class="inner"><h1 class="phark">Latest Tweets</h1><div id="tweets"></div><p class="more">from <a href="http://twitter.com/danielmall">@danielmall</a></p></div></section>');

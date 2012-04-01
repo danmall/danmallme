@@ -31,7 +31,7 @@ $(document).ready(function() {
             
             /*  ------ ANIMATION SEQUENCE: Wish I had SimpleSequencer here ------ */
             
-            $('body#home #work li a, body#home #latest-articles li a').wrap('<div class="animation-container" />');
+            $('body#home #work li a, body#home #latest-articles li a, body#home #dribbble li a').wrap('<div class="animation-container" />');
             
             // 1. fade in "Featured Work" row
             $('body#home #work').delay(_delay*0).fadeTo(500, 1);
@@ -47,6 +47,15 @@ $(document).ready(function() {
             var _totalLatestArticles = $('body#home #latest-articles li').length;
             var _latestArticlesDelayOffset = _totalFeatured;
             this.animateRoundElement(_delay, _animationSpeed, _totalLatestArticles, $('body#home #latest-articles li'), _latestArticlesDelayOffset, _itemWidth);            
+			
+            // 5. fade In "Dribbble" row
+            $('body#home #dribbble').delay(_delay*3).fadeTo(750, 1);
+            
+            // 6. animate in "Dribbble" row items
+            var _totalDribbble = $('body#home #dribbble li').length;
+            var _dribbbleDelayOffset = _latestArticlesDelayOffset + 3;
+            this.animateRoundElement(_delay, _animationSpeed, _totalDribbble, $('body#home #dribbble li'), _dribbbleDelayOffset, _itemWidth);           
+			
             
             // 5. fade in "Tweets" row
             $('#tweet').delay(_delay*6).fadeTo(500, 1);
