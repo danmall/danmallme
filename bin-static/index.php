@@ -159,8 +159,9 @@
 						http://martinbean.github.com/dribbble-php/ 
 						https://github.com/martinbean/dribbble-php
 					*/
-					/*
-					require 'php/dribbble.php';
+					
+					//require 'php/dribbble.php';
+					require($_SERVER["DOCUMENT_ROOT"]."/php/dribbble.php");
 
 					$dribbble = new Dribbble();
 
@@ -181,7 +182,7 @@
 					catch (DribbbleException $e) {
 					    echo 'Error: ' . $e->getMessage();
 					}
-					*/
+					
 				?>
 				</ul>
 				
