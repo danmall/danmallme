@@ -155,11 +155,11 @@
 			
 				<?php
 				
-					/* 
+					/*
 						http://martinbean.github.com/dribbble-php/ 
 						https://github.com/martinbean/dribbble-php
 					*/
-
+					/*
 					require 'php/dribbble.php';
 
 					$dribbble = new Dribbble();
@@ -179,9 +179,9 @@
 						}
 					}
 					catch (DribbbleException $e) {
-					    //echo 'Error: ' . $e->getMessage();
+					    echo 'Error: ' . $e->getMessage();
 					}
-			
+					*/
 				?>
 				</ul>
 				
