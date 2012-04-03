@@ -328,7 +328,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
         #work-area hgroup h2 { margin: 0 0 0.2em; }
         
         #work-area-wrap #pullquote, #work-area-wrap #awards { width: 800px; border-bottom: 1px dotted #7f7f7f; }
-            #work-area-wrap #awards { position: relative; }
+            #work-area-wrap #awards { position: relative; left: 1px; }
             #work-area-wrap #awards ul { list-style: none; }
                 #work-area-wrap #awards a { border: none; position: absolute; }
     

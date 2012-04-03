@@ -12,9 +12,12 @@
         .project-image { height: 730px; background: transparent url(activate-hero.jpg) no-repeat center 0; margin-bottom: 0; }
         .project-url { left: -36px; top: 34px; }
         
-        #awards { background: transparent url(always-beautiful-awards.png) no-repeat 0 0; height: 319px; }
-            #fwa a { width: 162px; height: 70px; top: 135px; left: 170px; }
-            #webby a { width: 226px; height: 143px; top: 113px; left: 448px; }
+        #awards { background: transparent url(activate-awards.png) no-repeat 0 0; height: 319px; }
+            #commarts a { width: 222px; height: 70px; top: 125px; left: 3px; }
+            #netawards a { width: 176px; height: 183px; top: 83px; left: 248px; }
+            #pixel a { width: 162px; height: 170px; top: 95px; left: 467px; }
+            #net a { width: 142px; height: 83px; top: 113px; left: 657px; }
+			
                 
     </style>
 </head>
@@ -64,6 +67,20 @@
         <section id="work-content">
 
             <div class="wrap">
+				
+	            <section id="awards">
+
+	                <h1 class="phark">Awards &amp; Recognition</h1>
+
+	                <ul>
+						<li id="commarts"><a class="phark phark-link" href="http://www.commarts.com/web-sites/activate.html">Communication Arts</a></li>
+	                    <li id="netawards"><a class="phark phark-link" href="http://www.netmagazine.com/features/net-awards-2011-winners">.NET Magazine Awards 2011: Site of the Year, Runner Up</a></li>
+	                    <li id="pixel"><a class="phark phark-link" href="http://www.pixelawards.com/nom_win_2011.php">Pixel Awards 2011: Nominee, Food &amp; Beverage</a></li>
+	                    <li id="net"><a class="phark phark-link" href="http://www.netmagazine.com/tutorials/building-immersive-environment-css-and-javascript">.NET Magazine tutorial</a></li>	                    
+	                </ul>
+
+	            </section>
+				
 
                 <div class="main">
                     

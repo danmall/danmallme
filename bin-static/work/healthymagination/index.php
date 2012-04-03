@@ -68,18 +68,18 @@
 
             <div class="wrap">
 
-            <section id="awards">
+	            <section id="awards">
 
-                <h1 class="phark">Awards &amp; Recognition</h1>
+	                <h1 class="phark">Awards &amp; Recognition</h1>
 
-                <ul>
-                    <li id="wordpress"><a class="phark phark-link" href="http://wordpress.org/showcase/healthymagination/">WordPress</a></li>
-                    <li id="clio"><a class="phark phark-link" href="http://www.cliohealthcare.com/winners/winners.cfm?medium_id=7">Clio Awards</a></li>
-                    <li id="creativity"><a class="phark phark-link" href="http://creativity-online.com/work/general-electric-healthymagination/18932">Creativity</a></li>
-                    <li id="commarts"><a class="phark phark-link" href="http://www.commarts.com/web-sites/healthymagination.html">Communication Arts</a></li>
-                </ul>
+	                <ul>
+	                    <li id="wordpress"><a class="phark phark-link" href="http://wordpress.org/showcase/healthymagination/">WordPress</a></li>
+	                    <li id="clio"><a class="phark phark-link" href="http://www.cliohealthcare.com/winners/winners.cfm?medium_id=7">Clio Awards</a></li>
+	                    <li id="creativity"><a class="phark phark-link" href="http://creativity-online.com/work/general-electric-healthymagination/18932">Creativity</a></li>
+	                    <li id="commarts"><a class="phark phark-link" href="http://www.commarts.com/web-sites/healthymagination.html">Communication Arts</a></li>
+	                </ul>
 
-            </section>
+	            </section>
 
                 <div class="main">
                     
