@@ -38,6 +38,33 @@
             	
             	<ol class="articles no-marker">
 					
+					<?php /* ?>
+            	    <li>
+            	        <article>
+            	            <header>
+            	                <h1><a href="/articles/big-small/">Big/Small</a></h1>
+            	            </header>
+            	            <p>A recent dilemma about responsibility.</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/big-small/"><time datetime="2012-04-11T11:45:00">Mar 19, 2012</time></a></li>
+            	                <script>document.write('<li class="comments"><a href="/articles/big-small/#disqus_thread" data-disqus-identifier="big-small"></a></li>');</script>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
+        	        </li><?php */ ?>
+					
+            	    <li>
+            	        <article>
+            	            <header>
+            	                <h1><a href="/articles/authenticity/">Authenticity</a></h1>
+            	            </header>
+            	            <p>Some speaking advice from <a href="http://adactio.com/">Jeremy Keith</a>.</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/authenticity/"><time datetime="2012-04-17T11:32:46">Apr 17, 2012</time></a></li>
+            	                <script>document.write('<li class="comments"><a href="/articles/authenticity/#disqus_thread" data-disqus-identifier="authenticity"></a></li>');</script>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
+        	        </li>
+					
             	    <li>
             	        <article>
             	            <header>

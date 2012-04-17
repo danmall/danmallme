@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'Geared Slab Extrabold';
+	src: url('GearedSlab-Extrabold.ttf')  format('truetype');
+}
+	
+	
+@font-face {
+	font-family: 'Aldine Expanded';
+	src: url('AldineExpanded.ttf')  format('truetype');	     
+}
+
+#article-area-wrap { background: #ebe7df; position: relative; }
+
+#authenticity { margin: 0 auto; width: 860px; padding: 100px 0; font: normal 16px Verdana, Arial, sans-serif; color: #a4a091; }
+
+	#authenticity p { font-size: 15px; text-align: center; }
+	
+	#authenticity blockquote { background: transparent url(ornaments2.png) no-repeat 0 0; padding: 120px 0 0; margin: 4em auto 3em; width: 900px; }
+		#authenticity blockquote p { font: normal 31px 'Aldine Expanded'; color: rgba(96, 94, 85, 0.6); }
+			#authenticity blockquote strong { display: block; font: normal 160px 'Geared Slab Extrabold'; text-transform: uppercase; letter-spacing: -2px; color: #908a75; margin: 0 0 -32px; line-height: 1.1; position: relative; text-align: center; left: 7px; }				
+			#authenticity blockquote b { display: block; margin: 10px 0; line-height: 1; position: relative; text-align: center; }
+			#authenticity .grunge { background: transparent url(grunge2.png) no-repeat 50% 0; display: block; position: absolute; top: 0; left: 0; height: 100%; width: 100%; }
+			#authenticity strong .grunge { background-position: 50% 15%; }
+				#authenticity blockquote strong .char2 { margin-left: -3px; }
+				#authenticity blockquote strong .char5 { margin-left: 4px; }
+				#authenticity blockquote strong .char9 { margin-left: 4px; }
+				#authenticity blockquote strong .char11 { margin-left: 2px; }
+				#authenticity blockquote strong .char12 { margin-left: -4px; }
+				#authenticity blockquote strong .char13 { margin-left: -14px; }
+			#authenticity #line1 .grunge { background-position: 50% 50%; }
+				#authenticity #line1 .char15 { margin-left: -5px; }
+				#authenticity #line1 .char16 { margin-left: -5px; }
+			#authenticity #line2 .grunge { background-position: 50% 75%; }
+			#authenticity #line2 { font-size: 22px; }
+				#authenticity #line2 .char2 { margin-left: 2px; }
+				#authenticity #line2 .char15 { margin-left: -5px; }
+				#authenticity #line2 .char21 { margin-left: -2px; }
+				#authenticity #line2 .char22 { margin-left: -4px; }
+				#authenticity #line2 .char33 { margin-left: -1px; }
+				#authenticity #line2 .char35 { margin-left: 2px; }
+	
+	#authenticity a { color: #a4a091; border-bottom: 1px solid rgba(142, 139, 128, 0.4); }
+	#authenticity a:hover { color: #000; }
+		
+	/*#authenticity ::selection { background: #c20000; color: #fff; }
+	#authenticity ::-moz-selection { background: #c20000; color: #fff; }*/

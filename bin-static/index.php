@@ -65,22 +65,32 @@
 	    
     		    <ul class="no-marker">
 					
+					<?php /* ?>
     		        <li class="home-round-item position1">
+    				    <a data-tooltip-content="<h1>Big/Small</h1><p>A recent dilemma about responsibility.</p>" href="/articles/big-small/" class="phark phark-link" style="background-image: url(/articles/big-small/home-thumb.png);">Big/Small</a>
+    				</li><?php */ ?>
+					
+    		        <li class="home-round-item position1">
+    				    <a data-tooltip-content="<h1>Authenticity</h1><p>Some speaking advice from Jeremy Keith.</p>" href="/articles/authenticity/" class="phark phark-link" style="background-image: url(/articles/authenticity/home-thumb.png);">Authenticity</a>
+    				</li>					
+					
+    		        <li class="home-round-item position2">
     				    <a data-tooltip-content="<h1>Grok Reads</h1><p>A list of some great books mentioned in Greenville Grok sessions.</p>" href="/articles/grok-reads/" class="phark phark-link" style="background-image: url(/articles/grok-reads/home-thumb.jpg);">Grok Reads</a>
     				</li>
 					
-    		        <li class="home-round-item position2">
+    		        <li class="home-round-item position3">
     				    <a data-tooltip-content="<h1>Introducing SuperFriendly</h1><p>Today&rsquo;s my birthday. This year, I got myself a new house, a new (old) city, and my very own design studio.</p>" href="/articles/introducing-superfriendly/" class="phark phark-link" style="background-image: url(/articles/introducing-superfriendly/home-thumb.gif);">Introducing SuperFriendly</a>
     				</li>
 					
-    		        <li class="home-round-item position3">
+    		        <li class="home-round-item position4">
     				    <a data-tooltip-content="<h1>Farewell, Big Spaceship</h1><p>Today is my last day at Big Spaceship.</p>" href="/articles/farewell-big-spaceship/" class="phark phark-link" style="background-image: url(/articles/farewell-big-spaceship/home-thumb.png);">Farewell, Big Spaceship</a>
     				</li>					
 					
+					<?php /* ?>	
     		        <li class="home-round-item position4">
     				    <a data-tooltip-content="<h1>Sketchbooks</h1><p>Celebrating rituals that encourage new beginnings.</p>" href="/articles/sketchbooks/" class="phark phark-link" style="background-image: url(/articles/sketchbooks/home-thumb2.jpg);">Sketchbooks</a>
     				</li>
-					<?php /* ?>	
+					
     		        <li class="home-round-item" style="left: 600px; top: 8px; z-index: 1;">
     				    <a data-tooltip-content="<h1>What I Loved About Brooklyn Beta</h1><p>Hands down the best industry event I&rsquo;ve ever attended.</p>" href="/articles/brooklyn-beta-2011/" class="phark phark-link" style="background-image: url(/articles/brooklyn-beta-2011/home-thumb.jpg);">What I Loved About Brooklyn Beta</a>
     				</li>

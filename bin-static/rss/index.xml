@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2012</dc:rights>
-    <pubDate>Mon, 19 Mar 2012 11:45:00 GMT</pubDate>
+    <pubDate>Tues, 17 Apr 2012 11:32:46 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Authenticity</title>
+        <description>Some speaking advice from Jeremy Keith.</description>
+        <link>http://danielmall.com/articles/authenticity/</link>
+        <guid>http://danielmall.com/articles/authenticity/</guid>
+        <pubDate>Tue, 17 Apr 2012 11:32:46 GMT</pubDate>
+    </item>		
     <item>
         <title>Grok Reads</title>
         <description>A list of some great books mentioned in Grok sessions.</description>
