@@ -71,7 +71,7 @@
     				</li><?php */ ?>
 					
     		        <li class="home-round-item position1">
-    				    <a data-tooltip-content="<h1>Hillman Curtis</h1><p>Rest in peace, kind sir.</p>" href="/articles/hillman-curtis/" class="phark phark-link" style="background-image: url(/articles/hillman-curtis/home-thumb.png);">Hillman Curtis</a>
+    				    <a data-tooltip-content="<h1>Hillman Curtis</h1><p>The world has lost one more great man.</p>" href="/articles/hillman-curtis/" class="phark phark-link" style="background-image: url(/articles/hillman-curtis/home-thumb.png);">Hillman Curtis</a>
     				</li>
 					
     		        <li class="home-round-item position2">

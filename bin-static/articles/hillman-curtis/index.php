@@ -24,7 +24,7 @@
 			
 			<p>That was the first time I had ever sent someone famous an email. And he responded. And he was nice. It gave me the confidence to continue reaching out to people I respected. A small moment that shaped a huge part of my career.</p>
 			
-			<p>Thank you, Hillman Curtis. <abbr title="Rest in Peace">RIP</abbr>, kind sir.</p>
+			<p>Thank you, Hillman Curtis. The world has lost one more great man.</p>
     	    
     	</div><!-- #hillman-curtis -->
 	    
