@@ -55,6 +55,19 @@
             	    <li>
             	        <article>
             	            <header>
+            	                <h1><a href="/articles/hillman-curtis/">Hillman Curtis</a></h1>
+            	            </header>
+            	            <p>Rest in peace, kind sir.</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/authenticity/"><time datetime="2012-04-20T15:10:00">Apr 20, 2012</time></a></li>
+            	                <script>document.write('<li class="comments"><a href="/articles/hillman-curtis/#disqus_thread" data-disqus-identifier="hillman-curtis"></a></li>');</script>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
+        	        </li>
+										
+            	    <li>
+            	        <article>
+            	            <header>
             	                <h1><a href="/articles/authenticity/">Authenticity</a></h1>
             	            </header>
             	            <p>Some speaking advice from <a href="http://adactio.com/">Jeremy Keith</a>.</p>
