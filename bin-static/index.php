@@ -186,7 +186,7 @@
 								if($i <= 4){
 									echo '<li class="home-round-item position' . $i . '">';
 									echo "\n\t\t\t\t\t\t";
-									echo '<a class="phark phark-link" href="' . $shot->url . '" style="background-image: url(' . $shot->image_url .');"></a>';
+									echo '<a data-tooltip-content="<h1>'. $shot->title .'</h1>" class="phark phark-link" href="' . $shot->url . '" style="background-image: url(' . $shot->image_url .');"></a>';
 									echo "\n\t\t\t\t\t";
 									echo '</li>';
 									echo "\n\t\t\t\t\t";
