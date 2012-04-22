@@ -38,7 +38,7 @@
             	
             	<ol class="articles no-marker">
 					
-					<?php /* ?>
+					
             	    <li>
             	        <article>
             	            <header>
@@ -46,11 +46,11 @@
             	            </header>
             	            <p>A recent dilemma about responsibility.</p>
             	            <ul class="meta easy-clearing no-marker">
-            	                <li class="permalink"><a href="/articles/big-small/"><time datetime="2012-04-11T11:45:00">Mar 19, 2012</time></a></li>
+            	                <li class="permalink"><a href="/articles/big-small/"><time datetime="2012-04-22T10:26:00">Apr 22, 2012</time></a></li>
             	                <script>document.write('<li class="comments"><a href="/articles/big-small/#disqus_thread" data-disqus-identifier="big-small"></a></li>');</script>
             	            </ul><!-- .meta -->
             	        </article>        	        
-        	        </li><?php */ ?>
+        	        </li>
 					
             	    <li>
             	        <article>

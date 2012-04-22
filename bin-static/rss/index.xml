@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2012</dc:rights>
-    <pubDate>Fri, 20 Apr 2012 15:10:00 GMT</pubDate>
+    <pubDate>Sun, 22 Apr 2012 10:26:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Big/Small</title>
+        <description>A recent dilemma about responsibility.</description>
+        <link>http://danielmall.com/articles/big-small/</link>
+        <guid>http://danielmall.com/articles/big-small/</guid>
+        <pubDate>Sun, 22 Apr 2012 10:26:00 GMT</pubDate>
+    </item>
     <item>
         <title>Hillman Curtis</title>
         <description>The world has lost one more great man.</description>

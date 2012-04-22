@@ -22,7 +22,7 @@
 			
 			<h1 class="phark">Big/Small</h1>
 			
-			<small>(Originally written for <a href="http://the-pastry-box-project.net/">The Pastry Box Project)</a></small>
+			<small>(Originally written for <a href="http://the-pastry-box-project.net/dan-mall/2012-april-21/">The Pastry Box Project)</a></small>
 			
 			<p class="intro">At <a href="http://grok.cc/">Grok</a>, I had the privilege of sharing a thought that&rsquo;s been on my mind for some time now. Since <a href="http://danielmall.com/articles/introducing-superfriendly/">starting</a> <a href="http://superfriend.ly/">my own business</a>, I&rsquo;ve been blessed enough that I can choose the types of projects I take on. That choice never comes lightly, as it often has financial, emotional, and spiritual benefits and drawbacks.</p>
 
@@ -90,7 +90,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2012-03-19T11:45:00">Published April 11, 2012 at 11:45 <abbr title="Ante Meridian">AM</abbr></time>
+        	        <time datetime="2012-04-22T10:26:00">Published April 22, 2012 at 10:26 <abbr title="Ante Meridian">AM</abbr></time>
     	        </section><!-- /#article-info -->
     	        
     	        
