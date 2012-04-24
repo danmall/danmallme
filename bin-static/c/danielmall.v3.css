@@ -45,6 +45,9 @@ http://www.danielmall.com/
     General Selectors
 -------------------------------------------*/
 /** { margin: 0; padding: 0; line-height: 1.5; }*/
+@media only screen and (max-device-width: 480px) {
+	* { -webkit-text-size-adjust: none; }
+}
 body { font: normal 62.5%/1.5 Georgia, 'Times New Roman', serif; color: #656262; background: #fff; border-top: 8px solid #231f20; padding-top: 2px; }
 
 
