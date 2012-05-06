@@ -256,8 +256,8 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
 	
 	.position1 { left: 125px; top: 2px; z-index: 3; }
 	.position2 { left: 305px; top: 1px; z-index: 2; }
-	.position3 { left: 444px; top: 6px; z-index: 1; }
-	.position4 { left: 600px; top: 0; z-index: 3; }	
+	.position3 { left: 444px; top: 6px; z-index: 4; }
+	.position4 { left: 600px; top: 0; z-index: 5; }	
 
 #home #links { height: auto; }    
     #home #links .inner, #tweet .inner { padding: 30px 0 0 160px; width: 640px; }

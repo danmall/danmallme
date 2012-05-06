@@ -38,6 +38,18 @@
             	
             	<ol class="articles no-marker">
 					
+            	    <li>
+            	        <article>
+            	            <header>
+            	                <h1><a href="/articles/object-value-pricing/">Object Value Pricing</a></h1>
+            	            </header>
+            	            <p>A barter-style pricing system for web design &amp; dev projects.</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/object-value-pricing/"><time datetime="2012-05-6T15:20:00">May 6, 2012</time></a></li>
+            	                <script>document.write('<li class="comments"><a href="/articles/object-value-pricing/#disqus_thread" data-disqus-identifier="object-value-pricing"></a></li>');</script>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
+        	        </li>
 					
             	    <li>
             	        <article>

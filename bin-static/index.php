@@ -66,22 +66,26 @@
     		    <ul class="no-marker">
 					
     		        <li class="home-round-item position1">
+    				    <a data-tooltip-content="<h1>Object Value Pricing</h1><p>A barter-style pricing system for web design &amp; dev projects.</p>" href="/articles/object-value-pricing/" class="phark phark-link" style="background-image: url(/articles/object-value-pricing/home-thumb.png);">Object Value Pricing</a>
+    				</li>
+										
+    		        <li class="home-round-item position2">
     				    <a data-tooltip-content="<h1>Big/Small</h1><p>A recent dilemma about responsibility.</p>" href="/articles/big-small/" class="phark phark-link" style="background-image: url(/articles/big-small/home-thumb.png);">Big/Small</a>
     				</li>
 					
-    		        <li class="home-round-item position2">
+    		        <li class="home-round-item position3">
     				    <a data-tooltip-content="<h1>Hillman Curtis</h1><p>The world has lost one more great man.</p>" href="/articles/hillman-curtis/" class="phark phark-link" style="background-image: url(/articles/hillman-curtis/home-thumb.png);">Hillman Curtis</a>
     				</li>
 					
-    		        <li class="home-round-item position3">
+    		        <li class="home-round-item position4">
     				    <a data-tooltip-content="<h1>Authenticity</h1><p>Some speaking advice from Jeremy Keith.</p>" href="/articles/authenticity/" class="phark phark-link" style="background-image: url(/articles/authenticity/home-thumb.png);">Authenticity</a>
-    				</li>					
-					
+    				</li>
+										
+					<?php /* ?>		
     		        <li class="home-round-item position4">
     				    <a data-tooltip-content="<h1>Grok Reads</h1><p>A list of some great books mentioned in Greenville Grok sessions.</p>" href="/articles/grok-reads/" class="phark phark-link" style="background-image: url(/articles/grok-reads/home-thumb.jpg);">Grok Reads</a>
     				</li>
 					
-					<?php /* ?>		
     		        <li class="home-round-item position4">
     				    <a data-tooltip-content="<h1>Introducing SuperFriendly</h1><p>Today&rsquo;s my birthday. This year, I got myself a new house, a new (old) city, and my very own design studio.</p>" href="/articles/introducing-superfriendly/" class="phark phark-link" style="background-image: url(/articles/introducing-superfriendly/home-thumb.gif);">Introducing SuperFriendly</a>
     				</li>
