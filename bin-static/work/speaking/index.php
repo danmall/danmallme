@@ -112,6 +112,17 @@
     	            </article>
     	        </div>
 	        </li><!-- #sxsw2011 -->
+	        <li class="work-row vevent" id="adc90">
+	            <div class="inner">
+    	            <article>
+    	                <hgroup class="offscreen">
+    	                    <h1 class="summary">Art Directors Club</h1>
+    	                    <h2>90th Annual Awards Interactive Jury</h2>
+    	                </hgroup>
+    	                <a class="cta phark phark-link" href="http://www.adcglobal.org/archive/annual/90/judges/">More about the jury</a>
+    	            </article>
+    	        </div>
+	        </li><!-- #adc90 -->			
 	        <li class="work-row vevent" id="sva-flash-intensive">
 	            <div class="inner">
     	            <article>
