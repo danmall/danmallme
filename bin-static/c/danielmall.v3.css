@@ -401,9 +401,9 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
 				#awdg p { margin: 0; }
 					#awdg a.cta { position: absolute; top: 0; left: 0; width: 800px; height: 350px; border: none; display: block; }
 		#ffwd { background: transparent url(/i/screen/work/speaking/ffwd-bg.png) repeat-x 0 0; }        
-			#ffwd article { background: transparent url(/i/screen/work/speaking/ffwd.png) no-repeat 50% 0; height: 350px; } 
+			#ffwd .inner { background: transparent url(/i/screen/work/speaking/ffwd.png) no-repeat 50% 0; height: 350px; width: 100% !important; } 
 				#ffwd p { margin: 0; }
-					#ffwd a.cta { position: absolute; top: 0; left: 0; width: 800px; height: 350px; border: none; display: block; }
+					#ffwd a.cta { position: absolute; top: 0; left: 50%; width: 800px; height: 350px; margin-left: -400px; border: none; display: block; }
 		#circlesconference { background: transparent url(/i/screen/work/speaking/circles-conference-bg.jpg) repeat 0 0; }        
 			#circlesconference article { background: transparent url(/i/screen/work/speaking/circles-conference.png) no-repeat 50% 0; height: 350px; } 
 				#circlesconference p { margin: 0; }
