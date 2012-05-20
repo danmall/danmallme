@@ -33,6 +33,17 @@
 	<section id="content">
 	       
 	    <ol class="no-marker">
+	        <li class="work-row vevent" id="circlesconference">
+	            <div class="inner">
+    	            <article>
+    	                <hgroup class="offscreen">
+        	                <h1 class="summary">Circles Conference 2012</h1>
+        	                <h2><abbr class="dtstart" title="2012-09-20T12:00:00">September 20&ndash;21 2012</abbr>, Palace Arts Center, <span class="locality">Grapevine</span>, <span class"region">TX</span></h2>
+    	                </hgroup>
+    	                <p><a class="cta phark" href="http://circlesconference.com/">Circles Conference</a></p>
+    	            </article>
+    	        </div>
+	        </li><!-- #circlesconference -->
 	        <li class="work-row vevent" id="awdg">
 	            <div class="inner">
     	            <article>
@@ -54,18 +65,7 @@
     	                <p><a class="cta phark" href="http://ffwd.pro/">FFWD.PRO</a></p>
     	            </article>
     	        </div>
-	        </li><!-- #ffwd -->
-	        <li class="work-row vevent" id="circlesconference">
-	            <div class="inner">
-    	            <article>
-    	                <hgroup class="offscreen">
-        	                <h1 class="summary">Circles Conference 2012</h1>
-        	                <h2><abbr class="dtstart" title="2012-09-20T12:00:00">September 20&ndash;21 2012</abbr>, Palace Arts Center, <span class="locality">Grapevine</span>, <span class"region">TX</span></h2>
-    	                </hgroup>
-    	                <p><a class="cta phark" href="http://circlesconference.com/">Circles Conference</a></p>
-    	            </article>
-    	        </div>
-	        </li><!-- #circlesconference -->			
+	        </li><!-- #ffwd -->			
 	        <li class="work-row vevent" id="newadventures2012">
 	            <div class="inner">
     	            <article>
