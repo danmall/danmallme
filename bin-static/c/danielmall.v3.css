@@ -427,11 +427,14 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
             #inspire-conf a { background: transparent url(/i/screen/work/speaking/inspire-register.png) no-repeat 0 0; width: 135px; height: 24px; padding: 0; border: none; }
             #inspire-conf a:hover, #inspire-conf a:focus { background-position: 0 -24px; }
         #sva-flash-intensive { background: #000 url(/i/screen/work/speaking/sva.png) no-repeat center 0; }
+		#adc90 { background: #d0caca url(/i/screen/work/speaking/adc90.png) no-repeat 50% 0; }
+	        #adc90 a.cta { background: transparent url(/i/screen/work/speaking/adc90-cta.png) no-repeat 0 0; width: 186px; height: 42px; border: none; position: absolute; left: 230px; top: 192px; }
+	            #adc90 a.cta:hover, #adc90 a.cta:focus { background-position: 0 -42px; }	        
         #miami-ad-school { background: #d9498b url(/i/screen/work/speaking/miami-ad-school.png) no-repeat center 0; }
             #miami-ad-school .more { color: #fff; font: 21px 'Trebuchet MS', Arial, sans-serif; position: absolute; top: 200px; text-align: center; width: 800px; }
                 #miami-ad-school .more a { background: rgba(0, 0, 0, 0.2); }
                 #miami-ad-school .more a:hover, #miami-ad-school .more a:focus { background: rgba(0, 0, 0, 0.5); }
-        #fowd2010 { background: #000 url(/i/screen/work/speaking/fowd2010_2.jpg) no-repeat center 0; }
+        #fowd2010 { background: #000 url(/i/screen/work/speaking/fowd2010_2.jpg) no-repeat center 0; height: 349px !important; }
             #fowd2010 .rotator { position: absolute; list-style: none; left: 360px; top: 178px; }
                 #fowd2010 li:first-child { position: static; }
                     #fowd2010 li:first-child blockquote { background: #000 url(/i/screen/work/speaking/fowd2010-quote1.png) no-repeat 0 0; width: 333px; height: 102px; }
@@ -439,7 +442,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
             #speaking #fowd2010 article { position: static; }
             #fowd2010 .credit { position: absolute; bottom: -10px; left: 220px; }
                 #fowd2010 .credit a:hover, #fowd2010 .credit a:focus { color: #fff; }
-        #sxsw2010 { background: #000 url(/i/screen/work/speaking/sxsw2010.jpg) no-repeat center 0; }
+        #sxsw2010 { background: #000 url(/i/screen/work/speaking/sxsw2010.jpg) no-repeat center 0; height: 349px !important; }
             #sxsw2010 article { padding: 115px 0 0; position: relative; left: -8px; width: 500px; }
                 #sxsw2010 p { font: 16px 'Trebuchet MS', Arial, sans-serif; color: #999; }
                 #sxsw2010 .more a { background: rgba(255, 255, 255, 0.2); border: none; }
@@ -451,7 +454,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
                 #sxsw2010 blockquote p:first-child:before { content: "\201c"; }
                 #sxsw2010 blockquote p:first-child:after { content: "\201d"; }
                 #sxsw2010 blockquote p:last-child:before { content: "\2014"; }
-        #flashpitt2009 { background: #000 url(/i/screen/work/speaking/flashpitt2009.jpg) no-repeat center 0; }
+        #flashpitt2009 { background: #000 url(/i/screen/work/speaking/flashpitt2009.jpg) no-repeat center 0; height: 349px !important; }
             #flashpitt2009 .rotator { position: absolute; list-style: none; left: 0; top: 145px; }
                 #flashpitt2009 .rotator li:first-child { position: static; }
                 #flashpitt2009 .rotator li:first-child blockquote { background: transparent url(/i/screen/work/speaking/flashpitt2009-quote1.png) no-repeat 0 0; width: 620px; height: 102px; }
