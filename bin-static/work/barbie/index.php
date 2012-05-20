@@ -32,7 +32,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">The Extra Snackdown Challenge</h1>
+        	        <h1 class="page-title phark">Barbie</h1>
         	        <h2 class="project-subtitle">Imagine Anything</h2>    	    
         	    </hgroup>
 
@@ -59,7 +59,7 @@
 
             <div class="main">
 
-                <p>Description coming soon.</p>
+                <p>I had the privilege of pitching a new concept for Barbie&rsquo;s online presence to Mattel. As Barbie is arguably the ultimate role model for girls across America, we concepted a new online presence that was a flexible platform to fit Barbie&rsquo;s career flavor of the year&mdash;this particular execution centered around Barbie as a fashion photographer, runway model, and designer.</p>
 
             </div><!-- .main -->
 

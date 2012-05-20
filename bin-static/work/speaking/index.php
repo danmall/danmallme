@@ -33,6 +33,39 @@
 	<section id="content">
 	       
 	    <ol class="no-marker">
+	        <li class="work-row vevent" id="awdg">
+	            <div class="inner">
+    	            <article>
+    	                <hgroup class="offscreen">
+        	                <h1 class="summary">Atlanta Web Design Group</h1>
+	        	                <h2><abbr class="dtstart" title="2012-07-26T19:00:00">July 26 2012</abbr></h2>
+	    	            </hgroup>
+    	                <p><a class="cta phark" href="http://www.awdg.org/events/64063082/">More info/</a></p>
+    	            </article>
+    	        </div>
+	        </li><!-- #awdg -->			
+	        <li class="work-row vevent" id="ffwd">
+	            <div class="inner">
+    	            <article>
+    	                <hgroup class="offscreen">
+        	                <h1 class="summary">FFWD.PRO</h1>
+	        	                <h2><abbr class="dtstart" title="2012-09-20T12:00:00">18&mdash;19 January 2012</abbr>, Antunović Hotel, <span class="locality">Zagreb</span>, <span class"region">Croatia</span></h2>
+	    	            </hgroup>
+    	                <p><a class="cta phark" href="http://ffwd.pro/">FFWD.PRO</a></p>
+    	            </article>
+    	        </div>
+	        </li><!-- #ffwd -->
+	        <li class="work-row vevent" id="circlesconference">
+	            <div class="inner">
+    	            <article>
+    	                <hgroup class="offscreen">
+        	                <h1 class="summary">Circles Conference 2012</h1>
+        	                <h2><abbr class="dtstart" title="2012-09-20T12:00:00">September 20&ndash;21 2012</abbr>, Palace Arts Center, <span class="locality">Grapevine</span>, <span class"region">TX</span></h2>
+    	                </hgroup>
+    	                <p><a class="cta phark" href="http://ffwd.pro/">FFWD.PRO</a></p>
+    	            </article>
+    	        </div>
+	        </li><!-- #circlesconference -->			
 	        <li class="work-row vevent" id="newadventures2012">
 	            <div class="inner">
     	            <article>
@@ -43,7 +76,7 @@
     	                <p><a class="cta phark" href="http://2012.newadventuresconf.com/">Learn More</a></p>
     	            </article>
     	        </div>
-	        </li><!-- #breakthroughs -->
+	        </li><!-- #newadventures2012 -->
 	        <?php /* ?>
 	        <li class="work-row vevent" id="inspire-conf">
 	            <div class="inner">

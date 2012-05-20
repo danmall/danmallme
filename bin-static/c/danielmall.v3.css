@@ -395,8 +395,19 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
     #speaking #content { border-top: 1px dotted #7f7f7f; padding: 0 0 2em; position: relative; z-index: 2; }    
         #speaking .work-row { height: 350px; padding: 0; }
             #speaking .work-row .inner { position: relative; padding: 0; width: 800px; }
-                #speaking .work-row a { transition: all 0s linear; -moz-transition: all 0s linear; -webkit-transition: all 0s linear; -o-transition: all 0s linear; }
-        
+            #speaking .work-row a { transition: all 0s linear; -moz-transition: all 0s linear; -webkit-transition: all 0s linear; -o-transition: all 0s linear; }
+		#awdg { background: #991b1e; }        
+			#awdg article { background: transparent url(/i/screen/work/speaking/awdg.png) no-repeat 50% 0; height: 350px; } 
+				#awdg p { margin: 0; }
+					#awdg a.cta { position: absolute; top: 0; left: 0; width: 800px; height: 350px; border: none; display: block; }
+		#ffwd { background: transparent url(/i/screen/work/speaking/ffwd-bg.png) repeat-x 0 0; }        
+			#ffwd article { background: transparent url(/i/screen/work/speaking/ffwd.png) no-repeat 50% 0; height: 350px; } 
+				#ffwd p { margin: 0; }
+					#ffwd a.cta { position: absolute; top: 0; left: 0; width: 800px; height: 350px; border: none; display: block; }
+		#circlesconference { background: transparent url(/i/screen/work/speaking/circles-conference-bg.jpg) repeat 0 0; }        
+			#circlesconference article { background: transparent url(/i/screen/work/speaking/circles-conference.png) no-repeat 50% 0; height: 350px; } 
+				#circlesconference p { margin: 0; }
+					#circlesconference a.cta { position: absolute; top: 0; left: 0; width: 800px; height: 350px; border: none; display: block; }
         #newadventures2012 { background: #fff url(/i/screen/work/speaking/newadventures2012.png) no-repeat center 72px; }        
             #newadventures2012 a.cta { background: transparent url(/i/screen/work/speaking/newadventures2012-cta.png) no-repeat 0 3px; width: 150px; height: 62px; border: none; position: absolute; left: 50%; margin-left: -75px; top: 290px; }
                 #newadventures2012 a.cta:hover, #newadventures2012 a.cta:focus { background-position: 0 0; }
