@@ -420,7 +420,9 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
                         #breakthroughs .register .point { display: block; background-image: url(/i/screen/work/speaking/breakthroughs-point.png); width: 10px; height: 9px; position: absolute; bottom: -9px; left: 10px;  }
         #sxsw2011 { background: #000 url(/i/screen/work/speaking/sxsw2011.jpg) no-repeat center 0; }
             #sxsw2011 p { text-align: center; position: relative; top: 320px; color: rgba(255, 255, 255, 0.5); }
-            #sxsw2011 a.cta { background-image: url(/i/screen/work/speaking/sxsw2011-cta.png); width: 279px; height: 36px; border: none; position: absolute; left: 50%; margin-left: -140px; top: 120px; }
+			#sxsw2011 a { color: #ed721b; opacity: 0.8; }
+			#sxsw2011 a:hover, #sxsw2011 a:focus { opacity: 1; }			
+            #sxsw2011 a.cta { background-image: url(/i/screen/work/speaking/sxsw2011-cta.png); width: 279px; height: 36px; border: none; position: absolute; left: 50%; margin-left: -140px; top: 120px; opacity: 1; }
             #sxsw2011 a.cta:hover, #sxsw2011 a.cta:focus { background-position: 0 -36px; }
         #inspire-conf { background: transparent url(/i/screen/work/speaking/inspire-conf.png) no-repeat center 0; }
             #inspire-conf p.more { position: absolute; top: 290px; left: 330px; }
