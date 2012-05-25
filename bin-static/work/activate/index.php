@@ -44,9 +44,9 @@
         	    </hgroup>
 
         	    <ul id="project-nav" class="no-marker">
-        	        <?php /* ?><li class="prev">        	            
-            	        <a href="/work/morsel">Morsel</a>
-        	        </li><?php */ ?>
+        	        <li class="prev">        	            
+            	        <a href="/work/barbie/">Barbie</a>
+        	        </li>
         	        <li class="next">            	        
             	        <a href="/work/coupon-craze/">Coupon Craze</a>            	        
         	        </li>

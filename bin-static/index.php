@@ -28,18 +28,22 @@
 		
     			<ul class="no-marker">
     			    <li class="home-round-item position1">
+    				    <a data-tooltip-content="<h1>Crayola</h1><p>Free the &ldquo;what if.&ldquo;</p>" href="/work/crayola/" class="phark phark-link" style="background-image: url(/i/screen/home/crayola-thumb.jpg);">Crayola</a>
+    				</li>
+    			    <li class="home-round-item position2">
     				    <a data-tooltip-content="<h1>Activate</h1><p>A turn for the better.</p>" href="/work/activate/" class="phark phark-link" style="background-image: url(/i/screen/home/activate2.jpg);">Activate</a>
     				</li>				
-    				<li class="home-round-item position2">
+    				<li class="home-round-item position3">
     				    <a data-tooltip-content="<h1>Morsel</h1><p>Your daily step toward better health.</p>" href="/work/morsel/" class="phark phark-link" style="background-image: url(/i/screen/home/morsel2.jpg);">Morsel</a>
     				</li>
+					<?php /* ?>
     				<li class="home-round-item position3">
-    				    <a data-tooltip-content="<h1>Housing Works</h1><p>Housing prevents <abbr>AIDS</abbr>. Housing Saves Lives.</p>" href="/work/housing-works/" class="phark phark-link" style="background-image: url(/i/screen/home/housing-works.jpg);">Transformers</a>
+    				    <a data-tooltip-content="<h1>Housing Works</h1><p>Housing prevents <abbr>AIDS</abbr>. Housing Saves Lives.</p>" href="/work/housing-works/" class="phark phark-link" style="background-image: url(/i/screen/home/housing-works.jpg);">Housing Works</a>
     				</li>
-    				<?php /* ?><li class="home-round-item" style="left: 444px; top: 2px; z-index: 1;">
+    				<li class="home-round-item" style="left: 444px; top: 2px; z-index: 1;">
     				    <a data-tooltip-content="<h1>healthymagination</h1><p>A shared commitment to better health. Together.</p>" href="/work/healthymagination/" class="phark phark-link" style="background-image: url(/i/screen/home/healthymagination3.png);">healthymagination</a>
-    				</li><?php */ ?>								    				
-    				<?php /* ?><li class="home-round-item" style="left: 444px; top: 12px;">
+    				</li>
+    				<li class="home-round-item" style="left: 444px; top: 12px;">
     				    <a href="/work/design-swap/" class="phark phark-link" style="background-image: url(/i/screen/home/design-swap.gif);">Design Swap</a>
     				</li><?php */ ?>
     				

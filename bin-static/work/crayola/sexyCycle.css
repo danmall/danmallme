@@ -1,0 +1,15 @@
+/**
+ * jQuery sexyCycle v0.3
+ *
+ * Terms of Use - jQuery sexyCycle
+ * under the MIT (http://www.opensource.org/licenses/mit-license.php) License.
+ *
+ * Copyright 2010 suprb.com All rights reserved.
+ * (http://suprb.com/apps/sexyCycle/)
+ */
+
+ul.sexyCycle-content  { list-style: none; margin: 0; padding: 0; width: 99999999; position: absolute }
+li.sexyCycle-content  { margin: 0; padding: 0; }
+.sexyCycle { position: relative; overflow: hidden; }
+.sexyCycle-wrap { position: relative; width: 99999px; }
+.sexyCycle-content { width: 99999; position: absolute; overflow: hidden; }

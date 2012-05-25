@@ -38,10 +38,10 @@
 
         	    <ul id="project-nav" class="no-marker">
                     <li class="prev">        	            
-            	        <a href="/work/crayola-gift-guide/">Crayola Gift Guide</a>
+            	        <a href="/work/crayola/">Crayola</a>
         	        </li>
         	        <li class="next">            	        
-            	        <a href="/work/star-wars/">Star Wars</a>            	        
+            	        <a href="/work/activate/">Activate</a>            	        
         	        </li>
 	            </ul><!-- #project-nav -->
         	    
