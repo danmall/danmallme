@@ -32,7 +32,7 @@
 			#ia-ux { padding-bottom: 1150px; background: transparent url(ia.jpg) no-repeat 50% bottom; }
 				#ia-ux h1 { background-image: url(ia-ux.png); }
 			
-			#responsive { border-top: 1px dotted #7f7f7f; padding: 2em 0 650px; position: relative; }
+			#responsive { border-top: 1px dotted #7f7f7f; padding: 2em 0 650px; position: relative; margin-bottom: -50px; }
 				#responsive h1 { background-image: url(responsive.png); width: 800px; margin: 0 auto; background-position: 50% 0; height: 65px; }
 				#responsive .combo { width: 800px; margin: 0 auto; }
 					#responsive .combo p { /*width: 560px;*/ margin: 0; }
@@ -48,7 +48,7 @@
 					#responsive #tag span { left: -80px; }
 				}
 			
-			#doodads { position: relative; padding-bottom: 280px; }
+			#doodads { position: relative; padding-bottom: 280px; border-top: none;}
 				#doodads h1 { background-image: url(doodads.png); }
 				#doodads p { position: relative; z-index: 2; }
 				#doodads img { position: absolute; bottom: 20px; left: -40px; z-index: 1; }
@@ -74,8 +74,7 @@
 				#tip2 { left: 718px; top: 240px; }
 				
 			#oops { background: transparent url(oops.png) no-repeat 50% bottom; padding: 60px 0 540px; text-align: center; position: relative; }
-				.project-url { left: 110px; top: 190px; }
-				
+				#oops .project-url { left: 110px; top: 190px; }
                 
     </style>
 </head>
