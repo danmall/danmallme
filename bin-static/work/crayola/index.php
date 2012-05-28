@@ -26,14 +26,18 @@
 				#lead p { font-size: 22px; }
 			
 			#components img { float: none; margin-left: 0; margin-right: 0; }
-			#components img:hover { cursor: url(sexycycle-cursor.png), auto; }
+				#box0:hover { cursor: url(sexycycle-cursor.png), auto; }
 			#components h1 { background-image: url(components.png); }
 			
 			#ia-ux { padding-bottom: 1150px; background: transparent url(ia.jpg) no-repeat 50% bottom; }
 				#ia-ux h1 { background-image: url(ia-ux.png); }
+				
+			#telling-stories { border-top: 1px dotted #7f7f7f; padding: 2em 0 930px; position: relative; margin-bottom: -50px; background: transparent url(tagging-hierarchy.jpg) no-repeat 50% bottom; }
+				#telling-stories h1 { background-image: url(telling-stories.png); width: 800px; margin: 20px auto 0; background-position: 50% 0; height: 124px; }			
+				#telling-stories p { font-size: 15px; width: 800px; margin: 0 auto; }
 			
-			#responsive { border-top: 1px dotted #7f7f7f; padding: 2em 0 650px; position: relative; margin-bottom: -50px; }
-				#responsive h1 { background-image: url(responsive.png); width: 800px; margin: 0 auto; background-position: 50% 0; height: 65px; }
+			#responsive { /*border-top: 1px dotted #7f7f7f; */padding: 2em 0 650px; position: relative; margin-bottom: -50px; }
+				#responsive h1 { background-image: url(responsive.png); width: 800px; margin: 1em auto 0; background-position: 50% 0; height: 65px; }
 				#responsive .combo { width: 800px; margin: 0 auto; }
 					#responsive .combo p { /*width: 560px;*/ margin: 0; }
 				#responsive #tag { border-top: 1px solid #ddd; position: relative; top: 456px; }
@@ -176,11 +180,19 @@
 				
 			</section><!-- #ia-ux -->
 			
+			<section id="telling-stories">
+				
+				<h1 class="phark">Telling Stories</h1>
+				
+				<p>Tagging structures are complex beasts. After many a wireframe and phone calls, I just wasn&rsquo;t doing a great job explaining how a relational taxonomy should work across the site. We went back to the drawing to simplify the way we were explaining the concept and came up with a simple storybook format. The name of our lovely tale was, &ldquo;Once Upon a Tagging Hierarchy.&rdquo; It forced us to simplify the things we were trying to say, everybody finally understood what we were talking about, and we all walked off happily into the sunset. </p>
+				
+			</section><!-- #telling-stories -->
+			
 			<section id="responsive">
 				
-				<h1 class="phark">A wonderfully responsive design</h1>
-				
-				<div class="combo">
+				<div class="combo confined">
+					
+					<h1 class="phark">A wonderfully responsive design</h1>
 
 					<p>Although we initially scoped a separate &ldquo;mobile phase,&rdquo; we quickly switched gears and opted for a responsive design after an inventory of all of our content. It was important that most of the content remain intact across devices and screen sizes, so responsive design was a great approach for the new site. On top of the layout adjustments, we built in a few capability-specific enhancements, like collapsing elements on smaller devices and prev/next buttons for carousels on touch devices. Keen!</p>
 				
