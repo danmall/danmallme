@@ -6,16 +6,31 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/jsReference.php"); echo "\n"; ?>
     <style>
-        .page-title { background-image: url(star-wars.png); width: 515px; height: 84px; }
-        #project-header hgroup { top: 4px; }  
+	
+		#work-area-wrap { background: black; margin-top: -30px; padding-top: 30px; }
+	
+        .page-title { background-image: url(star-wars2.png); width: 521px; height: 84px; background-color: black; }		
+		#project-header hgroup { top: 4px; }  
+		#project-nav { background-image: url(project-nav.png); opacity: 1; }
+        #project-nav .prev, #project-nav .next { background-image: url(project-nav.png); }
+		
+		#work .breadcrumbs { background: #666 url(breadcrumbs-mask.png) no-repeat 0 0; }
+	            #work #breadcrumbs-home a, #work #breadcrumbs-work a  { background-image: url(breadcrumbs-mask.png); }		
 
-        .project-image { height: 2126px; background: transparent url(star-wars-hero.jpg) no-repeat center 0; margin-bottom: 0; }
-        .project-url { left: -36px; top: 34px; }
+        .project-image { height: 2126px; background: transparent url(star-wars-hero2.jpg) no-repeat center 0; margin-bottom: 0; }
+        .project-url { left: -116px; top: 62px; }
+		
+		#work-content { background-color: #fff; }
+		
+        #awards { background: transparent url(starwars-awards.png) no-repeat 0 0; height: 319px; }
+            #commarts a { width: 222px; height: 70px; top: 145px; left: 137px; }
+            #styleboost a { width: 142px; height: 83px; top: 142px; left: 4477px; }
+		
                 
     </style>
 </head>
 
-<body id="work">	
+<body id="work">
 	
 	<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/header.php"); echo "\n"; ?>
 	
@@ -37,16 +52,16 @@
         	    </hgroup>
 
         	    <ul id="project-nav" class="no-marker">
-        	        <?php /* ?><li class="prev">        	            
-            	        <a href="/work/morsel">Morsel</a>
-        	        </li><?php */ ?>
+        	        <li class="prev">        	            
+            	        <a href="/work/barbie/">Barbie</a>
+        	        </li>
         	        <li class="next">            	        
             	        <a href="/work/activate/">Activate</a>            	        
         	        </li>
         	    </ul><!-- #project-nav -->
         	    
         	    <span id="facebook-like">
-        	        <iframe src="http://www.facebook.com/plugins/like.php?href=http://danielmall.com/work/star-wars/" scrolling="no" frameborder="0" style="border:none; height: 30px;"></iframe>
+        	        <iframe src="http://www.facebook.com/plugins/like.php?href=http://danielmall.com/work/star-wars/&colorscheme=dark" scrolling="no" frameborder="0" style="border:none; height: 30px;" data-colorscheme="dark"></iframe>
         	    </span>
         	    
     	    </div><!-- #project-header -->
@@ -54,22 +69,34 @@
 	    </section><!-- #work-area -->
 	    
 	    <div class="project-image">
-            <div class="wrap"><a class="project-url" href="http://activatedrinks.com/">http://activatedrinks.com/</a></div>
+            <div class="wrap"><a class="project-url" href="http://starwars.com/">http://starwars.com/</a></div>
         </div>
 
         <section id="work-content">
 
             <div class="wrap">
+				
+	            <section id="awards">
+
+	                <h1 class="phark">Awards &amp; Recognition</h1>
+
+	                <ul>
+						<li id="commarts"><a class="phark phark-link" href="http://www.commarts.com/web-sites/starwars-com.html">Communication Arts</a></li>
+	                    <li id="styleboost"><a class="phark phark-link" href="http://styleboost.com/links/1601/">Styleboost</a></li>	                    
+	                </ul>
+
+	            </section>
+				
 
                 <div class="main">
                     
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Traditionally, and throughout the making and release of Episodes I, II and III, StarWars.com has been built around news and a text-heavy design.  With a new content strategy led by <a href="http://bigspaceship.com/">Big Spaceship</a> in collaboration with Lucasfilm&rsquo;s Online division, the site has been completely overhauled to add more epic visuals, more accessibility and more content, allowing fans of all ages to explore, play, watch and connect as they navigate the site.  At the center of the digital experience is a growing Encyclopedia of Star Wars lore&mdash;the characters, locations and other details of the movies and television shows&mdash;redesigned to be more visual and interactive.  In addition, popular videos, images and online games are now presented in higher quality and more locations throughout the site.</p>
 
                     <section id="bibliography">
 
                         <h1>See more</h1>
 
-                        <p><a href="http://www.bigspaceship.com/portfolio/star-wars/">Star Wars,</a> a case study by Big Spaceship</p>
+                        <p><a href="http://www.bigspaceship.com/projects/starwars-com/">Star Wars,</a> a case study by Big Spaceship</p>
 
                     </section><!-- #bibliography -->
 
@@ -82,6 +109,7 @@
 
                     <h2>Role</h2>
                     <ul>
+						<li>Art Direction</li>
                         <li>Design</li>
                     </ul>
                     

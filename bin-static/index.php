@@ -31,9 +31,11 @@
     				    <a data-tooltip-content="<h1>Crayola</h1><p>Free the &ldquo;what if.&ldquo;</p>" href="/work/crayola/" class="phark phark-link" style="background-image: url(/i/screen/home/crayola-thumb.jpg);">Crayola</a>
     				</li>
     			    <li class="home-round-item position2">
+    				    <a data-tooltip-content="<h1>Star Wars</h1><p>Creating a universe for a universe.</p>" href="/work/star-wars/" class="phark phark-link" style="background-image: url(/i/screen/home/star-wars.jpg);">Star Wars</a>					
+    			    <li class="home-round-item position3">
     				    <a data-tooltip-content="<h1>Activate</h1><p>A turn for the better.</p>" href="/work/activate/" class="phark phark-link" style="background-image: url(/i/screen/home/activate2.jpg);">Activate</a>
     				</li>				
-    				<li class="home-round-item position3">
+    				<li class="home-round-item position4">
     				    <a data-tooltip-content="<h1>Morsel</h1><p>Your daily step toward better health.</p>" href="/work/morsel/" class="phark phark-link" style="background-image: url(/i/screen/home/morsel2.jpg);">Morsel</a>
     				</li>
 					<?php /* ?>
@@ -45,11 +47,10 @@
     				</li>
     				<li class="home-round-item" style="left: 444px; top: 12px;">
     				    <a href="/work/design-swap/" class="phark phark-link" style="background-image: url(/i/screen/home/design-swap.gif);">Design Swap</a>
-    				</li><?php */ ?>
-    				
+    				</li>    				
     				<li class="home-round-item position4">
     				    <a data-tooltip-content="<h1>JetWaders</h1><p>Modern-day jelly shoes.</p>" href="/work/jetwaders/" class="phark phark-link" style="background-image: url(/i/screen/home/jetwaders.jpg);">JetWaders</a>
-    				</li>		
+    				</li>	<?php */ ?>	
     				
     			</ul>
     			

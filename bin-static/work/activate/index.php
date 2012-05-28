@@ -45,7 +45,7 @@
 
         	    <ul id="project-nav" class="no-marker">
         	        <li class="prev">        	            
-            	        <a href="/work/barbie/">Barbie</a>
+            	        <a href="/work/star-wars/">Star Wars</a>
         	        </li>
         	        <li class="next">            	        
             	        <a href="/work/coupon-craze/">Coupon Craze</a>            	        

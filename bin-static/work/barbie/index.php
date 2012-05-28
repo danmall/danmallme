@@ -41,7 +41,7 @@
             	        <a href="/work/crayola/">Crayola</a>
         	        </li>
         	        <li class="next">            	        
-            	        <a href="/work/activate/">Activate</a>            	        
+            	        <a href="/work/star-wars/">Star Wars</a>            	        
         	        </li>
 	            </ul><!-- #project-nav -->
         	    

@@ -37,16 +37,17 @@
 		            <li id="year2012">
 		                <h2>2012</h2>
 		                <ul class="projects">
-		                    <li style="top: -5px; left: 128px;"><a href="/work/crayola/"><b class="new-work">New </b>Crayola</a></li>
-		                    <li style="top: -10px; left: 320px;"><a href="/work/barbie/"><b class="new-work">New </b>Barbie</a></li>
+		                    <li style="top: -5px; left: 88px;"><a href="/work/crayola/"><b class="new-work">New </b>Crayola</a></li>
+		                    <li style="top: 0; left: 280px;"><a href="/work/barbie/"><b class="new-work">New </b>Barbie</a></li>
 		                </ul>
 		            </li>					
 		            <li id="year2011">
 		                <h2>2011</h2>
 		                <ul class="projects">
-		                    <li style="top: -10px; left: 48px;"><a href="/work/activate/">Activate</a></li>
-		                    <li style="top: 25px; left: 230px;"><a href="/work/coupon-craze/">Coupon Craze</a></li>
-		                    <li style="top: -2px; left: 411px;"><a href="/work/extra/">Extra 30-Day <span style="white-space: nowrap;">Snackdown Challenge</span></a></li>
+							<li style="top: 0; left: 0;"><a href="/work/star-wars/"><b class="new-work">New </b>Star Wars</a></li>
+		                    <li style="top: 20px; left: 168px;"><a href="/work/activate/">Activate</a></li>
+		                    <li style="top: -55px; left: 310px;"><a href="/work/coupon-craze/">Coupon Craze</a></li>
+		                    <li style="top: 28px; left: 461px;"><a href="/work/extra/">Extra 30-Day <span style="white-space: nowrap;">Snackdown Challenge</span></a></li>
 		                </ul>
 		            </li>
 		            <li id="year2010">
