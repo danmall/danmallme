@@ -32,6 +32,15 @@
 
 <body id="work">
 	
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=312792542115450";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	
 	<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/header.php"); echo "\n"; ?>
 	
 	<div id="work-area-wrap">
@@ -60,8 +69,10 @@
         	        </li>
         	    </ul><!-- #project-nav -->
         	    
-        	    <span id="facebook-like">
-        	        <iframe src="http://www.facebook.com/plugins/like.php?href=http://danielmall.com/work/star-wars/&colorscheme=dark" scrolling="no" frameborder="0" style="border:none; height: 30px;" data-colorscheme="dark"></iframe>
+				<span id="facebook-like">
+					<center><div class="fb-like" data-href="http://danielmall.com/work/star-wars/" data-send="false" data-width="200" data-show-faces="false" data-colorscheme="dark"></div></center>
+					<?php /* ?>
+        	        <iframe src="http://www.facebook.com/plugins/like.php?href=http://danielmall.com/work/star-wars/&colorscheme=dark" scrolling="no" frameborder="0" style="border:none; height: 30px;" data-colorscheme="dark"></iframe><?php */ ?>
         	    </span>
         	    
     	    </div><!-- #project-header -->
