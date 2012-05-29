@@ -24,7 +24,7 @@
 		
         #awards { background: transparent url(starwars-awards.png) no-repeat 0 0; height: 319px; }
             #commarts a { width: 222px; height: 70px; top: 145px; left: 137px; }
-            #styleboost a { width: 142px; height: 83px; top: 142px; left: 4477px; }
+            #styleboost a { width: 162px; height: 83px; top: 142px; left: 447px; }
 		
                 
     </style>
