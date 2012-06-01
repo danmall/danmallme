@@ -55,7 +55,7 @@
     	            </article>
     	        </div>
 	        </li><!-- #awdg -->			
-	        <li class="work-row vevent" id="ffwd">
+	        <?php /* ?><li class="work-row vevent" id="ffwd">
 	            <div class="inner">
     	            <article>
     	                <hgroup class="offscreen">
@@ -65,7 +65,7 @@
     	                <p><a class="cta phark" href="http://ffwd.pro/">FFWD.PRO</a></p>
     	            </article>
     	        </div>
-	        </li><!-- #ffwd -->			
+	        </li><!-- #ffwd -->			<?php */ ?>
 	        <li class="work-row vevent" id="newadventures2012">
 	            <div class="inner">
     	            <article>
