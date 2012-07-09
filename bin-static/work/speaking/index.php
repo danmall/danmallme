@@ -32,7 +32,7 @@
 	
 	<section id="content">
 	       
-	    <ol class="no-marker">
+	    <ol class="no-marker">	        	
 	        <li class="work-row vevent" id="circlesconference">
 	            <div class="inner">
     	            <article>
@@ -44,6 +44,17 @@
     	            </article>
     	        </div>
 	        </li><!-- #circlesconference -->
+	        <li class="work-row vevent" id="r2bc2012">
+	            <div class="inner">
+    	            <article>
+    	                <hgroup class="phark">
+        	                <h1 class="summary">Reasons to be Creative</h1>
+        	                <h2><abbr class="dtstart" title="2012-09-03T09:00:00">September 3&ndash;4 2012</abbr>, The Brighton Dome</h2>
+    	                </hgroup>
+    	                <p><a class="cta phark" href="http://www.reasonstobecreative.com/">Reasons to be Creative</a></p>
+    	            </article>
+    	        </div>
+	        </li><!-- #r2bc2012 -->
 	        <li class="work-row vevent" id="awdg">
 	            <div class="inner">
     	            <article>
