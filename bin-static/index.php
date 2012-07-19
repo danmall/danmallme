@@ -4,9 +4,12 @@
     <title>Dan Mall  //  Creative Direction &bull; Art Direction &bull; Design &bull; Strategy</title>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/meta.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/cssReference.php"); echo "\n"; ?>
-    
+    <?php /* ?>
     <!-- Thanks, @rem: http://remysharp.com/2007/05/18/add-twitter-to-your-blog-step-by-step/ -->
     <script src="http://twitterjs.googlecode.com/svn/trunk/src/twitter.min.js"></script>
+    <?php */ ?>
+
+    <script src="/j/libs/chirp.min.js"></script>
     
     <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/jsReference.php"); echo "\n"; ?>
     
@@ -217,8 +220,23 @@
 			</div><!-- .inner -->
 			
 		</section><!-- #dribbble -->
+    
+    <script>document.write('<section id="tweet" class="home-row"><div class="inner"><h1 class="phark">Latest Tweets</h1><div id="tweets">');</script>
+		<script>      
+			Chirp({
+				user:'danielmall', 
+				max:3,
+				retweets: false,
+				replies: false,
+				templates: {
+					base: '<ul>{{tweets}}</ul>',
+					tweet: '<li><div class="animation-clip-container"><article><p>{{html}}</p><p class="meta"><a href="http://twitter.com/danielmall/statuses/{{id_str}}/"><time>{{time_ago}}</time></a></p></article></div></li>'
+				}
+			});
+		</script>
+    <script>document.write('</div><p class="more">from <a href="http://twitter.com/danielmall">@danielmall</a></p></div></section>');</script>
 		
-		
+		<?php /* ?>
 		<script>
 		document.write('<section id="tweet" class="home-row"><div class="inner"><h1 class="phark">Latest Tweets</h1><div id="tweets"></div><p class="more">from <a href="http://twitter.com/danielmall">@danielmall</a></p></div></section>');
         getTwitters('tweets', { 
@@ -228,9 +246,9 @@
             ignoreReplies: true, 
             clearContents: true,
             template: '<div class="animation-clip-container"><article><p>%text%</p><p class="meta"><a href="http://twitter.com/%user_screen_name%/statuses/%id_str%/"><time datetime="">%time%</time></a></p></article></div>'
-        });
+			});
         
-		</script>
+		</script><?php /* ?>
 		
 		<?php /* 
 		<section id="tweet" class="home-row">
