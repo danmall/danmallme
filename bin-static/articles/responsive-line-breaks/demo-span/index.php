@@ -29,7 +29,7 @@
 
 <body>
     
-    <h1><span class="rwd-line">You don&rsquo;t understand! I coulda had class.</span> <span class="rwd-line">I coulda been a contender.</<span></h1>
+    <h1><span class="rwd-line">You don&rsquo;t understand! I coulda had class.</span> <span class="rwd-line">I coulda been a contender.</span></h1>
     
     <p class="back"><a href="../">&larr;&nbsp;Back to the article</a></p>
     
