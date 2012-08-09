@@ -37,6 +37,20 @@
             	</ol><?php '/.pagination' */ ?>
             	
             	<ol class="articles no-marker">
+                    
+            	    <li>
+            	        <article>
+            	            <header>
+            	                <h1><a href="/articles/responsive-line-breaks/">Responsive Line Breaks</a></h1>
+            	            </header>
+            	            <p>A small trick I use to improve readability for responsive designs.</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/responsive-line-breaks/"><time datetime="2012-08-9T14:11:00">Aug 9, 2012</time></a></li>
+            	                <script>document.write('<li class="comments"><a href="/articles/responsive-line-breaks/#disqus_thread" data-disqus-identifier="responsive-line-breaks"></a></li>');</script>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
+        	        </li>
+                    
 					
             	    <li>
             	        <article>
