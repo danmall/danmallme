@@ -34,7 +34,7 @@
 
             <h2>Technique 2: Responsive <code>&lt;span&gt;</code></h2>
 
-            <p>Same idea, except letting the breaks happen with CSS only. Wrap each line in a <span> with a class of <code>rwd-line</code> and set that class to <code>display: block;</code>, then swap to <code>display: inline;</code> for the wider layouts. I don&rsquo;t really see why you&rsquo;d use the first technique over this one, but figured I&rsquo;d mention it anyway. <a href="demo-span/">Here&rsquo;s a demo.</a></p>
+            <p>Same idea, except letting the breaks happen with CSS only. Wrap each line in a <code>&lt;span&gt;</code> with a class of <code>rwd-line</code> and set that class to <code>display: block;</code>, then swap to <code>display: inline;</code> for the wider layouts. I don&rsquo;t really see why you&rsquo;d use the first technique over this one, but figured I&rsquo;d mention it anyway. <a href="demo-span/">Here&rsquo;s a demo.</a></p>
 
             <p>While standards purists would no doubt challenge the semantics of these approaches, I&rsquo;ve grown quite fond of these. </p>
 
