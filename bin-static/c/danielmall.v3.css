@@ -301,6 +301,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
     #clients { width: 136px; padding: 1em 10px 100px 0; border-right: 1px dotted #7f7f7f; }
         #clients h1 { font: bold 14px 'Trebuchet MS', Arial, sans-serif; margin-bottom: 1.5em; }
             #clients li { margin-bottom: 0.65em; line-height: 1.2; font-size: 11px; }
+                #clients li abbr, #clients li abbr[title] { font-size: 90%; letter-spacing: 0.25em; }
             #clients ul > li { padding-left: 10px; text-indent: -10px; }
             li[id^="year"] { height: 200px; border-bottom: 1px dotted #7f7f7f; position: relative; }
             li[id^="year"]:last-child { border-bottom: none; }
