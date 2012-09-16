@@ -1,5 +1,8 @@
 <!-- Mint -->
     <script src="/mint/?js"></script>
+    
+    <!-- Chartbeat -->
+    <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
 
     <!-- Typekit -->
     <script src="http://use.typekit.com/byv8xvy.js"></script>
