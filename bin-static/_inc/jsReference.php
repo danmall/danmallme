@@ -28,6 +28,9 @@
     <!-- jQuery Easing plugin: http://gsgd.co.uk/sandbox/jquery/easing/ -->
     <script src="/j/libs/jquery.easing.1.3.js"></script>
     
+    <!-- jQuery UI for Tabs: http://jqueryui.com/demos/tabs/ -->
+    <script src="/j/libs/jquery-ui-1.8.23.custom.min.js"></script>
+    
     <!-- Twitter @Anywhere -->
     <script src="http://platform.twitter.com/anywhere.js?id=4iWhtL6v6OPwuUzs5BWGRA&amp;v=1"></script>
     

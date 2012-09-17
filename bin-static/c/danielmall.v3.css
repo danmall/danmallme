@@ -129,7 +129,7 @@ header, footer, nav, section, article, mark, hgroup { display: block; }
 
 .offscreen, .pagination b, #fowd2010 .rotator li, #flashpitt2009 .rotator li  { position: absolute; left: -9999px; }
 
-.real-hide { display: none; }
+.real-hide, .hide { display: none; }
 
 .no-marker, #tweets ul, .projects { list-style: none; }
 
@@ -275,6 +275,73 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
 
 #work-landing #content { border-top: 1px dotted #7f7f7f; position: relative; z-index: 2; }
 
+    .work-tabs { background: #f7f7f7; border-bottom: 1px dotted #7f7f7f; float: left; width: 100%; }
+        .work-tabs ul { margin: 0; position: relative; left: 50%; float: left; }
+            .work-tabs li { float: left; position: relative; right: 50%; margin-left: 2em; }
+            .work-tabs li:first-child { margin-left: 0; }
+                .work-tabs a { display: block; padding: 1em 0.5em; border: none; }
+                
+    .typeface-list li[id^="typeface"] { border-top: 1px dotted #7f7f7f; padding: 2em 0 0; margin: 0 0 0.5em; background-repeat: no-repeat; background-position: 0 25px; background-color: transparent; }            
+    .typeface-list li[id^="typeface"]:first-child { border: none; }
+        .specimen { width: 540px; padding: 0 20px 0 0; float: left; }
+            .specimen h1 { width: 540px; height: 50px; margin: 0; }
+            .specimen-meta { margin: 60px 0 2em; }
+                .specimen-meta li { font-style: italic; color: #9d9d9d; font-size: 14px; display: inline; border-left: 1px solid #ccc; padding: 0 0 0 0.75em; margin: 0 0 0 0.5em; }
+            .specimen-meta li:first-child { padding-left: 0; margin-left: 0; border: none; }
+            
+    #typeface-american-typewriter   { background-image: url(/i/screen/work/typefaces/american-typewriter.png); background-position: 0 35px; }   
+    #typeface-antenna               { background-image: url(/i/screen/work/typefaces/antenna.png); }   
+    #typeface-arial                 { background-image: url(/i/screen/work/typefaces/arial.png); }   
+    #typeface-avant-garde           { background-image: url(/i/screen/work/typefaces/avant-garde.png); }   
+    #typeface-berkeley              { background-image: url(/i/screen/work/typefaces/berkeley.png); }   
+    #typeface-burbank               { background-image: url(/i/screen/work/typefaces/burbank.png); }   
+    #typeface-century-expanded      { background-image: url(/i/screen/work/typefaces/century-expanded.png); }   
+    #typeface-clarendon             { background-image: url(/i/screen/work/typefaces/clarendon.png); }   
+    #typeface-clan                  { background-image: url(/i/screen/work/typefaces/clan.png); }   
+    #typeface-conduit               { background-image: url(/i/screen/work/typefaces/conduit.png); }   
+    #typeface-cooter-deuce          { background-image: url(/i/screen/work/typefaces/cooter-deuce.png); }   
+    #typeface-corbel                { background-image: url(/i/screen/work/typefaces/corbel.png); }   
+    #typeface-courier-new           { background-image: url(/i/screen/work/typefaces/courier-new.png); }   
+    #typeface-dagny                 { background-image: url(/i/screen/work/typefaces/dagny.png); background-position: 0 15px; }   
+    #typeface-didot                 { background-image: url(/i/screen/work/typefaces/didot.png); }   
+    #typeface-din                   { background-image: url(/i/screen/work/typefaces/din.png); }   
+    #typeface-estilo-script         { background-image: url(/i/screen/work/typefaces/estilo-script.png); }   
+    #typeface-franklin-gothic       { background-image: url(/i/screen/work/typefaces/franklin-gothic.png); }   
+    #typeface-garamond              { background-image: url(/i/screen/work/typefaces/garamond.png); }   
+    #typeface-ge-inspira            { background-image: url(/i/screen/work/typefaces/ge-inspira.png); background-position: 0 20px; }   
+    #typeface-georgia               { background-image: url(/i/screen/work/typefaces/georgia.png); background-position: 0 15px; }   
+    #typeface-gill-sans             { background-image: url(/i/screen/work/typefaces/gill-sans.png); }   
+    #typeface-gotham                { background-image: url(/i/screen/work/typefaces/gotham.png); }   
+    #typeface-griffith-gothic       { background-image: url(/i/screen/work/typefaces/griffith-gothic.png); }   
+    #typeface-helvetica             { background-image: url(/i/screen/work/typefaces/helvetica.png); }   
+    #typeface-kari                  { background-image: url(/i/screen/work/typefaces/kari.png); }   
+    #typeface-kilogram              { background-image: url(/i/screen/work/typefaces/kilogram.png); }   
+    #typeface-lubalin-graph         { background-image: url(/i/screen/work/typefaces/lubalin-graph.png); }   
+    #typeface-lucida-grande         { background-image: url(/i/screen/work/typefaces/lucida-grande.png); }   
+    #typeface-matt-b                { background-image: url(/i/screen/work/typefaces/matt-b.png); }   
+    #typeface-minion                { background-image: url(/i/screen/work/typefaces/minion.png); }   
+    #typeface-omnes                 { background-image: url(/i/screen/work/typefaces/omnes.png); }   
+    #typeface-pmn-caecilia          { background-image: url(/i/screen/work/typefaces/pmn-caecilia.png); }   
+    #typeface-proxima-nova          { background-image: url(/i/screen/work/typefaces/proxima-nova.png); }   
+    #typeface-quicksand             { background-image: url(/i/screen/work/typefaces/quicksand.png); }   
+    #typeface-sauna                 { background-image: url(/i/screen/work/typefaces/sauna.png); }   
+    #typeface-sentinel              { background-image: url(/i/screen/work/typefaces/sentinel.png); }   
+    #typeface-serlio                { background-image: url(/i/screen/work/typefaces/serlio.png); }   
+    #typeface-sign-painter          { background-image: url(/i/screen/work/typefaces/sign-painter.png); }   
+    #typeface-trebuchet-ms          { background-image: url(/i/screen/work/typefaces/trebuchet-ms.png); }   
+    #typeface-trade-gothic          { background-image: url(/i/screen/work/typefaces/trade-gothic.png); }   
+    #typeface-tungsten              { background-image: url(/i/screen/work/typefaces/tungsten.png); }   
+    #typeface-univers               { background-image: url(/i/screen/work/typefaces/univers.png); }   
+    #typeface-verdana               { background-image: url(/i/screen/work/typefaces/verdana.png); }   
+    #typeface-yanone-kaffeesatz     { background-image: url(/i/screen/work/typefaces/yanone-kaffeesatz.png); }   
+    
+        .in-use { margin: 0 0 0 560px; }
+            .in-use h2 { margin: 0 0 0.25em; text-transform: uppercase; color: #bebebe; }
+            .in-use a { border: none; font-size: 16px; }
+            .in-use li { display: inline; }
+            .in-use li:before { content: ", "; position: relative; left: -0.2em; }
+            .in-use li:first-child:before { content: ""; }
+
     #work-subnav { width: 391px; height: 42px; position: relative; margin: 0 auto -1px; background: transparent url(/i/screen/work-subnav2.png) no-repeat 0 0; z-index: 1; }
         #work-subnav li { position: absolute; top: 0; }
             #work-subnav a, #work-subnav mark { border: none; height: 42px; opacity: 0; background: transparent url(/i/screen/work-subnav2.png) no-repeat 0 0; }
@@ -290,7 +357,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
             #work-publications a { width: 114px; left: 0; background-position: -277px -42px; }
             #work-publications mark { width: 114px; left: 0; background-position: -277px -84px; }
 
-    #work-browser { float: right; width: 650px; border: none; }
+    #by-year { float: right; width: 650px; border: none; width: 100%; float: none; }
         .projects li { position: absolute; z-index: 3; }
         .projects li:hover { z-index: 4; }        
             .projects a { display: block; width: 180px; height: 180px; background: #ff7000; background: rgba(115, 174, 8, 1); color: #fff; font: bold 16px Helvetica, Arial, sans-serif; border-radius: 100px; -moz-border-radius: 100px; -webkit-border-radius: 100px; text-align: center; display: table-cell; vertical-align: middle; border: none; opacity: 0.75; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; padding: 10px; transform-origin: 50% 50%; -moz-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; }
