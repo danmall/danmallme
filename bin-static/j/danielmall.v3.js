@@ -159,6 +159,10 @@ $(document).ready(function() {
                 $('#work-landing .projects li:eq(' + i + ')').delay(_delay*i).animate({opacity: 1}, _animationSpeed, 'easeInOutCirc');
             }
         },
+        
+        initWorkTabs: function(){
+            $('.work-tabs-container').tabs();
+        },
     
     
         /* Staggered animation for project headers */
@@ -272,6 +276,7 @@ $(document).ready(function() {
     dmall.moveLikeButton();
     dmall.fadeInTitle();
     dmall.initProjectNavTooltip();
+    dmall.initWorkTabs();
     
     // CONTACT
     dmall.allEars();

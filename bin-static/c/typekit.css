@@ -58,7 +58,15 @@ blockquote p { line-height: 1.2; }
 /*-------------------------------------------    
     Work
 -------------------------------------------*/
+
+.work-tabs a { font-size: 16px; color: #999; font-family: "urbana-1","urbana-2"; font-weight: 300; }
+.work-tabs a:hover, .work-tabs a:focus { color: #444; }
+
+.in-use h2 { font-size: 18px; font-family: "urbana-1","urbana-2"; font-weight: 500; }
+
 #the-work h2, #work-area h2, #work-content .sub h2 { font-size: 16px; color: #757575; font-family: "urbana-1","urbana-2"; font-weight: 300; }
+
+#by-client h1 { font-size: 26px; color: #231f20; font-family: "urbana-1","urbana-2"; font-weight: 600; }
 
 #clients h1 { font-size: 16px; font-family: "urbana-1","urbana-2"; font-weight: 400; }
 

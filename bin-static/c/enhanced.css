@@ -92,6 +92,8 @@ http://www.danielmall.com/
 -------------------------------------------*/
 /*#work-landing #clients { padding-top: 70px; }*/
 
+.work-tabs .ui-tabs-selected a { color: #000; font-weight: 500; }
+
 #work-landing #clients { overflow: hidden; padding-top: 20px; position: relative; }
     #new-mask { background: #fff; left: 136px; top: 15px; position: absolute; height: 50px; width: 200px; }
 
@@ -108,6 +110,18 @@ http://www.danielmall.com/
 
 #work #tooltip { position: absolute; z-index: 3000; border: none; background: rgba(38, 34, 35, 0.9); padding: 1.5em 15px 1em; width: auto; max-width: 200px; }
     .work-tooltip { display: block; color: #fff; margin: 0 0 0.1em; line-height: 1.1; }
+
+
+
+/*-------------------------------------------    
+    Work Tabs
+-------------------------------------------*/    
+
+.ui-tabs { position: relative; zoom: 1; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel { display: block; background: none; }
+.ui-tabs .ui-tabs-hide { display: none !important; }
 
     
 
