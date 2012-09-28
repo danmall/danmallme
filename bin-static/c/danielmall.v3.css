@@ -281,6 +281,38 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
             .work-tabs li:first-child { margin-left: 0; }
                 .work-tabs a { display: block; padding: 1em 0.5em; border: none; }
                 
+    .client-grid { background: transparent url(/i/screen/work/clients/client-grid-tile.png) repeat-y 266px 0; }
+        .client-grid li { float: left; width: 266px; border-bottom: 1px solid #e5e5e5; margin-left: 1px; background: #eee; }
+        .client-grid li:nth-child(3n+1) { margin-left: 0; }
+            .client-grid a { width: 264px; height: 167px; background-color: #fff; border: 1px solid #fff; }
+            .client-grid a:hover { position: relative; top: -5px; left: -5px; border: 1px solid #ccc; }
+            
+            .client-activate a { background-image: url(/i/screen/work/clients/activate.png); }
+            .client-activision-blizzard a { background-image: url(/i/screen/work/clients/activision-blizzard.png); }
+            .client-four24 a { background-image: url(/i/screen/work/clients/four24.png); }
+            .client-crayola a { background-image: url(/i/screen/work/clients/crayola.png); }
+            .client-fog-creek a { background-image: url(/i/screen/work/clients/fog-creek.png); }
+            .client-ge a { background-image: url(/i/screen/work/clients/ge.png); }
+            .client-housing-works a { background-image: url(/i/screen/work/clients/housing-works.png); }
+            .client-jetwaders a { background-image: url(/i/screen/work/clients/jetwaders.png); }
+            .client-lucasfilm a { background-image: url(/i/screen/work/clients/lucasfilm.png); }
+            .client-mattel a { background-image: url(/i/screen/work/clients/mattel.png); }
+            .client-mica a { background-image: url(/i/screen/work/clients/mica.png); }
+            .client-planeteye a { background-image: url(/i/screen/work/clients/planeteye.png); }
+            .client-posse a { background-image: url(/i/screen/work/clients/posse.png); }
+            .client-preventiv a { background-image: url(/i/screen/work/clients/preventiv.png); }
+            .client-sherwin-williams a { background-image: url(/i/screen/work/clients/sherwin-williams.png); }
+            .client-microsoft a { background-image: url(/i/screen/work/clients/microsoft.png); }
+            .client-coupon-craze a { background-image: url(/i/screen/work/clients/coupon-craze.png); }
+            .client-wrigley a { background-image: url(/i/screen/work/clients/wrigley.png); }
+    
+    #by-client h1 { text-align: center; }
+            
+    .client-list { text-align: center; line-height: 2; margin: 0 0 3em; }
+        .client-list li { display: inline; white-space: nowrap; }
+        .client-list li:after { content: "•"; margin: 0 1em; color: #ccc; }
+        .client-list li:last-child:after { content: ""; margin: 0; }
+                
     .typeface-list li[id^="typeface"] { border-top: 1px dotted #7f7f7f; padding: 2em 0 0; margin: 0 0 0.5em; background-repeat: no-repeat; background-position: 0 25px; background-color: transparent; }            
     .typeface-list li[id^="typeface"]:first-child { border: none; }
         .specimen { width: 540px; padding: 0 20px 0 0; float: left; }

@@ -191,7 +191,81 @@
 		    </section><!-- #clients --><?php */ ?>
             
             <section id="by-client">
-                <h1>By Client</h1>
+                
+                <ul class="client-grid no-marker clearfix">
+                    <li class="client-activate"><a class="phark phark-link" href="/work/activate/">Activate</a></li>
+                    <li class="client-activision-blizzard"><a class="phark phark-link" href="/work/transformers/">Activision Blizzard</a></li>
+                    <li class="client-coupon-craze"><a class="phark phark-link" href="/work/coupon-craze/">Coupon Craze</a></li>
+                    <li class="client-crayola"><a class="phark phark-link" href="/work/crayola">Crayola</a></li>
+                    <li class="client-four24"><a class="phark phark-link" href="/work/four24/">Four24</a></li>
+                    <li class="client-fog-creek"><a class="phark phark-link" href="/work/fogbugz">Fog Creek Software</a></li>
+                    <li class="client-ge"><a class="phark phark-link" href="/work/healthymagination/">General Electric</a></li>
+                    <li class="client-housing-works"><a class="phark phark-link" href="/work/housing-works">Housing Works</a></li>
+                    <li class="client-jetwaders"><a class="phark phark-link" href="/work/jetwaders/">JetWaders</a></li>
+                    <li class="client-lucasfilm"><a class="phark phark-link" href="/work/star-wars/">Lucasfilm</a></li>
+                    <li class="client-mattel"><a class="phark phark-link" href="/work/barbie/">Mattel</a></li>
+                    <li class="client-mica"><a class="phark phark-link" href="/work/mica/"><abbr title="Maryland Institute College of Art">MICA</abbr></a></li>
+                    <li class="client-microsoft"><a class="phark phark-link" href="/work/always-beautiful/">Microsoft</a></li>
+                    <li class="client-planeteye"><a class="phark phark-link" href="/work/planeteye/">PlanetEye</a></li>
+                    <li class="client-posse"><a class="phark phark-link" href="/work/posse-foundation/">The Posse Foundation</a></li>
+                    <li class="client-preventiv"><a class="phark phark-link" href="/work/preventiv/">Prevent&iacute;v Water</a></li>
+                    <li class="client-sherwin-williams"><a class="phark phark-link" href="/work/krylon/">Sherwin-Williams</a></li>
+                    <li class="client-wrigley"><a class="phark phark-link" href="/work/extra/">Wrigley</a></li>
+                </ul><!-- .client-grid -->
+                
+                <h1>More clients I couldn&rsquo;t live without</h1>            
+                
+                <ul class="client-list no-marker">
+		            <li>.<abbr>NET</abbr> Magazine</li>
+                    <li>6<abbr>ABC</abbr></li>
+                    <li>American College of Physicians</li>
+                    <li>American Committee for the Weizmann Institute of Science</li>
+                    <li><abbr>ANRO</abbr> Inc.</li>
+                    <li>Aquent</li>
+                    <li>Association of Corporate Counsel
+                    <li>Books•A•Million</li>
+                    <li>Boston Magazine</li>
+                    <li>Carlisle Wide Plank Floors</li>
+                    <li><abbr>CFM</abbr> Direct</li>
+                    <li>Comhaltas</li>
+                    <li>Daily Kos</li>
+                    <li>Disney</li>
+                    <li>Electrolux</li>
+                    <li>Environmental Defense</li>
+                    <li>Epix</li>
+                    <li><abbr title="Entertainment and Sports Programming Network">ESPN</abbr></li>
+                    <li>Exxon</li>
+                    <li>Fetch Softworks</li>
+                    <li>Franklin Templeton</li>
+                    <li>Friends of <abbr title="Every Designer">ED</abbr></li>
+                    <li>Geosign Corporation</li>
+                    <li>Google</li>
+                    <li>Greater Philadelphia Tourism &amp; Marketing Corporation</li>
+                    <li>Grist</li>
+                    <li>Hill Holliday</li>
+                    <li>HygeaShare</li>
+                    <li>Juniper</li>
+                    <li>Kansas City Chiefs</li>
+                    <li>Kenneth Copeland Ministries</li>
+                    <li>Kongregate</li>
+                    <li>Mozilla Foundation</li>
+                    <li>MusicIP</li>
+                    <li>Netscape <abbr>AOL</abbr></li>
+                    <li>Paramount Vantage</li>
+                    <li>Philadelphia Magazine</li>
+                    <li>PulseTracer</li>
+                    <li>Reebok</li>
+                    <li>SmartyPig</li>
+                    <li>Tangent Energy</li>
+                    <li>T. Rowe Price</li>
+                    <li>Thomson Reuters</li>
+                    <li>Tideway Systems</li>
+                    <li>Verizon</li>
+                    <li>Wharton School of Business</li>
+                    <li>Wrigley</li>
+                    <li><abbr>ZS</abbr> Associates</li>
+                </ul><!-- .client-list -->
+                
             </section><!-- #by-client -->
             
             <section id="by-typeface">

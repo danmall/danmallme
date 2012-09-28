@@ -66,6 +66,8 @@ blockquote p { line-height: 1.2; }
 
 #the-work h2, #work-area h2, #work-content .sub h2 { font-size: 16px; color: #757575; font-family: "urbana-1","urbana-2"; font-weight: 300; }
 
+#by-client h1 { font-size: 26px; color: #231f20; font-family: "urbana-1","urbana-2"; font-weight: 600; }
+
 #clients h1 { font-size: 16px; font-family: "urbana-1","urbana-2"; font-weight: 400; }
 
 #publications #content > ol li h1 { font-size: 20px; font-family: "urbana-1","urbana-2"; font-weight: 300; }
