@@ -299,7 +299,7 @@
                         <div class="in-use">
                             <h2>In use on</h2>
                             <ul class="in-use-list no-marker">
-                                <li><a href="/work/healthymagination/">Star Wars</a></li>
+                                <li><a href="/work/star-wars/">Star Wars</a></li>
                             </ul><!-- .in-use-list -->
                         </div><!-- .in-use -->
                     </li><!-- .typeface-antenna -->
