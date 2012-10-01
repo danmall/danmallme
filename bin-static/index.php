@@ -72,25 +72,29 @@
     		    <h1 class="phark">Latest Articles</h1>
 	    
     		    <ul class="no-marker">
-					
+                    
     		        <li class="home-round-item position1">
+    				    <a data-tooltip-content="<h1>Circles Conference 2012</h1><p>Recap of a great event I had the pleasure of speaking at in Dallas, TX.</p>" href="/articles/circlesconf2012/" class="phark phark-link" style="background-image: url(/articles/circlesconf2012/home-thumb.jpg);">Circles Conference 2012</a>
+    				</li>
+					
+    		        <li class="home-round-item position2">
     				    <a data-tooltip-content="<h1>Responsive Line Breaks</h1><p>A small trick I use to improve readability for responsive designs.</p>" href="/articles/responsive-line-breaks/" class="phark phark-link" style="background-image: url(/articles/responsive-line-breaks/home-thumb.png);">Responsive Line Breaks</a>
     				</li>
                     
-    		        <li class="home-round-item position2">
+    		        <li class="home-round-item position3">
     				    <a data-tooltip-content="<h1>Object Value Pricing</h1><p>A barter-style pricing system for web design &amp; dev projects.</p>" href="/articles/object-value-pricing/" class="phark phark-link" style="background-image: url(/articles/object-value-pricing/home-thumb.png);">Object Value Pricing</a>
     				</li>
                     
 										
-    		        <li class="home-round-item position3">
+    		        <li class="home-round-item position4">
     				    <a data-tooltip-content="<h1>Big/Small</h1><p>A recent dilemma about responsibility.</p>" href="/articles/big-small/" class="phark phark-link" style="background-image: url(/articles/big-small/home-thumb.png);">Big/Small</a>
     				</li>
+                    
+                    <?php /* ?>	
 					
     		        <li class="home-round-item position4">
     				    <a data-tooltip-content="<h1>Hillman Curtis</h1><p>The world has lost one more great man.</p>" href="/articles/hillman-curtis/" class="phark phark-link" style="background-image: url(/articles/hillman-curtis/home-thumb.png);">Hillman Curtis</a>
-    				</li>    		        
-										
-					<?php /* ?>		
+    				</li>    	
                     
     		        <li class="home-round-item position4">
     				    <a data-tooltip-content="<h1>Authenticity</h1><p>Some speaking advice from Jeremy Keith.</p>" href="/articles/authenticity/" class="phark phark-link" style="background-image: url(/articles/authenticity/home-thumb.png);">Authenticity</a>

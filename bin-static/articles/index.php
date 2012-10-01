@@ -41,6 +41,19 @@
             	    <li>
             	        <article>
             	            <header>
+            	                <h1><a href="/articles/circlesconf2012/">Circles Conference 2012</a></h1>
+            	            </header>
+            	            <p>Recap of a great event I had the pleasure of speaking at in Dallas, <abbr title="Texas">TX</abbr>.</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/circlesconference2012/"><time datetime="2012-10-01T17:02:00">Oct 1, 2012</time></a></li>
+            	                <script>document.write('<li class="comments"><a href="/articles/circlesconference2012/#disqus_thread" data-disqus-identifier="circlesconf2012"></a></li>');</script>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
+        	        </li>
+                    
+            	    <li>
+            	        <article>
+            	            <header>
             	                <h1><a href="/articles/responsive-line-breaks/">Responsive Line Breaks</a></h1>
             	            </header>
             	            <p>A small trick I use to improve readability for responsive designs.</p>

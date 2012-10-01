@@ -14,6 +14,13 @@
     <pubDate>Sun, 6 May 2012 15:20:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
     <item>
+        <title>Circles Conference 2012</title>
+        <description>Recap of a great event I had the pleasure of speaking at in Dallas, TX.</description>
+        <link>http://danielmall.com/articles/circlesconf2012/</link>
+        <guid>http://danielmall.com/articles/circlesconf2012/</guid>
+        <pubDate>Mon, 1 Oct 2012 17:02:00 GMT</pubDate>
+    </item> 
+    <item>
         <title>Responsive Line Breaks</title>
         <description>A small trick I use to improve readability for responsive designs</description>
         <link>http://danielmall.com/articles/responsive-line-breaks/</link>
