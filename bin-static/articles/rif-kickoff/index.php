@@ -77,7 +77,7 @@
                             </td>
                             <td class="detail">
                                 <h3 class="summary">Brain Drain</h3>
-                                <p>Let&rsquo;s find out the latest status about the project and everything we can about Reading Is Fundamental. All info from all parties are fair game here.</p>
+                                <p>Let&rsquo;s find out the latest status about the project and everything we can about Reading Is Fundamental. All info from all parties are fair game.</p>
                             </td>
                         </tr>
                         <tr class="vevent">
