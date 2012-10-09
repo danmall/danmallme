@@ -73,7 +73,7 @@
                         </tr>
                         <tr class="vevent">
                             <td class="time">
-                                <p class="dtstart">10:00&ndash;10:15</p>
+                                <p class="dtstart">10:15&ndash;11:15</p>
                             </td>
                             <td class="detail">
                                 <h3 class="summary">Brain Drain</h3>
@@ -82,7 +82,7 @@
                         </tr>
                         <tr class="vevent">
                             <td class="time">
-                                <p class="dtstart">10:00&ndash;10:15</p>
+                                <p class="dtstart">11:15&ndash;11:30</p>
                             </td>
                             <td class="detail">
                                 <h3 class="summary">Break</h3>
@@ -90,7 +90,7 @@
                         </tr>
                         <tr class="vevent">
                             <td class="time">
-                                <p class="dtstart">10:00&ndash;10:15</p>
+                                <p class="dtstart">11:30&ndash;12:30</p>
                             </td>
                             <td class="detail">
                                 <h3 class="summary">Content Discussion</h3>
@@ -99,7 +99,7 @@
                         </tr>
                         <tr class="vevent">
                             <td class="time">
-                                <p class="dtstart">10:00&ndash;10:15</p>
+                                <p class="dtstart">12:30&ndash;1:30</p>
                             </td>
                             <td class="detail">
                                 <h3 class="summary">Lunch</h3>
@@ -108,7 +108,7 @@
                         </tr>
                         <tr class="vevent">
                             <td class="time">
-                                <p class="dtstart">10:00&ndash;10:15</p>
+                                <p class="dtstart">1:30&ndash;2:30</p>
                             </td>
                             <td class="detail">
                                 <h3 class="summary">Design Studio</h3>
@@ -117,7 +117,7 @@
                         </tr>
                         <tr class="vevent">
                             <td class="time">
-                                <p class="dtstart">10:00&ndash;10:15</p>
+                                <p class="dtstart">2:30&ndash;3:30</p>
                             </td>
                             <td class="detail">
                                 <h3 class="summary">Technical requirements</h3>
@@ -126,7 +126,7 @@
                         </tr>
                         <tr class="vevent">
                             <td class="time">
-                                <p class="dtstart">10:00&ndash;10:15</p>
+                                <p class="dtstart">3:30&ndash;4:00</p>
                             </td>
                             <td class="detail">
                                 <h3 class="summary">Successes and Failures</h3>
@@ -135,7 +135,7 @@
                         </tr>
                         <tr class="vevent">
                             <td class="time">
-                                <p class="dtstart">10:00&ndash;10:15</p>
+                                <p class="dtstart">4:00&ndash;4:30</p>
                             </td>
                             <td class="detail">
                                 <h3 class="summary">Visual Inventory</h3>
@@ -144,7 +144,7 @@
                         </tr>
                         <tr class="vevent">
                             <td class="time">
-                                <p class="dtstart">10:00&ndash;10:15</p>
+                                <p class="dtstart">4:30&ndash;4:45</p>
                             </td>
                             <td class="detail">
                                 <h3 class="summary">Logistics</h3>
@@ -153,7 +153,7 @@
                         </tr>
                         <tr class="vevent">
                             <td class="time">
-                                <p class="dtstart">10:00&ndash;10:15</p>
+                                <p class="dtstart">4:45&ndash;5:00</p>
                             </td>
                             <td class="detail">
                                 <h3 class="summary">Farewell</h3>
