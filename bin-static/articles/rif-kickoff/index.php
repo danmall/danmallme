@@ -54,7 +54,7 @@
 
                 <h2>Game time</h2>
 
-                <p>We kicked this project off a few weeks ago. The five of us trekked to the <abbr>RIF</abbr> office in Washington D.C. to meet the marketing team and dream together about the new site. Here&rsquo;s the agenda we sent them to prep for the day:</p>
+                <p>We kicked this project off a few weeks ago. The five of us trekked to the <abbr>RIF</abbr> office in Washington D.C. to meet the team and dream together about the new site. Here&rsquo;s the agenda we sent them to prep for the day:</p>
                 
                 <table class="schedule-table">
                     <thead class="offscreen">
