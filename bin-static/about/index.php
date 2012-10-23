@@ -20,7 +20,7 @@
         	
         	<p>I&rsquo;m Dan Mall, an award-winning designer from <del>Philadelphia</del> <del>Brooklyn</del> <ins>Philadelphia</ins>, an enthralled husband and new dad, Founder &amp; Design Director at <a href="http://superfriend.ly/">SuperFriendly</a>, <nobr>co-founder</nobr> of <a href="http://typedia.com/">Typedia</a> and <acronym title="swf Image Replacement"><span style="text-transform: none; letter-spacing: 0;">swf</span>IR</acronym>, and singer/keyboard player for contemporary-Christian band <a href="http://www.four24.com/">Four24</a>. I was formerly Design Director at <a href="http://www.bigspaceship.com/">Big Spaceship</a>, Interactive Director at <a href="http://www.happycog.com/">Happy Cog</a>, and a technical editor for <cite><a href="http://www.alistapart.com/">A List Apart</a></cite>. I write about design and other issues on <a href="http://twitter.com/danielmall">Twitter</a> and <a href="/articles/">right here on this site</a>.</p>
         	
-        	<p><cite class="credit">Photo by <a href="http://pkarl.com/">Pete Karl II</a></cite></p>
+        	<p><cite class="credit">Photo by <a href="http://www.marcthiele.com/">Marc Thiele</a></cite></p>
         	
     	</section><!-- #intro -->
 	
@@ -114,9 +114,11 @@
         	                        <dd>
         	                            <del>116</del><br />
         	                            <?php /* echo abs(strtotime(date('Y-m-d')) - strtotime("2011-03-26"))/86400; */ ?>
-        	                            <?php echo round(abs(strtotime(date('Y-m-d')) - strtotime("2011-07-20"))/86400); ?>
+        	                            <?php /* echo round(abs(strtotime(date('Y-m-d')) - strtotime("2011-07-20"))/86400); */ ?>
+                                        <del>461</del>
         	                        </dd>        	                        
         	                </dl>
+                            <p class="hey-look">Hey look there&rsquo;s something else to read<br /><br />&darr;</p>
         	            </div><!-- #fact-soda -->
         	            
         	            <div id="fact-hair" class="phark">
