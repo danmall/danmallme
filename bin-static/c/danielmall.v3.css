@@ -199,7 +199,7 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
             #masthead h1 a { background: transparent url(/i/screen/back-home.gif) no-repeat 80px 22px; width: 259px; height: 49px; position: absolute; top: 0; left: 0; border: none; opacity: 0; transition-timing-function: ease-out; -moz-transition-timing-function: ease-out; -webkit-transition-timing-function: ease-out; }
             #masthead h1 a:hover, #masthead h1 a:focus { opacity: 1; background-position: 90px 22px; }
     
-    #masthead nav ul { width: 354px; height: 12px; background: transparent url(/i/screen/nav3.gif) no-repeat 0 0; position: absolute; top: 13px; right: 0; }
+    #masthead nav ul { width: 354px; height: 12px; background: transparent url(/i/screen/nav3.gif) no-repeat 0 0; position: absolute; top: 13px; right: 0; z-index: 2; }
     #home #masthead nav ul { width: 417px; height: 14px; background-image: url(/i/screen/home-nav2.png); top: 71px; }
         #masthead nav a, #masthead mark { border: none; height: 32px; position: absolute; top: -10px; opacity: 0; background-position: 10px 10px; }
         #home #masthead nav a { height: 34px; background-position: 10px 10px; top: -10px; }
@@ -620,7 +620,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
     About
 -------------------------------------------*/
 #about-landing #intro { padding: 165px 0 2em 305px; padding: 130px 0 2em 350px; border-bottom: 7px solid #231f20; /*background: transparent url(/i/screen/about/dan-headshot2.png) no-repeat 40px 0*/; margin: -50px 0 2px; position: relative; margin: -20px 0 2px; }
-    #about-landing #intro h1 { background-image: url(/i/screen/about/dan-headshot2.png); width: 472px; height: 69px; width: 840px; height: 431px; position: absolute; bottom: 0; left: -90px; margin: 0; }
+    #about-landing #intro h1 { background-image: url(/i/screen/about/dan-headshot2.png); width: 472px; height: 69px; width: 840px; height: 431px; position: absolute; bottom: 0; left: -90px; margin: 0; z-index: 1; }
     #about-landing #intro p { font-size: 15px; color: #231f20; line-height: 1.7; padding-right: 10px; position: relative; top: 10px; }
         #about-landing #intro cite.credit { font-size: 13px; color: #b0b0b0; }
             #about-landing #intro cite.credit a { color: #b0b0b0; border-color: #ddd; }
