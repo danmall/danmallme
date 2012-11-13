@@ -257,6 +257,51 @@ $(document).ready(function() {
             twttr.anywhere(function (T) {
                 T.hovercards();
               });
+        },
+        
+        
+        /*-------------------------------------------    
+            Specific Functions to pages
+        -------------------------------------------*/
+
+        initRIFNav: function(){
+            
+            var _expandText = '<span>&darr;</span> Read more about Reading Is Fundamental <span>&darr;</span>';
+            var _collapseText = '<span>&uarr;</span> Collapse <span>&uarr;</span>';
+            
+            $('.rif-nav').before('<a class="rif-nav-toggle" href="#rif-nav"><i>' + _expandText + '</i></a>');
+            
+            $('.rif-nav-toggle').click(function(){
+                
+                if($('.rif-nav').is(':hidden')){
+                    
+                    // text
+                    dmall.fadeToggleText(_collapseText);
+                    
+                    // contents
+                    $('.rif-nav').slideDown(500, 'easeInOutCirc');
+                    $('.rif-nav .inner').fadeTo(300, 1);
+                    
+                }else{
+                    
+                    // text
+                    dmall.fadeToggleText(_expandText);
+                    
+                    // contents
+                    $('.rif-nav .inner').fadeTo(250, 0);
+                    $('.rif-nav').slideUp(500, 'easeInOutCirc');
+                }
+                
+                return false;
+            });
+        },
+        
+        fadeToggleText: function($textString){
+            
+            $('.rif-nav-toggle i').fadeTo(400, 0, function(){
+                $(this).html($textString).fadeTo(300, 1);
+            });
+            
         }
         
     }
@@ -281,6 +326,9 @@ $(document).ready(function() {
     // CONTACT
     dmall.allEars();
     dmall.validateContactForm();
+    
+    // SPECIFIC
+    dmall.initRIFNav();
     
     // GLOBAL
     //dmall.initTwitterAnywhere();

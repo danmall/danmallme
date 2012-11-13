@@ -17,6 +17,8 @@
 	<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/header.php"); echo "\n"; ?>
 	
 	<div id="article-area-wrap">
+        
+        <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/rif-nav.php"); echo "\n"; ?>
 			
 	    <section id="rif-kickoff" class="clearfix">
             
@@ -231,6 +233,13 @@
                 <p>We all left that day energized and excited for what&rsquo;s to come. As we make progress, you can bet I&rsquo;ll report back as often as I can. We&rsquo;re knee deep in simultaneously exploring architecture and aesthetics. More on that in the days to come.</p>
 
                 <p>I hope, dear reader, that this has some value for you. By creating this site in public, I hope we can all learn together,  you from us and us from you. I&rsquo;d love to hear from you. What can we be doing better for <abbr>RIF</abbr>? What can we be doing better for you?</p>		
+                
+                <h2>Read More</h2>
+                
+                <ul>
+                    <li>&ldquo;<a href="http://mattecook.com/post/33371268868/rif-opensource-post-1">Sharing a Project in Process</a>,&rdquo; by Matt Cook</li>
+                    <li>&ldquo;<a href="http://jluciano215.tumblr.com/day/2012/10/09">Meeting The Rest of The Super Heros</a>,&rdquo; by Josh Luciano</li>
+                </ul>
                 
             </div><!-- .inner -->		
 			
