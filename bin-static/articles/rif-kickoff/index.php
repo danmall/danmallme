@@ -17,6 +17,8 @@
 	<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/header.php"); echo "\n"; ?>
 	
 	<div id="article-area-wrap">
+        
+        <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/rif-nav.php"); echo "\n"; ?>
 			
 	    <section id="rif-kickoff" class="clearfix">
             
@@ -240,6 +242,13 @@
 					<li><a href="http://mattecook.com/post/333712688/rif-opensource-post-1">Sharing a Project in Process</a>, by Matt Cook</li>
 					<li><a href="#">Lorem Ipsum</a>, by Josh Luciano</li>
 				</ul>
+                
+                <h2>Read More</h2>
+                
+                <ul>
+                    <li>&ldquo;<a href="http://mattecook.com/post/33371268868/rif-opensource-post-1">Sharing a Project in Process</a>,&rdquo; by Matt Cook</li>
+                    <li>&ldquo;<a href="http://jluciano215.tumblr.com/day/2012/10/09">Meeting The Rest of The Super Heros</a>,&rdquo; by Josh Luciano</li>
+                </ul>
                 
             </div><!-- .inner -->		
 			

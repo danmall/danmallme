@@ -41,7 +41,20 @@
             	    <li>
             	        <article>
             	            <header>
-            	                <h1><a href="/articles/rif-kickoff/">Reading Is Fundamental Kickoff</a></h1>
+            	                <h1><a href="/articles/rif-element-collages/">Element Collages</a></h1>
+            	            </header>
+            	            <p>An abstract way to document design for Reading Is Fundamental.</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/rif-element-collages/"><time datetime="2012-11-13T08:18:00">Nov 13, 2012</time></a></li>
+            	                <script>document.write('<li class="comments"><a href="/articles/rif-element-collages/#disqus_thread" data-disqus-identifier="rif-element-collages"></a></li>');</script>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
+        	        </li>
+                    
+            	    <li>
+            	        <article>
+            	            <header>
+            	                <h1><a href="/articles/rif-kickoff/">Kickoff</a></h1>
             	            </header>
             	            <p>The first chapter in the public story of a new site for Reading Is Fundamental.</p>
             	            <ul class="meta easy-clearing no-marker">

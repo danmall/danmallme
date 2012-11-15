@@ -35,4 +35,4 @@
     <script src="http://platform.twitter.com/anywhere.js?id=4iWhtL6v6OPwuUzs5BWGRA&amp;v=1"></script>
     
     <!-- Custom Functions -->
-    <script src="/j/danielmall.v3.js"></script>
+    <script src="/j/danielmall.v3.js?v=20121113081502"></script>
