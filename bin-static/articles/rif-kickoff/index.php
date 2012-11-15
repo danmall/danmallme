@@ -231,6 +231,15 @@
                 <p>We all left that day energized and excited for what&rsquo;s to come. As we make progress, you can bet I&rsquo;ll report back as often as I can. We&rsquo;re knee deep in simultaneously exploring architecture and aesthetics. More on that in the days to come.</p>
 
                 <p>I hope, dear reader, that this has some value for you. By creating this site in public, I hope we can all learn together,  you from us and us from you. I&rsquo;d love to hear from you. What can we be doing better for <abbr>RIF</abbr>? What can we be doing better for you?</p>		
+				
+				<h2>Read More</h2>
+				
+				<p>For more about the kickoff meeting from different perspectives, here&rsquo;s some more suggested reading:
+				
+				<ul>
+					<li><a href="http://mattecook.com/post/333712688/rif-opensource-post-1">Sharing a Project in Process</a>, by Matt Cook</li>
+					<li><a href="#">Lorem Ipsum</a>, by Josh Luciano</li>
+				</ul>
                 
             </div><!-- .inner -->		
 			
