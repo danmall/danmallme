@@ -499,6 +499,23 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
         #speaking .work-row { height: 350px; padding: 0; }
             #speaking .work-row .inner { position: relative; padding: 0; width: 800px; }
             #speaking .work-row a { transition: all 0s linear; -moz-transition: all 0s linear; -webkit-transition: all 0s linear; -o-transition: all 0s linear; }
+        #aiga-jax { background: transparent url(/i/screen/work/speaking/aiga-jax.gif) repeat 50% 50%; font-family: Helvetica, Arial, sans-serif; }
+            #speaking #aiga-jax .inner { width: 100%; background: transparent url(/i/screen/work/speaking/aiga-jax-banner.gif) no-repeat 50% 50px; padding-top: 57px; top: 30px; }
+            #aiga-jax article { width: 800px; margin: 0 auto; text-align: center; }
+                #aiga-jax .org { color: #fff; font-size: 16px; font-family: Georgia, 'Times New Roman', serif; }
+                #aiga-jax h1 { font-weight: bold; letter-spacing: -1px; margin: 0 0 0.25em; }
+                #aiga-jax h2 { font-family: Helvetica, Arial, sans-serif; }
+                #aiga-jax ul { font-size: 16px; }
+                    #aiga-jax li { display: inline; margin-right: 10px; }
+                    #aiga-jax li + li { border-left: 1px solid #999; padding-left: 10px; }
+                #aiga-jax a { color: #00A0AF; }
+                #aiga-jax a:hover, #aiga-jax a:focus { color: #ff7d05; }                
+        #webdesignday2012 { background: #7cc1af url(/i/screen/work/speaking/wdd-pattern.png) repeat 0 0; }
+            #webdesignday2012 article { text-align: center; }
+                #webdesignday2012 hgroup { position: relative; top: 75px; }
+                    #webdesignday2012 h1 { font-family: "Adelle"; font-weight: bold; color: #fff; font-size: 50px; margin: 0; }
+                    #webdesignday2012 p, #webdesignday2012 h2 { font-family: 'Proxima Nova'; color: #fff; font-size: 20px; }
+                    #webdesignday2012 h2 { font-size: 24px; opacity: 0.5; }
 		#awdg { background: #991b1e; }        
 			#awdg article { background: transparent url(/i/screen/work/speaking/awdg.png) no-repeat 50% 0; height: 350px; } 
 				#awdg p { margin: 0; }
@@ -508,9 +525,12 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
 				#ffwd p { margin: 0; }
 					#ffwd a.cta { position: absolute; top: 0; left: 50%; width: 800px; height: 350px; margin-left: -400px; border: none; display: block; }
 		#circlesconference { background: transparent url(/i/screen/work/speaking/circles-conference-bg.jpg) repeat 0 0; }        
-			#circlesconference article { background: transparent url(/i/screen/work/speaking/circles-conference.png) no-repeat 50% 0; height: 350px; } 
+			#circlesconference article { background: transparent url(/i/screen/work/speaking/circles-conference.png) no-repeat 50% -30px; height: 350px; position: relative; } 
 				#circlesconference p { margin: 0; }
 					#circlesconference a.cta { position: absolute; top: 0; left: 0; width: 800px; height: 350px; border: none; display: block; }
+                #circlesconference .button { background: #d12a00; position: absolute; left: 50%; top: 250px; margin-left: -50px; }
+                    #circlesconference .button a { color: #e0ded0; border: none; }
+                    #circlesconference .button:hover, #circlesconference .button a:hover, #circlesconference .button a:focus { background: #000; }
         #newadventures2012 { background: #fff url(/i/screen/work/speaking/newadventures2012.png) no-repeat center 72px; }        
             #newadventures2012 a.cta { background: transparent url(/i/screen/work/speaking/newadventures2012-cta.png) no-repeat 0 3px; width: 150px; height: 62px; border: none; position: absolute; left: 50%; margin-left: -75px; top: 290px; }
                 #newadventures2012 a.cta:hover, #newadventures2012 a.cta:focus { background-position: 0 0; }

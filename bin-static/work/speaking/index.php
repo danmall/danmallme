@@ -32,7 +32,33 @@
 	
 	<section id="content">
 	       
-	    <ol class="no-marker">	        	
+	    <ol class="no-marker">
+	        <li class="work-row vevent" id="aiga-jax">
+	            <div class="inner">
+    	            <article>
+    	                <hgroup>
+                            <p class="org">AIGA Jacksonvile</p>
+        	                <h1 class="summary">Hulkamania &amp; Design</h1>
+        	                <h2><abbr class="dtstart" title="2012-10-26T09:00:00">November 15, 2012</abbr></h2>
+                            <ul>
+                                <li><a href="http://aigajacksonville.org/events/hulkamania-design-dan-mall/">Event Details</a></li>
+                                <li><a href="http://blog.aigajacksonville.org/post/35342075231/hulkamania-and-design">Blog Post</a></li>
+                            </ul>
+    	                </hgroup>
+    	            </article>
+    	        </div>
+	        </li><!-- #aiga-jax -->
+	        <li class="work-row vevent" id="webdesignday2012">
+	            <div class="inner">
+    	            <article>
+    	                <hgroup>
+        	                <h1 class="summary">Web Design Day</h1>
+        	                <h2><abbr class="dtstart" title="2012-10-26T09:00:00">October 26 2012</abbr></h2>
+                            <p>New Hazlett Theatre, <span class="street-address">6 Allegheny Square E.</span><span class="locality">Pittsburgh</span>, <span class"region">PA</span> <span class="postal-code">15212</span></p>
+    	                </hgroup>
+    	            </article>
+    	        </div>
+	        </li><!-- #webdesignday2012 -->	        	
 	        <li class="work-row vevent" id="circlesconference">
 	            <div class="inner">
     	            <article>
@@ -40,7 +66,8 @@
         	                <h1 class="summary">Circles Conference 2012</h1>
         	                <h2><abbr class="dtstart" title="2012-09-20T12:00:00">September 20&ndash;21 2012</abbr>, Palace Arts Center, <span class="locality">Grapevine</span>, <span class"region">TX</span></h2>
     	                </hgroup>
-    	                <p><a class="cta phark" href="http://circlesconference.com/">Circles Conference</a></p>
+                        <p class="button"><a href="/articles/circlesconf2012/">Read my recap</a></p>
+    	                <?php /* ?><p><a class="cta phark" href="http://circlesconference.com/">Circles Conference</a></p><?php */ ?>
     	            </article>
     	        </div>
 	        </li><!-- #circlesconference -->
@@ -51,7 +78,7 @@
         	                <h1 class="summary">Reasons to be Creative</h1>
         	                <h2><abbr class="dtstart" title="2012-09-03T09:00:00">September 3&ndash;4 2012</abbr>, The Brighton Dome</h2>
     	                </hgroup>
-    	                <p><a class="cta phark" href="http://www.reasonstobecreative.com/">Reasons to be Creative</a></p>
+    	                <?php /* ?><p><a class="cta phark" href="http://www.reasonstobecreative.com/">Reasons to be Creative</a></p><?php */ ?>
     	            </article>
     	        </div>
 	        </li><!-- #r2bc2012 -->
