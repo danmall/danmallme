@@ -273,32 +273,36 @@ $(document).ready(function() {
             
             $('.rif-nav-toggle').click(function(){
                 
-                if($('.rif-nav').is(':hidden')){
+                //if($('.rif-nav').is(':hidden')){
+                if($(this).next().is(':hidden')){
                     
                     // text
-                    dmall.fadeToggleText(_collapseText);
+                    dmall.fadeToggleText($(this), _collapseText);
                     
                     // contents
-                    $('.rif-nav').slideDown(500, 'easeInOutCirc');
-                    $('.rif-nav .inner').fadeTo(300, 1);
+                    /*$('.rif-nav').slideDown(500, 'easeInOutCirc');
+                    $('.rif-nav .inner').fadeTo(300, 1);*/
+                    $(this).next().slideDown(500, 'easeInOutCirc').find('.inner').fadeTo(300, 1);
                     
                 }else{
                     
                     // text
-                    dmall.fadeToggleText(_expandText);
+                    dmall.fadeToggleText($(this), _expandText);
                     
                     // contents
-                    $('.rif-nav .inner').fadeTo(250, 0);
-                    $('.rif-nav').slideUp(500, 'easeInOutCirc');
+                    /* $('.rif-nav .inner').fadeTo(250, 0);
+                    $('.rif-nav').slideUp(500, 'easeInOutCirc');*/
+                    $(this).next().find('.inner').fadeTo(250, 0);
+                    $(this).next().slideUp(500, 'easeInOutCirc');
                 }
                 
                 return false;
             });
         },
         
-        fadeToggleText: function($textString){
+        fadeToggleText: function($el, $textString){
             
-            $('.rif-nav-toggle i').fadeTo(400, 0, function(){
+            $el.find('i').fadeTo(400, 0, function(){
                 $(this).html($textString).fadeTo(300, 1);
             });
             

@@ -1,4 +1,4 @@
-#article-area-wrap { background: #fafafa; font: normal 18px/1.8 Georgia, 'Times New Roman', serif; color: #555; }
+#article-area-wrap { background: #fafafa; font: normal 18px/1.8 Georgia, 'Times New Roman', serif; color: #555; padding-bottom: 0; }
 .wf-active #article-area-wrap { font-family: "adelle", Georgia, 'Times New Roman', serif; font-weight: 300; }
 
 #rif-kickoff { margin: 0 auto; padding: 0 0 50px; }
