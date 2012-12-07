@@ -69,7 +69,9 @@
                 
             </div><!-- .inner -->		
 			
-	    </section><!-- #rif-element-collages -->	  	
+	    </section><!-- #rif-element-collages -->	
+        
+        <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/rif-nav.php"); echo "\n"; ?>  	
 	    
 	</div><!-- /#article-area-wrap -->	
 	
