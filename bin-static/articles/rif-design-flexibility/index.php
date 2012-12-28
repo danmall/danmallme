@@ -166,7 +166,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2012-11-13T08:18:00">Published November 13, 2012 at 8:18 <abbr title="Ante Meridian">AM</abbr></time>
+        	        <time datetime="2012-11-13T08:18:00">Published December 28, 2012 at 10:18 <abbr title="Ante Meridian">AM</abbr></time>
     	        </section><!-- /#article-info -->
     	        
     	        
