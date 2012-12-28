@@ -19,6 +19,7 @@
                         <h1 class="category-header">Design</h1>
                         <ul>
                             <li>&ldquo;<a href="/articles/rif-element-collages/">Element Collages</a>,&rdquo; by Dan Mall</li>
+                            <li>&ldquo;<a href="/articles/rif-design-flexibility/">Design Flexibility</a>,&rdquo; by Dan Mall</li>
                         </ul>                    
                     </section><!-- .col50 -->
                 

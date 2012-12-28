@@ -41,6 +41,19 @@
             	    <li>
             	        <article>
             	            <header>
+            	                <h1><a href="/articles/rif-design-flexibility/">Design Flexibility</a></h1>
+            	            </header>
+            	            <p>More about the design process in the public story of a new site for Reading Is Fundamental.</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/rif-design-flexibility/"><time datetime="2012-12-28T10:18:00">Dec 28, 2012</time></a></li>
+            	                <script>document.write('<li class="comments"><a href="/articles/rif-design-flexibility/#disqus_thread" data-disqus-identifier="rif-design-flexibility"></a></li>');</script>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
+        	        </li>
+                    
+            	    <li>
+            	        <article>
+            	            <header>
             	                <h1><a href="/articles/rif-element-collages/">Element Collages</a></h1>
             	            </header>
             	            <p>An abstract way to document design for Reading Is Fundamental.</p>

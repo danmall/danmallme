@@ -11,18 +11,25 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2012</dc:rights>
-    <pubDate>Sun, 6 May 2012 15:20:00 GMT</pubDate>
+    <pubDate>Fri, 28 Dec 2012 10:18:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
     <item>
+        <title>Reading Is Fundamental Design Flexibility</title>
+        <description>More about the design process in the public story of a new site for Reading Is Fundamental.</description>
+        <link>http://danielmall.com/articles/rif-design-flexibility/</link>
+        <guid>http://danielmall.com/articles/rif-design-flexibility/</guid>
+        <pubDate>Fri, 28 Dec 2012 10:18:00 GMT</pubDate>
+    </item> 
+    <item>
         <title>Reading Is Fundamental Element Collages</title>
-        <description>An abstract way to document design for Reading Is Fundamental</description>
+        <description>An abstract way to document design for Reading Is Fundamental.</description>
         <link>http://danielmall.com/articles/rif-element-collages/</link>
         <guid>http://danielmall.com/articles/rif-element-collages/</guid>
         <pubDate>Tue, 13 Nov 2012 08:18:00 GMT</pubDate>
     </item> 
     <item>
         <title>Reading Is Fundamental Kickoff</title>
-        <description>The first chapter in the public story of a new site for Reading Is Fundamental</description>
+        <description>The first chapter in the public story of a new site for Reading Is Fundamental.</description>
         <link>http://danielmall.com/articles/rif-kickoff/</link>
         <guid>http://danielmall.com/articles/rif-kickoff/</guid>
         <pubDate>Mon, 9 Oct 2012 10:32:00 GMT</pubDate>
