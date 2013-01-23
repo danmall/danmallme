@@ -41,6 +41,19 @@
             	    <li>
             	        <article>
             	            <header>
+            	                <h1><a href="/articles/the-post-psd-era/">The Post-PSD Era</a></h1>
+            	            </header>
+            	            <p>A problem of expectations.</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/the-post-psd-era/"><time datetime="2013-01-23T12:56:00">Jan 23, 2013</time></a></li>
+            	                <script>document.write('<li class="comments"><a href="/articles/the-post-psd-era/#disqus_thread" data-disqus-identifier="the-post-psd-era"></a></li>');</script>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
+        	        </li>
+                    
+            	    <li>
+            	        <article>
+            	            <header>
             	                <h1><a href="/articles/rif-design-flexibility/">Design Flexibility</a></h1>
             	            </header>
             	            <p>More about the design process in the public story of a new site for Reading Is Fundamental.</p>

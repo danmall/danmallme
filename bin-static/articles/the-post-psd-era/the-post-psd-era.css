@@ -1,0 +1,24 @@
+#article-area-wrap { position: relative; background: #f3f1d8; }
+
+#the-post-psd-era { margin: 0 auto; /*width: 799px;*/ font: normal 20px Georgia, 'Times New Roman', serif; color: #000; }
+    
+    #the-post-psd-era .inner { width: 669px; margin: 0 auto; }
+    
+        #the-post-psd-era header { background: #369701 url(pattern_1.png) repeat 0 0; padding: 100px 0; margin: 0 0 2em; }
+            #the-post-psd-era hgroup { width: 669px; margin: 0 auto; }
+                #the-post-psd-era hgroup h1 { text-align: center; color: #fff; font: bold 68px/1 Helvetica, Arial, sans-serif; letter-spacing: -2px; margin: 0 0 0.25em; text-shadow: 4px 4px rgba(0, 0, 0, 0.2); }
+                #the-post-psd-era hgroup h2 { text-align: center; color: #fff; font: normal 20px Georgia, 'Times New Roman', serif; font-style: italic; }                
+                
+        #the-post-psd-era .sep { width: 100px; margin: 0 0 2em; border-top: 1px solid #000; }
+    
+    #the-post-psd-era p, #the-post-psd-era .scripted dd { font-size: 20px; line-height: 1.6; }
+    
+    #the-post-psd-era .scripted { line-height: 2; }
+        #the-post-psd-era .scripted dt { position: absolute; font: bold 12px Helvetica, Arial, sans-serif; color: #a5a493; text-transform: uppercase; letter-spacing: 0.1em; }
+        #the-post-psd-era .scripted dd { padding-left: 100px; margin: 0 0 1em; position: relative; top: -0.5em; }
+    
+	#the-post-psd-era a { color: #369701; border: none; }
+	#the-post-psd-era a:hover { color: #000; background: #deddb7; }
+    
+    #the-post-psd-era ::selection { background: #369701; color: #fff; }
+    #the-post-psd-era ::-moz-selection { background: #d12a00; color: #fff; }
