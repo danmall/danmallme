@@ -17,7 +17,7 @@
         <script type="text/javascript">try{ clicky.init(66439102); }catch(e){}</script>
         <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/66439102ns.gif" /></p></noscript>
     </div><!-- #clicky -->
-	<?php */ ?>
+	
     
     <!-- Chartbeat -->
     <script type="text/javascript">
@@ -38,6 +38,7 @@
           loadChartbeat : function() { oldonload(); loadChartbeat(); };
       })();
     </script>
+    <?php */ ?>
 
 </body>
 </html>
