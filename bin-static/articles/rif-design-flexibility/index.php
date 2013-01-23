@@ -88,7 +88,7 @@
                 <p>They gave us some quick feedback, and we turned around some new iterations:</p>
 
                 <img src="header7.png" alt="RIF Header option 6" />
-                <img src="header8∂f.png" alt="RIF Header option 7" />
+                <img src="header8.png" alt="RIF Header option 7" />
                 
                 <p>They thought the last one worked perfectly, and just like that we had a finished piece in a few hours. On to the footer!</p>
 
