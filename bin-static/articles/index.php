@@ -41,6 +41,19 @@
             	    <li>
             	        <article>
             	            <header>
+            	                <h1><a href="/articles/superfriendly-annual-report-2012/">The 2012 SuperFriendly Annual Report</a></h1>
+            	            </header>
+            	            <p>A look back at one year in business.</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/superfriendly-annual-report-2012/"><time datetime="2013-02-01T12:30:00">Feb 1, 2013</time></a></li>
+            	                <script>document.write('<li class="comments"><a href="/articles/superfriendly-annual-report-2012/#disqus_thread" data-disqus-identifier="superfriendly-annual-report-2012"></a></li>');</script>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
+        	        </li>
+                    
+            	    <li>
+            	        <article>
+            	            <header>
             	                <h1><a href="/articles/the-post-psd-era/">The Post-PSD Era</a></h1>
             	            </header>
             	            <p>A problem of expectations.</p>

@@ -10,15 +10,22 @@
     <description>Musings from the brain of Dan Mall.</description>
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
-    <dc:rights>Copyright 2005-2012</dc:rights>
-    <pubDate>Fri, 28 Dec 2012 10:18:00 GMT</pubDate>
+    <dc:rights>Copyright 2005-2013</dc:rights>
+    <pubDate>Fri, 01 Feb 2013 00:30:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>The 2012 SuperFriendly Annual Report</title>
+        <description>A look back at one year in business.</description>
+        <link>http://danielmall.com/articles/superfriendly-annual-report-2012/</link>
+        <guid>http://danielmall.com/articles/superfriendly-annual-report-2012/</guid>
+        <pubDate>Fri, 01 Feb 2013 00:30:00 GMT</pubDate>
+    </item>
     <item>
         <title>The Post-PSD Era</title>
         <description>A problem of expectations</description>
         <link>http://danielmall.com/articles/the-post-psd-era/</link>
         <guid>http://danielmall.com/articles/the-post-psd-era/</guid>
-        <pubDate>Wed, 23 Jan 2012 12:56:00 GMT</pubDate>
+        <pubDate>Wed, 23 Jan 2013 12:56:00 GMT</pubDate>
     </item> 
     <item>
         <title>Reading Is Fundamental Design Flexibility</title>
