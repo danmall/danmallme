@@ -31,7 +31,7 @@
 			
 			<h1 class="article-title">The 2012 SuperFriendly Annual Report</h1>
 			
-			<p>What a year! Today marks <a href="/articles/introducing-superfriendly/">one year in business</a> as <a href="http://superfriend.ly/">SuperFriendly</a>, and what a year it&rsquo;s been! I&rsquo;ve learned a ton about a ton, and I&rsquo;d love to share a little snapshot of what 2012 looked like. These are things I wish I could have projected when starting out, so I&rsquo;m hoping the transparency is useful to some of you out there. Happy reading!</p>
+			<p>What a year! Today is my birthday and marks <a href="/articles/introducing-superfriendly/">one year in business</a> as <a href="http://superfriend.ly/">SuperFriendly</a>, and what a year it&rsquo;s been! I&rsquo;ve learned a ton about a ton, and I&rsquo;d love to share a little snapshot of what 2012 looked like. These are things I wish I could have projected when starting out, so I&rsquo;m hoping the transparency is useful to some of you out there. Happy reading!</p>
             
             <footer class="article-footer">
                 <p>Data is brought to you by <a href="http://xero.com/">Xero</a>, <a href="http://www.getharvest.com/">Harvest</a>, <a href="http://highrisehq.com/">Highrise</a>, and little elbow grease.</p>
