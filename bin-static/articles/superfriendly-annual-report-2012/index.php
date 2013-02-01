@@ -173,7 +173,7 @@
                 
                 <h1>Global Clients</h1>
                 
-                <iframe width="800" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?ll=-2.460181,3.164063&amp;spn=163.382665,313.242187&amp;t=m&amp;z=2&amp;msa=0&amp;msid=218281864734336525222.0004d4a281c8c438f0fa4"></iframe><br /><small class="article-footer"><p>View <a href="https://maps.google.com/maps/ms?ll=-2.460181,3.164063&amp;spn=163.382665,313.242187&amp;t=m&amp;z=2&amp;msa=0&amp;msid=218281864734336525222.0004d4a281c8c438f0fa4&amp;source=embed">SuperFriendly Clients</a> in a larger map</p></small></p>
+                <iframe width="800" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=218281864734336525222.0004d4a281c8c438f0fa4&amp;ie=UTF8&amp;ll=-0.35156,-7.734375&amp;spn=88.670812,241.567383&amp;t=m&amp;output=embed"></iframe><br /><small class="article-footer"><p>View <a href="https://maps.google.com/maps/ms?ll=-2.460181,3.164063&amp;spn=163.382665,313.242187&amp;t=m&amp;z=2&amp;msa=0&amp;msid=218281864734336525222.0004d4a281c8c438f0fa4&amp;source=embed">SuperFriendly Clients</a> in a larger map</p></small></p>
                 
                 
             </section><!-- .topic -->
