@@ -2,7 +2,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/doctype.php"); echo "\n"; ?>
 <head profile="http://gmpg.org/xfn/11">
     <title>&ldquo;Leaving Four24,&rdquo; an article by Dan Mall</title>
-    <meta name="description" content="Sketchbooks" />
+    <meta name="description" content="After just over 10 years, I&rsquo;ve decided to leave my band." />
     <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/meta.php"); echo "\n"; ?>
     
     <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/cssReference.php"); echo "\n"; ?>	
