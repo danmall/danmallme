@@ -41,6 +41,19 @@
             	    <li>
             	        <article>
             	            <header>
+            	                <h1><a href="/articles/leaving-four24/">Leaving Four24</a></h1>
+            	            </header>
+            	            <p>After just over 10 years, I&rsquo;ve decided to leave my band</p>
+            	            <ul class="meta easy-clearing no-marker">
+            	                <li class="permalink"><a href="/articles/leaving-four24/"><time datetime="2013-02-17T20:41:00">Feb 17, 2013</time></a></li>
+            	                <script>document.write('<li class="comments"><a href="/articles/leaving-four24/#disqus_thread" data-disqus-identifier="leaving-four24"></a></li>');</script>
+            	            </ul><!-- .meta -->
+            	        </article>        	        
+        	        </li>
+                    
+            	    <li>
+            	        <article>
+            	            <header>
             	                <h1><a href="/articles/superfriendly-annual-report-2012/">The 2012 SuperFriendly Annual Report</a></h1>
             	            </header>
             	            <p>A look back at one year in business.</p>

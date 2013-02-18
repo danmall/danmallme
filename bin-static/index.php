@@ -77,21 +77,25 @@
     		    <ul class="no-marker">
                     
     		        <li class="home-round-item position1">
-    				    <a data-tooltip-content="<h1>The 2012 SuperFriendly Annual Report</h1><p>A look back at one year in business.</p>" href="/articles/superfriendly-annual-report-2012/" class="phark phark-link" style="background-image: url(/articles/superfriendly-annual-report-2012/home-thumb.png);">The 2012 SuperFriendly Annual Report</a>
+    				    <a data-tooltip-content="<h1>Leaving Four24</h1><p>After just over 10 years, I&rsquo;ve decided to leave my band.</p>" href="/articles/leaving-four24/" class="phark phark-link" style="background-image: url(/articles/leaving-four24/home-thumb.jpg);">Leaving Four24</a>
     				</li>
                     
     		        <li class="home-round-item position2">
-    				    <a data-tooltip-content="<h1>The Post-PSD Era</h1><p>A problem of expectations.</p>" href="/articles/the-post-psd-era/" class="phark phark-link" style="background-image: url(/articles/the-post-psd-era/home-thumb.png);">The Post-PSD Era</a>
+    				    <a data-tooltip-content="<h1>The 2012 SuperFriendly Annual Report</h1><p>A look back at one year in business.</p>" href="/articles/superfriendly-annual-report-2012/" class="phark phark-link" style="background-image: url(/articles/superfriendly-annual-report-2012/home-thumb.png);">The 2012 SuperFriendly Annual Report</a>
     				</li>
                     
     		        <li class="home-round-item position3">
-    				    <a data-tooltip-content="<h1>Design Flexibility</h1><p>More about the design process in the public story of a new site for Reading Is Fundamental.</p>" href="/articles/rif-design-flexibility/" class="phark phark-link" style="background-image: url(/articles/rif-design-flexibility/home-thumb.jpg);">Design Flexibility</a>
+    				    <a data-tooltip-content="<h1>The Post-PSD Era</h1><p>A problem of expectations.</p>" href="/articles/the-post-psd-era/" class="phark phark-link" style="background-image: url(/articles/the-post-psd-era/home-thumb.png);">The Post-PSD Era</a>
     				</li>
                     
     		        <li class="home-round-item position4">
-    				    <a data-tooltip-content="<h1>Element Collages</h1><p>An abstract way to document design for Reading Is Fundamental.</p>" href="/articles/rif-element-collages/" class="phark phark-link" style="background-image: url(/articles/rif-element-collages/home-thumb.jpg);">Element Collages</a>
+    				    <a data-tooltip-content="<h1>Design Flexibility</h1><p>More about the design process in the public story of a new site for Reading Is Fundamental.</p>" href="/articles/rif-design-flexibility/" class="phark phark-link" style="background-image: url(/articles/rif-design-flexibility/home-thumb.jpg);">Design Flexibility</a>
     				</li>
                     <?php /* ?>
+    		        <li class="home-round-item position4">
+    				    <a data-tooltip-content="<h1>Element Collages</h1><p>An abstract way to document design for Reading Is Fundamental.</p>" href="/articles/rif-element-collages/" class="phark phark-link" style="background-image: url(/articles/rif-element-collages/home-thumb.jpg);">Element Collages</a>
+    				</li>
+                    
     		        <li class="home-round-item position4">
     				    <a data-tooltip-content="<h1>Reading Is Fundamental Kickoff</h1><p>The first chapter in the public story of a new site for Reading Is Fundamental.</p>" href="/articles/rif-kickoff/" class="phark phark-link" style="background-image: url(/articles/rif-kickoff/home-thumb.jpg);">Reading Is Fundamental Kickoff</a>
     				</li>
