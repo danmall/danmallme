@@ -14,7 +14,7 @@
 	</script>
     
     <!-- Facebook -->
-    <meta property="og:image" content="fb.jpg" />
+    <meta property="og:image" content="http://danielmall.com/articles/leaving-four24/fb.jpg" />
     <meta property="og:title" content="Leaving Four24" />
     <meta property="og:description"content="After just over 10 years, I&rsquo;ve decided to leave my band."/>	
     
