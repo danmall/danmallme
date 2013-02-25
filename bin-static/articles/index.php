@@ -37,6 +37,19 @@
             	</ol><?php '/.pagination' */ ?>
             	
             	<ol class="articles no-marker">
+
+                    <li>
+                        <article>
+                            <header>
+                                <h1><a href="/articles/value-pricing/">Value Pricing</a></h1>
+                            </header>
+                            <p>Prepping for the next episode of The Businessology Show.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/value-pricing/"><time datetime="2013-02-25T07:21:00">Feb 25, 2013</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/value-pricing/#disqus_thread" data-disqus-identifier="value-pricing"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>                  
+                    </li>
                     
             	    <li>
             	        <article>

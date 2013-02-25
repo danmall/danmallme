@@ -1,0 +1,6 @@
+#value-pricing p, #value-pricing li, #value-pricing h1 { font-family: "adobe-caslon-pro"; }
+#value-pricing p, #value-pricing li { font-size: 20px; }
+#value-pricing a { border: none; text-decoration: underline; }
+#value-pricing a:hover, #value-pricing a:focus { border: none; }
+
+#value-pricing .cap { margin-right: -7px; }

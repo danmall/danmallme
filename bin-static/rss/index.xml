@@ -11,14 +11,21 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2013</dc:rights>
-    <pubDate>Fri, 17 Feb 2013 20:41:00 GMT</pubDate>
+    <pubDate>Mon, 25 Feb 2013 07:16:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Value Pricing</title>
+        <description>Prepping for the next episode of The Businessology Show.</description>
+        <link>http://danielmall.com/articles/value-pricing/</link>
+        <guid>http://danielmall.com/articles/value-pricing/</guid>
+        <pubDate>Mon, 25 Feb 2013 07:16:00 GMT</pubDate>
+    </item>
     <item>
         <title>Leaving Four24</title>
         <description>After just over 10 years, I&rsquo;ve decided to leave my band.</description>
         <link>http://danielmall.com/articles/leaving-four24/</link>
         <guid>http://danielmall.com/articles/leaving-four24/</guid>
-        <pubDate>Fri, 17 Feb 2013 20:41:00 GMT</pubDate>
+        <pubDate>Sun, 17 Feb 2013 20:41:00 GMT</pubDate>
     </item>
     <item>
         <title>The 2012 SuperFriendly Annual Report</title>
