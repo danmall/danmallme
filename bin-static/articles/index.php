@@ -41,6 +41,18 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/ideas-of-march-2013/">The Ideas of March</a></h1>
+                            </header>
+                            <p>The lack of blogging about the lack of blogging.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/ideas-of-march-2013/"><time datetime="2013-03-31T11:05:00">Mar 31, 2013</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/ideas-of-march-2013/#disqus_thread" data-disqus-identifier="ideas-of-march-2013"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>                  
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/value-pricing/">Value Pricing</a></h1>
                             </header>
                             <p>Prepping for the next episode of The Businessology Show.</p>
