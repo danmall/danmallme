@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2013</dc:rights>
-    <pubDate>Mon, 25 Feb 2013 07:16:00 GMT</pubDate>
+    <pubDate>Wed, 19 Jun 2013 20:18:51 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>SVG Workflow for Designers</title>
+        <description>Create quick vector assets with really small file sizes.</description>
+        <link>http://danielmall.com/articles/svg-workflow-for-designers/</link>
+        <guid>http://danielmall.com/articles/svg-workflow-for-designers/</guid>
+        <pubDate>Wed, 19 Jun 2013 20:18:51 GMT</pubDate>
+    </item>
     <item>
         <title>The Ideas of March</title>
         <description>The lack of blogging about the lack of blogging.</description>

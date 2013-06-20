@@ -1,0 +1,23 @@
+#article-area-wrap { background: #fff; }
+
+#svg-workflow-for-designers { margin: 0 auto; width: 637px; padding: 30px 0; }
+	#svg-workflow-for-designers p, #svg-workflow-for-designers li { color: #585858; font: 18px/1.7 Arial, sans-serif; }
+
+	#svg-workflow-for-designers h1 { text-align: center; color: #585858; font: normal 61px Arial, sans-serif; margin: 0 0 0.5em; }
+		#svg-workflow-for-designers h1 strong { display: block; font-size: 300px; line-height: 1; }
+	#svg-workflow-for-designers h2 { font: bold 26px Arial, sans-serif; color: #585858; }
+
+	#svg-workflow-for-designers img { float: none; margin: 0 0 2em; }
+	
+	#svg-workflow-for-designers a { color: #ff6d01; border: none; text-decoration: none; }
+	#svg-workflow-for-designers a:hover, #svg-workflow-for-designers a:focus { background: #ff6d01; color: #fff; }
+
+	#svg-workflow-for-designers samp { color: #58c0f1; }
+
+	#svg-workflow-for-designers .sep { border: none; border-top: 1px solid #ccc; margin: 0 0 3em; }
+
+	#svg-workflow-for-designers .bibliography { border-bottom: none; padding-top: 2em; }
+		#svg-workflow-for-designers .bibliography p { font-size: 12px; }
+		
+#svg-workflow-for-designers ::selection { background: #585858; color: #fff; }
+#svg-workflow-for-designers ::-moz-selection { background: #585858; color: #fff; }

@@ -41,6 +41,18 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/svg-workflow-for-designers/">SVG Workflow for Designers</a></h1>
+                            </header>
+                            <p>Create quick vector assets with really small file sizes.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/svg-workflow-for-designers/"><time datetime="2013-06-19T20:18:51">Jun 19, 2013</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/isvg-workflow-for-designers/#disqus_thread" data-disqus-identifier="svg-workflow-for-designers"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>                  
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/ideas-of-march-2013/">The Ideas of March</a></h1>
                             </header>
                             <p>The lack of blogging about the lack of blogging.</p>

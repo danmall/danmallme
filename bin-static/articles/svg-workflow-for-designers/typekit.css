@@ -1,0 +1,14 @@
+#svg-workflow-for-designers p, #svg-workflow-for-designers li, #svg-workflow-for-designers h1, #svg-workflow-for-designers h2 { font-family: "omnes-pro"; }
+
+#svg-workflow-for-designers h1  { font-size: 64px; }
+	#svg-workflow-for-designers h1 strong { background: transparent url(svg.svg) no-repeat 0 0; width: 637px; height: 230px; text-indent: -9999px; }
+
+#svg-workflow-for-designers h2, #svg-workflow-for-designers strong { font-weight: 500; }
+
+#svg-workflow-for-designers p, #svg-workflow-for-designers li { font-size: 20px; }
+
+#svg-workflow-for-designers abbr { letter-spacing: 0.2em; }
+
+#svg-workflow-for-designers .bibliography p { font-size: 14px; }
+
+#svg-workflow-for-designers samp { font-family: "source-code-pro"; font-size: 18px; }
