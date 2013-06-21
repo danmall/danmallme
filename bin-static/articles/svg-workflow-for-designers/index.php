@@ -83,7 +83,7 @@
 
 			<img src="i/photoshop-save-for-web.png" alt="Save for Web in Photoshop" />
 
-			<hr class="sep" />
+			<hr id="compare-photoshop-illustrator" class="sep" />
 
 			<p><strong>Edit:</strong> in the comments below, <a href="#comment-937393158">Jamie Reynolds mentions</a> generating the <abbr>PNG</abbr> from Illustrator as opposed to Photoshop. However, I&rsquo;ve noticed a difference between the output; I find that Illustrator doesn&rsquo;t do as well as Photoshop does with the aliasing. Check out the bottom row of pixels here; Illustrator makes some poorer choices for clarity, hence my desire to add one more step to generate a better graphic.</p>
 
