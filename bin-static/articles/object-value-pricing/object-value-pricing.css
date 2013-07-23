@@ -7,6 +7,8 @@
 			#object-value-pricing h1 b { background: white; padding: 0 10px; }
 		#object-value-pricing h2 { font: bold 15px Helvetica, Arial, sans-serif; text-align: center; margin-bottom: 0.2em; }
 	
+	#object-value-pricing .translation { width: 642px; margin: 0 auto; border-bottom: 0; padding: 2em 0 3em; }
+		#object-value-pricing .translation p { font-size: 12px; }
 		
 #object-value-pricing ::selection { background: #c20000; color: #fff; }
 #object-value-pricing ::-moz-selection { background: #c20000; color: #fff; }

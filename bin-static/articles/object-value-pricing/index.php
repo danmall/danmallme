@@ -42,7 +42,11 @@
 				<li><a href="http://justcreative.com/2009/02/26/how-much-to-charge-for-design-work/">How much to charge for design work?</a>, by JUST&trade; Creative</li>
 				<li><a href="http://www.howdesign.com/design-business/pricing/hourly-rates/">Designers&rsquo; Hourly Rates: Are You Charging Enough</a>, by HOW Design</li>
 				<li><a href="http://www.teehanlax.com/blog/tiered-value-based-pricing/">Tiered value-based pricing</a>, by Teehan+Lax</li>
-			</ul>	
+			</ul>
+
+			<footer class="translation">
+				<p>This article has been graciously <a href="http://www.pkwteile.de/wissen/objekt-hodnota-cena">translated into Czech</a> by Andrey Fomin.</p>
+			</footer><!-- .translation -->	
 			
 	    </section><!-- #object-value-pricing -->	  	
 	    
