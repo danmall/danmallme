@@ -514,6 +514,14 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
         #smashingconf { background: transparent url(/i/screen/work/speaking/smashingconf.png) no-repeat 50% 30%; }
             #smashingconf .cta { position: absolute; width: 100%; height: 350px; left: 0; top: 0; }
 
+        #interlink2013 { background: #fcfcfc url(/i/screen/work/speaking/interlink2013.jpg) no-repeat 50% 0; }                    
+
+        #artifact2013 { background: #242525 url(/i/screen/work/speaking/artifact2013.png) no-repeat 50% 0; }                    
+
+        #fitctoronto2013 { background: #0d0c0a url(/i/screen/work/speaking/fitctoronto2013.jpg) no-repeat 50% 0; }                    
+
+        #rwdsummit { background: #fff url(/i/screen/work/speaking/rwdsummit.png) no-repeat 50% 50%; }                    
+
         #aiga-jax { background: transparent url(/i/screen/work/speaking/aiga-jax.gif) repeat 50% 50%; font-family: Helvetica, Arial, sans-serif; }
             #speaking #aiga-jax .inner { width: 100%; background: transparent url(/i/screen/work/speaking/aiga-jax-banner.gif) no-repeat 50% 50px; padding-top: 57px; top: 30px; }
             #aiga-jax article { width: 800px; margin: 0 auto; text-align: center; }

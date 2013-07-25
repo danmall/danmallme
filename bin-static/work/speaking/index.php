@@ -73,6 +73,46 @@
         </div><!-- .event-type -->
 	       
 	    <ol class="no-marker">
+            <li class="work-row vevent" id="interlink2013">
+                <div class="inner">
+                    <article class="offscreen">
+                        <hgroup>
+                            <h1 class="org">Interlink Conference 2013</h1>
+                            <p class="region">Vancouver, Canada</p>
+                        </hgroup>
+                    </article>
+                </div>
+            </li><!-- #interlink2013 -->
+            <li class="work-row vevent" id="artifact2013">
+                <div class="inner">
+                    <article class="offscreen">
+                        <hgroup>
+                            <h1 class="org">Artifact Conference</h1>
+                            <abbr class="dtstart" title="2013-05-13">May 13&ndash;15, 2013</abbr></h2>
+                            <p><span class="locality">Austin</span>, <span class="region">TX</span></p>
+                        </hgroup>
+                    </article>
+                </div>
+            </li><!-- #artifact2013 -->
+            <li class="work-row vevent" id="fitctoronto2013">
+                <div class="inner">
+                    <article class="offscreen">
+                        <hgroup>
+                            <h1 class="org">FITC Toronto 2013</h1>
+                        </hgroup>
+                    </article>
+                </div>
+            </li><!-- #fitctoronto2013 -->
+            <li class="work-row vevent" id="rwdsummit">
+                <div class="inner">
+                    <article class="offscreen">
+                        <hgroup>
+                            <h1 class="org">RWD Summit</h1>
+                            <h2>The 2nd Annual Online, Live Responsive Web Design Conference</h2>
+                        </hgroup>
+                    </article>
+                </div>
+            </li><!-- #rwdsummit -->
 	        <li class="work-row vevent" id="aiga-jax">
 	            <div class="inner">
     	            <article>
