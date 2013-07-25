@@ -3,7 +3,7 @@
 <head>
     <title>Dan Mall&rsquo;s Speaking and Teaching History</title>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/meta.php"); echo "\n"; ?>
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/cssReference.php"); echo "\n"; ?>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/cssReference.php"); echo "\n"; ?>    
     <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/jsReference.php"); echo "\n"; ?>
 </head>
 
@@ -31,6 +31,46 @@
     </div><!-- .wrap -->
 	
 	<section id="content">
+
+        <div class="event-type">
+            <h1 class="event-type-heading upcoming-events phark">Upcoming Events</h1>
+        </div><!-- .event-type -->
+
+        <ol class="no-marker">
+            <li class="work-row vevent" id="smashingconf">
+                <div class="inner">
+                    <article>
+                        <p class="org"><a class="cta phark" href="http://smashingconf.com/">Smashing Conference</a></p>
+
+                        <div class="offscreen">
+                            <h2><abbr class="dtstart" title="2013-09-09T09:00:00">9 September 2013</abbr></h2>                            
+
+                            <h3>Conference</h3>
+                            <p>Responsive Web Design is Hard/Easy! Be Afraid/Don&rsquo;t Worry!</p>
+
+                            <h3>Workshop</h3>
+                            <p>Just My Type: Be the typographer you were born to be</p>
+                        </div><!-- .offscreen -->
+                    </article>
+                </div>
+            </li><!-- #aiga-jax -->
+            <li class="work-row vevent" id="digitalbizsummit">
+                <div class="inner">
+                    <article>
+                        <hgroup>
+                            <h1 class="summary"><a class="phark cta" href="http://digitalbizsummit.com/">Digital Biz Summit</a></h1>
+                            <h2 class="offscreen">The 1st Annual Online, Live Digital Business Conference</h2>                            
+                        </hgroup>
+                        <p><abbr class="dtstart" title="2013-08-20T09:00:00">August 20, 2013</abbr>&ndash;Use code &ldquo;20DAN&rdquo; for 20% off</p>
+                    </article>
+                </div>
+            </li><!-- #webdesignday2012 -->    
+        </ol><!-- .no-marker -->
+
+
+        <div class="event-type">
+            <h1 class="event-type-heading past-events phark">Past Events</h1>
+        </div><!-- .event-type -->
 	       
 	    <ol class="no-marker">
 	        <li class="work-row vevent" id="aiga-jax">

@@ -111,7 +111,8 @@ http://www.danielmall.com/
 #work #tooltip { position: absolute; z-index: 3000; border: none; background: rgba(38, 34, 35, 0.9); padding: 1.5em 15px 1em; width: auto; max-width: 200px; }
     .work-tooltip { display: block; color: #fff; margin: 0 0 0.1em; line-height: 1.1; }
 
-
+ol + .sticky-wrapper { margin-top: -2em; }
+.stuck { position: fixed; top: 0; left: 0; }
 
 /*-------------------------------------------    
     Work Tabs

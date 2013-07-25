@@ -33,6 +33,10 @@
     
     <!-- Twitter @Anywhere -->
     <script src="http://platform.twitter.com/anywhere.js?id=4iWhtL6v6OPwuUzs5BWGRA&amp;v=1"></script>
+
+    <!-- jQuery Waypoints: http://imakewebthings.com/jquery-waypoints/shortcuts/sticky-elements/ -->
+    <script src="/j/libs/waypoints.min.2.0.2.js"></script>
+    <script src="/j/libs/waypoints-sticky.min.js"></script>
     
     <!-- Custom Functions -->
     <script src="/j/danielmall.v3.js?v=20121207093509"></script>

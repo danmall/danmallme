@@ -208,6 +208,10 @@ $(document).ready(function() {
             });
         
         },
+
+        initEventTypeWaypoint: function(){
+            $('.event-type').waypoint('sticky');
+        },
         
         
         /*-------------------------------------------    
@@ -326,6 +330,7 @@ $(document).ready(function() {
     dmall.fadeInTitle();
     dmall.initProjectNavTooltip();
     dmall.initWorkTabs();
+    dmall.initEventTypeWaypoint();
     
     // CONTACT
     dmall.allEars();
