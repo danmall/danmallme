@@ -36,7 +36,18 @@
             <h1 class="event-type-heading upcoming-events phark">Upcoming Events</h1>
         </div><!-- .event-type -->
 
-        <ol class="no-marker">
+        <ol class="no-marker">            
+            <li class="work-row vevent" id="digitalbizsummit">
+                <div class="inner">
+                    <article>
+                        <hgroup>
+                            <h1 class="summary"><a class="phark cta" href="http://digitalbizsummit.com/">Digital Biz Summit</a></h1>
+                            <h2 class="offscreen">The 1st Annual Online, Live Digital Business Conference</h2>                            
+                        </hgroup>
+                        <p><abbr class="dtstart" title="2013-08-20T09:00:00">August 20, 2013</abbr>&ndash;Use code &ldquo;20DAN&rdquo; for 20% off</p>
+                    </article>
+                </div>
+            </li><!-- #digitalbizsummit -->    
             <li class="work-row vevent" id="smashingconf">
                 <div class="inner">
                     <article>
@@ -53,18 +64,7 @@
                         </div><!-- .offscreen -->
                     </article>
                 </div>
-            </li><!-- #aiga-jax -->
-            <li class="work-row vevent" id="digitalbizsummit">
-                <div class="inner">
-                    <article>
-                        <hgroup>
-                            <h1 class="summary"><a class="phark cta" href="http://digitalbizsummit.com/">Digital Biz Summit</a></h1>
-                            <h2 class="offscreen">The 1st Annual Online, Live Digital Business Conference</h2>                            
-                        </hgroup>
-                        <p><abbr class="dtstart" title="2013-08-20T09:00:00">August 20, 2013</abbr>&ndash;Use code &ldquo;20DAN&rdquo; for 20% off</p>
-                    </article>
-                </div>
-            </li><!-- #webdesignday2012 -->    
+            </li><!-- #smashingconf -->
         </ol><!-- .no-marker -->
 
 
@@ -129,7 +129,7 @@
         	                <h1 class="summary">Atlanta Web Design Group</h1>
 	        	                <h2><abbr class="dtstart" title="2012-07-26T19:00:00">July 26 2012</abbr></h2>
 	    	            </hgroup>
-    	                <p><a class="cta phark" href="http://www.awdg.org/events/64063082/">More info/</a></p>
+    	                <?php /* ?><p><a class="cta phark" href="http://www.awdg.org/events/64063082/">More info/</a></p><?php */ ?>
     	            </article>
     	        </div>
 	        </li><!-- #awdg -->			

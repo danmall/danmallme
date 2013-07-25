@@ -39,4 +39,4 @@
     <script src="/j/libs/waypoints-sticky.min.js"></script>
     
     <!-- Custom Functions -->
-    <script src="/j/danielmall.v3.js?v=20121207093509"></script>
+    <script src="/j/danielmall.v3.js?v=20130725051942"></script>
