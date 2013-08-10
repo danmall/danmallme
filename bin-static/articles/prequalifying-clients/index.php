@@ -32,13 +32,13 @@
 			
 			<h1 class="article-title">Prequalifying Clients</h1>
 			
-            <p>We did a <a href="#">Q&amp;A show</a> on <a href="http://businessologyshow.biz/">The Businessology Show</a> today, and a lot of the questions were about onboarding new clients and how to price them appropriately. I figured I&rsquo;d share a few things that SuperFriendly does when meeting a new client.</p>
+            <p>On our most recent <a href="http://businessologyshow.biz/wordpress/dan-and-jason-answer-listen-questions/">Q&amp;A episode</a> of <a href="http://businessologyshow.biz/">The Businessology Show</a>, a lot of the questions were about onboarding new clients and how to price them appropriately. I figured I&rsquo;d share a few things that SuperFriendly does when meeting a new client.</p>
 
             <p>Most of our new projects come through email, either cold from the one of our sites or through an introduction from a friend. Either way, we&rsquo;ll likely send a fairly generic email to get more information and set up a call to discuss.</p>
 
             <p>Before I get to the questions, there&rsquo;s 2 main things that are important here:</p>
 
-            <ol>
+            <ol class="disclaimers">
                 <li>If a potential client replies back with one word answers, it&rsquo;s a big warning sign that they&rsquo;ll be putting that same kind of minimal effort into a project. We&rsquo;ll still talk to them, but we approach that kind of client much more cautiously.</li>
 
                 <li>The literal answers to these questions are important, but equally as important is what the answers mean. What&rsquo;s engrained in the answers is your prospective client&rsquo;s thoughts on how valuable their project. They&rsquo;re giving you clues on how to price them. More on that in a bit.</li> 
@@ -46,7 +46,7 @@
 
             <p>Here are the topics we like to hit.</p> 
 
-            <section id="timeline" class="topic">
+            <section id="timeline" class="topic clearfix">
 
                 <h1>Timeline</h1>
 
@@ -57,12 +57,12 @@
                 </div><!-- .col1 -->
 
                 <div class="col2">
-                    <p>Look out for clients that make up fake deadlines. &ldquo;Our CEO wants it done by May&rdquo; isn&rsquo;t a real deadline, but &ldquo;we want this fantasy football app done 2 weeks before the season starts&rdquo; is. Bureaucracy certainly exists, but you decide whether you want to work within it.</p>
+                    <p>Look out for clients that make up fake deadlines. &ldquo;Our <abbr title="Chief Executive Officer">CEO</abbr> wants it done by May&rdquo; isn&rsquo;t a real deadline, but &ldquo;we want this fantasy football app done 2 weeks before the season starts&rdquo; is. Bureaucracy certainly exists, but you decide whether you want to work within it.</p>
                 </div><!-- .col2 -->
 
             </section><!-- #timeline -->    
 
-            <section id="existing-work" class="topic">
+            <section id="existing-work" class="topic clearfix">
 
                 <h1>Existing Work</h1>
 
@@ -79,7 +79,7 @@
             </section><!-- #existing-work -->
 
 
-            <section id="teams" class="topic">
+            <section id="teams" class="topic clearfix">
 
                 <h1>Teams</h1>
 
@@ -95,7 +95,7 @@
 
             </section><!-- #teams -->
 
-            <section id="investment" class="topic">
+            <section id="investment" class="topic clearfix">
 
                 <h1>Investment</h1>
 
@@ -111,7 +111,7 @@
 
             </section><!-- #investment -->
 
-            <section id="competition" class="topic">
+            <section id="competition" class="topic clearfix">
 
                 <h1>Competition</h1>
 
@@ -129,7 +129,7 @@
 
             </section><!-- #competition -->      
 
-            <section id="compensation" class="topic">
+            <section id="compensation" class="topic clearfix">
 
                 <h1>Compensation</h1>
 
@@ -151,7 +151,7 @@
 
             </section><!-- #compensation -->
 
-            <section id="scope" class="topic">
+            <section id="scope" class="topic clearfix">
 
                 <h1>Scope</h1>
 
@@ -168,7 +168,7 @@
             </section><!-- #scope -->
 
 
-            <section id="scope" class="topic">
+            <section id="misc" class="topic clearfix">
 
                 <h1><abbr title="Miscellaneous">Misc</abbr></h1>
 
@@ -182,7 +182,7 @@
                     <p>Also, last chance to make sure they&rsquo;re the type of client you&rsquo;d have a meal with.</p>
                 </div><!-- .col2 -->
 
-            </section><!-- #scope -->
+            </section><!-- #misc -->
 
             <p>What did I miss?  Do you ask your clients similar things? Anything to add? Share with the class in the comments!</p>
 
