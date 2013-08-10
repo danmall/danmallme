@@ -1,13 +1,13 @@
-#article-area-wrap { background: #fdfdfd; font: 24px/1.5 Georgia, 'Times New Roman', serif; padding: 85px 0 3em; }
+#article-area-wrap { background: #f4f4f4; font: 24px/1.5 Georgia, 'Times New Roman', serif; padding: 85px 0 3em; }
 
 #prequalifying-clients { margin: 0 auto; width: 95%; max-width: 800px; }
 
-    #prequalifying-clients h1 { font-size: 56px; color: #464646; }
+    #prequalifying-clients h1 { font-size: 56px; color: #464646; letter-spacing: -1px; }
     #prequalifying-clients p { font-size: 26px; color: #464646; }
 
     #prequalifying-clients a { color: #ab22a6; position: relative; border: none; }
-    #prequalifying-clients a:after { content: ""; display: block; width: 100%; position: absolute; bottom: -3px; border-bottom: 2px solid #ab22a6; opacity: 0; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; }
-    #prequalifying-clients a:hover:after { opacity: 1; bottom: 0; }
+    #prequalifying-clients a:after { content: ""; display: block; width: 100%; position: absolute; bottom: -3px; border-bottom: 2px solid #ab22a6; opacity: 0; transition: all 0.2s linear; -moz-transition: all 0.2s linear; -webkit-transition: all 0.2s linear; -o-transition: all 0.2s linear; transform: rotate(3deg); -ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); }
+    #prequalifying-clients a:hover:after { opacity: 1; bottom: 0; transform: rotate(0deg); -ms-transform: rotate(0deg); -webkit-transform: rotate(0deg);}
 
     #prequalifying-clients .disclaimers { margin-left: 25px; font-size: 21px; }
         #prequalifying-clients .disclaimers li { margin-bottom: 1em; color: #464646; }
@@ -15,10 +15,11 @@
     #prequalifying-clients .topic { border-top: 1px solid #dadada; padding: 1.5em 0; }
     #prequalifying-clients #timeline { border-top: 11px solid #585858; }
     #prequalifying-clients #misc { border-bottom: 5px solid #585858; margin-bottom: 2em; }
+        #prequalifying-clients #misc h1 abbr { font-size: 100%; letter-spacing: 0.2em; }
 
         #prequalifying-clients .topic h1 { font-weight: bold; font-size: 16px; text-transform: uppercase; letter-spacing: 0.2em; margin: 0 0 1em; }
         #prequalifying-clients .topic h2 { font: normal 22px/1.5 Georgia, 'Times New Roman', serif; margin: 0 0 1em; text-indent: -0.5em; }
-        #prequalifying-clients .topic p { font-size: 15px; }
+        #prequalifying-clients .topic p { font-size: 14px; }
        
         #prequalifying-clients .col1, #prequalifying-clients .col2 { float: left; width: 46%; }
         #prequalifying-clients .col1 { margin-right: 4%; }

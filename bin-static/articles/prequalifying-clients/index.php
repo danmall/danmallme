@@ -36,7 +36,7 @@
 
             <p>Most of our new projects come through email, either cold from the one of our sites or through an introduction from a friend. Either way, we&rsquo;ll likely send a fairly generic email to get more information and set up a call to discuss.</p>
 
-            <p>Before I get to the questions, there&rsquo;s 2 main things that are important here:</p>
+            <p>Before I get to the questions, there&rsquo;s two main things that are important here:</p>
 
             <ol class="disclaimers">
                 <li>If a potential client replies back with one word answers, it&rsquo;s a big warning sign that they&rsquo;ll be putting that same kind of minimal effort into a project. We&rsquo;ll still talk to them, but we approach that kind of client much more cautiously.</li>
@@ -53,7 +53,7 @@
                 <h2>&ldquo;What kind of timeframe are we looking at? Is there a certain event or date that is dependent on this site launching? On our end, the soonest availability we have to start this is in _________.&rdquo;</h2>
 
                 <div class="col1">
-                    <p>Time is a sign of value. A big part of what your clients pay for is your expertise and the availability for you to put it into practice for them. Clients that want something done right away should be willing to pay accordingly—read: a lot—for that service.</p>
+                    <p>Time is a sign of value. A big part of what your clients pay for is your expertise and the availability for you to put it into practice for them. Clients that want something done right away should be willing to pay accordingly&mdash;read: a lot&mdash;for that service.</p>
                 </div><!-- .col1 -->
 
                 <div class="col2">
@@ -86,7 +86,7 @@
                 <h2>&ldquo;What size is the project team on your end? Would it involve just you and us? Or would it be us and a whole team on your end?&rdquo;</h2>
 
                 <div class="col1">
-                    <p>Team size can tell you a lot about how much an organization values the project they&rsquo;re hiring you for. If the project will commandeer the entire marketing team&rsquo;s time for a whole year, that probably means it&rsquo;s really important to them. However, if it&rsquo;s something they&rsquo;re sticking the new guy on because he has nothing else to do, it&rsquo;s probably not a priority for the organization—and they&rsquo;re likely not going to be willing to spend a lot either.</p>
+                    <p>Team size can tell you a lot about how much an organization values the project they&rsquo;re hiring you for. If the project will commandeer the entire marketing team&rsquo;s time for a whole year, that probably means it&rsquo;s really important to them. However, if it&rsquo;s something they&rsquo;re sticking the new guy on because he has nothing else to do, it&rsquo;s probably not a priority for the organization&mdash;and they&rsquo;re likely not going to be willing to spend a lot either.</p>
                 </div><!-- .col1 -->
 
                 <div class="col2">
@@ -137,7 +137,7 @@
 
                 <div class="col1">
                     <p>The million dollar question. (Hopefully, literally!)</p>
-                    <p>If you&rsquo;re not asking about budget when you first talk to a prospective client, you&rsquo;re doing it wrong. All of these questions are about unearthing the value of a project, but this one is the most direct. Don&rsquo;t skip it.</p>
+                    <p>If you&rsquo;re not asking about budget when you first talk to a prospective client, you&rsquo;re doing it wrong. All of these questions are about unearthing <a href="/articles/value-pricing/">the value of a project</a>, but this one is the most direct. Don&rsquo;t skip it.</p>
                     <p>Lots of clients are uncomfortable answering questions about budget. When you ask, they&rsquo;ll often counter with something like, &ldquo;Well, we want to know how much you think it&rsquo;ll cost.&rdquo; Sometimes, it&rsquo;s because they honestly don&rsquo;t know. Most times though, it&rsquo;s because they have a number in mind and they&rsquo;re hoping you come in lower.</p>
                 </div><!-- .col1 -->
 
