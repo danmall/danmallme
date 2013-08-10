@@ -7,6 +7,7 @@
 
     #prequalifying-clients a { color: #ab22a6; position: relative; border: none; }
     #prequalifying-clients a:after { content: ""; display: block; width: 100%; position: absolute; bottom: -3px; border-bottom: 2px solid #ab22a6; opacity: 0; transition: all 0.2s linear; -moz-transition: all 0.2s linear; -webkit-transition: all 0.2s linear; -o-transition: all 0.2s linear; transform: rotate(3deg); -ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); }
+    #prequalifying-clients .topic a:after { border-bottom-width: 1px; }
     #prequalifying-clients a:hover:after { opacity: 1; bottom: 0; transform: rotate(0deg); -ms-transform: rotate(0deg); -webkit-transform: rotate(0deg);}
 
     #prequalifying-clients .disclaimers { margin-left: 25px; font-size: 21px; }

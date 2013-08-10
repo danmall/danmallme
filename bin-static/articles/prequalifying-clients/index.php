@@ -36,7 +36,7 @@
 
             <p>Most of our new projects come through email, either cold from the one of our sites or through an introduction from a friend. Either way, we&rsquo;ll likely send a fairly generic email to get more information and set up a call to discuss.</p>
 
-            <p>Before I get to the questions, there&rsquo;s two main things that are important here:</p>
+            <p>Before I get to the questions, there are two main things that are important here:</p>
 
             <ol class="disclaimers">
                 <li>If a potential client replies back with one word answers, it&rsquo;s a big warning sign that they&rsquo;ll be putting that same kind of minimal effort into a project. We&rsquo;ll still talk to them, but we approach that kind of client much more cautiously.</li>
@@ -69,11 +69,11 @@
                 <h2>&ldquo;Is there any work already started that we should know about? A new logo? Some rough designs or ideas for the site?&rdquo;</h2>
 
                 <div class="col1">
-                    <p>There are pros and cons to the answer here. Is there work started because the last agency just got fired? Are you picking up sloppy seconds? Finding this out early will help you to make an informed decision about working with the client, but also show you which steps to avoid. Tread lightly though; it&rsquo;s touchy to ask a new girlfriend about her exes, but you also want to about the likelihood of getting syphilis.</p>
+                    <p>There are pros and cons to the answer here. Is there work started because the last agency just got fired? Are you picking up sloppy seconds? Finding this out early will help you to make an informed decision about working with the client, but also show you which steps to avoid. Tread lightly though; it&rsquo;s touchy to ask a new girlfriend about her exes, but you also want to know about the likelihood of getting syphilis.</p>
                 </div><!-- .col1 -->
 
                 <div class="col2">
-                    <p>The answer isn&rsquo;t always bad though. Through this question, we&rsquo;ve often found that the client is already working with an amazing branding, motion graphics, or development shop that we&rsquo;ve been dying to collaborate with. This questions surfaces those kinds of opportunities and can make for better holistic work. Get a view of the client&rsquo;s entire ecosystem before proceeding.</p>
+                    <p>The answer isn&rsquo;t always bad though. Through this question, we&rsquo;ve often found that the client is already working with an amazing branding, motion graphics, or development shop that we&rsquo;ve been dying to collaborate with. This question surfaces those kinds of opportunities and can make for better holistic work. Get a view of the client&rsquo;s entire ecosystem before proceeding.</p>
                 </div><!-- .col2 -->
 
             </section><!-- #existing-work -->
@@ -119,11 +119,11 @@
 
                 <div class="col1">
                     <p>This is often an uncomfortable question to ask, but get used to it. If you can&rsquo;t be upfront and transparent with your clients, you&rsquo;re in for a rough ride anyway.</p>
-                    <p>It&rsquo;s nice to know who you&rsquo;re up against. Being informed about your competition isn&rsquo;t just a sales tactic; it helps you to better serve your clients. Lots of studios have a design style; wouldn&rsquo;t it help you to know that your client likes that style?</p>
+                    <p>It&rsquo;s nice to know who you&rsquo;re up against. Being informed about your competition isn&rsquo;t just a sales tactic; it helps you to better serve your clients. Lots of studios have a design style; wouldn&rsquo;t it help you to know that your client likes that style, especially if it&rsquo;s not your own?</p>
                 </div><!-- .col1 -->
 
                 <div class="col2">
-                    <p>Knowing the competitive landscape can also help you better assess your odds. If you&rsquo;re one out of 20 competitors, run! The odds aren&rsquo;t in your favor, or worse: your client doesn&rsquo;t know what they want or how to make decisions. We&rsquo;ve rarely entered situations where there were more than 3 studios pitching.</p>
+                    <p>Knowing the competitive landscape can also help you better assess your <a href="http://cognition.happycog.com/article/win-some-lose-some">chance of winning</a>. If you&rsquo;re one out of twenty competitors, run! The odds aren&rsquo;t in your favor, or worse: your client doesn&rsquo;t know what they want or how to make decisions. We&rsquo;ve rarely entered situations where there were more than three studios pitching.</p>
                     <p>Working with clients who want to work with you is the best. After all, doesn&rsquo;t everyone want to be wanted?</p>
                 </div><!-- .col2 -->
 
@@ -146,7 +146,7 @@
                     <p>You&rsquo;re looking for a gut reaction. You&rsquo;ll often hear something like, &ldquo;Oh, definitely not $500K.&rdquo; </p>
                     <p>You politely reply, &ldquo;Of course not! How do you feel about spending $50K?&rdquo;</p>
                     <p>They say, &ldquo;Yeah, if we can stick to about $50K, that&rsquo;d feel about right.&rdquo;</p>
-                    <p>Voil&agrave;: you&rsquo;ve got your project budget.</p>
+                    <p>Voil&agrave;: you&rsquo;ve got a starting point for your project budget.</p>
                 </div><!-- .col2 -->
 
             </section><!-- #compensation -->
@@ -162,7 +162,7 @@
                 </div><!-- .col1 -->
 
                 <div class="col2">
-                    <p>An additional benefit here is that it&rsquo;s a chance to discover what else they&rsquo;re looking for. We&rsquo;ve often heard about dreams of a more coherent social strategy that initially started as a website inquiry. Use this as an opportunity to offer some of your other services to make for a more fruitful and prolific relationship.</p>
+                    <p>An additional benefit here is that it&rsquo;s a chance to discover what else they&rsquo;re looking for. We&rsquo;ve often heard about dreams of a more coherent social strategy that initially started as a website inquiry. Use this as an opportunity to offer some of your other services&mdash;the classic upsell, but done ethically and appropriately&mdash;to make for a more fruitful and prolific relationship.</p>
                 </div><!-- .col2 -->
 
             </section><!-- #scope -->
