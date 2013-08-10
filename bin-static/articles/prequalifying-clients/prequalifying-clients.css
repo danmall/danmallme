@@ -1,0 +1,22 @@
+#article-area-wrap { background: #fdfdfd; font: 24px/1.5 Verdana, Arial, sans-serif; padding: 85px 0 3em; }
+
+#leaving-four24 { margin: 0 auto; width: 800px; }
+
+    #leaving-four24 h1 { font-weight: bold; font-size: 13px; text-transform: uppercase; }
+    #leaving-four24 p { font-size: 18px; }
+
+    #leaving-four24 .article-title { width: 791px; margin: 0 0 1em; height: 113px; background-image: url(leaving-four24.png); }
+
+    #leaving-four24 figure { margin: 0 0 1.5em; }
+        #leaving-four24 figcaption { font-size: 16px; color: #999; font-style: italic; }
+    
+    #leaving-four24 .half { margin: 0 0 1.5em; }
+        #leaving-four24 .half .col { float: left; width: 425px; }
+        #leaving-four24 .half .col-first { width: 375px; }
+	
+	#leaving-four24 a { color: #f3581a; border-bottom: none; }
+	#leaving-four24 a:hover, #leaving-four24 a:focus { color: #464646; }
+		
+		
+#leaving-four24 ::selection { background: #ff611b; color: #fff; }
+#leaving-four24 ::-moz-selection { background: #ff611b; color: #fff; }
