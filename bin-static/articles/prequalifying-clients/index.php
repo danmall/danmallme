@@ -15,9 +15,9 @@
     
     <!-- Facebook -->
     <meta property="og:title" content="Prequalifying Clients" />
-    <meta property="og:description"content="After just over 10 years, I&rsquo;ve decided to leave my band."/>	
-    <meta property="og:url" content="http://danielmall.com/articles/leaving-four24/" />
-    <meta property="og:image" content="http://danielmall.com/articles/leaving-four24/fb2.jpg" />
+    <meta property="og:description"content="Questions, answers, and hidden answers."/>	
+    <meta property="og:url" content="http://danielmall.com/articles/prequalifying-clients/" />
+    <meta property="og:image" content="http://danielmall.com/articles/prequalifying-clients/prequalifying-clients-fb.jpg" />
     
     
 </head>
