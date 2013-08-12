@@ -41,6 +41,18 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/prequalifying-clients/">Prequalifying Clients</a></h1>
+                            </header>
+                            <p>Questions, answers, and hidden answers.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/prequalifying-clients/"><time datetime="2013-08-12T07:07:26">Aug 12, 2013</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/prequalifying-clients/#disqus_thread" data-disqus-identifier="prequalifying-clients"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>                  
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/svg-workflow-for-designers/">SVG Workflow for Designers</a></h1>
                             </header>
                             <p>Create quick vector assets with really small file sizes.</p>
