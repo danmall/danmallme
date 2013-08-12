@@ -22,9 +22,18 @@
         #prequalifying-clients .topic h2 { font: normal 22px/1.5 Georgia, 'Times New Roman', serif; margin: 0 0 1em; text-indent: -0.5em; }
         #prequalifying-clients .topic p { font-size: 14px; }
        
-        #prequalifying-clients .col1, #prequalifying-clients .col2 { float: left; width: 46%; }
-        #prequalifying-clients .col1 { margin-right: 4%; }
+       @media screen and (min-width: 480px){
+            #prequalifying-clients .col1, #prequalifying-clients .col2 { float: left; width: 46%; }
+            #prequalifying-clients .col1 { margin-right: 4%; }
+
+            .move-along { display: block; position: absolute; left: -9999px; }
+            .teams-before:before, .scope-before:before { content: "the availability to respond as quickly as you\2019ll need her to? We\2019ve often had to request certain roles on the client end (like project managers or supporting designers) to make sure our work gets put to good use."; margin-bottom: 1.5em; display: block; }
+            .scope-before:before { content: "classic upsell, but done ethically and appropriately\2014to make for a more fruitful and prolific relationship."; }
+
+       }
+
+        
 		
 		
-#prequalifying-clients ::selection { background: #ff611b; color: #fff; }
-#prequalifying-clients ::-moz-selection { background: #ff611b; color: #fff; }
+#prequalifying-clients ::selection { background: #ab22a6; color: #fff; }
+#prequalifying-clients ::-moz-selection { background: #ab22a6; color: #fff; }
