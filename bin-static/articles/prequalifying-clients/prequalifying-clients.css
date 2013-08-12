@@ -21,6 +21,9 @@
         #prequalifying-clients .topic h1 { font-weight: bold; font-size: 16px; text-transform: uppercase; letter-spacing: 0.2em; margin: 0 0 1em; }
         #prequalifying-clients .topic h2 { font: normal 22px/1.5 Georgia, 'Times New Roman', serif; margin: 0 0 1em; text-indent: -0.5em; }
         #prequalifying-clients .topic p { font-size: 14px; }
+
+        #prequalifying-clients .bibliography { border-bottom: none; padding-bottom: 0; }
+            #prequalifying-clients .bibliography p { font-size: 15px; }
        
        @media screen and (min-width: 480px){
             #prequalifying-clients .col1, #prequalifying-clients .col2 { float: left; width: 46%; }

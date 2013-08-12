@@ -192,6 +192,10 @@
 
             <p>What did I miss?  Do you ask your clients similar things? Anything to add? Share with the class in the comments!</p>
 
+            <footer class="bibliography">
+                <p>Special thanks to <a href="http://mattecook.com/">Matt Cook</a> for his thoughts and contributions to this article.</p>
+            </footer><!-- .bibliography -->
+
 	    
 	    </section><!-- #prequalifying-clients -->	    
 	    
