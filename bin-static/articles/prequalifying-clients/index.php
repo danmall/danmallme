@@ -166,7 +166,7 @@
                 </div><!-- .col1 -->
 
                 <div class="col2">
-                    <p class="scope-before">Tying back to <a href="#timeline">timeline</a> a bit, this answer gives you a chance to gut check you&rsquo;re client too. Are they asking for 6 months&rsquo; worth of work but only giving you 6 weeks to do it? This can show you how much your potential client actually knows about the work they&rsquo;re asking for. It&rsquo;s either a way for you to demonstrate your value and expertise and steer the ship a bit more, or it&rsquo;s a very apparent warning sign that the expectations are misaligned and that you&rsquo;re headed for troubled waters.</p>
+                    <p class="scope-before">Tying back to <a href="#timeline">timeline</a> a bit, this answer gives you a chance to gut check your client too. Are they asking for 6 months&rsquo; worth of work but only giving you 6 weeks to do it? This can show you how much your potential client actually knows about the work they&rsquo;re asking for. It&rsquo;s either a way for you to demonstrate your value and expertise and steer the ship a bit more, or it&rsquo;s a very apparent warning sign that the expectations are misaligned and that you&rsquo;re headed for troubled waters.</p>
                 </div><!-- .col2 -->
 
             </section><!-- #scope -->
