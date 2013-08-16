@@ -14,26 +14,26 @@
 	<div class="wrap">
 	
     	<hgroup id="the-work">
-    	    <h1 class="phark">The Work</h1>
+    	    <h1 class="work-heading">The Work</h1>
     	    <h2>Care bears share. Do you run a conference or want to attend a workshop? <a href="/contact/">Get in touch</a> !</h2>
     	</hgroup>
 	    
-	     <nav id="work-subnav">	
-	            
+	     <nav class="tab-nav"> 
+                
             <ul class="no-marker">
-                <li id="work-portfolio"><a href="/work/">Portfolio</a></li>
-                <li id="work-speaking"><mark>Speaking &amp; Teaching</mark></li>
-                <li id="work-publications"><a href="/work/publications/">Publications</a></li>
+                <li class="tab-nav-item"><a href="/work/">Portfolio</a></li>
+                <li class="tab-nav-item"><mark>Speaking &amp; Teaching</mark></li>
+                <li class="tab-nav-item"><a href="/work/publications/">Publications</a></li>
             </ul>
             
-        </nav><!-- /#work-subnav -->
+        </nav><!-- .tab-nav -->
         
     </div><!-- .wrap -->
 	
 	<section id="content">
 
         <div class="event-type">
-            <h1 class="event-type-heading upcoming-events phark">Upcoming Events</h1>
+            <h1 class="event-type-heading upcoming-events">Upcoming Events</h1>
         </div><!-- .event-type -->
 
         <ol class="no-marker">            
@@ -69,7 +69,7 @@
 
 
         <div class="event-type">
-            <h1 class="event-type-heading past-events phark">Past Events</h1>
+            <h1 class="event-type-heading past-events">Past Events</h1>
         </div><!-- .event-type -->
 	       
 	    <ol class="no-marker">
