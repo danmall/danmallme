@@ -3,7 +3,7 @@
     <section id="masthead" role="banner">
         <header>
             <?php if($_SERVER['REQUEST_URI'] == '/') { ?>            
-            <h1 class="phark">Daniel Mall</h1>
+            <h1 class="phark logo logo-home">Daniel Mall</h1>
             <ul id="roles" class="no-marker">                
                 <li>Art Director</li>
                 <li>Designer</li>
@@ -17,7 +17,7 @@
                 <li>Husband</li>
             </ul>
             <?php } else { ?>
-            <h1><a class="phark phark-link" href="/">Daniel Mall</a></h1>
+            <h1 class="logo"><a class="phark phark-link" href="/">Daniel Mall</a></h1>
             <?php } ?>
         </header>
 

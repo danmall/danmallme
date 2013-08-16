@@ -120,10 +120,10 @@ header, footer, nav, section, article, mark, hgroup { display: block; }
 -------------------------------------------*/
 
 /* Phark Image Replacement - http://phark.typepad.com/phark/2003/08/accessible_imag.html */
-.phark, li[id^="year"] h2, #work-subnav a, #work-subnav mark, #work .breadcrumbs a, #fowd2010 li:first-child blockquote, #flashpitt2009 .rotator li:first-child blockquote, #project-nav a { display: block; text-indent: -9999px; background-position: 0 0; background-repeat: no-repeat; background-color: transparent; }
+.phark, #work .breadcrumbs a, #fowd2010 li:first-child blockquote, #flashpitt2009 .rotator li:first-child blockquote, #project-nav a { display: block; text-indent: -9999px; background-position: 0 0; background-repeat: no-repeat; background-color: transparent; }
 
 /* Trimming Outline in Firefox - http://snook.ca/archives/html_and_css/trimming_long_o  */
-/*\*/ .phark-link, #masthead nav a, #work-subnav a, #project-nav a { overflow: hidden; } /**/
+/*\*/ .phark-link, #project-nav a { overflow: hidden; } /**/
 
 /* Easy Clearing - http://www.positioniseverything.net/easyclearing.html */ 
 .clearfix:after, .easy-clearing:after, #tweets ul:after, #work-content:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
@@ -197,8 +197,14 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
     #home #masthead { height: 128px; z-index: 2000; }
         #masthead h1 { background: transparent url(/-/i/logo-bg-over2.png) no-repeat 0 0; width: 86px; height: 69px; position: absolute; top: -11px; left: -8px; z-index: 2000; }
         #home #masthead h1 { background-image: url(/-/i/home-logo2.png); width: 407px; height: 120px; top: 15px; left: -145px; }
-            #masthead h1 a { background: transparent url(/-/i/back-home.gif) no-repeat 80px 22px; width: 259px; height: 49px; position: absolute; top: 0; left: 0; border: none; opacity: 0; transition-timing-function: ease-out; -moz-transition-timing-function: ease-out; -webkit-transition-timing-function: ease-out; }
-            #masthead h1 a:hover, #masthead h1 a:focus { opacity: 1; background-position: 90px 22px; }
+            /*#masthead h1 a { background: transparent url(/-/i/back-home.gif) no-repeat 80px 22px; width: 259px; height: 49px; position: absolute; top: 0; left: 0; border: none; opacity: 0; transition-timing-function: ease-out; -moz-transition-timing-function: ease-out; -webkit-transition-timing-function: ease-out; }
+            #masthead h1 a:hover, #masthead h1 a:focus { opacity: 1; background-position: 90px 22px; }*/
+
+        .logo { position: relative; 
+            a { border: none; }
+            &:after { display: block; content: "Back to the Home Page"; font-family: $fontStack; font-size: 14px; color: #aaa; position: absolute; width: 22em; top: 21px; left: 83px; @include transition (all 0.5s ease-out); opacity: 0; }
+            &:hover:after { left: 93px; opacity: 1; }
+        }
     
     /*#masthead nav ul { width: 354px; height: 12px; background: transparent url(/-/i/nav3.gif) no-repeat 0 0; position: absolute; top: 13px; right: 0; z-index: 2; }
     #home #masthead nav ul { width: 417px; height: 14px; background-image: url(/-/i/home-nav2.png); top: 71px; }
@@ -218,7 +224,7 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
 
     .main-nav { float: right; position: relative; top: 9px; }
         .main-nav-item { float: left; margin: 0 0 0 3em;
-            a, mark { font-family: $fontStack; font-size: 14px; color: #000; border: none;
+            a, mark { font-family: $fontStack; font-size: 14px; color: $blackSubstitute; border: none;
                 &:hover { color: $navLinkHover; }
             }
             mark { color: $navLinkHover; }
@@ -286,7 +292,8 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
 /*-------------------------------------------    
     Work
 -------------------------------------------*/
-#the-work h1 { background-image: url(/-/i/the-work.gif); width: 668px; height: 106px; margin: 50px auto 10px; }
+.work-heading { text-align: center; font: 700 141px/1 $fontStack; color: $blackSubstitute; margin: 0; }
+/*#the-work h1 { background-image: url(/-/i/the-work.gif); width: 668px; height: 106px; margin: 50px auto 10px; }*/
 #the-work h2 { text-align: center; font-weight: normal; font-size: 12px; margin-bottom: 50px; } 
 
 #work-landing #content { border-top: 1px dotted #7f7f7f; position: relative; z-index: 2; }
@@ -390,7 +397,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
             .in-use li:before { content: ", "; position: relative; left: -0.2em; }
             .in-use li:first-child:before { content: ""; }
 
-    #work-subnav { width: 391px; height: 42px; position: relative; margin: 0 auto -1px; background: transparent url(/-/i/work-subnav2.png) no-repeat 0 0; z-index: 1; }
+    /*#work-subnav { width: 391px; height: 42px; position: relative; margin: 0 auto -1px; background: transparent url(/-/i/work-subnav2.png) no-repeat 0 0; z-index: 1; }
         #work-subnav li { position: absolute; top: 0; }
             #work-subnav a, #work-subnav mark { border: none; height: 42px; opacity: 0; background: transparent url(/-/i/work-subnav2.png) no-repeat 0 0; }
             #work-subnav mark { opacity: 1; }
@@ -403,7 +410,16 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
             #work-speaking mark { width: 180px; background-position: -93px -84px; }
         #work-publications { left: 277px; }
             #work-publications a { width: 114px; left: 0; background-position: -277px -42px; }
-            #work-publications mark { width: 114px; left: 0; background-position: -277px -84px; }
+            #work-publications mark { width: 114px; left: 0; background-position: -277px -84px; }*/
+
+    .tab-nav { text-align: center; margin: 0; 
+        ul { margin: 0; }
+    }
+        .tab-nav-item { display: inline-block; margin: 0; 
+            a, mark { font: normal 17px/1 $fontStack; color: $blackSubstitute; border: none; display: block; margin: 0; padding: 1em; border-radius: 5px; border-bottom-right-radius: 0; border-bottom-left-radius: 0; }
+            a:hover { color: $green; }
+            mark { background: $blackSubstitute; color: #fff; }
+        }
 
     #by-year { float: right; width: 650px; border: none; width: 100%; float: none; }
         .projects li { position: absolute; z-index: 3; }
@@ -425,15 +441,15 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
                 #year2009 { height: 375px; }
                 #year2007 { height: 170px; }
                 #year2006 { height: 160px; }
-                    li[id^="year"] h2 { width: 38px; height: 12px; position: absolute; top: 4px; left: 10px; }
-					#year2012 h2 { background-image: url(/-/i/2012.gif); }
+                    li[id^="year"] h2 { width: 38px; height: 12px; position: absolute; top: 4px; left: 10px; color: #cecdce; font: 14px/1 $fontStack; }
+					/*year2012 h2 { background-image: url(/-/i/2012.gif); }
                     #year2011 h2 { background-image: url(/-/i/2011.gif); }
                     #year2010 h2 { background-image: url(/-/i/2010.gif); }
                     #year2009 h2 { background-image: url(/-/i/2009.gif); }
                     #year2008 h2 { background-image: url(/-/i/2008.gif); }
                     #year2007 h2 { background-image: url(/-/i/2007.gif); }
                     #year2006 h2 { background-image: url(/-/i/2006.gif); }
-                    #year-misc h2 { background-image: url(/-/i/misc.gif); }
+                    #year-misc h2 { background-image: url(/-/i/misc.gif); }*/
                 
 #work .breadcrumbs { background: #999 url(/-/i/work/breadcrumbs-mask.png) no-repeat 0 0; width: 144px; height: 15px; margin: 0 auto 10px; position: relative; }
     #work .breadcrumbs ul { list-style: none; }
