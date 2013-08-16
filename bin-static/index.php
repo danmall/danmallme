@@ -1,17 +1,17 @@
-<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/functions.php"); echo "\n"; ?>
-<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/doctype.php"); echo "\n"; ?>
+<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
+<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>
     <title>Dan Mall  //  Creative Direction &bull; Art Direction &bull; Design &bull; Strategy</title>
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/meta.php"); echo "\n"; ?>
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/cssReference.php"); echo "\n"; ?>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php /* ?>
     <!-- Thanks, @rem: http://remysharp.com/2007/05/18/add-twitter-to-your-blog-step-by-step/ -->
     <script src="http://twitterjs.googlecode.com/svn/trunk/src/twitter.min.js"></script>
     <?php */ ?>
 
-    <script src="/j/libs/chirp.min.js"></script>
+    <script src="/-/j/libs/chirp.min.js"></script>
     
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/jsReference.php"); echo "\n"; ?>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReference.php"); echo "\n"; ?>
     
 </head>
 
@@ -19,7 +19,7 @@
     
     <img id="logo" src="/i/logo.png" alt="Dan Mall" />
 	
-	<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/header.php"); echo "\n"; ?>
+	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 	
 	<div id="content" class="easy-clearing">
 	    
@@ -31,31 +31,31 @@
 		
     			<ul class="no-marker">
     			    <li class="home-round-item position1">
-    				    <a data-tooltip-content="<h1>Crayola</h1><p>Free the &ldquo;what if.&ldquo;</p>" href="/work/crayola/" class="phark phark-link" style="background-image: url(/i/screen/home/crayola-thumb.jpg);">Crayola</a>
+    				    <a data-tooltip-content="<h1>Crayola</h1><p>Free the &ldquo;what if.&ldquo;</p>" href="/work/crayola/" class="phark phark-link" style="background-image: url(/-/i/home/crayola-thumb.jpg);">Crayola</a>
     				</li>
     			    <li class="home-round-item position1">
-    				    <a data-tooltip-content="<h1>Crayola</h1><p>Free the &ldquo;what if.&ldquo;</p>" href="/work/crayola/" class="phark phark-link" style="background-image: url(/i/screen/home/crayola-thumb.jpg);">Crayola</a>
+    				    <a data-tooltip-content="<h1>Crayola</h1><p>Free the &ldquo;what if.&ldquo;</p>" href="/work/crayola/" class="phark phark-link" style="background-image: url(/-/i/home/crayola-thumb.jpg);">Crayola</a>
     				</li>
     			    <li class="home-round-item position2">
-    				    <a data-tooltip-content="<h1>Star Wars</h1><p>Creating a universe for a universe.</p>" href="/work/star-wars/" class="phark phark-link" style="background-image: url(/i/screen/home/star-wars.jpg);">Star Wars</a>					
+    				    <a data-tooltip-content="<h1>Star Wars</h1><p>Creating a universe for a universe.</p>" href="/work/star-wars/" class="phark phark-link" style="background-image: url(/-/i/home/star-wars.jpg);">Star Wars</a>					
     			    <li class="home-round-item position3">
-    				    <a data-tooltip-content="<h1>Activate</h1><p>A turn for the better.</p>" href="/work/activate/" class="phark phark-link" style="background-image: url(/i/screen/home/activate2.jpg);">Activate</a>
+    				    <a data-tooltip-content="<h1>Activate</h1><p>A turn for the better.</p>" href="/work/activate/" class="phark phark-link" style="background-image: url(/-/i/home/activate2.jpg);">Activate</a>
     				</li>				
     				<li class="home-round-item position4">
-    				    <a data-tooltip-content="<h1>Morsel</h1><p>Your daily step toward better health.</p>" href="/work/morsel/" class="phark phark-link" style="background-image: url(/i/screen/home/morsel2.jpg);">Morsel</a>
+    				    <a data-tooltip-content="<h1>Morsel</h1><p>Your daily step toward better health.</p>" href="/work/morsel/" class="phark phark-link" style="background-image: url(/-/i/home/morsel2.jpg);">Morsel</a>
     				</li>
 					<?php /* ?>
     				<li class="home-round-item position3">
-    				    <a data-tooltip-content="<h1>Housing Works</h1><p>Housing prevents <abbr>AIDS</abbr>. Housing Saves Lives.</p>" href="/work/housing-works/" class="phark phark-link" style="background-image: url(/i/screen/home/housing-works.jpg);">Housing Works</a>
+    				    <a data-tooltip-content="<h1>Housing Works</h1><p>Housing prevents <abbr>AIDS</abbr>. Housing Saves Lives.</p>" href="/work/housing-works/" class="phark phark-link" style="background-image: url(/-/i/home/housing-works.jpg);">Housing Works</a>
     				</li>
     				<li class="home-round-item" style="left: 444px; top: 2px; z-index: 1;">
-    				    <a data-tooltip-content="<h1>healthymagination</h1><p>A shared commitment to better health. Together.</p>" href="/work/healthymagination/" class="phark phark-link" style="background-image: url(/i/screen/home/healthymagination3.png);">healthymagination</a>
+    				    <a data-tooltip-content="<h1>healthymagination</h1><p>A shared commitment to better health. Together.</p>" href="/work/healthymagination/" class="phark phark-link" style="background-image: url(/-/i/home/healthymagination3.png);">healthymagination</a>
     				</li>
     				<li class="home-round-item" style="left: 444px; top: 12px;">
-    				    <a href="/work/design-swap/" class="phark phark-link" style="background-image: url(/i/screen/home/design-swap.gif);">Design Swap</a>
+    				    <a href="/work/design-swap/" class="phark phark-link" style="background-image: url(/-/i/home/design-swap.gif);">Design Swap</a>
     				</li>    				
     				<li class="home-round-item position4">
-    				    <a data-tooltip-content="<h1>JetWaders</h1><p>Modern-day jelly shoes.</p>" href="/work/jetwaders/" class="phark phark-link" style="background-image: url(/i/screen/home/jetwaders.jpg);">JetWaders</a>
+    				    <a data-tooltip-content="<h1>JetWaders</h1><p>Modern-day jelly shoes.</p>" href="/work/jetwaders/" class="phark phark-link" style="background-image: url(/-/i/home/jetwaders.jpg);">JetWaders</a>
     				</li>	<?php */ ?>	
     				
     			</ul>
@@ -487,7 +487,7 @@
 	</div><!-- /#content -->
 	
 	
-	<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/footer.php"); echo "\n"; ?>
+	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/footer.php"); echo "\n"; ?>
     
 	
-<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/close.php"); echo "\n"; ?>
+<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/close.php"); echo "\n"; ?>
