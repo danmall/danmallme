@@ -120,7 +120,7 @@ header, footer, nav, section, article, mark, hgroup { display: block; }
 -------------------------------------------*/
 
 /* Phark Image Replacement - http://phark.typepad.com/phark/2003/08/accessible_imag.html */
-.phark, #masthead nav a, #masthead mark, li[id^="year"] h2, #work-subnav a, #work-subnav mark, #work .breadcrumbs a, #fowd2010 li:first-child blockquote, #flashpitt2009 .rotator li:first-child blockquote, #project-nav a { display: block; text-indent: -9999px; background-position: 0 0; background-repeat: no-repeat; background-color: transparent; }
+.phark, li[id^="year"] h2, #work-subnav a, #work-subnav mark, #work .breadcrumbs a, #fowd2010 li:first-child blockquote, #flashpitt2009 .rotator li:first-child blockquote, #project-nav a { display: block; text-indent: -9999px; background-position: 0 0; background-repeat: no-repeat; background-color: transparent; }
 
 /* Trimming Outline in Firefox - http://snook.ca/archives/html_and_css/trimming_long_o  */
 /*\*/ .phark-link, #masthead nav a, #work-subnav a, #project-nav a { overflow: hidden; } /**/
@@ -200,7 +200,7 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
             #masthead h1 a { background: transparent url(/-/i/back-home.gif) no-repeat 80px 22px; width: 259px; height: 49px; position: absolute; top: 0; left: 0; border: none; opacity: 0; transition-timing-function: ease-out; -moz-transition-timing-function: ease-out; -webkit-transition-timing-function: ease-out; }
             #masthead h1 a:hover, #masthead h1 a:focus { opacity: 1; background-position: 90px 22px; }
     
-    #masthead nav ul { width: 354px; height: 12px; background: transparent url(/-/i/nav3.gif) no-repeat 0 0; position: absolute; top: 13px; right: 0; z-index: 2; }
+    /*#masthead nav ul { width: 354px; height: 12px; background: transparent url(/-/i/nav3.gif) no-repeat 0 0; position: absolute; top: 13px; right: 0; z-index: 2; }
     #home #masthead nav ul { width: 417px; height: 14px; background-image: url(/-/i/home-nav2.png); top: 71px; }
         #masthead nav a, #masthead mark { border: none; height: 32px; position: absolute; top: -10px; opacity: 0; background-position: 10px 10px; }
         #home #masthead nav a { height: 34px; background-position: 10px 10px; top: -10px; }
@@ -214,7 +214,19 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
         #nav-about a, #nav-about mark { background-image: url(/-/i/nav-about2.gif); width: 60px; left: 218px; }
         #home #nav-about a { background-image: url(/-/i/home-nav-about2.gif); width: 71px; left: 254px; }
         #nav-contact a, #nav-contact mark { background-image: url(/-/i/nav-contact2.gif); width: 69px; left: 293px; }
-        #home #nav-contact a { background-image: url(/-/i/home-nav-contact2.gif); width: 84px; left: 339px; }
+        #home #nav-contact a { background-image: url(/-/i/home-nav-contact2.gif); width: 84px; left: 339px; }*/
+
+    .main-nav { float: right; position: relative; top: 9px; }
+        .main-nav-item { float: left; margin: 0 0 0 3em;
+            a, mark { font-family: $fontStack; font-size: 14px; color: #000; border: none;
+                &:hover { color: $navLinkHover; }
+            }
+            mark { color: $navLinkHover; }
+        }
+    #home {
+        .main-nav { top: 68px; }
+            .main-nav-item a { font-size: 17px; }
+    }
     
 .wrap, .wrap800 { width: 800px; margin: 0 auto; }
 
@@ -245,10 +257,13 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
     .home-row .inner { width: 800px; margin: 0 auto; position: relative; }
     .home-row ul { margin: 0; }
     .home-row h1 { position: absolute; top: 30px; left: 0; width: 80px; height: 40px; }
-    #home #work h1 { background-image: url(/-/i/home-featured-work.png); }
+    /*#home #work h1 { background-image: url(/-/i/home-featured-work.png); }
     #home #latest-articles h1 { background-image: url(/-/i/home-latest-articles.png); }
     #home #links h1 { background-image: url(/-/i/home-links.png); }
-	#home #dribbble h1 { background-image: url(/-/i/home-from-dribbble.png); }
+	#home #dribbble h1 { background-image: url(/-/i/home-from-dribbble.png); }*/
+
+    .stacked-heading { font-family: $fontStack; font-size: 18px; color: #a6a6a6; line-height: 1; }
+
     .home-round-item { position: absolute; /*box-shadow: inset 0 0 10px #000000;*/ }
         .home-round-item a { width: 217px; height: 217px; -webkit-border-radius: 217px; -moz-border-radius: 217px; border-radius: 217px; transition: all 0.1s ease-in; -moz-transition: all 0.1s ease-in; -webkit-transition: all 0.1s ease-in; -o-transition: all 0.1s ease-in; transform-origin: 50% 50%; -moz-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; background-position: center center; border: none; /*-moz-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.5); -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.5); box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.5);*/ }
         .home-round-item a:hover, .home-round-item a:focus { width: 225px; height: 225px; border-radius: 225px; margin-left: -4px; margin-top: -4px; /*-moz-box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3); -webkit-box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3); box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3);*/ }

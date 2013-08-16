@@ -7,7 +7,7 @@
     
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>	
 	<script src="http://use.typekit.com/zwf7tzu.js"></script>
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReference.php"); echo "\n"; ?> 
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?> 
 	<script src="jquery.lettering.js"></script>
 	<script src="jquery.fittext.js"></script>
 	<link rel="stylesheet" href="authenticity.css" />

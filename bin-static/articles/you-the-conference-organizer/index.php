@@ -7,7 +7,7 @@
     
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
 	<script src="http://use.typekit.com/qft6akw.js"></script>
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReference.php"); echo "\n"; ?>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
 
 	<!-- http://labs.skinkers.com/touchSwipe/ -->
 	<script src="jquery.touchSwipe-1.2.4.js"></script>

@@ -16,4 +16,6 @@
     	</script>
     	<script src="http://platform.twitter.com/widgets.js"></script>
 
+        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceFooter.php"); echo "\n"; ?>
+
     </footer>

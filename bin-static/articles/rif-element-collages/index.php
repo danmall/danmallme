@@ -7,7 +7,7 @@
     
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>	
 	<script src="//use.typekit.net/vnx7msu.js"></script>
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReference.php"); echo "\n"; ?> 
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?> 
 	<link rel="stylesheet" href="rif-element-collages.css" />	
     
 </head>

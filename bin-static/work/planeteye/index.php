@@ -4,7 +4,7 @@
     <title>&ldquo;PlanetEye,&rdquo; work by Dan Mall</title>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReference.php"); echo "\n"; ?>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
         .page-title { background-image: url(planeteye.png); width: 568px; height: 96px; }
         .project-image { height: 686px; background: transparent url(planeteye-hero2.jpg) no-repeat center 0; margin-bottom: 0; margin-top: -20px; }

@@ -4,7 +4,7 @@
     <title>&ldquo;Crayola,&rdquo; work by Dan Mall</title>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReference.php"); echo "\n"; ?>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
 	<script src="jquery.sexyCycle.js"></script>
 	<link href="sexyCycle.css" rel="stylesheet" media="screen, projection" />
     <style>

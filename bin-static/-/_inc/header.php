@@ -21,43 +21,43 @@
             <?php } ?>
         </header>
 
-    	<nav id="nav">
+    	<nav class="main-nav">
         	<ul class="no-marker">
         	    <?php if(strstr($_SERVER['REQUEST_URI'], '/work/')) { ?>
         	        <?php if($_SERVER['REQUEST_URI'] == '/work/') { ?>  
-        	        <li id="nav-work"><mark>Work</mark></li>        	        
+        	        <li class="main-nav-item"><mark>Work</mark></li>        	        
         	        <?php } else { ?>
-        	        <li id="nav-work" class="current"><a href="/work/">Work</a></li>
+        	        <li class="main-nav-item" class="current"><a href="/work/">Work</a></li>
         	        <?php } ?>
         		<?php } else { ?>
-        		<li id="nav-work"><a href="/work/">Work</a></li>
+        		<li class="main-nav-item"><a href="/work/">Work</a></li>
         		<?php } ?>
         		
         		<?php if(strstr($_SERVER['REQUEST_URI'], '/articles/')) { ?>
         	        <?php if($_SERVER['REQUEST_URI'] == '/articles/') { ?>
-        		    <li id="nav-articles"><mark>Articles</mark></li>
+        		    <li class="main-nav-item"><mark>Articles</mark></li>
         		    <?php } else { ?>
-        		    <li id="nav-articles" class="current"><a href="/articles/">Articles</a></li>
+        		    <li class="main-nav-item" class="current"><a href="/articles/">Articles</a></li>
         		    <?php } ?>       		
         		<?php } else { ?>
-        		<li id="nav-articles"><a href="/articles/">Articles</a></li>
+        		<li class="main-nav-item"><a href="/articles/">Articles</a></li>
         		<?php } ?>        		
 
-        		<li id="nav-links"><a href="http://links.danielmall.com/">Links</a></li>
+        		<li class="main-nav-item"><a href="http://links.danielmall.com/">Links</a></li>
         		
         		<?php if($_SERVER['REQUEST_URI'] == '/about/') { ?>
-        		<li id="nav-about"><mark>About</mark></li>
+        		<li class="main-nav-item"><mark>About</mark></li>
         		<?php } else { ?>
-        		<li id="nav-about"><a href="/about/">About</a></li>
+        		<li class="main-nav-item"><a href="/about/">About</a></li>
         		<?php } ?>
         		
         		<?php if($_SERVER['REQUEST_URI'] == '/contact/') { ?>
-        		<li id="nav-contact"><mark>Contact</mark></li>
+        		<li class="main-nav-item"><mark>Contact</mark></li>
         		<?php } else { ?>
-        		<li id="nav-contact"><a href="/contact/">Contact</a></li>
+        		<li class="main-nav-item"><a href="/contact/">Contact</a></li>
         		<?php } ?>
         	</ul>
-        </nav><!-- #nav -->
+        </nav><!-- .main-nav -->
 
         <?php /* ?>
     	<form id="site-search" action="#" method="post">

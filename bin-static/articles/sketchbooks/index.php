@@ -7,7 +7,7 @@
     
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>	
 	<script src="http://use.typekit.com/gzt2xkd.js"></script>
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReference.php"); echo "\n"; ?>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
 	<script src="modernizr.custom.js"></script>
 	<script src="/-/j/libs/waypoints.min.js"></script>
     <link rel="stylesheet" href="sketchbooks.css" />		
