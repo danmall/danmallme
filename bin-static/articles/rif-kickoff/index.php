@@ -1,24 +1,24 @@
-<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/functions.php"); echo "\n"; ?>
-<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/doctype.php"); echo "\n"; ?>
+<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
+<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head profile="http://gmpg.org/xfn/11">
     <title>&ldquo;Reading Is Fundamental Kickoff,&rdquo; an article by Dan Mall</title>
     <meta name="description" content="Reading Is Fundamental Kickoff" />
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/meta.php"); echo "\n"; ?>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
     
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/cssReference.php"); echo "\n"; ?>	
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>	
 	<script src="//use.typekit.net/vnx7msu.js"></script>
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/jsReference.php"); echo "\n"; ?> 
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?> 
 	<link rel="stylesheet" href="rif-kickoff.css" />	
     
 </head>
 
 <body id="article" class="articles">	
 	
-	<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/header.php"); echo "\n"; ?>
+	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 	
 	<div id="article-area-wrap">
         
-        <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/rif-nav.php"); echo "\n"; ?>
+        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/rif-nav.php"); echo "\n"; ?>
 			
 	    <section id="rif-kickoff" class="clearfix">
             
@@ -250,7 +250,7 @@
 			
 	    </section><!-- #rif-kickoff -->	  
         
-        <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/rif-nav.php"); echo "\n"; ?>	
+        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/rif-nav.php"); echo "\n"; ?>	
 	    
 	</div><!-- /#article-area-wrap -->	
 	
@@ -302,7 +302,7 @@
     	        </section><!-- /#article-info -->
     	        
     	        
-    	        <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/carbon.php"); echo "\n"; ?>
+    	        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/carbon.php"); echo "\n"; ?>
 	        
 	        
     	    </div><!-- /.sub -->
@@ -316,10 +316,10 @@
 	
 	<div class="wrap">
     	
-    	<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/footer.php"); echo "\n"; ?>
+    	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/footer.php"); echo "\n"; ?>
     	
     	
     </div><!-- #wrap -->
     
 	
-<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/close.php"); echo "\n"; ?>
+<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/close.php"); echo "\n"; ?>

@@ -1,32 +1,32 @@
-<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/functions.php"); echo "\n"; ?>
-<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/doctype.php"); echo "\n"; ?>
+<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
+<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>
     <title>Work by Dan Mall</title>
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/meta.php"); echo "\n"; ?>
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/cssReference.php"); echo "\n"; ?>
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/jsReference.php"); echo "\n"; ?>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
 </head>
 
 <body id="work-landing" class="work">	
 	
-	<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/header.php"); echo "\n"; ?>
+	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 	
 	<div class="wrap">
 	
     	<hgroup id="the-work">
-    	    <h1 class="phark">The Work</h1>
+    	    <h1 class="work-heading">The Work</h1>
     	    <h2>A compendium of design work I&rsquo;m proud of. If you like what you see, <a href="/contact/">let me know</a> !</h2>
     	</hgroup>
 	    
-	     <nav id="work-subnav">	
+	     <nav class="tab-nav">	
 	            
             <ul class="no-marker">
-                <li id="work-portfolio"><mark>Portfolio</mark></li>
-                <li id="work-speaking"><a href="/work/speaking/">Speaking &amp; Teaching</a></li>
-                <li id="work-publications"><a href="/work/publications/">Publications</a></li>
+                <li class="tab-nav-item"><mark>Portfolio</mark></li>
+                <li class="tab-nav-item"><a href="/work/speaking/">Speaking &amp; Teaching</a></li>
+                <li class="tab-nav-item"><a href="/work/publications/">Publications</a></li>
             </ul>
             
-        </nav><!-- #work-subnav -->
+        </nav><!-- .tab-nav -->
         
 	
     	<section id="content" class="work-tabs-container">
@@ -1027,9 +1027,9 @@
     	</section><!-- #content -->
     	
     	
-    	<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/footer.php"); echo "\n"; ?>    	
+    	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/footer.php"); echo "\n"; ?>    	
     	
     </div><!-- .wrap -->
     
 	
-<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/close.php"); echo "\n"; ?>
+<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/close.php"); echo "\n"; ?>

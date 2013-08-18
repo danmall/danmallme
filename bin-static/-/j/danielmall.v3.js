@@ -12,7 +12,7 @@ http://danielmall.com/
 */
 
 
-$(document).ready(function() { 
+$(document).ready(function(){
     
     var dmall = {
     
@@ -26,7 +26,7 @@ $(document).ready(function() {
             var _delay = 250;
             var _animationSpeed = 1000;
             var _itemWidth = 225;
-            var _tweetWidth = 180;
+            //var _tweetWidth = 180;
             
             
             /*  ------ ANIMATION SEQUENCE: Wish I had SimpleSequencer here ------ */
@@ -46,7 +46,7 @@ $(document).ready(function() {
             // 4. animate in "Latest Articles" row items
             var _totalLatestArticles = $('body#home #latest-articles li').length;
             var _latestArticlesDelayOffset = _totalFeatured;
-            this.animateRoundElement(_delay, _animationSpeed, _totalLatestArticles, $('body#home #latest-articles li'), _latestArticlesDelayOffset, _itemWidth);            
+            this.animateRoundElement(_delay, _animationSpeed, _totalLatestArticles, $('body#home #latest-articles li'), _latestArticlesDelayOffset, _itemWidth);
 			
             // 5. fade In "Dribbble" row
             $('body#home #dribbble').delay(_delay*3).fadeTo(750, 1);
@@ -54,7 +54,7 @@ $(document).ready(function() {
             // 6. animate in "Dribbble" row items
             var _totalDribbble = $('body#home #dribbble li').length;
             var _dribbbleDelayOffset = _latestArticlesDelayOffset + 3;
-            this.animateRoundElement(_delay, _animationSpeed, _totalDribbble, $('body#home #dribbble li'), _dribbbleDelayOffset, _itemWidth);           
+            this.animateRoundElement(_delay, _animationSpeed, _totalDribbble, $('body#home #dribbble li'), _dribbbleDelayOffset, _itemWidth);
 			
             
             // 5. fade in "Tweets" row
@@ -66,14 +66,14 @@ $(document).ready(function() {
             for(var i = 0; i < $total; i++){
                 $($element).eq(i).find('.animation-container').delay($delay*(i + $offset + 1)).animate({width: $w + 'px', opacity: 1}, $animationSpeed, 'easeInOutCirc');
             }
-        },        
+        },
     
         homeTooltip: function(){
         
             $(".home-round-item a").tooltip({
-                bodyHandler: function() { 
-                    _tooltipText = $(this).attr('data-tooltip-content');
-                    return _tooltipText; 
+                bodyHandler: function(){
+                    var _tooltipText = $(this).attr('data-tooltip-content');
+                    return _tooltipText;
                 },
                 showURL: false,
                 track: true,
@@ -82,12 +82,12 @@ $(document).ready(function() {
         
         },
         
-        initRoles: function(){            
+        initRoles: function(){
                         
-            $('#roles').after('<div id="master-roles"></div><div id="master-roles-mask"></div>');            
+            $('#roles').after('<div id="master-roles"></div><div id="master-roles-mask"></div>');
             dmall.shuffleRoles();
             setInterval(function(){
-                dmall.shuffleRoles()
+                dmall.shuffleRoles();
                 }, 5000);
             
             
@@ -99,7 +99,7 @@ $(document).ready(function() {
                 var _totalRoles = $('#roles li').length;
                 var _randomPosition1 = Math.floor(Math.random()*_totalRoles);
                 var _randomPosition2 = Math.floor(Math.random()*_totalRoles);
-                if(_randomPosition1 == _randomPosition2){
+                if(_randomPosition1 === _randomPosition2){
                     _randomPosition2++;
                 }
 
@@ -124,9 +124,9 @@ $(document).ready(function() {
         initClientsRollOver: function(){
         
             var _animationSpeed1 = 400;
-            var _animationDelay = 200;
+            //var _animationDelay = 200;
             
-            $('#work-landing #clients h1').after('<div id="new-mask"></div>')
+            $('#work-landing #clients h1').after('<div id="new-mask"></div>');
             
             $('#work-landing #clients').mouseenter(function(){
             
@@ -150,7 +150,7 @@ $(document).ready(function() {
         
         animateWorkLandingElements: function(){
             
-            var _projectWidth = 200;
+            //var _projectWidth = 200;
             var _delay = 200;
             var _animationSpeed = 1100;
             var _totalProjects = $('#work-landing .projects li').length;
@@ -188,7 +188,7 @@ $(document).ready(function() {
             var likeButton = $('#facebook-like');
             var likeButtonWidth = likeButton.width();
             
-            likeButton.css('margin-left', (TOTAL_WIDTH - likeButtonWidth)/2 + 'px');            
+            likeButton.css('margin-left', (TOTAL_WIDTH - likeButtonWidth)/2 + 'px');
             
         },
         
@@ -197,10 +197,10 @@ $(document).ready(function() {
         initProjectNavTooltip: function(){
         
             $("#project-nav a").tooltip({
-                bodyHandler: function() { 
+                bodyHandler: function(){
                     //_tooltipText = $(this).attr('data-tooltip-content');
-                    _tooltipText = $(this).html();
-                    return '<span class="work-tooltip">' + _tooltipText + '</span>'; 
+                    var _tooltipText = $(this).html();
+                    return '<span class="work-tooltip">' + _tooltipText + '</span>';
                 },
                 showURL: false,
                 track: true,
@@ -231,7 +231,7 @@ $(document).ready(function() {
         validateContactForm: function(){
             
             $('#contact-form input, #contact-form textarea').blur(function(){
-                if($(this).val() != ''){
+                if($(this).val() !== ''){
                     $(this).removeClass('error');
                 }
             });
@@ -239,7 +239,7 @@ $(document).ready(function() {
             $('#contact-form').submit(function(){
                 var _atLeastOneIsEmpty = false;
                 $('#contact-form input[required], #contact-form select[required], #contact-form textarea[required]').each(function(){
-                    if($(this).attr('value') == ''){
+                    if($(this).attr('value') === ''){
                         $(this).addClass('error');
                         _atLeastOneIsEmpty = true;
                     }
@@ -257,11 +257,11 @@ $(document).ready(function() {
             Global Functions
         -------------------------------------------*/
         
-        initTwitterAnywhere: function(){
+        /*initTwitterAnywhere: function(){
             twttr.anywhere(function (T) {
                 T.hovercards();
               });
-        },
+        },*/
         
         
         /*-------------------------------------------    

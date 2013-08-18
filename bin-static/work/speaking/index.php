@@ -1,39 +1,39 @@
-<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/functions.php"); echo "\n"; ?>
-<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/doctype.php"); echo "\n"; ?>
+<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
+<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>
     <title>Dan Mall&rsquo;s Speaking and Teaching History</title>
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/meta.php"); echo "\n"; ?>
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/cssReference.php"); echo "\n"; ?>    
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/jsReference.php"); echo "\n"; ?>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>    
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
 </head>
 
 <body id="speaking" class="work">	
 	
-	<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/header.php"); echo "\n"; ?>
+	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 	
 	<div class="wrap">
 	
     	<hgroup id="the-work">
-    	    <h1 class="phark">The Work</h1>
+    	    <h1 class="work-heading">The Work</h1>
     	    <h2>Care bears share. Do you run a conference or want to attend a workshop? <a href="/contact/">Get in touch</a> !</h2>
     	</hgroup>
 	    
-	     <nav id="work-subnav">	
-	            
+	     <nav class="tab-nav"> 
+                
             <ul class="no-marker">
-                <li id="work-portfolio"><a href="/work/">Portfolio</a></li>
-                <li id="work-speaking"><mark>Speaking &amp; Teaching</mark></li>
-                <li id="work-publications"><a href="/work/publications/">Publications</a></li>
+                <li class="tab-nav-item"><a href="/work/">Portfolio</a></li>
+                <li class="tab-nav-item"><mark>Speaking &amp; Teaching</mark></li>
+                <li class="tab-nav-item"><a href="/work/publications/">Publications</a></li>
             </ul>
             
-        </nav><!-- /#work-subnav -->
+        </nav><!-- .tab-nav -->
         
     </div><!-- .wrap -->
 	
 	<section id="content">
 
         <div class="event-type">
-            <h1 class="event-type-heading upcoming-events phark">Upcoming Events</h1>
+            <h1 class="event-type-heading upcoming-events">Upcoming Events</h1>
         </div><!-- .event-type -->
 
         <ol class="no-marker">            
@@ -69,7 +69,7 @@
 
 
         <div class="event-type">
-            <h1 class="event-type-heading past-events phark">Past Events</h1>
+            <h1 class="event-type-heading past-events">Past Events</h1>
         </div><!-- .event-type -->
 	       
 	    <ol class="no-marker">
@@ -376,10 +376,10 @@
     
     <div class="wrap">	
     	
-    	<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/footer.php"); echo "\n"; ?>  
+    	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/footer.php"); echo "\n"; ?>  
     	
     	
     </div><!-- .wrap -->
     
 	
-<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/close.php"); echo "\n"; ?>
+<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/close.php"); echo "\n"; ?>
