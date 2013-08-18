@@ -651,7 +651,8 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
     Articles
 -------------------------------------------*/
 
-#article-landing hgroup h1 { background-image: url(/-/i/articles-headline.gif); width: 238px; height: 47px; margin: 20px 0 0.25em 40px; }
+/*#article-landing hgroup h1 { background-image: url(/-/i/articles-headline.gif); width: 238px; height: 47px; margin: 20px 0 0.25em 40px; }*/
+.article-heading { margin: 20px 0 0 40px; font: 60px $fontStack; color: $blackSubstitute; }
 #article-landing hgroup h2 { color: #bdbbbc; font-size: 21px; margin: 0 0 1em 40px; font-weight: normal; }
 
 #article-landing .main { float: right; min-height: 300px; }
@@ -747,10 +748,12 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
     Contact
 -------------------------------------------*/
 #contact-landing .main, #thanks-landing .main { width: 550px; border: none; border-right: 1px dotted #7f7f7f; padding: 0 30px 0 0; position: relative; }
-    #contact-landing .main header h1 { background-image: url(/-/i/contact-dan-headline.png); width: 488px; height: 63px; margin: 0 0 15px; }
+    /*#contact-landing .main header h1 { background-image: url(/-/i/contact-dan-headline.png); width: 488px; height: 63px; margin: 0 0 15px; }*/
+    .contact-heading { font: 84px $fontStack; margin: 0; }
     
 #contact-landing .sub, #thanks-landing .sub { width: 170px; padding: 0 0 0 30px; }
-    #contact-landing .sub header h1 { background-image: url(/-/i/find-me-elsewhere.png); width: 147px; height: 14px; margin: 25px 0 15px; }
+    /*#contact-landing .sub header h1 { background-image: url(/-/i/find-me-elsewhere.png); width: 147px; height: 14px; margin: 25px 0 15px; }*/
+    .sidebar-heading { font: 16px $fontStack; margin: 0; color: #888; margin: 0 0 0.85em; }
     #contact-landing .sub ul { margin: 0 0 3em; }
     #contact-landing .sub li { margin: 0 0 1em; }
         #contact-landing .sub li a { display: block; border: none; padding-left: 25px; min-height: 16px; font-style: italic; transition: all 0.25s ease-out; -moz-transition: all 0.25s ease-out; -webkit-transition: all 0.25s ease-out; -o-transition: all 0.25s ease-out; }

@@ -18,7 +18,7 @@
 	        <div class="main">
 
         	    <hgroup>
-            	    <h1 class="phark">Articles</h1>
+            	    <h1 class="article-heading">Articles</h1>
             	    <?php /* ><h2>Yes, I know there&rsquo;s only one article here. I just launched this site; <a href="http://www.youtube.com/watch?v=1V7c-jZ4wbg&amp;feature=related">gimme a break</a>.</h2><?php */ ?>
             	    <h2>Signed, sealed, delivered&hellip; I&rsquo;m yours!</h2>
             	</hgroup>

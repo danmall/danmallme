@@ -18,7 +18,7 @@
 	        <div class="main">
 
         	    <header>
-            	    <h1 class="phark">Contact Dan</h1>
+            	    <h1 class="contact-heading">Contact Me</h1>
             	</header>
             	
             	<p>I&rsquo;m all ears. Well, not <em>all</em> ears, because I&rsquo;d probably look something like <a id="all-ears" href="http://www.insidefurniture.com/insidefurniture/images/2008/02/21/all_ears.jpg">this</a>. That would be strange.</p>
@@ -89,7 +89,7 @@
                 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/carbon.php"); echo "\n"; ?>
                 
                 <header>
-                    <h1 class="phark">Find me elsewhere online</h1>
+                    <h1 class="sidebar-heading">Find me elsewhere</h1>
                 </header>
                 
                 <ul class="no-marker">

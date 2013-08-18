@@ -15,19 +15,19 @@
 	<div class="wrap">
 	
     	<hgroup id="the-work">
-    	    <h1 class="phark">The Work</h1>
+    	    <h1 class="work-heading">The Work</h1>
     	    <h2>An article is worth a thousand&hellip; dollars. Want me to write something for your publication? <a href="/contact/">Drop me a line</a> !</h2>
     	</hgroup>
 	    
-	     <nav id="work-subnav">	
-	            
+	     <nav class="tab-nav"> 
+                
             <ul class="no-marker">
-                <li id="work-portfolio"><a href="/work/">Portfolio</a></li>
-                <li id="work-speaking"><a href="/work/speaking/">Speaking &amp; Teaching</a></li>
-                <li id="work-publications"><mark>Publications</mark></li>
+                <li class="tab-nav-item"><a href="/work/">Portfolio</a></li>
+                <li class="tab-nav-item"><a href="/work/speaking/">Speaking &amp; Teaching</a></li>
+                <li class="tab-nav-item"><mark>Publications</mark></li>
             </ul>
             
-        </nav><!-- #work-subnav -->
+        </nav><!-- .tab-nav -->
         
     </div><!-- .wrap -->
 	
