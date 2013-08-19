@@ -9,13 +9,17 @@
 	
 		#work-area-wrap { background: black; margin-top: -30px; padding-top: 30px; }
 	
-        .page-title { background-image: url(star-wars2.png); width: 521px; height: 84px; background-color: black; }		
+        /*.page-title { background-image: url(star-wars2.png); width: 521px; height: 84px; background-color: black; }*/
+        .page-title { color: #fff; font-size: 110px; }
+        .page-title .char7 { margin-left: -7px; }
 		#project-header hgroup { top: 4px; }  
-		#project-nav { background-image: url(project-nav.png); opacity: 1; }
+		/*#project-nav { background-image: url(project-nav.png); opacity: 1; }
         #project-nav .prev, #project-nav .next { background-image: url(project-nav.png); }
 		
 		#work .breadcrumbs { background: #666 url(breadcrumbs-mask.png) no-repeat 0 0; }
-	            #work #breadcrumbs-home a, #work #breadcrumbs-work a  { background-image: url(breadcrumbs-mask.png); }		
+	            #work #breadcrumbs-home a, #work #breadcrumbs-work a  { background-image: url(breadcrumbs-mask.png); }*/
+
+        .breadcrumbs li:after { color: #666; }
 
         .project-image { height: 2126px; background: transparent url(star-wars-hero2.jpg) no-repeat center 0; margin-bottom: 0; }
         .project-url { left: -116px; top: 62px; }
@@ -56,7 +60,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">Star Wars</h1>
+        	        <h1 class="page-title">Star Wars</h1>
         	        <h2 class="project-subtitle">Creating a universe for a universe</h2>        	    
         	    </hgroup>
 

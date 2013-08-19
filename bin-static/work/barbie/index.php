@@ -7,7 +7,8 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
 
-        .page-title { background-image: url(barbie.png); width: 413px; height: 102px; }
+        /*.page-title { background-image: url(barbie.png); width: 413px; height: 102px; }*/
+        .page-title { font-size: 120px; }
         #project-header hgroup { top: -3px; margin-bottom: 10px; }  
 
         .project-image { height: 774px; background: transparent url(barbie-hero.jpg) no-repeat center 0; }
@@ -32,7 +33,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">Barbie</h1>
+        	        <h1 class="page-title">Barbie</h1>
         	        <h2 class="project-subtitle">Imagine Anything</h2>    	    
         	    </hgroup>
 

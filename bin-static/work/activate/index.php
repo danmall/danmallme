@@ -6,8 +6,15 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
-        .page-title { background-image: url(activate.png); width: 474px; height: 88px; }
-        #project-header hgroup { top: 12px; }  
+        /*.page-title { background-image: url(activate.png); width: 474px; height: 88px; }*/
+        .page-title { font-size: 120px; margin: 0; }
+        .page-title .char2 { margin-left: -2px; }
+        .page-title .char4 { margin-left: 1px; }
+        .page-title .char5 { margin-left: -4px; }
+        .page-title .char6 { margin-left: -3px; }
+        .page-title .char7 { margin-left: -3px; }
+        .page-title .char8 { margin-left: -2px; }
+        #project-header hgroup { top: 5px; }  
 
         .project-image { height: 730px; background: transparent url(activate-hero.jpg) no-repeat center 0; margin-bottom: 0; }
         .project-url { left: -36px; top: 34px; }
@@ -39,7 +46,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">Activate</h1>
+        	        <h1 class="page-title">Activate</h1>
         	        <h2 class="project-subtitle">A Turn for the Better</h2>        	    
         	    </hgroup>
 
