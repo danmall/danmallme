@@ -8,8 +8,11 @@
 	<script src="jquery.sexyCycle.js"></script>
 	<link href="sexyCycle.css" rel="stylesheet" media="screen, projection" />
     <style>
-        .page-title { background-image: url(crayola.png); width: 398px; height: 92px; }
-        #project-header hgroup { top: 12px; }  
+        /*.page-title { background-image: url(crayola.png); width: 398px; height: 92px; }*/
+        .page-title .char2 { margin-left: 2px; }
+        .page-title .char3 { margin-left: -1px; }
+        .page-title .char4 { margin-left: -2px; }
+        .page-title .char5 { margin-left: -4px; }
 
         .project-image { height: 1551px; background: transparent url(crayola-hero.jpg) no-repeat 50% 0; margin-bottom: 0; }
         .project-url { left: 146px; top: 34px; }
@@ -27,17 +30,21 @@
 			
 			#components img { float: none; margin-left: 0; margin-right: 0; }
 				#box0:hover { cursor: url(sexycycle-cursor.png), auto; }
-			#components h1 { background-image: url(components.png); }
+			/*#components h1 { background-image: url(components.png); }*/
+			.components { font-size: 44px; position: relative; top: -8px; }
 			
 			#ia-ux { padding-bottom: 1150px; background: transparent url(ia.jpg) no-repeat 50% bottom; }
-				#ia-ux h1 { background-image: url(ia-ux.png); }
+				/*#ia-ux h1 { background-image: url(ia-ux.png); }*/
+				.ia-ux { font-size: 70px; position: relative; top: -20px; }
 				
 			#telling-stories { border-top: 1px dotted #7f7f7f; padding: 2em 0 930px; position: relative; margin-bottom: -50px; background: transparent url(tagging-hierarchy.jpg) no-repeat 50% bottom; }
-				#telling-stories h1 { background-image: url(telling-stories.png); width: 800px; margin: 20px auto 0; background-position: 50% 0; height: 124px; }			
+				/*#telling-stories h1 { background-image: url(telling-stories.png); width: 800px; margin: 20px auto 0; background-position: 50% 0; height: 124px; }*/			
+				.telling-stories { text-align: center; font-size: 110px; margin: 0; }
 				#telling-stories p { font-size: 15px; width: 800px; margin: 0 auto; }
 			
 			#responsive { /*border-top: 1px dotted #7f7f7f; */padding: 2em 0 650px; position: relative; margin-bottom: -50px; }
-				#responsive h1 { background-image: url(responsive.png); width: 800px; margin: 1em auto 0; background-position: 50% 0; height: 65px; }
+				/*#responsive h1 { background-image: url(responsive.png); width: 800px; margin: 1em auto 0; background-position: 50% 0; height: 65px; }*/
+				.responsive { font-size: 50px; width: 800px !important; margin: 0 auto -0.5em; }
 				#responsive .combo { width: 800px; margin: 0 auto; }
 					#responsive .combo p { /*width: 560px;*/ margin: 0; }
 				#responsive #tag { border-top: 1px solid #ddd; position: relative; top: 456px; }
@@ -53,12 +60,14 @@
 				}
 			
 			#doodads { position: relative; padding-bottom: 280px; border-top: none;}
-				#doodads h1 { background-image: url(doodads.png); }
+				/*#doodads h1 { background-image: url(doodads.png); }*/
+				.doodads { font-size: 60px; margin: 0; position: relative; top: -20px; }
 				#doodads p { position: relative; z-index: 2; }
 				#doodads img { position: absolute; bottom: 20px; left: -40px; z-index: 1; }
 			
 			#i3 { background: transparent url(i3-widget.png) no-repeat 50% 90%; padding-bottom: 140px; }
-				#i3 h1 { background-image: url(i3.png); }			
+				/*#i3 h1 { background-image: url(i3.png); }*/
+				.i3 { font-size: 32px; position: relative; top: -10px; }
 				#i3 #i3-roles { background-image: url(roles.png); width: 341px; height: 242px; position: absolute; left: 160px; top: 137px; opacity: 0; z-index: 10; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; }
 				#i3 #i3-activities { background-image: url(activities.png); width: 431px; height: 418px; position: absolute; left: 367px; top: 77px; opacity: 0; z-index: 10; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; }
 				#i3 #i3-roles:hover,  #i3 #i3-activities:hover { opacity: 1; }
@@ -100,7 +109,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">Crayola</h1>
+        	        <h1 class="page-title">Crayola</h1>
         	        <h2 class="project-subtitle">Free the &ldquo;What If&rdquo;</h2>        	    
         	    </hgroup>
 
@@ -139,7 +148,7 @@
 				
 				<div class="combo clearfix">
 
-					<h1 class="phark">Components</h1>				
+					<h1 class="stag components">Components</h1>				
 					
 					<p>With thousands and thousands of pages on the Crayola site, it wasn&rsquo;t efficient to wireframe every single page and state. We created a system of components that could be assembled in different configurations to accommodate the unique content needed for each type of page. Paper prototyping to the rescue!</p>
 					
@@ -172,7 +181,7 @@
 				
 				<div class="combo confined clearfix">
 				
-					<h1 class="phark">IA &amp; UX</h1>
+					<h1 class="stag ia-ux">IA &amp; UX</h1>
 				
 					<p>Wrangling the amount of content on the site was no trivial pursuit. We created highly detailed information architecture and user experience documentation that served as our bible for the project. If anything ever got hazy along the way, our trusty <abbr title="User Experience">UX</abbr> binder held the answers to put us back on track.</p>
 					
@@ -182,7 +191,7 @@
 			
 			<section id="telling-stories">
 				
-				<h1 class="phark">Telling Stories</h1>
+				<h1 class="telling-stories stag">Telling Stories</h1>
 				
 				<p>Tagging structures are complex beasts. After many a wireframe and phone calls, I just wasn&rsquo;t doing a great job explaining how a relational taxonomy should work across the site. We went back to the drawing to simplify the way we were explaining the concept and came up with a simple storybook format. The name of our lovely tale was, &ldquo;Once Upon a Tagging Hierarchy.&rdquo; It forced us to simplify the things we were trying to say, everybody finally understood what we were talking about, and we all walked off happily into the sunset. </p>
 				
@@ -192,7 +201,7 @@
 				
 				<div class="combo confined">
 					
-					<h1 class="phark">A wonderfully responsive design</h1>
+					<h1 class="responsive stag">A wonderfully responsive design</h1>
 
 					<p>Although we initially scoped a separate &ldquo;mobile phase,&rdquo; we quickly switched gears and opted for a responsive design after an inventory of all of our content. It was important that most of the content remain intact across devices and screen sizes, so responsive design was a great approach for the new site. On top of the layout adjustments, we built in a few capability-specific enhancements, like collapsing elements on smaller devices and prev/next buttons for carousels on touch devices. Keen!</p>
 				
@@ -211,7 +220,7 @@
 				
 				<div class="combo">
 					
-					<h1 class="phark">Doodads</h1>
+					<h1 class="doodads stag">Doodads</h1>
 				
 					<p>What better way to show how great Crayola&rsquo;s products and ideas are than to show what real kids have made with them? Each page features a randomized assortment of authentic kids&rsquo; drawings&mdash;affectionately called &ldquo;doodads&rdquo;&mdash;for your very own viewing pleasure.</p>
 					
@@ -225,7 +234,7 @@
 				
 				<div class="combo confined" style="position: relative;">
 				
-					<h1 class="phark">Ideas in an Instant</h1>
+					<h1 class="i3 stag">Ideas in an Instant</h1>
 				
 					<p>Because of Crayola&rsquo;s commitment to being a great resource for parents and educators, one of my favorite content ideas for the site was Ideas in an Instant. Users can quickly select from a list of a few choices to get immediate inspiration for what to do with their kids from anywhere on the site.</p>
 					

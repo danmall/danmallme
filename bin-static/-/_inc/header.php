@@ -27,7 +27,7 @@
         	        <?php if($_SERVER['REQUEST_URI'] == '/work/') { ?>  
         	        <li class="main-nav-item"><mark>Work</mark></li>        	        
         	        <?php } else { ?>
-        	        <li class="main-nav-item" class="current"><a href="/work/">Work</a></li>
+        	        <li class="main-nav-item current"><a href="/work/">Work</a></li>
         	        <?php } ?>
         		<?php } else { ?>
         		<li class="main-nav-item"><a href="/work/">Work</a></li>
@@ -37,7 +37,7 @@
         	        <?php if($_SERVER['REQUEST_URI'] == '/articles/') { ?>
         		    <li class="main-nav-item"><mark>Articles</mark></li>
         		    <?php } else { ?>
-        		    <li class="main-nav-item" class="current"><a href="/articles/">Articles</a></li>
+        		    <li class="main-nav-item current"><a href="/articles/">Articles</a></li>
         		    <?php } ?>       		
         		<?php } else { ?>
         		<li class="main-nav-item"><a href="/articles/">Articles</a></li>

@@ -262,6 +262,12 @@ $(document).ready(function(){
                 T.hovercards();
               });
         },*/
+
+        initLettering: function(){
+
+            $('.work-heading, #work .page-title').lettering();
+
+        },
         
         
         /*-------------------------------------------    
@@ -341,6 +347,7 @@ $(document).ready(function(){
     
     // GLOBAL
     //dmall.initTwitterAnywhere();
+    dmall.initLettering();
     
     
 });

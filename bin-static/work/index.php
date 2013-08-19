@@ -46,17 +46,22 @@
 		    <section id="by-year" class="main">
 		        
 		        <ul class="no-marker">
+                    <li id="year2013">
+                        <h2>2013</h2>
+                        <p class="superfriendly-push">For new work, see the <a href="http://superfriend.ly/">SuperFriendly</a> site</p>
+                    </li>
 		            <li id="year2012">
 		                <h2>2012</h2>
 		                <ul class="projects">
-		                    <li style="top: -5px; left: 138px;"><a href="/work/crayola/"><b class="new-work">New </b>Crayola</a></li>
-		                    <li style="top: 0; left: 330px;"><a href="/work/barbie/"><b class="new-work">New </b>Barbie</a></li>
+		                    <?php /* ?><li style="top: -5px; left: 138px;"><a href="/work/crayola/"><b class="new-work">New </b>Crayola</a></li><?php */ ?>
+                            <li style="top: -5px; left: 138px;"><a href="/work/crayola/">Crayola</a></li>
+		                    <li style="top: 0; left: 330px;"><a href="/work/barbie/">Barbie</a></li>
 		                </ul>
 		            </li>					
 		            <li id="year2011">
 		                <h2>2011</h2>
 		                <ul class="projects">
-							<li style="top: 0; left: 50px;"><a href="/work/star-wars/"><b class="new-work">New </b>Star Wars</a></li>
+							<li style="top: 0; left: 50px;"><a href="/work/star-wars/">Star Wars</a></li>
 		                    <li style="top: 20px; left: 218px;"><a href="/work/activate/">Activate</a></li>
 		                    <li style="top: -55px; left: 360px;"><a href="/work/coupon-craze/">Coupon Craze</a></li>
 		                    <li style="top: 28px; left: 511px;"><a href="/work/extra/">Extra 30-Day <span style="white-space: nowrap;">Snackdown Challenge</span></a></li>

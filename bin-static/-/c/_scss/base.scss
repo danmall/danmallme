@@ -120,7 +120,7 @@ header, footer, nav, section, article, mark, hgroup { display: block; }
 -------------------------------------------*/
 
 /* Phark Image Replacement - http://phark.typepad.com/phark/2003/08/accessible_imag.html */
-.phark, #work .breadcrumbs a, #fowd2010 li:first-child blockquote, #flashpitt2009 .rotator li:first-child blockquote, #project-nav a { display: block; text-indent: -9999px; background-position: 0 0; background-repeat: no-repeat; background-color: transparent; }
+.phark, #fowd2010 li:first-child blockquote, #flashpitt2009 .rotator li:first-child blockquote, #project-nav a { display: block; text-indent: -9999px; background-position: 0 0; background-repeat: no-repeat; background-color: transparent; }
 
 /* Trimming Outline in Firefox - http://snook.ca/archives/html_and_css/trimming_long_o  */
 /*\*/ .phark-link, #project-nav a { overflow: hidden; } /**/
@@ -138,6 +138,8 @@ header, footer, nav, section, article, mark, hgroup { display: block; }
 /*-------------------------------------------    
     Reusable Elements
 -------------------------------------------*/
+.stag { font-family: $fontStack; }
+
 .main { width: 560px; float: right; border-left: 1px dotted #7f7f7f; }
 
 ol.articles { border-top: 1px dotted #7f7f7f; }
@@ -222,7 +224,9 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
         #nav-contact a, #nav-contact mark { background-image: url(/-/i/nav-contact2.gif); width: 69px; left: 293px; }
         #home #nav-contact a { background-image: url(/-/i/home-nav-contact2.gif); width: 84px; left: 339px; }*/
 
-    .main-nav { float: right; position: relative; top: 9px; }
+    .main-nav { float: right; position: relative; top: 9px; 
+        .current a { color: $navLinkHover; }
+    }
         .main-nav-item { float: left; margin: 0 0 0 3em;
             a, mark { font-family: $fontStack; font-size: 14px; color: $blackSubstitute; border: none;
                 &:hover { color: $navLinkHover; }
@@ -292,7 +296,11 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
 /*-------------------------------------------    
     Work
 -------------------------------------------*/
-.work-heading { text-align: center; font: 700 141px/1 $fontStack; color: $blackSubstitute; margin: 0; }
+.work-heading { text-align: center; font: 700 141px/1 $fontStack; color: $blackSubstitute; margin: 0; 
+    .char6 { margin-left: -11px; }
+    .char7 { margin-left: -2px; }
+    .char8 { margin-left: -5px; }
+}
 /*#the-work h1 { background-image: url(/-/i/the-work.gif); width: 668px; height: 106px; margin: 50px auto 10px; }*/
 #the-work h2 { text-align: center; font-weight: normal; font-size: 12px; margin-bottom: 50px; } 
 
@@ -436,6 +444,10 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
             #clients ul > li { padding-left: 10px; text-indent: -10px; }
             li[id^="year"] { height: 200px; border-bottom: 1px dotted #7f7f7f; position: relative; }
             li[id^="year"]:last-child { border-bottom: none; }
+                #year2013 { height: 180px; 
+                    h2 { top: 15px; }
+                }
+                    .superfriendly-push { text-align: center; position: relative; top: 3.5em; font: bold 20px 'Trebuchet MS', Arial, sans-serif; }
 				#year2012 { height: 180px; }
                 #year2010 { height: 300px; }
                 #year2009 { height: 375px; }
@@ -451,7 +463,7 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
                     #year2006 h2 { background-image: url(/-/i/2006.gif); }
                     #year-misc h2 { background-image: url(/-/i/misc.gif); }*/
                 
-#work .breadcrumbs { background: #999 url(/-/i/work/breadcrumbs-mask.png) no-repeat 0 0; width: 144px; height: 15px; margin: 0 auto 10px; position: relative; }
+/*#work .breadcrumbs { background: #999 url(/-/i/work/breadcrumbs-mask.png) no-repeat 0 0; width: 144px; height: 15px; margin: 0 auto 10px; position: relative; }
     #work .breadcrumbs ul { list-style: none; }
         #work .breadcrumbs li { position: absolute; top: 0; }
             #work .breadcrumbs a { border: none; height: 15px; width: 52px; opacity: 0; }
@@ -459,11 +471,23 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
         #breadcrumbs-home { left: 0; }
             #work #breadcrumbs-home a { background-image: url(/-/i/work/breadcrumbs-mask.png); background-color: #73ae08; }
         #breadcrumbs-work { left: 79px; }
-            #work #breadcrumbs-work a { background-image: url(/-/i/work/breadcrumbs-mask.png); background-color: #73ae08; background-position: -79px 0; }
+            #work #breadcrumbs-work a { background-image: url(/-/i/work/breadcrumbs-mask.png); background-color: #73ae08; background-position: -79px 0; }*/
+
+    .breadcrumbs { text-align: center; margin: 0; 
+        ul { margin: 0; }
+            li { display: inline-block; font-family: $fontStack;
+                &:after { content: '\00bb'; font-size: 24px; margin: 0 10px; color: #ccc; }
+            }
+                a { font-size: 24px; color: #aaa; border: none; 
+                    &:hover, &:focus { color: $green; }
+                }
+    }
     
     #work-area hgroup { text-align: center; margin: 0 0 2em; }
-        #work-area hgroup h1 { margin: 0 auto 0.3em; }
-        #work-area hgroup h2 { margin: 0 0 0.2em; }
+        /*#work-area hgroup h1 { margin: 0 auto 0.3em; }
+        #work-area hgroup h2 { margin: 0 0 0.2em; }*/
+
+        .page-title { color: $blackSubstitute; font: 100px $fontStack; letter-spacing: -1px; margin: 0 auto 0.2em; }
         
         #work-area-wrap #pullquote, #work-area-wrap #awards { width: 800px; border-bottom: 1px dotted #7f7f7f; }
             #work-area-wrap #awards { position: relative; left: 1px; }
