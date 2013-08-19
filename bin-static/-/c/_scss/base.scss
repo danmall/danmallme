@@ -26,7 +26,7 @@ http://www.danielmall.com/
     
     Z-INDEX
     
-    2000        #home #masthead
+    2000        #home #masthead, .main-nav
     5           .event-type
     4           .projects li:hover
     3           .browser-chrome-wrap #project-url
@@ -224,7 +224,7 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
         #nav-contact a, #nav-contact mark { background-image: url(/-/i/nav-contact2.gif); width: 69px; left: 293px; }
         #home #nav-contact a { background-image: url(/-/i/home-nav-contact2.gif); width: 84px; left: 339px; }*/
 
-    .main-nav { float: right; position: relative; top: 9px; 
+    .main-nav { float: right; position: relative; top: 9px; z-index: 2000;
         .current a { color: $navLinkHover; }
     }
         .main-nav-item { float: left; margin: 0 0 0 3em;
@@ -719,8 +719,8 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
     About
 -------------------------------------------*/
 #about-landing #intro { padding: 165px 0 2em 305px; padding: 130px 0 2em 350px; padding-top: 0; border-bottom: 7px solid #231f20; /*background: transparent url(/-/i/about/dan-headshot2.png) no-repeat 40px 0*/; margin: -50px 0 2px; position: relative; margin: -85px 0 2px; }
-#about-landing #intro h1 { font-size: 92px; margin: 0.9em 0 -0.25em -50px; letter-spacing: -1px; }
-#about-landing #intro h1:before { content: ""; display: block; position: absolute; bottom: 0; left: -90px; background: transparent url(/-/i/about/dan-headshot3.png) no-repeat 0 0; width: 840px; height: 431px; }
+#about-landing #intro h1 { font-size: 92px; margin: 0.9em 0 -0.25em -50px; letter-spacing: -1px; z-index: 2; }
+#about-landing #intro h1:before { content: ""; display: block; position: absolute; bottom: 0; left: -90px; background: transparent url(/-/i/about/dan-headshot3.png) no-repeat 0 0; width: 840px; height: 431px; z-index: 1; }
     /*#about-landing #intro h1 { background-image: url(/-/i/about/dan-headshot2.png); width: 472px; height: 69px; width: 840px; height: 431px; position: absolute; bottom: 0; left: -90px; margin: 0; z-index: 1; }*/
     #about-landing #intro p { font-size: 15px; color: #231f20; line-height: 1.7; padding-right: 10px; position: relative; top: 10px; z-index: 5; }
         #about-landing #intro cite.credit { font-size: 13px; color: #b0b0b0; }
