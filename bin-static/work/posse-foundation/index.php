@@ -6,7 +6,12 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
-        .page-title { background-image: url(posse-foundation.png); width: 661px; height: 47px; }
+        /*.page-title { background-image: url(posse-foundation.png); width: 661px; height: 47px; }*/
+        .page-title { font-size: 64px; }
+        .page-title .char12 { margin-left: -4px; }
+        .page-title .char13 { margin-left: -1px; }
+        .page-title .char17 { margin-left: -2px; }
+        .page-title .char18 { margin-left: 1px; }
         #project-header hgroup { top: 18px; }
 
         .project-image { height: 694px; background: transparent url(posse-foundation-hero.jpg) no-repeat center 0; margin-bottom: 0; }
@@ -32,7 +37,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">The Posse Foundation</h1>
+        	        <h1 class="page-title">The Posse Foundation</h1>
         	        <h2 class="project-subtitle">Changing the face of leadership in America</h2>	    
         	    </hgroup>
 

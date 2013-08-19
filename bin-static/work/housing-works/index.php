@@ -6,8 +6,11 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
-        .page-title { background-image: url(housing-works.png); width: 580px; height: 73px; }
-        #project-header hgroup { top: 15px; }
+        /*.page-title { background-image: url(housing-works.png); width: 580px; height: 73px; }*/
+        .page-title { font-size: 80px; }
+        .page-title .char7 { margin-left: -2px; }
+        .page-title .char10 { margin-left: -6px; }
+        #project-header hgroup { top: 10px; }
 
         .project-image { height: 971px; background: transparent url(housing-works-hero.jpg) no-repeat center 0; margin-bottom: 0; }
         .project-url { left: 350px; top: 31px; }
@@ -31,7 +34,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">Housing Works</h1>
+        	        <h1 class="page-title">Housing Works</h1>
         	        <h2 class="project-subtitle">Housing Prevents AIDS. Housing Saves Lives. </h2>  	    
         	    </hgroup>
 

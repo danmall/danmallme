@@ -6,7 +6,11 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
-        .page-title { background-image: url(mica.png); width: 381px; height: 96px; }
+        /*.page-title { background-image: url(mica.png); width: 381px; height: 96px; }*/
+        .page-title { font-size: 140px; }
+        .page-title .char2 { margin-left: -6px; }
+        .page-title .char3 { margin-left: -12px; }
+        .page-title .char4 { margin-left: 0; }
 
         .project-image { height: 478px; background: transparent url(mica-hero.jpg) no-repeat center 0; margin-bottom: 0; }
         .project-url { left: 177px; top: 19px; font-size: 9px; }
@@ -36,7 +40,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">Maryland Institute College of Art</h1>
+        	        <h1 class="page-title lettering-ignore"><span class="char1">M</span><span class="offscreen">aryland</span> <span class="char2">I</span><span class="offscreen">nstitute</span> <span class="char3">C</span><span class="offscreen">ollege of </span><span class="char4">A</span><span class="offscreen">rt</span></h1>
         	        <h2 class="project-subtitle">An art school that shows art on its website. Imagine that!</h2>    	    
         	    </hgroup>
 

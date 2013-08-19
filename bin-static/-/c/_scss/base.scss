@@ -718,8 +718,10 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
 /*-------------------------------------------    
     About
 -------------------------------------------*/
-#about-landing #intro { padding: 165px 0 2em 305px; padding: 130px 0 2em 350px; border-bottom: 7px solid #231f20; /*background: transparent url(/-/i/about/dan-headshot2.png) no-repeat 40px 0*/; margin: -50px 0 2px; position: relative; margin: -20px 0 2px; }
-    #about-landing #intro h1 { background-image: url(/-/i/about/dan-headshot2.png); width: 472px; height: 69px; width: 840px; height: 431px; position: absolute; bottom: 0; left: -90px; margin: 0; z-index: 1; }
+#about-landing #intro { padding: 165px 0 2em 305px; padding: 130px 0 2em 350px; padding-top: 0; border-bottom: 7px solid #231f20; /*background: transparent url(/-/i/about/dan-headshot2.png) no-repeat 40px 0*/; margin: -50px 0 2px; position: relative; margin: -85px 0 2px; }
+#about-landing #intro h1 { font-size: 92px; margin: 0.9em 0 -0.25em -50px; letter-spacing: -1px; }
+#about-landing #intro h1:before { content: ""; display: block; position: absolute; bottom: 0; left: -90px; background: transparent url(/-/i/about/dan-headshot3.png) no-repeat 0 0; width: 840px; height: 431px; }
+    /*#about-landing #intro h1 { background-image: url(/-/i/about/dan-headshot2.png); width: 472px; height: 69px; width: 840px; height: 431px; position: absolute; bottom: 0; left: -90px; margin: 0; z-index: 1; }*/
     #about-landing #intro p { font-size: 15px; color: #231f20; line-height: 1.7; padding-right: 10px; position: relative; top: 10px; z-index: 5; }
         #about-landing #intro cite.credit { font-size: 13px; color: #b0b0b0; }
             #about-landing #intro cite.credit a { color: #b0b0b0; border-color: #ddd; }

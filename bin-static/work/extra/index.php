@@ -7,7 +7,8 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
 
-        .page-title { background-image: url(extra-snackdown-challenge.png); width: 618px; height: 43px; }
+        /*.page-title { background-image: url(extra-snackdown-challenge.png); width: 618px; height: 43px; }*/
+        .page-title { font-size: 48px; letter-spacing: 0; }
         #project-header hgroup { top: 28px; margin-bottom: 30px; }  
         .breadcrumbs { position: relative; top: 20px; }
 
@@ -33,7 +34,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">The Extra Snackdown Challenge</h1>
+        	        <h1 class="page-title">Extra Snackdown Challenge</h1>
         	        <h2 class="project-subtitle">Pick up a pack. Put down that snack.</h2>    	    
         	    </hgroup>
 

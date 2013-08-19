@@ -6,7 +6,10 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
-        .page-title { background-image: url(carlisle.png); width: 450px; height: 89px; }
+        /*.page-title { background-image: url(carlisle.png); width: 450px; height: 89px; }*/
+        .page-title { font-size: 106px; }
+        .page-title .char4 { margin-left: -3px; }
+        .page-title .char7 { margin-left: -2px; margin-right: -2px; }
         #project-header hgroup { top: 1px; }  
 
         .project-image { height: 1456px; background: transparent url(carlisle-hero.jpg) no-repeat center 0; margin-bottom: 0; }
@@ -31,7 +34,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">Carlisle Wide Plank Floors</h1>
+        	        <h1 class="page-title lettering-ignore">Car<span class="char4">l</span>is<span class="char7">l</span>e<span class="offscreen"> Wide Plank Floors</span></h1>
         	        <h2 class="project-subtitle">It&rsquo;s not just a floor; it&rsquo;s a folk art.</h2>        	    
         	    </hgroup>
 

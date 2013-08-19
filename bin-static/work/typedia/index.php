@@ -6,7 +6,8 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
      <style>
-         .page-title { background-image: url(typedia.png); width: 475px; height: 110px; }
+         /*.page-title { background-image: url(typedia.png); width: 475px; height: 110px; }*/
+         .page-title { font-size: 120px; }
          #project-header hgroup { top: -4px; }  
 
          .project-image { height: 1155px; background: transparent url(typedia-hero.jpg) no-repeat center 0; }
@@ -31,7 +32,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">Typedia</h1>
+        	        <h1 class="page-title">Typedia</h1>
         	        <h2 class="project-subtitle">A Shared Encyclopedia of Typefaces</h2>      	    
         	    </hgroup>
 

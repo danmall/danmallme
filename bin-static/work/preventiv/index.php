@@ -6,8 +6,14 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
-        .page-title { background-image: url(preventiv.png); width: 599px; height: 57px; }
-        #project-header hgroup { top: 18px; }
+        /*.page-title { background-image: url(preventiv.png); width: 599px; height: 57px; }*/
+        .page-title { font-size: 80px; }
+        .page-title .char7 { margin-left: -2px; }
+        .page-title .char8 { margin-left: 1px; }
+        .page-title .char9 { margin-left: -3px; }
+        .page-title .char12 { margin-left: -5px; }
+        .page-title .char13 { margin-left: -1px; }
+        #project-header hgroup { top: 10px; }
 
         .project-image { height: 522px; background: transparent url(preventiv-hero.jpg) no-repeat center 0 }
     </style>
@@ -30,7 +36,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">Pr&eacute;ventiv Water</h1>
+        	        <h1 class="page-title">Pr&eacute;ventiv Water</h1>
         	        <h2 class="project-subtitle">Heart Healthy Water with No Carbs or Sugars</h2>     	    
         	    </hgroup>
 

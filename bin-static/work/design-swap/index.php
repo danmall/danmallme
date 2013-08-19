@@ -7,7 +7,11 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
 
-        .page-title { background-image: url(design-swap.png); width: 567px; height: 85px; }
+        /*.page-title { background-image: url(design-swap.png); width: 567px; height: 85px; }*/
+        .page-title .char5 { margin-left: -2px; }
+        .page-title .char6 { margin-left: 2px; }
+        .page-title .char9 { margin-left: -2px; }
+        .page-title .char10 { margin-left: -3px; }
         #project-header hgroup { top: 4px; }  
 
         .project-image { height: 1162px; height: 532px; background: transparent url(design-swap-hero3.jpg) no-repeat center 0; /*margin-bottom: -160px;*/ }
@@ -34,7 +38,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">Design Swap</h1>
+        	        <h1 class="page-title">Design Swap</h1>
         	        <h2 class="project-subtitle">A Day in the Life of Brian Hoff</h2>    	    
         	    </hgroup>
 
