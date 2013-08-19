@@ -6,7 +6,8 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
      <style>
-        .page-title { background-image: url(morsel.png); width: 365px; height: 75px; }
+        /*.page-title { background-image: url(morsel.png); width: 365px; height: 75px; }*/
+        .page-title { }
         #project-header hgroup { top: 4px; }  
 
         .project-image { height: 790px; background: transparent url(morsel-hero.jpg) no-repeat center 0; margin-bottom: -50px; }
@@ -37,7 +38,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">Morsel</h1>
+        	        <h1 class="page-title">Morsel</h1>
         	        <h2 class="project-subtitle">Your Daily Step Toward Better Health</h2>        	    
         	    </hgroup>
 

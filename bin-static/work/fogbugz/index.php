@@ -7,8 +7,10 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
 
-        .page-title { background-image: url(fogbugz.png); width: 454px; height: 99px; }
-        #project-header hgroup { top: 4px; }  
+        /*.page-title { background-image: url(fogbugz.png); width: 454px; height: 99px; }*/
+        .page-title { font-size: 110px; }
+        .page-title .char2 { margin-left: -7px }
+        .page-title .char3 { margin-left: -3px }
 
         .project-image { height: 1001px; background: transparent url(fogbugz-hero.jpg) no-repeat center 0; }
         
@@ -34,7 +36,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">Fogbugz</h1>
+        	        <h1 class="page-title">Fogbugz</h1>
         	        <h2 class="project-subtitle">Helping Software Teams Communicate</h2>    	    
         	    </hgroup>
 

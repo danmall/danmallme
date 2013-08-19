@@ -6,8 +6,11 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
      <style>
-         .page-title { background-image: url(transformers.png); width: 582px; height: 61px; }
-         #project-header hgroup { top: 10px; }
+         /*.page-title { background-image: url(transformers.png); width: 582px; height: 61px; }*/
+         .page-title { font-size: 96px; }
+         .page-title .char3 { margin-left: -2px; }
+         .page-title .char7 { margin-left: -2px; }
+         #project-header hgroup { top: 0px; }
 
          .project-image { height: 604px; background: transparent url(transformers-hero2.jpg) no-repeat center 0; margin-bottom: 0; }
      </style>
@@ -30,7 +33,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">Transformers</h1>
+        	        <h1 class="page-title">Transformers</h1>
         	        <h2 class="project-subtitle">War for Cybertron: Teaser Pitch</h2>       	    
         	    </hgroup>
 

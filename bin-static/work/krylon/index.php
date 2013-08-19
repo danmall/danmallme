@@ -6,9 +6,13 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
-        .page-title { background-image: url(krylon.png); width: 386px; height: 96px; }
+        /*.page-title { background-image: url(krylon.png); width: 386px; height: 96px; }*/
+        .page-title { font-size: 110px; }
+        .page-title .char4 { margin-left: -4px; }
+        .page-title .char5 { margin-left: -2px; }
+        .page-title .char6 { margin-left: -2px; }
 
-     .project-image { height: 950px; background: transparent url(krylon-hero.jpg) no-repeat center 0; }
+        .project-image { height: 950px; background: transparent url(krylon-hero.jpg) no-repeat center 0; }
         .project-url { left: 263px; top: 35px; }
 
         #pullquote { background: transparent url(krylon-quote.png) no-repeat 0 0; height: 278px; }
@@ -32,7 +36,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">Krylon</h1>
+        	        <h1 class="page-title">Krylon</h1>
         	        <h2 class="project-subtitle">The leader in color and inspiration</h2>	    
         	    </hgroup>
 

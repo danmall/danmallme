@@ -6,7 +6,11 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
-        .page-title { background-image: url(planeteye.png); width: 568px; height: 96px; }
+        /*.page-title { background-image: url(planeteye.png); width: 568px; height: 96px; }*/
+        .page-title { font-size: 120px; }
+        .page-title .char5 { margin-left: -3px; }
+        .page-title .char6 { margin-left: -2px; }
+        .page-title .char9 { margin-left: -4px; }
         .project-image { height: 686px; background: transparent url(planeteye-hero2.jpg) no-repeat center 0; margin-bottom: 0; margin-top: -20px; }
 
         #work-content { background-position: 50% 0; min-width: 800px; }
@@ -33,7 +37,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">PlanetEye</h1>
+        	        <h1 class="page-title">PlanetEye</h1>
         	        <h2 class="project-subtitle">Discover. Plan. Share.</h2> 	    
         	    </hgroup>
 

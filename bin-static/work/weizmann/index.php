@@ -6,7 +6,8 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
-        .page-title { background-image: url(weizmann.png); width: 558px; height: 80px; }
+        /*.page-title { background-image: url(weizmann.png); width: 558px; height: 80px; }*/
+        .page-title .char1 { margin-right: -8px; }
 
         .project-image { height: 535px; background: transparent url(weizmann-hero.jpg) no-repeat center 0; margin-bottom: 0; margin-top: -40px; }
         .project-url { left: 135px; top: 69px;  }
@@ -30,7 +31,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">American Committee for the Weizmann Institute of Science</h1>
+        	        <h1 class="page-title lettering-ignore"><b class="offscreen">American Committee for the </b><span class="char1">W</span>eizmann<b class="offscreen"> Institute of Science</b></h1>
         	        <h2 class="project-subtitle">Science for the Benefit of Humanity</h2>     	    
         	    </hgroup>
 

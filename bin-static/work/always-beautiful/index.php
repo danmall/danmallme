@@ -6,7 +6,15 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
-        .page-title { background-image: url(always-beautiful.png); width: 606px; height: 66px; }
+        /*.page-title { background-image: url(always-beautiful.png); width: 606px; height: 66px; }*/
+        .page-title { font-size: 72px; }
+        .page-title .char2 { margin-left: 1px; }
+        .page-title .char3 { margin-left: -2px; }
+        .page-title .char4 { margin-left: -1px; }
+        .page-title .char5 { margin-left: -1px; }
+        .page-title .char13 { margin-left: 1px; }
+        .page-title .char15 { margin-left: 1px; }
+        .page-title .char16 { margin-left: 1px; }
         #project-header hgroup { top: 12px; }  
 
         .project-image { height: 545px; background: transparent url(always-beautiful-hero.jpg) no-repeat center 0; margin-bottom: 0; }
@@ -36,7 +44,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">Always Beautiful</h1>
+        	        <h1 class="page-title">Always Beautiful</h1>
         	        <h2 class="project-subtitle">Microsoft&rsquo;s Internet Explorer 9 Beta Launch</h2>        	    
         	    </hgroup>
 

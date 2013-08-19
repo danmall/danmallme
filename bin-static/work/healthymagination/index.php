@@ -6,7 +6,11 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
-        .page-title { background-image: url(healthymagination.png); width: 586px; height: 58px; }
+        /*.page-title { background-image: url(healthymagination.png); width: 586px; height: 58px; }*/
+        .page-title { font-size: 68px; }
+        .page-title .char7 { margin-left: -2px; }
+        .page-title .char11 { margin-left: 2px; }
+        .page-title .char15 { margin-left: 2px; }
         #project-header hgroup { top: 20px; } 
 
         .project-image { height: 1652px; background: transparent url(healthymagination-hero2.jpg) no-repeat center 0; }
@@ -38,7 +42,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">healthymagination</h1>
+        	        <h1 class="page-title">healthymagination</h1>
         	        <h2 class="project-subtitle">A shared commitment to better health for more people. Together.</h2>       	    
         	    </hgroup>
 

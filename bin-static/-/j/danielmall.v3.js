@@ -265,7 +265,8 @@ $(document).ready(function(){
 
         initLettering: function(){
 
-            $('.work-heading, #work .page-title').lettering();
+            $('.work-heading').lettering();
+            $('#work .page-title').not('.lettering-ignore').lettering();
 
         },
         

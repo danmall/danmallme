@@ -6,8 +6,9 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
      <style>
-        .page-title { background-image: url(assorted-logos.png); width: 609px; height: 72px; }
-        #project-header hgroup { top: 15px; }  
+        /*.page-title { background-image: url(assorted-logos.png); width: 609px; height: 72px; }*/
+        .page-title { font-size: 72px; }
+        #project-header hgroup { top: 10px; }  
 
         .project-image { height: 1226px; background: transparent url(logos.png) no-repeat center 0; margin-bottom: 100px; }
 
@@ -31,7 +32,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">Assorted Logos</h1>
+        	        <h1 class="page-title">Assorted Logos</h1>
         	    </hgroup>
 
         	    <ul id="project-nav" class="no-marker">

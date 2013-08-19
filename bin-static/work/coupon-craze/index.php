@@ -6,7 +6,10 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
-        .page-title { background-image: url(coupon-craze.png); width: 598px; height: 86px; }
+        /*.page-title { background-image: url(coupon-craze.png); width: 598px; height: 86px; }*/
+        .page-title { font-size: 90px; }
+        .page-title .char9 { margin-left: 1px; }
+        .page-title .char10 { margin-left: -2px; }
         #project-header hgroup { top: 12px; }  
 
         .project-image { height: 1584px; background: transparent url(coupon-craze-hero.jpg) no-repeat center 0; margin-bottom: 0; }
@@ -40,7 +43,7 @@
 	        
 	        <div id="project-header">
     	        <hgroup>
-        	        <h1 class="page-title phark">Coupon Craze</h1>
+        	        <h1 class="page-title">Coupon Craze</h1>
         	        <h2 class="project-subtitle">Exclusive Coupons for the Savvy Shopper</h2>        	    
         	    </hgroup>
 
