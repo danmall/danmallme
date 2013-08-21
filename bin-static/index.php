@@ -16,9 +16,9 @@
     
 </head>
 
-<body class="home" id="home">	
+<body class="home" id="home">
     
-    <img id="logo" src="/i/logo.png" alt="Dan Mall" />
+    <?php /* <img id="logo" src="/i/logo.png" alt="Dan Mall" /> */ ?>
 	
 	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 	
@@ -31,9 +31,6 @@
 		        <h1 class="stacked-heading">Featured Work</h1>
 		
     			<ul class="no-marker">
-    			    <li class="home-round-item position1">
-    				    <a data-tooltip-content="<h1>Crayola</h1><p>Free the &ldquo;what if.&ldquo;</p>" href="/work/crayola/" class="phark phark-link" style="background-image: url(/-/i/home/crayola-thumb.jpg);">Crayola</a>
-    				</li>
     			    <li class="home-round-item position1">
     				    <a data-tooltip-content="<h1>Crayola</h1><p>Free the &ldquo;what if.&ldquo;</p>" href="/work/crayola/" class="phark phark-link" style="background-image: url(/-/i/home/crayola-thumb.jpg);">Crayola</a>
     				</li>

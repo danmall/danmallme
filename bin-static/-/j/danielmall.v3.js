@@ -20,6 +20,8 @@ $(document).ready(function(){
         /*-------------------------------------------    
             Home
         -------------------------------------------*/
+
+        viewportSize: window.getComputedStyle(document.body,':after').getPropertyValue('content'),
         
         initHomepageAnimation: function(){
             
@@ -96,7 +98,7 @@ $(document).ready(function(){
         shuffleRoles: function(){
             
             $('#master-roles-mask').animate({left: '0px'}, 500, 'easeInQuad', function(){
-                var _totalRoles = $('#roles li').length;
+                var _totalRoles = ($('#roles li').length) - 1;
                 var _randomPosition1 = Math.floor(Math.random()*_totalRoles);
                 var _randomPosition2 = Math.floor(Math.random()*_totalRoles);
                 if(_randomPosition1 === _randomPosition2){
@@ -269,6 +271,19 @@ $(document).ready(function(){
             $('#work .page-title').not('.lettering-ignore').lettering();
 
         },
+
+        hamburgerNav: function(){
+
+            $('.hamburger').click(function(){
+                if($('.main-nav').is(':hidden')){
+                    $('.main-nav').slideDown();
+                }else{
+                    $('.main-nav').slideUp();
+                }
+                return false;
+            });
+
+        },
         
         
         /*-------------------------------------------    
@@ -326,9 +341,9 @@ $(document).ready(function(){
         Initial Actions
     -------------------------------------------*/
     // HOME
-    dmall.homeTooltip();
+    /*dmall.homeTooltip();
     dmall.initHomepageAnimation();
-    dmall.initRoles();
+    dmall.initRoles();*/
     
     // WORK
     dmall.initClientsRollOver();
@@ -349,9 +364,12 @@ $(document).ready(function(){
     // GLOBAL
     //dmall.initTwitterAnywhere();
     dmall.initLettering();
+    dmall.hamburgerNav();
     
     
 });
+
+
 
 window.onload = function(){
     //dmall.moveLikeButton();

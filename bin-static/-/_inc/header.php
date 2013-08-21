@@ -3,7 +3,8 @@
     <section id="masthead" role="banner">
         <header>
             <?php if($_SERVER['REQUEST_URI'] == '/') { ?>            
-            <h1 class="phark logo logo-home">Daniel Mall</h1>
+            <?php /* <h1 class="phark logo logo-home">Daniel Mall</h1> */ ?>
+            <img src="/-/s/dmall-website-logo5.svg" class="logo-new" />
             <ul id="roles" class="no-marker">                
                 <li>Art Director</li>
                 <li>Designer</li>
@@ -19,9 +20,24 @@
             <?php } else { ?>
             <h1 class="logo"><a class="phark phark-link" href="/">Daniel Mall</a></h1>
             <?php } ?>
+
+            <script>
+            document.write(
+            '<div class="menu-link">' +
+                '<a class="hamburger" href="#main-nav">' +
+                    '<b class="phark hamburger-ingredient bread-top"></b>' +
+                    '<b class="phark hamburger-ingredient cheese"></b>' +
+                    '<b class="phark hamburger-ingredient meat"></b><!-- sorry vegetarians -->' +
+                    '<b class="phark hamburger-ingredient pickles"></b>' +
+                    '<b class="phark hamburger-ingredient bread-bottom"></b>' +
+                '</a>' +
+            '</div><!-- .menu-link -->'
+            );
+            </script>
+
         </header>
 
-    	<nav class="main-nav">
+    	<nav id="main-nav" class="main-nav">
         	<ul class="no-marker">
         	    <?php if(strstr($_SERVER['REQUEST_URI'], '/work/')) { ?>
         	        <?php if($_SERVER['REQUEST_URI'] == '/work/') { ?>  
