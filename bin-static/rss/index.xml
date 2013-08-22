@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2013</dc:rights>
-    <pubDate>Mon, 12 Aug 2013 07:07:26 GMT</pubDate>
+    <pubDate>Mon, 22 Aug 2013 10:39:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>How to Build an App</title>
+        <description>Creating an app in public. Maybe.</description>
+        <link>http://danielmall.com/articles/how-to-build-an-app/</link>
+        <guid>http://danielmall.com/articles/how-to-build-an-app/</guid>
+        <pubDate>Mon, 22 Aug 2013 10:39:00 GMT</pubDate>
+    </item>
     <item>
         <title>Prequalifying Clients</title>
         <description>Questions, answers, and hidden answers.</description>
