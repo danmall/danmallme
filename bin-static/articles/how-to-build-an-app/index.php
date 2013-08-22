@@ -32,7 +32,7 @@
     <meta property="og:title" content="How to Build an App" />
     <meta property="og:description"content="Creating an app in public. Maybe."/>	
     <meta property="og:url" content="http://danielmall.com/articles/how-to-build-an-app/" />
-    <meta property="og:image" content="http://danielmall.com/articles/how-to-build-an-app/prequalifying-clients-fb.jpg" />
+    <meta property="og:image" content="http://danielmall.com/articles/how-to-build-an-app/how-to-build-an-app-fb.jpg" />
     
     
 </head>
