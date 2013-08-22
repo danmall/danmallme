@@ -77,21 +77,25 @@
     		    <ul class="no-marker">
 
                     <li class="home-round-item position1">
-                        <a data-tooltip-content="<h1>Prequalifying Clients</h1><p>Questions, answers, and hidden answers.</p>" href="/articles/prequalifying-clients/" class="phark phark-link" style="background-image: url(/articles/prequalifying-clients/home-thumb.jpg);">Prequalifying Clients</a>
+                        <a data-tooltip-content="<h1>How to Build an App</h1><p>Creating an app in public. Maybe.</p>" href="/articles/how-to-build-an-app/" class="phark phark-link" style="background-image: url(/articles/how-to-build-an-app/home-thumb.png);">How to Build an App</a>
                     </li>
 
                     <li class="home-round-item position2">
-                        <a data-tooltip-content="<h1>SVG Workflow for Designers</h1><p>Create quick vector assets with really small file sizes.</p>" href="/articles/svg-workflow-for-designers/" class="phark phark-link" style="background-image: url(/articles/svg-workflow-for-designers/home-thumb.png);">SVG Workflow for Designers</a>
+                        <a data-tooltip-content="<h1>Prequalifying Clients</h1><p>Questions, answers, and hidden answers.</p>" href="/articles/prequalifying-clients/" class="phark phark-link" style="background-image: url(/articles/prequalifying-clients/home-thumb.jpg);">Prequalifying Clients</a>
                     </li>
 
                     <li class="home-round-item position3">
-                        <a data-tooltip-content="<h1>The Ideas of March</h1><p>The lack of blogging about the lack of blogging.</p>" href="/articles/ideas-of-march-2013/" class="phark phark-link" style="background-image: url(/articles/ideas-of-march-2013/home-thumb.png);">The Ideas of March</a>
+                        <a data-tooltip-content="<h1>SVG Workflow for Designers</h1><p>Create quick vector assets with really small file sizes.</p>" href="/articles/svg-workflow-for-designers/" class="phark phark-link" style="background-image: url(/articles/svg-workflow-for-designers/home-thumb.png);">SVG Workflow for Designers</a>
                     </li>
 
                     <li class="home-round-item position4">
-                        <a data-tooltip-content="<h1>Value Pricing</h1><p>Prepping for the next episode of The Businessology Show.</p>" href="/articles/value-pricing/" class="phark phark-link" style="background-image: url(/articles/value-pricing/home-thumb.jpg);">Value Pricing</a>
+                        <a data-tooltip-content="<h1>The Ideas of March</h1><p>The lack of blogging about the lack of blogging.</p>" href="/articles/ideas-of-march-2013/" class="phark phark-link" style="background-image: url(/articles/ideas-of-march-2013/home-thumb.png);">The Ideas of March</a>
                     </li>
                     <?php /* ?>
+                    <li class="home-round-item position4">
+                        <a data-tooltip-content="<h1>Value Pricing</h1><p>Prepping for the next episode of The Businessology Show.</p>" href="/articles/value-pricing/" class="phark phark-link" style="background-image: url(/articles/value-pricing/home-thumb.jpg);">Value Pricing</a>
+                    </li>
+                    
     		        <li class="home-round-item position4">
     				    <a data-tooltip-content="<h1>Leaving Four24</h1><p>After just over 10 years, I&rsquo;ve decided to leave my band.</p>" href="/articles/leaving-four24/" class="phark phark-link" style="background-image: url(/articles/leaving-four24/home-thumb.jpg);">Leaving Four24</a>
     				</li>
@@ -272,7 +276,7 @@
 			</div><!-- .inner -->
 			
 		</section><!-- #dribbble -->
-    
+    <?php /* ?>
     <script>document.write('<section id="tweet" class="home-row"><div class="inner"><h1 class="phark">Latest Tweets</h1><div id="tweets">');</script>
 		<script>      
 			Chirp({
@@ -286,7 +290,7 @@
 				}
 			});
 		</script>
-    <script>document.write('</div><p class="more">from <a href="http://twitter.com/danielmall">@danielmall</a></p></div></section>');</script>
+    <script>document.write('</div><p class="more">from <a href="http://twitter.com/danielmall">@danielmall</a></p></div></section>');</script><?php */ ?>
 		
 		<?php /* ?>
 		<script>
