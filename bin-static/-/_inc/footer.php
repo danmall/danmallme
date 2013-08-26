@@ -1,4 +1,4 @@
-<footer>
+<footer class="site-footer">
 	
     	<ul class="no-marker">
     		<li>&copy; 2005&ndash;<?php echo date('Y'); ?> Dan Mall. Thou shalt not steal.</li>
@@ -18,4 +18,4 @@
 
         <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceFooter.php"); echo "\n"; ?>
 
-    </footer>
+    </footer><!-- .site-footer -->

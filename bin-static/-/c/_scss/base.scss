@@ -211,7 +211,7 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
 /*-------------------------------------------    
     Basic Structure
 -------------------------------------------*/
-#masthead-wrap { border-top: 1px solid #231f20; border-bottom: 1px solid #bdbdbd; margin: 0 0 30px; }
+#masthead-wrap { border-top: 1px solid #231f20; border-bottom: 1px solid #bdbdbd; margin: 0 0 30px; padding: 0 0 20px; }
 #article #masthead-wrap, #about-landing #masthead-wrap { margin-bottom: 0; }
     /*#masthead { position: relative; 
         @media screen and (min-width: $testBreakpoint){
@@ -248,7 +248,7 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
             &:hover:after { left: 93px; opacity: 1; }
         } */   
 
-    .main-nav { z-index: 2000;
+    .main-nav { z-index: 2000; background: red;
         @media screen and (min-width: $testBreakpoint){
             float: right; position: relative; top: 9px;
         }
@@ -280,16 +280,20 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
     
 /*.wrap, .wrap800 { width: 800px; margin: 0 auto; }*/
 
-footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margin-bottom: 50px; padding: 1em 0 1.5em; font-family: 'Trebuchet MS', Arial, sans-serif; clear: both; }
+.site-footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margin-bottom: 50px; padding: 1em 0 1.5em; font-family: 'Trebuchet MS', Arial, sans-serif; clear: both; 
     
-    #home footer { /*border: none;*/ 
+    li { display: inline; margin: 0 20px 0 0; font-size: 11px; }
+        a { color: #656262; border-bottom: 1px dotted #656262;
+            &:hover, &:focus { border-bottom-style: solid; }
+        }
+}
+    
+    #home footer { /*border: none;*/ width: 95%; max-width: 800px; margin: 0 auto 50px;
         @media screen and (min-width: $testBreakpoint){
-            margin: 0 auto; width: 800px; padding: 40px 0 4em; 
+            padding: 40px 0 4em; 
         }
     }
-        footer li { display: inline; margin: 0 20px 0 0; font-size: 11px; }
-            footer a { color: #656262; border-bottom: 1px dotted #656262; }
-            footer a:hover { border-bottom-style: solid; }
+        
 
 
 /*-------------------------------------------    
@@ -316,12 +320,20 @@ footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margi
 .home-row { border-top: 1px solid #ccc; padding: 1em 0; 
     &:first-child { border: none; }
 
-    .more { text-align: center; }
+    .more { text-align: center; font-size: 16px; }
 }
 
-    .home-round-item a { width: 217px; height: 217px; -webkit-border-radius: 217px; -moz-border-radius: 217px; border-radius: 217px; transition: all 0.1s ease-in; -moz-transition: all 0.1s ease-in; -webkit-transition: all 0.1s ease-in; -o-transition: all 0.1s ease-in; transform-origin: 50% 50%; -moz-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; background-position: center center; border: none; margin: 0 auto;
-        &:hover, &:focus { width: 225px; height: 225px; border-radius: 225px; /*margin-left: -4px; margin-top: -4px;*/ @include transform-origin(-4px -4px); }
-    }
+    /*.home-round-item a { width: 217px; height: 217px; -webkit-border-radius: 217px; -moz-border-radius: 217px; border-radius: 217px; transition: all 0.1s ease-in; -moz-transition: all 0.1s ease-in; -webkit-transition: all 0.1s ease-in; -o-transition: all 0.1s ease-in; transform-origin: 50% 50%; -moz-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; background-position: center center; border: none; margin: 0 auto;
+        &:hover, &:focus { width: 225px; height: 225px; border-radius: 225px; @include transform-origin(-4px -4px); }
+    }*/
+
+    .home-item { text-align: center; margin: 0 0 3em; }
+        .round-image { width: 217px; height: 217px; border-radius: 217px; float: none; margin: 0 auto 0.5em; }
+        .home-item-headline { margin: 0 0 0.15em; 
+            a { border: none; }
+        }
+        .home-item-description { font-size: 14px; font-style: italic; }
+        
 
 /*.home-row { width: 100%; background: #f7f7f7; border-bottom: 1px solid #dedede; position: relative; border-top: 4px solid #f7f7f7; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; 
     @media screen and (min-width: $testBreakpoint){

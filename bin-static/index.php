@@ -31,6 +31,45 @@
 		        <h1 class="stacked-heading">Featured Work</h1>
 		
     			<ul class="no-marker">
+
+                    <li class="home-item position1">
+                        <h1 class="home-item-headline">
+                            <a href="/work/crayola/">
+                                <img class="round-image" src="/-/i/home/crayola-thumb.jpg" alt="" />
+                                Crayola
+                            </a>
+                        </h1><!-- .home-item-headline -->
+                        <p class="home-item-description">Free the &ldquo;what if.&ldquo;</p>
+                    </li>
+                    <li class="home-item position2">
+                        <h1 class="home-item-headline">
+                            <a href="/work/star-wars/">
+                                <img class="round-image" src="/-/i/home/star-wars.jpg" alt="" />
+                                Star Wars
+                            </a>
+                        </h1><!-- .home-item-headline -->
+                        <p class="home-item-description">Creating a universe for a universe.</p>
+                    </li>
+                    <li class="home-item position3">
+                        <h1 class="home-item-headline">
+                            <a href="/work/activate/">
+                                <img class="round-image" src="/-/i/home/activate2.jpg" alt="" />
+                                Activate
+                            </a>
+                        </h1><!-- .home-item-headline -->
+                        <p class="home-item-description">A turn for the better.</p>
+                    </li>
+                    <li class="home-item position4">
+                        <h1 class="home-item-headline">
+                            <a href="/work/morsel/">
+                                <img class="round-image" src="/-/i/home/morsel2.jpg" alt="" />
+                                Morsel
+                            </a>
+                        </h1><!-- .home-item-headline -->
+                        <p class="home-item-description">Your daily step toward better health.</p>
+                    </li>
+
+                    <?php /* ?>
     			    <li class="home-round-item position1">
     				    <a data-tooltip-content="<h1>Crayola</h1><p>Free the &ldquo;what if.&ldquo;</p>" href="/work/crayola/" class="phark phark-link" style="background-image: url(/-/i/home/crayola-thumb.jpg);">Crayola</a>
     				</li>
@@ -42,6 +81,8 @@
     				<li class="home-round-item position4">
     				    <a data-tooltip-content="<h1>Morsel</h1><p>Your daily step toward better health.</p>" href="/work/morsel/" class="phark phark-link" style="background-image: url(/-/i/home/morsel2.jpg);">Morsel</a>
     				</li>
+                    <?php */ ?>
+
 					<?php /* ?>
     				<li class="home-round-item position3">
     				    <a data-tooltip-content="<h1>Housing Works</h1><p>Housing prevents <abbr>AIDS</abbr>. Housing Saves Lives.</p>" href="/work/housing-works/" class="phark phark-link" style="background-image: url(/-/i/home/housing-works.jpg);">Housing Works</a>

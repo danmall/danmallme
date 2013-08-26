@@ -51,10 +51,15 @@ http://www.danielmall.com/
     Basic Structure
 -------------------------------------------*/
 .hamburger { position: absolute; right: 3em; top: 4.2em; border: none; border: none; 
-    &:hover { border: none; }
+    &:hover { border: none; 
+        .hamburger-ingredient { background: $green; }
+    }
 }
     .hamburger-ingredient { width: 23px; height: 5px; background: $blackSubstitute; margin: 0 0 4px; }
     .pickles, .cheese { display: none; }
+    .bread-top { @include transition (all .25s ease-in-out); }
+    .meat { @include transition (all .5s ease-in-out); }
+    .bread-bottom { @include transition (all .75s ease-in-out); }
 
 .main-nav { display: none; }
 
@@ -78,11 +83,11 @@ http://www.danielmall.com/
 #tweets li { width: 180px; }
 #tweets p { margin-bottom: 0.75em; }
 
-#tooltip { position: absolute; z-index: 3000; border: none; background: rgba(38, 34, 35, 0.9); padding: 15px; width: 220px; }
+/*#tooltip { position: absolute; z-index: 3000; border: none; background: rgba(38, 34, 35, 0.9); padding: 15px; width: 220px; }
     #tooltip h1 { color: #fff; margin: 0 0 0.1em; line-height: 1.1; }
     #tooltip p { color: rgba(255, 255, 255, 0.6); font-style: italic; font-size: 13px; margin-bottom: 0.5em; }
 
-#tooltip h3, #tooltip div { margin: 0; }
+#tooltip h3, #tooltip div { margin: 0; }*/
 
 /*#home #work, #home #latest-articles, #home #dribbble, #home #tweet { opacity: 0; }
 
