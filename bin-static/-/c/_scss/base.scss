@@ -280,16 +280,16 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
     
 /*.wrap, .wrap800 { width: 800px; margin: 0 auto; }*/
 
-/*footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margin-bottom: 50px; padding: 1em 0 1.5em; font-family: 'Trebuchet MS', Arial, sans-serif; clear: both; }
+footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margin-bottom: 50px; padding: 1em 0 1.5em; font-family: 'Trebuchet MS', Arial, sans-serif; clear: both; }
     
-    #home footer { border: none;
+    #home footer { /*border: none;*/ 
         @media screen and (min-width: $testBreakpoint){
             margin: 0 auto; width: 800px; padding: 40px 0 4em; 
         }
     }
         footer li { display: inline; margin: 0 20px 0 0; font-size: 11px; }
             footer a { color: #656262; border-bottom: 1px dotted #656262; }
-            footer a:hover { border-bottom-style: solid; }*/
+            footer a:hover { border-bottom-style: solid; }
 
 
 /*-------------------------------------------    
@@ -304,6 +304,24 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
     #roles li:before { content: "/"; opacity: 0.5; padding: 0 7px 0 3px; }
     #roles li:first-child:before { content: ""; padding: 0; }
     #roles li:nth-child(1), #roles li:nth-child(2) { display: inline-block; }
+
+.stacked-heading { font-family: $fontStack; font-size: 28px; text-align: center;
+    @media screen and (min-width: $testBreakpoint){
+        font-family: $fontStack; font-size: 18px; color: #a6a6a6; line-height: 1; 
+    }
+}
+
+#home .content { width: 95%; margin: 0 auto; }
+
+.home-row { border-top: 1px solid #ccc; padding: 1em 0; 
+    &:first-child { border: none; }
+
+    .more { text-align: center; }
+}
+
+    .home-round-item a { width: 217px; height: 217px; -webkit-border-radius: 217px; -moz-border-radius: 217px; border-radius: 217px; transition: all 0.1s ease-in; -moz-transition: all 0.1s ease-in; -webkit-transition: all 0.1s ease-in; -o-transition: all 0.1s ease-in; transform-origin: 50% 50%; -moz-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; background-position: center center; border: none; margin: 0 auto;
+        &:hover, &:focus { width: 225px; height: 225px; border-radius: 225px; /*margin-left: -4px; margin-top: -4px;*/ @include transform-origin(-4px -4px); }
+    }
 
 /*.home-row { width: 100%; background: #f7f7f7; border-bottom: 1px solid #dedede; position: relative; border-top: 4px solid #f7f7f7; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; 
     @media screen and (min-width: $testBreakpoint){

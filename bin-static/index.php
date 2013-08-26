@@ -22,7 +22,7 @@
 	
 	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 	
-	<div id="content" class="easy-clearing">
+	<div class="content" class="easy-clearing">
 	    
 	    <section id="work" class="home-row">
 	        
