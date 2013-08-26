@@ -8,7 +8,7 @@ Styles that only apply when JavaScript is enabled
 Created by the ridiculous Dan Mall
 http://www.danielmall.com/
 
-*************************************************
+*************************************************/
 
 
 
@@ -22,7 +22,8 @@ http://www.danielmall.com/
 -------------------------------------------*/
 
 
-
+@import 'bourbon';
+@import 'variables.scss';
 
 
 /*-------------------------------------------    
@@ -49,6 +50,13 @@ http://www.danielmall.com/
 /*-------------------------------------------    
     Basic Structure
 -------------------------------------------*/
+.hamburger { position: absolute; right: 3em; top: 4.2em; border: none; border: none; 
+    &:hover { border: none; }
+}
+    .hamburger-ingredient { width: 23px; height: 5px; background: $blackSubstitute; margin: 0 0 4px; }
+    .pickles, .cheese { display: none; }
+
+.main-nav { display: none; }
 
 
 /*-------------------------------------------    
@@ -76,14 +84,14 @@ http://www.danielmall.com/
 
 #tooltip h3, #tooltip div { margin: 0; }
 
-#home #work, #home #latest-articles, #home #dribbble, #home #tweet { opacity: 0; }
+/*#home #work, #home #latest-articles, #home #dribbble, #home #tweet { opacity: 0; }
 
 .animation-container { width: 0; opacity: 0; }
 
 #roles { display: none; }
 
 #master-roles { position: absolute; top: 95px; }
-    #master-roles-mask { position: absolute; background: #fff; top: 95px; }
+    #master-roles-mask { position: absolute; background: #fff; top: 95px; }*/
 
 
 
