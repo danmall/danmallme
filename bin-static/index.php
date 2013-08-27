@@ -99,7 +99,7 @@
     				
     			</ul>
     			
-    			<p class="more"><a href="/work/">See all</a></p>
+    			<p class="more"><a href="/work/">See all<b class="more-qualifier"> Featured Work</b></a></p>
     			
     		</div><!-- /.inner -->
     		
@@ -224,7 +224,7 @@
     				<?php */ ?>			    				
     			</ul>
     			
-    			<p class="more"><a href="/articles/">See all</a></p>
+    			<p class="more"><a href="/articles/">See all<b class="more-qualifier"> Latest Articles</b></a></p>
         		
     		</div><!-- /.inner -->
 		
@@ -306,7 +306,7 @@
 					?>
 				</ul>
 				
-				<p class="more"><a href="http://dribbble.com/danielmall">See all</a></p>
+				<p class="more"><a href="http://dribbble.com/danielmall">See all<b class="more-qualifier"> from Dribbble</b></a></p>
 			
 			</div><!-- .inner -->
 			
