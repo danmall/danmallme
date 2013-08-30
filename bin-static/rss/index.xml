@@ -14,6 +14,13 @@
     <pubDate>Mon, 22 Aug 2013 10:39:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
     <item>
+        <title>Progressive Enhnacement</title>
+        <description>Still alive and kickin.</description>
+        <link>http://danielmall.com/articles/progressive-enhancement/</link>
+        <guid>http://danielmall.com/articles/progressive-enhancement/</guid>
+        <pubDate>Fri, 30 Aug 2013 15:38:00 GMT</pubDate>
+    </item>
+    <item>
         <title>How to Build an App</title>
         <description>Creating an app in public. Maybe.</description>
         <link>http://danielmall.com/articles/how-to-build-an-app/</link>

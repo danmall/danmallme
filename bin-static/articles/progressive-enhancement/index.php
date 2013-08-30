@@ -87,7 +87,7 @@
 
                     <p>All that said, I realize that there are better ways to make the point. More than a few have mentioned&mdash;both publicly and privately&mdash;that, rather than posting sites that don&rsquo;t work well, I should be posting sites that do. A &ldquo;sites done right&rdquo; list is a wonderful suggestion, and one that I&rsquo;ll be doing immediately. However, that&rsquo;s not in place of a &ldquo;not working well&rdquo; list; I think it&rsquo;s still valuable to see both ends of the spectrum.</p>
 
-                    <p>To start that, I&rsquo;ve added a <a href="#">post to the site</a> about a great example of progressive enhancement done well. These will be tagged as <code>#yayjavascript</code> from now on, so keep an eye out for them.</p>
+                    <p>To start that, I&rsquo;ve added a <a href="http://sighjavascript.tumblr.com/post/59795895907/google">post to the site</a> about a great example of progressive enhancement done well. This will be the first of many, and they&rsquo;ll be tagged as <code>#yayjavascript</code> from now on, so keep an eye out for them.</p>
 
                 </div><!-- .inner -->
 
@@ -274,7 +274,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2013-08-22T10:39:00">Published Aug 22, 2013 at 10:39 <abbr title="Ante Meridian">AM</abbr></time>
+        	        <time datetime="2013-08-30T15:38:00">Published Aug 30, 2013 at 3:39 <abbr title="Post Meridian">PM</abbr></time>
     	        </section><!-- /#article-info -->
     	        
     	        
