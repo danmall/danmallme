@@ -41,6 +41,18 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/progressive-enhancement/">Progressive Enhancement</a></h1>
+                            </header>
+                            <p>Still alive and kickin&rsquo;.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/progressive-enhancement/"><time datetime="2013-08-30T015:38:00">Aug 30, 2013</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/progressive-enhancement/#disqus_thread" data-disqus-identifier="progressive-enhancement"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>                  
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/how-to-build-an-app/">How to Build an App</a></h1>
                             </header>
                             <p>Creating an app in public. Maybe.</p>

@@ -33,9 +33,6 @@
     			    <li class="home-round-item position1">
     				    <a data-tooltip-content="<h1>Crayola</h1><p>Free the &ldquo;what if.&ldquo;</p>" href="/work/crayola/" class="phark phark-link" style="background-image: url(/i/screen/home/crayola-thumb.jpg);">Crayola</a>
     				</li>
-    			    <li class="home-round-item position1">
-    				    <a data-tooltip-content="<h1>Crayola</h1><p>Free the &ldquo;what if.&ldquo;</p>" href="/work/crayola/" class="phark phark-link" style="background-image: url(/i/screen/home/crayola-thumb.jpg);">Crayola</a>
-    				</li>
     			    <li class="home-round-item position2">
     				    <a data-tooltip-content="<h1>Star Wars</h1><p>Creating a universe for a universe.</p>" href="/work/star-wars/" class="phark phark-link" style="background-image: url(/i/screen/home/star-wars.jpg);">Star Wars</a>					
     			    <li class="home-round-item position3">
@@ -77,21 +74,26 @@
     		    <ul class="no-marker">
 
                     <li class="home-round-item position1">
-                        <a data-tooltip-content="<h1>How to Build an App</h1><p>Creating an app in public. Maybe.</p>" href="/articles/how-to-build-an-app/" class="phark phark-link" style="background-image: url(/articles/how-to-build-an-app/home-thumb.png);">How to Build an App</a>
+                        <a data-tooltip-content="<h1>Progressive Enhancement</h1><p>Still alive and kickin&rsquo;.</p>" href="/articles/progressive-enhancement/" class="phark phark-link" style="background-image: url(/articles/progressive-enhancement/home-thumb.png);">Progressive Enhancement</a>
                     </li>
 
                     <li class="home-round-item position2">
-                        <a data-tooltip-content="<h1>Prequalifying Clients</h1><p>Questions, answers, and hidden answers.</p>" href="/articles/prequalifying-clients/" class="phark phark-link" style="background-image: url(/articles/prequalifying-clients/home-thumb.jpg);">Prequalifying Clients</a>
+                        <a data-tooltip-content="<h1>How to Build an App</h1><p>Creating an app in public. Maybe.</p>" href="/articles/how-to-build-an-app/" class="phark phark-link" style="background-image: url(/articles/how-to-build-an-app/home-thumb.png);">How to Build an App</a>
                     </li>
 
                     <li class="home-round-item position3">
-                        <a data-tooltip-content="<h1>SVG Workflow for Designers</h1><p>Create quick vector assets with really small file sizes.</p>" href="/articles/svg-workflow-for-designers/" class="phark phark-link" style="background-image: url(/articles/svg-workflow-for-designers/home-thumb.png);">SVG Workflow for Designers</a>
+                        <a data-tooltip-content="<h1>Prequalifying Clients</h1><p>Questions, answers, and hidden answers.</p>" href="/articles/prequalifying-clients/" class="phark phark-link" style="background-image: url(/articles/prequalifying-clients/home-thumb.jpg);">Prequalifying Clients</a>
                     </li>
 
                     <li class="home-round-item position4">
+                        <a data-tooltip-content="<h1>SVG Workflow for Designers</h1><p>Create quick vector assets with really small file sizes.</p>" href="/articles/svg-workflow-for-designers/" class="phark phark-link" style="background-image: url(/articles/svg-workflow-for-designers/home-thumb.png);">SVG Workflow for Designers</a>
+                    </li>
+
+                    <?php /* ?>
+                    <li class="home-round-item position4">
                         <a data-tooltip-content="<h1>The Ideas of March</h1><p>The lack of blogging about the lack of blogging.</p>" href="/articles/ideas-of-march-2013/" class="phark phark-link" style="background-image: url(/articles/ideas-of-march-2013/home-thumb.png);">The Ideas of March</a>
                     </li>
-                    <?php /* ?>
+                   
                     <li class="home-round-item position4">
                         <a data-tooltip-content="<h1>Value Pricing</h1><p>Prepping for the next episode of The Businessology Show.</p>" href="/articles/value-pricing/" class="phark phark-link" style="background-image: url(/articles/value-pricing/home-thumb.jpg);">Value Pricing</a>
                     </li>
