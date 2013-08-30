@@ -18,7 +18,7 @@
     <meta property="og:title" content="Progressive Enhancement" />
     <meta property="og:description"content="Still Alive &amp; Kickin&rsquo;"/>	
     <meta property="og:url" content="http://danielmall.com/articles/progressive-enhancement/" />
-    <meta property="og:image" content="http://danielmall.com/articles/progressive-enhancement/progressive-enhancement-fb.jpg" />
+    <meta property="og:image" content="http://danielmall.com/articles/progressive-enhancement/home-thumb.png" />
     
     
 </head>
@@ -37,7 +37,7 @@
 			
         			<h1 class="article-title">Progressive Enhancement. Still Alive &amp; Kickin&rsquo;.</h1>
         			
-                    <p>Yesterday, I launched <a href="http://sighjavascript.tumblr.com/">Sigh, JavaScript</a>, a Tumblr that showcases sites that don&rsquo;t work well with JavaScript disabled.</p>
+                    <p>A few days ago, I launched <a href="http://sighjavascript.tumblr.com/">Sigh, JavaScript</a>, a Tumblr that showcases sites that don&rsquo;t work well with JavaScript disabled.</p>
 
                     <p>The day erupted with equal parts delight and criticism.</p>
 
