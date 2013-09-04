@@ -328,11 +328,13 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
     }*/
 
     .home-item { text-align: center; margin: 0 0 3em; }
-        .round-image { width: 217px; height: 217px; border-radius: 217px; float: none; margin: 0 auto 0.5em; }
+        .round-image, .home-item-dribbble { width: 217px; height: 217px; border-radius: 217px; float: none; margin: 0 auto 0.5em; }
         .home-item-headline { margin: 0 0 0.1em; 
             a { border: none; }
         }
         .home-item-description { font-size: 14px; font-style: italic; }
+
+        /*a*/.home-item-dribbble { display: block; background-position: 50% 50%; background-repeat: no-repeat; }
         
 
 /*.home-row { width: 100%; background: #f7f7f7; border-bottom: 1px solid #dedede; position: relative; border-top: 4px solid #f7f7f7; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; 

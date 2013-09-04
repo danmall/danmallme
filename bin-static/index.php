@@ -30,43 +30,51 @@
 		    
 		        <h1 class="stacked-heading">Featured Work</h1>
 		
-    			<ul class="no-marker">
+    			<ol class="no-marker">
 
                     <li class="home-item position1">
-                        <h1 class="home-item-headline">
-                            <a href="/work/crayola/">
-                                <img class="round-image" src="/-/i/home/crayola-thumb.jpg" alt="" />
-                                Crayola
-                            </a>
-                        </h1><!-- .home-item-headline -->
-                        <p class="home-item-description">Free the &ldquo;what if.&ldquo;</p>
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/work/crayola/">
+                                    <img class="round-image" src="/-/i/home/crayola-thumb.jpg" alt="" />
+                                    Crayola
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Free the &ldquo;what if.&ldquo;</p>
+                        </article><!-- .home-item-article -->
                     </li>
                     <li class="home-item position2">
-                        <h1 class="home-item-headline">
-                            <a href="/work/star-wars/">
-                                <img class="round-image" src="/-/i/home/star-wars.jpg" alt="" />
-                                Star Wars
-                            </a>
-                        </h1><!-- .home-item-headline -->
-                        <p class="home-item-description">Creating a universe for a universe.</p>
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/work/star-wars/">
+                                    <img class="round-image" src="/-/i/home/star-wars.jpg" alt="" />
+                                    Star Wars
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Creating a universe for a universe.</p>
+                        </article><!-- .home-item-article -->
                     </li>
                     <li class="home-item position3">
-                        <h1 class="home-item-headline">
-                            <a href="/work/activate/">
-                                <img class="round-image" src="/-/i/home/activate2.jpg" alt="" />
-                                Activate
-                            </a>
-                        </h1><!-- .home-item-headline -->
-                        <p class="home-item-description">A turn for the better.</p>
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/work/activate/">
+                                    <img class="round-image" src="/-/i/home/activate2.jpg" alt="" />
+                                    Activate
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">A turn for the better.</p>
+                        </article><!-- .home-item-article -->
                     </li>
                     <li class="home-item position4">
-                        <h1 class="home-item-headline">
-                            <a href="/work/morsel/">
-                                <img class="round-image" src="/-/i/home/morsel2.jpg" alt="" />
-                                Morsel
-                            </a>
-                        </h1><!-- .home-item-headline -->
-                        <p class="home-item-description">Your daily step toward better health.</p>
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/work/morsel/">
+                                    <img class="round-image" src="/-/i/home/morsel2.jpg" alt="" />
+                                    Morsel
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Your daily step toward better health.</p>
+                        </article><!-- .home-item-article -->
                     </li>
 
                     <?php /* ?>
@@ -97,7 +105,7 @@
     				    <a data-tooltip-content="<h1>JetWaders</h1><p>Modern-day jelly shoes.</p>" href="/work/jetwaders/" class="phark phark-link" style="background-image: url(/-/i/home/jetwaders.jpg);">JetWaders</a>
     				</li>	<?php */ ?>	
     				
-    			</ul>
+    			</ol>
     			
     			<p class="more"><a href="/work/">See all<b class="more-qualifier"> Featured Work</b></a></p>
     			
@@ -113,8 +121,54 @@
 		    
     		    <h1 class="stacked-heading">Latest Articles</h1>
 	    
-    		    <ul class="no-marker">
+    		    <ol class="no-marker">
 
+                    <li class="home-item position1">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/articles/prequalifying-clients/">
+                                    <img class="round-image" src="/articles/prequalifying-clients/home-thumb.jpg" alt="" />
+                                    Prequalifying Clients
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Questions, answers, and hidden answers.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/articles/svg-workflow-for-designers/">
+                                    <img class="round-image" src="/articles/svg-workflow-for-designers/home-thumb.png" alt="" />
+                                    SVG Workflow for Designers
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Create quick vector assets with really small file sizes.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+                    <li class="home-item position3">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/articles/ideas-of-march-2013/">
+                                    <img class="round-image" src="/articles/ideas-of-march-2013/home-thumb.png" alt="" />
+                                    The Ideas of March
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">The lack of blogging about the lack of blogging.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+                    <li class="home-item position4">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/articles/value-pricing/">
+                                    <img class="round-image" src="/articles/value-pricing/home-thumb.jpg" alt="" />
+                                    Value Pricing
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Prepping for the next episode of The Businessology Show.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <?php /* ?>
                     <li class="home-round-item position1">
                         <a data-tooltip-content="<h1>Prequalifying Clients</h1><p>Questions, answers, and hidden answers.</p>" href="/articles/prequalifying-clients/" class="phark phark-link" style="background-image: url(/articles/prequalifying-clients/home-thumb.jpg);">Prequalifying Clients</a>
                     </li>
@@ -130,6 +184,7 @@
                     <li class="home-round-item position4">
                         <a data-tooltip-content="<h1>Value Pricing</h1><p>Prepping for the next episode of The Businessology Show.</p>" href="/articles/value-pricing/" class="phark phark-link" style="background-image: url(/articles/value-pricing/home-thumb.jpg);">Value Pricing</a>
                     </li>
+                    <?php */ ?>
                     <?php /* ?>
     		        <li class="home-round-item position4">
     				    <a data-tooltip-content="<h1>Leaving Four24</h1><p>After just over 10 years, I&rsquo;ve decided to leave my band.</p>" href="/articles/leaving-four24/" class="phark phark-link" style="background-image: url(/articles/leaving-four24/home-thumb.jpg);">Leaving Four24</a>
@@ -222,7 +277,7 @@
     				    <a data-tooltip-content="<h1>Five</h1><p>Wow. After five long years, it feels great to have a new site.</p>" href="/articles/five/" class="phark phark-link" style="background-image: url(/articles/five/home-five.png);">Five</a>
     				</li>
     				<?php */ ?>			    				
-    			</ul>
+    			</ol>
     			
     			<p class="more"><a href="/articles/">See all<b class="more-qualifier"> Latest Articles</b></a></p>
         		
@@ -267,7 +322,7 @@
 				
 				<h1 class="stacked-heading">From Dribbble</h1>
 				
-				<ul class="no-marker">
+				<ol class="no-marker">
 			
 					<?php
 				
@@ -285,7 +340,7 @@
 						    $my_shots = $dribbble->get_player_shots('danielmall');
 							$i = 1;
 						
-							foreach ($my_shots->shots as $shot) {
+							/*foreach ($my_shots->shots as $shot) {
 								if($i <= 4){
 									echo '<li class="home-round-item position' . $i . '">';
 									echo "\n\t\t\t\t\t\t";
@@ -297,14 +352,31 @@
 								}else{
 									break;
 								}
-							}
+							}*/
+
+                            foreach ($my_shots->shots as $shot) {
+                                if($i <= 4){
+                                    echo '<li class="home-item position' . $i . '">';
+                                    echo '<h2 class="home-item-headline">';
+                                    echo '<a href="' . $shot->url . '">';
+                                    echo '<img class="round-image offscreen" src="' . $shot->image_url . '" alt="" />';
+                                    echo '<span class="home-item-dribbble" style="background-image: url(' . $shot->image_url  . ');"></span>';
+                                    echo $shot->title;
+                                    echo '</a>';
+                                    echo '</h2>';
+                                    echo '</li>';
+                                    $i++;
+                                }else{
+                                    break;
+                                }
+                            }
 						}
 						catch (DribbbleException $e) {
 						    echo 'Error: ' . $e->getMessage();
 						}
 					
 					?>
-				</ul>
+				</ol>
 				
 				<p class="more"><a href="http://dribbble.com/danielmall">See all<b class="more-qualifier"> from Dribbble</b></a></p>
 			

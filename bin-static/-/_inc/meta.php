@@ -9,6 +9,7 @@
     <?php } */ ?>
 
     <!-- http://blog.javierusobiaga.com/stop-using-the-viewport-tag-until-you-know-ho -->
-    <meta name="viewport" content="width=device-width;initial-scale=1" />
+    <?php /* <meta name="viewport" content="width=device-width;initial-scale=1" /> */ ?>
+    <meta name="viewport" content="width=device-width" />
 
     <link type="application/rss+xml" rel="alternate" title="Articles" href="http://feeds.feedburner.com/danielmall-articles" /> 

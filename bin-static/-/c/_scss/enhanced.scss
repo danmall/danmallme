@@ -57,9 +57,9 @@ http://www.danielmall.com/
 }
     .hamburger-ingredient { width: 23px; height: 5px; background: $blackSubstitute; margin: 0 0 4px; }
     .pickles, .cheese { display: none; }
-    .bread-top { @include transition (all .25s ease-in-out); }
+    /*.bread-top { @include transition (all .25s ease-in-out); }
     .meat { @include transition (all .5s ease-in-out); }
-    .bread-bottom { @include transition (all .75s ease-in-out); }
+    .bread-bottom { @include transition (all .75s ease-in-out); }*/
 
 .main-nav { display: none; }
 
