@@ -37,7 +37,7 @@
                             <h2 class="home-item-headline">
                                 <a href="/work/crayola/">
                                     <img class="round-image" src="/-/i/home/crayola-thumb.jpg" alt="" />
-                                    Crayola
+                                    <span class="home-item-name">Crayola</span>
                                 </a>
                             </h2><!-- .home-item-headline -->
                             <p class="home-item-description">Free the &ldquo;what if.&ldquo;</p>
@@ -48,7 +48,7 @@
                             <h2 class="home-item-headline">
                                 <a href="/work/star-wars/">
                                     <img class="round-image" src="/-/i/home/star-wars.jpg" alt="" />
-                                    Star Wars
+                                    <span class="home-item-name">Star Wars</span>
                                 </a>
                             </h2><!-- .home-item-headline -->
                             <p class="home-item-description">Creating a universe for a universe.</p>
@@ -59,7 +59,7 @@
                             <h2 class="home-item-headline">
                                 <a href="/work/activate/">
                                     <img class="round-image" src="/-/i/home/activate2.jpg" alt="" />
-                                    Activate
+                                    <span class="home-item-name">Activate</span>
                                 </a>
                             </h2><!-- .home-item-headline -->
                             <p class="home-item-description">A turn for the better.</p>
@@ -70,7 +70,7 @@
                             <h2 class="home-item-headline">
                                 <a href="/work/morsel/">
                                     <img class="round-image" src="/-/i/home/morsel2.jpg" alt="" />
-                                    Morsel
+                                    <span class="home-item-name">Morsel</span>
                                 </a>
                             </h2><!-- .home-item-headline -->
                             <p class="home-item-description">Your daily step toward better health.</p>
@@ -99,7 +99,7 @@
                             <h2 class="home-item-headline">
                                 <a href="/articles/prequalifying-clients/">
                                     <img class="round-image" src="/articles/prequalifying-clients/home-thumb.jpg" alt="" />
-                                    Prequalifying Clients
+                                    <span class="home-item-name">Prequalifying Clients</span>
                                 </a>
                             </h2><!-- .home-item-headline -->
                             <p class="home-item-description">Questions, answers, and hidden answers.</p>
@@ -110,7 +110,7 @@
                             <h2 class="home-item-headline">
                                 <a href="/articles/svg-workflow-for-designers/">
                                     <img class="round-image" src="/articles/svg-workflow-for-designers/home-thumb.png" alt="" />
-                                    SVG Workflow for Designers
+                                    <span class="home-item-name">SVG Workflow for Designers</span>
                                 </a>
                             </h2><!-- .home-item-headline -->
                             <p class="home-item-description">Create quick vector assets with really small file sizes.</p>
@@ -121,7 +121,7 @@
                             <h2 class="home-item-headline">
                                 <a href="/articles/ideas-of-march-2013/">
                                     <img class="round-image" src="/articles/ideas-of-march-2013/home-thumb.png" alt="" />
-                                    The Ideas of March
+                                    <span class="home-item-name">The Ideas of March</span>
                                 </a>
                             </h2><!-- .home-item-headline -->
                             <p class="home-item-description">The lack of blogging about the lack of blogging.</p>
@@ -132,7 +132,7 @@
                             <h2 class="home-item-headline">
                                 <a href="/articles/value-pricing/">
                                     <img class="round-image" src="/articles/value-pricing/home-thumb.jpg" alt="" />
-                                    Value Pricing
+                                    <span class="home-item-name">Value Pricing</span>
                                 </a>
                             </h2><!-- .home-item-headline -->
                             <p class="home-item-description">Prepping for the next episode of The Businessology Show.</p>
@@ -216,7 +216,7 @@
                                                 echo "\n\t\t\t\t\t\t\t\t\t";
                                                     echo '<b class="home-item-dribbble" style="background-image: url(' . $shot->image_url  . ');"></b>';
                                                     echo "\n\t\t\t\t\t\t\t\t\t\t";
-                                                        echo $shot->title;
+                                                        echo '<span class="home-item-name">' . $shot->title . '</span>';
                                                         echo "\n\t\t\t\t\t\t\t";
                                             echo '</a>';
                                             echo "\n\t\t\t\t\t\t";

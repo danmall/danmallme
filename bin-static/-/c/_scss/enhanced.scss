@@ -50,7 +50,7 @@ http://www.danielmall.com/
 /*-------------------------------------------    
     Basic Structure
 -------------------------------------------*/
-.hamburger { position: absolute; right: 3em; top: 4.2em; border: none; border: none; 
+.hamburger { position: absolute; right: 3em; top: 4.2em; border: none;
     &:hover { border: none; 
         .hamburger-ingredient { background: $green; }
     }
