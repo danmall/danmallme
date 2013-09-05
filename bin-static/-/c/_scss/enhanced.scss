@@ -100,12 +100,15 @@ http://www.danielmall.com/
 
 /*#home #work, #home #latest-articles, #home #dribbble, #home #tweet { opacity: 0; }
 
-.animation-container { width: 0; opacity: 0; }
+.animation-container { width: 0; opacity: 0; }*/
 
-#roles { display: none; }
+#roles, #master-roles, #master-roles-mask { display: none; }
+@media screen and (min-width: 1073px){
+    #roles { display: none; }
 
-#master-roles { position: absolute; top: 95px; }
-    #master-roles-mask { position: absolute; background: #fff; top: 95px; }*/
+    #master-roles { position: absolute; top: 95px; background: white; width: 250px; height: 25px; z-index: 2001; display: block; }
+        #master-roles-mask { position: absolute; background: #fff; top: 95px; z-index: 2002; display: block; }
+}
 
 
 

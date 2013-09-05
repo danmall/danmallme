@@ -277,8 +277,11 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
     #home {
 
         .logo-new { 
+            @media screen and (min-width: 800px){
+                position: absolute;
+            }
             @media screen and (min-width: 1073px){
-                position: absolute; top: 14px; left: -135px; z-index: 2000;
+                top: 14px; left: -135px; z-index: 2000;
             }
         }
 
@@ -306,6 +309,9 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
                 border-top: 1px solid #ddd; margin: 0; padding: 0; 
                 @media screen and (min-width: 800px){
                     border: none; margin: 0 0 0 1em;
+                }
+                @media screen and (min-width: 1073px){
+                    margin: 0 0 0 2em;
                 }                
             }
                 .main-nav-item a { font-size: 34px; display: block; padding: 0.25em 0 0.25em 0.5em; margin: 0;
@@ -327,7 +333,7 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
     
     #home footer { /*border: none;*/ width: 95%; max-width: 800px; margin: 0 auto 50px;
         @media screen and (min-width: 800px){
-            padding: 40px 0 4em; border-top: none;
+            padding: 40px 0 4em; border: none;
         }
     }
         
@@ -340,11 +346,13 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
 
 #home #masthead-wrap { margin-bottom: 0; }
 
-#roles, #master-roles { /*position: absolute; top: 95px;*/ font: 14px 'Trebuchet MS', Arial, sans-serif; color: #929090; text-transform: uppercase; letter-spacing: 0.1em; margin: 0 auto; position: relative; /*top: -35px; padding-left: 8.3em; padding-left: 22%; top: -3.5vh; left: 10.8vw;*/ display: none; }
-    #roles li { display: none; }
-    #roles li:before { content: "/"; opacity: 0.5; padding: 0 7px 0 3px; }
-    #roles li:first-child:before { content: ""; padding: 0; }
-    #roles li:nth-child(1), #roles li:nth-child(2) { display: inline-block; }
+@media screen and (min-width: 1073px){
+    #roles, #master-roles { font: 14px 'Trebuchet MS', Arial, sans-serif; color: #929090; text-transform: uppercase; letter-spacing: 0.1em; margin: 0 auto; position: relative; display: block; }
+        #roles li { display: none; }
+        #roles li:before { content: "/"; opacity: 0.5; padding: 0 7px 0 3px; }
+        #roles li:first-child:before { content: ""; padding: 0; }
+        #roles li:nth-child(1), #roles li:nth-child(2) { display: inline-block; }
+}
 
 .stacked-heading { font-family: $fontStack; font-size: 28px; text-align: center;
     @media screen and (min-width: 520px){

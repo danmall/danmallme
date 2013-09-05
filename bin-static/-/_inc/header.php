@@ -3,8 +3,9 @@
     <section id="masthead" role="banner" class="clearfix">
         <header class="masthead-inner clearfix">
             <?php if($_SERVER['REQUEST_URI'] == '/') { ?>            
-            <?php /* <h1 class="phark logo logo-home">Daniel Mall</h1> */ ?>
+            <?php /* <h1 class="phark logo logo-home">Daniel Mall</h1> */ ?>            
             <img src="/-/s/dmall-website-logo5.svg" class="logo-new" />
+
             <ul id="roles" class="no-marker">                
                 <li>Art Director</li>
                 <li>Designer</li>
@@ -17,6 +18,12 @@
                 <li>New Dad</li>
                 <li>Husband</li>
             </ul>
+
+            <script>
+                document.write('<div id="master-roles"></div><div id="master-roles-mask"></div>');
+            </script>
+            
+
             <?php } else { ?>
             <h1 class="logo"><a class="phark phark-link" href="/">Daniel Mall</a></h1>
             <?php } ?>

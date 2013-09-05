@@ -86,7 +86,7 @@ $(document).ready(function(){
         
         initRoles: function(){
                         
-            $('#roles').after('<div id="master-roles"></div><div id="master-roles-mask"></div>');
+            //$('#roles').after('<div id="master-roles"></div><div id="master-roles-mask"></div>');
             dmall.shuffleRoles();
             setInterval(function(){
                 dmall.shuffleRoles();
@@ -97,7 +97,7 @@ $(document).ready(function(){
         
         shuffleRoles: function(){
             
-            $('#master-roles-mask').animate({left: '0px'}, 500, 'easeInQuad', function(){
+            $('#master-roles-mask').animate({left: '0px'}, 1000, 'easeInQuad', function(){
                 var _totalRoles = ($('#roles li').length) - 1;
                 var _randomPosition1 = Math.floor(Math.random()*_totalRoles);
                 var _randomPosition2 = Math.floor(Math.random()*_totalRoles);
@@ -111,7 +111,7 @@ $(document).ready(function(){
                 $('#master-roles').html(_position1 + ' <span>/</span> ' + _position2);
 
                 $('#master-roles-mask').css({ height: $('#master-roles').height(), width: $('#master-roles').width() });
-                $('#master-roles-mask').animate({left: $('#master-roles').width() + 'px'}, 600, 'easeInOutCirc');
+                $('#master-roles-mask').animate({left: $('#master-roles').width() + 'px'}, 800, 'easeInOutCirc');
             });
             
             
@@ -350,8 +350,8 @@ $(document).ready(function(){
     -------------------------------------------*/
     // HOME
     /*dmall.homeTooltip();
-    dmall.initHomepageAnimation();
-    dmall.initRoles();*/
+    dmall.initHomepageAnimation();*/
+    dmall.initRoles();
     
     // WORK
     dmall.initClientsRollOver();
