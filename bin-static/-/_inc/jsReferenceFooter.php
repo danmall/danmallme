@@ -20,4 +20,4 @@
     <script src="/-/j/libs/waypoints-sticky.min.js"></script>
     
     <!-- Custom Functions -->
-    <script src="/-/j/danielmall.v3.min.js?v=20130725051942"></script>
+    <script src="/-/j/danielmall.v3.1.min.js?v=20130725051942"></script>
