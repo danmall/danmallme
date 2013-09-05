@@ -72,9 +72,20 @@ $(document).ready(function(){
     
         homeTooltip: function(){
         
-            $(".home-round-item a").tooltip({
+            /*$(".home-round-item a").tooltip({
                 bodyHandler: function(){
                     var _tooltipText = $(this).attr('data-tooltip-content');
+                    return _tooltipText;
+                },
+                showURL: false,
+                track: true,
+                fade: 250
+            });*/
+
+            $(".home-item").tooltip({
+                bodyHandler: function(){
+                    var _tooltipText = '<h1>' + $(this).find('.home-item-name').text() + '</h1><p>' + $(this).find('.home-item-description').text() + '</p>';
+                    //var _tooltipText = 'hey';
                     return _tooltipText;
                 },
                 showURL: false,
@@ -349,8 +360,8 @@ $(document).ready(function(){
         Initial Actions
     -------------------------------------------*/
     // HOME
-    /*dmall.homeTooltip();
-    dmall.initHomepageAnimation();*/
+    dmall.homeTooltip();
+    //dmall.initHomepageAnimation();
     dmall.initRoles();
     
     // WORK

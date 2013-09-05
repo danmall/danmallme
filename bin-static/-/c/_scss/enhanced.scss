@@ -92,11 +92,13 @@ http://www.danielmall.com/
 #tweets li { width: 180px; }
 #tweets p { margin-bottom: 0.75em; }
 
-/*#tooltip { position: absolute; z-index: 3000; border: none; background: rgba(38, 34, 35, 0.9); padding: 15px; width: 220px; }
-    #tooltip h1 { color: #fff; margin: 0 0 0.1em; line-height: 1.1; }
-    #tooltip p { color: rgba(255, 255, 255, 0.6); font-style: italic; font-size: 13px; margin-bottom: 0.5em; }
+@media screen and (min-width: 800px){
+    #tooltip { position: absolute; z-index: 3000; border: none; background: rgba(38, 34, 35, 0.9); padding: 15px; width: 220px; }
+        #tooltip h1 { color: #fff; margin: 0 0 0.1em; line-height: 1.1; }
+        #tooltip p { color: rgba(255, 255, 255, 0.6); font-style: italic; font-size: 13px; margin-bottom: 0.5em; }
 
-#tooltip h3, #tooltip div { margin: 0; }*/
+    #tooltip h3, #tooltip div { margin: 0; }
+}
 
 /*#home #work, #home #latest-articles, #home #dribbble, #home #tweet { opacity: 0; }
 
