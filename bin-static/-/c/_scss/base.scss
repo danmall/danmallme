@@ -359,7 +359,7 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
         margin: 0.5em 0 1.25em;
     }
     @media screen and (min-width: 800px){
-        font-family: $fontStack; font-size: 18px; color: #a6a6a6; line-height: 1; text-align: left; width: 100px; position: relative; top: 10px;
+        font-family: $fontStack; font-size: 18px; color: #a6a6a6; line-height: 1; text-align: left; width: 100px; position: absolute; left: 0; top: 0px;
     }
 }
 
@@ -369,7 +369,7 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
     }
 }
 
-.home-row { border-top: 1px solid #ccc; padding: 1em 0; 
+.home-row { border-top: 1px solid #ccc; padding: 1em 0;
     &:first-child { 
         border-top: none; 
         @media screen and (min-width: 800px){
@@ -381,7 +381,7 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
         padding-left: 10px;   
     }
     @media screen and (min-width: 800px){
-        width: 100%; background: #f7f7f7; border-bottom: 1px solid #dedede; position: relative; border-top: 4px solid #f7f7f7; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; height: 200px; overflow: hidden; padding: 0;
+        width: 100%; background: #f7f7f7; border-bottom: 1px solid #dedede; position: relative; border-top: 4px solid #f7f7f7; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear;
     }
 
     &:hover {
@@ -398,7 +398,7 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
 
     .inner {
         @media screen and (min-width: 800px){
-            position: relative; margin: 0 auto; width: 800px;
+            position: relative; margin: 0 auto; width: 650px; padding-left: 150px;
         }
     }
 
@@ -429,9 +429,6 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
         @media screen and (min-width: 520px){
             float: left; margin-right: 20px; width: 220px;
         }
-        @media screen and (min-width: 800px){
-            position: absolute; float: none;
-        }
 
         &:hover, &:focus {
             @media screen and (min-width: 800px){
@@ -440,28 +437,17 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
 
             .round-image {
                 @media screen and (min-width: 800px){
-                    width: 225px; height: 225px; border-radius: 225px;
+                    /*width: 225px; height: 225px; border-radius: 225px;*/
                 }                
             }    
         }
     }
-
-        .home-item-name {
-            @media screen and (min-width: 800px){
-                position: absolute; left: -9999px
-            }
-        }
-
+        
         .round-image, .home-item-dribbble { width: 217px; height: 217px; border-radius: 217px; float: none; margin: 0 auto 0.5em; }
-        .home-item-headline { margin: 0 0 0.1em; 
+        .home-item-headline { margin: 0 0 0.1em; font-size: 26px; line-height: 1.2;
             a { border: none; }
         }
-        .home-item-description { 
-            font-size: 14px; font-style: italic; 
-            @media screen and (min-width: 800px){
-                position: absolute; left: -9999px
-            }
-        }
+        .home-item-description { font-size: 14px; font-style: italic; }
 
         /*a*/.home-item-dribbble { display: block; background-position: 50% 50%; background-repeat: no-repeat; }
 
@@ -474,7 +460,7 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
         }
 
         @media screen and (min-width: 800px){
-            .position1, .position3 { margin: 0; }   
+            .position1, .position3 { margin: 0; margin-right: 90px; }   
             .position1 { left: 125px; top: -2px; z-index: 3; }
             .position2 { left: 305px; top: 0px; z-index: 2; }
             .position3 { left: 444px; top: -3px; z-index: 4; }
