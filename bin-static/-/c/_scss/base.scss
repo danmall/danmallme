@@ -276,7 +276,17 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
 
     #home {
 
-        /*.logo-new { position: absolute; }*/
+        .logo-new { 
+            @media screen and (min-width: 1073px){
+                position: absolute; top: 14px; left: -135px; z-index: 2000;
+            }
+        }
+
+        .masthead-inner {
+            @media screen and (min-width: 1073px){
+                position: relative;
+            }
+        }
 
         #masthead {
             @media screen and (min-width: 800px){
@@ -285,15 +295,18 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
         }
 
         .main-nav { background: #ececec; margin: 1em 0 0; padding: 0; border-bottom: 1px solid #ddd;
-            @media screen and (min-width: $testBreakpoint){
-                background: none; top: 68px; border: none; 
+            @media screen and (min-width: 800px){
+                background: none; top: 39px; border: none; 
+            }
+            @media screen and (min-width: 1073px){
+                top: 54px;
             }
         }
-            .main-nav-item { 
+            /*li*/.main-nav-item { 
                 border-top: 1px solid #ddd; margin: 0; padding: 0; 
                 @media screen and (min-width: 800px){
-                    border: none;
-                }
+                    border: none; margin: 0 0 0 1em;
+                }                
             }
                 .main-nav-item a { font-size: 34px; display: block; padding: 0.25em 0 0.25em 0.5em; margin: 0;
                     @media screen and (min-width: 800px){
