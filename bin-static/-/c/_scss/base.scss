@@ -211,7 +211,7 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
 /*-------------------------------------------    
     Basic Structure
 -------------------------------------------*/
-#masthead-wrap { border-top: 1px solid #231f20; border-bottom: 1px solid #bdbdbd; margin: 0 0 30px; padding: 0 0 20px; }
+#masthead-wrap { border-top: 1px solid #231f20; border-bottom: 1px solid #bdbdbd; margin: 0 0 30px; }
 #article #masthead-wrap, #about-landing #masthead-wrap { margin-bottom: 0; }
     /*#masthead { position: relative; 
         @media screen and (min-width: $testBreakpoint){
@@ -248,6 +248,7 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
             &:hover:after { left: 93px; opacity: 1; }
         } */   
 
+
     .main-nav { z-index: 2000; background: red;
         @media screen and (min-width: $testBreakpoint){
             float: right; position: relative; top: 9px;
@@ -265,9 +266,16 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
 
         }
     #home {
+
+        #masthead {
+            @media screen and (min-width: 800px){
+                width: 800px; margin: 0 auto; /*height: 40px;*/
+            }
+        }
+
         .main-nav { background: #ececec; margin: 1em 0 0; padding: 0; border-bottom: 1px solid #ddd;
             @media screen and (min-width: $testBreakpoint){
-                top: 68px; 
+                background: none; top: 68px; border: none; 
             }
         }
             .main-nav-item { border-top: 1px solid #ddd; margin: 0; padding: 0; }

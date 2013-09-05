@@ -275,11 +275,19 @@ $(document).ready(function(){
         hamburgerNav: function(){
 
             $('.hamburger').click(function(){
-                if($('.main-nav').is(':hidden')){
+                /*if($('.main-nav').is(':hidden')){
                     $('.main-nav').slideDown();
                 }else{
                     $('.main-nav').slideUp();
                 }
+                return false;*/
+
+                if($('.main-nav').hasClass('main-nav-active')){
+                    $('.main-nav').removeClass('main-nav-active');                    
+                }else{
+                    $('.main-nav').addClass('main-nav-active');
+                }
+                
                 return false;
             });
 
