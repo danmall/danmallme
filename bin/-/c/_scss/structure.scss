@@ -77,7 +77,7 @@
         }
     }
 
-    .main-nav { z-index: 2000; background: #ececec; margin: 1em 0 0; padding: 0; border-bottom: 1px solid #ddd; position: relative; top: 36px;
+    .main-nav { z-index: 2000; background: #ececec; margin: 1em 0 20px; padding: 0; border-bottom: 1px solid #ddd; position: relative; top: 36px;
         @media screen and (min-width: $originalLayout){
             float: right; background: none; border: none; top: -15px;
         }
@@ -86,7 +86,7 @@
     }
         .main-nav-item { border-top: 1px solid #ddd; margin: 0; padding: 0;            
             @media screen and (min-width: $originalLayout){
-                float: left; margin: 0 0 0 3em; border: none;
+                float: left; margin: 0 0 0 3.5em; border: none;
             }
 
             a, mark { font-family: $fontStack; color: $blackSubstitute; border: none; font-size: 34px; display: block; padding: 0.25em 0 0.25em 0.5em; margin: 0;
@@ -136,10 +136,10 @@
         }
             .main-nav-item { 
                 @media screen and (min-width: $originalLayout){
-                    margin: 0 0 0 1em;
+                    margin: 0 0 0 2em;
                 }
                 @media screen and (min-width: 1073px){
-                    margin: 0 0 0 2em;
+                    margin: 0 0 0 3em;
                 }
 
                 a { 

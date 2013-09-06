@@ -3,10 +3,18 @@
 -------------------------------------------*/
 
 /*#article-landing hgroup h1 { background-image: url(/-/i/articles-headline.gif); width: 238px; height: 47px; margin: 20px 0 0.25em 40px; }*/
-.article-heading { /*margin: 20px 0 0 40px;*/ margin: 0 0 0.1em; font: 60px/1 $fontStack; color: $blackSubstitute; }
-#article-landing hgroup h2 { color: #bdbbbc; font-size: 21px; font-size: 16px; /*margin: 0 0 1em 40px;*/ font-weight: normal; margin: 0 0 1em; } 
+.article-heading { /*margin: 20px 0 0 40px;*/ margin: 0; font: 60px/1 $fontStack; color: $blackSubstitute; 
+    @media screen and (min-width: $originalLayout){
+        padding-left: 20px;
+    }
+}
+.article-subheading { color: #bdbbbc; font-size: 21px; font-size: 16px; /*margin: 0 0 1em 40px;*/ font-weight: normal; margin: 0 0 1em; 
+    @media screen and (min-width: $originalLayout){
+        padding-left: 20px;
+    }
+} 
 
-/*#article-landing .main { 
+#article-landing .main { 
     @media screen and (min-width: $originalLayout){
         float: right; min-height: 300px; 
     }
@@ -17,6 +25,8 @@
         padding-top: 24px; width: 200px; 
     }
 }
+
+/*
     #article-landing .sub h1 { background-image: url(/-/i/displaying.gif); width: 85px; height: 15px; }
     #article-landing .sub li { border-bottom: 1px solid #ddd; }
         #article-landing .sub li a, #article-landing .sub li mark { display: block; border: none; padding: 0.3em 7px; }

@@ -10,7 +10,11 @@
 }
 
 .article-list { border-top: 1px dotted #7f7f7f; }
-.article-list > li { /*padding: 1.25em 40px 0;*/ padding: 1em 0 0; border-bottom: 1px dotted #7f7f7f; }
+.article-list > li { /*padding: 1.25em 40px 0;*/ padding: 1em 0 0; border-bottom: 1px dotted #7f7f7f; 
+    @media screen and (min-width: $originalLayout){
+        padding: 1.25em 20px 0;
+    }
+}
 .article-list > li:last-child { border-bottom: none; }
     .article-list h1 { margin: 0 0 0.2em; line-height: 1.2; }
         .article-list h1 a { color: #231f20; border-color: #b2b2b2; }

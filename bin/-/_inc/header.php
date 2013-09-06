@@ -65,7 +65,7 @@
             		<li class="main-nav-item"><a href="/articles/">Articles</a></li>
             		<?php } ?>        		
 
-            		<li class="main-nav-item"><a href="http://links.danielmall.com/">Links</a></li>
+            		<?php /* ?><li class="main-nav-item"><a href="http://links.danielmall.com/">Links</a></li><?php */?>
             		
             		<?php if($_SERVER['REQUEST_URI'] == '/about/') { ?>
             		<li class="main-nav-item"><mark>About</mark></li>

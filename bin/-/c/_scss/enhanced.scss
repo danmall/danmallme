@@ -85,7 +85,11 @@ http://www.danielmall.com/
 /*-------------------------------------------    
     Carbon Ads
 -------------------------------------------*/
-.carbonads-container { border-top: 1px solid #d7d7d7; padding-top: 1em; }
+.carbonads-container { border-top: 1px solid #d7d7d7; padding-top: 1em; 
+    @media screen and (min-width: $originalLayout){
+        padding-top: 0; border: none;
+    }
+}
     .carbonad { background: none !important; border: none !important; height: auto !important; margin: 0 auto 2em; }
     .carbonad-text { height: auto !important; margin-left: 0 !important; font-family: Georgia, 'Times New Roman', serif !important; margin: 0 0 1em; }
     .carbonad-image, .carbonad-tag { margin: 0 !important; font-family: Georgia, 'Times New Roman', serif !important; }

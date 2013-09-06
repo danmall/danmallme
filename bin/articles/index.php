@@ -19,7 +19,7 @@
 
         	    <hgroup>
             	    <h1 class="article-heading">Articles</h1>
-            	    <h2>Signed, sealed, delivered&hellip; I&rsquo;m yours!</h2>
+            	    <h2 class="article-subheading">Signed, sealed, delivered&hellip; I&rsquo;m yours!</h2>
             	</hgroup>
             	
             	<ol class="article-list articles no-marker">
