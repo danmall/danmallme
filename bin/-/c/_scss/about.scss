@@ -1,0 +1,53 @@
+/*-------------------------------------------    
+    About
+-------------------------------------------*/
+#about-landing #intro { padding: 165px 0 2em 305px; padding: 130px 0 2em 350px; padding-top: 0; border-bottom: 7px solid #231f20; /*background: transparent url(/-/i/about/dan-headshot2.png) no-repeat 40px 0*/; margin: -50px 0 2px; position: relative; margin: -85px 0 2px; }
+#about-landing #intro h1 { font-size: 92px; margin: 0.9em 0 -0.25em -50px; letter-spacing: -1px; z-index: 2; }
+#about-landing #intro h1:before { content: ""; display: block; position: absolute; bottom: 0; left: -90px; background: transparent url(/-/i/about/dan-headshot3.png) no-repeat 0 0; width: 840px; height: 431px; z-index: 1; }
+    #about-landing #intro p { font-size: 15px; color: #231f20; line-height: 1.7; padding-right: 10px; position: relative; top: 10px; z-index: 5; }
+        #about-landing #intro cite.credit { font-size: 13px; color: #b0b0b0; }
+            #about-landing #intro cite.credit a { color: #b0b0b0; border-color: #ddd; }
+
+#about-landing #content { border-top: 1px dotted #7f7f7f; }
+    #about-landing #content h1 { font: bold 18px 'Trebuchet MS', Arial, sans-serif; margin-top: 1em; }
+
+#about-landing .main { width: 627px; float: left; border: none; }
+#about-landing .sub { width: 150px; padding: 3px 0 0 15px; float: right; border-left: 1px dotted #7f7f7f; }
+
+#dig { padding-right: 15px; border-bottom: 7px solid #231f20; padding-bottom: 2em; margin-bottom: 2px; }
+    #dig p { font-size: 13px; line-height: 1.7; margin-left: 330px; }
+    #dig header + p { float: left; margin-left: 0; width: 310px; padding-right: 30px; }
+#about-site { width: 194px; float: left; padding-left: 15px; border-left: 1px dotted #7f7f7f; margin-bottom: 5px; }
+#history { border-top: 1px dotted #7f7f7f; float: left; background: transparent url(/-/i/about/history-bg2.gif) no-repeat 0 60px; min-height: 1000px; position: relative; width: 380px; border-right: 1px dotted #7f7f7f; padding: 0 20px 0 0; }
+    #history hgroup h1 { float: left; }
+    #history hgroup p { float: right; margin-top: 2em; text-transform: lowercase; font-style: italic; padding-right: 77px; background: transparent url(/-/i/about/linkedin.png) no-repeat right -18px; position: relative; top: 1px; }
+        #linkedin span { position: relative; top: 1px; }
+        #linkedin a { background-image: url(/-/i/about/linkedin.png); width: 72px; height: 18px; position: absolute; right: 0; top: 0; border: none; opacity: 0; }
+        #linkedin a:hover, #linkedin a:focus { opacity: 1; }
+    #history th { text-transform: uppercase; font: bold 14px 'Trebuchet MS', Arial, sans-serif; position: absolute; padding-top: 1.2em; left: 26px; text-align: center; width: 120px; opacity: 0.4; }
+    #history td { position: absolute; left: 180px; }
+    #history td a, #history td span { display: block; border: none; }    
+        #tmx th, #tmx td { top: 100px; }
+            #tmx a { background-image: url(/-/i/about/tmx.png); width: 108px; height: 32px; }
+        #ei th, #ei td { top: 240px; }
+            #ei a { background-image: url(/-/i/about/ei.png); width: 187px; height: 39px; }
+        #pixelworthy th, #pixelworthy td { top: 375px; }
+            #pixelworthy span { background-image: url(/-/i/about/pixelworthy.png); width: 156px; height: 17px; position: relative; top: 4px; }
+        #hc th, #hc td { top: 505px; }
+            #hc a { background-image: url(/-/i/about/hc.png); width: 144px; height: 29px; }
+        #bss th, #bss td { top: 636px; }
+            #bss a { background-image: url(/-/i/about/bss.png); width: 122px; height: 17px; }
+        #superfriendly th { top: 772px; }
+		#superfriendly td { top: 757px; }
+            #superfriendly a { background-image: url(/-/i/about/superfriendly.png); width: 152px; height: 56px; }
+		
+#facts { margin-left: 400px; width: 205px; border-top: 1px dotted #7f7f7f; padding: 0 10px; }
+    div[id^="fact-"] { border-top: 1px dotted #7f7f7f; }
+    div[id^="fact-"]:first-child { border: none; }
+    #fact-four24 { height: 185px; background: transparent url(/-/i/about/fact-four24.png) no-repeat 50% 50%; position: relative; }
+        #fact-four24 a { width: 100%; height: 100%; position: absolute; top: 0; left: 0; background: transparent url(/-/i/about/fact-four24-over.png) no-repeat 131px 122px; opacity: 0; border: none; }
+        #fact-four24 a:hover, #fact-four24 a:focus { opacity: 1; }
+    #fact-soda { /*height: 173px; height: 200px;*/ background: transparent url(/-/i/about/fact-soda.png) no-repeat 10px 20px; position: relative; }
+        #fact-soda dd { position: absolute; top: 68px; left: 80px; font: bold 50px 'Trebuchet MS', Arial, sans-serif; color: #231f20; }
+        #fact-soda .hey-look { padding-top: 170px; text-transform: uppercase; text-align: center; }
+    #fact-hair { height: 250px; background: transparent url(/-/i/about/fact-hair.png) no-repeat 50% 50%; }

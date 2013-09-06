@@ -1,0 +1,170 @@
+
+
+/*-------------------------------------------    
+    Home page
+-------------------------------------------*/
+#logo { display: none; }
+
+#home #masthead-wrap { margin-bottom: 0; }
+
+@media screen and (min-width: 1073px){
+    #roles, #master-roles { font: 14px 'Trebuchet MS', Arial, sans-serif; color: #929090; text-transform: uppercase; letter-spacing: 0.1em; margin: 0 auto; position: relative; display: block; }
+        #roles li { display: none; }
+        #roles li:before { content: "/"; opacity: 0.5; padding: 0 7px 0 3px; }
+        #roles li:first-child:before { content: ""; padding: 0; }
+        #roles li:nth-child(1), #roles li:nth-child(2) { display: inline-block; }
+}
+
+.stacked-heading { font-family: $fontStack; font-size: 28px; text-align: center;
+    @media screen and (min-width: 520px){
+        margin: 0.5em 0 1.25em;
+    }
+    @media screen and (min-width: $originalLayout){
+        font-family: $fontStack; font-size: 18px; color: #a6a6a6; line-height: 1; text-align: left; width: 100px; position: absolute; left: 0; top: 0px;
+    }
+}
+
+#home .content { width: 95%; margin: 0 auto; 
+    @media screen and (min-width: $originalLayout){
+        width: 100%;
+    }
+}
+
+.home-row { border-top: 1px solid #ccc; padding: 1em 0;
+    &:first-child { 
+        border-top: none; 
+        @media screen and (min-width: $originalLayout){
+            border-top: 4px solid #f7f7f7; 
+        }
+    }
+
+    @media screen and (min-width: 520px){
+        padding-left: 10px;   
+    }
+    @media screen and (min-width: $originalLayout){
+        width: 100%; background: #f7f7f7; border-bottom: 1px solid #dedede; position: relative; border-top: 4px solid #f7f7f7; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; padding-left: 0;
+    }
+
+    &:hover {
+        @media screen and (min-width: $originalLayout){
+            overflow: visible; z-index: 100; background: #fff; border-top: 4px solid #fff;
+        }
+    }
+
+    &:hover + .home-row {
+        @media screen and (min-width: $originalLayout){
+            border-top: 4px solid rgba(0, 0, 0, 0.03);
+        }
+    }
+
+    .inner {
+        @media screen and (min-width: $originalLayout){
+            position: relative; margin: 0 auto; width: 650px; padding-left: 150px;
+        }
+    }
+
+    .more { 
+        text-align: center; font-size: 16px; 
+        @media screen and (min-width: 520px){
+            clear: both;
+        }
+        @media screen and (min-width: $originalLayout){
+            position: absolute; left: 0; top: 50px; font-size: 12px;
+        }
+    }
+
+        .more-qualifier {
+            @media screen and (min-width: $originalLayout){
+                position: absolute;
+                left: -9999px;
+            }
+        }
+}
+
+    /*.home-round-item a { width: 217px; height: 217px; -webkit-border-radius: 217px; -moz-border-radius: 217px; border-radius: 217px; transition: all 0.1s ease-in; -moz-transition: all 0.1s ease-in; -webkit-transition: all 0.1s ease-in; -o-transition: all 0.1s ease-in; transform-origin: 50% 50%; -moz-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; background-position: center center; border: none; margin: 0 auto;
+        &:hover, &:focus { width: 225px; height: 225px; border-radius: 225px; @include transform-origin(-4px -4px); }
+    }*/
+
+    .home-item { 
+        text-align: center; margin: 0 0 3em; 
+        @media screen and (min-width: 520px){
+            float: left; margin-right: 20px; width: 220px;
+        }
+
+        &:hover, &:focus {
+            @media screen and (min-width: $originalLayout){
+                @include transform-origin(-8px -8px);
+            }
+
+            .round-image {
+                @media screen and (min-width: $originalLayout){
+                    /*width: 225px; height: 225px; border-radius: 225px;*/
+                }                
+            }    
+        }
+    }
+        
+        .round-image, .home-item-dribbble { width: 217px; height: 217px; border-radius: 217px; float: none; margin: 0 auto 0.5em; }
+        .home-item-headline { margin: 0 0 0.1em; font-size: 26px; line-height: 1.2;
+            a { border: none; }
+        }
+        .home-item-description { font-size: 14px; font-style: italic; }
+
+        /*a*/.home-item-dribbble { display: block; background-position: 50% 50%; background-repeat: no-repeat; }
+
+        @media screen and (min-width: 620px){
+            .position1, .position3 { margin-left: 80px; margin-right: 40px; }   
+        }
+
+        @media screen and (min-width: 768px){
+            .position1, .position3 { margin-left: 120px; margin-right: 30px; }   
+        }
+
+        @media screen and (min-width: $originalLayout){
+            .position1, .position3 { margin: 0; margin-right: 90px; }   
+            .position1 { left: 125px; top: -2px; z-index: 3; }
+            .position2 { left: 305px; top: 0px; z-index: 2; }
+            .position3 { left: 444px; top: -3px; z-index: 4; }
+            .position4 { left: 600px; top: 0; z-index: 5; } 
+        }
+        
+
+/*.home-row { width: 100%; background: #f7f7f7; border-bottom: 1px solid #dedede; position: relative; border-top: 4px solid #f7f7f7; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; 
+    @media screen and (min-width: $originalLayout){
+        overflow: hidden; height: 200px;        
+    }
+}
+.home-row:hover { overflow: visible; z-index: 100; background: #fff; border-top: 4px solid #fff; }
+.home-row:hover + .home-row { border-top: 4px solid rgba(0, 0, 0, 0.03); }
+    .home-row .inner { position: relative; 
+        @media screen and (min-width: $originalLayout){        
+            width: 800px; margin: 0 auto; 
+        }
+    }
+    .home-row ul { margin: 0; }
+    .home-row h1 { position: absolute; top: 30px; left: 0; width: 80px; height: 40px; }
+
+    .stacked-heading { font-family: $fontStack; font-size: 18px; color: #a6a6a6; line-height: 1; }
+
+    .home-round-item { float: left;
+        @media screen and (min-width: $originalLayout){
+            position: absolute; float: none;
+        }
+    }
+        .home-round-item a { width: 100%; max-width: 217px; height: 217px; -webkit-border-radius: 217px; -moz-border-radius: 217px; border-radius: 217px; transition: all 0.1s ease-in; -moz-transition: all 0.1s ease-in; -webkit-transition: all 0.1s ease-in; -o-transition: all 0.1s ease-in; transform-origin: 50% 50%; -moz-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; background-position: center center; border: none; }
+        .home-round-item a:hover, .home-round-item a:focus { width: 225px; height: 225px; border-radius: 225px; margin-left: -4px; margin-top: -4px; }
+    .home-row .more { position: absolute; left: 0; top: 70px; }
+    #home #links .more { top: 50px; }
+	
+    @media screen and (min-width: $originalLayout){
+    	.position1 { left: 125px; top: 2px; z-index: 3; }
+    	.position2 { left: 305px; top: 1px; z-index: 2; }
+    	.position3 { left: 444px; top: 6px; z-index: 4; }
+    	.position4 { left: 600px; top: 0; z-index: 5; }	
+    }
+
+#home #links { height: auto; }    
+    #home #links .inner, #tweet .inner { padding: 30px 0 0 160px; width: 640px; }
+        #home #links .articles li, #tweets li { width: 130px; padding: 0 30px 20px 0; float: left; border: none; }
+		
+#home #dribbble img { height: 225px; }*/

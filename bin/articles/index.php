@@ -14,8 +14,7 @@
 	<div class="wrap">
 	
     	<section id="content">
-
-            <?php /* ?>
+            
 	        <div class="main">
 
         	    <hgroup>
@@ -390,9 +389,9 @@
                     <li><a href="/articles/categories/design/">Design</a></li>
                     <li><a href="/articles/categories/typography/">Typography</a></li>
                     <li><a href="/articles/categories/conferences/">Conferences</a></li>
-                </ul><?php */ ?><?php /* ?>
+                </ul><?php */ ?>
                 
-            </div><!-- /.sub --><?php */ ?>
+            </div><!-- /.sub -->
 	
 	
     		<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/footer.php"); echo "\n"; ?>

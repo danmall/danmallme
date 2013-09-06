@@ -51,6 +51,9 @@ http://www.danielmall.com/
 /*-------------------------------------------    
     Basic Structure
 -------------------------------------------*/
+
+.masthead-wrap-active { height: auto !important; } /* what a hack */
+
 .hamburger { position: absolute; top: 2.2em; right: 2em; border: none;
     &:hover { border: none; 
         .hamburger-ingredient { background: $green; }
@@ -187,9 +190,7 @@ ol + .sticky-wrapper { margin-top: -2em; }
 /*-------------------------------------------    
     Articles
 -------------------------------------------*/
-#dsq-pagination, #dsq-sort-by, #dsq-global-toolbar { display: none; }
-
-/*#dsq-content .dsq-avatar { left: -10px !important; }*/
+/*#dsq-pagination, #dsq-sort-by, #dsq-global-toolbar { display: none; }
 
 .dsq-post-tools, .dsq-textarea-background { background: #f5f5f5 !important; border-radius: 0 !important; border: none !important; -webkit-box-shadow: none !important; }
 
@@ -218,7 +219,7 @@ ol + .sticky-wrapper { margin-top: -2em; }
 
 #article-landing .main { position: relative; left: -75px; }
 
-.meta .comments { width: 300px; }
+.meta .comments { width: 300px; }*/
 
 
 

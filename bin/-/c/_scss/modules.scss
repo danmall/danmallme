@@ -1,0 +1,57 @@
+/*-------------------------------------------    
+    Modules
+-------------------------------------------*/
+.stag { font-family: $fontStack; }
+
+.main { 
+    @media screen and (min-width: $originalLayout){
+        width: 560px; float: right; border-left: 1px dotted #7f7f7f; 
+    }
+}
+
+ol.articles { border-top: 1px dotted #7f7f7f; }
+ol.articles > li, #tweets li { padding: 1.25em 40px 0; border-bottom: 1px dotted #7f7f7f; }
+ol.articles > li:last-child { border-bottom: none; }
+
+.meta { font: 78% 'Trebuchet MS', Arial, sans-serif; margin: 0; text-transform: uppercase; letter-spacing: 0.25em; color: #a2a2a2; width: 100%; }
+ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
+    .meta li { float: left; border-left: 1px solid #e5e5e5; }
+    .meta li:first-child { border: none; }
+        .meta a { color: #a2a2a2; border: none; display: block; }
+        .meta a:hover, .meta a:focus { color: #73ae08; }
+    .categories, .meta a { padding: 0.75em 10px; }
+        .categories a { display: inline; padding: 0; }
+        .categories a:hover, .categories a:focus { color: #73ae08; }
+        
+.pagination { font-family: 'Trebuchet MS', Arial, sans-serif; margin: 0; border-top: 1px dotted #7f7f7f; padding: 1em 0 1em  40px; font-size: 14px; }
+    .pagination li { float: left; margin: 0 3px 0 0; }
+        .pagination a, .pagination mark { display: block; border: none; padding: 0.26em 10px; color: #fff; background: #e7e7e7; border-radius: 2.5em; -moz-border-radius: 2.5em; -webkit-border-radius: 2.5em; }
+        .pagination a:hover, .pagination a:focus { background: #f77000; }
+        .pagination mark { background: #231f20; }
+    
+.comment-list { font: 12px 'Trebuchet MS', Arial, sans-serif; }    
+    .comment-list header { position: relative; padding: 1.5em 0 0; }
+        .comment-list header time { position: absolute; top: 0; }
+        .comment-list header time a { color: #cfcfcf; font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.1em; border: none; }
+        .comment-list header time a:hover, .comment-list header time a:focus { color: #aaa; }
+    .comment-list li { padding: 1em 10px 0 60px; border-bottom: 1px dotted #7f7f7f; position: relative; }
+        .comment-list p { font-size: 12px; }
+        .gravatar { position: absolute; top: 0; left: -60px; float: none; margin: 0; }
+        
+.main, .sub { float: left; }
+
+.work-meta dt { font: 14px 'Trebuchet MS', Arial, sans-serif; color: #cecece; text-transform: uppercase; letter-spacing: 0.1em; }
+.work-meta dd { font-style: italic; }
+
+.work-row { border-bottom: 1px dotted #7f7f7f; }
+.work-row:last-child { border-bottom: 0; }    
+    .work-row .inner { width: 400px; margin: 0 auto; padding: 3em 0 3em 400px; position: relative; }
+    .work-row .inner:before { content: ""; display: block; position: absolute; left: 0; top: 0; }
+    .work-row .inner article { position: relative; z-index: 3; }
+
+.work-row .more a, .button { display: inline-block; border-radius: 4px; background: #231f20; color: #fff; text-transform: uppercase; padding: 0.5em 13px; font-family: 'Trebuchet MS', Arial, sans-serif; }
+.work-row .more a:hover, .work-row .more a:focus, .button:hover, .button:focus { background: #73ae08; }
+
+.fwa { background-image: url(/-/i/fwa.png); width: 100px; height: 100px; position: absolute; top: 52px; right: 0; border: none; }
+.mobile-fwa { background-image: url(/-/i/m.fwa.png); width: 76px; height: 77px; position: absolute; top: 52px; right: 0; border: none; }
+.fwa:hover, .mobile-fwa:hover { border: none; }
