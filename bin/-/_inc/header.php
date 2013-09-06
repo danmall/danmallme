@@ -25,7 +25,7 @@
             
 
             <?php } else { ?>
-            <h1 class="logo"><a class="phark phark-link" href="/">Daniel Mall</a></h1>
+            <h1 class="logo"><a class="phark phark-link logo-link" href="/">Daniel Mall</a></h1>
             <?php } ?>
 
             <script>

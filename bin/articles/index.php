@@ -15,26 +15,13 @@
 	
     	<section id="content">
 
+            <?php /* ?>
 	        <div class="main">
 
         	    <hgroup>
             	    <h1 class="article-heading">Articles</h1>
-            	    <?php /* ><h2>Yes, I know there&rsquo;s only one article here. I just launched this site; <a href="http://www.youtube.com/watch?v=1V7c-jZ4wbg&amp;feature=related">gimme a break</a>.</h2><?php */ ?>
             	    <h2>Signed, sealed, delivered&hellip; I&rsquo;m yours!</h2>
             	</hgroup>
-                
-                <?php /* ?>
-            	<ol class="pagination easy-clearing no-marker">
-            	    <li><mark>1</mark></li>
-            	    <li><a href="/articles/2/" title="Page 2 of Articles"><b>Page</b> 2</a></li>
-            	    <li><a href="/articles/3/" title="Page 3 of Articles"><b>Page</b> 3</a></li>
-            	    <li><a href="/articles/4/" title="Page 4 of Articles"><b>Page</b> 4</a></li>
-            	    <li><a href="/articles/5/" title="Page 5 of Articles"><b>Page</b> 5</a></li>
-            	    <li><a href="/articles/6/" title="Page 6 of Articles"><b>Page</b> 6</a></li>
-            	    <li><a href="/articles/7/" title="Page 7 of Articles"><b>Page</b> 7</a></li>
-            	    <li><a href="/articles/8/" title="Page 8 of Articles"><b>Page</b> 8</a></li>
-            	    <li><a href="/articles/9/" title="Page 9 of Articles"><b>Page</b> 9</a></li>
-            	</ol><?php '/.pagination' */ ?>
             	
             	<ol class="articles no-marker">
 
@@ -367,8 +354,7 @@
             	            <p>Happy?</p>
             	            <ul class="meta easy-clearing no-marker">
             	                <li class="permalink"><a href="/articles/now-i-have-rss/"><time datetime="2011-06-02T01:14:15">Jun 2, 2011</time></a></li>
-            	                <li class="comments"><a href="/articles/now-i-have-rss#disqus_thread" data-disqus-identifier="now-i-have-rss"></a></li>
-            	                <?php /* ?><li class="categories"><a href="/channel/C11">design</a>, <a href="http://mahogany.danielmall.com/channel/C10">html</a></li><?php */ ?>
+            	                <li class="comments"><a href="/articles/now-i-have-rss#disqus_thread" data-disqus-identifier="now-i-have-rss"></a></li>            	               
             	            </ul><!-- .meta -->
             	        </article>
             	    </li>        	        
@@ -381,7 +367,6 @@
             	            <ul class="meta easy-clearing no-marker">
             	                <li class="permalink"><a href="/articles/five/"><time datetime="2011-05-30T03:40:00">May 30, 2011</time></a></li>
             	                <li class="comments"><a href="/articles/five#disqus_thread" data-disqus-identifier="five"></a></li>
-            	                <?php /* ?><li class="categories"><a href="/channel/C11">design</a>, <a href="http://mahogany.danielmall.com/channel/C10">html</a></li><?php */ ?>
             	            </ul><!-- .meta -->
             	        </article>
             	    </li>
@@ -405,7 +390,7 @@
                     <li><a href="/articles/categories/design/">Design</a></li>
                     <li><a href="/articles/categories/typography/">Typography</a></li>
                     <li><a href="/articles/categories/conferences/">Conferences</a></li>
-                </ul><?php */ ?>
+                </ul><?php */ ?><?php /* ?>
                 
             </div><!-- /.sub -->
 	
@@ -413,7 +398,7 @@
     		<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/footer.php"); echo "\n"; ?>
 	
 	
-    	</section><!-- /#content -->
+    	</section><!-- /#content --> <?php */ ?>
     	
     	
     </div><!-- .wrap -->
