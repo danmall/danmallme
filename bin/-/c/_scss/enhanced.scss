@@ -52,8 +52,6 @@ http://www.danielmall.com/
     Basic Structure
 -------------------------------------------*/
 
-.masthead-wrap-active { height: auto !important; } /* what a hack */
-
 .hamburger { position: absolute; top: 2.2em; right: 2em; border: none;
     &:hover { border: none; 
         .hamburger-ingredient { background: $green; }

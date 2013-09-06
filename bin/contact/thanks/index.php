@@ -18,7 +18,7 @@
 	        <div class="main">
 
         	    <header>
-            	    <h1 class="phark">Thanks!</h1>
+            	    <h1 class="contact-heading">Thanks!</h1>
             	</header>
             	
             	<p>I&rsquo;ll be back in touch as soon as I can.</p>

@@ -1,4 +1,4 @@
-<div id="masthead-wrap">
+<div id="masthead-wrap" class="masthead-wrap-active">
         
     <section id="masthead" role="banner" class="clearfix">
         <header class="masthead-inner clearfix">

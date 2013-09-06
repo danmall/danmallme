@@ -121,6 +121,8 @@ form { margin: 0 0 1em; }
     input.button:hover { cursor: pointer; }
     input.error, textarea.error { border: 1px solid #ff8f8f; }
 
+    select, textarea { width: 90%; }
+
 code { font: 13px/1 Consolas, 'Courier New', Courier, monospace; color: #999; }
 
 sub, sup { line-height: 0; }

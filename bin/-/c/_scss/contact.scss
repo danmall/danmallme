@@ -1,12 +1,21 @@
 /*-------------------------------------------    
     Contact
 -------------------------------------------*/
-#contact-landing .main, #thanks-landing .main { width: 550px; border: none; border-right: 1px dotted #7f7f7f; padding: 0 30px 0 0; position: relative; }
-    /*#contact-landing .main header h1 { background-image: url(/-/i/contact-dan-headline.png); width: 488px; height: 63px; margin: 0 0 15px; }*/
-    .contact-heading { font: 84px $fontStack; margin: 0; }
+#contact-landing .main, #thanks-landing .main { 
+    @media screen and (min-width: $originalLayout){
+        width: 550px; border: none; border-right: 1px dotted #7f7f7f; padding: 0 30px 0 0; position: relative; 
+    }
+}
+    .contact-heading { font: 84px $fontStack; font-size: 50px; margin: 0; }
+
+    #comment-form input[type="text"], #contact-form input[type="text"], #contact-form select { width: 350px; width: 90%; }
+    // #comment-form textarea, #contact-form textarea { width: 550px; }
     
-#contact-landing .sub, #thanks-landing .sub { width: 170px; padding: 0 0 0 30px; }
-    /*#contact-landing .sub header h1 { background-image: url(/-/i/find-me-elsewhere.png); width: 147px; height: 14px; margin: 25px 0 15px; }*/
+#contact-landing .sub, #thanks-landing .sub { margin: 0 0 3em;
+    @media screen and (min-width: $originalLayout){
+        width: 170px; padding: 0 0 0 30px; 
+    }
+}
     .sidebar-heading { font: 16px $fontStack; margin: 0; color: #888; margin: 0 0 0.85em; }
     #contact-landing .sub ul { margin: 0 0 3em; }
     #contact-landing .sub li { margin: 0 0 1em; }
@@ -31,5 +40,5 @@
 /*-------------------------------------------    
     Thanks
 -------------------------------------------*/   
-#thanks-landing .main { min-height: 400px; }
-    #thanks-landing .main header h1 { background-image: url(/-/i/thanks.png); width: 330px; height: 62px; margin: 0 0 15px; }     
+#thanks-landing .main { min-height: 100px; }
+    /*#thanks-landing .main header h1 { background-image: url(/-/i/thanks.png); width: 330px; height: 62px; margin: 0 0 15px; }*/
