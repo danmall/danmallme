@@ -1,6 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{HTTP_REFERER} !^http://(www\.)?danielmall.com/.*$ [NC]
-RewriteRule \.ttf$ - [F]
-
-Redirect 301 /index.rdf http://feeds.feedburner.com/danielmall-articles
