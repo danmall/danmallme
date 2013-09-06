@@ -1,9 +1,8 @@
 /* fonts */
-$fontStack: 'Stag Web', Georgia, 'Times New Roman', serif;
+$serifStack: 'Stag Web', Georgia, 'Times New Roman', serif;
 
 
 /* colors */
-$navLinkHover: #73ae08; 
 $green: #73ae08; 
 $blackSubstitute: #231f20;
 
@@ -18,3 +17,5 @@ $xlPx: 1280px;
 
 /* assignments */
 $originalLayout: 800px;
+$fontStack: $serifStack;
+$navLinkHover: $green;

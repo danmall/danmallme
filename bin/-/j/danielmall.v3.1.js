@@ -294,7 +294,7 @@ $(document).ready(function(){
                 return false;*/
 
                 if($('.main-nav').hasClass('main-nav-active')){
-                    $('.main-nav').removeClass('main-nav-active');                    
+                    $('.main-nav').removeClass('main-nav-active');                   
                 }else{
                     $('.main-nav').addClass('main-nav-active');
                 }

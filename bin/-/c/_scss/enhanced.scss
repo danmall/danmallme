@@ -45,12 +45,13 @@ http://www.danielmall.com/
     Reusable Elements
 -------------------------------------------*/
 
+
         
 
 /*-------------------------------------------    
     Basic Structure
 -------------------------------------------*/
-.hamburger { position: absolute; top: 2.5em; right: 2em; border: none;
+.hamburger { position: absolute; top: 2.2em; right: 2em; border: none;
     &:hover { border: none; 
         .hamburger-ingredient { background: $green; }
     }
@@ -75,6 +76,8 @@ http://www.danielmall.com/
 
 .main-nav-active { max-height: 300em; }
 
+
+.twitter-enhance { position: absolute; left: -9999px; }
 
 /*-------------------------------------------    
     Carbon Ads
@@ -101,6 +104,7 @@ http://www.danielmall.com/
     }
 }
 
+#tooltip { display: none; }
 @media screen and (min-width: $originalLayout){
     #tooltip { position: absolute; z-index: 3000; border: none; background: rgba(38, 34, 35, 0.9); padding: 15px; width: 220px; }
         #tooltip h1 { color: #fff; margin: 0 0 0.1em; line-height: 1.1; }

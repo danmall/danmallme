@@ -153,17 +153,6 @@
       "initialSize" : 19199,
       "fileType" : 8192
     },
-    "\/bin\/-\/i\/work\/clients\/wrigley.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/clients\/wrigley.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/clients\/wrigley.png",
-      "initialSize" : 6693,
-      "fileType" : 8192
-    },
     "\/bin\/work\/healthymagination\/healthymagination-hero2.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -184,6 +173,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/bin\/work\/always-beautiful\/always-beautiful.png",
       "initialSize" : 2594,
+      "fileType" : 8192
+    },
+    "\/bin\/-\/i\/work\/clients\/wrigley.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/clients\/wrigley.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/clients\/wrigley.png",
+      "initialSize" : 6693,
       "fileType" : 8192
     },
     "\/bin\/-\/i\/about\/linkedin.png" : {
@@ -1456,7 +1456,7 @@
     },
     "\/bin\/-\/c\/enhanced.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/bin\/-\/c\/enhanced.css",
@@ -1494,7 +1494,7 @@
     },
     "\/bin\/-\/c\/danielmall.v3.1.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/bin\/-\/c\/danielmall.v3.1.css",
@@ -1552,17 +1552,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/bin\/-\/i\/work\/typefaces\/garamond.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/typefaces\/garamond.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/typefaces\/garamond.png",
-      "initialSize" : 2088,
-      "fileType" : 8192
-    },
     "\/bin\/-\/i\/work\/browser-chrome-top2.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1573,6 +1562,17 @@
       "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/browser-chrome-top2.jpg",
       "initialSize" : 24435,
       "fileType" : 4096
+    },
+    "\/bin\/-\/i\/work\/typefaces\/garamond.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/typefaces\/garamond.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/typefaces\/garamond.png",
+      "initialSize" : 2088,
+      "fileType" : 8192
     },
     "\/bin\/mint\/app\/paths\/preferences\/preferences.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1892,11 +1892,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/bin\/-\/c\/_scss\/typekit.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/c\/css\/typekit.css",
+      "outputAbbreviatedPath" : "\/bin\/-\/c\/typekit.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1910,6 +1910,17 @@
       "outputAbbreviatedPath" : "\/bin\/mint\/styles\/mint_chocolate\/images\/btn-done.png",
       "initialSize" : 1491,
       "fileType" : 8192
+    },
+    "\/bin\/-\/i\/work\/speaking\/interlink2013.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/interlink2013.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/interlink2013.jpg",
+      "initialSize" : 35151,
+      "fileType" : 4096
     },
     "\/bin\/mint\/pepper\/shauninman\/birdfeeder\/watcher.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1930,17 +1941,6 @@
       "outputAbbreviatedPath" : "\/bin\/articles\/circlesconf2012\/speaker.png",
       "initialSize" : 1964,
       "fileType" : 8192
-    },
-    "\/bin\/-\/i\/work\/speaking\/interlink2013.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/interlink2013.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/interlink2013.jpg",
-      "initialSize" : 35151,
-      "fileType" : 4096
     },
     "\/bin\/articles\/circlesconf2012\/home-thumb.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2150,15 +2150,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-send.png" : {
+    "\/bin\/-\/i\/work\/speaking\/newadventures2012-cta.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-send.png",
+      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/newadventures2012-cta.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-send.png",
-      "initialSize" : 1468,
+      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/newadventures2012-cta.png",
+      "initialSize" : 774,
       "fileType" : 8192
     },
     "\/bin\/articles\/rif-kickoff\/hero.jpg" : {
@@ -2192,15 +2192,15 @@
       "initialSize" : 297674,
       "fileType" : 4096
     },
-    "\/bin\/-\/i\/work\/speaking\/newadventures2012-cta.png" : {
+    "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-send.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/newadventures2012-cta.png",
+      "inputAbbreviatedPath" : "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-send.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/newadventures2012-cta.png",
-      "initialSize" : 774,
+      "outputAbbreviatedPath" : "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-send.png",
+      "initialSize" : 1468,
       "fileType" : 8192
     },
     "\/bin\/articles\/prequalifying-clients\/home-thumb.jpg" : {
@@ -3238,13 +3238,13 @@
     },
     "\/bin\/-\/j\/danielmall.v3.1.min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/bin\/-\/j\/danielmall.v3.1.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/bin\/-\/j\/danielmall.v3.1.min-ck.js",
+      "outputAbbreviatedPath" : "\/bin-static\/-\/j\/danielmall.v3.1.min-ck.js",
       "fileType" : 64
     },
     "\/bin\/articles\/responsive-line-breaks\/responsive-line-breaks.css" : {
@@ -3285,17 +3285,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/bin\/articles\/svg-workflow-for-designers\/i\/imagealpha.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/articles\/svg-workflow-for-designers\/i\/imagealpha.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/articles\/svg-workflow-for-designers\/i\/imagealpha.png",
-      "initialSize" : 28719,
-      "fileType" : 8192
-    },
     "\/bin\/mint\/styles\/mint_chocolate\/images\/btn-uninstall.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3318,17 +3307,6 @@
       "initialSize" : 438283,
       "fileType" : 4096
     },
-    "\/bin\/-\/i\/work\/speaking\/fitctoronto2013.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/fitctoronto2013.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/fitctoronto2013.jpg",
-      "initialSize" : 41733,
-      "fileType" : 4096
-    },
     "\/bin\/work\/crayola\/telling-stories.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3339,6 +3317,17 @@
       "outputAbbreviatedPath" : "\/bin\/work\/crayola\/telling-stories.png",
       "initialSize" : 4371,
       "fileType" : 8192
+    },
+    "\/bin\/-\/i\/work\/speaking\/fitctoronto2013.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/fitctoronto2013.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/fitctoronto2013.jpg",
+      "initialSize" : 41733,
+      "fileType" : 4096
     },
     "\/bin\/work\/star-wars\/home-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -3359,6 +3348,17 @@
       "inputAbbreviatedPath" : "\/bin\/mint\/app\/paths\/install\/configuration.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/bin\/articles\/svg-workflow-for-designers\/i\/imagealpha.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/articles\/svg-workflow-for-designers\/i\/imagealpha.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/articles\/svg-workflow-for-designers\/i\/imagealpha.png",
+      "initialSize" : 28719,
+      "fileType" : 8192
     },
     "\/bin\/mint\/styles\/mint_chocolate\/images\/btn-search.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3696,15 +3696,6 @@
       "initialSize" : 3321,
       "fileType" : 8192
     },
-    "\/bin\/work\/mica\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/work\/mica\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/bin\/-\/i\/work\/typefaces\/berkeley.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3715,6 +3706,15 @@
       "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/typefaces\/berkeley.png",
       "initialSize" : 1794,
       "fileType" : 8192
+    },
+    "\/bin\/work\/mica\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/work\/mica\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/bin\/articles\/svg-workflow-for-designers\/i\/svgo-gui.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3795,11 +3795,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/bin\/-\/c\/_scss\/enhanced.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/c\/css\/enhanced.css",
+      "outputAbbreviatedPath" : "\/bin\/-\/c\/enhanced.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -3825,21 +3825,23 @@
       "initialSize" : 281221,
       "fileType" : 4096
     },
+    "\/bin\/work\/fogbugz\/fogbugz.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/work\/fogbugz\/fogbugz.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/work\/fogbugz\/fogbugz.png",
+      "initialSize" : 2210,
+      "fileType" : 8192
+    },
     "\/bin\/mint\/app\/paths\/record\/js.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/bin\/mint\/app\/paths\/record\/js.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/bin\/work\/design-swap\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/work\/design-swap\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -3854,16 +3856,14 @@
       "initialSize" : 41030,
       "fileType" : 8192
     },
-    "\/bin\/work\/fogbugz\/fogbugz.png" : {
+    "\/bin\/work\/design-swap\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/work\/fogbugz\/fogbugz.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/work\/fogbugz\/fogbugz.png",
-      "initialSize" : 2210,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/bin\/work\/design-swap\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/bin\/work\/crayola\/components.png" : {
       "ignoreWasSetByUser" : 0,
@@ -4747,6 +4747,17 @@
       "initialSize" : 6965,
       "fileType" : 8192
     },
+    "\/bin\/-\/i\/home\/dmall-website-logo4.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/i\/home\/dmall-website-logo4.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/i\/home\/dmall-website-logo4.png",
+      "initialSize" : 12925,
+      "fileType" : 8192
+    },
     "\/bin\/articles\/the-post-psd-era\/the-post-psd-era.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4765,17 +4776,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/bin\/work\/logos\/assorted-logos.png",
       "initialSize" : 2648,
-      "fileType" : 8192
-    },
-    "\/bin\/-\/i\/home\/dmall-website-logo4.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/-\/i\/home\/dmall-website-logo4.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/i\/home\/dmall-website-logo4.png",
-      "initialSize" : 12925,
       "fileType" : 8192
     },
     "\/bin\/work\/four24\/four24-hero.jpg" : {
@@ -4971,17 +4971,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/bin\/work\/activate\/activate-awards.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/work\/activate\/activate-awards.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/work\/activate\/activate-awards.png",
-      "initialSize" : 44532,
-      "fileType" : 8192
-    },
     "\/bin\/articles\/now-i-have-rss\/now-i-have-rss.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -5000,6 +4989,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/bin\/articles\/rif-design-flexibility\/header1.png",
       "initialSize" : 33644,
+      "fileType" : 8192
+    },
+    "\/bin\/work\/activate\/activate-awards.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/work\/activate\/activate-awards.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/work\/activate\/activate-awards.png",
+      "initialSize" : 44532,
       "fileType" : 8192
     },
     "\/bin\/-\/i\/work\/typefaces\/verdana.png" : {
@@ -5999,11 +5999,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/bin\/-\/j\/danielmall.v3.1.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/bin\/-\/j\/danielmall.v3.1-ck.js",
+      "outputAbbreviatedPath" : "\/bin\/-\/j\/danielmall.v3.1.min.js",
       "fileType" : 64
     },
     "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-continue.png" : {
@@ -6059,7 +6059,7 @@
     },
     "\/bin\/-\/j\/libs\/jquery.lettering.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/bin\/-\/j\/libs\/jquery.lettering.js",
@@ -6090,6 +6090,17 @@
       "initialSize" : 4901,
       "fileType" : 8192
     },
+    "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-confirm.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-confirm.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-confirm.png",
+      "initialSize" : 1602,
+      "fileType" : 8192
+    },
     "\/bin\/work\/star-wars\/star-wars-hero.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -6111,17 +6122,6 @@
       "outputAbbreviatedPath" : "\/bin\/work\/mica\/mica-hero.jpg",
       "initialSize" : 172574,
       "fileType" : 4096
-    },
-    "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-confirm.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-confirm.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-confirm.png",
-      "initialSize" : 1602,
-      "fileType" : 8192
     },
     "\/bin\/articles\/responsive-line-breaks\/home-thumb.png" : {
       "ignoreWasSetByUser" : 0,
@@ -6926,17 +6926,6 @@
       "initialSize" : 26438,
       "fileType" : 8192
     },
-    "\/bin\/-\/i\/publications-dotnet.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/-\/i\/publications-dotnet.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/i\/publications-dotnet.jpg",
-      "initialSize" : 34177,
-      "fileType" : 4096
-    },
     "\/bin\/-\/i\/work\/typefaces\/georgia.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -6947,6 +6936,17 @@
       "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/typefaces\/georgia.png",
       "initialSize" : 2466,
       "fileType" : 8192
+    },
+    "\/bin\/-\/i\/publications-dotnet.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/i\/publications-dotnet.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/i\/publications-dotnet.jpg",
+      "initialSize" : 34177,
+      "fileType" : 4096
     },
     "\/bin\/work\/crayola\/responsive.png" : {
       "ignoreWasSetByUser" : 0,
@@ -6972,17 +6972,17 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/bin\/-\/c\/_scss\/main.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/c\/css\/main.css",
+      "outputAbbreviatedPath" : "\/bin\/-\/c\/danielmall.v3.1.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
     "\/bin\/-\/c\/typekit.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/bin\/-\/c\/typekit.css",
@@ -7265,7 +7265,13 @@
     }
   },
   "manualImportLinks" : [
-
+    {
+      "type" : 0,
+      "position" : 0,
+      "linkedFileAbbreviatedPath" : "\/bin\/-\/j\/libs\/jquery.lettering.js",
+      "baseFileAbbreviatedPath" : "\/bin\/-\/j\/danielmall.v3.1.js",
+      "followForSyntaxChecking" : 1
+    }
   ],
   "projectSettings" : {
     "hamlNoEscapeInAttributes" : 0,

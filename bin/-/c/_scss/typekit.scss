@@ -12,8 +12,8 @@ http://www.danielmall.com/
 */
 
 
-
-
+@import 'bourbon';
+@import 'variables.scss';
 
 /*-------------------------------------------    
     General Selectors
@@ -41,8 +41,10 @@ blockquote p { line-height: 1.2; }
     Basic Structure
 -------------------------------------------*/
 .logo {
-    &:after { font: 16px "urbana-1","urbana-2"; font-weight: 300; top: 13px; left: 75px; }
-    &:hover:after { left: 85px; }
+    @media screen and (min-width: $originalLayout){
+        &:after { font: 16px "urbana-1","urbana-2"; font-weight: 300; top: -2px; left: 75px; }
+        &:hover:after { left: 90px; }
+    }
 }
 
 

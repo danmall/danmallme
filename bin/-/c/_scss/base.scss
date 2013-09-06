@@ -267,19 +267,19 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
 
     .logo { position: relative; 
         a { border: none; }
-        /*&:after { 
+        &:after { 
             @media screen and (min-width: $originalLayout){
-                display: block; content: "Back to the Home Page"; font-family: $fontStack; font-size: 14px; color: #aaa; position: absolute; width: 22em; top: -10px; left: 83px; @include transition (all 0.5s ease-out); opacity: 0; z-index: 2000; 
+                display: block; content: "Back to the Home Page"; font-family: $fontStack; font-size: 14px; color: #aaa; position: absolute; width: 22em; top: -5px; left: 83px; @include transition (all 0.5s ease-out); opacity: 0; z-index: 2000; 
             }
         }
         &:hover:after { 
             @media screen and (min-width: $originalLayout){
                 left: 93px; opacity: 1;
             }
-        }*/
+        }
     }
 
-    .logo-link { background: transparent url(/-/s/dmall-website-logo-small2.svg) no-repeat 0 0; width: 180px; height: 180px; position: absolute; top: -107px; left: -70px; z-index: 2001; }
+    .logo-link { background: transparent url(/-/s/dmall-website-logo-small2.svg) no-repeat 0 0; width: 180px; height: 180px; position: absolute; top: -107px; left: -65px; z-index: 2001; }
 
     #masthead {
         @media screen and (min-width: $originalLayout){
@@ -299,10 +299,15 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
                 float: left; margin: 0 0 0 3em; border: none;
             }
 
-            a, mark { font-family: $fontStack; font-size: 14px; color: $blackSubstitute; border: none;
+            a, mark { font-family: $fontStack; color: $blackSubstitute; border: none; font-size: 34px; display: block; padding: 0.25em 0 0.25em 0.5em; margin: 0;
+                @media screen and (min-width: $originalLayout){
+                    font-size: 14px; padding: 0;
+                }
+
                 &:hover { color: $navLinkHover; }
             }
-            mark { color: $navLinkHover; }
+
+            mark { color: $navLinkHover; } 
 
         }
 
@@ -347,16 +352,18 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
                     margin: 0 0 0 2em;
                 }
 
-                a { font-size: 34px; display: block; padding: 0.25em 0 0.25em 0.5em; margin: 0;
+                a { 
                     @media screen and (min-width: $originalLayout){
                         font-size: 17px; 
                     }
-                }                
+                }               
             }
     }
 
-@media screen and (min-width: $originalLayout){    
-    .wrap, .wrap800 { width: 800px; margin: 0 auto; }
+.wrap, .wrap800 { margin: 0 auto; width: 95%;
+    @media screen and (min-width: $originalLayout){    
+         width: 800px; margin: 0 auto;
+    }
 }
 
 .site-footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margin-bottom: 50px; padding: 1em 0 1.5em; font-family: 'Trebuchet MS', Arial, sans-serif; clear: both; 
@@ -417,7 +424,7 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
         padding-left: 10px;   
     }
     @media screen and (min-width: $originalLayout){
-        width: 100%; background: #f7f7f7; border-bottom: 1px solid #dedede; position: relative; border-top: 4px solid #f7f7f7; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear;
+        width: 100%; background: #f7f7f7; border-bottom: 1px solid #dedede; position: relative; border-top: 4px solid #f7f7f7; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; padding-left: 0;
     }
 
     &:hover {
