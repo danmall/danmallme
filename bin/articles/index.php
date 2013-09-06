@@ -22,7 +22,7 @@
             	    <h2>Signed, sealed, delivered&hellip; I&rsquo;m yours!</h2>
             	</hgroup>
             	
-            	<ol class="articles no-marker">
+            	<ol class="article-list articles no-marker">
 
                     <li>
                         <article>

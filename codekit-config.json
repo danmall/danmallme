@@ -153,17 +153,6 @@
       "initialSize" : 19199,
       "fileType" : 8192
     },
-    "\/bin\/-\/i\/work\/clients\/wrigley.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/clients\/wrigley.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/clients\/wrigley.png",
-      "initialSize" : 6693,
-      "fileType" : 8192
-    },
     "\/bin\/work\/healthymagination\/healthymagination-hero2.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -184,6 +173,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/bin\/work\/always-beautiful\/always-beautiful.png",
       "initialSize" : 2594,
+      "fileType" : 8192
+    },
+    "\/bin\/-\/i\/work\/clients\/wrigley.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/clients\/wrigley.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/clients\/wrigley.png",
+      "initialSize" : 6693,
       "fileType" : 8192
     },
     "\/bin\/-\/i\/about\/linkedin.png" : {
@@ -780,17 +780,6 @@
       "initialSize" : 1132,
       "fileType" : 8192
     },
-    "\/bin\/-\/i\/work\/work-content-bg.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/work-content-bg.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/work-content-bg.jpg",
-      "initialSize" : 379,
-      "fileType" : 4096
-    },
     "\/bin\/articles\/svg-workflow-for-designers\/i\/photoshop-measuring.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -801,6 +790,17 @@
       "outputAbbreviatedPath" : "\/bin\/articles\/svg-workflow-for-designers\/i\/photoshop-measuring.png",
       "initialSize" : 7604,
       "fileType" : 8192
+    },
+    "\/bin\/-\/i\/work\/work-content-bg.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/work-content-bg.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/work-content-bg.jpg",
+      "initialSize" : 379,
+      "fileType" : 4096
     },
     "\/bin\/work\/logos\/morsel-project-bg.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1067,6 +1067,18 @@
       "outputAbbreviatedPath" : "\/bin\/articles\/svg-workflow-for-designers\/i\/photoshop-new.png",
       "initialSize" : 15429,
       "fileType" : 8192
+    },
+    "\/bin\/-\/c\/_scss\/contact.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/c\/_scss\/contact.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/c\/css\/contact.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/bin\/work\/preventiv\/preventiv-hero.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2142,6 +2154,17 @@
       "initialSize" : 5185,
       "fileType" : 8192
     },
+    "\/bin\/work\/planeteye\/planeteye-hero2.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/work\/planeteye\/planeteye-hero2.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/work\/planeteye\/planeteye-hero2.jpg",
+      "initialSize" : 269354,
+      "fileType" : 4096
+    },
     "\/bin\/about\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2150,17 +2173,6 @@
       "inputAbbreviatedPath" : "\/bin\/about\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/bin\/articles\/rif-kickoff\/hero.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/articles\/rif-kickoff\/hero.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/articles\/rif-kickoff\/hero.jpg",
-      "initialSize" : 59339,
-      "fileType" : 4096
     },
     "\/bin\/-\/i\/work\/speaking\/newadventures2012-cta.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2204,15 +2216,27 @@
       "initialSize" : 297674,
       "fileType" : 4096
     },
-    "\/bin\/work\/planeteye\/planeteye-hero2.jpg" : {
+    "\/bin\/-\/c\/_scss\/global.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/c\/_scss\/global.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/c\/css\/global.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/bin\/articles\/rif-kickoff\/hero.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/work\/planeteye\/planeteye-hero2.jpg",
+      "inputAbbreviatedPath" : "\/bin\/articles\/rif-kickoff\/hero.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/work\/planeteye\/planeteye-hero2.jpg",
-      "initialSize" : 269354,
+      "outputAbbreviatedPath" : "\/bin\/articles\/rif-kickoff\/hero.jpg",
+      "initialSize" : 59339,
       "fileType" : 4096
     },
     "\/bin\/articles\/prequalifying-clients\/home-thumb.jpg" : {
@@ -2648,6 +2672,18 @@
       "initialSize" : 743994,
       "fileType" : 8192
     },
+    "\/bin\/-\/c\/_scss\/home.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/c\/_scss\/home.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/c\/css\/home.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/bin\/-\/i\/work\/project-nav-over2.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2840,17 +2876,6 @@
       "initialSize" : 6134,
       "fileType" : 8192
     },
-    "\/bin\/-\/i\/work\/typefaces\/didot.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/typefaces\/didot.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/typefaces\/didot.png",
-      "initialSize" : 1516,
-      "fileType" : 8192
-    },
     "\/bin\/mint\/app\/paths\/util\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2868,6 +2893,17 @@
       "inputAbbreviatedPath" : "\/bin\/work\/jetwaders\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/bin\/-\/i\/work\/typefaces\/didot.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/typefaces\/didot.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/typefaces\/didot.png",
+      "initialSize" : 1516,
+      "fileType" : 8192
     },
     "\/bin\/work\/preventiv\/index.php" : {
       "ignoreWasSetByUser" : 0,
@@ -3053,17 +3089,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/bin\/articles\/rif-kickoff\/home-thumb.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/articles\/rif-kickoff\/home-thumb.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/articles\/rif-kickoff\/home-thumb.jpg",
-      "initialSize" : 11381,
-      "fileType" : 4096
-    },
     "\/bin\/mint\/styles\/mint_chocolate\/images\/btn-install.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3074,6 +3099,17 @@
       "outputAbbreviatedPath" : "\/bin\/mint\/styles\/mint_chocolate\/images\/btn-install.png",
       "initialSize" : 1502,
       "fileType" : 8192
+    },
+    "\/bin\/articles\/rif-kickoff\/home-thumb.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/articles\/rif-kickoff\/home-thumb.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/articles\/rif-kickoff\/home-thumb.jpg",
+      "initialSize" : 11381,
+      "fileType" : 4096
     },
     "\/bin\/articles\/leaving-four24\/typekit.css" : {
       "ignoreWasSetByUser" : 0,
@@ -3146,6 +3182,15 @@
       "initialSize" : 1684,
       "fileType" : 8192
     },
+    "\/bin\/mint\/app\/paths\/feedback\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/mint\/app\/paths\/feedback\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/bin\/-\/i\/twitter_16.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3156,15 +3201,6 @@
       "outputAbbreviatedPath" : "\/bin\/-\/i\/twitter_16.png",
       "initialSize" : 608,
       "fileType" : 8192
-    },
-    "\/bin\/mint\/app\/paths\/feedback\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/mint\/app\/paths\/feedback\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-uninstall.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3247,6 +3283,18 @@
       "outputAbbreviatedPath" : "\/bin\/-\/i\/publications-cold-war.jpg",
       "initialSize" : 21609,
       "fileType" : 4096
+    },
+    "\/bin\/-\/c\/_scss\/modules.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/c\/_scss\/modules.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/c\/css\/modules.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/bin\/-\/j\/danielmall.v3.1.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -4315,17 +4363,6 @@
       "initialSize" : 13634,
       "fileType" : 4096
     },
-    "\/bin\/articles\/why-i-love-the-netflix-redesign\/netflix.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/articles\/why-i-love-the-netflix-redesign\/netflix.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/articles\/why-i-love-the-netflix-redesign\/netflix.jpg",
-      "initialSize" : 112760,
-      "fileType" : 4096
-    },
     "\/bin\/articles\/grok-reads\/i\/grok-reads.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4335,6 +4372,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/bin\/articles\/grok-reads\/i\/grok-reads.jpg",
       "initialSize" : 51596,
+      "fileType" : 4096
+    },
+    "\/bin\/articles\/why-i-love-the-netflix-redesign\/netflix.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/articles\/why-i-love-the-netflix-redesign\/netflix.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/articles\/why-i-love-the-netflix-redesign\/netflix.jpg",
+      "initialSize" : 112760,
       "fileType" : 4096
     },
     "\/bin\/work\/speaking\/index.php" : {
@@ -4510,17 +4558,6 @@
       "initialSize" : 3732,
       "fileType" : 8192
     },
-    "\/bin\/-\/i\/work\/speaking\/sxsw2011-cta.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/sxsw2011-cta.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/sxsw2011-cta.png",
-      "initialSize" : 2873,
-      "fileType" : 8192
-    },
     "\/bin\/articles\/you-the-conference-organizer\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4529,6 +4566,17 @@
       "inputAbbreviatedPath" : "\/bin\/articles\/you-the-conference-organizer\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-back.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-back.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-back.png",
+      "initialSize" : 1448,
+      "fileType" : 8192
     },
     "\/bin\/-\/c\/_scss\/fonts.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -4542,15 +4590,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-back.png" : {
+    "\/bin\/-\/i\/work\/speaking\/sxsw2011-cta.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-back.png",
+      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/sxsw2011-cta.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-back.png",
-      "initialSize" : 1448,
+      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/sxsw2011-cta.png",
+      "initialSize" : 2873,
       "fileType" : 8192
     },
     "\/bin\/articles\/superfriendly-annual-report-2012\/superfriendly-annual-report-2012.css" : {
@@ -4945,15 +4993,6 @@
       "initialSize" : 32126,
       "fileType" : 8192
     },
-    "\/bin\/mint\/pepper\/shauninman\/debugger\/class.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/mint\/pepper\/shauninman\/debugger\/class.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/bin\/articles\/object-value-pricing\/object-value-pricing.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4965,21 +5004,21 @@
       "initialSize" : 3797,
       "fileType" : 8192
     },
-    "\/bin\/mint\/pepper\/shauninman\/secretcrush\/class.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/mint\/pepper\/shauninman\/secretcrush\/class.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/bin\/work\/crayola\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/bin\/work\/crayola\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/bin\/mint\/pepper\/shauninman\/secretcrush\/class.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/mint\/pepper\/shauninman\/secretcrush\/class.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -4993,6 +5032,18 @@
       "outputAbbreviatedPath" : "\/bin\/work\/activate\/activate-awards.png",
       "initialSize" : 44532,
       "fileType" : 8192
+    },
+    "\/bin\/-\/c\/_scss\/about.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/c\/_scss\/about.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/c\/css\/about.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/bin\/articles\/now-i-have-rss\/now-i-have-rss.css" : {
       "ignoreWasSetByUser" : 0,
@@ -5013,6 +5064,15 @@
       "outputAbbreviatedPath" : "\/bin\/articles\/rif-design-flexibility\/header1.png",
       "initialSize" : 33644,
       "fileType" : 8192
+    },
+    "\/bin\/mint\/pepper\/shauninman\/debugger\/class.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/mint\/pepper\/shauninman\/debugger\/class.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/bin\/-\/i\/work\/typefaces\/verdana.png" : {
       "ignoreWasSetByUser" : 0,
@@ -5429,17 +5489,6 @@
       "initialSize" : 951,
       "fileType" : 8192
     },
-    "\/bin\/work\/four24\/four24-hero2.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/work\/four24\/four24-hero2.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/work\/four24\/four24-hero2.jpg",
-      "initialSize" : 147081,
-      "fileType" : 4096
-    },
     "\/bin\/articles\/circlesconf2012\/circles-logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -5472,6 +5521,17 @@
       "outputAbbreviatedPath" : "\/bin\/-\/i\/about\/hc.png",
       "initialSize" : 2386,
       "fileType" : 8192
+    },
+    "\/bin\/work\/four24\/four24-hero2.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/work\/four24\/four24-hero2.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/work\/four24\/four24-hero2.jpg",
+      "initialSize" : 147081,
+      "fileType" : 4096
     },
     "\/bin\/articles\/five\/wow.png" : {
       "ignoreWasSetByUser" : 0,
@@ -5783,6 +5843,18 @@
       "initialSize" : 50528,
       "fileType" : 4096
     },
+    "\/bin\/-\/c\/_scss\/rifNav.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/c\/_scss\/rifNav.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/c\/css\/rifNav.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/bin\/articles\/grok-reads\/i\/design-is-a-job.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -5887,21 +5959,21 @@
       "initialSize" : 1925,
       "fileType" : 8192
     },
-    "\/bin\/-\/_inc\/doctype.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/-\/_inc\/doctype.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/bin\/mint\/pepper\/shauninman\/outbound\/click.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/bin\/mint\/pepper\/shauninman\/outbound\/click.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/bin\/-\/_inc\/doctype.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/_inc\/doctype.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6102,6 +6174,18 @@
       "initialSize" : 4901,
       "fileType" : 8192
     },
+    "\/bin\/-\/c\/_scss\/structure.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/c\/_scss\/structure.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/c\/css\/structure.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-confirm.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -6122,17 +6206,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/bin\/work\/star-wars\/star-wars-hero.jpg",
       "initialSize" : 383373,
-      "fileType" : 4096
-    },
-    "\/bin\/work\/mica\/mica-hero.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/work\/mica\/mica-hero.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/work\/mica\/mica-hero.jpg",
-      "initialSize" : 172574,
       "fileType" : 4096
     },
     "\/bin\/articles\/responsive-line-breaks\/home-thumb.png" : {
@@ -6156,6 +6229,17 @@
       "outputAbbreviatedPath" : "\/bin\/articles\/superfriendly-annual-report-2012\/pie.png",
       "initialSize" : 15307,
       "fileType" : 8192
+    },
+    "\/bin\/work\/mica\/mica-hero.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/work\/mica\/mica-hero.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/work\/mica\/mica-hero.jpg",
+      "initialSize" : 172574,
+      "fileType" : 4096
     },
     "\/bin\/-\/i\/work\/typefaces\/tungsten.png" : {
       "ignoreWasSetByUser" : 0,
@@ -6315,6 +6399,18 @@
       "outputAbbreviatedPath" : "\/bin\/articles\/photoshop-clusters\/home-thumb.jpg",
       "initialSize" : 10281,
       "fileType" : 4096
+    },
+    "\/bin\/-\/c\/_scss\/work.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/c\/_scss\/work.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/c\/css\/work.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/bin\/work\/star-wars\/star-wars2.png" : {
       "ignoreWasSetByUser" : 0,
@@ -6757,6 +6853,17 @@
       "initialSize" : 72751,
       "fileType" : 4096
     },
+    "\/bin\/work\/healthymagination\/hm-home.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/work\/healthymagination\/hm-home.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/work\/healthymagination\/hm-home.jpg",
+      "initialSize" : 165507,
+      "fileType" : 4096
+    },
     "\/bin\/work\/logos\/morsel-hero.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -6777,17 +6884,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/fowd2010.jpg",
       "initialSize" : 36675,
-      "fileType" : 4096
-    },
-    "\/bin\/work\/healthymagination\/hm-home.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/work\/healthymagination\/hm-home.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/work\/healthymagination\/hm-home.jpg",
-      "initialSize" : 165507,
       "fileType" : 4096
     },
     "\/bin\/work\/logos\/morsel.png" : {
@@ -6938,17 +7034,6 @@
       "initialSize" : 26438,
       "fileType" : 8192
     },
-    "\/bin\/-\/i\/work\/typefaces\/georgia.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/typefaces\/georgia.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/typefaces\/georgia.png",
-      "initialSize" : 2466,
-      "fileType" : 8192
-    },
     "\/bin\/-\/i\/publications-dotnet.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -6959,6 +7044,17 @@
       "outputAbbreviatedPath" : "\/bin\/-\/i\/publications-dotnet.jpg",
       "initialSize" : 34177,
       "fileType" : 4096
+    },
+    "\/bin\/-\/i\/work\/typefaces\/georgia.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/typefaces\/georgia.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/typefaces\/georgia.png",
+      "initialSize" : 2466,
+      "fileType" : 8192
     },
     "\/bin\/work\/crayola\/responsive.png" : {
       "ignoreWasSetByUser" : 0,

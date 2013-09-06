@@ -9,14 +9,18 @@
     }
 }
 
-ol.articles { border-top: 1px dotted #7f7f7f; }
-ol.articles > li, #tweets li { padding: 1.25em 40px 0; border-bottom: 1px dotted #7f7f7f; }
-ol.articles > li:last-child { border-bottom: none; }
+.article-list { border-top: 1px dotted #7f7f7f; }
+.article-list > li { /*padding: 1.25em 40px 0;*/ padding: 1em 0 0; border-bottom: 1px dotted #7f7f7f; }
+.article-list > li:last-child { border-bottom: none; }
+    .article-list h1 { margin: 0 0 0.2em; line-height: 1.2; }
+        .article-list h1 a { color: #231f20; border-color: #b2b2b2; }
+        .article-list h1 a:hover, .article-list h1 a:focus { color: #73ae08; }
 
 .meta { font: 78% 'Trebuchet MS', Arial, sans-serif; margin: 0; text-transform: uppercase; letter-spacing: 0.25em; color: #a2a2a2; width: 100%; }
-ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
-    .meta li { float: left; border-left: 1px solid #e5e5e5; }
+.article-list .meta, #tweets .meta { position: relative; left: -10px; }
+    .meta li { float: left; border-left: 1px solid #e5e5e5; }    
     .meta li:first-child { border: none; }
+    .meta .comments { min-width: 50%; }
         .meta a { color: #a2a2a2; border: none; display: block; }
         .meta a:hover, .meta a:focus { color: #73ae08; }
     .categories, .meta a { padding: 0.75em 10px; }
@@ -31,6 +35,7 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
     
 .comment-list { font: 12px 'Trebuchet MS', Arial, sans-serif; }    
     .comment-list header { position: relative; padding: 1.5em 0 0; }
+        .comment-list h1 { font: normal 16px 'Trebuchet MS', Arial, sans-serif; color: #231f20; }
         .comment-list header time { position: absolute; top: 0; }
         .comment-list header time a { color: #cfcfcf; font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.1em; border: none; }
         .comment-list header time a:hover, .comment-list header time a:focus { color: #aaa; }
@@ -38,7 +43,11 @@ ol.articles .meta, #tweets .meta { position: relative; left: -10px; }
         .comment-list p { font-size: 12px; }
         .gravatar { position: absolute; top: 0; left: -60px; float: none; margin: 0; }
         
-.main, .sub { float: left; }
+.main, .sub { 
+    @media screen and (min-width: $originalLayout){
+        float: left; 
+    }
+}
 
 .work-meta dt { font: 14px 'Trebuchet MS', Arial, sans-serif; color: #cecece; text-transform: uppercase; letter-spacing: 0.1em; }
 .work-meta dd { font-style: italic; }
