@@ -285,6 +285,8 @@ $(document).ready(function(){
 
         hamburgerNav: function(){
 
+            $('#masthead-wrap').removeClass('masthead-wrap-active');
+
             $('.hamburger').click(function(){
                 /*if($('.main-nav').is(':hidden')){
                     $('.main-nav').slideDown();

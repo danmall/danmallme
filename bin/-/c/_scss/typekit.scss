@@ -114,10 +114,12 @@ blockquote p { line-height: 1.2; }
 -------------------------------------------*/
 #about-landing #content h1 { font-size: 22px; font-family: "urbana-1","urbana-2"; font-weight: 600; margin-bottom: 0.25em; }
 
-#history th { font-size: 18px; font-family: "urbana-1","urbana-2"; font-weight: 600; color: #fff; opacity: 1; padding-top: 0.75em; }
-
 #fact-soda dd, .hey-look { font-size: 60px; font-family: "gloriola-display-thin-1","gloriola-display-thin-2"; top: 60px; line-height: 1; }
-.hey-look { font-size: 30px; }
+    .hey-look { font-size: 30px; }
+
+@media screen and (min-width: $originalLayout){    
+    #history th { font-size: 18px; font-family: "urbana-1","urbana-2"; font-weight: 600; color: #fff; opacity: 1; padding-top: 0.75em; }    
+}
 
 /*-------------------------------------------    
     Contact

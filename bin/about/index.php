@@ -74,7 +74,7 @@
         	                <p id="linkedin"><span>More at</span> <a class="phark" href="http://www.linkedin.com/in/danielmall">LinkedIn</a></p>
         	            </hgroup>
     	            
-        	            <table>
+        	            <table class="history-table">
         	                <caption class="offscreen">A brief professional history</caption>
         	                <tr id="tmx">
         	                    <th>2004</th>
