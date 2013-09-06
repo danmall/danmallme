@@ -374,7 +374,7 @@ $(document).ready(function(){
     
     // WORK
     dmall.initClientsRollOver();
-    dmall.animateWorkLandingElements();
+    //dmall.animateWorkLandingElements();
     dmall.moveLikeButton();
     dmall.fadeInTitle();
     dmall.initProjectNavTooltip();

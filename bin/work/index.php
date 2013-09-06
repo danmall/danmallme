@@ -74,7 +74,6 @@
 		                    <li style="top: -25px; left: 220px;"><a href="/work/design-swap/">Design Swap</a></li>
 		                    <li style="top: 75px; left: 340px;"><a href="/work/morsel/">Morsel</a></li>
 		                    <li style="top: -15px; left: 490px;"><a href="/work/always-beautiful/">Always Beautiful</a></li>
-		                    <?php /* ?><li style="top: 125px; left: 120px;"><a href="/work/doghouse/">Doghouse</a></li><?php */ ?>
 		                    <li style="top: 135px; left: 480px;"><a href="/work/transformers/"><span style="display: block;">Transformers: </span>War for Cybertron Pitch</a></li>
 		                </ul>
 		            </li>
@@ -101,7 +100,6 @@
 		            <li id="year2007">
 		                <h2>2007</h2>
 		                <ul class="projects">
-		                    <?php /* ?><li style="top: -15px; left: 420px;"><a href="/work/parc-rittenhouse/">Parc Rittenhouse</a></li><?php */ ?>
 		                    <li style="top: -40px; left: 130px;"><a href="/work/krylon/">Krylon</a></li>
 		                    <li style="top: 20px; left: 360px;"><a href="/work/fogbugz/">Fogbugz</a></li>
 		                </ul>
@@ -112,89 +110,11 @@
 		                    <li style="top: -40px; left: 230px;"><a href="/work/logos/">Assorted Logos</a></li>
 		                </ul>
 		            </li>
-		            <?php /* ?>
-		            <li id="year2006">
-		                <h2>2006</h2>
-		                <ul class="projects">
-		                    <li style="top: -35px; left: 210px;"><a href="/work/swfir/">swfIR</a></li>
-		                </ul>
-		            </li>
-		            <?php */ ?>
 		        </ul>
 		        
 		    </section><!-- #by-year -->
-		    
-		    <?php /* ?>
-		    <section id="clients" class="sub">
-		        
-		        <h1>Clients I couldn&rsquo;t live without</h1>
-		        <ul class="no-marker">
-		            <li>.<abbr>NET</abbr> Magazine</li>
-                    <li>6<abbr>ABC</abbr></li>
-                    <li><a href="/work/transformers/">Activision Blizzard</a></li>
-                    <li>American College of Physicians</li>
-                    <li>American Committee for the Weizmann Institute of Science</li>
-                    <li><abbr>ANRO</abbr> Inc.</li>
-                    <li>Aquent</li>
-                    <li>Association of Corporate Counsel
-                    <li>Books•A•Million</li>
-                    <li>Boston Magazine</li>
-                    <li>Carlisle Wide Plank Floors</li>
-                    <li><abbr>CFM</abbr> Direct</li>
-                    <li>Comhaltas</li>
-                    <li><a href="/work/crayola/">Crayola</a></li>
-                    <li>Daily Kos</li>
-                    <li>Disney</li>
-                    <li>Electrolux</li>
-                    <li>Environmental Defense</li>
-                    <li>Epix</li>
-                    <li><abbr title="Entertainment and Sports Programming Network">ESPN</abbr></li>
-                    <li>Exxon</li>
-                    <li>Fetch Softworks</li>
-                    <li>Fog Creek Software</li>
-                    <li><a href="/work/four24/">Four24</a></li>
-                    <li>Franklin Templeton</li>
-                    <li>Friends of <abbr title="Every Designer">ED</abbr></li>
-                    <li><a href="/work/healthymagination/">General Electric</a></li>
-                    <li>Geosign Corporation</li>
-                    <li>Google</li>
-                    <li>Greater Philadelphia Tourism &amp; Marketing Corporation</li>
-                    <li>Grist</li>
-                    <li>Hill Holliday</li>
-                    <li><a href="/work/housing-works/">Housing Works</a></li>
-                    <li>HygeaShare</li>
-                    <li><a href="/work/jetwaders/">JetWaders</a></li>
-                    <li>Juniper</li>
-                    <li>Kansas City Chiefs</li>
-                    <li>Kenneth Copeland Ministries</li>
-                    <li>Kongregate</li>
-                    <li><a href="/work/star-wars/">Lucasfilm</a></li>
-                    <li><a href="/work/barbie/">Mattel</a></li>
-                    <li><a href="/work/mica/">Maryland Institute College of Art</a></li>
-                    <li>Mozilla Foundation</li>
-                    <li>MusicIP</li>
-                    <li>Netscape <abbr>AOL</abbr></li>
-                    <li>Paramount Vantage</li>
-                    <li>Philadelphia Magazine</li>
-                    <li><a href="/work/planeteye/">PlanetEye</a></li>
-                    <li><a href="/work/posse/">The Posse Foundation</a></li>
-                    <li><a href="/work/preventiv/">Pr&eacute;ventiv Water</a></li>
-                    <li>PulseTracer</li>
-                    <li>Reebok</li>
-                    <li><a href="/work/krylon/">Sherwin-Williams</a></li>
-                    <li>SmartyPig</li>
-                    <li>Tangent Energy</li>
-                    <li>T. Rowe Price</li>
-                    <li>Thomson Reuters</li>
-                    <li>Tideway Systems</li>
-                    <li>Verizon</li>
-                    <li>Wharton School of Business</li>
-                    <li>Wrigley</li>
-                    <li><abbr>ZS</abbr> Associates</li>
-		        </ul>
-                
-		    </section><!-- #clients --><?php */ ?>
             
+            <?php /* ?>
             <section id="by-client">
                 
                 <ul class="client-grid no-marker clearfix">
@@ -1027,7 +947,7 @@
                     
                 </ol><!-- .typeface-list -->
                 
-            </section><!--#by-typeface -->
+            </section><!--#by-typeface --><?php */ ?>
 		
     	</section><!-- #content -->
     	

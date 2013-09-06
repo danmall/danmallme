@@ -1,10 +1,19 @@
 /*-------------------------------------------    
     Work
 -------------------------------------------*/
-.work-heading { text-align: center; font: 700 141px/1 $fontStack; color: $blackSubstitute; margin: 0; 
-    .char6 { margin-left: -11px; }
-    .char7 { margin-left: -2px; }
-    .char8 { margin-left: -5px; }
+.work-heading { text-align: center; font: 700 60px/1 $fontStack; color: $blackSubstitute; margin: 0; 
+    .char6 { margin-left: -5px; }
+    .char7 { margin-left: -1px; }
+    .char8 { margin-left: -2px; }    
+}
+
+@media screen and (min-width: $originalLayout){
+    .work-heading { font-size: 141px; 
+        .char6 { margin-left: -11px; }
+        .char7 { margin-left: -2px; }
+        .char8 { margin-left: -5px; }
+    }   
+    
 }
 
 #the-work h2 { text-align: center; font-weight: normal; font-size: 12px; margin-bottom: 50px; } 
@@ -12,8 +21,8 @@
 #work-landing #content { border-top: 1px dotted #7f7f7f; position: relative; z-index: 2; }
 
     .work-tabs { background: #f7f7f7; border-bottom: 1px dotted #7f7f7f; float: left; width: 100%; }
-        .work-tabs ul { margin: 0; position: relative; left: 50%; float: left; }
-            .work-tabs li { float: left; position: relative; right: 50%; margin-left: 2em; }
+        .work-tabs ul { margin: 0; position: relative; /*left: 50%; float: left;*/ text-align: center; }
+            .work-tabs li { /*float: left; position: relative; right: 50%;*/ margin-left: 2em; display: inline-block; }
             .work-tabs li:first-child { margin-left: 0; }
                 .work-tabs a { display: block; padding: 1em 0.5em; border: none; }
                 
@@ -110,21 +119,35 @@
             .in-use li:before { content: ", "; position: relative; left: -0.2em; }
             .in-use li:first-child:before { content: ""; }
 
-    .tab-nav { text-align: center; margin: 0; 
+    .tab-nav { 
+        @media screen and (min-width: $originalLayout){
+            text-align: center; margin: 0; 
+        }
         ul { margin: 0; }
     }
-        .tab-nav-item { display: inline-block; margin: 0; 
-            a, mark { font: normal 17px/1 $fontStack; color: $blackSubstitute; border: none; display: block; margin: 0; padding: 1em; border-radius: 5px; border-bottom-right-radius: 0; border-bottom-left-radius: 0; }
+        .tab-nav-item { 
+            @media screen and (min-width: $originalLayout){
+                display: inline-block; margin: 0; 
+            }
+
+            a, mark { font: normal 17px/1 $fontStack; color: $blackSubstitute; border: none;
+                @media screen and (min-width: $originalLayout){
+                      display: block; margin: 0; padding: 1em; border-radius: 5px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;                
+                }
+            }
             a:hover { color: $green; }
             mark { background: $blackSubstitute; color: #fff; }
         }
 
-    #by-year { float: right; width: 650px; border: none; width: 100%; float: none; }
+    #by-year { border: none; width: 100%; float: none; 
+        @media screen and (min-width: $originalLayout){
+        }
+    }
         .projects li { position: absolute; z-index: 3; }
         .projects li:hover { z-index: 4; }        
             .projects a { display: block; width: 180px; height: 180px; background: #ff7000; background: rgba(115, 174, 8, 1); color: #fff; font: bold 16px Helvetica, Arial, sans-serif; border-radius: 100px; -moz-border-radius: 100px; -webkit-border-radius: 100px; text-align: center; display: table-cell; vertical-align: middle; border: none; opacity: 0.75; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; padding: 10px; transform-origin: 50% 50%; -moz-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; }
             .projects a:visited { background: #ccc; }
-            .projects a:hover, .projects a:focus { opacity: 1; background: #231f20; /*border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0;*/ }
+            .projects a:hover, .projects a:focus { opacity: 1; background: #231f20;  }
 			.new-work { position: absolute; right: 15px; top: 20px; background: black; color: #fff; text-transform: uppercase; font-weight: normal; padding: 5px; }
     
     #clients { width: 136px; padding: 1em 10px 100px 0; border-right: 1px dotted #7f7f7f; }
@@ -134,6 +157,7 @@
             #clients ul > li { padding-left: 10px; text-indent: -10px; }
             li[id^="year"] { height: 200px; border-bottom: 1px dotted #7f7f7f; position: relative; }
             li[id^="year"]:last-child { border-bottom: none; }
+            li[id^="year"] li { display: none; }
                 #year2013 { height: 180px; 
                     h2 { top: 15px; }
                 }
@@ -229,8 +253,6 @@
             .event-type { background: #231f20; padding: 25px 0; width: 100%; z-index: 5; position: relative; }
             .event-type:after { content: ""; width: 100%; height: 5px; background: rgba(0, 0, 0, 0.5); bottom: -5px; left: 0; position: absolute; }
                 .event-type-heading { color: #fff; margin: 0 auto; font: 34px $fontStack; text-align: center; }
-                /*.upcoming-events { width: 292px; height: 34px; background-image: url(/-/i/work/speaking/heading-upcoming.png); }
-                .past-events { width: 190px; height: 27px; background-image: url(/-/i/work/speaking/heading-past.png); }*/
 
         #digitalbizsummit {  }
             #digitalbizsummit .cta { background-image: url(/-/i/work/speaking/digitalbizsummit.png); width: 587px; height: 145px; margin: 120px auto 0; border: none; }
