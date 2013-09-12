@@ -1259,6 +1259,15 @@
       "outputAbbreviatedPath" : "\/bin\/articles\/you-the-conference-organizer\/jquery.address-1.5.min-ck.js",
       "fileType" : 64
     },
+    "\/bin\/articles\/introducing-superfriendly\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/articles\/introducing-superfriendly\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/bin\/-\/i\/publications-ad.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1269,15 +1278,6 @@
       "outputAbbreviatedPath" : "\/bin\/-\/i\/publications-ad.jpg",
       "initialSize" : 15848,
       "fileType" : 4096
-    },
-    "\/bin\/articles\/introducing-superfriendly\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/articles\/introducing-superfriendly\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/bin\/i\/logo.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1916,11 +1916,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
+      "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/bin\/-\/c\/_scss\/typekit.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/c\/typekit.css",
+      "outputAbbreviatedPath" : "\/bin\/-\/c\/css\/typekit.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -2876,6 +2876,17 @@
       "initialSize" : 6134,
       "fileType" : 8192
     },
+    "\/bin\/-\/i\/work\/typefaces\/didot.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/typefaces\/didot.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/typefaces\/didot.png",
+      "initialSize" : 1516,
+      "fileType" : 8192
+    },
     "\/bin\/mint\/app\/paths\/util\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2893,17 +2904,6 @@
       "inputAbbreviatedPath" : "\/bin\/work\/jetwaders\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/bin\/-\/i\/work\/typefaces\/didot.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/typefaces\/didot.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/typefaces\/didot.png",
-      "initialSize" : 1516,
-      "fileType" : 8192
     },
     "\/bin\/work\/preventiv\/index.php" : {
       "ignoreWasSetByUser" : 0,
@@ -3089,17 +3089,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/bin\/mint\/styles\/mint_chocolate\/images\/btn-install.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/mint\/styles\/mint_chocolate\/images\/btn-install.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/mint\/styles\/mint_chocolate\/images\/btn-install.png",
-      "initialSize" : 1502,
-      "fileType" : 8192
-    },
     "\/bin\/articles\/rif-kickoff\/home-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3110,6 +3099,17 @@
       "outputAbbreviatedPath" : "\/bin\/articles\/rif-kickoff\/home-thumb.jpg",
       "initialSize" : 11381,
       "fileType" : 4096
+    },
+    "\/bin\/mint\/styles\/mint_chocolate\/images\/btn-install.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/mint\/styles\/mint_chocolate\/images\/btn-install.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/mint\/styles\/mint_chocolate\/images\/btn-install.png",
+      "initialSize" : 1502,
+      "fileType" : 8192
     },
     "\/bin\/articles\/leaving-four24\/typekit.css" : {
       "ignoreWasSetByUser" : 0,
@@ -3171,15 +3171,15 @@
       "initialSize" : 923,
       "fileType" : 8192
     },
-    "\/bin\/work\/star-wars\/breadcrumbs-mask.png" : {
+    "\/bin\/-\/i\/twitter_16.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/work\/star-wars\/breadcrumbs-mask.png",
+      "inputAbbreviatedPath" : "\/bin\/-\/i\/twitter_16.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/work\/star-wars\/breadcrumbs-mask.png",
-      "initialSize" : 1684,
+      "outputAbbreviatedPath" : "\/bin\/-\/i\/twitter_16.png",
+      "initialSize" : 608,
       "fileType" : 8192
     },
     "\/bin\/mint\/app\/paths\/feedback\/index.php" : {
@@ -3191,15 +3191,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/bin\/-\/i\/twitter_16.png" : {
+    "\/bin\/work\/star-wars\/breadcrumbs-mask.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/-\/i\/twitter_16.png",
+      "inputAbbreviatedPath" : "\/bin\/work\/star-wars\/breadcrumbs-mask.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/i\/twitter_16.png",
-      "initialSize" : 608,
+      "outputAbbreviatedPath" : "\/bin\/work\/star-wars\/breadcrumbs-mask.png",
+      "initialSize" : 1684,
       "fileType" : 8192
     },
     "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-uninstall.png" : {
@@ -3304,7 +3304,7 @@
       "inputAbbreviatedPath" : "\/bin\/-\/j\/danielmall.v3.1.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/bin-static\/-\/j\/danielmall.v3.1.min-ck.js",
+      "outputAbbreviatedPath" : "\/bin\/-\/j\/danielmall.v3.1.min-ck.js",
       "fileType" : 64
     },
     "\/bin\/articles\/responsive-line-breaks\/responsive-line-breaks.css" : {
@@ -3345,17 +3345,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/bin\/articles\/svg-workflow-for-designers\/i\/imagealpha.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/articles\/svg-workflow-for-designers\/i\/imagealpha.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/articles\/svg-workflow-for-designers\/i\/imagealpha.png",
-      "initialSize" : 28719,
-      "fileType" : 8192
-    },
     "\/bin\/mint\/styles\/mint_chocolate\/images\/btn-uninstall.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3377,6 +3366,17 @@
       "outputAbbreviatedPath" : "\/bin\/work\/coupon-craze\/coupon-craze-hero.jpg",
       "initialSize" : 438283,
       "fileType" : 4096
+    },
+    "\/bin\/work\/crayola\/telling-stories.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/work\/crayola\/telling-stories.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/work\/crayola\/telling-stories.png",
+      "initialSize" : 4371,
+      "fileType" : 8192
     },
     "\/bin\/-\/i\/work\/speaking\/fitctoronto2013.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -3409,15 +3409,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/bin\/work\/crayola\/telling-stories.png" : {
+    "\/bin\/articles\/svg-workflow-for-designers\/i\/imagealpha.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/work\/crayola\/telling-stories.png",
+      "inputAbbreviatedPath" : "\/bin\/articles\/svg-workflow-for-designers\/i\/imagealpha.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/work\/crayola\/telling-stories.png",
-      "initialSize" : 4371,
+      "outputAbbreviatedPath" : "\/bin\/articles\/svg-workflow-for-designers\/i\/imagealpha.png",
+      "initialSize" : 28719,
       "fileType" : 8192
     },
     "\/bin\/mint\/styles\/mint_chocolate\/images\/btn-search.png" : {
@@ -3745,16 +3745,14 @@
       "initialSize" : 30949,
       "fileType" : 4096
     },
-    "\/bin\/articles\/the-post-psd-era\/home-thumb.png" : {
+    "\/bin\/work\/mica\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/articles\/the-post-psd-era\/home-thumb.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/articles\/the-post-psd-era\/home-thumb.png",
-      "initialSize" : 3321,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/bin\/work\/mica\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/bin\/-\/i\/work\/typefaces\/berkeley.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3767,14 +3765,16 @@
       "initialSize" : 1794,
       "fileType" : 8192
     },
-    "\/bin\/work\/mica\/index.php" : {
+    "\/bin\/articles\/the-post-psd-era\/home-thumb.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/work\/mica\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/bin\/articles\/the-post-psd-era\/home-thumb.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/articles\/the-post-psd-era\/home-thumb.png",
+      "initialSize" : 3321,
+      "fileType" : 8192
     },
     "\/bin\/articles\/svg-workflow-for-designers\/i\/svgo-gui.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3885,23 +3885,21 @@
       "initialSize" : 281221,
       "fileType" : 4096
     },
-    "\/bin\/work\/fogbugz\/fogbugz.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/work\/fogbugz\/fogbugz.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/work\/fogbugz\/fogbugz.png",
-      "initialSize" : 2210,
-      "fileType" : 8192
-    },
     "\/bin\/mint\/app\/paths\/record\/js.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/bin\/mint\/app\/paths\/record\/js.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/bin\/work\/design-swap\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/work\/design-swap\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -3916,14 +3914,16 @@
       "initialSize" : 41030,
       "fileType" : 8192
     },
-    "\/bin\/work\/design-swap\/index.php" : {
+    "\/bin\/work\/fogbugz\/fogbugz.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/work\/design-swap\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/bin\/work\/fogbugz\/fogbugz.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/work\/fogbugz\/fogbugz.png",
+      "initialSize" : 2210,
+      "fileType" : 8192
     },
     "\/bin\/work\/crayola\/components.png" : {
       "ignoreWasSetByUser" : 0,
@@ -4363,17 +4363,6 @@
       "initialSize" : 13634,
       "fileType" : 4096
     },
-    "\/bin\/articles\/grok-reads\/i\/grok-reads.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/articles\/grok-reads\/i\/grok-reads.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/articles\/grok-reads\/i\/grok-reads.jpg",
-      "initialSize" : 51596,
-      "fileType" : 4096
-    },
     "\/bin\/articles\/why-i-love-the-netflix-redesign\/netflix.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4383,6 +4372,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/bin\/articles\/why-i-love-the-netflix-redesign\/netflix.jpg",
       "initialSize" : 112760,
+      "fileType" : 4096
+    },
+    "\/bin\/articles\/grok-reads\/i\/grok-reads.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/articles\/grok-reads\/i\/grok-reads.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/articles\/grok-reads\/i\/grok-reads.jpg",
+      "initialSize" : 51596,
       "fileType" : 4096
     },
     "\/bin\/work\/speaking\/index.php" : {
@@ -4514,15 +4514,15 @@
       "initialSize" : 710,
       "fileType" : 8192
     },
-    "\/bin\/articles\/rif-element-collages\/rif-logo.png" : {
+    "\/bin\/articles\/svg-workflow-for-designers\/i\/illustrator-measuring.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/articles\/rif-element-collages\/rif-logo.png",
+      "inputAbbreviatedPath" : "\/bin\/articles\/svg-workflow-for-designers\/i\/illustrator-measuring.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/articles\/rif-element-collages\/rif-logo.png",
-      "initialSize" : 3732,
+      "outputAbbreviatedPath" : "\/bin\/articles\/svg-workflow-for-designers\/i\/illustrator-measuring.png",
+      "initialSize" : 5901,
       "fileType" : 8192
     },
     "\/bin\/-\/i\/work-subnav2.png" : {
@@ -4536,15 +4536,15 @@
       "initialSize" : 4330,
       "fileType" : 8192
     },
-    "\/bin\/articles\/svg-workflow-for-designers\/i\/illustrator-measuring.png" : {
+    "\/bin\/articles\/rif-element-collages\/rif-logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/articles\/svg-workflow-for-designers\/i\/illustrator-measuring.png",
+      "inputAbbreviatedPath" : "\/bin\/articles\/rif-element-collages\/rif-logo.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/articles\/svg-workflow-for-designers\/i\/illustrator-measuring.png",
-      "initialSize" : 5901,
+      "outputAbbreviatedPath" : "\/bin\/articles\/rif-element-collages\/rif-logo.png",
+      "initialSize" : 3732,
       "fileType" : 8192
     },
     "\/bin\/articles\/rif-kickoff\/rif-logo.png" : {
@@ -4558,6 +4558,17 @@
       "initialSize" : 3732,
       "fileType" : 8192
     },
+    "\/bin\/-\/i\/work\/speaking\/sxsw2011-cta.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/sxsw2011-cta.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/sxsw2011-cta.png",
+      "initialSize" : 2873,
+      "fileType" : 8192
+    },
     "\/bin\/articles\/you-the-conference-organizer\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4566,17 +4577,6 @@
       "inputAbbreviatedPath" : "\/bin\/articles\/you-the-conference-organizer\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-back.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-back.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-back.png",
-      "initialSize" : 1448,
-      "fileType" : 8192
     },
     "\/bin\/-\/c\/_scss\/fonts.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -4590,15 +4590,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/bin\/-\/i\/work\/speaking\/sxsw2011-cta.png" : {
+    "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-back.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/sxsw2011-cta.png",
+      "inputAbbreviatedPath" : "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-back.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/sxsw2011-cta.png",
-      "initialSize" : 2873,
+      "outputAbbreviatedPath" : "\/bin\/mint\/styles\/vanilla_mint\/images\/btn-back.png",
+      "initialSize" : 1448,
       "fileType" : 8192
     },
     "\/bin\/articles\/superfriendly-annual-report-2012\/superfriendly-annual-report-2012.css" : {
@@ -4993,6 +4993,15 @@
       "initialSize" : 32126,
       "fileType" : 8192
     },
+    "\/bin\/mint\/pepper\/shauninman\/debugger\/class.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/mint\/pepper\/shauninman\/debugger\/class.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/bin\/articles\/object-value-pricing\/object-value-pricing.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -5004,21 +5013,21 @@
       "initialSize" : 3797,
       "fileType" : 8192
     },
-    "\/bin\/work\/crayola\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/work\/crayola\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/bin\/mint\/pepper\/shauninman\/secretcrush\/class.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/bin\/mint\/pepper\/shauninman\/secretcrush\/class.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/bin\/work\/crayola\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/work\/crayola\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -5064,15 +5073,6 @@
       "outputAbbreviatedPath" : "\/bin\/articles\/rif-design-flexibility\/header1.png",
       "initialSize" : 33644,
       "fileType" : 8192
-    },
-    "\/bin\/mint\/pepper\/shauninman\/debugger\/class.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/mint\/pepper\/shauninman\/debugger\/class.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/bin\/-\/i\/work\/typefaces\/verdana.png" : {
       "ignoreWasSetByUser" : 0,
@@ -5489,6 +5489,17 @@
       "initialSize" : 951,
       "fileType" : 8192
     },
+    "\/bin\/work\/four24\/four24-hero2.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/work\/four24\/four24-hero2.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/work\/four24\/four24-hero2.jpg",
+      "initialSize" : 147081,
+      "fileType" : 4096
+    },
     "\/bin\/articles\/circlesconf2012\/circles-logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -5521,17 +5532,6 @@
       "outputAbbreviatedPath" : "\/bin\/-\/i\/about\/hc.png",
       "initialSize" : 2386,
       "fileType" : 8192
-    },
-    "\/bin\/work\/four24\/four24-hero2.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/work\/four24\/four24-hero2.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/work\/four24\/four24-hero2.jpg",
-      "initialSize" : 147081,
-      "fileType" : 4096
     },
     "\/bin\/articles\/five\/wow.png" : {
       "ignoreWasSetByUser" : 0,
@@ -6048,6 +6048,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/bin\/mint\/app\/includes\/head.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/mint\/app\/includes\/head.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/bin\/-\/i\/about\/pixelworthy.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -6058,15 +6067,6 @@
       "outputAbbreviatedPath" : "\/bin\/-\/i\/about\/pixelworthy.png",
       "initialSize" : 2012,
       "fileType" : 8192
-    },
-    "\/bin\/mint\/app\/includes\/head.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/mint\/app\/includes\/head.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/bin\/work\/crayola\/jquery.sexyCycle.js" : {
       "ignoreWasSetByUser" : 0,
@@ -6143,7 +6143,7 @@
     },
     "\/bin\/-\/j\/libs\/jquery.lettering.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/bin\/-\/j\/libs\/jquery.lettering.js",
@@ -6445,21 +6445,21 @@
       "initialSize" : 10871,
       "fileType" : 8192
     },
-    "\/bin\/articles\/responsive-line-breaks\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/articles\/responsive-line-breaks\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/bin\/articles\/brooklyn-beta-2011\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/bin\/articles\/brooklyn-beta-2011\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/bin\/articles\/responsive-line-breaks\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/articles\/responsive-line-breaks\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -6538,15 +6538,15 @@
       "initialSize" : 1522,
       "fileType" : 8192
     },
-    "\/bin\/-\/i\/work\/speaking\/ffwd-old.png" : {
+    "\/bin\/-\/i\/about-headline.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/ffwd-old.png",
+      "inputAbbreviatedPath" : "\/bin\/-\/i\/about-headline.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/ffwd-old.png",
-      "initialSize" : 106976,
+      "outputAbbreviatedPath" : "\/bin\/-\/i\/about-headline.png",
+      "initialSize" : 2941,
       "fileType" : 8192
     },
     "\/bin\/articles\/superfriendly-annual-report-2012\/index.php" : {
@@ -6558,15 +6558,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/bin\/-\/i\/about-headline.png" : {
+    "\/bin\/-\/i\/work\/speaking\/ffwd-old.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/-\/i\/about-headline.png",
+      "inputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/ffwd-old.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/i\/about-headline.png",
-      "initialSize" : 2941,
+      "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/speaking\/ffwd-old.png",
+      "initialSize" : 106976,
       "fileType" : 8192
     },
     "\/bin\/-\/i\/latest-tweets.png" : {
@@ -7034,17 +7034,6 @@
       "initialSize" : 26438,
       "fileType" : 8192
     },
-    "\/bin\/-\/i\/publications-dotnet.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bin\/-\/i\/publications-dotnet.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bin\/-\/i\/publications-dotnet.jpg",
-      "initialSize" : 34177,
-      "fileType" : 4096
-    },
     "\/bin\/-\/i\/work\/typefaces\/georgia.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -7055,6 +7044,17 @@
       "outputAbbreviatedPath" : "\/bin\/-\/i\/work\/typefaces\/georgia.png",
       "initialSize" : 2466,
       "fileType" : 8192
+    },
+    "\/bin\/-\/i\/publications-dotnet.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bin\/-\/i\/publications-dotnet.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bin\/-\/i\/publications-dotnet.jpg",
+      "initialSize" : 34177,
+      "fileType" : 4096
     },
     "\/bin\/work\/crayola\/responsive.png" : {
       "ignoreWasSetByUser" : 0,
@@ -7090,7 +7090,7 @@
     },
     "\/bin\/-\/c\/typekit.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/bin\/-\/c\/typekit.css",
@@ -7373,13 +7373,7 @@
     }
   },
   "manualImportLinks" : [
-    {
-      "type" : 0,
-      "position" : 0,
-      "linkedFileAbbreviatedPath" : "\/bin\/-\/j\/libs\/jquery.lettering.js",
-      "baseFileAbbreviatedPath" : "\/bin\/-\/j\/danielmall.v3.1.js",
-      "followForSyntaxChecking" : 1
-    }
+
   ],
   "projectSettings" : {
     "hamlNoEscapeInAttributes" : 0,

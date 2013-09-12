@@ -175,6 +175,7 @@ $(document).ready(function(){
         
         initWorkTabs: function(){
             $('.work-tabs-container').tabs();
+            //$('.work-tabs').tabs();
         },
     
     
@@ -360,7 +361,7 @@ $(document).ready(function(){
             });
             
         }
-        
+         
     }
     
     
@@ -390,7 +391,7 @@ $(document).ready(function(){
     
     // GLOBAL
     //dmall.initTwitterAnywhere();
-    dmall.initLettering();
+    //dmall.initLettering();
     dmall.hamburgerNav();
     
     

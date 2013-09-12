@@ -2,7 +2,6 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" ></script>
     <script>!window.jQuery && document.write(unescape('%3Cscript src="/-/j/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script>
  
- 
     <!-- Tooltip plugin: http://bassistance.de/jquery-plugins/jquery-plugin-tooltip/ -->
     <script src="/-/j/libs/jquery.tooltip.pack.js"></script>
     
