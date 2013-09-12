@@ -114,7 +114,7 @@
 		        
 		    </section><!-- #by-year -->
             
-            <?php /* ?>
+            
             <section id="by-client">
                 
                 <ul class="client-grid no-marker clearfix">
@@ -947,7 +947,7 @@
                     
                 </ol><!-- .typeface-list -->
                 
-            </section><!--#by-typeface --><?php */ ?>
+            </section><!--#by-typeface -->
 		
     	</section><!-- #content -->
     	

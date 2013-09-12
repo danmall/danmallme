@@ -20,15 +20,33 @@
 
 #work-landing #content { border-top: 1px dotted #7f7f7f; position: relative; z-index: 2; }
 
-    .work-tabs { background: #f7f7f7; border-bottom: 1px dotted #7f7f7f; float: left; width: 100%; }
+    .work-tabs { 
+        background: #f7f7f7; border-bottom: 1px dotted #7f7f7f; float: left; width: 100%; position: relative; top: -14.7em; margin-bottom: -2em; 
+        @media screen and (min-width: $originalLayout){
+            margin-bottom: 0; position: static;
+        }
+    }
         .work-tabs ul { margin: 0; position: relative; /*left: 50%; float: left;*/ text-align: center; }
             .work-tabs li { /*float: left; position: relative; right: 50%;*/ margin-left: 2em; display: inline-block; }
             .work-tabs li:first-child { margin-left: 0; }
                 .work-tabs a { display: block; padding: 1em 0.5em; border: none; }
                 
-    .client-grid { background: transparent url(/-/i/work/clients/client-grid-tile.png) repeat-y 266px 0; }
-        .client-grid li { float: left; width: 266px; border-bottom: 1px solid #e5e5e5; margin-left: 1px; background: #eee; }
-        .client-grid li:nth-child(3n+1) { margin-left: 0; }
+    .client-grid { 
+        @media screen and (min-width: $originalLayout){ 
+            background: transparent url(/-/i/work/clients/client-grid-tile.png) repeat-y 266px 0; 
+        }
+    }
+        .client-grid li { 
+            width: 266px; background: #eee; margin: 0 auto;
+            @media screen and (min-width: $originalLayout){
+                float: left; border-bottom: 1px solid #e5e5e5; margin: auto; margin-left: 1px;
+            }
+        }
+        .client-grid li:nth-child(3n+1) { 
+            @media screen and (min-width: $originalLayout){
+                margin-left: 0; 
+            }
+        }
             .client-grid a { width: 264px; height: 167px; background-color: #fff; border: 1px solid #fff; }
             .client-grid a:hover { position: relative; top: -5px; left: -5px; border: 1px solid #ccc; }
             
@@ -120,23 +138,28 @@
             .in-use li:first-child:before { content: ""; }
 
     .tab-nav { 
+        border-top: 1px solid $blackSubstitute;
         @media screen and (min-width: $originalLayout){
-            text-align: center; margin: 0; 
+            text-align: center; margin: 0; border: none; 
         }
         ul { margin: 0; }
     }
-        .tab-nav-item { 
+        .tab-nav-item { border-bottom: 1px solid #ccc;
             @media screen and (min-width: $originalLayout){
-                display: inline-block; margin: 0; 
+                display: inline-block; margin: 0; border: none; 
             }
 
-            a, mark { font: normal 17px/1 $fontStack; color: $blackSubstitute; border: none;
+            a, mark { font: normal 17px/1 $fontStack; color: $blackSubstitute; border: none; padding: 1em 0; display: block;
                 @media screen and (min-width: $originalLayout){
-                      display: block; margin: 0; padding: 1em; border-radius: 5px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;                
+                      display: block; margin: 0; padding: 1em; border-radius: 5px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;                 
                 }
             }
             a:hover { color: $green; }
-            mark { background: $blackSubstitute; color: #fff; }
+            mark { margin-bottom: 2em;
+                @media screen and (min-width: $originalLayout){
+                    background: $blackSubstitute; color: #fff; margin-bottom: 0;
+                }
+            }
         }
 
     #by-year { border: none; width: 100%; float: none; 
