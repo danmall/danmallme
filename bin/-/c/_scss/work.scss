@@ -26,7 +26,12 @@
             margin-bottom: 0; position: static;
         }
     }
-        .work-tabs ul { margin: 0; position: relative; /*left: 50%; float: left;*/ text-align: center; }
+        .work-tabs ul { 
+            margin: 0; position: relative; /*left: 50%; float: left;*/ text-align: left;
+            @media screen and (min-width: $originalLayout){
+                text-align: center;
+            }
+        }
             .work-tabs li { /*float: left; position: relative; right: 50%;*/ margin-left: 2em; display: inline-block; }
             .work-tabs li:first-child { margin-left: 0; }
                 .work-tabs a { display: block; padding: 1em 0.5em; border: none; }
@@ -78,12 +83,27 @@
                 
     .typeface-list li[id^="typeface"] { border-top: 1px dotted #7f7f7f; padding: 2em 0 0; margin: 0 0 0.5em; background-repeat: no-repeat; background-position: 0 25px; background-color: transparent; }            
     .typeface-list li[id^="typeface"]:first-child { border: none; }
-        .specimen { width: 540px; padding: 0 20px 0 0; float: left; }
+        .specimen { 
+            @media screen and (min-width: $originalLayout){
+                width: 540px; padding: 0 20px 0 0; float: left; 
+            }
+
+            img { float: none; margin: 0 0 0.5em; }
+        }
             .specimen h1 { width: 540px; height: 50px; margin: 0; }
-            .specimen-meta { margin: 60px 0 2em; }
-                .specimen-meta li { font-style: italic; color: #9d9d9d; font-size: 14px; display: inline; border-left: 1px solid #ccc; padding: 0 0 0 0.75em; margin: 0 0 0 0.5em; }
+            .specimen-meta { 
+                @media screen and (min-width: $originalLayout){
+                    margin: 60px 0 2em;
+                }
+            }
+                .specimen-meta li { 
+                    display: inline; border-left: 1px solid #ccc; padding: 0 0 0 0.75em; margin: 0 0 0 0.5em; font-size: 12px; font-style: italic; color: #9d9d9d;
+                    @media screen and (min-width: $originalLayout){
+                        font-style: italic; color: #9d9d9d; font-size: 14px; 
+                    }
+                }
             .specimen-meta li:first-child { padding-left: 0; margin-left: 0; border: none; }
-            
+    /*        
     #typeface-american-typewriter   { background-image: url(/-/i/work/typefaces/american-typewriter.png); background-position: 0 35px; }   
     #typeface-antenna               { background-image: url(/-/i/work/typefaces/antenna.png); }   
     #typeface-arial                 { background-image: url(/-/i/work/typefaces/arial.png); }   
@@ -129,8 +149,13 @@
     #typeface-univers               { background-image: url(/-/i/work/typefaces/univers.png); }   
     #typeface-verdana               { background-image: url(/-/i/work/typefaces/verdana.png); }   
     #typeface-yanone-kaffeesatz     { background-image: url(/-/i/work/typefaces/yanone-kaffeesatz.png); }   
+    */
     
-        .in-use { margin: 0 0 0 560px; }
+        .in-use { 
+            @media screen and (min-width: $originalLayout){
+                margin: 0 0 0 560px; 
+            }
+        }
             .in-use h2 { margin: 0 0 0.25em; text-transform: uppercase; color: #bebebe; }
             .in-use a { border: none; font-size: 16px; }
             .in-use li { display: inline; }
@@ -162,11 +187,12 @@
             }
         }
 
-    #by-year { border: none; width: 100%; float: none; 
-        @media screen and (min-width: $originalLayout){
+    #by-year { border: none; width: 100%; float: none; }
+        .projects li { display: inline-block; width: 200px;
+            @media screen and (min-width: $originalLayout){
+                position: absolute; z-index: 3;
+            }
         }
-    }
-        .projects li { position: absolute; z-index: 3; }
         .projects li:hover { z-index: 4; }        
             .projects a { display: block; width: 180px; height: 180px; background: #ff7000; background: rgba(115, 174, 8, 1); color: #fff; font: bold 16px Helvetica, Arial, sans-serif; border-radius: 100px; -moz-border-radius: 100px; -webkit-border-radius: 100px; text-align: center; display: table-cell; vertical-align: middle; border: none; opacity: 0.75; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; padding: 10px; transform-origin: 50% 50%; -moz-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; }
             .projects a:visited { background: #ccc; }
@@ -178,19 +204,39 @@
             #clients li { margin-bottom: 0.65em; line-height: 1.2; font-size: 11px; }
                 #clients li abbr, #clients li abbr[title] { font-size: 90%; letter-spacing: 0.25em; }
             #clients ul > li { padding-left: 10px; text-indent: -10px; }
-            li[id^="year"] { height: 200px; border-bottom: 1px dotted #7f7f7f; position: relative; }
-            li[id^="year"]:last-child { border-bottom: none; }
-            li[id^="year"] li { display: none; }
-                #year2013 { height: 180px; 
-                    h2 { top: 15px; }
+            li[id^="year"] { 
+                text-align: center; border-bottom: 1px dotted #7f7f7f; position: relative; padding: 2em 0 0;
+                @media screen and (min-width: $originalLayout){
+                    height: 200px; 
                 }
-                    .superfriendly-push { text-align: center; position: relative; top: 3.5em; font: bold 20px 'Trebuchet MS', Arial, sans-serif; }
-				#year2012 { height: 180px; }
-                #year2010 { height: 300px; }
-                #year2009 { height: 375px; }
-                #year2007 { height: 170px; }
-                #year2006 { height: 160px; }
-                    li[id^="year"] h2 { width: 38px; height: 12px; position: absolute; top: 4px; left: 10px; color: #cecdce; font: 14px/1 $fontStack; }
+            }
+            li[id^="year"]:last-child { border-bottom: none; }
+            // li[id^="year"] li { display: none; }
+                #year2013 { 
+                    @media screen and (min-width: $originalLayout){
+                        height: 180px; 
+                    }
+                    h2 { 
+                        top: 15px;
+                    }
+                }
+                    .superfriendly-push { 
+                        text-align: center; font: bold 20px 'Trebuchet MS', Arial, sans-serif; 
+                        @media screen and (min-width: $originalLayout){
+                            position: relative; top: 3.5em;
+                        }
+                    }
+				#year2012 { @media screen and (min-width: $originalLayout){ height: 180px; } }
+                #year2010 { @media screen and (min-width: $originalLayout){ height: 300px; } }
+                #year2009 { @media screen and (min-width: $originalLayout){ height: 375px; } }
+                #year2007 { @media screen and (min-width: $originalLayout){ height: 170px; } }
+                #year2006 { @media screen and (min-width: $originalLayout){ height: 160px; } }
+                    li[id^="year"] h2 { 
+                        color: #cecdce; font: 20px/1 $fontStack; text-align: center; margin: 0 0 1em;
+                        @media screen and (min-width: $originalLayout){
+                            position: absolute; top: 10px; left: 10px; font-size: 14px; 
+                        }
+                    }
 
     .breadcrumbs { text-align: center; margin: 0; 
         ul { margin: 0; }
