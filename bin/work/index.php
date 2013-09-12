@@ -18,6 +18,7 @@
     	    <h2>A compendium of design work I&rsquo;m proud of. If you like what you see, <a href="/contact/">let me know</a> !</h2>
     	</hgroup>
 	    
+        <?php /*
 	     <nav class="tab-nav">	
 	            
             <ul class="no-marker">
@@ -27,7 +28,7 @@
             </ul>
             
         </nav><!-- .tab-nav -->
-        
+        <?php */ ?>
 	
     	<section id="content" class="work-tabs-container">
             

@@ -21,17 +21,12 @@
 #work-landing #content { border-top: 1px dotted #7f7f7f; position: relative; z-index: 2; }
 
     .work-tabs { 
-        background: #f7f7f7; border-bottom: 1px dotted #7f7f7f; float: left; width: 100%; position: relative; top: -14.7em; margin-bottom: -2em; 
+        background: #f7f7f7; border-bottom: 1px dotted #7f7f7f; float: left; width: 100%; /*position: relative; top: -14.7em; margin-bottom: -2em; */
         @media screen and (min-width: $originalLayout){
             margin-bottom: 0; position: static;
         }
     }
-        .work-tabs ul { 
-            margin: 0; position: relative; /*left: 50%; float: left;*/ text-align: left;
-            @media screen and (min-width: $originalLayout){
-                text-align: center;
-            }
-        }
+        .work-tabs ul { margin: 0; position: relative; /*left: 50%; float: left; text-align: left;*/ text-align: center; }
             .work-tabs li { /*float: left; position: relative; right: 50%;*/ margin-left: 2em; display: inline-block; }
             .work-tabs li:first-child { margin-left: 0; }
                 .work-tabs a { display: block; padding: 1em 0.5em; border: none; }
