@@ -200,6 +200,12 @@
 	    </section><!-- #prequalifying-clients -->	    
 	    
 	</div><!-- /#article-area-wrap -->
+
+    <?php
+
+        echo readNext('SVG Workflow for Designers', '/articles/svg-workflow-for-designers/');
+
+    ?>
 	
 	
 	<div id="comments">
@@ -242,12 +248,12 @@
 	    
     	    <div class="sub">
 	        
-    	        <section id="article-info">
+    	        <section class="article-info">
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
         	        <time datetime="2013-08-12T07:07:26">Published Aug 12, 2013 at 7:07 <abbr title="Ante Meridian">AM</abbr></time>
-    	        </section><!-- /#article-info -->
+    	        </section><!-- /.article-info -->
     	        
     	        
     	        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/carbon.php"); echo "\n"; ?>

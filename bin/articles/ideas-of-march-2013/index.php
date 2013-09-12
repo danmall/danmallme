@@ -392,7 +392,13 @@
 	            <p>Posted in {categories backspace="2"}<a href="{path='channel/index'}">{category_name}</a>, {/categories}</p>
 	        </header>
         
-	    </section><!-- /#article-meta --><?php */ ?>	    	    
+	    </section><!-- /#article-meta --><?php */ ?>
+
+        <?php
+
+            echo readNext('Value Pricing', '/articles/value-pricing/');
+
+        ?>	    	    
 	    
 	    <div id="comments-wrap">                
             
@@ -423,12 +429,12 @@
 	    
     	    <div class="sub">
 	        
-    	        <section id="article-info">
+    	        <section class="article-info">
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
         	        <time datetime="2012-01-27T12:06:30">Published March 31, 2013 at 11:05 <abbr title="Ante Meridian">AM</abbr></time>
-    	        </section><!-- /#article-info -->
+    	        </section><!-- /.article-info -->
     	        
     	        
     	        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/carbon.php"); echo "\n"; ?>
