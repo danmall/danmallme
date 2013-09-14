@@ -17,7 +17,7 @@
 	
 	<div id="article-area-wrap">
 			
-	    <section id="object-value-pricing" class="clearfix">
+	    <section id="object-value-pricing" class="clearfix wrap">
 			
 			<hgroup>
 				<h1><b>Object Value Pricing</b></h1>
@@ -51,6 +51,12 @@
 	    </section><!-- #object-value-pricing -->	  	
 	    
 	</div><!-- /#article-area-wrap -->	
+
+	<?php
+
+        echo readNext('Big/Small', '/articles/big-small/');
+
+    ?>
 	
 	<div id="comments">
 	
