@@ -37,7 +37,7 @@
                 
             </div><!-- .hero -->
 			
-            <div class="inner">
+            <div class="inner wrap">
                 
                 <?php /* ?>
                 <p>Last May, I got an email from Ernestine Benedict, who said that my friend <a href="http://yaronschoen.com/">Yaron</a>&mdash;who had recently taken a full-time job at Twitter&mdash;pointed her in my direction. Ernestine is the <abbr title="Vice President">VP</abbr> Marketing &amp; Communications at <a href="http://rif.org/">Reading Is Fundamental</a>. For those that don&rsquo;t know, <abbr title="Reading Is Fundamental">RIF</abbr>(for short) is the largest children&rsquo;s literacy nonprofit in the United States. They give free books to kids who&rsquo;ve need them. I can certainly recall growing up and seeing many of <abbr>RIF</abbr>&rsquo;s <a href="http://www.youtube.com/playlist?list=PL34A87AFB20262FDE&feature=plcp">great <abbr title="Public Service Announcement">PSA</abbr>s</a> (as I hope you can), so I was really excited to receive a note about working with them. A few conversations later, <a href="http://superfriend.ly/">SuperFriendly</a> and <abbr>RIF</abbr> are embarking on a journey together towards a new site.</p> 
@@ -226,7 +226,7 @@
                 
             </div><!-- .comparison-chart -->
 
-            <div class="inner">
+            <div class="inner wrap">
                 
                 <p>We never needed the second exercise. (For the curious, we were planning to do another design studio, solely focused on this question.) I love that our team wasn&rsquo;t afraid to call an audible here; we knew what was important for us to answer that day, and we pulled out all the stops to get it.  I&rsquo;m so grateful to work with a team&mdash;of which I include <abbr>RIF</abbr>&mdash;that has a shared goal of creating the best possible site we can create together.</p>
 
@@ -253,6 +253,12 @@
         <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/rif-nav.php"); echo "\n"; ?>	
 	    
 	</div><!-- /#article-area-wrap -->	
+
+    <?php
+
+        echo readNext('Circles Conference 2012', '/articles/circlesconf2012/');
+
+    ?>
 	
 	<div id="comments">
 	

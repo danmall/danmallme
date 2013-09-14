@@ -54,6 +54,12 @@
 	    </section><!-- #circlesconf2012 -->
 	    
 	</div><!-- /#article-area-wrap -->	
+
+    <?php
+
+        echo readNext('Circles Conference 2012', '/articles/circlesconf2012/');
+
+    ?>
 	
 	<div id="comments">
 	
