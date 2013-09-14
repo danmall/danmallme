@@ -1,6 +1,6 @@
 #article-area-wrap { background: #e0ded0 url(bg-tile.jpg) repeat 0 0; position: relative; }
 
-#circlesconf2012 { margin: 0 auto; width: 799px; padding: 50px 0; font: normal 16px "rooney-web", Georgia, 'Times New Roman', serif; color: #000; }
+#circlesconf2012 { padding: 50px 0; font: normal 16px "rooney-web", Georgia, 'Times New Roman', serif; color: #000; }
 
     #circlesconf2012 .logo { width: 217px; height: 135px; background-image: url(circles-logo.png); margin: 0 auto 50px; }
     
@@ -27,3 +27,10 @@
     
     #circlesconf2012 ::selection { background: #d12a00; color: #fff; }
     #circlesconf2012 ::-moz-selection { background: #d12a00; color: #fff; }
+
+
+@media screen and (min-width: 800px){
+
+    #circlesconf2012 { width: 799px; }
+
+}

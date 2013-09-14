@@ -19,7 +19,7 @@
 	
 	<div id="article-area-wrap">
 			
-	    <section id="circlesconf2012" class="clearfix">
+	    <section id="circlesconf2012" class="clearfix wrap">
 			
 			<h1 class="phark logo">Circle Conference 2012</h1>
             
@@ -57,7 +57,7 @@
 
     <?php
 
-        echo readNext('Circles Conference 2012', '/articles/circlesconf2012/');
+        echo readNext('Responsive Line Breaks', '/articles/responsive-line-breaks/');
 
     ?>
 	
