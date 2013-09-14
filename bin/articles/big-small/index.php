@@ -18,7 +18,7 @@
 	
 	<div id="article-area-wrap">
 			
-	    <section id="big-small" class="clearfix">
+	    <section id="big-small" class="clearfix wrap">
 			
 			<h1 class="phark">Big/Small</h1>
 			
@@ -45,6 +45,12 @@
 	    </section><!-- #big-small -->	  	
 	    
 	</div><!-- /#article-area-wrap -->	
+
+	<?php
+
+        echo readNext('Hillman Curtis', '/articles/hillman-curtis//');
+
+    ?>
 	
 	<div id="comments">
 	
