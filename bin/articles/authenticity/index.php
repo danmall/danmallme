@@ -8,8 +8,6 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>	
 	<script src="http://use.typekit.com/zwf7tzu.js"></script>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?> 
-	<script src="jquery.lettering.js"></script>
-	<script src="jquery.fittext.js"></script>
 	<link rel="stylesheet" href="authenticity.css" />
 </head>
 
@@ -27,6 +25,9 @@
 				<p><b id="line1">The most important thing is</b> <strong>authenticity.</strong> <b id="line2">Once you can fake that, you&rsquo;ve made it.</b></p>
 			</blockquote>
 			
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+			<script src="jquery.lettering.js"></script>
+			<script src="jquery.fittext.js"></script>
 			<script>
 				$("#line1, #line2, #authenticity blockquote strong").lettering();
 				$("#line1").fitText(2.85);
@@ -39,6 +40,12 @@
 		<b id="grunge"></b>
 	    
 	</div><!-- /#article-area-wrap -->	
+
+	<?php
+
+        echo readNext('Grok Reads', '/articles/grok-reads/');
+
+    ?>
 	
 	<div id="comments">
 	
