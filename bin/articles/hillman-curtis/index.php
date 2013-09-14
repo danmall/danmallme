@@ -16,7 +16,7 @@
 	
 	<div id="article-area-wrap">
 	    
-	    <div id="hillman-curtis">
+	    <div id="hillman-curtis" class="wrap">
 			
 			<h1 class="phark">Hillman Curtis</h1>
 	    
@@ -30,6 +30,12 @@
 	    
 	    
 	</div><!-- /#article-area-wrap -->
+
+    <?php
+
+        echo readNext('Authenticity', '/articles/authenticity/');
+
+    ?>
 	
 	
 	<div id="comments">
