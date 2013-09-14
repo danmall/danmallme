@@ -18,7 +18,7 @@
 	
 	<div id="article-area-wrap">
 			
-	    <section id="responsive-line-breaks" class="clearfix">
+	    <section id="responsive-line-breaks" class="clearfix wrap">
 			
 			<h1 class="phark">Responsive Line Breaks</h1>
 			
@@ -43,6 +43,12 @@
 	    </section><!-- #responsive-line-breaks -->	  	
 	    
 	</div><!-- /#article-area-wrap -->	
+
+    <?php
+
+        echo readNext('Object Value Pricing', '/articles/object-value-pricing/');
+
+    ?>
 	
 	<div id="comments">
 	
