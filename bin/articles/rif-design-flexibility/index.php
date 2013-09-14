@@ -24,7 +24,7 @@
             
             <div class="hero">
                 
-                <div class="inner">
+                <div class="inner wrap">
                     
                     <hgroup>
                         <h1>Design Flexibility</h1>
@@ -37,7 +37,7 @@
                 
             </div><!-- .hero -->
 			
-            <div class="inner">
+            <div class="inner wrap">
                 
                 <p>We last left off talking about <a href="/articles/rif-element-collages/">Element Collages</a>, which <abbr>RIF</abbr> was really thrilled about. They loved the first stabs at the marriage of content and design ideas. We were on cloud nine!</p>
 
@@ -121,6 +121,13 @@
         <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/rif-nav.php"); echo "\n"; ?>  	
 	    
 	</div><!-- /#article-area-wrap -->	
+
+    <?php
+
+        echo readNext('Element Collages', '/articles/rif-element-collages/');
+
+    ?>
+
 	
 	<div id="comments">
 	
