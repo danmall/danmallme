@@ -27,7 +27,7 @@
 	
 	<div id="article-area-wrap">
 	    
-	    <section id="farewell-bss" class="clearfix">
+	    <section id="farewell-bss" class="clearfix wrap">
 			
 			<h1><span class="lettering-hook">Today</span> is my last day at <a href="http://bigspaceship.com/">Big Spaceship</a>.</h1>
 			
@@ -41,6 +41,11 @@
 	    
 	</div><!-- /#article-area-wrap -->
 	
+	<?php
+
+        echo readNext('Sketchbooks', '/articles/sketchbooks/');
+
+    ?>
 	
 	<div id="comments">
 	
