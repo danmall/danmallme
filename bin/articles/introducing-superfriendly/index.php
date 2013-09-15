@@ -26,45 +26,47 @@
 	
 	<div id="article-area-wrap">
 	    
-	    <section id="introducing-superfriendly" class="clearfix">
+	    <section id="introducing-superfriendly" class="clearfix wrap">
 			
-		    <section id="introducing-superfriendly" class="clearfix">
+			<h1 class="phark">Introducing SuperFriendly</h1>
 			
-				<h1 class="phark">Introducing SuperFriendly</h1>
-				
-				<script>
-			    if(swfobject.hasFlashPlayerVersion('9.0.0')){
-			    	document.write('<div id="signature"></div>');
-					swfobject.embedSWF("signature.swf", "signature", "400", "200", "9.0.0","expressInstall.swf", {}, { menu: 'false'}, {});	
-			    }	
-				</script>
+			<script>
+		    if(swfobject.hasFlashPlayerVersion('9.0.0')){
+		    	document.write('<div id="signature"></div>');
+				swfobject.embedSWF("signature.swf", "signature", "400", "200", "9.0.0","expressInstall.swf", {}, { menu: 'false'}, {});	
+		    }	
+			</script>
+		
+			<p class="first-paragraph">Today&rsquo;s my birthday. This year, I got myself a new house, a new (old) city, and <a href="http://superfriend.ly/">my very own design studio</a>.</p>
+
+			<p>I wrote last week that <a href="/articles/farewell-big-spaceship/">I was leaving Big Spaceship</a>, a job I had for just under 3 years and absolutely loved. Well, that&rsquo;s only half the story. Here&rsquo;s the rest.</p>
+
+			<p>Emily and I moved to Brooklyn shortly after we&rsquo;d gotten married. We had both sort of grown up in Philly, and it was time to challenge ourselves in a different way. We figured, if we could best New York, we could make it anywhere else in the world.</p>
+
+			<p>Fast forward to 3 years later, we&rsquo;ve got an amazing 5-month old little girl <a href="http://siddaleemall.com/">Sidda</a>, and our lives have changed in so many other special ways. One of the biggest realizations we&rsquo;ve had was just how important family is to us. This past weekend, we packed our things and moved back to Philly (well, just outside of Philly) to be closer to our families, which both live about 15 minutes away from each other. I&rsquo;ve always had a soft spot in my heart for Philly&mdash;heck, I pioneered Philly T-Shirt Fridays&trade; at work where I introduced gems like &ldquo;<a href="http://www.etsy.com/listing/25540998/love-jawn-t-shirt-unisex-l-athletic-grey">Jawn</a>&rdquo;, &ldquo;<a href="http://feedstore.muledesign.com/product/im-not-angry-im-from-philly">I&rsquo;m not angry, I&rsquo;m from Philly</a>&rdquo;, and my <a href="http://dmall.me/As6OFE ">McNabb Eagles jersey</a>&mdash;and it feels good to be back home. I&rsquo;ll sorely miss all of the great friends I&rsquo;ve made in Brooklyn, but now you all have a great excuse to get a cheesesteak. Seriously, come visit and stay over; we&rsquo;ve got the space.</p>
+
+			<p>The other big part of this is what I&rsquo;ll be doing for work. I&rsquo;ve been very blessed to work with some of the best people at some of the <a href="http://bigspaceship.com/">best</a> <a href="http://happycog.com/">agencies</a> in the universe, and now it&rsquo;s time to see what I can do as I strike out on my own. I&rsquo;ve just launched <a href="http://superfriend.ly/">SuperFriendly</a>, my newest venture. If you&rsquo;re looking for a partner to defeat apathy and the forces of evil, drop me a line and let&rsquo;s chat. Of course, don&rsquo;t forget to get your fix of SuperFriendly on your very beloved <a href="http://twitter.com/superfriendlyco">Twitter</a> and <a href="http://facebook.com/superfriendly">Facebook</a>.</p>
+
+			<p>Lastly, I&rsquo;ve also co-founded a startup and have been working on that product as I get time. I can&rsquo;t say much more than that yet, but follow along if that piques your interest, as I&rsquo;ll be sharing more news about that in the very near future.</p>
+
+			<p>Changes!</p>
 			
-				<p>Today&rsquo;s my birthday. This year, I got myself a new house, a new (old) city, and <a href="http://superfriend.ly/">my very own design studio</a>.</p>
-
-				<p>I wrote last week that <a href="/articles/farewell-big-spaceship/">I was leaving Big Spaceship</a>, a job I had for just under 3 years and absolutely loved. Well, that&rsquo;s only half the story. Here&rsquo;s the rest.</p>
-
-				<p>Emily and I moved to Brooklyn shortly after we&rsquo;d gotten married. We had both sort of grown up in Philly, and it was time to challenge ourselves in a different way. We figured, if we could best New York, we could make it anywhere else in the world.</p>
-
-				<p>Fast forward to 3 years later, we&rsquo;ve got an amazing 5-month old little girl <a href="http://siddaleemall.com/">Sidda</a>, and our lives have changed in so many other special ways. One of the biggest realizations we&rsquo;ve had was just how important family is to us. This past weekend, we packed our things and moved back to Philly (well, just outside of Philly) to be closer to our families, which both live about 15 minutes away from each other. I&rsquo;ve always had a soft spot in my heart for Philly&mdash;heck, I pioneered Philly T-Shirt Fridays&trade; at work where I introduced gems like &ldquo;<a href="http://www.etsy.com/listing/25540998/love-jawn-t-shirt-unisex-l-athletic-grey">Jawn</a>&rdquo;, &ldquo;<a href="http://feedstore.muledesign.com/product/im-not-angry-im-from-philly">I&rsquo;m not angry, I&rsquo;m from Philly</a>&rdquo;, and my <a href="http://dmall.me/As6OFE ">McNabb Eagles jersey</a>&mdash;and it feels good to be back home. I&rsquo;ll sorely miss all of the great friends I&rsquo;ve made in Brooklyn, but now you all have a great excuse to get a cheesesteak. Seriously, come visit and stay over; we&rsquo;ve got the space.</p>
-
-				<p>The other big part of this is what I&rsquo;ll be doing for work. I&rsquo;ve been very blessed to work with some of the best people at some of the <a href="http://bigspaceship.com/">best</a> <a href="http://happycog.com/">agencies</a> in the universe, and now it&rsquo;s time to see what I can do as I strike out on my own. I&rsquo;ve just launched <a href="http://superfriend.ly/">SuperFriendly</a>, my newest venture. If you&rsquo;re looking for a partner to defeat apathy and the forces of evil, drop me a line and let&rsquo;s chat. Of course, don&rsquo;t forget to get your fix of SuperFriendly on your very beloved <a href="http://twitter.com/superfriendlyco">Twitter</a> and <a href="http://facebook.com/superfriendly">Facebook</a>.</p>
-
-				<p>Lastly, I&rsquo;ve also co-founded a startup and have been working on that product as I get time. I can&rsquo;t say much more than that yet, but follow along if that piques your interest, as I&rsquo;ll be sharing more news about that in the very near future.</p>
-
-				<p>Changes!</p>
-				
-				<footer id="footnote">
-					<p>Amidst all the excitement, I forgot to mention 2 people without whom the SuperFriendly brand would not have been as strong.</p>
-					<p>I hired <a href="http://www.sergeyshapiro.com/">Sergey Shapiro</a> to create the SuperFriendly logo for me. Sergey&rsquo;s style was perfect for the look I was envisioning, and he executed brilliantly.</p>
-					<p>I struggled to find the right concepts to encapsulate what SuperFriendly means to me. In a last minute bout of desperation, I reached out to <a href="http://www.pixelingo.com/">Carolyn Wood</a>, who stayed up with me until the wee hours of the morning to help craft the right tone.</p>
-					<p>To these friends, I am ever grateful.</p>
-				</footer><!-- #footnote -->
-			
-		    </section><!-- #introducing-superfriendly -->	  			
+			<footer id="footnote">
+				<p>Amidst all the excitement, I forgot to mention 2 people without whom the SuperFriendly brand would not have been as strong.</p>
+				<p>I hired <a href="http://www.sergeyshapiro.com/">Sergey Shapiro</a> to create the SuperFriendly logo for me. Sergey&rsquo;s style was perfect for the look I was envisioning, and he executed brilliantly.</p>
+				<p>I struggled to find the right concepts to encapsulate what SuperFriendly means to me. In a last minute bout of desperation, I reached out to <a href="http://www.pixelingo.com/">Carolyn Wood</a>, who stayed up with me until the wee hours of the morning to help craft the right tone.</p>
+				<p>To these friends, I am ever grateful.</p>
+			</footer><!-- #footnote -->
 	    
 	    </section><!-- #introducing-superfriendly -->	    
 	    
 	</div><!-- /#article-area-wrap -->	
+
+	<?php
+
+        echo readNext('Farewell, Big Spaceship', '/articles/farewell-big-spaceship/');
+
+    ?>
 	
 	<div id="comments">
 	
