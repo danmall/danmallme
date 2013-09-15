@@ -18,9 +18,9 @@
 	
 	<div id="article-area-wrap">
 			
-	    <section id="grok-reads" class="clearfix">
+	    <section id="grok-reads" class="clearfix wrap">
 			
-			<h1 class="offscreen">Grok Reads</h1>
+			<h1 class="article-title">Grok Reads</h1>
 				
 			<p>Last week, I had the pleasure of attending <a href="http://grok.cc/">Greenville Grok</a> in Greenville, <abbr title="South Carolina">SC</abbr>. Though there were many great things about it&mdash;check out roundups by <a href="http://garrettstjohn.com/entry/greenville-grok/">Garrett St. John</a>, <a href="http://wiseacredigital.com/blog/437">Paul Armstrong</a>, <a href="http://blog.ismaelburciaga.com/tag/grok/">Ismael Burciaga</a>, <a href="http://brandonhoulihan.com/2012/reflecting-on-grok/">Brandon Houlihan</a>, and <a href="http://blumercpas.com/blog/comments/what_is_a_grok">Jason Blumer</a>&mdash; one of the things that impressed me the most was how well read all of the attendees seemed to be. I started to compile a list of the books mentioned in each session. Though there&rsquo;s are only a handful here, I&rsquo;m hoping they act as good references for what went on at Grok. And, if you attended the event and can think of some books that aren&rsquo;t part of the list, mention them in the comments and I&rsquo;ll be happy to add them.</p>
 				
@@ -96,7 +96,13 @@
 			
 	    </section><!-- #grok-reads -->	  	
 	    
-	</div><!-- /#article-area-wrap -->	
+	</div><!-- /#article-area-wrap -->
+
+	<?php
+
+        echo readNext('Introducing SuperFriendly', '/articles/introducing-superfriendly/');
+
+    ?>	
 	
 	<div id="comments">
 	
