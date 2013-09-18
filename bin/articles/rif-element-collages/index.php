@@ -37,7 +37,7 @@
                 
             </div><!-- .hero -->
 			
-            <div class="inner">
+            <div class="inner wrap">
                 
                 <?php /* ?><p>It&rsquo;s easy to do projects the way you&rsquo;ve always done them. Everyone&rsquo;s all crazy about <a href="http://lmgtfy.com/?q=agile">agile</a> lately, but we were all doing just fine with waterfall.</p>
                 
@@ -74,6 +74,12 @@
         <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/rif-nav.php"); echo "\n"; ?>  	
 	    
 	</div><!-- /#article-area-wrap -->	
+
+    <?php
+
+        echo readNext('Kickoff', '/articles/rif-kickoff/');
+
+    ?>
 	
 	<div id="comments">
 	
@@ -115,12 +121,12 @@
 	    
     	    <div class="sub">
 	        
-    	        <section id="article-info">
+    	        <section class="article-info">
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
         	        <time datetime="2012-11-13T08:18:00">Published November 13, 2012 at 8:18 <abbr title="Ante Meridian">AM</abbr></time>
-    	        </section><!-- /#article-info -->
+    	        </section><!-- /.article-info -->
     	        
     	        
     	        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/carbon.php"); echo "\n"; ?>

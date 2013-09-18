@@ -2,10 +2,9 @@
 
 #the-post-psd-era { margin: 0 auto; /*width: 799px;*/ font: normal 20px Georgia, 'Times New Roman', serif; color: #000; }
     
-    #the-post-psd-era .inner { width: 669px; margin: 0 auto; }
+    #the-post-psd-era .inner {  }
     
         #the-post-psd-era header { background: #369701 url(pattern_1.png) repeat 0 0; padding: 100px 0; margin: 0 0 2em; }
-            #the-post-psd-era hgroup { width: 669px; margin: 0 auto; }
                 #the-post-psd-era hgroup h1 { text-align: center; color: #fff; font: bold 68px/1 Helvetica, Arial, sans-serif; letter-spacing: -2px; margin: 0 0 0.25em; text-shadow: 4px 4px rgba(0, 0, 0, 0.2); }
                 #the-post-psd-era hgroup h2 { text-align: center; color: #fff; font: normal 20px Georgia, 'Times New Roman', serif; font-style: italic; }                
                 
@@ -22,3 +21,11 @@
     
     #the-post-psd-era ::selection { background: #369701; color: #fff; }
     #the-post-psd-era ::-moz-selection { background: #d12a00; color: #fff; }
+
+
+@media screen and (min-width: 700px) {
+
+    #the-post-psd-era .inner { width: 669px; }
+    #the-post-psd-era hgroup { width: 669px; margin: 0 auto; }
+
+}

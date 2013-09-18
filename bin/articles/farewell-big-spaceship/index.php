@@ -27,7 +27,7 @@
 	
 	<div id="article-area-wrap">
 	    
-	    <section id="farewell-bss" class="clearfix">
+	    <section id="farewell-bss" class="clearfix wrap">
 			
 			<h1><span class="lettering-hook">Today</span> is my last day at <a href="http://bigspaceship.com/">Big Spaceship</a>.</h1>
 			
@@ -41,6 +41,11 @@
 	    
 	</div><!-- /#article-area-wrap -->
 	
+	<?php
+
+        echo readNext('Sketchbooks', '/articles/sketchbooks/');
+
+    ?>
 	
 	<div id="comments">
 	
@@ -82,12 +87,12 @@
 	    
     	    <div class="sub">
 	        
-    	        <section id="article-info">
+    	        <section class="article-info">
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
         	        <time datetime="2012-01-27T12:06:30">Published January 27, 2012 at 10:30 <abbr title="Post Meridian">AM</abbr></time>
-    	        </section><!-- /#article-info -->
+    	        </section><!-- /.article-info -->
     	        
     	        
     	        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/carbon.php"); echo "\n"; ?>

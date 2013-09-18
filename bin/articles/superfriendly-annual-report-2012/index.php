@@ -27,7 +27,7 @@
 	
 	<div id="article-area-wrap">
 	    
-	    <section id="superfriendly-annual-report-2012" class="clearfix">
+	    <section id="superfriendly-annual-report-2012" class="clearfix wrap">
 			
 			<h1 class="article-title">The 2012 SuperFriendly Annual Report</h1>
 			
@@ -173,7 +173,7 @@
                 
                 <h1>Global Clients</h1>
                 
-                <iframe width="800" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=218281864734336525222.0004d4a281c8c438f0fa4&amp;ie=UTF8&amp;ll=-0.35156,-7.734375&amp;spn=88.670812,241.567383&amp;t=m&amp;output=embed"></iframe><br /><small class="article-footer"><p>View <a href="https://maps.google.com/maps/ms?ll=-2.460181,3.164063&amp;spn=163.382665,313.242187&amp;t=m&amp;z=2&amp;msa=0&amp;msid=218281864734336525222.0004d4a281c8c438f0fa4&amp;source=embed">SuperFriendly Clients</a> in a larger map</p></small></p>
+                <iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=218281864734336525222.0004d4a281c8c438f0fa4&amp;ie=UTF8&amp;ll=-0.35156,-7.734375&amp;spn=88.670812,241.567383&amp;t=m&amp;output=embed"></iframe><br /><small class="article-footer"><p>View <a href="https://maps.google.com/maps/ms?ll=-2.460181,3.164063&amp;spn=163.382665,313.242187&amp;t=m&amp;z=2&amp;msa=0&amp;msid=218281864734336525222.0004d4a281c8c438f0fa4&amp;source=embed">SuperFriendly Clients</a> in a larger map</p></small></p>
                 
                 
             </section><!-- .topic -->
@@ -190,6 +190,12 @@
 	    </section><!-- #superfriendly-annual-report-2012 -->	    
 	    
 	</div><!-- /#article-area-wrap -->
+
+    <?php
+
+        echo readNext('The Post-PSD Era', '/articles/the-post-psd-era/');
+
+    ?>
 	
 	
 	<div id="comments">
@@ -232,12 +238,12 @@
 	    
     	    <div class="sub">
 	        
-    	        <section id="article-info">
+    	        <section class="article-info">
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
         	        <time datetime="2012-01-27T12:06:30">Published Feb 1, 2013 at 12:30 <abbr title="Post Meridian">AM</abbr></time>
-    	        </section><!-- /#article-info -->
+    	        </section><!-- /.article-info -->
     	        
     	        
     	        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/carbon.php"); echo "\n"; ?>

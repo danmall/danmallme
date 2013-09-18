@@ -2,9 +2,11 @@
 .wf-active #article-area-wrap { font-family: "adelle", Georgia, 'Times New Roman', serif; font-weight: 300; }
 
 #rif-design-flexibility { margin: 0 auto; padding: 0 0 50px; }
+
+    #rif-design-flexibility img { float: none; }
     
     #rif-design-flexibility hgroup { }
-        #rif-design-flexibility h1 { font: bold 126px/0.75 Helvetica, Arial, sans-serif; color: #fe0; text-transform: uppercase; letter-spacing: -3px; margin: 0 0 0.25em; }
+        #rif-design-flexibility h1 { font: bold 46px/0.75 Helvetica, Arial, sans-serif; color: #fe0; text-transform: uppercase; letter-spacing: -3px; margin: 0 0 0.25em; }
         .wf-active #rif-design-flexibility h1 { font-family: "proxima-nova", Helvetica, Arial, sans-serif; letter-spacing: -2px; font-weight: 800; }
         #rif-design-flexibility h2 { color: #4c4c4c; font: bold 24px Helvetica, Arial, sans-serif; text-transform: uppercase; margin: 1em 0; }
         .wf-active #rif-design-flexibility h2 { font-family: "proxima-nova", Helvetica, Arial, sans-serif; font-weight: 800; }
@@ -16,7 +18,6 @@
     .wf-active #rif-design-flexibility blockquote p { font-family: "adelle", Georgia, 'Times New Roman', serif; font-weight: 300; font-style: italic; font-size: 16px; }  
     #rif-design-flexibility a { color: #1f73b7; border: none; }
     #rif-design-flexibility a:hover, #rif-design-flexibility a:focus { background: #fe0; }
-    #rif-design-flexibility .inner { width: 700px; padding: 0 100px 0 0; margin: 0 auto; }
     #rif-design-flexibility .hero { background: #222 url(hero.jpg) no-repeat 50% 0; height: 720px; width: 100%; margin: 0 0 3em; }
         #rif-design-flexibility .hero .inner { position: relative; height: 565px; padding-top: 155px; }
             #rif-design-flexibility .hero img { position: absolute; bottom: 155px; left: 0; }
@@ -26,3 +27,10 @@
         
 #rif-design-flexibility ::selection { background: #fe0; color: #000; }
 #rif-design-flexibility ::-moz-selection { background: #fe0; color: #000; }
+
+@media screen and (min-width: 800px){
+
+    #rif-design-flexibility .inner { width: 700px; padding: 0 100px 0 0; margin: 0 auto; }
+    #rif-design-flexibility h1 { font-size: 126px; }
+
+}

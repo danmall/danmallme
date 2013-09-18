@@ -7,7 +7,7 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
      <style>
         /*.page-title { background-image: url(morsel.png); width: 365px; height: 75px; }*/
-        .page-title { }
+        .page-title { font-size: 70px; }
         #project-header hgroup { top: 4px; }  
 
         .project-image { height: 790px; background: transparent url(morsel-hero.jpg) no-repeat center 0; margin-bottom: -50px; }
@@ -17,6 +17,10 @@
             #contagious a { width: 102px; height: 113px; top: 109px; left: 55px; }
             #fwa a { width: 137px; height: 64px; top: 131px; left: 343px; }
             #creativity a { width: 114px; height: 68px; top: 127px; left: 604px; }
+
+        @media screen and (min-width: 800px){
+            .page-title { font-size: 100px; }
+        }
 
     </style>
 </head>

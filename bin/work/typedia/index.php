@@ -7,11 +7,15 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
      <style>
          /*.page-title { background-image: url(typedia.png); width: 475px; height: 110px; }*/
-         .page-title { font-size: 120px; }
+         .page-title { font-size: 70px; }
          #project-header hgroup { top: -4px; }  
 
          .project-image { height: 1155px; background: transparent url(typedia-hero.jpg) no-repeat center 0; }
          .project-url { left: 133px; top: 26px; }
+
+         @media screen and (min-width: 800px){
+            .page-title { font-size: 120px; }
+         }
      </style>
 </head>
 

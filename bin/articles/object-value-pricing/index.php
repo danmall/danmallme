@@ -17,7 +17,7 @@
 	
 	<div id="article-area-wrap">
 			
-	    <section id="object-value-pricing" class="clearfix">
+	    <section id="object-value-pricing" class="clearfix wrap">
 			
 			<hgroup>
 				<h1><b>Object Value Pricing</b></h1>
@@ -51,6 +51,12 @@
 	    </section><!-- #object-value-pricing -->	  	
 	    
 	</div><!-- /#article-area-wrap -->	
+
+	<?php
+
+        echo readNext('Big/Small', '/articles/big-small/');
+
+    ?>
 	
 	<div id="comments">
 	
@@ -92,12 +98,12 @@
 	    
     	    <div class="sub">
 	        
-    	        <section id="article-info">
+    	        <section class="article-info">
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
         	        <time datetime="2012-05-06T15:20:00">Published May 6, 2012 at 3:20 <abbr title="Post Meridian">PM</abbr></time>
-    	        </section><!-- /#article-info -->
+    	        </section><!-- /.article-info -->
     	        
     	        
     	        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/carbon.php"); echo "\n"; ?>

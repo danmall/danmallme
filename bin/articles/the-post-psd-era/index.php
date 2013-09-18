@@ -22,13 +22,13 @@
 	    <section id="the-post-psd-era" class="clearfix">
 			
             <header class="post-header">
-                <hgroup>
+                <hgroup class="wrap">
                     <h1>The Post-PSD Era</h1>
                     <h2>A problem of expectations</h2>
                 </hgroup>
             </header><!-- .post-header -->
             
-            <div class="inner">
+            <div class="inner wrap">
 
                 <p>My friend <a href="http://twitter.com/brad_frost">Brad</a> wrote a great post about <a href="http://bradfrostweb.com/blog/post/the-post-psd-era/">entering a post-<abbr title="Photoshop Document">PSD</abbr> era</a>, met by both polarizing support and skepticism. Here&rsquo;s my perspective.</p>
 
@@ -74,6 +74,12 @@
 	    </section><!-- #the-post-psd-era -->
 	    
 	</div><!-- /#article-area-wrap -->	
+
+    <?php
+
+        echo readNext('Design Flexibility', '/articles/rif-design-flexibility/');
+
+    ?>
 	
 	<div id="comments">
 	
@@ -115,12 +121,12 @@
 	    
     	    <div class="sub">
 	        
-    	        <section id="article-info">
+    	        <section class="article-info">
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
         	        <time datetime="2013-01-23T11:32:46">Published January 23, 2013 at 12:56 <abbr title="Ante Meridian">PM</abbr></time>
-    	        </section><!-- /#article-info -->
+    	        </section><!-- /.article-info -->
     	        
     	        
     	        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/carbon.php"); echo "\n"; ?>

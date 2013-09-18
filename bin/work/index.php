@@ -18,6 +18,7 @@
     	    <h2>A compendium of design work I&rsquo;m proud of. If you like what you see, <a href="/contact/">let me know</a> !</h2>
     	</hgroup>
 	    
+        <?php /*
 	     <nav class="tab-nav">	
 	            
             <ul class="no-marker">
@@ -27,7 +28,7 @@
             </ul>
             
         </nav><!-- .tab-nav -->
-        
+        <?php */ ?>
 	
     	<section id="content" class="work-tabs-container">
             
@@ -114,7 +115,7 @@
 		        
 		    </section><!-- #by-year -->
             
-            <?php /* ?>
+            
             <section id="by-client">
                 
                 <ul class="client-grid no-marker clearfix">
@@ -199,7 +200,7 @@
                     
                     <li class="clearfix" id="typeface-american-typewriter">
                         <div class="specimen">
-                            <h1 class="hide">American Typewriter</h1>
+                            <img src="/-/i/work/typefaces/american-typewriter.png" alt="American Typewriter" />
                             <ul class="specimen-meta no-marker">
                                 <li>by <abbr title="International Typeface Corporation">ITC</abbr></li>
                                 <li><a href="http://typedia.com/explore/typefaces/itc-american-typewriter/" title="Learn about &ldquo;American Typewriter&rdquo; on Typedia">on Typedia</a></li>
@@ -215,7 +216,7 @@
                     
                     <li class="clearfix" id="typeface-antenna">
                         <div class="specimen">
-                            <h1 class="hide">Antenna</h1>
+                            <img src="/-/i/work/typefaces/antenna.png" alt="Antenna" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Font Bureau</li>
                                 <li><a href="http://typedia.com/explore/typefaces/antenna/" title="Learn about &ldquo;Antenna&rdquo; on Typedia">on Typedia</a></li>
@@ -231,7 +232,7 @@
                     
                     <li class="clearfix" id="typeface-arial">
                         <div class="specimen">
-                            <h1 class="hide">Arial</h1>
+                            <img src="/-/i/work/typefaces/arial.png" alt="Arial" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Ascender Corporation</li>
                                 <li><a href="http://typedia.com/explore/typefaces/arial/" title="Learn about &ldquo;Arial&rdquo; on Typedia">on Typedia</a></li>
@@ -248,7 +249,7 @@
                     
                     <li class="clearfix" id="typeface-avant-garde">
                         <div class="specimen">
-                            <h1 class="hide">Avant Garde</h1>
+                            <img src="/-/i/work/typefaces/avant-garde.png" alt="Avant Garde" />
                             <ul class="specimen-meta no-marker">
                                 <li>by <abbr title="International Typeface Corporation">ITC</abbr></li>
                                 <li><a href="http://typedia.com/explore/typeface/avant-garde-gothic/" title="Learn about &ldquo;Avant Garde&rdquo; on Typedia">on Typedia</a></li>
@@ -265,7 +266,7 @@
                     
                     <li class="clearfix" id="typeface-berkeley">
                         <div class="specimen">
-                            <h1 class="hide">Berkeley</h1>
+                            <img src="/-/i/work/typefaces/berkeley.png" alt="Berkeley" />
                             <ul class="specimen-meta no-marker">
                                 <li>by <abbr title="International Typeface Corporation">ITC</abbr></li>
                                 <li><a href="http://typedia.com/explore/typefaces/itc-berkeley-old-style//" title="Learn about &ldquo;Berkeley&rdquo; on Typedia">on Typedia</a></li>
@@ -282,7 +283,7 @@
                     
                     <li class="clearfix" id="typeface-burbank">
                         <div class="specimen">
-                            <h1 class="hide">Burbank</h1>
+                            <img src="/-/i/work/typefaces/burbank.png" alt="Burbank" />
                             <ul class="specimen-meta no-marker">
                                 <li>by House Industries</li>
                                 <li><a href="http://typedia.com/explore/typefaces/burbank/" title="Learn about &ldquo;Burbank&rdquo; on Typedia">on Typedia</a></li>
@@ -299,7 +300,7 @@
                     
                     <li class="clearfix" id="typeface-century-expanded">
                         <div class="specimen">
-                            <h1 class="hide">Century Expanded</h1>
+                            <img src="/-/i/work/typefaces/century-expanded.png" alt="Century Expanded" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Adobe</li>
                                 <li><a href="http://typedia.com/explore/typefaces/century/" title="Learn about &ldquo;Century Expanded&rdquo; on Typedia">on Typedia</a></li>
@@ -316,7 +317,7 @@
                     
                     <li class="clearfix" id="typeface-clarendon">
                         <div class="specimen">
-                            <h1 class="hide">Clarendon</h1>
+                            <img src="/-/i/work/typefaces/clarendon.png" alt="Clarendon" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Fann Street</li>
                                 <li><a href="http://typedia.com/explore/typefaces/clarendon/" title="Learn about &ldquo;Clarendon&rdquo; on Typedia">on Typedia</a></li>
@@ -333,7 +334,7 @@
                     
                     <li class="clearfix" id="typeface-clan">
                         <div class="specimen">
-                            <h1 class="hide">Clan</h1>
+                            <img src="/-/i/work/typefaces/clan.png" alt="Clan" />
                             <ul class="specimen-meta no-marker">
                                 <li>by FontFont</li>
                                 <li><a href="http://typedia.com/explore/typefaces/ff-clan/" title="Learn about &ldquo;Clan&rdquo; on Typedia">on Typedia</a></li>
@@ -350,7 +351,7 @@
                     
                     <li class="clearfix" id="typeface-conduit">
                         <div class="specimen">
-                            <h1 class="hide">Conduit</h1>
+                            <img src="/-/i/work/typefaces/conduit.png" alt="Conduit" />
                             <ul class="specimen-meta no-marker">
                                 <li>by <abbr title="International Typeface Corporation">ITC</abbr></li>
                                 <li><a href="http://typedia.com/explore/typefaces/itc-conduit/" title="Learn about &ldquo;Conduit&rdquo; on Typedia">on Typedia</a></li>
@@ -367,7 +368,7 @@
                     
                     <li class="clearfix" id="typeface-cooter-deuce">
                         <div class="specimen">
-                            <h1 class="hide">Cooter Deuce</h1>
+                            <img src="/-/i/work/typefaces/cooter-deuce.png" alt="Cooter Deuce" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Dilworth Typographics</li>
                                 <li><a href="http://typedia.com/explore/typefaces/cooter-deuce/" title="Learn about &ldquo;Cooter Deuce&rdquo; on Typedia">on Typedia</a></li>
@@ -384,7 +385,7 @@
                     
                     <li class="clearfix" id="typeface-corbel">
                         <div class="specimen">
-                            <h1 class="hide">Corbel</h1>
+                            <img src="/-/i/work/typefaces/corbel.png" alt="Corbel" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Microsoft</li>
                                 <li><a href="http://typedia.com/explore/typefaces/corbel/" title="Learn about &ldquo;Corbel&rdquo; on Typedia">on Typedia</a></li>
@@ -402,7 +403,7 @@
                     
                     <li class="clearfix" id="typeface-courier-new">
                         <div class="specimen">
-                            <h1 class="hide">Courier New</h1>
+                            <img src="/-/i/work/typefaces/courier-new.png" alt="Courier New" />
                             <ul class="specimen-meta no-marker">
                                 <li>by <abbr title="International Business Machines">IBM</abbr></li>
                                 <li><a href="http://typedia.com/explore/typefaces/courier/" title="Learn about &ldquo;Courier New&rdquo; on Typedia">on Typedia</a></li>
@@ -419,7 +420,7 @@
                     
                     <li class="clearfix" id="typeface-dagny">
                         <div class="specimen">
-                            <h1 class="hide">Dagny</h1>
+                            <img src="/-/i/work/typefaces/dagny.png" alt="Dagny" />
                             <ul class="specimen-meta no-marker">
                                 <li>by FontFont</li>
                                 <li><a href="http://typedia.com/explore/typefaces/ff-dagny/" title="Learn about &ldquo;Dagny&rdquo; on Typedia">on Typedia</a></li>
@@ -436,7 +437,7 @@
                     
                     <li class="clearfix" id="typeface-didot">
                         <div class="specimen">
-                            <h1 class="hide">Didot</h1>
+                            <img src="/-/i/work/typefaces/didot.png" alt="Didot" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Firmin Didot</li>
                                 <li><a href="http://typedia.com/explore/typefaces/didot/" title="Learn about &ldquo;Didot&rdquo; on Typedia">on Typedia</a></li>
@@ -454,7 +455,7 @@
                     
                     <li class="clearfix" id="typeface-din">
                         <div class="specimen">
-                            <h1 class="hide">DIN</h1>
+                            <img src="/-/i/work/typefaces/din.png" alt="DIN" />
                             <ul class="specimen-meta no-marker">
                                 <li>by D Stemple <abbr>AG</abbr></li>
                                 <li><a href="http://typedia.com/explore/typefaces/ff-din/" title="Learn about &ldquo;DIN&rdquo; on Typedia">on Typedia</a></li>
@@ -473,7 +474,7 @@
                     
                     <li class="clearfix" id="typeface-estilo-script">
                         <div class="specimen">
-                            <h1 class="hide">Estilo Script</h1>
+                            <img src="/-/i/work/typefaces/estilo-script.png" alt="Estilo Script" />
                             <ul class="specimen-meta no-marker">
                                 <li>by TypeTrust</li>
                                 <li><a href="http://typedia.com/explore/typefaces/estilo-script/" title="Learn about &ldquo;Estilo Script&rdquo; on Typedia">on Typedia</a></li>
@@ -490,7 +491,7 @@
                     
                     <li class="clearfix" id="typeface-franklin-gothic">
                         <div class="specimen">
-                            <h1 class="hide">Franklin Gothic</h1>
+                            <img src="/-/i/work/typefaces/franklin-gothic.png" alt="Franklin Gothic" />
                             <ul class="specimen-meta no-marker">
                                 <li>by ITC</li>
                                 <li><a href="http://typedia.com/explore/typefaces/itc-franklin-gothic/" title="Learn about &ldquo;Franklin Gothic&rdquo; on Typedia">on Typedia</a></li>
@@ -508,7 +509,7 @@
                     
                     <li class="clearfix" id="typeface-garamond">
                         <div class="specimen">
-                            <h1 class="hide">Garamond</h1>
+                            <img src="/-/i/work/typefaces/garamond.png" alt="Garamond" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Adobe</li>
                                 <li><a href="http://typedia.com/explore/typefaces/adobe-garamond/" title="Learn about &ldquo;Garamond&rdquo; on Typedia">on Typedia</a></li>
@@ -526,7 +527,7 @@
                     
                     <li class="clearfix" id="typeface-ge-inspira">
                         <div class="specimen">
-                            <h1 class="hide">GE Inspira</h1>
+                            <img src="/-/i/work/typefaces/ge-inspira.png" alt="GE Inspira" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Michael Abbink</li>
                                 <li><a href="http://typedia.com/explore/typefaces/ge-inspira/" title="Learn about &ldquo;GE Inspira&rdquo; on Typedia">on Typedia</a></li>
@@ -544,7 +545,7 @@
                     
                     <li class="clearfix" id="typeface-georgia">
                         <div class="specimen">
-                            <h1 class="hide">Georgia</h1>
+                            <img src="/-/i/work/typefaces/georgia.png" alt="Georgia" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Microsoft</li>
                                 <li><a href="http://typedia.com/explore/typefaces/georgia/" title="Learn about &ldquo;Georgia&rdquo; on Typedia">on Typedia</a></li>
@@ -568,7 +569,7 @@
                     
                     <li class="clearfix" id="typeface-gill-sans">
                         <div class="specimen">
-                            <h1 class="hide">Gill Sans</h1>
+                            <img src="/-/i/work/typefaces/gill-sans.png" alt="Gill Sans" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Monotype</li>
                                 <li><a href="http://typedia.com/explore/typefaces/gill-sans/" title="Learn about &ldquo;Gill Sans&rdquo; on Typedia">on Typedia</a></li>
@@ -585,7 +586,7 @@
                     
                     <li class="clearfix" id="typeface-gotham">
                         <div class="specimen">
-                            <h1 class="hide">Gotham</h1>
+                            <img src="/-/i/work/typefaces/gotham.png" alt="Gotham" />
                             <ul class="specimen-meta no-marker">
                                 <li>by <abbr title="Hoefler &amp; Frere-Jones">H&amp;FJ</abbr></li>
                                 <li><a href="http://typedia.com/explore/typefaces/gotham/" title="Learn about &ldquo;Gotham&rdquo; on Typedia">on Typedia</a></li>
@@ -602,7 +603,7 @@
                     
                     <li class="clearfix" id="typeface-griffith-gothic">
                         <div class="specimen">
-                            <h1 class="hide">Griffith Gothic</h1>
+                            <img src="/-/i/work/typefaces/griffith-gothic.png" alt="Griffith Gothic" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Font Bureau</li>
                                 <li><a href="http://typedia.com/explore/typefaces/griffith-gothic/" title="Learn about &ldquo;Griffith Gothic&rdquo; on Typedia">on Typedia</a></li>
@@ -619,7 +620,7 @@
                     
                     <li class="clearfix" id="typeface-helvetica">
                         <div class="specimen">
-                            <h1 class="hide">Helvetica</h1>
+                            <img src="/-/i/work/typefaces/helvetica.png" alt="Helvetica" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Linotype</li>
                                 <li><a href="http://typedia.com/explore/typefaces/helvetica/" title="Learn about &ldquo;Helvetica&rdquo; on Typedia">on Typedia</a></li>
@@ -637,7 +638,7 @@
                     
                     <li class="clearfix" id="typeface-kari">
                         <div class="specimen">
-                            <h1 class="hide">Kari</h1>
+                            <img src="/-/i/work/typefaces/kari.png" alt="Kari" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Positype</li>
                                 <li><a href="http://typedia.com/explore/typefaces/kari-pro/" title="Learn about &ldquo;Kari&rdquo; on Typedia">on Typedia</a></li>
@@ -654,7 +655,7 @@
                     
                     <li class="clearfix" id="typeface-kilogram">
                         <div class="specimen">
-                            <h1 class="hide">Kilogram</h1>
+                            <img src="/-/i/work/typefaces/kilogram.png" alt="Kilogram" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Kalle Graphics</li>
                                 <li><a href="http://typedia.com/explore/typefaces/kilogram/" title="Learn about &ldquo;Kilogram&rdquo; on Typedia">on Typedia</a></li>
@@ -671,7 +672,7 @@
                     
                     <li class="clearfix" id="typeface-lubalin-graph">
                         <div class="specimen">
-                            <h1 class="hide">Lubalin Graph</h1>
+                            <img src="/-/i/work/typefaces/lubalin-graph.png" alt="Lubalin Graph" />
                             <ul class="specimen-meta no-marker">
                                 <li>by ITC</li>
                                 <li><a href="http://typedia.com/explore/typefaces/itc-lubalin-graph/" title="Learn about &ldquo;Lubalin Graph&rdquo; on Typedia">on Typedia</a></li>
@@ -689,7 +690,7 @@
                     
                     <li class="clearfix" id="typeface-lucida-grande">
                         <div class="specimen">
-                            <h1 class="hide">Lucida Grande</h1>
+                            <img src="/-/i/work/typefaces/lucida-grande.png" alt="Lucida Grande" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Bigelow &amp; Holmes</li>
                                 <li><a href="http://typedia.com/explore/typefaces/lucida-grande/" title="Learn about &ldquo;Lucida Grande&rdquo; on Typedia">on Typedia</a></li>
@@ -706,7 +707,7 @@
                     
                     <li class="clearfix" id="typeface-matt-b">
                         <div class="specimen">
-                            <h1 class="hide">Matt B</h1>
+                            <img src="/-/i/work/typefaces/matt-b.png" alt="Matt B" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Chank</li>
                                 <li><a href="http://typedia.com/explore/typefaces/matt-b/" title="Learn about &ldquo;Matt B&rdquo; on Typedia">on Typedia</a></li>
@@ -723,7 +724,7 @@
                     
                     <li class="clearfix" id="typeface-omnes">
                         <div class="specimen">
-                            <h1 class="hide">Omnes</h1>
+                            <img src="/-/i/work/typefaces/omnes.png" alt="Omnes" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Darden Studio</li>
                                 <li><a href="http://typedia.com/explore/typefaces/omnes/" title="Learn about &ldquo;Omnes&rdquo; on Typedia">on Typedia</a></li>
@@ -741,7 +742,7 @@
                     
                     <li class="clearfix" id="typeface-pmn-caecilia">
                         <div class="specimen">
-                            <h1 class="hide">PMN Caecilia</h1>
+                            <img src="/-/i/work/typefaces/pmn-caecilia.png" alt="PMN Caecilia" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Linotype</li>
                                 <li><a href="http://typedia.com/explore/typefaces/pmn-caecilia/" title="Learn about &ldquo;PMN Caecilia&rdquo; on Typedia">on Typedia</a></li>
@@ -758,7 +759,7 @@
                     
                     <li class="clearfix" id="typeface-quicksand">
                         <div class="specimen">
-                            <h1 class="hide">Quicksand</h1>
+                            <img src="/-/i/work/typefaces/quicksand.png" alt="Quicksand" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Andrew Paglinawan</li>
                                 <li><a href="http://typedia.com/explore/typefaces/quicksand/" title="Learn about &ldquo;Quicksand&rdquo; on Typedia">on Typedia</a></li>
@@ -775,7 +776,7 @@
                     
                     <li class="clearfix" id="typeface-sauna">
                         <div class="specimen">
-                            <h1 class="hide">Sauna</h1>
+                            <img src="/-/i/work/typefaces/sauna.png" alt="Sauna" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Underware</li>
                                 <li><a href="http://typedia.com/explore/typefaces/sauna/" title="Learn about &ldquo;Sauna&rdquo; on Typedia">on Typedia</a></li>
@@ -792,7 +793,7 @@
                     
                     <li class="clearfix" id="typeface-sentinel">
                         <div class="specimen">
-                            <h1 class="hide">Sentinel</h1>
+                            <img src="/-/i/work/typefaces/sentinel.png" alt="Sentinel" />
                             <ul class="specimen-meta no-marker">
                                 <li>by <abbr title="Hoefler &amp; Frere-Jones">H&amp;FJ</abbr></li>
                                 <li><a href="http://typedia.com/explore/typefaces/sentinel/" title="Learn about &ldquo;Sentinel&rdquo; on Typedia">on Typedia</a></li>
@@ -809,7 +810,7 @@
                     
                     <li class="clearfix" id="typeface-serlio">
                         <div class="specimen">
-                            <h1 class="hide">Serlio</h1>
+                            <img src="/-/i/work/typefaces/serlio.png" alt="Serlio" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Linotype</li>
                                 <li><a href="http://typedia.com/explore/typefaces/serlio-lh/" title="Learn about &ldquo;Serlio&rdquo; on Typedia">on Typedia</a></li>
@@ -826,7 +827,7 @@
                     
                     <li class="clearfix" id="typeface-sign-painter">
                         <div class="specimen">
-                            <h1 class="hide">Sign Painter</h1>
+                            <img src="/-/i/work/typefaces/sign-painter.png" alt="Sign Painter" />
                             <ul class="specimen-meta no-marker">
                                 <li>by House Industries</li>
                                 <li><a href="http://typedia.com/explore/typefaces/sign-painter/" title="Learn about &ldquo;Sign Painter&rdquo; on Typedia">on Typedia</a></li>
@@ -843,7 +844,7 @@
                     
                     <li class="clearfix" id="typeface-trebuchet-ms">
                         <div class="specimen">
-                            <h1 class="hide">Trebuchet MS</h1>
+                            <img src="/-/i/work/typefaces/trebuchet-ms.png" alt="Trebuchet MS" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Microsoft</li>
                                 <li><a href="http://typedia.com/explore/typefaces/trebuchet-ms/" title="Learn about &ldquo;Trebuchet MS&rdquo; on Typedia">on Typedia</a></li>
@@ -862,7 +863,7 @@
                     
                     <li class="clearfix" id="typeface-trade-gothic">
                         <div class="specimen">
-                            <h1 class="hide">Trade Gothic</h1>
+                            <img src="/-/i/work/typefaces/trade-gothic.png" alt="Trade Gothic" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Linotype</li>
                                 <li><a href="http://typedia.com/explore/typefaces/trade-gothic/" title="Learn about &ldquo;Trade Gothic&rdquo; on Typedia">on Typedia</a></li>
@@ -879,7 +880,7 @@
                     
                     <li class="clearfix" id="typeface-tungsten">
                         <div class="specimen">
-                            <h1 class="hide">Tungsten</h1>
+                            <img src="/-/i/work/typefaces/tungsten.png" alt="Tungsten" />
                             <ul class="specimen-meta no-marker">
                                 <li>by <abbr title="Hoefler &amp; Frere-Jones">H&amp;FJ</abbr></li>
                                 <li><a href="http://typedia.com/explore/typefaces/tungsten/" title="Learn about &ldquo;Tungsten&rdquo; on Typedia">on Typedia</a></li>
@@ -896,7 +897,7 @@
                     
                     <li class="clearfix" id="typeface-univers">
                         <div class="specimen">
-                            <h1 class="hide">Univers</h1>
+                            <img src="/-/i/work/typefaces/univers.png" alt="Univers" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Linotype</li>
                                 <li><a href="http://typedia.com/explore/typefaces/univers/" title="Learn about &ldquo;Univers&rdquo; on Typedia">on Typedia</a></li>
@@ -913,7 +914,7 @@
                     
                     <li class="clearfix" id="typeface-verdana">
                         <div class="specimen">
-                            <h1 class="hide">Verdana</h1>
+                            <img src="/-/i/work/typefaces/verdana.png" alt="Verdana" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Microsoft</li>
                                 <li><a href="http://typedia.com/explore/typefaces/verdana/" title="Learn about &ldquo;Verdana&rdquo; on Typedia">on Typedia</a></li>
@@ -931,7 +932,7 @@
                     
                     <li class="clearfix" id="typeface-yanone-kaffeesatz">
                         <div class="specimen">
-                            <h1 class="hide">Yanone Kaffeesatz</h1>
+                            <img src="/-/i/work/typefaces/yanone-kaffeesatz.png" alt="Yanone Kaffeesatz" />
                             <ul class="specimen-meta no-marker">
                                 <li>by Yanone</li>
                                 <li><a href="http://typedia.com/explore/typefaces/yanone-kaffeesatz/" title="Learn about &ldquo;Yanone Kaffeesatz&rdquo; on Typedia">on Typedia</a></li>
@@ -947,7 +948,7 @@
                     
                 </ol><!-- .typeface-list -->
                 
-            </section><!--#by-typeface --><?php */ ?>
+            </section><!--#by-typeface -->
 		
     	</section><!-- #content -->
     	

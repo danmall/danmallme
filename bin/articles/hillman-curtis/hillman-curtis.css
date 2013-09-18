@@ -1,6 +1,15 @@
 #article-area-wrap { background: #111; padding: 10em 0 20em; }
 
-#hillman-curtis { width: 760px; margin: 0 auto; }   
+#hillman-curtis { }   
 	#hillman-curtis h1 { background-image: url(hillman-curtis.png); width: 231px; height: 62px; margin: 0 auto 30px; }
-    #hillman-curtis p { font: 11px/1.7 Arial, sans-serif; color: #aaa; width: 420px; margin: 0 auto 2em; }
+    #hillman-curtis p { font: 11px/1.7 Arial, sans-serif; color: #aaa; margin: 0 auto 2em; }
 	#hillman-curtis abbr { letter-spacing: 0.25em; }
+
+
+@media screen and (min-width: 500px){
+	#hillman-curtis p { width: 420px; }
+}
+
+@media screen and (min-width: 800px){
+	#hillman-curtis { width: 760px; }
+}

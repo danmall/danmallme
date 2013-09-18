@@ -16,7 +16,7 @@
 	
 	<div id="article-area-wrap">
 	    
-	    <div id="hillman-curtis">
+	    <div id="hillman-curtis" class="wrap">
 			
 			<h1 class="phark">Hillman Curtis</h1>
 	    
@@ -30,6 +30,12 @@
 	    
 	    
 	</div><!-- /#article-area-wrap -->
+
+    <?php
+
+        echo readNext('Authenticity', '/articles/authenticity/');
+
+    ?>
 	
 	
 	<div id="comments">
@@ -72,12 +78,12 @@
 	    
     	    <div class="sub">
 	        
-    	        <section id="article-info">
+    	        <section class="article-info">
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
         	        <time datetime="2012-04-200T03:10:00">Published April 20, 2012 at 3:10 <abbr title="Post Meridian">PM</abbr></time>
-    	        </section><!-- /#article-info -->
+    	        </section><!-- /.article-info -->
     	        
     	        
     	        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/carbon.php"); echo "\n"; ?>

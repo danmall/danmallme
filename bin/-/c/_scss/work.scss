@@ -2,7 +2,7 @@
     Work
 -------------------------------------------*/
 .work-heading { text-align: center; font: 700 60px/1 $fontStack; color: $blackSubstitute; margin: 0; 
-    .char6 { margin-left: -5px; }
+    .char6 { margin-left: -6px; }
     .char7 { margin-left: -1px; }
     .char8 { margin-left: -2px; }    
 }
@@ -20,15 +20,33 @@
 
 #work-landing #content { border-top: 1px dotted #7f7f7f; position: relative; z-index: 2; }
 
-    .work-tabs { background: #f7f7f7; border-bottom: 1px dotted #7f7f7f; float: left; width: 100%; }
-        .work-tabs ul { margin: 0; position: relative; /*left: 50%; float: left;*/ text-align: center; }
+    .work-tabs { 
+        background: #f7f7f7; border-bottom: 1px dotted #7f7f7f; float: left; width: 100%; /*position: relative; top: -14.7em; margin-bottom: -2em; */
+        @media screen and (min-width: $originalLayout){
+            margin-bottom: 0; position: static;
+        }
+    }
+        .work-tabs ul { margin: 0; position: relative; /*left: 50%; float: left; text-align: left;*/ text-align: center; }
             .work-tabs li { /*float: left; position: relative; right: 50%;*/ margin-left: 2em; display: inline-block; }
             .work-tabs li:first-child { margin-left: 0; }
                 .work-tabs a { display: block; padding: 1em 0.5em; border: none; }
                 
-    .client-grid { background: transparent url(/-/i/work/clients/client-grid-tile.png) repeat-y 266px 0; }
-        .client-grid li { float: left; width: 266px; border-bottom: 1px solid #e5e5e5; margin-left: 1px; background: #eee; }
-        .client-grid li:nth-child(3n+1) { margin-left: 0; }
+    .client-grid { 
+        @media screen and (min-width: $originalLayout){ 
+            background: transparent url(/-/i/work/clients/client-grid-tile.png) repeat-y 266px 0; 
+        }
+    }
+        .client-grid li { 
+            width: 266px; background: #eee; margin: 0 auto;
+            @media screen and (min-width: $originalLayout){
+                float: left; border-bottom: 1px solid #e5e5e5; margin: auto; margin-left: 1px;
+            }
+        }
+        .client-grid li:nth-child(3n+1) { 
+            @media screen and (min-width: $originalLayout){
+                margin-left: 0; 
+            }
+        }
             .client-grid a { width: 264px; height: 167px; background-color: #fff; border: 1px solid #fff; }
             .client-grid a:hover { position: relative; top: -5px; left: -5px; border: 1px solid #ccc; }
             
@@ -60,12 +78,27 @@
                 
     .typeface-list li[id^="typeface"] { border-top: 1px dotted #7f7f7f; padding: 2em 0 0; margin: 0 0 0.5em; background-repeat: no-repeat; background-position: 0 25px; background-color: transparent; }            
     .typeface-list li[id^="typeface"]:first-child { border: none; }
-        .specimen { width: 540px; padding: 0 20px 0 0; float: left; }
+        .specimen { 
+            @media screen and (min-width: $originalLayout){
+                width: 540px; padding: 0 20px 0 0; float: left; 
+            }
+
+            img { float: none; margin: 0 0 0.5em; }
+        }
             .specimen h1 { width: 540px; height: 50px; margin: 0; }
-            .specimen-meta { margin: 60px 0 2em; }
-                .specimen-meta li { font-style: italic; color: #9d9d9d; font-size: 14px; display: inline; border-left: 1px solid #ccc; padding: 0 0 0 0.75em; margin: 0 0 0 0.5em; }
+            .specimen-meta { 
+                @media screen and (min-width: $originalLayout){
+                    margin: 60px 0 2em;
+                }
+            }
+                .specimen-meta li { 
+                    display: inline; border-left: 1px solid #ccc; padding: 0 0 0 0.75em; margin: 0 0 0 0.5em; font-size: 12px; font-style: italic; color: #9d9d9d;
+                    @media screen and (min-width: $originalLayout){
+                        font-style: italic; color: #9d9d9d; font-size: 14px; 
+                    }
+                }
             .specimen-meta li:first-child { padding-left: 0; margin-left: 0; border: none; }
-            
+    /*        
     #typeface-american-typewriter   { background-image: url(/-/i/work/typefaces/american-typewriter.png); background-position: 0 35px; }   
     #typeface-antenna               { background-image: url(/-/i/work/typefaces/antenna.png); }   
     #typeface-arial                 { background-image: url(/-/i/work/typefaces/arial.png); }   
@@ -111,8 +144,13 @@
     #typeface-univers               { background-image: url(/-/i/work/typefaces/univers.png); }   
     #typeface-verdana               { background-image: url(/-/i/work/typefaces/verdana.png); }   
     #typeface-yanone-kaffeesatz     { background-image: url(/-/i/work/typefaces/yanone-kaffeesatz.png); }   
+    */
     
-        .in-use { margin: 0 0 0 560px; }
+        .in-use { 
+            @media screen and (min-width: $originalLayout){
+                margin: 0 0 0 560px; 
+            }
+        }
             .in-use h2 { margin: 0 0 0.25em; text-transform: uppercase; color: #bebebe; }
             .in-use a { border: none; font-size: 16px; }
             .in-use li { display: inline; }
@@ -120,30 +158,36 @@
             .in-use li:first-child:before { content: ""; }
 
     .tab-nav { 
+        border-top: 1px solid $blackSubstitute;
         @media screen and (min-width: $originalLayout){
-            text-align: center; margin: 0; 
+            text-align: center; margin: 0; border: none; 
         }
         ul { margin: 0; }
     }
-        .tab-nav-item { 
+        .tab-nav-item { border-bottom: 1px solid #ccc;
             @media screen and (min-width: $originalLayout){
-                display: inline-block; margin: 0; 
+                display: inline-block; margin: 0; border: none; 
             }
 
-            a, mark { font: normal 17px/1 $fontStack; color: $blackSubstitute; border: none;
+            a, mark { font: normal 17px/1 $fontStack; color: $blackSubstitute; border: none; padding: 1em 0; display: block;
                 @media screen and (min-width: $originalLayout){
-                      display: block; margin: 0; padding: 1em; border-radius: 5px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;                
+                      display: block; margin: 0; padding: 1em; border-radius: 5px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;                 
                 }
             }
             a:hover { color: $green; }
-            mark { background: $blackSubstitute; color: #fff; }
+            mark { margin-bottom: 2em;
+                @media screen and (min-width: $originalLayout){
+                    background: $blackSubstitute; color: #fff; margin-bottom: 0;
+                }
+            }
         }
 
-    #by-year { border: none; width: 100%; float: none; 
-        @media screen and (min-width: $originalLayout){
+    #by-year { border: none; width: 100%; float: none; }
+        .projects li { display: inline-block; width: 200px;
+            @media screen and (min-width: $originalLayout){
+                position: absolute; z-index: 3;
+            }
         }
-    }
-        .projects li { position: absolute; z-index: 3; }
         .projects li:hover { z-index: 4; }        
             .projects a { display: block; width: 180px; height: 180px; background: #ff7000; background: rgba(115, 174, 8, 1); color: #fff; font: bold 16px Helvetica, Arial, sans-serif; border-radius: 100px; -moz-border-radius: 100px; -webkit-border-radius: 100px; text-align: center; display: table-cell; vertical-align: middle; border: none; opacity: 0.75; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; padding: 10px; transform-origin: 50% 50%; -moz-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; }
             .projects a:visited { background: #ccc; }
@@ -155,19 +199,39 @@
             #clients li { margin-bottom: 0.65em; line-height: 1.2; font-size: 11px; }
                 #clients li abbr, #clients li abbr[title] { font-size: 90%; letter-spacing: 0.25em; }
             #clients ul > li { padding-left: 10px; text-indent: -10px; }
-            li[id^="year"] { height: 200px; border-bottom: 1px dotted #7f7f7f; position: relative; }
-            li[id^="year"]:last-child { border-bottom: none; }
-            li[id^="year"] li { display: none; }
-                #year2013 { height: 180px; 
-                    h2 { top: 15px; }
+            li[id^="year"] { 
+                text-align: center; border-bottom: 1px dotted #7f7f7f; position: relative; padding: 2em 0 0;
+                @media screen and (min-width: $originalLayout){
+                    height: 200px; 
                 }
-                    .superfriendly-push { text-align: center; position: relative; top: 3.5em; font: bold 20px 'Trebuchet MS', Arial, sans-serif; }
-				#year2012 { height: 180px; }
-                #year2010 { height: 300px; }
-                #year2009 { height: 375px; }
-                #year2007 { height: 170px; }
-                #year2006 { height: 160px; }
-                    li[id^="year"] h2 { width: 38px; height: 12px; position: absolute; top: 4px; left: 10px; color: #cecdce; font: 14px/1 $fontStack; }
+            }
+            li[id^="year"]:last-child { border-bottom: none; }
+            // li[id^="year"] li { display: none; }
+                #year2013 { 
+                    @media screen and (min-width: $originalLayout){
+                        height: 180px; 
+                    }
+                    h2 { 
+                        top: 15px;
+                    }
+                }
+                    .superfriendly-push { 
+                        text-align: center; font: bold 20px 'Trebuchet MS', Arial, sans-serif; 
+                        @media screen and (min-width: $originalLayout){
+                            position: relative; top: 3.5em;
+                        }
+                    }
+				#year2012 { @media screen and (min-width: $originalLayout){ height: 180px; } }
+                #year2010 { @media screen and (min-width: $originalLayout){ height: 300px; } }
+                #year2009 { @media screen and (min-width: $originalLayout){ height: 375px; } }
+                #year2007 { @media screen and (min-width: $originalLayout){ height: 170px; } }
+                #year2006 { @media screen and (min-width: $originalLayout){ height: 160px; } }
+                    li[id^="year"] h2 { 
+                        color: #cecdce; font: 20px/1 $fontStack; text-align: center; margin: 0 0 1em;
+                        @media screen and (min-width: $originalLayout){
+                            position: absolute; top: 10px; left: 10px; font-size: 14px; 
+                        }
+                    }
 
     .breadcrumbs { text-align: center; margin: 0; 
         ul { margin: 0; }
@@ -183,38 +247,107 @@
 
         .page-title { color: $blackSubstitute; font: 100px $fontStack; letter-spacing: -1px; margin: 0 auto 0.2em; }
         
-        #work-area-wrap #pullquote, #work-area-wrap #awards { width: 800px; border-bottom: 1px dotted #7f7f7f; }
-            #work-area-wrap #awards { position: relative; left: 1px; }
+        #work-area-wrap #pullquote, #work-area-wrap #awards { 
+            border-bottom: 1px dotted #7f7f7f; 
+            @media screen and (min-width: $originalLayout){
+                width: 800px;
+            }
+        }
+            #work-area-wrap #awards { position: relative; left: 1px; display: none; 
+                @media screen and (min-width: $originalLayout){
+                    display: block;
+                }
+            }
             #work-area-wrap #awards ul { list-style: none; }
                 #work-area-wrap #awards a { border: none; position: absolute; }
     
     #project-header { position: relative; margin: 0 0 30px; }
         #project-header hgroup { position: relative; }
-        #project-nav { background: transparent url(/-/i/work/project-nav.png) no-repeat 0 0; width: 800px; height: 45px; position: absolute; top: 25px; left: 0; }
-            #project-nav li { position: absolute; top: 0; width: 45px; height: 45px; opacity: 0; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; }
+        #project-nav {
+            border-top: 1px dotted #999; border-bottom: 1px dotted #999; width: 100%; float: left;
+            @media screen and (min-width: $originalLayout){
+                background: transparent url(/-/i/work/project-nav.png) no-repeat 0 0; height: 45px; position: absolute; top: 25px; left: 0; width: 800px; border: none; float: none;
+            }
+        }
+            #project-nav li { 
+                float: left; width: 49%; text-align: center;
+                @media screen and (min-width: $originalLayout){
+                    opacity: 0; position: absolute; top: 0; width: 45px; height: 45px; opacity: 0; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; opacity: 1; float: none;
+                }
+            }
             #project-header:hover li { opacity: 1; }
-                #project-nav a { background: transparent url(/-/i/work/project-nav-over2.png) no-repeat 0 0; width: 45px; height: 45px; border: none; opacity: 0; }
+                #project-nav a { 
+                    border: none; font-size: 18px; display: block; padding: 1.5em 1em 0.8em; 
+                    @media screen and (min-width: $originalLayout){
+                        background: transparent url(/-/i/work/project-nav-over2.png) no-repeat 0 0; width: 45px; height: 45px;  text-indent: -9999px; opacity: 0; 
+                    }
+                }
                 #project-nav a:hover, #project-nav a:focus { opacity: 1; }
-            #project-nav .prev { left: 0; background: transparent url(/-/i/work/project-nav-over.png) no-repeat 0 0; }
-            #project-nav .next { right: 0; background: transparent url(/-/i/work/project-nav-over.png) no-repeat -755px 0; }
-                #project-nav .next a { background-position: -755px 0; }
+            #project-nav .prev { position: relative;
+                a:before { 
+                    content: "Prev"; text-align: center; position: relative; top: 1.1em; text-transform: uppercase; font: 12px "Trebuchet MS", Arial, sans-serif; letter-spacing: 1px; color: #ccc; position: absolute; width: 100%; text-align: center; left: 0;
+                }
+                @media screen and (min-width: $originalLayout){
+                    left: 0; background: transparent url(/-/i/work/project-nav-over.png) no-repeat 0 0; 
+                }
+            }
+            #project-nav .next { 
+                border-left: 1px dotted #999; position: relative;
+                @media screen and (min-width: $originalLayout){
+                    position: absolute; right: 0; background: transparent url(/-/i/work/project-nav-over.png) no-repeat -755px 0; border: none;
+                }
+
+                a:before { 
+                    content: "Next"; text-align: center; position: relative; top: 1.1em; text-transform: uppercase; font: 12px "Trebuchet MS", Arial, sans-serif; letter-spacing: 1px; color: #ccc; position: absolute; width: 100%; text-align: center; left: 0;
+                }
+            }
+                #project-nav .next a { 
+                    @media screen and (min-width: $originalLayout){
+                        background-position: -755px 0; 
+                    }
+                }
                 
                 #facebook-like > iframe { margin-top: 10px; }
                     
-    .project-image { width: 100%; min-width: 800px; }
+    .project-image { 
+        width: 100%;
+        @media screen and (min-width: $originalLayout){
+            min-width: 800px; display: block;
+        }
+    }
         .project-image .wrap { position: relative; }
     
     .browser-chrome-wrap { position: relative; margin: 0 0 -150px; z-index: 1; width: 800px; }    
         .browser-chrome-wrap #project-url, .project-url { position: absolute; top: 34px; left: 116px; z-index: 3; font: 10px 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #999; border: none; }
+        .project-url { 
+            display: none; 
+            @media screen and (min-width: $originalLayout){
+                display: block;
+            }
+        }
         .browser-chrome-wrap #project-url:hover, .project-url:hover { color: #73ae08; border: none; }
         .browser-chrome { padding: 59px 0 0; background: transparent url(/-/i/work/browser-chrome-top.jpg) no-repeat center 0; position: absolute; width: 950px; left: -42px; top: 0; }
         .browser-chrome-wrap img { margin: 0 0 0 91px; float: none; }
         .browser-chrome-wrap .inner { padding: 0 0 250px; background: transparent url(/-/i/work/browser-bottom.jpg) no-repeat 0 bottom; }
 
-    #work-content { position: relative; z-index: 2; border-top: 1px dotted #7f7f7f; background: transparent url(/-/i/work/work-content-bg.jpg) repeat-y 50% 0; min-width: 800px; }
-        #work-content .main { width: 540px; float: left; border: none; padding: 20px 20px 2em 0; }
+    #work-content { 
+        position: relative; z-index: 2; border-top: 1px dotted #7f7f7f;
+        @media screen and (min-width: $originalLayout){
+            min-width: 800px; background: transparent url(/-/i/work/work-content-bg.jpg) repeat-y 50% 0; 
+        }
+    }
+        #work-content .main { border: none; padding: 20px 0 2em; 
+            @media screen and (min-width: $originalLayout){
+                width: 540px; float: left; padding-right: 20px;
+            }
+        }
             #work-content .main p, #work-content .main ol, #work-content .main ul { font-size: 14px; }
-        #work-content .sub { width: 200px; float: none; margin: 0 0 0 560px; padding: 20px; }
+        #work-content .sub { 
+            width: 200px; float: none; padding-bottom: 3em;
+            @media screen and (min-width: $originalLayout){
+                width: 200px; margin: 0 0 0 560px; padding: 20px; 
+            }
+        }
             #work-content .sub h2 { color: #000; text-transform: uppercase; margin: 0 0 0.1em; }
             #work-content .sub p, #work-content .sub ol, #work-content .sub ul { list-style: none; font-style: italic; padding-left: 8px; text-indent: -8px; font-size: 11px; }
 

@@ -9,24 +9,29 @@
 	<link href="sexyCycle.css" rel="stylesheet" media="screen, projection" />
     <style>
         /*.page-title { background-image: url(crayola.png); width: 398px; height: 92px; }*/
-        .page-title .char2 { margin-left: 2px; }
-        .page-title .char3 { margin-left: -1px; }
-        .page-title .char4 { margin-left: -2px; }
-        .page-title .char5 { margin-left: -4px; }
+        .page-title { font-size: 60px; }
+	        .page-title .char2 { margin-left: 2px; }
+	        .page-title .char3 { margin-left: -1px; }
+	        .page-title .char4 { margin-left: -2px; }
+	        .page-title .char5 { margin-left: -4px; }
 
         .project-image { height: 1551px; background: transparent url(crayola-hero.jpg) no-repeat 50% 0; margin-bottom: 0; }
         .project-url { left: 146px; top: 34px; }
+
+        @media screen and (max-width: 800px){
+        	#project-nav li { width: 95%; float: none; border: none !important; }
+        }
 		
 		#work-content { border-top: none; background: none; }
 		
-			.confined { width: 800px; margin: 0 auto; border-top: 1px dotted #7f7f7f; padding: 2em 0; }
+			.confined { width: 100%; max-width: 800px; margin: 0 auto; border-top: 1px dotted #7f7f7f; padding: 2em 0; }
 			
 			.combo { margin-bottom: 2em; }
-				.combo h1 { width: 320px; height: 100px; float: left; }
-				.combo p { font-size: 15px; margin-left: 320px; color: #777; }				
+				.combo h1 { /*height: 100px;*/ width: 95%; margin: 0 auto; line-height: 1; margin-bottom: 0.2em; }
+				.combo p { font-size: 15px; color: #777; width: 95%; margin: 0 auto; }				
 			
 			#lead { margin-bottom: 3em; }
-				#lead p { font-size: 22px; }
+				#lead p { font-size: 22px; width: 95%; max-width: 800px; margin-left: auto; margin-right: auto; }
 			
 			#components img { float: none; margin-left: 0; margin-right: 0; }
 				#box0:hover { cursor: url(sexycycle-cursor.png), auto; }
@@ -39,13 +44,13 @@
 				
 			#telling-stories { border-top: 1px dotted #7f7f7f; padding: 2em 0 930px; position: relative; margin-bottom: -50px; background: transparent url(tagging-hierarchy.jpg) no-repeat 50% bottom; }
 				/*#telling-stories h1 { background-image: url(telling-stories.png); width: 800px; margin: 20px auto 0; background-position: 50% 0; height: 124px; }*/			
-				.telling-stories { text-align: center; font-size: 110px; margin: 0; }
-				#telling-stories p { font-size: 15px; width: 800px; margin: 0 auto; }
+				.telling-stories { text-align: center; font-size: 80px; margin: 0 0 0.2em; width: 95%; line-height: 1; }
+				#telling-stories p { font-size: 15px; max-width: 800px; width: 95%; margin: 0 auto; }
 			
 			#responsive { /*border-top: 1px dotted #7f7f7f; */padding: 2em 0 650px; position: relative; margin-bottom: -50px; }
 				/*#responsive h1 { background-image: url(responsive.png); width: 800px; margin: 1em auto 0; background-position: 50% 0; height: 65px; }*/
-				.responsive { font-size: 50px; width: 800px !important; margin: 0 auto -0.5em; }
-				#responsive .combo { width: 800px; margin: 0 auto; }
+				.responsive { font-size: 50px; width: 100% !important; max-width: 800px; margin: 0 auto -0.5em; }
+				#responsive .combo { width: 95%; max-width: 800px; margin: 0 auto; }
 					#responsive .combo p { /*width: 560px;*/ margin: 0; }
 				#responsive #tag { border-top: 1px solid #ddd; position: relative; top: 456px; }
 					#responsive #tag span { text-align: center; display: block; position: relative; top: -23px; line-height: 1.4; font: normal 20px "urbana-1","urbana-2"; }
@@ -68,9 +73,20 @@
 			#i3 { background: transparent url(i3-widget.png) no-repeat 50% 90%; padding-bottom: 140px; }
 				/*#i3 h1 { background-image: url(i3.png); }*/
 				.i3 { font-size: 32px; position: relative; top: -10px; }
-				#i3 #i3-roles { background-image: url(roles.png); width: 341px; height: 242px; position: absolute; left: 160px; top: 137px; opacity: 0; z-index: 10; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; }
-				#i3 #i3-activities { background-image: url(activities.png); width: 431px; height: 418px; position: absolute; left: 367px; top: 77px; opacity: 0; z-index: 10; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; }
-				#i3 #i3-roles:hover,  #i3 #i3-activities:hover { opacity: 1; }
+								
+				
+			#oops { background: transparent url(oops.png) no-repeat 50% bottom; padding: 60px 0 540px; text-align: center; position: relative; }
+				#oops .project-url { left: 110px; top: 190px; }
+
+			@media screen and (min-width: 800px){
+
+				.page-title { font-size: 100px; }
+
+				#lead p { width: 100%; }
+
+				.combo h1 { width: 320px; float: left; }
+				.combo p { width: auto; margin-left: 320px; }
+
 				@-webkit-keyframes PULSE {
 					0%   { opacity: 1; -webkit-transform: scale(0); }
 					100% { opacity: 0.5; -webkit-transform: scale(1); }
@@ -84,10 +100,14 @@
 						-ms-animation: PULSE 1s infinite;
 				}
 				#tip1 { left: 379px; top: 238px; }
-				#tip2 { left: 718px; top: 240px; }
-				
-			#oops { background: transparent url(oops.png) no-repeat 50% bottom; padding: 60px 0 540px; text-align: center; position: relative; }
-				#oops .project-url { left: 110px; top: 190px; }
+				#tip2 { left: 718px; top: 240px; }	
+
+				.telling-stories { font-size: 110px; }
+
+				#i3 #i3-roles { background-image: url(roles.png); width: 341px; height: 242px; position: absolute; left: 160px; top: 137px; opacity: 0; z-index: 10; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; }
+				#i3 #i3-activities { background-image: url(activities.png); width: 431px; height: 418px; position: absolute; left: 367px; top: 77px; opacity: 0; z-index: 10; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; }
+				#i3 #i3-roles:hover,  #i3 #i3-activities:hover { opacity: 1; }
+			}
                 
     </style>
 </head>

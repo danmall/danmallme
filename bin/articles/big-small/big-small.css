@@ -1,6 +1,6 @@
 #article-area-wrap {  }
 
-#big-small { margin: 0 auto; width: 495px; padding: 100px 0 50px; }
+#big-small { margin: 0 auto; padding: 100px 0 50px; }
 
 	#big-small h1 { background-image: url(big-small.png); width: 158px; height: 237px; margin-bottom: 0.35em; }
 	#big-small p, #big-small small { font: 18px/1.4 Helvetica, Arial, sans-serif; color: #575757; }
@@ -17,3 +17,7 @@
 		
 #big-small ::selection { background: #c20000; color: #fff; }
 #big-small ::-moz-selection { background: #c20000; color: #fff; }
+
+@media screen and (min-width: 800px){
+	#big-small { width: 495px; }
+}

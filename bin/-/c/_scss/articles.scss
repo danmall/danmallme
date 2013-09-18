@@ -26,12 +26,16 @@
     }
 }
 
-/*
+
     #article-landing .sub h1 { background-image: url(/-/i/displaying.gif); width: 85px; height: 15px; }
     #article-landing .sub li { border-bottom: 1px solid #ddd; }
         #article-landing .sub li a, #article-landing .sub li mark { display: block; border: none; padding: 0.3em 7px; }
 
-#comments-wrap, #article-meta header { width: 800px; margin: 0 auto; }
+#comments-wrap, #article-meta header { 
+    @media screen and (min-width: $originalLayout){ 
+        width: 800px; margin: 0 auto;
+    }
+}
 
 #article-meta { background: #231f20; }
     #article-meta header { text-transform: uppercase; letter-spacing: 0.1em; padding: 0.5em 0; }
@@ -42,15 +46,30 @@
 #article-area-wrap { border-bottom: 35px solid #231f20; padding-bottom: 30px; }
 
 
-#article .main { width: 608px; border: none; border-right: 1px solid #231f20; padding: 2em 15px 50px 0; }
-#article-link-format { width: 800px; margin: 3em auto; }
+#article .main { 
+    @media screen and (min-width: $originalLayout){ 
+        width: 608px; border: none; border-right: 1px solid #231f20; padding: 2em 15px 50px 0; 
+    }
+}
+#article-link-format { 
+    @media screen and (min-width: $originalLayout){
+        width: 800px; margin: 3em auto; 
+    }
+}
 
-#article .sub { width: 153px; padding: 20px 0 0 20px; } 
+#article .sub { 
+    @media screen and (min-width: $originalLayout){ 
+        width: 153px; padding: 20px 0 0 20px; 
+    }
+} 
 
     #article .sub section { margin: 0 0 3em; }
     
-        #article-info time { font-size: 12px; }
+        .article-info {
+            h2 { font-size: 16px; text-transform: uppercase; }
+            time { font-size: 12px; }
+        }
         
         #article-tags li { background: transparent url(/-/i/tags-bullet.gif) no-repeat 0 center; padding-left: 12px; }
             #article-tags a { font-style: italic; color: #686868; border: none; }
-            #article-tags a:hover, #article-tags a:focus { color: #f77000; }*/
+            #article-tags a:hover, #article-tags a:focus { color: #f77000; }

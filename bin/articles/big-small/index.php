@@ -18,7 +18,7 @@
 	
 	<div id="article-area-wrap">
 			
-	    <section id="big-small" class="clearfix">
+	    <section id="big-small" class="clearfix wrap">
 			
 			<h1 class="phark">Big/Small</h1>
 			
@@ -45,6 +45,12 @@
 	    </section><!-- #big-small -->	  	
 	    
 	</div><!-- /#article-area-wrap -->	
+
+	<?php
+
+        echo readNext('Hillman Curtis', '/articles/hillman-curtis//');
+
+    ?>
 	
 	<div id="comments">
 	
@@ -86,12 +92,12 @@
 	    
     	    <div class="sub">
 	        
-    	        <section id="article-info">
+    	        <section class="article-info">
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
         	        <time datetime="2012-04-22T10:26:00">Published April 22, 2012 at 10:26 <abbr title="Ante Meridian">AM</abbr></time>
-    	        </section><!-- /#article-info -->
+    	        </section><!-- /.article-info -->
     	        
     	        
     	        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/carbon.php"); echo "\n"; ?>

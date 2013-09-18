@@ -7,18 +7,29 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
         /*.page-title { background-image: url(mica.png); width: 381px; height: 96px; }*/
-        .page-title { font-size: 140px; }
+        .page-title { font-size: 80px; }
         .page-title .char2 { margin-left: -6px; }
-        .page-title .char3 { margin-left: -12px; }
-        .page-title .char4 { margin-left: 0; }
+        .page-title .char3 { margin-left: -6px; }
+        
 
         .project-image { height: 478px; background: transparent url(mica-hero.jpg) no-repeat center 0; margin-bottom: 0; }
         .project-url { left: 177px; top: 19px; font-size: 9px; }
 
-        #work-content { background-position: 50% 0; min-width: 800px; }
+        #work-content { background-position: 50% 0; /*min-width: 800px;*/ }
             #work-content .wrap { padding-top: 396px; position: relative; }
 
-        #work-area-wrap #pullquote { background: #fff url(mica-quote.png) no-repeat 0 0; height: 396px; position: relative; left: -6px; width: 807px; position: absolute; top: 0; }
+        #work-area-wrap #pullquote { 
+            @media screen and (min-width: 800px){
+                background: #fff url(mica-quote.png) no-repeat 0 0; height: 396px; position: relative; left: -6px; width: 807px; position: absolute; top: 0; 
+            }
+        }
+
+        @media screen and (min-width: 800px){
+            .page-title { font-size: 140px; }
+            .page-title .char2 { margin-left: -6px; }
+            .page-title .char3 { margin-left: -12px; }
+            .page-title .char4 { margin-left: 0; }
+        }
 
     </style>
 </head>
@@ -69,7 +80,7 @@
 
             <div class="wrap">
 
-                <blockquote id="pullquote" class="phark">
+                <blockquote id="pullquote" class="small-phark">
                     <p>Working with Dan on the MICA website was a transformative experience for me. Dan opened my mind to solving front-end design challenges from a framework of design values as opposed to solving them by relying on expertise in a particular technology (<abbr title="eXtensible HyperText Markup Language">XHTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, Flash, etc.). The dangers of stagnating in any of those waters is that you aren’t addressing the real problem, which is how the design supports and enhances the experience. At the end of the day, amazing things are possible with web standards, but those amazing things are created and discovered from a place of design thinking and creativity, and not inside a WC3 validator. Dan embodies this philosophy.</p>
                     <p><cite>Kevin Hoffman, Director of Web and Electronic Communications, MICA</cite></p>
                 </blockquote>

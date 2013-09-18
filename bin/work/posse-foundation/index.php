@@ -7,7 +7,7 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
         /*.page-title { background-image: url(posse-foundation.png); width: 661px; height: 47px; }*/
-        .page-title { font-size: 64px; }
+        .page-title { font-size: 54px; }
         .page-title .char12 { margin-left: -4px; }
         .page-title .char13 { margin-left: -1px; }
         .page-title .char17 { margin-left: -2px; }
@@ -16,7 +16,14 @@
 
         .project-image { height: 694px; background: transparent url(posse-foundation-hero.jpg) no-repeat center 0; margin-bottom: 0; }
 
-        #pullquote { background: transparent url(posse-foundation-quote.png) no-repeat 0 0; height: 263px; }
+        
+
+        @media screen and (min-width: 800px){
+            .page-title { font-size: 64px; }
+
+            #pullquote { background: transparent url(posse-foundation-quote.png) no-repeat 0 0; height: 263px; }
+        }
+
     </style>   
 </head>
 
@@ -64,7 +71,7 @@
 
             <div class="wrap">
 
-                <blockquote id="pullquote" class="phark">
+                <blockquote id="pullquote" class="small-phark">
                     <p>Dan&rsquo;s a designer who uncovers the underlying elements of your company&rsquo;s brand. And I don&rsquo;t mean your logo, your typefaces, your color scheme, but the core things that symbolize the essence of your organization&mdash;which he then translates beautifully into designs that go beyond your expectations.</p>
                     <p><cite>Rico Blancaflor, Vice President, Strategic Projects, The Posse Foundation, Inc.</cite></p>
                 </blockquote>

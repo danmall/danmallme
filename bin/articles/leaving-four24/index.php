@@ -28,9 +28,9 @@
 	
 	<div id="article-area-wrap">
 	    
-	    <section id="leaving-four24" class="clearfix">
+	    <section id="leaving-four24" class="clearfix wrap">
 			
-			<h1 class="article-title phark">Leaving Four24</h1>
+			<h1 class="article-title">Leaving Four24</h1>
 			
             <p>After just over 10 years, I&rsquo;ve decided to leave my band, <a href="http://four24.com/">Four24</a>.</p>
 
@@ -118,6 +118,12 @@
 	    </section><!-- #leaving-four24 -->	    
 	    
 	</div><!-- /#article-area-wrap -->
+
+    <?php
+
+        echo readNext('The 2012 SuperFriendly Annual Report', '/articles/superfriendly-annual-report-2012/');
+
+    ?>
 	
 	
 	<div id="comments">
@@ -160,12 +166,12 @@
 	    
     	    <div class="sub">
 	        
-    	        <section id="article-info">
+    	        <section class="article-info">
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
         	        <time datetime="2013-02-17T20:41:00">Published Feb 17, 2013 at 20:41 <abbr title="Post Meridian">PM</abbr></time>
-    	        </section><!-- /#article-info -->
+    	        </section><!-- /.article-info -->
     	        
     	        
     	        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/carbon.php"); echo "\n"; ?>

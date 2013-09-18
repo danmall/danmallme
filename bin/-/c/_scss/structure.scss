@@ -151,11 +151,16 @@
             }
     }
 
-.wrap, .wrap800 { margin: 0 auto; width: 95%;
+.wrap, .wrap800, #comments-wrap { margin: 0 auto; width: 95%;
     @media screen and (min-width: $originalLayout){    
          width: 800px; margin: 0 auto;
     }
 }
+
+.read-next { padding: 2.75em 0; border-bottom: 1px solid #bbb; margin-bottom: 2em; }
+    .read-next-caption, .read-next-headline { text-align: center; display: block; }
+    .read-next-caption { font-family: $sansStack; text-transform: uppercase; font-weight: bold; letter-spacing: 0.1em; }
+    .read-next-headline { line-height: 1.2; }
 
 .site-footer { border-top: 1px solid #d3d2d2; border-bottom: 16px solid #231f20; margin-bottom: 50px; padding: 1em 0 1.5em; font-family: 'Trebuchet MS', Arial, sans-serif; clear: both; 
     

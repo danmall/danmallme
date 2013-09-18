@@ -21,9 +21,11 @@
 	
 	<div id="article-area-wrap">
 			
-	    <section id="svg-workflow-for-designers" class="clearfix">			
+	    <section id="svg-workflow-for-designers" class="clearfix wrap">			
 		
-			<h1><strong>SVG</strong> Workflow for Designers</h1>
+			<?php /* ?><h1><strong>SVG</strong> Workflow for Designers</h1><?php */ ?>
+
+			<h1><img src="svg.svg" class="svg-logo" /> Workflow for Designers</h1>
 
 			<hr class="sep" />
 			
@@ -123,6 +125,12 @@
 	    </section><!-- #svg-workflow-for-designers -->	  	
 	    
 	</div><!-- /#article-area-wrap -->	
+
+	<?php
+
+        echo readNext('The lack of blogging about the lack of blogging', '/articles/ideas-of-march-2013/');
+
+    ?>
 	
 	<div id="comments">
 	
@@ -164,12 +172,12 @@
 	    
     	    <div class="sub">
 	        
-    	        <section id="article-info">
+    	        <section class="article-info">
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
         	        <time datetime="2013-06-19T20:18:51">Published June 19, 2013 at 8:18 <abbr title="Post Meridian">PM</abbr></time>
-    	        </section><!-- /#article-info -->
+    	        </section><!-- /.article-info -->
     	        
     	        
     	        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/carbon.php"); echo "\n"; ?>

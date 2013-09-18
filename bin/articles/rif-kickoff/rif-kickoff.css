@@ -4,7 +4,7 @@
 #rif-kickoff { margin: 0 auto; padding: 0 0 50px; }
     
     #rif-kickoff hgroup { }
-        #rif-kickoff h1 { font: bold 125px/1 Helvetica, Arial, sans-serif; color: #fe0; text-transform: uppercase; letter-spacing: -5px; margin: 0; }
+        #rif-kickoff h1 { font: bold 50px/1 Helvetica, Arial, sans-serif; color: #fe0; text-transform: uppercase; letter-spacing: -5px; margin: 0; }
         .wf-active #rif-kickoff h1 { font-family: "proxima-nova", Helvetica, Arial, sans-serif; letter-spacing: -7px; font-weight: 800; }
         #rif-kickoff h2 { color: #4c4c4c; font: bold 24px Helvetica, Arial, sans-serif; text-transform: uppercase; margin: 1em 0; }
         .wf-active #rif-kickoff h2 { font-family: "proxima-nova", Helvetica, Arial, sans-serif; font-weight: 800; }
@@ -12,16 +12,19 @@
             .wf-active #rif-kickoff h2 strong { font-weight: 300; }
             
     #rif-kickoff .glue { white-space: nowrap; }
+
+    #rif-kickoff .comparison-chart .col:first-child:after { content: "\2193"; margin-bottom: 2em; font-size: 50px; }
         
     #rif-kickoff p, #rif-kickoff ul { font-size: 18px; line-height: 1.7; }  
     #rif-kickoff a { color: #1f73b7; border: none; }
     #rif-kickoff a:hover, #rif-kickoff a:focus { background: #fe0; }
-    #rif-kickoff .inner { width: 700px; padding: 0 100px 0 0; margin: 0 auto; }
     #rif-kickoff .hero { background: #000 url(hero.jpg) no-repeat 50% 0; height: 720px; width: 100%; margin: 0 0 3em; }
         #rif-kickoff .hero .inner { position: relative; height: 565px; padding-top: 155px; }
             #rif-kickoff .hero img { position: absolute; bottom: 155px; left: 0; }
             #rif-kickoff .hero h2 { color: rgba(255, 255, 255, 0.8); font: 18px/1 Georgia, 'Times New Roman', serif; font-style: italic; position: relative; top: -20px; text-transform: none; }
             .wf-active #rif-kickoff .hero h2 { font-family: "adelle", Georgia, 'Times New Roman', serif; font-weight: 300; }
+
+    #rif-kickoff .comparison-chart { margin: 0 auto 2em; border: 10px solid #f5f5f5; width: 86%; padding: 0.5em; }
 	
     #rif-kickoff .schedule-table { margin: 1em 0 2em; }
         #rif-kickoff .schedule-table h3, #rif-kickoff .schedule-table .time p { font: bold 14px Helvetica, Arial, sans-serif; text-transform: uppercase; }
@@ -30,13 +33,22 @@
         #rif-kickoff .schedule-table .time { width: 100px; }
             #rif-kickoff .schedule-table .time p { color: #a2a2a2; }
             .wf-active #rif-kickoff .schedule-table .time p { font-weight: 700; }
-	
-    #rif-kickoff .comparison-chart { width: 800px; margin: 0 auto 2em; background: #fff url(arrow.png) no-repeat 45% 1.2em; border: 10px solid #f5f5f5; position: relative; }
-		#rif-kickoff .comparison-chart .col { float: left; width: 39%; border-left: 4px solid #f5f5f5; padding: 3em 5% 2em; }
+    
+        
+#rif-kickoff ::selection { background: #fe0; color: #000; }
+#rif-kickoff ::-moz-selection { background: #fe0; color: #000; }
+
+@media screen and (min-width: 800px){
+    #rif-kickoff .inner { width: 700px; padding: 0 100px 0 0; margin: 0 auto; }
+
+    #rif-kickoff h1 { font-size: 125px; }
+
+    #rif-kickoff .comparison-chart { width: 800px; background: #fff url(arrow.png) no-repeat 45% 1.2em; position: relative; }
+        #rif-kickoff .comparison-chart .col { float: left; width: 39%; border-left: 4px solid #f5f5f5; padding: 3em 5% 2em; }
+        #rif-kickoff .comparison-chart .col:first-child { border: none; }
+        #rif-kickoff .comparison-chart .col:first-child:after { content: ""; }
         #rif-kickoff .comparison-chart h3 { font: bold 18px Helvetica, Arial, sans-serif; color: #ccc; text-transform: uppercase; position: absolute; top: 1em; right: 20px; }
         #rif-kickoff .comparison-chart .col:first-child h3 { right: auto; left: 20px; }
         .wf-active #rif-kickoff .comparison-chart h3 { font-family: "proxima-nova", Helvetica, Arial, sans-serif; font-weight: 700; }
         #rif-kickoff .comparison-chart ul { font-size: 18px; text-align: center; }
-        
-#rif-kickoff ::selection { background: #fe0; color: #000; }
-#rif-kickoff ::-moz-selection { background: #fe0; color: #000; }
+}

@@ -7,7 +7,7 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
         /*.page-title { background-image: url(coupon-craze.png); width: 598px; height: 86px; }*/
-        .page-title { font-size: 90px; }
+        .page-title { font-size: 60px; }
         .page-title .char9 { margin-left: 1px; }
         .page-title .char10 { margin-left: -2px; }
         #project-header hgroup { top: 12px; }  
@@ -17,12 +17,17 @@
     
         #work-content .wrap { padding-top: 300px; position: relative; }
 
-        #work-area-wrap #pullquote { background: #fff url(coupon-craze-quote.png) no-repeat -15px 15px; height: 300px; /*position: relative; left: -6px; width: 800px; */position: absolute; top: 0; padding: 0; }
+        #work-area-wrap #pullquote {  }
         
         #awards { background: transparent url(coupon-craze-awards.png) no-repeat 0 0; height: 280px; border-top: 1px dotted #7d7d7d; }       
             #horizon a { width: 252px; height: 113px; top: 109px; left: 55px; }
             #communicator a { width: 227px; height: 134px; top: 103px; left: 473px; }
-                
+        
+        @media screen and (min-width: 800px){
+            .page-title { font-size: 90px; }
+            #work-area-wrap #pullquote { background: #fff url(coupon-craze-quote.png) no-repeat -15px 15px; height: 300px; position: absolute; top: 0; padding: 0;  }
+        }
+
     </style>
 </head>
 
@@ -72,7 +77,7 @@
 
             <div class="wrap">
                 
-                <blockquote id="pullquote" class="phark">
+                <blockquote id="pullquote" class="small-phark">
                     <p>Dan has worked with my studio on several projects, and what you immediately recognize when you meet him is how excited he is to work together to do great work. So it&rsquo;s not surprising that the results follow. I prize design thinkers who understand how to unite business goals with creative decision-making and technical know-how. Dan&rsquo;s an exceptional partner in this regard because he&rsquo;s as intelligent about seeing the big picture for a brand as he is about properly fine-tuning the visual details to support it.</p>
                     <p><cite>Mathew Schwartz, Founder &amp; Chief Creative Officer, MSDS</cite></p>
                 </blockquote>

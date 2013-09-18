@@ -7,12 +7,16 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
      <style>
          /*.page-title { background-image: url(transformers.png); width: 582px; height: 61px; }*/
-         .page-title { font-size: 96px; }
+         .page-title { font-size: 40px; }
          .page-title .char3 { margin-left: -2px; }
          .page-title .char7 { margin-left: -2px; }
          #project-header hgroup { top: 0px; }
 
          .project-image { height: 604px; background: transparent url(transformers-hero2.jpg) no-repeat center 0; margin-bottom: 0; }
+
+         @media screen and (min-width: 800px){
+            .page-title { font-size: 96px; }
+         }
      </style>
 </head>
 

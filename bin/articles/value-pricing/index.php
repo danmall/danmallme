@@ -21,7 +21,7 @@
 	
 	<div id="article-area-wrap">
 			
-	    <section id="value-pricing" class="clearfix">			
+	    <section id="value-pricing" class="clearfix wrap">			
 		
 			<h1><span class="cap">V</span>alue Pricing</h1>
 			
@@ -57,6 +57,12 @@
 	    </section><!-- #value-pricing -->	  	
 	    
 	</div><!-- /#article-area-wrap -->	
+
+	<?php
+
+        echo readNext('Leaving Four24', '/articles/leaving-four24/');
+
+    ?>
 	
 	<div id="comments">
 	
@@ -98,12 +104,12 @@
 	    
     	    <div class="sub">
 	        
-    	        <section id="article-info">
+    	        <section class="article-info">
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
         	        <time datetime="2013-02-25T07:16:00">Published February 25, 2013 at 7:16 <abbr title="Ante Meridian">AM</abbr></time>
-    	        </section><!-- /#article-info -->
+    	        </section><!-- /.article-info -->
     	        
     	        
     	        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/carbon.php"); echo "\n"; ?>

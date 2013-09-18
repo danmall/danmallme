@@ -18,7 +18,7 @@
 	
 	<div id="article-area-wrap">
 			
-	    <section id="responsive-line-breaks" class="clearfix">
+	    <section id="responsive-line-breaks" class="clearfix wrap">
 			
 			<h1 class="phark">Responsive Line Breaks</h1>
 			
@@ -43,6 +43,12 @@
 	    </section><!-- #responsive-line-breaks -->	  	
 	    
 	</div><!-- /#article-area-wrap -->	
+
+    <?php
+
+        echo readNext('Object Value Pricing', '/articles/object-value-pricing/');
+
+    ?>
 	
 	<div id="comments">
 	
@@ -84,12 +90,12 @@
 	    
     	    <div class="sub">
 	        
-    	        <section id="article-info">
+    	        <section class="article-info">
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
         	        <time datetime="2012-08-09T14:11:00">Published August 9, 2012 at 2:11 <abbr title="Post Meridian">PM</abbr></time>
-    	        </section><!-- /#article-info -->
+    	        </section><!-- /.article-info -->
     	        
     	        
     	        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/carbon.php"); echo "\n"; ?>

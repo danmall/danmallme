@@ -10,7 +10,7 @@
 		#work-area-wrap { background: black; margin-top: -30px; padding-top: 30px; }
 	
         /*.page-title { background-image: url(star-wars2.png); width: 521px; height: 84px; background-color: black; }*/
-        .page-title { color: #fff; font-size: 110px; }
+        .page-title { color: #fff; font-size: 60px; }
         .page-title .char7 { margin-left: -7px; }
 		#project-header hgroup { top: 4px; }  
 		/*#project-nav { background-image: url(project-nav.png); opacity: 1; }
@@ -23,12 +23,18 @@
 
         .project-image { height: 2126px; background: transparent url(star-wars-hero2.jpg) no-repeat center 0; margin-bottom: 0; }
         .project-url { left: -116px; top: 62px; }
+
+        #project-nav a:hover, #project-nav a:focus { color: #fff; }
 		
 		#work-content { background-color: #fff; }
 		
         #awards { background: transparent url(starwars-awards.png) no-repeat 0 0; height: 319px; }
             #commarts a { width: 222px; height: 70px; top: 145px; left: 137px; }
             #styleboost a { width: 162px; height: 83px; top: 142px; left: 447px; }
+
+        @media screen and (min-width: 800px){
+            .page-title { font-size: 110px; }
+        }
 		
                 
     </style>
