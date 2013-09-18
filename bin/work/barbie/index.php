@@ -8,10 +8,16 @@
     <style>
 
         /*.page-title { background-image: url(barbie.png); width: 413px; height: 102px; }*/
-        .page-title { font-size: 120px; }
+        .page-title { font-size: 80px; }
+        
         #project-header hgroup { top: -3px; margin-bottom: 10px; }  
 
-        .project-image { height: 774px; background: transparent url(barbie-hero.jpg) no-repeat center 0; }
+        .project-image { height: 774px; background: transparent url(barbie-hero.jpg) no-repeat center 70px; }
+
+        @media screen and (min-width: 800px){
+            .page-title { font-size: 120px; }
+            .project-image { background-position: center 0; }
+        }
 
     </style>
 </head>

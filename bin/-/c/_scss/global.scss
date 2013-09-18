@@ -3,7 +3,7 @@
 -------------------------------------------*/
 
 /* Phark Image Replacement - http://phark.typepad.com/phark/2003/08/accessible_imag.html */
-.phark, #fowd2010 li:first-child blockquote, #flashpitt2009 .rotator li:first-child blockquote, #project-nav a { display: block; text-indent: -9999px; background-position: 0 0; background-repeat: no-repeat; background-color: transparent; }
+.phark, #fowd2010 li:first-child blockquote, #flashpitt2009 .rotator li:first-child blockquote { display: block; text-indent: -9999px; background-position: 0 0; background-repeat: no-repeat; background-color: transparent; }
 
 /* Trimming Outline in Firefox - http://snook.ca/archives/html_and_css/trimming_long_o  */
 /*\*/ .phark-link, #project-nav a { overflow: hidden; } /**/

@@ -1,8 +1,8 @@
 /*-------------------------------------------    
     Work
 -------------------------------------------*/
-.work-heading { text-align: center; font: 700 70px/1 $fontStack; color: $blackSubstitute; margin: 0; 
-    .char6 { margin-left: -5px; }
+.work-heading { text-align: center; font: 700 60px/1 $fontStack; color: $blackSubstitute; margin: 0; 
+    .char6 { margin-left: -20px; }
     .char7 { margin-left: -1px; }
     .char8 { margin-left: -2px; }    
 }
@@ -254,18 +254,58 @@
     
     #project-header { position: relative; margin: 0 0 30px; }
         #project-header hgroup { position: relative; }
-        #project-nav { background: transparent url(/-/i/work/project-nav.png) no-repeat 0 0; width: 800px; height: 45px; position: absolute; top: 25px; left: 0; }
-            #project-nav li { position: absolute; top: 0; width: 45px; height: 45px; opacity: 0; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; }
+        #project-nav {
+            border-top: 1px dotted #999; border-bottom: 1px dotted #999; width: 100%; float: left;
+            @media screen and (min-width: $originalLayout){
+                background: transparent url(/-/i/work/project-nav.png) no-repeat 0 0; height: 45px; position: absolute; top: 25px; left: 0; width: 800px; border: none; float: none;
+            }
+        }
+            #project-nav li { 
+                float: left; width: 49%; text-align: center;
+                @media screen and (min-width: $originalLayout){
+                    opacity: 0; position: absolute; top: 0; width: 45px; height: 45px; opacity: 0; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; opacity: 1; float: none;
+                }
+            }
             #project-header:hover li { opacity: 1; }
-                #project-nav a { background: transparent url(/-/i/work/project-nav-over2.png) no-repeat 0 0; width: 45px; height: 45px; border: none; opacity: 0; }
+                #project-nav a { 
+                    border: none; font-size: 22px; display: block; padding: 1.5em 1em 0.8em; 
+                    @media screen and (min-width: $originalLayout){
+                        background: transparent url(/-/i/work/project-nav-over2.png) no-repeat 0 0; width: 45px; height: 45px;  text-indent: -9999px; opacity: 0; 
+                    }
+                }
                 #project-nav a:hover, #project-nav a:focus { opacity: 1; }
-            #project-nav .prev { left: 0; background: transparent url(/-/i/work/project-nav-over.png) no-repeat 0 0; }
-            #project-nav .next { right: 0; background: transparent url(/-/i/work/project-nav-over.png) no-repeat -755px 0; }
-                #project-nav .next a { background-position: -755px 0; }
+            #project-nav .prev { position: relative;
+                a:before { 
+                    content: "Prev"; text-align: center; position: relative; top: 1.5em; text-transform: uppercase; font: 12px "Trebuchet MS", Arial, sans-serif; letter-spacing: 1px; color: #ccc; position: absolute; width: 100%; text-align: center; left: 0;
+                }
+                @media screen and (min-width: $originalLayout){
+                    left: 0; background: transparent url(/-/i/work/project-nav-over.png) no-repeat 0 0; 
+                }
+            }
+            #project-nav .next { 
+                border-left: 1px dotted #999; position: relative;
+                @media screen and (min-width: $originalLayout){
+                    position: absolute; right: 0; background: transparent url(/-/i/work/project-nav-over.png) no-repeat -755px 0; border: none;
+                }
+
+                a:before { 
+                    content: "Next"; text-align: center; position: relative; top: 1.5em; text-transform: uppercase; font: 12px "Trebuchet MS", Arial, sans-serif; letter-spacing: 1px; color: #ccc; position: absolute; width: 100%; text-align: center; left: 0;
+                }
+            }
+                #project-nav .next a { 
+                    @media screen and (min-width: $originalLayout){
+                        background-position: -755px 0; 
+                    }
+                }
                 
                 #facebook-like > iframe { margin-top: 10px; }
                     
-    .project-image { width: 100%; min-width: 800px; }
+    .project-image { 
+        width: 100%; 
+        @media screen and (min-width: $originalLayout){
+            min-width: 800px; 
+        }
+    }
         .project-image .wrap { position: relative; }
     
     .browser-chrome-wrap { position: relative; margin: 0 0 -150px; z-index: 1; width: 800px; }    
@@ -275,10 +315,24 @@
         .browser-chrome-wrap img { margin: 0 0 0 91px; float: none; }
         .browser-chrome-wrap .inner { padding: 0 0 250px; background: transparent url(/-/i/work/browser-bottom.jpg) no-repeat 0 bottom; }
 
-    #work-content { position: relative; z-index: 2; border-top: 1px dotted #7f7f7f; background: transparent url(/-/i/work/work-content-bg.jpg) repeat-y 50% 0; min-width: 800px; }
-        #work-content .main { width: 540px; float: left; border: none; padding: 20px 20px 2em 0; }
+    #work-content { 
+        position: relative; z-index: 2; border-top: 1px dotted #7f7f7f;
+        @media screen and (min-width: $originalLayout){
+            min-width: 800px; background: transparent url(/-/i/work/work-content-bg.jpg) repeat-y 50% 0; 
+        }
+    }
+        #work-content .main { border: none; padding: 20px 0 2em; 
+            @media screen and (min-width: $originalLayout){
+                width: 540px; float: left; padding-right: 20px;
+            }
+        }
             #work-content .main p, #work-content .main ol, #work-content .main ul { font-size: 14px; }
-        #work-content .sub { width: 200px; float: none; margin: 0 0 0 560px; padding: 20px; }
+        #work-content .sub { 
+            width: 200px; float: none; padding-bottom: 3em;
+            @media screen and (min-width: $originalLayout){
+                width: 200px; margin: 0 0 0 560px; padding: 20px; 
+            }
+        }
             #work-content .sub h2 { color: #000; text-transform: uppercase; margin: 0 0 0.1em; }
             #work-content .sub p, #work-content .sub ol, #work-content .sub ul { list-style: none; font-style: italic; padding-left: 8px; text-indent: -8px; font-size: 11px; }
 
