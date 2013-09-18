@@ -9,7 +9,7 @@
 /*\*/ .phark-link, #project-nav a { overflow: hidden; } /**/
 
 /* Easy Clearing - http://www.positioniseverything.net/easyclearing.html */ 
-.clearfix:after, .easy-clearing:after, #tweets ul:after, #work-content:after, .home-row:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix:after, .easy-clearing:after, #tweets ul:after, #work-content:after, .home-row:after, #project-header:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
 
 .offscreen, .pagination b, #fowd2010 .rotator li, #flashpitt2009 .rotator li  { position: absolute; left: -9999px; }
 

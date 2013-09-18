@@ -248,7 +248,11 @@
         .page-title { color: $blackSubstitute; font: 100px $fontStack; letter-spacing: -1px; margin: 0 auto 0.2em; }
         
         #work-area-wrap #pullquote, #work-area-wrap #awards { width: 800px; border-bottom: 1px dotted #7f7f7f; }
-            #work-area-wrap #awards { position: relative; left: 1px; }
+            #work-area-wrap #awards { position: relative; left: 1px; display: none; 
+                @media screen and (min-width: $originalLayout){
+                    display: block;
+                }
+            }
             #work-area-wrap #awards ul { list-style: none; }
                 #work-area-wrap #awards a { border: none; position: absolute; }
     
@@ -268,7 +272,7 @@
             }
             #project-header:hover li { opacity: 1; }
                 #project-nav a { 
-                    border: none; font-size: 22px; display: block; padding: 1.5em 1em 0.8em; 
+                    border: none; font-size: 18px; display: block; padding: 1.5em 1em 0.8em; 
                     @media screen and (min-width: $originalLayout){
                         background: transparent url(/-/i/work/project-nav-over2.png) no-repeat 0 0; width: 45px; height: 45px;  text-indent: -9999px; opacity: 0; 
                     }
@@ -276,7 +280,7 @@
                 #project-nav a:hover, #project-nav a:focus { opacity: 1; }
             #project-nav .prev { position: relative;
                 a:before { 
-                    content: "Prev"; text-align: center; position: relative; top: 1.5em; text-transform: uppercase; font: 12px "Trebuchet MS", Arial, sans-serif; letter-spacing: 1px; color: #ccc; position: absolute; width: 100%; text-align: center; left: 0;
+                    content: "Prev"; text-align: center; position: relative; top: 1.1em; text-transform: uppercase; font: 12px "Trebuchet MS", Arial, sans-serif; letter-spacing: 1px; color: #ccc; position: absolute; width: 100%; text-align: center; left: 0;
                 }
                 @media screen and (min-width: $originalLayout){
                     left: 0; background: transparent url(/-/i/work/project-nav-over.png) no-repeat 0 0; 
@@ -289,7 +293,7 @@
                 }
 
                 a:before { 
-                    content: "Next"; text-align: center; position: relative; top: 1.5em; text-transform: uppercase; font: 12px "Trebuchet MS", Arial, sans-serif; letter-spacing: 1px; color: #ccc; position: absolute; width: 100%; text-align: center; left: 0;
+                    content: "Next"; text-align: center; position: relative; top: 1.1em; text-transform: uppercase; font: 12px "Trebuchet MS", Arial, sans-serif; letter-spacing: 1px; color: #ccc; position: absolute; width: 100%; text-align: center; left: 0;
                 }
             }
                 #project-nav .next a { 
@@ -301,9 +305,9 @@
                 #facebook-like > iframe { margin-top: 10px; }
                     
     .project-image { 
-        width: 100%; 
+        width: 100%;
         @media screen and (min-width: $originalLayout){
-            min-width: 800px; 
+            min-width: 800px; display: block;
         }
     }
         .project-image .wrap { position: relative; }

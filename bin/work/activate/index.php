@@ -7,7 +7,7 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
         /*.page-title { background-image: url(activate.png); width: 474px; height: 88px; }*/
-        .page-title { font-size: 120px; margin: 0; }
+        .page-title { font-size: 60px; margin: 0; }
         .page-title .char2 { margin-left: -2px; }
         .page-title .char4 { margin-left: 1px; }
         .page-title .char5 { margin-left: -4px; }
@@ -25,6 +25,9 @@
             #pixel a { width: 162px; height: 170px; top: 95px; left: 467px; }
             #net a { width: 142px; height: 83px; top: 113px; left: 657px; }
 			
+        @media screen and (min-width: 800px){
+            .page-title { font-size: 120px; }
+        }
                 
     </style>
 </head>
