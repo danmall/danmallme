@@ -7,7 +7,7 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
         /*.page-title { background-image: url(always-beautiful.png); width: 606px; height: 66px; }*/
-        .page-title { font-size: 72px; }
+        .page-title { font-size: 65px; }
         .page-title .char2 { margin-left: 1px; }
         .page-title .char3 { margin-left: -2px; }
         .page-title .char4 { margin-left: -1px; }
@@ -23,6 +23,10 @@
         #awards { background: transparent url(always-beautiful-awards.png) no-repeat 0 0; height: 319px; }
             #fwa a { width: 162px; height: 70px; top: 135px; left: 170px; }
             #webby a { width: 226px; height: 143px; top: 113px; left: 448px; }
+
+        @media screen and (min-width: 800px){
+            .page-title { font-size: 72px; }
+        }
                 
     </style>
 </head>

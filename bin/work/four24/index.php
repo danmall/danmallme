@@ -7,13 +7,17 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
         /*.page-title { background-image: url(four24.png); width: 515px; height: 110px; }*/
-        .page-title { font-size: 130px; }
+        .page-title { font-size: 60px; }
         .page-title .char2 { margin-left: -6px; }
         .page-title .char3 { margin-left: -2px; }
         .page-title .char6 { margin-left: -2px; }
 
         .project-image { height: 736px; background: transparent url(four24-hero2.jpg) no-repeat center 0; margin-bottom: 0; }
         .project-url { left: 205px; top: 27px; }
+
+        @media screen and (min-width: 800px){
+            .page-title { font-size: 130px; }
+        }
     </style>
 </head>
 

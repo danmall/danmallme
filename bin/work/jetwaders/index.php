@@ -7,11 +7,16 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
         /*.page-title { background-image: url(jetwaders.png); width: 580px; height: 80px; }*/
+        .page-title { font-size: 60px; }
         .page-title .char2 { margin-left: -2px; }
         .page-title .char5 { margin-left: -6px; }
         #project-header hgroup { top: 0px; } 
         .project-image { height: 459px; background: transparent url(jetwaders-hero.jpg) no-repeat center 0; margin-bottom: 0; }
-        #work-content { background-position: 50% 0; min-width: 800px; }
+        #work-content { background-position: 50% 0; /*min-width: 800px;*/ }
+
+        @media screen and (min-width: 800px){
+            .page-title { font-size: 100px; }
+        }
     </style>
 </head>
 

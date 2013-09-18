@@ -7,10 +7,15 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
         /*.page-title { background-image: url(weizmann.png); width: 558px; height: 80px; }*/
+        .page-title { font-size: 50px; }
         .page-title .char1 { margin-right: -8px; }
 
         .project-image { height: 535px; background: transparent url(weizmann-hero.jpg) no-repeat center 0; margin-bottom: 0; margin-top: -40px; }
         .project-url { left: 135px; top: 69px;  }
+
+        @media screen and (min-width: 800px){
+            .page-title { font-size: 100px; }
+        }
     </style>
 </head>
 

@@ -7,7 +7,7 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
         /*.page-title { background-image: url(preventiv.png); width: 599px; height: 57px; }*/
-        .page-title { font-size: 80px; }
+        .page-title { font-size: 50px; }
         .page-title .char7 { margin-left: -2px; }
         .page-title .char8 { margin-left: 1px; }
         .page-title .char9 { margin-left: -3px; }
@@ -16,6 +16,10 @@
         #project-header hgroup { top: 10px; }
 
         .project-image { height: 522px; background: transparent url(preventiv-hero.jpg) no-repeat center 0 }
+
+        @media screen and (min-width: 800px){
+            .page-title { font-size: 80px; }
+        }
     </style>
 </head>
 

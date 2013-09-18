@@ -8,13 +8,19 @@
     <style>
 
         /*.page-title { background-image: url(fogbugz.png); width: 454px; height: 99px; }*/
-        .page-title { font-size: 110px; }
+        .page-title { font-size: 60px; }
         .page-title .char2 { margin-left: -7px }
         .page-title .char3 { margin-left: -3px }
 
         .project-image { height: 1001px; background: transparent url(fogbugz-hero.jpg) no-repeat center 0; }
         
-        #pullquote { background: transparent url(fogbugz-quote.png) no-repeat 0 0; height: 362px; }
+        
+
+        @media screen and (min-width: 800px){
+            .page-title { font-size: 110px; }
+
+            #pullquote { background: transparent url(fogbugz-quote.png) no-repeat 0 0; height: 362px; }
+        }
 
     </style>
 </head>
@@ -61,7 +67,7 @@
 
         <section id="work-content" class="wrap">
             
-            <blockquote id="pullquote" class="phark">
+            <blockquote id="pullquote" class="small-phark">
                 <p>[Dan&rsquo;s] first design was really good, and I knew that it would be better to just shut up and give him artistic license to do whatever he thought was best. I thought that we could try and meddle in his design, tweaking things left and right, and get another bad design-by- committee, or we could just tell him we trusted him and whatever he delivered would be exactly what went live.</p>
                 <p>Which it was.</p>
                 <p><cite>Joel Spolsky, Co-Founder, Fog Creek Software &amp; Stack Overflow</cite></p>

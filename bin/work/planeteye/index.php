@@ -7,15 +7,19 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
         /*.page-title { background-image: url(planeteye.png); width: 568px; height: 96px; }*/
-        .page-title { font-size: 120px; }
+        .page-title { font-size: 60px; }
         .page-title .char5 { margin-left: -3px; }
         .page-title .char6 { margin-left: -2px; }
         .page-title .char9 { margin-left: -4px; }
         .project-image { height: 686px; background: transparent url(planeteye-hero2.jpg) no-repeat center 0; margin-bottom: 0; margin-top: -20px; }
 
-        #work-content { background-position: 50% 0; min-width: 800px; }
+        #work-content { background-position: 50% 0; /*min-width: 800px;*/ }
 
-        #pullquote { background: transparent url(planeteye-quote.png) no-repeat 0 0; height: 235px; }
+        @media screen and (min-width: 800px){
+            .page-title { font-size: 120px; }
+
+            #pullquote { background: transparent url(planeteye-quote.png) no-repeat 0 0; height: 235px; }
+        }
 
     </style>   
 </head>
@@ -64,7 +68,7 @@
 
             <div class="wrap">
 
-                <blockquote id="pullquote" class="phark">
+                <blockquote id="pullquote" class="small-phark">
                     <p>Working with Dan was a fantastic experience. He’s not only a talented designer, but also understands how to bring those designs to life within the browser. I’d work with him again any day&mdash;and everyone else should too.</p>
                     <p><cite>Adam Bullied, Director of Product Management, PlanetEye</cite></p>
                 </blockquote>
