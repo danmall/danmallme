@@ -247,7 +247,12 @@
 
         .page-title { color: $blackSubstitute; font: 100px $fontStack; letter-spacing: -1px; margin: 0 auto 0.2em; }
         
-        #work-area-wrap #pullquote, #work-area-wrap #awards { width: 800px; border-bottom: 1px dotted #7f7f7f; }
+        #work-area-wrap #pullquote, #work-area-wrap #awards { 
+            border-bottom: 1px dotted #7f7f7f; 
+            @media screen and (min-width: $originalLayout){
+                width: 800px;
+            }
+        }
             #work-area-wrap #awards { position: relative; left: 1px; display: none; 
                 @media screen and (min-width: $originalLayout){
                     display: block;
