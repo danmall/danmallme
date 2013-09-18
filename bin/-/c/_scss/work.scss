@@ -319,6 +319,12 @@
     
     .browser-chrome-wrap { position: relative; margin: 0 0 -150px; z-index: 1; width: 800px; }    
         .browser-chrome-wrap #project-url, .project-url { position: absolute; top: 34px; left: 116px; z-index: 3; font: 10px 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #999; border: none; }
+        .project-url { 
+            display: none; 
+            @media screen and (min-width: $originalLayout){
+                display: block;
+            }
+        }
         .browser-chrome-wrap #project-url:hover, .project-url:hover { color: #73ae08; border: none; }
         .browser-chrome { padding: 59px 0 0; background: transparent url(/-/i/work/browser-chrome-top.jpg) no-repeat center 0; position: absolute; width: 950px; left: -42px; top: 0; }
         .browser-chrome-wrap img { margin: 0 0 0 91px; float: none; }
