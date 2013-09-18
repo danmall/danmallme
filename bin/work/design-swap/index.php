@@ -8,6 +8,7 @@
     <style>
 
         /*.page-title { background-image: url(design-swap.png); width: 567px; height: 85px; }*/
+        .page-title { font-size: 90px; }
         .page-title .char5 { margin-left: -2px; }
         .page-title .char6 { margin-left: 2px; }
         .page-title .char9 { margin-left: -2px; }
@@ -17,6 +18,10 @@
         .project-image { height: 1162px; height: 532px; background: transparent url(design-swap-hero3.jpg) no-repeat center 0; /*margin-bottom: -160px;*/ }
         .project-url { left: 176px; top: 25px; left: 105px; top: 33px; }
         h2 ins { background: none; color: #aaa; }
+
+        @media screen and (min-width: 800px){
+            .page-title { font-size: 100px; }
+        }
 
     </style>
 </head>
