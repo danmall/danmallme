@@ -7,7 +7,7 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <style>
         /*.page-title { background-image: url(healthymagination.png); width: 586px; height: 58px; }*/
-        .page-title { font-size: 68px; }
+        .page-title { font-size: 30px; }
         .page-title .char7 { margin-left: -2px; }
         .page-title .char11 { margin-left: 2px; }
         .page-title .char15 { margin-left: 2px; }
@@ -21,6 +21,10 @@
             #clio a { width: 126px; height: 63px; top: 133px; left: 248px; }
             #commarts a { width: 197px; height: 56px; top: 130px; left: 608px; }
             #creativity a { width: 114px; height: 68px; top: 129px; left: 431px; }
+
+        @media screen and (min-width: 800px){
+            .page-title { font-size: 68px; }
+        }
 
     </style>
 </head>
