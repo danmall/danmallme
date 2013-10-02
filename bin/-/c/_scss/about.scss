@@ -3,13 +3,13 @@
 -------------------------------------------*/
 #about-landing #intro { border-bottom: 7px solid #231f20; margin: 0 0 2em; 
     @media screen and (min-width: $originalLayout){
-        padding: 165px 0 2em 305px; padding: 130px 0 2em 350px; padding-top: 0; margin: -50px 0 2px; position: relative; margin: -85px 0 2px; 
+        padding: 165px 0 2em 305px; padding: 130px 0 1em 350px; padding-top: 0; margin: -50px 0 2px; position: relative; margin: -85px 0 2px; 
     }
 }
 
 .about-heading { margin: 0.5em 0 0; font-size: 50px; } 
 
-#about-landing #intro p { font-size: 18px; }
+#about-landing #intro p { font-size: 16px; }
     #about-landing #intro cite.credit { display: none; }
 
 #dig { border-bottom: 7px solid #231f20; margin: 0 0 2em; }
@@ -44,10 +44,11 @@
 
 @media screen and (min-width: $originalLayout){
 
-    #about-landing #intro h1 { font-size: 92px; margin: 0.9em 0 -0.25em -50px; letter-spacing: -1px; z-index: 2; }
-#about-landing #intro h1:before { content: ""; display: block; position: absolute; bottom: 0; left: -90px; background: transparent url(/-/i/about/dan-headshot3.png) no-repeat 0 0; width: 840px; height: 431px; z-index: 1; }
+    #about-landing #intro h1 { font-size: 92px; margin: 0.9em 0 -0.1em -50px; letter-spacing: -1px; z-index: 2; }
+#about-landing #intro h1:before { content: ""; display: block; position: absolute; bottom: 0; left: -90px; background: transparent url(/-/i/about/dan-headshot3.png) no-repeat 0 0; width: 840px; height: 431px; z-index: 1; pointer-events: none; }
     /*#about-landing #intro p { font-size: 15px; color: #231f20; line-height: 1.7; padding-right: 10px; position: relative; top: 10px; z-index: 5; }*/
-         #about-landing #intro cite.credit { font-size: 14px; color: #b0b0b0; }
+        #about-landing #intro p { font-size: 16px; line-height: 1.6; }
+         #about-landing #intro cite.credit { font-size: 14px; color: #b0b0b0; display: block; }
             #about-landing #intro cite.credit a { color: #b0b0b0; border-color: #ddd; }
         
 
