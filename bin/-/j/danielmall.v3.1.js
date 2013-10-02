@@ -296,6 +296,13 @@ $(document).ready(function(){
                 }
                 return false;*/
 
+                if($(this).hasClass('open')){
+                    $(this).removeClass('open');
+                }else{
+                    $(this).addClass('open');
+                }
+
+
                 if($('.main-nav').hasClass('main-nav-active')){
                     $('.main-nav').removeClass('main-nav-active');
                     if(!$('body').hasClass('home')){
