@@ -64,21 +64,21 @@ http://www.danielmall.com/
 #home .hamburger { top: 4.2em; right: 3em; }
 
     .hamburger-ingredient { width: 23px; height: 5px; background: $blackSubstitute; margin: 0 0 4px; }
-    .pickles { background: #508c48; top: 15px; }
+    .lettuce { background: #508c48; top: 15px; }
     .cheese { background: #de9200; top: 6px; }
-    .pickles, .cheese { position: absolute; height: 2px; display: none; }
+    .lettuce, .cheese { position: absolute; height: 2px; display: none; }
     /*.bread-top { @include transition (all .25s ease-in-out); }
     .meat { @include transition (all .5s ease-in-out); }
     .bread-bottom { @include transition (all .75s ease-in-out); }*/
 
 .open { 
-    .pickles, .cheese { display: block; }
+    .lettuce, .cheese { display: block; }
     .meat { background: #6a4100; }
     .bread { background: #d3b48f; }
     .bread-top { border-top-left-radius: 2px; border-top-right-radius: 2px; }
     .bread-bottom { border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; }
     &:hover { 
-        .pickles { background: #508c48; opacity: 0.7; }
+        .lettuce { background: #508c48; opacity: 0.7; }
         .cheese { background: #de9200; opacity: 0.7; }
         .meat { background: #6a4100;opacity: 0.7; }
         .bread { background: #d3b48f; opacity: 0.7; }

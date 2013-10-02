@@ -35,8 +35,8 @@
                 '<a class="hamburger" href="#main-nav">' +
                     '<b class="phark hamburger-ingredient bread bread-top"></b>' +
                     '<b class="phark hamburger-ingredient cheese"></b>' +
-                    '<b class="phark hamburger-ingredient meat"></b><!-- sorry vegetarians -->' +
-                    '<b class="phark hamburger-ingredient pickles"></b>' +
+                    '<b class="phark hamburger-ingredient meat"></b><!-- sorry, vegetarians -->' +
+                    '<b class="phark hamburger-ingredient lettuce"></b><!-- you\'re welcome, vegetarians -->' +
                     '<b class="phark hamburger-ingredient bread bread-bottom"></b>' +
                 '</a>' +
             '</div><!-- .menu-link -->'
