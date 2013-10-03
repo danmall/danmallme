@@ -1,23 +1,13 @@
 /*-------------------------------------------    
     Basic Structure
 -------------------------------------------*/
-#masthead-wrap { border-top: 1px solid #231f20; /*border-bottom: 1px solid #bdbdbd;*/ margin: 0 0 30px; /*height: 50px;*/ 
+#masthead-wrap { border-top: 1px solid #231f20; margin: 0 0 30px;
     @media screen and (min-width: $originalLayout){
         border-bottom: 1px solid #bdbdbd; height: 40px;
     }
 }
-//.masthead-wrap-active { height: auto !important; } /* what a hack */
+
 #article #masthead-wrap, #about-landing #masthead-wrap { margin-bottom: 0; }
-    /*#masthead { position: relative; 
-        @media screen and (min-width: $originalLayout){
-            width: 800px; margin: 0 auto; height: 40px;
-        }
-    }
-    #home #masthead { z-index: 2000; 
-        @media screen and (min-width: $originalLayout){
-            height: 128px;
-        }
-    }*/
 
     .logo-new { 
         float: none; max-width: 75%; margin: 1em 0 0; 
@@ -25,36 +15,6 @@
             max-width: none; width: 400px; float: left;
         }
     }
-
-    /*#home #masthead h1 { background: transparent url(/-/s/dmall-website-logo4.svg) no-repeat 0 0; width: 100%; max-width: 960px; background-size: contain; border: none;
-            @media screen and (min-width: $originalLayout){
-                float: right; max-width: 450px; height: 150px;
-            }
-        }
-
-        #masthead { height: 40px; }
-            .masthead-inner { 
-                @media screen and (min-width: $originalLayout){
-                    margin: 0 auto; width: 800px; 
-                }
-            }
-
-        @media screen and (min-width: $originalLayout){
-            #masthead h1 { position: absolute; }
-        }        
-        #masthead h1 a { background: transparent url(/-/s/dmall-website-logo-small2.svg) no-repeat 0 0; width: 180px; height: 180px; position: absolute; top: -91px; left: -70px; z-index: 1999; }
-        #home #masthead h1 { background-image: url(/-/s/dmall-website-logo3.svg); width: 100%; top: -10px; left: -171px; background-size: 100%; 
-            @media screen and (min-width: $originalLayout){
-                float: right; max-width: 450px; height: 150px;
-            }
-        }
-
-        .logo { position: relative; 
-            a { border: none; background: red; }
-            &:after { display: block; content: "Back to the Home Page"; font-family: $fontStack; font-size: 14px; color: #aaa; position: absolute; width: 22em; top: 9px; left: 83px; @include transition (all 0.5s ease-out); opacity: 0; z-index: 2000; }
-            &:hover:after { left: 93px; opacity: 1; }
-        } */
-
 
     .logo { position: relative; 
         a { border: none; }
