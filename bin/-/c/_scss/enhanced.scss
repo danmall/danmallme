@@ -85,13 +85,14 @@ http://www.danielmall.com/
     }
 }
 
-.main-nav { max-height: 0; overflow: hidden; 
+.main-nav { 
+    max-height: 0; overflow: hidden; @include transition (all 1s cubic-bezier(0.645, 0.045, 0.355, 1.000));
     @media screen and (min-width: $originalLayout){
         max-height: none; 
     }
 }
 
-.main-nav-active { max-height: 300em; }
+.nav-active { max-height: 300em; }
 
 
 .twitter-enhance { position: absolute; left: -9999px; }
