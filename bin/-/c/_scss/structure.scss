@@ -1,12 +1,12 @@
 /*-------------------------------------------    
     Basic Structure
 -------------------------------------------*/
-#masthead-wrap { border-top: 1px solid #231f20; /*border-bottom: 1px solid #bdbdbd;*/ margin: 0 0 30px; height: 50px; 
+#masthead-wrap { border-top: 1px solid #231f20; /*border-bottom: 1px solid #bdbdbd;*/ margin: 0 0 30px; /*height: 50px;*/ 
     @media screen and (min-width: $originalLayout){
         border-bottom: 1px solid #bdbdbd; height: 40px;
     }
 }
-.masthead-wrap-active { height: auto !important; } /* what a hack */
+//.masthead-wrap-active { height: auto !important; } /* what a hack */
 #article #masthead-wrap, #about-landing #masthead-wrap { margin-bottom: 0; }
     /*#masthead { position: relative; 
         @media screen and (min-width: $originalLayout){
