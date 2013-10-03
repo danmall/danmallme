@@ -91,6 +91,8 @@ http://www.danielmall.com/
         max-height: none; 
     }
 }
+    /*.main-nav-item { opacity: 0; }
+    .main-nav-item-animating { opacity: 1; @include transition (all 1s linear); }*/
 
 .nav-active { max-height: 300em; }
 

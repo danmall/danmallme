@@ -1,7 +1,7 @@
 /*-------------------------------------------    
     Basic Structure
 -------------------------------------------*/
-#masthead-wrap { border-top: 1px solid #231f20; margin: 0 0 30px;
+#masthead-wrap { border-top: 1px solid #231f20; margin: 0 0 30px; min-height: 50px;
     @media screen and (min-width: $originalLayout){
         border-bottom: 1px solid #bdbdbd; height: 40px;
     }
