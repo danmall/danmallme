@@ -14,6 +14,10 @@
 
     #comment-form input[type="text"], #contact-form input[type="text"], #contact-form select { width: 350px; width: 90%; }
     // #comment-form textarea, #contact-form textarea { width: 550px; }
+
+@media screen and (min-width: $originalLayout){
+    #contact-name, #contact-email, #contact-website, #contact-subject { width: 350px !important; }
+}
     
 #contact-landing .sub, #thanks-landing .sub { margin: 0 0 3em;
     @media screen and (min-width: $originalLayout){
