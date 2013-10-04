@@ -97,6 +97,28 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/progressive-enhancement/">
+                                    <img class="round-image" src="/articles/progressive-enhancement/home-thumb.png" alt="" />
+                                    <span class="home-item-name">Progressive Enhancement</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Still alive and kickin&rsquo;.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/articles/how-to-build-an-app/">
+                                    <img class="round-image" src="/articles/how-to-build-an-app/home-thumb.png" alt="" />
+                                    <span class="home-item-name">How to Build an App</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Creating an app in public. Maybe.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+                    <li class="home-item position3">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/prequalifying-clients/">
                                     <img class="round-image" src="/articles/prequalifying-clients/home-thumb.jpg" alt="" />
                                     <span class="home-item-name">Prequalifying Clients</span>
@@ -105,7 +127,7 @@
                             <p class="home-item-description">Questions, answers, and hidden answers.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    <li class="home-item position2">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/svg-workflow-for-designers/">
@@ -116,6 +138,7 @@
                             <p class="home-item-description">Create quick vector assets with really small file sizes.</p>
                         </article><!-- .home-item-article -->
                     </li>
+                    <?php /* ?>
                     <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -137,7 +160,8 @@
                             </h2><!-- .home-item-headline -->
                             <p class="home-item-description">Prepping for the next episode of The Businessology Show.</p>
                         </article><!-- .home-item-article -->
-                    </li>                    		    				
+                    </li>
+                    <?php */ ?>                    		    				
     			</ol>
     			
     			<p class="more"><a href="/articles/">See all<b class="more-qualifier"> Latest Articles</b></a></p>
