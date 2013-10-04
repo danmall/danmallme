@@ -3,7 +3,15 @@
 <head>
     <title>&ldquo;Five,&rdquo; an article by Dan Mall</title>
     <meta name="description" content="Celebrating the launch of the new DanielMall.com" />
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
+    <meta name="description" content="Celebrating the launch of the new DanielMall.com" />
+    <meta charset="UTF-8" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="author" content="Dan Mall" />
+    
+    <!-- http://blog.javierusobiaga.com/stop-using-the-viewport-tag-until-you-know-ho -->
+    <meta name="viewport" content="width=1024" />
+
+    <link type="application/rss+xml" rel="alternate" title="Articles" href="http://feeds.feedburner.com/danielmall-articles" /> 
     
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>

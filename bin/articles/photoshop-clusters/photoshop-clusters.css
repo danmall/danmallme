@@ -1,12 +1,12 @@
 #article-area-wrap { background: #353535; }
 
-#photoshop-clusters { width: 800px; margin: 0 auto; padding-top: 45px; font-family: 'Lucida Grande', Verdana, sans-serif; }
-    #photoshop-clusters h1 { text-align: center; font-size: 40px; font-weight: bold; color: #191919; text-transform: uppercase; text-shadow: rgba(255, 255, 255, 0.1) 1px 1px 0; letter-spacing: -1px; margin: 0 0 0.05em; }    
-    .wf-active #photoshop-clusters h1 { font-family: 'myriad-pro-1', 'myriad-pro-2'; font-size: 60px; margin: 0; }
+#photoshop-clusters { margin: 0 auto; padding-top: 45px; font-family: 'Lucida Grande', Verdana, sans-serif; }
+    #photoshop-clusters h1 { text-align: center; font-size: 20px; font-weight: bold; color: #191919; text-transform: uppercase; text-shadow: rgba(255, 255, 255, 0.1) 1px 1px 0; letter-spacing: -1px; margin: 0 0 0.05em; line-height: 1.1; }    
+    .wf-active #photoshop-clusters h1 { font-family: 'myriad-pro-1', 'myriad-pro-2'; font-size: 40px; margin: 0 0 0.25em; }
     #photoshop-clusters h2 { text-align: center; margin: 0 0 2em; color: rgba(255, 255, 255, 0.4); font: 24px 'Times New Roman', serif; font-style: italic; }
     .wf-active #photoshop-clusters h2 { font-family: 'minion-pro-1','minion-pro-2'; font-size: 20px; margin-top: -0.35em; }
-    #photoshop-clusters p, #photoshop-clusters small { color: #9d9d9d; margin-right: 100px; margin-left: 100px; font: 14px/1.5 'Lucida Grande', Verdana, sans-serif; }
-	#photoshop-clusters small { font-size: 11px; display: block; color: #666; margin: 100px 100px 3em; text-indent: -5px; }
+    #photoshop-clusters p, #photoshop-clusters small { color: #9d9d9d; font: 14px/1.5 'Lucida Grande', Verdana, sans-serif; margin-right: 10px; margin-left: 10px; }
+	#photoshop-clusters small { font-size: 11px; display: block; color: #666; margin: 100px 10px 3em; text-indent: -5px; }
     .wf-active #photoshop-clusters p { font-family: 'myriad-pro-1', 'myriad-pro-2'; }
     
     #photoshop-clusters a { color: #ffbc14; }
@@ -18,3 +18,10 @@
     
 #photoshop-clusters ::selection { background: #ffbc14; color: #fff; }
 #photoshop-clusters ::-moz-selection { background: #ffbc14; color: #fff; }
+
+@media screen and (min-width: 800px){
+     #photoshop-clusters { width: 800px; }   
+        #photoshop-clusters h1 { font-size: 40px; } 
+        .wf-active #photoshop-clusters h1 { font-size: 60px; }
+        #photoshop-clusters p, #photoshop-clusters small { margin-right: 100px; margin-left: 100px; }
+}

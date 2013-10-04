@@ -45,6 +45,11 @@
 	    
 	</div><!-- /#article-area-wrap -->
 	
+    <?php
+
+        echo readNext('Why I Love the Netflix Redesign', '/articles/why-i-love-the-netflix-redesign/');
+
+    ?>
 	
 	<div id="comments">
 	
@@ -103,8 +108,8 @@
     	</div><!-- #comments-wrap -->
 	    
 	        
-	</div><!-- #comments -->
-	
+	</div><!-- #comments -->	
+    
 	
 	<div class="wrap">
     	

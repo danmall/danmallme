@@ -30,7 +30,12 @@
 	    
 	    
 	</div><!-- /#article-area-wrap -->
-	
+
+    <?php
+
+        echo readNext('Five', '/articles/five/');
+
+    ?>	
 	
 	<div id="comments">
 	

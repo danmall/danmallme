@@ -3,26 +3,37 @@
 <head>
     <title>&ldquo;You, the Conference Organizer,&rdquo; an article by Dan Mall</title>
     <meta name="description" content="Crowdsourcing the Conference Talk" />
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
+    <meta charset="UTF-8" /> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Dan Mall" />
+    
+    <!-- http://blog.javierusobiaga.com/stop-using-the-viewport-tag-until-you-know-ho -->
+    <meta name="viewport" content="width=800" />
+
+    <link type="application/rss+xml" rel="alternate" title="Articles" href="http://feeds.feedburner.com/danielmall-articles" /> 
     
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
 	<script src="http://use.typekit.com/qft6akw.js"></script>
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
-
-	<!-- http://labs.skinkers.com/touchSwipe/ -->
-	<script src="jquery.touchSwipe-1.2.4.js"></script>
-	
-	<!-- jQuery Address: http://www.asual.com/jquery/address/ -->
-	<script src="jquery.address-1.5.min.js"></script>
-	
-	<!-- Custom Modernizr build -->
-	<script src="modernizr.custom.02547.js"></script>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>    
 	
     <link rel="stylesheet" href="you-the-conference-organizer.css" />	
 	<script>
 		document.write('<link rel="stylesheet" href="enhanced.css" />')		
 		document.write('<link rel="stylesheet" href="typekit.css" />')		
 	</script>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" ></script>
+
+	<!-- http://labs.skinkers.com/touchSwipe/ -->
+	<script src="jquery.touchSwipe-1.2.4.js"></script>
+	
+	<!-- jQuery Address: http://www.asual.com/jquery/address/ -->
+	<script src="jquery.address-1.5.min.js"></script>
+
+	<!-- Custom Modernizr build -->
+	<script src="modernizr.custom.02547.js"></script>
+
 </head>
 
 <body id="article" class="articles">	
@@ -97,6 +108,9 @@
 					<small>What type of conference would you create? Who would you invite to speak? Who would you invite to attend? What type of content would you have?</small>
 					<p class="cta"><a href="#comments">Add a comment</a></p>
 				</section><!-- #you -->
+				
+				
+				
 				
 				<script>
 					$(document).ready(function() {
@@ -199,6 +213,11 @@
 	    
 	</div><!-- /#article-area-wrap -->
 	
+	<?php
+
+        echo readNext('Typefaces I Used This Month', '/articles/august2011-typefaces/');
+
+    ?>
 	
 	<div id="comments">
 	
@@ -262,7 +281,45 @@
 	
 	<div class="wrap">
     	
-    	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/footer.php"); echo "\n"; ?>
+    	<footer class="site-footer">
+	
+    	<ul class="no-marker">
+    		<li>&copy; 2005&ndash;2013 Dan Mall. Thou shalt not steal.</li>
+    		    		<li>Powered by Hand Coding&trade;</li>
+    		<li>Graciously hosted by <a href="http://www.mediatemple.net/go/order/?refdom=danielmall.com">Media Temple</a></li>
+    		<li class="twitter-enhance">Follow <a href="http://twitter.com/danielmall">@danielmall</a></li>
+    		<li><a href="http://feeds.feedburner.com/danielmall-articles">RSS</a></li>
+    	</ul>
+    	
+    	<script>
+    	document.write('<section id="twitter-follow"><a href="http://twitter.com/danielmall" class="twitter-follow-button">Follow @danielmall</a></section>');    	
+    	</script>
+    	<script src="http://platform.twitter.com/widgets.js"></script>
+
+        <!-- Grab Google CDN's jQuery. fall back to local if necessary 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" ></script>
+	    <script>!window.jQuery && document.write(unescape('%3Cscript src="/-/j/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script> -->
+	 
+	    <!-- Tooltip plugin: http://bassistance.de/jquery-plugins/jquery-plugin-tooltip/ -->
+	    <script src="/-/j/libs/jquery.tooltip.pack.js"></script>
+	    
+	    <!-- jQuery Easing plugin: http://gsgd.co.uk/sandbox/jquery/easing/ -->
+	    <script src="/-/j/libs/jquery.easing.1.3.js"></script>
+	    
+	    <!-- jQuery UI for Tabs: http://jqueryui.com/demos/tabs/ -->
+	    <script src="/-/j/libs/jquery-ui-1.8.23.custom.min.js"></script>
+	    
+	    <!-- Twitter @Anywhere -->
+	    <script src="http://platform.twitter.com/anywhere.js?id=4iWhtL6v6OPwuUzs5BWGRA&amp;v=1"></script>
+
+	    <!-- jQuery Waypoints: http://imakewebthings.com/jquery-waypoints/shortcuts/sticky-elements/ -->
+	    <script src="/-/j/libs/waypoints.min.2.0.2.js"></script>
+	    <script src="/-/j/libs/waypoints-sticky.min.js"></script>
+	    
+	    <!-- Custom Functions -->
+	    <script src="/-/j/danielmall.v3.1.min.js?v=20130725051942"></script>
+
+    </footer><!-- .site-footer -->
     	
     	
     </div><!-- #wrap -->

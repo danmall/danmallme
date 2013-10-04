@@ -3,11 +3,22 @@
 <head>
     <title>&ldquo;Typefaces I Used This Month,&rdquo; an article by Dan Mall</title>
     <meta name="description" content="Photoshop Clusters" />
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
+    <meta charset="UTF-8" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Dan Mall" />
+    
+    <!-- http://blog.javierusobiaga.com/stop-using-the-viewport-tag-until-you-know-ho -->
+    <meta name="viewport" content="width=800" />
+
+    <link type="application/rss+xml" rel="alternate" title="Articles" href="http://feeds.feedburner.com/danielmall-articles" /> 
     
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <link rel="stylesheet" href="august2011-typefaces.css" />
+     <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" ></script>
+    <script>!window.jQuery && document.write(unescape('%3Cscript src="/j/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script>
     <script src="lettering.js"></script>
     <script>
         document.write('<link rel="stylesheet" href="enhanced.css" />');
@@ -206,6 +217,11 @@
 	    
 	</div><!-- /#article-area-wrap -->
 	
+    <?php
+
+        echo readNext('Photoshop Clusters', '/articles/photoshop-clusters/');
+
+    ?>
 	
 	<div id="comments">
 	

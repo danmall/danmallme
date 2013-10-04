@@ -110,6 +110,11 @@
 	    
 	</div><!-- /#article-area-wrap -->
 	
+    <?php
+
+        echo readNext('You, the Conferencer Organizer', '/articles/you-the-conference-organizer/');
+
+    ?>
 	
 	<div id="comments">
 	

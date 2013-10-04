@@ -14,3 +14,7 @@
     
 #forward { border-top: 1px solid #ccc; padding-top: 30px; margin: 2em 0 4em; }
     #forward h1 { background-image: url(forward.png); width: 807px; height: 30px; }
+
+@media screen and (min-width: 800px){
+	
+}

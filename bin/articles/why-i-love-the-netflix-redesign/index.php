@@ -18,7 +18,7 @@
 	    
 	    <div id="netflix">
 	        
-	        <h1 class="phark">Why I Love the Netflix Redesign</h1>
+	        <h1>Why I Love the Netflix Redesign</h1>
 	        
 	        <img src="netflix.jpg" alt="The new Netflix homepage" />
 	    
@@ -41,6 +41,11 @@
 	    
 	</div><!-- /#article-area-wrap -->
 	
+    <?php
+
+        echo readNext('Now I Have RSS', '/articles/now-i-have-rss/');
+
+    ?>
 	
 	<div id="comments">
 	
