@@ -1,0 +1,28 @@
+#article-area-wrap { background: #fdfdfd; font: 18px/1.5 Georgia, 'Times New Roman', serif; padding: 50px 0 3em; }
+
+#now-with-responsive { margin: 0 auto; width: 95%; max-width: 800px; }      
+
+	#now-with-responsive p, #now-with-responsive ul, #now-with-responsive ol { font-size: 22px; color: #464646; }
+	#now-with-responsive a { background: #fedd88; color: #464646; border: none; padding: 2px 6px; }
+	#now-with-responsive a:hover, #now-with-responsive a:focus { background: #464646; color: #fedd88; }
+
+	#now-with-responsive .article-title { text-align: center; font: bold 12px Helvetica, Arial, sans-serif; margin: 0 0 2em; text-transform: uppercase; letter-spacing: 0.1em; }
+		#now-with-responsive .article-title-pizzazz { color: #ecab00; display: block; font-size: 44px; }
+
+	#now-with-responsive .subheading { text-align: center; font: bold 30px Helvetica, Arial, sans-serif; margin: 2em 0 1em; }
+
+	#now-with-responsive .stats-table-wrapper { width: 100%; margin: 0 auto; max-width: 800px; overflow-x: scroll; }
+		#now-with-responsive .stats-table { margin: 0 0 1.5em; font-size: 18px; min-width: 800px; }
+			#now-with-responsive .stats-table thead th { color: #fff; background: #363636; text-transform: uppercase; letter-spacing: 0.1em; font: bold 14px Helvetica, Arial, sans-serif; padding: 1em 5px; }
+			#now-with-responsive .stats-table tbody tr:nth-child(even) th, #now-with-responsive .stats-table tbody tr:nth-child(even) td { background: #f3f3f3; }
+				#now-with-responsive .stats-table tbody th, #now-with-responsive .stats-table tbody td { text-align: center; padding: 0.5em 5px; border-bottom: 1px solid #dadada; }
+				#now-with-responsive .stats-table tbody th { text-align: left; }
+		
+		
+/*#now-with-responsive ::selection { background: #49c8c8; color: #fff; }
+#now-with-responsive ::-moz-selection { background: #49c8c8; color: #fff; }*/
+
+
+@media screen and (min-width: 800px){
+	#now-with-responsive {  }  
+}
