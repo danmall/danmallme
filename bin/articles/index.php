@@ -27,6 +27,30 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/progressive-enhancement/">Progressive Enhancement</a></h1>
+                            </header>
+                            <p>Still alive and kickin&rsquo;.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/progressive-enhancement/"><time datetime="2013-08-30T015:38:00">Aug 30, 2013</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/progressive-enhancement/#disqus_thread" data-disqus-identifier="progressive-enhancement"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>                  
+                    </li>
+                    <li>
+                        <article>
+                            <header>
+                                <h1><a href="/articles/how-to-build-an-app/">How to Build an App</a></h1>
+                            </header>
+                            <p>Creating an app in public. Maybe.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/how-to-build-an-app/"><time datetime="2013-08-22T10:39:00">Aug 22, 2013</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/how-to-build-an-app/#disqus_thread" data-disqus-identifier="how-to-build-an-app"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>                  
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/prequalifying-clients/">Prequalifying Clients</a></h1>
                             </header>
                             <p>Questions, answers, and hidden answers.</p>
