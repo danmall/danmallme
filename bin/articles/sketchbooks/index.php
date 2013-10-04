@@ -76,6 +76,12 @@
 	    </section><!-- #sketchbooks -->	    
 	    
 	</div><!-- /#article-area-wrap -->	
+
+	<?php
+
+        echo readNext('What I Loved About Brooklyn Beta', '/articles/brooklyn-beta-2011/');
+
+    ?>
 	
 	<div id="comments">
 	

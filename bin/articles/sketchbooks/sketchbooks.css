@@ -1,12 +1,11 @@
 #article-area-wrap { background: #666358; font: normal 18px/1.6 Georgia, 'Times New Roman', serif; color: #d2d2d2; }
 
-#sketchbooks { margin: 0 auto; width: 875px; padding: 100px 0; position: relative; }
-	#examples { width: 460px; float: left; }
+#sketchbooks { margin: 0 auto; padding: 100px 0; position: relative; }
 	figure { position: relative; display: block; margin: 0 0 2em; }
 		figure img { position: relative; left: -40px; }
 		figcaption { position: absolute; bottom: 1em; display: block; font-size: 12px; font-style: italic; color: #b3b1ac; }
 		#feb2010 figcaption, #sept2008 figcaption { bottom: 2.85em; }
-	#copy { margin: 1em 0 0 460px; position: static; }
+	#copy { margin: 1em 0 0 0; position: static; }
 		#copy p { font-size: 18px; }
 		
 		#sketchbooks a { color: #fffdd8; border-bottom: 1px solid rgba(255, 253, 216, 0.3); }
@@ -16,3 +15,10 @@
 		
 #sketchbooks ::selection { background: rgba(255, 255, 255, 0.2); color: #fff; }
 #sketchbooks ::-moz-selection { background: rgba(255, 255, 255, 0.2); color: #fff; }
+
+@media screen and (min-width: 830px){
+	#sketchbooks { width: 875px; }
+		#examples { width: 460px; float: left; }
+
+	#copy { margin-left: 460px; }
+}

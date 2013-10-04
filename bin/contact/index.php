@@ -21,7 +21,7 @@
             	    <h1 class="contact-heading">Contact Me</h1>
             	</header>
             	
-            	<p>I&rsquo;m all ears. Well, not <em>all</em> ears, because I&rsquo;d probably look something like <a id="all-ears" href="http://www.insidefurniture.com/insidefurniture/images/2008/02/21/all_ears.jpg">this</a>. That would be strange.</p>
+            	<p>I&rsquo;m all ears. <span class="m-hide">Well, not <em>all</em> ears, because I&rsquo;d probably look something like <a id="all-ears" href="http://www.insidefurniture.com/insidefurniture/images/2008/02/21/all_ears.jpg">this</a>. That would be strange.</span></p>
             	
             	<?php if(isset ($_GET['error'])) { ?> 
             	<div class="error">

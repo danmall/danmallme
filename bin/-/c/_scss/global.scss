@@ -21,4 +21,17 @@
 
 .real-hide, .hide { display: none; }
 
+.m-hide { 
+	display: none; 
+	@media screen and (min-width: $originalLayout){
+		display: block;
+	}
+}
+
+span.m-hide {
+	@media screen and (min-width: $originalLayout){
+		display: inline;
+	}
+}
+
 .no-marker, #tweets ul, .projects { list-style: none; }
