@@ -1,17 +1,16 @@
-<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/functions.php"); echo "\n"; ?>
-<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/doctype.php"); echo "\n"; ?>
+<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
+<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head profile="http://gmpg.org/xfn/11">
     <title>&ldquo;Progressive Enhancement. Still Alive &amp; Kickin&rsquo;.&rdquo; an article by Dan Mall</title>
     <meta name="description" content="Still Alive &amp; Kickin&rsquo;." />
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/meta.php"); echo "\n"; ?>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
     
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/cssReference.php"); echo "\n"; ?>	
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/jsReference.php"); echo "\n"; ?>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>	
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReference.php"); echo "\n"; ?>
     <link rel="stylesheet" href="progressive-enhancement.css" />    
 
     <!-- Prism -->
-    <link rel="stylesheet" href="/c/prism.css" />
-     
+    <link rel="stylesheet" href="/-/c/libs/prism.css" />     
 
     
     <!-- Facebook -->
@@ -25,7 +24,7 @@
 
 <body id="article" class="articles">	
 	
-	<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/header.php"); echo "\n"; ?>
+	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 	
 	<div id="article-area-wrap">
 	    
@@ -229,6 +228,11 @@
 	    
 	</div><!-- /#article-area-wrap -->
 	
+    <?php
+
+        echo readNext('How to Build an App', '/articles/how-to-build-an-app/');
+
+    ?>
 	
 	<div id="comments">
 	
@@ -278,7 +282,7 @@
     	        </section><!-- /#article-info -->
     	        
     	        
-    	        <?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/carbon.php"); echo "\n"; ?>
+    	        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/carbon.php"); echo "\n"; ?>
 	        
 	        
     	    </div><!-- /.sub -->
@@ -292,13 +296,13 @@
 	
 	<div class="wrap">
     	
-    	<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/footer.php"); echo "\n"; ?>
+    	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/footer.php"); echo "\n"; ?>
     	
     	
     </div><!-- #wrap -->
 	
 
     <!-- Prism -->
-    <script src="/j/libs/prism.js"></script>
+    <script src="/-/j/libs/prism.js"></script>
 
-<?php require($_SERVER["DOCUMENT_ROOT"]."/_inc/close.php"); echo "\n"; ?>
+<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/close.php"); echo "\n"; ?>

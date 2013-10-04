@@ -11,9 +11,9 @@
      #progressive-enhancement img { float: none; margin: 0 0 10px; }
 
 
-		#progressive-enhancement .inner { margin: 0 auto; width: 750px; padding: 2em 0; }
+		#progressive-enhancement .inner { margin: 0 auto; width: 95%; padding: 2em 0; }
 
-	#progressive-enhancement .article-title { font-size: 60px; margin: 0 0 0.5em; }
+	#progressive-enhancement .article-title { font-size: 40px; margin: 0 0 0.5em; }
 
 	#progressive-enhancement .intro { background: #222; padding-top: 50px; }
 	#progressive-enhancement .trolling { background: #2f2f2f; }
@@ -32,3 +32,8 @@
 		
 #progressive-enhancement ::selection { background: #49c8c8; color: #fff; }
 #progressive-enhancement ::-moz-selection { background: #49c8c8; color: #fff; }
+
+@media screen and (min-width: 800px){
+	#progressive-enhancement .inner { width: 750px; }
+	#progressive-enhancement .article-title { font-size: 60px; }
+}
