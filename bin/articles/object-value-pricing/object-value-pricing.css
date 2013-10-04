@@ -1,0 +1,31 @@
+#article-area-wrap { background: #fff; }
+
+#object-value-pricing { margin: 0 auto; padding: 50px 0; background: #fff; }
+	#object-value-pricing p, #object-value-pricing hgroup, #object-value-pricing ul { margin: 0 auto 1.5em; font: 18px/1.6 Helvetica, Arial, sans-serif; }
+		#object-value-pricing h1 { font: bold 46px Helvetica, Arial, sans-serif; text-align: center; margin-bottom: 0.1em; letter-spacing: -2px; }
+			#object-value-pricing h1 b { background: white; padding: 0 10px; }
+		#object-value-pricing h2 { font: bold 15px Helvetica, Arial, sans-serif; text-align: center; margin-bottom: 0.2em; }
+	
+	#object-value-pricing .translation { margin: 0 auto; border-bottom: 0; padding: 2em 0 3em; }
+		#object-value-pricing .translation p { font-size: 12px; }
+
+	#object-value-pricing ul { margin-left: 30px; }
+		
+#object-value-pricing ::selection { background: #c20000; color: #fff; }
+#object-value-pricing ::-moz-selection { background: #c20000; color: #fff; }
+
+@media screen and (min-width: 800px){
+
+	#article-area-wrap { background: #fff url(bg.png) repeat-x 0 -50px; }
+
+		#object-value-pricing { min-width: 842px; padding: 520px 0 50px; background: transparent url(header.png) no-repeat 50% -50px; position: relative; }
+
+		#object-value-pricing p, #object-value-pricing hgroup, #object-value-pricing ul { width: 642px; }
+
+		#object-value-pricing hgroup { position: absolute; width: 100%; top: 409px; }
+
+		#object-value-pricing .translation { width: 642px; }
+
+		#object-value-pricing ul { margin-left: auto; } 
+
+}

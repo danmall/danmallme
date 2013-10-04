@@ -1,0 +1,57 @@
+#article-area-wrap { background: #fdfdfd; font: 18px Verdana, Arial, sans-serif; padding: 65px 0 3em; }
+
+#superfriendly-annual-report-2012 {  }
+
+    #superfriendly-annual-report-2012 p { font: 18px Verdana, Arial, sans-serif; }
+    
+    #superfriendly-annual-report-2012 .article-footer { border: none; margin: 0; padding: 0; }
+        #superfriendly-annual-report-2012 .article-footer p { font-size: 70%; }
+        
+    #superfriendly-annual-report-2012 .topic { border-top: 1px solid #e3e3e3; padding: 2em 0 0.5em; }
+        #superfriendly-annual-report-2012 h1 { text-transform: uppercase; font: normal 30px 'Trebuchet MS', Arial, sans-serif; color: #a3a3a3; }
+        
+        #superfriendly-annual-report-2012 .article-title { font-size: 30px; color: #464646; text-transform: none; }
+    
+    #superfriendly-annual-report-2012 .fours li { float: left; width: 200px; text-align: center; text-transform: uppercase; font-size: 14px; margin: 0 0 1em; }
+        #superfriendly-annual-report-2012 .fours strong { display: block; color: #ff611b; font: 100px 'Trebuchet MS', Arial, sans-serif; letter-spacing: -2px; line-height: 1; }
+    
+    #superfriendly-annual-report-2012 .table-wrap { background: #ff611b; padding: 1.5em 40px 3em; position: relative; }
+        #superfriendly-annual-report-2012 .table-wrap h1 { color: #fff; }
+        
+        #superfriendly-annual-report-2012 .horz-bars { width: 100%; }
+            #superfriendly-annual-report-2012 .horz-bars tr { background: #fff; display: block; min-height: 43px; margin-bottom: 5px; position: relative; }
+                #superfriendly-annual-report-2012 .horz-bars th { color: #ff611b; text-align: left; position: absolute; display: block;  left: 0.25em; top: 0.25em; text-transform: uppercase; font: 24px 'Trebuchet MS', Arial, sans-serif; }
+                    #superfriendly-annual-report-2012 .horz-bars th i { font-style: normal; color: #fff; }
+                #superfriendly-annual-report-2012 .horz-bars td { text-transform: uppercase; font: 18px 'Trebuchet MS', Arial, sans-serif; position: absolute; top: 0.62em; color: #a7a7a7; }
+                    #superfriendly-annual-report-2012 .horz-bars td i { font-style: normal; color: #ffd3c0; }
+                    
+        #superfriendly-annual-report-2012 .vert-bars { height: 415px; width: 100%; background: transparent url(monthly-income-lines.png) repeat-x 0 0; }
+        #superfriendly-annual-report-2012 .axis-label { font: 14px 'Trebuchet MS', Arial, sans-serif; color: #ff611b; text-transform: uppercase; position: absolute; bottom: 30px; left: -140px; display: block; width: 110px; text-align: center; }
+            #superfriendly-annual-report-2012 .vert-bars th { margin-right: 15px; display: block; width: 40px; float: left; position: relative; margin-bottom: -15px; left: 25px; top: 425px; color: #fff;}
+            #superfriendly-annual-report-2012 .vert-bars td { height: 100%; width: 40px; display: block; float: left; margin-right: 15px; position: relative; left: 25px; bottom: 0; }
+                #superfriendly-annual-report-2012 .vert-bars td .upward-bar { background: #fff; position: absolute; bottom: 0; width: 100%; }
+                    #superfriendly-annual-report-2012 .vert-bars td .upward-bar i { position: relative; top: -1.5em; left: 5px; font-style: normal; font: 14px 'Trebuchet MS', Arial, sans-serif; color: #fff; }
+	
+	#superfriendly-annual-report-2012 a { color: #ff611b; border-bottom: none; }
+	#superfriendly-annual-report-2012 a:hover, #superfriendly-annual-report-2012 a:focus { color: #464646; }
+		
+		
+#superfriendly-annual-report-2012 ::selection { background: #ff611b; color: #fff; }
+#superfriendly-annual-report-2012 ::-moz-selection { background: #ff611b; color: #fff; }
+
+@media screen and (min-width: 800px){
+
+    #superfriendly-annual-report-2012 { width: 800px; }
+
+    #superfriendly-annual-report-2012 .article-title { font-size: 41px; }
+
+    #superfriendly-annual-report-2012 .horz-bars th, #superfriendly-annual-report-2012 .horz-bars td { width: 500px; }
+
+    #superfriendly-annual-report-2012 .replace-table { background: transparent url(pie.png) no-repeat 40% 0; width: 100%; height: 432px; margin: 2em 0; position: relative; }
+        #superfriendly-annual-report-2012 .pie tr { position: absolute; color: #ff611b; font: 18px 'Trebuchet MS', Arial, sans-serif; text-transform: uppercase; }
+        #superfriendly-annual-report-2012 .pie td { color: #a7aa7a; position: relative; left: 5px; font-size: 14px; }
+        #superfriendly-annual-report-2012 .pie1 { left: 600px; top: 30px; }
+        #superfriendly-annual-report-2012 .pie2 { left: 520px; top: 450px; }
+        #superfriendly-annual-report-2012 .pie3 { left: 80px; top: 20px; }
+
+}

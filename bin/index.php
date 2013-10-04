@@ -1,201 +1,296 @@
-<?php
-/**
- * ExpressionEngine - by EllisLab
- *
- * @package		ExpressionEngine
- * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2003 - 2010, EllisLab, Inc.
- * @license		http://expressionengine.com/docs/license.html
- * @link		http://expressionengine.com
- * @since		Version 2.0
- */
+<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
+<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
+<head>
+    <title>Dan Mall  //  Creative Direction &bull; Art Direction &bull; Design &bull; Strategy</title>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
+    <?php /* ?>
+    <!-- Thanks, @rem: http://remysharp.com/2007/05/18/add-twitter-to-your-blog-step-by-step/ -->
+    <script src="http://twitterjs.googlecode.com/svn/trunk/src/twitter.min.js"></script>
+    
 
-/*
- * --------------------------------------------------------------------
- *  SYSTEM PATH
- * --------------------------------------------------------------------
- *
- * The following variable contains the server path to your
- * ExpressionEngine "system" folder.  By default the folder is named
- * "system" but it can be renamed for increased security.  If you
- * have changed the name of the system folder please indicate the
- * new name here, and include the server path.  The path can be a
- * simple relative path or it can be a full server path.
- * 
- */
-	$system_path = './_manage/';
+    <script src="/-/j/libs/chirp.min.js"></script>
+    <?php */ ?>
+    
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
+    
+</head>
 
-/*
- * --------------------------------------------------------------------
- *  ERROR REPORTING OVERRIDE
- * --------------------------------------------------------------------
- *
- * PHP and database errors are normally displayed dynamically based
- * on the authorization level of each user accessing your site.  
- * This variable allows the error reporting system to be overridden, 
- * which can be useful for low level debugging during site development, 
- * since errors happening before a user is authenticated will not normally 
- * be shown.  Options:
- *
- *	$debug = 0;  Default setting. Errors shown based on authorization level
- *
- *	$debug = 1;  All errors shown regardless of authorization
- *
- * NOTE: Enabling this override can have security implications.
- * Enable it only if you have a good reason to.
- * 
- */
-	$debug = 0;
-
-/*
- * --------------------------------------------------------------------
- *  CUSTOM CONFIG VALUES
- * --------------------------------------------------------------------
- *
- * The $assign_to_config array below will be passed dynamically to the
- * config class. This allows you to set custom config items or override
- * any default config values found in the config.php file.  This can
- * be handy as it permits you to share one application between more then
- * one front controller file, with each file containing different 
- * config values.
- *
- * Un-comment the $assign_to_config array below to use this feature
- *
- * NOTE: This feature can be used to run multiple EE "sites" using
- * the old style method.  Instead of individual variables you'll
- * set array indexes corresponding to them.
- *
- */
-//	$assign_to_config['template_group'] = '';
-//	$assign_to_config['template'] = '';
-//	$assign_to_config['site_index'] = '';
-//	$assign_to_config['site_404'] = '';
-//	$assign_to_config['global_vars'] = array(); // This array must be associative
-
-/**
- * If you are running the Multiple Site Manager, uncomment and assign the following variables 
- * See http://expressionengine.com/user_guide/cp/sites/domainsetup.html
- */
-//	$assign_to_config['site_name'] = '';
-//	$assign_to_config['cp_url'] = '';
-//	$assign_to_config['site_url'] = '';
-
-/*
- * --------------------------------------------------------------------
- *  END OF USER CONFIGURABLE SETTINGS.  DO NOT EDIT BELOW THIS LINE
- * --------------------------------------------------------------------
- */
-
-
-/*
- * ---------------------------------------------------------------
- *  Disable all routing, send everything to the frontend
- * ---------------------------------------------------------------
- */
-	$routing['directory'] = '';
-	$routing['controller'] = 'ee';
-	$routing['function'] = 'index';
-
-/*
- * --------------------------------------------------------------------
- *  Mandatory config overrides
- * --------------------------------------------------------------------
- */
-	$assign_to_config['enable_query_strings'] = TRUE;
-	$assign_to_config['subclass_prefix'] = 'EE_';
-
-/*
- * --------------------------------------------------------------------
- *  Resolve the system path for increased reliability
- * --------------------------------------------------------------------
- */
-
-	if (realpath($system_path) !== FALSE)
-	{
-		$system_path = realpath($system_path).'/';
-	}
-
-	// ensure there's a trailing slash
-	$system_path = rtrim($system_path, '/').'/';
-
-	// Is the sytsem path correct?
-	if ( ! is_dir($system_path))
-	{
-		exit("Your system folder path does not appear to be set correctly. Please open the following file and correct this: ".pathinfo(__FILE__, PATHINFO_BASENAME));
-	}
-
-/*
- * --------------------------------------------------------------------
- *  Now that we know the path, set the main constants
- * --------------------------------------------------------------------
- */	
-	// The name of THIS file
-	define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));
-
-	// The PHP file extension
-	define('EXT', '.php');
-
- 	// Path to the system folder
-	define('BASEPATH', str_replace("\\", "/", $system_path.'codeigniter/system/'));
+<body class="home" id="home">
+    
+    <?php /* <img id="logo" src="/i/logo.png" alt="Dan Mall" /> */ ?>
 	
-	// Path to the "application" folder
-	define('APPPATH', $system_path.'expressionengine/');
+	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 	
-	// Path to the front controller (this file)
-	define('FCPATH', str_replace(SELF, '', __FILE__));
+	<div class="content" class="easy-clearing">
+	    
+	    <section id="work" class="home-row">
+	        
+	        <div class="inner">
+		    
+		        <h1 class="stacked-heading">Featured Work</h1>
+		
+    			<ol class="no-marker">
+
+                    <li class="home-item position1">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/work/crayola/">
+                                    <img class="round-image" src="/-/i/home/crayola-thumb.jpg" alt="" />
+                                    <span class="home-item-name">Crayola</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Free the &ldquo;what if.&ldquo;</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/work/star-wars/">
+                                    <img class="round-image" src="/-/i/home/star-wars.jpg" alt="" />
+                                    <span class="home-item-name">Star Wars</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Creating a universe for a universe.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+                    <li class="home-item position3">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/work/activate/">
+                                    <img class="round-image" src="/-/i/home/activate2.jpg" alt="" />
+                                    <span class="home-item-name">Activate</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">A turn for the better.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+                    <li class="home-item position4">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/work/morsel/">
+                                    <img class="round-image" src="/-/i/home/morsel2.jpg" alt="" />
+                                    <span class="home-item-name">Morsel</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Your daily step toward better health.</p>
+                        </article><!-- .home-item-article -->
+                    </li>    				
+    			</ol>
+    			
+    			<p class="more"><a href="/work/">See all<b class="more-qualifier"> Featured Work</b></a></p>
+    			
+    		</div><!-- /.inner -->
+    		
 	
-	// Name of the "system folder"
-	define('SYSDIR', trim(strrchr(trim(BASEPATH, '/'), '/'), '/'));
+		</section><!-- /#work -->
+				
 
-	// The $debug value as a constant for global access
-	define('DEBUG', $debug);  unset($debug);
+		<section id="latest-articles" class="home-row">
+		    
+		    <div class="inner">
+		    
+    		    <h1 class="stacked-heading">Latest Articles</h1>
+	    
+    		    <ol class="no-marker">
 
-/*
- * --------------------------------------------------------------------
- *  Set the error reporting level
- * --------------------------------------------------------------------
- */	
-	if (DEBUG == 1)
-	{
-		error_reporting(E_ALL);
-		@ini_set('display_errors', 1);
-	}
-	else
-	{
-		error_reporting(0);	
-	}
+                    <li class="home-item position1">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/articles/progressive-enhancement/">
+                                    <img class="round-image" src="/articles/progressive-enhancement/home-thumb.png" alt="" />
+                                    <span class="home-item-name">Progressive Enhancement</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Still alive and kickin&rsquo;.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/articles/how-to-build-an-app/">
+                                    <img class="round-image" src="/articles/how-to-build-an-app/home-thumb.png" alt="" />
+                                    <span class="home-item-name">How to Build an App</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Creating an app in public. Maybe.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+                    <li class="home-item position3">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/articles/prequalifying-clients/">
+                                    <img class="round-image" src="/articles/prequalifying-clients/home-thumb.jpg" alt="" />
+                                    <span class="home-item-name">Prequalifying Clients</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Questions, answers, and hidden answers.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+                    <li class="home-item position4">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/articles/svg-workflow-for-designers/">
+                                    <img class="round-image" src="/articles/svg-workflow-for-designers/home-thumb.png" alt="" />
+                                    <span class="home-item-name">SVG Workflow for Designers</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Create quick vector assets with really small file sizes.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+                    <?php /* ?>
+                    <li class="home-item position3">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/articles/ideas-of-march-2013/">
+                                    <img class="round-image" src="/articles/ideas-of-march-2013/home-thumb.png" alt="" />
+                                    <span class="home-item-name">The Ideas of March</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">The lack of blogging about the lack of blogging.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+                    <li class="home-item position4">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/articles/value-pricing/">
+                                    <img class="round-image" src="/articles/value-pricing/home-thumb.jpg" alt="" />
+                                    <span class="home-item-name">Value Pricing</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Prepping for the next episode of The Businessology Show.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+                    <?php */ ?>                    		    				
+    			</ol>
+    			
+    			<p class="more"><a href="/articles/">See all<b class="more-qualifier"> Latest Articles</b></a></p>
+        		
+    		</div><!-- /.inner -->
+		
+		</section><!-- /#latest-articles -->
+		
+		
+		<?php /* ?><section id="links" class="home-row">
+		    
+		    <div class="inner">
+		    
+    		    <h1 class="phark">Links</h1>
+	    
+    		    {exp:channel:entries channel="articles" limit="4" show_future_entries="yes" orderby="date" sort="desc"}
 
-/*
- * --------------------------------------------------------------------
- *  Is the request a URL redirect redirect?
- * --------------------------------------------------------------------
- *
- * All external links that appear in the ExpressionEngine control panel
- * are redirected to this index.php file first, before being sent to the
- * final destination, so that the location of the control panel will not 
- * end up in the referrer logs of other sites.
- *
- */	
-	if (isset($_GET['URL'])) 
-	{ 
-		if ( ! file_exists(APPPATH.'libraries/Redirect'.EXT))
-		{
-			exit('Some components appear to be missing from your ExpressionEngine installation.');	
-		}
-		require(APPPATH.'libraries/Redirect'.EXT);
+                		{if count == 1}<ol class="articles no-marker easy-clearing">{/if}
+                        
+                            {if article-format == "Link"}
+                	        <li>
+                    	        <article>                  	            
+                    	            {article-excerpt}
+                    	            <p class="meta permalink"><a href="{title_permalink="articles/article"}"><time datetime="{entry_date format="%Y-%m-%d"}">{entry_date format="%M %d %Y"}</time></a></p>
 
-		exit();  // We halt system execution since we're done
-	}
+                    	        </article>
+                    	    </li>
+                    	    {/if}
+                	    
+                	    {if count == total_results}</ol>{/if}
 
-/*
- *---------------------------------------------------------------
- * LOAD THE BOOTSTRAP FILE
- *---------------------------------------------------------------
- *
- * And away we go...
- *
- */
-	require_once BASEPATH.'core/CodeIgniter'.EXT;
+        		{/exp:channel:entries}
+        		
+        		<p class="more"><a href="#">See all</a></p>
+			
+			</div><!-- /.inner -->
+		
+		</section><!-- /#links --><?php */ ?>
+		
+		<section id="dribbble" class="home-row">
+			
+			<div class="inner">
+				
+				<h1 class="stacked-heading">From Dribbble</h1>
+				
+				<ol class="no-marker">
+			
+					<?php
+				
+						/*
+							http://martinbean.github.com/dribbble-php/ 
+							https://github.com/martinbean/dribbble-php
+						*/
+					
+						//require 'php/dribbble.php';
+						require($_SERVER["DOCUMENT_ROOT"]."/php/dribbble.php");
 
-/* End of file index.php */
-/* Location: ./index.php */
+						$dribbble = new Dribbble();
+
+						try {
+						    $my_shots = $dribbble->get_player_shots('danielmall');
+							$i = 1;
+
+                            foreach ($my_shots->shots as $shot) {
+                                if($i <= 4){
+                                    if($i > 1){
+                                        echo "\n\t\t\t\t\t";    
+                                    }
+                                    echo '<li class="home-item position' . $i . '">';
+                                        echo "\n\t\t\t\t\t\t";
+                                        echo '<h2 class="home-item-headline">';
+                                        echo "\n\t\t\t\t\t\t\t";
+                                            echo '<a href="' . $shot->url . '">';
+                                            echo "\n\t\t\t\t\t\t\t\t";
+                                                echo '<img class="round-image offscreen" src="' . $shot->image_url . '" alt="" />';
+                                                echo "\n\t\t\t\t\t\t\t\t\t";
+                                                    echo '<b class="home-item-dribbble" style="background-image: url(' . $shot->image_url  . ');"></b>';
+                                                    echo "\n\t\t\t\t\t\t\t\t\t\t";
+                                                        echo '<span class="home-item-name">' . $shot->title . '</span>';
+                                                        echo "\n\t\t\t\t\t\t\t";
+                                            echo '</a>';
+                                            echo "\n\t\t\t\t\t\t";
+                                        echo '</h2>';
+                                        echo "\n\t\t\t\t\t";
+                                    echo '</li>';
+                                    echo "\n";
+                                    $i++;
+                                }else{
+                                    break;
+                                }
+                            }
+						}
+						catch (DribbbleException $e) {
+						    echo 'Error: ' . $e->getMessage();
+						}
+					
+					?>
+				</ol>
+				
+				<p class="more"><a href="http://dribbble.com/danielmall">See all<b class="more-qualifier"> from Dribbble</b></a></p>
+			
+			</div><!-- .inner -->
+			
+		</section><!-- #dribbble -->
+    <?php /* ?>
+    <script>document.write('<section id="tweet" class="home-row"><div class="inner"><h1 class="phark">Latest Tweets</h1><div id="tweets">');</script>
+		<script>      
+			Chirp({
+				user:'danielmall', 
+				max:3,
+				retweets: false,
+				replies: false,
+				templates: {
+					base: '<ul>{{tweets}}</ul>',
+					tweet: '<li><div class="animation-clip-container"><article><p>{{html}}</p><p class="meta"><a href="http://twitter.com/danielmall/statuses/{{id_str}}/"><time>{{time_ago}}</time></a></p></article></div></li>'
+				}
+			});
+		</script>
+    <script>document.write('</div><p class="more">from <a href="http://twitter.com/danielmall">@danielmall</a></p></div></section>');</script>
+		
+		        
+		    </div>
+		</section><!-- #tweet -->
+			<?php */ ?>
+		
+	</div><!-- /#content -->
+	
+	
+	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/footer.php"); echo "\n"; ?>
+    
+	
+<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/close.php"); echo "\n"; ?>

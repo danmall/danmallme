@@ -1,0 +1,75 @@
+/*-------------------------------------------    
+    Articles
+-------------------------------------------*/
+
+/*#article-landing hgroup h1 { background-image: url(/-/i/articles-headline.gif); width: 238px; height: 47px; margin: 20px 0 0.25em 40px; }*/
+.article-heading { /*margin: 20px 0 0 40px;*/ margin: 0; font: 60px/1 $fontStack; color: $blackSubstitute; 
+    @media screen and (min-width: $originalLayout){
+        padding-left: 20px;
+    }
+}
+.article-subheading { color: #bdbbbc; font-size: 21px; font-size: 16px; /*margin: 0 0 1em 40px;*/ font-weight: normal; margin: 0 0 1em; 
+    @media screen and (min-width: $originalLayout){
+        padding-left: 20px;
+    }
+} 
+
+#article-landing .main { 
+    @media screen and (min-width: $originalLayout){
+        float: right; min-height: 300px; 
+    }
+}
+
+#article-landing .sub { 
+    @media screen and (min-width: $originalLayout){
+        padding-top: 24px; width: 200px; 
+    }
+}
+
+
+    #article-landing .sub h1 { background-image: url(/-/i/displaying.gif); width: 85px; height: 15px; }
+    #article-landing .sub li { border-bottom: 1px solid #ddd; }
+        #article-landing .sub li a, #article-landing .sub li mark { display: block; border: none; padding: 0.3em 7px; }
+
+#comments-wrap, #article-meta header { 
+    @media screen and (min-width: $originalLayout){ 
+        width: 800px; margin: 0 auto;
+    }
+}
+
+#article-meta { background: #231f20; }
+    #article-meta header { text-transform: uppercase; letter-spacing: 0.1em; padding: 0.5em 0; }
+        #article-meta h1 { color: #fff; font-size: 15px; float: left; margin: 0; }
+        #article-meta p { color: #fff; float: right; margin: 0; font: 11px 'Trebuchet MS', Arial, sans-serif; position: relative; top: 0.2em; min-width: 153px; }
+        #article-meta a { color: #fff; border-color: #fff; }
+        
+#article-area-wrap { border-bottom: 35px solid #231f20; padding-bottom: 30px; }
+
+
+#article .main { 
+    @media screen and (min-width: $originalLayout){ 
+        width: 608px; border: none; border-right: 1px solid #231f20; padding: 2em 15px 50px 0; 
+    }
+}
+#article-link-format { 
+    @media screen and (min-width: $originalLayout){
+        width: 800px; margin: 3em auto; 
+    }
+}
+
+#article .sub { 
+    @media screen and (min-width: $originalLayout){ 
+        width: 153px; padding: 20px 0 0 20px; 
+    }
+} 
+
+    #article .sub section { margin: 0 0 3em; }
+    
+        .article-info {
+            h2 { font-size: 16px; text-transform: uppercase; }
+            time { font-size: 12px; }
+        }
+        
+        #article-tags li { background: transparent url(/-/i/tags-bullet.gif) no-repeat 0 center; padding-left: 12px; }
+            #article-tags a { font-style: italic; color: #686868; border: none; }
+            #article-tags a:hover, #article-tags a:focus { color: #f77000; }
