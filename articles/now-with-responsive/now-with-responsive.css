@@ -1,4 +1,4 @@
-#article-area-wrap { background: #fdfdfd; font: 18px/1.5 Georgia, 'Times New Roman', serif; padding: 100px 0 3em; }
+#article-area-wrap { background: #fdfdfd; font: 18px/1.5 'Sentinel SSm A', 'Sentinel SSm B'; padding: 100px 0 3em; }
 
 #now-with-responsive { margin: 0 auto; width: 95%; max-width: 800px; }      
 
@@ -63,11 +63,12 @@
 	#now-with-responsive .subheading { text-align: center; font: bold 30px Helvetica, Arial, sans-serif; margin: 2em 0 1em; }
 
 	#now-with-responsive .stats-table-wrapper { width: 100%; margin: 0 auto; max-width: 800px; overflow-x: scroll; }
-		#now-with-responsive .stats-table { margin: 0 0 1.5em; font-size: 18px; min-width: 800px; }
-			#now-with-responsive .stats-table thead th { color: #fff; background: #363636; text-transform: uppercase; letter-spacing: 0.1em; font: bold 14px Helvetica, Arial, sans-serif; padding: 1em 5px; }
+		#now-with-responsive .stats-table { margin: 0 0 1.5em; font-size: 18px; min-width: 600px; width: 100%; }
+			#now-with-responsive .stats-table thead th { color: #fff; background: #363636; text-transform: uppercase; letter-spacing: 0.1em; font: normal 14px 'Champion Middlewt A', 'Champion Middlewt B'; padding: 1em 5px; }
 			#now-with-responsive .stats-table tbody tr:nth-child(even) th, #now-with-responsive .stats-table tbody tr:nth-child(even) td { background: #f3f3f3; }
 				#now-with-responsive .stats-table tbody th, #now-with-responsive .stats-table tbody td { text-align: center; padding: 0.5em 5px; border-bottom: 1px solid #dadada; }
-				#now-with-responsive .stats-table tbody th { text-align: left; }
+				#now-with-responsive .stats-table tbody th { text-align: left; font-weight: 400; font-family: 'Champion Middlewt A', 'Champion Middlewt B'; font-family: 'Champion Heavywt A', 'Champion Heavywt B'; font-size: 14px; text-transform: uppercase; letter-spacing: 0.1em; }
+				#now-with-responsive .stats-table tbody th.stats-table-child-page { text-transform: none; letter-spacing: 0; padding-left: 30px; }
 		
 		
 #now-with-responsive ::selection { background: #464646; color: #fdfdfd; }
