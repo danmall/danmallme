@@ -1,5 +1,5 @@
 <!-- Mint -->
-    <script src="http://stats.danielmall.com/?js"></script>
+    <script src="http://stats.danielmall.com/mint/?js"></script>
 
     <!-- Typekit -->
     <script src="http://use.typekit.com/byv8xvy.js"></script>
