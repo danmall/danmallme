@@ -1,13 +1,29 @@
-#article-area-wrap { background: #fdfdfd; font: 18px/1.5 Georgia, 'Times New Roman', serif; padding: 50px 0 3em; }
+#article-area-wrap { background: #fdfdfd; font: 18px/1.5 Georgia, 'Times New Roman', serif; padding: 100px 0 3em; }
 
 #now-with-responsive { margin: 0 auto; width: 95%; max-width: 800px; }      
 
-	#now-with-responsive p, #now-with-responsive ul, #now-with-responsive ol { font-size: 22px; color: #464646; }
+	#now-with-responsive .cg { font-weight: 400; font-style: normal; }
+	#now-with-responsive .cg-bantamwt { font-family: 'Champion Bantamwt A', 'Champion Bantamwt B'; }
+	#now-with-responsive .cg-featherwt { font-family: 'Champion Featherwt A', 'Champion Featherwt B'; }
+	#now-with-responsive .cg-lightwt { font-family: 'Champion Lightwt A', 'Champion Lightwt B'; }
+	#now-with-responsive .cg-welterwt { font-family: 'Champion Welterwt A', 'Champion Welterwt B'; }
+	#now-with-responsive .cg-middlewt { font-family: 'Champion Middlewt A', 'Champion Middlewt B'; }
+	#now-with-responsive .cg-heavywt { font-family: 'Champion Heavywt A', 'Champion Heavywt B'; }
+
+	#now-with-responsive p, #now-with-responsive ul, #now-with-responsive ol { font-size: 18px; color: #464646; font-family: 'Sentinel SSm A', 'Sentinel SSm B'; font-weight: 400; font-style: normal; }
+		@media screen and (min-width: 800px){
+			#now-with-responsive p, #now-with-responsive ul, #now-with-responsive ol { font-size: 22px; }
+		}
 	#now-with-responsive a { background: #fedd88; color: #464646; border: none; padding: 2px 6px; }
 	#now-with-responsive a:hover, #now-with-responsive a:focus { background: #464646; color: #fedd88; }
 
-	#now-with-responsive .article-title { text-align: center; font: bold 12px Helvetica, Arial, sans-serif; margin: 0 0 2em; text-transform: uppercase; letter-spacing: 0.1em; }
-		#now-with-responsive .article-title-pizzazz { color: #ecab00; display: block; font-size: 44px; }
+	#now-with-responsive .article-title { text-align: center; font: bold 30px Helvetica, Arial, sans-serif; margin: 0 0 2em; text-transform: uppercase; letter-spacing: 0.1em; border-top: 1px solid rgba(0, 0, 0, 0.5); border-bottom: 1px solid rgba(0, 0, 0, 0.5); padding: 0 0 1em; }
+		
+		#now-with-responsive .article-title-start { background-color: #fdfdfd; position: relative; top: -0.5em; display: inline-block; padding: 0 1em; }
+		#now-with-responsive .article-title-start:before { content:''; display: block; width: 0; height: 0; border-top: 6px solid transparent; border-bottom: 6px solid transparent; border-left: 6px solid black; position: absolute; top: 0.27em; left: 0; }
+		#now-with-responsive .article-title-start:after { content:''; display: block; width: 0; height: 0; border-top: 6px solid transparent; border-bottom: 6px solid transparent; border-right: 6px solid black; position: absolute; top: 0.27em; right: 0; }
+
+		#now-with-responsive .article-title-pizzazz { color: #ecab00; display: block; font-size: 26px; font-family: 'Champion Heavywt A', 'Champion Heavywt B'; }
 
 	#now-with-responsive .subheading { text-align: center; font: bold 30px Helvetica, Arial, sans-serif; margin: 2em 0 1em; }
 

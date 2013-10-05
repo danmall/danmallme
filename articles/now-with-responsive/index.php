@@ -7,6 +7,7 @@
     
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>  	
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/83278/738882/css/fonts.css" />
     <link rel="stylesheet" href="now-with-responsive.css" />
     
     <!-- Facebook -->
@@ -26,7 +27,10 @@
 	    
 	    <section id="now-with-responsive" class="clearfix">
 			
-			<h1 class="article-title">Now with<span class="connector offscreen"> </span><strong class="article-title-pizzazz">Responsive!</strong></h1>
+			<h1 class="article-title">
+                <span class="article-title-start cg cg-bantamwt">Now with</span><span class="connector offscreen"> </span>
+                <strong class="article-title-pizzazz">Responsive!</strong>
+            </h1>
 
             <p>When I <a href="/articles/five/">launched this version of my site</a>, lots of people and organizations had already realized the value of <a href="http://alistapart.com/article/responsive-web-design">responsive web design</a>. Today, that number is exponentially greater. As someone lucky enough to get flown around the world to talk about and teach it, it&rsquo;s pretty embarrassing that my own site wasn&rsquo;t responsive. Until today.</p>
 
