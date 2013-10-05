@@ -1,3 +1,17 @@
+<?php
+
+    function assignTypeface(){
+
+        $typefaces = array('cg-bantamwt','cg-feathermwt','cg-lightwt','cg-welterwt','cg-middlewt','cg-heavywt');
+
+        $typefacesIndex = rand(0, count($typefaces)-1);
+
+        echo $typefaces[$typefacesIndex] . ' color' . rand(1, 6) . ' jitter jitter' . rand(1, 20);
+
+    }
+
+
+?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head profile="http://gmpg.org/xfn/11">
@@ -28,9 +42,11 @@
 	    <section id="now-with-responsive" class="clearfix">
 			
 			<h1 class="article-title">
-                <span class="article-title-start cg cg-bantamwt">Now with</span><span class="connector offscreen"> </span>
-                <strong class="article-title-pizzazz">Responsive!</strong>
-            </h1>
+                <span class="article-title-start">Now with</span><span class="connector offscreen"> </span>
+                <strong class="article-title-pizzazz">
+                    <span class="cg <?php assignTypeface(); ?>">R</span><span class="cg <?php assignTypeface(); ?>">e</span><span class="cg <?php assignTypeface(); ?>">s</span><span class="cg <?php assignTypeface(); ?>">p</span><span class="cg <?php assignTypeface(); ?>">o</span><span class="cg <?php assignTypeface(); ?>">n</span><span class="cg <?php assignTypeface(); ?>">s</span><span class="cg <?php assignTypeface(); ?>">i</span><span class="cg <?php assignTypeface(); ?>">v</span><span class="cg <?php assignTypeface(); ?>">e</span><span class="cg <?php assignTypeface(); ?>">!</span>
+                </strong> 
+            </h1><!-- .article-title -->    
 
             <p>When I <a href="/articles/five/">launched this version of my site</a>, lots of people and organizations had already realized the value of <a href="http://alistapart.com/article/responsive-web-design">responsive web design</a>. Today, that number is exponentially greater. As someone lucky enough to get flown around the world to talk about and teach it, it&rsquo;s pretty embarrassing that my own site wasn&rsquo;t responsive. Until today.</p>
 
