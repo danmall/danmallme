@@ -1,0 +1,19 @@
+#article-area-wrap { background: #aa3114; }
+
+#netflix { margin: 0 auto; padding-top: 76px; }
+    #netflix h1 { color: #fff; font: bold 36px Helvetica, Arial, sans-serif; text-align: center; margin: 0 10px 1em; }
+    #netflix p { color: #fff; font-family: Arial, sans-serif; font-size: 15px; font-weight: normal; }
+    #netflix img { margin-bottom: 30px; }
+    #netflix a { color: #fff; border-bottom: 1px solid rgba(255, 255, 255, 0.3); padding: 0 0.25em; }
+    #netflix a:hover, #netflix a:focus { border-bottom: 1px solid rgba(255, 255, 255, 1); color: #aa3114; background: #fff; }
+    #netflix em { color: #fffc00; font-style: normal; }
+    
+#netflix::selection { background: #fff; color: #aa3114; }
+#netflix::-moz-selection { background: #fff; color: #aa3114; }
+
+@media screen and (min-width: 800px){
+	#netflix { width: 595px; }
+		#netflix h1 { text-indent: -9999px; background: transparent url(title.png) no-repeat 0 0; width: 595px; height: 100px; margin-bottom: 50px; }
+}
+    
+

@@ -1,0 +1,39 @@
+#article-area-wrap { background: #fdfdfd; font: 18px/1.5 Georgia, 'Times New Roman', serif; padding: 0 0 3em; }
+
+#progressive-enhancement { }
+
+    #progressive-enhancement h1 { font: bold 26px Helvetica, Arial, sans-serif; color: #dadada; letter-spacing: -1px; margin: 0 0 1em; }
+    #progressive-enhancement p, #progressive-enhancement li { font-size: 18px; color: #464646; }        
+    #progressive-enhancement ol, #progressive-enhancement ul { margin-left: 30px; }
+    #progressive-enhancement a { color: #3c3; border: none; }
+    #progressive-enhancement a:hover, #progressive-enhancement a:focus { background: #fdfdfd; color: #000; }
+
+     #progressive-enhancement img { float: none; margin: 0 0 10px; }
+
+
+		#progressive-enhancement .inner { margin: 0 auto; width: 95%; padding: 2em 0; }
+
+	#progressive-enhancement .article-title { font-size: 40px; margin: 0 0 0.5em; }
+
+	#progressive-enhancement .intro { background: #222; padding-top: 50px; }
+	#progressive-enhancement .trolling { background: #2f2f2f; }
+	#progressive-enhancement .accountability { background: #454545; }
+		#progressive-enhancement .accountability strong { color: #dadada; }
+	#progressive-enhancement .intro p, #progressive-enhancement .trolling p, #progressive-enhancement .accountability p { color: #a2a2a2; }
+
+	#progressive-enhancement .better-ways { background: #686868; }				
+		#progressive-enhancement .better-ways p { color: #333; }		
+	#progressive-enhancement .even-better-ways { background: #b1b1b1; }
+		#progressive-enhancement .even-better-ways h1 { color: #575757; }		
+		#progressive-enhancement .even-better-ways a, #progressive-enhancement .case-study a { color: #1d751d }
+	#progressive-enhancement .case-study { background: #d1d1d1; }
+		#progressive-enhancement .case-study h1 { color: #4b4b4b; }		
+		
+		
+#progressive-enhancement ::selection { background: #49c8c8; color: #fff; }
+#progressive-enhancement ::-moz-selection { background: #49c8c8; color: #fff; }
+
+@media screen and (min-width: 800px){
+	#progressive-enhancement .inner { width: 750px; }
+	#progressive-enhancement .article-title { font-size: 60px; }
+}

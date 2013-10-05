@@ -1,0 +1,19 @@
+#article-area-wrap { background: #292829; }
+
+#value-pricing { margin: 0 auto; /*width: 642px;*/ padding: 100px 0; }
+	#value-pricing p, #value-pricing li { color: #f0f0f0; color: #c8c8c8;  font-size: 18px; line-height: 1.7; }
+
+	#value-pricing h1 { text-align: center; color: #fff; font: 68px normal 'Times New Roman', serif; font-style: italic; margin: 0 0 1em; }
+	
+	#value-pricing a { color: #c8c8c8; border-bottom: 1px dotted rgba(255, 255, 255, 0.5); }
+	#value-pricing a:hover, #value-pricing a:focus { background: rgba(255, 255, 255, 0.2); border-bottom-style: solid; }
+
+	#value-pricing ul { margin-left: 30px; }
+		
+#value-pricing ::selection { background: #292829; color: #fff; }
+#value-pricing ::-moz-selection { background: #292829; color: #fff; }
+
+@media screen and (min-width: 800px){
+	#value-pricing { width: 642px; }	
+	#value-pricing ul { margin-left: 0; }
+}
