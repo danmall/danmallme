@@ -488,9 +488,28 @@
                 </table><!-- stats-table -->
             </div><!-- .stats-table-wrapper -->
 
-            <p>Another interesting discovery: while the amount of requests stays the same&mdash;which makes sense since I&rsquo;m swapping one <abbr title="Portable Network Graphics">PNG</abbr> for one <abbr>SVG</abbr>&mdash;just about every page saw a small increase in page weight and load time.</p>
 
-            <p>I guess that&rsquo;s the price of resolution independence.</p>
+
+            <!-- ===== #more ====== -->
+
+            <h2 id="more" class="subheading cg cg-middlewt">More to come</h2>
+
+            <p>When I started, I ran the original site through <a href="http://www.webpagetest.org/">WebPagetest</a>.</p>
+
+            <figure class="figure-image">
+                <img src="wpt-before.png" alt="WebPagetest results before making any optimizations" />
+            </figure><!-- .figure-image -->
+
+            <p>Here are the results after the optimizations.</p>
+
+            <figure class="figure-image">
+                <img src="wpt-after.png" alt="WebPagetest results after optimizations" />
+            </figure><!-- .figure-image -->
+
+            <p>That&rsquo;s right: they&rsquo;re identical. (I swear they&rsquo;re not the same image.) What does that mean? It means there&rsquo;s more work to do. There&rsquo;s always more work to do. However, I feel much more confident that my site is in a better place to be able to improve it. The foundation is there now.</p>
+
+            <p>I&rsquo;ll be working on a part 2 to this post where I&rsquo;ll attempt all things I know nothing about: caching, GZIPping, and getting a CDN set up. Stay tuned!</p>
+
             
 	    
 	    </section><!-- #now-with-responsive -->	    

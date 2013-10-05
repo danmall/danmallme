@@ -101,6 +101,9 @@
 			#now-with-responsive .pullquote:before { right: 0; left: auto; }
 				#now-with-responsive .pullquote p { font-size: 18px; line-height: 1.8; font-style: italic; }
 				#now-with-responsive p.pullquote-citation { font-size: 14px; }
+
+	#now-with-responsive .figure-image { margin: 0 0 1.5em; }
+		#now-with-responsive .figure-image img { float: none; margin: 0 auto; }
 		
 		
 #now-with-responsive ::selection { background: #464646; color: #fdfdfd; }
