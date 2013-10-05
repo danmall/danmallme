@@ -29,20 +29,6 @@
             <h1 class="logo"><a class="phark phark-link logo-link" href="/">Daniel Mall</a></h1>
             <?php } ?>
 
-            <script>
-            document.write(
-            '<div class="menu-link">' +
-                '<a class="hamburger" href="#main-nav">' +
-                    '<b class="phark hamburger-ingredient bread bread-top"></b>' +
-                    '<b class="phark hamburger-ingredient cheese"></b>' +
-                    '<b class="phark hamburger-ingredient meat"></b><!-- sorry, vegetarians -->' +
-                    '<b class="phark hamburger-ingredient lettuce"></b><!-- you\'re welcome, vegetarians -->' +
-                    '<b class="phark hamburger-ingredient bread bread-bottom"></b>' +
-                '</a>' +
-            '</div><!-- .menu-link -->'
-            );
-            </script>
-
         	<nav id="main-nav" class="main-nav">
             	<ul class="no-marker">
             	    <?php if(strstr($_SERVER['REQUEST_URI'], '/work/')) { ?>

@@ -286,6 +286,16 @@ $(document).ready(function(){
 
         hamburgerNav: function(){
 
+            $('#main-nav').before('<div class="menu-link">' +
+                '<a class="hamburger" href="#main-nav">' +
+                    '<b class="phark hamburger-ingredient bread bread-top"></b>' +
+                    '<b class="phark hamburger-ingredient cheese"></b>' +
+                    '<b class="phark hamburger-ingredient meat"></b><!-- sorry, vegetarians -->' +
+                    '<b class="phark hamburger-ingredient lettuce"></b><!-- you\'re welcome, vegetarians -->' +
+                    '<b class="phark hamburger-ingredient bread bread-bottom"></b>' +
+                '</a>' +
+            '</div>');
+
             $('#masthead-wrap').removeClass('masthead-wrap-active');
 
             $('.hamburger').click(function(){
