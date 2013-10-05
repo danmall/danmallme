@@ -84,6 +84,8 @@
 		#now-with-responsive .icon-arrow-up, .icon-arrow-down { font-size: 12px; }	
 		#now-with-responsive .icon-arrow-up { color: red; }
 		#now-with-responsive .icon-arrow-down { color: green; }
+
+	#now-with-responsive .pullquote p { font-style: italic; font-size: 20px; line-height: 1.6; }
 		
 		
 #now-with-responsive ::selection { background: #464646; color: #fdfdfd; }

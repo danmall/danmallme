@@ -58,7 +58,7 @@
             <p>Here&rsquo;s what I found.</p>
 
 
-
+            <!-- ===== #pre-optimization ====== -->
 
             <h2 id="pre-optimization" class="subheading cg cg-middlewt">Pre-Optimization</h2>
 
@@ -125,7 +125,7 @@
             <p>Not a bad starting point. Last I saw, the average page weight was about 1<abbr title="Megabyte">MB</abbr>, so I consider starting under that threshold pretty good.</p>
 
 
-
+            <!-- ===== #css-to-sass ====== -->
 
             <h2 id="css-to-sass" class="subheading cg cg-middlewt"><abbr>CSS</abbr> to Sass</h2>
 
@@ -195,6 +195,7 @@
 
 
 
+            <!-- ===== #jsunk-in-the-trunk ====== -->
 
             <h2 id="jsunk-in-the-trunk" class="subheading cg cg-middlewt">J(S)unk in the trunk</h2>
 
@@ -261,6 +262,7 @@
             <p>(I wish I could explain some of these numbers, but I just don&rsquo;t get the inspector well enough. If anyone can point me in the right direction, I&rsquo;d be oh so grateful.)</p>
 
 
+            <!-- ===== #webfonts ====== -->
 
             <h2 id="webfonts" class="subheading cg cg-middlewt">Converting wholly to webfonts</h2>
 
@@ -331,6 +333,149 @@
             <p>Interesting! Here&rsquo;s where I&rsquo;m starting to make some big gains. I&rsquo;m saving an average of 10 <abbr >HTTP</abbr> requests per page. In the case of the <a href="/about/">About</a> page, I was able to splice out a pretty large image of my photo that included a headline, which saved me 165<abbr>KB</abbr>.</p>
 
             <p>However, there&rsquo;s a pretty noticeable 0.2<abbr>s</abbr> addition to load time on the first page, which I&rsquo;m assuming is the first time the webfonts are downloaded. That said, I&rsquo;m also averaging a 0.2<abbr>s</abbr> savings on load time across the other pages, so I think it&rsquo;s still worth it to use webfonts</p.>
+
+
+            <!-- ===== #svg-logo ====== -->
+
+            <h2 id="svg-logo" class="subheading cg cg-middlewt"><abbr>SVG</abbr> Logo</h2>
+
+            <p>I also wanted to move towards <a href="http://coding.smashingmagazine.com/2012/01/16/resolution-independence-with-svg/">resolution independent graphics</a>, so I replaced the logo with an <abbr>SVG</abbr> version.</p>
+
+            <div class="stats-table-wrapper">
+                <table class="stats-table">
+                    <caption class="stats-table offscreen">Statistics for DanielMall.com after converting wholly to webfonts</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col" id="col-page">Page</th>
+                            <th scope="col" id="col-requests"><abbr title="HyperText Transfer Protocol">HTTP</abbr> Requests</th>
+                            <th scope="col" id="col-page-weight">Page Weight</th>
+                            <th scope="col" id="col-load-time">Load Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" id="row-home" headers="col-page">Home</th>
+                            <td headers="row-home col-requests">36 (no change)</td>
+                            <td headers="row-home col-page-weight">833.2<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.9<abbr>KB</abbr></b>)</td>
+                            <td headers="row-home col-load-time">1.48<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.01<abbr>s</abbr></b>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-work" headers="col-page">Work</th>
+                            <td headers="row-work col-requests">85 (no change)</td>
+                            <td headers="row-work col-page-weight">715.5<abbr>KB</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>10.7<abbr>KB</abbr></b>)</td>
+                            <td headers="row-work col-load-time">1.54<abbr>s</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>0.66<abbr>s</abbr></b>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-speaking" headers="col-page" class="stats-table-child-page">Speaking</th>
+                            <td headers="row-speaking col-requests">54 (no change)</td>
+                            <td headers="row-speaking col-page-weight">1.8<abbr>MB</abbr> (no change)</td>
+                            <td headers="row-speaking col-load-time">1.32<abbr>s</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>0.1<abbr>s</abbr></b>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-publications" headers="col-page" class="stats-table-child-page">Publications</th>
+                            <td headers="row-publications col-requests">35 (no change)</td>
+                            <td headers="row-publications col-page-weight">746.3<abbr>KB</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>10.7<abbr>KB</abbr></b>)</td>
+                            <td headers="row-publications col-load-time">0.925<abbr>s</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>0.004<abbr>s</abbr></b>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-articles" headers="col-page">Articles</th>
+                            <td headers="row-articles col-requests">32 (no change)</td>
+                            <td headers="row-articles col-page-weight">515.4<abbr>KB</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>10.7<abbr>KB</abbr></b>)</td>
+                            <td headers="row-articles col-load-time">1.04<abbr>s</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>0.04<abbr>s</abbr></b>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-about" headers="col-page">About</th>
+                            <td headers="row-about col-requests">40 (no change)</td>
+                            <td headers="row-about col-page-weight">597.9<abbr>KB</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>20<abbr>KB</abbr></b>)</td>
+                            <td headers="row-about col-load-time">1.07<abbr>s</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>0.18<abbr>s</abbr></b>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-contact" headers="col-page">Contact</th>
+                            <td headers="row-contact col-requests">32 (no change)</td>
+                            <td headers="row-contact col-page-weight">519.3<abbr>KB</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>15.3<abbr>KB</abbr></b>)</td>
+                            <td headers="row-contact col-load-time">0.895<abbr>s</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>0.032<abbr>s</abbr></b>)</td>
+                        </tr>
+                    </tbody>
+                </table><!-- stats-table -->
+            </div><!-- .stats-table-wrapper -->
+
+            <p>Another interesting discovery: while the amount of requests stays the same&mdash;which makes sense since I&rsquo;m swapping one <abbr title="Portable Network Graphics">PNG</abbr> for one <abbr>SVG</abbr>&mdash;just about every page saw a small increase in page weight and load time.</p>
+
+            <p>I guess that&rsquo;s the price of resolution independence.</p>
+
+
+
+            <!-- ===== #media-queries ====== -->
+
+            <h2 id="mobile-first-rwd" class="subheading cg cg-middlewt">Mobile first, responsive web design</h2>
+
+            <p>It&rsquo;s worth pointing out that everything I&rsquo;ve done so far has nothing to do with the literal components of a responsive site: fluid grids, flexible images, and media queries. However, getting all those previous things in place&mdash;Sass, non-blocking JavaScript, webfonts, <abbr>SVG</abbr>&mdash;provide a great foundation for a responsive site.</p>
+
+            <blockquote class="pullquote">
+                <p>That&rsquo;s the thing about responsive web design: you can&rsquo;t just think of it as a sprinkle of pixie dust that can be applied to any site. It requires the right mindset. It requires that sites be built on solid foundations of best practice. If those foundations are in place&mdash;a flexible layout, flexible images, optimised performance&mdash;then responsive web design can work its magic.</p>
+            </blockquote>
+
+            <div class="stats-table-wrapper">
+                <table class="stats-table">
+                    <caption class="stats-table offscreen">Statistics for DanielMall.com after converting wholly to webfonts</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col" id="col-page">Page</th>
+                            <th scope="col" id="col-requests"><abbr title="HyperText Transfer Protocol">HTTP</abbr> Requests</th>
+                            <th scope="col" id="col-page-weight">Page Weight</th>
+                            <th scope="col" id="col-load-time">Load Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" id="row-home" headers="col-page">Home</th>
+                            <td headers="row-home col-requests">36 (no change)</td>
+                            <td headers="row-home col-page-weight">833.2<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.9<abbr>KB</abbr></b>)</td>
+                            <td headers="row-home col-load-time">1.48<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.01<abbr>s</abbr></b>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-work" headers="col-page">Work</th>
+                            <td headers="row-work col-requests">85 (no change)</td>
+                            <td headers="row-work col-page-weight">715.5<abbr>KB</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>10.7<abbr>KB</abbr></b>)</td>
+                            <td headers="row-work col-load-time">1.54<abbr>s</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>0.66<abbr>s</abbr></b>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-speaking" headers="col-page" class="stats-table-child-page">Speaking</th>
+                            <td headers="row-speaking col-requests">54 (no change)</td>
+                            <td headers="row-speaking col-page-weight">1.8<abbr>MB</abbr> (no change)</td>
+                            <td headers="row-speaking col-load-time">1.32<abbr>s</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>0.1<abbr>s</abbr></b>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-publications" headers="col-page" class="stats-table-child-page">Publications</th>
+                            <td headers="row-publications col-requests">35 (no change)</td>
+                            <td headers="row-publications col-page-weight">746.3<abbr>KB</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>10.7<abbr>KB</abbr></b>)</td>
+                            <td headers="row-publications col-load-time">0.925<abbr>s</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>0.004<abbr>s</abbr></b>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-articles" headers="col-page">Articles</th>
+                            <td headers="row-articles col-requests">32 (no change)</td>
+                            <td headers="row-articles col-page-weight">515.4<abbr>KB</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>10.7<abbr>KB</abbr></b>)</td>
+                            <td headers="row-articles col-load-time">1.04<abbr>s</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>0.04<abbr>s</abbr></b>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-about" headers="col-page">About</th>
+                            <td headers="row-about col-requests">40 (no change)</td>
+                            <td headers="row-about col-page-weight">597.9<abbr>KB</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>20<abbr>KB</abbr></b>)</td>
+                            <td headers="row-about col-load-time">1.07<abbr>s</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>0.18<abbr>s</abbr></b>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-contact" headers="col-page">Contact</th>
+                            <td headers="row-contact col-requests">32 (no change)</td>
+                            <td headers="row-contact col-page-weight">519.3<abbr>KB</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>15.3<abbr>KB</abbr></b>)</td>
+                            <td headers="row-contact col-load-time">0.895<abbr>s</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>0.032<abbr>s</abbr></b>)</td>
+                        </tr>
+                    </tbody>
+                </table><!-- stats-table -->
+            </div><!-- .stats-table-wrapper -->
+
+            <p>Another interesting discovery: while the amount of requests stays the same&mdash;which makes sense since I&rsquo;m swapping one <abbr title="Portable Network Graphics">PNG</abbr> for one <abbr>SVG</abbr>&mdash;just about every page saw a small increase in page weight and load time.</p>
+
+            <p>I guess that&rsquo;s the price of resolution independence.</p>
             
 	    
 	    </section><!-- #now-with-responsive -->	    
@@ -364,8 +509,8 @@
                     var disqus_shortname = 'danielmall'; // required: replace example with your forum shortname
 
                     // The following are highly recommended additional parameters. Remove the slashes in front to use.
-                    var disqus_identifier = 'how-to-build-an-app';
-                    var disqus_url = 'http://danielmall.com/articles/how-to-build-an-app/';
+                    var disqus_identifier = 'now-with-responsive';
+                    var disqus_url = 'http://danielmall.com/articles/now-with-responsive/';
                     var disqus_developer = 1;
 
                     /* * * DON'T EDIT BELOW THIS LINE * * */
