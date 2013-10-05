@@ -19,16 +19,16 @@
 
 		#now-with-responsive .article-title-pizzazz { color: #ecab00; display: block; font-size: 26px; font-family: 'Champion Heavywt A', 'Champion Heavywt B'; }
 
-		@media screen and (min-width: 800px){ 
-
-			#now-with-responsive .article-title-pizzazz { font-size: 100px; }
-
-			#now-with-responsive .cg-bantamwt { font-family: 'Champion Bantamwt A', 'Champion Bantamwt B'; }
+		#now-with-responsive .cg-bantamwt { font-family: 'Champion Bantamwt A', 'Champion Bantamwt B'; }
 			#now-with-responsive .cg-featherwt { font-family: 'Champion Featherwt A', 'Champion Featherwt B'; }
 			#now-with-responsive .cg-lightwt { font-family: 'Champion Lightwt A', 'Champion Lightwt B'; }
 			#now-with-responsive .cg-welterwt { font-family: 'Champion Welterwt A', 'Champion Welterwt B'; }
 			#now-with-responsive .cg-middlewt { font-family: 'Champion Middlewt A', 'Champion Middlewt B'; }
 			#now-with-responsive .cg-heavywt { font-family: 'Champion Heavywt A', 'Champion Heavywt B'; }
+
+		@media screen and (min-width: 800px){ 
+
+			#now-with-responsive .article-title-pizzazz { font-size: 100px; }
 
 			#now-with-responsive .color1 { color: #f0b724; }
 			#now-with-responsive .color2 { color: #c7971a; }
@@ -59,8 +59,14 @@
 			#now-with-responsive .jitter19 { top: 9px; }
 			#now-with-responsive .jitter20 { top: 10px; }
 		}
+		@media screen and (max-width: 799px){
+			#now-with-responsive .article-title-pizzazz span { font-family: 'Champion Heavywt A', 'Champion Heavywt B' !important; }		
+		}	
 
-	#now-with-responsive .subheading { text-align: center; font: bold 30px Helvetica, Arial, sans-serif; margin: 2em 0 1em; }
+	#now-with-responsive .subheading { text-align: center; font-size: 24px; margin: 2em 0 1em; }
+	@media screen and (min-width: 800px){
+		#now-with-responsive .subheading { font-size: 32px; }
+	}
 
 	#now-with-responsive .stats-table-wrapper { width: 100%; margin: 0 auto; max-width: 800px; overflow-x: scroll; }
 		#now-with-responsive .stats-table { margin: 0 0 1.5em; font-size: 18px; min-width: 600px; width: 100%; }

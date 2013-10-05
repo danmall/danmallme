@@ -56,7 +56,7 @@
 
             <p>Here&rsquo;s what I found.</p>
 
-            <h2 class="subheading">Pre-Optimization</h2>
+            <h2 class="subheading cg cg-middlewt">Pre-Optimization</h2>
 
             <p>I inventoried the major sections of my site before making any changes. I opened Firefox, fired up <a href="http://getfirebug.com/">Firebug</a>, and hopped over to the &ldquo;Net&rdquo; tab. I refreshed a few times and averaged the results. (I&rsquo;m sure there&rsquo;s a better way to do this, but I&rsquo;m just a noob.)</p>
 
@@ -119,6 +119,72 @@
             </div><!-- .stats-table-wrapper -->
 
             <p>Not a bad starting point. Last I saw, the average page weight was about 1<abbr title="Megabyte">MB</abbr>, so I consider starting under that threshold pretty good.</p>
+
+            <h2 class="subheading cg cg-middlewt"><abbr>CSS</abbr> to Sass</h2>
+
+            <p>The first thing I did was convert all my <abbr>CSS</abbr> to Sass (specifically <a href="http://thesassway.com/articles/sass-vs-scss-which-syntax-is-better"><abbr title="Sassy CSS">SCSS</abbr></a>). I&rsquo;ve been working a lot with preprocessors lately, mostly for variables, some light rule nesting, and nested media queries. I could have used something like <a href="http://css2sass.heroku.com/">css2sass</a>, but I really wanted to do it manually so that I could better understand what&rsquo;s happening.</p>
+
+            <p>Here&rsquo;s what happened when I did the conversion.</p>
+
+            <div class="stats-table-wrapper">
+                <table class="stats-table">
+                    <caption class="stats-table offscreen">Statistics for DanielMall.com before responsive optimization</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col" id="col-page">Page</th>
+                            <th scope="col" id="col-requests"><abbr title="HyperText Transfer Protocol">HTTP</abbr> Requests</th>
+                            <th scope="col" id="col-bandwidth">Bandwidth</th>
+                            <th scope="col" id="col-load-time">Load Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" id="row-home" headers="col-page">Home</th>
+                            <td headers="row-home col-requests">48 (<span class="down">2</span>)</td>
+                            <td headers="row-home col-bandwidth">854.1<abbr>KB</abbr> (<span class="down">17.4<abbr>KB</abbr></span>)</td>
+                            <td headers="row-home col-load-time">1.39<abbr>s</abbr> (<span class="down">0.9<abbr>s</abbr></span>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-work" headers="col-page">Work</th>
+                            <td headers="row-work col-requests">101 (<span class="down">2</span>)</td>
+                            <td headers="row-work col-bandwidth">726.8<abbr>KB</abbr> (<span class="up">28.1<abbr>KB</abbr></span>)</td>
+                            <td headers="row-work col-load-time">2.04<abbr>s</abbr> (<span class="down">.58<abbr>s</abbr></span>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-speaking" headers="col-page" class="stats-table-child-page">Speaking</th>
+                            <td headers="row-speaking col-requests">65 (<span class="down">2</span>)</td>
+                            <td headers="row-speaking col-bandwidth">1.8<abbr>MB</abbr> (no change)</td>
+                            <td headers="row-speaking col-load-time">1.55<abbr>s</abbr> (<span class="down">1.05<abbr>s</abbr></span>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-publications" headers="col-page" class="stats-table-child-page">Publications</th>
+                            <td headers="row-publications col-requests">44 (<span class="down">2</span>)</td>
+                            <td headers="row-publications col-bandwidth">754.9<abbr>KB</abbr> (<span class="down">15.5<abbr>KB</abbr></span>)</td>
+                            <td headers="row-publications col-load-time">1.1<abbr>s</abbr> (<span class="down">.69<abbr>s</abbr></span>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-articles" headers="col-page">Articles</th>
+                            <td headers="row-articles col-requests">40 (<span class="down">4</span>)</td>
+                            <td headers="row-articles col-bandwidth">518.7<abbr>KB</abbr> (<span class="down">10.3<abbr>KB</abbr></span>)</td>
+                            <td headers="row-articles col-load-time">1.22<abbr>s</abbr> (<span class="down">.42<abbr>s</abbr></span>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-about" headers="col-page">About</th>
+                            <td headers="row-about col-requests">46 (<span class="down">3</span>)</td>
+                            <td headers="row-about col-bandwidth">743.9<abbr>KB</abbr> (<span class="down">22.2<abbr>KB</abbr></span>)</td>
+                            <td headers="row-about col-load-time">1.64<abbr>s</abbr> (<span class="down">.36<abbr>s</abbr></span>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-contact" headers="col-page">Contact</th>
+                            <td headers="row-contact col-requests">42 (<span class="down">2</span>)</td>
+                            <td headers="row-contact col-bandwidth">527.4<abbr>KB</abbr> (<span class="down">18.6<abbr>KB</abbr></span>)</td>
+                            <td headers="row-contact col-load-time">0.975<abbr>s</abbr> (<span class="down">.635<abbr>s</abbr></span>)</td>
+                        </tr>
+                    </tbody>
+                </table><!-- stats-table -->
+            </div><!-- .stats-table-wrapper -->
+
+            <p>I wish I could explain some of these numbers, but I just don&rsquo;t get the inspector well enough. If anyone can point me in the right direction, I&rsquo;d be ever grateful.</p>
 
             
 	    
