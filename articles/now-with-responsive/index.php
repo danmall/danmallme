@@ -29,7 +29,7 @@
     <meta property="og:title" content="Now with Responsive!" />
     <meta property="og:description"content="Two years later, this site is finally responsive."/>	
     <meta property="og:url" content="http://danielmall.com/articles/now-with-responsive/" />
-    <meta property="og:image" content="http://danielmall.com/articles/now-with-responsive/how-to-build-an-app-fb.jpg" />
+    <meta property="og:image" content="http://danielmall.com/articles/now-with-responsive/now-with-responsive.png" />
     
     
 </head>
@@ -508,9 +508,9 @@
 
             <p>That&rsquo;s right: they&rsquo;re identical. (I swear they&rsquo;re not the same image.) What does that mean? It means there&rsquo;s more work to do. There&rsquo;s always more work to do. However, I feel much more confident that my site is in a better place to be able to improve it. The foundation is there now.</p>
 
-            <p>I&rsquo;ll be working on a part 2 to this post where I&rsquo;ll attempt all things I know nothing about: caching, GZIPping, and getting a CDN set up. Stay tuned!</p>
+            <p>On a related note, this is all an experiment where I&rsquo;m learning as much about my site (and the web) as I can. If you&rsquo;re interested in following along more closely, I&rsquo;ve decided to open source my whole site. It&rsquo;s now on Github here: <a href="https://github.com/danielmall/danielmallcom">https://github.com/danielmall/danielmallcom</a>. You can see everything from how I&rsquo;ve been able to maintain this site without a <abbr title="Content Management System">CMS</abbr> to all the embarrassing ways I&rsquo;m doing things.</p>
 
-            
+            <p>I&rsquo;ll be working on a part 2 to this post where I&rsquo;ll attempt all things I know nothing about: caching, GZIPping, and getting a CDN set up. Stay tuned!</p>            
 	    
 	    </section><!-- #now-with-responsive -->	    
 	    
@@ -566,7 +566,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2013-08-22T10:39:00">Published Aug 22, 2013 at 10:39 <abbr title="Ante Meridian">AM</abbr></time>
+        	        <time datetime="2013-10-05T15:06:56">Published Oct 5, 2013 at 5:06 <abbr title="Post Meridian">PM</abbr></time>
     	        </section><!-- /#article-info -->
     	        
     	        
