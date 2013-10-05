@@ -78,6 +78,7 @@
 				#now-with-responsive .stats-table tbody th, #now-with-responsive .stats-table tbody td { text-align: center; padding: 0.5em 5px; border-bottom: 1px solid #dadada; }
 				#now-with-responsive .stats-table tbody th { text-align: left; font-weight: 400; font-family: 'Champion Middlewt A', 'Champion Middlewt B'; font-family: 'Champion Heavywt A', 'Champion Heavywt B'; font-size: 14px; text-transform: uppercase; letter-spacing: 0.1em; }
 				#now-with-responsive .stats-table tbody th.stats-table-child-page { text-transform: none; letter-spacing: 0; padding-left: 30px; }
+			#now-with-responsive .stats-table th abbr { font-size: 100%; }
 
 	#now-with-responsive .icon-down, #now-with-responsive .icon-up { font-weight: normal; }
 		#now-with-responsive .icon-arrow-up, .icon-arrow-down { font-size: 12px; }	

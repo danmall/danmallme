@@ -71,7 +71,7 @@
                         <tr>
                             <th scope="col" id="col-page">Page</th>
                             <th scope="col" id="col-requests"><abbr title="HyperText Transfer Protocol">HTTP</abbr> Requests</th>
-                            <th scope="col" id="col-bandwidth">Bandwidth</th>
+                            <th scope="col" id="col-page-weight">Page Weight</th>
                             <th scope="col" id="col-load-time">Load Time</th>
                         </tr>
                     </thead>
@@ -79,43 +79,43 @@
                         <tr>
                             <th scope="row" id="row-home" headers="col-page">Home</th>
                             <td headers="row-home col-requests">50</td>
-                            <td headers="row-home col-bandwidth">871.5<abbr title="kilobytes">KB</abbr></td>
+                            <td headers="row-home col-page-weight">871.5<abbr title="kilobytes">KB</abbr></td>
                             <td headers="row-home col-load-time">2.29<abbr title="seconds">s</abbr></td>
                         </tr>
                         <tr>
                             <th scope="row" id="row-work" headers="col-page">Work</th>
                             <td headers="row-work col-requests">103</td>
-                            <td headers="row-work col-bandwidth">698.7<abbr>KB</abbr></td>
+                            <td headers="row-work col-page-weight">698.7<abbr>KB</abbr></td>
                             <td headers="row-work col-load-time">2.62<abbr>s</abbr></td>
                         </tr>
                         <tr>
                             <th scope="row" id="row-speaking" headers="col-page" class="stats-table-child-page">Speaking</th>
                             <td headers="row-speaking col-requests">67</td>
-                            <td headers="row-speaking col-bandwidth">1.8<abbr>MB</abbr></td>
+                            <td headers="row-speaking col-page-weight">1.8<abbr>MB</abbr></td>
                             <td headers="row-speaking col-load-time">2.6<abbr>s</abbr></td>
                         </tr>
                         <tr>
                             <th scope="row" id="row-publications" headers="col-page" class="stats-table-child-page">Publications</th>
                             <td headers="row-publications col-requests">46</td>
-                            <td headers="row-publications col-bandwidth">770.4<abbr>KB</abbr></td>
+                            <td headers="row-publications col-page-weight">770.4<abbr>KB</abbr></td>
                             <td headers="row-publications col-load-time">1.79<abbr>s</abbr></td>
                         </tr>
                         <tr>
                             <th scope="row" id="row-articles" headers="col-page">Articles</th>
                             <td headers="row-articles col-requests">42</td>
-                            <td headers="row-articles col-bandwidth">529<abbr>KB</abbr></td>
+                            <td headers="row-articles col-page-weight">529<abbr>KB</abbr></td>
                             <td headers="row-articles col-load-time">1.64<abbr>s</abbr></td>
                         </tr>
                         <tr>
                             <th scope="row" id="row-about" headers="col-page">About</th>
                             <td headers="row-about col-requests">49</td>
-                            <td headers="row-about col-bandwidth">766.1<abbr>KB</abbr></td>
+                            <td headers="row-about col-page-weight">766.1<abbr>KB</abbr></td>
                             <td headers="row-about col-load-time">2<abbr>s</abbr></td>
                         </tr>
                         <tr>
                             <th scope="row" id="row-contact" headers="col-page">Contact</th>
                             <td headers="row-contact col-requests">44</td>
-                            <td headers="row-contact col-bandwidth">546<abbr>KB</abbr></td>
+                            <td headers="row-contact col-page-weight">546<abbr>KB</abbr></td>
                             <td headers="row-contact col-load-time">1.61<abbr>s</abbr></td>
                         </tr>
                     </tbody>
@@ -140,7 +140,7 @@
                         <tr>
                             <th scope="col" id="col-page">Page</th>
                             <th scope="col" id="col-requests"><abbr title="HyperText Transfer Protocol">HTTP</abbr> Requests</th>
-                            <th scope="col" id="col-bandwidth">Bandwidth</th>
+                            <th scope="col" id="col-page-weight">Page Weight</th>
                             <th scope="col" id="col-load-time">Load Time</th>
                         </tr>
                     </thead>
@@ -148,43 +148,43 @@
                         <tr>
                             <th scope="row" id="row-home" headers="col-page">Home</th>
                             <td headers="row-home col-requests">48 (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>2</b>)</td>
-                            <td headers="row-home col-bandwidth">854.1<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>17.4<abbr>KB</abbr></b>)</td>
+                            <td headers="row-home col-page-weight">854.1<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>17.4<abbr>KB</abbr></b>)</td>
                             <td headers="row-home col-load-time">1.39<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.9<abbr>s</abbr></b>)</td>
                         </tr>
                         <tr>
                             <th scope="row" id="row-work" headers="col-page">Work</th>
                             <td headers="row-work col-requests">101 (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>2</b>)</td>
-                            <td headers="row-work col-bandwidth">726.8<abbr>KB</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>28.1<abbr>KB</abbr></b>)</td>
+                            <td headers="row-work col-page-weight">726.8<abbr>KB</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>28.1<abbr>KB</abbr></b>)</td>
                             <td headers="row-work col-load-time">2.04<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>.58<abbr>s</abbr></b>)</td>
                         </tr>
                         <tr>
                             <th scope="row" id="row-speaking" headers="col-page" class="stats-table-child-page">Speaking</th>
                             <td headers="row-speaking col-requests">65 (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>2</b>)</td>
-                            <td headers="row-speaking col-bandwidth">1.8<abbr>MB</abbr> (no change)</td>
+                            <td headers="row-speaking col-page-weight">1.8<abbr>MB</abbr> (no change)</td>
                             <td headers="row-speaking col-load-time">1.55<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>1.05<abbr>s</abbr></b>)</td>
                         </tr>
                         <tr>
                             <th scope="row" id="row-publications" headers="col-page" class="stats-table-child-page">Publications</th>
                             <td headers="row-publications col-requests">44 (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>2</b>)</td>
-                            <td headers="row-publications col-bandwidth">754.9<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>15.5<abbr>KB</abbr></b>)</td>
+                            <td headers="row-publications col-page-weight">754.9<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>15.5<abbr>KB</abbr></b>)</td>
                             <td headers="row-publications col-load-time">1.1<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>.69<abbr>s</abbr></b>)</td>
                         </tr>
                         <tr>
                             <th scope="row" id="row-articles" headers="col-page">Articles</th>
                             <td headers="row-articles col-requests">40 (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>4</b>)</td>
-                            <td headers="row-articles col-bandwidth">518.7<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>10.3<abbr>KB</abbr></b>)</td>
+                            <td headers="row-articles col-page-weight">518.7<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>10.3<abbr>KB</abbr></b>)</td>
                             <td headers="row-articles col-load-time">1.22<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>.42<abbr>s</abbr></b>)</td>
                         </tr>
                         <tr>
                             <th scope="row" id="row-about" headers="col-page">About</th>
                             <td headers="row-about col-requests">46 (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>3</b>)</td>
-                            <td headers="row-about col-bandwidth">743.9<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>22.2<abbr>KB</abbr></b>)</td>
+                            <td headers="row-about col-page-weight">743.9<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>22.2<abbr>KB</abbr></b>)</td>
                             <td headers="row-about col-load-time">1.64<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>.36<abbr>s</abbr></b>)</td>
                         </tr>
                         <tr>
                             <th scope="row" id="row-contact" headers="col-page">Contact</th>
                             <td headers="row-contact col-requests">42 (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>2</b>)</td>
-                            <td headers="row-contact col-bandwidth">527.4<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>18.6<abbr>KB</abbr></b>)</td>
+                            <td headers="row-contact col-page-weight">527.4<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>18.6<abbr>KB</abbr></b>)</td>
                             <td headers="row-contact col-load-time">0.975<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>.635<abbr>s</abbr></b>)</td>
                         </tr>
                     </tbody>
@@ -207,7 +207,7 @@
                         <tr>
                             <th scope="col" id="col-page">Page</th>
                             <th scope="col" id="col-requests"><abbr title="HyperText Transfer Protocol">HTTP</abbr> Requests</th>
-                            <th scope="col" id="col-bandwidth">Bandwidth</th>
+                            <th scope="col" id="col-page-weight">Page Weight</th>
                             <th scope="col" id="col-load-time">Load Time</th>
                         </tr>
                     </thead>
@@ -215,43 +215,43 @@
                         <tr>
                             <th scope="row" id="row-home" headers="col-page">Home</th>
                             <td headers="row-home col-requests">45 (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>3</b>)</td>
-                            <td headers="row-home col-bandwidth">848.1<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>6<abbr>KB</abbr></b>)</td>
+                            <td headers="row-home col-page-weight">848.1<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>6<abbr>KB</abbr></b>)</td>
                             <td headers="row-home col-load-time">1.29<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.11<abbr>s</abbr></b>)</td>
                         </tr>
                         <tr>
                             <th scope="row" id="row-work" headers="col-page">Work</th>
                             <td headers="row-work col-requests">101 (no change)</td>
-                            <td headers="row-work col-bandwidth">726.3<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.5<abbr>KB</abbr></b>)</td>
+                            <td headers="row-work col-page-weight">726.3<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.5<abbr>KB</abbr></b>)</td>
                             <td headers="row-work col-load-time">1.84<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.2<abbr>s</abbr></b>)</td>
                         </tr>
                         <tr>
                             <th scope="row" id="row-speaking" headers="col-page" class="stats-table-child-page">Speaking</th>
                             <td headers="row-speaking col-requests">65 (no change)</td>
-                            <td headers="row-speaking col-bandwidth">1.8<abbr>MB</abbr> (no change)</td>
+                            <td headers="row-speaking col-page-weight">1.8<abbr>MB</abbr> (no change)</td>
                             <td headers="row-speaking col-load-time">1.55<abbr>s</abbr> (no change)</td>
                         </tr>
                         <tr>
                             <th scope="row" id="row-publications" headers="col-page" class="stats-table-child-page">Publications</th>
                             <td headers="row-publications col-requests">44 (no change)</td>
-                            <td headers="row-publications col-bandwidth">754.4<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.5<abbr>KB</abbr></b>)</td>
+                            <td headers="row-publications col-page-weight">754.4<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.5<abbr>KB</abbr></b>)</td>
                             <td headers="row-publications col-load-time">1.06<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>.04<abbr>s</abbr></b>)</td>
                         </tr>
                         <tr>
                             <th scope="row" id="row-articles" headers="col-page">Articles</th>
                             <td headers="row-articles col-requests">39 (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>1</b>)</td>
-                            <td headers="row-articles col-bandwidth">518.3<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.4<abbr>KB</abbr></b>)</td>
+                            <td headers="row-articles col-page-weight">518.3<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.4<abbr>KB</abbr></b>)</td>
                             <td headers="row-articles col-load-time">1.28<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>.36<abbr>s</abbr></b>)</td>
                         </tr>
                         <tr>
                             <th scope="row" id="row-about" headers="col-page">About</th>
                             <td headers="row-about col-requests">47 (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>1</b>)</td>
-                            <td headers="row-about col-bandwidth">743.5<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.4<abbr>KB</abbr></b>)</td>
+                            <td headers="row-about col-page-weight">743.5<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.4<abbr>KB</abbr></b>)</td>
                             <td headers="row-about col-load-time">1.24<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.4<abbr>s</abbr></b>)</td>
                         </tr>
                         <tr>
                             <th scope="row" id="row-contact" headers="col-page">Contact</th>
                             <td headers="row-contact col-requests">42 (no change)</td>
-                            <td headers="row-contact col-bandwidth">524.5<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>2.9<abbr>KB</abbr></b>)</td>
+                            <td headers="row-contact col-page-weight">524.5<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>2.9<abbr>KB</abbr></b>)</td>
                             <td headers="row-contact col-load-time">0.917<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.58<abbr>s</abbr></b>)</td>
                         </tr>
                     </tbody>
@@ -260,6 +260,77 @@
 
             <p>(I wish I could explain some of these numbers, but I just don&rsquo;t get the inspector well enough. If anyone can point me in the right direction, I&rsquo;d be oh so grateful.)</p>
 
+
+
+            <h2 id="webfonts" class="subheading cg cg-middlewt">Converting wholly to webfonts</h2>
+
+            <p>One of my favorite things about this site is the opportunity to use the beautiful typeface <a href="http://commercialtype.com/typefaces/stag/stag">Stag</a> from one of my favorite foundries, <a href="http://commercialtype.com/">Commercial Type</a>. When I launched this version of the site, Stag wasn&rsquo;t available as a webfont, but earlier this year, they <a href="http://commercialtype.com/news/updates/webfonts_from_commercial_type">announced</a> that a lot of their collection was ready for use on the web.</p>
+
+            <p><a href="https://twitter.com/danielmall/statuses/341578892601085952">I was whatever about it.</a></p>
+
+            <p>Here&rsquo;s what happened when I ditched image replacement almost entirely and converted wholly to webfonts.</p>
+
+            <div class="stats-table-wrapper">
+                <table class="stats-table">
+                    <caption class="stats-table offscreen">Statistics for DanielMall.com after converting wholly to webfonts</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col" id="col-page">Page</th>
+                            <th scope="col" id="col-requests"><abbr title="HyperText Transfer Protocol">HTTP</abbr> Requests</th>
+                            <th scope="col" id="col-page-weight">Page Weight</th>
+                            <th scope="col" id="col-load-time">Load Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" id="row-home" headers="col-page">Home</th>
+                            <td headers="row-home col-requests">36 (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>9</b>)</td>
+                            <td headers="row-home col-page-weight">834.1<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>14<abbr>KB</abbr></b>)</td>
+                            <td headers="row-home col-load-time">1.49<abbr>s</abbr> (<b class="icon-up"><span aria-hidden="true" class="icon-arrow-up"></span>0.20<abbr>s</abbr></b>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-work" headers="col-page">Work</th>
+                            <td headers="row-work col-requests">85 (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>16</b>)</td>
+                            <td headers="row-work col-page-weight">704.8<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>21.5<abbr>KB</abbr></b>)</td>
+                            <td headers="row-work col-load-time">1.48<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.36<abbr>s</abbr></b>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-speaking" headers="col-page" class="stats-table-child-page">Speaking</th>
+                            <td headers="row-speaking col-requests">54 (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>11</b>)</td>
+                            <td headers="row-speaking col-page-weight">1.8<abbr>MB</abbr> (no change)</td>
+                            <td headers="row-speaking col-load-time">1.22<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.33<abbr>s</abbr></b>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-publications" headers="col-page" class="stats-table-child-page">Publications</th>
+                            <td headers="row-publications col-requests">35 (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>9</b>)</td>
+                            <td headers="row-publications col-page-weight">735.6<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>18.8<abbr>KB</abbr></b>)</td>
+                            <td headers="row-publications col-load-time">0.921<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.139<abbr>s</abbr></b>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-articles" headers="col-page">Articles</th>
+                            <td headers="row-articles col-requests">32 (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>7</b>)</td>
+                            <td headers="row-articles col-page-weight">515.4<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>2.9<abbr>KB</abbr></b>)</td>
+                            <td headers="row-articles col-load-time">1.05<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.23<abbr>s</abbr></b>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-about" headers="col-page">About</th>
+                            <td headers="row-about col-requests">40 (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>7</b>)</td>
+                            <td headers="row-about col-page-weight">577.9<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>165.6<abbr>KB</abbr></b>)</td>
+                            <td headers="row-about col-load-time">1.07<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.2<abbr>s</abbr></b>)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="row-contact" headers="col-page">Contact</th>
+                            <td headers="row-contact col-requests">32 (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>10</b>)</td>
+                            <td headers="row-contact col-page-weight">504<abbr>KB</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>20.5<abbr>KB</abbr></b>)</td>
+                            <td headers="row-contact col-load-time">0.895<abbr>s</abbr> (<b class="icon-down"><span aria-hidden="true" class="icon-arrow-down"></span>0.022<abbr>s</abbr></b>)</td>
+                        </tr>
+                    </tbody>
+                </table><!-- stats-table -->
+            </div><!-- .stats-table-wrapper -->
+
+            <p>Interesting! Here&rsquo;s where I&rsquo;m starting to make some big gains. I&rsquo;m saving an average of 10 <abbr >HTTP</abbr> requests per page. In the case of the <a href="/about/">About</a> page, I was able to splice out a pretty large image of my photo that included a headline, which saved me 165<abbr>KB</abbr>.</p>
+
+            <p>However, there&rsquo;s a pretty noticeable 0.2<abbr>s</abbr> addition to load time on the first page, which I&rsquo;m assuming is the first time the webfonts are downloaded. That said, I&rsquo;m also averaging a 0.2<abbr>s</abbr> savings on load time across the other pages, so I think it&rsquo;s still worth it to use webfonts</p.>
             
 	    
 	    </section><!-- #now-with-responsive -->	    
