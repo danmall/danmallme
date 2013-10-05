@@ -566,7 +566,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2013-10-05T15:06:56">Published Oct 5, 2013 at 5:06 <abbr title="Post Meridian">PM</abbr></time>
+        	        <time datetime="2013-10-05T15:06:56">Published Oct 5, 2013 at 3:06 <abbr title="Post Meridian">PM</abbr></time>
     	        </section><!-- /#article-info -->
     	        
     	        

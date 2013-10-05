@@ -27,11 +27,23 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/now-with-responsive/">Now with Responsive!</a></h1>
+                            </header>
+                            <p>Two years later, this site is finally responsive.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/now-with-responsive/"><time datetime="2013-10-05T15:06:56">Oct 05, 2013</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/now-with-responsive/#disqus_thread" data-disqus-identifier="now-with-responsive"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>                  
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/progressive-enhancement/">Progressive Enhancement</a></h1>
                             </header>
                             <p>Still alive and kickin&rsquo;.</p>
                             <ul class="meta easy-clearing no-marker">
-                                <li class="permalink"><a href="/articles/progressive-enhancement/"><time datetime="2013-08-30T015:38:00">Aug 30, 2013</time></a></li>
+                                <li class="permalink"><a href="/articles/progressive-enhancement/"><time datetime="2013-08-30T15:38:00">Aug 30, 2013</time></a></li>
                                 <script>document.write('<li class="comments"><a href="/articles/progressive-enhancement/#disqus_thread" data-disqus-identifier="progressive-enhancement"></a></li>');</script>
                             </ul><!-- .meta -->
                         </article>                  
