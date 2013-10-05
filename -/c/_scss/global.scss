@@ -1,0 +1,37 @@
+/*-------------------------------------------    
+    Global combinations
+-------------------------------------------*/
+
+/* Phark Image Replacement - http://phark.typepad.com/phark/2003/08/accessible_imag.html */
+.phark, #fowd2010 li:first-child blockquote, #flashpitt2009 .rotator li:first-child blockquote { display: block; text-indent: -9999px; background-position: 0 0; background-repeat: no-repeat; background-color: transparent; }
+
+.small-phark { 
+	@media screen and (min-width: $originalLayout){
+		display: block; text-indent: -9999px; background-position: 0 0; background-repeat: no-repeat; background-color: transparent; 
+	}
+}
+
+/* Trimming Outline in Firefox - http://snook.ca/archives/html_and_css/trimming_long_o  */
+/*\*/ .phark-link, #project-nav a { overflow: hidden; } /**/
+
+/* Easy Clearing - http://www.positioniseverything.net/easyclearing.html */ 
+.clearfix:after, .easy-clearing:after, #tweets ul:after, #work-content:after, .home-row:after, #project-header:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+.offscreen, .pagination b, #fowd2010 .rotator li, #flashpitt2009 .rotator li  { position: absolute; left: -9999px; }
+
+.real-hide, .hide { display: none; }
+
+.m-hide { 
+	display: none; 
+	@media screen and (min-width: $originalLayout){
+		display: block;
+	}
+}
+
+span.m-hide {
+	@media screen and (min-width: $originalLayout){
+		display: inline;
+	}
+}
+
+.no-marker, #tweets ul, .projects { list-style: none; }

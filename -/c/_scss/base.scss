@@ -1,0 +1,134 @@
+/*
+*************************************************
+
+DANIELMALL.COM
+General Screen Styles
+
+Created by the ridiculous Dan Mall
+http://www.danielmall.com/
+
+*************************************************
+*/
+
+
+/*-------------------------------------------    
+
+    COLOR INDEX
+    
+    
+    #231f20                         Dark Grey
+    #656262                         Text Color
+    #7f7f7f                         Dotted Border
+    #f77000                         Link Orange
+    #73ae08     (115, 174, 8)       Link Green 
+    
+    
+    
+    Z-INDEX
+    
+    2000        #home #masthead, .main-nav
+    5           .event-type
+    4           .projects li:hover
+    3           .browser-chrome-wrap #project-url
+    3           .projects li
+    3           #publications .inner article
+    2           #work-landing #content
+    1           #work-subnav
+    1           #p24ways-2010
+    1           .browser-chrome-wrap
+    
+-------------------------------------------*/
+
+
+/*-------------------------------------------    
+    Flag
+    (Thanks Jeremy: http://adactio.com/journal/5429/)
+-------------------------------------------*/
+body:after { content: 'small'; display: none; }
+
+@media screen and (min-width: 481px){
+    body:after { content: 'medium'; display: none; }
+}
+
+@media screen and (min-width: 960px){
+    body:after { content: 'large'; display: none; }
+}
+
+@media screen and (min-width: 1280px){
+    body:after { content: 'xl'; display: none; }
+}
+
+
+
+/*-------------------------------------------    
+    Base
+-------------------------------------------*/
+/** { margin: 0; padding: 0; line-height: 1.5; }*/
+@media only screen and (max-device-width: 480px) {
+	* { -webkit-text-size-adjust: none; }
+}
+body { font: normal 62.5%/1.5 Georgia, 'Times New Roman', serif; color: #656262; background: #fff; border-top: 8px solid #231f20; padding-top: 2px; }
+
+
+/* block level */
+
+h1 { font-weight: normal; font-size: 29px; color: #231f20; margin: 0 0 0.5em; }
+h2 { font-family: 'Trebuchet MS', Arial, sans-serif; margin: 0 0 0.5em; color: #231f20; }
+h3 {  }
+h4 {  }
+h5 {  }
+h6 {  }
+
+p, ul, dl, ol { font-size: 12px; margin: 0 0 1.5em;  }
+
+dd { /*margin: 0 0 0 15px;*/ }
+
+blockquote { margin: 0; padding: 0.9em 0 0 45px; background: transparent url(/-/i/blockquote.gif) no-repeat 0 0; }
+    blockquote p, blockquote ol, blockquote ul { font: 16px Arial, sans-serif; font-style: italic; color: #777; }
+
+table { font-size: 13px; }
+	tr {  }
+	th, td {  }
+	
+
+/* inline */
+
+em { font-style: italic; }
+strong { font-weight: bold; }
+
+a { color: #73ae08; text-decoration: none; border-bottom: 1px dotted rgba(115, 174, 8, 0.4); transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; }
+a:hover, a:focus { color: #231f20; border-bottom: 1px dotted #7f7f7f; }
+
+img { display: block; margin: 0 10px 10px 0; float: left; max-width: 100%; }
+
+del { opacity: 0.3; }
+ins { background: none; }
+
+a img { border: none; }
+
+abbr, abbr[title], acronym { font-size: 85%; letter-spacing: 0.1em; text-transform: uppercase; border: none; }
+
+form { margin: 0 0 1em; }
+    form > div { margin: 0 0 2em; position: relative; padding-bottom: 2em; }
+    div.options > div { margin-bottom: 0.25em; }    
+    input[type="text"], textarea { font: 12px 'Trebuchet MS', Arial, sans-serif; color: #626262; color: #999; background-color: #f5f5f5; background: #eee; border: 1px solid #fff; padding: 5px; transition: all 0.1s linear; -moz-transition: all 0.1s linear; -webkit-transition: all 0.1s linear; -o-transition: all 0.1s linear; } 
+    input[type="text"]:focus, textarea:focus { background-color: #fdfdfd; border-right: 1px solid #f4f4f4; border-bottom: 1px solid #f4f4f4; outline: none; color: #73ae08; }
+    input[type="checkbox"] { margin-right: 0.5em; }
+    label { display: block; font: 11px 'Trebuchet MS', Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.1em; color: #aaa; margin: 0 0 0.25em; position: absolute; bottom: 0; }
+        label em { font-family: Georgia, 'Times New Roman', serif; font-style: italic; text-transform: none; letter-spacing: 0; }
+    input[type="checkbox"] + label { display: inline; position: static; } 
+    input.button { transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; outline: none; border: none; padding: 0.5em 15px 0.4em; }
+    input.button:hover { cursor: pointer; }
+    input.error, textarea.error { border: 1px solid #ff8f8f; }
+
+    select, textarea { width: 90%; }
+
+code { font: 13px/1 Consolas, 'Courier New', Courier, monospace; color: #999; }
+
+sub, sup { line-height: 0; }
+
+header, footer, nav, section, article, mark, hgroup { display: block; }
+
+::selection { background: #73ae08; color: #fff; }
+::-moz-selection { background: #73ae08; color: #fff; }
+
