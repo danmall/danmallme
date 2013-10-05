@@ -96,6 +96,20 @@ $(document).ready(function(){
         },
         
         initRoles: function(){
+
+            $('.logo-new').after('<ul id="roles" class="no-marker">' +
+                    '<li>Art Director</li>' +
+                    '<li>Designer</li>' +
+                    '<li>Developer</li>' +
+                    '<li>Strategist</li>' +
+                    '<li>Teacher</li>' +           
+                    '<li>Singer</li>' +
+                    '<li>Speaker</li>' +
+                    '<li>Pianist</li>' +
+                    '<li>New Dad</li>' +
+                    '<li>Husband</li>' +
+                '</ul>' +
+                '<div id="master-roles"></div><div id="master-roles-mask"></div>');
                         
             //$('#roles').after('<div id="master-roles"></div><div id="master-roles-mask"></div>');
             dmall.shuffleRoles();
@@ -303,18 +317,6 @@ $(document).ready(function(){
                 $(this).toggleClass('open');
                 $('.main-nav').toggleClass('nav-active');
                 $('#masthead-wrap').toggleClass('masthead-wrap-active');
-
-                /*if(!$('body').hasClass('home')){
-                    if($('#masthead-wrap').hasClass('masthead-wrap-active')){
-                        setTimeout(function(){
-                            $('#masthead-wrap').removeClass('masthead-wrap-active');    
-                        }, 500);
-                        
-                    }else{
-                        $('#masthead-wrap').addClass('masthead-wrap-active');    
-                    }
-                    
-                }*/
                 
                 return false;
             });
