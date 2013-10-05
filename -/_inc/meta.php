@@ -1,6 +1,5 @@
 <meta charset="UTF-8" /> 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="" />
     <meta name="author" content="Dan Mall" />
     <?php /* if($_SERVER['REQUEST_URI'] == '/') { ?>      
     <meta name="viewport" content="width=1100" />

@@ -8,10 +8,13 @@
 		@media screen and (min-width: 800px){
 			#now-with-responsive p, #now-with-responsive ul, #now-with-responsive ol { font-size: 22px; }
 		}
+	#now-with-responsive code { font-size: 18px; }
 	#now-with-responsive a { background: #fedd88; color: #464646; border: none; padding: 2px 6px; }
 	#now-with-responsive a:hover, #now-with-responsive a:focus { background: #464646; color: #fedd88; }
 
-	#now-with-responsive .article-title { text-align: center; font: bold 30px Helvetica, Arial, sans-serif; margin: 0 0 2em; text-transform: uppercase; letter-spacing: 0.1em; border-top: 1px solid rgba(0, 0, 0, 0.5); border-bottom: 1px solid rgba(0, 0, 0, 0.5); padding: 0 0 1em; font-weight: normal; }
+	#now-with-responsive .article-title { text-align: center; font: bold 30px Helvetica, Arial, sans-serif; margin: 0 0 2em; text-transform: uppercase; letter-spacing: 0.1em; border-top: 1px solid rgba(0, 0, 0, 0.5); border-bottom: 1px solid rgba(0, 0, 0, 0.5); padding: 0 0 1em; font-weight: normal; position: relative; }
+		#now-with-responsive .article-title:before { content:''; display: block; width: 0; height: 0; border-top: 6px solid transparent; border-bottom: 6px solid transparent; border-left: 6px solid black; position: absolute; bottom: -0.2em; right: 0; }
+		#now-with-responsive .article-title:after { content:''; display: block; width: 0; height: 0; border-top: 6px solid transparent; border-bottom: 6px solid transparent; border-right: 6px solid black; position: absolute; bottom: -0.2em; left: 0; }
 		
 		#now-with-responsive .article-title-start { background-color: #fdfdfd; position: relative; top: -0.5em; display: inline-block; padding: 0 1em; font-family: 'Champion Bantamwt A', 'Champion Bantamwt B';  }
 		#now-with-responsive .article-title-start:before { content:''; display: block; width: 0; height: 0; border-top: 6px solid transparent; border-bottom: 6px solid transparent; border-left: 6px solid black; position: absolute; top: 0.27em; left: 0; }
@@ -26,7 +29,7 @@
 			#now-with-responsive .cg-middlewt { font-family: 'Champion Middlewt A', 'Champion Middlewt B'; }
 			#now-with-responsive .cg-heavywt { font-family: 'Champion Heavywt A', 'Champion Heavywt B'; }
 
-		@media screen and (min-width: 800px){ 
+		@media screen and (min-width: 670px){ 
 
 			#now-with-responsive .article-title-pizzazz { font-size: 100px; }
 
@@ -59,7 +62,7 @@
 			#now-with-responsive .jitter19 { top: 9px; }
 			#now-with-responsive .jitter20 { top: 10px; }
 		}
-		@media screen and (max-width: 799px){
+		@media screen and (max-width: 669px){
 			#now-with-responsive .article-title-pizzazz span { font-family: 'Champion Heavywt A', 'Champion Heavywt B' !important; }		
 		}	
 
@@ -69,12 +72,17 @@
 	}
 
 	#now-with-responsive .stats-table-wrapper { width: 100%; margin: 0 auto; max-width: 800px; overflow-x: scroll; }
-		#now-with-responsive .stats-table { margin: 0 0 1.5em; font-size: 18px; min-width: 600px; width: 100%; }
+		#now-with-responsive .stats-table { margin: 0 0 1.5em; font-size: 14px; min-width: 600px; width: 100%; }
 			#now-with-responsive .stats-table thead th { color: #fff; background: #363636; text-transform: uppercase; letter-spacing: 0.1em; font: normal 14px 'Champion Middlewt A', 'Champion Middlewt B'; padding: 1em 5px; }
 			#now-with-responsive .stats-table tbody tr:nth-child(even) th, #now-with-responsive .stats-table tbody tr:nth-child(even) td { background: #f3f3f3; }
 				#now-with-responsive .stats-table tbody th, #now-with-responsive .stats-table tbody td { text-align: center; padding: 0.5em 5px; border-bottom: 1px solid #dadada; }
 				#now-with-responsive .stats-table tbody th { text-align: left; font-weight: 400; font-family: 'Champion Middlewt A', 'Champion Middlewt B'; font-family: 'Champion Heavywt A', 'Champion Heavywt B'; font-size: 14px; text-transform: uppercase; letter-spacing: 0.1em; }
 				#now-with-responsive .stats-table tbody th.stats-table-child-page { text-transform: none; letter-spacing: 0; padding-left: 30px; }
+
+	#now-with-responsive .icon-down, #now-with-responsive .icon-up { font-weight: normal; }
+		#now-with-responsive .icon-arrow-up, .icon-arrow-down { font-size: 12px; }	
+		#now-with-responsive .icon-arrow-up { color: red; }
+		#now-with-responsive .icon-arrow-down { color: green; }
 		
 		
 #now-with-responsive ::selection { background: #464646; color: #fdfdfd; }
