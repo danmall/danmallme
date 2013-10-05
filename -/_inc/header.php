@@ -6,42 +6,10 @@
             <?php /* <h1 class="phark logo logo-home">Daniel Mall</h1> */ ?>            
             <img src="/-/s/dmall-website-logo5.svg" class="logo-new" />
 
-            <!-- TODO: Append to DOM, rather than document.write -->
-            <script>
-            document.write('<ul id="roles" class="no-marker">' +
-                    '<li>Art Director</li>' +
-                    '<li>Designer</li>' +
-                    '<li>Developer</li>' +
-                    '<li>Strategist</li>' +
-                    '<li>Teacher</li>' +           
-                    '<li>Singer</li>' +
-                    '<li>Speaker</li>' +
-                    '<li>Pianist</li>' +
-                    '<li>New Dad</li>' +
-                    '<li>Husband</li>' +
-                '</ul>' +
-                '<div id="master-roles"></div><div id="master-roles-mask"></div>'
-            );
-            </script>
             
-
             <?php } else { ?>
             <h1 class="logo"><a class="phark phark-link logo-link" href="/">Daniel Mall</a></h1>
             <?php } ?>
-
-            <script>
-            document.write(
-            '<div class="menu-link">' +
-                '<a class="hamburger" href="#main-nav">' +
-                    '<b class="phark hamburger-ingredient bread bread-top"></b>' +
-                    '<b class="phark hamburger-ingredient cheese"></b>' +
-                    '<b class="phark hamburger-ingredient meat"></b><!-- sorry, vegetarians -->' +
-                    '<b class="phark hamburger-ingredient lettuce"></b><!-- you\'re welcome, vegetarians -->' +
-                    '<b class="phark hamburger-ingredient bread bread-bottom"></b>' +
-                '</a>' +
-            '</div><!-- .menu-link -->'
-            );
-            </script>
 
         	<nav id="main-nav" class="main-nav">
             	<ul class="no-marker">
