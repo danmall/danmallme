@@ -508,7 +508,7 @@
 
             <p>That&rsquo;s right: they&rsquo;re identical. (I swear they&rsquo;re not the same image.) What does that mean? It means there&rsquo;s more work to do. There&rsquo;s always more work to do. However, I feel much more confident that my site is in a better place to be able to improve it. The foundation is there now.</p>
 
-            <p>On a related note, this is all an experiment where I&rsquo;m learning as much about my site (and the web) as I can. If you&rsquo;re interested in following along more closely, I&rsquo;ve decided to open source my whole site. It&rsquo;s now on Github here: <a href="https://github.com/danielmall/danielmallcom">https://github.com/danielmall/danielmallcom</a>. You can see everything from how I&rsquo;ve been able to maintain this site without a <abbr title="Content Management System">CMS</abbr> to all the embarrassing ways I&rsquo;m doing things.</p>
+            <p>On a related note, this is all an experiment where I&rsquo;m learning as much about my site (and the web) as I can. If you&rsquo;re interested in following along more closely, I&rsquo;ve decided to open source my whole site. It&rsquo;s now <a href="https://github.com/danielmall/danielmallcom" title="danielmall.com source code on Github">on Github</a>. You can see everything from how I&rsquo;ve been able to maintain this site without a <abbr title="Content Management System">CMS</abbr> to all the embarrassing ways I&rsquo;m doing things.</p>
 
             <p>I&rsquo;ll be working on a part 2 to this post where I&rsquo;ll attempt all things I know nothing about: caching, GZIPping, and getting a CDN set up. Stay tuned!</p>            
 	    
