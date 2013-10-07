@@ -73,9 +73,17 @@ http://www.danielmall.com/
 
 .open { 
     .lettuce, .cheese { display: block; }
-    .meat { background: #6a4100; }
+    .meat { background: #6a4100; border-radius: 1px; }
     .bread { background: #d3b48f; }
     .bread-top { border-top-left-radius: 2px; border-top-right-radius: 2px; }
+        .seed { width: 1px; height: 1px; background: rgba(255, 255, 255, 0.7); position: absolute; top: 1px; }
+        .seed1 { left: 2px; }
+        .seed2 { left: 5px; top: 3px; }
+        .seed3 { left: 8px; }
+        .seed4 { left: 11px; top: 3px; }
+        .seed5 { left: 14px; }
+        .seed6 { left: 17px; top: 3px; }
+        .seed7 { left: 20px; }
     .bread-bottom { border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; }
     &:hover { 
         .lettuce { background: #508c48; opacity: 0.7; }

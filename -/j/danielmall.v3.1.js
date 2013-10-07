@@ -302,7 +302,15 @@ $(document).ready(function(){
 
             $('#main-nav').before('<div class="menu-link">' +
                 '<a class="hamburger" href="#main-nav">' +
-                    '<b class="phark hamburger-ingredient bread bread-top"></b>' +
+                    '<b class="phark hamburger-ingredient bread bread-top">' +
+                        '<i class="seed seed1"></i>' +
+                        '<i class="seed seed2"></i>' +
+                        '<i class="seed seed3"></i>' +
+                        '<i class="seed seed4"></i>' +
+                        '<i class="seed seed5"></i>' +
+                        '<i class="seed seed6"></i>' +
+                        '<i class="seed seed7"></i>' +
+                    '</b>' +
                     '<b class="phark hamburger-ingredient cheese"></b>' +
                     '<b class="phark hamburger-ingredient meat"></b><!-- sorry, vegetarians -->' +
                     '<b class="phark hamburger-ingredient lettuce"></b><!-- you\'re welcome, vegetarians -->' +
