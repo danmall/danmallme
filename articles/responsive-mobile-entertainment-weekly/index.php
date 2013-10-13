@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head profile="http://gmpg.org/xfn/11">
-    <title>&ldquo;Entertainment Weekly Mobile,&rdquo; an article by Dan Mall</title>
+    <title>&ldquo;The Responsive Mobile Entertainment Weekly Site,&rdquo; an article by Dan Mall</title>
     <meta name="description" content="New work on a mobile responsive site for Entertainment Weekly." />
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
     
@@ -17,10 +17,10 @@
     </script>
     
     <!-- Facebook -->
-    <meta property="og:title" content="Entertainment Weekly Mobile" />
-    <meta property="og:description"content="New work on a mobile responsive site for Entertainment Weekly."/>	
-    <meta property="og:url" content="http://danielmall.com/articles/entertainment-weekly-mobile/" />
-    <meta property="og:image" content="http://danielmall.com/articles/entertainment-weekly-mobile/now-with-responsive.png" />
+    <meta property="og:title" content="The Responsive Mobile Entertainment Weekly Site" />
+    <meta property="og:description"content="New work on a responsive mobile site for Entertainment Weekly."/>	
+    <meta property="og:url" content="http://danielmall.com/articles/responsive-mobile-entertainment-weekly/" />
+    <meta property="og:image" content="http://danielmall.com/articles/responsive-mobile-entertainment-weekly/now-with-responsive.png" />
     
     
 </head>
@@ -35,13 +35,13 @@
 
             <header class="article-title-wrap">
                 <h1 class="article-title">
-                    <span class="article-title-text">Entertainment Weekly Mobile</span>
+                    <span class="article-title-text">The Responsive Mobile Entertainment Weekly Site</span>
                 </h1>
             </header><!-- .article-title-wrap -->
 
             <div class="inner">
 
-                <p>Earlier this year, my friend <a href="https://twitter.com/globalmoxie">Josh Clark</a> invited <a href="http://superfriend.ly/">SuperFriendly</a> to partner with him to do some mobile work for Entertainment Weekly. Josh also put together an all-star team: <a href="https://twitter.com/robertgorell">Robert Gorell</a> on information architecture and user experience, <a href="http://bradfrostweb.com/">Brad Frost</a> slinging markup and styles, <a href="http://jonathanstark.com/">Jonathan Stark</a> writing JavaScript, and <a href="http://www.linkedin.com/in/kristinafrantz">Kristina Frantz</a> project managing. We also worked with <a href="http://10up.com/">10up</a>, who handled the back-end development.</p>
+                <p>Earlier this year, my friend <a href="https://twitter.com/globalmoxie">Josh Clark</a> invited <a href="http://superfriend.ly/">SuperFriendly</a> to partner with him to do some mobile work for Entertainment Weekly. Josh put together an all-star team: himself at the helm doing strategy &amp; creative direction, <a href="https://twitter.com/robertgorell">Robert Gorell</a> on information architecture and user experience, <a href="http://bradfrostweb.com/">Brad Frost</a> slinging markup and styles, <a href="http://jonathanstark.com/">Jonathan Stark</a> writing JavaScript, and <a href="http://www.linkedin.com/in/kristinafrantz">Kristina Frantz</a> project managing. We also worked with <a href="http://10up.com/">10up</a>, who handled the back-end development.</p>
 
                 <p>On the SuperFriendly end, I oversaw the design direction and <a href="http://mattecook.com/">Matt Cook</a> produced our side of things. We also invited guest star <a href="http://www.behance.net/scottcook">Scott Cook</a> to handle art direction and design.</p>
 
