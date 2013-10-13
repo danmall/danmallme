@@ -8,6 +8,13 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>  	
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <link rel="stylesheet" href="ew-mobile.css" />
+    <script src="//use.typekit.net/nmc4nct.js"></script>
+    <script>
+        try{
+            Typekit.load();
+            document.write('<link rel="stylesheet" href="ew-mobile-typekit.css" />');
+        }catch(e){}
+    </script>
     
     <!-- Facebook -->
     <meta property="og:title" content="Entertainment Weekly Mobile" />
@@ -107,7 +114,7 @@
 	
     <?php
 
-        echo readNext('Progressive Enhancement. Still alive and kickin&rsquo;.', '/articles/progressive-enhancement/');
+        echo readNext('Now with Responsive!', '/articles/now-with-responsive/');
 
     ?>
 	

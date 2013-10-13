@@ -5,7 +5,7 @@
 
 	/* Base */
 
-	#ew-mobile p, #ew-mobile ol, #ew-mobile ul { color: #494949; font-size: 21px; }
+	#ew-mobile p, #ew-mobile ol, #ew-mobile ul { color: #494949; font-size: 20px; }
 
 	#ew-mobile ol, #ew-mobile ul { margin-left: 30px; }
 
@@ -43,6 +43,16 @@
 }
 
 
-@media screen and (min-width: 800px){
-	#ew-mobile {  }  
+@media screen and (min-width: 575px){
+	#ew-mobile p, #ew-mobile ol, #ew-mobile ul { font-size: 23px; }
+}
+
+
+/* landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) { 
+	#ew-mobile p, #ew-mobile ol, #ew-mobile ul { font-size: 14px; }
+	#ew-mobile .image-wrapper-caption { font-size: 12px; }
 }

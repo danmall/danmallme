@@ -1,0 +1,7 @@
+#article-area-wrap { font-family: "jubilat"; }
+
+#ew-mobile .article-title-text { font-family: "jaf-bernina-sans-condensed"; }
+
+@media screen and (min-width: 727px){
+	#ew-mobile .article-title-text { font-size: 56px; }
+}
