@@ -15,17 +15,34 @@
 
 	/* Modules */
 
-	#ew-mobile .article-title-wrap { }
-		#ew-mobile .article-title { background: rgba(0, 0, 0, 0.7); color: #fff; font: bold 40px 'Trebuchet MS', Arial, sans-serif; text-align: center; }
+	#ew-mobile .article-title-wrap { height: 250px; background: transparent url(ew-loop.png) repeat-x 50% 0; margin: 0 0 2em; 
+		-webkit-animation-name: back;
+	    -webkit-animation-duration: 5000s;
+	    -webkit-animation-direction: normal;
+	    -webkit-animation-timing-function:linear;
+	}
+		#ew-mobile .article-title { background: rgba(0, 0, 0, 0.7); text-align: center; height: 250px; }
+			#ew-mobile .article-title-text { color: #fff; font: bold 40px 'Trebuchet MS', Arial, sans-serif; position: relative; top: 50%; -webkit-transform: translate(0, -50%); display: block; }
 
 	#ew-mobile .image-wrapper { margin: 0 0 1.5em; }
+		#ew-mobile .image-wrapper img { float: none; margin-right: 0; }
 		#ew-mobile .image-wrapper-caption { font-style: italic; color: #a8a8a8; font-size: 15px; }
 		
 		
-#now-with-responsive ::selection { background: #464646; color: #fdfdfd; }
-#now-with-responsive ::-moz-selection { background: #464646; color: #fdfdfd; }
+#ew-mobile ::selection { background: #464646; color: #fdfdfd; }
+#ew-mobile ::-moz-selection { background: #464646; color: #fdfdfd; }
+
+/* http://jsfiddle.net/wGRg5/ */
+@-webkit-keyframes back{
+	0% {
+		background-position: 50000px;
+	}
+	100% {
+		background-position:0;
+	}         
+}
 
 
 @media screen and (min-width: 800px){
-	#now-with-responsive {  }  
+	#ew-mobile {  }  
 }

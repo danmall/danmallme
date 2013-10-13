@@ -27,12 +27,16 @@
 	    <section id="ew-mobile" class="clearfix">
 
             <header class="article-title-wrap">
-                <h1 class="article-title">Entertainment Weekly Mobile</h1>
+                <h1 class="article-title">
+                    <span class="article-title-text">Entertainment Weekly Mobile</span>
+                </h1>
             </header><!-- .article-title-wrap -->
 
             <div class="inner">
 
-                <p>Earlier this year, my friend <a href="https://twitter.com/globalmoxie">Josh Clark</a> invited <a href="http://superfriend.ly/">SuperFriendly</a> to partner with him to do some mobile work for Entertainment Weekly. Josh also put together an all-star team: <a href="https://twitter.com/robertgorell">Robert Gorell</a> on information architecture and user experience, <a href="http://bradfrostweb.com/">Brad Frost</a> slinging markup and styles, <a href="http://jonathanstark.com/">Jonathan Stark</a> writing JavaScript, and <a href="http://www.linkedin.com/in/kristinafrantz">Kristina Frantz</a> project managing. On the SuperFriendly end, I oversaw the design direction and <a href="http://mattecook.com/">Matt Cook</a> produced our side of things. We also invited guest star <a href="http://www.behance.net/scottcook">Scott Cook</a> to handle art direction and design.</p>
+                <p>Earlier this year, my friend <a href="https://twitter.com/globalmoxie">Josh Clark</a> invited <a href="http://superfriend.ly/">SuperFriendly</a> to partner with him to do some mobile work for Entertainment Weekly. Josh also put together an all-star team: <a href="https://twitter.com/robertgorell">Robert Gorell</a> on information architecture and user experience, <a href="http://bradfrostweb.com/">Brad Frost</a> slinging markup and styles, <a href="http://jonathanstark.com/">Jonathan Stark</a> writing JavaScript, and <a href="http://www.linkedin.com/in/kristinafrantz">Kristina Frantz</a> project managing. We also worked with <a href="http://10up.com/">10up</a>, who handled the back-end development.</p>
+
+                <p>On the SuperFriendly end, I oversaw the design direction and <a href="http://mattecook.com/">Matt Cook</a> produced our side of things. We also invited guest star <a href="http://www.behance.net/scottcook">Scott Cook</a> to handle art direction and design.</p>
 
                 <p>For you impatient ones, we made a responsive mobile site for Entertainment Weekly: <a href="http://m.ew.com/">m.ew.com</a></p>
 
@@ -83,6 +87,7 @@
                 <p>All together, having an open-minded client that was willing to trust us with process allowed us to move really quickly and not waste time on anything frivolous. Two great teams collaborating makes for a dang good product that we&rsquo;re really proud of.</p>
 
                 <figure class="image-wrapper">
+                    <img src="ew-real-phone.jpg" alt="" />         
                     <img src="ew-phones.png" alt="" />                    
                 </figure><!-- .image-wrapper -->
 
