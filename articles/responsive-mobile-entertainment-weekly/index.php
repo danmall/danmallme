@@ -114,7 +114,8 @@
                 <p>All together, having an open-minded client that was willing to trust us with process allowed us to move really quickly and not waste time on anything frivolous. Two great teams collaborating makes for a dang good product that we&rsquo;re really proud of.</p>
 
                 <figure class="image-wrapper">
-                    <img src="ew-real-phone.jpg" alt="" />         
+                    <?php /* ?><img src="ew-real-phone.jpg" alt="" /><?php */ ?>
+                    <img src="ew-real-devices.jpg" alt="" />                    
                     <img src="ew-phones.png" alt="" />                    
                 </figure><!-- .image-wrapper -->
 
