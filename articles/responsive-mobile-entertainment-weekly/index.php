@@ -101,7 +101,9 @@
                     <figcaption class="image-wrapper-caption">A snippet of the element collage for Entertainment Weekly</figcaption>
                 </figure><!-- .image-wrapper -->
 
-                <p>We ended the visual design process by creating a few full pages, not because the client asked for it, but because we wanted to make sure they fit together nicely. Luckily they did!</p>
+                <p>Architects will often make both blueprints and <abbr title="3-dimensional">3D</abbr> renderings because it helps to round out the picture of what a building is built on and what it will become. However, they also know that there&rsquo;s nothing like visiting the actual building site.</p>
+
+                <p>We ended the visual design process by creating a few full pages, not because the client asked for it, but, like architects, because we wanted to make sure they fit together nicely. All this happened in tandem with architecture and development work. By starting early with an in-browser build that slowly adopted more and more of the art direction, we found that it was much easier to have appropriate discussions at the appropriate times. We all had the same picture of what we were making, and once we got there, it wasn&rsquo;t a surprise to anyone. It&rsquo;s what we imagined all along.</p>
 
                 <figure class="image-wrapper">
                     <img src="ew-assembled.png" alt="" />
