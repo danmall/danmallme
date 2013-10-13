@@ -1,0 +1,19 @@
+#article-area-wrap { background: #fff; font: 18px/1.5 Georgia, 'Times New Roman', serif; padding: 100px 0 3em; }
+
+#ew-mobile { margin: 0 auto; width: 95%; max-width: 800px; }      
+
+	#ew-mobile p, #ew-mobile ol, #ew-mobile ul { color: #494949; font-size: 18px; }
+
+	#ew-mobile ol, #ew-mobile ul { margin-left: 30px; }
+
+	#ew-mobile a { color: #00b0bc; border: none; }
+	#ew-mobile a:hover, #ew-mobile a:focus { background: #00b0bc; color: #fff; }
+		
+		
+#now-with-responsive ::selection { background: #464646; color: #fdfdfd; }
+#now-with-responsive ::-moz-selection { background: #464646; color: #fdfdfd; }
+
+
+@media screen and (min-width: 800px){
+	#now-with-responsive {  }  
+}
