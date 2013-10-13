@@ -25,50 +25,76 @@
 	<div id="article-area-wrap">
 	    
 	    <section id="ew-mobile" class="clearfix">
-			
-			<h1 class="article-title">Entertainment Weekly Mobile</h1>
 
-            <p>Earlier this year, my friend <a href="https://twitter.com/globalmoxie">Josh Clark</a> invited <a href="http://superfriend.ly/">SuperFriendly</a> to partner with him to do some mobile work for Entertainment Weekly. Josh also put together an all-star team: <a href="https://twitter.com/robertgorell">Robert Gorell</a> on information architecture and user experience, <a href="http://bradfrostweb.com/">Brad Frost</a> slinging markup and styles, <a href="http://jonathanstark.com/">Jonathan Stark</a> writing JavaScript, and <a href="http://www.linkedin.com/in/kristinafrantz">Kristina Frantz</a> project managing. On the SuperFriendly end, I oversaw the design direction and <a href="http://mattecook.com/">Matt Cook</a> produced our side of things. We also invited guest star <a href="http://www.behance.net/scottcook">Scott Cook</a> to handle art direction and design.</p>
+            <header class="article-title-wrap">
+                <h1 class="article-title">Entertainment Weekly Mobile</h1>
+            </header><!-- .article-title-wrap -->
 
-            <p>For you impatient ones, we made a responsive mobile site for Entertainment Weekly: <a href="http://m.ew.com/">m.ew.com</a></p>
+            <div class="inner">
 
-            <p>Still with me? Here are a few things I think are worth sharing about the process.</p>
+                <p>Earlier this year, my friend <a href="https://twitter.com/globalmoxie">Josh Clark</a> invited <a href="http://superfriend.ly/">SuperFriendly</a> to partner with him to do some mobile work for Entertainment Weekly. Josh also put together an all-star team: <a href="https://twitter.com/robertgorell">Robert Gorell</a> on information architecture and user experience, <a href="http://bradfrostweb.com/">Brad Frost</a> slinging markup and styles, <a href="http://jonathanstark.com/">Jonathan Stark</a> writing JavaScript, and <a href="http://www.linkedin.com/in/kristinafrantz">Kristina Frantz</a> project managing. On the SuperFriendly end, I oversaw the design direction and <a href="http://mattecook.com/">Matt Cook</a> produced our side of things. We also invited guest star <a href="http://www.behance.net/scottcook">Scott Cook</a> to handle art direction and design.</p>
 
-            <p>Like any good project, we started by spending some time in-person with the EW.com team. We heard from every team about what they want their workflow challenges and desires. We used the <a href="http://uxmag.com/articles/introduction-to-design-studio-methodology">design studio methodology</a>, the <a href="http://www.uie.com/articles/kj_technique/">KJ technique</a>, and did some one-on-one interviews. After a very productive day, we had a great sense of what we could do to make the site better for its readers and easier for the staff.</p>
+                <p>For you impatient ones, we made a responsive mobile site for Entertainment Weekly: <a href="http://m.ew.com/">m.ew.com</a></p>
 
-            <p>![kickoff photos]</p>
+                <p>Still with me? Here are a few things I think are worth sharing about the process.</p>
 
-            <p>We tried to stick to a pretty fluid process, one that really allowed us to show things in the browser as quickly as possible. Robert was working out some content blockings for hierarchy and Brad used his <a href="http://pattern-lab.info/">Pattern Lab</a> to get some prototypes up and running quickly.</p>
+                <p>Like any good project, we started by spending some time in-person with the EW.com team. We heard from every team about what they want their workflow challenges and desires. We used the <a href="http://uxmag.com/articles/introduction-to-design-studio-methodology">design studio methodology</a>, the <a href="http://www.uie.com/articles/kj_technique/">KJ technique</a>, and did some one-on-one interviews. After a very productive day, we had a great sense of what we could do to make the site better for its readers and easier for the staff.</p>
 
-            <p>![blocking]
-            <em>Some simple blockings for hierarchy</em></p>
+                <figure class="image-wrapper">
+                    <img src="ew-process1.jpg" alt="" />
+                    <img src="ew-process2.jpg" alt="" />
+                    <img src="ew-process3.jpg" alt="" />
+                    <img src="ew-process4.jpg" alt="" />
+                    <img src="ew-process5.jpg" alt="" />
+                    <img src="ew-process6.jpg" alt="" />
+                    <img src="ew-process7.jpg" alt="" />
+                    <img src="ew-process8.jpg" alt="" />
+                </figure><!-- .image-wrapper -->
 
-            <p>At the same time, Scott and I were working on the overall art direction and making sure we were capturing the right tone for the brand.   The design process for this site was one of the smoothest I've been through recently, and a lot of that is due to Martin Schwartz, the art director on the EW.com side. One of the first things Martin put together for us was what we called a &ldquo;design care package,&rdquo; a collection of fonts, vector logos, visual patterns and texture libraries, and&mdash;tada!&mdash;a <a href="http://styletil.es/">style tile</a> that they made a while ago. </p>
+                <p>We tried to stick to a pretty fluid process, one that really allowed us to show things in the browser as quickly as possible. Robert was working out some content blockings for hierarchy and Brad used his <a href="http://pattern-lab.info/">Pattern Lab</a> to get some prototypes up and running quickly.</p>
 
-            <p>![EW style tile]
-            Pro tip: when your client sends you a great style tile, you know you're in for a wonderful design process</p>
+                <figure class="image-wrapper">
+                    <img src="blocking.png" alt="" />
+                    <figcaption class="image-wrapper-caption">Some simple blockings for hierarchy</figcaption>
+                </figure><!-- .image-wrapper -->
 
-            <p>Since we're in a <a href="/articles/the-post-psd-era/">post-&ldquo;full-comp&rdquo; era</a>, we knew we needed to be thinking more high-level about the visual style. Naturally, we turned to creating some <a href="/articles/rif-element-collages/">element collages</a>. After talking Martin through the idea, he was completely on-board and we ended up with something like this.</p>
+                <p>At the same time, Scott and I were working on the overall art direction and making sure we were capturing the right tone for the brand.   The design process for this site was one of the smoothest I&rsquo;ve been through recently, and a lot of that is due to Martin Schwartz, the art director on the EW.com side. One of the first things Martin put together for us was what we called a &ldquo;design care package,&rdquo; a collection of fonts, vector logos, visual patterns and texture libraries, and&mdash;tada!&mdash;a <a href="http://styletil.es/">style tile</a> that they made internally a little while before our project started.</p>
 
-            <p>![element collage for EW]
-            Element collage for Entertainment Weekly</p>
+                <figure class="image-wrapper">
+                    <img src="ew-style-tile.png" alt="" />
+                    <figcaption class="image-wrapper-caption">Pro tip: when your client sends you a great style tile, you know you&rsquo;re in for a wonderful design process</figcaption>
+                </figure><!-- .image-wrapper -->
 
-            <p>We ended the visual design process by creating a few full pages, not because the client asked for it, but because we wanted to make sure they fit together nicely. Luckily they did!</p>
+                <p>Since we&rsquo;re in a <a href="/articles/the-post-psd-era/">post-&ldquo;full-comp&rdquo; era</a>, we knew we needed to be thinking more high-level about the visual style. Naturally, we turned to creating some <a href="/articles/rif-element-collages/">element collages</a>. After talking Martin through the idea, he was completely on board. After a few iterations, we ended up with something like this.</p>
 
-            <p>![full comps]</p>
+                <figure class="image-wrapper">
+                    <img src="ew-element-collage.png" alt="" />
+                    <figcaption class="image-wrapper-caption">A snippet of the element collage for Entertainment Weekly</figcaption>
+                </figure><!-- .image-wrapper -->
 
-            <p>All together, having an open-minded client that was willing to trust us with process allowed us to move really quickly and not waste time on anything frivolous. Two great teams collaborating makes for a dang good product that we&rsquo;re really proud of.</p>
+                <p>We ended the visual design process by creating a few full pages, not because the client asked for it, but because we wanted to make sure they fit together nicely. Luckily they did!</p>
 
-            <p>For some other perspectives, check out these posts from other members of the team:</p>
-
-            <ul>
-                <li><a href="#">The Twist</a>, by Josh Clark</li>
-                <li><a href="#">How do I Live Without You</a>, by Brad Frost</li>
-                <li><a href="#">Macarena</a>, by Robert Gorell</li>
-            </ul>
+                <figure class="image-wrapper">
+                    <img src="ew-assembled.png" alt="" />
+                    <figcaption class="image-wrapper-caption">A few full pages to ensure congruency</figcaption>
+                </figure><!-- .image-wrapper -->
 
 
-                        
+                <p>All together, having an open-minded client that was willing to trust us with process allowed us to move really quickly and not waste time on anything frivolous. Two great teams collaborating makes for a dang good product that we&rsquo;re really proud of.</p>
+
+                <figure class="image-wrapper">
+                    <img src="ew-phones.png" alt="" />                    
+                </figure><!-- .image-wrapper -->
+
+                <p>For some other perspectives, check out these posts from other members of the team:</p>
+
+                <ul>
+                    <li><a href="#">The Twist</a>, by Josh Clark</li>
+                    <li><a href="#">How do I Live Without You</a>, by Brad Frost</li>
+                    <li><a href="#">Macarena</a>, by Robert Gorell</li>
+                </ul>
+
+            </div><!-- .inner -->                       
 	    
 	    </section><!-- #ew-mobile -->	    
 	    
