@@ -20,7 +20,7 @@
     <meta property="og:title" content="The Responsive Mobile Entertainment Weekly Site" />
     <meta property="og:description"content="New work on a responsive mobile site for Entertainment Weekly."/>	
     <meta property="og:url" content="http://danielmall.com/articles/responsive-mobile-entertainment-weekly/" />
-    <meta property="og:image" content="http://danielmall.com/articles/responsive-mobile-entertainment-weekly/now-with-responsive.png" />
+    <meta property="og:image" content="http://danielmall.com/articles/responsive-mobile-entertainment-weekly/ew-mobile-fb.png" />
     
     
 </head>

@@ -97,6 +97,17 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/responsive-mobile-entertainment-weekly/">
+                                    <img class="round-image" src="/articles/responsive-mobile-entertainment-weekly/home-thumb.png" alt="" />
+                                    <span class="home-item-name">The Responsive Mobile Entertainment Weekly Site</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">New work on a responsive mobile site for Entertainment Weekly.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/now-with-responsive/">
                                     <img class="round-image" src="/articles/now-with-responsive/home-thumb.png" alt="" />
                                     <span class="home-item-name">Now with Responsive!</span>
@@ -105,7 +116,7 @@
                             <p class="home-item-description">Two years later, this site is finally responsive.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/progressive-enhancement/">
@@ -116,7 +127,7 @@
                             <p class="home-item-description">Still alive and kickin&rsquo;.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/how-to-build-an-app/">
@@ -127,6 +138,7 @@
                             <p class="home-item-description">Creating an app in public. Maybe.</p>
                         </article><!-- .home-item-article -->
                     </li>
+                    <?php /* ?>
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -137,8 +149,7 @@
                             </h2><!-- .home-item-headline -->
                             <p class="home-item-description">Questions, answers, and hidden answers.</p>
                         </article><!-- .home-item-article -->
-                    </li>
-                    <?php /* ?>
+                    </li>                    
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
