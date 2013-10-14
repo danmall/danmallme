@@ -15,7 +15,7 @@
 
 	/* Modules */
 
-	#ew-mobile .article-title-wrap { height: 250px; background: transparent url(ew-loop.png) repeat-x 50% 0; margin: 0 0 2em; 
+	#ew-mobile .article-title-wrap { height: 250px; background: transparent url(ew-loop3.png) repeat-x 50% 0; margin: 0 0 2em; 
 		-webkit-animation-name: back;
 	    -webkit-animation-duration: 5000s;
 	    -webkit-animation-direction: normal;
@@ -27,7 +27,11 @@
 	#ew-mobile .image-wrapper { margin: 0 0 1.5em; }
 		#ew-mobile .image-wrapper img { float: none; margin-right: 0; }
 		#ew-mobile .image-wrapper-caption { font-style: italic; color: #a8a8a8; font-size: 15px; }
-		
+	
+	#ew-mobile .subheading { font-size: 30px; margin: 0 0 0.25em; line-height: 1.2; }
+
+	#ew-mobile .pullquote { background: none; padding: 0 0 0 1.5em; border-left: 5px solid #00b0bc; }
+		#ew-mobile .pullquote p { font-family: Georgia, 'Times New Roman', serif; color: #999; font-size: 19px; line-height: 1.5; }
 		
 #ew-mobile ::selection { background: #464646; color: #fdfdfd; }
 #ew-mobile ::-moz-selection { background: #464646; color: #fdfdfd; }
@@ -45,10 +49,12 @@
 
 @media screen and (min-width: 575px){
 	#ew-mobile p, #ew-mobile ol, #ew-mobile ul { font-size: 23px; }
+	#ew-mobile .subheading { font-size: 36px; }
+	#ew-mobile .pullquote p { font-size: 20px; }
 }
 
 @media screen and (min-width: 727px){
-	#ew-mobile .article-title-text { font-size: 56px; line-height: 1.1; }
+	#ew-mobile .article-title-text { font-size: 56px; line-height: 1.1; }	
 }
 
 
