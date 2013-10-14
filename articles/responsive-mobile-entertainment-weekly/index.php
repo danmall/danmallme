@@ -137,6 +137,10 @@
                 </figure><!-- .image-wrapper -->
 
 
+
+
+                <h2 id="ew-gm" class="subheading">EW and Global Moxie, sitting in a tree&hellip;</h2>
+
                 <p>All together, having an open-minded client that was willing to trust us with process allowed us to move really quickly and not waste time on anything frivolous. The collaboration between two great teams makes for a dang good product that we&rsquo;re all really proud of.</p>
 
                 <figure class="image-wrapper">
@@ -144,6 +148,10 @@
                     <img src="ew-real-devices.jpg" alt="" />                    
                     <img src="ew-phones.png" alt="" />                    
                 </figure><!-- .image-wrapper -->
+
+
+
+                <h2 id="read-more" class="subheading">Read more</h2>
 
                 <p>For some other perspectives, check out these posts from other members of the team:</p>
 
