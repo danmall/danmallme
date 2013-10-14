@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2013</dc:rights>
-    <pubDate>Sat, 05 Oct 2013 15:06:56 GMT</pubDate>
+    <pubDate>Mon, 14 Oct 2013 11:00:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>The Responsive Mobile Entertainment Weekly Site</title>
+        <description>New work on a responsive mobile site for Entertainment Weekly.</description>
+        <link>http://danielmall.com/articles/responsive-mobile-entertainment-weekly/</link>
+        <guid>http://danielmall.com/articles/responsive-mobile-entertainment-weekly/</guid>
+        <pubDate>Mon, 14 Oct 2013 11:00:00 GMT</pubDate>
+    </item>
     <item>
         <title>Now with Responsive!</title>
         <description>Two years later, this site is finally responsive.</description>
