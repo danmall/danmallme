@@ -158,7 +158,7 @@
                 <ul>
                     <li><a href="http://globalmoxie.com/blog/entertainment-weekly.shtml">Making of: Entertainment Weekly&rsquo;s Responsive Mobile Site</a>, by Josh Clark</li>
                     <li><a href="http://bradfrostweb.com/blog/post/entertainment-weekly/">Entertainment Weekly</a>, by Brad Frost</li>
-                    <li><a href="#">Macarena</a>, by Robert Gorell</li>
+                    <?php /* ?><li><a href="#">Macarena</a>, by Robert Gorell</li><?php */ ?>
                 </ul>
 
             </div><!-- .inner -->                       
