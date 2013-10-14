@@ -27,6 +27,18 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/responsive-mobile-entertainment-weekly/">The Responsive Mobile Entertainment Weekly Site</a></h1>
+                            </header>
+                            <p>New work on a mobile responsive site for Entertainment Weekly.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/responsive-mobile-entertainment-weekly/"><time datetime="2013-10-14T11:00:00">Oct 14, 2013</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/responsive-mobile-entertainment-weekly/#disqus_thread" data-disqus-identifier="ew-mobile"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>                  
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/now-with-responsive/">Now with Responsive!</a></h1>
                             </header>
                             <p>Two years later, this site is finally responsive.</p>
