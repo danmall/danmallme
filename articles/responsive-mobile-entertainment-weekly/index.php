@@ -158,6 +158,7 @@
                 <ul>
                     <li><a href="http://globalmoxie.com/blog/entertainment-weekly.shtml">Making of: Entertainment Weekly&rsquo;s Responsive Mobile Site</a>, by Josh Clark</li>
                     <li><a href="http://bradfrostweb.com/blog/post/entertainment-weekly/">Entertainment Weekly</a>, by Brad Frost</li>
+                    <li><a href="http://jonathanstark.com/blog/entertainment-weekly">Entertainment Weekly</a>, by Jonathan Stark</li>
                     <?php /* ?><li><a href="#">Macarena</a>, by Robert Gorell</li><?php */ ?>
                 </ul>
 
@@ -195,7 +196,7 @@
 
                     // The following are highly recommended additional parameters. Remove the slashes in front to use.
                     var disqus_identifier = 'ew-mobile';
-                    var disqus_url = 'http://danielmall.com/articles/entertainment-weekly-mobile/';
+                    var disqus_url = 'http://danielmall.com/articles/responsive-mobile-entertainment-weekly/';
                     var disqus_developer = 1;
 
                     /* * * DON'T EDIT BELOW THIS LINE * * */
