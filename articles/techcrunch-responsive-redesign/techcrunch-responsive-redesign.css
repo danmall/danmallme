@@ -1,0 +1,13 @@
+#article-area-wrap { background: #f9f9f9; font: 18px/1.5 'Open Sans', sans-serif; padding: 100px 0 3em; }
+
+#techcrunch-responsive-redesign { margin: 0 auto; width: 95%; max-width: 830px; }     
+
+	#techcrunch-responsive-redesign p { font-size: 14px; line-height: 1.6; }
+	#techcrunch-responsive-redesign a { color: #089e00; font-weight: 600; border: none; }
+	#techcrunch-responsive-redesign a:hover, #techcrunch-responsive-redesign a:focus { color: #343c34; }
+	
+	.chron { border-left: 3px solid #ececec; padding: 0 0 0 1em; }
+		
+		
+#techcrunch-responsive-redesign ::selection { background: #464646; color: #fdfdfd; }
+#techcrunch-responsive-redesign ::-moz-selection { background: #464646; color: #fdfdfd; }
