@@ -64,6 +64,46 @@
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 
+                <article class="event">
+                    <div class="event-main">
+                        <h1 class="event-header">Awarded</h1>
+                        <p class="event-date">31 <abbr title="December">Dec</abbr> 2012</p>
+                        <p>TechCrunch sends us the good news that they want to partner with us for the project. Happy almost new year!</p>
+                    </div><!-- .event-main -->
+                </article><!-- .event -->
+
+                <article class="event">
+                    <div class="event-main">
+                        <h1 class="event-header">Pre-game</h1>
+                        <p class="event-date">14 <abbr title="January">Jan</abbr> 2013</p>
+                        <p>Our team ships out to San Francisco to kickoff with TechCrunch. We spend a day prepping.</p>
+                        <img src="i/01-pregame/josh-jbro.jpg" alt="Josh Clark &amp; Jennifer Brook" />
+                        <img src="i/01-pregame/jbro-writing.jpg" alt="Jennifer Brook writing" />
+                        <img src="i/01-pregame/brad-face.jpg" alt="Brad Frost" />
+                    </div><!-- .event-main -->
+                </article><!-- .event -->
+
+                <article class="event">
+                    <div class="event-main">
+                        <h1 class="event-header">Kickoff</h1>
+                        <p class="event-date">16 <abbr title="January">Jan</abbr> 2013</p>
+                        <p>Kickoff! We take the team through some prioritization exercises, gut tests, and design studio exercises.</p>
+                        <img src="i/02-kickoff/tc-kickoff1.jpg" alt="Prioritization exercises" />
+                        <img src="i/02-kickoff/experience-behavior.jpg" alt="Experience behavior" />
+                        <img src="i/02-kickoff/sketching.jpg" alt="Design Studio" />
+                    </div><!-- .event-main -->
+                </article><!-- .event -->
+
+                <article class="event">
+                    <div class="event-main">
+                        <h1 class="event-header">Timberlake</h1>
+                        <p class="event-date">16 <abbr title="January">Jan</abbr> 2013</p>
+                        <p>A day after the new Myspace launches, TechCrunch publishes <a href="http://techcrunch.com/2013/01/16/were-bringing-techcrunch-back/">an article about the redesign</a> during the kickoff meeting. We dub the project &ldquo;Codename: Timberlake.&rdquo;</p>
+                        <img src="i/03-timberlake/816440400_1965379.gif" alt="Timberlake" width="700" />
+                        <object width="640" height="360"><param name="movie" value="//www.youtube.com/v/j6m2pjjhnuU?version=3&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/j6m2pjjhnuU?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="640" height="360" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+                    </div><!-- .event-main -->
+                </article><!-- .event -->
+
             </section><!-- .chron -->           
 	    
 	    </section><!-- #techcrunch-responsive-redesign -->	    
