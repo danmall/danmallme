@@ -32,7 +32,7 @@
 
             <section class="chron">
 
-                <article class="event">
+                <article class="event" id="initial-contact">
                     <div class="event-main">
                         <h1 class="event-header">Initial Contact</h1>
                         <p class="event-date">4 <abbr title="December">Dec</abbr> 2012</p>
@@ -40,7 +40,7 @@
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 
-                <article class="event">
+                <article class="event" id="regroup">
                     <div class="event-main">
                         <h1 class="event-header">Regroup</h1>
                         <p class="event-date">10 <abbr title="December">Dec</abbr> 2012</p>
@@ -48,7 +48,7 @@
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 
-                <article class="event">
+                <article class="event" id="snacks">
                     <div class="event-main">
                         <h1 class="event-header">Snacks</h1>
                         <p class="event-date">19 <abbr title="December">Dec</abbr> 2012</p>
@@ -56,7 +56,7 @@
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 
-                <article class="event">
+                <article class="event" id="prescreen">
                     <div class="event-main">
                         <h1 class="event-header">Prescreen</h1>
                         <p class="event-date">21 <abbr title="December">Dec</abbr> 2012</p>
@@ -64,7 +64,7 @@
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 
-                <article class="event">
+                <article class="event" id="awarded">
                     <div class="event-main">
                         <h1 class="event-header">Awarded</h1>
                         <p class="event-date">31 <abbr title="December">Dec</abbr> 2012</p>
@@ -72,7 +72,7 @@
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 
-                <article class="event">
+                <article class="event" id="pregame">
                     <div class="event-main">
                         <h1 class="event-header">Pre-game</h1>
                         <p class="event-date">14 <abbr title="January">Jan</abbr> 2013</p>
@@ -83,7 +83,7 @@
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 
-                <article class="event">
+                <article class="event" id="kickoff">
                     <div class="event-main">
                         <h1 class="event-header">Kickoff</h1>
                         <p class="event-date">16 <abbr title="January">Jan</abbr> 2013</p>
@@ -94,7 +94,7 @@
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 
-                <article class="event">
+                <article class="event" id="timberlake">
                     <div class="event-main">
                         <h1 class="event-header">Timberlake</h1>
                         <p class="event-date">16 <abbr title="January">Jan</abbr> 2013</p>
@@ -106,11 +106,11 @@
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 
-                <article class="event">
+                <article class="event" id="influence">
                     <div class="event-main">
                         <h1 class="event-header">Influence</h1>
                         <p class="event-date">18 <abbr title="January">Jan</abbr> 2013</p>
-                        <p>I immediately start <a href="http://www.flickr.com/photos/danielmall/sets/72157637758626816/">an &ldquo;influence&rdquo; folder</a> to catalog some patterns I think could work. I also jotted down a list of elements I had ideas for in order to start my <a href="http://danielmall.com/articles/rif-element-collages/">element collage</a>:</p>
+                        <p>I immediately start <a href="http://www.flickr.com/photos/danielmall/sets/72157637758626816/">an &ldquo;influence&rdquo; folder</a> to catalog some patterns I think could work. I also jot down a list of elements I have ideas for in order to start my <a href="http://danielmall.com/articles/rif-element-collages/">element collage</a>:</p>
                         <ul>
                             <li><abbr title="Too long; didn&rsquo; read">TL;DR</abbr> section</li>
                             <li>Breaking news alert</li>
@@ -122,6 +122,29 @@
                             <li>Types of image slideshow</li>
                             <li>Blockquote data-attribute</li>
                         </ul>
+                    </div><!-- .event-main -->
+                </article><!-- .event -->
+
+                <article class="event" id="element-collage">
+                    <div class="event-main">
+                        <h1 class="event-header">Element Collage</h1>
+                        <p class="event-date">30 <abbr title="January">Jan</abbr> 2013</p>
+                        <p>Information architecture and development work are already in full swing. Regarding design, I post an element collage created in Photoshop to start discussions about general art direction for the new site.</p>
+                        <img src="i/04-element-collage/techcrunch-elements.jpg" alt="Initial element collage" />
+                    </div><!-- .event-main -->
+                </article><!-- .event -->
+
+                <article class="event" id="type-color">
+                    <div class="event-main">
+                        <h1 class="event-header">Typography &amp; Color</h1>
+                        <p class="event-date">6 <abbr title="February">Feb</abbr> 2013</p>
+                        <p>The TechCrunch team gives some great feedback about this initial pass. Summary:</p>
+                        <ul>
+                            <li>Can we explore other color palettes that involve less green?</li>
+                            <li>Can we explore lighter headline treatments?</li>
+                        </ul>
+                        <p>I pop open <a href="http://typecast.com/">Typecast</a> and start setting some type.</p>
+                        <img src="i/05-type/type.png" alt="Alternate type treatments" />
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 

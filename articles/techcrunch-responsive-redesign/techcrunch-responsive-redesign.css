@@ -13,7 +13,7 @@
 			#techcrunch-responsive-redesign .event-main { border-left: 3px solid #ececec; padding: 1em 0 2em 1.5em; }
 
 				#techcrunch-responsive-redesign .event-header { font-size: 23px; margin: 0 0 0.05em; position: relative; padding: 0 0 0 1.7em; left: -1.7em; font-family: 'Alright Sans'; font-style: normal; font-weight: bold; color: #343c34; }
-				#techcrunch-responsive-redesign .event-header:before { content: ""; width: 20px; height: 20px; background: #f9f9f9; display: block; border-radius: 20px; border: 3px solid #d2d3d2; position: absolute; top: 0.25em; left: 0; }
+				#techcrunch-responsive-redesign .event-header:before { content: ""; width: 20px; height: 20px; background: #f9f9f9; display: block; border-radius: 20px; border: 3px solid #d2d3d2; position: absolute; top: 0; left: 0; }
 
 				#techcrunch-responsive-redesign .event-date { font-size: 12px; font-family: 'Alright Sans'; font-style: italic; font-weight: bold; }
 					#techcrunch-responsive-redesign .event-date abbr { text-transform: none; font-size: 100%; letter-spacing: 0; }
@@ -22,7 +22,7 @@
 
 	@media screen and (min-width: 700px){
 		#techcrunch-responsive-redesign .event { position: relative; padding: 0 0 0 130px; }
-			#techcrunch-responsive-redesign .event-date { position: absolute; left: 0; top: 1.9em; background: #e0e0e0; padding: 0.3em 1em; }
+			#techcrunch-responsive-redesign .event-date { position: absolute; left: 0; top: 1.5em; background: #e0e0e0; padding: 0.3em 1em; }
 			#techcrunch-responsive-redesign .event-date:after { content: ""; display: block; width: 0px; height: 0px; border-style: solid; border-width: 14.5px 0 14.5px 13px; border-color: transparent transparent transparent #e0e0e0; position: absolute; right: -13px; top: 0; }
 	}
 
