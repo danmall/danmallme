@@ -100,7 +100,28 @@
                         <p class="event-date">16 <abbr title="January">Jan</abbr> 2013</p>
                         <p>A day after the new Myspace launches, TechCrunch publishes <a href="http://techcrunch.com/2013/01/16/were-bringing-techcrunch-back/">an article about the redesign</a> during the kickoff meeting. We dub the project &ldquo;Codename: Timberlake.&rdquo;</p>
                         <img src="i/03-timberlake/816440400_1965379.gif" alt="Timberlake" width="700" />
-                        <object width="640" height="360"><param name="movie" value="//www.youtube.com/v/j6m2pjjhnuU?version=3&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/j6m2pjjhnuU?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="640" height="360" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+                        <div class="video">
+                            <iframe width="640" height="360" src="//www.youtube.com/embed/j6m2pjjhnuU?rel=0" frameborder="0" allowfullscreen></iframe>
+                        </div><!-- .video -->
+                    </div><!-- .event-main -->
+                </article><!-- .event -->
+
+                <article class="event">
+                    <div class="event-main">
+                        <h1 class="event-header">Influence</h1>
+                        <p class="event-date">18 <abbr title="January">Jan</abbr> 2013</p>
+                        <p>I immediately start <a href="http://www.flickr.com/photos/danielmall/sets/72157637758626816/">an &ldquo;influence&rdquo; folder</a> to catalog some patterns I think could work. I also jotted down a list of elements I had ideas for in order to start my <a href="http://danielmall.com/articles/rif-element-collages/">element collage</a>:</p>
+                        <ul>
+                            <li><abbr title="Too long; didn&rsquo; read">TL;DR</abbr> section</li>
+                            <li>Breaking news alert</li>
+                            <li>Crunchbase data card</li>
+                            <li>Feature authors</li>
+                            <li>Recirculation</li>
+                            <li>Feature stories</li>
+                            <li>Quote to sum up event</li>
+                            <li>Types of image slideshow</li>
+                            <li>Blockquote data-attribute</li>
+                        </ul>
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 
@@ -182,6 +203,14 @@
     	
     	
     </div><!-- #wrap -->
+
+    <script src="jquery.fitvids.js"></script>
+    <script>
+      $(document).ready(function(){
+        // Target your .container, .wrapper, .post, etc.
+        $('.video').fitVids();
+      });
+    </script>
 	    
 	
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/close.php"); echo "\n"; ?>
