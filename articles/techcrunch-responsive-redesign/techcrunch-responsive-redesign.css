@@ -6,7 +6,12 @@
 	#techcrunch-responsive-redesign a { color: #089e00; font-weight: 600; border: none; }
 	#techcrunch-responsive-redesign a:hover, #techcrunch-responsive-redesign a:focus { color: #343c34; }
 	
-	.chron { border-left: 3px solid #ececec; padding: 0 0 0 1em; }
+	.chron { }
+		.chron .event { border-bottom: 1px solid #d2d3d2; }
+			.chron .event-main { border-left: 3px solid #ececec; padding: 1em 0 2em 1em; }
+				.chron .event-header { font-size: 24px; margin: 0 0 0.1em; position: relative; padding: 0 0 0 1.4em; left: -1.4em;}
+				.chron .event-header:before { content: ""; width: 20px; height: 20px; background: #f9f9f9; display: block; border-radius: 20px; border: 3px solid #d2d3d2; position: absolute; top: 0.25em; left: 0; }
+				.chron .event-main p:last-child { margin-bottom: 0; }
 		
 		
 #techcrunch-responsive-redesign ::selection { background: #464646; color: #fdfdfd; }

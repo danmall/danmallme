@@ -32,27 +32,35 @@
             <section class="chron">
 
                 <article class="event">
-                    <h1 class="event-header">Initial Contact</h1>
-                    <p class="event-date">4 December 2012</p>
-                    <p>I got an email from Josh Clark, an internet friend that I've never actually met before. Josh told me that he had needs a designer for a few projects coming up and that he'd love to work together, which was music to my ears. We continued to flatter each other for a few emails as we discussed rates and timelines, and Josh told me about the potential all-star team of interaction designer <a href="https://twitter.com/jenniferbrook">Jennifer Brook</a>, front-end designer <a href="http://bradfrostweb.com/">Brad Frost</a>, mobile strategy consultant <a href="http://jonathanstark.com/">Jonathan Stark</a>, and project manager <a href="http://www.linkedin.com/in/kristinafrantz">Kristina Frantz</a>. Sold!</p>
+                    <div class="event-main">
+                        <h1 class="event-header">Initial Contact</h1>
+                        <p class="event-date">4 December 2012</p>
+                        <p>I got an email from Josh Clark, an internet friend that I've never actually met before. Josh told me that he had needs a designer for a few projects coming up and that he'd love to work together, which was music to my ears. We continued to flatter each other for a few emails as we discussed rates and timelines, and Josh told me about the potential all-star team of interaction designer <a href="https://twitter.com/jenniferbrook">Jennifer Brook</a>, front-end designer <a href="http://bradfrostweb.com/">Brad Frost</a>, mobile strategy consultant <a href="http://jonathanstark.com/">Jonathan Stark</a>, and project manager <a href="http://www.linkedin.com/in/kristinafrantz">Kristina Frantz</a>. Sold!</p>
+                    </div><!-- .event-main -->
                 </article><!-- .event -->
 
                 <article class="event">
-                    <h1 class="event-header">Regroup</h1>
-                    <p class="event-date">10 December 2012</p>
-                    <p>We chat for the first time as a team about how we could work together. Josh writes an <em>amazing</em> proposal, and TechCrunch is interested in talking with us further.</p>
+                    <div class="event-main">
+                        <h1 class="event-header">Regroup</h1>
+                        <p class="event-date">10 December 2012</p>
+                        <p>We chat for the first time as a team about how we could work together. Josh writes an <em>amazing</em> proposal, and TechCrunch is interested in talking with us further.</p>
+                    </div><!-- .event-main -->
                 </article><!-- .event -->
 
                 <article class="event">
-                    <h1 class="event-header">Snacks</h1>
-                    <p class="event-date">19 December 2012</p>
-                    <p>I go to New York to meet with Josh. We chat at <a href="http://www.onegirlcookies.com/">One Girl Cookies</a> over cupcakes and cookies, the way proper meetings should go.</p>
+                    <div class="event-main">
+                        <h1 class="event-header">Snacks</h1>
+                        <p class="event-date">19 December 2012</p>
+                        <p>I go to New York to meet with Josh. We chat at <a href="http://www.onegirlcookies.com/">One Girl Cookies</a> over cupcakes and cookies, the way proper meetings should go.</p>
+                    </div><!-- .event-main -->
                 </article><!-- .event -->
 
                 <article class="event">
-                    <h1 class="event-header">Prescreen</h1>
-                    <p class="event-date">21 December 2012</p>
-                    <p>Our first call with TechCrunch as a group. We talked about this like how we&rsquo;d work together as a big team, how quickly we can be iterative, how invested they are in trying to achieve a great design, and how possible it was to get quickly into code.</p>
+                    <div class="event-main">
+                        <h1 class="event-header">Prescreen</h1>
+                        <p class="event-date">21 December 2012</p>
+                        <p>Our first call with TechCrunch as a group. We talked about this like how we&rsquo;d work together as a big team, how quickly we can be iterative, how invested they are in trying to achieve a great design, and how possible it was to get quickly into code.</p>
+                    </div><!-- .event-main -->
                 </article><!-- .event -->
 
             </section><!-- .chron -->           
