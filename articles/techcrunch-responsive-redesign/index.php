@@ -196,6 +196,53 @@
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 
+                <article class="event" id="river">
+                    <div class="event-main">
+                        <h1 class="event-header">The River</h1>
+                        <p class="event-date">20 <abbr title="March">Mar</abbr> 2013</p>
+                        <p>I&rsquo;m thinking pretty deeply about how to really drive home this idea of the river, a chronological stream. I see all of the posts as historical points within the same axis of time, and I want to graphically communicate that. There&rsquo;s also a lot of meta information related to each point and time. I call them &ldquo;flags,&rdquo; but a more accurate metaphor would be something like &ldquo;buoys&rdquo; or &ldquo;mile markers.&rdquo; Here are the first few iterations of that idea.</p>
+                        <img class="bordered-image" src="i/09-river/river1.jpg" alt="River idea" width="698" />
+                        <img class="bordered-image" src="i/09-river/river2.jpg" alt="River idea" width="698" />
+                        <img class="bordered-image" src="i/09-river/river3.jpg" alt="River idea" width="698" />
+                        <img class="bordered-image" src="i/09-river/river4.jpg" alt="River idea" width="698" />
+
+                        <p>I even create a few motion studies about how the interaction could work on smaller screens.</p>
+                        <img src="i/09-river/river-small-animation.gif" alt="River interaction" width="700" />
+
+                    </div><!-- .event-main -->
+                </article><!-- .event -->
+
+                <article class="event" id="river">
+                    <div class="event-main">
+                        <h1 class="event-header">Tweaking</h1>
+                        <p class="event-date">22 <abbr title="March">Mar</abbr> 2013</p>
+                        <p>By now, all of the major patterns on the site exist in <abbr>HTML</abbr> and <abbr>CSS</abbr>, and I&rsquo;m working closely with Brad to tweak some one-off designs that need some extra design love. Most of my time is spent between Photoshop, After Effects, Flash, and Sublime Text (I&rsquo;m making quick and dirty interaction prototypes for Brad, while he&rsquo;s turning them into production-level code that works within the pattern library). The majority of the &ldquo;deliverables&rdquo; are happening in-browser.</p>
+                        <p>For the next 3 months, I&rsquo;m focusing on being design support, making views for Brad and Jonathan that aren&rsquo;t yet defined. That includes things like rollover states, animations, pullquotes, &ldquo;breaking news&rdquo; elements, article intro styles, and more.</p>
+                        <img class="bordered-image" src="i/10-tweaking/pullquote-styles.png" alt="Pullquote styles" width="700" />
+                        <img class="bordered-image" src="i/10-tweaking/breaking1.jpg" alt="Breaking News idea" width="700" />
+                        <img class="bordered-image" src="i/10-tweaking/breaking2.jpg" alt="Breaking news idea" width="700" />
+                        <img class="bordered-image" src="i/10-tweaking/intro.jpg" alt="Article intro" width="700" />
+                        <img class="bordered-image" src="i/10-tweaking/crunchbase.png" alt="Crunchbase element" width="700" />                        
+
+                    </div><!-- .event-main -->
+                </article><!-- .event -->
+
+                <article class="event" id="design-audit">
+                    <div class="event-main">
+                        <h1 class="event-header">Design Audit</h1>
+                        <p class="event-date">14 <abbr title="June">Jun</abbr> 2013</p>
+                        <p>If you haven&rsquo;t already inferred it, this was a <em>massive</em> project. Brad&rsquo;s already been working a <em>ton</em> on these templates. Being the anal-retentive designer I am, there are a handful of things that I want to tighten up. You know, the extra 1%&hellip; that extra polish that makes a site really shine. But, I didn&rsquo;t want to overload Brad. Dilemma!</p>
+                        <p>I decide to take the chance and mention to Brad that I&rsquo;d like to put together a list of some tweaks that I&rsquo;d like to make and that we can decide which ones are high priority enough to make. I cringe while I wait for the reply.</p>
+                        <p>Brad responds with one line: &ldquo;<strong>Pour me a cup of coffee.</strong>&rdquo; This is why I love him like a brother.</p>
+                        <p>I make some Photoshop motivation for Brad:</p>
+                        <img src="i/11-design-audit/brad.jpg" class="Brad Frost, my hero" />
+
+                        <p>A little while later, Brad returned with most of the changes done. To my surprise, he had the complete opposite reaction than I though. Instead of being disgruntled about the changes, he was energized about them. &ldquo;Everything is so much tighter,&rdquo; he said. &ldquo;I&rsquo;m loving this site all over again.&rdquo;</p>
+                        
+
+                    </div><!-- .event-main -->
+                </article><!-- .event -->
+
             </section><!-- .chron -->           
 	    
 	    </section><!-- #techcrunch-responsive-redesign -->	    

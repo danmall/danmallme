@@ -8,6 +8,8 @@
 	
 	#techcrunch-responsive-redesign .chron { }
 		#techcrunch-responsive-redesign .chron img { float: none; }
+		#techcrunch-responsive-redesign .bordered-image { border: 1px solid #ddd; }
+		#techcrunch-responsive-redesign .chron em { color: #3b3d3b; font-style: normal; font-weight: 600; }		
 
 		#techcrunch-responsive-redesign .event { border-bottom: 1px solid #d2d3d2; }
 			#techcrunch-responsive-redesign .event-main { border-left: 3px solid #ececec; padding: 1em 0 2em 1.5em; }
