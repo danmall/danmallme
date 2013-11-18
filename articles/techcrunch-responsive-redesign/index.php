@@ -234,12 +234,27 @@
                         <p>If you haven&rsquo;t already inferred it, this was a <em>massive</em> project. Brad&rsquo;s already been working a <em>ton</em> on these templates. Being the anal-retentive designer I am, there are a handful of things that I want to tighten up. You know, the extra 1%&hellip; that extra polish that makes a site really shine. But, I didn&rsquo;t want to overload Brad. Dilemma!</p>
                         <p>I decide to take the chance and mention to Brad that I&rsquo;d like to put together a list of some tweaks that I&rsquo;d like to make and that we can decide which ones are high priority enough to make. I cringe while I wait for the reply.</p>
                         <p>Brad responds with one line: &ldquo;<strong>Pour me a cup of coffee.</strong>&rdquo; This is why I love him like a brother.</p>
-                        <p>I make some Photoshop motivation for Brad:</p>
+                        <p>I make some Photoshop motivation for Brad and get crankin&rsquo; on a Google doc for the desired changes:</p>
                         <img src="i/11-design-audit/brad.jpg" class="Brad Frost, my hero" />
 
-                        <p>A little while later, Brad returned with most of the changes done. To my surprise, he had the complete opposite reaction than I though. Instead of being disgruntled about the changes, he was energized about them. &ldquo;Everything is so much tighter,&rdquo; he said. &ldquo;I&rsquo;m loving this site all over again.&rdquo;</p>
-                        
+                        <p>A little while later, Brad returned with most of the changes done. To my surprise, he had the complete opposite reaction than I though. Instead of being disgruntled about the changes, he was energized about them. &ldquo;Everything is so much tighter,&rdquo; he said. &ldquo;I&rsquo;m loving this site all over again.&rdquo;</p>                        
 
+                    </div><!-- .event-main -->
+                </article><!-- .event -->
+
+                <article class="event" id="launch-day">
+                    <div class="event-main">
+                        <h1 class="event-header">Launch Day</h1>
+                        <p class="event-date">15 <abbr title="October">Oct</abbr> 2013</p>
+                        <p>The new TechCrunch site launches! Our friends at TechCrunch write up <a href="http://techcrunch.com/2013/10/15/techcrunch-has-redesigned-again/">some of the details</a> of the redesign. Not surprisingly, some people hate it. But surprisingly, some people don&rsquo;t! In fact, we even spot a few words like &ldquo;great work,&rdquo; &ldquo;like,&rdquo; &ldquo;better,&rdquo; and one &ldquo;much, much, much, much, much improved.&rdquo; Not too shabby!</p>                        
+                    </div><!-- .event-main -->
+                </article><!-- .event -->
+
+                <article class="event" id="wrap-up">
+                    <div class="event-main">
+                        <h1 class="event-header">Wrap Up</h1>
+                        <p class="event-date">18 <abbr title="November">Nov</abbr> 2013</p>
+                        <p>To say I learned a lot while working on this project is an understatement. Sometimes, responsive design is hard. Design is hard. Business is hard. But because I had the opportunity to work alongside people that are some of the best in the world at what they do&mdash;and yes, that includes the client too&mdash;and everyone was working towards the same goal of a great site for both TechCrunch readers and writers, it&rsquo;s hard not to be proud of the results.</p>                        
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 
@@ -299,7 +314,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2013-10-05T15:06:56">Published Oct 5, 2013 at 3:06 <abbr title="Post Meridian">PM</abbr></time>
+        	        <time datetime="2013-11-18T11:15:00">Published Nov 18, 2013 at 11:15 <abbr title="Ante Meridian">AM</abbr></time>
     	        </section><!-- /#article-info -->
     	        
     	        
