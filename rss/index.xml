@@ -14,6 +14,13 @@
     <pubDate>Mon, 14 Oct 2013 11:00:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
     <item>
+        <title>TechCrunch: A responsive redesign</title>
+        <description>The story of the new responsive TechCrunch.</description>
+        <link>http://danielmall.com/articles/techcrunch-responsive-redesign/</link>
+        <guid>http://danielmall.com/articles/techcrunch-responsive-redesign/</guid>
+        <pubDate>Mon, 18 Nov 2013 12:15:00 GMT</pubDate>
+    </item>
+    <item>
         <title>The Responsive Mobile Entertainment Weekly Site</title>
         <description>New work on a responsive mobile site for Entertainment Weekly.</description>
         <link>http://danielmall.com/articles/responsive-mobile-entertainment-weekly/</link>
