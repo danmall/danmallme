@@ -141,10 +141,58 @@
                         <p>The TechCrunch team gives some great feedback about this initial pass. Summary:</p>
                         <ul>
                             <li>Can we explore other color palettes that involve less green?</li>
-                            <li>Can we explore lighter headline treatments?</li>
+                            <li>Can we explore different type treatments, possible lighter ones to accommodate more dense headlines?</li>
                         </ul>
-                        <p>I pop open <a href="http://typecast.com/">Typecast</a> and start setting some type.</p>
+                        <p>I pop open Photoshop and <a href="http://typecast.com/">Typecast</a> and start setting some type.</p>
                         <img src="i/05-type/type.png" alt="Alternate type treatments" />
+                    </div><!-- .event-main -->
+                </article><!-- .event -->
+
+                <article class="event" id="site-header">
+                    <div class="event-main">
+                        <h1 class="event-header">Site Header</h1>
+                        <p class="event-date">13 <abbr title="February">Feb</abbr> 2013</p>
+                        <p>At this point, we have content/architecture patterns for global elements, navigation, the homepage, and channel/topic pages down, so I start to explore the art direction can be applied to those elements.</p>
+                        <img src="i/06-site-header/header.jpg" alt="Site header" />                        
+                    </div><!-- .event-main -->
+                </article><!-- .event -->
+
+                <article class="event" id="home-article-logo">
+                    <div class="event-main">
+                        <h1 class="event-header">Homepage, Article page, and Logo</h1>
+                        <p class="event-date">20 <abbr title="February">Feb</abbr> 2013</p>
+                        <p>The team has some legitimate concerns about readability of white text on a dark background. They also asked us to explore a few logo treatments that address some qualms they&rsquo;ve had with it for some while, so we take a quick detour to play around with it.</p>                        
+                        <img src="i/07-home-article-logo/logos2.png" alt="Logo exploration" />                        
+
+                        <p>It also feels like the right time in the project to start showing examples of pages with all the patterns put together, so I take a stab at the homepage and the article page.</p>
+                        <img src="i/07-home-article-logo/article2.jpg" alt="Article page" width="700" />
+                        <img src="i/07-home-article-logo/home.jpg" alt="Home" width="700" />                        
+
+                    </div><!-- .event-main -->
+                </article><!-- .event -->
+
+                <article class="event" id="home-article-logo">
+                    <div class="event-main">
+                        <h1 class="event-header">For our eyes only</h1>
+                        <p class="event-date">01 <abbr title="March">Mar</abbr> 2013</p>
+                        <p>This whole time, Brad has been working on creating what will come to be known as <a href="http://pattern-lab.info/">Pattern Lab</a>. We&rsquo;ve also been showing a combination of Photoshop files (as <abbr title="Joint Photographic Experts Group">JPEG</abbr>s embedded into <abbr title="HyperText Markup Language">HTML</abbr> files), sketches (as <abbr title="Portable Document Format">PDF</abbr>s), and prototypes (as <abbr>HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr>/<abbr title="JavaScript">JS</abbr>).</p>
+                        <p><strong>At this point in the project, we decide to show in-browser samples only from now on.</strong> I&rsquo;m still working in Photoshop and at the same pace I was working before, but the things I&rsquo;m making are purely for our team to discuss. If we all think what I&rsquo;m making is valuable, then Brad will implement it in code, so that TechCrunch will always see responsive, working demos instead of flat mocks.</p>
+                        <p>Regarding the previous round of design, TechCrunch hates what they see&mdash;and rightly so. The homepage looks sporadic and unorganized; it loses the concept of &ldquo;the river&rdquo;&mdash;a reverse chronological vertical listing&mdash;that makes TechCrunch so familiar. Back to the drawing board.</p>
+                        <p>For the next 3 weeks, I start to play with more explorations for the homepage and the river.</p>
+                        <img src="i/08-home-article/home1.jpg" alt="Home page idea" width="700" />
+                        <img src="i/08-home-article/home2.jpg" alt="Home page idea" width="700" />
+                        <img src="i/08-home-article/home3.jpg" alt="Home page idea" width="700" />
+                        <img src="i/08-home-article/home4.jpg" alt="Home page idea" width="700" />
+
+                        <p>I also spend some time really digging into the article page, a very important template for the site.</p>
+                        <img src="i/08-home-article/article1.jpg" alt="Article page idea" width="700" />
+                        <img src="i/08-home-article/article2.jpg" alt="Article page idea" width="700" />
+                        <img src="i/08-home-article/article3.jpg" alt="Article page idea" width="700" />
+                        <img src="i/08-home-article/article4.jpg" alt="Article page idea" width="700" />
+
+                        <p>Lastly, I start getting to some of the elements that we know are already working well that just need some visual love, like the header.</p>
+                        <img src="i/08-home-article/header.jpg" alt="Responsive header" width="700" />
+
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 
