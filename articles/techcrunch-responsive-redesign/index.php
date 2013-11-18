@@ -28,7 +28,10 @@
 	    
 	    <section id="techcrunch-responsive-redesign" class="clearfix">
 			
-			<h1 class="article-title">TechCrunch: A Responsive Redesign</h1><!-- .article-title -->
+			<h1 class="article-title alrightsansbold clearfix">
+                <img class="tc-logo" src="tc-logo5.svg" alt="TechCrunch" />
+                <span class="article-title-text">A responsive redesign</span>
+            </h1><!-- .article-title -->
 
             <section class="chron">
 
