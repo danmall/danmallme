@@ -28,7 +28,10 @@
 	    
 	    <section id="techcrunch-responsive-redesign" class="clearfix">
 			
-			<h1 class="article-title">TechCrunch: A Responsive Redesign</h1><!-- .article-title -->
+			<h1 class="article-title alrightsansbold clearfix">
+                <img class="tc-logo" src="tc-logo5.svg" alt="TechCrunch" />
+                <span class="article-title-text">A responsive redesign</span>
+            </h1><!-- .article-title -->
 
             <section class="chron">
 
@@ -77,9 +80,14 @@
                         <h1 class="event-header">Pre-game</h1>
                         <p class="event-date">14 <abbr title="January">Jan</abbr> 2013</p>
                         <p>Our team ships out to San Francisco to kickoff with TechCrunch. We spend a day prepping.</p>
-                        <img src="i/01-pregame/josh-jbro.jpg" alt="Josh Clark &amp; Jennifer Brook" />
-                        <img src="i/01-pregame/jbro-writing.jpg" alt="Jennifer Brook writing" />
-                        <img src="i/01-pregame/brad-face.jpg" alt="Brad Frost" />
+                        <img class="lazy" width="700" data-original="i/01-pregame/josh-jbro.jpg" />
+                        <img class="lazy" width="700" data-original="i/01-pregame/jbro-writing.jpg" />
+                        <img class="lazy" width="700" data-original="i/01-pregame/brad-face.jpg" />
+                        <noscript>
+                            <img src="i/01-pregame/josh-jbro.jpg" alt="Josh Clark &amp; Jennifer Brook" />
+                            <img src="i/01-pregame/jbro-writing.jpg" alt="Jennifer Brook writing" />
+                            <img src="i/01-pregame/brad-face.jpg" alt="Brad Frost" />
+                        </noscript>
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 
@@ -88,9 +96,14 @@
                         <h1 class="event-header">Kickoff</h1>
                         <p class="event-date">16 <abbr title="January">Jan</abbr> 2013</p>
                         <p>Kickoff! We take the team through some prioritization exercises, gut tests, and design studio exercises.</p>
-                        <img src="i/02-kickoff/tc-kickoff1.jpg" alt="Prioritization exercises" />
-                        <img src="i/02-kickoff/experience-behavior.jpg" alt="Experience behavior" />
-                        <img src="i/02-kickoff/sketching.jpg" alt="Design Studio" />
+                        <img class="lazy" width="700" data-original="i/02-kickoff/tc-kickoff1.jpg" />
+                        <img class="lazy" width="700" data-original="i/02-kickoff/experience-behavior.jpg" />
+                        <img class="lazy" width="700" data-original="i/02-kickoff/sketching.jpg" />
+                        <noscript>
+                            <img src="i/02-kickoff/tc-kickoff1.jpg" alt="Prioritization exercises" />
+                            <img src="i/02-kickoff/experience-behavior.jpg" alt="Experience behavior" />
+                            <img src="i/02-kickoff/sketching.jpg" alt="Design Studio" />
+                        </noscript>
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 
@@ -99,7 +112,10 @@
                         <h1 class="event-header">Timberlake</h1>
                         <p class="event-date">16 <abbr title="January">Jan</abbr> 2013</p>
                         <p>A day after the new Myspace launches, TechCrunch publishes <a href="http://techcrunch.com/2013/01/16/were-bringing-techcrunch-back/">an article about the redesign</a> during the kickoff meeting. We dub the project &ldquo;Codename: Timberlake.&rdquo;</p>
-                        <img src="i/03-timberlake/816440400_1965379.gif" alt="Timberlake" width="700" />
+                        <img class="lazy" data-original="i/03-timberlake/816440400_1965379.gif" width="700" />
+                        <noscript>
+                            <img src="i/03-timberlake/816440400_1965379.gif" alt="Timberlake" width="700" />
+                        </noscript>
                         <div class="video">
                             <iframe width="640" height="360" src="//www.youtube.com/embed/j6m2pjjhnuU?rel=0" frameborder="0" allowfullscreen></iframe>
                         </div><!-- .video -->
@@ -130,7 +146,10 @@
                         <h1 class="event-header">Element Collage</h1>
                         <p class="event-date">30 <abbr title="January">Jan</abbr> 2013</p>
                         <p>Information architecture and development work are already in full swing. Regarding design, I post an element collage created in Photoshop to start discussions about general art direction for the new site.</p>
-                        <img src="i/04-element-collage/techcrunch-elements.jpg" alt="Initial element collage" />
+                        <img class="lazy" data-original="i/04-element-collage/techcrunch-elements.jpg" width="700" />
+                        <noscript>
+                            <img src="i/04-element-collage/techcrunch-elements.jpg" alt="Initial element collage" />
+                        </noscript>
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 
@@ -144,7 +163,10 @@
                             <li>Can we explore different type treatments, possible lighter ones to accommodate more dense headlines?</li>
                         </ul>
                         <p>I pop open Photoshop and <a href="http://typecast.com/">Typecast</a> and start setting some type.</p>
-                        <img src="i/05-type/type.png" alt="Alternate type treatments" />
+                        <img class="lazy" width="700" data-original="i/05-type/type.png" />
+                        <noscript>
+                            <img src="i/05-type/type.png" alt="Alternate type treatments" width="700" />
+                        </noscript>
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 
@@ -153,7 +175,10 @@
                         <h1 class="event-header">Site Header</h1>
                         <p class="event-date">13 <abbr title="February">Feb</abbr> 2013</p>
                         <p>At this point, we have content/architecture patterns for global elements, navigation, the homepage, and channel/topic pages down, so I start to explore the art direction can be applied to those elements.</p>
-                        <img src="i/06-site-header/header.jpg" alt="Site header" />                        
+                        <img class="lazy" width="700" data-original="i/06-site-header/header.jpg" />                        
+                        <noscript>
+                            <img src="i/06-site-header/header.jpg" alt="Site header" width="700" />                        
+                        </noscript>
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 
@@ -165,8 +190,13 @@
                         <img src="i/07-home-article-logo/logos2.png" alt="Logo exploration" />                        
 
                         <p>It also feels like the right time in the project to start showing examples of pages with all the patterns put together, so I take a stab at the homepage and the article page.</p>
-                        <img src="i/07-home-article-logo/article2.jpg" alt="Article page" width="700" />
-                        <img src="i/07-home-article-logo/home.jpg" alt="Home" width="700" />                        
+
+                        <img class="lazy" data-original="i/07-home-article-logo/article2.jpg" width="700" />
+                        <img class="lazy" data-original="i/07-home-article-logo/home.jpg" width="700" />
+                        <noscript>
+                            <img src="i/07-home-article-logo/article2.jpg" alt="Article page" width="700" />
+                            <img src="i/07-home-article-logo/home.jpg" alt="Home" width="700" />                        
+                        </noscript>
 
                     </div><!-- .event-main -->
                 </article><!-- .event -->
@@ -179,20 +209,117 @@
                         <p><strong>At this point in the project, we decide to show in-browser samples only from now on.</strong> I&rsquo;m still working in Photoshop and at the same pace I was working before, but the things I&rsquo;m making are purely for our team to discuss. If we all think what I&rsquo;m making is valuable, then Brad will implement it in code, so that TechCrunch will always see responsive, working demos instead of flat mocks.</p>
                         <p>Regarding the previous round of design, TechCrunch hates what they see&mdash;and rightly so. The homepage looks sporadic and unorganized; it loses the concept of &ldquo;the river&rdquo;&mdash;a reverse chronological vertical listing&mdash;that makes TechCrunch so familiar. Back to the drawing board.</p>
                         <p>For the next 3 weeks, I start to play with more explorations for the homepage and the river.</p>
-                        <img src="i/08-home-article/home1.jpg" alt="Home page idea" width="700" />
-                        <img src="i/08-home-article/home2.jpg" alt="Home page idea" width="700" />
-                        <img src="i/08-home-article/home3.jpg" alt="Home page idea" width="700" />
-                        <img src="i/08-home-article/home4.jpg" alt="Home page idea" width="700" />
+                        <img class="lazy" data-original="i/08-home-article/home1.jpg" width="700" />
+                        <img class="lazy" data-original="i/08-home-article/home2.jpg" width="700" />
+                        <img class="lazy" data-original="i/08-home-article/home3.jpg" width="700" />
+                        <img class="lazy" data-original="i/08-home-article/home4.jpg" width="700" />
+                        <noscript>
+                            <img src="i/08-home-article/home1.jpg" alt="Home page idea" width="700" />
+                            <img src="i/08-home-article/home2.jpg" alt="Home page idea" width="700" />
+                            <img src="i/08-home-article/home3.jpg" alt="Home page idea" width="700" />
+                            <img src="i/08-home-article/home4.jpg" alt="Home page idea" width="700" />
+                        </noscript>
 
                         <p>I also spend some time really digging into the article page, a very important template for the site.</p>
-                        <img src="i/08-home-article/article1.jpg" alt="Article page idea" width="700" />
-                        <img src="i/08-home-article/article2.jpg" alt="Article page idea" width="700" />
-                        <img src="i/08-home-article/article3.jpg" alt="Article page idea" width="700" />
-                        <img src="i/08-home-article/article4.jpg" alt="Article page idea" width="700" />
+                        <img class="lazy" data-original="i/08-home-article/article1.jpg" width="700" />
+                        <img class="lazy" data-original="i/08-home-article/article2.jpg" width="700" />
+                        <img class="lazy" data-original="i/08-home-article/article3.jpg" width="700" />
+                        <img class="lazy" data-original="i/08-home-article/article4.jpg" width="700" />
+                        <noscript>
+                            <img src="i/08-home-article/article1.jpg" alt="Article page idea" width="700" />
+                            <img src="i/08-home-article/article2.jpg" alt="Article page idea" width="700" />
+                            <img src="i/08-home-article/article3.jpg" alt="Article page idea" width="700" />
+                            <img src="i/08-home-article/article4.jpg" alt="Article page idea" width="700" />
+                        </noscript>
 
                         <p>Lastly, I start getting to some of the elements that we know are already working well that just need some visual love, like the header.</p>
-                        <img src="i/08-home-article/header.jpg" alt="Responsive header" width="700" />
+                        <img class="lazy" data-original="i/08-home-article/header.jpg" width="700" />
+                        <noscript>
+                            <img src="i/08-home-article/header.jpg" alt="Responsive header" width="700" />
+                        </noscript>
 
+                    </div><!-- .event-main -->
+                </article><!-- .event -->
+
+                <article class="event" id="river">
+                    <div class="event-main">
+                        <h1 class="event-header">The River</h1>
+                        <p class="event-date">20 <abbr title="March">Mar</abbr> 2013</p>
+                        <p>I&rsquo;m thinking pretty deeply about how to really drive home this idea of the river, a chronological stream. I see all of the posts as historical points within the same axis of time, and I want to graphically communicate that. There&rsquo;s also a lot of meta information related to each point and time. I call them &ldquo;flags,&rdquo; but a more accurate metaphor would be something like &ldquo;buoys&rdquo; or &ldquo;mile markers.&rdquo; Here are the first few iterations of that idea.</p>
+                        <img class="lazy bordered-image" data-original="i/09-river/river1.jpg" width="698" />
+                        <img class="lazy bordered-image" data-original="i/09-river/river2.jpg" width="698" />
+                        <img class="lazy bordered-image" data-original="i/09-river/river3.jpg" width="698" />
+                        <img class="lazy bordered-image" data-original="i/09-river/river4.jpg" width="698" />
+                        <noscript>
+                            <img class="bordered-image" src="i/09-river/river1.jpg" alt="River idea" width="698" />
+                            <img class="bordered-image" src="i/09-river/river2.jpg" alt="River idea" width="698" />
+                            <img class="bordered-image" src="i/09-river/river3.jpg" alt="River idea" width="698" />
+                            <img class="bordered-image" src="i/09-river/river4.jpg" alt="River idea" width="698" />
+                        </noscript>
+
+                        <p>I even create a few motion studies about how the interaction could work on smaller screens.</p>
+                        <img class="lazy" data-original="i/09-river/river-small-animation.gif" width="700" />
+                        <noscript>
+                            <img src="i/09-river/river-small-animation.gif" alt="River interaction" width="700" />
+                        </noscript>
+
+                    </div><!-- .event-main -->
+                </article><!-- .event -->
+
+                <article class="event" id="river">
+                    <div class="event-main">
+                        <h1 class="event-header">Tweaking</h1>
+                        <p class="event-date">22 <abbr title="March">Mar</abbr> 2013</p>
+                        <p>By now, all of the major patterns on the site exist in <abbr>HTML</abbr> and <abbr>CSS</abbr>, and I&rsquo;m working closely with Brad to tweak some one-off designs that need some extra design love. Most of my time is spent between Photoshop, After Effects, Flash, and Sublime Text (I&rsquo;m making quick and dirty interaction prototypes for Brad, while he&rsquo;s turning them into production-level code that works within the pattern library). The majority of the &ldquo;deliverables&rdquo; are happening in-browser.</p>
+                        <p>For the next 3 months, I&rsquo;m focusing on being design support, making views for Brad and Jonathan that aren&rsquo;t yet defined. That includes things like rollover states, animations, pullquotes, &ldquo;breaking news&rdquo; elements, article intro styles, and more.</p>
+                        <img class="lazy bordered-image" data-original="i/10-tweaking/pullquote-styles.png" width="700" />
+                        <img class="lazy bordered-image" data-original="i/10-tweaking/breaking1.jpg" width="700" />
+                        <img class="lazy bordered-image" data-original="i/10-tweaking/breaking2.jpg" width="700" />
+                        <img class="lazy bordered-image" data-original="i/10-tweaking/intro.jpg" width="700" />
+                        <img class="lazy bordered-image" data-original="i/10-tweaking/crunchbase.png" width="700" />                        
+                        <noscript>
+                            <img class="bordered-image" src="i/10-tweaking/pullquote-styles.png" alt="Pullquote styles" width="700" />
+                            <img class="bordered-image" src="i/10-tweaking/breaking1.jpg" alt="Breaking News idea" width="700" />
+                            <img class="bordered-image" src="i/10-tweaking/breaking2.jpg" alt="Breaking news idea" width="700" />
+                            <img class="bordered-image" src="i/10-tweaking/intro.jpg" alt="Article intro" width="700" />
+                            <img class="bordered-image" src="i/10-tweaking/crunchbase.png" alt="Crunchbase element" width="700" />                        
+                        </noscript>
+
+                    </div><!-- .event-main -->
+                </article><!-- .event -->
+
+                <article class="event" id="design-audit">
+                    <div class="event-main">
+                        <h1 class="event-header">Design Audit</h1>
+                        <p class="event-date">14 <abbr title="June">Jun</abbr> 2013</p>
+                        <p>If you haven&rsquo;t already inferred it, this was a <em>massive</em> project. Brad&rsquo;s already been working a <em>ton</em> on these templates. Being the anal-retentive designer I am, there are a handful of things that I want to tighten up. You know, the extra 1%&hellip; that extra polish that makes a site really shine. But, I didn&rsquo;t want to overload Brad. Dilemma!</p>
+                        <p>I decide to take the chance and mention to Brad that I&rsquo;d like to put together a list of some tweaks that I&rsquo;d like to make and that we can decide which ones are high priority enough to make. I cringe while I wait for the reply.</p>
+                        <p>Brad responds with one line: &ldquo;<strong>Pour me a cup of coffee.</strong>&rdquo; This is why I love him like a brother.</p>
+                        <p>I make some Photoshop motivation for Brad and get crankin&rsquo; on a Google doc for the desired changes:</p>
+                        <img class="lazy" data-original="i/11-design-audit/brad.jpg" width="700" />
+                        <noscript>
+                            <img src="i/11-design-audit/brad.jpg" alt="Brad Frost, my hero" width="700" />
+                        </noscript>
+
+                        <p>A little while later, Brad returned with most of the changes done. To my surprise, he had the complete opposite reaction than I though. Instead of being disgruntled about the changes, he was energized about them. &ldquo;Everything is so much tighter,&rdquo; he said. &ldquo;I&rsquo;m loving this site all over again.&rdquo;</p>                        
+
+                    </div><!-- .event-main -->
+                </article><!-- .event -->
+
+                <article class="event" id="launch-day">
+                    <div class="event-main">
+                        <h1 class="event-header">Launch Day</h1>
+                        <p class="event-date">15 <abbr title="October">Oct</abbr> 2013</p>
+                        <p>The new TechCrunch site launches! Our friends at TechCrunch write up <a href="http://techcrunch.com/2013/10/15/techcrunch-has-redesigned-again/">some of the details</a> of the redesign. Not surprisingly, some people hate it. But surprisingly, some people don&rsquo;t! In fact, we even spot a few words like &ldquo;great work,&rdquo; &ldquo;like,&rdquo; &ldquo;better,&rdquo; and one &ldquo;much, much, much, much, much improved.&rdquo; Not too shabby!</p>                        
+                    </div><!-- .event-main -->
+                </article><!-- .event -->
+
+                <article class="event" id="wrap-up">
+                    <div class="event-main">
+                        <h1 class="event-header">Wrap Up</h1>
+                        <p class="event-date">18 <abbr title="November">Nov</abbr> 2013</p>
+                        <p>To say I learned a lot while working on this project is an understatement. Sometimes, responsive design is hard. Design is hard. Business is hard. But because I had the opportunity to work alongside people that are some of the best in the world at what they do&mdash;and yes, that includes the client too&mdash;and everyone was working towards the same goal of a great site for both TechCrunch readers and writers, it&rsquo;s hard not to be proud of the results.</p>
+                        <p>For another perspective, read &ldquo;<a href="http://bradfrostweb.com/blog/post/techcrunch/">TechCrunch</a>,&rdquo; Brad Frost&rsquo;s write-up about the project.</p>                        
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 
@@ -252,7 +379,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2013-10-05T15:06:56">Published Oct 5, 2013 at 3:06 <abbr title="Post Meridian">PM</abbr></time>
+        	        <time datetime="2013-11-18T12:15:00">Published Nov 18, 2013 at 12:15 <abbr title="Post Meridian">PM</abbr></time>
     	        </section><!-- /#article-info -->
     	        
     	        
@@ -276,10 +403,17 @@
     </div><!-- #wrap -->
 
     <script src="jquery.fitvids.js"></script>
+    <script src="jquery.lazyload.min.js"></script>
     <script>
       $(document).ready(function(){
+
         // Target your .container, .wrapper, .post, etc.
         $('.video').fitVids();
+
+        $('img.lazy').lazyload({
+            effect: "fadeIn"
+        });
+
       });
     </script>
 	    
