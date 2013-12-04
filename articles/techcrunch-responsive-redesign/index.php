@@ -15,7 +15,7 @@
     <meta property="og:title" content="TechCrunch: A Responsive Redesign" />
     <meta property="og:description"content="The story of the new responsive TechCrunch."/>	
     <meta property="og:url" content="http://danielmall.com/articles/techcrunch-responsive-redesign/" />
-    <meta property="og:image" content="http://danielmall.com/articles/techcrunch-responsive-redesign/techcrunch-responsive-redesign.png" />
+    <meta property="og:image" content="http://danielmall.com/articles/techcrunch-responsive-redesign/home-thumb.png" />
     
     
 </head>
