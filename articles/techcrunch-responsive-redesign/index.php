@@ -321,7 +321,11 @@
                         <p>To say I learned a lot while working on this project is an understatement. Sometimes, responsive design is hard. Design is hard. Business is hard. But because I had the opportunity to work alongside people that are some of the best in the world at what they do&mdash;and yes, that includes the client too&mdash;and everyone was working towards the same goal of a great site for both TechCrunch readers and writers, it&rsquo;s easy to be proud of the results.</p>
                         <p>Special thanks go to the great team at TechCrunch for really being invested in creating a great site. <abbr title="Chief Operating Officer">COO</abbr> Ned Desmond &amp; Director of Product Christine Ying really drove the ship in communicating a great balance of what was both aspirational and practical. Co-Editors Alexia Tsotsis &amp; Eric Eldon; Senior Editor Matt Burns; Executive Producer/Production Director, TechCrunch TV Jon Orlin; and Senior Manager, Audience Development Sean Nakamura were tough but fair stakeholders that did a great job of letting us know what would benefit them from a content and workflow perspective. Senior Software Engineer Alex Khadiwala, Lead Engineer Vineet Thanedar, and Technical Manager Kaushik Jadav held down the dev end to ensure the quality of our front-end work all throughout integration. Luke Gedeon and the <a href="http://10up.com/">10up</a> team expertly handled the WordPress VIP build.</p>
                         <p><strong>Visit the site: <a href="http://techcrunch.com/">TechCrunch</a>.</strong></p>
-                        <p>For another perspective, read &ldquo;<a href="http://bradfrostweb.com/blog/post/techcrunch/">TechCrunch</a>,&rdquo; Brad Frost&rsquo;s write-up about the project.</p>                        
+                        <p>For more perspectives, read:</p>
+                        <ul>
+                            <li>&ldquo;<a href="http://bradfrostweb.com/blog/post/techcrunch/">TechCrunch</a>,&rdquo; by Brad Frost</li>                        
+                            <li>&ldquo;<a href="http://jonathanstark.com/blog/techcrunch">TechCrunch</a>,&rdquo; by Jonathan Stark</li>
+                        </ul>
                     </div><!-- .event-main -->
                 </article><!-- .event -->
 
