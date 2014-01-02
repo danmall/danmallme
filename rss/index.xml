@@ -10,9 +10,16 @@
     <description>Musings from the brain of Dan Mall.</description>
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
-    <dc:rights>Copyright 2005-2013</dc:rights>
-    <pubDate>Mon, 14 Oct 2013 11:00:00 GMT</pubDate>
+    <dc:rights>Copyright 2005-2014</dc:rights>
+    <pubDate>Wed, 01 Jan 2014 23:00:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>How to Get the Work You Want</title>
+        <description>Advice for anyone.</description>
+        <link>http://danielmall.com/articles/how-to-get-the-work-you-want/</link>
+        <guid>http://danielmall.com/articles/how-to-get-the-work-you-want/</guid>
+        <pubDate>Wed, 01 Jan 2014 23:00:00 GMT</pubDate>
+    </item>
     <item>
         <title>TechCrunch: A responsive redesign</title>
         <description>The story of the new responsive TechCrunch.</description>
