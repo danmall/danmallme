@@ -27,11 +27,23 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/how-to-get-the-work-you-want/">How to Get the Work You Want</a></h1>
+                            </header>
+                            <p>Advice for anyone.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/how-to-get-the-work-you-want/"><time datetime="2014-01-01T23:00:00">Jan 1, 2014</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/how-to-get-the-work-you-want/#disqus_thread" data-disqus-identifier="how-to-get-the-work-you-want"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>                  
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/techcrunch-responsive-redesign/">TechCrunch: A responsive redesign</a></h1>
                             </header>
                             <p>The story of the new responsive TechCrunch.</p>
                             <ul class="meta easy-clearing no-marker">
-                                <li class="permalink"><a href="/articles/responsive-mobile-entertainment-weekly/"><time datetime="2013-11-18T12:15:00">Nov 18, 2013</time></a></li>
+                                <li class="permalink"><a href="/articles/techcrunch-responsive-redesign/"><time datetime="2013-11-18T12:15:00">Nov 18, 2013</time></a></li>
                                 <script>document.write('<li class="comments"><a href="/articles/techcrunch-responsive-redesign/#disqus_thread" data-disqus-identifier="techcrunch-responsive-redesign"></a></li>');</script>
                             </ul><!-- .meta -->
                         </article>                  

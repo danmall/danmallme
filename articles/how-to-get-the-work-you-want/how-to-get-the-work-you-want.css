@@ -1,0 +1,33 @@
+#article-area-wrap { background: #fff; }
+
+#how-to-get-the-work-you-want { width: 94%; margin: 0 auto; padding: 100px 0 30px; font-family: 'Aften Screen', 'Lucida Grande', Arial, sans-serif; }
+	#how-to-get-the-work-you-want .article-title { font-size: 40px; line-height: 1.2; position: relative; padding-top: 0.6em; }
+		#how-to-get-the-work-you-want .article-title-main { font-weight: normal; }
+		#how-to-get-the-work-you-want .article-title-sub { position: absolute; top: 0; left: 0; color: #555; font-size: 15px; letter-spacing: 0.1em; text-transform: uppercase; }
+	#how-to-get-the-work-you-want h2 { font: normal 30px 'Aften Screen', 'Lucida Grande', Arial, sans-serif; }
+	#how-to-get-the-work-you-want p, #how-to-get-the-work-you-want li { font-size: 16px; line-height: 1.6; }
+	#how-to-get-the-work-you-want li { margin: 0 0 0.4em 25px; font-size: 14px; }
+	
+		
+#how-to-get-the-work-you-want ::selection { background: #585858; color: #fff; }
+#how-to-get-the-work-you-want ::-moz-selection { background: #585858; color: #fff; }
+
+
+@media screen and (min-width: 600px){
+	#how-to-get-the-work-you-want { width: 70%; margin: 0 20% 0 10%; }
+		#how-to-get-the-work-you-want .article-title { font-size: 72px; letter-spacing: -2px; line-height: 1; }
+			#how-to-get-the-work-you-want .article-title-sub { font-size: 18px; }
+
+		#how-to-get-the-work-you-want p { font-size: 20px; }
+		#how-to-get-the-work-you-want li { font-size: 18px; }
+}
+
+@media screen and (min-width: 800px){
+	#masthead { width: 94%; }
+}
+
+@media screen and (min-width: 1100px){
+	#how-to-get-the-work-you-want { width: 60%; margin: 0 25% 0 15%; }
+	#how-to-get-the-work-you-want p { font-size: 23px; }
+
+}
