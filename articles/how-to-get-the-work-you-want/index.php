@@ -26,7 +26,8 @@
 			</h1>
 
 			<p>One of the most common questions I&rsquo;m asked about design is how to get the work you really want to do. Students often bring up the fact that they feel so far away from their dream projects. Even experienced agencies make excuses like &ldquo;gotta make payroll&rdquo; and &ldquo;we&rsquo;re too busy right now.&rdquo;</p>
-			<p>Here are two tips to get you on the path. Here are two tips that helped me do the work I wanted to do.</p>
+
+			<p>Here are two tips that helped me do the work I wanted to do.</p>
 			
 			<h2>1. Make your own work.</h2>
 			
