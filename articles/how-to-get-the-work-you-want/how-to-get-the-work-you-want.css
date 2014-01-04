@@ -7,6 +7,9 @@
 	#how-to-get-the-work-you-want h2 { font: normal 30px 'Aften Screen', 'Lucida Grande', Arial, sans-serif; }
 	#how-to-get-the-work-you-want p, #how-to-get-the-work-you-want li { font-size: 16px; line-height: 1.6; }
 	#how-to-get-the-work-you-want li { margin: 0 0 0.4em 25px; font-size: 14px; }
+
+	#how-to-get-the-work-you-want .typeface-credit { border-top: 1px solid #ddd; padding-top: 4em; }
+		#how-to-get-the-work-you-want .typeface-credit p { font-size: 14px; }
 	
 		
 #how-to-get-the-work-you-want ::selection { background: #585858; color: #fff; }
