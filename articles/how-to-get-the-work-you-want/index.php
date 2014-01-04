@@ -70,6 +70,9 @@
 			</ol>
 			<p>There&rsquo;s little excuse for not being able to do the work you want. I&rsquo;ve been fortunate to work on some of my dream projects, simply from being part of the right conversations. Start filling out your portfolio&mdash;see step #1&mdash;join the right conversations, and make 2014 your best work year yet.</p>
 			
+			<footer class="typeface-credit">
+				<p>This article is typeset in the beautiful <a href="https://monokrom.no/fonts/aften">Aften Screen</a> by Monokrom, served by <a href="http://www.webtype.com/">Webtype</a>.</p>
+			</footer>
 			
 	    </section><!-- #how-to-get-the-work-you-want -->	  	
 	    
