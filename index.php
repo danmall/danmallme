@@ -1,4 +1,7 @@
-<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
+<?php 
+    $page = 'home';
+    require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; 
+?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>
     <title>Dan Mall  //  Creative Direction &bull; Art Direction &bull; Design &bull; Strategy</title>
