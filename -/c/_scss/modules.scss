@@ -71,3 +71,26 @@
 
 .button { display: inline-block; border-radius: 4px; background: #231f20; color: #fff; text-transform: uppercase; padding: 0.5em 13px; font-family: 'Trebuchet MS', Arial, sans-serif; }
 .button:hover, .button:focus { background: #73ae08; }
+
+.popular-list { 
+    font: bold 14px Helvetica, Arial, sans-serif; 
+    li { 
+        display: inline; margin-right: 5px; 
+        &:before { content: "•"; color: #ccc; margin-right: 5px; }
+        &:first-child:before { content: ""; margin-right: 0; }
+    }
+        a { 
+            color: #bbb; color: #231f20; color: #73ae08; border: none;
+            &:hover, &:focus { color: #231f20; }
+        }
+}
+
+#popular:hover a { 
+    color: #bbb; 
+    &:hover, &:focus { color: #231f20; color: #73ae08; }
+}
+
+.popular1 { font-size: 14px; line-height: 1.4; }
+.popular2 { font-size: 18px; line-height: 1.3; }
+.popular3 { font-size: 22px; line-height: 1.2; }
+.popular4 { font-size: 26px; line-height: 1.2; }

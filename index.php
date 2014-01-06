@@ -333,6 +333,36 @@
 		    </div>
 		</section><!-- #tweet -->
 			<?php */ ?>
+
+
+        <section id="popular" class="home-row">
+            
+            <div class="inner">
+            
+                <h1 class="stacked-heading">Popular on this site</h1>
+        
+                <ol class="no-marker popular-list">
+                    <li class="popular4"><a href="/articles/how-to-get-the-work-you-want/">How to Get the Work You Want</a></li>
+                    <li class="popular4"><a href="/articles/rif-element-collages/">Reading Is Fundamental: Element Collages</a></li>
+                    <li class="popular4"><a href="/articles/techcrunch-responsive-redesign/">TechCrunch: A responsive redesign</a></li>
+                    <li class="popular3"><a href="/work/crayola/">Crayola</a></li>
+                    <li class="popular3"><a href="/articles/prequalifying-clients/">Prequalifying Clients</a></li>
+                    <li class="popular3"><a href="/articles/responsive-mobile-entertainment-weekly/">The Responsive Mobile Entertainment Weekly</a></li>
+                    <li class="popular2"><a href="/work/star-wars/">Star Wars</a></li>
+                    <li class="popular2"><a href="/work/barbie/">Barbie</a></li>
+                    <li class="popular2"><a href="/articles/now-with-responsive/">Now with Responsive!</a></li>
+                    <li class="popular1"><a href="/articles/svg-workflow-for-designers/">SVG Workflow for Designers</a></li>
+                    <li class="popular1"><a href="/articles/responsive-line-breaks/">Responsive Line Breaks</a></li>
+                    <li class="popular1"><a href="/work/activate/">Activate</a></li>
+                </ol><!-- .no-marker -->
+
+                
+                <?php /* <p class="more"><a href="/work/">See all<b class="more-qualifier"> Featured Work</b></a></p> */ ?>
+                
+            </div><!-- /.inner -->
+            
+    
+        </section><!-- /#popular -->
 		
 	</div><!-- /#content -->
 	
