@@ -136,6 +136,12 @@ http://www.danielmall.com/
     }
 }
 
+#popular { 
+    @media screen and (min-width: $originalLayout){
+        height: auto;
+    }
+}
+
 #tooltip { display: none; }
 @media screen and (min-width: $originalLayout){
     #tooltip { position: absolute; z-index: 3000; border: none; background: rgba(38, 34, 35, 0.9); padding: 15px; width: 220px; }
