@@ -9,7 +9,19 @@
 	#how-to-get-the-work-you-want li { margin: 0 0 0.4em 25px; font-size: 14px; }
 
 	#how-to-get-the-work-you-want .typeface-credit { border-top: 1px solid #ddd; padding-top: 4em; }
-		#how-to-get-the-work-you-want .typeface-credit p { font-size: 14px; }
+		#how-to-get-the-work-you-want .typeface-credit p, #how-to-get-the-work-you-want .editors-note { font-size: 14px; }
+
+	
+	#how-to-get-the-work-you-want .interstitial { background: #eee; border-top: 10px solid #231f20; border-bottom: 8px solid #231f20; padding: 1em 2%; margin: 0 0 2em; }
+		#how-to-get-the-work-you-want .editors-note { color: #999; margin: 0 0 0.5em; display: block; }
+		#how-to-get-the-work-you-want .interstitial-heading { line-height: 1.3; }
+
+	@media screen and (min-width: 960px) {
+		#how-to-get-the-work-you-want .interstitial { float: right; width: 30%; background: #fff; padding-left: 0; padding-right: 0; margin: 0 -10% 2em 5%; }	
+			#how-to-get-the-work-you-want .editors-note { font-size: 13px; }
+			#how-to-get-the-work-you-want .interstitial-heading { line-height: 1.2; }
+			#how-to-get-the-work-you-want .interstitial p { font-size: 16px; line-height: 1.4; }
+	}
 	
 		
 #how-to-get-the-work-you-want ::selection { background: #585858; color: #fff; }

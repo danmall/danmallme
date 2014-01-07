@@ -35,10 +35,17 @@
 
 			<p>Here are two tips that helped me do the work I wanted to do.</p>
 			
-			<h2>1. Make your own work.</h2>
+			<h2 id="make-your-own-work">1. Make your own work.</h2>
 			
 			<p>Especially for students, don&rsquo;t be afraid to make your own commissions. If you&rsquo;re a fan of the <abbr title="National Football League">NFL</abbr>, make up your own project as if the <abbr>NFL</abbr> hired you. Create a fake redesign of <a href="http://nfl.com/"><abbr>NFL</abbr>.com</a> and put it in your portfolio as an uninvited redesign (just make sure you&rsquo;re clear about stating that you created the brief yourself). As a bonus, if the <abbr>NFL</abbr> ever <em>does</em> come knocking, you&rsquo;ll have a ton of things to talk about with them that you&rsquo;ve already been thinking about.</p>
 			<p>And for those that think you can&rsquo;t put unsolicited work in your portfolio, that&rsquo;s utter nonsense. I once interviewed a designer for a very high design position (he essentially would have been my boss). He had some of the most original work in his portfolio that I&rsquo;d seen. When we talked about the projects, I learned that about half of them were projects he made up for brands he had good ideas for. They showcased both his critical thinking and his design chops. While there&rsquo;s something to be said for how designers react to the constraints of their customers, clients, or bosses, unsolicited projects can help round out the narrative of your portfolio when you don&rsquo;t have client projects to fill in certain chapters.</p>
+
+			<aside id="unsolicited" class="interstitial">
+				<ins class="editors-note">Editor&rsquo;s note: added January 6, 2014 (5 days after original publish date)</ins>
+				<h1 class="interstitial-heading">On unsolicited redesigns</h1>
+				<p>More than a few people have commented specifically about unsolicited redesigns in the comments, on Twitter, and over email, so I figured I&rsquo;d add some words about it here.</p>
+			</aside>
+
 			<p>Designer Andrew Kim created <a href="http://www.minimallyminimal.com/2012/7/3/the-next-microsoft.html">an unsolicited rebranding of Microsoft</a> and <a href="http://www.minimallyminimal.com/blog/msft">subsequently got a job there</a>. It&rsquo;s not a guarantee, but it&rsquo;s far from an isolated incident.</p>
 			<p>My dream client is <a href="http://nike.com/">Nike</a>. I love the brand&mdash;I once had close to 50 pairs of Nike sneakers&hellip; now I&rsquo;m down to 17&mdash;and I love all the digital work they&rsquo;re putting out. I wanted to work for them since I was in school, so lots of my school projects were centered around Nike products. I bet my teachers were tired of seeing my &ldquo;what sneaker are you?&rdquo; Flash sites. I haven&rsquo;t landed any Nike work yet, but it&rsquo;s just a matter of time. If you&rsquo;re listening, Nike, I&rsquo;ve got a boatload of ideas. More on this in a bit.</p>
 			<p>If you&rsquo;re in design or just starting out teaching yourself, there&rsquo;s a pretty high chance that you&rsquo;ve got some free time. Use that time to fill your portfolio with projects you&rsquo;d love to be hired to do.</p>
@@ -53,8 +60,11 @@
 			<p>You get the idea.</p>
 			<p>Do the work you&rsquo;re proud of even if no one&rsquo;s paying you to do it. They will soon.</p>
 
+
+
+
 			
-			<h2>2. Contribute the conversations you want to be part of.</h2>
+			<h2 id="contribute">2. Contribute the conversations you want to be part of.</h2>
 			
 			<p>One of my favorite things about the web is the openness and warmth of the communities it can create. Want to meet dog walkers in your town? Looking for other cancer survivors to talk to? Need a second opinion about which <abbr title="Television">TV</abbr> to buy? There&rsquo;s a meetup for that.</p>
 			<p>When I first started in design, Flash was all the rage. I visited <a href="http://www.cubancouncil.com/work/project/kaliber-10000">K10k</a> and <a href="http://en.m.wikipedia.org/wiki/Pixelsurgeon">Pixelsurgeon</a> every day. I waited eagerly for every edition of a Computer Arts. I could tell you what <a href="http://www.shanemielke.com/archives/pr/">Pixelranger</a>, <a href="http://joshuadavis.com/">Joshua Davis</a>, <a href="http://bigspaceship.com/">Big Spaceship</a>, <a href="http://www.juxt.com/">JUXT Interactive</a>, <a href="http://www.gmunk.com/">Gmunk</a>, <a href="http://brendandawes.com/">Brendan Dawes</a>, <a href="http://hillmancurtis.com/">Hillman Curtis</a>, <a href="http://yugop.com/">Yugo Nakamura</a>, <a href="http://www.waxpraxis.org/">Branden Hall</a>, <a href="http://www.billybussey.com/">Billy Bussey</a>, <a href="http://www.2advanced.com/">2advanced</a>, and lots more people and companies that I admired were up to at any given time.</p>
