@@ -41,9 +41,25 @@
 			<p>And for those that think you can&rsquo;t put unsolicited work in your portfolio, that&rsquo;s utter nonsense. I once interviewed a designer for a very high design position (he essentially would have been my boss). He had some of the most original work in his portfolio that I&rsquo;d seen. When we talked about the projects, I learned that about half of them were projects he made up for brands he had good ideas for. They showcased both his critical thinking and his design chops. While there&rsquo;s something to be said for how designers react to the constraints of their customers, clients, or bosses, unsolicited projects can help round out the narrative of your portfolio when you don&rsquo;t have client projects to fill in certain chapters.</p>
 
 			<aside id="unsolicited" class="interstitial">
-				<ins class="editors-note">Editor&rsquo;s note: added January 6, 2014 (5 days after original publish date)</ins>
+				
+				<ins class="editors-note">Added January 7, 2014 (6 days after original publish date)</ins>
+				
 				<h1 class="interstitial-heading">On unsolicited redesigns</h1>
+				
 				<p>More than a few people have commented specifically about unsolicited redesigns in the comments, on Twitter, and over email, so I figured I&rsquo;d add some words about it here.</p>
+				
+				<p>The general wisdom about unsolicited redesigns is that they should <span class="subtle">a)</span> acknowledge constraints&mdash;as <a href="#comment-1186123318">I mention</a> in the comment thread&mdash;and <span class="subtle">b)</span> solve a problem. A common misconception, though, is that the solution should solely benefit the organization being redesigned. This leads us to the erroneous conclusion that unsolicited redesigns shouldn&rsquo;t be primarily aesthetic in nature, but have mostly conceptual and practical strength. That&rsquo;s hogwash.</p>
+
+				<blockquote class="interstitial-quote">
+					<p>By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the bitterest.</p>
+					<footer class="interstitial-quote-citation">
+						<cite>Confucius</cite>
+					</footer>
+				</blockquote>
+
+				<p>One of the first assignments that I ask my former students and <a href="http://superfriend.ly/">SuperFriendly</a> apprentices to take on is to reproduce existing sites. For designers, we browse <abbr title="Cascading Style Sheets">CSS</abbr> galleries together and I have them choose a site to recreate in Photoshop. The next part of the assignment asks them to change a handful of small things&mdash;maybe a few colors or typefaces&mdash;to see what impact that has on a design. What would Facebook look like in maroon? How would Google search results feel if set in a serif typeface?</p>
+				<p>A similar assignment I might give is the <a href="http://alistapart.com/article/art-direction-and-design#section4">three hats</a> exercise. The purposes of all these exercises is to help the designer learn versatility in <a href="http://www.uie.com/articles/design_rendering_intent/">rendering intent</a>. That practice may have little value to the organization, but it has tremendous impact for the designer as it&rsquo;s helping expand her vocabulary, even if largely aesthetic in nature. &ldquo;I just wanted to see if&hellip;&rdquo; is certainly a portfolio-worthy venture.</p>
+
 			</aside>
 
 			<p>Designer Andrew Kim created <a href="http://www.minimallyminimal.com/2012/7/3/the-next-microsoft.html">an unsolicited rebranding of Microsoft</a> and <a href="http://www.minimallyminimal.com/blog/msft">subsequently got a job there</a>. It&rsquo;s not a guarantee, but it&rsquo;s far from an isolated incident.</p>

@@ -12,16 +12,15 @@
 		#how-to-get-the-work-you-want .typeface-credit p, #how-to-get-the-work-you-want .editors-note { font-size: 14px; }
 
 	
-	#how-to-get-the-work-you-want .interstitial { background: #eee; border-top: 10px solid #231f20; border-bottom: 8px solid #231f20; padding: 1em 2%; margin: 0 0 2em; }
+	#how-to-get-the-work-you-want .interstitial { background: #efefef; border-top: 10px solid #231f20; border-bottom: 8px solid #231f20; padding: 1em 2%; margin: 0 0 2em; }
 		#how-to-get-the-work-you-want .editors-note { color: #999; margin: 0 0 0.5em; display: block; }
 		#how-to-get-the-work-you-want .interstitial-heading { line-height: 1.3; }
-
-	@media screen and (min-width: 960px) {
-		#how-to-get-the-work-you-want .interstitial { float: right; width: 30%; background: #fff; padding-left: 0; padding-right: 0; margin: 0 -10% 2em 5%; }	
-			#how-to-get-the-work-you-want .editors-note { font-size: 13px; }
-			#how-to-get-the-work-you-want .interstitial-heading { line-height: 1.2; }
-			#how-to-get-the-work-you-want .interstitial p { font-size: 16px; line-height: 1.4; }
-	}
+		#how-to-get-the-work-you-want .subtle { color: #ccc; }
+		#how-to-get-the-work-you-want .interstitial-quote { background: none; padding: 0 0 0 0.4em; border-left: 3px solid #ccc; margin: 0 0 1.2em; }
+			#how-to-get-the-work-you-want .interstitial-quote p { font-family: 'Aften Screen', 'Lucida Grande', Arial, sans-serif; font-size: 24px; font-style: normal; line-height: 1.3; }
+			#how-to-get-the-work-you-want .interstitial-quote-citation { margin-top: -1em; }
+			#how-to-get-the-work-you-want .interstitial-quote-citation cite:before { content: "— "; }
+			#how-to-get-the-work-you-want .interstitial-quote-citation cite { font-size: 14px; font-style: normal; color: #999; }
 	
 		
 #how-to-get-the-work-you-want ::selection { background: #585858; color: #fff; }
@@ -35,10 +34,26 @@
 
 		#how-to-get-the-work-you-want p { font-size: 20px; }
 		#how-to-get-the-work-you-want li { font-size: 18px; }
+
+		#how-to-get-the-work-you-want .interstitial-quote { padding-left: 1.4em; }
+		#how-to-get-the-work-you-want .interstitial-quote-citation { margin-top: -3em; }
+			#how-to-get-the-work-you-want .interstitial-quote p { font-size: 30px; }
+			#how-to-get-the-work-you-want .interstitial-quote-citation cite { font-size: 18px; }
 }
 
 @media screen and (min-width: 800px){
 	#masthead { width: 94%; }
+}
+
+@media screen and (min-width: 960px) {
+	#how-to-get-the-work-you-want .interstitial { float: right; width: 35%; background: #fff; padding-left: 0; padding-right: 0; margin: 0 -10% 2em 5%; }	
+		#how-to-get-the-work-you-want .editors-note { font-size: 13px; }
+		#how-to-get-the-work-you-want .interstitial-heading { line-height: 1.2; }
+		#how-to-get-the-work-you-want .interstitial p { font-size: 16px; line-height: 1.5; }
+		#how-to-get-the-work-you-want .interstitial-quote { margin-bottom: 2em; }
+			#how-to-get-the-work-you-want .interstitial-quote p { font-size: 20px; line-height: 1.2; }
+		#how-to-get-the-work-you-want .interstitial-quote-citation { margin-top: -2em; }
+			#how-to-get-the-work-you-want .interstitial-quote-citation cite { font-size: 14px; }
 }
 
 @media screen and (min-width: 1100px){
