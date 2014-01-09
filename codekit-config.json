@@ -208,17 +208,6 @@
       "initialSize" : 1954,
       "fileType" : 8192
     },
-    "\/-\/j\/libs\/chirp.v1,min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/-\/j\/libs\/chirp.v1,min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/-\/j\/libs\/chirp.v1,min-ck.js",
-      "fileType" : 64
-    },
     "\/-\/i\/work\/browser-chrome-top.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -229,6 +218,17 @@
       "outputAbbreviatedPath" : "\/-\/i\/work\/browser-chrome-top.jpg",
       "initialSize" : 23937,
       "fileType" : 4096
+    },
+    "\/-\/j\/libs\/chirp.v1,min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/-\/j\/libs\/chirp.v1,min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/-\/j\/libs\/chirp.v1,min-ck.js",
+      "fileType" : 64
     },
     "\/articles\/techcrunch-responsive-redesign\/i\/08-home-article\/article4.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -501,17 +501,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/articles\/rif-design-flexibility\/header5.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/articles\/rif-design-flexibility\/header5.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/articles\/rif-design-flexibility\/header5.png",
-      "initialSize" : 41030,
-      "fileType" : 8192
-    },
     "\/work\/design-swap\/design-swap-hero3.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -533,6 +522,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/articles\/authenticity\/jquery.lettering-ck.js",
       "fileType" : 64
+    },
+    "\/articles\/rif-design-flexibility\/header5.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/articles\/rif-design-flexibility\/header5.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/articles\/rif-design-flexibility\/header5.png",
+      "initialSize" : 41030,
+      "fileType" : 8192
     },
     "\/work\/crayola\/ia.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -567,6 +567,17 @@
       "initialSize" : 3710,
       "fileType" : 8192
     },
+    "\/work\/morsel\/morsel.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/morsel\/morsel.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/work\/morsel\/morsel.png",
+      "initialSize" : 1925,
+      "fileType" : 8192
+    },
     "\/-\/c\/_scss\/global.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -578,17 +589,6 @@
       "outputAbbreviatedPath" : "\/-\/c\/css\/global.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/work\/morsel\/morsel.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/morsel\/morsel.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/work\/morsel\/morsel.png",
-      "initialSize" : 1925,
-      "fileType" : 8192
     },
     "\/work\/jetwaders\/jetwaders.png" : {
       "ignoreWasSetByUser" : 0,
@@ -879,6 +879,15 @@
       "outputAbbreviatedPath" : "\/articles\/techcrunch-responsive-redesign\/jquery.fitvids-ck.js",
       "fileType" : 64
     },
+    "\/feeder\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/feeder\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/work\/healthymagination\/hm-home.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -911,15 +920,6 @@
       "outputAbbreviatedPath" : "\/-\/i\/work\/speaking\/sva.png",
       "initialSize" : 91182,
       "fileType" : 8192
-    },
-    "\/feeder\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/feeder\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/work\/crayola\/surrounding.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1091,17 +1091,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/-\/i\/work\/typefaces\/din.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/-\/i\/work\/typefaces\/din.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/-\/i\/work\/typefaces\/din.png",
-      "initialSize" : 723,
-      "fileType" : 8192
-    },
     "\/-\/i\/work\/speaking\/smashingconf.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1111,6 +1100,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/-\/i\/work\/speaking\/smashingconf.png",
       "initialSize" : 13597,
+      "fileType" : 8192
+    },
+    "\/-\/i\/work\/typefaces\/din.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/-\/i\/work\/typefaces\/din.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/-\/i\/work\/typefaces\/din.png",
+      "initialSize" : 723,
       "fileType" : 8192
     },
     "\/articles\/ideas-of-march-2013\/dagger.png" : {
@@ -1133,24 +1133,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/work\/mica\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/mica\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/work\/housing-works\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/housing-works\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/articles\/svg-workflow-for-designers\/i\/photoshop-save-for-web.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1161,6 +1143,24 @@
       "outputAbbreviatedPath" : "\/articles\/svg-workflow-for-designers\/i\/photoshop-save-for-web.png",
       "initialSize" : 23279,
       "fileType" : 8192
+    },
+    "\/work\/housing-works\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/housing-works\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/work\/mica\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/mica\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/articles\/you-the-conference-organizer\/home-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1741,6 +1741,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/work\/morsel\/morsel-detail.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/morsel\/morsel-detail.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/articles\/leaving-four24\/v4.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1771,17 +1780,6 @@
       "inputAbbreviatedPath" : "\/articles\/rif-kickoff\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/-\/i\/work\/speaking\/fitctoronto2013.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/-\/i\/work\/speaking\/fitctoronto2013.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/-\/i\/work\/speaking\/fitctoronto2013.jpg",
-      "initialSize" : 41733,
-      "fileType" : 4096
     },
     "\/-\/i\/home\/star-wars2.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1814,14 +1812,16 @@
       "initialSize" : 4752,
       "fileType" : 8192
     },
-    "\/work\/morsel\/morsel-detail.php" : {
+    "\/-\/i\/work\/speaking\/fitctoronto2013.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/morsel\/morsel-detail.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/-\/i\/work\/speaking\/fitctoronto2013.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/-\/i\/work\/speaking\/fitctoronto2013.jpg",
+      "initialSize" : 41733,
+      "fileType" : 4096
     },
     "\/articles\/now-with-responsive\/cloudtypography\/76609\/5AFAD1A98B766C6C8.css" : {
       "ignoreWasSetByUser" : 0,
@@ -1905,17 +1905,6 @@
       "initialSize" : 21878,
       "fileType" : 8192
     },
-    "\/articles\/rif-kickoff\/arrow.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/articles\/rif-kickoff\/arrow.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/articles\/rif-kickoff\/arrow.png",
-      "initialSize" : 225,
-      "fileType" : 8192
-    },
     "\/-\/i\/publications-24ways2009.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1925,6 +1914,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/-\/i\/publications-24ways2009.png",
       "initialSize" : 1970,
+      "fileType" : 8192
+    },
+    "\/articles\/rif-kickoff\/arrow.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/articles\/rif-kickoff\/arrow.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/articles\/rif-kickoff\/arrow.png",
+      "initialSize" : 225,
       "fileType" : 8192
     },
     "\/articles\/techcrunch-responsive-redesign\/i\/11-design-audit\/brad.jpg" : {
@@ -2248,14 +2248,17 @@
       "initialSize" : 3797,
       "fileType" : 8192
     },
-    "\/articles\/techcrunch-responsive-redesign\/techcrunch-responsive-redesign.css" : {
+    "\/-\/c\/_scss\/contact.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/articles\/techcrunch-responsive-redesign\/techcrunch-responsive-redesign.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/-\/c\/_scss\/contact.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/-\/c\/css\/contact.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/articles\/responsive-mobile-entertainment-weekly\/ew-process7.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2268,17 +2271,14 @@
       "initialSize" : 88428,
       "fileType" : 4096
     },
-    "\/-\/c\/_scss\/contact.scss" : {
+    "\/articles\/techcrunch-responsive-redesign\/techcrunch-responsive-redesign.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/-\/c\/_scss\/contact.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/-\/c\/css\/contact.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/articles\/techcrunch-responsive-redesign\/techcrunch-responsive-redesign.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/-\/i\/work\/typefaces\/proxima-nova.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2512,15 +2512,6 @@
       "initialSize" : 7912,
       "fileType" : 8192
     },
-    "\/articles\/object-value-pricing\/object-value-pricing.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/articles\/object-value-pricing\/object-value-pricing.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/work\/mica\/mica-quote.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2531,6 +2522,15 @@
       "outputAbbreviatedPath" : "\/work\/mica\/mica-quote.png",
       "initialSize" : 24070,
       "fileType" : 8192
+    },
+    "\/articles\/object-value-pricing\/object-value-pricing.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/articles\/object-value-pricing\/object-value-pricing.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/articles\/progressive-enhancement\/index.php" : {
       "ignoreWasSetByUser" : 0,
@@ -2815,17 +2815,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/articles\/five\/cms-who.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/articles\/five\/cms-who.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/articles\/five\/cms-who.png",
-      "initialSize" : 766,
-      "fileType" : 8192
-    },
     "\/-\/i\/work\/speaking\/ffwd.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2835,6 +2824,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/-\/i\/work\/speaking\/ffwd.png",
       "initialSize" : 135587,
+      "fileType" : 8192
+    },
+    "\/articles\/five\/cms-who.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/articles\/five\/cms-who.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/articles\/five\/cms-who.png",
+      "initialSize" : 766,
       "fileType" : 8192
     },
     "\/-\/i\/work\/clients\/wrigley.png" : {
@@ -3234,15 +3234,15 @@
       "initialSize" : 151568,
       "fileType" : 4096
     },
-    "\/articles\/techcrunch-responsive-redesign\/i\/02-kickoff\/sketching.jpg" : {
+    "\/articles\/techcrunch-responsive-redesign\/i\/08-home-article\/article6.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/articles\/techcrunch-responsive-redesign\/i\/02-kickoff\/sketching.jpg",
+      "inputAbbreviatedPath" : "\/articles\/techcrunch-responsive-redesign\/i\/08-home-article\/article6.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/articles\/techcrunch-responsive-redesign\/i\/02-kickoff\/sketching.jpg",
-      "initialSize" : 69317,
+      "outputAbbreviatedPath" : "\/articles\/techcrunch-responsive-redesign\/i\/08-home-article\/article6.jpg",
+      "initialSize" : 94481,
       "fileType" : 4096
     },
     "\/work\/krylon\/krylon-quote.png" : {
@@ -3256,17 +3256,6 @@
       "initialSize" : 13073,
       "fileType" : 8192
     },
-    "\/articles\/techcrunch-responsive-redesign\/i\/08-home-article\/article6.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/articles\/techcrunch-responsive-redesign\/i\/08-home-article\/article6.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/articles\/techcrunch-responsive-redesign\/i\/08-home-article\/article6.jpg",
-      "initialSize" : 94481,
-      "fileType" : 4096
-    },
     "\/-\/i\/home\/activate.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3276,6 +3265,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/-\/i\/home\/activate.jpg",
       "initialSize" : 11066,
+      "fileType" : 4096
+    },
+    "\/articles\/techcrunch-responsive-redesign\/i\/02-kickoff\/sketching.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/articles\/techcrunch-responsive-redesign\/i\/02-kickoff\/sketching.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/articles\/techcrunch-responsive-redesign\/i\/02-kickoff\/sketching.jpg",
+      "initialSize" : 69317,
       "fileType" : 4096
     },
     "\/articles\/five\/five.css" : {
@@ -4190,17 +4190,6 @@
       "initialSize" : 32996,
       "fileType" : 8192
     },
-    "\/i\/logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/i\/logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/i\/logo.png",
-      "initialSize" : 9935,
-      "fileType" : 8192
-    },
     "\/articles\/august2011-typefaces\/gotham-specimen.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4210,6 +4199,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/articles\/august2011-typefaces\/gotham-specimen.png",
       "initialSize" : 35518,
+      "fileType" : 8192
+    },
+    "\/i\/logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/i\/logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/i\/logo.png",
+      "initialSize" : 9935,
       "fileType" : 8192
     },
     "\/-\/i\/home\/housing-works.jpg" : {
@@ -4577,16 +4577,16 @@
       "initialSize" : 151568,
       "fileType" : 4096
     },
-    "\/articles\/svg-workflow-for-designers\/home-thumb.jpg" : {
+    "\/articles\/circlesconf2012\/circles-logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/articles\/svg-workflow-for-designers\/home-thumb.jpg",
+      "inputAbbreviatedPath" : "\/articles\/circlesconf2012\/circles-logo.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/articles\/svg-workflow-for-designers\/home-thumb.jpg",
-      "initialSize" : 3964,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/articles\/circlesconf2012\/circles-logo.png",
+      "initialSize" : 7730,
+      "fileType" : 8192
     },
     "\/-\/i\/about-headline.png" : {
       "ignoreWasSetByUser" : 0,
@@ -4599,17 +4599,6 @@
       "initialSize" : 2941,
       "fileType" : 8192
     },
-    "\/articles\/circlesconf2012\/circles-logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/articles\/circlesconf2012\/circles-logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/articles\/circlesconf2012\/circles-logo.png",
-      "initialSize" : 7730,
-      "fileType" : 8192
-    },
     "\/articles\/responsive-mobile-entertainment-weekly\/ew-process8.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -4619,6 +4608,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/articles\/responsive-mobile-entertainment-weekly\/ew-process8.jpg",
       "initialSize" : 68031,
+      "fileType" : 4096
+    },
+    "\/articles\/svg-workflow-for-designers\/home-thumb.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/articles\/svg-workflow-for-designers\/home-thumb.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/articles\/svg-workflow-for-designers\/home-thumb.jpg",
+      "initialSize" : 3964,
       "fileType" : 4096
     },
     "\/articles\/svg-workflow-for-designers\/i\/illustrator-fit-to-selected-art.jpg" : {
@@ -5122,6 +5122,17 @@
       "initialSize" : 132853,
       "fileType" : 8192
     },
+    "\/articles\/responsive-line-breaks\/big-small.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/articles\/responsive-line-breaks\/big-small.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/articles\/responsive-line-breaks\/big-small.png",
+      "initialSize" : 3797,
+      "fileType" : 8192
+    },
     "\/-\/i\/work\/project-nav-over.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -5142,17 +5153,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/-\/i\/work\/clients\/ge.png",
       "initialSize" : 4901,
-      "fileType" : 8192
-    },
-    "\/articles\/responsive-line-breaks\/big-small.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/articles\/responsive-line-breaks\/big-small.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/articles\/responsive-line-breaks\/big-small.png",
-      "initialSize" : 3797,
       "fileType" : 8192
     },
     "\/work\/crayola\/responsive-phone.png" : {
@@ -7088,6 +7088,15 @@
       "initialSize" : 27182,
       "fileType" : 8192
     },
+    "\/articles\/_template.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/articles\/_template.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/articles\/sketchbooks\/i\/jan2012-front.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -7098,15 +7107,6 @@
       "outputAbbreviatedPath" : "\/articles\/sketchbooks\/i\/jan2012-front.jpg",
       "initialSize" : 27990,
       "fileType" : 4096
-    },
-    "\/articles\/_template.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/articles\/_template.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/articles\/techcrunch-responsive-redesign\/i\/08-home-article\/article1.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -7186,15 +7186,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/articles\/rif-kickoff\/rif-kickoff.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/articles\/rif-kickoff\/rif-kickoff.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/-\/i\/work\/speaking\/heading-upcoming.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -7205,6 +7196,15 @@
       "outputAbbreviatedPath" : "\/-\/i\/work\/speaking\/heading-upcoming.png",
       "initialSize" : 1253,
       "fileType" : 8192
+    },
+    "\/articles\/rif-kickoff\/rif-kickoff.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/articles\/rif-kickoff\/rif-kickoff.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/work\/barbie\/barbie-hero.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -7248,15 +7248,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/-\/i\/home\/dmall-website-logo4.png" : {
+    "\/articles\/now-with-responsive\/now-with-responsive-fb.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/-\/i\/home\/dmall-website-logo4.png",
+      "inputAbbreviatedPath" : "\/articles\/now-with-responsive\/now-with-responsive-fb.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/-\/i\/home\/dmall-website-logo4.png",
-      "initialSize" : 12925,
+      "outputAbbreviatedPath" : "\/articles\/now-with-responsive\/now-with-responsive-fb.png",
+      "initialSize" : 4752,
       "fileType" : 8192
     },
     "\/articles\/now-with-responsive\/cloudtypography\/76609\/A76A1ED0C203F5FC1.css" : {
@@ -7268,15 +7268,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/articles\/now-with-responsive\/now-with-responsive-fb.png" : {
+    "\/-\/i\/home\/dmall-website-logo4.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/articles\/now-with-responsive\/now-with-responsive-fb.png",
+      "inputAbbreviatedPath" : "\/-\/i\/home\/dmall-website-logo4.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/articles\/now-with-responsive\/now-with-responsive-fb.png",
-      "initialSize" : 4752,
+      "outputAbbreviatedPath" : "\/-\/i\/home\/dmall-website-logo4.png",
+      "initialSize" : 12925,
       "fileType" : 8192
     },
     "\/articles\/authenticity\/index.php" : {
