@@ -106,6 +106,20 @@ http://www.danielmall.com/
 
 .twitter-enhance { position: absolute; left: -9999px; }
 
+.site-footer {
+    li { 
+        @media screen and (min-width: $originalLayout){
+            width: 25%; padding-right: 4%; margin-right: 1%;
+        }
+    }
+
+    .site-footer-rss { 
+        @media screen and (min-width: $originalLayout){
+            width: 5%;
+        }
+    }
+}
+
 /*-------------------------------------------    
     Carbon Ads
 -------------------------------------------*/
