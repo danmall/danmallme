@@ -45,7 +45,7 @@
 			</ul>
 
 			<footer class="translation">
-				<p>This article has been graciously <a href="http://www.pkwteile.de/wissen/objekt-hodnota-cena">translated into Czech</a> by Andrey Fomin.</p>
+				<p>This article has been graciously <a href="http://www.pkwteile.de/wissen/objekt-hodnota-cena">translated into Czech</a> by Andrey Fomin and <a href="http://www.autoersatzteile.de/blog/cennik-stosunek-obiektu">translated into Polish</a> by Valeria Aleksandrova.</p>
 			</footer><!-- .translation -->	
 			
 	    </section><!-- #object-value-pricing -->	  	
