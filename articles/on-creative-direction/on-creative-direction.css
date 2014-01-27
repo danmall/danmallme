@@ -1,0 +1,22 @@
+#article-area-wrap { background: #fff; }
+
+#on-creative-direction { width: 94%; margin: 0 auto; padding: 5em 0; }
+	#on-creative-direction p { font-size: 20px; }
+	#on-creative-direction ul, #on-creative-direction ol { font-size: 16px; }
+	#on-creative-direction li { margin: 0 0 0.9em 25px; position: relative; }
+		#on-creative-direction ul li:before { content: ""; position: absolute; top: 0.5em; left: -20px; width: 8px; height: 8px; background: #2dd36a; border-radius: 3px; }
+	#on-creative-direction a { color: #d22c95; }
+
+	#on-creative-direction .article-header { margin: 0 0 6em; }
+
+		#on-creative-direction .article-header-title, #on-creative-direction .article-header-subtitle { margin: 0 0 0.1em; text-align: center; }
+		#on-creative-direction .article-header-title { line-height: 1; font: 40px 'Times New Roman', serif; }
+			#on-creative-direction .article-header-title-snippet { display: block; font-weight: normal; text-transform: uppercase; }
+			#on-creative-direction .clip { overflow: hidden; height: 0.83em; }
+			#on-creative-direction .preposition { background: #d22c95; font: bold 15px Helvetica, Arial, sans-serif; display: inline-block; color: #fff; padding: 0.5em 1em; border-radius: 5px; }
+
+		#on-creative-direction .article-header-subtitle { font: bold 17px Helvetica, Arial, sans-serif; color: #b1bab4; }
+	
+		
+#on-creative-direction ::selection { background: #585858; color: #fff; }
+#on-creative-direction ::-moz-selection { background: #585858; color: #fff; }

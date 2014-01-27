@@ -24,11 +24,15 @@
 	<div id="article-area-wrap">
 			
 	    <section id="on-creative-direction" class="clearfix wrap">			
-		
-			<h1 class="article-title">On Creative Direction</h1>
-			<h2 class="article-subtitle">A primer on creative direction as compared to art direction and design&hellip; and what they all mean in a digital context.</h1>
+			
+			<header class="article-header">
+				<h1 class="article-header-title">
+					<b class="article-header-title-snippet preposition">On</b> <b class="article-header-title-snippet clip">Creative</b> <b class="article-header-title-snippet">Direction</b>
+				</h1>
+				<h2 class="article-header-subtitle">A primer on creative direction as compared to art direction and design&hellip; and what they all mean in a digital context.</h2>
+			</header><!-- .article-header -->
 
-			<p>Three years ago, I wrote an article on <cite>A List Apart</cite> about one of my favorite topics: <a href="http://alistapart.com/article/art-direction-and-design">the difference between art direction and design</a>. One of the most common themes in the comments was the request to write a follow-up that included creative direction. This is that follow-up.</p>
+			<p class="intro">Three years ago, I wrote an article on <cite>A List Apart</cite> about one of my favorite topics: <a href="http://alistapart.com/article/art-direction-and-design">the difference between art direction and design</a>. One of the most common themes in the comments was the request to write a follow-up that included creative direction. This is that follow-up.</p>
 
 			<p>For what it&rsquo;s worth, I&rsquo;ll start by admitting that we&rsquo;re a pretty pedantic bunch, and this discussion certainly fits the mold. We love to define and redefine the terms we use every day. And I&rsquo;m glad we do. In a talk I heard from master storyteller <a href="http://www.prophet.com/about/leadership/stefanovich">Andy Stefanovich</a>, he said, &ldquo;Words make the world.&rdquo; Indeed. Beware: pedantry below.</p>
 			
@@ -37,7 +41,7 @@
 
 				<h1>Defining Creative Direction</h1>
 
-				<p>Creative direction is a tricky thing to isolate and define. There&rsquo;s a lot of overlap between creative direction, art direction, and design, so it&rsquo;s no surprise that the words are often used interchangeably. I&rsquo;ve had friends that own agencies list jobs for an Art Director, when actually what they needed was a Creative Director. I know people that hold the title of Creative Director and have no idea what&rsquo;s part of their job description—and neither do their bosses.</p>
+				<p>Creative direction is a tricky thing to isolate and define. There&rsquo;s a lot of overlap between creative direction, art direction, and design, so it&rsquo;s no surprise that the words are often used interchangeably. I&rsquo;ve had friends that own agencies list jobs for an Art Director, when actually what they needed was a Creative Director. I know people that hold the title of Creative Director and have no idea what&rsquo;s part of their job description&mdash;and neither do their bosses.</p>
 
 				<p>In the same style as my previous article, I&rsquo;ll first try to define the discipline before addressing the responsibilities of the role; that is, I&rsquo;ll try to explain creative direction before talking about Creative Director. Hopefully, you&rsquo;ll see what that&rsquo;s important in just a minute.</p>
 
@@ -47,17 +51,18 @@
 
 				<p>Creative Direction is championing the intersection where Art Direction &amp; Design meet Strategy. Let&rsquo;s quickly define each of those terms:</p>
 
-				<ul>
+				<ul class="no-marker">
+
 					<li><strong>Art Direction:</strong> the visceral resonance of how a piece of work feels. In other words, what you feel in your gut when you look at a website, app, or any piece of design work. Usually described in touchy-feely words like <em>elegant</em>, <em>grungy,</em> <em>retro,</em> and more.</li>
 
 					<li><strong>Design(1):</strong> the physical or literal aspects of a piece of work. Whoever said &ldquo;design is subjective&rdquo; wasn&rsquo;t trying hard enough. Good design is measured in precision. Is a headline kerned? Do the baselines align? Do the colors vibrate? Is the image resolution too low for the medium? A piece of work that doesn&rsquo;t adhere to the basic principles graphic designers learn in school, you can say it&rsquo;s poorly designed (even if the art direction calls for something poorly designed&hellip; see where we&rsquo;re going with that?).</li>
 
-					<li><strong>Strategy(2):</strong> the particular means used to achieve a particular goal. The goal of every football team is to win, specifically by scoring more points than the other team. If you have a fast running back and your opponent has a weak defensive line, your strategy—i.e. your particular way to win—is to run the ball. If you have a great quarterback and your opponent has a weak secondary, your strategy is to pass the ball. Your strategy changes as your circumstances do: who your opponent is, weather conditions, injuries on your roster, etc. In digital, if your goal is to sell more product and your target market is senior citizens, one strategy might be to buy Facebook ads (burn).</li>
+					<li><strong>Strategy(2):</strong> the particular means used to achieve a particular goal. The goal of every football team is to win, specifically by scoring more points than the other team. If you have a fast running back and your opponent has a weak defensive line, your strategy&mdash;i.e. your particular way to win&mdash;is to run the ball. If you have a great quarterback and your opponent has a weak secondary, your strategy is to pass the ball. Your strategy changes as your circumstances do: who your opponent is, weather conditions, injuries on your roster, etc. In digital, if your goal is to sell more product and your target market is senior citizens, one strategy might be to buy Facebook ads (burn).</li>
 				</ul>
 
 				<p>(I go into more detail about the specifics of art direction &amp; design in <a href="http://alistapart.com/article/art-direction-and-design">my original article</a>.)</p>
 
-				<p>Back to our definition of creative direction: championing the intersection where art direction &amp; design meet strategy. The primary concern of good creative direction is making sure the art direction &amp; design approaches always support the client&rsquo;s bottom line. If any of those pieces fall short—even if the others are brilliant—that&rsquo;s poor creative direction. You can have a brilliant strategy and art direction, but if it&rsquo;s not appropriately designed, that&rsquo;s poor creative direction. You can have appropriate art direction and gorgeous design, but if the strategy&rsquo;s not sound, that&rsquo;s poor creative direction. You get the idea.</p>
+				<p>Back to our definition of creative direction: championing the intersection where art direction &amp; design meet strategy. The primary concern of good creative direction is making sure the art direction &amp; design approaches always support the client&rsquo;s bottom line. If any of those pieces fall short&mdash;even if the others are brilliant&mdash;that&rsquo;s poor creative direction. You can have a brilliant strategy and art direction, but if it&rsquo;s not appropriately designed, that&rsquo;s poor creative direction. You can have appropriate art direction and gorgeous design, but if the strategy&rsquo;s not sound, that&rsquo;s poor creative direction. You get the idea.</p>
 				<p>One of my favorite examples of great creative direction is <a href="http://www.wk.com/">Wieden+Kennedy</a>&rsquo;s &ldquo;The Man Your Man Could Smell Like&rdquo; campaign for Old Spice:</p>
 
 				<p><a href="http://www.adweek.com/video/wk-old-spice-case-study-120605">http://www.adweek.com/video/wk-old-spice-case-study-120605</a></p>
@@ -103,7 +108,7 @@
 
 				<p>What does this mean for you, dear reader? Here are a few scenarios you might find yourself faced with that need clarification:</p>
 
-				<ul>
+				<ul class="no-marker">
 					
 					<li>I&rsquo;m a client, looking for someone to set the visual tone for my new app/product. <strong>You need an Art Director.</strong></li>
 					
@@ -126,20 +131,28 @@
 				
 				<h1>Bibliography</h1>
 				
-				<ul>
+				<ul class="no-marker">
 					<li><a href="http://www.creativebloq.com/career/how-become-creative-director-11121363">How to Be a Creative Director</a>, by Creative Bloq</li>
-					<li><a href="http://blogs.hbr.org/2013/12/managing-designers-on-two-different-tracks/">Managing Designers on Two Different Tracks</a>, by Harvard Business Review</li>
+					<li><a href="http://blogs.hbr.org/2013/12/managing-designers-on-two-different-tracks/">Managing Designers on Two Different Tracks</a>, by Sean Madden on Harvard Business Review</li>
 					<li><a href="http://www.creativebloq.com/career/what-design-job-titles-mean-11410424">What Design Job Titles Really Mean</a>, by Creative Bloq</li>
-					<li><a href="http://thebitchwhocodes.com/2013/10/18/from-traditional-to-digital-the-modern-creative-director/">From Traditional to Digital—The Modern Creative Director</a></li>
+					<li><a href="http://thebitchwhocodes.com/2013/10/18/from-traditional-to-digital-the-modern-creative-director/">From Traditional to Digital&mdash;The Modern Creative Director</a>, by Stacey Mulcahy</li>
 				</ul>
 
 			</section>
 
-			<h1>Footnotes</h1>
-			<ol>
-			<li>Please note that I&rsquo;m talking about design as a synonym for graphic design or visual design, not Design that indicates a larger, holistic system or process.</li>
-			<li>This definition comes from my friend <a href="https://twitter.com/cdmtthws">Chris Matthews</a>.</li>
-			</ol>
+			<section class="chunk">
+
+				<h1>Footnotes</h1>
+				
+				<ol>
+					
+					<li>Please note that I&rsquo;m talking about design as a synonym for graphic design or visual design, not Design that indicates a larger, holistic system or process.</li>
+					
+					<li>This definition comes from my friend <a href="https://twitter.com/cdmtthws">Chris Matthews</a>.</li>
+
+				</ol>
+
+			</section><!-- .chunk -->
 			
 	    </section><!-- #on-creative-direction -->	  	
 	    
