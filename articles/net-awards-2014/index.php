@@ -15,7 +15,7 @@
     <meta property="og:title" content="The Net Awards 2014!" />
     <meta property="og:description"content="How I&rsquo;m voting."/>	
     <meta property="og:url" content="http://danielmall.com/articles/net-awards-2014/" />
-    <meta property="og:image" content="http://danielmall.com/articles/net-awards-2014/net-awards-2014.png" />
+    <meta property="og:image" content="http://danielmall.com/articles/net-awards-2014/home-thumb.png" />
     
     
 </head>
