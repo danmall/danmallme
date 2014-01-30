@@ -28,7 +28,7 @@
 	    
 	    <section id="net-awards-2014" class="clearfix">
 
-            <header class="article-header">
+            <header class="article-header clearfix">
 			
     			<h1 class="article-title">How I&rsquo;m Voting</h1><!-- .article-title -->    
 
@@ -36,11 +36,17 @@
 
             </header><!-- .article-header -->
 
-            <p>There are lots of great people and organizations, nominated for this year&rsquo;s <a href="https://thenetawards.com/">Net Awards</a>. I&rsquo;m very blessed to have had the good fortune of being nominated in a few categories myself, along with many friends. I&rsquo;m also a <a href="https://thenetawards.com/judges/">judge</a> too. Because of the combination of those factors, I thought I might share my thought process in who I&rsquo;m voting&mdash;and not voting&mdash;for.</p>
+            <section class="intro">
 
-            <p>My main criterion is this: <em>who did something incredible last year that I can recall</em>? Everyone on this list has done some incredible things, but, seeing as it&rsquo;s an annual award show, I try to keep the focus on what happened in 2013. Also, if I can&rsquo;t recall some specific work, then I&rsquo;m essentially voting for a person/team solely because I like them. I don&rsquo;t want this to be a popularity contest; I&rsquo;d prefer that people were rewarded on merit. Here goes.</p>
+                <p>There are lots of great people and organizations, nominated for this year&rsquo;s <a href="https://thenetawards.com/">Net Awards</a>. I&rsquo;m very blessed to have had the good fortune of being nominated in a few categories myself, along with many friends. I&rsquo;m also a <a href="https://thenetawards.com/judges/">judge</a> too. Because of the combination of those factors, I thought I might share my thought process in who I&rsquo;m voting&mdash;and not voting&mdash;for.</p>
 
-            <section id="team-awards" class="award-type">
+                <p>My main criterion is this: <em>who did something incredible last year that I can recall</em>? Everyone on this list has done some incredible things, but, seeing as it&rsquo;s an annual award show, I try to keep the focus on what happened in 2013. Also, if I can&rsquo;t recall some specific work, then I&rsquo;m essentially voting for a person/team solely because I like them. I don&rsquo;t want this to be a popularity contest; I&rsquo;d prefer that people were rewarded on merit. Here goes.</p>
+
+            </section><!-- .intro -->
+
+
+
+            <section id="team-awards" class="award-type clearfix">
 
                 <h1 class="award-type-headline">Team Awards</h1>
 
@@ -85,7 +91,7 @@
             </section><!-- #team-awards -->
 
 
-            <section id="individual-awards" class="award-type">
+            <section id="individual-awards" class="award-type clearfix">
 
                 <h1 class="award-type-headline">Individual Awards</h1>
 
@@ -193,7 +199,7 @@
 
 
 
-            <section id="community-awards" class="award-type">
+            <section id="community-awards" class="award-type clearfix">
 
                 <h1 class="award-type-headline">Community Awards</h1>
 
@@ -244,7 +250,7 @@
 
 
 
-            <section id="community-awards" class="award-type">
+            <section id="community-awards" class="award-type clearfix">
 
                 <h1 class="award-type-headline">Project Awards</h1>
 
@@ -316,62 +322,15 @@
                 </article><!-- .award-type-entry -->
 
 
-            </section><!-- #community-awards -->
+            </section><!-- #project-awards -->
 
 
 
-            <section id="community-awards" class="award-type">
-
-                <h1 class="award-type-headline">Community Awards</h1>
-
-                <article class="award-type-entry">
-                    <h1 class="award-type-entry-headline">
-                        <a class="award-type-entry-brand" href="https://thenetawards.com/vote/podcast/shoptalk/">
-                            <img class="award-type-entry-brand-image" src="shoptalk.jpg" alt="" />
-                            Shoptalk
-                        </a>
-                        for <strong>Podcast of the Year</strong>
-                    </h1>
-
-                    <p>I never miss any episode of <a href="http://shoptalkshow.com/">Shoptalk</a>. <a href="http://chriscoyier.net/">Chris</a> &amp; <a href="http://daverupert.com/">Dave</a> are hilarious, and listening to the show is a big part of how I stay updated on what the kids are doing in web development these days.</p>
-
-                </article><!-- .award-type-entry -->
+            
 
 
 
-                <article class="award-type-entry">
-                    <h1 class="award-type-entry-headline">
-                        <a class="award-type-entry-brand" href="https://thenetawards.com/vote/talk/mike-monteiro-how-designers-des/">
-                            <img class="award-type-entry-brand-image" src="mikemonteiro.jpg" alt="" />
-                            &ldquo;How Designers Destroyed the World&rdquo;
-                        </a>
-                        for <strong>Conference Talk of the Year</strong>
-                    </h1>
-
-                    <p>This is an incredibly important topic, and <a href="https://twitter.com/monteiro">Mike</a> slays it.</p>
-
-                </article><!-- .award-type-entry -->
-
-
-                <article class="award-type-entry">
-                    <h1 class="award-type-entry-headline">
-                        <a class="award-type-entry-brand" href="https://thenetawards.com/vote/grassroots/creativemornings/">
-                            <img class="award-type-entry-brand-image" src="creativemornings.png" alt="" />
-                            Creative Mornings
-                        </a>
-                        for <strong>Grassroots Event of the Year</strong>
-                    </h1>
-
-                    <p>One of the things I miss most about living in Brooklyn is Friday mornings with an <a href="http://www.almondinebakery.com/">Almondine</a> croissant and Creative Mornings at <a href="http://www.galapagosartspace.com/">Galapagos</a>. What <a href="http://www.swiss-miss.com/">Tina</a> and crew has done with this event by making it worldwide is nothing short of amazing. (On a related note, keep your eyes peeled, Philly.)</p>
-
-                </article><!-- .award-type-entry -->
-
-
-            </section><!-- #community-awards -->
-
-
-
-            <section id="technology-awards" class="award-type">
+            <section id="technology-awards" class="award-type clearfix">
 
                 <h1 class="award-type-headline">Technology Awards</h1>
 
@@ -404,7 +363,7 @@
                 <article class="award-type-entry">
                     <h1 class="award-type-entry-headline">
                         <a class="award-type-entry-brand" href="https://thenetawards.com/vote/open-source/bourbon/">
-                            <img class="award-type-entry-brand-image" src="bourbon.png" alt="" />
+                            <img class="award-type-entry-brand-image" src="bourbon2.png" alt="" />
                             Bourbon
                         </a>
                         for <strong>Open Source Project of the Year</strong>
@@ -442,7 +401,7 @@
 	
     <?php
 
-        echo readNext('Progressive Enhancement. Still alive and kickin&rsquo;.', '/articles/progressive-enhancement/');
+        echo readNext('How to Get the Work You Want', '/articles/how-to-get-the-work-you-want/');
 
     ?>
 	
