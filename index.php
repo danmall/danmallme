@@ -100,6 +100,18 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/net-awards-2014/">
+                                    <img class="round-image" src="/articles/net-awards-2014/home-thumb.png" alt="" />
+                                    <span class="home-item-name">The Net Awards 2014</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">How I&rsquo;m voting.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/how-to-get-the-work-you-want/">
                                     <img class="round-image" src="/articles/how-to-get-the-work-you-want/home-thumb.png" alt="" />
                                     <span class="home-item-name">How to Get the Work You Want</span>
@@ -108,7 +120,7 @@
                             <p class="home-item-description">Advice for anyone.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/techcrunch-responsive-redesign/">
@@ -119,7 +131,7 @@
                             <p class="home-item-description">The story of the new responsive TechCrunch.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/responsive-mobile-entertainment-weekly/">
@@ -130,6 +142,7 @@
                             <p class="home-item-description">New work on a responsive mobile site for Entertainment Weekly.</p>
                         </article><!-- .home-item-article -->
                     </li>
+                    <?php /* ?>
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -142,7 +155,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <?php /* ?>
+                    
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
