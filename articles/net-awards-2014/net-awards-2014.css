@@ -1,0 +1,24 @@
+#article-area-wrap { background: #fdfdfd; padding: 0; }
+
+#net-awards-2014 { margin: 0 auto; border: 10px solid #c2a40f; padding: 3em 3%; font-family: 'Merriweather'; }      
+
+	#net-awards-2014 p { font-size: 16px; color: #333; }
+
+	#net-awards-2014 a { color: #000; font-weight: bold; border-bottom: 1px solid #aaa; }
+	#net-awards-2014 a:hover, #net-awards-2014 a:focus { border-bottom: 1px solid #c2a40f; color: #c2a40f; }
+
+	#net-awards-2014 .article-title, #net-awards-2014 .award-type-headline { text-align: center; font: 36px Oswald; text-transform: uppercase; }
+		#net-awards-2014 .title-logo { margin: 0 auto 2em; width: 50%; float: none; max-width: 200px; }
+
+	#net-awards-2014 .award-type-headline { font-size: 26px; border-top: 1px solid #aaa; padding: 1em 0 0; }
+	#net-awards-2014 .award-type-entry p { font-size: 14px; }
+		#net-awards-2014 .award-type-entry-headline { font-size: 16px; text-align: center; }
+		#net-awards-2014 .award-type-entry-brand { display: block; font: 34px "Oswald"; border: none; color: #c2a40f; }
+		#net-awards-2014 .award-type-entry-brand:hover, #net-awards-2014 .award-type-entry-brand:focus { border: none; }
+			#net-awards-2014 .award-type-entry-brand-image { float: none; border: none; width: 50%; margin: 0 auto; border-radius: 50%; }
+	
+	#net-awards-2014 .award-type-entry-brand-abstain { font-size: 82px; }
+		
+		
+#net-awards-2014 ::selection { background: #464646; color: #fdfdfd; }
+#net-awards-2014 ::-moz-selection { background: #464646; color: #fdfdfd; }
