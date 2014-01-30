@@ -316,12 +316,124 @@
                 </article><!-- .award-type-entry -->
 
 
+            </section><!-- #community-awards -->
 
 
 
+            <section id="community-awards" class="award-type">
+
+                <h1 class="award-type-headline">Community Awards</h1>
+
+                <article class="award-type-entry">
+                    <h1 class="award-type-entry-headline">
+                        <a class="award-type-entry-brand" href="https://thenetawards.com/vote/podcast/shoptalk/">
+                            <img class="award-type-entry-brand-image" src="shoptalk.jpg" alt="" />
+                            Shoptalk
+                        </a>
+                        for <strong>Podcast of the Year</strong>
+                    </h1>
+
+                    <p>I never miss any episode of <a href="http://shoptalkshow.com/">Shoptalk</a>. <a href="http://chriscoyier.net/">Chris</a> &amp; <a href="http://daverupert.com/">Dave</a> are hilarious, and listening to the show is a big part of how I stay updated on what the kids are doing in web development these days.</p>
+
+                </article><!-- .award-type-entry -->
+
+
+
+                <article class="award-type-entry">
+                    <h1 class="award-type-entry-headline">
+                        <a class="award-type-entry-brand" href="https://thenetawards.com/vote/talk/mike-monteiro-how-designers-des/">
+                            <img class="award-type-entry-brand-image" src="mikemonteiro.jpg" alt="" />
+                            &ldquo;How Designers Destroyed the World&rdquo;
+                        </a>
+                        for <strong>Conference Talk of the Year</strong>
+                    </h1>
+
+                    <p>This is an incredibly important topic, and <a href="https://twitter.com/monteiro">Mike</a> slays it.</p>
+
+                </article><!-- .award-type-entry -->
+
+
+                <article class="award-type-entry">
+                    <h1 class="award-type-entry-headline">
+                        <a class="award-type-entry-brand" href="https://thenetawards.com/vote/grassroots/creativemornings/">
+                            <img class="award-type-entry-brand-image" src="creativemornings.png" alt="" />
+                            Creative Mornings
+                        </a>
+                        for <strong>Grassroots Event of the Year</strong>
+                    </h1>
+
+                    <p>One of the things I miss most about living in Brooklyn is Friday mornings with an <a href="http://www.almondinebakery.com/">Almondine</a> croissant and Creative Mornings at <a href="http://www.galapagosartspace.com/">Galapagos</a>. What <a href="http://www.swiss-miss.com/">Tina</a> and crew has done with this event by making it worldwide is nothing short of amazing. (On a related note, keep your eyes peeled, Philly.)</p>
+
+                </article><!-- .award-type-entry -->
 
 
             </section><!-- #community-awards -->
+
+
+
+            <section id="technology-awards" class="award-type">
+
+                <h1 class="award-type-headline">Technology Awards</h1>
+
+                <article class="award-type-entry">
+                    <h1 class="award-type-entry-headline">
+                        <a href="https://thenetawards.com/vote/game-changer/" class="award-type-entry-brand award-type-entry-brand-abstain">
+                            &times;
+                        </a>
+                        for <strong>Game Changer of the Year</strong>
+                    </h1>
+
+                    <p>I&rsquo;d really like to vote for <a href="https://thenetawards.com/vote/game-changer/patterns/">Patterns</a>, as I think an affordable 1-week intensive that supports the intersection of design and entrepreneurship really is a game changer, but the fact that it&rsquo;s in a &ldquo;Technology&rdquo; category makes me hesitate. Abstaining for now.</p>
+
+                </article><!-- .award-type-entry -->
+
+
+                <article class="award-type-entry">
+                    <h1 class="award-type-entry-headline">
+                        <a href="https://thenetawards.com/vote/web-tech/" class="award-type-entry-brand award-type-entry-brand-abstain">
+                            &times;
+                        </a>
+                        for <strong>Best New Web Technology</strong>
+                    </h1>
+
+                    <p>I haven&rsquo;t played with any of these myself. Pass.</p>
+
+                </article><!-- .award-type-entry -->
+
+
+                <article class="award-type-entry">
+                    <h1 class="award-type-entry-headline">
+                        <a class="award-type-entry-brand" href="https://thenetawards.com/vote/open-source/bourbon/">
+                            <img class="award-type-entry-brand-image" src="bourbon.png" alt="" />
+                            Bourbon
+                        </a>
+                        for <strong>Open Source Project of the Year</strong>
+                    </h1>
+
+                    <p>I use <a href="http://bourbon.io/">Bourbon</a> on every single project I do. Very thankful to <a href="http://thoughtbot.com/">thoughbot</a> for creating and maintaining it.</p>
+
+                </article><!-- .award-type-entry -->
+
+
+                <article class="award-type-entry">
+                    <h1 class="award-type-entry-headline">
+                        <a class="award-type-entry-brand" href="https://thenetawards.com/vote/app/editorially/">
+                            <img class="award-type-entry-brand-image" src="editoriallylogo.png" alt="" />
+                            Editorially
+                        </a>
+                        for <strong>App of the Year</strong>
+                    </h1>
+
+                    <p>This one was tough for me; it was a toss-up between <a href="http://editorially.com/">Editorially</a> and <a href="http://www.sublimetext.com/">Sublime Text</a>, both of which I use multiple times a day. For me, it came down to the fact that I could get by without Sublime Text by using something like TextMate, Coda, Brackets, or even Notepad, but I&rsquo;d really be missing a lot if I didn&rsquo;t have Editorially.</p>
+
+                </article><!-- .award-type-entry -->
+
+            </section><!-- #technology-awards -->
+
+
+            <section class="outro">
+                <p>So ends my roundup! Don&rsquo;t buy it? Disagree with my logic? <a href="#comments">Let&rsquo;s discuss</a>!</p>
+            </section>
 
             
 	    </section><!-- #net-awards-2014 -->	    

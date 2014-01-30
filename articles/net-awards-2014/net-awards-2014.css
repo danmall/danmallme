@@ -10,7 +10,7 @@
 	#net-awards-2014 .article-title, #net-awards-2014 .award-type-headline { text-align: center; font: 36px Oswald; text-transform: uppercase; }
 		#net-awards-2014 .title-logo { margin: 0 auto 2em; width: 50%; float: none; max-width: 200px; }
 
-	#net-awards-2014 .award-type-headline { font-size: 26px; border-top: 1px solid #aaa; padding: 1em 0 0; margin: 0 0 1em; }
+	#net-awards-2014 .award-type-headline, #net-awards-2014 .outro { font-size: 26px; border-top: 1px solid #aaa; padding: 1em 0 0; margin: 0 0 1em; }
 	#net-awards-2014 .award-type-entry { margin: 0 0 5em; }
 	#net-awards-2014 .award-type-entry p { font-size: 14px; }
 		#net-awards-2014 .award-type-entry-headline { font-size: 16px; text-align: center; }
@@ -19,6 +19,7 @@
 			#net-awards-2014 .award-type-entry-brand-image { float: none; border: none; width: 50%; margin: 0 auto 0.2em; border-radius: 50%; }
 	
 	#net-awards-2014 .award-type-entry-brand-abstain { font-size: 82px; }
+
 		
 		
 #net-awards-2014 ::selection { background: #464646; color: #fdfdfd; }
