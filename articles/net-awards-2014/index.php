@@ -78,11 +78,77 @@
                         for <strong>Agency of the Year</strong>
                     </h1>
 
-                    <p>They launched <a href="http://www.teehanlax.com/">a great new site</a>, <a href="http://www.teehanlax.com/story/medium/">helped make Medium a wonderful platform</a>, released <a href="http://labs.teehanlax.com/project/hyperlapse">Hyperlapse</a>, and kept their iPhone PSD current with <a href="http://www.teehanlax.com/tools/iphone/">an iOS7 version</a>. They deserve the award.</p>
+                    <p>They launched <a href="http://www.teehanlax.com/">a great new site</a>, <a href="http://www.teehanlax.com/story/medium/">helped make Medium a wonderful platform</a>, released <a href="http://labs.teehanlax.com/project/hyperlapse">Hyperlapse</a>, and kept their iPhone <abbr title="Photoshop Document">PSD</abbr> current with <a href="http://www.teehanlax.com/tools/iphone/">an iOS7 version</a>. They deserve the award.</p>
 
                 </article><!-- .award-type-entry -->
 
             </section><!-- .team-awards -->
+
+
+            <section id="individual-awards" class="award-type">
+
+                <h1 class="award-type-headline">Individual Awards</h1>
+
+                <article class="award-type-entry">
+                    <h1 class="award-type-entry-headline">
+                        <a class="award-type-entry-brand" href="https://thenetawards.com/vote/entrepreneur/simon-willison-and-natalie-downe/">
+                            <img class="award-type-entry-brand-image" src="netvoicesqanataliedownesimonwillisontone.jpg" alt="" />
+                            Simon Willison And Natalie Downe
+                        </a>
+                        for <strong>Entrepreneur of the Year</strong>
+                    </h1>
+
+                    <p>Simon and Natalie&rsquo;s journey from an idea of a product to seeing it succeed and selling it to Eventbrite is a testament to their hard work. It&rsquo;s the definition of entrepreneurship in action, if you ask me. Natalie&rsquo;s presentation of their story, &ldquo;<a href="https://speakerdeck.com/natbat/from-idea-to-exit">From Idea to Exit</a>,&rdquo; is one of the most honest and refreshing talks I&rsquo;ve seen in a long time.</p>
+
+                </article><!-- .award-type-entry -->
+
+
+                <article class="award-type-entry">
+                    <h1 class="award-type-entry-headline">
+                        <span class="award-type-entry-brand award-type-entry-brand-abstain">
+                            &times;
+                        </span>
+                        for <strong>Emerging Talent of the Year</strong>
+                    </h1>
+
+                    <p>I&rsquo;m not very familiar with very many people or their work in this category. Pass.</p>
+
+                </article><!-- .award-type-entry -->
+
+
+                <article class="award-type-entry">
+                    <h1 class="award-type-entry-headline">
+                        <a class="award-type-entry-brand" href="https://thenetawards.com/vote/young-developer/anthony-colangelo/">
+                            <img class="award-type-entry-brand-image" src="anthonycolangelo.jpg" alt="" />
+                            Anthony Colangelo
+                        </a>
+                        for <strong>Young Developer of the Year</strong>
+                    </h1>
+
+                    <p>I&rsquo;ve used Anthony&rsquo;s <a href="http://jpanelmenu.com/">jPanelMenu</a>, learned a ton from his &ldquo;<a href="http://alistapart.com/article/the-design-of-code-organizing-javascript">The Design of Code: Organizing JavaScript</a>&rdquo; article on <cite>A List Apart</cite>, and enjoyed reading about his adventures in <a href="http://acolangelo.com/blog/switch-programming">Switch Programming</a>. He gets my vote.</p>
+
+                </article><!-- .award-type-entry -->
+
+
+                <article class="award-type-entry">
+                    <h1 class="award-type-entry-headline">
+                        <a class="award-type-entry-brand" href="https://thenetawards.com/vote/young-designer/sawyer-hollenshead/">
+                            <img class="award-type-entry-brand-image" src="sawyerhollenshead.png" alt="" />
+                            Sawyer Hollenshead
+                        </a>
+                        for <strong>Young Designer of the Year</strong>
+                    </h1>
+
+                    <p>Sawyer helped make <a href="http://creativemornings.com/">the new Creative Mornings site</a>, helped create <a href="http://www.siteleaf.com/">Siteleaf</a>, and curates <a href="http://www.organizedwonder.com/">Organized Wonder</a>.</p>
+
+                </article><!-- .award-type-entry -->
+
+
+
+            </section><!-- .team-awards -->
+
+
+
             
 	    </section><!-- #net-awards-2014 -->	    
 	    
