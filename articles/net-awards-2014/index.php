@@ -59,9 +59,9 @@
 
                 <article class="award-type-entry">
                     <h1 class="award-type-entry-headline">
-                        <span class="award-type-entry-brand award-type-entry-brand-abstain">
+                        <a class="award-type-entry-brand award-type-entry-brand-abstain" href="https://thenetawards.com/vote/team/">
                             &times;
-                        </span>
+                        </a>
                         for <strong>Team of the Year</strong>
                     </h1>
 
@@ -105,9 +105,9 @@
 
                 <article class="award-type-entry">
                     <h1 class="award-type-entry-headline">
-                        <span class="award-type-entry-brand award-type-entry-brand-abstain">
+                        <a class="award-type-entry-brand award-type-entry-brand-abstain" href="https://thenetawards.com/vote/talent/">
                             &times;
-                        </span>
+                        </a>
                         for <strong>Emerging Talent of the Year</strong>
                     </h1>
 
@@ -162,9 +162,9 @@
 
                 <article class="award-type-entry">
                     <h1 class="award-type-entry-headline">
-                        <span class="award-type-entry-brand award-type-entry-brand-abstain">
+                        <a class="award-type-entry-brand award-type-entry-brand-abstain" href="https://thenetawards.com/vote/designer/">
                             &times;
-                        </span>
+                        </a>
                         for <strong>Designer of the Year</strong>
                     </h1>
 
@@ -250,9 +250,9 @@
 
                 <article class="award-type-entry">
                     <h1 class="award-type-entry-headline">
-                        <span class="award-type-entry-brand award-type-entry-brand-abstain">
+                        <a class="award-type-entry-brand award-type-entry-brand-abstain" href="https://thenetawards.com/vote/portfolio/">
                             &times;
-                        </span>
+                        </a>
                         for <strong>Best Online Portfolio</strong>
                     </h1>
 
@@ -277,9 +277,9 @@
 
                 <article class="award-type-entry">
                     <h1 class="award-type-entry-headline">
-                        <span class="award-type-entry-brand award-type-entry-brand-abstain">
+                        <a class="award-type-entry-brand award-type-entry-brand-abstain" href="https://thenetawards.com/vote/demo/">
                             &times;
-                        </span>
+                        </a>
                         for <strong>Demo of the Year</strong>
                     </h1>
 
@@ -291,9 +291,9 @@
 
                 <article class="award-type-entry">
                     <h1 class="award-type-entry-headline">
-                        <span class="award-type-entry-brand award-type-entry-brand-abstain">
+                        <a class="award-type-entry-brand award-type-entry-brand-abstain" href="https://thenetawards.com/vote/collaboration/">
                             &times;
-                        </span>
+                        </a>
                         for <strong>Best Collaborative Project</strong>
                     </h1>
 
@@ -305,9 +305,9 @@
 
                 <article class="award-type-entry">
                     <h1 class="award-type-entry-headline">
-                        <span class="award-type-entry-brand award-type-entry-brand-abstain">
+                        <a class="award-type-entry-brand award-type-entry-brand-abstain" href="https://thenetawards.com/vote/redesign/">
                             &times;
-                        </span>
+                        </a>
                         for <strong>Redesign of the Year</strong>
                     </h1>
 
