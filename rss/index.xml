@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2014</dc:rights>
-    <pubDate>Wed, 01 Jan 2014 23:00:00 GMT</pubDate>
+    <pubDate>Thu, 30 Jan 2014 07:15:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>The Net Awards 2014</title>
+        <description>How I&rsquo;m voting.</description>
+        <link>http://danielmall.com/articles/net-awards-2014/</link>
+        <guid>http://danielmall.com/articles/net-awards-2014/</guid>
+        <pubDate>Thu, 30 Jan 2014 07:15:00 GMT</pubDate>
+    </item>
     <item>
         <title>How to Get the Work You Want</title>
         <description>Advice for anyone.</description>

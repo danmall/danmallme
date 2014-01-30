@@ -27,6 +27,18 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/net-awards-2014/">The Net Awards 2014</a></h1>
+                            </header>
+                            <p>How I&rsquo;m voting.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/net-awards-2014/"><time datetime="2014-01-30T07:15:00">Jan 30, 2014</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/net-awards-2014/#disqus_thread" data-disqus-identifier="net-awards-2014"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>                  
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/how-to-get-the-work-you-want/">How to Get the Work You Want</a></h1>
                             </header>
                             <p>Advice for anyone.</p>
