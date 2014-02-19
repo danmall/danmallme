@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2014</dc:rights>
-    <pubDate>Thu, 30 Jan 2014 07:15:00 GMT</pubDate>
+    <pubDate>Wed, 19 Feb 2014 12:57:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>On Creative Direction</title>
+        <description>A primer on creative direction as compared to art direction and design&hellip; and what they all mean in a digital context.</description>
+        <link>http://danielmall.com/articles/on-creative-direction/</link>
+        <guid>http://danielmall.com/articles/on-creative-direction/</guid>
+        <pubDate>Wed, 19 Feb 2014 12:57:00 GMT</pubDate>
+    </item>
     <item>
         <title>The Net Awards 2014</title>
         <description>How I&rsquo;m voting.</description>
