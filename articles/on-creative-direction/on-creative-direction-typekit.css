@@ -1,0 +1,24 @@
+#on-creative-direction h1, #on-creative-direction .article-header-title-snippet { font-family: "freight-big-pro"; }
+#on-creative-direction h1 { font-size: 36px; line-height: 1; color: #000; }
+#on-creative-direction p, #on-creative-direction li { font-family: "freight-text-pro"; }
+#on-creative-direction ul, #on-creative-direction ol { font-size: 18px; }
+#on-creative-direction .preposition, #on-creative-direction .pullquote p, #on-creative-direction .article-header-subtitle { font-family: "proxima-nova-soft"; }
+#on-creative-direction .pullquote p { font-size: 24px; }
+#on-creative-direction .article-header-subtitle { font-size: 20px; }
+
+#on-creative-direction .article-header-title-snippet { font-size: 52px; }
+#on-creative-direction .clip { overflow: hidden; height: 0.9em; margin-bottom: -0.3em; } 
+#on-creative-direction .preposition { font-size: 18px }
+
+@media screen and (min-width: 500px){
+	#on-creative-direction h1 { font-size: 48px; text-align: center; }
+
+	#on-creative-direction .article-header-title-snippet { font-size: 111px; letter-spacing: -3px; }
+	#on-creative-direction .preposition { font-size: 18px; letter-spacing: 0;  }
+
+	#on-creative-direction .chunk { margin-top: 6em; }
+
+	#on-creative-direction .article-header { margin-bottom: 14em; }
+	#on-creative-direction .initial { display: block; font: bold 270px "proxima-nova-soft"; color: #d22c95; text-align: center; float: left; padding: 0 0.1em; margin: -170px 0 -50px; }
+	#on-creative-direction .pullquote p { font-size: 20px; }
+}
