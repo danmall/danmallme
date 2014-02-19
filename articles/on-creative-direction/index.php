@@ -119,6 +119,8 @@
 
 				<p>A Creative Director also has lots of other responsibilities, like mentoring, growing teams, seeing a vision through for each project, establishing a positive culture, and more. While those are important, those are traits of good <em>leaders</em>. A Creative Director is a leader and should certainly be concerned with those things. However, so should anyone that is a manager or has &ldquo;Director&rdquo;, &ldquo;VP,&rdquo; &ldquo;Head,&rdquo; or &ldquo;Chief&rdquo; in her title; none of those are specific to creative direction. (You see now why it&rsquo;s hard to distinguish Art Director from Creative Director; they both have the Director part in common, but most miss the main responsibility.)</p>
 
+				<p>A great Creative Director has the answer to everything, not because she&rsquo;s smarter than everyone else but because she&rsquo;s spent more time thinking about all of the possible scenarios before everyone else even realized that was important. When I&rsquo;m working on a project with a Creative Director, that&rsquo;s the expectation I have of her&mdash;to make well-informed decisions amongst tough choices. On projects where I&rsquo;m the Creative Director, that responsibility is on my shoulders.</p>
+
 			</section><!-- .chunk -->
 
 			<section class="chunk">
@@ -167,7 +169,7 @@
 					
 					<li id="fn1">Please note that I&rsquo;m talking about design as a synonym for graphic design or visual design, not Design that indicates a larger, holistic system or process. <a href="#fn1-source">&#8617;</a></li>
 					
-					<li id="fn2">This definition comes from my friend <a href="https://twitter.com/cdmtthws">Chris Matthews</a>. <a href="#fn2-source">&#8617;</a></li>
+					<li id="fn2">This lovely definition comes from my friend <a href="https://twitter.com/cdmtthws">Chris Matthews</a>. <a href="#fn2-source">&#8617;</a></li>
 
 				</ol>
 
@@ -227,7 +229,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2013-06-19T20:18:51">Published January 1, 2014 at 11:00 <abbr title="Post Meridian">PM</abbr></time>
+        	        <time datetime="2014-02-19T12:57:00">Published February 19, 2014 at 12:57 <abbr title="Post Meridian">PM</abbr></time>
     	        </section><!-- /.article-info -->
     	        
     	        
