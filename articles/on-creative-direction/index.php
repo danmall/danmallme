@@ -121,6 +121,14 @@
 
 				<p>A great Creative Director has the answer to everything, not because she&rsquo;s smarter than everyone else but because she&rsquo;s spent more time thinking about all of the possible scenarios before everyone else even realized that was important. When I&rsquo;m working on a project with a Creative Director, that&rsquo;s the expectation I have of her&mdash;to make well-informed decisions amongst tough choices. On projects where I&rsquo;m the Creative Director, that responsibility is on my shoulders.</p>
 
+				<p><strong>[Added Feb. 23, 4 days after original publishing:]</strong> In an article called <cite><a href="http://sethgodin.typepad.com/seths_blog/2014/01/who-has-a-seat-at-the-table.html">Who Has a Seat at the Table</a></cite>, Seth Godin wrote:</p>
+
+				<blockquote>
+					<p>Who is obsessed with creating delight, with building in remarkability, with pushing the envelope (every envelope&mdash;money, tech, policy) to get to the point where you've created something that people will be proud of, that will change things for the better, that will make a dent in the universe?</p>
+				</blockquote>
+
+				<p><em>That</em>&rsquo;s the job of a Creative Director.</p>
+
 			</section><!-- .chunk -->
 
 			<section class="chunk">
@@ -139,7 +147,7 @@
 					
 					<li>I&rsquo;m a client, looking for someone to tell me why that particular color scheme for my new product is better for my users and will make me rich. <strong>You need a Creative Director.</strong></li>
 					
-					<li>I&rsquo;m an agency owner, looking to hire someone who can ensure that my Designers&rsquo; work is on par. <strong>You need a Creative Director.</strong></li>
+					<li>I&rsquo;m an agency owner, looking to hire someone who can ensure that my Designers&rsquo; work is of the highest quality, the typefaces are well chosen, and the grids are pixel-perfect. <strong>You need a Art Director.</strong></li>
 					
 					<li>I&rsquo;m a Designer, looking for guidance to help develop my critical thinking skills so that I can better understand how my designs can affect my clients&rsquo; business. <strong>You need a Creative Director.</strong></li>
 				</ul>
