@@ -59,7 +59,7 @@
                         for <strong>New Agency of the Year</strong>
                     </h1>
 
-                    <p>I&rsquo;ve seen <a href="http://arbitrary.io/">Arbitrary</a>&rsquo;s work this past year and even collaborated with them. I&rsquo;ll leave it to them to decide what to divulge publicly yet, but you&rsquo;ll be blown away by their quality of work.</p>
+                    <p>I&rsquo;ve seen <a href="http://arbitrary.io/">Arbitrary</a>&rsquo;s excellent work this past year and even collaborated with them on some of it. I&rsquo;ll leave it to them to decide what to divulge publicly yet, but you&rsquo;ll be blown away by their quality of work.</p>
 
                 </article><!-- .award-type-entry -->
 
@@ -111,13 +111,16 @@
 
                 <article class="award-type-entry">
                     <h1 class="award-type-entry-headline">
-                        <a class="award-type-entry-brand award-type-entry-brand-abstain" href="https://thenetawards.com/vote/talent/">
-                            &times;
+                        <a class="award-type-entry-brand award-type-entry-brand" href="https://thenetawards.com/vote/talent/conor-odriscoll/">
+                            <img class="award-type-entry-brand-image" src="conorodriscoll.png" alt="" />
+                            Conor O&rsquo;Driscoll
                         </a>
                         for <strong>Emerging Talent of the Year</strong>
                     </h1>
 
-                    <p>I&rsquo;m not very familiar with very many people or their work in this category. Pass.</p>
+                    <p>Of everything in this category, I&rsquo;m most familiar with <a href="http://conorodriscoll.com/">Conor</a>&rsquo;s <a href="http://theindustry.cc/category/interviews/">&ldquo;One Minute With&rdquo; interviews</a> at The Industry. I&rsquo;ve combed through these interviews many times before, and I think Conor deserves my vote for the hard work it took to put these together.</p>
+
+                    <p><strong>Note:</strong> I originally abstained for voting in this category, due to lack of familiarity with the nominees and their work, but Net magazine editor Oliver Lindberg astutely <a href="https://twitter.com/oliverlindberg/status/429280739587522560" title="An Twitter exchange with Oliver Lindberg">pointed out</a> that unfamiliarity was the nature of this particular category.</p>
 
                 </article><!-- .award-type-entry -->
 
@@ -174,7 +177,7 @@
                         for <strong>Designer of the Year</strong>
                     </h1>
 
-                    <p>Because I&rsquo;m nominated in this category, I&rsquo;ll abstain from voting. If you&rsquo;ve gotten value out of <a href="/articles/">my articles</a>, <a href="/work/">my work</a>, or <a href="http://superfriend.ly/">SuperFriendly&rsquo;s work</a>, I&rsquo;d appreciate if you <a href="https://thenetawards.com/vote/designer/daniel-mall/">give me a vote</a>, but I won&rsquo;t vote in this category myself.</p>
+                    <p>Because I&rsquo;m nominated in this category, I&rsquo;ll abstain from voting. I think I&rsquo;m an appropriate nominee because I&rsquo;ve created some great work and wrote some meaningful pieces this past year. If you agree and/or have gotten value out of <a href="/articles/">my articles</a>, <a href="/work/">my work</a>, or <a href="http://superfriend.ly/">SuperFriendly&rsquo;s work</a>, I&rsquo;d appreciate if you <a href="https://thenetawards.com/vote/designer/daniel-mall/">give me a vote</a>, but I won&rsquo;t vote in this category myself.</p>
 
                 </article><!-- .award-type-entry -->
 
