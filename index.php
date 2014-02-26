@@ -26,69 +26,7 @@
 	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 	
 	<div class="content" class="easy-clearing">
-	    
-	    <section id="work" class="home-row">
-	        
-	        <div class="inner">
-		    
-		        <h1 class="stacked-heading">Featured Work</h1>
-		
-    			<ol class="no-marker">
-
-                    <li class="home-item position1">
-                        <article class="home-item-article">
-                            <h2 class="home-item-headline">
-                                <a href="/work/crayola/">
-                                    <img class="round-image" src="/-/i/home/crayola-thumb.jpg" alt="" />
-                                    <span class="home-item-name">Crayola</span>
-                                </a>
-                            </h2><!-- .home-item-headline -->
-                            <p class="home-item-description">Free the &ldquo;what if.&ldquo;</p>
-                        </article><!-- .home-item-article -->
-                    </li>
-                    <li class="home-item position2">
-                        <article class="home-item-article">
-                            <h2 class="home-item-headline">
-                                <a href="/work/star-wars/">
-                                    <img class="round-image" src="/-/i/home/star-wars.jpg" alt="" />
-                                    <span class="home-item-name">Star Wars</span>
-                                </a>
-                            </h2><!-- .home-item-headline -->
-                            <p class="home-item-description">Creating a universe for a universe.</p>
-                        </article><!-- .home-item-article -->
-                    </li>
-                    <li class="home-item position3">
-                        <article class="home-item-article">
-                            <h2 class="home-item-headline">
-                                <a href="/work/activate/">
-                                    <img class="round-image" src="/-/i/home/activate2.jpg" alt="" />
-                                    <span class="home-item-name">Activate</span>
-                                </a>
-                            </h2><!-- .home-item-headline -->
-                            <p class="home-item-description">A turn for the better.</p>
-                        </article><!-- .home-item-article -->
-                    </li>
-                    <li class="home-item position4">
-                        <article class="home-item-article">
-                            <h2 class="home-item-headline">
-                                <a href="/work/morsel/">
-                                    <img class="round-image" src="/-/i/home/morsel2.jpg" alt="" />
-                                    <span class="home-item-name">Morsel</span>
-                                </a>
-                            </h2><!-- .home-item-headline -->
-                            <p class="home-item-description">Your daily step toward better health.</p>
-                        </article><!-- .home-item-article -->
-                    </li>    				
-    			</ol>
-    			
-    			<p class="more"><a href="/work/">See all<b class="more-qualifier"> Featured Work</b></a></p>
-    			
-    		</div><!-- /.inner -->
-    		
-	
-		</section><!-- /#work -->
-				
-
+	   	    
 		<section id="latest-articles" class="home-row">
 		    
 		    <div class="inner">
@@ -277,6 +215,68 @@
 			</div><!-- /.inner -->
 		
 		</section><!-- /#links --><?php */ ?>
+
+        <section id="work" class="home-row">
+            
+            <div class="inner">
+            
+                <h1 class="stacked-heading">Featured Work</h1>
+        
+                <ol class="no-marker">
+
+                    <li class="home-item position1">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/work/crayola/">
+                                    <img class="round-image" src="/-/i/home/crayola-thumb.jpg" alt="" />
+                                    <span class="home-item-name">Crayola</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Free the &ldquo;what if.&ldquo;</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/work/star-wars/">
+                                    <img class="round-image" src="/-/i/home/star-wars.jpg" alt="" />
+                                    <span class="home-item-name">Star Wars</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Creating a universe for a universe.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+                    <li class="home-item position3">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/work/activate/">
+                                    <img class="round-image" src="/-/i/home/activate2.jpg" alt="" />
+                                    <span class="home-item-name">Activate</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">A turn for the better.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+                    <li class="home-item position4">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/work/morsel/">
+                                    <img class="round-image" src="/-/i/home/morsel2.jpg" alt="" />
+                                    <span class="home-item-name">Morsel</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Your daily step toward better health.</p>
+                        </article><!-- .home-item-article -->
+                    </li>                   
+                </ol>
+                
+                <p class="more"><a href="/work/">See all<b class="more-qualifier"> Featured Work</b></a></p>
+                
+            </div><!-- /.inner -->
+            
+    
+        </section><!-- /#work -->
+        
 		
 		<section id="dribbble" class="home-row">
 			
