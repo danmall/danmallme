@@ -65,7 +65,7 @@
 
 					<li id="fn1-source"><strong>Design<sup class="footnote-link"><a href="#fn1">1</a></sup>:</strong> the physical or literal aspects of a piece of work. Whoever said &ldquo;design is subjective&rdquo; wasn&rsquo;t trying hard enough. Good design is measured in precision. Is a headline kerned? Do the baselines align? Do the colors vibrate? Is the image resolution too low for the medium? A piece of work that doesn&rsquo;t adhere to the basic principles graphic designers learn in school, you can say it&rsquo;s poorly designed (even if the art direction calls for something poorly designed&hellip; see where we&rsquo;re going with that?).</li>
 
-					<li id="fn2-source"><strong>Strategy<sup class="footnote-link"><a href="#fn2">2</a></sup>:</strong> the particular means used to achieve a particular goal. The goal of every football team is to win, specifically by scoring more points than the other team. If you have a fast running back and your opponent has a weak defensive line, your strategy&mdash;i.e. your particular way to win&mdash;is to run the ball. If you have a great quarterback and your opponent has a weak secondary, your strategy is to pass the ball. Your strategy changes as your circumstances do: who your opponent is, weather conditions, injuries on your roster, etc. In digital, if your goal is to sell more product and your target market is senior citizens, one strategy might be to buy Facebook ads (burn).</li>
+					<li id="fn2-source"><strong>Strategy<sup class="footnote-link"><a href="#fn2">2</a></sup>:</strong> the particular means used to achieve a particular goal. The goal of every football team is to win, specifically by scoring more points than the other team. If you have a fast running back and your opponent has a weak defensive line, your strategy&mdash;i.e. your particular way to win&mdash;is to run the ball. If you have a great quarterback and your opponent has a weak secondary, your strategy is to pass the ball. Your strategy changes as your circumstances do: who your opponent is, weather conditions, injuries on your roster, etc. In digital, if your goal is to sell more retirement funds, your strategy might be to target senior citizens, and one tactic of that strategy might be to buy Facebook ads (burn).</li>
 				</ul>
 
 				<p>(I go into more detail about the specifics of art direction &amp; design in <a href="http://alistapart.com/article/art-direction-and-design">my original article</a>.)</p>
@@ -165,6 +165,8 @@
 					<li><a href="http://blogs.hbr.org/2013/12/managing-designers-on-two-different-tracks/">Managing Designers on Two Different Tracks</a>, by Sean Madden on Harvard Business Review</li>
 					<li><a href="http://www.creativebloq.com/career/what-design-job-titles-mean-11410424">What Design Job Titles Really Mean</a>, by Creative Bloq</li>
 					<li><a href="http://thebitchwhocodes.com/2013/10/18/from-traditional-to-digital-the-modern-creative-director/">From Traditional to Digital&mdash;The Modern Creative Director</a>, by Stacey Mulcahy</li>
+					<li><a href="http://www.markpollard.net/how-to-explain-an-idea/">How to Explain an Idea</a>, by Mark Pollard</li>
+					<li><a href="http://www.markpollard.net/how-to-do-account-planning-a-simple-approach/">How to do account planning&mdash;a simple approach</a>, by Mark Pollard</li>
 				</ul>
 
 			</section>
@@ -178,6 +180,8 @@
 					<li id="fn1">Please note that I&rsquo;m talking about design as a synonym for graphic design or visual design, not Design that indicates a larger, holistic system or process. <a href="#fn1-source">&#8617;</a></li>
 					
 					<li id="fn2">This lovely definition comes from my friend <a href="https://twitter.com/cdmtthws">Chris Matthews</a>. <a href="#fn2-source">&#8617;</a></li>
+
+					<li id="fn3">This article has also been <a href="https://medium.com/p/5272ed887f1f">published on Medium</a>.</li>
 
 				</ol>
 
