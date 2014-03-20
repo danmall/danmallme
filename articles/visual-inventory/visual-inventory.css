@@ -27,7 +27,7 @@ html { font-size: 62.5%; }
 
 	/* =========== SELECTORS ============= */
 	
-	#visual-inventory h1, #visual-inventory h2, #visual-inventory p, #visual-inventory ul, #visual-inventory ol { font: 16px/1.5 Helvetica, Arial, sans-serif; }
+	#visual-inventory h1, #visual-inventory h2, #visual-inventory p, #visual-inventory ul, #visual-inventory ol, .terms-list li, .terms-back { font: 16px/1.5 Helvetica, Arial, sans-serif; }
 	#visual-inventory h1 { font-weight: bold; font-size: 36px; color: #fff; line-height: 1; }
 	#visual-inventory h2 { font-size: 24px; color: #fff; line-height: 1.2; }
 		#visual-inventory h2 a { color: #fff; }
@@ -40,7 +40,7 @@ html { font-size: 62.5%; }
 	#visual-inventory .light70 { color: rgba(255, 255, 255, 0.7); }
 	#visual-inventory .dark70 { color: rgba(0, 0, 0, 0.7); }
 
-	#visual-inventory .button { font: bold 40px Helvetica, Arial, sans-serif; text-transform: none; letter-spacing: 0; border-radius: 0; background: #fecf12; color: #000; text-align: center; margin: 0 auto 1em; display: block; width: 80%; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; }
+	#visual-inventory .button { font: bold 40px Helvetica, Arial, sans-serif; text-transform: none; letter-spacing: 0; border-radius: 0; background: #fecf12; color: #000; text-align: center; margin: 0 auto 0.5em; display: block; width: 80%; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; border: none !important; padding: 0.5em 1em; }
 	#visual-inventory .button:hover, #visual-inventory .button:focus { background: #d5fe16; }
 		#visual-inventory .button-meta { font-size: 50%; color: rgba(0, 0, 0, 0.5); }
 
@@ -75,11 +75,19 @@ html { font-size: 62.5%; }
 
 	
 	
+
+	.terms-list { margin: 3em 0 3em 25px; max-width: 600px; }
+		.terms-list li { margin: 0 0 1em; }
+		.terms-list ol { margin: 1em 0 0 25px; list-style: lower-roman; }
 	
-	
+	.terms-back { max-width: 600px; margin: 0 auto 3em; }
 		
 #visual-inventory ::selection { background: #585858; color: #fff; }
 #visual-inventory ::-moz-selection { background: #585858; color: #fff; }
+
+@media screen and (min-width: 650px){ 
+	.terms-list { margin: 3em auto; }
+}
 
 @media screen and (min-width: 800px){ 
 	#visual-inventory .chunk { float: left; }
@@ -87,13 +95,31 @@ html { font-size: 62.5%; }
 	#visual-inventory .chunk50 { width: 50%; }
 	#visual-inventory .chunk70 { width: 70%; }
 
+	#visual-inventory .padRight { padding-right: 3%; }
+
 	#visual-inventory .rwd-break { display: block; }
 	#visual-inventory .eq-h { display: flex; width: 100%; }
-	/*#visual-inventory .flex { width: 50%; }*/
 
-	#visual-inventory .article-title { font-size: 67px; height: 40rem; position: relative; padding: 0; }
-		#visual-inventory .article-title h1 { position: absolute; left: 2rem; bottom: 2rem; }
+	#visual-inventory .article-title { height: 40rem; position: relative; padding: 0; }
+		#visual-inventory .article-title h1 { position: absolute; left: 2rem; bottom: -0.5rem; font-size: 67px; }
 	#visual-inventory .article-subtitle { height: 40rem; position: relative; padding: 0; }
 		#visual-inventory .article-subtitle h2 { position: absolute; left: 2rem; bottom: 2rem; width: 90%; }
 
+	#visual-inventory #intro, 
+	#visual-inventory #impact,
+	#visual-inventory #scratch-intro, #visual-inventory #scratch,
+	#visual-inventory #garrett, 
+	#visual-inventory #sifter-visual-inventory, 
+	#visual-inventory #garrett-feedback, 
+	#visual-inventory #sifter-actions, 
+	#visual-inventory #try,
+	#visual-inventory #download { padding-top: 4em; padding-bottom: 3em; }
+
+	#visual-inventory #download p { text-align: center; }
+
+}
+
+@media screen and (min-width: 1500px){ 
+	#visual-inventory p, #visual-inventory ul, #visual-inventory ol, .terms-list li, .terms-back { font-size: 22px; }
+	#visual-inventory .article-title h1{ font-size: 90px; bottom: -2rem; }
 }

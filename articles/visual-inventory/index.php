@@ -6,7 +6,7 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
     
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
-    <script type="text/javascript" src="//use.typekit.net/ewd6hzl.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/xvg3hib.js"></script>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>    
 	<link rel="stylesheet" href="visual-inventory.css" />
 	<script>
@@ -40,21 +40,30 @@
 				<h2>A deliverable for the <a href="/articles/the-post-psd-era/">post-PSD era</a></h2>
 			</header><!-- .article-subtitle -->
 
-			<section id="intro" class="chunk chunk50 light70">
 
-				<p>Learning new things takes time. When our industry shifted from table-based layouts to using <abbr title="Cascading Stylesheets">CSS</abbr> for layouts, a large chunk of that discussion was devoted to increasing project timelines (and budgets). It wasn&rsquo;t that <abbr>CSS</abbr> took longer; it&rsquo;s just that we didn&rsquo;t know as much about it. Ask those same people today to build a table-based layout, and they&rsquo;ll tell you that it&rsquo;ll take twice as long. We make time to accommodate learning what we don&rsquo;t know; it&rsquo;s only natural.</p>
+			<div class="eq-h">
 
-				<p>The same thing is happening now as our industry shifts towards building <a href="http://stuffandnonsense.co.uk/blog/about/i_dont_care_about_responsive_web_design/" title="&ldquo;I don&rsquo;t care about responsive web design,&rdquo; by Andrew Clarke">responsive sites by default</a>. It&rsquo;s not that responsive design inherently takes longer; we just don&rsquo;t know as much about the nuances like performance and image sizes and resolution-independent graphics&hellip; yet.</p>
+				<div id="col1" class="chunk50">
 
-			</section><!-- .chunk -->
+					<section id="intro" class="chunk chunk50 light70">
 
-			<section id="impact" class="chunk chunk50 dark70">
+						<p>Learning new things takes time. When our industry shifted from table-based layouts to using <abbr title="Cascading Stylesheets">CSS</abbr> for layouts, a large chunk of that discussion was devoted to increasing project timelines (and budgets). It wasn&rsquo;t that <abbr>CSS</abbr> took longer; it&rsquo;s just that we didn&rsquo;t know as much about it. Ask those same people today to build a table-based layout, and they&rsquo;ll tell you that it&rsquo;ll take twice as long. We make time to accommodate learning what we don&rsquo;t know; it&rsquo;s only natural.</p>
 
-				<p>For those of us serving clients, we defer the impact to the client. They deal with longer timelines and inflated budgets, all in the name of us learning how to build better sites for them. Though noble, it&rsquo;s a bit unfair. In <a href="http://superfriend.ly/">my own work</a>, I&rsquo;m continually looking for ways to lessen the impact for my clients. Part of that means looking for ways to be faster without sacrificing quality.</p>
+						<p>The same thing is happening now as our industry shifts towards building <a href="http://stuffandnonsense.co.uk/blog/about/i_dont_care_about_responsive_web_design/" title="&ldquo;I don&rsquo;t care about responsive web design,&rdquo; by Andrew Clarke">responsive sites by default</a>. It&rsquo;s not that responsive design inherently takes longer; we just don&rsquo;t know as much about the nuances like performance and image sizes and resolution-independent graphics&hellip; yet.</p>
 
-				<p>I put a lot of effort into the process of <a href="http://alistapart.com/article/art-direction-and-design">art direction &amp; design</a>. I think <a href="https://twitter.com/markboulton/status/445943150247702528">a lot of responsive design looks like responsive design</a>, because <a href="http://timkadlec.com/2014/03/why-rwd-looks-like-rwd/">people and agencies are currently struggling with this</a>. A great first step is to abstract the question; rather than trying to figure out what a site should <em>look</em> like as the major output of a design phase, focus instead on what a site should <em>feel</em> like. As we abstract the question, we innately abstract our deliverables. Full-page comps are designed to solve the question, "What should this site <em>look</em> like?" To solve the more abstract question, "What should this site <em>feel</em> like?" I&rsquo;m pleased to see that we&rsquo;re turning to abstract deliverables like <a href="http://styletil.es/">style tiles</a>, <a href="http://seesparkbox.com/foundry/our_new_responsive_design_deliverable_the_style_prototype">style prototypes</a>, or&mdash;my personal favorite&mdash;<a href="http://danielmall.com/articles/rif-element-collages/">element collages</a>. But this stuff takes time too.</p>
+					</section><!-- .chunk -->
 
-			</section><!-- .chunk -->
+				</div><!-- #col1 -->
+
+				<section id="impact" class="chunk chunk50 dark70">
+
+					<p>For those of us serving clients, we defer the impact to the client. They deal with longer timelines and inflated budgets, all in the name of us learning how to build better sites for them. Though noble, it&rsquo;s a bit unfair. In <a href="http://superfriend.ly/">my own work</a>, I&rsquo;m continually looking for ways to lessen the impact for my clients. Part of that means looking for ways to be faster without sacrificing quality.</p>
+
+					<p>I put a lot of effort into the process of <a href="http://alistapart.com/article/art-direction-and-design">art direction &amp; design</a>. I think <a href="https://twitter.com/markboulton/status/445943150247702528">a lot of responsive design looks like responsive design</a>, because <a href="http://timkadlec.com/2014/03/why-rwd-looks-like-rwd/">people and agencies are currently struggling with this</a>. A great first step is to abstract the question; rather than trying to figure out what a site should <em>look</em> like as the major output of a design phase, focus instead on what a site should <em>feel</em> like. As we abstract the question, we innately abstract our deliverables. Full-page comps are designed to solve the question, "What should this site <em>look</em> like?" To solve the more abstract question, "What should this site <em>feel</em> like?" I&rsquo;m pleased to see that we&rsquo;re turning to abstract deliverables like <a href="http://styletil.es/">style tiles</a>, <a href="http://seesparkbox.com/foundry/our_new_responsive_design_deliverable_the_style_prototype">style prototypes</a>, or&mdash;my personal favorite&mdash;<a href="http://danielmall.com/articles/rif-element-collages/">element collages</a>. But this stuff takes time too.</p>
+
+				</section><!-- .chunk -->
+
+			</div><!-- .eq-h -->
 
 			<section id="scratch-intro" class="chunk chunk50 dark70">
 
@@ -64,9 +73,19 @@
 
 			<section id="scratch" class="chunk dark70">				
 
-				<p class="illustrate-vi">Any seasoned designer will tell you that the first round of designs are intended to <a href="https://the-pastry-box-project.net/jason-santa-maria/2014-March-15">raise more questions than provide answers</a>. What if I could cut straight to the questions? Pairing those questions with visual aids could certainly help to reinforce the point.</p>
+				<div class="clearfix illustrate-vi">
 
-				<p>When <a href="http://goodkickoffmeetings.com/">kicking off</a> with a new client, a big part of my personal notes focus questions I&rsquo;m eager to explore with them. A lot of these are questions about design: colors, typography, conceptual direction, and more. Within a day or two, I can collect these questions into a format that gets the conversation about design started.</p>
+					<div class="chunk chunk50 padRight">
+						<p>Any seasoned designer will tell you that the first round of designs are intended to <a href="https://the-pastry-box-project.net/jason-santa-maria/2014-March-15">raise more questions than provide answers</a>. What if I could cut straight to the questions? Pairing those questions with visual aids could certainly help to reinforce the point.</p>
+					</div>
+
+					<div class="chunk chunk50">
+
+						<p>When <a href="http://goodkickoffmeetings.com/">kicking off</a> with a new client, a big part of my personal notes focus questions I&rsquo;m eager to explore with them. A lot of these are questions about design: colors, typography, conceptual direction, and more. Within a day or two, I can collect these questions into a format that gets the conversation about design started.</p>
+
+					</div><!-- .col50 -->
+
+				</div><!-- .clearfix -->
 
 			</section><!-- .chunk -->
 
@@ -212,7 +231,16 @@
     	
     </div><!-- #wrap -->
 
-    
+    <script>
+
+	    $(document).ready(function() {
+
+	    	$('#intro, #scratch-intro').removeClass('chunk50');
+	    	$('#scratch-intro').appendTo('#col1');
+		  
+		});
+
+    </script>
     
 	
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/close.php"); echo "\n"; ?>
