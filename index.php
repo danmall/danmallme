@@ -38,6 +38,18 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/visual-inventory/">
+                                    <img class="round-image" src="/articles/visual-inventory/home-thumb.png" alt="" />
+                                    <span class="home-item-name">Visual Inventory</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">A design deliverable for the post-PSD era of responsive design.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/on-creative-direction/">
                                     <img class="round-image" src="/articles/on-creative-direction/home-thumb.png" alt="" />
                                     <span class="home-item-name">On Creative Direction</span>
@@ -47,7 +59,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/net-awards-2014/">
@@ -59,7 +71,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/how-to-get-the-work-you-want/">
@@ -70,7 +82,7 @@
                             <p class="home-item-description">Advice for anyone.</p>
                         </article><!-- .home-item-article -->
                     </li>
-
+                    <?php /* ?>
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -82,7 +94,7 @@
                             <p class="home-item-description">The story of the new responsive TechCrunch.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    <?php /* ?>
+                    
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
