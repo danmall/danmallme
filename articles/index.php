@@ -27,6 +27,18 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/visual-inventory/">Visual Inventory</a></h1>
+                            </header>
+                            <p>A design deliverable for the post-<abbr title="Photoshop Document">PSD</abbr> era of responsive design.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/visual-inventory/"><time datetime="2014-03-21T00:06:00">Mar 21, 2014</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/visual-inventory/#disqus_thread" data-disqus-identifier="visual-inventory"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>                  
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/on-creative-direction/">On Creative Direction</a></h1>
                             </header>
                             <p>A primer on creative direction as compared to art direction and design&hellip; and what they all mean in a digital context.</p>
