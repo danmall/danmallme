@@ -40,7 +40,7 @@ html { font-size: 62.5%; }
 	#visual-inventory .light70 { color: rgba(255, 255, 255, 0.7); }
 	#visual-inventory .dark70 { color: rgba(0, 0, 0, 0.7); }	
 
-	#visual-inventory .button { font: bold 40px Helvetica, Arial, sans-serif; text-transform: none; letter-spacing: 0; border-radius: 0; background: #fecf12; color: #000; text-align: center; margin: 0 auto 0.5em; display: block; width: 80%; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; border: none !important; padding: 0.5em 1em; }
+	#visual-inventory .button { font: bold 36px Helvetica, Arial, sans-serif; text-transform: none; letter-spacing: 0; border-radius: 0; background: #fecf12; color: #000; text-align: center; margin: 0 auto 0.5em; display: block; width: 80%; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; border: none !important; padding: 0.5em 1em; }
 	#visual-inventory .button:hover, #visual-inventory .button:focus { background: #d5fe16; }
 		#visual-inventory .button-meta { font-size: 50%; color: rgba(0, 0, 0, 0.5); }
 
@@ -58,7 +58,7 @@ html { font-size: 62.5%; }
 	#visual-inventory #impact { background: #f2b950; padding: 2em 2.5% 1em; }
 
 	#visual-inventory #scratch-intro, #visual-inventory #scratch { background: #8a919a; padding: 2em 2.5% 1em; }
-		#visual-inventory .illustrate-vi { background: transparent url(vi.jpg) no-repeat 50% 0; padding-top: 670px; }
+		#visual-inventory .illustrate-vi { background: transparent url(vi2.jpg) no-repeat 50% 0; padding-top: 670px; }
 
 	#visual-inventory #garrett { background: #ff9000; padding: 2em 2.5% 1em; }
 
