@@ -18,7 +18,7 @@
 
 	<!-- Facebook -->
     <meta property="og:title" content="Visual Inventory" />
-    <meta property="og:description"content="A design deliverable for the post-PSD era."/>	
+    <meta property="og:description"content="A design deliverable for the post-PSD era of responsive design."/>	
     <meta property="og:url" content="http://danielmall.com/articles/visual-inventory/" />
     <meta property="og:image" content="http://danielmall.com/articles/visual-inventory/home-thumb.png" />
     
@@ -37,7 +37,7 @@
 			</header><!-- .article-title -->
 
 			<header class="article-subtitle chunk chunk30">
-				<h2>A deliverable for the <a href="/articles/the-post-psd-era/">post-PSD era</a></h2>
+				<h2>A design deliverable for the <a href="/articles/the-post-psd-era/">post-PSD era</a> of responsive design</h2>
 			</header><!-- .article-subtitle -->
 
 
@@ -76,10 +76,15 @@
 				<div class="clearfix illustrate-vi">
 
 					<div class="chunk chunk50 padRight">
-						<p>Any seasoned designer will tell you that the first round of designs are intended to <a href="https://the-pastry-box-project.net/jason-santa-maria/2014-March-15">raise more questions than provide answers</a>. What if I could cut straight to the questions? Pairing those questions with visual aids could certainly help to reinforce the point.</p>
+						<!-- <p>Any seasoned designer will tell you that the first round of designs are intended to <a href="https://the-pastry-box-project.net/jason-santa-maria/2014-March-15">raise more questions than provide answers</a>. What if I could cut straight to the questions? Pairing those questions with visual aids could certainly help to reinforce the point.</p> -->
+
+						<p>Established conventions are a crucial part of design that&rsquo;s easy for people to interact with. Sure, there&rsquo;s certainly opportunity to create something unique and unfamiliar, but a lot of the problems we deal with from project to project have been solved before, sometimes by you and sometimes by others. That&rsquo;s why frameworks are so popular; they&rsquo;re at their most useful when you come up against the same exact problem the framework&rsquo;s designer encountered. Why not take the opportunity to inform your clients about how others have solved similar problems? At worst, you&rsquo;re taking stock of the rest of the industry is doing, and at best, you might even find influence for a solution that otherwise wouldn&rsquo;t have occurred to you.</p>
+
 					</div>
 
 					<div class="chunk chunk50">
+
+						<p>Any seasoned designer will tell you that the first round of designs are intended to <a href="https://the-pastry-box-project.net/jason-santa-maria/2014-March-15">raise more questions than provide answers</a>. What if I could cut straight to the questions? Pairing those questions with visual aids could certainly help to reinforce the point.</p>
 
 						<p>When <a href="http://goodkickoffmeetings.com/">kicking off</a> with a new client, a big part of my personal notes focus questions I&rsquo;m eager to explore with them. A lot of these are questions about design: colors, typography, conceptual direction, and more. Within a day or two, I can collect these questions into a format that gets the conversation about design started.</p>
 
@@ -88,6 +93,7 @@
 				</div><!-- .clearfix -->
 
 			</section><!-- .chunk -->
+
 
 			<div class="eq-h">
 
@@ -116,7 +122,7 @@
 					<ul>
 						<li>&ldquo;I&rsquo;m not afraid to do bold, but I do believe that our marketing should also communicate our focus on the &rsquo;get-out-of-the-way&rsquo; style interface that we&rsquo;re moving towards&rdquo; </li>
 						<li>&ldquo;With the type-driven and color-constrained, I feel like that&rsquo;s taking it too far&rdquo;</li>
-						<li>&ldquo; I have no idea where that AA example came from, but the color palette and style really jumped out at me. I feel like the details are a bit noisy and distracting, but the large solid colors/textures felt right.&rdquo;</li>
+						<li>&ldquo; The color palette and style [from the <abbr title="American Airlines">AA</abbr> example] really jumped out at me. I feel like the details are a bit noisy and distracting, but the large solid colors/textures felt right.&rdquo;</li>
 						<li>&hellip;and lots of other good stuff</li>
 					</ul>
 
@@ -143,12 +149,12 @@
 
 			<section id="download" class="chunk chunk70 dark70">
 
-				<a class="button" href="#">
-					Download <aside class="button-meta">(Keynote, 1.2MB)</aside>
+				<a class="button" href="http://d.pr/f/z2PZ">
+					Download <aside class="button-meta">(Zipped Keynote, 800<abbr title="kilobytes">KB</abbr>)</aside>
 				</a>
 
 				<p>By downloading, you accept <a href="terms/">these terms</a>.</p>
-				<p><strong>Short version:</strong> you can use this for personal and commercial use, but you can’t resell it nor can you blame me if anything goes wrong.</p>
+				<p><strong>Short version:</strong> you can use this for personal and commercial use, but you can&rsquo;t resell it nor can you blame me if anything goes wrong.</p>
 
 
 			</section><!-- .chunk -->	
@@ -160,7 +166,7 @@
 
 	<?php
 
-        echo readNext('How to Get the Work You Want', '/articles/how-to-get-the-work-you-want/');
+        echo readNext('On Creative Direction', '/articles/on-creative-direction/');
 
     ?>
 	

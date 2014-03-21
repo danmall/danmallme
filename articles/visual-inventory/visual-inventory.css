@@ -38,7 +38,7 @@ html { font-size: 62.5%; }
 
 	#visual-inventory .lightText, #visual-inventory .lightText p, #visual-inventory .lightText ul { color: #fff; }
 	#visual-inventory .light70 { color: rgba(255, 255, 255, 0.7); }
-	#visual-inventory .dark70 { color: rgba(0, 0, 0, 0.7); }
+	#visual-inventory .dark70 { color: rgba(0, 0, 0, 0.7); }	
 
 	#visual-inventory .button { font: bold 40px Helvetica, Arial, sans-serif; text-transform: none; letter-spacing: 0; border-radius: 0; background: #fecf12; color: #000; text-align: center; margin: 0 auto 0.5em; display: block; width: 80%; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; border: none !important; padding: 0.5em 1em; }
 	#visual-inventory .button:hover, #visual-inventory .button:focus { background: #d5fe16; }
@@ -65,6 +65,7 @@ html { font-size: 62.5%; }
 	#visual-inventory #sifter-visual-inventory { background: #72123d; padding: 2em 2.5% 1em; }
 
 	#visual-inventory #garrett-feedback { background: #024059; padding: 2em 2.5% 1em; }
+		#visual-inventory #garrett-feedback strong { color: rgba(255, 255, 255, 0.9); }
 
 	#visual-inventory #sifter-actions { background: #03738c; padding: 2em 2.5% 1em; }
 
@@ -98,7 +99,7 @@ html { font-size: 62.5%; }
 	#visual-inventory .padRight { padding-right: 3%; }
 
 	#visual-inventory .rwd-break { display: block; }
-	#visual-inventory .eq-h { display: flex; width: 100%; }
+	#visual-inventory .eq-h { display: -webkit-flex; display: flex; width: 100%; }
 
 	#visual-inventory .article-title { height: 40rem; position: relative; padding: 0; }
 		#visual-inventory .article-title h1 { position: absolute; left: 2rem; bottom: -0.5rem; font-size: 67px; }
