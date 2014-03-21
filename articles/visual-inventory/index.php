@@ -240,11 +240,30 @@
     <script>
 
 	    $(document).ready(function() {
-
-	    	$('#intro, #scratch-intro').removeClass('chunk50');
-	    	$('#scratch-intro').appendTo('#col1');
-		  
+	    	if ($(window).width() >= 800) {
+	    		moveForWide();
+	    	}		  
 		});
+
+		window.onresize = function(){
+			if ($(window).width() >= 800) {
+	    		moveForWide();
+	    	}else{
+	    		moveForSmall();
+	    	}
+		}
+
+		function moveForWide(){
+			console.log('moveForWide');
+			$('#intro, #scratch-intro').removeClass('chunk50');
+	    	$('#scratch-intro').appendTo('#col1');	
+		}
+
+		function moveForSmall(){
+			console.log('moveForSmall');
+			$('#intro, #scratch-intro').addClass('chunk50');
+	    	$('#scratch-intro').insertBefore('#scratch');		
+		}
 
     </script>
     
