@@ -2,10 +2,7 @@
 	
     	<ul class="no-marker clearfix">
     		<li>&copy; 2005&ndash;<?php echo date('Y'); ?> Dan Mall. Proudly made in Brooklyn and Philly. Thou shalt not steal.</li>
-    		<?php /* ?><li><a href="#"><abbr title="HyperText Markup Language">HTML</abbr>5</a></li>
-    		<li><a href="http://jigsaw.w3.org/css-validator/check/referer/"><abbr title="Cascading Style Sheets">CSS</abbr></a></li>
-    		<li>Powered by <a href="http://www.expressionengine.com/index.php?affiliate=danielmall">ExpressionEngine</a></li><?php */ ?>
-    		<li>Powered by Hand Coding&trade;. Check out <a href="https://github.com/danielmall/danielmallcom">this site&rsquo;s code on Github</a>.</li>
+    		<li>Powered by Hand Coding&trade;. Check out <a rel="source" href="https://github.com/danielmall/danielmallcom">this site&rsquo;s code on Github</a>.</li>
     		<li>Graciously hosted by <a href="http://www.mediatemple.net/go/order/?refdom=danielmall.com">Media Temple</a></li>
     		<li class="twitter-enhance">Follow <a href="http://twitter.com/danielmall">@danielmall</a></li>
     		<li class="site-footer-rss"><a href="http://feeds.feedburner.com/danielmall-articles">RSS</a></li>
