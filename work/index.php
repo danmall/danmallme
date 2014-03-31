@@ -48,7 +48,7 @@
 		        
 		        <ul class="no-marker">
                     <li id="year2013">
-                        <h2>2013</h2>
+                        <h2>2013&ndash;<?php echo date('Y'); ?></h2>
                         <p class="superfriendly-push">For new work, see the <a href="http://superfriend.ly/">SuperFriendly</a> site</p>
                     </li>
 		            <li id="year2012">
