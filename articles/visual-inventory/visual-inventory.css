@@ -10,17 +10,10 @@ html { font-size: 62.5%; }
 
 #visual-inventory { padding: 0; width: 100%; }
 
-	/*#visual-inventory a { color: #fff; position: relative; text-decoration: none; border: none; }
-	#visual-inventory a:after { content: ""; display: block; height: 1px; width: 100%; bottom: -0.2em; left: 0; background: rgba(255, 255, 255, 0.1); position: absolute; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; }
-	#visual-inventory a:hover:after, #visual-inventory a:focus:after { bottom: 0; background: rgba(255, 255, 255, 0.8); }*/
-
 	#visual-inventory a { color: #fff; border-bottom: 1px solid rgba(255, 255, 255, 0.5); transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; -o-transition: all 0.25s linear; }
 	#visual-inventory a:hover, #visual-inventory a:focus { border-bottom: 1px solid rgba(255, 255, 255, 1); }
 
 	/* dark links */
-	/*#visual-inventory .dark70 a { color: #111; }
-	#visual-inventory .dark70 a:after { background: rgba(0, 0, 0, 0.1); }
-	#visual-inventory .dark70 a:hover:after, #visual-inventory .dark70 a:focus:after { background: rgba(0, 0, 0, 0.8); }*/
 	#visual-inventory .dark70 a { color: #000; border-bottom: 1px solid rgba(0, 0, 0, 0.25); }
 	#visual-inventory .dark70 a:hover, #visual-inventory .dark70 a:focus { border-bottom: 1px solid rgba(0, 0, 0, 1); }
 
