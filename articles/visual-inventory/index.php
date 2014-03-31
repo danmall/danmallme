@@ -32,13 +32,17 @@
 			
 	    <section id="visual-inventory" class="clearfix wrap">		
 
-			<header class="article-title chunk chunk70">
-				<h1>Visual<br class="rwd-break" /> Inventory</h1>
-			</header><!-- .article-title -->
+	    	<div class="clearfix">
 
-			<header class="article-subtitle chunk chunk30">
-				<h2>A design deliverable for the <a href="/articles/the-post-psd-era/">post-PSD era</a> of responsive design</h2>
-			</header><!-- .article-subtitle -->
+				<header class="article-title chunk chunk70">
+					<h1>Visual<br class="rwd-break" /> Inventory</h1>
+				</header><!-- .article-title -->
+
+				<header class="article-subtitle chunk chunk30">
+					<h2>A design deliverable for the <a href="/articles/the-post-psd-era/">post-PSD era</a> of responsive design</h2>
+				</header><!-- .article-subtitle -->
+				
+			</div><!-- .clearfix -->
 
 
 			<div class="eq-h">
