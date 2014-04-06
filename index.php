@@ -1,6 +1,6 @@
-<?php 
+<?php
     $page = 'home';
-    require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; 
+    require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n";
 ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>
@@ -10,32 +10,44 @@
     <?php /* ?>
     <!-- Thanks, @rem: http://remysharp.com/2007/05/18/add-twitter-to-your-blog-step-by-step/ -->
     <script src="http://twitterjs.googlecode.com/svn/trunk/src/twitter.min.js"></script>
-    
+
 
     <script src="/-/j/libs/chirp.min.js"></script>
     <?php */ ?>
-    
+
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
-    
+
 </head>
 
 <body class="home" id="home">
-    
+
     <?php /* <img id="logo" src="/i/logo.png" alt="Dan Mall" /> */ ?>
-	
+
 	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
-	
+
 	<div class="content" class="easy-clearing">
-	   	    
+
 		<section id="latest-articles" class="home-row">
-		    
+
 		    <div class="inner">
-		    
+
     		    <h1 class="stacked-heading">Latest Articles</h1>
-	    
+
     		    <ol class="no-marker">
 
                     <li class="home-item position1">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/articles/radio-free-europe-open-redesign/">
+                                    <img class="round-image" src="/articles/radio-free-europe-open-redesign/home-thumb.png" alt="" />
+                                    <span class="home-item-name">Radio Free Europe</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">An open redesign.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position2">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/visual-inventory/">
@@ -47,7 +59,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/on-creative-direction/">
@@ -59,7 +71,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/net-awards-2014/">
@@ -70,7 +82,7 @@
                             <p class="home-item-description">How I&rsquo;m voting.</p>
                         </article><!-- .home-item-article -->
                     </li>
-
+                    <?php /* ?>
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -82,7 +94,7 @@
                             <p class="home-item-description">Advice for anyone.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    <?php /* ?>
+
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -94,7 +106,7 @@
                             <p class="home-item-description">The story of the new responsive TechCrunch.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    
+
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -106,7 +118,7 @@
                             <p class="home-item-description">New work on a responsive mobile site for Entertainment Weekly.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    
+
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -119,7 +131,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    
+
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -131,7 +143,7 @@
                             <p class="home-item-description">Still alive and kickin&rsquo;.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    
+
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -143,7 +155,7 @@
                             <p class="home-item-description">Creating an app in public. Maybe.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    
+
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -154,7 +166,7 @@
                             </h2><!-- .home-item-headline -->
                             <p class="home-item-description">Questions, answers, and hidden answers.</p>
                         </article><!-- .home-item-article -->
-                    </li>                    
+                    </li>
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -165,7 +177,7 @@
                             </h2><!-- .home-item-headline -->
                             <p class="home-item-description">Create quick vector assets with really small file sizes.</p>
                         </article><!-- .home-item-article -->
-                    </li>                    
+                    </li>
                     <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -188,52 +200,52 @@
                             <p class="home-item-description">Prepping for the next episode of The Businessology Show.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    <?php */ ?>                    		    				
+                    <?php */ ?>
     			</ol>
-    			
+
     			<p class="more"><a href="/articles/">See all<b class="more-qualifier"> Latest Articles</b></a></p>
-        		
+
     		</div><!-- /.inner -->
-		
+
 		</section><!-- /#latest-articles -->
-		
-		
+
+
 		<?php /* ?><section id="links" class="home-row">
-		    
+
 		    <div class="inner">
-		    
+
     		    <h1 class="phark">Links</h1>
-	    
+
     		    {exp:channel:entries channel="articles" limit="4" show_future_entries="yes" orderby="date" sort="desc"}
 
                 		{if count == 1}<ol class="articles no-marker easy-clearing">{/if}
-                        
+
                             {if article-format == "Link"}
                 	        <li>
-                    	        <article>                  	            
+                    	        <article>
                     	            {article-excerpt}
                     	            <p class="meta permalink"><a href="{title_permalink="articles/article"}"><time datetime="{entry_date format="%Y-%m-%d"}">{entry_date format="%M %d %Y"}</time></a></p>
 
                     	        </article>
                     	    </li>
                     	    {/if}
-                	    
+
                 	    {if count == total_results}</ol>{/if}
 
         		{/exp:channel:entries}
-        		
+
         		<p class="more"><a href="#">See all</a></p>
-			
+
 			</div><!-- /.inner -->
-		
+
 		</section><!-- /#links --><?php */ ?>
 
         <section id="work" class="home-row">
-            
+
             <div class="inner">
-            
+
                 <h1 class="stacked-heading">Featured Work</h1>
-        
+
                 <ol class="no-marker">
 
                     <li class="home-item position1">
@@ -279,32 +291,32 @@
                             </h2><!-- .home-item-headline -->
                             <p class="home-item-description">Your daily step toward better health.</p>
                         </article><!-- .home-item-article -->
-                    </li>                   
+                    </li>
                 </ol>
-                
+
                 <p class="more"><a href="/work/">See all<b class="more-qualifier"> Featured Work</b></a></p>
-                
+
             </div><!-- /.inner -->
-            
-    
+
+
         </section><!-- /#work -->
-        
-		
+
+
 		<section id="dribbble" class="home-row">
-			
+
 			<div class="inner">
-				
+
 				<h1 class="stacked-heading">From Dribbble</h1>
-				
+
 				<ol class="no-marker">
-			
+
 					<?php
-				
+
 						/*
-							http://martinbean.github.com/dribbble-php/ 
+							http://martinbean.github.com/dribbble-php/
 							https://github.com/martinbean/dribbble-php
 						*/
-					
+
 						//require 'php/dribbble.php';
 						require($_SERVER["DOCUMENT_ROOT"]."/php/dribbble.php");
 
@@ -317,7 +329,7 @@
                             foreach ($my_shots->shots as $shot) {
                                 if($i <= 4){
                                     if($i > 1){
-                                        echo "\n\t\t\t\t\t";    
+                                        echo "\n\t\t\t\t\t";
                                     }
                                     echo '<li class="home-item position' . $i . '">';
                                         echo "\n\t\t\t\t\t\t";
@@ -346,20 +358,20 @@
 						catch (DribbbleException $e) {
 						    echo 'Error: ' . $e->getMessage();
 						}
-					
+
 					?>
 				</ol>
-				
+
 				<p class="more"><a href="http://dribbble.com/danielmall">See all<b class="more-qualifier"> from Dribbble</b></a></p>
-			
+
 			</div><!-- .inner -->
-			
+
 		</section><!-- #dribbble -->
     <?php /* ?>
     <script>document.write('<section id="tweet" class="home-row"><div class="inner"><h1 class="phark">Latest Tweets</h1><div id="tweets">');</script>
-		<script>      
+		<script>
 			Chirp({
-				user:'danielmall', 
+				user:'danielmall',
 				max:3,
 				retweets: false,
 				replies: false,
@@ -370,47 +382,47 @@
 			});
 		</script>
     <script>document.write('</div><p class="more">from <a href="http://twitter.com/danielmall">@danielmall</a></p></div></section>');</script>
-		
-		        
+
+
 		    </div>
 		</section><!-- #tweet -->
 			<?php */ ?>
 
 
         <section id="popular" class="home-row">
-            
+
             <div class="inner">
-            
+
                 <h1 class="stacked-heading">Popular on this site</h1>
-        
+
                 <ol class="no-marker popular-list">
                     <li class="popular4"><a href="/articles/visual-inventory/">Visual Inventory</a></li>
                     <li class="popular4"><a href="/articles/on-creative-direction/">On Creative Direction</a></li>
                     <li class="popular4"><a href="/articles/rif-element-collages/">Reading Is Fundamental: Element Collages</a></li>
-                    <li class="popular4"><a href="/articles/how-to-get-the-work-you-want/">How to Get the Work You Want</a></li>                    
+                    <li class="popular4"><a href="/articles/how-to-get-the-work-you-want/">How to Get the Work You Want</a></li>
                     <li class="popular3"><a href="/work/crayola/">Crayola</a></li>
                     <li class="popular3"><a href="/articles/responsive-line-breaks/">Responsive Line Breaks</a></li>
                     <li class="popular3"><a href="/articles/techcrunch-responsive-redesign/">TechCrunch: A responsive redesign</a></li>
-                    <li class="popular2"><a href="/work/star-wars/">Star Wars</a></li>                    
-                    <li class="popular2"><a href="/articles/responsive-mobile-entertainment-weekly/">The Responsive Mobile Entertainment Weekly</a></li>                    
+                    <li class="popular2"><a href="/work/star-wars/">Star Wars</a></li>
+                    <li class="popular2"><a href="/articles/responsive-mobile-entertainment-weekly/">The Responsive Mobile Entertainment Weekly</a></li>
                     <li class="popular2"><a href="/work/barbie/">Barbie</a></li>
                     <li class="popular1"><a href="/articles/prequalifying-clients/">Prequalifying Clients</a></li>
-                    <li class="popular1"><a href="/articles/svg-workflow-for-designers/">SVG Workflow for Designers</a></li>                    
+                    <li class="popular1"><a href="/articles/svg-workflow-for-designers/">SVG Workflow for Designers</a></li>
                     <li class="popular1"><a href="/work/activate/">Activate</a></li>
                 </ol><!-- .no-marker -->
 
-                
+
                 <?php /* <p class="more"><a href="/work/">See all<b class="more-qualifier"> Featured Work</b></a></p> */ ?>
-                
+
             </div><!-- /.inner -->
-            
-    
+
+
         </section><!-- /#popular -->
-		
+
 	</div><!-- /#content -->
-	
-	
+
+
 	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/footer.php"); echo "\n"; ?>
-    
-	
+
+
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/close.php"); echo "\n"; ?>
