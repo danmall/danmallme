@@ -12,8 +12,38 @@
 	#easy-hangouts .step:before { content: attr(data-step-number); text-align: center; font-size: 72px; display: block; width: 100%; margin: 0 0 0.4em; color: #6d9eeb; font-weight: 300; }
 	#easy-hangouts .cta-text { color: #1c5dce; font-family: Arial, sans-serif; font-weight: bold; font-size: 96%; }
 	#easy-hangouts .cta-button { color: #fff; display: inline-block; background: #d94a38; border-radius: 2px; border: 1px solid #d13521; font-family: Arial, sans-serif; font-weight: bold; font-size: 66%; text-transform: uppercase; padding: 0.2em 1em; }
+	#easy-hangouts .step-content { text-align: center; position: relative; z-index: 2; }
+	#easy-hangouts .illo { position: relative; z-index: 1; }
 
 
 
 #easy-hangouts ::selection { background: #292829; color: #fff; }
 #easy-hangouts ::-moz-selection { background: #292829; color: #fff; }
+
+
+@media screen and (min-width: 780px){
+
+	#easy-hangouts .step { position: relative; padding: 4em 0; }
+	#easy-hangouts .illo { position: absolute; right: 0; bottom: 0; }
+
+	#easy-hangouts .step-content { text-align: left; width: 268px; margin-left: 110px; }
+	#easy-hangouts .step:before { position: absolute; left: 0; top: 50%; margin-top: -1em; width: auto; }
+
+	#easy-hangouts #step01 { min-height: 180px; }
+		#easy-hangouts #step01 .step-content { margin-top: 57px; }
+		#easy-hangouts #step01 .illo { bottom: 10px; }
+
+	#easy-hangouts #step02 .illo { right: 60px; bottom: 87px; }
+
+	#easy-hangouts #step03 .illo { right: 130px; bottom: 92px; }
+
+	#easy-hangouts #step04 { min-height: 200px; }
+		#easy-hangouts #step04 .step-content { margin-top: 47px; width: 120px; }
+		#easy-hangouts #step04 .illo { bottom: -17px; right: 0; }
+
+}
+
+@media screen and (min-width: 840px){ 
+	#easy-hangouts #step04 .step-content { width: 200px; }
+	#easy-hangouts #step04 .illo { right: -60px; }	
+}

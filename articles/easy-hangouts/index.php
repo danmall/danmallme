@@ -36,7 +36,7 @@
 
                 <li class="step" id="step01" data-step-number="01">
 
-                    <figure>
+                    <figure class="illo">
                         <img src="01-new.png" alt="New event" />
                     </figure>
 
@@ -48,7 +48,7 @@
 
                 <li class="step" id="step02" data-step-number="02">
 
-                    <figure>
+                    <figure class="illo">
                         <img src="02-video-call.png" alt="Video call added" />
                     </figure>
 
@@ -60,7 +60,7 @@
 
                 <li class="step" id="step03" data-step-number="03">
 
-                    <figure>
+                    <figure class="illo">
                         <img src="03-join-video-call.png" alt="Join video call" />
                     </figure>
 
@@ -72,7 +72,7 @@
 
                 <li class="step" id="step04" data-step-number="04">
 
-                    <figure>
+                    <figure class="illo">
                         <img src="04-hangout.jpg" alt="Join hangout" />
                     </figure>
 
