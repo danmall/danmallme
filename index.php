@@ -38,6 +38,18 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/easy-hangouts/">
+                                    <img class="round-image" src="/articles/easy-hangouts/home-thumb.png" alt="" />
+                                    <span class="home-item-name">The Easiest Way to Start a Hangout</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Use Google Calendar.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/radio-free-europe-open-redesign/">
                                     <img class="round-image" src="/articles/radio-free-europe-open-redesign/home-thumb.png" alt="" />
                                     <span class="home-item-name">Radio Free Europe</span>
@@ -47,7 +59,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/visual-inventory/">
@@ -59,7 +71,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/on-creative-direction/">
@@ -70,7 +82,7 @@
                             <p class="home-item-description">A primer on creative direction as compared to art direction and design&hellip; and what they all mean in a digital context.</p>
                         </article><!-- .home-item-article -->
                     </li>
-
+                    <?php /* ?>
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -82,7 +94,7 @@
                             <p class="home-item-description">How I&rsquo;m voting.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    <?php /* ?>
+                    
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
