@@ -7,8 +7,8 @@
 
   <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
   <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
-  <link href="http://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" />
-  <link rel="stylesheet" href="rfe.css" />
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,800" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="easy-hangouts.css" />
 
   <!-- Facebook -->
   <meta property="og:title" content="The Easiest Way to Start a Hangout" />
@@ -32,37 +32,53 @@
 
             </header><!-- .article-title -->
 
-            <ol class="steps">
+            <ol class="steps no-marker">
 
                 <li class="step" id="step01" data-step-number="01">
 
-                    <div class="step-content">
+                    <figure>
+                        <img src="01-new.png" alt="New event" />
+                    </figure>
+
+                    <figcaption class="step-content">
                         <p>Open Google Calendar and create a new event. Choose <kbd class="cta-text">Edit event &raquo;</kbd></p>
-                    </div><!-- .step-content -->
+                    </figcaption><!-- .step-content -->
 
                 </li><!-- #step01 -->
 
                 <li class="step" id="step02" data-step-number="02">
 
-                    <div class="step-content">
+                    <figure>
+                        <img src="02-video-call.png" alt="Video call added" />
+                    </figure>
+
+                    <figcaption class="step-content">
                         <p>Make sure a video call has been added and choose <kbd class="cta-button">Save</kbd></p>
-                    </div><!-- .step-content -->
+                    </figcaption><!-- .step-content -->
 
                 </li><!-- #step02 -->
 
                 <li class="step" id="step03" data-step-number="03">
 
-                    <div class="step-content">
+                    <figure>
+                        <img src="03-join-video-call.png" alt="Join video call" />
+                    </figure>
+
+                    <figcaption class="step-content">
                         <p>Choose the event and select <kbd class="cta-text">Join video call</kbd></p>
-                    </div><!-- .step-content -->
+                    </figcaption><!-- .step-content -->
 
                 </li><!-- #step03 -->
 
                 <li class="step" id="step04" data-step-number="04">
 
-                    <div class="step-content">
+                    <figure>
+                        <img src="04-hangout.jpg" alt="Join hangout" />
+                    </figure>
+
+                    <figcaption class="step-content">
                         <p>Join your hangout. Invite friends by sending them the <abbr title="Uniform Resource Locator">URL</abbr>.</p>
-                    </div><!-- .step-content -->
+                    </figcaption><!-- .step-content -->
 
                 </li><!-- #step04 -->
 
