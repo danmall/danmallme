@@ -27,6 +27,19 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/easy-hangouts/">The Easiest Way to Start a Hangout</a></h1>
+                            </header>
+                            <p>Use Google Calendar.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/easy-hangouts/"><time datetime="2014-05-01T05:15:00">May 01, 2014</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/easy-hangouts/#disqus_thread" data-disqus-identifier="easy-hangouts"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
+
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/radio-free-europe-open-redesign/">Radio Free Europe</a></h1>
                             </header>
                             <p>An open redesign.</p>

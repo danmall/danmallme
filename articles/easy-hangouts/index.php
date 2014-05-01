@@ -93,7 +93,7 @@
 
 	<?php
 
-        echo readNext('Visual Inventory', '/articles/visual-inventory/');
+        echo readNext('Radio Free Europe', '/articles/radio-free-europe-open-redesign/');
 
     ?>
 
@@ -141,7 +141,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2014-04-07T10:00:00">Published Apr 7, 2014 at 10:00 <abbr title="Ante Meridian">AM</abbr></time>
+        	        <time datetime="2014-05-01T105:15:00">Published May 1, 2014 at 5:15 <abbr title="Ante Meridian">AM</abbr></time>
     	        </section><!-- /.article-info -->
 
 

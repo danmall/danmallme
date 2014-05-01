@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2014</dc:rights>
-    <pubDate>Fri, 21 Mar 2014 00:06:00 GMT</pubDate>
+    <pubDate>Thu, 01 May 2014 05:15:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>The Easiest Way to Start a Hangout</title>
+        <description>Use Google Calendar.</description>
+        <link>http://danielmall.com/articles/easy-hangouts/</link>
+        <guid>http://danielmall.com/articles/easy-hangouts/</guid>
+        <pubDate>Thu, 01 May 2014 05:15:00 GMT</pubDate>
+    </item>
     <item>
         <title>Radio Free Europe</title>
         <description>An open redesign.</description>
