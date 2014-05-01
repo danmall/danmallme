@@ -1,7 +1,17 @@
 #article-area-wrap {  }
 
 #easy-hangouts { margin: 0 auto; width: 95%; max-width: 780px; padding: 70px 0 100px; font-family: 'Open Sans', Arial, sans-serif; }
+
+	#easy-hangouts img { float: none; margin: 0 auto 1em; }
+	#easy-hangouts p, #easy-hangouts li { font-size: 17px; }
 	
+	#easy-hangouts .main-heading { font-weight: 800; text-transform: uppercase; letter-spacing: -1px; font-size: 34px; line-height: 1; text-align: center; }
+
+	#easy-hangouts .step, #easy-hangouts .article-title { border-bottom: 1px solid #ccc; margin: 0 0 2em; }
+	#easy-hangouts .article-title { padding-bottom: 3em; }
+	#easy-hangouts .step:before { content: attr(data-step-number); text-align: center; font-size: 72px; display: block; width: 100%; margin: 0 0 0.4em; color: #6d9eeb; font-weight: 300; }
+	#easy-hangouts .cta-text { color: #1c5dce; font-family: Arial, sans-serif; font-weight: bold; font-size: 96%; }
+	#easy-hangouts .cta-button { color: #fff; display: inline-block; background: #d94a38; border-radius: 2px; border: 1px solid #d13521; font-family: Arial, sans-serif; font-weight: bold; font-size: 66%; text-transform: uppercase; padding: 0.2em 1em; }
 
 
 
