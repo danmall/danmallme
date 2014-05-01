@@ -32,6 +32,12 @@
 
             </header><!-- .article-title -->
 
+            <div class="step">
+                <section class="update">
+                    <p><strong>Update:</strong> Dave Ruse <a href="https://twitter.com/daveruse/status/461865162124066816">points out</a> that an even easier way is to go directly to <a href="https://plus.google.com/hangouts/_/ ">plus.google.com/hangouts/_/</a>. Hooray!</p>
+                </section><!-- .update -->
+            </div><!-- .step -->
+
             <ol class="steps no-marker">
 
                 <li class="step" id="step01" data-step-number="01">
