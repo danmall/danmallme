@@ -55,10 +55,10 @@
                     font-size: 14px; padding: 0;
                 }
 
-                &:hover { color: $navLinkHover; }
+                &:hover { color: $navLinkHover; color: #fff; }
             }
 
-            mark { color: $navLinkHover; } 
+            mark { color: $navLinkHover; background: $becca; color: #fff; } 
 
         }
 
