@@ -189,7 +189,7 @@
             }
         }
         .projects li:hover { z-index: 4; }        
-            .projects a { display: block; width: 180px; height: 180px; background: #ff7000; background: rgba(115, 174, 8, 1); color: #fff; font: bold 16px Helvetica, Arial, sans-serif; border-radius: 100px; -moz-border-radius: 100px; -webkit-border-radius: 100px; text-align: center; display: table-cell; vertical-align: middle; border: none; opacity: 0.75; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; padding: 10px; transform-origin: 50% 50%; -moz-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; }
+            .projects a { display: block; width: 180px; height: 180px; background: #ff7000; background: rgba(115, 174, 8, 1); color: #fff; font: bold 16px Helvetica, Arial, sans-serif; border-radius: 100px; -moz-border-radius: 100px; -webkit-border-radius: 100px; text-align: center; display: table-cell; vertical-align: middle; border: none; opacity: 0.75; transition: all 0.25s linear; -moz-transition: all 0.25s linear; -webkit-transition: all 0.25s linear; padding: 10px; transform-origin: 50% 50%; -moz-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; background: $becca !important; color: #fff !important; }
             .projects a:visited { background: #ccc; }
             .projects a:hover, .projects a:focus { opacity: 1; background: #231f20;  }
 			.new-work { position: absolute; right: 15px; top: 20px; background: black; color: #fff; text-transform: uppercase; font-weight: normal; padding: 5px; }
