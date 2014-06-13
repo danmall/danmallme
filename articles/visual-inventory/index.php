@@ -153,8 +153,8 @@
 
 			<section id="download" class="chunk chunk70 dark70">
 
-				<a class="button" href="http://d.pr/f/z2PZ">
-					Download <aside class="button-meta">(Zipped Keynote, 800<abbr title="kilobytes">KB</abbr>)</aside>
+				<a class="button" href="http://d.pr/f/6kXD">
+					Download <aside class="button-meta">(Zipped Keynote + Powerpoint, 1.4<abbr title="megabytes">MB</abbr>)</aside>
 				</a>
 
 				<p>By downloading, you accept <a href="terms/">these terms</a>.</p>
