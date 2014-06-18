@@ -48,7 +48,7 @@
                 <p><strong>Spend time with the presenting environment.</strong> Specific things to look out for:</p>
 
                 <ul>
-                    <li>Be aware of the audio and mic setup. One of the first things I do when I&rsquo;m asked to do a talk is ask when the sound check will be. If there&rsquo;s no sound check, ask for one. I usually try and do this a day before I&rsquo;m actually speaking so that I have time to make adjustments to my talk if I need to. Find out what kind of mic you&rsquo;re using. Is it handheld? Lav? Headset? These things affect your wardrobe, your movement, and lots more, so get familiar with these as soon as possible so that you&rsquo;re comfortable. It&rsquo;s hard to be comfortable when you&rsquo;re not used to losing a whole hand to holding a microphone. </li>
+                    <li>Be aware of the audio and mic setup. One of the first things I do when I&rsquo;m asked to do a talk is ask when the sound check will be. If there&rsquo;s no sound check, ask for one. I usually try and do this a day before I&rsquo;m actually speaking&mdash;<em>not</em> 10 minutes before I go on stage&mdash;so that I have time to make adjustments to my talk if I need to. Find out what kind of mic you&rsquo;re using. Is it handheld? Lav? Headset? These things affect your wardrobe, your movement, and lots more, so get familiar with these as soon as possible so that you&rsquo;re comfortable. It&rsquo;s hard to be comfortable when you&rsquo;re not used to losing a whole hand to holding a microphone. </li>
                     <li>Walk around the stage. Will there be video recording? Are there parts of the stage that the lighting does reach or makes the mic give feedback? Spend some time feeling out the stage boundaries. Is it a small stage with a danger of falling off? Is it a gigantic stage that could allow you to walk around? Spatial awareness will make you comfortable.</li>
                     <li>Is there a second monitor somewhere? Will it mirror your display or act as an extended screen? There&rsquo;s nothing like relying too heavily on presenter notes, just to find out that you won&rsquo;t have access to them.</li>
                 </ul>
@@ -57,22 +57,22 @@
 
                 <p><strong>Know your stuff.</strong> This one seems obvious, but most of the talk slip-ups I&rsquo;ve seen come from people uncomfortable with their material. If you know your material well enough, you can riff for a while if you get lost and the audience is none the wiser. This is deeper than just rehearsal; it&rsquo;s about intrinsically knowing as much about your content, even if you&rsquo;re only touching on a piece of it in your talk.</p>
 
-                <p><strong>Pause.</strong></p>
+                <p class="pause"><strong>Pause.</strong></p>
 
                 <ul>
                     <li>Breathe. Lots of speakers&mdash;especially new ones&mdash;feel like they have to fill all available time on stage. Don&rsquo;t be afraid to take a few breaths now and again. Before you move on to your next big point, count slowly to 3 in your head and take deep breaths. The oxygen intake will energize you, and your audience&rsquo;s ears will appreciate it. </li>
-                    <li>Take water breaks. Avoid dry mouth or scratchy throat by staying well lubricated. I once did a talk where I had slides that said, "Drink some water, Dan." The audience took it as a joke and laughed, and I got a chance to drink water, breathe, and take a small break. Win win.</li>
+                    <li>Take water breaks. Avoid dry mouth or scratchy throat by staying well lubricated. I once did a talk where I had slides that said, &ldquo;Drink some water, Dan.&rdquo; The audience took it as a joke and laughed, and I got a chance to drink water, breathe, and take small breaks. Win win.</li>
                 </ul>
 
                 <p><strong>Get paid.</strong> Though it may seem like the outlier, this is probably the biggest factor in my comfort level in speaking. Talks take a lot of time to make. From outlining a concept, writing the talk, designing slides, rehearsing, revising, traveling to and from the conference, being away from work, and&mdash;most importantly&mdash;being away from my family, there is a major cost to speaking.</p> 
 
-                <p>My Harvest data from last year tells me that I spend about 90-120 hours on a new talk. I&rsquo;ve gotten paid anywhere from $500&ndash;$3000 for speaking at an event; most are in the middle of that range. I&rsquo;ll tell you right now that the best speakers you see at all the conferences nowadays can easily make more doing client work than $1500 for three weeks of their expertise. </p>
+                <p>My Harvest data from last year tells me that I spend about 90&ndash;120 hours on a new talk. I&rsquo;ve gotten paid anywhere from $500&ndash;$3000 for speaking at an event; most are in the middle of that range. I&rsquo;ll tell you right now that the best speakers you see at all the conferences nowadays can easily make more doing client work than $1500 for three weeks of their expertise. </p>
 
                 <p>Speaking honorariums aren&rsquo;t meant to replace income; they&rsquo;re good faith offerings from conference organizers to speakers to make the speakers more comfortable. When I get paid to speak, it gives me some breathing room so I don&rsquo;t have to rush back to my hotel room after a talk to join a conference call. Honorariums let me create some space in my schedule so I&rsquo;m not forced to being comping in the back of the room and instead be able to enjoy and learn from the other speakers and participate in conversations with attendees. Though it doesn&rsquo;t replace time with my wife and daughters, it does let us look forward to a little extra cash for a vacation together or a nice deposit into a savings account. I&rsquo;ve even foregone the honorarium when a conference organizer offers to cover some costs to let my family be there. It shows that they&rsquo;re interested in making me comfortable, which lets me be a good speaker. </p>
 
                 <p>You&rsquo;re speaking because you&rsquo;re dang good at what you do. Getting paid to speak lets you be a little more comfortable with pausing what you do well for a little while to share some of that goodness with others. </p>    
 
-                <p>That&rsquo;s usually how I get comfortable. It&rsquo;s different for every speaker. Some have a little booze just before to loosen up. Others pray or meditate. Find the thing that puts you at ease. Remember, the audience wants you to do well. They&rsquo;re rooting for you. When you do a great job presenting, they benefit by having heard something valuable.</p>
+                <p class="continuation">That&rsquo;s usually how I get comfortable. It&rsquo;s different for every speaker. Some have a little booze just before to loosen up. Others pray or meditate. Find the thing that puts you at ease. Remember, the audience wants you to do well. They&rsquo;re rooting for you. When you do a great job presenting, they benefit by having heard something valuable.</p>
 
                 <p>Last thing: if you don&rsquo;t yet know what makes you comfortable, try this. When you&rsquo;re ready to start your talk, walk to the center of the stage. Take a deep breath. Smile ear to ear, and say in a confident voice, “Hi!” You&rsquo;ll see the audience light up, and you&rsquo;ll be off to a great start.</p>
 
@@ -81,19 +81,20 @@
             <section class="outro boxed">
 
                 <p>Lots of friends&mdash;who are great, experienced speakers&mdash;have written about their perspectives on speaking. Check out these great tips:</p>
-            <ul>
-                <li><a href="#">Speaking? Pack a Plan</a>, by <a href="#">Ethan Marcotte</a></li>
-                <li><a href="#">Suggestions for Speakers</a>, by <a href="#">Frank Chimero</a></li>
-                <li><a href="#">Speaking Tips</a>, by <a href="#">Mark Boulton</a></li>
-                <li><a href="#">How to ask to get paid to speak</a>, by <a href="#">Seb Lee-Delisle</a></li>
-                <li><a href="#">A Formula for Speaking Fees</a>, by <a href="#">Jenn Lukas</a></li>
-                <li><a href="#">Conference speaking, transparency and fairness</a>, by <a href="#">Rachel Andrew</a></li>
-                <li><a href="#">Road test your slides for better performance</a>, by <a href="#">Derek Featherstone</a></li>
-                <li><a href="#">What I Need to Give a Great Talk,</a> by <a href="#">Karen McGrane</a></li>
-                <li><a href="#">Speaking Tips</a>, by <a href="#">Chris Coyier</a>/li>
-                <li><a href="#">On Speaking</a>, by <a href="#">Brad Frost</a></li>
-                <li><a href="#">Speaking? Tips.</a>, by <a href="#">Dave Shea</a></li>
-                <li><a href="#">How I Prepare a New Talk</a>, by <a href="#">Tim Kadlec</a></li>
+
+            <ul class="no-marker">
+                <li><a class="post" href="http://unstoppablerobotninja.com/entry/speaking-pack-a-plan/">Speaking? Pack a Plan</a><span class="connector">,</span> by <a rel="friend met" class="author" href="http://twitter.com/beep">Ethan Marcotte</a></li>
+                <li><a class="post" href="http://frankchimero.com/blog/suggestions-for-speakers/">Suggestions for Speakers</a><span class="connector">,</span> by <a rel="friend met" class="author" href="http://twitter.com/fchimero">Frank Chimero</a></li>
+                <li><a class="post" href="http://markboulton.co.uk/journal/speakingtips">Speaking Tips</a><span class="connector">,</span> by <a rel="friend met" class="author" href="http://twitter.com/markboulton">Mark Boulton</a></li>
+                <li><a class="post" href="http://seb.ly/2014/05/how-to-ask-to-get-paid-to-speak/">How To Ask to Get Paid to Speak</a><span class="connector">,</span> by <a rel="friend met" class="author" href="http://twitter.com/seb_ly">Seb Lee-Delisle</a></li>
+                <li><a class="post" href="http://www.thenerdary.net/post/84544230452/a-formula-for-speaking-fees">A Formula for Speaking Fees</a><span class="connector">,</span> by <a rel="friend met" class="author" href="http://twitter.com/jennlukas">Jenn Lukas</a></li>
+                <li><a class="post" href="http://www.rachelandrew.co.uk/archives/2014/05/02/conference-speaking-transparency-and-fairness/">Conference Speaking, Transparency and Fairness</a><span class="connector">,</span> by <a rel="friend met" class="author" href="http://twitter.com/rachelandrew">Rachel Andrew</a></li>
+                <li><a class="post" href="http://seizetheroom.com/articles/road-test-your-slides/">Road Test Your Slides for Better Performance</a><span class="connector">,</span> by <a rel="friend met" class="author" href="http://twitter.com/feather">Derek Featherstone</a></li>
+                <li><a class="post" href="https://the-pastry-box-project.net/karen-mcgrane/2013-july-8">What I Need to Give a Great Talk,</a> by <a rel="friend met" class="author" href="http://twitter.com/karenmcgrane">Karen McGrane</a></li>
+                <li><a class="post" href="http://chriscoyier.net/2013/09/17/speaking-tips/">Speaking Tips</a><span class="connector">,</span> by <a rel="friend met" class="author" href="http://twitter.com/chriscoyier">Chris Coyier</a></li>
+                <li><a class="post" href="http://bradfrostweb.com/blog/post/on-speaking/">On Speaking</a><span class="connector">,</span> by <a rel="friend met" class="author" href="http://twitter.com/brad_frost">Brad Frost</a></li>
+                <li><a class="post" href="http://mezzoblue.com/archives/2006/02/27/speaking_ti/">Speaking? Tips.</a><span class="connector">,</span> by <a rel="friend met" class="author" href="http://twitter.com/mezzoblue">Dave Shea</a></li>
+                <li><a class="post" href="http://timkadlec.com/2014/06/how-i-prepare-a-new-talk/">How I Prepare a New Talk</a><span class="connector">,</span> by <a rel="friend met" class="author" href="http://twitter.com/tkadlec">Tim Kadlec</a></li>
             </ul>
 
 
