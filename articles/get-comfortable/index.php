@@ -8,6 +8,13 @@
   <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
   <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
   <link rel="stylesheet" href="get-comfortable.css" />
+  <script src="//use.typekit.net/euz1bsx.js"></script>
+  <script>
+    try{
+        Typekit.load();
+        document.write('<link rel="stylesheet" href="get-comfortable-typekit.css" />');
+    }catch(e){}
+  </script>
 
   <!-- Facebook -->
   <meta property="og:title" content="The Easiest Way to Start a Hangout" />
@@ -64,7 +71,7 @@
                     <li>Take water breaks. Avoid dry mouth or scratchy throat by staying well lubricated. I once did a talk where I had slides that said, &ldquo;Drink some water, Dan.&rdquo; The audience took it as a joke and laughed, and I got a chance to drink water, breathe, and take small breaks. Win win.</li>
                 </ul>
 
-                <p><strong>Get paid.</strong> Though it may seem like the outlier, this is probably the biggest factor in my comfort level in speaking. Talks take a lot of time to make. From outlining a concept, writing the talk, designing slides, rehearsing, revising, traveling to and from the conference, being away from work, and&mdash;most importantly&mdash;being away from my family, there is a major cost to speaking.</p> 
+                <p id="fn1-source"><strong>Get paid.</strong><sup class="footnote-link"><a href="#fn1">1</a></sup> Though it may seem like the outlier, this is probably the biggest factor in my comfort level in speaking. Talks take a lot of time to make. From outlining a concept, writing the talk, designing slides, rehearsing, revising, traveling to and from the conference, being away from work, and&mdash;most importantly&mdash;being away from my family, there is a major cost to speaking.</p> 
 
                 <p>My Harvest data from last year tells me that I spend about 90&ndash;120 hours on a new talk. I&rsquo;ve gotten paid anywhere from $500&ndash;$3000 for speaking at an event; most are in the middle of that range. I&rsquo;ll tell you right now that the best speakers you see at all the conferences nowadays can easily make more doing client work than $1500 for three weeks of their expertise. </p>
 
@@ -100,6 +107,19 @@
 
 
             </section><!-- .boxed -->
+
+
+            <section class="footnotes">                
+                
+                <ol>
+                    
+                    <li id="fn1">This point wasn&rsquo;t part of the original email, but I thought it would be valuable to share. <a href="#fn1-source">&#8617;</a></li>             
+
+                    <li id="fn2">This article has also been <a href="#">published on Medium</a>.</li>
+
+                </ol>
+
+            </section><!-- .chunk -->
 
 
 
