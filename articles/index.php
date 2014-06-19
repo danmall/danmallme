@@ -27,6 +27,18 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/get-comfortable/">Get Comfortable</a></h1>
+                            </header>
+                            <p>Some advice about public speaking.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/easy-hangouts/"><time datetime="2014-06-19T06:16:00">Jun 19, 2014</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/get-comfortable/#disqus_thread" data-disqus-identifier="get-comfortable"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/easy-hangouts/">The Easiest Way to Start a Hangout</a></h1>
                             </header>
                             <p>Use Google Calendar.</p>

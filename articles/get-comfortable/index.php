@@ -17,8 +17,8 @@
   </script>
 
   <!-- Facebook -->
-  <meta property="og:title" content="The Easiest Way to Start a Hangout" />
-  <meta property="og:description"content="Use Google Calendar."/>
+  <meta property="og:title" content="Get Comfortable" />
+  <meta property="og:description"content="Some advice about public speaking."/>
   <meta property="og:url" content="http://danielmall.com/articles/get-comfortable/" />
   <meta property="og:image" content="http://danielmall.com/articles/get-comfortable/home-thumb.png" />
 
@@ -34,7 +34,7 @@
 
             <section class="intro boxed">
 
-                <p class="lede">A friend who was new at public speaking wrote to me for some advice. Here&rsquo;s what I shared.</p>
+                <p class="lede">My friend <a href="https://twitter.com/samkap">Sam</a> asked me for some advice before her first time speaking at a conference. Here&rsquo;s what I shared.</p>
 
                 <p>I&rsquo;ve got a few tips for you&mdash;and anyone&mdash;about speaking. I think I can sum it all up pretty well in one phrase: <strong class="article-title">Get Comfortable.</strong></p>
 
@@ -52,22 +52,22 @@
 
                 <p>So, how do you get comfortable?</p>
 
-                <p><strong>Spend time with the presenting environment.</strong> Specific things to look out for:</p>
+                <p><strong>Spend time with the stage.</strong> Specific things to look out for:</p>
 
                 <ul>
                     <li>Be aware of the audio and mic setup. One of the first things I do when I&rsquo;m asked to do a talk is ask when the sound check will be. If there&rsquo;s no sound check, ask for one. I usually try and do this a day before I&rsquo;m actually speaking&mdash;<em>not</em> 10 minutes before I go on stage&mdash;so that I have time to make adjustments to my talk if I need to. Find out what kind of mic you&rsquo;re using. Is it handheld? Lav? Headset? These things affect your wardrobe, your movement, and lots more, so get familiar with these as soon as possible so that you&rsquo;re comfortable. It&rsquo;s hard to be comfortable when you&rsquo;re not used to losing a whole hand to holding a microphone. </li>
-                    <li>Walk around the stage. Will there be video recording? Are there parts of the stage that the lighting does reach or makes the mic give feedback? Spend some time feeling out the stage boundaries. Is it a small stage with a danger of falling off? Is it a gigantic stage that could allow you to walk around? Spatial awareness will make you comfortable.</li>
+                    <li>Walk around the stage. Will there be video recording? Are there parts of the stage that the lighting doesn&rsquo;t reach or makes the mic give feedback? Spend some time feeling out the stage boundaries. Is it a small stage with a danger of falling off? Is it a gigantic stage that you could get lost in if you don&rsquo;t use it actively? Spatial awareness will make you comfortable.</li>
                     <li>Is there a second monitor somewhere? Will it mirror your display or act as an extended screen? There&rsquo;s nothing like relying too heavily on presenter notes, just to find out that you won&rsquo;t have access to them.</li>
                 </ul>
 
-                <p><strong>Rehearse.</strong> Doing a talk is like improvisational jazz. Jazz musicians don&rsquo;t improvise because they don&rsquo;t know the song. They improvise because they know the song so well that they know which spots they can deviate and when to come back to the theme. I like for my talks to come off casual&mdash;not sounding too rehearsed, but more conversational&mdash;so I actually rehearse them so much to make them sound not-rehearsed. It sounds counter-intuitive, but I think it works for me.</p>
+                <p><strong>Rehearse.</strong> Doing a talk is like improvisational jazz. Jazz musicians improvise, not because they don&rsquo;t know the song, but because they know the song so well that they know which spots allow them to deviate and when to come back to the theme. I like for my talks to come off casual&mdash;not sounding too rehearsed, but more conversational&mdash;so I actually rehearse them so much to make them sound not-rehearsed. It sounds counterintuitive, but I think it works for me.</p>
 
-                <p><strong>Know your stuff.</strong> This one seems obvious, but most of the talk slip-ups I&rsquo;ve seen come from people uncomfortable with their material. If you know your material well enough, you can riff for a while if you get lost and the audience is none the wiser. This is deeper than just rehearsal; it&rsquo;s about intrinsically knowing as much about your content, even if you&rsquo;re only touching on a piece of it in your talk.</p>
+                <p><strong>Know your stuff.</strong> This one seems obvious, but most of the talk slip-ups I&rsquo;ve seen come from people who are uncomfortable with their material. If you know your material well enough, you can riff for a while if you get lost and the audience is none the wiser. This is deeper than just rehearsal; it&rsquo;s about intrinsically knowing your content, even if you&rsquo;re only touching on a piece of it in your talk.</p>
 
                 <p class="pause"><strong>Pause.</strong></p>
 
                 <ul>
-                    <li>Breathe. Lots of speakers&mdash;especially new ones&mdash;feel like they have to fill all available time on stage. Don&rsquo;t be afraid to take a few breaths now and again. Before you move on to your next big point, count slowly to 3 in your head and take deep breaths. The oxygen intake will energize you, and your audience&rsquo;s ears will appreciate it. </li>
+                    <li>Breathe. Lots of speakers&mdash;especially new ones&mdash;feel like they have to fill all available time on stage. Don&rsquo;t be afraid to take a few breaths now and again. Before you move on to your next big point, count slowly to 3 in your head and take deep breaths. The oxygen intake will energize you, and your audience&rsquo;s ears will appreciate it.<br /><br />Bonus: pausing is a great way to get back the attention of your audience if you&rsquo;re losing them. If you or your slides aren&rsquo;t being visually interesting, people think they can get away with just listening, and they&rsquo;ll bury their noses in their laptops and phones. When you&rsquo;re silent on stage, the lack of noise makes your listener feel like only their eyes will pick up on what their ears can&rsquo;t, so they look up. You can capture them back again, so make it worth it.</li>
                     <li>Take water breaks. Avoid dry mouth or scratchy throat by staying well lubricated. I once did a talk where I had slides that said, &ldquo;Drink some water, Dan.&rdquo; The audience took it as a joke and laughed, and I got a chance to drink water, breathe, and take small breaks. Win win.</li>
                 </ul>
 
@@ -75,9 +75,9 @@
 
                 <p>My Harvest data from last year tells me that I spend about 90&ndash;120 hours on a new talk. I&rsquo;ve gotten paid anywhere from $500&ndash;$3000 for speaking at an event; most are in the middle of that range. I&rsquo;ll tell you right now that the best speakers you see at all the conferences nowadays can easily make more doing client work than $1500 for three weeks of their expertise. </p>
 
-                <p>Speaking honorariums aren&rsquo;t meant to replace income; they&rsquo;re good faith offerings from conference organizers to speakers to make the speakers more comfortable. When I get paid to speak, it gives me some breathing room so I don&rsquo;t have to rush back to my hotel room after a talk to join a conference call. Honorariums let me create some space in my schedule so I&rsquo;m not forced to being comping in the back of the room and instead be able to enjoy and learn from the other speakers and participate in conversations with attendees. Though it doesn&rsquo;t replace time with my wife and daughters, it does let us look forward to a little extra cash for a vacation together or a nice deposit into a savings account. I&rsquo;ve even foregone the honorarium when a conference organizer offers to cover some costs to let my family be there. It shows that they&rsquo;re interested in making me comfortable, which lets me be a good speaker. </p>
+                <p>Speaking honorariums aren&rsquo;t meant to replace income; they&rsquo;re good faith offerings from conference organizers to speakers to make the speakers more comfortable. When I get paid to speak, it gives me some breathing room so I don&rsquo;t have to rush back to my hotel room after a talk to join a conference call. Honorariums let me create some space in my schedule so I&rsquo;m not forced to be Photoshopping in the back of the room and instead be able to enjoy and learn from the other speakers and participate in conversations with attendees. Though it doesn&rsquo;t replace time with my wife and daughters, a speaking fee does let us look forward to a little extra cash for a vacation together or a nice deposit into a savings account. I&rsquo;ve even foregone the honorarium when a conference organizer offers to cover some costs to let my family be there. It shows that they&rsquo;re interested in making me comfortable, which lets me focus on trying to be a good speaker and conference attendee.</p>
 
-                <p>You&rsquo;re speaking because you&rsquo;re dang good at what you do. Getting paid to speak lets you be a little more comfortable with pausing what you do well for a little while to share some of that goodness with others. </p>    
+                <p>You&rsquo;re speaking because you&rsquo;re dang good at what you do. Getting paid to speak lets you be a little more comfortable with pausing what you do well for a little while to share some of that goodness&mdash;and yourself&mdash;with others. </p>    
 
                 <p class="continuation">That&rsquo;s usually how I get comfortable. It&rsquo;s different for every speaker. Some have a little booze just before to loosen up. Others pray or meditate. Find the thing that puts you at ease. Remember, the audience wants you to do well. They&rsquo;re rooting for you. When you do a great job presenting, they benefit by having heard something valuable.</p>
 
@@ -177,7 +177,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2014-05-01T105:15:00">Published May 1, 2014 at 5:15 <abbr title="Ante Meridian">AM</abbr></time>
+        	        <time datetime="2014-06-19T06:16:00">Published June 16, 2014 at 6:16 <abbr title="Ante Meridian">AM</abbr></time>
     	        </section><!-- /.article-info -->
 
 
