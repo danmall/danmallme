@@ -38,6 +38,18 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/get-comfortable/">
+                                    <img class="round-image" src="/articles/get-comfortable/home-thumb.png" alt="" />
+                                    <span class="home-item-name">Get Comfortable</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Some advice about public speaking.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/easy-hangouts/">
                                     <img class="round-image" src="/articles/easy-hangouts/home-thumb.png" alt="" />
                                     <span class="home-item-name">The Easiest Way to Start a Hangout</span>
@@ -47,7 +59,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/radio-free-europe-open-redesign/">
@@ -59,7 +71,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/visual-inventory/">
@@ -70,7 +82,7 @@
                             <p class="home-item-description">A design deliverable for the post-PSD era of responsive design.</p>
                         </article><!-- .home-item-article -->
                     </li>
-
+                    <?php /* ?>
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -82,7 +94,7 @@
                             <p class="home-item-description">A primer on creative direction as compared to art direction and design&hellip; and what they all mean in a digital context.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    <?php /* ?>
+                    
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
