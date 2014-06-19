@@ -177,7 +177,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2014-05-01T105:15:00">Published May 1, 2014 at 5:15 <abbr title="Ante Meridian">AM</abbr></time>
+        	        <time datetime="2014-06-19T06:16:00">Published June 16, 2014 at 6:16 <abbr title="Ante Meridian">AM</abbr></time>
     	        </section><!-- /.article-info -->
 
 
