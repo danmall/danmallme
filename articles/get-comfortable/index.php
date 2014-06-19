@@ -102,6 +102,7 @@
                 <li><a class="post" href="http://bradfrostweb.com/blog/post/on-speaking/">On Speaking</a><span class="connector">,</span> by <a rel="friend met" class="author" href="http://twitter.com/brad_frost">Brad Frost</a></li>
                 <li><a class="post" href="http://mezzoblue.com/archives/2006/02/27/speaking_ti/">Speaking? Tips.</a><span class="connector">,</span> by <a rel="friend met" class="author" href="http://twitter.com/mezzoblue">Dave Shea</a></li>
                 <li><a class="post" href="http://timkadlec.com/2014/06/how-i-prepare-a-new-talk/">How I Prepare a New Talk</a><span class="connector">,</span> by <a rel="friend met" class="author" href="http://twitter.com/tkadlec">Tim Kadlec</a></li>
+                <li><a class="post" href="http://www.nickfinck.com/blog/entry/public_speaking_and_dying/">Public Speaking &amp; Dying</a><span class="connector">,</span> by <a rel="friend met" class="author" href="http://twitter.com/nickf">Nick Finck</a></li>
             </ul>
 
 
