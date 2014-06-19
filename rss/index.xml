@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2014</dc:rights>
-    <pubDate>Thu, 01 May 2014 05:15:00 GMT</pubDate>
+    <pubDate>Thu, 19 Jun 2014 06:16:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Get Comfortable</title>
+        <description>Some advice about public speaking.</description>
+        <link>http://danielmall.com/articles/get-comfortable/</link>
+        <guid>http://danielmall.com/articles/get-comfortable/</guid>
+        <pubDate>Thu, 19 Jun 2014 06:16:00 GMT</pubDate>
+    </item>
     <item>
         <title>The Easiest Way to Start a Hangout</title>
         <description>Use Google Calendar.</description>
