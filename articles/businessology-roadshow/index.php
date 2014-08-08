@@ -40,7 +40,9 @@
 
             <p>At the beginning of 2013, <a href="http://www.jasonblumer.com/">Jason Blumer</a> and I started a podcast called <a href="http://www.businessology.biz/">The Businessology Show</a> because we didn&rsquo;t think enough people were talking about how to run successful design businesses. After receiving a lot of great feedback about the things we were talking about, we decided to take our show on the road. In addition to spending an hour every two weeks recording episodes on these general topics, we really wanted spend time in-person with agency owners and freelancers to talk and work through the specifics of how to position your services and charge appropriately for them in a way that makes your customers happy and your business profitable. </p>
 
-            <p>So, we created <a href="http://roadshow.businessologyshow.biz/">The Businessology Roadshow</a>. We&rsquo;ll be in NYC on August 19 and San Francisco on October 23. Today&rsquo;s the last day to get a $200 off discount for the NYC event, so cash in while you can.</p>
+            <p>So, we created <a href="http://roadshow.businessologyshow.biz/">The Businessology Roadshow</a>. We&rsquo;ll be in NYC on August 19 and San Francisco on October 23. Today&rsquo;s the last day to get a $200 off discount for the NYC event, so cash in while you can. We&rsquo;ve also added a special option where you and a few attendees can have dinner at a great local place with Jason and me. It&rsquo;ll be a special time of sharing in a much more intimate setting where we can all pick each other&rsquo;s brains and enjoy each other&rsquo;s company.</p>
+
+            <p>If there are any questions you have about the event or any suggestions you have about how we can make this better, please post them in the comments below.</p>
 
             <p>Hope to see you there!</p>
 
