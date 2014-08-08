@@ -38,6 +38,18 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/businessology-roadshow/">
+                                    <img class="round-image" src="/articles/businessology-roadshow/home-thumb.png" alt="" />
+                                    <span class="home-item-name">The Businessology Roadshow</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Learn about the business of design in person.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/get-comfortable/">
                                     <img class="round-image" src="/articles/get-comfortable/home-thumb.png" alt="" />
                                     <span class="home-item-name">Get Comfortable</span>
@@ -47,7 +59,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/easy-hangouts/">
@@ -59,7 +71,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/radio-free-europe-open-redesign/">
@@ -71,6 +83,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
+                    <?php /* ?>
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -82,7 +95,7 @@
                             <p class="home-item-description">A design deliverable for the post-PSD era of responsive design.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    <?php /* ?>
+                    
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
