@@ -27,6 +27,18 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/businessology-roadshow/">The Businessology Roadshow</a></h1>
+                            </header>
+                            <p>Learn about the business of design in person.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/businessology-roadshow/"><time datetime="2014-08-08T09:21:00">Aug 8, 2014</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/businessology-roadshow/#disqus_thread" data-disqus-identifier="businessology-roadshow"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/get-comfortable/">Get Comfortable</a></h1>
                             </header>
                             <p>Some advice about public speaking.</p>
