@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2014</dc:rights>
-    <pubDate>Thu, 19 Jun 2014 06:16:00 GMT</pubDate>
+    <pubDate>Thu, 25 Sep 2014 08:35:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>#sketchlive</title>
+        <description>A live 2-day tour through learning Sketch.</description>
+        <link>http://danielmall.com/articles/sketchlive/</link>
+        <guid>http://danielmall.com/articles/sketchlive/</guid>
+        <pubDate>Thu, 25 Sep 2014 08:35:00 GMT</pubDate>
+    </item>
     <item>
         <title>The Businessology Roadshow</title>
         <description>Learn about the business of design in person.</description>
