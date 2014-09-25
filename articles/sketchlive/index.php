@@ -54,7 +54,7 @@
 
                 <blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/hashtag/sketchlive?src=hash">#sketchlive</a> Had soup and a sandwich. A super friendly PSA that lunch is as important as design process and tools.</p>&mdash; Dan Mall (@danielmall) <a href="https://twitter.com/danielmall/status/509767825045864448">September 10, 2014</a></blockquote>
 
-                <p>On day 2, I decided to switch from my current project to a slightly different one. My current project&rsquo;s style guide relies on flat colors and utilitarian typography, which, even in a short day, I&rsquo;m convinced that Sketch is great for designing sites like that. But, one of the reasons I continue to use Photoshop is that it&rsquo;s equally flexible for all types of pixel pushing. Sure, there are features&mdash;like the ones in tools in Sketch&mdash;that would make some tasks much easier to accomplish, but for me to fully switch, I&rsquo;ll need to be able to make a range of outputs with the tool.</p>
+                <p>On day 2, I decided to switch from my current project to a slightly different one. My current project&rsquo;s style guide relies on flat colors and utilitarian typography, and, even in a short day, I&rsquo;m convinced that Sketch is great for designing sites like that. But, one of the reasons I continue to use Photoshop is that it&rsquo;s equally flexible for all types of pixel pushing. Sure, there are features&mdash;like the ones in tools like Sketch&mdash;that would make some tasks much easier to accomplish, but for me to fully switch, I&rsquo;ll need to be able to make a range of outputs with the tool.</p>
 
                 <blockquote class="twitter-tweet" data-conversation="none" lang="en"><p>Day 2 of <a href="https://twitter.com/hashtag/sketchlive?src=hash">#sketchlive</a> starts now. Goals for today: discover how good <a href="https://twitter.com/sketchapp">@sketchapp</a> is at allowing for a range of styles. I definitely see&hellip;</p>&mdash; Dan Mall (@danielmall) <a href="https://twitter.com/danielmall/status/510084996292698112">September 11, 2014</a></blockquote>
 
@@ -65,7 +65,7 @@
                 <blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/hashtag/sketchlive?src=hash">#sketchlive</a> Police dude is in. <a href="http://t.co/4luQ7t5CPG">http://t.co/4luQ7t5CPG</a>&#10;&#10;After importing him in, I&#39;m realizing I need to color correct to up the contrast to…</p>&mdash; Dan Mall (@danielmall) <a href="https://twitter.com/danielmall/status/510193937869721600">September 11, 2014</a></blockquote>
                 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-                <p>At the end of two days, I thought Sketch did a good job of getting out of my way in designing this interface. However, it didn&rsquo;t really do anything to help me design the interface, at least not any more than Photoshop does. To boot, I do a lot of photo manipulation when I&rsquo;m designing: dodging and burning, layer masks, level corrections, and more. Because Sketch doesn&rsquo;t have these tools&mdash;at least for now&mdash;I still need to rely on Photoshop for them, which means I&rsquo;m jumping back and forth between apps. </p>
+                <p>At the end of two days, I thought Sketch did a good job of getting out of my way in designing this interface. However, it didn&rsquo;t really do anything to <em>help</em> me design the interface, at least not any more than Photoshop does. To boot, I do a lot of photo manipulation when I&rsquo;m designing: dodging and burning, layer masks, level corrections, and more. Because Sketch doesn&rsquo;t have these tools&mdash;at least for now&mdash;I still need to rely on Photoshop for them, which means I&rsquo;m jumping back and forth between apps. </p>
 
                 <p>So far, Sketch certainly isn&rsquo;t a Photoshop replacement for me, and, if I&rsquo;m in Photoshop for part of the time, I&rsquo;m having a hard time justifying not being in it all of the time.</p>
 
@@ -76,10 +76,10 @@
 
                 <ul>
                   <li><strong>Export tools.</strong> By far the most impressive feature for me. Being able to select any layer or group and hit <kbd>Cmd+Shift+E</kbd> to generate an image&mdash;in lots of resolutions&mdash;and drag it out to anywhere is priceless. And lightning fast to boot? Photoshop&rsquo;s <kbd>Save for Web</kbd> has a lot to learn from Sketch&rsquo;s exporting.</li>
-                  <li><strong>Text styles.</strong> Systematic thinking in a graphic design program is welcome. I use this a lot in Photoshop too.</li>
+                  <li><strong>Text styles.</strong> More Systematic thinking in a graphic design program is incredibly welcome. I use this a lot in Photoshop too.</li>
                   <li><strong>File sizes.</strong> Seven full comps in one file with a file size of 6.7MB. My last equivalent PSD was 167MB. </li>
                   <li><strong>Symbols.</strong> I love the idea of resuable elements because it relates to the way I think about developing these designs, but it&rsquo;s taking me a while adopt the practice. I just don&rsquo;t think about it yet. This week, I had to update the footer in all my comps. If I had used symbols, that probably would have been a breeze. But I didn&rsquo;t. So it wasn&rsquo;t.</li>
-                  <li><strong>Copy CSS Attributes</strong>, in theory. I haven&rsquo;t built a site that was designed in Sketch, and I won&rsquo;t be building this one myself. TJ Pitre will be building this one, so keep an eye on what he says about it.</li>
+                  <li><strong>Copy CSS Attributes</strong>, in theory. I haven&rsquo;t built a site that was designed in Sketch, and I won&rsquo;t be building this one myself. <a href="https://twitter.com/tpitre">TJ Pitre</a> will be building this one, so keep an eye on what he says about it.</li>
                 </ul>
 
                 <p>Is all that enough to be a Photoshop killer? No. At least not yet. But Sketch definitely has a pretty steady place in the arsenal.</p>
