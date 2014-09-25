@@ -40,7 +40,7 @@
 
             <div class="inner">
 
-                <p>Disclaimer: this post isn&rsquo;t affiliated with Sketch or Bohemian Coding at all, other than me using the trial version of Sketch 3 for this experiment. Also, my point of comparison is Photoshop, an app I&rsquo;ve used for about 15 years and is the second app I open every morning (after my email client). I&rsquo;ve been on customer advisory boards for new and current Adobe products, but this post and experiment have nothing to do with my affiliation with Adobe. I have never received any compensation from Adobe for endorsing any products, but they did send me a sweet Photoshop pillow once.</p>
+                <p class="disclaimer">Disclaimer: this post isn&rsquo;t affiliated with Sketch or Bohemian Coding at all, other than me using the trial version of Sketch 3 for this experiment. Also, my point of comparison is Photoshop, an app I&rsquo;ve used for about 15 years and is the second app I open every morning (after my email client). I&rsquo;ve been on customer advisory boards for new and current Adobe products, but this post and experiment have nothing to do with my affiliation with Adobe. I have never received any compensation from Adobe for endorsing any products, but they did send me a sweet Photoshop pillow once.</p>
 
                 <p>I recently started a new project, redesigning a site for a media company. I learn better when I have an actual project with which to learn the new skill (as opposed to only doing tutorials and theoretical examples), so I dove in head first. On the first day, I had some challenges getting oriented&hellip;</p>
 
