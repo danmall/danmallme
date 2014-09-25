@@ -68,14 +68,26 @@
 
 		#sketchlive .entry-title {
 			color: #fff;
-			font: normal 60px 'Muli', Helvetica, Arial, sans-serif;
+			font: normal 48px 'Muli', Helvetica, Arial, sans-serif;
 			text-align: center;
+		}
+
+		@media screen and (min-width: 500px){
+			#sketchlive .entry-title {
+				font-size: 60px;
+			}
 		}
 
 		#sketchlive .article-header p {
 			color: #8a8e94;
 			text-align: center;
-			font-size: 24px;
+			font-size: 20px;
+		}
+
+		@media screen and (min-width: 500px){
+			#sketchlive .article-header p {
+				font-size: 24px;
+			}
 		}
 
 		#sketchlive .article-header a {
