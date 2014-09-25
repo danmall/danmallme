@@ -86,8 +86,9 @@
 
             </div><!-- .inner -->
 
-
 	    </section><!-- #sketchlive -->
+
+
 
 	</div><!-- /#article-area-wrap -->
 
@@ -163,6 +164,24 @@
 
 
     </div><!-- #wrap -->
+
+    <script>
+
+            var colorClasses = ['green', 'yellow', 'orange', 'red'];
+
+            $('#sketchlive a').mouseover(function(){
+                $(this).removeClass();
+                //assignClass();
+                $(this).addClass(assignClass());
+            });
+
+            function assignClass(){
+                var n = Math.floor((Math.random() * 4));
+                return colorClasses[n];
+                //console.log(n);
+            }
+
+        </script>
 
 
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/close.php"); echo "\n"; ?>

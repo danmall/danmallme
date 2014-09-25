@@ -90,7 +90,25 @@
 		}
 		
 		
+	#sketchlive a.green:hover,
+	#sketchlive a.green:focus {
+		border-bottom-color: #228c37;
+	}
 
+	#sketchlive a.yellow:hover,
+	#sketchlive a.yellow:focus {
+		border-bottom-color: #d8ad06;
+	}
+
+	#sketchlive a.orange:hover,
+	#sketchlive a.orange:focus {
+		border-bottom-color: #d86c06;
+	}
+
+	#sketchlive a.red:hover,
+	#sketchlive a.red:focus {
+		border-bottom-color: #c23815;
+	}
 
 #sketchlive ::selection { background: #292829; color: #fff; }
 #sketchlive ::-moz-selection { background: #292829; color: #fff; }
