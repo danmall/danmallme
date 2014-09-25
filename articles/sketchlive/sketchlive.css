@@ -44,6 +44,11 @@
 		margin: 0 auto;
 	}
 
+	#sketchlive .disclaimer {
+		color: #afb3bb;
+		font-style: italic;
+	}
+
 	#sketchlive .article-header {
 		background: #0a1f36 url(rainbow.png) repeat-x 0 bottom;
 		padding: 3em 0 120px;
