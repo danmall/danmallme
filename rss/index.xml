@@ -15,7 +15,7 @@
     <admin:generatorAgent rdf:resource="Bare Hands"/>
     <item>
         <title>Creative Cloud Libraries</title>
-        <description>A new Photoshop feature for designing systems.</description>
+        <description>A new Adobe feature for designing systems.</description>
         <link>http://danielmall.com/articles/creative-cloud-libraries/</link>
         <guid>http://danielmall.com/articles/creative-cloud-libraries/</guid>
         <pubDate>Mon, 06 Oct 2014 09:15:00 GMT</pubDate>

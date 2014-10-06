@@ -43,7 +43,7 @@
                                     <span class="home-item-name">Creative Cloud Libraries</span>
                                 </a>
                             </h2><!-- .home-item-headline -->
-                            <p class="home-item-description">A new Photoshop feature for designing systems.</p>
+                            <p class="home-item-description">A new Adobe feature for designing systems.</p>
                         </article><!-- .home-item-article -->
                     </li>
 

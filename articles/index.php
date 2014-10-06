@@ -29,7 +29,7 @@
                             <header>
                                 <h1><a href="/articles/creative-cloud-libraries/">Creative Cloud Libraries</a></h1>
                             </header>
-                            <p>A new Photoshop feature for designing systems.</p>
+                            <p>A new Adobe feature for designing systems.</p>
                             <ul class="meta easy-clearing no-marker">
                                 <li class="permalink"><a href="/articles/creative-cloud-libraries/"><time datetime="2014-10--06T09:15:00">Oct 6, 2014</time></a></li>
                                 <script>document.write('<li class="comments"><a href="/articles/creative-cloud-libraries/#disqus_thread" data-disqus-identifier="cc-libraries"></a></li>');</script>
