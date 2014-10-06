@@ -2,7 +2,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head profile="http://gmpg.org/xfn/11">
   <title>&ldquo;Creative Cloud Libraries,&rdquo; an article by Dan Mall</title>
-  <meta name="description" content="A new Photoshop for designing systems." />
+  <meta name="description" content="A new Photoshop feature for designing systems." />
   <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
 
   <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
@@ -19,7 +19,7 @@
 
   <!-- Facebook -->
   <meta property="og:title" content="Creative Cloud Libraries" />
-  <meta property="og:description"content="A new Photoshop for designing systems."/>
+  <meta property="og:description"content="A new Photoshop feature for designing systems."/>
   <meta property="og:url" content="http://danielmall.com/articles/creative-cloud-libraries/" />
   <meta property="og:image" content="http://danielmall.com/articles/creative-cloud-libraries/home-thumb.png" />
 
