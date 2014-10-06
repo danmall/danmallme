@@ -19,7 +19,7 @@
 
   <!-- Facebook -->
   <meta property="og:title" content="Creative Cloud Libraries" />
-  <meta property="og:description"content="A new Photoshop feature for designing systems."/>
+  <meta property="og:description" content="A new Photoshop feature for designing systems."/>
   <meta property="og:url" content="http://danielmall.com/articles/creative-cloud-libraries/" />
   <meta property="og:image" content="http://danielmall.com/articles/creative-cloud-libraries/home-thumb.png" />
 

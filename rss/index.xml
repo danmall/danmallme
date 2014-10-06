@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2014</dc:rights>
-    <pubDate>Thu, 25 Sep 2014 08:35:00 GMT</pubDate>
+    <pubDate>Mon, 06 Oct 2014 09:15:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Creative Cloud Libraries</title>
+        <description>A new Photoshop feature for designing systems.</description>
+        <link>http://danielmall.com/articles/creative-cloud-libraries/</link>
+        <guid>http://danielmall.com/articles/creative-cloud-libraries/</guid>
+        <pubDate>Mon, 06 Oct 2014 09:15:00 GMT</pubDate>
+    </item>
     <item>
         <title>#sketchlive</title>
         <description>A live 2-day tour through learning Sketch.</description>
