@@ -19,7 +19,7 @@
 
   <!-- Facebook -->
   <meta property="og:title" content="Creative Cloud Libraries" />
-  <meta property="og:description" content="A new Photoshop feature for designing systems."/>
+  <meta property="og:description" content="A new Adobe feature for designing systems."/>
   <meta property="og:url" content="http://danielmall.com/articles/creative-cloud-libraries/" />
   <meta property="og:image" content="http://danielmall.com/articles/creative-cloud-libraries/home-thumb.png" />
 
@@ -41,7 +41,7 @@
 
             <img src="libraries-panel.png" alt="Libraries panel in Photoshop CC 2014" />
 
-            <p>As you can see, you can drag just about anything from a Photoshop document into your library to quickly make it a reusable elements. (This is one of the features I enjoy most about Flash; it&rsquo;s about time that it made its way into other Adobe applications.) In short, Libraries let you collect a system of elements in one place in order to assemble layouts more quickly. Sound familiar? (Hint: responsive design!) Let&rsquo;s put it through the wringer.</p>
+            <p>As you can see, you can drag just about anything from a Photoshop document into your library to quickly make it a reusable element. (This is one of the features I enjoy most about Flash; it&rsquo;s about time that it made its way into other Adobe applications.) In short, Libraries let you collect a system of elements in one place in order to assemble layouts more quickly. Sound familiar? (Hint: responsive design!) Let&rsquo;s put it through the wringer.</p>
 
             <p>Recently, <a href="http://patternlab.io/">Pattern Lab</a> is one of the main deliverables I&rsquo;ve been leaving with clients. I&rsquo;ll design a series of elements, build them in <abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr>/<abbr title="JavaScript">JS</abbr>, and train them on how to quickly and smartly put these elements together. I&rsquo;ll do a few examples as a starter but am generally more into teaching them to fish instead of handling the fish myself. I don&rsquo;t really like fish much. Some of it tastes good though. I&rsquo;m really into sushi lately. This metaphor has expired.</p>
 
