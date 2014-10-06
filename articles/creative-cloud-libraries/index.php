@@ -57,6 +57,8 @@
 
             <p>Although seeing these things in the browser is the most accurate representation of the final outcome, I often only need a simple approximation, and Libraries are exactly what the doctor ordered. This style of working follows my long-preached approach of the <a href="http://typecast.com/seminars/post-comp">highest fidelity in the shortest amount of time</a>.</p>
 
+            <p>And, to top it off, Libraries aren&rsquo;t exclusive to Photoshop. You can add elements across Creative Cloud apps, so it&rsquo;s a piece of cake to draw an icon in Illustrator, add it to a library, and immediately use it in Photoshop.</p>
+
             <p>Give Libraries a whirl for yourself. I&rsquo;d love to hear about how you&rsquo;re using it!</p>
 
 	    </section><!-- #cc-libraries -->
