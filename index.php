@@ -38,6 +38,18 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/creative-cloud-libraries/">
+                                    <img class="round-image" src="/articles/creative-cloud-libraries/home-thumb.png" alt="" />
+                                    <span class="home-item-name">Creative Cloud Libraries</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">A new Photoshop feature for designing systems.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/sketchlive/">
                                     <img class="round-image" src="/articles/sketchlive/home-thumb.png" alt="" />
                                     <span class="home-item-name">#sketchlive</span>
@@ -47,7 +59,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/businessology-roadshow/">
@@ -59,7 +71,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/get-comfortable/">
@@ -70,6 +82,8 @@
                             <p class="home-item-description">Some advice about public speaking.</p>
                         </article><!-- .home-item-article -->
                     </li>
+
+                    <?php /* ?>
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -82,8 +96,6 @@
                             <p class="home-item-description">Use Google Calendar.</p>
                         </article><!-- .home-item-article -->
                     </li>
-
-                    <?php /* ?>
 
                     <li class="home-item position4">
                         <article class="home-item-article">
