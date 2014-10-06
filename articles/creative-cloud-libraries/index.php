@@ -8,6 +8,14 @@
   <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
   <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
   <link rel="stylesheet" href="cc-libraries.css" />
+  <script src="//use.typekit.net/cab0tbh.js"></script>
+  <script>
+    try{
+        Typekit.load();
+        document.write('<link rel="stylesheet" href="cc-libraries-typekit.css" />');
+    }catch(e){}
+  </script>
+
 
   <!-- Facebook -->
   <meta property="og:title" content="Creative Cloud Libraries" />
