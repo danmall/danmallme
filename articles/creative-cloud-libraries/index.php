@@ -1,20 +1,19 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head profile="http://gmpg.org/xfn/11">
-  <title>&ldquo;#sketchlive,&rdquo; an article by Dan Mall</title>
-  <meta name="description" content="A live 2-day tour through learning Sketch." />
+  <title>&ldquo;Creative Cloud Libraries,&rdquo; an article by Dan Mall</title>
+  <meta name="description" content="A new Photoshop for designing systems." />
   <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
 
   <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
   <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
-  <link href="http://fonts.googleapis.com/css?family=Muli:300,400,300italic,400italic" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="sketchlive.css" />
+  <link rel="stylesheet" href="cc-libraries.css" />
 
   <!-- Facebook -->
-  <meta property="og:title" content="#sketchlive" />
-  <meta property="og:description"content="A live 2-day tour through learning Sketch."/>
-  <meta property="og:url" content="http://danielmall.com/articles/sketchlive/" />
-  <meta property="og:image" content="http://danielmall.com/articles/sketchlive/home-thumb.png" />
+  <meta property="og:title" content="Creative Cloud Libraries" />
+  <meta property="og:description"content="A new Photoshop for designing systems."/>
+  <meta property="og:url" content="http://danielmall.com/articles/creative-cloud-libraries/" />
+  <meta property="og:image" content="http://danielmall.com/articles/creative-cloud-libraries/home-thumb.png" />
 
 </head>
 
@@ -24,69 +23,35 @@
 
 	<div id="article-area-wrap">
 
-	    <section id="sketchlive" class="hentry">
+	    <section id="cc-libraries" class="hentry">
 
-            <header class="article-header">
+            <h1 class="entry-title">Creative Cloud Libraries</h1>
 
-                <div class="inner">
+            <p>I recently <a href="/articles/sketchlive/">gave Sketch a run for it&rsquo;s money</a>, and, while I don&rsquo;t think it&rsquo;ll be a replacement for my graphic/web/<abbr title="user interface">UI</abbr> design tool of choice&mdash;Photoshop&mdash;it did point out a few features I&rsquo;ve longed for in Photoshop (and even some I didn&rsquo;t realize would be so useful). The more I design responsive websites, the more I realize I&rsquo;m <a href="http://bradfrostweb.com/blog/post/atomic-web-design/">designing systems and not pages</a>.  Having smart tools that support this kind of design process is becoming increasingly more important.</p>
 
-                    <h1 class="entry-title">#sketchlive</h1>
+            <p>I&rsquo;m fortunate to be part of a small group of people that gets to see what some of the Adobe team is working on before it gets released to the public, an honor for a Photoshop <abbr title="original gangster">OG</abbr> and enthusiast like me. Today at MAX, Adobe is announcing a improvements to Photoshop, my favorite of which is a feature called Libraries. It&rsquo;s a game changer in the way I design smart responsive systems. When you get the new version Photoshop <abbr title="Creative Cloud">CC</abbr> 2014, you&rsquo;ll see a panel that looks like this:</p>
 
-                    <p class="intro">Two weeks ago, I opened <a href="http://bohemiancoding.com/sketch/">Sketch</a> for the first time. Lots of people were raving about it as a great new tool for design, so I wanted to see for myself. I <a href="https://twitter.com/danielmall/status/509717960999849984">tweeted my stream-of-consciousness thoughts</a> for 2 days. Here are the highlights.</p>
+            <img src="libraries-panel.png" alt="Libraries panel in Photoshop CC 2014" />
 
-                </div><!-- .inner -->
+            <p>As you can see, you can drag just about anything from a Photoshop document into your library to quickly make it a reusable elements. (This is one of the features I enjoy most about Flash; it&rsquo;s about time that it made its way into other Adobe applications.) In short, Libraries let you collect a system of elements in one place in order to assemble layouts more quickly. Sound familiar? (Hint: responsive design!) Let&rsquo;s put it through the wringer.</p>
 
-            </header><!-- .article-header -->
+            <p>Recently, <a href="http://patternlab.io/">Pattern Lab</a> is one of the main deliverables I&rsquo;ve been leaving with clients. I&rsquo;ll design a series of elements, build them in <abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr>/<abbr title="JavaScript">JS</abbr>, and train them on how to quickly and smartly put these elements together. I&rsquo;ll do a few examples as a starter but am generally more into teaching them to fish instead of handling the fish myself. I don&rsquo;t really like fish much. Some of it tastes good though. I&rsquo;m really into sushi lately. This metaphor has expired.</p>
 
-            <div class="inner">
+            <p>Here&rsquo;s what that process looked like on my end. I previously would make a separate Photoshop file for each organism:</p>
 
-                <p class="disclaimer">Disclaimer: this post isn&rsquo;t affiliated with Sketch or Bohemian Coding at all, other than me using the trial version of Sketch 3 for this experiment. Also, my point of comparison is Photoshop, an app I&rsquo;ve used for about 15 years and is the second app I open every morning (after my email client). I&rsquo;ve been on customer advisory boards for new and current Adobe products, but this post and experiment have nothing to do with my affiliation with Adobe. I have never received any compensation from Adobe for endorsing any products, but they did send me a sweet Photoshop pillow once.</p>
+            <img src="finder.png" alt="My previous approach for organizing elements" />
 
-                <p>I recently started a new project, redesigning a site for a media company. I learn better when I have an actual project with which to learn the new skill (as opposed to only doing tutorials and theoretical examples), so I dove in head first. On the first day, I had some challenges getting oriented&hellip;</p>
+            <p>Creating layouts then consisted of a laborious process of opening a <abbr title="Photoshop Document">PSD</abbr>, duplicating layers or layer groups in a new document, and modifying instances from there. Admittedly a first world problem, but when you compare that to writing one-line includes in <a href="http://ianfeather.co.uk/a-maintainable-style-guide/">maintainable style guides</a> to assemble pieces, it&rsquo;s no wonder that our industry prefers the awfulness of &ldquo;designing in the browser,&rdquo; or, more accurately, guessing in a code editor.</p>
 
-                <blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/hashtag/sketchlive?src=hash">#sketchlive</a>: Opening screen: what do I do? What&#39;s an intro document? Is that the same as a new, blank document? <a href="http://t.co/ekbY9UMj66">http://t.co/ekbY9UMj66</a></p>&mdash; Dan Mall (@danielmall) <a href="https://twitter.com/danielmall/status/509736790593667072">September 10, 2014</a></blockquote>
+            <p>Instead, once the elements are designed, I&rsquo;m able to quickly use Libraries to assemble the views I need to test out how well the elements fit together within seconds.</p>
 
-                <p>&hellip; trying to overcome my muscle memory&hellip;</p>
+            <img src="libraries.gif" alt="Using Libraries" />
 
-                <blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/hashtag/sketchlive?src=hash">#sketchlive</a> Dangit, I can&#39;t stop hitting V to switch to a nonexistent Move tool.</p>&mdash; Dan Mall (@danielmall) <a href="https://twitter.com/danielmall/status/509803501346902017">September 10, 2014</a></blockquote>
+            <p>Although seeing these things in the browser is the most accurate representation of the final outcome, I often only need a simple approximation, and Libraries are exactly what the doctor ordered. This style of working follows my long-preached approach of the <a href="http://typecast.com/seminars/post-comp">highest fidelity in the shortest amount of time</a>.</p>
 
-                <p>&hellip;and remembering to eat because hangry. </p>
+            <p>Give Libraries a whirl for yourself. I&rsquo;d love to hear about how you&rsquo;re using it!</p>
 
-                <blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/hashtag/sketchlive?src=hash">#sketchlive</a> Had soup and a sandwich. A super friendly PSA that lunch is as important as design process and tools.</p>&mdash; Dan Mall (@danielmall) <a href="https://twitter.com/danielmall/status/509767825045864448">September 10, 2014</a></blockquote>
-
-                <p>On day 2, I decided to switch from my current project to a slightly different one. My current project&rsquo;s style guide relies on flat colors and utilitarian typography, and, even in a short day, I&rsquo;m convinced that Sketch is great for designing sites like that. But, one of the reasons I continue to use Photoshop is that it&rsquo;s equally flexible for all types of pixel pushing. Sure, there are features&mdash;like the ones in tools like Sketch&mdash;that would make some tasks much easier to accomplish, but for me to fully switch, I&rsquo;ll need to be able to make a range of outputs with the tool.</p>
-
-                <blockquote class="twitter-tweet" data-conversation="none" lang="en"><p>Day 2 of <a href="https://twitter.com/hashtag/sketchlive?src=hash">#sketchlive</a> starts now. Goals for today: discover how good <a href="https://twitter.com/sketchapp">@sketchapp</a> is at allowing for a range of styles. I definitely see&hellip;</p>&mdash; Dan Mall (@danielmall) <a href="https://twitter.com/danielmall/status/510084996292698112">September 11, 2014</a></blockquote>
-
-                <p>I decided to replicate the <a href="http://www.meetyourmx.com/">Meet Your MX</a> site, expertly designed by <a href="https://twitter.com/brijanp">Brijan Powell</a>. I loved this site from the instant I saw it, because it contains a lot of richness in typographic design, graphic design, and interaction design that I think is missing from a lot of sites nowadays. A good design tool should allow me to design a site like this without much friction. A great design tool should make it easier for me to design a site like this.</p>
-
-                <p>I think I did a decent job with the replication (using a separate model):</p>
-
-                <blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/hashtag/sketchlive?src=hash">#sketchlive</a> Police dude is in. <a href="http://t.co/4luQ7t5CPG">http://t.co/4luQ7t5CPG</a>&#10;&#10;After importing him in, I&#39;m realizing I need to color correct to up the contrast to…</p>&mdash; Dan Mall (@danielmall) <a href="https://twitter.com/danielmall/status/510193937869721600">September 11, 2014</a></blockquote>
-                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-                <p>At the end of two days, I thought Sketch did a good job of getting out of my way in designing this interface. However, it didn&rsquo;t really do anything to <em>help</em> me design the interface, at least not any more than Photoshop does. To boot, I do a lot of photo manipulation when I&rsquo;m designing: dodging and burning, layer masks, level corrections, and more. Because Sketch doesn&rsquo;t have these tools&mdash;at least for now&mdash;I still need to rely on Photoshop for them, which means I&rsquo;m jumping back and forth between apps. </p>
-
-                <p>So far, Sketch certainly isn&rsquo;t a Photoshop replacement for me, and, if I&rsquo;m in Photoshop for part of the time, I&rsquo;m having a hard time justifying not being in it all of the time.</p>
-
-
-                <h2>the #sketchlive aftermath</h2>
-
-                <p>I&rsquo;ve continued to use Sketch for this media company redesign for the last two weeks. There are a few things that I&rsquo;m really liking:</p>
-
-                <ul>
-                  <li><strong>Export tools.</strong> By far the most impressive feature for me. Being able to select any layer or group and hit <kbd>Cmd+Shift+E</kbd> to generate an image&mdash;in lots of resolutions&mdash;and drag it out to anywhere is priceless. And lightning fast to boot? Photoshop&rsquo;s <kbd>Save for Web</kbd> has a lot to learn from Sketch&rsquo;s exporting.</li>
-                  <li><strong>Text styles.</strong> More Systematic thinking in a graphic design program is incredibly welcome. I use this a lot in Photoshop too.</li>
-                  <li><strong>File sizes.</strong> Seven full comps in one file with a file size of 6.7MB. My last equivalent PSD was 167MB. </li>
-                  <li><strong>Symbols.</strong> I love the idea of resuable elements because it relates to the way I think about developing these designs, but it&rsquo;s taking me a while adopt the practice. I just don&rsquo;t think about it yet. This week, I had to update the footer in all my comps. If I had used symbols, that probably would have been a breeze. But I didn&rsquo;t. So it wasn&rsquo;t.</li>
-                  <li><strong>Copy CSS Attributes</strong>, in theory. I haven&rsquo;t built a site that was designed in Sketch, and I won&rsquo;t be building this one myself. <a href="https://twitter.com/tpitre">TJ Pitre</a> will be building this one, so keep an eye on what he says about it.</li>
-                </ul>
-
-                <p>Is all that enough to be a Photoshop killer? No. At least not yet. But Sketch definitely has a pretty steady place in the arsenal.</p>
-
-            </div><!-- .inner -->
-
-	    </section><!-- #sketchlive -->
+	    </section><!-- #cc-libraries -->
 
 
 
@@ -94,7 +59,7 @@
 
 	<?php
 
-        echo readNext('The Businessology Roadshow', '/articles/businessology-roadshow/');
+        echo readNext('#sketchlive', '/articles/sketchlive/');
 
     ?>
 
@@ -119,8 +84,8 @@
                     var disqus_shortname = 'danielmall'; // required: replace example with your forum shortname
 
                     // The following are highly recommended additional parameters. Remove the slashes in front to use.
-                    var disqus_identifier = 'sketchlive';
-                    var disqus_url = 'http://danielmall.com/articles/sketchlive/';
+                    var disqus_identifier = 'cc-libraries';
+                    var disqus_url = 'http://danielmall.com/articles/creative-cloud-libraries/';
                     var disqus_developer = 1;
 
                     /* * * DON'T EDIT BELOW THIS LINE * * */
@@ -142,7 +107,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2014-09-25T08:35:00">Published September 25, 2014 at 8:35 <abbr title="Ante Meridian">AM</abbr></time>
+        	        <time datetime="2014-10-06T09:15:00">Published October 6, 2014 at 9:15 <abbr title="Ante Meridian">AM</abbr></time>
     	        </section><!-- /.article-info -->
 
 
