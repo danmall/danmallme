@@ -1,0 +1,140 @@
+#article-area-wrap { 
+	background: #ede6d4; 
+	color: #34332f; 
+	font: normal 19px/1.6 Helvetica, Arial, sans-serif; 
+	padding: 4em 0;
+}
+
+	#bb2014 { 
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	#bb2014 p,
+	#bb2014 ul {
+		/*font: normal 24px/1.6 Helvetica, Arial, sans-serif;*/
+		font: normal 20px/1.6 Helvetica, Arial, sans-serif;
+	}
+
+	#bb2014 ul {
+		/*font-size: 19px;*/
+		font-size: 16px;
+	}
+
+	#bb2014 img {
+		float: none;
+		margin: 0 auto 0.5em;		
+	}	
+
+	#bb2014 a {
+		color: #b80000;
+		border: none;
+	}
+
+	#bb2014 a:hover,
+	#bb2014 a:focus {
+		color: #12a3dd;
+	}
+
+
+
+	#bb2014 .chunk {
+		position: relative;
+	}
+
+	#bb2014 .chunk:after {
+		content: "•";
+		font-size: 60px;
+		color: #b80000;
+		text-align: center;
+		display: block;
+		margin-bottom: 1em;
+	}
+
+	#bb2014 .cta { 
+		text-align: center;
+	}
+
+	#bb2014 .tweet-link {
+		background: transparent url(bird.svg) no-repeat 0 1px;
+		padding-left: 30px;
+	}
+
+	#bb2014 .entry-title { 
+		color: #b80000;	
+		text-align: center;
+		font: bold 200px Georgia, serif;	
+	}
+
+	#bb2014 .moments-list {
+		list-style: none;
+		text-align: center;
+		margin-bottom: 2em;
+	}
+	
+		#bb2014 .moments-list li {
+			margin: 0 0 1.8em;
+		}
+
+
+	@media screen and (min-width: 647px){
+
+		#bb2014 .moments-list {
+			
+		}
+		
+			#bb2014 .moments-list li {
+				/*float: left;*/
+				display: inline;
+				padding: 0 0.5em;
+			}
+
+			#bb2014 .moments-list li:before {
+				content: "•";
+				color: #b80000;
+				font-size: 30px;
+				position: relative;
+				top: 0.2em;
+				left: -0.25em;
+			}
+
+			#bb2014 .moments-list li:first-child {
+				padding: 0;
+			}
+
+			#bb2014 .moments-list li:first-child:before {
+				content: "";			
+			}
+
+	}
+
+	#bb2014 .book-list {
+		list-style: none;
+		text-align: center;
+	}
+
+		#bb2014 .book-list li {
+			margin: 0 0 5em;
+			font-family: Georgia, 'Times New Roman', serif;
+			font-style: italic;
+			font-size: 12px;
+		}
+
+			#bb2014 .book-list a:first-child {
+				display: block;
+				font-family: Helvetica, Arial, sans-serif;
+				font-size: 20px;
+				font-style: normal;
+			}
+
+	@media screen and (min-width: 600px){
+		#bb2014 .book-list li {
+			display: inline-block;
+			margin: 0 20px 4em;
+		}
+	}
+
+#bb2014 ::selection { background: #292829; color: #fff; }
+#bb2014 ::-moz-selection { background: #292829; color: #fff; }
+
+
