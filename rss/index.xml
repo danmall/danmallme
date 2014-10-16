@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2014</dc:rights>
-    <pubDate>Mon, 06 Oct 2014 09:15:00 GMT</pubDate>
+    <pubDate>Thu, 16 Oct 2014 12:20:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Brooklyn Beta 2014</title>
+        <description>Celebrating my favorite industry event ever.</description>
+        <link>http://danielmall.com/articles/brooklyn-beta-2014/</link>
+        <guid>http://danielmall.com/articles/brooklyn-beta-2014/</guid>
+        <pubDate>Thu, 16 Oct 2014 12:20:00 GMT</pubDate>
+    </item>
     <item>
         <title>Creative Cloud Libraries</title>
         <description>A new Adobe feature for designing systems.</description>
