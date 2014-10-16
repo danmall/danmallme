@@ -8,11 +8,11 @@
   <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
   <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
   <link rel="stylesheet" href="bb-2014.css" />
-  <script src="//use.typekit.net/cab0tbh.js"></script>
+  <script src="//use.typekit.net/zhi7sjb.js"></script>
   <script>
     try{
         Typekit.load();
-        document.write('<link rel="stylesheet" href="bb2014.css" />');
+        document.write('<link rel="stylesheet" href="bb2014-typekit.css" />');
     }catch(e){}
   </script>
 
@@ -37,7 +37,7 @@
 
                 <h1 class="entry-title"><strong class="initial">B</strong><span class="offscreen">rooklyn Beta 2014</span></h1>
 
-                <p>A few years ago, I met <a href="https://twitter.com/fictivecameron">Cameron Koczon</a> and <a href="https://twitter.com/shiflett">Chris Shiflett</a> for the first time over lunch at Superfine in Brooklyn. I think our mutual friend <a href="http://twitter.com/jasonsantamaria">Jason Santa Maria</a> introduced us, but none of us could either confirm or deny that. Cameron and Chris told me about an idea they had to bring designers and developers together to talk about things we often don’t: products, collaborations, funding, creating. I was awestruck and excited. Months later&mdash;with no involvement from me&mdash;they launched a conference called Brooklyn Beta, the best industry event I&rsquo;ve ever attended. The recent fifth year of Brooklyn Beta is the final event, so I&rsquo;m taking a minute to reflect on what I enjoyed so much.</p>
+                <p>A few years ago, I met <a href="https://twitter.com/fictivecameron">Cameron Koczon</a> and <a href="https://twitter.com/shiflett">Chris Shiflett</a> for the first time over lunch at Superfine in Brooklyn. I think our mutual friend <a href="http://twitter.com/jasonsantamaria">Jason Santa Maria</a> introduced us, but none of us could either confirm or deny that. Cameron and Chris told me about an idea they had to bring designers and developers together to talk about things we often don’t: products, collaborations, funding, creating. I was awestruck and excited. Months later&mdash;with no involvement from me&mdash;they launched a conference called <strong>Brooklyn Beta</strong>, the best industry event I&rsquo;ve ever attended. The recent fifth year of Brooklyn Beta is the final event, so I&rsquo;m taking a minute to reflect on what I enjoyed so much.</p>
 
                 <p>My favorite thing about Brooklyn Beta&mdash;which Cameron also celebrated in his closing talk&mdash;was the amazing group of people they brought together. Here are some of my favorite moments from this year:</p>
 
@@ -54,7 +54,7 @@
                     <li>Contemplating agency exits with <a href="https://twitter.com/davatron5000">Dave Rupert</a></li>
                     <li>Finding out that <a href="https://twitter.com/hellogeri">Geri Coady</a> hates Web design</li>
                     <li>Sriracha pomegranate wings with <a href="https://twitter.com/mleland">Michael Johnson</a></li>
-                    <li><a href="https://twitter.com/ableparris">Able Parris</a> and I trying to convince the <a href="https://twitter.com/benpeck">Ben Peck</a> from <a href="https://twitter.com/experticity">Experticity</a> to pivot into a magic startup</li>
+                    <li><a href="https://twitter.com/ableparris">Able Parris</a> and I trying to convince <a href="https://twitter.com/benpeck">Ben Peck</a> and <a href="https://twitter.com/alandangerfield">Alan Dangerfield</a> from <a href="https://twitter.com/experticity">Experticity</a> to pivot into a magic startup</li>
                     <li>Soulfully challenged by <a href="https://twitter.com/elleluna">Elle Luna</a></li>
                     <li>Catching up with <a href="https://twitter.com/marcosuarez">Marco Suarez</a></li>
                     <li>Chatting with <a href="https://twitter.com/jaminjantz">Jamin Jantz</a> about the butterfly effect</li>
