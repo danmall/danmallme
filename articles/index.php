@@ -27,11 +27,23 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/brooklyn-beta-2014/">Brooklyn Beta 2014</a></h1>
+                            </header>
+                            <p>Celebrating my favorite industry event ever.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/brooklyn-beta-2014/"><time datetime="2014-10-16T12:20:00">Oct 16, 2014</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/brooklyn-beta-2014/#disqus_thread" data-disqus-identifier="bb2014"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/creative-cloud-libraries/">Creative Cloud Libraries</a></h1>
                             </header>
                             <p>A new Adobe feature for designing systems.</p>
                             <ul class="meta easy-clearing no-marker">
-                                <li class="permalink"><a href="/articles/creative-cloud-libraries/"><time datetime="2014-10--06T09:15:00">Oct 6, 2014</time></a></li>
+                                <li class="permalink"><a href="/articles/creative-cloud-libraries/"><time datetime="2014-10-06T09:15:00">Oct 6, 2014</time></a></li>
                                 <script>document.write('<li class="comments"><a href="/articles/creative-cloud-libraries/#disqus_thread" data-disqus-identifier="cc-libraries"></a></li>');</script>
                             </ul><!-- .meta -->
                         </article>
