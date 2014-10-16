@@ -7,7 +7,7 @@
 
   <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
   <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
-  <link rel="stylesheet" href="bb2014.css" />
+  <link rel="stylesheet" href="bb-2014.css" />
   <script src="//use.typekit.net/cab0tbh.js"></script>
   <script>
     try{
@@ -35,13 +35,13 @@
 
             <section class="chunk">
 
-                <h1><strong class="initial">B</strong>rooklyn Beta 2014</h1>
+                <h1 class="entry-title"><strong class="initial">B</strong><span class="offscreen">rooklyn Beta 2014</span></h1>
 
                 <p>A few years ago, I met <a href="https://twitter.com/fictivecameron">Cameron Koczon</a> and <a href="https://twitter.com/shiflett">Chris Shiflett</a> for the first time over lunch at Superfine in Brooklyn. I think our mutual friend <a href="http://twitter.com/jasonsantamaria">Jason Santa Maria</a> introduced us, but none of us could either confirm or deny that. Cameron and Chris told me about an idea they had to bring designers and developers together to talk about things we often don’t: products, collaborations, funding, creating. I was awestruck and excited. Months later&mdash;with no involvement from me&mdash;they launched a conference called Brooklyn Beta, the best industry event I&rsquo;ve ever attended. The recent fifth year of Brooklyn Beta is the final event, so I&rsquo;m taking a minute to reflect on what I enjoyed so much.</p>
 
                 <p>My favorite thing about Brooklyn Beta&mdash;which Cameron also celebrated in his closing talk&mdash;was the amazing group of people they brought together. Here are some of my favorite moments from this year:</p>
 
-                <ul class="moments-list">
+                <ul class="moments-list clearfix">
                     <li>Holding down the back row with <a href="https://twitter.com/tangentialism">David Yee</a></li>
                     <li>Taking to <a href="http://twitter.com/jennlukas">Jenn Lukas</a> about the awful food in Italy</li>
                     <li>Celebrating dad status with <a href="http://twitter.com/chadlervdw">Chandler Van De Water</a></li>                
@@ -92,7 +92,7 @@
                     <li>Missing my annual chat with <a href="https://twitter.com/jontangerine">Jon Tan</a></li>
                 </ul><!-- .moments-list -->
 
-                <p>Did I miss a moment with you? <a href="http://twitter.com/home?status=@danielmall:%20Remember%20when%20we...">Remind me</a> and I&rsquo;ll add it!</p>
+                <p class="cta">Did I miss a moment with you? <a class="tweet-link" href="http://twitter.com/home?status=@danielmall:%20Remember%20when%20we...">Remind me</a> and I&rsquo;ll add it!</p>
 
             </section><!-- .chunk -->
 
@@ -137,9 +137,9 @@
                         Recommended by <a href="http://twitter.com/plasticmind">Jesse Gardner</a>
                     </li>
                     <li>
-                        <a href="http://www.amazon.com/gp/product/0310329035/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0310329035&amp;linkCode=as2&amp;tag=danielmall-20&amp;linkId=2A5SXIEV4DU2G4KX">
-                            <img src="books/the-next-story.png" alt="" />
-                            The Next Story
+                        <a href="http://www.amazon.com/gp/product/B004V9IFP8/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B004V9IFP8&amp;linkCode=as2&amp;tag=danielmall-20&amp;linkId=SLK7GVG5L6AV7ALY">
+                            <img src="books/a-meal-with-jesus.png" alt="" />
+                            A Meal with Jesus
                         </a>
                         Recommended by <a href="http://twitter.com/plasticmind">Jesse Gardner</a>
                     </li>
@@ -173,13 +173,13 @@
                     </li>
                 </ul><!-- .book-list -->
 
-                <p>What books have you been recommended? What books do you recommend to me? <a href="http://twitter.com/home?status=@danielmall:%20You%20should%20read...">Tell me</a> and I&rsquo;ll add it to the list!</p>
+                <p class="cta">What books have you been recommended? What books do you recommend to me? <a class="tweet-link" href="http://twitter.com/home?status=@danielmall:%20You%20should%20read...">Tell me</a> and I&rsquo;ll add it to the list!</p>
 
             </section><!-- .chunk -->
 
             <p>A few years ago, I feel like I cracked the code on Brooklyn Beta. Sure, the speakers were all amazing, but my favorite thing to do was hang out in the back of the room or downstairs and have conversations with people that walked by. I&rsquo;ve made and strengthened friendships at Brooklyn Beta that I wouldn&rsquo;t have been able to since.</p>
 
-            <p>To Cameron, Chris, and the entire Brooklyn Beta team: <strong>thank you</strong> for creating something so special.</p>
+            <p>To Cameron, Chris, and the entire Brooklyn Beta team: <strong>thank you</strong> for creating something so special. Whatever comes next has quite the act to follow.</p>
 
 	    </section><!-- #bb2014-->
 
