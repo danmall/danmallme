@@ -85,7 +85,7 @@
 
                 <p>In my opinion, a good performance budget balances user experience with browser experience. Again, it&rsquo;s not an all-encompassing strategy, but it&rsquo;ll get you in the ballpark. Personally, I&rsquo;m with Tim in thinking Speed Index is the most accurate metric to shoot for, but it is pretty tough to explain. So, if I&rsquo;m searching for something a bit simper and a little more communicable, I&rsquo;ll generally start with a milestone&mdash;a fully loaded page in 5 seconds or less&mdash;and try to get some approximation of a budget (10 images/4 webfonts or 2 images/10 webfonts). But where do you get that milestone? Should you just pull it out of thin air? (Beware: your <abbr title="Chief Executive Officer">CEO</abbr> just might!) Well, I like to be a bit more methodical than that. </p>
 
-                <p>Fire up a blank spreadsheet and <a href="http://www.webpagetest.org/">WebPagetest</a>. Pop your current site in there and let it ride. Record these three times:</p>
+                <p>Fire up a blank spreadsheet and <a href="http://www.webpagetest.org/">WebPagetest</a>. Pop your current site in there and let it ride. Record these three times: Start Render, Document Complete, and Fully Loaded.</p>
 
             </div><!-- .inner -->
 
@@ -103,6 +103,61 @@
                             </tr>
                         </thead>
                         <tbody>
+                            <tr>
+                                <th scope="row"><a href="http://danielmall.com/">danielmall.com</a></th>
+                                <td>7.388s</td>
+                                <td>9.321s</td>
+                                <td>11.940s</td>
+                            </tr>
+                        </tbody>
+                    </table><!-- .performance-table -->
+
+                    <footer class="footnote">
+                        <p>For the purposes of this exercise, I&rsquo;m recording all times against WebPagetest&rsquo;s Mobile 3G connection speed.</p>
+                    </footer>
+
+                </div><!-- .inner -->
+
+            </div><!-- .table-wrapper -->
+
+            <div class="inner">
+
+                <p>Then, do a little benchmarking. Run 3 competitors&rsquo; sites or sites you admire through WebPagetest, and highlight the fastest site of the bunch. </p>
+
+            </div><!-- .inner -->
+
+            <div class="table-wrapper">
+
+                <div class="inner">
+
+                    <table class="performance-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Site name</th>
+                                <th scope="col">Start Render</th>
+                                <th scope="col">Document Complete</th>
+                                <th scope="col">Fully Loaded</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><a href="http://danielmall.com/">danielmall.com</a></th>
+                                <td>7.388s</td>
+                                <td>9.321s</td>
+                                <td>11.940s</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="http://timkadlec.com">timkadlec.com</a></th>
+                                <td>1.492s</td>
+                                <td>3.150s</td>
+                                <td>3.527s</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="http://superfriend.ly/">superfriend.ly</a></th>
+                                <td>5.290s</td>
+                                <td>7.769s</td>
+                                <td>9.882s</td>
+                            </tr>
                             <tr>
                                 <th scope="row">danielmall.com</th>
                                 <td>7.388s</td>
@@ -122,15 +177,10 @@
 
             <div class="inner">
 
-                <p>Then, do a little benchmarking. Run 3 sites of competitors or sites you admire through Web Pages est, and highlight the fastest time of the bunch. </p>
+                <p>Tim <a href="http://timkadlec.com/2013/01/setting-a-performance-budget/">found this</a> great statistic that people perceive tasks as faster or slower when there&rsquo;s a least a 20% time difference. So, let&rsquo;s take our fastest times and try to beat it by 20%.</p>
+            
 
-                <p>[table with competitors]</p>
-
-                <p>Tim [found this] great statistic that people perceive tasks as faster or slower when there&rsquo;s a least a 20% time difference. So, let&rsquo;s take our fastest times and try to beat it by 20%.</p>
-
-                <p>[table with goals]</p>
-
-                <p>This gives us the milestones we&rsquo;re shooting for. How does that translate to constraints to bring to a design tool? It depends on your assumed network speed. Let&rsquo;s say we want to shoot for these times over a 3G connection. About.com <a href="http://cellphones.about.com/od/surfingtheweb/p/3G_explainer.htm">tells us</a> that "a 3G network is a mobile broadband network, offering data speeds of at least 144 kilobits per second (Kbps)." But, we measure resources in terms of bytes, not bits. One byte = 8 bits, so 3G translates roughly to about 18 kilobytes per second. We can use this number to calculate some rough conversions.</p>
+                <p>This gives us the milestones we&rsquo;re shooting for. How does that translate to constraints to bring to a design tool? It depends on your assumed network speed. Let&rsquo;s say we want to shoot for these times over a 3G connection. About.com <a href="http://cellphones.about.com/od/surfingtheweb/p/3G_explainer.htm">tells us</a> that &ldquo;a 3G network is a mobile broadband network, offering data speeds of at least 144 kilobits per second (Kbps).&rdquo; But, we measure resources in terms of bytes, not bits. One byte = 8 bits, so 3G translates roughly to about 18 kilobytes per second. We can use this number to calculate some rough conversions.</p>
 
                 <p>[table converting times to kb)</p>
 
