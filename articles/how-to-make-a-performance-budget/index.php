@@ -177,7 +177,7 @@
 
             <div class="inner">
 
-                <p>Tim <a href="http://timkadlec.com/2013/01/setting-a-performance-budget/">found this</a> great statistic that people perceive tasks as faster or slower when there&rsquo;s a least a 20% time difference. So, let&rsquo;s take our fastest times and try to beat it by 20%.</p>
+                <p>Tim <a href="http://timkadlec.com/2013/01/setting-a-performance-budget/">found this great statistic</a> that people perceive tasks as faster or slower when there&rsquo;s a least a 20% time difference. So, let&rsquo;s take our fastest times and try to beat them by 20%.</p>
 
             </div><!-- .inner -->
 
@@ -375,7 +375,7 @@
 
             <div class="inner">
 
-                <p>Or, we might be able to get away with not needing any JavaScript or images for that first render and instead want a beautiful reading experience, so we could allocate it this way:</p>
+                <p>Or, we might be able to get away with not needing any JavaScript or images for that first render and instead want a beautiful typographic experience, so we could allocate it this way:</p>
 
             </div><!-- .inner -->
 
@@ -416,15 +416,20 @@
 
             <div class="inner">
 
-                <p>I love <a href="http://en.wikipedia.org/wiki/Budget">Wikipedia&rsquo;s definition of <cite>budget</cite>:</p>
+                <p><a href="http://en.wikipedia.org/wiki/Budget">Wikipedia&rsquo;s definition of <cite>budget</cite></a> is perfect:</p>
 
                 <blockquote class="pullquote">
                     <p>A quantitative expression of a plan for a defined period of time.</p>
                 </blockquote>
 
-                <p>You&rsquo;ll notice I keep using words like "approximate" and "rough." Remember, this type of budget is just a set of guides for us to use, not a rulebook to follow dogmatically. </p>
+                <p>For a designer, having a quantitative expression of a plan that suggests a Start Render experience of 2 images (~45.6k) or 2 webfonts (~68.4k) and knowing that you can still nail a 1.194s time is incredibly empowering. It gives you some flexibility to negotiate with yourself, your developers, your bosses, and your clients about performance.</p>
 
-                <p>Having a tangible budget gives you some flexibility to negotiate with yourself, your developers, your bosses, and your clients about performance.</p>
+                <p>You&rsquo;ll notice I keep using words like &ldquo;approximate&rdquo; and &ldquo;rough.&rdquo; Remember, this type of budget is just a set of guides for us to use, not a rulebook to follow dogmatically. There are a lot of people writing smart things and better ways to create fast websites, but I think having a tangible approximation of what resources you can work with is a good start.</p>
+
+                <p>And, here&rsquo;s <a href="https://docs.google.com/spreadsheets/d/1ifac_Z-P9IgjzVZIWPV2qdugtwJ3HA9dkhvKmPUXBLo/edit#gid=0">a Google Sheet template</a> that you can copy and edit, if you roll like that.</p>
+
+                <p>Happy performance budgeting!</p>
+                
 
             </div><!-- .inner -->            
 	    

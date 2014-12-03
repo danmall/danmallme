@@ -66,7 +66,8 @@
 		width: 100%;
 	}
 
-		#performance-budget .performance-table {
+		#performance-budget .performance-table,
+		#performance-budget .bar-graph-table {
 			border: 1px solid #ccc;
 			font-size: 16px;
 			font-weight: normal;
@@ -74,8 +75,10 @@
 			width: 100%;
 		}
 
+		#performance-budget .performance-table th,
 		#performance-budget .performance-table td,
-		#performance-budget .performance-table th {
+		#performance-budget .bar-graph-table th,
+		#performance-budget .bar-graph-table td {
 			border: 1px solid #ccc;
 			font-weight: normal;
 			padding: 0.5em;
@@ -83,7 +86,8 @@
 			background: #fff;
 		}
 
-		#performance-budget .performance-table thead th {
+		#performance-budget .performance-table thead th,
+		#performance-budget .bar-graph-table thead th {
 			font: bold 14px Helvetica, Arial, sans-serif;
 			background: #333;
 			color: #ddd;
@@ -94,83 +98,96 @@
 			font-size: 14px;
 		}
 
-		#performance-budget .performance-table .special {
+		#performance-budget .performance-table .special,
+		#performance-budget .bar-graph-table .special {
 			background: #fff669;
 		}
 
-		#performance-budget .bar-graph-table {
-			border-left: 1px solid #ccc;
-			border-right: 1px solid #ccc;
-			height: 200px;
-			position: relative;
-			width: 100%;			
+		#performance-budget .bar-graph-table .total td,
+		#performance-budget .bar-graph-table .total th {
+			font-weight: bold;	
 		}
 
-			#performance-budget .bar-graph-table tr {				
-				background: #444;
-				height: 30px;				
-				left: 0;
-				position: absolute;
-				top: 10px;				
-				width: 100px;
+		@media screen and (min-width: 627px) {
+
+			#performance-budget .bar-graph-table {
+				border-left: 1px solid #ccc;
+				border-right: 1px solid #ccc;
+				height: 200px;
+				position: relative;
+				width: 100%;
+				border-top: none;
+				border-bottom: none;			
 			}
 
-				#performance-budget .bar-graph-table td,
-				#performance-budget .bar-graph-table th {
-					color: #fff;
-					font-size: 14px;
-					font-weight: normal;
-					padding: 5px 0 0 8px;
-				}
-
-				#performance-budget .bar-graph-table td {
-					
-				}
-
-				#performance-budget .bar-graph-table .total {
-					border-top: 1px solid #ccc;
-					background: none;
+				#performance-budget .bar-graph-table tr {				
+					background: #444;
+					height: 30px;				
 					left: 0;
-					width: 100%;
+					position: absolute;
+					top: 10px;				
+					width: 100px;
 				}
-					#performance-budget .bar-graph-table .total td,
-					#performance-budget .bar-graph-table .total th {
-						color: #666;
-						position: absolute;
-						left: 50%;
-						top: -1.2em;
-						background: #eee;
-						padding: 5px;
+
+					#performance-budget .bar-graph-table td,
+					#performance-budget .bar-graph-table th {
+						color: #fff;
+						font-size: 14px;
+						font-weight: normal;
+						padding: 5px 0 0 8px;
+						background: none;
+						border: none;
 					}
 
-					#performance-budget .bar-graph-table .total th {
-						left: auto;
-						right: 50%;
+					#performance-budget .bar-graph-table td {
+						
 					}
 
-					#performance-budget .bar-graph-table .total:before {
-						content: "";
-						width: 0; 
-						height: 0; 
-						border-top: 7px solid transparent;
-						border-bottom: 7px solid transparent; 						
-						border-right: 7px solid #aaa; 
-						position: absolute;
+					#performance-budget .bar-graph-table .total {
+						border-top: 1px solid #ccc;
+						background: none;
 						left: 0;
-						top: -.6em;
+						width: 100%;
 					}
+						#performance-budget .bar-graph-table .total td,
+						#performance-budget .bar-graph-table .total th {
+							color: #666;
+							position: absolute;
+							left: 50%;
+							top: -1.2em;
+							background: #eee;
+							padding: 5px;
+						}
 
-					#performance-budget .bar-graph-table .total:after {
-						content: "";
-						width: 0; 
-						height: 0; 
-						border-top: 7px solid transparent;
-						border-bottom: 7px solid transparent; 						
-						border-left: 7px solid #aaa; 
-						position: absolute;
-						right: 0;
-						top: -.6em;
-					}
+						#performance-budget .bar-graph-table .total th {
+							left: auto;
+							right: 50%;
+						}
+
+						#performance-budget .bar-graph-table .total:before {
+							content: "";
+							width: 0; 
+							height: 0; 
+							border-top: 7px solid transparent;
+							border-bottom: 7px solid transparent; 						
+							border-right: 7px solid #aaa; 
+							position: absolute;
+							left: 0;
+							top: -.4em;
+						}
+
+						#performance-budget .bar-graph-table .total:after {
+							content: "";
+							width: 0; 
+							height: 0; 
+							border-top: 7px solid transparent;
+							border-bottom: 7px solid transparent; 						
+							border-left: 7px solid #aaa; 
+							position: absolute;
+							right: 0;
+							top: -.4em;
+						}
+		}
 
 
 	/* Specific */
@@ -192,63 +209,67 @@
 			color: #999;
 		}
 
-	#performance-budget .even-distribution {
-		height: 220px;
-	}
-
-	#performance-budget .even-distribution tr {
-		width: 20%;
-	}
-
-	#performance-budget .even-distribution .html {
-		background: #43ad19;
-	}
-
-	#performance-budget .even-distribution .css {
-		background: #ff19dc;
-		left: 20%;
-		top: 40px;
-	}
-
-	#performance-budget .even-distribution .js {
-		background: #ff800f;
-		left: 40%;
-		top: 70px;
-	}
-
-	#performance-budget .even-distribution .images {
-		background: #23b4ff;
-		left: 60%;
-		top: 100px;
-	}
-
-	#performance-budget .even-distribution .webfonts {
-		background: #700cb0;
-		left: 80%;
-		top: 130px;
-	}
+	@media screen and (min-width: 627px) {
 	
-	#performance-budget .even-distribution .total {
-		top: 190px;
-	}
+		#performance-budget .even-distribution {
+			height: 220px;
+		}
 
-	#performance-budget .image-heavy-distribution .images {
-		width: 40%;
-	}
+		#performance-budget .even-distribution tr {
+			width: 20%;
+		}
 
-	#performance-budget .webfonts-heavy-distribution {
-		height: 180px;		
-	}
+		#performance-budget .even-distribution .html {
+			background: #43ad19;
+		}
 
-		#performance-budget .webfonts-heavy-distribution .webfonts {
+		#performance-budget .even-distribution .css {
+			background: #ff19dc;
+			left: 20%;
+			top: 40px;
+		}
+
+		#performance-budget .even-distribution .js {
+			background: #ff800f;
 			left: 40%;
-			width: 60%;
 			top: 70px;
 		}
 
-		#performance-budget .webfonts-heavy-distribution .total {		
-			top: 140px;
+		#performance-budget .even-distribution .images {
+			background: #23b4ff;
+			left: 60%;
+			top: 100px;
 		}
+
+		#performance-budget .even-distribution .webfonts {
+			background: #700cb0;
+			left: 80%;
+			top: 130px;
+		}
+		
+		#performance-budget .even-distribution .total {
+			top: 190px;
+		}
+
+		#performance-budget .image-heavy-distribution .images {
+			width: 40%;
+		}
+
+		#performance-budget .webfonts-heavy-distribution {
+			height: 180px;		
+		}
+
+			#performance-budget .webfonts-heavy-distribution .webfonts {
+				left: 40%;
+				width: 60%;
+				top: 70px;
+			}
+
+			#performance-budget .webfonts-heavy-distribution .total {		
+				top: 140px;
+			}
+
+	}
 
 		
 		
