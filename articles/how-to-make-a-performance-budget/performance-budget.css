@@ -62,7 +62,7 @@
 	#performance-budget .table-wrapper {
 		background: #eee;
 		margin: 0 0 1em;
-		padding: 1em 0;
+		padding: 2em 0;
 		width: 100%;
 	}
 
@@ -78,11 +78,20 @@
 		#performance-budget .performance-table th {
 			border: 1px solid #ccc;
 			font-weight: normal;
+			padding: 0.5em;
+			text-align: left;
+			background: #fff;
+		}
+
+		#performance-budget .performance-table thead th {
+			font: bold 14px Helvetica, Arial, sans-serif;
+			background: #333;
+			color: #ddd;
 		}
 
 		#performance-budget .footnote p {
 			font-style: italic;
-			font-size: 16px;
+			font-size: 14px;
 		}
 
 
