@@ -1,0 +1,111 @@
+#article-area-wrap { 
+	background: #fff; 
+	font: 18px/1.5 Georgia, 'Times New Roman', serif; 
+	padding: 0 0 3em; 
+}
+
+	#performance-budget p,
+	#performance-budget ul {
+		color: #444;
+		font-size: 18px; 
+		line-height: 1.6;		
+	}
+
+	#performance-budget a {
+		color: #23b4ff;
+	}
+
+	#performance-budget a:hover {
+		border-bottom: 1px solid #23b4ff;
+	}
+
+
+	/* Global */
+
+	#performance-budget .inner {		
+		margin: 0 auto;
+		max-width: 760px;
+		width: 95%;
+	}
+
+	#performance-budget .fullscreen-image {
+		background: #000;
+		margin: 0 0 2em;
+		padding: 0 0 1em;
+		width: 100%;
+	}
+
+		#performance-budget .fullscreen-image img {
+			margin: 0 auto 2em;
+			float: none;
+		}
+
+			#performance-budget .caption p {
+				color: #999;
+				font-style: italic;
+				font-size: 90%;
+			}
+
+
+	#performance-budget .pullquote {		
+		background: none;
+		border-bottom: 30px solid #111;
+		margin: 0 0 2em;
+		padding: 0;
+	}
+		#performance-budget .pullquote p {
+			text-transform: uppercase;
+			font: bold 26px Helvetica, Arial, sans-serif;
+		}
+
+
+	#performance-budget .table-wrapper {
+		background: #eee;
+		margin: 0 0 1em;
+		padding: 1em 0;
+		width: 100%;
+	}
+
+		#performance-budget .performance-table {
+			border: 1px solid #ccc;
+			font-size: 16px;
+			font-weight: normal;
+			margin: 0 0 1em;
+			width: 100%;
+		}
+
+		#performance-budget .performance-table td,
+		#performance-budget .performance-table th {
+			border: 1px solid #ccc;
+			font-weight: normal;
+		}
+
+		#performance-budget .footnote p {
+			font-style: italic;
+			font-size: 16px;
+		}
+
+
+	/* Specific */
+
+	#performance-budget .article-header {
+		background: #111;
+		margin: 0 0 3em;
+		padding: 2em 0;
+	}
+
+		#performance-budget .article-title {
+			color: #fff;
+			font: bold 40px Helvetica, Arial, sans-serif;			
+			text-transform: uppercase;
+		}
+
+		#performance-budget .article-header p {
+			font-size: 20px; 
+			color: #999;
+		}
+		
+		
+#progressive-enhancement ::selection { background: #49c8c8; color: #fff; }
+#progressive-enhancement ::-moz-selection { background: #49c8c8; color: #fff; }
+

@@ -1,0 +1,25 @@
+#article-area-wrap { 
+	font-family: "freight-micro-pro";
+	font-weight: 400;	
+}
+
+
+	#performance-budget p,
+	#performance-budget ul {		
+		font-size: 20px;	
+	}
+
+
+	/* Specific */
+
+	#performance-budget .article-title {
+		font-family: "aktiv-grotesk-std";
+		font-weight: 500;
+	}
+
+
+	#performance-budget .article-header p {
+		font-size: 26px; 
+		font-weight: 300;
+	}
+ 
