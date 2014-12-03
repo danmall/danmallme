@@ -61,7 +61,7 @@
 
                     <div class="inner">
 
-                        <p>There&rsquo;s this amazing scene in Ron Howard&rsquo;s <cite>Apollo 13</cite> where (spoilers ahead) the crew loses power of their spacecraft. They have no way to know how they&rsquo;re oriented because their instrumentation is dead, so they use Earth as their frame of reference. As long as they keep that view of Earth in the window, they know they&rsquo;re on the right track.</p>
+                        <p>There&rsquo;s an amazing scene in Ron Howard&rsquo;s <cite>Apollo 13</cite> where (spoilers ahead) the crew loses power of their spacecraft. They have no way to know how they&rsquo;re oriented because their instrumentation is dead, so they use Earth as their frame of reference. As long as they keep that view of Earth in the window, they know they&rsquo;re on the right track.</p>
 
                     </div><!-- .inner -->
 
@@ -93,7 +93,7 @@
 
                 <div class="inner">
 
-                    <table class="performance-table">
+                    <table class="performance-table" summary="Inventorying DanielMall.com&rsquo;s load times">
                         <thead>
                             <tr>
                                 <th scope="col">Site name</th>
@@ -113,7 +113,7 @@
                     </table><!-- .performance-table -->
 
                     <footer class="footnote">
-                        <p>For the purposes of this exercise, I&rsquo;m recording all times against WebPagetest&rsquo;s Mobile 3G connection speed.</p>
+                        <p>For the purposes of this exercise, I&rsquo;m recording all times against WebPagetest&rsquo;s Mobile 3G connection speed (768 Kbps).</p>
                     </footer>
 
                 </div><!-- .inner -->
@@ -130,7 +130,7 @@
 
                 <div class="inner">
 
-                    <table class="performance-table">
+                    <table class="performance-table" summary="Inventorying DanielMall.com&rsquo;s load time against competitors">
                         <thead>
                             <tr>
                                 <th scope="col">Site name</th>
@@ -147,10 +147,10 @@
                                 <td>11.940s</td>
                             </tr>
                             <tr>
-                                <th scope="row"><a href="http://timkadlec.com">timkadlec.com</a></th>
-                                <td>1.492s</td>
-                                <td>3.150s</td>
-                                <td>3.527s</td>
+                                <th class="special" scope="row"><a href="http://timkadlec.com">timkadlec.com</a></th>
+                                <td class="special">1.492s</td>
+                                <td class="special">3.150s</td>
+                                <td class="special">3.527s</td>
                             </tr>
                             <tr>
                                 <th scope="row"><a href="http://superfriend.ly/">superfriend.ly</a></th>
@@ -159,16 +159,16 @@
                                 <td>9.882s</td>
                             </tr>
                             <tr>
-                                <th scope="row">danielmall.com</th>
-                                <td>7.388s</td>
-                                <td>9.321s</td>
-                                <td>11.940s</td>
+                                <th scope="row"><a href="http://time.com/">time.com</a></th>
+                                <td>4.891s</td>
+                                <td>28.394s</td>
+                                <td>29.980s</td>
                             </tr>
                         </tbody>
                     </table><!-- .performance-table -->
 
                     <footer class="footnote">
-                        <p>For the purposes of this exercise, I&rsquo;m recording all times against WebPagetest&rsquo;s Mobile 3G connection speed.</p>
+                        <p>Tim blows away the competition, as expected.</p>
                     </footer>
 
                 </div><!-- .inner -->
@@ -178,12 +178,92 @@
             <div class="inner">
 
                 <p>Tim <a href="http://timkadlec.com/2013/01/setting-a-performance-budget/">found this</a> great statistic that people perceive tasks as faster or slower when there&rsquo;s a least a 20% time difference. So, let&rsquo;s take our fastest times and try to beat it by 20%.</p>
-            
 
-                <p>This gives us the milestones we&rsquo;re shooting for. How does that translate to constraints to bring to a design tool? It depends on your assumed network speed. Let&rsquo;s say we want to shoot for these times over a 3G connection. About.com <a href="http://cellphones.about.com/od/surfingtheweb/p/3G_explainer.htm">tells us</a> that &ldquo;a 3G network is a mobile broadband network, offering data speeds of at least 144 kilobits per second (Kbps).&rdquo; But, we measure resources in terms of bytes, not bits. One byte = 8 bits, so 3G translates roughly to about 18 kilobytes per second. We can use this number to calculate some rough conversions.</p>
+            </div><!-- .inner -->
 
-                <p>[table converting times to kb)</p>
+            <div class="table-wrapper">
 
+                <div class="inner">
+
+                    <table class="performance-table" summary="Target load times">
+                        <thead>
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th scope="col">Current Time</th>
+                                <th scope="col">Target time (20% faster)</th>                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Start Render</th>
+                                <td>1.492s</td>
+                                <td class="special">1.194s</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Document Complete</th>
+                                <td>3.150s</td>
+                                <td class="special">2.52s</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Fully Loaded</th>
+                                <td>3.527s</td>
+                                <td class="special">2.822s</td>
+                            </tr>                           
+                        </tbody>
+                    </table><!-- .performance-table -->
+
+                </div><!-- .inner -->
+
+            </div><!-- .table-wrapper -->
+
+            <div class="inner">            
+
+                <?php /* ?>
+                <p>This gives us the milestones we&rsquo;re shooting for. How does that translate to constraints to bring into a design tool? It depends on your assumed network speed. Let&rsquo;s say we want to shoot for these times over a 3G connection. About.com <a href="http://cellphones.about.com/od/surfingtheweb/p/3G_explainer.htm">tells us</a> that &ldquo;a 3G network is a mobile broadband network, offering data speeds of at least 144 kilobits per second (Kbps).&rdquo; But, we measure resources in terms of bytes, not bits. One byte = 8 bits, so 3G translates roughly to about 18 kilobytes per second. We can use this number to calculate some rough conversions.</p>
+                <?php */ ?>
+
+                <p>This gives us the milestones we&rsquo;re shooting for. How does that translate to constraints to bring into a design tool? It depends on your assumed network speed. Since we&rsquo;re using WebPagetest&rsquo;s Mobile 3G connection speed, that assumes a transfer speed of <strong>768 kilobits per second</strong>. But, we measure resources in terms of bytes, not bits. One byte = 8 bits, so 3G translates roughly to about <strong>96 kilobytes per second</strong>. We can use this number to calculate some rough conversions.</p>
+
+            </div><!-- .inner -->
+
+            <div class="table-wrapper">
+
+                <div class="inner">
+
+                    <table class="performance-table" summary="Kilobyte Weights">
+                        <thead>
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th scope="col">Target Time</th>
+                                <th scope="col">Kilobyte Weight</th>                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Start Render</th>
+                                <td>1.194s</td>
+                                <td class="special">114kb</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Document Complete</th>
+                                <td>2.52s</td>
+                                <td class="special">242kb</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Fully Loaded</th>
+                                <td>2.822s</td>
+                                <td class="special">271kb</td>
+                            </tr>                           
+                        </tbody>
+                    </table><!-- .performance-table -->
+
+                </div><!-- .inner -->
+
+            </div><!-- .table-wrapper -->
+
+            <div class="inner">
+
+                <?php /* ?>
                 <p>Now that we have some resource weights to go with our target milestones, we can start approximating. <a href="http://www.sitepoint.com/average-page-weights-increase-32-2013/">Average resource weights in 2013</a> broke down like this:</p>
 
                 <ul>
@@ -199,7 +279,152 @@
 
                 <p>But, that JS number (276kb) looks pretty large. Let&rsquo;s assume we&rsquo;re including an uncompressed version of jQuery. After reviewing our budget, we have a chat with the developer and find out she&rsquo;s dying to try out a project without jQuery and instead is going to use plain ol&rsquo; vanilla JavaScript. Our JS number drops to 29kb</p>
 
+                <?php */ ?>
+
+                <p>If we split that 21kb evenly among the things we need to load&mdash;<abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, JavaScript, Images, and Webfonts&mdash;we might get a distribution that looks like this:</p>
+
+            </div><!-- .inner -->
+
+            <div class="table-wrapper">
+
+                <div class="inner">
+
+                    <table class="bar-graph-table even-distribution" summary="Even distribution of resource loading">
+                        <thead>
+                            <tr class="hide">
+                                <th scope="col">Type</th>
+                                <th scope="col">Weight</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="html">
+                                <td>HTML</td>
+                                <td>22.8kb</td>
+                            </tr>
+                            <tr class="css">
+                                <td>CSS</td>
+                                <td>22.8kb</td>
+                            </tr>
+                            <tr class="js">
+                                <td>JavaScript</td>
+                                <td>22.8kb</td>
+                            </tr>
+                            <tr class="images">
+                                <td>Images</td>
+                                <td>22.8kb</td>
+                            </tr>
+                            <tr class="webfonts">
+                                <td>Webfonts</td>
+                                <td>22.8kb</td>
+                            </tr> 
+                            <tr class="total">
+                                <th scope="row">Total</td>
+                                <td>114kb</td>
+                            </tr>                           
+                        </tbody>
+                    </table><!-- .performance-table -->
+
+                </div><!-- .inner -->
+
+            </div><!-- .table-wrapper -->
+
+            <div class="inner">
+
+                <p>While that makes for a nice, even split, it&rsquo;s not entirely realistic. While it&rsquo;s possible to get a 22.8k webfont, many that I&rsquo;ve used are a lot heavier. This may make a good case for us to say that we&rsquo;ll forego webfonts for the Start Render milestone. (The ability to practice this kind of reasoning is exactly why having a literal budget in front of you is important.) We can take that 22.8kb that would have gone to webfonts and instead reallocate it to something like images. That gives us this kind of distribution:</p>
+
+            </div><!-- .inner -->
+
+            <div class="table-wrapper">
+
+                <div class="inner">
+
+                    <table class="bar-graph-table even-distribution image-heavy-distribution" summary="Distribution of resource loading that favors images">
+                        <thead>
+                            <tr class="hide">
+                                <th scope="col">Type</th>
+                                <th scope="col">Weight</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="html">
+                                <td>HTML</td>
+                                <td>22.8kb</td>
+                            </tr>
+                            <tr class="css">
+                                <td>CSS</td>
+                                <td>22.8kb</td>
+                            </tr>
+                            <tr class="js">
+                                <td>JavaScript</td>
+                                <td>22.8kb</td>
+                            </tr>
+                            <tr class="images">
+                                <td>Images</td>
+                                <td>45.6kb</td>
+                            </tr>
+                            <tr class="total">
+                                <th scope="row">Total</td>
+                                <td>114kb</td>
+                            </tr>                           
+                        </tbody>
+                    </table><!-- .performance-table -->
+
+                </div><!-- .inner -->
+
+            </div><!-- .table-wrapper -->
+
+            <div class="inner">
+
+                <p>Or, we might be able to get away with not needing any JavaScript or images for that first render and instead want a beautiful reading experience, so we could allocate it this way:</p>
+
+            </div><!-- .inner -->
+
+            <div class="table-wrapper">
+
+                <div class="inner">
+
+                    <table class="bar-graph-table even-distribution webfonts-heavy-distribution" summary="Distribution of resource loading that favors webfonts">
+                        <thead>
+                            <tr class="hide">
+                                <th scope="col">Type</th>
+                                <th scope="col">Weight</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="html">
+                                <td>HTML</td>
+                                <td>22.8kb</td>
+                            </tr>
+                            <tr class="css">
+                                <td>CSS</td>
+                                <td>22.8kb</td>
+                            </tr>
+                            <tr class="webfonts">
+                                <td>Webfonts</td>
+                                <td>68.4kb</td>
+                            </tr>
+                            <tr class="total">
+                                <th scope="row">Total</td>
+                                <td>114kb</td>
+                            </tr>                           
+                        </tbody>
+                    </table><!-- .performance-table -->
+
+                </div><!-- .inner -->
+
+            </div><!-- .table-wrapper -->
+
+            <div class="inner">
+
+                <p>I love <a href="http://en.wikipedia.org/wiki/Budget">Wikipedia&rsquo;s definition of <cite>budget</cite>:</p>
+
+                <blockquote class="pullquote">
+                    <p>A quantitative expression of a plan for a defined period of time.</p>
+                </blockquote>
+
                 <p>You&rsquo;ll notice I keep using words like "approximate" and "rough." Remember, this type of budget is just a set of guides for us to use, not a rulebook to follow dogmatically. </p>
+
+                <p>Having a tangible budget gives you some flexibility to negotiate with yourself, your developers, your bosses, and your clients about performance.</p>
 
             </div><!-- .inner -->            
 	    
