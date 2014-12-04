@@ -37,7 +37,7 @@
 
                 <div class="inner">        
 
-                    <h1 class="article-title">How to Make a Performance Budget</h1>
+                    <h1 class="article-title">H<span class="vowel vowel-o">o</span>w t<span class="vowel vowel-o">o</span> M<span class="vowel vowel-a">a</span>k<span class="vowel vowel-e">e</span> <span class="vowel vowel-a">a</span> P<span class="vowel vowel-e">e</span>rf<span class="vowel vowel-o">o</span>rm<span class="vowel vowel-a">a</span>nc<span class="vowel vowel-e">e</span> B<span class="vowel vowel-u">u</span>dg<span class="vowel vowel-e">e</span>t</h1>
 
                     <p>Two weeks ago, some interesting discussions flared up around performance budgets. I can&rsquo;t help but feel somewhat responsible.</p>
 
@@ -47,7 +47,9 @@
 
             <div class="inner">
 
-                <p>It all seems to have stemmed from <a href="http://chriscoyier.net/">Chris Coyier&rsquo;s</a> <a href="https://twitter.com/chriscoyier/status/534434673372303360">tweet</a>, and I was coincidentally on stage at <a href="http://aneventapart.com/event/san-francisco-2014">An Event Apart San Francisco</a> talking about performance budgets at that very moment with Chris in the room. In response, Tim Kadlec posted <a href="http://www.timkadlec.com/2014/11/performance-budget-metrics/">Performance Budget Metrics</a>, a great categorization schema for the different ways you can measure performance. I should mention: just about everything I know about performance budgets comes from Tim, either from his writings or through the stuff I observed while working on the <a href="http://grantland.com/">Grantland</a> and <a href="/articles/radio-free-europe-open-redesign/">Radio Free Europe</a> redesigns.</p>  
+                <div class="drop drop-i"></div>
+
+                <p>It all seems to have stemmed from <a href="http://chriscoyier.net/">Chris Coyier&rsquo;s</a> <a href="https://twitter.com/chriscoyier/status/534434673372303360">tweet</a>, and I was coincidentally on stage at <a href="http://aneventapart.com/event/san-francisco-2014">An Event Apart San Francisco</a> talking about performance budgets at that very moment with Chris in the room. In response, Tim Kadlec posted <a href="http://www.timkadlec.com/2014/11/performance-budget-metrics/">Performance Budget Metrics</a>, a great categorization schema for the different ways you can measure performance. I should mention: just about everything I know about performance budgets comes from Tim, either from his writings or through the stuff I observed while we worked on the <a href="http://grantland.com/">Grantland</a> and <a href="/articles/radio-free-europe-open-redesign/">Radio Free Europe</a> redesigns together.</p>  
 
                 <p>Lots of people have been writing and talking about performance budgets, but I had yet to see anyone exhaustively explain <em>how</em> to make one, especially to less technically-savvy designers. So I decided to take it into my own hands. I didn&rsquo;t do a great job in the talk of giving the appropriate disclaimers&mdash;cut me some slack… it was my first time giving that talk&mdash;so I think Chris&rsquo;s concerns are legit. I&rsquo;ll attempt to correct that here. </p>
 
@@ -71,7 +73,7 @@
 
             <div class="inner">
 
-                
+                <div class="drop drop-t"></div>
 
                 <p>The main reason to create a performance budget is to have a tangible starting point for conversation around a web page or website. It shouldn&rsquo;t act as gospel, but it&rsquo;s a thing you can measure against. It&rsquo;s your frame of reference.</p>
 
@@ -85,7 +87,13 @@
 
                 <p>In my opinion, a good performance budget balances user experience with browser experience. Again, it&rsquo;s not an all-encompassing strategy, but it&rsquo;ll get you in the ballpark. Personally, I&rsquo;m with Tim in thinking Speed Index is the most accurate metric to shoot for, but it is pretty tough to explain. So, if I&rsquo;m searching for something a bit simper and a little more communicable, I&rsquo;ll generally start with a milestone&mdash;a fully loaded page in 5 seconds or less&mdash;and try to get some approximation of a budget (10 images/4 webfonts or 2 images/10 webfonts). But where do you get that milestone? Should you just pull it out of thin air? (Beware: your <abbr title="Chief Executive Officer">CEO</abbr> just might!) Well, I like to be a bit more methodical than that. </p>
 
-                <p>Fire up a blank spreadsheet and <a href="http://www.webpagetest.org/">WebPagetest</a>. Pop your current site in there and let it ride. Record these three times: Start Render, Document Complete, and Fully Loaded.</p>
+                <div class="clearfix">
+
+                    <div class="drop drop-p"></div>
+
+                    <p class="drop-p-after">Pop open a blank spreadsheet and <a href="http://www.webpagetest.org/">WebPagetest</a>. Pop your current site in there and let it ride. Record these three times: Start Render, Document Complete, and Fully Loaded.</p>
+
+                </div><!-- .clearfix -->
 
             </div><!-- .inner -->
 
@@ -416,11 +424,13 @@
 
             <div class="inner">
 
-                <p><a href="http://en.wikipedia.org/wiki/Budget">Wikipedia&rsquo;s definition of <cite>budget</cite></a> is perfect:</p>
+                <p><a href="http://en.wikipedia.org/wiki/Budget">Wikipedia&rsquo;s definition of the word <cite>budget</cite></a> is perfect:</p>
 
-                <blockquote class="pullquote">
-                    <p>A quantitative expression of a plan for a defined period of time.</p>
+                <blockquote class="pullquote pullquote-wikipedia">
+                    <p>&ldquo;A quantitative expression of a plan for a defined period of time.&rdquo;</p>
                 </blockquote>
+
+                <div class="drop drop-f"></div>
 
                 <p>For a designer, having a quantitative expression of a plan that suggests a Start Render experience of 2 images (~45.6k) or 2 webfonts (~68.4k) and knowing that you can still nail a 1.194s time is incredibly empowering. It gives you some flexibility to negotiate with yourself, your developers, your bosses, and your clients about performance.</p>
 
