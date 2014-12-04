@@ -497,7 +497,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2013-08-30T15:38:00">Published Aug 30, 2013 at 3:39 <abbr title="Post Meridian">PM</abbr></time>
+        	        <time datetime="2014-12-04T06:00:00">Published Dec 04, 2014 at 6:00 <abbr title="Ante Meridian">AM</abbr></time>
     	        </section><!-- /#article-info -->
     	        
     	        
