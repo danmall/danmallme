@@ -275,3 +275,11 @@
 		left: 30%;
 	}
 
+	#performance-budget .performance-table thead th,
+	#performance-budget .bar-graph-table thead th {
+		font-family: "aktiv-grotesk-std";
+		text-transform: uppercase;
+		font-size: 12px;
+		letter-spacing: 0.1em;
+	}
+
