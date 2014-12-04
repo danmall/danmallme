@@ -57,6 +57,7 @@
 			width: 60%;
 		}
 	}
+	
 
 	#performance-budget .vowel {
 		color: #111;
@@ -157,6 +158,12 @@
 			margin-top: -2.4em;
 			line-height: 1.3;
 		}	
+	}
+
+	@media screen and (min-width: 1496px){
+		#performance-budget .article-header p {
+			margin-top: 0;
+		}
 	}
 
 	#performance-budget .inner p {
