@@ -30,7 +30,7 @@
 
 	#performance-budget .fullscreen-image {
 		background: #000;
-		margin: 0 0 2em;
+		margin: 0 0 6em;
 		padding: 0 0 1em;
 		width: 100%;
 	}
@@ -163,6 +163,10 @@
 							left: auto;
 							right: 50%;
 						}
+
+							#performance-budget .bar-graph-table .total th:after {
+								content: ":";
+							}
 
 						#performance-budget .bar-graph-table .total:before {
 							content: "";
