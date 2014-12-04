@@ -1,7 +1,7 @@
 #article-area-wrap { 
 	background: #fff; 
 	font: 18px/1.5 Georgia, 'Times New Roman', serif; 
-	padding: 0 0 3em; 
+	padding: 0;
 }
 
 	#performance-budget p,
@@ -274,6 +274,52 @@
 			}
 
 	}
+
+	#performance-budget .people {
+		background: #111;
+		padding: 3em 0 2em;
+	}
+
+		#performance-budget .people p {
+			color: #999;
+		}
+
+		#performance-budget .person {
+			text-align: center;
+			display: inline-block;
+			width: 30%;
+			margin: 0 2.8% 4em 0;
+		}
+
+			#performance-budget .person a {
+				border: none;
+				color: #fff;
+				font-size: 24px;
+				font-weight: 300;
+
+			}
+
+			#performance-budget .person img {
+				float: none;
+				margin: 0 auto;
+				border-radius: 150px;
+			}
+
+			#performance-budget .twitter-username {
+				display: block;
+				color: #23b4ff;
+				font-size: 16px;
+				font-style: italic;
+				transition: all 0.25s linear; 
+				-moz-transition: all 0.25s linear; 
+				-webkit-transition: all 0.25s linear; 
+				-o-transition: all 0.25s linear;
+			}
+
+			#performance-budget a:hover .twitter-username {
+				color: #fff;
+			}
+
 
 		
 		
