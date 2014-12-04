@@ -38,6 +38,18 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/how-to-make-a-performance-budget/">
+                                    <img class="round-image" src="/articles/how-to-make-a-performance-budget/home-thumb.png" alt="" />
+                                    <span class="home-item-name">How to Make a Performance Budget</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">A tangible way to approximate how your pages should perform.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/brooklyn-beta-2014/">
                                     <img class="round-image" src="/articles/brooklyn-beta-2014/home-thumb.png" alt="" />
                                     <span class="home-item-name">Brooklyn Beta 2014</span>
@@ -47,7 +59,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/creative-cloud-libraries/">
@@ -59,7 +71,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/sketchlive/">
@@ -71,6 +83,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
+                    <?php /* ?>
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -81,9 +94,8 @@
                             </h2><!-- .home-item-headline -->
                             <p class="home-item-description">Learn about the business of design in person.</p>
                         </article><!-- .home-item-article -->
-                    </li>
+                    </li>                    
                     
-                    <?php /* ?>
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
