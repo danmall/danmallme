@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2014</dc:rights>
-    <pubDate>Thu, 16 Oct 2014 12:20:00 GMT</pubDate>
+    <pubDate>Thu, 04 Dec 2014 06:00:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>How to Make a Performance Budget</title>
+        <description>A tangible way to approximate how your pages should perform.</description>
+        <link>http://danielmall.com/articles/how-to-make-a-performance-budget/</link>
+        <guid>http://danielmall.com/articles/how-to-make-a-performance-budget/</guid>
+        <pubDate>Thu, 04 Dec 2014 06:00:00 GMT</pubDate>
+    </item>
     <item>
         <title>Brooklyn Beta 2014</title>
         <description>Celebrating my favorite industry event ever.</description>
