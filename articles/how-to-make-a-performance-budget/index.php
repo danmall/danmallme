@@ -51,7 +51,7 @@
 
                 <p>It all seems to have stemmed from <a href="http://chriscoyier.net/">Chris Coyier&rsquo;s</a> <a href="https://twitter.com/chriscoyier/status/534434673372303360">tweet</a>, and I was coincidentally on stage at <a href="http://aneventapart.com/event/san-francisco-2014">An Event Apart San Francisco</a> talking about performance budgets at that very moment with Chris in the room. In response, Tim Kadlec posted <a href="http://www.timkadlec.com/2014/11/performance-budget-metrics/">Performance Budget Metrics</a>, a great categorization schema for the different ways you can measure performance. I should mention: just about everything I know about performance budgets comes from Tim, either from his writings or through the stuff I observed while we worked on the <a href="http://grantland.com/">Grantland</a> and <a href="/articles/radio-free-europe-open-redesign/">Radio Free Europe</a> redesigns together.</p>  
 
-                <p>Lots of people have been writing and talking about performance budgets, but I had yet to see anyone exhaustively explain <em>how</em> to make one, especially to less technically-savvy designers. So I decided to take it into my own hands. I didn&rsquo;t do a great job in the talk of giving the appropriate disclaimers&mdash;cut me some slack… it was my first time giving that talk&mdash;so I think Chris&rsquo;s concerns are legit. I&rsquo;ll attempt to correct that here. </p>
+                <p>Lots of people have been writing and talking about performance budgets, but I had yet to see anyone exhaustively explain <em>how</em> to make one, especially to less technically-savvy designers. So I decided to take it into my own hands. I didn&rsquo;t do a great job of giving the appropriate disclaimers in the talk&mdash;cut me some slack&hellip; it was my first time giving that talk&mdash;so I think Chris&rsquo;s concerns are legit. I&rsquo;ll attempt to correct that here. </p>
 
             </div><!-- .inner -->
 
@@ -77,7 +77,7 @@
 
                 <p>The main reason to create a performance budget is to have a tangible starting point for conversation around a web page or website. It shouldn&rsquo;t act as gospel, but it&rsquo;s a thing you can measure against. It&rsquo;s your frame of reference.</p>
 
-                <p>I believe designers do their best work within constraints, and knowing those constraints <em>before</em> starting a design can be incredibly enabling. I can&rsquo;t tell you how many times I&rsquo;ve ignorantly designed &ldquo;the perfect comp&rdquo; and was then told that I blew the performance budget we never established in the first place. What I wouldn&rsquo;t give to know that, before starting a design, I could use up to 10 images and 4 webfonts. What a day that would be! Here&rsquo;s how to make that possible.</p>
+                <p>I believe designers do their best work within constraints, and knowing those constraints <em>before</em> starting a design can be incredibly enabling. I can&rsquo;t tell you how many times I&rsquo;ve ignorantly designed &ldquo;the perfect comp&rdquo; and was then told that I blew the performance budget we never established in the first place. What I wouldn&rsquo;t give to know that I could use up to 10 images and 4 webfonts <em>before</em> starting a design! What a day that would be! Here&rsquo;s how to make that possible.</p>
 
                 <p>In Tim&rsquo;s article, commenter Mike Petrovich wisely <a href="http://www.timkadlec.com/2014/11/performance-budget-metrics/#comment-1705069311">points out</a> a summation of Tim&rsquo;s categorization: </p>
 
@@ -85,7 +85,9 @@
                     <p>&ldquo;Milestone timing and Speed Index describe the user experience… Quantity and rule metrics describe the low-level browser experience.&rdquo;</p>
                 </blockquote>
 
-                <p>In my opinion, a good performance budget balances user experience with browser experience. Again, it&rsquo;s not an all-encompassing strategy, but it&rsquo;ll get you in the ballpark. Personally, I&rsquo;m with Tim in thinking Speed Index is the most accurate metric to shoot for, but it is pretty tough to explain. So, if I&rsquo;m searching for something a bit simper and a little more communicable, I&rsquo;ll generally start with a milestone&mdash;a fully loaded page in 5 seconds or less&mdash;and try to get some approximation of a budget (10 images/4 webfonts or 2 images/10 webfonts). But where do you get that milestone? Should you just pull it out of thin air? (Beware: your <abbr title="Chief Executive Officer">CEO</abbr> just might!) Well, I like to be a bit more methodical than that. </p>
+                <p>In my opinion, a good performance budget balances user experience with browser experience. Again, it&rsquo;s not an all-encompassing strategy, but it&rsquo;ll get you in the ballpark. I know there are better ways, but none of them give me something to act on in Photoshop. Personally, I&rsquo;m with Tim in thinking Speed Index is the most accurate metric to shoot for, but it is pretty tough to explain.</p>
+
+                <p>So, if I&rsquo;m searching for something a bit simpler and a little more communicable, I&rsquo;ll generally start with a milestone&mdash;a fully loaded page in 5 seconds or less&mdash;and try to get some approximation of a budget (10 images/4 webfonts or 2 images/10 webfonts). But where do you get that milestone? Should you just pull it out of thin air? (Beware: your <abbr title="Chief Executive Officer">CEO</abbr> just might!) Well, I like to be a bit more methodical than that. </p>
 
                 <div class="clearfix">
 
@@ -289,7 +291,7 @@
 
                 <?php */ ?>
 
-                <p>If we split that 21kb evenly among the things we need to load&mdash;<abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, JavaScript, Images, and Webfonts&mdash;we might get a distribution that looks like this:</p>
+                <p>If we split that 114kb evenly among the things we need to load&mdash;<abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, JavaScript, Images, and Webfonts&mdash;we might get a distribution that looks like this:</p>
 
             </div><!-- .inner -->
 
@@ -434,12 +436,15 @@
 
                 <p>For a designer, having a quantitative expression of a plan that suggests a Start Render experience of 2 images (~45.6k) or 2 webfonts (~68.4k) and knowing that you can still nail a 1.194s time is incredibly empowering. It gives you some flexibility to negotiate with yourself, your developers, your bosses, and your clients about performance.</p>
 
-                <p>You&rsquo;ll notice I keep using words like &ldquo;approximate&rdquo; and &ldquo;rough.&rdquo; Remember, this type of budget is just a set of guides for us to use, not a rulebook to follow dogmatically. There are a lot of people writing smart things and better ways to create fast websites, but I think having a tangible approximation of what resources you can work with is a good start.</p>
+                <p>You&rsquo;ll notice I keep using words like &ldquo;approximate&rdquo; and &ldquo;rough.&rdquo; Keep in mind: this budget plans for a best case scenario, but <a href="http://trentwalton.com/2014/03/10/device-agnostic/" title="&ldquo;Device Agnostic,&rdquo; by Trent Walton">the web is often an environment of harsh conditions</a>. Lots can go awry, so make sure to <a href="http://alistapart.com/article/planning-for-performance">plan for performance</a> <a href="http://www.abookapart.com/products/responsible-responsive-design" title="Responsible Responsive Design, by Scott Jehl">responsibly</a>. This type of budget is just a set of guides for us to use, not a rulebook to follow dogmatically. There are a lot of people writing smart things and better ways to create fast websites, but I think having a tangible approximation of what resources you can work with is a good start.</p>
 
                 <p>And, here&rsquo;s <a href="https://docs.google.com/spreadsheets/d/1ifac_Z-P9IgjzVZIWPV2qdugtwJ3HA9dkhvKmPUXBLo/edit#gid=0">a Google Sheet template</a> that you can copy and edit, if you roll like that.</p>
 
                 <p>Happy performance budgeting!</p>
                 
+                <footer class="footnote">
+                    <p>Special thanks to <a href="http://twitter.com/emilyjanemall">Emily Mall</a> and <a href="http://twitter.com/tkadlec">Tim Kadlec</a> for reviewing this article.</p>
+                </footer>
 
             </div><!-- .inner -->            
 	    
