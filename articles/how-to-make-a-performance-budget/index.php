@@ -434,7 +434,7 @@
 
                 <div class="drop drop-f"></div>
 
-                <p>For a designer, having a quantitative expression of a plan that suggests a Start Render experience of 2 images (~45.6k) or 2 webfonts (~68.4k) and knowing that you can still nail a 1.194s time is incredibly empowering. It gives you some flexibility to negotiate with yourself, your developers, your bosses, and your clients about performance.</p>
+                <p>For a designer, having a quantitative expression of a plan that suggests a Start Render experience of 2 images (~45.6k) or 2 webfonts (~68.4k) and knowing that you can still nail a 1.194s time is incredibly empowering. It gives you some flexibility to negotiate with yourself, your developers, your bosses, and your customers about performance.</p>
 
                 <p>You&rsquo;ll notice I keep using words like &ldquo;approximate&rdquo; and &ldquo;rough.&rdquo; Keep in mind: this budget plans for a best case scenario, but <a href="http://trentwalton.com/2014/03/10/device-agnostic/" title="&ldquo;Device Agnostic,&rdquo; by Trent Walton">the web is often an environment of harsh conditions</a>. Lots can go awry, so make sure to <a href="http://alistapart.com/article/planning-for-performance">plan for performance</a> <a href="http://www.abookapart.com/products/responsible-responsive-design" title="Responsible Responsive Design, by Scott Jehl">responsibly</a>. This type of budget is just a set of guides for us to use, not a rulebook to follow dogmatically. There are a lot of people writing smart things and better ways to create fast websites, but I think having a tangible approximation of what resources you can work with is a good start.</p>
 
@@ -447,6 +447,81 @@
                 </footer>
 
             </div><!-- .inner -->            
+
+            <section class="people">
+
+                <div class="inner">
+
+                    <p>If you&rsquo;re interested in performance, here are some people and organizations you should be following:</p>
+
+                    <div class="person">
+                        <a href="http://twitter.com/tkadlec">
+                            <img src="person/tim-kadlec.jpg" alt="" />
+                            Tim Kadlec
+                            <span class="twitter-username">@tkadlec</span>
+                        </a>
+                    </div><!-- .person -->
+
+                    <div class="person">
+                        <a href="http://twitter.com/paul_irish">
+                            <img src="person/paul-irish.jpg" alt="" />
+                            Paul Irish
+                            <span class="twitter-username">@paul_irish</span>
+                        </a>
+                    </div><!-- .person -->
+
+                    <div class="person">
+                        <a href="http://twitter.com/yeseniaa">
+                            <img src="person/yesenia-perez-cruz.jpg" alt="" />
+                            Yesenia Perez-Cruz
+                            <span class="twitter-username">@yeseniaa</span>
+                        </a>
+                    </div><!-- .person -->
+
+                    <div class="person">
+                        <a href="http://twitter.com/scottjehl">
+                            <img src="person/scott-jehl.jpg" alt="" />
+                            Scott Jehl
+                            <span class="twitter-username">@scottjehl</span>
+                        </a>
+                    </div><!-- .person -->
+
+                    <div class="person">
+                        <a href="http://twitter.com/katiekovalcin">
+                            <img src="person/katie-kovalcin.jpg" alt="" />
+                            Katie Kovalcin
+                            <span class="twitter-username">@katiekovalcin</span>
+                        </a>
+                    </div><!-- .person -->
+
+                    <div class="person">
+                        <a href="http://twitter.com/igrigorik">
+                            <img src="person/ilya-grigorik.jpg" alt="" />
+                            Ilya Grigorik
+                            <span class="twitter-username">@igrigorik</span>
+                        </a>
+                    </div><!-- .person -->
+
+                    <div class="person">
+                        <a href="http://twitter.com/velocityconf">
+                            <img src="person/oreilly-velocity.png" alt="" />
+                            O&rsquo;Reilly&rsquo;s Velocity
+                            <span class="twitter-username">@velocityconf</span>
+                        </a>
+                    </div><!-- .person -->
+
+                    <div class="person">
+                        <a href="http://twitter.com/filamentgroup">
+                            <img src="person/filament-group.jpg" alt="" />
+                            Filament Group
+                            <span class="twitter-username">@filamentgroup</span>
+                        </a>
+                    </div><!-- .person -->
+
+                </div><!-- .inner -->            
+
+            </section><!-- .people -->
+
 	    
 	    </section><!-- #performance-budget -->	            
 	    
