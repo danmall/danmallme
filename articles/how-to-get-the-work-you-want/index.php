@@ -7,7 +7,7 @@
     
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?> 
-    <link href="//cloud.webtype.com/css/6db683d1-190c-4c0f-aecd-24381cffe605.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" href="how-to-get-the-work-you-want.css" />	
 
 	<!-- Facebook -->
@@ -95,10 +95,6 @@
 			<li>Lots of brands hire agencies to do work for them. Progressive&rsquo;s agency of record is <a href="http://arn.com/">Arnold Worldwide</a>. Burger King works with <a href="http://www.motherny.com/">Mother</a>. Verizon uses <a href="http://www.akqa.com/">AKQA</a>. Google &ldquo;[brand name] agency of record.&rdquo; Then send some emails. If you&rsquo;re a student, beg for an internship. If you&rsquo;re a small agency, write a compelling note about why you&rsquo;d be a good partner. My buddies at <a href="http://www.hugekingcoyle.com/">Huge/KingCoyle</a> do a ton of Nike work, and I&rsquo;ve told them on numerous occasions that I won&rsquo;t charge them a dime to do Nike work with them. They&rsquo;ll take me up on it one of these days.</li>
 			</ol>
 			<p>There&rsquo;s little excuse for not being able to do the work you want. I&rsquo;ve been fortunate to work on some of my dream projects, simply from being part of the right conversations. Start filling out your portfolio&mdash;see step #1&mdash;join the right conversations, and make 2014 your best work year yet.</p>
-			
-			<footer class="typeface-credit">
-				<p>This article is typeset in the beautiful <a href="https://monokrom.no/fonts/aften">Aften Screen</a> by Monokrom, served by <a href="http://www.webtype.com/">Webtype</a>.</p>
-			</footer>
 			
 	    </section><!-- #how-to-get-the-work-you-want -->	  	
 	    
