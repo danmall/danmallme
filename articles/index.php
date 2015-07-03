@@ -24,6 +24,18 @@
 
             	<ol class="article-list articles no-marker">
 
+                <li>
+                        <article>
+                            <header>
+                                <h1><a href="/articles/finished-businessology/">Finished Business(ology)</a></h1>
+                            </header>
+                            <p>The time has come for me to step away from Businessology.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/finished-businessology/"><time datetime="2015-07-03T14:00:00">Jul 03, 2015</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/finished-businessology/#disqus_thread" data-disqus-identifier="finished-businessology"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
                     <li>
                         <article>
                             <header>
