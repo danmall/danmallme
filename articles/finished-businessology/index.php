@@ -48,7 +48,7 @@
             
             <p>And hey, if all goes well, maybe Jason will have me back on the show as a guest.</p>
 
-            <p>Check out <a href="#">Jason&rsquo;s post</a> to read about where he&rsquo;ll take the show next.</p>
+            <p>Check out <a href="https://www.blumercpas.com/blog/changes-to-the-businessology-show">Jason&rsquo;s post</a> to read about where he&rsquo;ll take the show next.</p>
             
             <p>Thanks for listening!</p>
 
@@ -106,7 +106,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2014-06-19T06:16:00">Published July 1, 2015 at 5:48 <abbr title="Ante Meridian">AM</abbr></time>
+        	        <time datetime="2015-07-03T14:00:00">Published July 3, 2015 at 2:00 <abbr title="Post Meridian">PM</abbr></time>
     	        </section><!-- /.article-info -->
 
 

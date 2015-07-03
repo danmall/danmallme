@@ -38,6 +38,18 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/finished-businessology/">
+                                    <img class="round-image" src="/articles/businessology-roadshow/home-thumb.png" alt="" />
+                                    <span class="home-item-name">Finished Business(ology)</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">The time has come for me to step away from Businessology.</p>
+                        </article><!-- .home-item-article -->
+                    </li>  
+
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/how-to-make-a-performance-budget/">
                                     <img class="round-image" src="/articles/how-to-make-a-performance-budget/home-thumb.png" alt="" />
                                     <span class="home-item-name">How to Make a Performance Budget</span>
@@ -47,7 +59,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/brooklyn-beta-2014/">
@@ -59,7 +71,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/creative-cloud-libraries/">
@@ -70,6 +82,8 @@
                             <p class="home-item-description">A new Adobe feature for designing systems.</p>
                         </article><!-- .home-item-article -->
                     </li>
+
+                    <?php /* ?>
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -83,7 +97,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <?php /* ?>
+                    
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
