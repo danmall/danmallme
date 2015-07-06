@@ -60,7 +60,7 @@
 				<div class="col col2">
 					<img src="i/siri.png" alt="Siri voice control results screen" />
 				</div><!-- .col -->
-				<div class="clearfix">
+				<div class="clear">
 					<p class="caption">The Android voice control results screen vs. the Siri voice control results screen.</p>
 				</div>
 			</div><!-- .col50 -->
