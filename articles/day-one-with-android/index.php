@@ -13,8 +13,8 @@
 	<!-- Facebook -->
     <meta property="og:title" content="Day One With Android" />
     <meta property="og:description"content="After nine years of using iOS1–iOS7 across iPhones 1-6, I&rsquo;m switching to Android to gain a new perspective."/>	
-    <meta property="og:url" content="http://danielmall.com/articles/day-one-without-iphone/" />
-    <meta property="og:image" content="http://danielmall.com/articles/day-one-without-iphone/home-thumb.png" />
+    <meta property="og:url" content="http://danielmall.com/articles/day-one-with-android/" />
+    <meta property="og:image" content="http://danielmall.com/articles/day-one-with-android/home-thumb.png" />
     
 </head>
 
