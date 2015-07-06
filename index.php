@@ -38,6 +38,18 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/day-one-without-iphone/">
+                                    <img class="round-image" src="/articles/day-one-without-iphone/home-thumb.jpg" alt="" />
+                                    <span class="home-item-name">Day One Without an iPhone</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">After nine years of using iOS1 &ndash; iOS7 across iPhones 1 &ndash; 6, I&rsquo;m switching to Android to gain a new perspective.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/finished-businessology/">
                                     <img class="round-image" src="/articles/businessology-roadshow/home-thumb.png" alt="" />
                                     <span class="home-item-name">Finished Business(ology)</span>
@@ -47,7 +59,7 @@
                         </article><!-- .home-item-article -->
                     </li>  
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/how-to-make-a-performance-budget/">
@@ -59,7 +71,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/brooklyn-beta-2014/">
@@ -70,6 +82,8 @@
                             <p class="home-item-description">Celebrating my favorite industry event ever.</p>
                         </article><!-- .home-item-article -->
                     </li>
+
+                    <?php /* ?>
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -83,7 +97,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <?php /* ?>
+                    
 
                     <li class="home-item position4">
                         <article class="home-item-article">
