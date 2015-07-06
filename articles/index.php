@@ -27,12 +27,12 @@
                     <li>
                         <article>
                             <header>
-                                <h1><a href="/articles/day-one-without-iphone/">Day One Without an iPhone</a></h1>
+                                <h1><a href="/articles/day-one-with-android/">Day One With Android</a></h1>
                             </header>
                             <p>After nine years of using iOS1 &ndash; iOS7 across iPhones 1 &ndash; 6, I&rsquo;m switching to Android to gain a new perspective.</p>
                             <ul class="meta easy-clearing no-marker">
-                                <li class="permalink"><a href="/articles/day-one-without-iphone/"><time datetime="2015-07-06T08:10:00">Jul 06, 2015</time></a></li>
-                                <script>document.write('<li class="comments"><a href="/articles/day-one-without-iphone/#disqus_thread" data-disqus-identifier="day-one-without-iphone"></a></li>');</script>
+                                <li class="permalink"><a href="/articles/day-one-with-android/"><time datetime="2015-07-06T08:10:00">Jul 06, 2015</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/day-one-with-android/#disqus_thread" data-disqus-identifier="day-one-with-android"></a></li>');</script>
                             </ul><!-- .meta -->
                         </article>
                     </li>
