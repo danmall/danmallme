@@ -13,6 +13,8 @@
 
 	.vanilla .illo { margin: 0 0 2em; }
 	.vanilla .caption { font-size: 14px; color: #999; }
+
+	.vanilla .clear { clear: both; }
 			
 		
 .vanilla ::selection { background: #585858; color: #fff; }
