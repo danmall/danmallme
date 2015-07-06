@@ -1,14 +1,8 @@
-<?php
-	/* This will give an error. Note the output
-	 * above, which is before the header() call */
-	header('Location: /articles/day-one-with-android/');
-	exit;
-?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head profile="http://gmpg.org/xfn/11">
-    <title>&ldquo;Day One Without an iPhone,&rdquo; an article by Dan Mall</title>
-    <meta name="description" content="Day One without an iPhone" />
+    <title>&ldquo;Day One With Android,&rdquo; an article by Dan Mall</title>
+    <meta name="description" content="Day One With Android" />
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
     
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
@@ -17,7 +11,7 @@
 	<link rel="stylesheet" href="/articles/_vanilla/vanilla.css" />
 
 	<!-- Facebook -->
-    <meta property="og:title" content="Day One Without an iPhone" />
+    <meta property="og:title" content="Day One With Android" />
     <meta property="og:description"content="After nine years of using iOS1–iOS7 across iPhones 1-6, I&rsquo;m switching to Android to gain a new perspective."/>	
     <meta property="og:url" content="http://danielmall.com/articles/day-one-without-iphone/" />
     <meta property="og:image" content="http://danielmall.com/articles/day-one-without-iphone/home-thumb.png" />
@@ -32,7 +26,7 @@
 			
 	    <section class="clearfix wrap vanilla">			
 			
-			<h1 class="article-header-title">Day One Without an iPhone</h1>
+			<h1 class="article-header-title">Day One With Android</h1>
 			
 			<p><a href="http://v2.danielmall.com/archives/2007/06/30/hi_phone.php">I bought an iPhone the day it came out</a>. After nine years of using iOS1 &ndash; iOS7 across iPhones 1 &ndash; 6, I&rsquo;m <a href="https://twitter.com/danielmall/statuses/617681523744055296">switching to Android</a>, simply to gain a new perspective. I&rsquo;m trading my <a href="http://www.apple.com/iphone-6/">iPhone 6</a> and <a href="http://www.apple.com/watch/">Apple Watch</a> for a <a href="https://oneplus.net/one">OnePlus One</a> and a <a href="https://moto360.motorola.com/">Moto 360</a>.</p>
 
@@ -116,8 +110,8 @@
                     var disqus_shortname = 'danielmall'; // required: replace example with your forum shortname
 
                     // The following are highly recommended additional parameters. Remove the slashes in front to use.
-                    var disqus_identifier = 'day-one-without-iphone';
-                    var disqus_url = 'http://danielmall.com/articles/day-one-without-iphone/';
+                    var disqus_identifier = 'day-one-with-android';
+                    var disqus_url = 'http://danielmall.com/articles/day-one-with-android/';
                     var disqus_developer = 1;
 
                     /* * * DON'T EDIT BELOW THIS LINE * * */
