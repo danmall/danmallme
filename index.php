@@ -38,9 +38,9 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
-                                <a href="/articles/day-one-without-iphone/">
-                                    <img class="round-image" src="/articles/day-one-without-iphone/home-thumb.jpg" alt="" />
-                                    <span class="home-item-name">Day One Without an iPhone</span>
+                                <a href="/articles/day-one-with-android/">
+                                    <img class="round-image" src="/articles/day-one-with-android/home-thumb.jpg" alt="" />
+                                    <span class="home-item-name">Day One With Android</span>
                                 </a>
                             </h2><!-- .home-item-headline -->
                             <p class="home-item-description">After nine years of using iOS1 &ndash; iOS7 across iPhones 1 &ndash; 6, I&rsquo;m switching to Android to gain a new perspective.</p>
