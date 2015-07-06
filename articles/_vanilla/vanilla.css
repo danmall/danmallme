@@ -1,0 +1,28 @@
+#article-area-wrap { background: #fff; }
+
+.vanilla { width: 94%; margin: 0 auto; padding: 8em 0; font-family: 'Karla', sans-serif; }
+	.vanilla p { font-size: 18px; color: #333; color: #444; }
+	.vanilla ul, .vanilla ol { font-size: 16px; color: #333; color: #444; }
+	.vanilla li { margin: 0 0 0.9em 25px; position: relative; color: #333; color: #444; }
+		.vanilla ul li:before { content: ""; position: absolute; top: 0.5em; left: -20px; width: 8px; height: 8px; background: #81b440; border-radius: 3px; }
+	.vanilla a { color: #d22c95; color: #000; border-bottom: 1px solid #ccc; }
+	.vanilla a:hover, .vanilla a:focus { border-color: #81b440; }
+
+	.vanilla .article-header-title { margin: 0 0 1em; }
+	.vanilla .article-header-title { line-height: 1.2; font-size: 40px; font-weight: bold; letter-spacing: -1px; }
+
+	.vanilla .illo { margin: 0 0 2em; }
+	.vanilla .caption { font-size: 14px; color: #999; }
+			
+		
+.vanilla ::selection { background: #585858; color: #fff; }
+.vanilla ::-moz-selection { background: #585858; color: #fff; }
+
+@media screen and (min-width: 500px){
+	.vanilla { max-width: 650px; }
+
+	.vanilla .col50 .col { width: 46%; float: left; }
+	.vanilla .col50 .col1 { margin-right: 2%; }
+	.vanilla .col50 .col2 { margin-left: 2%; }
+
+}
