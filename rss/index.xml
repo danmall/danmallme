@@ -11,7 +11,7 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2015</dc:rights>
-    <pubDate>Mon, 06 Jul 2015 08:10:00 GMT</pubDate>
+    <pubDate>Sun, 12 Jul 2015 07:27:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
     <item>
         <title>Day One Without an iPhone</title>
@@ -26,6 +26,13 @@
         <link>http://danielmall.com/articles/finished-businessology/</link>
         <guid>http://danielmall.com/articles/finished-businessology/</guid>
         <pubDate>Fri, 03 Jul 2015 14:00:00 GMT</pubDate>
+    </item>
+    <item>
+        <title>Finding Clients</title>
+        <description>Like magnets and archaelogists.</description>
+        <link>http://danielmall.com/articles/finding-clients/</link>
+        <guid>http://danielmall.com/articles/finding-clients/</guid>
+        <pubDate>Tue, 05 May 2015 10:35:00 GMT</pubDate>
     </item>
     <item>
         <title>Pricing</title>
