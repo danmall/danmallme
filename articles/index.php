@@ -51,6 +51,18 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/pricing/">Pricing</a></h1>
+                            </header>
+                            <p>How to start charging for your work.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/pricing/"><time datetime="2015-04-02T22:00:00">Apr 02, 2015</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/pricing/#disqus_thread" data-disqus-identifier="pricing"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/how-to-make-a-performance-budget/">How to Make a Performance Budget</a></h1>
                             </header>
                             <p>A tangible way to approximate how your pages should perform.</p>
