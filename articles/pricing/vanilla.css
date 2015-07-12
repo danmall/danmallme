@@ -1,10 +1,7 @@
 #article-area-wrap { background: #fff; }
 
-.vanilla { width: 94%; margin: 0 auto; padding: 8em 0; font-family: 'Source Serif Pro', serif; }
-	.vanilla h1, .vanilla h2 { font-family: 'Karla', sans-serif; font-weight: bold; }
-	.vanilla h2 { font-size: 24px; }
-	.vanilla p { font-size: 18px; color: #333; color: #444; line-height: 1.6;}
-	.vanilla em { font-family: Georgia, 'Times New Roman', serif; } /* yuck */
+.vanilla { width: 94%; margin: 0 auto; padding: 8em 0; font-family: 'Karla', sans-serif; }
+	.vanilla p { font-size: 18px; color: #333; color: #444; }
 	.vanilla ul, .vanilla ol { font-size: 16px; color: #333; color: #444; }
 	.vanilla li { margin: 0 0 0.9em 25px; position: relative; color: #333; color: #444; }
 		.vanilla ul li:before { content: ""; position: absolute; top: 0.5em; left: -20px; width: 8px; height: 8px; background: #81b440; border-radius: 3px; }
@@ -14,12 +11,8 @@
 	.vanilla .article-header-title { margin: 0 0 1em; }
 	.vanilla .article-header-title { line-height: 1.2; font-size: 40px; font-weight: bold; letter-spacing: -1px; }
 
-	.vanilla .footnote { position: relative; padding-top: 2em; marign-top: 1em; }
-	.vanilla .footnote:before { content: ""; width: 30px; height: 1px; background: #ccc; display: block; position: absolute; top: 0; left: 0; }
-
 	.vanilla .illo { margin: 0 0 2em; }
-	.vanilla .caption, .vanilla .footnote p { font-size: 14px; color: #999; }
-	.vanilla .footnote a { color: #666; }
+	.vanilla .caption { font-size: 14px; color: #999; }
 
 	.vanilla .clear { clear: both; }
 			
