@@ -51,6 +51,18 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/finding-clients/">Finding Clients</a></h1>
+                            </header>
+                            <p>Like magnets and archaelogists.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/finding-clients/"><time datetime="2015-05-05T10:35:00">May 05, 2015</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/finding-clients/#disqus_thread" data-disqus-identifier="finding-clients"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/pricing/">Pricing</a></h1>
                             </header>
                             <p>How to start charging for your work.</p>

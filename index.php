@@ -57,7 +57,32 @@
                             </h2><!-- .home-item-headline -->
                             <p class="home-item-description">The time has come for me to step away from Businessology.</p>
                         </article><!-- .home-item-article -->
+                    </li>
+                    <li class="home-item position3">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/articles/finding-clients/">
+                                    <img class="round-image" src="/articles/finding-clients/home-thumb.png" alt="" />
+                                    <span class="home-item-name">Finding Clients</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Like magnets and archaelogists.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position4">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/articles/pricing/">
+                                    <img class="round-image" src="/articles/pricing/home-thumb.png" alt="" />
+                                    <span class="home-item-name">Pricing</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">How to start charging for your work.</p>
+                        </article><!-- .home-item-article -->
                     </li>  
+
+                    <?php /* ?>
 
                     <li class="home-item position3">
                         <article class="home-item-article">
@@ -83,7 +108,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <?php /* ?>
+                    
 
                     <li class="home-item position4">
                         <article class="home-item-article">
