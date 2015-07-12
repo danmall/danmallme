@@ -58,7 +58,7 @@
 
 	<?php
 
-        echo readNext('How to Make a Performance Budget', '/articles/how-to-make-a-performance-budget/');
+        echo readNext('Pricing', '/articles/pricing/');
 
     ?>
 
