@@ -39,7 +39,7 @@
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/switch-creative-block/">
-                                    <img class="round-image" src="/articles/switch-creative-block/home-thumb.png" alt="" />
+                                    <img class="round-image" src="/articles/switch-creative-block/home-thumb2.png" alt="" />
                                     <span class="home-item-name">Switch</span>
                                 </a>
                             </h2><!-- .home-item-headline -->

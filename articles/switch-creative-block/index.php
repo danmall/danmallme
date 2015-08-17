@@ -17,7 +17,7 @@
     <meta property="og:title" content="Switch" />
     <meta property="og:description" content="Dealing with creative block."/>	
     <meta property="og:url" content="http://danielmall.com/articles/switch-creative-block/" />
-    <meta property="og:image" content="http://danielmall.com/articles/switch-creative-block/home-thumb.png" />
+    <meta property="og:image" content="http://danielmall.com/articles/switch-creative-block/home-thumb2.png" />
     
 </head>
 
@@ -42,11 +42,15 @@
 
             <p>One of the biggest factors that I&rsquo;ve seen lead to my own creative block is the lack of momentum. I might be working on a design or a piece of writing where nothing good is happening, and finally progress grinds to a halt.</p>
 
+            <img src="creative-block.svg" alt="Creative Block" />
+
             <p>Creation is about inertia. Like Newton&rsquo;s first law of motion, it&rsquo;s most difficult to make progress when none is being made, and it&rsquo;s easiest to make more progress when you&rsquo;re already on a roll.</p>
 
             <p>When you&rsquo;re stuck on a design, lots of people suggest getting away from your desk: take a walk, put on some music, watch some tv—essentially, take a break and come back. While it&rsquo;s great to be able to clear your mind, starting from scratch again makes it more difficult to create momentum. It&rsquo;s the difference between pushing a boulder that&rsquo;s already slowly rolling and trying to budge one that&rsquo;s standing still.</p>
 
             <p>My solution: work on at least two projects at the same time. Whenever I feel myself slowing down progress on project #1, I&rsquo;ll switch over to project #2. I get all the benefits of starting fresh on something new, but I still have the opportunity to continue whatever momentum I already have. Certainly, there&rsquo;s <a href="http://www.nytimes.com/2013/05/05/opinion/sunday/a-focus-on-distraction.html?_r=0">a toll to task-switching</a>, but I&rsquo;ve found it to be less costly than coming back to the boulder at a standstill.</p>
+
+            <img src="switch-point.svg" alt="Switch Point" />
 
             <p>Some examples of things to work on simultaneously:</p>
 
