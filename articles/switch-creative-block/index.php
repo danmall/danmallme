@@ -151,7 +151,7 @@
     	
     </div><!-- #wrap -->
 
-    <script src="/-/j/libs/jquery.lettering-0.6.1.min"></script>
+    <script src="/-/j/libs/jquery.lettering-0.6.1.min.js"></script>
     <script>
         $(document).ready(function() {
             $(".switch-title").lettering();
