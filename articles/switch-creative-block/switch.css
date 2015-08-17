@@ -1,5 +1,26 @@
 .vanilla .switch-title {
 	text-transform: uppercase;
-	letter-spacing: 0.3em;
+	/*letter-spacing: 0.3em;*/
 	font-family: 'PT Mono';
+	position: relative;
+	left: -0.15em;
+}
+
+.vanilla .switch-title span {
+	display: inline-block;
+	padding: 0 0.15em;
+}
+
+.vanilla .switch-title .flip {
+	perspective: 800px;
+	transform-style: preserve-3d;
+  	transition: transform 1s;
+  	transform: rotateY( 180deg );
+}
+
+.vanilla .switch-title .unflip {
+	perspective: 800px;
+	transform-style: preserve-3d;
+  	transition: transform 1s;
+  	transform: rotateY( 0deg );
 }

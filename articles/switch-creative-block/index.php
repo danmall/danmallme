@@ -30,6 +30,11 @@
 	    <section class="clearfix wrap vanilla">			
 			
 			<h1 class="article-header-title switch-title">Switch</h1>
+            <h2 class="article-header-subtitle">Dealing with creative block</h2>
+
+            <div class="margin-bottom">
+                <iframe src='https://spoken.co/t/2504893/embed' frameborder='0' width='100%' height='84' style='max-width:400px;'></iframe>
+            </div>
 			
 			<p>Anyone who creates anything faces it. It&rsquo;s inevitable, and part of the process. So, how do you face creative block head on?</p>
 
@@ -137,6 +142,70 @@
     	
     	
     </div><!-- #wrap -->
+
+    <script src="/-/j/libs/jquery.lettering-0.6.1.min"></script>
+    <script>
+        $(document).ready(function() {
+            $(".switch-title").lettering();
+            var toggle2 = true,
+                toggle3 = true,
+                toggle4 = true,
+                toggle6 = true;
+
+
+            // char2
+            window.setTimeout(function(){
+                setInterval(function(){
+                    if(toggle2){
+                        $('.switch-title .char2').removeClass('unflip').addClass('flip');
+                    }else{
+                        $('.switch-title .char2').removeClass('flip').addClass('unflip');
+                    }
+                    toggle2 = !toggle2;
+                }, 3000);
+            }, 0);
+
+
+            // char3
+            window.setTimeout(function(){
+                setInterval(function(){
+                    if(toggle3){
+                        $('.switch-title .char3').removeClass('unflip').addClass('flip');
+                    }else{
+                        $('.switch-title .char3').removeClass('flip').addClass('unflip');
+                    }
+                    toggle3 = !toggle3;
+                }, 2000);
+            }, 4000);
+
+            // char4
+            window.setTimeout(function(){
+                setInterval(function(){
+                    if(toggle4){
+                        $('.switch-title .char4').removeClass('unflip').addClass('flip');
+                    }else{
+                        $('.switch-title .char4').removeClass('flip').addClass('unflip');
+                    }
+                    toggle4 = !toggle4;
+                }, 2900);
+            }, 1000);
+
+            // char6
+            window.setTimeout(function(){
+                setInterval(function(){
+                    if(toggle6){
+                        $('.switch-title .char6').removeClass('unflip').addClass('flip');
+                    }else{
+                        $('.switch-title .char6').removeClass('flip').addClass('unflip');
+                    }
+                    toggle6 = !toggle6;
+                }, 2500);
+            }, 500);
+
+            
+
+        });
+    </script>
     
 	
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/close.php"); echo "\n"; ?>
