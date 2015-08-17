@@ -27,6 +27,18 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/switch-creative-block/">Switch</a></h1>
+                            </header>
+                            <p>Dealing with creative block.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/switch-creative-block/"><time datetime="2015-08-16T20:40:00">Aug 16, 2015</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/switch-creative-block/#disqus_thread" data-disqus-identifier="switch-creative-block"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/day-one-with-android/">Day One With Android</a></h1>
                             </header>
                             <p>After nine years of using iOS1 &ndash; iOS7 across iPhones 1 &ndash; 6, I&rsquo;m switching to Android to gain a new perspective.</p>
