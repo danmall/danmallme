@@ -65,6 +65,10 @@
             <p>Your mileage may vary, but consider giving this a try next time you&rsquo;re feeling stuck.</p>
             
             <p>How do you deal with creative block?</p>
+
+            <footer class="footnote">
+                <p>Also published on <a href="https://medium.com/@danielmall/switch-928f791e2591">Medium</a>.</p>
+            </footer><!-- .footnote -->
 			
 	    </section><!-- .vanilla -->	  	
 	    
