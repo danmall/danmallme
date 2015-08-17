@@ -15,7 +15,7 @@
 
 	<!-- Facebook -->
     <meta property="og:title" content="Switch" />
-    <meta property="og:description" content="Dealing with creative block."/>	
+    <meta property="og:description" content="Dealing with creative block." />	
     <meta property="og:url" content="http://danielmall.com/articles/switch-creative-block/" />
     <meta property="og:image" content="http://danielmall.com/articles/switch-creative-block/home-thumb2.png" />
     
