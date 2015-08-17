@@ -2,7 +2,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head profile="http://gmpg.org/xfn/11">
     <title>&ldquo;Switch,&rdquo; an article by Dan Mall</title>
-    <meta name="description" content="On Creative Direction" />
+    <meta name="description" content="Dealing with creative block" />
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
     
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
