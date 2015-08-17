@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2015</dc:rights>
-    <pubDate>Sun, 12 Jul 2015 07:27:00 GMT</pubDate>
+    <pubDate>Sun, 16 Aug 2015 20:40:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Switch</title>
+        <description>Dealing with creative block.</description>
+        <link>http://danielmall.com/articles/switch-creative-block/</link>
+        <guid>http://danielmall.com/articles/switch-creative-block/</guid>
+        <pubDate>Sun, 16 Aug 2015 20:40:00 GMT</pubDate>
+    </item>
     <item>
         <title>Day One Without an iPhone</title>
         <description>After nine years of using iOS1-iOS7 across iPhones 1-6, I'm switching to Android to gain a new perspective.</description>
