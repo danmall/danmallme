@@ -38,6 +38,18 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/switch-creative-block/">
+                                    <img class="round-image" src="/articles/switch-creative-block/home-thumb.png" alt="" />
+                                    <span class="home-item-name">Switch</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Dealing with creative block.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/day-one-with-android/">
                                     <img class="round-image" src="/articles/day-one-with-android/home-thumb.jpg" alt="" />
                                     <span class="home-item-name">Day One With Android</span>
@@ -47,7 +59,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/finished-businessology/">
@@ -58,7 +70,7 @@
                             <p class="home-item-description">The time has come for me to step away from Businessology.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/finding-clients/">
@@ -69,6 +81,8 @@
                             <p class="home-item-description">Like magnets and archaelogists.</p>
                         </article><!-- .home-item-article -->
                     </li>
+
+                    <?php /* ?>
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -82,7 +96,7 @@
                         </article><!-- .home-item-article -->
                     </li>  
 
-                    <?php /* ?>
+                    
 
                     <li class="home-item position3">
                         <article class="home-item-article">

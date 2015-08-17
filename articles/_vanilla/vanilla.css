@@ -3,6 +3,7 @@
 .vanilla { width: 94%; margin: 0 auto; padding: 8em 0; font-family: 'Source Serif Pro', serif; }
 	.vanilla h1, .vanilla h2 { font-family: 'Karla', sans-serif; font-weight: bold; }
 	.vanilla h2 { font-size: 24px; }
+	.vanilla h1 + h2 { margin: -1.25em 0 2em; }
 	.vanilla p { font-size: 18px; color: #333; color: #444; line-height: 1.6;}
 	.vanilla em { font-family: Georgia, 'Times New Roman', serif; } /* yuck */
 	.vanilla ul, .vanilla ol { font-size: 16px; color: #333; color: #444; }
@@ -22,6 +23,8 @@
 	.vanilla .footnote a { color: #666; }
 
 	.vanilla .clear { clear: both; }
+
+	.vanilla .margin-bottom { margin-bottom: 1.5em; }
 			
 		
 .vanilla ::selection { background: #585858; color: #fff; }
