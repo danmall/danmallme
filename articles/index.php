@@ -27,6 +27,18 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/time-for-work/">Time for Work</a></h1>
+                            </header>
+                            <p>What&rsquo;s the minimum amount of time we should be working per week?</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/time-for-work/"><time datetime="2015-09-20T22:00:00">Sep 20, 2015</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/time-for-work/#disqus_thread" data-disqus-identifier="time-for-work"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/switch-creative-block/">Switch</a></h1>
                             </header>
                             <p>Dealing with creative block.</p>

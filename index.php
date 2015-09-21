@@ -38,6 +38,18 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/time-for-work/">
+                                    <img class="round-image" src="/articles/time-for-work/home-thumb.jpg" alt="" />
+                                    <span class="home-item-name">Time for Work</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">What&rsquo;s the minimum amount of time we should be working per week?</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/switch-creative-block/">
                                     <img class="round-image" src="/articles/switch-creative-block/home-thumb2.png" alt="" />
                                     <span class="home-item-name">Switch</span>
@@ -47,7 +59,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/day-one-with-android/">
@@ -59,7 +71,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/finished-businessology/">
@@ -70,6 +82,9 @@
                             <p class="home-item-description">The time has come for me to step away from Businessology.</p>
                         </article><!-- .home-item-article -->
                     </li>
+
+                    <?php /* ?>
+
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -82,7 +97,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <?php /* ?>
+                    
 
                     <li class="home-item position4">
                         <article class="home-item-article">

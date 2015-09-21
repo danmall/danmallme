@@ -1,0 +1,63 @@
+.article-title-area {
+	background: transparent url(assembly-line.jpg) no-repeat 50% 0;
+	background-size: cover;
+	height: 250px;
+	margin: 0;
+	position: relative;
+}
+	.article-header-title {
+		color: #fff;
+		font: bold 40px 'Karla', sans-serif;		
+		line-height: 1.2; 
+		letter-spacing: -1px;
+		margin: 0 0 0.05em;
+	}
+
+	.article-title-group {
+		bottom: 4em;
+		position: absolute;
+	}
+
+		.article-title-group p {
+			color: #fff;
+			font-size: 13px;
+			font-family: 'Karla', sans-serif;
+			line-height: 1.2; 
+			margin: 0 0 1em;
+		}
+
+		.article-title-group a {
+			color: #fff;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+		}
+
+		.article-title-group a:hover,
+		.article-title-group a:focus {
+			background: #fff;
+			color: #000;
+			border-bottom: 1px solid rgba(255, 255, 255, 1);
+		}
+
+#article-area-wrap .wrap {
+	max-width: 650px;
+}
+
+.vanilla {
+	padding-top: 3em;
+}
+
+@media screen and (min-width: 600px){
+
+	.article-title-area {
+		height: 400px;
+	}
+
+	.article-header-title {
+		font-size: 60px;
+	}
+
+	.article-title-group p {
+		font-size: 16px;
+	}
+
+}
