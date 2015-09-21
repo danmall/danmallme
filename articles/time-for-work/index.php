@@ -35,7 +35,11 @@
             </div><!-- .wrap -->
         </div><!-- .article-title-area -->
 			
-	    <section class="clearfix wrap vanilla">			
+	    <section class="clearfix wrap vanilla">		
+
+            <div class="margin-bottom">
+                <iframe src="https://spoken.co/t/2508725/embed" frameborder="0" width="100%" height="84" style="max-width:400px;"></iframe>	
+            </div><!-- .margin-bottom -->
 			
 			<p>My apprentices and I were reviewing their work schedules when it struck me: are they putting in enough time? How much time is &ldquo;enough time?&rdquo;</p>
 
