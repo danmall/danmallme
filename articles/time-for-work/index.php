@@ -74,10 +74,11 @@
             </ul>
 
 
-
+            <?php /* ?>
             <footer class="footnote">
                 <p>Also published on <a href="https://medium.com/@danielmall/switch-928f791e2591">Medium</a>.</p>
             </footer><!-- .footnote -->
+            <?php */ ?>
 			
 	    </section><!-- .vanilla -->	  	
 	    
