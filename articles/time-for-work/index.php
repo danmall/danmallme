@@ -16,7 +16,7 @@
     <meta property="og:title" content="Time for Work" />
     <meta property="og:description" content="What&rsquo;s the minimum amount of time we should be working per week?" />	
     <meta property="og:url" content="http://danielmall.com/articles/time-for-work/" />
-    <meta property="og:image" content="http://danielmall.com/articles/time-for-work/home-thumb2.png" />
+    <meta property="og:image" content="http://danielmall.com/articles/time-for-work/home-thumb.jpg" />
     
 </head>
 
