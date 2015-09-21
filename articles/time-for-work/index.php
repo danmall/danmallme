@@ -73,12 +73,10 @@
                 <li><a href="http://www.lostgarden.com/2008/09/rules-of-productivity-presentation.html">Rules of Productivity Presentation</a> by Daniel Cook</li>
             </ul>
 
-
-            <?php /* ?>
             <footer class="footnote">
-                <p>Also published on <a href="https://medium.com/@danielmall/switch-928f791e2591">Medium</a>.</p>
+                <p>Also published on <a href="https://medium.com/@danielmall/time-for-work-20004ca17ee4">Medium</a>.</p>
             </footer><!-- .footnote -->
-            <?php */ ?>
+            
 			
 	    </section><!-- .vanilla -->	  	
 	    
