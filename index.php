@@ -470,6 +470,7 @@
         </section><!-- /#work -->
 
 
+        <?php /* ?>
 		<section id="dribbble" class="home-row">
 
 			<div class="inner">
@@ -483,7 +484,7 @@
 						/*
 							http://martinbean.github.com/dribbble-php/
 							https://github.com/martinbean/dribbble-php
-						*/
+						*//*
 
 						//require 'php/dribbble.php';
 						require($_SERVER["DOCUMENT_ROOT"]."/php/dribbble.php");
@@ -535,6 +536,8 @@
 			</div><!-- .inner -->
 
 		</section><!-- #dribbble -->
+        <?php */ ?>
+
     <?php /* ?>
     <script>document.write('<section id="tweet" class="home-row"><div class="inner"><h1 class="phark">Latest Tweets</h1><div id="tweets">');</script>
 		<script>
