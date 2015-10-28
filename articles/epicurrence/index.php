@@ -117,7 +117,7 @@
         <section class="inner">
 
           <footer class="footnote">
-              <p>This post was also published on <a href="#">Medium</a>. If this was all too heavy and you&rsquo;d prefer a lighter, more photographic version, allow me to point you over to <a href="https://danielmall.exposure.co/epicurrence-2">Exposure</a>.</p>
+              <p>This post was also published on <a href="https://medium.com/@danielmall/epicurrence-1ec5b20e6b91#.edx5p54vk">Medium</a>. If this was all too heavy and you&rsquo;d prefer a lighter, more photographic version, allow me to point you over to <a href="https://danielmall.exposure.co/epicurrence-2">Exposure</a>.</p>
           </footer><!-- .footnote -->
 
         </section><!-- .inner -->
