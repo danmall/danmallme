@@ -2,7 +2,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head profile="http://gmpg.org/xfn/11">
   <title>&ldquo;Epicurrence,&rdquo; an article by Dan Mall</title>
-  <meta name="description" content="The time has come for me to step away from Businessology." />
+  <meta name="description" content="Epicurrence was the most beautiful, energizing, comfortable, and relaxing uncomfortable experience I've had in a long time." />
   <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
 
   <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
@@ -13,9 +13,9 @@
 
   <!-- Facebook -->
   <meta property="og:title" content="Epicurrence" />
-  <meta property="og:description"content="The time has come for me to step away from Businessology."/>
-  <meta property="og:url" content="http://danielmall.com/articles/finished-businessology/" />
-  <meta property="og:image" content="http://danielmall.com/articles/businessology-roadshow/home-thumb.png" />
+  <meta property="og:description"content="Epicurrence was the most beautiful, energizing, comfortable, and relaxing uncomfortable experience I've had in a long time."/>
+  <meta property="og:url" content="http://danielmall.com/articles/epicurrence/" />
+  <meta property="og:image" content="http://danielmall.com/articles/epicurrence/logo.svg" />
 
 </head>
 
