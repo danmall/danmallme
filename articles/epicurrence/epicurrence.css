@@ -10,7 +10,7 @@
 			#epicurrence li { margin-bottom: 0.7em; }
 		#epicurrence img { float: none; margin: 0; }
 		#epicurrence a { color: #499cac; }
-		#epicurrence a:hover, #epicurrence a:focus { color: #fff; border-bottom: 2px solid #000; background: #499cac;}
+		#epicurrence a:hover, #epicurrence a:focus { color: #fff; border-bottom: 2px solid #000; background: #499cac;}	
 
 		#epicurrence .logo-box { max-width: 800px; margin: 0 auto; }
 			#epicurrence .epic-logo { width: 200px; float: none; }
@@ -31,6 +31,7 @@
 		.wf-futurapt-i4-active #epicurrence ul { font: 17px/1.8 'futura-pt'; }
 		.wf-futurapt-i4-active #epicurrence ul { font-size: 16px; line-height: 2; }
 		.wf-alternategothicno3d-n4-active #epicurrence .article-title { font-size: 60px; margin: 0; }
+		.wf-futurapt-i7-active #epicurrence .intro { font-weight: 700; }
 
 		#epicurrence .footnote p { font-size: 90%; }
 
