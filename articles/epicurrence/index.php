@@ -34,7 +34,7 @@
 
         <section class="chunk inner">
 
-          <p><a href="https://www.epicurrence.com/">Epicurrence</a> was the most beautiful, energizing, comfortable, and relaxing <em>uncomfortable</em> experience I&rsquo;ve had in a long time.</p>
+          <p class="intro"><a href="https://www.epicurrence.com/">Epicurrence</a> was the most beautiful, energizing, comfortable, and relaxing <em>uncomfortable</em> experience I&rsquo;ve had in a long time.</p>
 
           <p>I&rsquo;ve been attending and speaking at design conferences for over a decade now, so I feel like I have the rhythm down: a full day of sessions of varying value, usually 9ish to 5ish, with a few hours before and after to catch some sights and meals with new friends you&rsquo;ve just made. But the beauty of Epicurrence is that every detail was designed. By a designer. And a damn good one at that.</p>
 
