@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2015</dc:rights>
-    <pubDate>Sun, 20 Sep 2015 22:00:00 GMT</pubDate>
+    <pubDate>Wed, 28 Oct 2015 02:10:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Epicurrence</title>
+        <description>Epicurrence was the most beautiful, energizing, comfortable, and relaxing uncomfortable experience I've had in a long time.</description>
+        <link>http://danielmall.com/articles/epicurrence/</link>
+        <guid>http://danielmall.com/articles/epicurrence/</guid>
+        <pubDate>Wed, 28 Oct 2015 02:10:00 GMT</pubDate>
+    </item>
     <item>
         <title>Time for Work</title>
         <description>What's the minimum amount of time we should be working per week?</description>
