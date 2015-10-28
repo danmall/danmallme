@@ -78,7 +78,17 @@
 
         </section><!-- .chunk -->
 
-        <section class="chunk inner">
+        <div class="photo-box photo-box-right clearfix">
+
+          <img class="photo-box-image" src="lost.jpg" alt="" />
+
+          <blockquote class="photo-box-quote">
+            <p><span class="letter-block">I almost missed it because I was too comfortable being uncomfortable.</span></p>
+          </blockquote>
+
+        </div><!-- .photo-box-left -->
+
+        <section class="chunk inner sep">
 
           <p>So I surfed. </p>
 
@@ -90,7 +100,7 @@
 
         </section><!-- .chunk -->
 
-        <section class="inner">
+        <section class="inner sep">
 
           <p>Despite its low-key facade, Epicurrence was an incredibly deep and exploratory adventure for me, both internally and externally. Dann, I&rsquo;m not sure if you know what you&rsquo;re on to or if this was all part of your master plan, but, from the bottom of my heart, thank you.</p>
 
@@ -102,8 +112,12 @@
             <li><a href="https://medium.com/@tobygrubb/stop-attending-conferences-8d4f6de09bd8#.wf4o67eu5">How do you get inspired? Do you attend a conference? Listen to a speech? Go surfing? We say: do it all.</a>, by Toby Grubb</li>
           </ul>
 
+        </section><!-- .sep -->
+
+        <section class="inner">
+
           <footer class="footnote">
-              <p>Also published on <a href="#">Medium</a>. If this was all too heavy and you&rsquo;d prefer a lighter, more photographic version, allow me to point you over to <a href="#">Exposure</a>.</p>
+              <p>This post was also published on <a href="#">Medium</a>. If this was all too heavy and you&rsquo;d prefer a lighter, more photographic version, allow me to point you over to <a href="#">Exposure</a>.</p>
           </footer><!-- .footnote -->
 
         </section><!-- .inner -->
@@ -162,7 +176,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2015-07-03T14:00:00">Published July 3, 2015 at 2:00 <abbr title="Post Meridian">PM</abbr></time>
+        	        <time datetime="2015-07-03T14:00:00">Published Oct 28, 2015 at 2:10 <abbr title="Ante Meridian">AM</abbr></time>
     	        </section><!-- /.article-info -->
 
 
