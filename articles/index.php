@@ -24,6 +24,18 @@
 
             	<ol class="article-list articles no-marker">
 
+                  <li>
+                        <article>
+                            <header>
+                                <h1><a href="/articles/epicurrence/">Epicurrence</a></h1>
+                            </header>
+                            <p>Epicurrence was the most beautiful, energizing, comfortable, and relaxing uncomfortable experience I&rsquo;ve had in a long time.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/epicurrence/"><time datetime="2015-10-28T02:10:00">Oct 28, 2015</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/epicurrence/#disqus_thread" data-disqus-identifier="epicurrence"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
                     <li>
                         <article>
                             <header>
