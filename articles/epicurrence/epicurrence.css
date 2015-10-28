@@ -1,6 +1,6 @@
-#article-area-wrap { background: #eee url(top-brush.jpg) no-repeat 50% 0; color: #323232; font: normal 15px/1.6 Verdana, Helvetica, Arial, sans-serif; padding: 6em 0 5em; }
+#article-area-wrap { background: #eee url(top-brush.jpg) no-repeat 50% 0; color: #323232; font: normal 15px/1.6 Verdana, Helvetica, Arial, sans-serif; padding: 4em 0 5em; }
 
-	#epicurrence { /*max-width: 650px; margin: 0 auto;*/ }
+	#epicurrence { /*max-width: 650px; margin: 0 auto;*/ max-width: 95%; width: 95%; margin: 0 auto; }
 
 		#epicurrence .inner { max-width: 650px; margin: 0 auto; }
 		
@@ -8,18 +8,28 @@
 		#epicurrence p { font-size: 14px; line-height: 1.8; color: #323232; }		
 		#epicurrence ul { margin-left: 15px; list-style-type: square; font-size: 13px; line-height: 1.8; }
 			#epicurrence li { margin-bottom: 0.7em; }
+		#epicurrence img { float: none; margin: 0; }
 		#epicurrence a { color: #499cac; }
 		#epicurrence a:hover, #epicurrence a:focus { color: #499cac; }
 
-		#epicurrence .article-title { text-transform: uppercase; }
-		#epicurrence .chunk:after { content: ""; display: block; width: 39px; height: 5px; background: #000; margin: 3em 0; }
+		#epicurrence .logo-box { max-width: 800px; margin: 0 auto; }
+			#epicurrence .epic-logo { width: 200px; float: none; }
+			#epicurrence .article-title { text-transform: uppercase; }
+		#epicurrence .chunk:after { content: ""; display: block; /*width: 39px; height: 5px; background: #000; *//*margin: 3em 0;*/ }
+		#epicurrence .photo-box { margin: 0 auto 2em; /*width: 95%;*/ }
+			#epicurrence .photo-box-image { margin-bottom: 0.5em; }
+			#epicurrence .photo-box-quote { background: none; padding: 0; }
+			.letter-block { background: #000; color: #fff; padding: 0.1em; }
+			.wf-alternategothicno3d-n4-active #epicurrence .photo-box-quote p { font: normal 30px/1.1 "alternate-gothic-no-3-d"; text-transform: uppercase; margin: 0; }
 
 
 		.wf-alternategothicno3d-n4-active #epicurrence h1,
 		.wf-alternategothicno3d-n4-active #epicurrence h2 { font-family: "alternate-gothic-no-3-d"; }
+		.wf-alternategothicno3d-n4-active #epicurrence h2 { font-size: 26px; }
 		.wf-futurapt-i4-active #epicurrence p,
 		.wf-futurapt-i4-active #epicurrence ul { font: 17px/1.8 'futura-pt'; }
 		.wf-futurapt-i4-active #epicurrence ul { font-size: 16px; line-height: 2; }
+		.wf-alternategothicno3d-n4-active #epicurrence .article-title { font-size: 60px; margin: 0; }
 
 		@media screen and (min-width: 540px){
 			#epicurrence p { line-height: 2; }
@@ -29,9 +39,23 @@
 			#epicurrence .article-title { font-size: 50px; }
 		}
 
+		@media screen and (min-width: 830px){
+			#epicurrence .epic-logo { float: left; margin-bottom: 2em; }
+			.wf-alternategothicno3d-n4-active #epicurrence .article-title { font-size: 130px; }
+		}
+
 		@media screen and (min-width: 860px){
 			#epicurrence .article-title { font-size: 90px; margin: 0; }
 		}
+
+		@media screen and (min-width: 930px){ 
+			#epicurrence .photo-box { margin-bottom: 4em; position: relative;}
+			#epicurrence .photo-box:before { content: ""; display: block; width: 40px; height: 5px; background: #000; position: absolute; left: 3%; top: 15px; z-index: 2; }
+				#epicurrence .photo-box-image { width: 60%; float: left; position: relative; left: 5%; z-index: 1; }
+				#epicurrence .photo-box-quote { width: 60%; position: absolute; right: 0; bottom: -1.5em; z-index: 2; }
+					.wf-alternategothicno3d-n4-active #epicurrence .photo-box-quote p { font-size: 50px; line-height: 1.1; }
+		}
+
 
 
 #epicurrence ::selection { background: #292829; color: #fff; }
