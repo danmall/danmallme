@@ -27,7 +27,10 @@
 
 	    <section id="epicurrence" class="clearfix wrap hentry">
 
-        <h1 class="article-title">Epicurrence</h1>
+        <div class="clearfix logo-box">
+          <img class="epic-logo" src="logo.svg" alt="" />
+          <h1 class="article-title">Epicurrence</h1>
+        </div><!-- .clearfix -->
 
         <section class="chunk inner">
 
@@ -37,7 +40,7 @@
 
           <p>I can&rsquo;t say enough good things about <a href="https://twitter.com/dannpetty">Dann Petty</a>, Epicurrence&rsquo;s producer, director, and creator. I&rsquo;m not sure if Dann envisioned every little amazing detail or if he just got lucky in the way it came together, but he totally got it right. I overheard him say that our industry works really hard together, so we deserve to play hard together too. The format of Epicurrence was flipped from a traditional conference: instead of talks during the day and extracurriculars outside of that, all the talks/panels happened from 8am &ndash; 10am or 6pm &ndash; 10pm. From 10am to 5pm, your time was your own to group up and enjoy being in Hawaii. </p>
 
-          <p>The calm and beauty of Oahu can&rsquo;t be understated. It&rsquo;s a long trip from Philly, which has always made me skeptical of the value of the trip. But Epicurrence was the perfect excuse to travel 5,000 miles to see for myself. The tranquility wasn&rsquo;t immediately apparent upon arriving at a fairly municipal Honolulu Airport, but every minute of the hour drive to the North Shore revealed more lush greenery and majestic mountains. Upon arriving at the amazing <a href="https://us.billabong.com/blog/post/take-a-tour-of-the-billabong-hawaii-house">Billabong House</a> (where the majority of the conference was held), I was completely ready for a week of stress-free relaxation.</p>
+          <p>The calm and beauty of Oahu can&rsquo;t be understated. It&rsquo;s a long trip from Philly, which has always made me skeptical of the value of the trek. But Epicurrence was the perfect excuse to travel 5,000 miles to see for myself. The tranquility wasn&rsquo;t immediately apparent upon arriving at a fairly municipal Honolulu Airport, but every minute of the hour drive to the North Shore revealed more lush greenery and majestic mountains. Upon arriving at the amazing <a href="https://us.billabong.com/blog/post/take-a-tour-of-the-billabong-hawaii-house">Billabong House</a> (where the majority of the conference was held), I was completely ready for a week of stress-free relaxation.</p>
 
           <p>And yet, as much as I was relaxed, I was just as uneasy the whole time. </p>
 
@@ -47,13 +50,23 @@
             <li>The premise of this edition of Epicurrence in Hawaii revolved around surfing. I don&rsquo;t know how to swim. Though I was honored and excited to be invited&mdash;especially after reading some <a href="http://philcoffman.com/epicurrence">amazing</a> <a href="http://mds.is/daydreaming-of-epicurrence/">recounts</a> and <a href="http://gallery.epicurrence.com/">images</a> of the first version&mdash;I was equally insecure and embarrassed of being alone checking email on the shore while everyone else caught some choice waves. As a kid, I always weaseled my way out of going to summer camp because I didn&rsquo;t want the other kids to make fun of me for not knowing how to swim, and this North Shore summer camp for adults dredged those feelings up nice and good.</li>
             <li>Race is always an easy go-to minority designation for me. As a pretty unique mix&mdash;half-Pakistani, half-Filipino&mdash;I&rsquo;m under no illusion that I&rsquo;ll find other Pakipinos (that&rsquo;s right) wherever I am unless my brother&rsquo;s around. That said, of the seventy-some people in attendance, it was glaringly obvious that there were only a handful of us with slightly more pigment in our skin than others.</li>
             <li>Most of the attendees came from the Bay Area. That&rsquo;s not accidental; a lot of the topics and conversations this event was designed for are well-suited to that demographic. But as a lifelong East-Coaster, certain conversations were straight-up culture shock. For example, <a href="https://twitter.com/jaredfitch">Jared Fitch</a> spent some time talking to us about all the cool things that <a href="http://www.vivintsolar.com/">Vivint Solar</a> is doing. When my wife and I responded to Jared&rsquo;s prompting that we often pay hundreds of dollars a month to heat our house in the Pennsylvania winter, there was an audible gasp in the crowd, revealing just how different some of our lives are.</li>
-            <li>A good majority of attendees worked as product designers at companies like Twitter, Facebook, OpenTable, Dropbox, and the like. I&rsquo;ve never worked at a product company.</li>
+            <li>A good majority of attendees worked as product designers at companies like Twitter, Facebook, Airbnb, Dropbox, and the like. I&rsquo;ve never worked at a product company.</li>
             <li>Lots of attendees were fairly young in age and career path. While I&rsquo;m no veteran, I&rsquo;m not exactly a spring chicken either.</li>
           </ul>
 
           <p>The list goes on. In fact, a lot of the event content focused both directly and indirectly on minority groups in our work. Jessica Collier wrote specifically about <a href="https://medium.com/@verbagetruck/discomfort-zone-talking-diversity-at-epicurrence-ba77fda4a784#.anhvapq6x">the discomfort of a women&rsquo;s panel</a> that happened on the second night. After it didn&rsquo;t come up organically in a discussion about how separate disciplines at Dropbox figured out how to work well together, <a href="https://twitter.com/donovanxdb">Donovan Bass</a> volunteered his willingness to talk about his experiences as a minority in tech, and a panel that was just about to wrap up was immediately extended by 45 minutes. The desire for discussion around this topic was palpable. </p>
 
         </section><!-- .chunk -->
+
+        <div class="photo-box photo-box-left clearfix">
+
+          <img class="photo-box-image" src="dropbox.jpg" alt="" />
+
+          <blockquote class="photo-box-quote">
+            <p><span class="letter-block">It was the first time I really thought about the benefits of being a minority.</span></p>
+          </blockquote>
+
+        </div><!-- .photo-box-left -->
 
         <section class="chunk inner">
 
