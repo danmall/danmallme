@@ -14,8 +14,8 @@
 	<!-- Facebook -->
     <meta property="og:title" content="I don&rsquo;t have time" />
     <meta property="og:description" content="That magical phrase that gives you permission to brush off the things you really want to do."/>	
-    <meta property="og:url" content="http://danielmall.com/articles/on-creative-direction/" />
-    <meta property="og:image" content="http://danielmall.com/articles/on-creative-direction/home-thumb.png" />
+    <meta property="og:url" content="http://danielmall.com/articles/i-dont-have-time/" />
+    <meta property="og:image" content="http://danielmall.com/articles/i-dont-have-time/home-thumb.svg" />
     
 </head>
 
