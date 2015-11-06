@@ -51,11 +51,9 @@
 
             <p>It&rsquo;s different for everyone, and priorities change daily, hourly. But thinking about it this way puts me in the driver&rsquo;s seat and makes me conscious of how I&rsquo;m shaping my own life. We all have the same amount of time and can&rsquo;t make more of it, but we can be active about how we use the time we have.</p>
 
-            <?php /* ?>
             <footer class="footnote">
-                <p>Also published on <a href="https://medium.com/@danielmall/switch-928f791e2591">Medium</a>.</p>
+                <p>Also published on <a href="https://medium.com/@danielmall/i-don-t-have-time-c914c9e93d2a">Medium</a>.</p>
             </footer><!-- .footnote -->
-            <?php */ ?>
 			
 	    </section><!-- .vanilla -->	  	
 	    
