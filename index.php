@@ -38,6 +38,18 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/i-dont-have-time/">
+                                    <img class="round-image" src="/articles/i-dont-have-time/home-thumb.svg" alt="" />
+                                    <span class="home-item-name">I don&rsquo;t have time</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">That magical phrase that gives you permission to brush off the things you really want to do.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/epicurrence/">
                                     <img class="round-image" src="/articles/epicurrence/logo.svg" alt="" />
                                     <span class="home-item-name">Epicurrence</span>
@@ -47,7 +59,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/time-for-work/">
@@ -59,7 +71,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/switch-creative-block/">
@@ -70,6 +82,8 @@
                             <p class="home-item-description">Dealing with creative block.</p>
                         </article><!-- .home-item-article -->
                     </li>
+
+                    <?php /* ?>
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -83,7 +97,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <?php /* ?>
+                    
 
                     <li class="home-item position4">
                         <article class="home-item-article">
