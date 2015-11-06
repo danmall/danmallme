@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2015</dc:rights>
-    <pubDate>Wed, 28 Oct 2015 02:10:00 GMT</pubDate>
+    <pubDate>Fri, 06 Nov 2015 07:06:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>I don't have time</title>
+        <description>That magical phrase that gives you permission to brush off the things you really want to do.</description>
+        <link>http://danielmall.com/articles/i-dont-have-time/</link>
+        <guid>http://danielmall.com/articles/i-dont-have-time/</guid>
+        <pubDate>Fri, 06 Nov 2015 07:06:00 GMT</pubDate>
+    </item>
     <item>
         <title>Epicurrence</title>
         <description>Epicurrence was the most beautiful, energizing, comfortable, and relaxing uncomfortable experience I've had in a long time.</description>
