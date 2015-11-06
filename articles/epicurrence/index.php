@@ -110,6 +110,7 @@
             <li><a href="https://medium.com/@verbagetruck/discomfort-zone-talking-diversity-at-epicurrence-ba77fda4a784#.bqaa9dc74">Make Me Uncomfortable: The Discomfort Zone at Epicurrence</a>, by Jessica Collier</li>
             <?php /* ?><li><a href="https://in.invisionapp.com/boards/49ERL05V6Q8G/#/688932">Epicurrence No. 2</a>, by Aaron Stump</li><?php */ ?>
             <li><a href="https://medium.com/@tobygrubb/stop-attending-conferences-8d4f6de09bd8#.wf4o67eu5">How do you get inspired? Do you attend a conference? Listen to a speech? Go surfing? We say: do it all.</a>, by Toby Grubb</li>
+            <li><a href="http://www.averbs.com/aloha-epicurrence-no-2/">Aloha Epicurrence No. 2</a>, by Andrew Verboncouer</li>
           </ul>
 
         </section><!-- .sep -->
