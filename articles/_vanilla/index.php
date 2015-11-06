@@ -42,6 +42,10 @@
 				<li>Something new here</li>
 				<li>Something new here</li>
 			</ul>
+
+            <footer class="footnote">
+                <p>Also published on <a href="https://medium.com/@danielmall/switch-928f791e2591">Medium</a>.</p>
+            </footer><!-- .footnote -->
 			
 	    </section><!-- .vanilla -->	  	
 	    
