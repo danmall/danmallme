@@ -111,6 +111,7 @@
             <?php /* ?><li><a href="https://in.invisionapp.com/boards/49ERL05V6Q8G/#/688932">Epicurrence No. 2</a>, by Aaron Stump</li><?php */ ?>
             <li><a href="https://medium.com/@tobygrubb/stop-attending-conferences-8d4f6de09bd8#.wf4o67eu5">How do you get inspired? Do you attend a conference? Listen to a speech? Go surfing? We say: do it all.</a>, by Toby Grubb</li>
             <li><a href="http://www.averbs.com/aloha-epicurrence-no-2/">Aloha Epicurrence No. 2</a>, by Andrew Verboncouer</li>
+            <li><a href="https://medium.com/@DannPetty/epicurrence-dreaming-huge-inspiration-and-adventure-the-art-of-the-conference-5226c907764e">Epicurrence: Dreaming Huge, Inspiration, and Adventure. The Art of the Conference</a>, by Dann Petty</li>
           </ul>
 
         </section><!-- .sep -->
