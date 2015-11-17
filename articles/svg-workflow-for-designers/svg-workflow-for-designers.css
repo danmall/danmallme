@@ -13,6 +13,8 @@
 	#svg-workflow-for-designers a { color: #ff6d01; border: none; text-decoration: none; }
 	#svg-workflow-for-designers a:hover, #svg-workflow-for-designers a:focus { background: #ff6d01; color: #fff; }
 
+	#svg-workflow-for-designers .update { border: 1px solid #f1e1a2; background: #fffcc4; padding: 2em 2em 0; margin: 0 0 3em; }
+
 	#svg-workflow-for-designers samp { color: #58c0f1; }
 
 	#svg-workflow-for-designers .sep { border: none; border-top: 1px solid #ccc; margin: 0 0 3em; }
