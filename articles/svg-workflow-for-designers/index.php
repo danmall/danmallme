@@ -27,7 +27,11 @@
 
 			<h1><img src="svg.svg" class="svg-logo" /> Workflow for Designers</h1>
 
-			<hr class="sep" />
+			<?php /* ?><hr class="sep" /><?php */ ?>
+
+			<section class="update">
+                <p><strong>Update:</strong> Sara Soueidan has written <a href="http://sarasoueidan.com/blog/svg-tips-for-designers/">a much better article</a> for creating and exporting <abbr title="Scalable Vector Graphics">SVG</abbr>s for the web. Thanks Sara!</p>
+            </section><!-- .update -->
 			
 			<p>I&rsquo;m currently working on no shortage of responsive projects, all of which have great need for resolution-independent imagery. Since all the cool kids are going the <abbr title="Scalable Vector Graphics">SVG</abbr> route, I figured I&rsquo;d try my hand at it too. I seem to have arrived at a decent workflow for creating quick vector assets with really small file sizes. If anything, I&rsquo;m just writing this down so I can remember it for next time. </p>
 
