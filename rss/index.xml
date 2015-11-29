@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2015</dc:rights>
-    <pubDate>Fri, 06 Nov 2015 07:06:00 GMT</pubDate>
+    <pubDate>Sun, 29 Nov 2015 14:56:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Interviewing Designers</title>
+        <description>Some tips on making the right hire.</description>
+        <link>http://danielmall.com/articles/interviewing-designers/</link>
+        <guid>http://danielmall.com/articles/interviewing-designers/</guid>
+        <pubDate>Sun, 29 Nov 2015 14:56:00 GMT</pubDate>
+    </item>
     <item>
         <title>I don't have time</title>
         <description>That magical phrase that gives you permission to brush off the things you really want to do.</description>
