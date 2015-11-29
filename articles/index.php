@@ -24,6 +24,18 @@
 
                 <ol class="article-list articles no-marker">
 
+                    <li>
+                        <article>
+                            <header>
+                                <h1><a href="/articles/interviewing-designers/">Interviewing Designers</a></h1>
+                            </header>
+                            <p>Some tips on making the right hire.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/interviewing-designers/"><time datetime="2015-11-29T14:56:00">Nov 29, 2015</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/interviewing-designers/#disqus_thread" data-disqus-identifier="interviewing-designers"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>     
 
                   <li>
                         <article>
