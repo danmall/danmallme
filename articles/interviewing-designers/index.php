@@ -34,7 +34,7 @@
             <p>The only thing I&rsquo;d add is that I&rsquo;d give the interviewee a heads up ahead of time if I was going to do a sketching exercise during the interview. I get the idea that they should be prepared for curve balls, but your job as an employer is to provide safety for them and set them up for success. Allowing them to mentally prepare for that possibility ensures that they&rsquo;ll bring their best to the interview.</p>
 
             <footer class="footnote">
-                <p>Also published on <a href="#">Medium</a>.</p>
+                <p>Also published on <a href="https://medium.com/@danielmall/interviewing-designers-321a3e99d732#.3smzo7cet">Medium</a>.</p>
             </footer><!-- .footnote -->
 			
 	    </section><!-- .vanilla -->	  	
