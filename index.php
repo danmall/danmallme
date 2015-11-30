@@ -38,6 +38,18 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/interviewing-designers/">
+                                    <img class="round-image" style="border-radius: 0;" src="/articles/interviewing-designers/home-thumb.png" alt="" />
+                                    <span class="home-item-name">Interviewing Designers</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Some tips on making the right hire.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/i-dont-have-time/">
                                     <img class="round-image" src="/articles/i-dont-have-time/home-thumb.svg" alt="" />
                                     <span class="home-item-name">I don&rsquo;t have time</span>
@@ -47,7 +59,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/epicurrence/">
@@ -59,7 +71,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/time-for-work/">
@@ -70,6 +82,9 @@
                             <p class="home-item-description">What&rsquo;s the minimum amount of time we should be working per week?</p>
                         </article><!-- .home-item-article -->
                     </li>
+
+
+                    <?php /* ?>
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -83,7 +98,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <?php /* ?>
+                    
 
                     <li class="home-item position4">
                         <article class="home-item-article">
