@@ -35,7 +35,7 @@
 
             <p>Titles are extremely important in our work.</p>
 
-            <p>I&rsquo;ll admit: I&rsquo;m a pedant and thoroughly enjoy analyze the nuances between &ldquo;Experience Designer&rdquo; and &ldquo;User Experience Designer.&rdquo; But even more than an entertaining discussion for an afternoon, titles are useful for two main reasons:</p>
+            <p>I&rsquo;ll admit: I&rsquo;m a pedant and thoroughly enjoy analyzing the nuances between &ldquo;Experience Designer&rdquo; and &ldquo;User Experience Designer.&rdquo; But even more than an entertaining discussion for an afternoon, titles are useful for two main reasons:</p>
 
             <ol>
 
