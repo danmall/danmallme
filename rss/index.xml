@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2015</dc:rights>
-    <pubDate>Sun, 29 Nov 2015 14:56:00 GMT</pubDate>
+    <pubDate>Tue, 08 Dec 2015 14:23:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Titles are Important</title>
+        <description>Don't believe anyone that tells you otherwise.</description>
+        <link>http://danielmall.com/articles/titles-are-important/</link>
+        <guid>http://danielmall.com/articles/titles-are-important/</guid>
+        <pubDate>Tue, 08 Dec 2015 14:23:00 GMT</pubDate>
+    </item>
     <item>
         <title>Interviewing Designers</title>
         <description>Some tips on making the right hire.</description>
