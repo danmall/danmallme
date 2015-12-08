@@ -29,7 +29,7 @@
 			
 			<h1 class="article-header-title">Titles are Important</h1>
 
-            <p>Every few months or so, someone on Twitter will start a converstion about industry tites. Is <abbr title="User Experience">UX</abbr> Strategist the same as <abbr>UX</abbr> Architect? Is it better to be a Graphic Designer instead of a <abbr title="User Interface">UI</abbr> or Visual Designer?</p>
+            <p>Every few months or so, someone on Twitter will start a conversation about industry titles. Is <abbr title="User Experience">UX</abbr> Strategist the same as <abbr>UX</abbr> Architect? Is it better to be a Graphic Designer instead of a <abbr title="User Interface">UI</abbr> or Visual Designer?</p>
 
             <p>I&rsquo;ll admit: these conversations generally lead me to expunge a sigh of &ldquo;ugh, this again&rdquo; frustration just before I giddily chime in, but there&rsquo;s one specific reaction that I can&rsquo;t stand. Almost inevitably, someone will contribute this gem: &ldquo;Titles don&rsquo;t matter.&rdquo; That&rsquo;s usually followed up with some qualifier like &ldquo;just do good work and the rest will follow&ldquo; or &ldquo;make things you love.&rdquo; Utter crap.</p>
 
@@ -53,7 +53,7 @@
 
                     <p><strong>Your title tells your clients how to interact with you.</strong></p>
 
-                    <p>When I was a Senior Designer at an agency, I worked on a rebrand for a gigantic global corporation. My agency was handling the digital side of things and was one of about a dozen other agencies handling things like broadcast, social media, packaging, identity, print, and more. When going around the room, each in-house person introduced the people from the agencies they had brought on. My client introduced me as Creative Director, as I whipped my head to glare at her. &ldquo;But that&rsquo;s a lie,&ldquo; my gaze said to her. &ldquo;Don&rsquo;t worry; I know what I&rsquo;m doing,&rdquo; replied her subtle smirk. After the meeting, she said to me, &ldquo;I know you can do the work, but you&rsquo;re sitting at a table with dozens of advertising agency Creative Directors. They won&rsquo;t give you the time of day unless you&rsquo;re one of them.&rdquo;</p>
+                    <p>When I was a Senior Designer at an agency, I worked on a rebrand for a gigantic global corporation. My agency was handling the digital side of things and was one of about a dozen other agencies handling things like broadcast, social media, packaging, identity, print, and more. When going around the room, each in-house person introduced the people from the agencies they had brought on. My client introduced me as Creative Director, as I whipped my head to glare at her. &ldquo;But that&rsquo;s a lie,&ldquo; my gaze said. &ldquo;Don&rsquo;t worry; I know what I&rsquo;m doing,&rdquo; replied her subtle smirk. After the meeting, she said to me, &ldquo;I know you can do the work, but you&rsquo;re sitting at a table with dozens of advertising agency Creative Directors. They won&rsquo;t give you the time of day unless you&rsquo;re one of them.&rdquo;</p>
 
                     <p>Clients&rsquo; interests and concerns don&rsquo;t always fit nicely into your project plan. Your title (and everyone else&rsquo;s) is a sign to them about who they can talk to about what. You may not have the right answers for them about your invoice cycles, and your Director of Human Resources likely can&rsquo;t field that typography question. Titles start to set proper expectation so that you can spend your effort on more valuable things than explaining what you do.</p>
 
@@ -63,13 +63,13 @@
 
             <p>Some titles are more difficult to encapsulate than others, but it&rsquo;s a great courtesy to those you work with. It also serves as shorthand for what your next job may be and a roadmap for your career path.</p>
 
-            <p>If you&rsquo;re having trouble deciding what title you should have, I recommend asking your colleagues and your clients what title they&rsquo;d give you. After all, who better to inform the decision than the people that are most served by it? If you&rsquo;re still having trouble, please post a few hangs about yourself and you work in the comments, and I&rsquo;d be happy to help you with coming up with something appropriate. Or&mdash;better yet&mdash;other commenters will!</p>
+            <p>If you&rsquo;re having trouble deciding what title you should have, I recommend asking your colleagues and your clients what title they&rsquo;d give you. After all, who better to inform the decision than the people that are most served by it? If you&rsquo;re still having trouble, please post a few things about yourself and your work in the comments, and I&rsquo;d be happy to help you with coming up with something appropriate. Or&mdash;better yet&mdash;other commenters will!</p>
 
-            <?php /* ?>
+            
             <footer class="footnote">
-                <p>Also published on <a href="#">Medium</a>.</p>
+                <p>Also published on <a href="https://medium.com/@danielmall/titles-are-important-4d816fc913c#.glm16hisg">Medium</a>.</p>
             </footer><!-- .footnote -->
-            <?php */ ?>
+            
 			
 	    </section><!-- .vanilla -->	  	
 	    
