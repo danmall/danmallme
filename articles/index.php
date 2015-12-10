@@ -27,6 +27,18 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/titles-are-important/">Titles are Important</a></h1>
+                            </header>
+                            <p>Don&rsquo;t believe anyone that tells you otherwise.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/titles-are-important/"><time datetime="2015-12-08T14:23:00">Dec 8, 2015</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/titles-are-important/#disqus_thread" data-disqus-identifier="titles-are-important"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/interviewing-designers/">Interviewing Designers</a></h1>
                             </header>
                             <p>Some tips on making the right hire.</p>
