@@ -112,6 +112,7 @@
             <li><a href="https://medium.com/@tobygrubb/stop-attending-conferences-8d4f6de09bd8#.wf4o67eu5">How do you get inspired? Do you attend a conference? Listen to a speech? Go surfing? We say: do it all.</a>, by Toby Grubb</li>
             <li><a href="http://www.averbs.com/aloha-epicurrence-no-2/">Aloha Epicurrence No. 2</a>, by Andrew Verboncouer</li>
             <li><a href="https://medium.com/@DannPetty/epicurrence-dreaming-huge-inspiration-and-adventure-the-art-of-the-conference-5226c907764e">Epicurrence: Dreaming Huge, Inspiration, and Adventure. The Art of the Conference</a>, by Dann Petty</li>
+            <li><a href="https://medium.com/@natalievi/try-everything-and-fear-nothing-3db3e74b66f9#.ts6ae2bit">Try Everything and Fear Nothing</a>, by Natalie Armendariz</li>
           </ul>
 
         </section><!-- .sep -->
