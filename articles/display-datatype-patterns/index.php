@@ -80,9 +80,11 @@
 
                 <p>Interaction designer Alla Kholmatova <a href="http://alistapart.com/article/language-of-modular-design">wisely observes</a>, &ldquo;If you give [a pattern] a presentational name, its future will be limited, because it will be confined by its style.&rdquo; We certainly see this in practice here, as it would be odd to mark up the previous examples as <code>&lt;div class="event"&gt;&hellip;&lt;/div&gt;</code>. Perhaps I can abstract the display from both an Event as well as an Article into a pattern that applies to each:</p>
 
-                <p>[display-pattern.png]</p>
+                <div class="easy-clearing margin-bottom">
+                    <img src="star-wars-pattern.png" alt="" />
+                </div><!-- .easy-clearing -->
 
-                <p>That leads me to an interesting approach when thinking about how to think and talk about patterns for modular sites:</p>
+                <p>With an abstract Display pattern like this, I can choose multiple kinds of Datatypes to visualize. That leads me to an interesting approach when thinking about how to think and talk about patterns for modular sites:</p>
 
                 <ol>
                     <li>Identify the type of data.</li>
@@ -195,18 +197,16 @@
                 <li>The developer&rsquo;s job would be to create the markup for the Display patterns and create the hooks for Datatypes to flow into the Display patterns appropriately</li>
             </ul>
 
-            <p>Once those foundational tasks are completed, the three work closely together to test and tweak the patterns to make sure they&rsquo;re working as expected. With the completed patterns, the content strategist can create the entire site by combining Display patterns with Data. Though I haven&rsquo;t come across a system like this, my most recent projects try to approximate it by having the content strategist write <abbr title="JavaScript Object Notation">JSON</abbr> simultaneously to Display patterns being created.</p>
+            <p>Once those foundational tasks are completed, the three work closely together to test and tweak the patterns to make sure they&rsquo;re working as expected. With the completed patterns, the content strategist can create the entire site by combining Display patterns with Data. Though I haven&rsquo;t come across a system like this, my most recent projects try to approximate it by having the content strategist write <abbr title="JavaScript Object Notation">JSON</abbr> simultaneously to Display patterns being created. For example, we recently <a href="http://cognition.happycog.com/article/craft-patternlab-buzzwords">made Craft publish <abbr>JSON</abbr></a> so that we could use PatternLab for pattern management and Craft solely for content management.</p>
 
-            <p>[Canon example? Link to Mark&rsquo;s Cognition post]</p>
-
-            <p>Where this all becomes really powerful is when you can have an army of Display patterns that can work with an infinite amount of Datatypes. Though we&rsquo;re not there yet, I could certainly see a workflow like this one in the near future of how we work on pattern-based designs.</p>
+            <p>Where this all becomes really powerful is when you can have an army of Display patterns that can work with an infinite amount of Datatypes. Though we&rsquo;re not there yet, I could certainly see distinctions like these being incredibly useful in how we work on pattern-based designs.</p>
 
             <h2>Related reading</h2>
 
             <ul>
-            <li><a href="http://seesparkbox.com/foundry/naming_css_stuff_is_really_hard">Naming CSS Stuff is Really Hard</a>, by Ethan Muller</li>
-            <li><a href="http://amzn.to/1S26ppX">Modular Web Design: Creating Reusable Components for User Experience Design and Documentation</a>, by Nathan Curtis</li>
-            <li><a href="http://alistapart.com/article/from-pages-to-patterns-an-exercise-for-everyone">From Pages to Patterns: An Exercise for Everyone</a>, by Charlotte Jackson</li>
+                <li><a href="http://seesparkbox.com/foundry/naming_css_stuff_is_really_hard">Naming CSS Stuff is Really Hard</a>, by Ethan Muller</li>
+                <li><a href="http://amzn.to/1S26ppX">Modular Web Design: Creating Reusable Components for User Experience Design and Documentation</a>, by Nathan Curtis</li>
+                <li><a href="http://alistapart.com/article/from-pages-to-patterns-an-exercise-for-everyone">From Pages to Patterns: An Exercise for Everyone</a>, by Charlotte Jackson</li>
             </ul>
 
 

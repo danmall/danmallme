@@ -101,15 +101,17 @@
 	vertical-align: top;
 }
 
-.box:after {
-	background: transparent url(arrow.svg) no-repeat 0 0;
-	content: "";
-	display: inline-block;
-	height: 31px;
-	margin: 0 30px;
-	position: relative;
-	top: 150px;
-	width: 39px;
+@media screen and (min-width: 876px){
+	.box:after {
+		background: transparent url(arrow.svg) no-repeat 0 0;
+		content: "";
+		display: inline-block;
+		height: 31px;
+		margin: 0 30px;
+		position: relative;
+		top: 150px;
+		width: 39px;
+	}
 }
 
 .box:last-child:after {
