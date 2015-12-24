@@ -63,11 +63,11 @@
                 <p>
                     <pre>
                         <code>
-    &lt;div class="event"&gt;
-        &lt;h1 class="event__title"&gt;Star Wars: The Force Awakens Premiere&lt;/h1&gt;
-        &lt;p class="event__date"&gt;Dec 20, 2015&lt;/p&gt;
-        &lt;p class="event__location"&gt;Ritz East, Philadelphia PA&lt;/p&gt;
-    &lt;/div&gt;
+&lt;div class="event"&gt;
+    &lt;h1 class="event__title"&gt;Star Wars: The Force Awakens Premiere&lt;/h1&gt;
+    &lt;p class="event__date"&gt;Dec 20, 2015&lt;/p&gt;
+    &lt;p class="event__location"&gt;Ritz East, Philadelphia PA&lt;/p&gt;
+&lt;/div&gt;
                         </code>
                     </pre>
                 </p>
@@ -99,21 +99,56 @@
                     <img src="oreilly-wires.png" alt="" />
                 </div><!-- .easy-clearing -->
 
-                <p>This allowed both developer and designer (<a href="https://twitter.com/tpitre">TJ Pitre</a> and me respectively) to work simultaneously, assembling all the parts in our own ways and riffing off each other&rsquo;s work. Watching this process unfold while being part of it revealed another important insight: <strong>when thinking about patterns, content strategists are primarily thinking about the Data, designers are primarily thinking about the Display, and front-end developers are responsible for bringing the two together.</strong> Certainly a bit of an oversimplification, but I&rsquo;ve witnessed it being true more often than not. </p>
+                <p>This allowed both developer and designer (<a href="https://twitter.com/tpitre"><abbr>TJ</abbr> Pitre</a> and me respectively) to work simultaneously, assembling all the parts in our own ways and riffing off each other&rsquo;s work. Watching this process unfold while being part of it revealed another important insight: <strong>when thinking about patterns, content strategists are primarily thinking about the Data, designers are primarily thinking about the Display, and front-end developers are responsible for bringing the two together.</strong> Certainly a bit of an oversimplification, but I&rsquo;ve witnessed it being true more often than not. </p>
 
-                <p>Have a look at that spreadsheet. &ldquo;Four Short Links&rdquo; is a particular content type. Jennifer was making sure that we wouldn&rsquo;t forget about that content and leaving it up to me to decide on the best display pattern for this data to be rendered across different screen sizes. That left it up to TJ to decide what level to abstract these in order to make them as reusable and easily understood as possible.</p>
-
-                <p>[diagrams]</p>
-
-                <p>One of the largest pitfalls in making a modular site is coding exactly to the comp. A comp is a snapshot in time, an example of elements in use, <em>not</em> canonical documentation for those elements. (That&rsquo;s exactly why <a href="http://danielmall.com/articles/the-post-psd-era/">comps may be an artifact of an older time in web design</a>.)</p>
-
-                <p>It often falls to the developer to see through the pixels of a comped element to find the actual design pattern. This is why <a href="http://atomicdesign.bradfrost.com/chapter-4/#development-is-design">development is design</a>. When I&rsquo;m coaching agency and product design teams, I often recommend that they move their front-end developers on to the Design team instead of the Engineering team, because I need them to act more like architects than construction workers. (I even recommend ditching &ldquo;front-end developer&rdquo; as a title and starting calling them &ldquo;designer,&rdquo; but that&rsquo;s a story for another time.) For most of my projects, I allocate way more time for writing <abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr>/<abbr title="JavaScript">JS</abbr> than I do for in-Photoshop (or -Sketch or -whatever) time, because that&rsquo;s where the majority of the work&mdash;<a href="https://the-pastry-box-project.net/dan-mall/2012-september-12">the decision making</a> &mdash;happens. In fact, a quick <a href="https://www.getharvest.com/">Harvest</a> check puts TJ&rsquo;s hours on the O&rsquo;Reilly project at more than double my own.</p>
-
-                <p>On a recent redesign for a liberal arts university (more info on that coming soon), I designed this:</p>
+                <p>Have a look at that spreadsheet. &ldquo;Four Short Links&rdquo; is a particular content type. Jennifer was making sure that we wouldn&rsquo;t forget about that content and leaving it up to me to decide on the best display pattern for this data to be rendered across different screen sizes. That left it up to <abbr>TJ</abbr> to decide what level to abstract these in order to make them as reusable and easily understood as possible.</p>
 
             </section><!-- .wrap.vanilla -->
 
         </div><!-- .intro-wrap -->
+
+        <div class="image-row box-row clearfix" style="background: #e9e9e9;">
+
+            <div class="box">
+                <h2 class="box-headline">Content model</h2>
+                <img src="oreilly-content-model.png" alt="" />
+            </div><!-- .box -->
+
+            <div class="box">
+                <h2 class="box-headline">Comp (for small screens)</h2>
+                <img src="oreilly-comp.png" alt="" />
+            </div><!-- .box -->
+
+            <div class="box">
+                <h2 class="box-headline">Code</h2>
+                <div class="box-code">
+                    <p><pre><code>
+&lt;h3 class="s-title"&gt;Four Short Links&lt;/h3&gt;
+&lt;span class="byline"&gt;Nat Torkington&lt;/span&gt;
+&lt;ol class="block-list"&gt;
+    &lt;li&gt;
+        &lt;div class="block block-number"&gt;&hellip;&lt;/div&gt; 
+        &lt;div class="b-text"&gt;&hellip;&lt;/div&gt; 
+    &lt;/li&gt;
+    &lt;li&gt;&hellip;&lt;/li&gt;
+    &lt;li&gt;&hellip;&lt;/li&gt;
+    &lt;li&gt;&hellip;&lt;/li&gt;
+&lt;/ol&gt;
+                            </code></pre></p>
+                </div><!-- .box-code -->
+            </div><!-- .box -->
+
+        </div><!-- .image-row -->
+
+        <section class="wrap vanilla">
+
+            <p>One of the largest pitfalls in making a modular site is coding exactly to the comp. A comp is a snapshot in time, an example of elements in use, <em>not</em> canonical documentation for those elements. (That&rsquo;s exactly why <a href="http://danielmall.com/articles/the-post-psd-era/">comps may be an artifact of an older time in web design</a>.)</p>
+
+            <p>It often falls to the developer to see through the pixels of a comped element to find the actual design pattern. This is why <a href="http://atomicdesign.bradfrost.com/chapter-4/#development-is-design">development is design</a>. When I&rsquo;m coaching agency and product design teams, I often recommend that they move their front-end developers on to the Design team instead of the Engineering team, because I need them to act more like architects than construction workers. (I even recommend ditching &ldquo;front-end developer&rdquo; as a title and starting calling them &ldquo;designer,&rdquo; but that&rsquo;s a story for another time.) For most of my projects, I allocate way more time for writing <abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr>/<abbr title="JavaScript">JS</abbr> than I do for in-Photoshop (or -Sketch or -whatever) time, because that&rsquo;s where the majority of the work&mdash;<a href="https://the-pastry-box-project.net/dan-mall/2012-september-12">the decision making</a> &mdash;happens. In fact, a quick <a href="https://www.getharvest.com/">Harvest</a> check puts TJ&rsquo;s hours on the O&rsquo;Reilly project at more than double my own.</p>
+
+            <p>On a recent redesign for a liberal arts university (more details about that project coming soon), I designed this:</p>
+
+        </section><!-- .wrap.vanilla -->
 
         <div class="image-row" style="background: #252524;">
             <div class="image-row-image easy-clearing margin-bottom">
@@ -148,9 +183,9 @@
         <section class="wrap vanilla">
             <p>I&rsquo;m finding that I have the most success when my Display patterns <em>don&rsquo;t</em> describe the content within and when my Data patterns <em>don&rsquo;t</em> suggest anything about their presentation. Not news for those who <a href="http://amzn.to/1JtCUGr">design with web standards</a> and <a href="http://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a>, but an occasional reminder doesn&rsquo;t hurt. </p>
 
-            <p>Ten projects of this type along, I feel like I&rsquo;m getting the hang of what to look for and how to design this way. For those that are a bit newer though, one of the exercises I often turn to when I&rsquo;m having trouble visualizing a content workflow is to think about how my boss, my client, or I would manage and maintain the content. I do that by <a href="http://www.slideshare.net/danielmall/hulkamania-design/27">designing a fake CMS</a> for the piece I&rsquo;m working on.</p>
+            <p>Ten projects of this type along, I feel like I&rsquo;m getting the hang of what to look for and how to design this way. For those that are a bit newer though, one of the exercises I often turn to when I&rsquo;m having trouble visualizing a content workflow is to think about how my boss, my client, or I would manage and maintain the content. I do that by <a href="http://www.slideshare.net/danielmall/hulkamania-design/27">designing a fake <abbr title="Content Management System">CMS</abbr></a> for the piece I&rsquo;m working on.</p>
 
-            <p>Imagine you&rsquo;re assembling a page&mdash;<a href="http://www.lukew.com/resources/mobile_first.asp">starting with small screens</a>, of course&mdash;for a site you&rsquo;re making. Following our formula from above, you could first choose from a list of existing Datatypes/content models, because your CMS would already know about them. Once you&rsquo;ve chosen a Datatype, the system would show you all the existing Display patterns in your framework. You choose a Display pattern and watch the preview update to show you what you&rsquo;re making.</p>
+            <p>Imagine you&rsquo;re assembling a page&mdash;<a href="http://www.lukew.com/resources/mobile_first.asp">starting with small screens</a>, of course&mdash;for a site you&rsquo;re making. Following our formula from above, you could first choose from a list of existing Datatypes/content models, because your <abbr>CMS</abbr> would already know about them. Once you&rsquo;ve chosen a Datatype, the system would show you all the existing Display patterns in your framework. You choose a Display pattern and watch the preview update to show you what you&rsquo;re making.</p>
 
             <p>With a construct like this one, each person&rsquo;s job could break down like this. Initially:</p>
 
@@ -186,7 +221,7 @@
 
 	<?php
 
-        echo readNext('How to Get the Work You Want', '/articles/how-to-get-the-work-you-want/');
+        echo readNext('Titles are Important', '/articles/titles-are-important//');
 
     ?>
 	
@@ -211,8 +246,8 @@
                     var disqus_shortname = 'danielmall'; // required: replace example with your forum shortname
 
                     // The following are highly recommended additional parameters. Remove the slashes in front to use.
-                    var disqus_identifier = 'on-creative-direction';
-                    var disqus_url = 'http://danielmall.com/articles/on-creative-direction/';
+                    var disqus_identifier = 'display-datatype-patterns';
+                    var disqus_url = 'http://danielmall.com/articles/display-datatype-patterns/';
                     var disqus_developer = 1;
 
                     /* * * DON'T EDIT BELOW THIS LINE * * */

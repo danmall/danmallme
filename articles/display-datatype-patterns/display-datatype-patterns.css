@@ -12,8 +12,8 @@
 	content: "Display & Datatype Patterns";
 	color: rgba(138, 221, 242, 0.7);
 	position: absolute;
-	top: 3px;
-	left: 3px;
+	top: 4px;
+	left: 4px;
 	z-index: 1;
 }
 
@@ -88,4 +88,52 @@
 .image-row {
 	margin: -8em 0 -4em;
 	padding: 2em 0;
+}
+
+.box-row {
+	padding: 4em 0;
+	text-align: center;
+}
+
+.box {
+	display: inline-block;
+	margin: 0 0 4em;
+	vertical-align: top;
+}
+
+.box:after {
+	background: transparent url(arrow.svg) no-repeat 0 0;
+	content: "";
+	display: inline-block;
+	height: 31px;
+	margin: 0 30px;
+	position: relative;
+	top: 150px;
+	width: 39px;
+}
+
+.box:last-child:after {
+	display: none;
+}
+
+.box-code {
+	background: #fff;
+	padding: 0 10px;
+	text-align: left;
+	width: 340px;
+}
+
+.box code { font-size: 16px; text-align: left; }
+	.box pre code { line-height: 1.6; }
+	.box pre { /* Thanks Chris: https://css-tricks.com/snippets/css/make-pre-text-wrap/ */
+		 white-space: pre-wrap;       /* css-3 */
+		 white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+		 white-space: -pre-wrap;      /* Opera 4-6 */
+		 white-space: -o-pre-wrap;    /* Opera 7 */
+		 word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	}
+
+.box-headline {
+	font: bold 18px 'Karla', sans-serif;
+	text-align: left;
 }
