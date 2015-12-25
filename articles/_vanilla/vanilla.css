@@ -28,9 +28,6 @@
 	.vanilla .footnote, .vanilla .sep { position: relative; padding-top: 2em; marign-top: 1em; }
 	.vanilla .footnote:before, .vanilla .sep:before { content: ""; width: 30px; height: 1px; background: #ccc; display: block; position: absolute; top: 0; left: 0; }
 
-	.vanilla .footnote { position: relative; padding-top: 2em; marign-top: 1em; }
-	.vanilla .footnote:before { content: ""; width: 30px; height: 1px; background: #ccc; display: block; position: absolute; top: 0; left: 0; }
-
 	.vanilla .illo { margin: 0 0 2em; }
 	.vanilla .caption, .vanilla .footnote p { font-size: 14px; color: #999; }
 	.vanilla .footnote a { color: #666; }
