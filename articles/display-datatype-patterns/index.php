@@ -183,11 +183,24 @@
         </div><!-- .image-row -->
 
         <section class="wrap vanilla">
-            <p>I&rsquo;m finding that I have the most success when my Display patterns <em>don&rsquo;t</em> describe the content within and when my Data patterns <em>don&rsquo;t</em> suggest anything about their presentation. Not news for those who <a href="http://amzn.to/1JtCUGr">design with web standards</a> and <a href="http://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a>, but an occasional reminder doesn&rsquo;t hurt. </p>
+
+            <p>I&rsquo;m finding that I have the most success when my Display patterns <em>don&rsquo;t</em> describe the content within and when my Data patterns <em>don&rsquo;t</em> suggest anything about their presentation. Not news for those who <a href="http://amzn.to/1JtCUGr">design with web standards</a> and <a href="http://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a>, but an occasional reminder doesn&rsquo;t hurt.</p>
+
+            <p>This certainly isn&rsquo;t a new idea. Web developer Nicole Sullivan has been using the example of <a href="http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/">the media object</a> for years in how it helped Facebook <a href="https://www.facebook.com/note.php?note_id=307069903919">cut their average <abbr>CSS</abbr> bytes per page by 19% and HTML bytes by 44%</a>. This distinction between Display and Data makes up the foundational principles of approaches like <a href="https://github.com/stubbornella/oocss/wiki">Object Oriented <abbr>CSS</abbr></a>.</p>
 
             <p>Ten projects of this type along, I feel like I&rsquo;m getting the hang of what to look for and how to design this way. For those that are a bit newer though, one of the exercises I often turn to when I&rsquo;m having trouble visualizing a content workflow is to think about how my boss, my client, or I would manage and maintain the content. I do that by <a href="http://www.slideshare.net/danielmall/hulkamania-design/27">designing a fake <abbr title="Content Management System">CMS</abbr></a> for the piece I&rsquo;m working on.</p>
 
             <p>Imagine you&rsquo;re assembling a page&mdash;<a href="http://www.lukew.com/resources/mobile_first.asp">starting with small screens</a>, of course&mdash;for a site you&rsquo;re making. Following our formula from above, you could first choose from a list of existing Datatypes/content models, because your <abbr>CMS</abbr> would already know about them. Once you&rsquo;ve chosen a Datatype, the system would show you all the existing Display patterns in your framework. You choose a Display pattern and watch the preview update to show you what you&rsquo;re making.</p>
+
+        </section><!-- .wrap.vanilla -->
+
+        <div class="video-row" style="background: #ececec;">
+            <div class="video-row-video easy-clearing">
+                <video src="fake-cms.mp4" height="600" width="850" autoplay loop></video>
+            </div><!-- .easy-clearing -->
+        </div><!-- .image-row -->
+
+        <section class="wrap vanilla">
 
             <p>With a construct like this one, each person&rsquo;s job could break down like this. Initially:</p>
 
@@ -212,7 +225,7 @@
 
 
             <footer class="footnote">
-                <p>Also published on <a href="https://medium.com/@danielmall/switch-928f791e2591">Medium</a>.</p>
+                <p>Also published on <a href="#">Medium</a>.</p>
             </footer><!-- .footnote -->
 			
 	    </section><!-- .vanilla -->	  	

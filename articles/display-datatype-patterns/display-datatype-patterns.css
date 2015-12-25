@@ -85,6 +85,17 @@
 	margin: 0 auto;
 }
 
+.video-row-video {
+	width: 100%;
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+.video-row-video video {
+	max-width: 100%;
+	width: 100%;
+}
+
 .image-row {
 	margin: -8em 0 -4em;
 	padding: 2em 0;
