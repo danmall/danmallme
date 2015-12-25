@@ -5,13 +5,17 @@
 	.vanilla h2 { font-size: 24px; }
 	.vanilla h1 + h2 { margin: -1.25em 0 2em; }
 	.vanilla p { font-size: 18px; color: #333; color: #444; line-height: 1.6;}
+<<<<<<< HEAD
 	.vanilla blockquote p { font-family: 'Karla', sans-serif; }
+=======
+>>>>>>> 795b16d897eb70fd432f23f6f3fd7985781b38e0
 	.vanilla em { font-family: Georgia, 'Times New Roman', serif; } /* yuck */
 	.vanilla ul, .vanilla ol { font-size: 16px; color: #333; color: #444; }
 	.vanilla li { margin: 0 0 0.9em 25px; position: relative; color: #333; color: #444; }
 		.vanilla ul li:before { content: ""; position: absolute; top: 0.5em; left: -20px; width: 8px; height: 8px; background: #81b440; border-radius: 3px; }
 	.vanilla a { color: #d22c95; color: #000; border-bottom: 1px solid #ccc; }
 	.vanilla a:hover, .vanilla a:focus { border-color: #81b440; }
+<<<<<<< HEAD
 	.vanilla code { font-size: 16px; }
 	.vanilla pre code { line-height: 1.6; }
 	.vanilla pre { /* Thanks Chris: https://css-tricks.com/snippets/css/make-pre-text-wrap/ */
@@ -21,12 +25,19 @@
 		 white-space: -o-pre-wrap;    /* Opera 7 */
 		 word-wrap: break-word;       /* Internet Explorer 5.5+ */
 	}
+=======
+>>>>>>> 795b16d897eb70fd432f23f6f3fd7985781b38e0
 
 	.vanilla .article-header-title { margin: 0 0 1em; }
 	.vanilla .article-header-title { line-height: 1.2; font-size: 40px; font-weight: bold; letter-spacing: -1px; }
 
+<<<<<<< HEAD
 	.vanilla .footnote, .vanilla .sep { position: relative; padding-top: 2em; marign-top: 1em; }
 	.vanilla .footnote:before, .vanilla .sep:before { content: ""; width: 30px; height: 1px; background: #ccc; display: block; position: absolute; top: 0; left: 0; }
+=======
+	.vanilla .footnote { position: relative; padding-top: 2em; marign-top: 1em; }
+	.vanilla .footnote:before { content: ""; width: 30px; height: 1px; background: #ccc; display: block; position: absolute; top: 0; left: 0; }
+>>>>>>> 795b16d897eb70fd432f23f6f3fd7985781b38e0
 
 	.vanilla .illo { margin: 0 0 2em; }
 	.vanilla .caption, .vanilla .footnote p { font-size: 14px; color: #999; }
