@@ -195,7 +195,7 @@
         </section><!-- .wrap.vanilla -->
 
         <div class="video-row" style="background: #ececec;">
-            <div class="video-row-video easy-clearing">
+            <div class="video-row-video easy-clearing video-container">
                 <video src="fake-cms.mp4" height="600" width="850" autoplay loop></video>
             </div><!-- .easy-clearing -->
         </div><!-- .image-row -->
@@ -305,7 +305,7 @@
     	
     </div><!-- #wrap -->
 
-    <script src="jquery.fitvids.js"></script>
+    <script src="/-/j/libs/jquery.fitvids.js"></script>
     <script>
 		$(document).ready(function(){
 			// Target your .container, .wrapper, .post, etc.
