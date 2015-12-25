@@ -55,7 +55,7 @@
                 <p>Let&rsquo;s look at a common example. When constructing a page, I&rsquo;ll often hear a team member say something like, &ldquo;We can use the Event pattern here.&rdquo; What does that actually mean? Perhaps the most obvious place to start is from a previously designed comp that looks like this:</p>
 
                 <div class="easy-clearing margin-bottom">
-                    <img src="star-wars-event.png" alt="" />
+                    <img src="star-wars-event.png" alt="A Data pattern for an Event" />
                 </div><!-- .easy-clearing -->
 
                 <p>A simple way to mark that up&mdash;using <abbr title="Block, Element, Modifier"><a href="https://css-tricks.com/bem-101/">BEM</a></abbr> methodology&mdash;could look like this (for simplicity, I&rsquo;ve omitted useful markup like micro formats):</p>
@@ -75,13 +75,13 @@
                 <p>While there&rsquo;s nothing technically incorrect about this markup, it may not be abstract enough for reuse. As we think about the <a title="&ldquo;Content Modelling: A Master Skill,&rdquo; by Rachel Lovinger on A List Apart" href="http://alistapart.com/article/content-modelling-a-master-skill">content model</a> for an Event, the pieces displayed here are <strong>Title</strong>, <strong>Date</strong>, and <strong>Location</strong>. There&rsquo;s nothing that ties this specific content model to this specific display. Other types of content that may exist on the site could have similar content models, like Articles: <strong>Title</strong>, <strong>Date</strong>, <strong>Description</strong>. I could easily use the same Display to visualize an Article:</p>
 
                 <div class="easy-clearing margin-bottom">
-                    <img src="star-wars-article.png" alt="" />
+                    <img src="star-wars-article.png" alt="A Data pattern for an Article" />
                 </div><!-- .easy-clearing -->
 
                 <p>Interaction designer Alla Kholmatova <a title="From &ldquo;The Language of Modular Design&rdquo; on A List Apart" href="http://alistapart.com/article/language-of-modular-design">wisely observes</a>, &ldquo;If you give [a pattern] a presentational name, its future will be limited, because it will be confined by its style.&rdquo; We certainly see this in practice here, as it would be odd to mark up the previous examples as <code>&lt;div class="event"&gt;&hellip;&lt;/div&gt;</code>. Perhaps I can abstract the display from both an Event as well as an Article into a pattern that applies to each:</p>
 
                 <div class="easy-clearing margin-bottom">
-                    <img src="star-wars-pattern.png" alt="" />
+                    <img src="star-wars-pattern.png" alt="An abstracted Display pattern that could apply to an Event or an Article" />
                 </div><!-- .easy-clearing -->
 
                 <p>With an abstract Display pattern like this, I can choose multiple kinds of Datatypes to visualize. That leads me to an interesting approach when thinking about how to think and talk about patterns for modular sites:</p>
@@ -98,7 +98,7 @@
                 <p>So, when <a href="http://twitter.com/jenniferbrook">Jennifer Brook</a> sat down to map out the content strategy for the site, she whipped out a list of Organisms for each major page on the site:</p>
 
                 <div class="easy-clearing margin-bottom">
-                    <img src="oreilly-wires.png" alt="" />
+                    <img src="oreilly-wires.png" alt="Content modelling for the new O&rsquo;Reilly site" />
                 </div><!-- .easy-clearing -->
 
                 <p>This allowed both developer and designer (<a href="https://twitter.com/tpitre"><abbr>TJ</abbr> Pitre</a> and me respectively) to work simultaneously, assembling all the parts in our own ways and riffing off each other&rsquo;s work. Watching this process unfold while being part of it revealed another important insight: <strong>when thinking about patterns, content strategists are primarily thinking about the Data, designers are primarily thinking about the Display, and front-end developers are responsible for bringing the two together.</strong> Certainly a bit of an oversimplification, but I&rsquo;ve witnessed it being true more often than not. </p>
@@ -113,12 +113,12 @@
 
             <div class="box">
                 <h2 class="box-headline">Content model</h2>
-                <img src="oreilly-content-model.png" alt="" />
+                <img src="oreilly-content-model.png" alt="Content model for O&rsquo;Reilly&rsquo;s Four Short Links" />
             </div><!-- .box -->
 
             <div class="box">
                 <h2 class="box-headline">Comp (for small screens)</h2>
-                <img src="oreilly-comp.png" alt="" />
+                <img src="oreilly-comp.png" alt="Comp for O&rsquo;Reilly&rsquo;s Four Short Links" />
             </div><!-- .box -->
 
             <div class="box">
@@ -154,7 +154,7 @@
 
         <div class="image-row" style="background: #252524;">
             <div class="image-row-image easy-clearing margin-bottom">
-                <img src="from-degrees-to-careers.png" alt="" />
+                <img src="from-degrees-to-careers.png" alt="Data pattern for &ldquo;From Degrees to Careers&rdquo;" />
             </div><!-- .easy-clearing -->
         </div><!-- .image-row -->
 
@@ -166,7 +166,7 @@
 
         <div class="image-row" style="background: #252524;">
             <div class="image-row-image easy-clearing margin-bottom">
-                <img src="tab-pattern.png" alt="" />
+                <img src="tab-pattern.png" alt="Display pattern for tabbing through multiple items" />
             </div><!-- .easy-clearing -->
         </div><!-- .image-row -->
 
@@ -178,7 +178,7 @@
 
         <div class="image-row" style="background: #f2f5f0;">
             <div class="image-row-image easy-clearing margin-bottom">
-                <img src="events.png" alt="" />
+                <img src="events.png" alt="Display pattern for Events listing" />
             </div><!-- .easy-clearing -->
         </div><!-- .image-row -->
 
