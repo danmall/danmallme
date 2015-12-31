@@ -32,11 +32,11 @@
     			
     			<h1 class="article-header-title"><span class="top">Content &amp; Display Patterns</span></h1>
     			
-    			<p>Most of <a href="http://superfriend.ly/">SuperFriendly</a>&rsquo;s work over the last few years has been with organizations that need specific help with crafting design systems that enable them to extend the work long after the &ldquo;vendor&rdquo; has handed off initial work. It&rsquo;s not uncommon to receive initial inquiries containing sentences like these: </p>
+    			<p>Most of <a href="http://superfriend.ly/">SuperFriendly</a>&rsquo;s work over the last few years has been with organizations that need specific help with crafting design systems that enable them to extend the work long after we&rsquo;ve handed off initial work. It&rsquo;s not uncommon to receive initial inquiries containing sentences like these: </p>
 
                 <blockquote>
 
-                    <p>We are looking for a partner to help us evolve the design language that will guide future <abbr title="User Interface">UI</abbr> design of our internal-facing web applications</p>
+                    <p>We are looking for a partner to help us evolve the design language that will guide future <abbr title="User Interface">UI</abbr> design of our internal-facing web applications.</p>
 
                     <p>We&rsquo;re looking for help in re-writing our visual style in a way that makes it extremely modular. We&rsquo;re not interested in abandoning our original design but want users to see this as an evolution.</p>
 
@@ -48,9 +48,11 @@
 
                 <p>During the <a title="&ldquo;TechCrunch: A Responsive Redesign,&rdquo; by Dan Mall" href="http://danielmall.com/articles/techcrunch-responsive-redesign/">TechCrunch</a> and <a title="&ldquo;The Responsive Mobile Entertainment Weekly Site,&rdquo; by Dan Mall" href="http://danielmall.com/articles/responsive-mobile-entertainment-weekly/">Entertainment Weekly</a> redesigns, our goal of building an infinitely scalable, modular design system was the perfect excuse for <a href="http://bradfrost.com/">Brad Frost</a> to exercise some ideas he had about this very topic. Those exercises eventually led to his <a href="http://bradfrost.com/blog/post/atomic-web-design/">atomic design</a> methodology and to the tool that eventually became <a href="http://patternlab.io/">Pattern Lab</a>. I&rsquo;ve done ten projects with Pattern Lab now&mdash;it&rsquo;s certainly the closest thing to my default tool of choice&mdash;and a handful of projects with more custom, hand-rolled approaches. Perhaps the most important lesson in building modular systems I&rsquo;ve learned is this:</p>
 
-                <p><strong>Display patterns are different than Datatype patterns.</strong> </p>
+                <p id="fn1-source"><strong><em>Content</em> patterns are different than <em>Display</em> patterns.</strong><sup class="footnote-link"><a href="#fn1">1</a></sup></p>
 
-                <p>Embracing that idea is the key to making your patterns infinitely more scalable. </p>
+                <p>Embracing the difference in pattern types is the key to making them infinitely more scalable. </p>
+
+                <h2 id="identifying-abstracting"><a class="named-anchor" href="#identifying-abstracting">Identifying and abstracting patterns</a></h2>
 
                 <p>Let&rsquo;s look at a common example. When constructing a page, I&rsquo;ll often hear a team member say something like, &ldquo;We can use the Event pattern here.&rdquo; What does that actually mean? Perhaps the most obvious place to start is from a previously designed comp that looks like this:</p>
 
@@ -72,28 +74,30 @@
                     </pre>
                 </p>
 
-                <p>While there&rsquo;s nothing technically incorrect about this markup, it may not be abstract enough for reuse. As we think about the <a title="&ldquo;Content Modelling: A Master Skill,&rdquo; by Rachel Lovinger on A List Apart" href="http://alistapart.com/article/content-modelling-a-master-skill">content model</a> for an Event, the pieces displayed here are <strong>Title</strong>, <strong>Date</strong>, and <strong>Location</strong>. There&rsquo;s nothing that ties this specific content model to this specific display. Other types of content that may exist on the site could have similar content models, like Articles: <strong>Title</strong>, <strong>Date</strong>, <strong>Description</strong>. I could easily use the same Display to visualize an Article:</p>
+                <p>While there&rsquo;s nothing technically incorrect about this markup, it may not be abstract enough for reuse. As we think about the <a title="&ldquo;Content Modelling: A Master Skill,&rdquo; by Rachel Lovinger on A List Apart" href="http://alistapart.com/article/content-modelling-a-master-skill">content model</a> for an Event, the pieces displayed here are <strong>Title</strong>, <strong>Date</strong>, and <strong>Location</strong>. There&rsquo;s nothing that ties an Event to this specific display. Other types of content that may exist on the site could have similar content models, like Articles: <strong>Title</strong>, <strong>Date</strong>, <strong>Description</strong>. I could easily use the same Display pattern to render an Article:</p>
 
                 <div class="easy-clearing margin-bottom">
                     <img src="star-wars-article.png" alt="A Data pattern for an Article" />
                 </div><!-- .easy-clearing -->
 
-                <p>Interaction designer Alla Kholmatova <a title="From &ldquo;The Language of Modular Design&rdquo; on A List Apart" href="http://alistapart.com/article/language-of-modular-design">wisely observes</a>, &ldquo;If you give [a pattern] a presentational name, its future will be limited, because it will be confined by its style.&rdquo; Mr. Responsive Design himself Ethan Marcotte <a href="https://24ways.org/2015/putting-my-patterns-through-their-paces/" title="&ldquo;Putting My Patterns through Their Paces,&rdquo; by Ethan Marcotte on 24ways">admits from his own work</a>, &ldquo;Back in the old days&mdash;you know, like six months ago&mdash;I probably would&rsquo;ve marked this module up to match the design. In other words, I would&rsquo;ve looked at the module&rsquo;s visual hierarchy and written the following HTML&hellip; But then I caught myself, and realized this wasn’t the best approach.&rdquo;</p>
+                <p>Interaction designer Alla Kholmatova <a title="From &ldquo;The Language of Modular Design&rdquo; on A List Apart" href="http://alistapart.com/article/language-of-modular-design">wisely observes</a>, &ldquo;If you give [a pattern] a presentational name, its future will be limited, because it will be confined by its style.&rdquo; Mr. Responsive Design himself Ethan Marcotte <a href="https://24ways.org/2015/putting-my-patterns-through-their-paces/" title="&ldquo;Putting My Patterns through Their Paces,&rdquo; by Ethan Marcotte on 24ways">admits from his own work</a>, &ldquo;Back in the old days&mdash;you know, like six months ago&mdash;I probably would&rsquo;ve marked this module up to match the design. In other words, I would&rsquo;ve looked at the module&rsquo;s visual hierarchy and written the following <abbr>HTML</abbr>&hellip; But then I caught myself, and realized this wasn’t the best approach.&rdquo;</p>
 
-                <p>We certainly see this temptation in practice here, as it would be odd to mark up the previous examples as <code>&lt;div class="event"&gt;&hellip;&lt;/div&gt;</code>. Perhaps I can abstract the display from both an Event as well as an Article into a pattern that applies to each:</p>
+                <p>So, how can I make a more useful pattern? Perhaps I can abstract the display from both an Event as well as an Article into a pattern that can apply to both:</p>
 
                 <div class="easy-clearing margin-bottom">
                     <img src="star-wars-pattern.png" alt="An abstracted Display pattern that could apply to an Event or an Article" />
                 </div><!-- .easy-clearing -->
 
-                <p>With an abstract Display pattern like this, I can choose multiple kinds of Datatypes to visualize. That leads me to an interesting approach when thinking about how to think and talk about patterns for modular sites:</p>
+                <p>With an abstract Display pattern like this, I can choose multiple kinds of Content patterns to visualize. That leads me to an interesting approach when thinking about how to think and talk about patterns for modular sites:</p>
 
                 <ol>
-                    <li>Identify the type of data.</li>
-                    <li>Choose visual option to display said data.</li>
+                    <li>Identify the type of content (Content pattern).</li>
+                    <li>Choose visual option (Display pattern) to render said content.</li>
                 </ol>
 
                 <p>What does this look like in practice?</p>
+
+                <h2 id="example"><a class="named-anchor" href="#example">A real-world example</a></h2>
 
                 <p>When I was working on <a href="http://beta.oreilly.com/">the new O&rsquo;Reilly site</a>, one of our team goals was to eschew traditional paper wireframes. On previous projects we&rsquo;d worked on together, wireframes were too time-consuming to make and constrained our client&rsquo;s thinking on graphic design a little too much. Over <a title="Calexico, a taco cart" href="http://calexico.net/">burritos</a> in the park, we realized that the most valuable thing about our previous wireframes was having a list of content for each page. </p>
 
@@ -103,7 +107,7 @@
                     <img src="oreilly-wires.png" alt="Content modelling for the new O&rsquo;Reilly site" />
                 </div><!-- .easy-clearing -->
 
-                <p>This allowed both developer and designer (<a href="https://twitter.com/tpitre"><abbr>TJ</abbr> Pitre</a> and me respectively) to work simultaneously, assembling all the parts in our own ways and riffing off each other&rsquo;s work. Watching this process unfold while being part of it revealed another important insight: <strong>when thinking about patterns, content strategists are primarily thinking about the Data, designers are primarily thinking about the Display, and front-end developers are responsible for bringing the two together.</strong> Certainly a bit of an oversimplification, but I&rsquo;ve witnessed it being true more often than not. </p>
+                <p>This allowed both developer and designer (<a href="https://twitter.com/tpitre"><abbr>TJ</abbr> Pitre</a> and me respectively) to work simultaneously, assembling all the parts in our own ways and riffing off each other&rsquo;s work. Watching this process unfold revealed another important insight: <strong>when thinking about patterns, content strategists are primarily thinking about Content patterns, designers are primarily thinking about Display patterns, and front-end developers are responsible for bringing the two together.</strong> Certainly a bit of an oversimplification, but I&rsquo;ve witnessed it being true more often than not. Obvious in hindsight, but definitely easily overlooked when you&rsquo;re heads down in the middle of a project.</p>
 
                 <p>Have a look at that spreadsheet. &ldquo;Four Short Links&rdquo; is a particular content type. Jennifer was making sure that we wouldn&rsquo;t forget about that content and leaving it up to me to decide on the best display pattern for this data to be rendered across different screen sizes. That left it up to <abbr>TJ</abbr> to decide what level to abstract these in order to make them as reusable and easily understood as possible.</p>
 
@@ -146,9 +150,11 @@
 
         <section class="wrap vanilla">
 
-            <p>One of the largest pitfalls in making a modular site is coding exactly to the comp. A comp is a snapshot in time, an example of elements in use, <em>not</em> canonical documentation for those elements. (That&rsquo;s exactly why <a title="&ldquo;The Post-PSD Era,&rdquo; by Dan Mall" href="http://danielmall.com/articles/the-post-psd-era/">comps may be an artifact of an older time in web design</a>.)</p>
+            <h2 id="dont-just-build-the-comp"><a class="named-anchor" href="#dont-just-build-the-comp">Don&rsquo;t just build the comp</a></h2>
 
-            <p>It often falls to the developer to see through the pixels of a comped element to find the actual design pattern. This is why <a href="http://atomicdesign.bradfrost.com/chapter-4/#development-is-design">development is design</a>. When I&rsquo;m coaching agency and product design teams, I often recommend that they move their front-end developers on to the Design team instead of the Engineering team, because I need them to act more like architects than construction workers. (I even recommend ditching &ldquo;front-end developer&rdquo; as a title and starting calling them &ldquo;designer,&rdquo; but that&rsquo;s a story for another time.) For most of my projects, I allocate way more time for writing <abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr>/<abbr title="JavaScript">JS</abbr> than I do for in-Photoshop (or -Sketch or -whatever) time, because that&rsquo;s where the majority of the work&mdash;<a title="A Pastry Box entry by Dan Mall" href="https://the-pastry-box-project.net/dan-mall/2012-september-12">the decision making</a> &mdash;happens. In fact, a quick <a href="https://www.getharvest.com/">Harvest</a> check puts TJ&rsquo;s hours on the O&rsquo;Reilly project at more than double my own.</p>
+            <p>One of the largest pitfalls in making a modular site is coding exactly to what&rsquo;s been Photoshopped. A comp is a snapshot in time, an example of elements in use, <em>not</em> canonical documentation for those elements. (That&rsquo;s exactly why <a title="&ldquo;The Post-PSD Era,&rdquo; by Dan Mall" href="http://danielmall.com/articles/the-post-psd-era/">comps may be an artifact of an older time in web design</a>.)</p>
+
+            <p>It often falls to the developer to see through the pixels of a comped element to find the actual design pattern. <em>This is why <a href="http://atomicdesign.bradfrost.com/chapter-4/#development-is-design">development is design</a></em>. When I&rsquo;m coaching agency and product design teams, I often recommend that they move their front-end developers on to the Design team instead of the Engineering team, because I need them to act more like architects than construction workers. (I even recommend ditching &ldquo;front-end developer&rdquo; as a title and starting calling them &ldquo;designer,&rdquo; but that&rsquo;s a story for another time.) For most of my projects, I allocate way more time for writing <abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr>/<abbr title="JavaScript">JS</abbr> than I do for in-Photoshop (or -Sketch or -whatever) time, because that&rsquo;s where the majority of the work&mdash;<a title="A Pastry Box entry by Dan Mall" href="https://the-pastry-box-project.net/dan-mall/2012-september-12">the decision making</a> &mdash;happens. In fact, a quick <a href="https://www.getharvest.com/">Harvest</a> check puts TJ&rsquo;s hours on the O&rsquo;Reilly project at more than double my own.</p>
 
             <p>On a recent redesign for a liberal arts university (more details about that project coming soon), I designed this:</p>
 
@@ -162,7 +168,7 @@
 
         <section class="wrap vanilla">
 
-            <p>We started to build the &ldquo;From Degrees to Careers&rdquo; organism&mdash;a Data pattern&mdash;but failed to initially realize that we should have been building this Display pattern:</p>
+            <p>We started to build the &ldquo;From Degrees to Careers&rdquo; organism&mdash;a Data pattern&mdash;but failed to initially realize that we should have been building a &ldquo;Vertical Tabset,&rdquo; a Display pattern:</p>
 
         </section><!-- .wrap.vanilla -->
 
@@ -174,7 +180,7 @@
 
         <section class="wrap vanilla">
 
-            <p>Once we did realize it, we found that it was incredibly simple to apply a different but similar Data pattern to create an events listing:</p>
+            <p>Once we did realize it, we found that it was incredibly simple to apply a similar but different content type (Events) to the &ldquo;Vertical Tabset&rdquo; Display pattern to create a new organism:</p>
 
         </section><!-- .wrap.vanilla -->
 
@@ -208,7 +214,7 @@
 
             <ul>
                 <li>The content strategist&rsquo;s job would be to define the Datatypes</li>
-                <li>The designers&rsquo;s job would be to create Display patterns</li>
+                <li>The designer&rsquo;s job would be to create Display patterns</li>
                 <li>The developer&rsquo;s job would be to create the markup for the Display patterns and create the hooks for Datatypes to flow into the Display patterns appropriately</li>
             </ul>
 
@@ -222,12 +228,23 @@
                 <li><a href="http://seesparkbox.com/foundry/naming_css_stuff_is_really_hard">Naming CSS Stuff is Really Hard</a>, by Ethan Muller</li>
                 <li><a href="http://amzn.to/1S26ppX">Modular Web Design: Creating Reusable Components for User Experience Design and Documentation</a>, by Nathan Curtis</li>
                 <li><a href="http://alistapart.com/article/from-pages-to-patterns-an-exercise-for-everyone">From Pages to Patterns: An Exercise for Everyone</a>, by Charlotte Jackson</li>
+                <li><a href="/articles/creative-cloud-libraries/">Creative Cloud Libraries</a></li>
             </ul>
 
 
 
             <footer class="footnote">
-                <p>Also published on <a href="#">Medium</a>.</p>
+
+                <ol>
+
+                    <li id="fn1">This dichotomy was originally described by Karen McGrane. <a class="footnote-arrow" href="#fn1-source">&#8617;</a></li>
+                    
+                    <li id="fn2">This article is also published on <a href="#">Medium</a>.</li>             
+
+                    <?php /* ?><li id="fn3">Special thanks to <a href="http://karenmcgrane.com/">Karen McGrane</a>, <a href="http://dirtystylus.com/">Mark Llobrera</a>, <a href="http://ethanmarcotte.com/">Ethan Marcotte</a>, <a href="http://southleft.com/"><abbr>TJ</abbr> Pitre</a>, <a href="http://www.jasonhead.com/">Jason Head</a>, <a href="http://thefutureislikepie.com/">Lisa Maria Martin</a>, and <a href="https://bigmedium.com/">Josh Clark</a> for reviewing drafts of this article and suggesting edits to get it into top shape. I owe you each a dinner.</li><?php */ ?>
+
+                </ol>
+
             </footer><!-- .footnote -->
 			
 	    </section><!-- .vanilla -->	  	
@@ -261,8 +278,8 @@
                     var disqus_shortname = 'danielmall'; // required: replace example with your forum shortname
 
                     // The following are highly recommended additional parameters. Remove the slashes in front to use.
-                    var disqus_identifier = 'display-datatype-patterns';
-                    var disqus_url = 'http://danielmall.com/articles/display-datatype-patterns/';
+                    var disqus_identifier = 'content-display-patterns';
+                    var disqus_url = 'http://danielmall.com/articles/content-display-patterns/';
                     var disqus_developer = 1;
 
                     /* * * DON'T EDIT BELOW THIS LINE * * */
