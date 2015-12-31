@@ -1,12 +1,7 @@
-<?php 
-    header('Location: /articles/content-display-patterns/'); 
-    exit; 
-?>
-
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head profile="http://gmpg.org/xfn/11">
-    <title>&ldquo;Display &amp; Datatype Patterns,&rdquo; an article by Dan Mall</title>
+    <title>&ldquo;Content &amp; Display Patterns,&rdquo; an article by Dan Mall</title>
     <meta name="description" content="Display &amp; Datatype Patterns" />
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
     
@@ -15,13 +10,13 @@
     <link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" href="/articles/_vanilla/vanilla.css" />
-    <link rel="stylesheet" href="display-datatype-patterns.css" />
+    <link rel="stylesheet" href="content-display-patterns.css" />
 
 	<!-- Facebook -->
     <meta property="og:title" content="Display &amp; Datatype Patterns" />
     <meta property="og:description" content="An important distinction for pattern-based projects."/>	
-    <meta property="og:url" content="http://danielmall.com/articles/display-datatype-patterns/" />
-    <meta property="og:image" content="http://danielmall.com/articles/display-datatype-patterns/home-thumb.png" />
+    <meta property="og:url" content="http://danielmall.com/articles/content-display-patterns/" />
+    <meta property="og:image" content="http://danielmall.com/articles/content-display-patterns/home-thumb.png" />
     
 </head>
 
@@ -29,13 +24,13 @@
 	
 	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 	
-	<div id="article-area-wrap" class="display-datatype-patterns">
+	<div id="article-area-wrap" class="content-display-patterns">
 
         <div class="intro-wrap">
 			
     	    <section class="clearfix wrap vanilla">			
     			
-    			<h1 class="article-header-title"><span class="top">Display &amp; Datatype Patterns</span></h1>
+    			<h1 class="article-header-title"><span class="top">Content &amp; Display Patterns</span></h1>
     			
     			<p>Most of <a href="http://superfriend.ly/">SuperFriendly</a>&rsquo;s work over the last few years has been with organizations that need specific help with crafting design systems that enable them to extend the work long after the &ldquo;vendor&rdquo; has handed off initial work. It&rsquo;s not uncommon to receive initial inquiries containing sentences like these: </p>
 

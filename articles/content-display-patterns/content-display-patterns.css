@@ -1,0 +1,152 @@
+.article-header-title {
+	color: rgba(255, 0, 0, 0.4);
+	position: relative;
+}
+
+.article-header-title .top {
+	position: relative;
+	z-index: 2;
+}
+
+.article-header-title:after {
+	content: "Display & Content Patterns";
+	color: rgba(138, 221, 242, 0.7);
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	z-index: 1;
+}
+
+@media screen and (min-width: 500px){ 
+	.vanilla .article-header-title { 
+		font-size: 60px;
+		letter-spacing: -3px;
+		line-height: 1.1;
+		margin-bottom: 0.5em;
+	}
+}
+
+@media screen and (min-width: 718px){
+
+	.article-header-title { 
+		position: absolute;
+		left: -99999px;
+	}
+
+	.vanilla:first-child {
+		padding-top: 0;
+	}
+
+	.vanilla:first-child:before {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 0;
+		padding-bottom: 61%;
+		padding-bottom: 41%;
+		/*background: blue;*/
+	}
+
+	.intro-wrap {
+		background: transparent url(title-matte.png) no-repeat 70% -8px !important;
+		background-size: contain !important;
+		/*padding-top: 19em;*/
+		max-width: 1250px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 928px){
+	.vanilla:first-child:before {
+		padding-bottom: 45%;
+	}
+}
+
+@media screen and (min-width: 1036px){
+	.vanilla:first-child:before {
+		padding-bottom: 50%;
+	}
+}
+
+@media screen and (min-width: 1214px){
+	.vanilla:first-child:before {
+		padding-bottom: 59%;
+	}
+}
+
+@media screen and (min-width: 1250px){
+	.vanilla:first-child:before {
+		padding-bottom: 61%;
+	}
+}
+
+.image-row-image {
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+.video-row-video {
+	width: 100%;
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+.video-row-video video {
+	max-width: 100%;
+	width: 100%;
+}
+
+.image-row {
+	margin: -8em 0 -4em;
+	padding: 2em 0;
+}
+
+.box-row {
+	padding: 4em 0;
+	text-align: center;
+}
+
+.box {
+	display: inline-block;
+	margin: 0 0 4em;
+	vertical-align: top;
+}
+
+@media screen and (min-width: 876px){
+	.box:after {
+		background: transparent url(arrow.svg) no-repeat 0 0;
+		content: "";
+		display: inline-block;
+		height: 31px;
+		margin: 0 30px;
+		position: relative;
+		top: 150px;
+		width: 39px;
+	}
+}
+
+.box:last-child:after {
+	display: none;
+}
+
+.box-code {
+	background: #fff;
+	padding: 0 10px;
+	text-align: left;
+	width: 340px;
+}
+
+.box code { font-size: 16px; text-align: left; }
+	.box pre code { line-height: 1.6; }
+	.box pre { /* Thanks Chris: https://css-tricks.com/snippets/css/make-pre-text-wrap/ */
+		 white-space: pre-wrap;       /* css-3 */
+		 white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+		 white-space: -pre-wrap;      /* Opera 4-6 */
+		 white-space: -o-pre-wrap;    /* Opera 7 */
+		 word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	}
+
+.box-headline {
+	font: bold 18px 'Karla', sans-serif;
+	text-align: left;
+}
