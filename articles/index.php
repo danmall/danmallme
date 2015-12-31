@@ -24,6 +24,18 @@
 
                 <ol class="article-list articles no-marker">
 
+                 <li>
+                        <article>
+                            <header>
+                                <h1><a href="/articles/content-display-patterns/">Content &amp; Display Patterns</a></h1>
+                            </header>
+                            <p>Embracing the difference in pattern types is the key to making a modular design system infinitely more scalable.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/content-display-patterns/"><time datetime="2015-12-31T17:05:00">Dec 31, 2015</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/content-display-patterns/#disqus_thread" data-disqus-identifier="content-display-patterns"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
                     <li>
                         <article>
                             <header>
