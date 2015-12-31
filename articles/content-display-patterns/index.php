@@ -62,17 +62,11 @@
 
                 <p>A simple way to mark that up&mdash;using <abbr title="Block, Element, Modifier"><a href="https://css-tricks.com/bem-101/">BEM</a></abbr> methodology&mdash;could look like this (for simplicity, I&rsquo;ve omitted useful markup like <a href="http://microformats.org/">microformats</a>):</p>
 
-                <p>
-                    <pre>
-                        <code>
-&lt;div class="event"&gt;
+                <p><pre class="code-block"><code>&lt;div class="event"&gt;
     &lt;h1 class="event__title"&gt;Star Wars: The Force Awakens Premiere&lt;/h1&gt;
     &lt;p class="event__date"&gt;Dec 20, 2015&lt;/p&gt;
     &lt;p class="event__location"&gt;Ritz East, Philadelphia PA&lt;/p&gt;
-&lt;/div&gt;
-                        </code>
-                    </pre>
-                </p>
+&lt;/div&gt;</code></pre></p>
 
                 <p>While there&rsquo;s nothing technically incorrect about this markup, it may not be abstract enough for reuse. As we think about the <a title="&ldquo;Content Modelling: A Master Skill,&rdquo; by Rachel Lovinger on A List Apart" href="http://alistapart.com/article/content-modelling-a-master-skill">content model</a> for an Event, the pieces displayed here are <strong>Title</strong>, <strong>Date</strong>, and <strong>Location</strong>. There&rsquo;s nothing that ties an Event to this specific display. Other types of content that may exist on the site could have similar content models, like Articles: <strong>Title</strong>, <strong>Date</strong>, <strong>Description</strong>. I could easily use the same Display pattern to render an Article:</p>
 
@@ -104,17 +98,22 @@
                 <p>So, when <a href="http://twitter.com/jenniferbrook">Jennifer Brook</a> sat down to map out the content strategy for the site, she whipped out a list of <a href="http://patternlab.io/about.html#organisms">Organisms</a> for each major page on the site:</p>
 
                 <div class="easy-clearing margin-bottom">
-                    <img src="oreilly-wires.png" alt="Content modelling for the new O&rsquo;Reilly site" />
+                    <img src="oreilly-wires3.png" alt="Content modelling for the new O&rsquo;Reilly site" />
                 </div><!-- .easy-clearing -->
 
                 <p>This allowed both developer and designer (<a href="https://twitter.com/tpitre"><abbr>TJ</abbr> Pitre</a> and me respectively) to work simultaneously, assembling all the parts in our own ways and riffing off each other&rsquo;s work. Watching this process unfold revealed another important insight: <strong>when thinking about patterns, content strategists are primarily thinking about Content patterns, designers are primarily thinking about Display patterns, and front-end developers are responsible for bringing the two together.</strong> Certainly a bit of an oversimplification, but I&rsquo;ve witnessed it being true more often than not. Obvious in hindsight, but definitely easily overlooked when you&rsquo;re heads down in the middle of a project.</p>
 
-                <p>Have a look at that spreadsheet. &ldquo;Four Short Links&rdquo; is a particular content type. Jennifer was making sure that we wouldn&rsquo;t forget about that content and leaving it up to me to decide on the best display pattern for this data to be rendered across different screen sizes. That left it up to <abbr>TJ</abbr> to decide what level to abstract these in order to make them as reusable and easily understood as possible.</p>
+                <?php /* ?><p>Have a look at that spreadsheet. &ldquo;Four Short Links&rdquo; is a particular content type. Jennifer was making sure that we wouldn&rsquo;t forget about that content and leaving it up to me to decide on the best display pattern for this data to be rendered across different screen sizes. That left it up to <abbr>TJ</abbr> to decide what level to abstract these in order to make them as reusable and easily understood as possible.</p><?php */ ?>
+
+                <p>Have a look at that spreadsheet. &ldquo;Big Promo,&rdquo; &ldquo;More Upcoming,&rdquo; and &ldquo;Local Promo&rdquo; are all listed as separate organisms because they do different jobs (see the &ldquo;Features/Functions&rdquo; column), but their Content patterns are exactly the same. Jennifer was making sure that we wouldn&rsquo;t forget about that content and leaving it up to me to decide on the best display pattern for this data to be rendered across different screen sizes. <abbr>TJ</abbr> could decide how much to abstract these in code to make them as reusable and easily understood as possible.</p>
+
+                <p>I hypothesized that we could build these Content patterns with multiple instances of just two Display patterns, so I started by designing these:</p>
 
             </section><!-- .wrap.vanilla -->
 
         </div><!-- .intro-wrap -->
 
+        <?php /* ?>
         <div class="image-row box-row clearfix" style="background: #e9e9e9;">
 
             <div class="box">
@@ -147,8 +146,44 @@
             </div><!-- .box -->
 
         </div><!-- .image-row -->
+        <?php */ ?>
+
+        <div class="image-row" style="background: #e9e9e9;">
+            <div class="image-row-image easy-clearing margin-bottom">
+                <img src="oreilly-display-patterns.png" alt="Display patterns for the O&rsquo;Reilly site" />
+            </div><!-- .easy-clearing -->
+        </div><!-- .image-row -->
 
         <section class="wrap vanilla">
+
+            <p><abbr>TJ</abbr> then translated both Display patterns into one block of code:</p>
+
+            <p><pre class="code-block"><code>&lt;div class="g-item"&gt;
+    &lt;div class="block block-thumb"&gt;
+        &lt;div class="b-thumb"&gt;&hellip;&lt;/div&gt;
+        &lt;div class="b-text"&gt;                
+            &lt;h2 class="b-title"&gt;&hellip;&lt;/h2&gt;
+            &lt;div class="date-city"&gt;&hellip;&lt;/div&gt;
+            &lt;div class="dek"&gt;&hellip;&lt;/div&gt;
+        &lt;/div&gt;&lt;!-- .b-text --&gt;
+    &lt;/div&gt;&lt;!-- .block --&gt;
+&lt;/div&gt;&lt;!-- .g-item --&gt;</code></pre></p>
+
+            <p>He then created a modifier called <code>.g-item-hero</code> that turns the small Display pattern into the large one.</p>
+
+            <p>The final page ended up looking something like this:</p>
+
+        </section><!-- .wrap.vanilla -->
+
+        <div class="image-row oreilly-comp-row" style="background: #2a2c2b;">
+            <div class="image-row-image easy-clearing margin-bottom">
+                <img src="oreilly-comp2.png" alt="Final O&rsquo;Reilly Events page" />
+            </div><!-- .easy-clearing -->
+        </div><!-- .image-row -->
+
+        <section class="wrap vanilla">
+
+            <p>In short, three sections powered by two Display patterns, written as one code block with one modifier. This is the beauty of pattern-based design.</p>
 
             <h2 id="dont-just-build-the-comp"><a class="named-anchor" href="#dont-just-build-the-comp">Don&rsquo;t just build the comp</a></h2>
 

@@ -50,7 +50,7 @@
 	}
 
 	.intro-wrap {
-		background: transparent url(title-matte.png) no-repeat 70% -8px !important;
+		background: transparent url(title-matte2.png) no-repeat 70% -8px !important;
 		background-size: contain !important;
 		/*padding-top: 19em;*/
 		max-width: 1250px;
@@ -152,3 +152,16 @@
 	font: bold 18px 'Karla', sans-serif;
 	text-align: left;
 }
+
+.oreilly-comp-row {
+	padding-bottom: 0;
+}
+
+	.oreilly-comp-row .image-row-image {		
+		width: 90%;
+		max-width: 1200px;
+	}
+
+	.oreilly-comp-row img {
+		margin-bottom: 0;
+	}
