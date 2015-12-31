@@ -50,7 +50,7 @@
 
                 <p id="fn1-source"><strong><em>Content</em> patterns are different than <em>Display</em> patterns.</strong><sup class="footnote-link"><a href="#fn1">1</a></sup></p>
 
-                <p>Embracing the difference in pattern types is the key to making them infinitely more scalable. </p>
+                <p>A Content pattern describes the types of elements within and can be rendered in multiple forms. A Display pattern describes a specific rendering and can be applied to multiple types of Content patterns. Each is incomplete without the other. In order to make a site that people can use, every element on the screen needs a Content pattern and a Display pattern applied to it. Embracing the difference in pattern types is the key to making a modular design system infinitely more scalable. </p>
 
                 <h2 id="identifying-abstracting"><a class="named-anchor" href="#identifying-abstracting">Identifying and abstracting patterns</a></h2>
 
@@ -60,7 +60,7 @@
                     <img src="star-wars-event.png" alt="A Data pattern for an Event" />
                 </div><!-- .easy-clearing -->
 
-                <p>A simple way to mark that up&mdash;using <abbr title="Block, Element, Modifier"><a href="https://css-tricks.com/bem-101/">BEM</a></abbr> methodology&mdash;could look like this (for simplicity, I&rsquo;ve omitted useful markup like micro formats):</p>
+                <p>A simple way to mark that up&mdash;using <abbr title="Block, Element, Modifier"><a href="https://css-tricks.com/bem-101/">BEM</a></abbr> methodology&mdash;could look like this (for simplicity, I&rsquo;ve omitted useful markup like <a href="http://microformats.org/">microformats</a>):</p>
 
                 <p>
                     <pre>
@@ -80,7 +80,7 @@
                     <img src="star-wars-article.png" alt="A Data pattern for an Article" />
                 </div><!-- .easy-clearing -->
 
-                <p>Interaction designer Alla Kholmatova <a title="From &ldquo;The Language of Modular Design&rdquo; on A List Apart" href="http://alistapart.com/article/language-of-modular-design">wisely observes</a>, &ldquo;If you give [a pattern] a presentational name, its future will be limited, because it will be confined by its style.&rdquo; Mr. Responsive Design himself Ethan Marcotte <a href="https://24ways.org/2015/putting-my-patterns-through-their-paces/" title="&ldquo;Putting My Patterns through Their Paces,&rdquo; by Ethan Marcotte on 24ways">admits from his own work</a>, &ldquo;Back in the old days&mdash;you know, like six months ago&mdash;I probably would&rsquo;ve marked this module up to match the design. In other words, I would&rsquo;ve looked at the module&rsquo;s visual hierarchy and written the following <abbr>HTML</abbr>&hellip; But then I caught myself, and realized this wasn’t the best approach.&rdquo;</p>
+                <p>Interaction designer Alla Kholmatova <a title="From &ldquo;The Language of Modular Design&rdquo; on A List Apart" href="http://alistapart.com/article/language-of-modular-design">wisely observes</a>, &ldquo;If you give [a pattern] a presentational name, its future will be limited, because it will be confined by its style.&rdquo; Calling this an Event pattern might mean that I never even consider it for an Article, even though it could work just as well. Mr. Responsive Design himself Ethan Marcotte <a href="https://24ways.org/2015/putting-my-patterns-through-their-paces/" title="&ldquo;Putting My Patterns through Their Paces,&rdquo; by Ethan Marcotte on 24ways">admits from his own work</a>, &ldquo;Back in the old days&mdash;you know, like six months ago&mdash;I probably would&rsquo;ve marked this module up to match the design. In other words, I would&rsquo;ve looked at the module&rsquo;s visual hierarchy and written [very specific] <abbr>HTML</abbr>&hellip; But then I caught myself, and realized this wasn’t the best approach.&rdquo;</p>
 
                 <p>So, how can I make a more useful pattern? Perhaps I can abstract the display from both an Event as well as an Article into a pattern that can apply to both:</p>
 
@@ -101,7 +101,7 @@
 
                 <p>When I was working on <a href="http://beta.oreilly.com/">the new O&rsquo;Reilly site</a>, one of our team goals was to eschew traditional paper wireframes. On previous projects we&rsquo;d worked on together, wireframes were too time-consuming to make and constrained our client&rsquo;s thinking on graphic design a little too much. Over <a title="Calexico, a taco cart" href="http://calexico.net/">burritos</a> in the park, we realized that the most valuable thing about our previous wireframes was having a list of content for each page. </p>
 
-                <p>So, when <a href="http://twitter.com/jenniferbrook">Jennifer Brook</a> sat down to map out the content strategy for the site, she whipped out a list of Organisms for each major page on the site:</p>
+                <p>So, when <a href="http://twitter.com/jenniferbrook">Jennifer Brook</a> sat down to map out the content strategy for the site, she whipped out a list of <a href="http://patternlab.io/about.html#organisms">Organisms</a> for each major page on the site:</p>
 
                 <div class="easy-clearing margin-bottom">
                     <img src="oreilly-wires.png" alt="Content modelling for the new O&rsquo;Reilly site" />
@@ -154,7 +154,7 @@
 
             <p>One of the largest pitfalls in making a modular site is coding exactly to what&rsquo;s been Photoshopped. A comp is a snapshot in time, an example of elements in use, <em>not</em> canonical documentation for those elements. (That&rsquo;s exactly why <a title="&ldquo;The Post-PSD Era,&rdquo; by Dan Mall" href="http://danielmall.com/articles/the-post-psd-era/">comps may be an artifact of an older time in web design</a>.)</p>
 
-            <p>It often falls to the developer to see through the pixels of a comped element to find the actual design pattern. <em>This is why <a href="http://atomicdesign.bradfrost.com/chapter-4/#development-is-design">development is design</a></em>. When I&rsquo;m coaching agency and product design teams, I often recommend that they move their front-end developers on to the Design team instead of the Engineering team, because I need them to act more like architects than construction workers. (I even recommend ditching &ldquo;front-end developer&rdquo; as a title and starting calling them &ldquo;designer,&rdquo; but that&rsquo;s a story for another time.) For most of my projects, I allocate way more time for writing <abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr>/<abbr title="JavaScript">JS</abbr> than I do for in-Photoshop (or -Sketch or -whatever) time, because that&rsquo;s where the majority of the work&mdash;<a title="A Pastry Box entry by Dan Mall" href="https://the-pastry-box-project.net/dan-mall/2012-september-12">the decision making</a> &mdash;happens. In fact, a quick <a href="https://www.getharvest.com/">Harvest</a> check puts TJ&rsquo;s hours on the O&rsquo;Reilly project at more than double my own.</p>
+            <p>It often falls to the developer to see through the pixels of a comped element to find the actual design pattern. <em>This is why <a href="http://atomicdesign.bradfrost.com/chapter-4/#development-is-design">development is design</a></em>. When I&rsquo;m coaching agency and product design teams, I often recommend that they move their front-end developers on to the Design team instead of the Engineering team, because I need them to act more like architects than construction workers. (I even recommend ditching &ldquo;front-end developer&rdquo; as a title and starting calling them &ldquo;designer,&rdquo; but that&rsquo;s a story for another time.) For most of my projects, I allocate way more time for writing <abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr>/<abbr title="JavaScript">JS</abbr> than I do for in-Photoshop (or -Sketch or -whatever) time, because that&rsquo;s where the majority of the work&mdash;<a title="A Pastry Box entry by Dan Mall" href="https://the-pastry-box-project.net/dan-mall/2012-september-12">the decision making</a> &mdash;happens. In fact, a quick <a href="https://www.getharvest.com/">Harvest</a> check puts <abbr>TJ</abbr>&rsquo;s hours on the O&rsquo;Reilly project at more than double my own.</p>
 
             <p>On a recent redesign for a liberal arts university (more details about that project coming soon), I designed this:</p>
 
@@ -168,7 +168,7 @@
 
         <section class="wrap vanilla">
 
-            <p>We started to build the &ldquo;From Degrees to Careers&rdquo; organism&mdash;a Data pattern&mdash;but failed to initially realize that we should have been building a &ldquo;Vertical Tabset,&rdquo; a Display pattern:</p>
+            <p>We started to build the &ldquo;From Degrees to Careers&rdquo; organism&mdash;a Content pattern&mdash;but failed to initially realize that we should have been building a &ldquo;Vertical Tabset,&rdquo; a Display pattern:</p>
 
         </section><!-- .wrap.vanilla -->
 
@@ -180,7 +180,7 @@
 
         <section class="wrap vanilla">
 
-            <p>Once we did realize it, we found that it was incredibly simple to apply a similar but different content type (Events) to the &ldquo;Vertical Tabset&rdquo; Display pattern to create a new organism:</p>
+            <p>Once we did realize it, we found that it was incredibly simple to apply a similar but different Content pattern (Events) to the &ldquo;Vertical Tabset&rdquo; Display pattern to create a new organism:</p>
 
         </section><!-- .wrap.vanilla -->
 
@@ -192,13 +192,13 @@
 
         <section class="wrap vanilla">
 
-            <p>I&rsquo;m finding that I have the most success when my Display patterns <em>don&rsquo;t</em> describe the content within and when my Data patterns <em>don&rsquo;t</em> suggest anything about their presentation. Not news for those who <a title="&ldquo;Designing With Web Standards&rdquo; by Jeffrey Zeldman, on Amazon" href="http://amzn.to/1JtCUGr">design with web standards</a> and <a title="&ldquo;Understanding Progressive Enhancement,&rdquo; by Aaron Gustafson on A List Apart" href="http://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a>, but an occasional reminder doesn&rsquo;t hurt.</p>
+            <p>I&rsquo;m finding that I have the most success when my Display patterns <em>don&rsquo;t</em> describe the content within and when my Content patterns <em>don&rsquo;t</em> suggest anything about their presentation. Not news for those who <a title="&ldquo;Designing With Web Standards&rdquo; by Jeffrey Zeldman, on Amazon" href="http://amzn.to/1JtCUGr">design with web standards</a> and <a title="&ldquo;Understanding Progressive Enhancement,&rdquo; by Aaron Gustafson on A List Apart" href="http://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a>, but an occasional reminder doesn&rsquo;t hurt.</p>
 
-            <p>This certainly isn&rsquo;t a new idea. Web developer Nicole Sullivan has been using the example of <a title="&ldquo;The Media Object Saves Hundreds of Lines of Code,&rdquo; by Nicole Sullivan" href="http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/">the media object</a> for years in how it helped Facebook <a title="&ldquo;Making Facebook 2x Faster,&rdquo; by Jason Sobel" href="https://www.facebook.com/note.php?note_id=307069903919">cut their average <abbr>CSS</abbr> bytes per page by 19% and HTML bytes by 44%</a>. This distinction between Display and Data makes up the foundational principles of approaches like <a href="https://github.com/stubbornella/oocss/wiki">Object Oriented <abbr>CSS</abbr></a>.</p>
+            <p>This certainly isn&rsquo;t a new idea. Web developer Nicole Sullivan has been using the example of <a title="&ldquo;The Media Object Saves Hundreds of Lines of Code,&rdquo; by Nicole Sullivan" href="http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/">the media object</a> for years in how it helped Facebook <a title="&ldquo;Making Facebook 2x Faster,&rdquo; by Jason Sobel" href="https://www.facebook.com/note.php?note_id=307069903919">cut their average <abbr>CSS</abbr> bytes per page by 19% and HTML bytes by 44%</a>. This distinction between Content and Display makes up the foundational principles of approaches like <a href="https://github.com/stubbornella/oocss/wiki">Object Oriented <abbr>CSS</abbr></a>.</p>
 
             <p>Ten projects of this type along, I feel like I&rsquo;m getting the hang of what to look for and how to design this way. For those that are a bit newer though, one of the exercises I often turn to when I&rsquo;m having trouble visualizing a content workflow is to think about how my boss, my client, or I would manage and maintain the content. I do that by <a title="A snippet of a talk by Dan Mall" href="http://www.slideshare.net/danielmall/hulkamania-design/27">designing a fake <abbr title="Content Management System">CMS</abbr></a> for the piece I&rsquo;m working on.</p>
 
-            <p>Imagine you&rsquo;re assembling a page&mdash;<a title="&ldquo;Mobile First,&rdquo; by Luke Wroblewski" href="http://www.lukew.com/resources/mobile_first.asp">starting with small screens</a>, of course&mdash;for a site you&rsquo;re making. Following our formula from above, you could first choose from a list of existing Datatypes/content models, because your <abbr>CMS</abbr> would already know about them. Once you&rsquo;ve chosen a Datatype, the system would show you all the existing Display patterns in your framework. You choose a Display pattern and watch the preview update to show you what you&rsquo;re making.</p>
+            <p>Imagine you&rsquo;re assembling a page&mdash;<a title="&ldquo;Mobile First,&rdquo; by Luke Wroblewski" href="http://www.lukew.com/resources/mobile_first.asp">starting with small screens</a>, of course&mdash;for a site you&rsquo;re making. Following our formula from above, you could first choose from a list of existing Content patterns, because your <abbr>CMS</abbr> would already know about them. Once you&rsquo;ve chosen a Content pattern, the system would show you all the existing Display patterns in your framework. You choose a Display pattern and watch the preview update to show you what you&rsquo;re making.</p>
 
         </section><!-- .wrap.vanilla -->
 
@@ -213,14 +213,14 @@
             <p>With a construct like this one, each person&rsquo;s job could break down like this. Initially:</p>
 
             <ul>
-                <li>The content strategist&rsquo;s job would be to define the Datatypes</li>
+                <li>The content strategist&rsquo;s job would be to define the Content patterns</li>
                 <li>The designer&rsquo;s job would be to create Display patterns</li>
-                <li>The developer&rsquo;s job would be to create the markup for the Display patterns and create the hooks for Datatypes to flow into the Display patterns appropriately</li>
+                <li>The developer&rsquo;s job would be to create the markup for the Display patterns and create the hooks for Content patterns to flow into the Display patterns appropriately</li>
             </ul>
 
-            <p>Once those foundational tasks are completed, the three work closely together to test and tweak the patterns to make sure they&rsquo;re working as expected. With the completed patterns, the content strategist can create the entire site by combining Display patterns with Data. Though I haven&rsquo;t come across a system like this, my most recent projects try to approximate it by having the content strategist write <abbr title="JavaScript Object Notation">JSON</abbr> simultaneously to Display patterns being created. For example, we recently <a title="&ldquo;Craft + Patternlab = Buzzwords!&rdquo; by Mark Huot on Cognition" href="http://cognition.happycog.com/article/craft-patternlab-buzzwords">made Craft publish <abbr>JSON</abbr></a> so that we could use PatternLab for pattern management and Craft solely for content management.</p>
+            <p>Once those foundational tasks are completed, the three work closely together to test and tweak the patterns to make sure they&rsquo;re working as expected. With the completed patterns, the content strategist&mdash;or, better yet, the client&mdash;can create the entire site by combining Display and Content patterns. Though I haven&rsquo;t come across a <abbr title="Graphical User Interface">GUI</abbr> that lets you modify Display and Content patterns independently like this, my most recent projects try to approximate it by having the content strategist write <abbr title="JavaScript Object Notation">JSON</abbr> simultaneously to Display patterns being created. For example, on a project I recently directed for digital studio <a href="http://happycog.com/">Happy Cog</a>, we <a title="&ldquo;Craft + Patternlab = Buzzwords!&rdquo; by Mark Huot on Cognition" href="http://cognition.happycog.com/article/craft-patternlab-buzzwords">made Craft publish <abbr>JSON</abbr></a> so that we could use PatternLab for Display patterns and Craft for Content patterns.</p>
 
-            <p>Where this all becomes really powerful is when you can have an army of Display patterns that can work with an infinite amount of Datatypes. Though we&rsquo;re not entirely there yet, I could certainly see distinctions like these being incredibly useful in how we work on pattern-based designs.</p>
+            <p>Where this all becomes really powerful is when you can have an army of Display patterns that can work with an infinite amount of Content patterns. Though we&rsquo;re not entirely there yet, I could certainly see distinctions like these being incredibly useful in how we work on pattern-based designs.</p>
 
             <h2>Related reading</h2>
 
