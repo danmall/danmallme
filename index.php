@@ -38,6 +38,18 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/content-display-patterns/">
+                                    <img class="round-image" src="/articles/content-display-patterns/home-thumb.png" alt="" />
+                                    <span class="home-item-name">Content &amp; Display Patterns</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Embracing the difference in pattern types is the key to making a modular design system infinitely more scalable.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/titles-are-important/">
                                     <img class="round-image" style="border-radius: 0;" src="/articles/titles-are-important/home-thumb.png" alt="" />
                                     <span class="home-item-name">Titles are Important</span>
@@ -47,7 +59,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/interviewing-designers/">
@@ -59,7 +71,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/i-dont-have-time/">
@@ -70,6 +82,8 @@
                             <p class="home-item-description">That magical phrase that gives you permission to brush off the things you really want to do.</p>
                         </article><!-- .home-item-article -->
                     </li>
+
+                    <?php /* ?>
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -83,7 +97,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <?php /* ?>
+                    
 
                     <li class="home-item position4">
                         <article class="home-item-article">
