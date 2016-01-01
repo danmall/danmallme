@@ -6,7 +6,7 @@
 	.vanilla h1 + h2 { margin: -1.25em 0 2em; }
 	.vanilla p { font-size: 18px; color: #333; color: #444; line-height: 1.6;}
 	.vanilla blockquote p { font-family: 'Karla', sans-serif; }
-	.vanilla em { font-family: Georgia, 'Times New Roman', serif; font-size: 95%; } /* yuck */
+	.vanilla em, .vanilla cite { font-family: Georgia, 'Times New Roman', serif; font-size: 95%; } /* yuck */
 	.vanilla ul, .vanilla ol { font-size: 16px; color: #333; color: #444; }
 	.vanilla li { margin: 0 0 0.9em 25px; position: relative; color: #333; color: #444; }
 		.vanilla ul li:before { content: ""; position: absolute; top: 0.5em; left: -20px; width: 8px; height: 8px; background: #81b440; border-radius: 3px; }

@@ -50,7 +50,17 @@
 
                 <p id="fn1-source"><strong><em>Content</em> patterns are different than <em>Display</em> patterns.</strong><sup class="footnote-link"><a href="#fn1">1</a></sup></p>
 
-                <p>A Content pattern describes the types of elements within and can be rendered in multiple forms. A Display pattern describes a specific rendering and can be applied to multiple types of Content patterns. Each is incomplete without the other. In order to make a site that people can use, every element on the screen needs a Content pattern and a Display pattern applied to it. Embracing the difference in pattern types is the key to making a modular design system infinitely more scalable. </p>
+                <p>Let&rsquo;s dissect that a bit:</p>
+
+                <ul>
+                    <li>In his excellent book <a href="http://amzn.to/1S26ppX"><cite>Modular Web Design</cite></a>, Nathan Curtis defines a pattern as &ldquo;a solution to a recurring design problem, such that you could use the solution many times and never use it in the same way twice.&rdquo;</li>
+                    <li>A Content pattern describes the types of elements within and can be rendered in multiple forms.</li>
+                    <li>A Display pattern describes a specific rendering and can be applied to multiple types of Content patterns.</li>
+                </ul>
+
+                <p>Each is incomplete without the other. In order to make a site that people can use, every element on the screen needs a Content pattern and a Display pattern applied to it. Embracing the difference in pattern types is the key to making a modular design system infinitely more scalable.</p>
+
+                <p>If you run or work on any kind of web-based business, thinking and building in terms of patterns is incredibly valuable for your organization, as it&rsquo;ll help you build leaner, faster, and more <a href="http://futurefriendlyweb.com/">future-friendly</a>. This approach transcends industries, as I&rsquo;ve seen this work wonders for retail, publishers, travel, financial services, government, nonprofits, and more.</p>
 
                 <h2 id="identifying-abstracting"><a class="named-anchor" href="#identifying-abstracting">Identifying and abstracting patterns</a></h2>
 
@@ -183,7 +193,7 @@
 
         <section class="wrap vanilla">
 
-            <p>In short, three sections powered by two Display patterns, written as one code block with one modifier. This is the beauty of pattern-based design.</p>
+            <p>In short: three sections powered by two Display patterns, written as one code block with one modifier. This is the beauty of pattern-based design.</p>
 
             <h2 id="dont-just-build-the-comp"><a class="named-anchor" href="#dont-just-build-the-comp">Don&rsquo;t just build the comp</a></h2>
 
@@ -231,6 +241,8 @@
 
             <p>This certainly isn&rsquo;t a new idea. Web developer Nicole Sullivan has been using the example of <a title="&ldquo;The Media Object Saves Hundreds of Lines of Code,&rdquo; by Nicole Sullivan" href="http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/">the media object</a> for years in how it helped Facebook <a title="&ldquo;Making Facebook 2x Faster,&rdquo; by Jason Sobel" href="https://www.facebook.com/note.php?note_id=307069903919">cut their average <abbr>CSS</abbr> bytes per page by 19% and HTML bytes by 44%</a>. This distinction between Content and Display makes up the foundational principles of approaches like <a href="https://github.com/stubbornella/oocss/wiki">Object Oriented <abbr>CSS</abbr></a>.</p>
 
+            <h2><a class="named-anchor" href="#decoupling">Decoupling</a></h2>
+
             <p>Ten projects of this type along, I feel like I&rsquo;m getting the hang of what to look for and how to design this way. For those that are a bit newer though, one of the exercises I often turn to when I&rsquo;m having trouble visualizing a content workflow is to think about how my boss, my client, or I would manage and maintain the content. I do that by <a title="A snippet of a talk by Dan Mall" href="http://www.slideshare.net/danielmall/hulkamania-design/27">designing a fake <abbr title="Content Management System">CMS</abbr></a> for the piece I&rsquo;m working on.</p>
 
             <p>Imagine you&rsquo;re assembling a page&mdash;<a title="&ldquo;Mobile First,&rdquo; by Luke Wroblewski" href="http://www.lukew.com/resources/mobile_first.asp">starting with small screens</a>, of course&mdash;for a site you&rsquo;re making. Following our formula from above, you could first choose from a list of existing Content patterns, because your <abbr>CMS</abbr> would already know about them. Once you&rsquo;ve chosen a Content pattern, the system would show you all the existing Display patterns in your framework. You choose a Display pattern and watch the preview update to show you what you&rsquo;re making.</p>
@@ -253,31 +265,25 @@
                 <li>The developer&rsquo;s job would be to create the markup for the Display patterns and create the hooks for Content patterns to flow into the Display patterns appropriately</li>
             </ul>
 
-            <p>Once those foundational tasks are completed, the three work closely together to test and tweak the patterns to make sure they&rsquo;re working as expected. With the completed patterns, the content strategist&mdash;or, better yet, the client&mdash;can create the entire site by combining Display and Content patterns. Though I haven&rsquo;t come across a <abbr title="Graphical User Interface">GUI</abbr> that lets you modify Display and Content patterns independently like this, my most recent projects try to approximate it by having the content strategist write <abbr title="JavaScript Object Notation">JSON</abbr> simultaneously to Display patterns being created. For example, on a project I recently directed for digital studio <a href="http://happycog.com/">Happy Cog</a>, we <a title="&ldquo;Craft + Patternlab = Buzzwords!&rdquo; by Mark Huot on Cognition" href="http://cognition.happycog.com/article/craft-patternlab-buzzwords">made Craft publish <abbr>JSON</abbr></a> so that we could use PatternLab for Display patterns and Craft for Content patterns.</p>
+            <p>Once those foundational tasks are completed, the three work closely together to test and tweak the patterns to make sure they&rsquo;re working as expected. With the completed patterns, the content strategist&mdash;or, better yet, the client&mdash;can create the entire site by combining Display and Content patterns. Though I haven&rsquo;t come across a <abbr title="Graphical User Interface">GUI</abbr> that lets you independently modify Display and Content patterns exactly like this, it&rsquo;s no surprise that content management systems are trending toward the <a href="https://www.contentful.com/r/knowledgebase/headless-and-decoupled-cms/" title="&ldquo;Headless and decoupled CMS: the essential guide,&rdquo; on Contentful">decoupled</a> route. That&rsquo;s why this approach of bisecting patterns is so powerful: it mirrors the way that content should be managed and reconciled with its view. Counterintuitively, by decoupling concerns, you&rsquo;re working more tightly with the people and tools all the way up and down the stack. My most recent projects try to approximate a scrappy decoupling by having the content strategist write <abbr title="JavaScript Object Notation">JSON</abbr> simultaneously to Display patterns being created. For example, on a project I recently directed for digital studio <a href="http://happycog.com/">Happy Cog</a>, we <a title="&ldquo;Craft + Patternlab = Buzzwords!&rdquo; by Mark Huot on Cognition" href="http://cognition.happycog.com/article/craft-patternlab-buzzwords">made Craft publish <abbr>JSON</abbr></a> so that we could use PatternLab for Display patterns and Craft for Content patterns.</p>
 
-            <p>Where this all becomes really powerful is when you can have an army of Display patterns that can work with an infinite amount of Content patterns. Though we&rsquo;re not entirely there yet, I could certainly see distinctions like these being incredibly useful in how we work on pattern-based designs.</p>
+            <p>Where this all becomes really liberating is when you can have an army of Display patterns that can work with an infinite amount of Content patterns. Though we&rsquo;re not entirely there yet, I could certainly see distinctions like these being incredibly useful in how we work on pattern-based designs.</p>
 
-            <h2>Related reading</h2>
+            <h2><a class="named-anchor" href="#related-reading">Related reading</a></h2>
 
             <ul>
                 <li><a href="http://seesparkbox.com/foundry/naming_css_stuff_is_really_hard">Naming CSS Stuff is Really Hard</a>, by Ethan Muller</li>
-                <li><a href="http://amzn.to/1S26ppX">Modular Web Design: Creating Reusable Components for User Experience Design and Documentation</a>, by Nathan Curtis</li>
                 <li><a href="http://alistapart.com/article/from-pages-to-patterns-an-exercise-for-everyone">From Pages to Patterns: An Exercise for Everyone</a>, by Charlotte Jackson</li>
                 <li><a href="/articles/creative-cloud-libraries/">Creative Cloud Libraries</a></li>
+                <li><a href="http://abookapart.com/products/responsive-design-patterns-principles">Responsive Design: Patterns &amp; Principles</a>, by Ethan Marcotte</li>
             </ul>
-
-
 
             <footer class="footnote">
 
                 <ol>
-
-                    <li id="fn1">This dichotomy was originally described by Karen McGrane. <a class="footnote-arrow" href="#fn1-source">&#8617;</a></li>
-                    
-                    <li id="fn2">This article is also published on <a href="#">Medium</a>.</li>             
-
+                    <li id="fn1">This dichotomy was originally described by Karen McGrane. <a class="footnote-arrow" href="#fn1-source">&#8617;</a></li>                    
+                    <?php /* ?><li id="fn2">This article is also published on <a href="#">Medium</a>.</li><?php */ ?>
                     <li id="fn3">Special thanks to <a href="http://karenmcgrane.com/">Karen McGrane</a>, <a href="http://dirtystylus.com/">Mark Llobrera</a>, <a href="http://ethanmarcotte.com/">Ethan Marcotte</a>, <a href="http://southleft.com/"><abbr>TJ</abbr> Pitre</a>, <a href="http://www.jasonhead.com/">Jason Head</a>, <a href="http://thefutureislikepie.com/">Lisa Maria Martin</a>, and <a href="https://bigmedium.com/">Josh Clark</a> for reviewing drafts of this article and suggesting edits to get it into top shape. I owe you each a delicious dinner.</li>
-
                 </ol>
 
             </footer><!-- .footnote -->
