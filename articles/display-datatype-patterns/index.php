@@ -1,3 +1,8 @@
+<?php 
+    header('Location: /articles/content-display-patterns/'); 
+    exit; 
+?>
+
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head profile="http://gmpg.org/xfn/11">

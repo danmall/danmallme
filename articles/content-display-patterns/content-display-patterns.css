@@ -1,0 +1,305 @@
+/*.vanilla em { font-family: 'Droid Serif', serif; font-size: 90%; }*/
+
+.article-header-title {
+	color: rgba(255, 0, 0, 0.4);
+	position: relative;
+}
+
+
+.intro-wrap {
+	background: transparent url(title-matte-small.svg) no-repeat 0 -25px !important;
+	background-size: contain !important;
+	max-width: 718px;
+	margin: 0 auto;
+	padding-top: 80px;
+	padding-top: 25%;
+}
+
+@media screen and (min-width: 484px){ 
+	.intro-wrap {
+		background-position: 0 -60px !important;
+	}
+}
+
+@media screen and (min-width: 517px){ 
+	.intro-wrap {
+		padding-top: 35%;
+	}
+}
+
+@media screen and (min-width: 530px){ 
+	.intro-wrap {
+		background-position: 0 -60px !important;
+	}
+}
+
+@media screen and (min-width: 610px){ 
+	.intro-wrap {
+		background-position: 0 -120px !important;
+		padding-top: 35%;
+	}
+}
+
+@media screen and (min-width: 718px){
+
+	.article-header-title { 
+		position: absolute;
+		left: -99999px;
+	}
+
+	/*.vanilla:first-child {
+		padding-top: 0;
+	}
+
+	.vanilla:first-child:before {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 0;
+		padding-bottom: 61%;
+		padding-bottom: 41%;
+	}*/
+
+	.intro-wrap {
+		background: transparent url(title-matte2.png) no-repeat 70% -8px !important;
+		background-size: contain !important;
+		/*padding-top: 19em;*/
+		max-width: 1250px;
+		margin: 0 auto;
+		padding-top: 25%;
+	}
+}
+
+@media screen and (min-width: 1280px){
+	.intro-wrap {
+		padding-top: 29em;
+	}
+}
+
+.image-row-image {
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+.video-row-video {
+	width: 100%;
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+.video-row-video video {
+	max-width: 100%;
+	width: 100%;
+}
+
+.image-row {
+	margin: -8em 0 -4em;
+	padding: 2em 0;
+}
+
+.box-row {
+	padding: 4em 0;
+	text-align: center;
+}
+
+.box {
+	display: inline-block;
+	margin: 0 0 4em;
+	vertical-align: top;
+}
+
+@media screen and (min-width: 876px){
+	.box:after {
+		background: transparent url(arrow.svg) no-repeat 0 0;
+		content: "";
+		display: inline-block;
+		height: 31px;
+		margin: 0 30px;
+		position: relative;
+		top: 150px;
+		width: 39px;
+	}
+}
+
+.box:last-child:after {
+	display: none;
+}
+
+.box-code {
+	background: #fff;
+	padding: 0 10px;
+	text-align: left;
+	width: 340px;
+}
+
+.box code { font-size: 16px; text-align: left; }
+	.box pre code { line-height: 1.6; }
+	.box pre { /* Thanks Chris: https://css-tricks.com/snippets/css/make-pre-text-wrap/ */
+		 white-space: pre-wrap;       /* css-3 */
+		 white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+		 white-space: -pre-wrap;      /* Opera 4-6 */
+		 white-space: -o-pre-wrap;    /* Opera 7 */
+		 word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	}
+
+.box-headline {
+	font: bold 18px 'Karla', sans-serif;
+	text-align: left;
+}
+
+.oreilly-comp-row {
+	padding-bottom: 0;
+}
+
+	.oreilly-comp-row .image-row-image {		
+		width: 90%;
+		max-width: 1200px;
+	}
+
+	.oreilly-comp-row img {
+		margin-bottom: 0;
+	}
+
+
+/* PRISM */
+
+/* http://prismjs.com/download.html?themes=prism&languages=markup+json */
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: black;
+	text-shadow: 0 1px white;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+@media print {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #f5f2f0;
+	background: none;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #999;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #690;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #a67f59;
+	background: hsla(0, 0%, 100%, .5);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #07a;
+}
+
+.token.function {
+	color: #DD4A68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #e90;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+

@@ -114,7 +114,7 @@
                 
                 <ol>
                     
-                    <li id="fn1">This point wasn&rsquo;t part of the original email, but I thought it would be valuable to share. <a href="#fn1-source">&#8617;</a></li>             
+                    <li id="fn1">This point wasn&rsquo;t part of the original email, but I thought it would be valuable to share. <a class="footnote-arrow" href="#fn1-source">&#8617;</a></li>             
 
                     <li id="fn2">This article has also been <a href="https://medium.com/@danielmall/658866364043">published on Medium</a>.</li>
 
