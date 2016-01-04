@@ -282,7 +282,7 @@
 
                 <ol>
                     <li id="fn1">This dichotomy was originally described by Karen McGrane. <a class="footnote-arrow" href="#fn1-source">&#8617;</a></li>                    
-                    <?php /* ?><li id="fn2">This article is also published on <a href="#">Medium</a>.</li><?php */ ?>
+                    <li id="fn2">This article is also published on <a href="https://medium.com/@danielmall/content-display-patterns-a9726f66eb88#.60dtx1fjn">Medium</a>.</li>
                     <li id="fn3">Special thanks to <a href="http://karenmcgrane.com/">Karen McGrane</a>, <a href="http://dirtystylus.com/">Mark Llobrera</a>, <a href="http://ethanmarcotte.com/">Ethan Marcotte</a>, <a href="http://southleft.com/"><abbr>TJ</abbr> Pitre</a>, <a href="http://www.jasonhead.com/">Jason Head</a>, <a href="http://thefutureislikepie.com/">Lisa Maria Martin</a>, <a href="https://bigmedium.com/">Josh Clark</a>, and <a href="http://bradfrost.com/">Brad Frost</a> for reviewing drafts of this article and suggesting edits to get it into top shape. I owe you each a delicious dinner.</li>
                 </ol>
 
