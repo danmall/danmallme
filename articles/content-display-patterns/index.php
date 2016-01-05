@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="content-display-patterns.css" />
 
 	<!-- Facebook -->
-    <meta property="og:title" content="Display &amp; Datatype Patterns" />
+    <meta property="og:title" content="Content &amp; Display Patterns" />
     <meta property="og:description" content="Embracing the difference in pattern types is the key to making a modular design system infinitely more scalable."/>	
     <meta property="og:url" content="http://danielmall.com/articles/content-display-patterns/" />
     <meta property="og:image" content="http://danielmall.com/articles/content-display-patterns/home-thumb.png" />
