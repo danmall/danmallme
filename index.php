@@ -35,7 +35,19 @@
 
     		    <ol class="no-marker">
 
-                    <li class="home-item position1">
+                  <li class="home-item position1">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/articles/permission-slips/">
+                                    <img class="round-image" src="/articles/permission-slips/home-thumb.png" alt="" />
+                                    <span class="home-item-name">Permission Slips</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">To overcome your fears, you need [permission] to try something different.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position2">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/content-display-patterns/">
@@ -47,7 +59,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/titles-are-important/">
@@ -59,7 +71,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/interviewing-designers/">
@@ -70,6 +82,8 @@
                             <p class="home-item-description">Some tips on making the right hire.</p>
                         </article><!-- .home-item-article -->
                     </li>
+
+                    <?php /* ?>
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -83,7 +97,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <?php /* ?>
+                    
 
                     <li class="home-item position4">
                         <article class="home-item-article">
