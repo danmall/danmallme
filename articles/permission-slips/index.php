@@ -40,7 +40,7 @@
             <p>Em&rsquo;s post is a great reminder to give yourself&mdash;and others!&mdash;permission when it&rsquo;s requested&mdash;and, perhaps more importantly, when it&rsquo;s not.</p>
 
             <footer class="footnote">
-                <p>Also published on <a href="#">Medium</a>.</p>
+                <p>Also published on <a href="https://medium.com/@danielmall/permission-slips-1e6f2f150f96#.rp1pp1fd0">Medium</a>.</p>
             </footer><!-- .footnote -->
 			
 	    </section><!-- .vanilla -->	  	
