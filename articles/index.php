@@ -24,7 +24,19 @@
 
                 <ol class="article-list articles no-marker">
 
-                 <li>
+                    <li>
+                        <article>
+                            <header>
+                                <h1><a href="/articles/permission-slips/">Permission Slips</a></h1>
+                            </header>
+                            <p>To overcome your fears, you need [permission] to try something different.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/permission-slips/"><time datetime="2016-01-12T10:23:00">Jan 12, 2016</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/permission-slips/#disqus_thread" data-disqus-identifier="permission-slips"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
+                    <li>
                         <article>
                             <header>
                                 <h1><a href="/articles/content-display-patterns/">Content &amp; Display Patterns</a></h1>
