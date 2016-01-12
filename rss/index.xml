@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2015</dc:rights>
-    <pubDate>Thu, 31 Dec 2015 17:05:00 GMT</pubDate>
+    <pubDate>Tue, 12 Jan 2016 10:23:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Permission Slips</title>
+        <description>To overcome your fears, you need [permission] to try something different.</description>
+        <link>http://danielmall.com/articles/permission-slips/</link>
+        <guid>http://danielmall.com/articles/permission-slips/</guid>
+        <pubDate>Tue, 12 Jan 2016 10:23:00 GMT</pubDate>
+    </item>
     <item>
         <title>Content and Display Patterns</title>
         <description>Embracing the difference in pattern types is the key to making a modular design system infinitely more scalable.</description>
