@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2015</dc:rights>
-    <pubDate>Tue, 12 Jan 2016 10:23:00 GMT</pubDate>
+    <pubDate>Mon, 8 Feb 2016 08:46:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Oil Change and Pizza</title>
+        <description>Death to full service.</description>
+        <link>http://danielmall.com/articles/oil-change-pizza/</link>
+        <guid>http://danielmall.com/articles/oil-change-pizza/</guid>
+        <pubDate>Mon, 8 Feb 2016 08:46:00 GMT</pubDate>
+    </item>
     <item>
         <title>Permission Slips</title>
         <description>To overcome your fears, you need [permission] to try something different.</description>

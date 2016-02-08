@@ -27,6 +27,18 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/oil-change-pizza/">Oil Change &amp; Pizza</a></h1>
+                            </header>
+                            <p>Death to &ldquo;full service.&rdquo;</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/oil-change-pizza/"><time datetime="2016-02-08T08:46:00">Feb 8, 2016</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/oil-change-pizza/#disqus_thread" data-disqus-identifier="oil-change-pizza"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/permission-slips/">Permission Slips</a></h1>
                             </header>
                             <p>To overcome your fears, you need [permission] to try something different.</p>
