@@ -35,7 +35,19 @@
 
     		    <ol class="no-marker">
 
-                  <li class="home-item position1">
+                    <li class="home-item position1">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
+                                <a href="/articles/oil-change-pizza/">
+                                    <img class="round-image" src="/articles/oil-change-pizza/home-thumb.png" alt="" />
+                                    <span class="home-item-name">Oil Change &amp; Pizza</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Death to &ldquo;full service.&rdquo;</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                  <li class="home-item position2">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/permission-slips/">
@@ -47,7 +59,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/content-display-patterns/">
@@ -59,7 +71,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/titles-are-important/">
@@ -70,6 +82,8 @@
                             <p class="home-item-description">Don&rsquo;t believe anyone that tells you otherwise.</p>
                         </article><!-- .home-item-article -->
                     </li>
+
+                    <?php /* ?>
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -83,7 +97,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <?php /* ?>
+                    
 
                     <li class="home-item position4">
                         <article class="home-item-article">
