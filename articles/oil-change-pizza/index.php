@@ -27,7 +27,7 @@
 			
 	    <section class="clearfix wrap vanilla">			
 			
-			<?php /* ?><h1 class="article-header-title">Donec id elit non mi porta gravida at eget metus</h1><?php */ ?>
+			<h1 class="article-header-title">Oil Change &amp; Pizza</h1>
 			
 			<p>I once saw a sign that said, &ldquo;Oil change &amp; Pizza.&rdquo;</p>
 
@@ -65,11 +65,9 @@
             <p>So. Oil change. Or pizza. Just not both. </p>
 
 
-            <?php /* ?>
             <footer class="footnote">
-                <p>Also published on <a href="https://medium.com/@danielmall/switch-928f791e2591">Medium</a>.</p>
+                <p>Also published on <a href="https://medium.com/@danielmall/oil-change-pizza-9257aba3562b#.r6seh4x9e">Medium</a>.</p>
             </footer><!-- .footnote -->
-            <?php */ ?>
 			
 	    </section><!-- .vanilla -->	  	
 	    
