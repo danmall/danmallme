@@ -16,7 +16,7 @@
     <meta property="og:title" content="Selling Design Systems" />
     <meta property="og:description" content="How to convince your boss that a design system is a good idea."/>	
     <meta property="og:url" content="http://danielmall.com/articles/selling-design-systems/" />
-    <meta property="og:image" content="http://danielmall.com/articles/selling-design-systems/home-thumb.png" />
+    <meta property="og:image" content="http://danielmall.com/articles/selling-design-systems/boards.jpg" />
     
 </head>
 
