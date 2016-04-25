@@ -65,13 +65,10 @@
                 <li>&ldquo;<a href="https://www.adventist.io/2016/04/who-we-are-building-for/">Who We Are Building For</a>,&rdquo; an overview of the personas we&rsquo;re building&mdash;and not building&mdash;for</li>
                 <li>&ldquo;<a href="https://www.adventist.io/2016/04/measuring-what-we-do/">Measuring What We Do</a>,&rdquo; objectives and key results for this project</li>
             </ul>
-
-
-            <?php /* ?>
+            
             <footer class="footnote">
-                <p>Also published on <a href="#">Medium</a>.</p>
+                <p>Also published on <a href="https://medium.com/@danielmall/selling-design-systems-4f4046742671#.ayj05wigv">Medium</a>.</p>
             </footer><!-- .footnote -->
-            <?php */ ?>
 			
 	    </section><!-- .vanilla -->	  	
 	    
