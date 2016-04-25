@@ -40,13 +40,13 @@
 
         <div class="tiles-image image-row" style="background: #eaeaea;">
             <div class="image-row-image easy-clearing margin-bottom">
-                <img src="tiles.jpg" alt="" />
+                <img src="tiles.jpg" alt="A few samples of the individual thumbnails Brent printed" />
             </div><!-- .easy-clearing -->
         </div><!-- .image-row -->
         
         <div class="boards-image image-row" style="background: #222;">
             <div class="image-row-image easy-clearing margin-bottom">
-                <img src="boards.jpg" alt="" />
+                <img src="boards.jpg" alt="Collected boards to demonstrate the lack of design system" />
             </div><!-- .easy-clearing -->
         </div><!-- .image-row -->
 
@@ -127,7 +127,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2016-04-25T12:57:00">Published April 25, 2016 at 12:57 <abbr title="Post Meridian">PM</abbr></time>
+        	        <time datetime="2016-04-09:30:00">Published April 25, 2016 at 09:30 <abbr title="Ante Meridian">AM</abbr></time>
     	        </section><!-- /.article-info -->
     	        
     	        

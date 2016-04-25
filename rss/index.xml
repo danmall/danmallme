@@ -10,9 +10,16 @@
     <description>Musings from the brain of Dan Mall.</description>
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
-    <dc:rights>Copyright 2005-2015</dc:rights>
-    <pubDate>Mon, 8 Feb 2016 08:46:00 GMT</pubDate>
+    <dc:rights>Copyright 2005-2016</dc:rights>
+    <pubDate>Mon, 25 Apr 2016 09:30:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Selling Design Systems</title>
+        <description>How to convince your boss that a design system is a good idea.</description>
+        <link>http://danielmall.com/articles/selling-design-systems/</link>
+        <guid>http://danielmall.com/articles/selling-design-systems/</guid>
+        <pubDate>Mon, 25 Apr 2016 09:30:00 GMT</pubDate>
+    </item>
     <item>
         <title>Oil Change and Pizza</title>
         <description>Death to full service.</description>
