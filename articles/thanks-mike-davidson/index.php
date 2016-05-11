@@ -39,11 +39,11 @@
 
             <p>Thanks, Mike, for letting me learn from you for over a decade and for helping me remember just how &ldquo;great&rdquo; great writing can be.</p>
 
-            <?php /* ?>
+            
             <footer class="footnote">
-                <p>Also published on <a href="#">Medium</a>.</p>
+                <p>Also published on <a href="https://medium.com/@danielmall/thanks-mike-davidson-199bc9c07f12#.9m6vpzb89">Medium</a>.</p>
             </footer><!-- .footnote -->
-            <?php */ ?>
+            
 			
 	    </section><!-- .vanilla -->	  	
 	    
