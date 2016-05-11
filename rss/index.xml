@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2016</dc:rights>
-    <pubDate>Mon, 25 Apr 2016 09:30:00 GMT</pubDate>
+    <pubDate>Wed, 11 May 2016 05:50:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Thanks, Mike Davidson</title>
+        <description>Great writing from Mike really brings me back.</description>
+        <link>http://danielmall.com/articles/thanks-mike-davidson/</link>
+        <guid>http://danielmall.com/articles/thanks-mike-davidson/</guid>
+        <pubDate>Wed, 11 May 2016 05:50:00 GMT</pubDate>
+    </item>
     <item>
         <title>Selling Design Systems</title>
         <description>How to convince your boss that a design system is a good idea.</description>

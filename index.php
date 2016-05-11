@@ -38,6 +38,18 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/thanks-mike-davidson/">
+                                    <img class="round-image" src="/articles/thanks-mike-davidson/mike.jpg" alt="" />
+                                    <span class="home-item-name">Thanks, Mike Davidson</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Great writing from Mike really brings me back.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/selling-design-systems/">
                                     <img class="round-image" src="/articles/selling-design-systems/boards.jpg" alt="" />
                                     <span class="home-item-name">Selling Design Systems</span>
@@ -47,7 +59,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/oil-change-pizza/">
@@ -59,7 +71,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/permission-slips/">
@@ -70,6 +82,8 @@
                             <p class="home-item-description">To overcome your fears, you need [permission] to try something different.</p>
                         </article><!-- .home-item-article -->
                     </li>
+
+                    <?php /* ?>
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -83,7 +97,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <?php /* ?>
+                    
 
                     <li class="home-item position4">
                         <article class="home-item-article">
