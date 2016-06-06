@@ -10,6 +10,7 @@
     <link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" href="/articles/_vanilla/vanilla.css" />
+    <link rel="stylesheet" href="apprenticeships-superfriendly-academy.css" />
 
 	<!-- Facebook -->
     <meta property="og:title" content="Apprenticeships" />
@@ -25,7 +26,7 @@
 	
 	<div id="article-area-wrap">
 			
-	    <section class="clearfix wrap vanilla">			
+	    <section class="clearfix wrap vanilla vanilla--first">			
 			
 			<h1 class="article-header-title">Apprenticeships</h1>
 
@@ -41,7 +42,15 @@
               <p>We &ldquo;learn,&rdquo; and after this we &ldquo;do.&rdquo; We go to school and then we go to work&hellip; This approach does not map very well to personal and professional success in America today. Learning and doing have become inseparable in the face of conditions that invite us to discover.</p>
             </blockquote>
 
-            <p>[Image of failure spectrum]</p>
+        </section>
+
+        <div class="failure-image image-row">
+            <div class="image-row-image easy-clearing margin-bottom">
+                <img src="failure-graph.svg" src="A spectrum of reasons for failure" />
+            </div><!-- .easy-clearing -->
+        </div><!-- .image-row -->            
+
+        <section class="clearfix wrap vanilla"> 
 
             <p>The separation of learning and doing is partly due to our incessant quest for maximum efficiency in the workplace, which is sometimes synonymous with the elimination of failure in the workplace. In her article <a href="https://hbr.org/2011/04/strategies-for-learning-from-failure">Strategies for Learning from Failure</a> in the <cite>Harvard Business Review</cite>, Professor Amy Edmondson describes a spectrum of reasons for failure, with blameworthy types of failure on one end and praiseworthy types on the other. Certainly, we don&rsquo;t want our coworkers to fail because of deviance or attention, but the elimination of failure unfortunately removes the opportunity for failure through exploratory testing or uncertainty, which are crucial in creative process.</p>
 
@@ -164,7 +173,7 @@
 
 	<?php
 
-        echo readNext('How to Get the Work You Want', '/articles/how-to-get-the-work-you-want/');
+        echo readNext('Thanks, Mike Davidson', '/articles/thanks-mike-davidson/');
 
     ?>
 	
@@ -212,7 +221,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2014-02-19T12:57:00">Published February 19, 2014 at 12:57 <abbr title="Post Meridian">PM</abbr></time>
+        	        <time datetime="2014-02-19T12:57:00">Published June 6, 2016 at 8:00 <abbr title="Ante Meridian">AM</abbr></time>
     	        </section><!-- /.article-info -->
     	        
     	        
