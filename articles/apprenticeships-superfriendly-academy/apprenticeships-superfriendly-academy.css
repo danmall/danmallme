@@ -16,6 +16,11 @@
 	padding-top: 8em;
 }
 
+.walmart-image {
+	padding-bottom: 0;
+	margin-bottom: -8em;
+}
+
 @media screen and (min-width: 800px){
 	.failure-image  {
 		display: block;
@@ -30,10 +35,15 @@
 	}
 }
 
-	.failure-image img {
+	.failure-image img,
+	.walmart-image img {
 		width: 95%;
 		max-width: 1200px;
 		margin: 0 auto;
 		display: block;
 		float: none;
+	}
+
+	.walmart-image img {
+		max-width: 1500px;
 	}

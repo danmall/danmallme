@@ -54,7 +54,15 @@
 
             <p>The separation of learning and doing is partly due to our incessant quest for maximum efficiency in the workplace, which is sometimes synonymous with the elimination of failure in the workplace. In her article <a href="https://hbr.org/2011/04/strategies-for-learning-from-failure">Strategies for Learning from Failure</a> in the <cite>Harvard Business Review</cite>, Professor Amy Edmondson describes a spectrum of reasons for failure, with blameworthy types of failure on one end and praiseworthy types on the other. Certainly, we don&rsquo;t want our coworkers to fail because of deviance or attention, but the elimination of failure unfortunately removes the opportunity for failure through exploratory testing or uncertainty, which are crucial in creative process.</p>
 
-            <p>[Images of job sites]</p>
+        </section>
+
+        <div class="walmart-image image-row">
+            <div class="image-row-image easy-clearing margin-bottom">
+                <img src="walmart.png" src="A job listing for Walmart" />
+            </div><!-- .easy-clearing -->
+        </div><!-- .image-row -->            
+
+        <section class="clearfix wrap vanilla"> 
 
             <p>Consider the way we hire. Our job pages are strewn with solicitations for &ldquo;extraordinary people,&rdquo; prior work of &ldquo;high quality,&rdquo; an enthusiasm for those who can &ldquo;champion ideas,&rdquo; and countless other superlatives. The subtext is clear: you must be amazing <em>before</em> we hire you, because you certainly aren&rsquo;t going to gain those skills here. The prerequisite for greatness is as crippling as it is sparse.</p>
 
