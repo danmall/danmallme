@@ -1,8 +1,9 @@
 #article-area-wrap { background: #fff; }
 
 .vanilla { width: 94%; margin: 0 auto; padding: 8em 0; font-family: 'Source Serif Pro', serif; }
-	.vanilla h1, .vanilla h2 { font-family: 'Karla', sans-serif; font-weight: bold; }
+	.vanilla h1, .vanilla h2, .vanilla h3 { font-family: 'Karla', sans-serif; font-weight: bold; }
 	.vanilla h2 { font-size: 24px; }
+	.vanilla h3 { font-size: 16px; text-transform: uppercase; letter-spacing: 0.1em; margin: 0 0 1em; color: #333; }
 	.vanilla h1 + h2 { margin: -1.25em 0 2em; }
 	.vanilla p { font-size: 18px; color: #333; color: #444; line-height: 1.6;}
 	.vanilla blockquote p { font-family: 'Karla', sans-serif; }
@@ -25,6 +26,11 @@
 	.vanilla .code-block {
 		overflow: auto;
 		max-width: 100%;
+	}
+
+	.vanilla sup {
+		vertical-align: super;
+		font-size: small;
 	}
 
 	.vanilla .article-header-title { margin: 0 0 1em; }
@@ -61,7 +67,11 @@
 	.vanilla .clear { clear: both; }
 
 	.vanilla .margin-bottom { margin-bottom: 1.5em; }
-			
+	
+	.vanilla table, .vanilla .table-row table { font: 16px 'Source Serif Pro', serif; }	
+	.vanilla table { margin-bottom: 2em; text-align: left; }
+		.vanilla th, .vanilla td { padding: 1em; }
+
 		
 .vanilla ::selection { background: #585858; color: #fff; }
 .vanilla ::-moz-selection { background: #585858; color: #fff; }

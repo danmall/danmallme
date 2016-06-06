@@ -38,6 +38,18 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/apprenticeships-superfriendly-academy/">
+                                    <img class="round-image" src="/articles/apprenticeships-superfriendly-academy/home-thumb.png" alt="" />
+                                    <span class="home-item-name">Apprenticeships</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Apprenticeships are a fantastic solution to bridge the gap between opportunity in tech and those in need of change.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/thanks-mike-davidson/">
                                     <img class="round-image" src="/articles/thanks-mike-davidson/mike.jpg" alt="" />
                                     <span class="home-item-name">Thanks, Mike Davidson</span>
@@ -47,7 +59,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/selling-design-systems/">
@@ -59,7 +71,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/oil-change-pizza/">
@@ -70,6 +82,8 @@
                             <p class="home-item-description">Death to &ldquo;full service.&rdquo;</p>
                         </article><!-- .home-item-article -->
                     </li>
+
+                    <?php /* ?>
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -83,7 +97,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <?php /* ?>
+                    
 
                     <li class="home-item position4">
                         <article class="home-item-article">
