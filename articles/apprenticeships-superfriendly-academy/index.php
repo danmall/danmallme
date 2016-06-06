@@ -204,7 +204,7 @@
                 <ol>
                     <li id="fn1"><a href="http://www.wsj.com/articles/computer-programming-is-a-trade-lets-act-like-it-1407109947">Computer Programming Is a Trade; Let's Act Like It</a> <a class="footnote-arrow" href="#fn1-source">&#8617;</a></li>
                     <li id="fn2"><a href="http://www.tradingeconomics.com/united-states/unemployment-rate">United States Unemployment Rate</a> <a class="footnote-arrow" href="#fn2-source">&#8617;</a></li>
-                    <?php /* ?><li id="fn3">This post has also been published on <a href="#">Medium</a>.</li><?php */ ?>
+                    <li id="fn3">This post has also been published on <a href="https://medium.com/@danielmall/apprenticeships-4336c4fcf999#.8oonh7reu">Medium</a>.</li>
                 </ol>
 
             </footer><!-- .footnote -->
