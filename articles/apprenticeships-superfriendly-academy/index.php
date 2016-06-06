@@ -70,7 +70,7 @@
 
             <p>This wouldn&rsquo;t go over very well. Or would it?</p>
 
-            <h2>Bridging the gap</h2>
+            <h2 id="bridging"><a class="named-anchor" href="#bridging">Bridging the gap</a></h2>
 
             <p>Let&rsquo;s look at a few statistics:</p>
 
@@ -88,7 +88,7 @@
 
             <p>I believe there&rsquo;s a great solution to bridge this ever-widening gap, and it&rsquo;s called <em>apprenticeship</em>.</p>
 
-            <h2>About apprenticeship</h2>
+            <h2 id="apprenticeship"><a class="named-anchor" href="#apprenticeship">About apprenticeship</a></h2>
 
             <p><a href="https://en.wikipedia.org/wiki/Apprenticeship">Wikipedia defines apprenticeship</a> as &ldquo;a system of training a new generation of practitioners of a trade or profession with on-the-job training and often some accompanying study.&rdquo; Apprenticeship originated in medieval times and were largely governed by guilds.</p>
 
@@ -107,7 +107,7 @@
 
             <p>The design and development industry is full of internships that intend to teach good design and development practices, but it&rsquo;s extremely limited in apprenticeships whose purpose is to create well-rounded professionals. </p>
 
-            <h2>About SuperFriendly Academy</h2>
+            <h2 id="academy"><a class="named-anchor" href="#academy">About SuperFriendly Academy</a></h2>
 
             <p>Since December 2012, I&rsquo;ve been silently&mdash;and <a href="https://creativemornings.com/talks/dan-mall" title="Dan Mall talking about apprenticeships at Creative Mornings">sometimes not-so-silently</a>&mdash;running <a href="http://superfriend.ly/academy/">SuperFriendly Academy</a>, a web design &amp; web development apprenticeship that teaches both core skills and professionalism, but leans more toward the latter. It&rsquo;s a 9-month program, created for people who have little to no experience with design or development but are looking :</p>
 
@@ -117,7 +117,7 @@
                 <li><strong>Months 6&ndash;9</strong> are about job readiness. The previous months were mostly about practicing professionalism and amassing skills and projects, and now it&rsquo;s time to turn those things into a launchpad. We make lists of the places the apprentice might want to work, and we start preparing portfolios targeted at those places. We do mock interviews to get them ready for the job they&rsquo;ve worked so hard to get. I help coach them through negotiating salaries to make sure they&rsquo;re landing in the right place with the right setup.</li>
             </ul>
 
-            <h2>Why have apprentices?</h2>
+            <h2 id="why"><a class="named-anchor" href="#why">Why have apprentices?</a></h2>
 
             <p>While you may be sold on the altruism of taking on an apprentice, you may be having trouble seeing what&rsquo;s in it for you or your company. Fortunately, there are many benefits to investing in an apprentice or even an apprenticeship program:</p>
 
@@ -149,7 +149,7 @@
 
             <p>Don&rsquo;t take my word for it; the very tangible results speak for themselves. In their article <a href="http://www.mckinsey.com/business-functions/organization/our-insights/why-diversity-matters">Why Diversity Matters</a>, McKinsey &amp; Company reports that gender-diverse companies are 15% more likely to have financial returns above their respective national industry means, and racially- and ethnically-diverse companies are 35% more likely to have financial returns above their resurrecting national industry means. Apprenticeships aren&rsquo;t just an altruistic endeavor; they can directly impact your bottom line. </p>
 
-            <h2>Join the cause</h2>
+            <h2 id="join"><a class="named-anchor" href="#join">Join the cause</a></h2>
 
             <p>The great news is that there are already many apprenticeships out there for budding designers, developers, and <abbr title="User Experience">UX</abbr> professionals. <a href="https://nerdery.com/">The Nerdery</a> runs <a href="https://blog.nerdery.com/2013/02/user-experience-design-apprenticeship/">an amazing <abbr>UX</abbr> Design apprenticeship</a>, led by <a href="https://twitter.com/fred_beecher">Fred Beecher</a>. <a href="http://www.freshtilledsoil.com/">Fresh Tilled Soil</a> runs a 15-week <abbr title="Apprenticeship in User Experience">AUX</abbr> program, which they just <a href="https://medium.com/fresh-tilled-soil/we-think-product-design-apprenticeships-are-the-future-thats-why-we-re-open-sourcing-ours-bef594d506c8#.t5f68158g">graciously open-sourced</a>. <a href="https://seesparkbox.com/">Sparkbox</a> runs <a href="http://apprentices.seesparkbox.com/">a 6-month apprenticeship</a>. <a href="https://thoughtbot.com/">Thoughtbot</a> runs <a href="http://www.apprentice.io/">a 3-month apprenticeship</a>. <a href="http://www.hugeinc.com/">HUGE</a> runs <a href="http://www.hugeinc.com/schools">a 12-week <abbr>UX</abbr> school</a>.</p>
 
