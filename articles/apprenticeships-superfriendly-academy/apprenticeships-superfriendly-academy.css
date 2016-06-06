@@ -2,8 +2,9 @@
 	margin: -8em 0 -4em;
 	padding: 2em 0;
 }
-
-.failure-image {
+/*
+.failure-image,
+.skills-image {
 	display: none;
 }
 
@@ -15,14 +16,16 @@
 	padding-bottom: 0;
 	padding-top: 8em;
 }
+*/
 
 .walmart-image {
 	padding-bottom: 0;
 	margin-bottom: -8em;
 }
 
-@media screen and (min-width: 800px){
-	.failure-image  {
+/*@media screen and (min-width: 800px){
+	.failure-image,
+	.skills-image  {
 		display: block;
 	}
 
@@ -33,7 +36,7 @@
 	.vanilla {
 		padding-top: 8em;
 	}
-}
+}*/
 
 	.failure-image img,
 	.walmart-image img,

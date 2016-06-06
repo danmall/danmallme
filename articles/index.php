@@ -27,6 +27,18 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/apprenticeships-superfriendly-academy/">Apprenticeships</a></h1>
+                            </header>
+                            <p>Apprenticeships are a fantastic solution to bridge the gap between opportunity in tech and those in need of change.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/apprenticeships-superfriendly-academy/"><time datetime="2016-06-06T15:00:00">June 6, 2016</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/apprenticeships-superfriendly-academy/#disqus_thread" data-disqus-identifier="apprenticeships-superfriendly-academy"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/thanks-mike-davidson/">Thanks, Mike Davidson</a></h1>
                             </header>
                             <p>Great writing from Mike really brings me back.</p>
