@@ -88,9 +88,17 @@
                 <li id="fn2-source">According to the <abbr>U.S.</abbr> Bureau of Labor Statistics, there are <strong>7.9 million unemployed in the United States</strong> as of April 2016. <sup><a href="#fn2">2</a></sup></li>
             </ul>
 
-            <p>As a scatter plot measured against a spectrum or skills, that may look something like this:</p>
+            <p>As a scatter plot measured against a spectrum or skills, that may look something like this (approximation&mdash;not drawn to scale):</p>
 
-            <p>[image of skills]</p>
+        </section>
+
+        <div class="skills-image image-row">
+            <div class="image-row-image easy-clearing margin-bottom">
+                <img src="skills-graph.svg" src="A spectrum of reasons for failure" />
+            </div><!-- .easy-clearing -->
+        </div><!-- .image-row -->            
+
+        <section class="clearfix wrap vanilla"> 
 
             <p>In looking to fill vacant job openings, many tech companies look to the upper echelon of this graph. That results in the skilled becoming even more skilled as they move from job to job, creating a wider gap between those at the top and those at the bottom.</p>
 
@@ -137,50 +145,33 @@
 
             <p>It&rsquo;s also way cheaper. Compare the numbers of poaching a highly competitive candidate vs. giving an accomplished apprentice a chance (these numbers assume a 5% annual raise):</p>
 
-        </section>
-
-        <div class="salaries-table image-row">
-            <div class="image-row-image easy-clearing margin-bottom">
-                
-                <table class="salaries">
-                    <thead>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <th scope="col">Experienced Designer</th>
-                            <th scope="col">Apprentice</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">Year 1</th>
-                            <td>$80,000</td>
-                            <td>$40,000</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Year 2</th>
-                            <td>$84,000</td>
-                            <td>$42,000</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Year 3</th>
-                            <td>$42,000 + new job search</td>
-                            <td>$44,100</td>
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <th scope="row">Total</th>
-                            <td>$206,000</td>
-                            <td>$126,000</td>
-                        </tr>
-                    </tfoot>
-                </table>
-
-
-            </div><!-- .easy-clearing -->
-        </div><!-- .image-row -->            
-
-        <section class="clearfix wrap vanilla"> 
+            <table class="salaries">
+                <tr>
+                    <td class="timeframe">&nbsp;</td>
+                    <th scope="col">Experienced Designer</th>
+                    <th scope="col">Apprentice</th>
+                </tr>
+                <tr>
+                    <th class="timeframe" scope="row">Year 1</th>
+                    <td>$80,000</td>
+                    <td>$40,000</td>
+                </tr>
+                <tr>
+                    <th class="timeframe" scope="row">Year 2</th>
+                    <td>$84,000</td>
+                    <td>$42,000</td>
+                </tr>
+                <tr>
+                    <th class="timeframe" scope="row">Year 3</th>
+                    <td>$42,000 + new job search</td>
+                    <td>$44,100</td>
+                </tr>
+                <tr class="row-totals">
+                    <th class="timeframe" scope="row">Total</th>
+                    <td>$206,000</td>
+                    <td>$126,000</td>
+                </tr>
+            </table>
 
             <p>For one, the competitive candidate will come in at a more demanding salary and is likely to continue <a href="http://www.business.com/human-resources/welcome-to-the-era-of-job-hopping-the-lifecycle-of-the-american-worker/">job hopping after year 3</a>. After that time, you may have to deal with your more competitive candidate leaving, which means you&rsquo;ve lost a good bit of institutional knowledge and also have a hefty replacement search ahead of you.</p>
 
@@ -213,7 +204,7 @@
                 <ol>
                     <li id="fn1"><a href="http://www.wsj.com/articles/computer-programming-is-a-trade-lets-act-like-it-1407109947">Computer Programming Is a Trade; Let's Act Like It</a> <a class="footnote-arrow" href="#fn1-source">&#8617;</a></li>
                     <li id="fn2"><a href="http://www.tradingeconomics.com/united-states/unemployment-rate">United States Unemployment Rate</a> <a class="footnote-arrow" href="#fn2-source">&#8617;</a></li>
-                    <li id="fn3">This post has also been published on <a href="#">Medium</a>.</li>
+                    <?php /* ?><li id="fn3">This post has also been published on <a href="#">Medium</a>.</li><?php */ ?>
                 </ol>
 
             </footer><!-- .footnote -->

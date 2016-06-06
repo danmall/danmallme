@@ -67,7 +67,11 @@
 	.vanilla .clear { clear: both; }
 
 	.vanilla .margin-bottom { margin-bottom: 1.5em; }
-			
+	
+	.vanilla table, .vanilla .table-row table { font: 16px 'Source Serif Pro', serif; }	
+	.vanilla table { margin-bottom: 2em; text-align: left; }
+		.vanilla th, .vanilla td { padding: 1em; }
+
 		
 .vanilla ::selection { background: #585858; color: #fff; }
 .vanilla ::-moz-selection { background: #585858; color: #fff; }

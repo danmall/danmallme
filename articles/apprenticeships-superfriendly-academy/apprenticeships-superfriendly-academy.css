@@ -37,7 +37,7 @@
 
 	.failure-image img,
 	.walmart-image img,
-	.salaries {
+	.skills-image img {
 		width: 95%;
 		max-width: 1200px;
 		margin: 0 auto;
@@ -45,9 +45,22 @@
 		float: none;
 	}
 
-	.walmart-image img {
+	.walmart-image img,
+	.skills-image img {
 		max-width: 1500px;
 	}
+
+	.salaries {
+		width: 95%;
+		width: 100%;
+		margin: 0 auto;
+		border-bottom: 1px solid #ccc;
+	}
+
+		.salaries td,
+		.salaries th {
+			border-top: 1px solid #ccc;
+		}
 
 	.salaries thead,
 	.salaries tbody,
@@ -59,4 +72,14 @@
 	.salaries th,
 	.salaries td {
 		width: 33%;
+		width: 37.5%;
+	}
+
+	.salaries .timeframe {
+		width: 25%;
+	}
+
+	.row-totals {
+		background: #f6f4dc;
+		font-weight: bold;
 	}
