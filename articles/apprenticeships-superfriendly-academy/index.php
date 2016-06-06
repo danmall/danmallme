@@ -137,7 +137,50 @@
 
             <p>It&rsquo;s also way cheaper. Compare the numbers of poaching a highly competitive candidate vs. giving an accomplished apprentice a chance (these numbers assume a 5% annual raise):</p>
 
-            <p>[table]</p>
+        </section>
+
+        <div class="salaries-table image-row">
+            <div class="image-row-image easy-clearing margin-bottom">
+                
+                <table class="salaries">
+                    <thead>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <th scope="col">Experienced Designer</th>
+                            <th scope="col">Apprentice</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Year 1</th>
+                            <td>$80,000</td>
+                            <td>$40,000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Year 2</th>
+                            <td>$84,000</td>
+                            <td>$42,000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Year 3</th>
+                            <td>$42,000 + new job search</td>
+                            <td>$44,100</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th scope="row">Total</th>
+                            <td>$206,000</td>
+                            <td>$126,000</td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+
+            </div><!-- .easy-clearing -->
+        </div><!-- .image-row -->            
+
+        <section class="clearfix wrap vanilla"> 
 
             <p>For one, the competitive candidate will come in at a more demanding salary and is likely to continue <a href="http://www.business.com/human-resources/welcome-to-the-era-of-job-hopping-the-lifecycle-of-the-american-worker/">job hopping after year 3</a>. After that time, you may have to deal with your more competitive candidate leaving, which means you&rsquo;ve lost a good bit of institutional knowledge and also have a hefty replacement search ahead of you.</p>
 

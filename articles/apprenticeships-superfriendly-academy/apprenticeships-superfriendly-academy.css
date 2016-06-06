@@ -36,7 +36,8 @@
 }
 
 	.failure-image img,
-	.walmart-image img {
+	.walmart-image img,
+	.salaries {
 		width: 95%;
 		max-width: 1200px;
 		margin: 0 auto;
@@ -46,4 +47,16 @@
 
 	.walmart-image img {
 		max-width: 1500px;
+	}
+
+	.salaries thead,
+	.salaries tbody,
+	.salaries tfoot,
+	.salaries tr {
+		width: 100%;
+	}
+
+	.salaries th,
+	.salaries td {
+		width: 33%;
 	}
