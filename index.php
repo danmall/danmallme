@@ -38,6 +38,18 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/researching-design-systems/">
+                                    <img class="round-image" src="/articles/researching-design-systems/home-thumb.png" alt="" />
+                                    <span class="home-item-name">Researching Design Systems</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">An inventory of the most popular design systems out there.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/apprenticeships-superfriendly-academy/">
                                     <img class="round-image" src="/articles/apprenticeships-superfriendly-academy/home-thumb.png" alt="" />
                                     <span class="home-item-name">Apprenticeships</span>
@@ -47,7 +59,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/thanks-mike-davidson/">
@@ -59,7 +71,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/selling-design-systems/">
@@ -70,6 +82,9 @@
                             <p class="home-item-description">How to convince your boss that a design system is a good idea.</p>
                         </article><!-- .home-item-article -->
                     </li>
+
+
+                    <?php /* ?>
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -83,7 +98,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <?php /* ?>
+
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -97,7 +112,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    
+
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -111,7 +126,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    
+
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -125,7 +140,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    
+
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -139,7 +154,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    
+
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -153,7 +168,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    
+
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -167,7 +182,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    
+
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -182,7 +197,7 @@
                     </li>
 
 
-                    
+
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -196,7 +211,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    
+
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -210,7 +225,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    
+
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -224,7 +239,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    
+
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -238,7 +253,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    
+
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -250,9 +265,9 @@
                             </h2><!-- .home-item-headline -->
                             <p class="home-item-description">How to start charging for your work.</p>
                         </article><!-- .home-item-article -->
-                    </li>  
+                    </li>
 
-                    
+
 
                     <li class="home-item position3">
                         <article class="home-item-article">
@@ -278,7 +293,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    
+
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -292,7 +307,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    
+
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -306,7 +321,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    
+
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -317,8 +332,8 @@
                             </h2><!-- .home-item-headline -->
                             <p class="home-item-description">Learn about the business of design in person.</p>
                         </article><!-- .home-item-article -->
-                    </li>                    
-                    
+                    </li>
+
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -329,7 +344,7 @@
                             </h2><!-- .home-item-headline -->
                             <p class="home-item-description">Some advice about public speaking.</p>
                         </article><!-- .home-item-article -->
-                    </li>                  
+                    </li>
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -355,7 +370,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    
+
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -367,7 +382,7 @@
                             <p class="home-item-description">A design deliverable for the post-PSD era of responsive design.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    
+
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -379,7 +394,7 @@
                             <p class="home-item-description">A primer on creative direction as compared to art direction and design&hellip; and what they all mean in a digital context.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    
+
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -391,7 +406,7 @@
                             <p class="home-item-description">How I&rsquo;m voting.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    
+
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">

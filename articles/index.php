@@ -27,6 +27,18 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/researching-design-systems/">Researching Design Systems</a></h1>
+                            </header>
+                            <p>An inventory of the most popular design systems out there.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/researching-design-systems/"><time datetime="2016-08-06T19:46:00">August 6, 2016</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/researching-design-systems/#disqus_thread" data-disqus-identifier="researching-design-systems"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/apprenticeships-superfriendly-academy/">Apprenticeships</a></h1>
                             </header>
                             <p>Apprenticeships are a fantastic solution to bridge the gap between opportunity in tech and those in need of change.</p>
@@ -119,7 +131,7 @@
                                 <script>document.write('<li class="comments"><a href="/articles/interviewing-designers/#disqus_thread" data-disqus-identifier="interviewing-designers"></a></li>');</script>
                             </ul><!-- .meta -->
                         </article>
-                    </li>     
+                    </li>
 
                   <li>
                         <article>
