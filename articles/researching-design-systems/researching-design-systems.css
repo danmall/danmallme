@@ -48,7 +48,7 @@ figure {
 	}
 
 	.box-headline {
-		line-height: 1.2;
+		line-height: 1;
 		letter-spacing: -1px;
 	}
 
@@ -237,4 +237,82 @@ figure {
 .vanilla .footnote a:hover,
 .vanilla .footnote a:focus {
 	color: #95e10a;
+}
+
+
+@media screen and (min-width: 500px){
+	.vanilla {
+	    max-width: none;
+	}
+}
+
+@media screen and (min-width: 874px){
+	.col1,
+	.col2 {
+		width: 50%;
+		float: left;
+	}
+
+	.col2 {
+		margin-top: 2em;
+	}
+
+	.col40 {
+		width: 40%;
+		float: left;
+	}
+
+	.col60 {
+		width: 55%;
+		float: left;
+		margin-top: 2em;
+		padding-right: 5%;
+	}
+
+	.word {
+		display: block;
+		font-size: 52px;
+		letter-spacing: -2px;
+		line-height: 1;
+	}
+
+	.intro {
+		margin-bottom: 4em;
+	}
+
+	.box__material {
+		position: relative;
+		left: 1%;
+		top: 5px;
+	}
+
+	.box__ios {
+		position: relative;
+		left: -1%;
+		top: -3px;
+	}
+
+	.box__slds {
+		position: relative;
+		left: 1%;
+		top: 7px;
+	}
+
+	.box__airbnb {
+		position: relative;
+		left: 2%;
+		top: -1px;
+	}
+
+}
+
+@media screen and (min-width: 1024px){
+	.word {
+		font-size: 64px;
+		letter-spacing: -3px;
+	}
+
+	.col60 {
+		margin-top: 3.5em;
+	}
 }
