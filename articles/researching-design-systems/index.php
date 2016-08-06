@@ -52,7 +52,7 @@
 
       </div><!-- .intro -->
 
-      <div class="clearfix">
+      <div class="boxes clearfix">
 
         <div class="col1">
 
@@ -179,24 +179,6 @@
           </section><!-- .box -->
 
 
-          <section id="ibm" class="box box__ibm">
-
-            <h1 class="box-headline">IBM Design Language</h1>
-            <p class="box-url"><a href="http://www.ibm.com/design/language/">ibm.com/design/language/</a></p>
-
-            <p>There are 2 specific things I really appreciate about the IBM Design Language:</p>
-
-            <p>First, they make it clear right up front that the purpose of their design system is to foster a consistency that supports their brand:</p>
-
-            <blockquote class="box-quote">
-              <p>The IBM Design Language is a set of living guidelines that communicates our brand promise through our products&rsquo; experiences.</p>
-            </blockquote>
-
-            <p>That brand promise is then reinforced by asking the design system user if what they&rsquo;re making looks, sounds, thinks, and performs like IBM. A question like, &ldquo;Does the visual design enhance people&rsquo;s understanding of how the world works?&rdquo; has a strong point of view; it states the job design has to do, which also means it implies what the design does <em>not</em> have to do. I love that!</p>
-
-            <p>The other thing I love about the IBM Design Language is that the site looks like some put thought into the job of the site itself. It eschews what is becoming the standard &ldquo;design system look&rdquo; of left-side (and sometimes fixed) navigation and content to the right. It feels more like a marketing site than a piece of documentation, which I&rsquo;m leaning more and more toward as the right idea for my client.</p>
-
-          </section><!-- .box -->
 
         </div><!-- .col1 -->
 
@@ -300,25 +282,45 @@
 
 
 
-          <section id="misc" class="box box__misc">
+          <section id="ibm" class="box box__ibm">
 
-            <h1 class="box-headline">Miscellaneous</h1>
+            <h1 class="box-headline">IBM Design Language</h1>
+            <p class="box-url"><a href="http://www.ibm.com/design/language/">ibm.com/design/language/</a></p>
 
-            <p>I&rsquo;ve reviewed a few more design systems like the <a href="http://harmony.intuit.com/">Harmony Design System</a> from Intuit, the <a href="https://developer.microsoft.com/en-us/windows/design/microsoft-design-language">Microsoft Design Language</a>, the <a href="https://standards.usa.gov/">U.S. Web Design Standards</a>, <a href="http://origami.ft.com/">Origami</a> by the Financial Times, and a few others, and I&rsquo;m definitely finding more similarities than discrepancies.</p>
+            <p>There are 2 specific things I really appreciate about the IBM Design Language:</p>
 
-            <p>The biggest observation I&rsquo;ve had is that almost every one includes principles and guidelines that are extremely general. That&rsquo;s totally understandable; I mean, at some point, a good tabset is just a good tabset. But, while it&rsquo;s useful for any reader to understand how to make a better website in general, I think these are a missed opportunity. The job of the Microsoft Design Language is not only to help a designer or developer to create a great app, but to help them create a great <em>Microsoft</em> app. What makes a great Microsoft app? How is a great Microsoft app different than a great Google app? This is the kind of thing a design system should have guidelines for: perspective, point of view, extending <a href="http://danielmall.com/articles/on-creative-direction/">creative direction</a> to everyone that decides to build something with the design system. That stuff should be baked in. Otherwise, we all might as well use Material Design and call it a day.</p>
+            <p>First, they make it clear right up front that the purpose of their design system is to foster a consistency that supports their brand:</p>
 
-            <p>I think that&rsquo;ll be my first metric for success. If the design system I create for my client can be specific about what makes a great site or app <em>specifically for them</em> and why it&rsquo;s better in-context than any one of the systems listed above, I&rsquo;d say we&rsquo;re headed in the right direction.</p>
+            <blockquote class="box-quote">
+              <p>The IBM Design Language is a set of living guidelines that communicates our brand promise through our products&rsquo; experiences.</p>
+            </blockquote>
 
-            <p>I realize that&rsquo;s a tall order and I&rsquo;m a short guy, but that&rsquo;s never stopped me before.</p>
+            <p>That brand promise is then reinforced by asking the design system user if what they&rsquo;re making looks, sounds, thinks, and performs like IBM. A question like, &ldquo;Does the visual design enhance people&rsquo;s understanding of how the world works?&rdquo; has a strong point of view; it states the job design has to do, which also means it implies what the design does <em>not</em> have to do. I love that!</p>
+
+            <p>The other thing I love about the IBM Design Language is that the site looks like some put thought into the job of the site itself. It eschews what is becoming the standard &ldquo;design system look&rdquo; of left-side (and sometimes fixed) navigation and content to the right. It feels more like a marketing site than a piece of documentation, which I&rsquo;m leaning more and more toward as the right idea for my client.</p>
 
           </section><!-- .box -->
+
 
         </div><!-- .col2 -->
 
       </div><!-- .clearfix -->
 
-      <footer class="footnote">
+
+      <section class="wrap">
+
+        <p class="intro-text">I&rsquo;ve reviewed a few more design systems like the <a href="http://harmony.intuit.com/">Harmony Design System</a> from Intuit, the <a href="https://developer.microsoft.com/en-us/windows/design/microsoft-design-language">Microsoft Design Language</a>, the <a href="https://standards.usa.gov/">U.S. Web Design Standards</a>, <a href="http://origami.ft.com/">Origami</a> by the Financial Times, and a few others, and I&rsquo;m definitely finding more similarities than discrepancies.</p>
+
+        <p class="intro-text">The biggest observation I&rsquo;ve had is that almost every one includes principles and guidelines that are extremely general. That&rsquo;s totally understandable; I mean, at some point, a good tabset is just a good tabset. But, while it&rsquo;s useful for any reader to understand how to make a better website in general, I think these are a missed opportunity. The job of the Microsoft Design Language is not only to help a designer or developer to create a great app, but to help them create a great <em>Microsoft</em> app. What makes a great Microsoft app? How is a great Microsoft app different than a great Google app? This is the kind of thing a design system should have guidelines for: perspective, point of view, extending <a href="http://danielmall.com/articles/on-creative-direction/">creative direction</a> to everyone that decides to build something with the design system. That stuff should be baked in. Otherwise, we all might as well use Material Design and call it a day.</p>
+
+        <p class="intro-text">I think that&rsquo;ll be my first metric for success. If the design system I create for my client can be specific about what makes a great site or app <em>specifically for them</em> and why it&rsquo;s better in-context than any one of the systems listed above, I&rsquo;d say we&rsquo;re headed in the right direction.</p>
+
+        <p class="intro-text">I realize that&rsquo;s a tall order and I&rsquo;m a short guy, but that&rsquo;s never stopped me before.</p>
+
+      </section><!-- .wrap -->
+
+
+      <footer class="footnote wrap">
         <ol>
           <li id="fn1">My research style leans heavily toward capturing phrases that stand out to me. I&rsquo;ve been a long-time admirer of how <a href="https://twitter.com/susanjrobertson">Susan J. Robertson</a> records passages in her <a href="https://www.susanjeanrobertson.com/reading/">book reviews</a>, so I&rsquo;ve taken a similar approach in these notes. <a class="footnote-arrow" href="#fn1-source">&#8617;</a></li>
           <?php /* ?><li id="fn2">Also published on <a href="https://medium.com/@danielmall/selling-design-systems-4f4046742671#.ayj05wigv">Medium</a>.</li><?php */ ?>
