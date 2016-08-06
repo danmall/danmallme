@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2016</dc:rights>
-    <pubDate>Wed, 11 May 2016 05:50:00 GMT</pubDate>
+    <pubDate>Mon, 6 Jun 2016 15:00:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Apprenticeships</title>
+        <description>Apprenticeships are a fantastic solution to bridge the gap between opportunity in tech and those in need of change.</description>
+        <link>http://danielmall.com/articles/apprenticeships-superfriendly-academy/</link>
+        <guid>http://danielmall.com/articles/apprenticeships-superfriendly-academy/</guid>
+        <pubDate>Mon, 6 Jun 2016 15:00:00 GMT</pubDate>
+    </item>
     <item>
         <title>Thanks, Mike Davidson</title>
         <description>Great writing from Mike really brings me back.</description>
