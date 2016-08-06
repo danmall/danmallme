@@ -32,9 +32,7 @@
 
       <p class="intro-text">A few weeks ago, I kicked off the biggest design system project I&rsquo;ve ever worked on. I&rsquo;m incredibly lucky to be working with an organization in the top 10 of the Fortune 500 list to help create a design system that will govern all of the apps and sites they create internally. I&rsquo;m also incredibly lucky that they value doing this work well, which means our team has the proper leeway to do what we feel will produce a great outcome.</p>
 
-      <p class="intro-text">To ensure I&rsquo;m as informed as possible, I took the opportunity to spend the first few days of the project to study like I (never) did in college. Physical and digital highlighter in hand and pixels, I pored over some of more popular design systems out there to see what insights I could glean. Here are my notes from those study sessions.</p>
-
-      <p class="intro-text intro-text__quiet">(Note: my research style leans heavily toward capturing phrases that stand out to me. I&rsquo;ve been a long-time admirer of how <a href="https://twitter.com/susanjrobertson">Susan J. Robertson</a> records passages in her <a href="https://www.susanjeanrobertson.com/reading/">book reviews</a>, so I&rsquo;ve taken a similar approach in these notes.)</p>
+      <p id="fn1-source" class="intro-text">To ensure I&rsquo;m as informed as possible, I took the opportunity to spend the first few days of the project to study like I (never) did in college. Physical and digital highlighter in hand and pixels, I pored over some of more popular design systems out there to see what insights I could glean. Here are my notes from those study sessions. <sup><a href="#fn1">1</a></sup></p>
 
       <section class="box box__nycta">
 
@@ -280,7 +278,10 @@
 
 
             <footer class="footnote">
-                <p>Also published on <a href="https://medium.com/@danielmall/selling-design-systems-4f4046742671#.ayj05wigv">Medium</a>.</p>
+              <ol>
+                <li id="fn1">My research style leans heavily toward capturing phrases that stand out to me. I&rsquo;ve been a long-time admirer of how <a href="https://twitter.com/susanjrobertson">Susan J. Robertson</a> records passages in her <a href="https://www.susanjeanrobertson.com/reading/">book reviews</a>, so I&rsquo;ve taken a similar approach in these notes. <a class="footnote-arrow" href="#fn1-source">&#8617;</a></li>
+                <?php /* ?><li id="fn2">Also published on <a href="https://medium.com/@danielmall/selling-design-systems-4f4046742671#.ayj05wigv">Medium</a>.</li><?php */ ?>
+              </ol>
             </footer><!-- .footnote -->
 
 	    </section><!-- .vanilla -->

@@ -228,3 +228,13 @@ figure {
 .vanilla .intro-text__quiet {
 	color: #999;
 }
+
+.vanilla .footnote a {
+	color: #ddd;
+	border-bottom-color: #555;
+}
+
+.vanilla .footnote a:hover,
+.vanilla .footnote a:focus {
+	color: #95e10a;
+}
