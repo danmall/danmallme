@@ -1,0 +1,230 @@
+/*.image-row {
+	margin: -8em 0 -4em;
+	padding: 2em 0;
+}
+
+.image-row img {
+	width: 95%;
+}
+
+.boards-image {
+	margin-top: 0;
+}
+
+	.boards-image img {
+		max-width: 1200px;
+		margin: 0 auto;
+		display: block;
+		float: none;
+	}
+
+.tiles-image {
+	margin-bottom: 0;
+}
+
+	.tiles-image img {
+		max-width: 700px;
+		margin: 0 auto;
+		display: block;
+		float: none;
+	}*/
+
+#article-area-wrap {
+	background: #202020;
+}
+
+figure {
+	margin: 0 0 1em;
+}
+
+.box {
+	background: white;
+	margin: 10px 10px 2em;
+	padding: 2em;
+}
+
+	.box p {
+		font-size: 15px;
+	}
+
+	.box-headline {
+		line-height: 1.2;
+		letter-spacing: -1px;
+	}
+
+	p.box-url {
+		margin-top: -0.8em;
+		font: bold 14px 'Karla', Arial, sans-serif;
+		line-height: 1.7;
+	}
+
+		.box-url a {
+			border: none;
+			color: #7c98b0;
+		}
+
+	.box-quote {
+		background: none;
+		padding-top: 0;
+		padding-left: 1.5em;
+		border-left: 3px solid #d7e0e7;
+	}
+
+	.box-quote-row {
+		border-top: 1px solid #ddd;
+		padding-top: 2em;
+	}
+
+/*nycta*/
+.box__nycta .box-url a {
+	color: #DD4524;
+}
+.box__nycta .box-url a:hover,
+.box__nycta .box-url a:focus {
+	background: #DD4524;
+	color: #fff;
+}
+.box__nycta a:hover,
+.box__nycta a:focus {
+	border-bottom-color: #DD4524;
+}
+.box__nycta .box-quote {
+	border-left-color: #DD4524;
+}
+
+
+
+/*nasa*/
+.box__nasa .box-url a {
+	color: #A62216;
+}
+.box__nasa .box-url a:hover,
+.box__nasa .box-url a:focus {
+	background: #A62216;
+	color: #fff;
+}
+.box__nasa a:hover,
+.box__nasa a:focus {
+	border-bottom-color: #A62216;
+}
+.box__nasa .box-quote {
+	border-left-color: #A62216;
+}
+
+
+
+/*Material*/
+.box__material .box-url a {
+	color: #00BCD4;
+}
+.box__material .box-url a:hover,
+.box__material .box-url a:focus {
+	background: #00BCD4;
+	color: #fff;
+}
+.box__material a:hover,
+.box__material a:focus {
+	border-bottom-color: #00BCD4;
+}
+.box__material .box-quote {
+	border-left-color: #00BCD4;
+}
+
+
+/*iOS*/
+.box__ios .box-url a {
+	color: #0088CC;
+}
+.box__ios .box-url a:hover,
+.box__ios .box-url a:focus {
+	background: #0088CC;
+	color: #fff;
+}
+.box__ios a:hover,
+.box__ios a:focus {
+	border-bottom-color: #0088CC;
+}
+.box__ios .box-quote {
+	border-left-color: #0088CC;
+}
+
+/*airbnb*/
+.box__airbnb .box-url a {
+	color: #FF5A5F;
+}
+.box__airbnb .box-url a:hover,
+.box__airbnb .box-url a:focus {
+	background: #FF5A5F;
+	color: #fff;
+}
+.box__airbnb a:hover,
+.box__airbnb a:focus {
+	border-bottom-color: #FF5A5F;
+}
+.box__airbnb .box-quote {
+	border-left-color: #FF5A5F;
+}
+
+
+/*slds*/
+.box__slds .box-url a {
+	color: #009DDC;
+}
+.box__slds .box-url a:hover,
+.box__slds .box-url a:focus {
+	background: #009DDC;
+	color: #fff;
+}
+.box__slds a:hover,
+.box__slds a:focus {
+	border-bottom-color: #009DDC;
+}
+.box__slds .box-quote {
+	border-left-color: #009DDC;
+}
+
+
+
+/*ibm*/
+.box__ibm .box-url a {
+	color: #9855D4;
+}
+.box__ibm .box-url a:hover,
+.box__ibm .box-url a:focus {
+	background: #9855D4;
+	color: #fff;
+}
+.box__ibm a:hover,
+.box__ibm a:focus {
+	border-bottom-color: #9855D4;
+}
+.box__ibm .box-quote {
+	border-left-color: #9855D4;
+}
+
+
+
+
+
+.article-header-title {
+	color: #fff;
+}
+
+.vanilla .intro-text {
+	color: #dfdfdf;
+}
+
+.vanilla .intro-text a {
+	color: #95e10a;
+	border-bottom-color: #555;
+}
+
+.vanilla .intro-text a:hover,
+.vanilla .intro-text a:focus {
+	color: #fff;
+	border-bottom-color: #95e10a;
+}
+
+.vanilla .intro-text__quiet {
+	color: #999;
+}
