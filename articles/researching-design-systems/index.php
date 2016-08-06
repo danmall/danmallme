@@ -34,6 +34,12 @@
 
     			     <h1 class="article-header-title"><b class="word">Researching</b> <b class="word">Design</b> <b class="word">Systems</b></h1>
 
+               <script type="text/javascript">
+
+                  document.write('<div class="circles"><div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div></div>');
+
+               </script>
+
           </div><!-- .col40 -->
 
           <div class="col60">
@@ -50,7 +56,7 @@
 
         <div class="col1">
 
-          <section class="box box__nycta">
+          <section id="nycta" class="box box__nycta">
 
             <h1 class="box-headline">New York City Transit Authority Graphics Standards Manual</h1>
 
@@ -136,7 +142,7 @@
 
 
 
-          <section class="box box__ios">
+          <section id="ios" class="box box__ios">
 
             <h1 class="box-headline">iOS Human Interface Guidelines</h1>
             <p class="box-url"><a href="https://developer.apple.com/ios/human-interface-guidelines/">developer.apple.com/ios/human-interface-guidelines/</a></p>
@@ -153,7 +159,7 @@
 
 
 
-          <section class="box box__slds">
+          <section id="slds" class="box box__slds">
 
             <h1 class="box-headline">Salesforce Lightning Design System</h1>
             <p class="box-url"><a href="https://www.lightningdesignsystem.com/">lightningdesignsystem.com</a></p>
@@ -173,7 +179,7 @@
           </section><!-- .box -->
 
 
-          <section class="box box__ibm">
+          <section id="ibm" class="box box__ibm">
 
             <h1 class="box-headline">IBM Design Language</h1>
             <p class="box-url"><a href="http://www.ibm.com/design/language/">ibm.com/design/language/</a></p>
@@ -196,7 +202,7 @@
 
         <div class="col2">
 
-          <section class="box box__nasa">
+          <section id="nasa" class="box box__nasa">
 
             <h1 class="box-headline">National Aeronautics and Space Administration Graphics Standards Manual</h1>
 
@@ -253,7 +259,7 @@
 
 
 
-          <section class="box box__material">
+          <section id="material" class="box box__material">
 
             <h1 class="box-headline">Material Design</h1>
             <p class="box-url"><a href="https://material.google.com/">material.google.com</a></p>
@@ -277,7 +283,7 @@
 
 
 
-          <section class="box box__airbnb">
+          <section id="airbnb" class="box box__airbnb">
 
             <h1 class="box-headline">Airbnb Design Language System</h1>
 
@@ -294,7 +300,7 @@
 
 
 
-          <section class="box box__misc">
+          <section id="misc" class="box box__misc">
 
             <h1 class="box-headline">Miscellaneous</h1>
 
@@ -398,10 +404,61 @@
 
     <?php /* ?><script src="jquery.fitvids.js"></script><?php */ ?>
     <script>
-		// $(document).ready(function(){
-		// 	// Target your .container, .wrapper, .post, etc.
-		// 	$('.video-container').fitVids();
-		// });
+
+      var time1 = 1000;
+      var circle1Interval = setInterval(function() {
+
+        var opacityRandom = Math.floor(Math.random()*5);
+        var scaleRandom = Math.floor(Math.random()*5);
+
+        $('.circle:eq(0)').removeClass('scale0 scale1 scale2 scale3 scale4 opacity0 opacity1 opacity2 opacity3 opacity4').addClass('scale' + scaleRandom + ' opacity' + opacityRandom);
+
+      }, time1);
+
+
+      var time2 = 1500;
+      var circle2Interval = setInterval(function() {
+
+        var opacityRandom = Math.floor(Math.random()*5);
+        var scaleRandom = Math.floor(Math.random()*5);
+
+        $('.circle:eq(1)').removeClass('scale0 scale1 scale2 scale3 scale4 opacity0 opacity1 opacity2 opacity3 opacity4').addClass('scale' + scaleRandom + ' opacity' + opacityRandom);
+
+      }, time2);
+
+
+      var time3 = 400;
+      var circle1Interval = setInterval(function() {
+
+        var opacityRandom = Math.floor(Math.random()*5);
+        var scaleRandom = Math.floor(Math.random()*5);
+
+        $('.circle:eq(2)').removeClass('scale0 scale1 scale2 scale3 scale4 opacity0 opacity1 opacity2 opacity3 opacity4').addClass('scale' + scaleRandom + ' opacity' + opacityRandom);
+
+      }, time3);
+
+
+      var time4 = 1200;
+      var circle4Interval = setInterval(function() {
+
+        var opacityRandom = Math.floor(Math.random()*5);
+        var scaleRandom = Math.floor(Math.random()*5);
+
+        $('.circle:eq(3)').removeClass('scale0 scale1 scale2 scale3 scale4 opacity0 opacity1 opacity2 opacity3 opacity4').addClass('scale' + scaleRandom + ' opacity' + opacityRandom);
+
+      }, time4);
+
+
+      var time5 = 800;
+      var circle5Interval = setInterval(function() {
+
+        var opacityRandom = Math.floor(Math.random()*5);
+        var scaleRandom = Math.floor(Math.random()*5);
+
+        $('.circle:eq(4)').removeClass('scale0 scale1 scale2 scale3 scale4 opacity0 opacity1 opacity2 opacity3 opacity4').addClass('scale' + scaleRandom + ' opacity' + opacityRandom);
+
+      }, time5);
+
     </script>
 
 
