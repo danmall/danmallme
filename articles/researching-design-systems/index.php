@@ -210,7 +210,7 @@
               </div><!-- .box-quote-row -->
 
               <div class="box-quote-row"><blockquote class="box-quote">
-                <p>&hellip;a graphics identity program had the potential to do for government agencies what it had done for coporations: convey modernity rather than stodginess, and forward-looking and efficient practices rather than hidebound ones.</p>
+                <p>&hellip;a graphics identity program had the potential to do for government agencies what it had done for corporations: convey modernity rather than stodginess, and forward-looking and efficient practices rather than hidebound ones.</p>
               </blockquote>
               </div><!-- .box-quote-row -->
 
@@ -237,7 +237,7 @@
               <p><em>(The important of good governance from the start!)</em></p>
 
               <div class="box-quote-row"><blockquote class="box-quote">
-                <p>Perhaps because [top executives had] been left out of the process, they were irritated, and their disdain found a focus right away, because some of them flat-out hated the new lgoo.</p>
+                <p>Perhaps because [top executives had] been left out of the process, they were irritated, and their disdain found a focus right away, because some of them flat-out hated the new logo.</p>
               </blockquote>
               </div><!-- .box-quote-row -->
 
@@ -334,7 +334,7 @@
         <footer class="footnote wrap">
           <ol>
             <li id="fn1">My research style leans heavily toward capturing phrases that stand out to me. I&rsquo;ve been a long-time admirer of how <a href="https://twitter.com/susanjrobertson">Susan J. Robertson</a> records passages in her <a href="https://www.susanjeanrobertson.com/reading/">book reviews</a>, so I&rsquo;ve taken a similar approach in these notes. <a class="footnote-arrow" href="#fn1-source">&#8617;</a></li>
-            <?php /* ?><li id="fn2">Also published on <a href="https://medium.com/@danielmall/selling-design-systems-4f4046742671#.ayj05wigv">Medium</a>.</li><?php */ ?>
+            <li id="fn2">Also published on <a href="https://medium.com/@danielmall/researching-design-systems-2e462d28bc70#.6ukgszy7b">Medium</a>.</li>
           </ol>
         </footer><!-- .footnote -->
 
