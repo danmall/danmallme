@@ -723,19 +723,18 @@
                 <h1 class="stacked-heading">Popular on this site</h1>
 
                 <ol class="no-marker popular-list">
-                    <li class="popular4"><a href="/articles/visual-inventory/">Visual Inventory</a></li>
+                    <li class="popular4"><a href="/articles/responsive-line-breaks/">Responsive Line Breaks</a></li>
                     <li class="popular4"><a href="/articles/on-creative-direction/">On Creative Direction</a></li>
-                    <li class="popular4"><a href="/articles/rif-element-collages/">Reading Is Fundamental: Element Collages</a></li>
-                    <li class="popular4"><a href="/articles/how-to-get-the-work-you-want/">How to Get the Work You Want</a></li>
-                    <li class="popular3"><a href="/work/crayola/">Crayola</a></li>
-                    <li class="popular3"><a href="/articles/responsive-line-breaks/">Responsive Line Breaks</a></li>
-                    <li class="popular3"><a href="/articles/techcrunch-responsive-redesign/">TechCrunch: A responsive redesign</a></li>
-                    <li class="popular2"><a href="/work/star-wars/">Star Wars</a></li>
-                    <li class="popular2"><a href="/articles/responsive-mobile-entertainment-weekly/">The Responsive Mobile Entertainment Weekly</a></li>
-                    <li class="popular2"><a href="/work/barbie/">Barbie</a></li>
-                    <li class="popular1"><a href="/articles/prequalifying-clients/">Prequalifying Clients</a></li>
-                    <li class="popular1"><a href="/articles/svg-workflow-for-designers/">SVG Workflow for Designers</a></li>
-                    <li class="popular1"><a href="/work/activate/">Activate</a></li>
+                    <li class="popular4"><a href="/articles/responsive-mobile-entertainment-weekly/">The Responsive Mobile Entertainment Weekly</a></li>
+                    <li class="popular3"><a href="/articles/apprenticeships-superfriendly-academy/">Apprenticeships</a></li>
+                    <li class="popular3"><a href="/articles/prequalifying-clients/">Prequalifying Clients</a></li>
+                    <li class="popular3"><a href="/work/star-wars/">Star Wars</a></li>
+                    <li class="popular2"><a href="/articles/how-to-get-the-work-you-want/">How to Get the Work You Want</a></li>
+                    <li class="popular2"><a href="/articles/the-post-psd-era/">The Post-PSD Era: A problem of Expectations</a></li>
+                    <li class="popular2"><a href="/work/activate/">Activate</a></li>
+                    <li class="popular1"><a href="/articles/pricing/">Pricing</a></li>
+                    <li class="popular1"><a href="/articles/thanks-mike-davidson/">Thanks, Mike Davidson</a></li>
+                    <li class="popular1"><a href="/work/coupon-craze/">Coupon Craze</a></li>
                 </ol><!-- .no-marker -->
 
 
