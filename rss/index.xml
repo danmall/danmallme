@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2016</dc:rights>
-    <pubDate>Mon, 6 Jun 2016 15:00:00 GMT</pubDate>
+    <pubDate>Sat, 6 Aug 2016 19:46:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Researching Design Systems</title>
+        <description>An inventory of the most popular design systems out there.</description>
+        <link>http://danielmall.com/articles/researching-design-systems/</link>
+        <guid>http://danielmall.com/articles/researching-design-systems/</guid>
+        <pubDate>Sat, 6 Aug 2016 19:46:00 GMT</pubDate>
+    </item>
     <item>
         <title>Apprenticeships</title>
         <description>Apprenticeships are a fantastic solution to bridge the gap between opportunity in tech and those in need of change.</description>
