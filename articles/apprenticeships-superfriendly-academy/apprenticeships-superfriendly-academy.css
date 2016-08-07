@@ -86,3 +86,20 @@
 		background: #f6f4dc;
 		font-weight: bold;
 	}
+
+.video-container {
+	width: 95%;
+	width: 100%;
+	max-width: 960px;
+	margin: -6em auto;
+	/*width: 95%;
+	max-width: 960px;
+	height: 540px;
+	margin: -6em auto;*/
+}
+
+.video-container-container {
+	background: #000;
+	width: 98%;
+	margin: 0 auto;
+}
