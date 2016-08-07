@@ -12,11 +12,21 @@
 	<link rel="stylesheet" href="/articles/_vanilla/vanilla.css" />
     <link rel="stylesheet" href="researching-design-systems.css" />
 
-	<!-- Facebook -->
+    <?php /* ?>
+	  <!-- Facebook -->
     <meta property="og:title" content="Researching Design Systems" />
     <meta property="og:description" content="An inventory of the most popular design systems out there."/>
     <meta property="og:url" content="http://danielmall.com/articles/researching-design-systems/" />
     <meta property="og:image" content="http://danielmall.com/articles/researching-design-systems/home-thumb.png" />
+    <?php */ ?>
+
+    <!-- Trying @adactio's meta: https://adactio.com/journal/9881  -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@danielmall">
+    <meta name="twitter:url" property="og:url" content="http://danielmall.com/articles/researching-design-systems/">
+    <meta name="twitter:title" property="og:title" content="Researching Design Systems">
+    <meta name="twitter:description" property="og:description" content="An inventory of the most popular design systems out there.">
+    <meta name="twitter:image" property="og:image" content="http://danielmall.com/articles/researching-design-systems/home-thumb.png">
 
 </head>
 
