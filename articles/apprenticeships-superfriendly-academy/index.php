@@ -4,9 +4,9 @@
     <title>&ldquo;Apprenticeships,&rdquo; an article by Dan Mall</title>
     <meta name="description" content="Apprenticeships" />
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
-    
+
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>    
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
     <link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" href="/articles/_vanilla/vanilla.css" />
@@ -14,26 +14,36 @@
 
 	<!-- Facebook -->
     <meta property="og:title" content="Apprenticeships" />
-    <meta property="og:description" content="Apprenticeships are a fantastic solution to bridge the gap between opportunity in tech and those in need of change."/>	
+    <meta property="og:description" content="Apprenticeships are a fantastic solution to bridge the gap between opportunity in tech and those in need of change."/>
     <meta property="og:url" content="http://danielmall.com/articles/apprenticeships-superfriendly-academy/" />
     <meta property="og:image" content="http://danielmall.com/articles/apprenticeships-superfriendly-academy/home-thumb.png" />
-    
+
 </head>
 
-<body id="article" class="articles">	
-	
+<body id="article" class="articles">
+
 	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
-	
+
 	<div id="article-area-wrap">
-			
-	    <section class="clearfix wrap vanilla vanilla--first">			
-			
-			<h1 class="article-header-title">Apprenticeships</h1>
+
+	    <section class="clearfix wrap vanilla vanilla--first">
+
+			     <h1 class="article-header-title">Apprenticeships</h1>
+
+         </section>
+
+      <div class="video-container-container">
+        <div class="video-container">
+          <iframe src="https://player.vimeo.com/video/172132278?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div><!-- .video-container -->
+      </div><!-- .video-container-container -->
+
+      <section class="clearfix wrap vanilla vanilla--first">
 
             <div class="footnote">
                 <p>This post is an enhanced transcript of a talk I gave at <a href="http://conference.99u.com/">99u</a> on May 6, 2016.</p>
             </div>
-			
+
 			<p>Our industry doesn&rsquo;t do a great job of mixing learning with working. We setup things like weekend hackathons, afterwork programs, and &ldquo;lunch and learns&rdquo;&mdash;all great endeavors, but their very existence proves that we think of learning as a separate thing from work, that work doesn&rsquo;t provide ample enough opportunity to develop new skills.</p>
 
             <p>Writer and educator David Edwards laments the typical American school system setup in Wired article <a href="http://www.wired.com/2014/10/on-learning-by-doing/">On Learning by Doing</a>: </p>
@@ -48,9 +58,9 @@
             <div class="image-row-image easy-clearing margin-bottom">
                 <img src="failure-graph.svg" src="A spectrum of reasons for failure" />
             </div><!-- .easy-clearing -->
-        </div><!-- .image-row -->            
+        </div><!-- .image-row -->
 
-        <section class="clearfix wrap vanilla"> 
+        <section class="clearfix wrap vanilla">
 
             <p>The separation of learning and doing is partly due to our incessant quest for maximum efficiency in the workplace, which is sometimes synonymous with the elimination of failure in the workplace. In her article <a href="https://hbr.org/2011/04/strategies-for-learning-from-failure">Strategies for Learning from Failure</a> in the <cite>Harvard Business Review</cite>, Professor Amy Edmondson describes a spectrum of reasons for failure, with blameworthy types of failure on one end and praiseworthy types on the other. Certainly, we don&rsquo;t want our coworkers to fail because of deviance or attention, but the elimination of failure unfortunately removes the opportunity for failure through exploratory testing or uncertainty, which are crucial in creative process.</p>
 
@@ -60,9 +70,9 @@
             <div class="image-row-image easy-clearing margin-bottom">
                 <img src="walmart.png" src="A job listing for Walmart" />
             </div><!-- .easy-clearing -->
-        </div><!-- .image-row -->            
+        </div><!-- .image-row -->
 
-        <section class="clearfix wrap vanilla"> 
+        <section class="clearfix wrap vanilla">
 
             <p>Consider the way we hire. Our job pages are strewn with solicitations for &ldquo;extraordinary people,&rdquo; prior work of &ldquo;high quality,&rdquo; an enthusiasm for those who can &ldquo;champion ideas,&rdquo; and countless other superlatives. The subtext is clear: you must be amazing <em>before</em> we hire you, because you certainly aren&rsquo;t going to gain those skills here. The prerequisite for greatness is as crippling as it is sparse.</p>
 
@@ -96,9 +106,9 @@
             <div class="image-row-image easy-clearing margin-bottom">
                 <img src="skills-graph.svg" src="A spectrum of reasons for failure" />
             </div><!-- .easy-clearing -->
-        </div><!-- .image-row -->            
+        </div><!-- .image-row -->
 
-        <section class="clearfix wrap vanilla"> 
+        <section class="clearfix wrap vanilla">
 
             <p>In looking to fill vacant job openings, many tech companies look to the upper echelon of this graph. That results in the skilled becoming even more skilled as they move from job to job, creating a wider gap between those at the top and those at the bottom.</p>
 
@@ -195,7 +205,7 @@
 
             <p>The great news is that there are already many apprenticeships out there for budding designers, developers, and <abbr title="User Experience">UX</abbr> professionals. <a href="https://nerdery.com/">The Nerdery</a> runs <a href="https://blog.nerdery.com/2013/02/user-experience-design-apprenticeship/">an amazing <abbr>UX</abbr> Design apprenticeship</a>, led by <a href="https://twitter.com/fred_beecher">Fred Beecher</a>. <a href="http://www.freshtilledsoil.com/">Fresh Tilled Soil</a> runs a 15-week <abbr title="Apprenticeship in User Experience">AUX</abbr> program, which they just <a href="https://medium.com/fresh-tilled-soil/we-think-product-design-apprenticeships-are-the-future-thats-why-we-re-open-sourcing-ours-bef594d506c8#.t5f68158g">graciously open-sourced</a>. <a href="https://seesparkbox.com/">Sparkbox</a> runs <a href="http://apprentices.seesparkbox.com/">a 6-month apprenticeship</a>. <a href="https://thoughtbot.com/">Thoughtbot</a> runs <a href="http://www.apprentice.io/">a 3-month apprenticeship</a>. <a href="http://www.hugeinc.com/">HUGE</a> runs <a href="http://www.hugeinc.com/schools">a 12-week <abbr>UX</abbr> school</a>.</p>
 
-            <p>As of right now, <a href="http://superfriend.ly/academy/">SuperFriendly Academy</a> is open for applications. Head over to the site and get in touch if you meet the guidelines.</p> 
+            <p>As of right now, <a href="http://superfriend.ly/academy/">SuperFriendly Academy</a> is open for applications. Head over to the site and get in touch if you meet the guidelines.</p>
 
             <p>There are already great programs out there like this, but there aren&rsquo;t nearly enough. It&rsquo;s about time that changed.</p>
 
@@ -208,32 +218,32 @@
                 </ol>
 
             </footer><!-- .footnote -->
-			
-	    </section><!-- .vanilla -->	  	
-	    
-	</div><!-- /#article-area-wrap -->	
+
+	    </section><!-- .vanilla -->
+
+	</div><!-- /#article-area-wrap -->
 
 	<?php
 
         echo readNext('Thanks, Mike Davidson', '/articles/thanks-mike-davidson/');
 
     ?>
-	
+
 	<div id="comments">
-	
+
 	    <?php /* ?><section id="article-meta">
 
 	        <header class="easy-clearing">
 	            <h1>{if comment_total == 0}No comments <a href="#comment-form">yet</a>&hellip;{if:else}{comment_total} Comments{/if}</h1>
 	            <p>Posted in {categories backspace="2"}<a href="{path='channel/index'}">{category_name}</a>, {/categories}</p>
 	        </header>
-        
-	    </section><!-- /#article-meta --><?php */ ?>	    	    
-	    
-	    <div id="comments-wrap">                
-            
+
+	    </section><!-- /#article-meta --><?php */ ?>
+
+	    <div id="comments-wrap">
+
             <div class="main">
-                
+
                 <div id="disqus_thread"></div>
                 <script>
                     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -253,46 +263,46 @@
                 </script>
                 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                 <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-                
+
             </div><!-- /.main -->
-	    
-	    
+
+
     	    <div class="sub">
-	        
+
     	        <section class="article-info">
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
         	        <time datetime="2014-02-19T12:57:00">Published June 6, 2016 at 3:00 <abbr title="Post Meridian">PM</abbr></time>
     	        </section><!-- /.article-info -->
-    	        
-    	        
+
+
     	        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/carbon.php"); echo "\n"; ?>
-	        
-	        
+
+
     	    </div><!-- /.sub -->
-    	    
-    	    
+
+
     	</div><!-- #comments-wrap -->
-	    
-	        
+
+
 	</div><!-- #comments -->
-	
-	
+
+
 	<div class="wrap">
-    	
+
     	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/footer.php"); echo "\n"; ?>
-    	
-    	
+
+
     </div><!-- #wrap -->
 
-    <script src="jquery.fitvids.js"></script>
+    <script src="/-/j/libs/jquery.fitvids.js"></script>
     <script>
 		$(document).ready(function(){
 			// Target your .container, .wrapper, .post, etc.
 			$('.video-container').fitVids();
 		});
     </script>
-    
-	
+
+
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/close.php"); echo "\n"; ?>
