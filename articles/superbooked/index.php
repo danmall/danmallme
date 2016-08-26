@@ -38,7 +38,7 @@
 
             <p>Fast forward to now: 63 of SuperFriendly&rsquo;s 82 projects (76%) over the last 5 years have come through friends. For 2016, 9 out of the 10 SuperFriendly projects (90%) have come through friends.</p>
 
-            <p>When I ask the people running the agencies and shops I think are incredibly <a href="/articles/oil-change-pizza/">well-positioned</a>, they generally confirm that a good portion of their work comes from word of mouth.</p>
+            <p>When I ask the people running the agencies and shops I think are incredibly <a href="/articles/oil-change-pizza/" title="&ldquo;Oil Change &amp; Pizza,&rdquo; an article about good positioning">well-positioned</a>, they generally confirm that a good portion of their work comes from word of mouth.</p>
 
             <p>Every freelancer and agency Slack channel and Basecamp account I&rsquo;m in has a <code>#jobs</code> channel or section where people can pass around great work to the people they trust.</p>
 
@@ -50,11 +50,9 @@
 
             <p>If you&rsquo;re interested in kicking the tires, join the waiting list and we&rsquo;ll get you in as soon as we&rsquo;re sure the engine is purring.</p>
 
-            <?php /* ?>
             <footer class="footnote">
-                <p>Also published on <a href="https://medium.com/@danielmall/oil-change-pizza-9257aba3562b#.r6seh4x9e">Medium</a>.</p>
+                <p>Also published on <a href="https://medium.com/@danielmall/announcing-superbooked-b87550b58cbd#.34u7ixc4p">Medium</a>.</p>
             </footer><!-- .footnote -->
-            <?php */ ?>
 			
 	    </section><!-- .vanilla -->	  	
 	    
