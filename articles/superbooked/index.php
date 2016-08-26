@@ -42,13 +42,13 @@
 
             <p>Every freelancer and agency Slack channel and Basecamp account I&rsquo;m in has a <code>#jobs</code> channel or section where people can pass around great work to the people they trust.</p>
 
-            <p>When you need a good web designer&mdash;or place to eat or plumber&mdash;you might ask a friend who they&rsquo;d recommend.</p>
+            <p>When you need a good web designer&mdash;or plumber or place to eat&mdash;you might ask a friend who they&rsquo;d recommend.</p>
 
             <p>A few years ago, I shared this premise with my friend <a href="https://twitter.com/philipzaengle">Phil</a>, and we decided to build something that helped people better do what they already do: ask friends for recommendations and pass work around to people they already trust. </p>
 
             <p>Today, we&rsquo;re announcing <strong class="superbooked-title"><a href="http://superbooked.com/">SuperBooked</a></strong>, a service that helps you find work with a little help from your friends. I&rsquo;m so grateful to Phil Zaengle, <a href="https://twitter.com/jesseschutt">Jesse Schutt</a>, <a href="https://twitter.com/drknlsn">Derek Nelson</a>, <a href="https://twitter.com/pishdeluxe">Mary van Ogtrop</a>, and <a href="https://twitter.com/jacobzaengle">Jacob Zaengle</a> for all of their incredible work to get us to this point.</p>
 
-            <p>If you&rsquo;re interested in kicking in the tires, join the waiting list and we&rsquo;ll get you in as soon as we&rsquo;re sure the engine is purring.</p>
+            <p>If you&rsquo;re interested in kicking the tires, join the waiting list and we&rsquo;ll get you in as soon as we&rsquo;re sure the engine is purring.</p>
 
             <?php /* ?>
             <footer class="footnote">
