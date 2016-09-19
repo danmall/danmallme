@@ -89,7 +89,7 @@
 
 	<?php
 
-        echo readNext('Researching Design Systems', '/articles/researching-design-systems/');
+        echo readNext('SuperBooked', '/articles/superbooked/');
 
     ?>
 	

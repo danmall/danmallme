@@ -38,6 +38,18 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/accountability/">
+                                    <img class="round-image" src="/articles/accountability/home-thumb.jpg" alt="" />
+                                    <span class="home-item-name">Accountability</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">A 3-step formula for accountability between yourself and those you interact with.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/superbooked/">
                                     <img class="round-image" src="/articles/superbooked/home-thumb.png" alt="" />
                                     <span class="home-item-name">SuperBooked</span>
@@ -47,7 +59,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/researching-design-systems/">
@@ -59,7 +71,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/apprenticeships-superfriendly-academy/">
@@ -70,6 +82,8 @@
                             <p class="home-item-description">Apprenticeships are a fantastic solution to bridge the gap between opportunity in tech and those in need of change.</p>
                         </article><!-- .home-item-article -->
                     </li>
+
+                    <?php /* ?>
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -83,7 +97,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <?php /* ?>
+                    
 
                     <li class="home-item position4">
                         <article class="home-item-article">
