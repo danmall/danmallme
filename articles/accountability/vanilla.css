@@ -1,0 +1,77 @@
+#article-area-wrap { background: #fff; }
+
+.vanilla { width: 94%; margin: 0 auto; padding: 8em 0; font-family: 'Source Serif Pro', serif; }
+	.vanilla h1, .vanilla h2 { font-family: 'Karla', sans-serif; font-weight: bold; }
+	.vanilla h2 { font-size: 24px; }
+	.vanilla h1 + h2 { margin: -1.25em 0 2em; }
+	.vanilla p { font-size: 18px; color: #333; color: #444; line-height: 1.6;}
+	.vanilla blockquote p { font-family: 'Karla', sans-serif; }
+	.vanilla em, .vanilla cite { font-family: Georgia, 'Times New Roman', serif; font-size: 95%; } /* yuck */
+	.vanilla ul, .vanilla ol { font-size: 16px; color: #333; color: #444; }
+	.vanilla li { margin: 0 0 0.9em 25px; position: relative; color: #333; color: #444; }
+		.vanilla ul li:before { content: ""; position: absolute; top: 0.5em; left: -20px; width: 8px; height: 8px; background: #81b440; border-radius: 3px; }
+	.vanilla a { color: #d22c95; color: #000; border-bottom: 1px solid #ccc; }
+	.vanilla a:hover, .vanilla a:focus { border-color: #81b440; }
+	.vanilla code { font-size: 16px; }
+	.vanilla pre code { line-height: 1.6; }
+	.vanilla pre { /* Thanks Chris: https://css-tricks.com/snippets/css/make-pre-text-wrap/ */
+		 white-space: pre-wrap;       /* css-3 */
+		 white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+		 white-space: -pre-wrap;      /* Opera 4-6 */
+		 white-space: -o-pre-wrap;    /* Opera 7 */
+		 word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	}
+
+	.vanilla .code-block {
+		overflow: auto;
+		max-width: 100%;
+	}
+
+	.vanilla .article-header-title { margin: 0 0 1em; }
+	.vanilla .article-header-title { line-height: 1.2; font-size: 40px; font-weight: bold; letter-spacing: -1px; }
+
+	.vanilla .footnote, .vanilla .sep { position: relative; padding-top: 2em; margin-top: 1em; }
+	.vanilla .footnote:before, .vanilla .sep:before { content: ""; width: 30px; height: 1px; background: #ccc; display: block; position: absolute; top: 0; left: 0; }
+
+	.vanilla .named-anchor { border: none; position: relative; /*left: -1em;*/ }	
+		.vanilla .named-anchor:before { 
+			/*background: blue; 			*/
+			color: #999;
+			content: "#";
+			display: block;
+			font-size: 88%;
+			font-weight: normal;
+			left: -1.5em;
+			padding-right: 1em;
+			position: absolute;
+			opacity: 0;
+			top: 0;
+			-webkit-transition: opacity 1s;
+    		transition: opacity 1s;    		
+		}
+
+		.vanilla .named-anchor:hover:before { opacity: 1; }
+
+
+	.vanilla .illo { margin: 0 0 2em; }
+	.vanilla .caption, .vanilla .footnote p, .vanilla .footnote li { font-size: 14px; color: #999; line-height: 1.7; }
+	.vanilla .footnote a { color: #666; }
+	.vanilla .footnote-arrow { font-family: Arial; }
+	.vanilla .footnote-link { font-size: 80%; position: relative; top: -0.5em; margin: 0 0.25em; }
+
+	.vanilla .clear { clear: both; }
+
+	.vanilla .margin-bottom { margin-bottom: 1.5em; }
+			
+		
+.vanilla ::selection { background: #585858; color: #fff; }
+.vanilla ::-moz-selection { background: #585858; color: #fff; }
+
+@media screen and (min-width: 500px){
+	.vanilla { max-width: 650px; }
+
+	.vanilla .col50 .col { width: 46%; float: left; }
+	.vanilla .col50 .col1 { margin-right: 2%; }
+	.vanilla .col50 .col2 { margin-left: 2%; }
+
+}
