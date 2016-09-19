@@ -27,6 +27,18 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/accountability/">Accountability</a></h1>
+                            </header>
+                            <p>A 3-step formula for accountability between yourself and those you interact with.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/accountability/"><time datetime="2016-09-19T20:25:00">September 19, 2016</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/superbooked/#disqus_thread" data-disqus-identifier="accountability"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/superbooked/">SuperBooked</a></h1>
                             </header>
                             <p>Announcing SuperBooked, a service that helps you find work with a little help from your friends.</p>
