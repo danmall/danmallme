@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2016</dc:rights>
-    <pubDate>Sat, 6 Aug 2016 19:46:00 GMT</pubDate>
+    <pubDate>Fri, 26 Aug 2016 13:09:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>SuperBooked</title>
+        <description>Announcing SuperBooked, a service that helps you find work with a little help from your friends.</description>
+        <link>http://danielmall.com/articles/superbooked/</link>
+        <guid>http://danielmall.com/articles/superbooked/</guid>
+        <pubDate>Fri, 26 Aug 2016 13:09:00 GMT</pubDate>
+    </item>
     <item>
         <title>Researching Design Systems</title>
         <description>An inventory of the most popular design systems out there.</description>
