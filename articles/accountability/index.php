@@ -38,6 +38,10 @@
 	    <section class="clearfix wrap vanilla">			
 			
 			<h1 class="article-header-title">Accountability</h1>
+
+            <div class="margin-bottom">
+                <iframe src='https://spoken.co/t/2527241/embed' frameborder='0' width='100%' height='84' style='max-width:400px;'></iframe>
+            </div><!-- .margin-bottom -->
 			
 			<p>One of the best talks I&rsquo;ve ever seen was a short one by <a href="https://twitter.com/CoryBooker">Senator Cory Booker</a> at <a href="http://brooklynbeta.org/">Brooklyn Beta</a> in 2012. In the <abbr title="Question and Answer">Q&amp;A</abbr> section, someone asked how he keeps his team accountable. His answer stuck with me, and I use it often when I&rsquo;m working with apprentices or coaching design teams and agency owners.</p>
 
@@ -77,11 +81,9 @@
 
             <p>Accountability is about motivating each party to do what they commit to. It&rsquo;s a bit awkward to get used to at first, but with practice, you&rsquo;ll find it more natural to implement with your colleagues, bosses, clients, and even friends and family.</p>
 
-            <?php /* ?>
             <footer class="footnote">
-                <p>Also published on <a href="https://medium.com/@danielmall/oil-change-pizza-9257aba3562b#.r6seh4x9e">Medium</a>.</p>
+                <p>Also <a href="https://medium.com/@danielmall/accountability-e64e18e4cfce#.p8ixxd221">syndicated to Medium</a>.</p>
             </footer><!-- .footnote -->
-            <?php */ ?>
 			
 	    </section><!-- .vanilla -->	  	
 	    
