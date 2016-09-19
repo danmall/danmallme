@@ -108,7 +108,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2016-02-08T08:46:00">Published February 8, 2016 at 8:46 <abbr title="Ante Meridian">AM</abbr></time>
+        	        <time datetime="2016-08-26T13:09:00">Published August 26, 2016 at 1:09 <abbr title="Post Meridian">PM</abbr></time>
     	        </section><!-- /.article-info -->
     	        
     	        
@@ -130,14 +130,6 @@
     	
     	
     </div><!-- #wrap -->
-
-    <script src="jquery.fitvids.js"></script>
-    <script>
-		$(document).ready(function(){
-			// Target your .container, .wrapper, .post, etc.
-			$('.video-container').fitVids();
-		});
-    </script>
     
 	
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/close.php"); echo "\n"; ?>
