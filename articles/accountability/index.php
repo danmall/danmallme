@@ -25,7 +25,7 @@
     <meta name="twitter:url" property="og:url" content="http://danielmall.com/articles/accountability/" />
     <meta name="twitter:title" property="og:title" content="Accountability" />
     <meta name="twitter:description" property="og:description" content="A 3-step formula for accountability between yourself and those you interact with." />
-    <meta name="twitter:image" property="og:image" content="http://danielmall.com/articles/accountability/home-thumb.png" />
+    <meta name="twitter:image" property="og:image" content="http://danielmall.com/articles/accountability/home-thumb.jpg" />
     
 </head>
 
