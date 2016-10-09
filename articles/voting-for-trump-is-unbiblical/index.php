@@ -2,7 +2,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head profile="http://gmpg.org/xfn/11">
     <title>&ldquo;Voting for Trump is Unbiblical,&rdquo; an article by Dan Mall</title>
-    <meta name="description" content="Accountability" />
+    <meta name="description" content="Voting for Trump is Unbiblical" />
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
     
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
@@ -10,7 +10,7 @@
     <link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" href="/articles/_vanilla/vanilla.css" />
-    <link rel="stylesheet" href="voting-for-trump-is-unbiblical.css" />
+    <?php /* ?><link rel="stylesheet" href="voting-for-trump-is-unbiblical.css" /><?php */ ?>
 
     <?php /* ?>
 	<!-- Facebook -->
@@ -23,10 +23,10 @@
     <!-- Trying @adactio's meta: https://adactio.com/journal/9881  -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@danielmall" />
-    <meta name="twitter:url" property="og:url" content="http://danielmall.com/articles/accountability/" />
+    <meta name="twitter:url" property="og:url" content="http://danielmall.com/articles/voting-for-trump-is-unbiblical/" />
     <meta name="twitter:title" property="og:title" content="Voting for Trump is Unbiblical" />
-    <meta name="twitter:description" property="og:description" content="A 3-step formula for accountability between yourself and those you interact with." />
-    <meta name="twitter:image" property="og:image" content="http://danielmall.com/articles/accountability/home-thumb.jpg" />
+    <meta name="twitter:description" property="og:description" content="Measuring Trump against the Bible&rsquo;s criteria for leaders" />
+    <meta name="twitter:image" property="og:image" content="http://danielmall.com/articles/voting-for-trump-is-unbiblical/home-thumb.jpg" />
     
 </head>
 
@@ -37,24 +37,6 @@
 	<div id="article-area-wrap">
 			
 	    <section class="clearfix wrap vanilla">
-
-            <div class="intro">			
-
-                <p>I&rsquo;ve usually been pretty silent on commenting about politics, as I don&rsquo;t know much about them. But I do know enough to dread waking up one day to find Trump as the president of my country. I&rsquo;m a registered Democrat who finds himself more and more siding with Republican ideas, but I can&rsquo;t in good conscience even consider Trump to <del>lead</del> <ins>serve</ins> our country as president.</p>
-
-                <p>There&rsquo;s a difference between behavior and character. Sure, the former hints of the latter, but I do believe behavior can change. Every presidential candidate in history has exhibited un-presidential behavior, and they won&rsquo;t be the last. However, everything I&rsquo;ve read and seen about Trump point to his actions reflecting his character, his true nature. His unapologetic aloofness towards every allegation against him is astounding, suggesting that he may even enjoy living the delusion that his lifestyle is harmless and unrelated to how he&rsquo;ll lead our nation.</p>
-
-                <p>I&rsquo;ve been haunted by a few thoughts from my friend Elliot Jay Stocks&rsquo; article, <a href="http://www.elliotjaystocks.com/blog/a-post-brexit-world/">A post-Brexit world</a>:</p>
-
-                <blockquote>
-                    <p>My personal mission, going forward, is to engage more with family members about politics. Rather than going for the easy option and not wanting to create arguments, I&rsquo;m going to question political viewpoints that don&rsquo;t seem to follow reason. I firmly believe that if I&rsquo;d done that before now, I would&rsquo;ve been able to sway at least a few relatives towards a Remain vote. And if friends had done the same with their families, well, it might&rsquo;ve made a difference. Perhaps that&rsquo;s where we failed.</p>
-                </blockquote>
-
-                <p>Time to speak up.</p>
-
-            </div><!-- .intro -->
-
-            <hr /><br /><br />
 			
 			<h1 class="article-header-title">Voting for Trump is Unbiblical</h1>
 
@@ -134,8 +116,8 @@
                     var disqus_shortname = 'danielmall'; // required: replace example with your forum shortname
 
                     // The following are highly recommended additional parameters. Remove the slashes in front to use.
-                    var disqus_identifier = 'accountability';
-                    var disqus_url = 'http://danielmall.com/articles/accountability/';
+                    var disqus_identifier = 'voting-for-trump-is-unbiblical';
+                    var disqus_url = 'http://danielmall.com/articles/voting-for-trump-is-unbiblical/';
                     var disqus_developer = 1;
 
                     /* * * DON'T EDIT BELOW THIS LINE * * */
@@ -157,7 +139,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2016-09-19T20:25:00">Published September 19, 2016 at 8:25 <abbr title="Post Meridian">PM</abbr></time>
+        	        <time datetime="2016-10-09T17:30:00">Published October 9, 2016 at 5:30 <abbr title="Post Meridian">PM</abbr></time>
     	        </section><!-- /.article-info -->
     	        
     	        
