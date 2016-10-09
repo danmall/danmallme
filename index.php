@@ -38,6 +38,17 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/voting-for-trump-is-unbiblical/">
+                                    <img class="round-image" src="/articles/voting-for-trump-is-unbiblical/home-thumb.jpg" alt="" />
+                                    <span class="home-item-name">Voting for Trump is Unbiblical</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Measuring Trump against the Bible&rsquo;s criteria for leaders</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/accountability/">
                                     <img class="round-image" src="/articles/accountability/home-thumb.jpg" alt="" />
                                     <span class="home-item-name">Accountability</span>
@@ -47,7 +58,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/superbooked/">
@@ -59,7 +70,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/researching-design-systems/">
@@ -70,6 +81,8 @@
                             <p class="home-item-description">An inventory of the most popular design systems out there.</p>
                         </article><!-- .home-item-article -->
                     </li>
+
+                    <?php /* ?>
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -83,7 +96,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <?php /* ?>
+                    
 
                     <li class="home-item position4">
                         <article class="home-item-article">

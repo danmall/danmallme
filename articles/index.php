@@ -27,6 +27,18 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/voting-for-trump-is-unbiblical/">Voting for Trump is Unbiblical</a></h1>
+                            </header>
+                            <p>Measuring Trump against the Bible&rsquo;s criteria for leaders.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/voting-for-trump-is-unbiblical/"><time datetime="2016-10-09T17:30:00">October 9, 2016</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/voting-for-trump-is-unbiblical/#disqus_thread" data-disqus-identifier="voting-for-trump-is-unbiblical"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/accountability/">Accountability</a></h1>
                             </header>
                             <p>A 3-step formula for accountability between yourself and those you interact with.</p>
