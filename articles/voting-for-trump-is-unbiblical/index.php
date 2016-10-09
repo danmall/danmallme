@@ -75,13 +75,15 @@
             <footer class="footnote">
 
                 <?php /* ?>
-                <p>Also <a href="https://medium.com/@danielmall/accountability-e64e18e4cfce#.p8ixxd221">syndicated to Medium</a>.</p>
+                <p>Also <a href="https://medium.com/@danielmall/voting-for-trump-is-unbiblical-b287966f7a9c#.6n11zgly8">syndicated to Medium</a>.</p>
                 <?php */ ?>
 
                 <ol>
                     <li id="fn1">From the Greek <i lang="el">presbyteros</i>, meaning &ldquo;older man and older woman, who may or may not be official leaders of the church.&rdquo; <a class="footnote-arrow" href="#fn1-source">&#8617;</a></li>
                     <li id="fn2">From the Greek <i lang="el">episkopos</i>, meaning &ldquo;overseer or supervisor.&rdquo; This word was often used to refer to official titles in civil life. <a class="footnote-arrow" href="#fn2-source">&#8617;</a></li>
-                  </ol>
+                    <li>Also <a href="https://medium.com/@danielmall/voting-for-trump-is-unbiblical-b287966f7a9c#.6n11zgly8">syndicated to Medium</a>.</li>
+              </ol>
+            
             </footer><!-- .footnote -->
             
 			
