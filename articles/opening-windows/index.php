@@ -7,10 +7,9 @@
     
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>    
-    <link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" />
 	<link rel="stylesheet" href="/articles/_vanilla/vanilla.css" />
-    <?php /* ?><link rel="stylesheet" href="voting-for-trump-is-unbiblical.css" /><?php */ ?>
+    <link rel="stylesheet" href="opening-windows.css" />
 
     <?php /* ?>
 	<!-- Facebook -->
@@ -35,10 +34,12 @@
 	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 	
 	<div id="article-area-wrap">
+
+        <div class="intro">
+             <h1 class="article-header-title">Opening Windows</h1>
+        </div><!-- .intro -->
 			
-	    <section class="clearfix wrap vanilla">
-			
-			<h1 class="article-header-title">Opening Windows</h1>
+	    <section class="clearfix wrap vanilla opening-windows">
 
             <p>The first computer I had in my house growing up was an <abbr title="International Business Machine">IBM</abbr> 386 something-or-other. I think it was an old one my dad&rsquo;s job had that he picked up when they upgraded. It had WordPerfect 3.1 on it, and I became a whiz at all the things you could do at an <a href="https://www.google.com/search?q=msdos+prompt&amp;rlz=1C6CHFA_enUS690US690&amp;biw=1440&amp;bih=776&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;sqi=2&amp;ved=0ahUKEwj_3OTdsfzPAhVF4IMKHeBHCMAQ_AUIBigB">MS-DOS prompt</a>. </p>
 
