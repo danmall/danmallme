@@ -38,6 +38,17 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/opening-windows/">
+                                    <img class="round-image" src="/articles/opening-windows/home-thumb.png" alt="" />
+                                    <span class="home-item-name">Opening Windows</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">I&rsquo;m switching to Windows.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/voting-for-trump-is-unbiblical/">
                                     <img class="round-image" src="/articles/voting-for-trump-is-unbiblical/home-thumb.jpg" alt="" />
                                     <span class="home-item-name">Voting for Trump is Unbiblical</span>
@@ -46,7 +57,7 @@
                             <p class="home-item-description">Measuring Trump against the Bible&rsquo;s criteria for leaders</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/accountability/">
@@ -58,7 +69,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/superbooked/">
@@ -69,6 +80,9 @@
                             <p class="home-item-description">Announcing SuperBooked, a service that helps you find work with a little help from your friends.</p>
                         </article><!-- .home-item-article -->
                     </li>
+
+
+                    <?php /* ?>
 
                     <li class="home-item position4">
                         <article class="home-item-article">
@@ -82,7 +96,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <?php /* ?>
+                    
 
                     <li class="home-item position4">
                         <article class="home-item-article">

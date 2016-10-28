@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2016</dc:rights>
-    <pubDate>Sun, 9 Oct 2016 17:30:00 GMT</pubDate>
+    <pubDate>Fri, 28 Oct 2016 08:26:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Opening Windows</title>
+        <description>I'm switching to Windows.</description>
+        <link>http://danielmall.com/articles/opening-windows/</link>
+        <guid>http://danielmall.com/articles/opening-windows/</guid>
+        <pubDate>Fri, 28 Oct 2016 08:26:00 GMT</pubDate>
+    </item>
     <item>
         <title>Voting for Trump is Unbiblical</title>
         <description>A 3-step formula for accountability between yourself and those you interact with.</description>
