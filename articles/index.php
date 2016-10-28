@@ -27,6 +27,18 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/opening-windows/">Opening Windows</a></h1>
+                            </header>
+                            <p>I&rsquo;m switching to Windows.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/opening-windows/"><time datetime="2016-10-28T08:26:00">October 28, 2016</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/opening-windows/#disqus_thread" data-disqus-identifier="opening-windows"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/voting-for-trump-is-unbiblical/">Voting for Trump is Unbiblical</a></h1>
                             </header>
                             <p>Measuring Trump against the Bible&rsquo;s criteria for leaders.</p>
