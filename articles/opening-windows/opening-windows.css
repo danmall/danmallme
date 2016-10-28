@@ -29,7 +29,13 @@
 	position: relative;
 }
 
-@media screen and (min-width: 650px){
+@media screen and (min-width: 723px){
+	.article-header-title {
+		font-size: 54px;
+	}
+}
+
+@media screen and (min-width: 865px){
 	.intro {
 		height: 570px;
 		padding: 0;
