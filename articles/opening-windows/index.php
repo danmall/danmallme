@@ -77,17 +77,11 @@
             <p>Time for the unboxing. </p>
 
 
-
-
-			
-			
-            <?php /* ?>
             <footer class="footnote">
 
-              <p>Also <a href="https://medium.com/@danielmall/voting-for-trump-is-unbiblical-b287966f7a9c#.6n11zgly8">syndicated to Medium</a>.</p>
+              <p>Also <a href="https://medium.com/@danielmall/opening-windows-eb97c7379933#.9zshpkxdy">syndicated to Medium</a>.</p>
             
             </footer><!-- .footnote -->
-            <?php */ ?>
             
 			
 	    </section><!-- .vanilla -->	  	
