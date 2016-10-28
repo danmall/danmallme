@@ -71,7 +71,7 @@
 
             <p>We&rsquo;ll see how it all goes. If I can get through a few months on a Windows laptop, I think my ideal scenario would be to have an iMac and a Surface Book as my two primary machines. I quite like the idea of having a seamless enough setup that can allow me to bounce back and forth across different operating systems with minimal fuss. But, at this point, I have no idea how realistic that is.</p>
 
-            <p>If you&rsquo;re curious about how this is going, <a href="http://twitter.com/danielmall">tweet at me</a>, and I&rsquo;ll also try to post as many updates as I can here. I&rsquo;ll probably use a hashtag to collect all of this, but I can&rsquo;t come up with a clever one right now; suggestions are welcome.</p>
+            <p>If you&rsquo;re curious about how this is going, <a href="http://twitter.com/danielmall">tweet at me</a>, and I&rsquo;ll also try to post as many updates as I can here. Expect me to be randomly tweeting Windows questions every so often. I&rsquo;ll probably use a hashtag to collect all of this, but I can&rsquo;t come up with a clever one right now; suggestions are welcome.</p>
 
             <p>Time for the unboxing. </p>
 
@@ -80,12 +80,13 @@
 
 			
 			
-            
+            <?php /* ?>
             <footer class="footnote">
 
               <p>Also <a href="https://medium.com/@danielmall/voting-for-trump-is-unbiblical-b287966f7a9c#.6n11zgly8">syndicated to Medium</a>.</p>
             
             </footer><!-- .footnote -->
+            <?php */ ?>
             
 			
 	    </section><!-- .vanilla -->	  	
@@ -142,7 +143,7 @@
         	        <header>
         	            <h2>Article Info</h2>
         	        </header>
-        	        <time datetime="2016-10-09T17:30:00">Published October 9, 2016 at 5:30 <abbr title="Post Meridian">PM</abbr></time>
+        	        <time datetime="2016-10-28T08:26:00">Published October 28, 2016 at 8:26 <abbr title="Ante Meridian">AM</abbr></time>
     	        </section><!-- /.article-info -->
     	        
     	        
