@@ -24,8 +24,8 @@
     <meta name="twitter:site" content="@danielmall" />
     <meta name="twitter:url" property="og:url" content="http://danielmall.com/articles/opening-windows/" />
     <meta name="twitter:title" property="og:title" content="Opening Windows" />
-    <meta name="twitter:description" property="og:description" content="Measuring Trump against the Bible&rsquo;s criteria for leaders" />
-    <meta name="twitter:image" property="og:image" content="http://danielmall.com/articles/opening-windows/home-thumb.jpg" />
+    <meta name="twitter:description" property="og:description" content="I&rsquo;m switching to Windows." />
+    <meta name="twitter:image" property="og:image" content="http://danielmall.com/articles/opening-windows/surface-book.png" />
     
 </head>
 
@@ -49,16 +49,17 @@
 
             <p>A little while ago, my friend <a href="https://twitter.com/aarongustafson">Aaron Gustafson</a> asked me if, like <a href="/articles/day-one-with-android/">my very brief foray with an Android phone</a>, I&rsquo;d be interested and willing to switch to Windows for a while, specifically the new <a href="https://www.microsoft.com/en-us/surface/devices/surface-book/surface-book">Surface Book</a>. I was hesitant at first, mostly because I didn&rsquo;t want to take on anything that would negatively impact <a href="http://superfriend.ly/">my client work</a>, but I&rsquo;m pretty open about trying new hardware <a href="/articles/sketchlive/">and software</a> as I&rsquo;m not terribly tied to tools in particular. I was also closely following and intrigued by Dave Rupert&rsquo;s <a href="https://daverupert.com/2015/04/davegoeswindows/">#davegoeswindows adventures</a>, so I decided I&rsquo;d give it a shot myself.</p>
 
-            <p>I originally asked Aaron and team to replicate <a href="https://www.pressreader.com/australia/net-magazine-the-voice-of-web-design/20161006/281517930598008">my current setup</a> so that I&rsquo;d have the least painful time switching over. My main work machine is a pretty beefed-up iMac with an older external 23&Prime; Dell monitor, Wacom tablet for the right hand, and Apple Magic Trackpad for the left. Along with the Surface Book, they sent me an external monitor, a mouse, and a keyboard, but they asked that I forego the Wacom tablet to give the Surface Book Pen and clipboard/draw modes a run for their money. Fair enough.</p>
+            <p>I originally asked Aaron and team to replicate <a href="https://www.pressreader.com/australia/net-magazine-the-voice-of-web-design/20161006/281517930598008">my current setup</a> so that I&rsquo;d have the least painful time switching over. My main work machine is a pretty beefed-up iMac with an older external 23&Prime; Dell monitor, Wacom tablet for the right hand, and Apple Magic Trackpad for the left. Along with the Surface Book, Microsoft sent me an external monitor, a mouse, and a keyboard, but asked that I forego the Wacom tablet to give the Surface Book Pen and clipboard/draw modes a run for their money. Fair enough.</p>
 
             <p>As of this moment, everything is still in the box, but publishing this post is probably one of the last things I&rsquo;ll do on my Mac for a while, if all goes well. I&rsquo;ll be writing about the good, bad, and the ugly of this switch as often as I can.  Initially, there are a few things I&rsquo;m pretty excited about:</p>
 
             <ul>
                 <li>I&rsquo;ve had the primary desktop machine + laptop as travel machine combo for a while, but I&rsquo;m excited for the excuse to go to one portable laptop that docks as the primary machine. Hoping that&rsquo;ll save me some headaches in the &ldquo;whoops, I forgot to sync that file to Dropbox&rdquo; department.</li>
                 <li>Because of that change, I&rsquo;m also making a few more changes to my workstation, like switching to an adjustable standing desk.</li>
-                <li>Switching to a completely different OS makes me realize how tied I probably am to <abbr title="Operationg system">OS</abbr>-specific software, so I&rsquo;m interested in finding and using more <abbr>OS</abbr>-agnostic software, namely web-based things. I&rsquo;ve been sitting on my <a href="https://www.figma.com/">Figma</a> login forever, so this seems like a good time to give it a whirl as it may help to make this transition more painless.</li>
+                <li>Switching to a completely different <abbr title="Operating System">OS</abbr> makes me realize how tied I probably am to <abbr>OS</abbr>-specific software, so I&rsquo;m interested in finding and using more <abbr>OS</abbr>-agnostic software, namely web-based things. I&rsquo;ve been idly sitting on my <a href="https://www.figma.com/">Figma</a> login forever, so this seems like a good time to give it a whirl as it may help to make this transition more painless.</li>
                 <li>It&rsquo;s been a few years since I&rsquo;ve compared, but I seem to recall Adobe products that I use often (Photoshop, Illustrator, etc) running better on a <abbr>PC</abbr> than they do a Mac.</li>
                 <li>I have a few corporate clients that who all use <abbr>PC</abbr>s internally, so being on a similar environment as them will give me a bit more empathy and also generally help out on testing. </li>
+                <li>A lot of the <a href="http://www.theverge.com/2016/10/28/13451846/microsoft-windows-10-creators-update-features">new Windows 10 features</a> look great. I&rsquo;m particularly looking forward to seeing how the full pen support can help my design process.</li>
             </ul>
 
             <p>Of course, there are also a few things that I&rsquo;m pretty hesitant about:</p>
