@@ -27,6 +27,19 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/setting-up-windows/">Setting up Windows</a></h1>
+                            </header>
+                            <p>The first few days on a Windows machine.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/setting-up-windows/"><time datetime="2016-11-06T08:38:00">November 06, 2016</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/setting-up-windows/#disqus_thread" data-disqus-identifier="setting-up-windows"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
+
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/opening-windows/">Opening Windows</a></h1>
                             </header>
                             <p>I&rsquo;m switching to Windows.</p>

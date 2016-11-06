@@ -1,0 +1,26 @@
+.vanilla {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.vanilla ul li:before {
+	background-color: #0072c6;
+}
+
+.windows a {
+	color: #0072c6;
+}
+
+.windows .article-header-title {
+	font-family: 'Open Sans', sans-serif;	
+}
+
+.windows-articles-title {
+	display: flex;
+	flex-direction: column-reverse;
+}
+	.windows .article-hashtag {
+		margin-bottom: 0;
+		color: #999;
+		font-size: 16px;
+	}
