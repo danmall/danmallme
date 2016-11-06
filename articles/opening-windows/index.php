@@ -7,8 +7,9 @@
     
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>    
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet" />
 	<link rel="stylesheet" href="/articles/_vanilla/vanilla.css" />
+    <link rel="stylesheet" href="/-/c/windows-nav.css" />
     <link rel="stylesheet" href="opening-windows.css" />
 
     <?php /* ?>
@@ -39,11 +40,13 @@
              <h1 class="article-header-title">Opening Windows</h1>
         </div><!-- .intro -->
 			
-	    <section class="clearfix wrap vanilla opening-windows">
+	    <section class="clearfix wrap vanilla windows opening-windows">
+
+            <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/windows-nav.php"); echo "\n"; ?>
 
             <p>The first computer I had in my house growing up was an <abbr title="International Business Machine">IBM</abbr> 386 something-or-other. I think it was an old one my dad&rsquo;s job had that he picked up when they upgraded. It had WordPerfect 3.1 on it, and I became a whiz at all the things you could do at an <a href="https://www.google.com/search?q=msdos+prompt&amp;rlz=1C6CHFA_enUS690US690&amp;biw=1440&amp;bih=776&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;sqi=2&amp;ved=0ahUKEwj_3OTdsfzPAhVF4IMKHeBHCMAQ_AUIBigB">MS-DOS prompt</a>. </p>
 
-            <p>Unlike many designers, I didn&rsquo;t grow up with a Mac. One of my cousins had a Mac, which I thought was weird and inferior to my <abbr title="Personal Computer">PC</abbr>. The first time I really used a Mac was when I went to <a href="http://drexel.edu/westphal/">design school</a> for college. I had my personal <abbr>PC</abbr> in my dorm room and the computers in the labs were all PCs because we were all doing <abbr title="Three-dimensional">3D</abbr> modeling and animation work, but the handful of computers in the photo lab were Macs.</p>
+            <p>Unlike many designers, I didn&rsquo;t grow up with a Mac. One of my cousins had a Mac, which I thought was weird and inferior to my <abbr title="Personal Computer">PC</abbr>. The first time I really used a Mac was when I went to <a href="http://drexel.edu/westphal/">design school</a> for college. I had my personal <abbr>PC</abbr> in my dorm room and the computers in the labs were all <abbr>PC</abbr>s because we were all doing <abbr title="Three-dimensional">3D</abbr> modeling and animation work, but the handful of computers in the photo lab were Macs.</p>
 
             <p>My work computer at my first job where I was a design intern was a <abbr>PC</abbr>, but for every other job I&rsquo;ve had, a Mac was always sitting on my desk for my first day. I&rsquo;m now pretty entrenched in using Apple products to do my work, but in my history of using computers, Mac usage is actually in the minority.</p>
 

@@ -1,12 +1,13 @@
 .vanilla {
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
 
 .vanilla ul li:before {
 	background-color: #0072c6;
 }
 
-.opening-windows a {
+.windows a {
 	color: #0072c6;
 }
 
