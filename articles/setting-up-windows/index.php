@@ -75,15 +75,12 @@
 
             <p>(Note: this post was written on my Mac because I have yet to dive into code editors, command line tools, and the like.)</p>
 
-
-
-            <?php /* ?>
+            
             <footer class="footnote">
 
-              <p>Also <a href="https://medium.com/@danielmall/opening-windows-eb97c7379933#.9zshpkxdy">syndicated to Medium</a>.</p>
+              <p>Also <a href="https://medium.com/@danielmall/setting-up-windows-4c2fe857fc93#.ix36kqae0">syndicated to Medium</a>.</p>
             
             </footer><!-- .footnote -->
-            <?php */ ?>
             
 			
 	    </section><!-- .vanilla -->	  	
