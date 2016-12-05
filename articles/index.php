@@ -27,6 +27,19 @@
                     <li>
                         <article>
                             <header>
+                                <h1><a href="/articles/investments/">Investments</a></h1>
+                            </header>
+                            <p>Using an investment framework to help evaluate what&rsquo;s worth doing.</p>
+                            <ul class="meta easy-clearing no-marker">
+                                <li class="permalink"><a href="/articles/investments/"><time datetime="2016-12-04T22:00:00">December 04, 2016</time></a></li>
+                                <script>document.write('<li class="comments"><a href="/articles/investments/#disqus_thread" data-disqus-identifier="investments"></a></li>');</script>
+                            </ul><!-- .meta -->
+                        </article>
+                    </li>
+
+                    <li>
+                        <article>
+                            <header>
                                 <h1><a href="/articles/setting-up-windows/">Setting up Windows</a></h1>
                             </header>
                             <p>The first few days on a Windows machine.</p>

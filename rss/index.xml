@@ -11,8 +11,15 @@
     <link>http://www.danielmall.com/</link>
     <dc:language>en</dc:language>
     <dc:rights>Copyright 2005-2016</dc:rights>
-    <pubDate>Sun, 6 Nov 2016 08:38:00 GMT</pubDate>
+    <pubDate>Sun, 4 Dec 2016 22:00:00 GMT</pubDate>
     <admin:generatorAgent rdf:resource="Bare Hands"/>
+    <item>
+        <title>Investments</title>
+        <description>The first few days on a Windows machine.</description>
+        <link>http://danielmall.com/articles/investments/</link>
+        <guid>http://danielmall.com/articles/investments/</guid>
+        <pubDate>Sun, 4 Dec 2016 22:00:00 GMT</pubDate>
+    </item>
     <item>
         <title>Setting up Windows</title>
         <description>The first few days on a Windows machine.</description>
