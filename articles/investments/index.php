@@ -40,7 +40,7 @@
 			<h1 class="article-header-title">Investments</h1>
 
             <div class="margin-bottom">
-                <iframe src='https://spoken.co/t/2527241/embed' frameborder='0' width='100%' height='84' style='max-width:400px;'></iframe>
+                <iframe src='https://spoken.co/t/2531853/embed' frameborder='0' width='100%' height='84' style='max-width:400px;'></iframe>
             </div><!-- .margin-bottom -->
 			
 			<p>I&rsquo;ve been thinking a lot lately about <em>investment</em>, especially as it relates to <del>time</del> <ins><a href="/articles/i-dont-have-time/">priorities</a></ins>. While many definitions exist, I&rsquo;ve arrived at my own that has proven really useful for me:</p>
