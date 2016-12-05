@@ -38,6 +38,18 @@
                     <li class="home-item position1">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
+                                <a href="/articles/investments/">
+                                    <img class="round-image" src="/articles/investments/home-thumb.png" alt="" />
+                                    <span class="home-item-name">Investments</span>
+                                </a>
+                            </h2><!-- .home-item-headline -->
+                            <p class="home-item-description">Using an investment framework to help evaluate what&rsquo;s worth doing.</p>
+                        </article><!-- .home-item-article -->
+                    </li>
+
+                    <li class="home-item position2">
+                        <article class="home-item-article">
+                            <h2 class="home-item-headline">
                                 <a href="/articles/setting-up-windows/">
                                     <img class="round-image" src="/articles/setting-up-windows/home-thumb.png" alt="" />
                                     <span class="home-item-name">Setting up Windows</span>
@@ -46,7 +58,7 @@
                             <p class="home-item-description">The first few days on a Windows machine.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    <li class="home-item position2">
+                    <li class="home-item position3">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/opening-windows/">
@@ -57,7 +69,7 @@
                             <p class="home-item-description">I&rsquo;m switching to Windows.</p>
                         </article><!-- .home-item-article -->
                     </li>
-                    <li class="home-item position3">
+                    <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
                                 <a href="/articles/voting-for-trump-is-unbiblical/">
@@ -68,6 +80,9 @@
                             <p class="home-item-description">Measuring Trump against the Bible&rsquo;s criteria for leaders</p>
                         </article><!-- .home-item-article -->
                     </li>
+
+                    <?php /* ?>
+
                     <li class="home-item position4">
                         <article class="home-item-article">
                             <h2 class="home-item-headline">
@@ -80,7 +95,7 @@
                         </article><!-- .home-item-article -->
                     </li>
 
-                    <?php /* ?>
+                    
 
                     <li class="home-item position4">
                         <article class="home-item-article">
