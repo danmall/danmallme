@@ -74,3 +74,46 @@ http://superfriend.ly/
 	}
 
 }
+
+
+
+/*-------------------------------------------    
+	Third-Party
+-------------------------------------------*/
+
+// Carbon Ads
+
+#carbonads {
+	@extend .dm-u-clearfix;
+	@extend .dm-u-padding--xs;
+
+	// custom
+	background: $alabaster;
+}
+
+	.carbon-wrap {
+		
+	}
+
+		.carbon-img {
+			@extend .dm-u-float--left;
+			@extend .dm-u-bg--none;
+		}
+
+		.carbon-text {
+			//@extend .dm-u-text--xs;
+			@extend .dm-u-font--sans;
+			@extend .dm-u-bg--none;
+
+			// custom
+			font-size: 12px;
+			font-size: 1.2rem;
+		}
+
+		.carbon-poweredby {
+			@extend .dm-u-text--xs;
+			@extend .dm-u-show;
+			@extend .dm-u-font--sans;
+			@extend .dm-u-bg--none;
+			@extend .dm-u-marginTop--xs;
+		}

@@ -465,7 +465,8 @@ http://superfriend.ly/
 			display: none;
 		}
 
-		&-show {
+		&-show,
+		&-block {
 			display: block;
 		}
 
@@ -556,6 +557,16 @@ http://superfriend.ly/
 			height: 0; 
 			clear: both; 
 			visibility: hidden;
+		}
+
+
+
+		/*-------------------------------------------    
+		    Backgrounds
+		-------------------------------------------*/
+
+		&-bg--none {
+			background: none;
 		}
 
 
