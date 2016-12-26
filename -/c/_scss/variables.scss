@@ -1,0 +1,35 @@
+/*-------------------------------------------    
+    Definitions: Colors     
+-------------------------------------------*/
+
+
+
+
+/*-------------------------------------------    
+    Definitions: Fonts     
+-------------------------------------------*/
+
+$serifStack			:		Georgia, 'Times New Roman', serif;
+$sansSerifStack		:		Helvetica, Arial, sans-serif;
+
+
+
+/*-------------------------------------------    
+    Definitions: Units     
+-------------------------------------------*/
+
+$spacing			:		8;				// https://spec.fm/specifics/8-pt-grid
+
+$xs 				:		$spacing;
+$s 					:		$spacing * 2;
+$m 					:		$spacing * 3;
+$l 					:		$spacing * 4;
+$xl 				:		$spacing * 5;
+$xxl 				:		$spacing * 6;
+
+
+/*-------------------------------------------    
+    Double assignments     
+-------------------------------------------*/
+
+$mainFontStack		: 		$sansSerifStack;

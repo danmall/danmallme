@@ -1,0 +1,344 @@
+/*
+*************************************************
+
+PROJECT NAME
+Utilities
+
+Created by the epic SuperFriendly team.
+http://superfriend.ly/
+
+*************************************************
+*/
+
+.dm {
+
+	&-u {
+
+		/*-------------------------------------------    
+		    Headings     
+		-------------------------------------------*/
+
+
+		&-heading--xs,
+		&-text--xs {
+			font-size: $xs + px;
+			font-size: $xs/10 + rem;
+		}
+
+		&-heading--s,
+		&-text--s {
+			font-size: $s + px;
+			font-size: $s/10 + rem;
+		}
+
+		&-heading--m,
+		&-text--m {
+			font-size: $m + px;
+			font-size: $m/10 + rem;
+		}
+
+		&-heading--l,
+		&-text--l {
+			font-size: $l + px;
+			font-size: $l/10 + rem;
+		}
+
+		&-heading--xl,
+		&-text--xl {
+			font-size: $xl + px;
+			font-size: $xl/10 + rem;
+		}
+
+		&-heading--xxl,
+		&-text--xxl {
+			font-size: $xxl + px;
+			font-size: $xxl/10 + rem;
+		}
+
+
+
+		/*-------------------------------------------    
+		    Margins     
+		-------------------------------------------*/
+
+		// margin shorthand
+
+		&-margin--xs {
+			margin: $spacing + px;
+		}
+
+		&-margin--s {
+			margin: ($spacing * 2) + px;
+		}
+
+		&-margin--m {
+			margin: ($spacing * 3) + px;
+		}
+
+		&-margin--l {
+			margin: ($spacing * 4) + px;
+		}
+
+		&-margin--xl {
+			margin: ($spacing * 5) + px;
+		}
+
+		&-margin--xxl {
+			margin: ($spacing * 6) + px;
+		}
+
+
+
+		// marginTop
+
+		&-marginTop--xs {
+			margin-top: $spacing + px;
+		}
+
+		&-marginTop--s {
+			margin-top: ($spacing * 2) + px;
+		}
+
+		&-marginTop--m {
+			margin-top: ($spacing * 3) + px;
+		}
+
+		&-marginTop--l {
+			margin-top: ($spacing * 4) + px;
+		}
+
+		&-marginTop--xl {
+			margin-top: ($spacing * 5) + px;
+		}
+
+		&-marginTop--xxl {
+			margin-top: ($spacing * 6) + px;
+		}
+
+
+		// marginRight
+
+		&-marginRight--xs {
+			margin-right: $spacing + px;
+		}
+
+		&-marginRight--s {
+			margin-right: ($spacing * 2) + px;
+		}
+
+		&-marginRight--m {
+			margin-right: ($spacing * 3) + px;
+		}
+
+		&-marginRight--l {
+			margin-right: ($spacing * 4) + px;
+		}
+
+		&-marginRight--xl {
+			margin-right: ($spacing * 5) + px;
+		}
+
+		&-marginRight--xxl {
+			margin-right: ($spacing * 6) + px;
+		}
+
+
+		// marginBottom
+
+		&-marginBottom--xs {
+			margin-bottom: $spacing + px;
+		}
+
+		&-marginBottom--s {
+			margin-bottom: ($spacing * 2) + px;
+		}
+
+		&-marginBottom--m {
+			margin-bottom: ($spacing * 3) + px;
+		}
+
+		&-marginBottom--l {
+			margin-bottom: ($spacing * 4) + px;
+		}
+
+		&-marginBottom--xl {
+			margin-bottom: ($spacing * 5) + px;
+		}
+
+		&-marginBottom--xxl {
+			margin-bottom: ($spacing * 6) + px;
+		}
+
+
+
+		// marginLeft
+
+		&-marginLeft--xs {
+			margin-left: $spacing + px;
+		}
+
+		&-marginLeft--s {
+			margin-left: ($spacing * 2) + px;
+		}
+
+		&-marginLeft--m {
+			margin-left: ($spacing * 3) + px;
+		}
+
+		&-marginLeft--l {
+			margin-left: ($spacing * 4) + px;
+		}
+
+		&-marginLeft--xl {
+			margin-left: ($spacing * 5) + px;
+		}
+
+		&-marginLeft--xxl {
+			margin-left: ($spacing * 6) + px;
+		}
+
+
+
+		/*-------------------------------------------    
+		    Paddings     
+		-------------------------------------------*/
+
+		// padding shorthand
+
+		&-padding--xs {
+			padding: $spacing + px;
+		}
+
+		&-padding--s {
+			padding: ($spacing * 2) + px;
+		}
+
+		&-padding--m {
+			padding: ($spacing * 3) + px;
+		}
+
+		&-padding--l {
+			padding: ($spacing * 4) + px;
+		}
+
+		&-padding--xl {
+			padding: ($spacing * 5) + px;
+		}
+
+		&-padding--xxl {
+			padding: ($spacing * 6) + px;
+		}
+
+
+
+		// paddingTop
+
+		&-paddingTop--xs {
+			padding-top: $spacing + px;
+		}
+
+		&-paddingTop--s {
+			padding-top: ($spacing * 2) + px;
+		}
+
+		&-paddingTop--m {
+			padding-top: ($spacing * 3) + px;
+		}
+
+		&-paddingTop--l {
+			padding-top: ($spacing * 4) + px;
+		}
+
+		&-paddingTop--xl {
+			padding-top: ($spacing * 5) + px;
+		}
+
+		&-paddingTop--xxl {
+			padding-top: ($spacing * 6) + px;
+		}
+
+
+		// paddingRight
+
+		&-paddingRight--xs {
+			padding-right: $spacing + px;
+		}
+
+		&-paddingRight--s {
+			padding-right: ($spacing * 2) + px;
+		}
+
+		&-paddingRight--m {
+			padding-right: ($spacing * 3) + px;
+		}
+
+		&-paddingRight--l {
+			padding-right: ($spacing * 4) + px;
+		}
+
+		&-paddingRight--xl {
+			padding-right: ($spacing * 5) + px;
+		}
+
+		&-paddingRight--xxl {
+			padding-right: ($spacing * 6) + px;
+		}
+
+
+		// paddingBottom
+
+		&-paddingBottom--xs {
+			padding-bottom: $spacing + px;
+		}
+
+		&-paddingBottom--s {
+			padding-bottom: ($spacing * 2) + px;
+		}
+
+		&-paddingBottom--m {
+			padding-bottom: ($spacing * 3) + px;
+		}
+
+		&-paddingBottom--l {
+			padding-bottom: ($spacing * 4) + px;
+		}
+
+		&-paddingBottom--xl {
+			padding-bottom: ($spacing * 5) + px;
+		}
+
+		&-paddingBottom--xxl {
+			padding-bottom: ($spacing * 6) + px;
+		}
+
+
+
+		// paddingLeft
+
+		&-paddingLeft--xs {
+			padding-left: $spacing + px;
+		}
+
+		&-paddingLeft--s {
+			padding-left: ($spacing * 2) + px;
+		}
+
+		&-paddingLeft--m {
+			padding-left: ($spacing * 3) + px;
+		}
+
+		&-paddingLeft--l {
+			padding-left: ($spacing * 4) + px;
+		}
+
+		&-paddingLeft--xl {
+			padding-left: ($spacing * 5) + px;
+		}
+
+		&-paddingLeft--xxl {
+			padding-left: ($spacing * 6) + px;
+		}
+
+	}
+
+}

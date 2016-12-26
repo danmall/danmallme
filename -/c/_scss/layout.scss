@@ -1,0 +1,53 @@
+/*
+*************************************************
+
+PROJECT NAME
+Layout
+
+Created by the epic SuperFriendly team.
+http://superfriend.ly/
+
+*************************************************
+*/
+
+.dm {
+
+	&-l {
+
+		/*-------------------------------------------    
+		    Columns
+		-------------------------------------------*/
+
+		&-col--75 {
+			float: left;
+			width: 75%;
+		}
+
+		&-col--66 {
+			float: left;
+			width: 66.66666666667%;
+		}
+
+		&-col--50 {
+			float: left;
+			width: 50%;
+		}
+
+		&-col--33 {
+			float: left;
+			width: 33.333333333333%;
+		}
+
+		&-col--25 {
+			float: left;
+			width: 25%;
+		}
+
+		&-col--20 {
+			float: left;
+			width: 20%;
+		}
+
+	}
+
+}
