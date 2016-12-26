@@ -40,7 +40,7 @@ html {
 
 body { 
 	font: normal 62.5%/1.5 $mainFontStack;
-	color: #333; 
+	color: $textColor; 
 }
 
 
@@ -156,8 +156,16 @@ video {
 }
 
 a { 
+	background-image: linear-gradient(to top,
+	    rgba(255,100,7,0) 7%,
+	    rgba(255,100,7,1) 7%,
+	    rgba(255,100,7,1) 10%,
+	    rgba(255,100,7,0) 10%
+    );
+	color: $textColor;
 	text-decoration: none; 
 	/*.transition(all, 0.25s, linear);*/ 
+	
 }
 
 a:hover, 

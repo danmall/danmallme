@@ -1,7 +1,7 @@
 /*
 *************************************************
 
-PROJECT NAME
+DANMALL.ME
 General Screen Styles
 
 Created by the epic SuperFriendly team.
@@ -14,17 +14,63 @@ http://superfriend.ly/
 @import 'utilities.scss';
 @import 'layout.scss';
 @import 'base.scss';
-@import 'global.scss';
-
-
-/*-------------------------------------------    
-	Modules
--------------------------------------------*/
-
-
+// @import 'global.scss';
 
 
 
 /*-------------------------------------------    
-	Page Specific
+	Components
 -------------------------------------------*/
+
+.dm {
+
+	// articleChunk
+
+	&-c-articleChunk {
+
+		@extend .dm-u-marginBottom--xs;
+		@extend .dm-u-padding--xs;
+		
+		&_header {
+			@extend .dm-u-display--flex;
+
+			// custom
+			flex-direction: column-reverse;
+		}
+
+		&_title {
+			@extend .dm-u-heading--l;
+			@extend .dm-u-leading--xs;
+			@extend .dm-u-font--normal;			
+		}
+
+		&_time {
+			@extend .dm-u-text--xs;
+			@extend .dm-u-font--sans;
+			@extend .dm-u-uppercase;
+			@extend .dm-u-marginBottom--xs;
+		}
+
+		&_dek {
+			@extend .dm-u-text--s;
+			@extend .dm-u-marginBottom--s;
+		}
+
+		&_tags {
+
+			@extend .dm-u-marginLeft--0;
+
+			&_item {
+				@extend .dm-u-text--xs;
+				@extend .dm-u-display--inline;
+				@extend .dm-u-text--xs;
+				@extend .dm-u-font--sans;
+				@extend .dm-u-uppercase;
+				@extend .dm-u-marginRight--s;
+			}
+			
+		}
+
+	}
+
+}

@@ -2,6 +2,8 @@
     Definitions: Colors     
 -------------------------------------------*/
 
+$orange				:		#ff6407;
+$shipGray			:		#343139;
 
 
 
@@ -32,4 +34,12 @@ $xxl 				:		$spacing * 6;
     Double assignments     
 -------------------------------------------*/
 
-$mainFontStack		: 		$sansSerifStack;
+// colors
+
+$mainActiveColor	:		$orange;
+$textColor			:		$shipGray;
+
+
+//typography
+
+$mainFontStack		: 		$serifStack;

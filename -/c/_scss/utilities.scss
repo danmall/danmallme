@@ -1,7 +1,7 @@
 /*
 *************************************************
 
-PROJECT NAME
+DANMALL.ME
 Utilities
 
 Created by the epic SuperFriendly team.
@@ -15,7 +15,7 @@ http://superfriend.ly/
 	&-u {
 
 		/*-------------------------------------------    
-		    Headings     
+		    Headings & Text
 		-------------------------------------------*/
 
 
@@ -56,12 +56,90 @@ http://superfriend.ly/
 		}
 
 
+		// leading
+
+		&-leading--xs {
+			line-height: 1;
+		}
+
+		&-leading--s {
+			line-height: 1.2;
+		}
+
+		&-leading--m {
+			line-height: 1.4;
+		}
+
+		&-leading--l {
+			line-height: 1.6;
+		}
+
+		&-leading--xl {
+			line-height: 1.8;
+		}
+
+		&-leading--xxl {
+			line-height: 2;
+		}
+
+
+		// font style
+
+		&-font--sans {
+			font-family: $sansSerifStack;
+		}
+
+		&-font--serif {
+			font-family: $serifStack;
+		}
+
+
+
+		// font weight
+
+		&-font--bold {
+			font-weight: bold;
+		}
+
+		&-font--normal {
+			font-weight: normal;
+		}
+
+
+
+		// bullets
+
+		&-bullets {
+			list-style: disc;	
+		}
+
+		&-bullets--none {
+			list-style: none;	
+		}
+
+
+		// other text styles
+
+		&-uppercase {
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+		}
+
+		&-letterspace--in {
+			letter-spacing: -1px;
+		}
+
+
 
 		/*-------------------------------------------    
 		    Margins     
 		-------------------------------------------*/
 
 		// margin shorthand
+
+		&-margin--0 {
+			margin: 0
+		}
 
 		&-margin--xs {
 			margin: $spacing + px;
@@ -91,6 +169,10 @@ http://superfriend.ly/
 
 		// marginTop
 
+		&-marginTop--0 {
+			margin-top: 0;
+		}
+
 		&-marginTop--xs {
 			margin-top: $spacing + px;
 		}
@@ -117,6 +199,10 @@ http://superfriend.ly/
 
 
 		// marginRight
+
+		&-marginRight--0 {
+			margin-right: 0;
+		}
 
 		&-marginRight--xs {
 			margin-right: $spacing + px;
@@ -145,6 +231,10 @@ http://superfriend.ly/
 
 		// marginBottom
 
+		&-marginBottom--0 {
+			margin-bottom: 0;
+		}
+
 		&-marginBottom--xs {
 			margin-bottom: $spacing + px;
 		}
@@ -172,6 +262,10 @@ http://superfriend.ly/
 
 
 		// marginLeft
+
+		&-marginLeft--0 {
+			margin-left: 0;
+		}
 
 		&-marginLeft--xs {
 			margin-left: $spacing + px;
@@ -205,6 +299,10 @@ http://superfriend.ly/
 
 		// padding shorthand
 
+		&-padding--0 {
+			padding: 0;
+		}
+
 		&-padding--xs {
 			padding: $spacing + px;
 		}
@@ -233,6 +331,10 @@ http://superfriend.ly/
 
 		// paddingTop
 
+		&-paddingTop--0 {
+			padding-top: 0;
+		}
+
 		&-paddingTop--xs {
 			padding-top: $spacing + px;
 		}
@@ -260,6 +362,10 @@ http://superfriend.ly/
 
 		// paddingRight
 
+		&-paddingRight--0 {
+			padding-right: 0;
+		}
+
 		&-paddingRight--xs {
 			padding-right: $spacing + px;
 		}
@@ -286,6 +392,10 @@ http://superfriend.ly/
 
 
 		// paddingBottom
+
+		&-paddingBottom--0 {
+			padding-bottom: 0;
+		}
 
 		&-paddingBottom--xs {
 			padding-bottom: $spacing + px;
@@ -315,6 +425,10 @@ http://superfriend.ly/
 
 		// paddingLeft
 
+		&-paddingLeft--0 {
+			padding-left: 0;
+		}
+
 		&-paddingLeft--xs {
 			padding-left: $spacing + px;
 		}
@@ -338,6 +452,112 @@ http://superfriend.ly/
 		&-paddingLeft--xxl {
 			padding-left: ($spacing * 6) + px;
 		}
+
+
+		
+
+
+		/*-------------------------------------------    
+		    Display     
+		-------------------------------------------*/
+		
+		&-hide {
+			display: none;
+		}
+
+		&-show {
+			display: block;
+		}
+
+		&-display {
+
+			&--inlineBlock {
+				display: inline-block;
+			}
+
+			&--inline {
+				display: inline;
+			}
+
+			&--flex {
+				display: flex;
+			}
+
+		}
+
+
+		/*-------------------------------------------    
+		    Positioning
+		-------------------------------------------*/
+
+		&-pos--absolute {
+			position: absolute;
+		}
+
+		&-pos--relative {
+			position: relative;
+		}
+
+		&-pos--static {
+			position: static;
+		}
+
+
+
+		/*-------------------------------------------    
+		    Moving
+		-------------------------------------------*/
+
+		&-move--offscreen {
+			@extend .dm-u-pos--absolute;
+			@extend .dm-u-show;
+			left: -99999px;
+		}
+
+		&-move--onscreen {
+			@extend .dm-u-pos--absolute;
+			@extend .dm-u-show;
+			left: 0;
+		}
+
+
+		/*-------------------------------------------    
+		    Floating & Clearing
+		-------------------------------------------*/
+
+		&-float--left {
+			float: left;
+		}
+
+		&-float--right {
+			float: right;
+		}
+
+		&-float--none {
+			float: none;
+		}
+
+		&-clear--left {
+			clear: left;
+		}
+
+		&-clear--right {
+			clear: right;
+		}
+
+		&-clear--both {
+			clear: both;
+		}
+
+		/* Easy Clearing - http://www.positioniseverything.net/easyclearing.html */ 
+		&-clearfix:after {
+			content: "."; 
+			display: block; 
+			height: 0; 
+			clear: both; 
+			visibility: hidden;
+		}
+
 
 	}
 
