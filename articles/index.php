@@ -17,9 +17,13 @@
         <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/nav.php"); echo "\n"; ?>
 
         <nav role="navigation">
-            <ul>
-                <li><ahref="#on-this-site">On this site</a></li>
-                <li><a href="#elsewhere">Elsewhere</a></li>
+            <ul class="dm-c-inlineNav">
+                <li class="dm-c-inlineNav_item dm-c-inlineNav_item--active">
+                    <mark>On this site</mark>
+                </li>
+                <li class="dm-c-inlineNav_item">
+                    <a href="#elsewhere">Elsewhere</a>
+                </li>
             </ul>
         </nav><!-- .page-nav -->
 

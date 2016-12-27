@@ -49,6 +49,43 @@ http://superfriend.ly/
 			@extend .dm-u-font--normal;
 			@extend .dm-u-heading--xxl;
 			@extend .dm-u-padding--xs;
+			@extend .dm-u-marginBottom--xs;
+		}
+
+	}
+
+
+
+	// inlineNav 
+
+	&-c-inlineNav {
+
+		@extend .dm-u-bullets--none;
+		@extend .dm-u-marginLeft--0;
+		@extend .dm-u-padding--xs;
+
+		&_item {
+			@extend .dm-u-display--inlineBlock;
+
+			&:after {
+				@extend .dm-u-marginLeft--xs;
+				@extend .dm-u-marginRight--xs;				
+				@extend .dm-u-font--normal;				
+
+				// custom
+				color: $silverRust;
+				content: "/";
+			}
+
+			&:last-child:after {
+				content: "";
+				@extend .dm-u-margin--0;
+			}
+
+			&--active {
+				@extend .dm-u-font--bold;
+			}
+
 		}
 
 	}
@@ -128,6 +165,7 @@ http://superfriend.ly/
 #carbonads {
 	@extend .dm-u-clearfix;
 	@extend .dm-u-padding--xs;
+	@extend .dm-u-marginBottom--s;
 
 	// custom
 	background: $alabaster;
