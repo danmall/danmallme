@@ -1,5 +1,137 @@
 [
 	{
+		"title"	: 	"Investments",
+		"slug"	:	"http://v3.danielmall.com/articles/investments/",
+		"dek"	:	"Using an investment framework to help evaluate what&rsquo;s worth doing.",
+		"date"	:	"2016-12-04 22:00:00",
+		"tags"	:	[
+			"life",
+			"culture"
+		]
+	},
+	{
+		"title"	: 	"Setting up Windows",
+		"slug"	:	"http://v3.danielmall.com/articles/setting-up-windows/",
+		"dek"	:	"The first few days on a Windows machine.",
+		"date"	:	"2016-11-06 08:38:00",
+		"tags"	:	[
+			"windows",
+			"os",
+			"experiment"
+		]
+	},
+	{
+		"title"	: 	"Opening Windows",
+		"slug"	:	"http://v3.danielmall.com/articles/opening-windows/",
+		"dek"	:	"I&rsquo;m switching to Windows.",
+		"date"	:	"2016-10-28 08:26:00",
+		"tags"	:	[
+			"windows",
+			"os",
+			"experiment"
+		]
+	},
+	{
+		"title"	: 	"Voting for Trump is Unbiblical",
+		"slug"	:	"http://v3.danielmall.com/articles/voting-for-trump-is-unbiblical/",
+		"dek"	:	"Measuring Trump against the Bible’s criteria for leaders.",
+		"date"	:	"2016-10-09 17:30:00",
+		"tags"	:	[
+			"united states",
+			"election",
+			"bible",
+			"trump"
+		]
+	},
+	{
+		"title"	: 	"Accountability",
+		"slug"	:	"http://v3.danielmall.com/articles/accountability/",
+		"dek"	:	"A 3-step formula for accountability between yourself and those you interact with.",
+		"date"	:	"2016-09-19 20:25:00",
+		"tags"	:	[
+			"life",
+			"culture"
+		]
+	},
+	{
+		"title"	: 	"SuperBooked",
+		"slug"	:	"http://v3.danielmall.com/articles/superbooked/",
+		"dek"	:	"Announcing SuperBooked, a service that helps you find work with a little help from your friends.",
+		"date"	:	"2016-08-26 13:09:00",
+		"tags"	:	[
+			"superbooked",
+			"service",
+			"saas",
+			"personal",
+			"side project"
+		]
+	},
+	{
+		"title"	: 	"Researching Design Systems",
+		"slug"	:	"http://v3.danielmall.com/articles/researching-design-systems/",
+		"dek"	:	"An inventory of the most popular design systems out there.",
+		"date"	:	"2016-08-06 19:46:00",
+		"tags"	:	[
+			"design systems",
+			"material design",
+			"google",
+			"salesforce",
+			"ibm",
+			"airbnb",
+			"apple",
+			"lightning design system",
+			"nasa"
+		]
+	},
+	{
+		"title"	: 	"Apprenticeships",
+		"slug"	:	"http://v3.danielmall.com/articles/apprenticeships-superfriendly-academy/",
+		"dek"	:	"Apprenticeships are a fantastic solution to bridge the gap between opportunity in tech and those in need of change.",
+		"date"	:	"2016-06-06 15:00:00",
+		"tags"	:	[
+			"apprenticeships",
+			"learning",
+			"teaching",
+			"99u",
+			"conference",
+			"video",
+			"curriculum"
+		]
+	},
+	{
+		"title"	: 	"Thanks, Mike Davidson",
+		"slug"	:	"http://v3.danielmall.com/articles/thanks-mike-davidson/",
+		"dek"	:	"Great writing from Mike really brings me back.",
+		"date"	:	"2016-05-11 05:50:00",
+		"tags"	:	[
+			"blogging"
+		]
+	},
+	{
+		"title"	: 	"Selling Design Systems",
+		"slug"	:	"http://v3.danielmall.com/articles/selling-design-systems/",
+		"dek"	:	"How to convince your boss that a design system is a good idea.",
+		"date"	:	"2016-04-25 09:30:00",
+		"tags"	:	[
+			"design systems",
+			"selling",
+			"adventist",
+			"projects",
+			"clients"
+		]
+	},
+	{
+		"title"	: 	"Oil Change &amp; Pizza",
+		"slug"	:	"http://v3.danielmall.com/articles/oil-change-pizza/",
+		"dek"	:	"Death to &ldquo;full service.&rdquo;",
+		"date"	:	"2016-02-08 08:46:00",
+		"tags"	:	[
+			"agency",
+			"positioning",
+			"coaching"
+		]
+	},
+	{
 		"title"	: 	"Permission Slips",
 		"slug"	:	"http://v3.danielmall.com/articles/permission-slips/",
 		"dek"	:	"To overcome your fears, you need [permission] to try something different.",
