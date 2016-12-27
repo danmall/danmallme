@@ -24,6 +24,37 @@ http://superfriend.ly/
 
 .dm {
 
+	// siteNav
+
+	&-c-siteNav {
+
+		@extend .dm-u-hide;
+
+		&_link {
+			@extend .dm-u-text--s;
+			@extend .dm-u-marginBottom--xs;
+			@extend .dm-u-hide;
+		}
+
+	}
+
+
+
+
+	// pageHeader
+
+	&-c-pageHeader {
+
+		&_title {
+			@extend .dm-u-font--normal;
+			@extend .dm-u-heading--xxl;
+			@extend .dm-u-padding--xs;
+		}
+
+	}
+
+
+
 	// articleChunk
 
 	&-c-articleChunk {
@@ -39,7 +70,7 @@ http://superfriend.ly/
 		}
 
 		&_title {
-			@extend .dm-u-heading--l;
+			@extend .dm-u-heading--m;
 			@extend .dm-u-leading--xs;
 			@extend .dm-u-font--normal;			
 		}
@@ -49,11 +80,14 @@ http://superfriend.ly/
 			@extend .dm-u-font--sans;
 			@extend .dm-u-uppercase;
 			@extend .dm-u-marginBottom--xs;
+
+			// custom 
+			color: $cloudy;
 		}
 
 		&_dek {
 			@extend .dm-u-text--s;
-			@extend .dm-u-marginBottom--s;
+			@extend .dm-u-marginBottom--xs;
 		}
 
 		&_tags {
@@ -67,6 +101,14 @@ http://superfriend.ly/
 				@extend .dm-u-font--sans;
 				@extend .dm-u-uppercase;
 				@extend .dm-u-marginRight--s;
+
+				// custom
+				color: $silverRust;
+
+				&:before {
+					content: "#";
+					margin-right: 0.1em;
+				}
 			}
 			
 		}

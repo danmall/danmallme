@@ -5,7 +5,7 @@
 }
 segmentURL($_SERVER['REQUEST_URI']);*/
 
-function parseArticles($file, $num, $type){
+function parseList($file, $num, $type){
 
 	// $type = 'full' or 'abridged'
 

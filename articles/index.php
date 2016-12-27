@@ -10,13 +10,13 @@
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
 
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/nav.php"); echo "\n"; ?>
+    <header class="dm-c-pageHeader" role="banner">
 
-    <header>
+        <h1 class="dm-c-pageHeader_title">Articles</h1>
 
-        <h1>Articles</h1>
+        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/nav.php"); echo "\n"; ?>
 
-        <nav>
+        <nav role="navigation">
             <ul>
                 <li><ahref="#on-this-site">On this site</a></li>
                 <li><a href="#elsewhere">Elsewhere</a></li>
@@ -29,7 +29,7 @@
 
     <section id="on-this-site">
 
-        <?php parseArticles('articles.json', 'all', 'full'); ?>
+        <?php parseList('articles.json', 'all', 'full'); ?>
 
     </section><!-- #on-this-site.wrap95 -->
 

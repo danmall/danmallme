@@ -159,8 +159,8 @@ a {
 	background-image: linear-gradient(to top,
 	    rgba(255,100,7,0) 7%,
 	    rgba(255,100,7,1) 7%,
-	    rgba(255,100,7,1) 10%,
-	    rgba(255,100,7,0) 10%
+	    rgba(255,100,7,1) 11%,
+	    rgba(255,100,7,0) 11%
     );
 	color: $textColor;
 	text-decoration: none; 
@@ -171,6 +171,7 @@ a {
 a:hover, 
 a:focus { 
 	color: red; 
+	color: $mainActiveColor;
 }
 
 img { 
