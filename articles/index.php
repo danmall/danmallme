@@ -4,7 +4,18 @@
     <title>Articles by Dan Mall</title>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?> 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
+
+    <!-- Trying @adactio's meta: https://adactio.com/journal/9881  -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@danmall" />
+    <meta name="twitter:url" property="og:url" content="http://danmall.me/articles/" />
+    <meta name="twitter:title" property="og:title" content="Articles by Dan Mall" />
+    <meta name="twitter:description" property="og:description" content="Articles by Dan Mall" />
+    <meta name="twitter:image" property="og:image" content="http://danielmall.com/articles/investments/home-thumb.png" />
+
 </head>
+
+
 <body class="dm-page--articles">
     <!--[if lt IE 7]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
