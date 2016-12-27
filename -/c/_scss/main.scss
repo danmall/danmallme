@@ -13,6 +13,7 @@ http://superfriend.ly/
 @import 'variables.scss';
 @import 'utilities.scss';
 @import 'layout.scss';
+@import 'displayPatterns.scss';
 @import 'base.scss';
 // @import 'global.scss';
 
@@ -23,23 +24,6 @@ http://superfriend.ly/
 -------------------------------------------*/
 
 .dm {
-
-	// siteNav
-
-	&-c-siteNav {
-
-		@extend .dm-u-hide;
-
-		&_link {
-			@extend .dm-u-text--s;
-			@extend .dm-u-marginBottom--xs;
-			@extend .dm-u-hide;
-		}
-
-	}
-
-
-
 
 	// pageHeader
 
@@ -55,99 +39,33 @@ http://superfriend.ly/
 	}
 
 
+	// siteFooter
 
-	// inlineNav 
-
-	&-c-inlineNav {
-
-		@extend .dm-u-bullets--none;
-		@extend .dm-u-marginLeft--0;
-		@extend .dm-u-padding--xs;
-
-		&_item {
-			@extend .dm-u-display--inlineBlock;
-
-			&:after {
-				@extend .dm-u-marginLeft--xs;
-				@extend .dm-u-marginRight--xs;				
-				@extend .dm-u-font--normal;				
-
-				// custom
-				color: $silverRust;
-				content: "/";
-			}
-
-			&:last-child:after {
-				content: "";
-				@extend .dm-u-margin--0;
-			}
-
-			&--active {
-				@extend .dm-u-font--bold;
-			}
-
-		}
-
-	}
-
-
-
-	// articleChunk
-
-	&-c-articleChunk {
-
-		@extend .dm-u-marginBottom--xs;
-		@extend .dm-u-padding--xs;
+	&-c-siteFooter {
 		
-		&_header {
-			@extend .dm-u-display--flex;
+		@extend .dm-u-clear--both;
+		@extend .dm-u-font--sans;
+		@extend .dm-u-margin--xs;
+		@extend .dm-u-paddingTop--m;
+		@extend .dm-u-marginBottom--xl;
 
-			// custom
-			flex-direction: column-reverse;
-		}
+		// custom
+		border-top: 5px solid $sandstone;
 
-		&_title {
-			@extend .dm-u-heading--m;
-			@extend .dm-u-leading--xs;
-			@extend .dm-u-font--normal;	
-		}
+		&_copyright {
 
-		&_time {
-			@extend .dm-u-text--xs;
-			@extend .dm-u-font--sans;
-			@extend .dm-u-uppercase;
-			@extend .dm-u-marginBottom--xs;
-
-			// custom 
-			color: $cloudy;
-		}
-
-		&_dek {
-			@extend .dm-u-text--s;
-			@extend .dm-u-marginBottom--xs;
-		}
-
-		&_tags {
-
-			@extend .dm-u-marginLeft--0;
-
-			&_item {
-				@extend .dm-u-text--xs;
-				@extend .dm-u-display--inline;
-				@extend .dm-u-text--xs;
-				@extend .dm-u-font--sans;
-				@extend .dm-u-uppercase;
-				@extend .dm-u-marginRight--s;
-
-				// custom
-				color: $silverRust;
-
-				&:before {
-					content: "#";
-					margin-right: 0.1em;
-				}
+			@media screen and (min-width: 687px){
+				width: 66.6666667%;
+				float: left;
 			}
-			
+
+		}
+
+		&_twitter {
+			@media screen and (min-width: 687px){
+				width: 33.3333333%;
+				float: left;
+			}
 		}
 
 	}
@@ -207,11 +125,11 @@ http://superfriend.ly/
 
 	@media screen and (min-width: 520px) {
 
-		.dm-c-articleChunk {
+		.dm-dp-textBlurb {
 			width: 50%;
 			float: left;
 			padding-right: ($spacing * 4) + px;
-			min-height: 232px;
+			min-height: 250px;
 		}
 
 	}
@@ -234,10 +152,10 @@ http://superfriend.ly/
 
 	@media screen and (min-width: 1054px) {
 
-		padding-top: 235px;
+		padding-top: 365px;
 
-		.dm-c-articleChunk,
-		.dm-c-inlineNav,
+		.dm-dp-textBlurb,
+		.dm-dp-inlineNav,
 		.dm-c-pageHeader_title {
 			padding-left: ($spacing * 4) + px;
 		}
@@ -281,7 +199,7 @@ http://superfriend.ly/
 
 			}
 
-		.dm-c-inlineNav {
+		.dm-dp-inlineNav {
 			padding-top: 0;
 		}
 

@@ -808,5 +808,41 @@
 			"personal",
 			"cms"
 		]
+    },
+    {
+        "title"	: 	"Webmaster of Your Own Domain",
+		"slug"	:	"http://v2.danielmall.com/archives/2010/10/11/webmaster_of_your_own_domain.php",
+        "dek"	:	"I get domain renewals email almost weekly. Sadly, those domains slip quietly into oblivion.",
+        "date"	:	"2010-10-11 09:35:00",
+		"tags"	:	[			
+			"industry"
+		]
+    },
+    {
+        "title"	: 	"Mark",
+		"slug"	:	"http://v2.danielmall.com/archives/2010/07/15/mark.php",
+        "dek"	:	"After finishing the excellent <cite>HTML5 for Web Designers</cite> by Jeremy Keith and A Book Apart, I decided to dive in head first.",
+        "date"	:	"2010-07-15 10:57:00",
+		"tags"	:	[			
+			"code"
+		]
+    },
+    {
+        "title"	: 	"Design Swap",
+		"slug"	:	"http://v2.danielmall.com/archives/2010/07/07/design_swap.php",
+        "dek"	:	"After months of procrastination, my design swap is finally live!",
+        "date"	:	"2010-07-07 14:00:00",
+		"tags"	:	[			
+			"design"
+		]
+    },
+    {
+        "title"	: 	"FullCodePress",
+		"slug"	:	"http://v2.danielmall.com/archives/2010/06/24/fullcodepress.php",
+        "dek"	:	"I recently participated in FullCodePress, an event that challenged 3 teams to build a website for a non-profit organization in 24 hours.",
+        "date"	:	"2010-06-24 01:45:00",
+		"tags"	:	[			
+			"conferences"
+		]
     }
 ]

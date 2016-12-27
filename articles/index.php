@@ -28,11 +28,11 @@
         <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/nav.php"); echo "\n"; ?>
 
         <nav role="navigation">
-            <ul class="dm-c-inlineNav dm-u-font--sans dm-u-text--s">
-                <li class="dm-c-inlineNav_item dm-c-inlineNav_item--active">
+            <ul class="dm-dp-inlineNav dm-u-font--sans dm-u-text--s">
+                <li class="dm-dp-inlineNav_item dm-dp-inlineNav_item--active">
                     <mark>On this site</mark>
                 </li>
-                <li class="dm-c-inlineNav_item">
+                <li class="dm-dp-inlineNav_item">
                     <a href="#elsewhere">Elsewhere</a>
                 </li>
             </ul>

@@ -24,20 +24,20 @@ function parseList($file, $num, $type){
         $tags = $articles[$i]['tags'];
 
         // Open entry
-        echo "\t" . '<article class="hentry dm-c-articleChunk">'. "\n\t\t";
+        echo "\t" . '<article class="hentry dm-dp-textBlurb">'. "\n\t\t";
 
         // create article header
-        echo '<header class="dm-c-articleChunk_header">' . "\n\t\t\t";
+        echo '<header class="dm-dp-textBlurb_header">' . "\n\t\t\t";
 
         // print headline link to slug
         if(strpos(articles[$i]['slug'], 'http://') !== false){
-            echo '<h1 class="entry-title dm-c-articleChunk_title"><a href="' . $ARTICLES_DIRECTORY . $articles[$i]['slug'] .'/">' . $articles[$i]['title'] . '</a></h1>'. "\n\t\t\t";  
+            echo '<h1 class="entry-title dm-dp-textBlurb_title"><a href="' . $ARTICLES_DIRECTORY . $articles[$i]['slug'] .'/">' . $articles[$i]['title'] . '</a></h1>'. "\n\t\t\t";  
         }else{
-            echo '<h1 class="entry-title dm-c-articleChunk_title"><a href="' . $articles[$i]['slug'] .'">' . $articles[$i]['title'] . '</a></h1>'. "\n\t\t\t"; 
+            echo '<h1 class="entry-title dm-dp-textBlurb_title"><a href="' . $articles[$i]['slug'] .'">' . $articles[$i]['title'] . '</a></h1>'. "\n\t\t\t"; 
         }
 
         /// print timestamp
-        echo '<time class="published dm-c-articleChunk_time" datetime="' . $articles[$i]['date'] . '">' . date('M d, Y' , strtotime($articles[$i]['date'])) . '</time>' . "\n\t\t";
+        echo '<time class="published dm-dp-textBlurb_time" datetime="' . $articles[$i]['date'] . '">' . date('M d, Y' , strtotime($articles[$i]['date'])) . '</time>' . "\n\t\t";
 
         // close article header
         echo '</header>' . "\n\t\t";
@@ -45,12 +45,12 @@ function parseList($file, $num, $type){
         if($type == 'full'){
         
 	        // print dek
-	        echo '<div class="entry-summary dm-c-articleChunk_dek">' . $articles[$i]['dek'] . '</div>' . "\n\t\t";                  
+	        echo '<div class="entry-summary dm-dp-textBlurb_dek">' . $articles[$i]['dek'] . '</div>' . "\n\t\t";                  
 
 	        // print tags
-	        echo '<ul class="tags dm-c-articleChunk_tags">' . "\n\t\t";
+	        echo '<ul class="tags dm-dp-textBlurb_tags">' . "\n\t\t";
 	        for($j=0; $j < sizeof($tags); $j++){
-	            echo "\t" . '<li class="dm-c-articleChunk_tags_item">' . $tags[$j] . "</li>\n\t\t";
+	            echo "\t" . '<li class="dm-dp-textBlurb_tags_item">' . $tags[$j] . "</li>\n\t\t";
 	        }
 	        echo '</ul>';
 
