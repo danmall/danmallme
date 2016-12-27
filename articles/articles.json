@@ -1,7 +1,7 @@
 [
 	{
 		"title"	: 	"Permission Slips",
-		"slug"	:	"permission-slips",
+		"slug"	:	"http://v3.danielmall.com/articles/permission-slips/",
 		"dek"	:	"To overcome your fears, you need [permission] to try something different.",
 		"date"	:	"2016-01-12 10:25:00",
 		"tags"	:	[
@@ -11,7 +11,7 @@
 	},
 	{
 		"title"	: 	"Content &amp; Display Patterns",
-		"slug"	:	"content-display-patterns",
+		"slug"	:	"http://v3.danielmall.com/articles/content-display-patterns/",
 		"dek"	:	"Embracing the difference in pattern types is the key to making a modular design system infinitely more scalable.",
 		"date"	:	"2015-12-31 17:07:00",
 		"tags"	:	[
@@ -26,7 +26,7 @@
 	},
 	{
 		"title"	: 	"Titles are Important",
-		"slug"	:	"titles-are-important",
+		"slug"	:	"http://v3.danielmall.com/articles/titles-are-important/",
 		"dek"	:	"Don&rsquo;t believe anyone that tells you otherwise.",
 		"date"	:	"2015-12-08 14:23:00",
 		"tags"	:	[
@@ -36,7 +36,7 @@
 	},
 	{
 		"title"	: 	"Interviewing Designers",
-		"slug"	:	"interviewing-designers",
+		"slug"	:	"http://v3.danielmall.com/articles/interviewing-designers/",
 		"dek"	:	"Some tips on making the right hire.",
 		"date"	:	"2015-11-29 14:56:00",
 		"tags"	:	[
@@ -46,7 +46,7 @@
 	},
 	{
 		"title"	: 	"I don&rsquo;t have time",
-		"slug"	:	"i-dont-have-time",
+		"slug"	:	"http://v3.danielmall.com/articles/i-dont-have-time/",
 		"dek"	:	"That magical phrase that gives you permission to brush off the things you really want to do.",
 		"date"	:	"2015-11-06 07:05:00",
 		"tags"	:	[
@@ -56,7 +56,7 @@
 	},
 	{
 		"title"	: 	"Epicurrence",
-		"slug"	:	"epicurrence",
+		"slug"	:	"http://v3.danielmall.com/articles/epicurrence/",
 		"dek"	:	"Epicurrence was the most beautiful, energizing, comfortable, and relaxing uncomfortable experience I&rsquo;ve had in a long time.",
 		"date"	:	"2015-10-28 02:10:00",
 		"tags"	:	[
@@ -66,7 +66,7 @@
 	},
 	{
         "title"	: 	"Time for Work",
-		"slug"	:	"time-for-work",
+		"slug"	:	"http://v3.danielmall.com/articles/time-for-work/",
         "dek"	:	"What&rsquo;s the minimum amount of time we should be working per week?",
         "date"	:	"2015-09-20 22:00:00",
 		"tags"	:	[
@@ -78,7 +78,7 @@
 	},
 	{
         "title"	: 	"Switch",
-		"slug"	:	"switch-creative-block",
+		"slug"	:	"http://v3.danielmall.com/articles/switch-creative-block/",
         "dek"	:	"Dealing with creative block.",
         "date"	:	"2015-08-16 20:40:00",
 		"tags"	:	[	
@@ -89,7 +89,7 @@
 	},
 	{
         "title"	: 	"Day One With Android",
-		"slug"	:	"day-one-with-android",
+		"slug"	:	"http://v3.danielmall.com/articles/day-one-with-android/",
         "dek"	:	"After nine years of using iOS1 &ndash; iOS7 across iPhones 1 &ndash; 6, I&rsquo;m switching to Android to gain a new perspective.",
         "date"	:	"2015-07-06 08:10:00",
 		"tags"	:	[
@@ -99,7 +99,7 @@
 	},
 	{
         "title"	: 	"Finished Business(ology)",
-		"slug"	:	"finished-businessology",
+		"slug"	:	"http://v3.danielmall.com/articles/finished-businessology/",
         "dek"	:	"The time has come for me to step away from Businessology.",
         "date"	:	"2015-07-03 14:00:00",
 		"tags"	:	[
@@ -109,7 +109,7 @@
 	},
 	{
         "title"	: 	"Finding Clients",
-		"slug"	:	"finding-clients",
+		"slug"	:	"http://v3.danielmall.com/articles/finding-clients/",
         "dek"	:	"Like magnets and archaelogists.",
         "date"	:	"2015-05-05 10:35:00",
 		"tags"	:	[
@@ -121,7 +121,7 @@
 	},
 	{
         "title"	: 	"Pricing",
-		"slug"	:	"pricing",
+		"slug"	:	"http://v3.danielmall.com/articles/pricing/",
         "dek"	:	"How to start charging for your work.",
         "date"	:	"2015-04-02 22:00:00",
 		"tags"	:	[		
@@ -134,7 +134,7 @@
 	},
 	{
         "title"	: 	"How to Make a Performance Budget",
-		"slug"	:	"how-to-make-a-performance-budget",
+		"slug"	:	"http://v3.danielmall.com/articles/how-to-make-a-performance-budget/",
         "dek"	:	"A tangible way to approximate how your pages should perform.",
         "date"	:	"2014-12-04 06:00:00",
 		"tags"	:	[	
@@ -150,7 +150,7 @@
 	},
 	{
         "title"	: 	"Brooklyn Beta 2014",
-		"slug"	:	"brooklyn-beta-2014",
+		"slug"	:	"http://v3.danielmall.com/articles/brooklyn-beta-2014/",
         "dek"	:	"Celebrating my favorite industry event ever.",
         "date"	:	"2014-10-16 12:20:00",
 		"tags"	:	[	
@@ -160,7 +160,7 @@
 	},
 	{
         "title"	: 	"Creative Cloud Libraries",
-		"slug"	:	"creative-cloud-libraries",
+		"slug"	:	"http://v3.danielmall.com/articles/creative-cloud-libraries/",
         "dek"	:	"A new Adobe feature for designing systems.",
         "date"	:	"2014-10-06 09:15:00",
 		"tags"	:	[	
@@ -173,7 +173,7 @@
 	},
 	{
         "title"	: 	"#sketchlive",
-		"slug"	:	"sketchlive",
+		"slug"	:	"http://v3.danielmall.com/articles/sketchlive/",
         "dek"	:	"A live 2-day tour through learning Sketch.",
         "date"	:	"2014-09-25 08:35:00",
 		"tags"	:	[
@@ -183,7 +183,7 @@
 	},
 	{
         "title"	: 	"The Businessology Roadshow",
-		"slug"	:	"businessology-roadshow",
+		"slug"	:	"http://v3.danielmall.com/articles/businessology-roadshow/",
         "dek"	:	"Learn about the business of design in person.",
         "date"	:	"2014-08-08 09:21:00",
 		"tags"	:	[
@@ -195,7 +195,7 @@
 	},
 	{
         "title"	: 	"Get Comfortable",
-		"slug"	:	"get-comfortable",
+		"slug"	:	"http://v3.danielmall.com/articles/get-comfortable/",
         "dek"	:	"Some advice about public speaking.",
         "date"	:	"2014-06-19 06:16:00",
 		"tags"	:	[	
@@ -206,7 +206,7 @@
 	},
 	{
         "title"	: 	"The Easiest Way to Start a Hangout",
-		"slug"	:	"easy-hangouts",
+		"slug"	:	"http://v3.danielmall.com/articles/easy-hangouts/",
         "dek"	:	"Use Google Calendar.",
         "date"	:	"2014-05-01 05:15:00",
 		"tags"	:	[	
@@ -218,7 +218,7 @@
 	},
 	{
         "title"	: 	"Radio Free Europe",
-		"slug"	:	"radio-free-europe-open-redesign",
+		"slug"	:	"http://v3.danielmall.com/articles/radio-free-europe-open-redesign/",
         "dek"	:	"An open redesign.",
         "date"	:	"2014-04-07 10:00:00",
 		"tags"	:	[
@@ -230,7 +230,7 @@
 	},
 	{
         "title"	: 	"Visual Inventory",
-		"slug"	:	"visual-inventory",
+		"slug"	:	"http://v3.danielmall.com/articles/visual-inventory/",
         "dek"	:	"A design deliverable for the post-<abbr title=\"Photoshop Document\">PSD<\/abbr> era of responsive design.",
         "date"	:	"2014-03-21 00:06:00",
 		"tags"	:	[		
@@ -242,7 +242,7 @@
 	},
 	{
         "title"	: 	"On Creative Direction",
-		"slug"	:	"on-creative-direction",
+		"slug"	:	"http://v3.danielmall.com/articles/on-creative-direction/",
         "dek"	:	"A primer on creative direction as compared to art direction and design&hellip; and what they all mean in a digital context.",
         "date"	:	"2014-02-19 12:57:00",
 		"tags"	:	[	
@@ -256,7 +256,7 @@
 	},
 	{
         "title"	: 	"The Net Awards 2014",
-		"slug"	:	"net-awards-2014",
+		"slug"	:	"http://v3.danielmall.com/articles/net-awards-2014/",
         "dek"	:	"How I&rsquo;m voting.",
         "date"	:	"2014-01-30 07:15:00",
 		"tags"	:	[	
@@ -266,7 +266,7 @@
 	},
 	{
         "title"	: 	"How to Get the Work You Want",
-		"slug"	:	"how-to-get-the-work-you-want",
+		"slug"	:	"http://v3.danielmall.com/articles/how-to-get-the-work-you-want/",
         "dek"	:	"Advice for anyone.",
         "date"	:	"2014-01-01 23:00:00",
 		"tags"	:	[	
@@ -281,7 +281,7 @@
 	},
 	{
         "title"	: 	"TechCrunch: A responsive redesign",
-		"slug"	:	"techcrunch-responsive-redesign",
+		"slug"	:	"http://v3.danielmall.com/articles/techcrunch-responsive-redesign/",
         "dek"	:	"The story of the new responsive TechCrunch.",
         "date"	:	"2013-11-18 12:15:00",
 		"tags"	:	[	
@@ -297,7 +297,7 @@
 	},
 	{
         "title"	: 	"The Responsive Mobile Entertainment Weekly Site",
-		"slug"	:	"responsive-mobile-entertainment-weekly",
+		"slug"	:	"http://v3.danielmall.com/articles/responsive-mobile-entertainment-weekly/",
         "dek"	:	"New work on a mobile responsive site for Entertainment Weekly.",
         "date"	:	"2013-10-14 11:00:00",
 		"tags"	:	[
@@ -315,7 +315,7 @@
 	},
 	{
         "title"	: 	"Now with Responsive!",
-		"slug"	:	"now-with-responsive",
+		"slug"	:	"http://v3.danielmall.com/articles/now-with-responsive/",
         "dek"	:	"Two years later, this site is finally responsive.",
         "date"	:	"2013-10-05 15:06:56",
 		"tags"	:	[	
@@ -331,7 +331,7 @@
 	},
 	{
         "title"	: 	"Progressive Enhancement",
-		"slug"	:	"progressive-enhancement",
+		"slug"	:	"http://v3.danielmall.com/articles/progressive-enhancement/",
         "dek"	:	"Still alive and kickin&rsquo;.",
         "date"	:	"2013-08-30 15:38:00",
 		"tags"	:	[		
@@ -341,7 +341,7 @@
 	},
 	{
         "title"	: 	"How to Build an App",
-		"slug"	:	"how-to-build-an-app",
+		"slug"	:	"http://v3.danielmall.com/articles/how-to-build-an-app/",
         "dek"	:	"Creating an app in public. Maybe.",
         "date"	:	"2013-08-22 10:39:00",
 		"tags"	:	[
@@ -352,7 +352,7 @@
 	},
 	{
         "title"	: 	"Prequalifying Clients",
-		"slug"	:	"prequalifying-clients",
+		"slug"	:	"http://v3.danielmall.com/articles/prequalifying-clients/",
         "dek"	:	"Questions, answers, and hidden answers.",
         "date"	:	"2013-08-12 07:07:26",
 		"tags"	:	[	
@@ -365,7 +365,7 @@
 	},
 	{
         "title"	: 	"SVG Workflow for Designers",
-		"slug"	:	"svg-workflow-for-designers",
+		"slug"	:	"http://v3.danielmall.com/articles/svg-workflow-for-designers/",
         "dek"	:	"Create quick vector assets with really small file sizes.",
         "date"	:	"2013-06-19 20:18:51",
 		"tags"	:	[	
@@ -381,7 +381,7 @@
 	},
 	{
         "title"	: 	"The Ideas of March",
-		"slug"	:	"ideas-of-march-2013",
+		"slug"	:	"http://v3.danielmall.com/articles/ideas-of-march-2013/",
         "dek"	:	"The lack of blogging about the lack of blogging.",
         "date"	:	"2013-03-31 11:05:00",
 		"tags"	:	[
@@ -391,7 +391,7 @@
 	},
 	{
         "title"	: 	"Value Pricing",
-		"slug"	:	"value-pricing",
+		"slug"	:	"http://v3.danielmall.com/articles/value-pricing/",
         "dek"	:	"Prepping for the next episode of The Businessology Show.",
         "date"	:	"2013-02-25 07:21:00",
 		"tags"	:	[
@@ -403,7 +403,7 @@
 	},
 	{
         "title"	: 	"Leaving Four24",
-		"slug"	:	"leaving-four24",
+		"slug"	:	"http://v3.danielmall.com/articles/leaving-four24/",
         "dek"	:	"After just over 10 years, I&rsquo;ve decided to leave my band",
         "date"	:	"2013-02-17 20:41:00",
 		"tags"	:	[	
@@ -415,7 +415,7 @@
 	},
 	{
         "title"	: 	"The 2012 SuperFriendly Annual Report",
-		"slug"	:	"superfriendly-annual-report-2012",
+		"slug"	:	"http://v3.danielmall.com/articles/superfriendly-annual-report-2012/",
         "dek"	:	"A look back at one year in business.",
         "date"	:	"2013-02-01 12:30:00",
 		"tags"	:	[
@@ -430,7 +430,7 @@
 	},
 	{
         "title"	: 	"The Post-PSD Era",
-		"slug"	:	"the-post-psd-era",
+		"slug"	:	"http://v3.danielmall.com/articles/the-post-psd-era/",
         "dek"	:	"A problem of expectations.",
         "date"	:	"2013-01-23 12:56:00",
 		"tags"	:	[
@@ -442,7 +442,7 @@
 	},
 	{
         "title"	: 	"Design Flexibility",
-		"slug"	:	"rif-design-flexibility",
+		"slug"	:	"http://v3.danielmall.com/articles/rif-design-flexibility/",
         "dek"	:	"More about the design process in the public story of a new site for Reading Is Fundamental.",
         "date"	:	"2012-12-28 10:18:00",
 		"tags"	:	[
@@ -459,7 +459,7 @@
 	},
 	{
         "title"	: 	"Element Collages",
-		"slug"	:	"rif-element-collages",
+		"slug"	:	"http://v3.danielmall.com/articles/rif-element-collages/",
         "dek"	:	"An abstract way to document design for Reading Is Fundamental.",
         "date"	:	"2012-11-13 08:18:00",
 		"tags"	:	[
@@ -477,7 +477,7 @@
 	},
 	{
         "title"	: 	"Kickoff",
-		"slug"	:	"rif-kickoff",
+		"slug"	:	"http://v3.danielmall.com/articles/rif-kickoff/",
         "dek"	:	"The first chapter in the public story of a new site for Reading Is Fundamental.",
         "date"	:	"2012-10-09 10:32:00",
 		"tags"	:	[
@@ -495,7 +495,7 @@
 	},
 	{
         "title"	: 	"Circles Conference 2012",
-		"slug"	:	"circlesconf2012",
+		"slug"	:	"http://v3.danielmall.com/articles/circlesconf2012/",
         "dek"	:	"Recap of a great event I had the pleasure of speaking at in Dallas, <abbr title=\"Texas\">TX<\/abbr>.",
         "date"	:	"2012-10-01 17:02:00",
 		"tags"	:	[
@@ -505,7 +505,7 @@
 	},
 	{
         "title"	: 	"Responsive Line Breaks",
-		"slug"	:	"responsive-line-breaks",
+		"slug"	:	"http://v3.danielmall.com/articles/responsive-line-breaks/",
         "dek"	:	"A small trick I use to improve readability for responsive designs.",
         "date"	:	"2012-08-9 14:11:00",
 		"tags"	:	[	
@@ -518,7 +518,7 @@
 	},
 	{
         "title"	: 	"Object Value Pricing",
-		"slug"	:	"object-value-pricing",
+		"slug"	:	"http://v3.danielmall.com/articles/object-value-pricing/",
         "dek"	:	"A barter-style pricing system for web design &amp; dev projects.",
         "date"	:	"2012-05-6 15:20:00",
 		"tags"	:	[	
@@ -529,7 +529,7 @@
 	},
 	{
         "title"	: 	"Big/Small",
-		"slug"	:	"big-small",
+		"slug"	:	"http://v3.danielmall.com/articles/big-small/",
         "dek"	:	"A recent dilemma about responsibility.",
         "date"	:	"2012-04-22 10:26:00",
 		"tags"	:	[
@@ -539,7 +539,7 @@
 	},
 	{
         "title"	: 	"Hillman Curtis",
-		"slug"	:	"hillman-curtis",
+		"slug"	:	"http://v3.danielmall.com/articles/hillman-curtis/",
         "dek"	:	"The world has lost one more great man.",
         "date"	:	"2012-04-20 15:10:00",
 		"tags"	:	[	
@@ -550,7 +550,7 @@
 	},
 	{
         "title"	: 	"Authenticity",
-		"slug"	:	"authenticity",
+		"slug"	:	"http://v3.danielmall.com/articles/authenticity/",
         "dek"	:	"Some speaking advice from <a href=\"http://adactio.com/\">Jeremy Keith<\/a>.",
         "date"	:	"2012-04-17 11:32:46",
 		"tags"	:	[	
@@ -562,7 +562,7 @@
 	},
 	{
         "title"	: 	"Grok Reads",
-		"slug"	:	"grok-reads",
+		"slug"	:	"http://v3.danielmall.com/articles/grok-reads/",
         "dek"	:	"A list of some great books mentioned in <a href=\"http://grok.cc/\">Grok<\/a> sessions.",
         "date"	:	"2012-03-19 11:45:00",
 		"tags"	:	[	
@@ -574,7 +574,7 @@
 	},
 	{
         "title"	: 	"Introducing SuperFriendly",
-		"slug"	:	"introducing-superfriendly",
+		"slug"	:	"http://v3.danielmall.com/articles/introducing-superfriendly/",
         "dek"	:	"Today&rsquo;s my birthday. This year, I got myself a new house, a new (old) city, and my very own design studio.",
         "date"	:	"2012-02-01 14:00:00",
 		"tags"	:	[	
@@ -587,7 +587,7 @@
 	},
 	{
         "title"	: 	"Farewell, Big Spaceship",
-		"slug"	:	"farewell-big-spaceship",
+		"slug"	:	"http://v3.danielmall.com/articles/farewell-big-spaceship/",
         "dek"	:	"Today is my last day at Big Spaceship.",
         "date"	:	"2012-01-27 10:30:00",
 		"tags"	:	[	
@@ -600,7 +600,7 @@
 	},
 	{
         "title"	: 	"Sketchbooks",
-		"slug"	:	"sketchbooks",
+		"slug"	:	"http://v3.danielmall.com/articles/sketchbooks/",
         "dek"	:	"Celebrating rituals that encourage new beginnings.",
         "date"	:	"2012-01-02 12:06:30",
 		"tags"	:	[	
@@ -610,7 +610,7 @@
 	},
 	{
         "title"	: 	"What I Loved About Brooklyn Beta",
-		"slug"	:	"brooklyn-beta-2011",
+		"slug"	:	"http://v3.danielmall.com/articles/brooklyn-beta-2011/",
         "dek"	:	"Hands down the best industry event I&rsquo;ve ever attended.",
         "date"	:	"2011-10-15 22:18:26",
 		"tags"	:	[	
@@ -619,7 +619,7 @@
 	},
 	{
         "title"	: 	"You, the Conference Organizer",
-		"slug"	:	"you-the-conference-organizer",
+		"slug"	:	"http://v3.danielmall.com/articles/you-the-conference-organizer/",
         "dek"	:	"Plan your dream conference.",
         "date"	:	"2011-09-30 06:31:07",
 		"tags"	:	[		
@@ -628,7 +628,7 @@
 	},
 	{
         "title"	: 	"Typefaces I Used This Month",
-		"slug"	:	"august2011-typefaces",
+		"slug"	:	"http://v3.danielmall.com/articles/august2011-typefaces/",
         "dek"	:	"Be adventurous and experiment with new faces, but don&rsquo;t forget about the classics.",
         "date"	:	"2011-08-27 11:51:33",
 		"tags"	:	[	
@@ -638,7 +638,7 @@
 	},
 	{
         "title"	: 	"Photoshop Clusters",
-		"slug"	:	"photoshop-clusters",
+		"slug"	:	"http://v3.danielmall.com/articles/photoshop-clusters/",
         "dek"	:	"An idea for configuring Photoshop.",
         "date"	:	"2011-07-13 07:37:00",
 		"tags"	:	[	
@@ -649,7 +649,7 @@
 	},
 	{
         "title"	: 	"Why I Love the Netflix Redesign",
-		"slug"	:	"why-i-love-the-netflix-redesign",
+		"slug"	:	"http://v3.danielmall.com/articles/why-i-love-the-netflix-redesign/",
         "dek"	:	"Netflix should be applauded for their bold redesign.",
         "date"	:	"2011-06-09 06:57:00",
 		"tags"	:	[	
@@ -659,7 +659,7 @@
 	},
 	{
         "title"	: 	"Now I Have <abbr title=\"Really Simple Syndication\">RSS<\/abbr>",
-		"slug"	:	"now-i-have-rss",
+		"slug"	:	"http://v3.danielmall.com/articles/now-i-have-rss/",
         "dek"	:	"Happy?",
         "date"	:	"2011-06-02 01:14:15",
 		"tags"	:	[	
@@ -668,7 +668,7 @@
 	},
 	{
         "title"	: 	"Five",
-		"slug"	:	"five",
+		"slug"	:	"http://v3.danielmall.com/articles/five/",
         "dek"	:	"Wow. After five long years, it feels great to have a new site.",
         "date"	:	"2011-05-30 03:40:00",
 		"tags"	:	[			

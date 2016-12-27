@@ -30,7 +30,11 @@ function parseList($file, $num, $type){
         echo '<header class="dm-c-articleChunk_header">' . "\n\t\t\t";
 
         // print headline link to slug
-        echo '<h1 class="entry-title dm-c-articleChunk_title"><a href="' . $ARTICLES_DIRECTORY . $articles[$i]['slug'] .'/">' . $articles[$i]['title'] . '</a></h1>'. "\n\t\t\t";  
+        if(strpos(articles[$i]['slug'], 'http://') !== false){
+            echo '<h1 class="entry-title dm-c-articleChunk_title"><a href="' . $ARTICLES_DIRECTORY . $articles[$i]['slug'] .'/">' . $articles[$i]['title'] . '</a></h1>'. "\n\t\t\t";  
+        }else{
+            echo '<h1 class="entry-title dm-c-articleChunk_title"><a href="' . $articles[$i]['slug'] .'">' . $articles[$i]['title'] . '</a></h1>'. "\n\t\t\t"; 
+        }
 
         /// print timestamp
         echo '<time class="published dm-c-articleChunk_time" datetime="' . $articles[$i]['date'] . '">' . date('M d, Y' , strtotime($articles[$i]['date'])) . '</time>' . "\n\t\t";
