@@ -5,7 +5,7 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?> 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
 </head>
-<body>
+<body class="dm-page--articles">
     <!--[if lt IE 7]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
@@ -17,7 +17,7 @@
         <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/nav.php"); echo "\n"; ?>
 
         <nav role="navigation">
-            <ul class="dm-c-inlineNav">
+            <ul class="dm-c-inlineNav dm-u-font--sans dm-u-text--s">
                 <li class="dm-c-inlineNav_item dm-c-inlineNav_item--active">
                     <mark>On this site</mark>
                 </li>
@@ -31,14 +31,11 @@
 
     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
 
-    <section id="on-this-site">
+    <main role="main" class="dm-c-articlesList">
 
         <?php parseList('articles.json', 'all', 'full'); ?>
 
-    </section><!-- #on-this-site.wrap95 -->
-
-    <section id="elsewhere">
-    </section><!-- #elsewhere.wrap95 -->
+    </main>
 
     
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/footer.php"); echo "\n"; ?>    

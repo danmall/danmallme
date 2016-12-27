@@ -10,7 +10,9 @@ http://superfriend.ly/
 *************************************************
 */
 
-.dm {
+@media screen and (min-width: 600px) {
+
+%dm {
 
 	&-l {
 
@@ -19,35 +21,31 @@ http://superfriend.ly/
 		-------------------------------------------*/
 
 		&-col--75 {
-			@extend .dm-u-float--left;
 			width: 75%;
 		}
 
 		&-col--66 {
-			@extend .dm-u-float--left;
 			width: 66.66666666667%;
 		}
 
 		&-col--50 {
-			@extend .dm-u-float--left;
 			width: 50%;
 		}
 
 		&-col--33 {
-			@extend .dm-u-float--left;
 			width: 33.333333333333%;
 		}
 
 		&-col--25 {
-			@extend .dm-u-float--left;
 			width: 25%;
 		}
 
 		&-col--20 {
-			@extend .dm-u-float--left;
 			width: 20%;
 		}
 
 	}
+
+}
 
 }

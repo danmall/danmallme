@@ -109,7 +109,7 @@ http://superfriend.ly/
 		&_title {
 			@extend .dm-u-heading--m;
 			@extend .dm-u-leading--xs;
-			@extend .dm-u-font--normal;			
+			@extend .dm-u-font--normal;	
 		}
 
 		&_time {
@@ -155,7 +155,6 @@ http://superfriend.ly/
 }
 
 
-
 /*-------------------------------------------    
 	Third-Party
 -------------------------------------------*/
@@ -197,3 +196,94 @@ http://superfriend.ly/
 			@extend .dm-u-bg--none;
 			@extend .dm-u-marginTop--xs;
 		}
+
+
+
+/*-------------------------------------------    
+	Page Specific: Articles
+-------------------------------------------*/
+
+.dm-page--articles {
+
+	@media screen and (min-width: 520px) {
+
+		.dm-c-articleChunk {
+			width: 50%;
+			float: left;
+			padding-right: ($spacing * 4) + px;
+		}
+
+	}
+
+
+	@media screen and (min-width: 850px) {
+
+		#carbonads {
+			position: fixed;
+			right: 0;
+			top: 170px;
+			width: 24%;
+		}
+
+		.dm-c-articlesList {
+			width: 76%;
+		}
+
+	}
+
+	@media screen and (min-width: 1054px) {
+
+		padding-top: 235px;
+
+		.dm-c-articleChunk,
+		.dm-c-inlineNav,
+		.dm-c-pageHeader_title {
+			padding-left: ($spacing * 4) + px;
+		}
+
+		.dm-c-pageHeader {
+			background: rgba(255, 255, 255, 0.93);
+			padding-top: ($spacing * 4) + px;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+		}
+
+			.dm-c-pageHeader_title {
+
+				font-size: 72px;
+				// margin-top: ($spacing * 4) + px;
+				margin-bottom: ($spacing) + px;
+				padding-bottom: 0;
+				position: relative;
+
+				&:before {
+					content: "";
+					position: absolute;
+					left: ($spacing * 4) + px;
+					top: -8px;
+					width: 140px;
+					height: 10px;
+					background: $shipGray;
+				}
+
+				&:after {
+					content: "";
+					position: absolute;
+					left: 0;
+					top: -8px;
+					width: ($spacing * 4) + px;;
+					height: 10px;
+					background: $sandstone;
+				}
+
+			}
+
+		.dm-c-inlineNav {
+			padding-top: 0;
+		}
+
+	}
+
+}
