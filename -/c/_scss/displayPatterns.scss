@@ -129,11 +129,16 @@ http://superfriend.ly/
 
 				border-bottom: 1px solid $cloudy;
 
-				a {
+				a, 
+				mark {
 					@include dm-u-bg--none;
 					@include dm-u-display--block;
 					@include dm-u-padding--xs;
 					@include dm-u-paddingLeft--0;
+				}
+
+				&--active {
+					@include dm-u-font--bold;
 				}
 			}
 

@@ -4,21 +4,72 @@
 
 	<ul>
 
+        <?php if($_SERVER['REQUEST_URI'] == '/') { ?>  
+        <li class="dm-dp-vertSepNav_item">
+        	<mark class="dm-dp-vertSepNav_item--active">Home</mark>
+        </li>        	        
+		<?php } else { ?>
 		<li class="dm-dp-vertSepNav_item">
 			<a href="/">Home</a>
 		</li>
+		<?php } ?>
 
+
+
+		<?php if(strstr($_SERVER['REQUEST_URI'], '/about/')) { ?>
+	        <?php if($_SERVER['REQUEST_URI'] == '/about/') { ?>  
+	        <li class="dm-dp-vertSepNav_item">
+	        	<mark class="dm-dp-vertSepNav_item--active">About</mark>
+	        </li>        	        
+	        <?php } else { ?>
+	        <li class="dm-dp-vertSepNav_item dm-dp-vertSepNav_item--active">
+	        	<a href="/about/">About</a>
+	        </li>
+	        <?php } ?>
+		<?php } else { ?>
 		<li class="dm-dp-vertSepNav_item">
 			<a href="/about/">About</a>
 		</li>
+		<?php } ?>
 
+
+
+		<?php if(strstr($_SERVER['REQUEST_URI'], '/articles/')) { ?>
+	        <?php if($_SERVER['REQUEST_URI'] == '/articles/') { ?>  
+	        <li class="dm-dp-vertSepNav_item">
+	        	<mark class="dm-dp-vertSepNav_item--active">Articles</mark>
+	        </li>        	        
+	        <?php } else { ?>
+	        <li class="dm-dp-vertSepNav_item dm-dp-vertSepNav_item--active">
+	        	<a href="/articles/">Articles</a>
+	        </li>
+	        <?php } ?>
+		<?php } else { ?>
 		<li class="dm-dp-vertSepNav_item">
 			<a href="/articles/">Articles</a>
 		</li>
+		<?php } ?>
 		
+		
+
+
+		<?php if(strstr($_SERVER['REQUEST_URI'], '/contact/')) { ?>
+	        <?php if($_SERVER['REQUEST_URI'] == '/contact/') { ?>  
+	        <li class="dm-dp-vertSepNav_item">
+	        	<mark class="dm-dp-vertSepNav_item--active">Contact</mark>
+	        </li>        	        
+	        <?php } else { ?>
+	        <li class="dm-dp-vertSepNav_item dm-dp-vertSepNav_item--active">
+	        	<a href="/contact/">Contact</a>
+	        </li>
+	        <?php } ?>
+		<?php } else { ?>
 		<li class="dm-dp-vertSepNav_item">
 			<a href="/contact/">Contact</a>
 		</li>
+		<?php } ?>
+
+
 
 	</ul>
 

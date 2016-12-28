@@ -38,6 +38,26 @@ http://superfriend.ly/
 
 	}
 
+	&-c-siteNav {
+
+		@include dm-u-marginBottom--m;
+
+		@media screen and (min-width: 850px) {			
+			//@include dm-u-marginLeft--m;
+
+			// custom
+			width: 73%;
+		}
+
+		@media screen and (min-width: 1054px) {			
+			@include dm-u-marginLeft--m;
+
+			// customer
+			width: 73%;
+		}
+
+	}
+
 
 	// siteFooter
 
@@ -55,16 +75,14 @@ http://superfriend.ly/
 		&_copyright {
 
 			@media screen and (min-width: 687px){
-				width: 66.6666667%;
-				float: left;
+				@include dm-l-col--66;
 			}
 
 		}
 
 		&_twitter {
 			@media screen and (min-width: 687px){
-				width: 33.3333333%;
-				float: left;
+				@include dm-l-col--33;
 			}
 		}
 
@@ -156,7 +174,7 @@ http://superfriend.ly/
 
 	@media screen and (min-width: 1054px) {
 
-		padding-top: 365px;
+		padding-top: 425px;
 
 		.dm-dp-textBlurb,
 		.dm-dp-inlineNav,
