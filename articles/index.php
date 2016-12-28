@@ -5,13 +5,13 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?> 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
 
-    <!-- Trying @adactio's meta: https://adactio.com/journal/9881  -->
+    <!-- Thanks Jeremy! https://adactio.com/journal/9881  -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@danmall" />
-    <meta name="twitter:url" property="og:url" content="http://danmall.me/articles/" />
+    <meta name="twitter:url" property="og:url" content="http://<?php echo $_SERVER['SERVER_NAME']; ?>/articles/" />
     <meta name="twitter:title" property="og:title" content="Articles by Dan Mall" />
     <meta name="twitter:description" property="og:description" content="Articles by Dan Mall" />
-    <meta name="twitter:image" property="og:image" content="http://danielmall.com/articles/investments/home-thumb.png" />
+    <meta name="twitter:image" property="og:image" content="http://<?php echo $_SERVER['SERVER_NAME']; ?>/articles/thumb.png" />
 
 </head>
 
