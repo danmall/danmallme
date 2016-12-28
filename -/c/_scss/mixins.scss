@@ -1,0 +1,46 @@
+/*
+*************************************************
+
+DANMALL.ME
+Mixins
+
+Created by the epic SuperFriendly team.
+http://superfriend.ly/
+
+*************************************************
+*/
+
+/*-------------------------------------------    
+    Text
+-------------------------------------------*/
+
+
+@mixin text--xs {
+	font-size: $xs + px;
+	font-size: $xs/10 + rem;
+}
+
+@mixin text--s {
+	font-size: $s + px;
+	font-size: $s/10 + rem;
+}
+
+@mixin text--m {
+	font-size: $m + px;
+	font-size: $m/10 + rem;
+}
+
+@mixin text--l {
+	font-size: $l + px;
+	font-size: $l/10 + rem;
+}
+
+@mixin text--xl {
+	font-size: $xl + px;
+	font-size: $xl/10 + rem;
+}
+
+@mixin text--xxl {
+	font-size: $xxl + px;
+	font-size: $xxl/10 + rem;
+}

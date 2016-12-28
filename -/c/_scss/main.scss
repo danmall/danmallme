@@ -12,10 +12,10 @@ http://superfriend.ly/
 
 @import 'variables.scss';
 @import 'utilities.scss';
+@import 'mixins.scss';
 @import 'layout.scss';
 @import 'displayPatterns.scss';
 @import 'base.scss';
-// @import 'global.scss';
 
 
 
@@ -30,10 +30,10 @@ http://superfriend.ly/
 	&-c-pageHeader {
 
 		&_title {
-			@extend .dm-u-font--normal;
-			@extend .dm-u-heading--xxl;
-			@extend .dm-u-padding--xs;
-			@extend .dm-u-marginBottom--xs;
+			@extend %dm-u-font--normal;
+			@extend %dm-u-text--xxl;
+			@extend %dm-u-padding--xs;
+			@extend %dm-u-marginBottom--xs;
 		}
 
 	}
@@ -43,11 +43,11 @@ http://superfriend.ly/
 
 	&-c-siteFooter {
 		
-		@extend .dm-u-clear--both;
-		@extend .dm-u-font--sans;
-		@extend .dm-u-margin--xs;
-		@extend .dm-u-paddingTop--m;
-		@extend .dm-u-marginBottom--xl;
+		@extend %dm-u-clear--both;
+		@extend %dm-u-font--sans;
+		@extend %dm-u-margin--xs;
+		@extend %dm-u-paddingTop--m;
+		@extend %dm-u-marginBottom--xl;
 
 		// custom
 		border-top: 5px solid $sandstone;
@@ -80,9 +80,9 @@ http://superfriend.ly/
 // Carbon Ads
 
 #carbonads {
-	@extend .dm-u-clearfix;
-	@extend .dm-u-padding--xs;
-	@extend .dm-u-marginBottom--s;
+	@extend %dm-u-clearfix;
+	@extend %dm-u-padding--xs;
+	@extend %dm-u-marginBottom--s;
 
 	// custom
 	background: $alabaster;
@@ -93,14 +93,14 @@ http://superfriend.ly/
 	}
 
 		.carbon-img {
-			@extend .dm-u-float--left;
-			@extend .dm-u-bg--none;
+			@extend %dm-u-float--left;
+			@extend %dm-u-bg--none;
 		}
 
 		.carbon-text {
-			//@extend .dm-u-text--xs;
-			@extend .dm-u-font--sans;
-			@extend .dm-u-bg--none;
+			//@extend %dm-u-text--xs;
+			@extend %dm-u-font--sans;
+			@extend %dm-u-bg--none;
 
 			// custom
 			font-size: 12px;
@@ -108,11 +108,11 @@ http://superfriend.ly/
 		}
 
 		.carbon-poweredby {
-			@extend .dm-u-text--xs;
-			@extend .dm-u-show;
-			@extend .dm-u-font--sans;
-			@extend .dm-u-bg--none;
-			@extend .dm-u-marginTop--xs;
+			@extend %dm-u-text--xs;
+			@extend %dm-u-show;
+			@extend %dm-u-font--sans;
+			@extend %dm-u-bg--none;
+			@extend %dm-u-marginTop--xs;
 		}
 
 

@@ -49,19 +49,19 @@ body {
 
 h1, 
 .h1 { 
-	@extend .dm-u-heading--xxl;
+	@extend %dm-u-text--xxl;
 	margin: 0 0 0.5em; 
 }
 
 h2, 
 .h2 { 
-	@extend .dm-u-heading--xl;
+	@extend %dm-u-text--xl;
 	margin: 0 0 1em; 
 }
 
 h3, 
 .h3 { 
-	@extend .dm-u-heading--l;
+	@extend %dm-u-text--l;
 	margin: 0 0 1em; 
 }
 
@@ -71,7 +71,7 @@ h6,
 .h4, 
 .h5, 
 .h6 { 
-	@extend .dm-u-heading--m;
+	@extend %dm-u-text--m;
 	margin: 0 0 1em; 
 }
 
@@ -80,7 +80,7 @@ ul,
 dl, 
 ol, 
 table { 
-	@extend .dm-u-text--s;
+	@extend %dm-u-text--s;
 	margin: 0 0 1.5em; 
 }
 
@@ -98,7 +98,7 @@ form {
 /* inline */
 
 label { 
-	@extend .dm-u-text--s;
+	@extend %dm-u-text--s;
 }
 
 input, 
