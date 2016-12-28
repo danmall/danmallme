@@ -15,32 +15,599 @@ http://superfriend.ly/
 -------------------------------------------*/
 
 
-@mixin text--xs {
+@mixin dm-u-text--xs {
 	font-size: $xs + px;
 	font-size: $xs/10 + rem;
 }
 
-@mixin text--s {
+@mixin dm-u-text--s {
 	font-size: $s + px;
 	font-size: $s/10 + rem;
 }
 
-@mixin text--m {
+@mixin dm-u-text--m {
 	font-size: $m + px;
 	font-size: $m/10 + rem;
 }
 
-@mixin text--l {
+@mixin dm-u-text--l {
 	font-size: $l + px;
 	font-size: $l/10 + rem;
 }
 
-@mixin text--xl {
+@mixin dm-u-text--xl {
 	font-size: $xl + px;
 	font-size: $xl/10 + rem;
 }
 
-@mixin text--xxl {
+@mixin dm-u-text--xxl {
 	font-size: $xxl + px;
 	font-size: $xxl/10 + rem;
+}
+
+
+// leading
+
+@mixin dm-u-leading--xs {
+	line-height: 1;
+}
+
+@mixin dm-u-leading--s {
+	line-height: 1.2;
+}
+
+@mixin dm-u-leading--m {
+	line-height: 1.4;
+}
+
+@mixin dm-u-leading--l {
+	line-height: 1.6;
+}
+
+@mixin dm-u-leading--xl {
+	line-height: 1.8;
+}
+
+@mixin dm-u-leading--xxl {
+	line-height: 2;
+}
+
+
+// font style
+
+@mixin dm-u-font--sans {
+	font-family: $sansSerifStack;
+}
+
+@mixin dm-u-font--serif {
+	font-family: $serifStack;
+}
+
+
+
+// font weight
+
+@mixin dm-u-font--bold {
+	font-weight: bold;
+}
+
+@mixin dm-u-font--normal {
+	font-weight: normal;
+}
+
+
+
+// bullets
+
+@mixin dm-u-bullets {
+	list-style: disc;	
+}
+
+@mixin dm-u-bullets--none {
+	list-style: none;	
+}
+
+
+// other text styles
+
+@mixin dm-u-uppercase {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+@mixin dm-u-letterspace--in {
+	letter-spacing: -1px;
+}
+
+
+
+
+/*-------------------------------------------    
+    Margins     
+-------------------------------------------*/
+
+// margin shorthand
+
+@mixin dm-u-margin--0 {
+	margin: 0
+}
+
+@mixin dm-u-margin--xs {
+	margin: $spacing + px;
+}
+
+@mixin dm-u-margin--s {
+	margin: ($spacing * 2) + px;
+}
+
+@mixin dm-u-margin--m {
+	margin: ($spacing * 3) + px;
+}
+
+@mixin dm-u-margin--l {
+	margin: ($spacing * 4) + px;
+}
+
+@mixin dm-u-margin--xl {
+	margin: ($spacing * 5) + px;
+}
+
+@mixin dm-u-margin--xxl {
+	margin: ($spacing * 6) + px;
+}
+
+
+
+// marginTop
+
+@mixin dm-u-marginTop--0 {
+	margin-top: 0;
+}
+
+@mixin dm-u-marginTop--xs {
+	margin-top: $spacing + px;
+}
+
+@mixin dm-u-marginTop--s {
+	margin-top: ($spacing * 2) + px;
+}
+
+@mixin dm-u-marginTop--m {
+	margin-top: ($spacing * 3) + px;
+}
+
+@mixin dm-u-marginTop--l {
+	margin-top: ($spacing * 4) + px;
+}
+
+@mixin dm-u-marginTop--xl {
+	margin-top: ($spacing * 5) + px;
+}
+
+@mixin dm-u-marginTop--xxl {
+	margin-top: ($spacing * 6) + px;
+}
+
+
+// marginRight
+
+@mixin dm-u-marginRight--0 {
+	margin-right: 0;
+}
+
+@mixin dm-u-marginRight--xs {
+	margin-right: $spacing + px;
+}
+
+@mixin dm-u-marginRight--s {
+	margin-right: ($spacing * 2) + px;
+}
+
+@mixin dm-u-marginRight--m {
+	margin-right: ($spacing * 3) + px;
+}
+
+@mixin dm-u-marginRight--l {
+	margin-right: ($spacing * 4) + px;
+}
+
+@mixin dm-u-marginRight--xl {
+	margin-right: ($spacing * 5) + px;
+}
+
+@mixin dm-u-marginRight--xxl {
+	margin-right: ($spacing * 6) + px;
+}
+
+
+// marginBottom
+
+@mixin dm-u-marginBottom--0 {
+	margin-bottom: 0;
+}
+
+@mixin dm-u-marginBottom--xs {
+	margin-bottom: $spacing + px;
+}
+
+@mixin dm-u-marginBottom--s {
+	margin-bottom: ($spacing * 2) + px;
+}
+
+@mixin dm-u-marginBottom--m {
+	margin-bottom: ($spacing * 3) + px;
+}
+
+@mixin dm-u-marginBottom--l {
+	margin-bottom: ($spacing * 4) + px;
+}
+
+@mixin dm-u-marginBottom--xl {
+	margin-bottom: ($spacing * 5) + px;
+}
+
+@mixin dm-u-marginBottom--xxl {
+	margin-bottom: ($spacing * 6) + px;
+}
+
+
+
+// marginLeft
+
+@mixin dm-u-marginLeft--0 {
+	margin-left: 0;
+}
+
+@mixin dm-u-marginLeft--xs {
+	margin-left: $spacing + px;
+}
+
+@mixin dm-u-marginLeft--s {
+	margin-left: ($spacing * 2) + px;
+}
+
+@mixin dm-u-marginLeft--m {
+	margin-left: ($spacing * 3) + px;
+}
+
+@mixin dm-u-marginLeft--l {
+	margin-left: ($spacing * 4) + px;
+}
+
+@mixin dm-u-marginLeft--xl {
+	margin-left: ($spacing * 5) + px;
+}
+
+@mixin dm-u-marginLeft--xxl {
+	margin-left: ($spacing * 6) + px;
+}
+
+
+
+
+/*-------------------------------------------    
+    Paddings     
+-------------------------------------------*/
+
+// padding shorthand
+
+@mixin dm-u-padding--0 {
+	padding: 0;
+}
+
+@mixin dm-u-padding--xs {
+	padding: $spacing + px;
+}
+
+@mixin dm-u-padding--s {
+	padding: ($spacing * 2) + px;
+}
+
+@mixin dm-u-padding--m {
+	padding: ($spacing * 3) + px;
+}
+
+@mixin dm-u-padding--l {
+	padding: ($spacing * 4) + px;
+}
+
+@mixin dm-u-padding--xl {
+	padding: ($spacing * 5) + px;
+}
+
+@mixin dm-u-padding--xxl {
+	padding: ($spacing * 6) + px;
+}
+
+
+
+// paddingTop
+
+@mixin dm-u-paddingTop--0 {
+	padding-top: 0;
+}
+
+@mixin dm-u-paddingTop--xs {
+	padding-top: $spacing + px;
+}
+
+@mixin dm-u-paddingTop--s {
+	padding-top: ($spacing * 2) + px;
+}
+
+@mixin dm-u-paddingTop--m {
+	padding-top: ($spacing * 3) + px;
+}
+
+@mixin dm-u-paddingTop--l {
+	padding-top: ($spacing * 4) + px;
+}
+
+@mixin dm-u-paddingTop--xl {
+	padding-top: ($spacing * 5) + px;
+}
+
+@mixin dm-u-paddingTop--xxl {
+	padding-top: ($spacing * 6) + px;
+}
+
+
+// paddingRight
+
+@mixin dm-u-paddingRight--0 {
+	padding-right: 0;
+}
+
+@mixin dm-u-paddingRight--xs {
+	padding-right: $spacing + px;
+}
+
+@mixin dm-u-paddingRight--s {
+	padding-right: ($spacing * 2) + px;
+}
+
+@mixin dm-u-paddingRight--m {
+	padding-right: ($spacing * 3) + px;
+}
+
+@mixin dm-u-paddingRight--l {
+	padding-right: ($spacing * 4) + px;
+}
+
+@mixin dm-u-paddingRight--xl {
+	padding-right: ($spacing * 5) + px;
+}
+
+@mixin dm-u-paddingRight--xxl {
+	padding-right: ($spacing * 6) + px;
+}
+
+
+// paddingBottom
+
+@mixin dm-u-paddingBottom--0 {
+	padding-bottom: 0;
+}
+
+@mixin dm-u-paddingBottom--xs {
+	padding-bottom: $spacing + px;
+}
+
+@mixin dm-u-paddingBottom--s {
+	padding-bottom: ($spacing * 2) + px;
+}
+
+@mixin dm-u-paddingBottom--m {
+	padding-bottom: ($spacing * 3) + px;
+}
+
+@mixin dm-u-paddingBottom--l {
+	padding-bottom: ($spacing * 4) + px;
+}
+
+@mixin dm-u-paddingBottom--xl {
+	padding-bottom: ($spacing * 5) + px;
+}
+
+@mixin dm-u-paddingBottom--xxl {
+	padding-bottom: ($spacing * 6) + px;
+}
+
+
+
+// paddingLeft
+
+@mixin dm-u-paddingLeft--0 {
+	padding-left: 0;
+}
+
+@mixin dm-u-paddingLeft--xs {
+	padding-left: $spacing + px;
+}
+
+@mixin dm-u-paddingLeft--s {
+	padding-left: ($spacing * 2) + px;
+}
+
+@mixin dm-u-paddingLeft--m {
+	padding-left: ($spacing * 3) + px;
+}
+
+@mixin dm-u-paddingLeft--l {
+	padding-left: ($spacing * 4) + px;
+}
+
+@mixin dm-u-paddingLeft--xl {
+	padding-left: ($spacing * 5) + px;
+}
+
+@mixin dm-u-paddingLeft--xxl {
+	padding-left: ($spacing * 6) + px;
+}
+
+
+
+/*-------------------------------------------    
+    Display     
+-------------------------------------------*/
+
+@mixin dm-u-hide {
+	display: none;
+}
+
+@mixin dm-u-show {
+	display: block;
+}
+
+@mixin dm-u-block {
+	display: block;
+}
+
+@mixin dm-u-display--block {
+	display: block;
+}
+
+@mixin dm-u-display--inlineBlock {
+	display: inline-block;
+}
+
+@mixin dm-u-display--inline {
+	display: inline;
+}
+
+@mixin dm-u-display--flex {
+	display: flex;
+}
+
+
+
+
+/*-------------------------------------------    
+    Positioning
+-------------------------------------------*/
+
+@mixin dm-u-pos--absolute {
+	position: absolute;
+}
+
+@mixin dm-u-pos--relative {
+	position: relative;
+}
+
+@mixin dm-u-pos--static {
+	position: static;
+}
+
+@mixin dm-u-pos--fixed {
+	position: fixed;
+}
+
+
+
+/*-------------------------------------------    
+    Moving
+-------------------------------------------*/
+
+@mixin dm-u-move--offscreen {
+	@include dm-u-pos--absolute;
+	@include dm-u-show;
+	left: -99999px;
+}
+
+@mixin dm-u-move--onscreen {
+	@include dm-u-pos--absolute;
+	@include dm-u-show;
+	left: 0;
+}
+
+
+/*-------------------------------------------    
+    Floating & Clearing
+-------------------------------------------*/
+
+@mixin dm-u-float--left {
+	float: left;
+}
+
+@mixin dm-u-float--right {
+	float: right;
+}
+
+@mixin dm-u-float--none {
+	float: none;
+}
+
+@mixin dm-u-clear--left {
+	clear: left;
+}
+
+@mixin dm-u-clear--right {
+	clear: right;
+}
+
+@mixin dm-u-clear--both {
+	clear: both;
+}
+
+
+/* Easy Clearing - http://www.positioniseverything.net/easyclearing.html */ 
+/* 
+@mixin dm-u-clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+*/
+
+
+
+/*-------------------------------------------    
+    Backgrounds
+-------------------------------------------*/
+
+@mixin dm-u-bg--none {
+	background: none;
+}
+
+
+
+/*-------------------------------------------    
+    Columns
+-------------------------------------------*/
+
+@mixin dm-l-col--100 {
+	@include dm-u-float--left;
+	width: 100%;
+}
+
+@mixin dm-l-col--75 {
+	@include dm-u-float--left;
+	width: 75%;
+}
+
+@mixin dm-l-col--66 {
+	@include dm-u-float--left;
+	width: 66.66666666667%;
+}
+
+@mixin dm-l-col--50 {
+	@include dm-u-float--left;
+	width: 50%;
+}
+
+@mixin dm-l-col--33 {
+	@include dm-u-float--left;
+	width: 33.333333333333%;
+}
+
+@mixin dm-l-col--25 {
+	@include dm-u-float--left;
+	width: 25%;
+}
+
+@mixin dm-l-col--20 {
+	@include dm-u-float--left;
+	width: 20%;
 }

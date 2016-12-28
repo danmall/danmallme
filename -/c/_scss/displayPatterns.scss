@@ -18,48 +18,48 @@ http://superfriend.ly/
 
 		&-textBlurb {
 
-			@extend %dm-u-marginBottom--xs;
-			@extend %dm-u-padding--xs;
+			@include dm-u-marginBottom--xs;
+			@include dm-u-padding--xs;
 			
 			&_header {
-				@extend %dm-u-display--flex;
+				@include dm-u-display--flex;
 
 				// custom
 				flex-direction: column-reverse;
 			}
 
 			&_title {
-				@extend %dm-u-text--m;
-				@extend %dm-u-leading--xs;
-				@extend %dm-u-font--normal;	
+				@include dm-u-text--m;
+				@include dm-u-leading--xs;
+				@include dm-u-font--normal;	
 			}
 
 			&_time {
-				@extend %dm-u-text--xs;
-				@extend %dm-u-font--sans;
-				@extend %dm-u-uppercase;
-				@extend %dm-u-marginBottom--xs;
+				@include dm-u-text--xs;
+				@include dm-u-font--sans;
+				@include dm-u-uppercase;
+				@include dm-u-marginBottom--xs;
 
 				// custom 
 				color: $cloudy;
 			}
 
 			&_dek {
-				@extend %dm-u-text--s;
-				@extend %dm-u-marginBottom--xs;
+				@include dm-u-text--s;
+				@include dm-u-marginBottom--xs;
 			}
 
 			&_tags {
 
-				@extend %dm-u-marginLeft--0;
+				@include dm-u-marginLeft--0;
 
 				&_item {
-					@extend %dm-u-text--xs;
-					@extend %dm-u-display--inline;
-					@extend %dm-u-text--xs;
-					@extend %dm-u-font--sans;
-					@extend %dm-u-uppercase;
-					@extend %dm-u-marginRight--s;
+					@include dm-u-text--xs;
+					@include dm-u-display--inline;
+					@include dm-u-text--xs;
+					@include dm-u-font--sans;
+					@include dm-u-uppercase;
+					@include dm-u-marginRight--s;
 
 					// custom
 					color: $silverRust;
@@ -79,17 +79,17 @@ http://superfriend.ly/
 
 		&-inlineNav {
 
-			@extend %dm-u-bullets--none;
-			@extend %dm-u-marginLeft--0;
-			@extend %dm-u-padding--xs;
+			@include dm-u-bullets--none;
+			@include dm-u-marginLeft--0;
+			@include dm-u-padding--xs;
 
 			&_item {
-				@extend %dm-u-display--inlineBlock;
+				@include dm-u-display--inlineBlock;
 
 				&:after {
-					@extend %dm-u-marginLeft--xs;
-					@extend %dm-u-marginRight--xs;				
-					@extend %dm-u-font--normal;				
+					@include dm-u-marginLeft--xs;
+					@include dm-u-marginRight--xs;				
+					@include dm-u-font--normal;				
 
 					// custom
 					color: $silverRust;
@@ -98,11 +98,11 @@ http://superfriend.ly/
 
 				&:last-child:after {
 					content: "";
-					@extend %dm-u-margin--0;
+					@include dm-u-margin--0;
 				}
 
 				&--active {
-					@extend %dm-u-font--bold;
+					@include dm-u-font--bold;
 				}
 
 			}
@@ -116,10 +116,10 @@ http://superfriend.ly/
 		&-vertSepNav {
 
 			ul {
-				@extend %dm-u-bullets--none;	
-				//@extend %dm-u-marginLeft--0;
-				//@extend %dm-u-padding--xs;
-				@extend %dm-u-margin--xs;
+				@include dm-u-bullets--none;	
+				//@include dm-u-marginLeft--0;
+				//@include dm-u-padding--xs;
+				@include dm-u-margin--xs;
 
 				// custom
 				border-top: 1px solid $cloudy;
@@ -130,18 +130,18 @@ http://superfriend.ly/
 				border-bottom: 1px solid $cloudy;
 
 				a {
-					@extend %dm-u-bg--none;
-					@extend %dm-u-display--block;
-					@extend %dm-u-padding--xs;
-					@extend %dm-u-paddingLeft--0;
+					@include dm-u-bg--none;
+					@include dm-u-display--block;
+					@include dm-u-padding--xs;
+					@include dm-u-paddingLeft--0;
 				}
 			}
 
 
 			&_trigger {
-				@extend %dm-u-text--s;
-				@extend %dm-u-marginBottom--xs;
-				@extend %dm-u-move--offscreen;									
+				@include dm-u-text--s;
+				@include dm-u-marginBottom--xs;
+				@include dm-u-move--offscreen;									
 			}
 
 		}	

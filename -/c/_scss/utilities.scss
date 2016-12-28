@@ -10,7 +10,7 @@ http://superfriend.ly/
 *************************************************
 */
 
-%dm {
+.dm {
 
 	&-u {
 
@@ -501,6 +501,10 @@ http://superfriend.ly/
 			position: static;
 		}
 
+		&-pos--fixed {
+			position: fixed;
+		}
+
 
 
 		/*-------------------------------------------    
@@ -508,14 +512,14 @@ http://superfriend.ly/
 		-------------------------------------------*/
 
 		&-move--offscreen {
-			@extend %dm-u-pos--absolute;
-			@extend %dm-u-show;
+			@include dm-u-pos--absolute;
+			@include dm-u-show;
 			left: -99999px;
 		}
 
 		&-move--onscreen {
-			@extend %dm-u-pos--absolute;
-			@extend %dm-u-show;
+			@include dm-u-pos--absolute;
+			@include dm-u-show;
 			left: 0;
 		}
 

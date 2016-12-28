@@ -11,8 +11,8 @@ http://superfriend.ly/
 */
 
 @import 'variables.scss';
-@import 'utilities.scss';
 @import 'mixins.scss';
+@import 'utilities.scss';
 @import 'layout.scss';
 @import 'displayPatterns.scss';
 @import 'base.scss';
@@ -30,10 +30,10 @@ http://superfriend.ly/
 	&-c-pageHeader {
 
 		&_title {
-			@extend %dm-u-font--normal;
-			@extend %dm-u-text--xxl;
-			@extend %dm-u-padding--xs;
-			@extend %dm-u-marginBottom--xs;
+			@include dm-u-font--normal;
+			@include dm-u-text--xxl;
+			@include dm-u-padding--xs;
+			@include dm-u-marginBottom--xs;
 		}
 
 	}
@@ -43,11 +43,11 @@ http://superfriend.ly/
 
 	&-c-siteFooter {
 		
-		@extend %dm-u-clear--both;
-		@extend %dm-u-font--sans;
-		@extend %dm-u-margin--xs;
-		@extend %dm-u-paddingTop--m;
-		@extend %dm-u-marginBottom--xl;
+		@include dm-u-clear--both;
+		@include dm-u-font--sans;
+		@include dm-u-margin--xs;
+		@include dm-u-paddingTop--m;
+		@include dm-u-marginBottom--xl;
 
 		// custom
 		border-top: 5px solid $sandstone;
@@ -80,9 +80,9 @@ http://superfriend.ly/
 // Carbon Ads
 
 #carbonads {
-	@extend %dm-u-clearfix;
-	@extend %dm-u-padding--xs;
-	@extend %dm-u-marginBottom--s;
+	@extend .dm-u-clearfix;
+	@include dm-u-padding--xs;
+	@include dm-u-marginBottom--s;
 
 	// custom
 	background: $alabaster;
@@ -93,14 +93,14 @@ http://superfriend.ly/
 	}
 
 		.carbon-img {
-			@extend %dm-u-float--left;
-			@extend %dm-u-bg--none;
+			@include dm-u-float--left;
+			@include dm-u-bg--none;
 		}
 
 		.carbon-text {
-			//@extend %dm-u-text--xs;
-			@extend %dm-u-font--sans;
-			@extend %dm-u-bg--none;
+			//@include dm-u-text--xs;
+			@include dm-u-font--sans;
+			@include dm-u-bg--none;
 
 			// custom
 			font-size: 12px;
@@ -108,11 +108,11 @@ http://superfriend.ly/
 		}
 
 		.carbon-poweredby {
-			@extend %dm-u-text--xs;
-			@extend %dm-u-show;
-			@extend %dm-u-font--sans;
-			@extend %dm-u-bg--none;
-			@extend %dm-u-marginTop--xs;
+			@include dm-u-text--xs;
+			@include dm-u-show;
+			@include dm-u-font--sans;
+			@include dm-u-bg--none;
+			@include dm-u-marginTop--xs;
 		}
 
 
@@ -126,9 +126,11 @@ http://superfriend.ly/
 	@media screen and (min-width: 520px) {
 
 		.dm-dp-textBlurb {
-			width: 50%;
-			float: left;
-			padding-right: ($spacing * 4) + px;
+			@include dm-l-col--50;
+			@include dm-u-float--left;
+			@include dm-u-paddingRight--l;
+
+			// custom
 			min-height: 250px;
 		}
 
@@ -138,7 +140,9 @@ http://superfriend.ly/
 	@media screen and (min-width: 850px) {
 
 		#carbonads {
-			position: fixed;
+			@include dm-u-pos--fixed;
+
+			// custom
 			right: 0;
 			top: 170px;
 			width: 24%;
@@ -157,29 +161,33 @@ http://superfriend.ly/
 		.dm-dp-textBlurb,
 		.dm-dp-inlineNav,
 		.dm-c-pageHeader_title {
-			padding-left: ($spacing * 4) + px;
+			@include dm-u-paddingLeft--l;
 		}
 
 		.dm-c-pageHeader {
+			@include dm-u-paddingTop--l;
+			@include dm-u-pos--fixed;
+			@include dm-l-col--100;
+
+			// custom
 			background: rgba(255, 255, 255, 0.93);
-			padding-top: ($spacing * 4) + px;
-			position: fixed;
 			top: 0;
 			left: 0;
-			width: 100%;
 		}
 
 			.dm-c-pageHeader_title {
+				@include dm-u-marginBottom--s;
+				@include dm-u-paddingBottom--0;
+				@include dm-u-pos--relative;
 
+				// custom
 				font-size: 72px;
-				// margin-top: ($spacing * 4) + px;
-				margin-bottom: ($spacing) + px;
-				padding-bottom: 0;
-				position: relative;
 
 				&:before {
+					@include dm-u-pos--absolute;
+
+					// custom
 					content: "";
-					position: absolute;
 					left: ($spacing * 4) + px;
 					top: -8px;
 					width: 96px;
@@ -188,8 +196,10 @@ http://superfriend.ly/
 				}
 
 				&:after {
+					@include dm-u-pos--absolute;
+
+					// custom
 					content: "";
-					position: absolute;
 					left: 0;
 					top: -8px;
 					width: ($spacing * 4) + px;
@@ -200,7 +210,7 @@ http://superfriend.ly/
 			}
 
 		.dm-dp-inlineNav {
-			padding-top: 0;
+			@include dm-u-paddingTop--0;
 		}
 
 	}
