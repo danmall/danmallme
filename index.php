@@ -23,8 +23,8 @@
 
     <section id="preamble" class="dm-u-padding--m dm-u-marginBottom--xs">
 
-	    <h1>Dan Mall</h1>
-	    <h2>Creative Director &amp; Advisor</h2>
+	    <h1 class="dm-u-marginBottom--xs">Dan Mall</h1>
+	    <h2 class="dm-u-text--m">Creative Director &amp; Advisor</h2>
 
 	    <p class="dm-u-text--s dm-u-font--sans">I&rsquo;m <strong>Dan Mall</strong>, a creative director and advisor from Philly.  I&rsquo;m the director of <a href="http://superfriend.ly/">SuperFriendly</a>, a design collaborative that brings exquisite creative direction &amp; design to the world&rsquo;s most important and interesting organizations. I&rsquo;m an enthralled husband &amp; dad and co-founder of <a href="http://typedia.com/">Typedia</a> (an encyclopedia for typefaces) and <a href="http://businessology.biz/">Businessology</a> (a podcast and workshop series teaching designers how to run better businesses). You can find me on Twitter at <a href="http://twitter.com/danielmall">@danielmall</a>.</p>
 
@@ -55,6 +55,7 @@
 
         <h1 class="dm-u-move--offscreen">Quotes about Dan</h1>
 
+        <?php /* ?>
     	<blockquote class="dm-dp-quote">
     		<p>Few designers can capture a brand&rsquo;s essence and deliver a design that takes that brand to a new level. Dan did that at the pitch meeting.</p>
 			<address class="dm-dp-quote_attribution"><strong>Rob Walker</strong>, Former Digital Marketing Manager, Crayola</address>
@@ -74,6 +75,9 @@
     		<p>Dan certainly has one of the best minds for design in our industry, but he takes it so much further in his unparalleled grace and his seamless collaboration with his team and his clients.</p>
 			<address class="dm-dp-quote_attribution"><strong>Mike Kenny</strong>, Former Director of User Experience, Code &amp; Theory</address>
     	</blockquote>
+        <?php */ ?>
+
+        <?php parseQuotes($_SERVER["DOCUMENT_ROOT"].'/quotes.json', 4); ?>
 
     </section><!-- #testimonials -->
 

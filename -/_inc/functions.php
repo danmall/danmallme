@@ -30,7 +30,7 @@ function parseList($file, $num, $type){
         echo '<header class="dm-dp-textBlurb_header">' . "\n\t\t\t";
 
         // print headline link to slug
-        if(strpos(articles[$i]['slug'], 'http://') !== false){
+        if(strpos($articles[$i]['slug'], 'http://') !== false){
             echo '<h1 class="entry-title dm-dp-textBlurb_title"><a href="' . $ARTICLES_DIRECTORY . $articles[$i]['slug'] .'/">' . $articles[$i]['title'] . '</a></h1>'. "\n\t\t\t";  
         }else{
             echo '<h1 class="entry-title dm-dp-textBlurb_title"><a href="' . $articles[$i]['slug'] .'">' . $articles[$i]['title'] . '</a></h1>'. "\n\t\t\t"; 
@@ -61,6 +61,37 @@ function parseList($file, $num, $type){
         
     }
 
+}
+
+
+function parseQuotes($file, $num) {
+
+    $quotes = json_decode(file_get_contents($file), true);
+    if($num == 'all'){
+        $quotesLength = sizeof($quotes);    
+    }else{
+        $quotesLength = $num;
+    }
+
+    // generate random array
+    $randomQuotes = array_rand($quotes, $quotesLength);
+
+    for($i = 0; $i < sizeof($randomQuotes); $i++){
+
+        // Open entry
+        echo "\t" . '<blockquote class="dm-dp-quote">'. "\n\t\t";
+
+        // print quote
+        echo '<p>' . $quotes[$randomQuotes[$i]]['quote'] . '</p>' . "\n\t\t";
+
+        // print attribution
+        echo '<address class="dm-dp-quote_attribution"><strong>' . $quotes[$randomQuotes[$i]]['person'] . '</strong>, ' . $quotes[$randomQuotes[$i]]['role'] . "</address>" . "\n\t\t";
+
+        // close article header
+        echo '</blockquote>' . "\n\t\t";
+
+    }
+    
 }
 
 ?>
