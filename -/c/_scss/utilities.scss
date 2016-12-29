@@ -99,6 +99,15 @@ http://superfriend.ly/
 			font-weight: normal;
 		}
 
+		&-font--italic,
+		&-fontStyle--italic {
+			font-style: italic;
+		}
+
+		&-fontStyle--normal {
+			font-style: normal;
+		}
+
 
 
 		// bullets
@@ -121,6 +130,25 @@ http://superfriend.ly/
 
 		&-letterspace--in {
 			letter-spacing: -1px;
+		}
+
+
+
+
+		/*-------------------------------------------    
+		    Alignments
+		-------------------------------------------*/
+
+		&-align--left {
+			text-align: left;
+		}
+
+		&-align--right {
+			text-align: right;
+		}
+
+		&-align--center {
+			text-align: center;
 		}
 
 

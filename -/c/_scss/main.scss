@@ -58,6 +58,30 @@ http://superfriend.ly/
 
 	}
 
+	// testimonials
+
+	&-c-testimonials {
+
+		@include dm-u-padding--xs;
+
+		// custom
+		background: $ecru;
+
+		& .dm-dp-quote {
+			&:after {
+				@include dm-u-display--block;
+				@include dm-u-marginTop--m;
+
+				//custom
+				content: "";
+				width: 50px;
+				height: 5px;
+				background: $silverRust;
+			}
+		}
+
+	}
+
 
 	// siteFooter
 
@@ -133,6 +157,28 @@ http://superfriend.ly/
 			@include dm-u-marginTop--xs;
 		}
 
+
+/*-------------------------------------------    
+	Page Specific: Home
+-------------------------------------------*/
+
+.dm-page--home {
+
+	.dm-c-siteNav {
+		@include dm-l-col--100;
+		@include dm-u-margin--0;
+		@include dm-u-padding--0;
+	}
+
+}
+
+	.dm-c-pricingDesignContainer {
+		@include dm-l-col--50;
+		@include dm-u-marginRight--s;
+
+		//custom
+		border: 1px solid $silverRust;
+	}
 
 
 /*-------------------------------------------    

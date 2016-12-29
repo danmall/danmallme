@@ -149,6 +149,84 @@ http://superfriend.ly/
 				@include dm-u-move--offscreen;									
 			}
 
+		}
+
+
+		// boxed headline
+
+		&-boxedHeadline {
+
+			@include dm-u-text--l;
+
+			@media screen and (min-width: 945px){
+				@include dm-u-font--sans;
+				@include dm-u-text--s;
+				@include dm-u-uppercase;
+				@include dm-u-display--inlineBlock;
+				@include dm-u-padding--xs;
+
+				// custom
+				background: $sandstone;
+				color: #fff;
+			}
+
+		}
+
+
+		// pointer headline
+
+		&-pointerHeadline {
+			@include dm-u-text--s;
+			@include dm-u-font--sans;
+			@include dm-u-uppercase;
+			@include dm-u-align--center;
+			@include dm-u-padding--xs;
+			@include dm-u-pos--relative;
+
+			// custom
+			background: $shipGray;
+			color: #fff;
+			margin: 0 auto 120px;
+			width: 60%;
+
+			&:after {
+				content: "";
+				background: blue;
+				width: 0;
+				height: 0;
+				display: block;
+				position: absolute;
+				bottom: -100px;
+				left: 0;
+				border-top: 100em solid green;
+				border-bottom: 20px solid red;
+				border-left: 20px solid pink;
+				border-right: 20px solid orange;
+			}
+		}
+
+
+		// quote
+
+		&-quote {
+			@include dm-u-text--m;
+			@include dm-u-marginBottom--m;
+
+			&_attribution {
+				@include dm-u-font--sans;
+				@include dm-u-fontStyle--normal;
+				
+				// custom
+				font-size: 12px;
+				font-size: 1.2rem;
+				margin-top: -1em;
+
+				&:before {
+					// custom
+					content: "—";
+				}
+			}
+
 		}	
 
 

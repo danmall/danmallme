@@ -95,6 +95,18 @@ http://superfriend.ly/
 	font-weight: normal;
 }
 
+@mixin dm-u-font--italic {
+	font-style: italic;
+}
+
+@mixin dm-u-fontStyle--italic {
+	font-style: italic;
+}
+
+@mixin dm-u-fontStyle--normal {
+	font-style: normal;
+}
+
 
 
 // bullets
@@ -117,6 +129,24 @@ http://superfriend.ly/
 
 @mixin dm-u-letterspace--in {
 	letter-spacing: -1px;
+}
+
+
+
+/*-------------------------------------------    
+    Alignments
+-------------------------------------------*/
+
+@mixin dm-u-align--left {
+	text-align: left;
+}
+
+@mixin dm-u-align--right {
+	text-align: right;
+}
+
+@mixin dm-u-align--center {
+	text-align: center;
 }
 
 
