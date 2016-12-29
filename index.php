@@ -21,22 +21,22 @@
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
 
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/nav.php"); echo "\n"; ?>
-
-    <section id="preamble" class="dm-u-padding--xs">
+    <section id="preamble" class="dm-u-padding--m dm-u-marginBottom--xs">
 
 	    <h1>Dan Mall</h1>
 	    <h2>Creative Director &amp; Advisor</h2>
 
 	    <p class="dm-u-text--s dm-u-font--sans">I&rsquo;m <strong>Dan Mall</strong>, a creative director and advisor from Philly.  I&rsquo;m the director of <a href="http://superfriend.ly/">SuperFriendly</a>, a design collaborative that brings exquisite creative direction &amp; design to the world&rsquo;s most important and interesting organizations. I&rsquo;m an enthralled husband &amp; dad and co-founder of <a href="http://typedia.com/">Typedia</a> (an encyclopedia for typefaces) and <a href="http://businessology.biz/">Businessology</a> (a podcast and workshop series teaching designers how to run better businesses). You can find me on Twitter at <a href="http://twitter.com/danielmall">@danielmall</a>.</p>
 
+         <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/nav.php"); echo "\n"; ?>
+
 	</section><!-- #preamble -->
 
 
 
-    <section id="pricing-design" class="dm-u-padding--xs dm-u-clearfix">
+    <section id="pricing-design" class="dm-u-padding--m dm-u-clearfix">
 
-    	<h1 class="dm-u-text--l">I wrote a book.</h1>
+    	<h1 class="dm-u-text--m">I wrote a book.</h1>
 
         <div class="dm-c-pricingDesignContainer">
             <?php require($_SERVER["DOCUMENT_ROOT"]."/i/home/pricing-design-cover-outlined.svg"); echo "\n"; ?>
@@ -79,37 +79,39 @@
 
 
 
-    <section id="articles">
+    <section id="articles" class="dm-u-padding--m">
 
         <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
 
-    	<h1 class="dm-dp-boxedHeadline">Latest Articles</h1>
+    	<h1 class="dm-dp-boxedHeadline dm-u-marginBottom--xl">Latest Articles</h1>
 
         <?php parseList($_SERVER["DOCUMENT_ROOT"].'/articles/articles.json', 5, 'abridged'); ?>
 
-    	<p><a href="/articles/">See all articles</a></p>
+    	<p class="dm-dp-seeAll">
+            <a class="dm-dp-seeAll_link" href="/articles/">See all Articles</a>
+        </p>
 
     </section><!-- #articles -->
 
 
 
-    <section id="hire-me" class="dm-u-padding--xs">
+    <section id="hire-me" class="dm-u-padding--m">
 
         <h1 class="dm-dp-pointerHeadline">Hire me to help with</h1>
 
         <ol class="dm-u-bullets--none dm-u-marginLeft--0">
             <li>
-                <h2 class="dm-u-text--m">Making a digital product your organization can only dream of.</h2>
+                <h2 class="dm-u-text--s">Making a digital product your organization can only dream of.</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </li>
             <li>
-                <h2 class="dm-u-text--m">Growing your product team in smarts &amp; skills.</h2>
+                <h2 class="dm-u-text--s">Growing your product team in smarts &amp; skills.</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </li>
             <li>
-                <h2 class="dm-u-text--m">Taking your agency to the next level.</h2>
+                <h2 class="dm-u-text--s">Taking your agency to the next level.</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </li>

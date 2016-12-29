@@ -3,7 +3,7 @@
 <nav id="nav" class="dm-dp-vertSepNav dm-c-siteNav">
 
 	<ul>
-
+		<?php /* ?>
         <?php if($_SERVER['REQUEST_URI'] == '/') { ?>  
         <li class="dm-dp-vertSepNav_item">
         	<mark class="dm-dp-vertSepNav_item--active">Home</mark>
@@ -13,6 +13,7 @@
 			<a href="/">Home</a>
 		</li>
 		<?php } ?>
+		<?php */ ?>
 
 
 

@@ -14,23 +14,80 @@ http://superfriend.ly/
 
 	&-dp {
 
+		/*-------------------------------------------    
+			Headlines     
+		-------------------------------------------*/
+
+
+		// boxed headline
+
+		&-boxedHeadline {
+
+			@include dm-u-text--m;
+			@include dm-u-font--sans;
+
+			@media screen and (min-width: 945px){				
+				@include dm-u-text--s;
+				@include dm-u-uppercase;
+				@include dm-u-display--inlineBlock;
+				@include dm-u-padding--xs;
+
+				// improvisations
+				background: $sandstone;
+				color: #fff;
+			}
+
+		}
+
+
+		// pointer headline
+
+		&-pointerHeadline {
+			@include dm-u-text--s;
+			@include dm-u-font--sans;
+			@include dm-u-uppercase;
+			@include dm-u-align--center;
+			@include dm-u-padding--xs;
+			@include dm-u-paddingBottom--l;
+			@include dm-u-pos--relative;
+
+			
+			// improvisations
+			background: $shipGray;
+			color: #fff;			
+			width: 60%;
+			margin: 0 auto 2em;
+
+			// Thanks Clippy! (No, not that Clippy. This Clippy.) http://bennettfeely.com/clippy/
+			-webkit-clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%);
+			clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%);
+
+			
+		}
+
+
+
+
+		/*-------------------------------------------    
+		    Text     
+		-------------------------------------------*/
+
 		// blurb
 
 		&-textBlurb {
 
-			@include dm-u-marginBottom--xs;
-			@include dm-u-padding--xs;
+			@include dm-u-marginBottom--xxl;
 			
 			&_header {
 				@include dm-u-display--flex;
 
-				// custom
+				// improvisations
 				flex-direction: column-reverse;
 			}
 
 			&_title {
 				@include dm-u-text--m;
-				@include dm-u-leading--xs;
+				@include dm-u-leading--m;
 				@include dm-u-font--normal;	
 			}
 
@@ -40,7 +97,7 @@ http://superfriend.ly/
 				@include dm-u-uppercase;
 				@include dm-u-marginBottom--xs;
 
-				// custom 
+				// improvisations 
 				color: $cloudy;
 			}
 
@@ -52,6 +109,7 @@ http://superfriend.ly/
 			&_tags {
 
 				@include dm-u-marginLeft--0;
+				@include dm-u-leading--s;
 
 				&_item {
 					@include dm-u-text--xs;
@@ -61,7 +119,7 @@ http://superfriend.ly/
 					@include dm-u-uppercase;
 					@include dm-u-marginRight--s;
 
-					// custom
+					// improvisations
 					color: $silverRust;
 
 					&:before {
@@ -73,6 +131,69 @@ http://superfriend.ly/
 			}
 
 		}	
+
+
+
+		// quote
+
+		&-quote {
+			@include dm-u-text--m;
+			@include dm-u-marginBottom--xl;
+
+			&_attribution {
+				@include dm-u-font--sans;
+				@include dm-u-fontStyle--normal;
+				
+				// improvisations
+				font-size: 12px;
+				font-size: 1.2rem;
+				//margin-top: -1em;
+
+				&:before {
+					// improvisations
+					content: "—";
+				}
+			}
+
+		}	
+
+
+		// see all
+
+		&-seeAll {
+			@include dm-u-font--sans;
+
+			&:before {
+				@include dm-u-display--block;
+				@include dm-u-marginBottom--xl;
+
+				// improvisations
+				content: "";
+				width: 50px;
+				height: 5px;
+				background: $silverRust;
+			}
+
+			&_link {
+
+				// improvisations
+				background: none;
+				color: $orange;
+
+				&:after {
+					@include dm-u-marginLeft--xs;
+					content: "→";					
+				}
+			}
+		}
+
+
+
+
+
+		/*-------------------------------------------    
+		    Navigation     
+		-------------------------------------------*/
 
 
 		// inlineNav 
@@ -91,7 +212,7 @@ http://superfriend.ly/
 					@include dm-u-marginRight--xs;				
 					@include dm-u-font--normal;				
 
-					// custom
+					// improvisations
 					color: $silverRust;
 					content: "/";
 				}
@@ -117,11 +238,9 @@ http://superfriend.ly/
 
 			ul {
 				@include dm-u-bullets--none;	
-				//@include dm-u-marginLeft--0;
-				//@include dm-u-padding--xs;
 				@include dm-u-margin--xs;
 
-				// custom
+				// improvisations
 				border-top: 1px solid $cloudy;
 			}
 
@@ -150,84 +269,6 @@ http://superfriend.ly/
 			}
 
 		}
-
-
-		// boxed headline
-
-		&-boxedHeadline {
-
-			@include dm-u-text--l;
-
-			@media screen and (min-width: 945px){
-				@include dm-u-font--sans;
-				@include dm-u-text--s;
-				@include dm-u-uppercase;
-				@include dm-u-display--inlineBlock;
-				@include dm-u-padding--xs;
-
-				// custom
-				background: $sandstone;
-				color: #fff;
-			}
-
-		}
-
-
-		// pointer headline
-
-		&-pointerHeadline {
-			@include dm-u-text--s;
-			@include dm-u-font--sans;
-			@include dm-u-uppercase;
-			@include dm-u-align--center;
-			@include dm-u-padding--xs;
-			@include dm-u-pos--relative;
-
-			// custom
-			background: $shipGray;
-			color: #fff;
-			margin: 0 auto 120px;
-			width: 60%;
-
-			&:after {
-				content: "";
-				background: blue;
-				width: 0;
-				height: 0;
-				display: block;
-				position: absolute;
-				bottom: -100px;
-				left: 0;
-				border-top: 100em solid green;
-				border-bottom: 20px solid red;
-				border-left: 20px solid pink;
-				border-right: 20px solid orange;
-			}
-		}
-
-
-		// quote
-
-		&-quote {
-			@include dm-u-text--m;
-			@include dm-u-marginBottom--m;
-
-			&_attribution {
-				@include dm-u-font--sans;
-				@include dm-u-fontStyle--normal;
-				
-				// custom
-				font-size: 12px;
-				font-size: 1.2rem;
-				margin-top: -1em;
-
-				&:before {
-					// custom
-					content: "—";
-				}
-			}
-
-		}	
 
 
 	}

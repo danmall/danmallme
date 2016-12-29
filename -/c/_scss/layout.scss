@@ -15,42 +15,77 @@ http://superfriend.ly/
 	&-l {
 
 		/*-------------------------------------------    
+		    Widths
+		-------------------------------------------*/
+
+		&-width--100 {
+			width: 100%;
+		}
+
+		&-width--75 {
+			width: 75%;
+		}
+
+		&-width--66 {
+			width: 66.66666666667%;
+		}
+
+		&-width--50 {
+			width: 50%;
+		}
+
+		&-width--33 {
+			width: 33.333333333333%;
+		}
+
+		&-width--25 {
+			width: 25%;
+		}
+
+		&-width--20 {
+			width: 20%;
+		}
+
+
+
+
+		/*-------------------------------------------    
 		    Columns
 		-------------------------------------------*/
 
 		&-col--100 {
 			@include dm-u-float--left;
-			width: 100%;
+			@include dm-l-width--100;
 		}
 
 		&-col--75 {
 			@include dm-u-float--left;
-			width: 75%;
+			@include dm-l-width--75;
 		}
 
 		&-col--66 {
 			@include dm-u-float--left;
-			width: 66.66666666667%;
+			@include dm-l-width--66;
 		}
 
 		&-col--50 {
 			@include dm-u-float--left;
-			width: 50%;
+			@include dm-l-width--50;
 		}
 
 		&-col--33 {
 			@include dm-u-float--left;
-			width: 33.333333333333%;
+			@include dm-l-width--33;
 		}
 
 		&-col--25 {
 			@include dm-u-float--left;
-			width: 25%;
+			@include dm-l-width--25;
 		}
 
 		&-col--20 {
 			@include dm-u-float--left;
-			width: 20%;
+			@include dm-l-width--20;
 		}
 
 	}

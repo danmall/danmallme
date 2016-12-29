@@ -42,7 +42,7 @@
 
     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
 
-    <main role="main" class="dm-c-articlesList">
+    <main role="main" class="dm-c-articlesList dm-u-padding--m">
 
         <?php parseList('articles.json', 'all', 'full'); ?>
 
