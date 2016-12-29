@@ -28,7 +28,7 @@
 
 	    <p class="dm-u-text--s dm-u-font--sans">I&rsquo;m <strong>Dan Mall</strong>, a creative director and advisor from Philly.  I&rsquo;m the director of <a href="http://superfriend.ly/">SuperFriendly</a>, a design collaborative that brings exquisite creative direction &amp; design to the world&rsquo;s most important and interesting organizations. I&rsquo;m an enthralled husband &amp; dad and co-founder of <a href="http://typedia.com/">Typedia</a> (an encyclopedia for typefaces) and <a href="http://businessology.biz/">Businessology</a> (a podcast and workshop series teaching designers how to run better businesses). You can find me on Twitter at <a href="http://twitter.com/danielmall">@danielmall</a>.</p>
 
-         <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/nav.php"); echo "\n"; ?>
+        <?php // require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/nav.php"); echo "\n"; ?>
 
 	</section><!-- #preamble -->
 

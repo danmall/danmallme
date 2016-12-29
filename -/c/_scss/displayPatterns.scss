@@ -202,7 +202,7 @@ http://superfriend.ly/
 
 			@include dm-u-bullets--none;
 			@include dm-u-marginLeft--0;
-			@include dm-u-padding--xs;
+			//@include dm-u-padding--xs;
 
 			&_item {
 				@include dm-u-display--inlineBlock;
@@ -244,22 +244,39 @@ http://superfriend.ly/
 				border-top: 1px solid $cloudy;
 			}
 
-			&_item {
+			&--noBorders ul {
+				@include dm-u-bullets--none;	
+				@include dm-u-margin--xs;
 
-				border-bottom: 1px solid $cloudy;
-
-				a, 
-				mark {
-					@include dm-u-bg--none;
-					@include dm-u-display--block;
-					@include dm-u-padding--xs;
-					@include dm-u-paddingLeft--0;
-				}
-
-				&--active {
-					@include dm-u-font--bold;
-				}
+				// improvisations
+				border: none;
 			}
+
+				&_item {
+
+					border-bottom: 1px solid $cloudy;
+
+					a {
+						@include dm-u-bg--none;
+						@include dm-u-display--block;
+						@include dm-u-padding--xs;
+						@include dm-u-paddingLeft--0;
+					}
+
+					mark {
+						@include dm-u-display--block;
+						@include dm-u-padding--xs;
+						@include dm-u-paddingLeft--0;
+					}
+
+					&--active {
+						@include dm-u-font--bold;
+					}
+
+					.dm-dp-vertSepNav--noBorders & {
+						border-bottom: none;
+					}
+				}
 
 
 			&_trigger {

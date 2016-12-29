@@ -21,11 +21,11 @@
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
 
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
+
     <header class="dm-c-pageHeader" role="banner">
 
         <h1 class="dm-c-pageHeader_title">Articles</h1>
-
-        <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/nav.php"); echo "\n"; ?>
 
         <nav role="navigation">
             <ul class="dm-dp-inlineNav dm-u-font--sans dm-u-text--s">

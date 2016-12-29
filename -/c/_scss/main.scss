@@ -29,10 +29,11 @@ http://superfriend.ly/
 
 	&-c-pageHeader {
 
+		@include dm-u-padding--m;
+
 		&_title {
 			@include dm-u-font--normal;
 			@include dm-u-text--l;
-			@include dm-u-padding--xs;
 			@include dm-u-marginBottom--xs;
 		}
 
@@ -41,6 +42,8 @@ http://superfriend.ly/
 	&-c-siteNav {
 
 		@include dm-u-marginBottom--m;
+		@include dm-u-font--sans;		
+		@include dm-u-uppercase;		
 
 		@media screen and (min-width: 850px) {			
 			//@include dm-u-marginLeft--m;
@@ -54,6 +57,17 @@ http://superfriend.ly/
 
 			// improvisationser
 			width: 73%;
+		}
+
+		&_item {
+			@include dm-u-text--s;
+			@include dm-u-align--right;
+
+			&--active {
+				display: inline-block;
+				background: $sandstone;
+				color: #fff;
+			}
 		}
 
 	}
