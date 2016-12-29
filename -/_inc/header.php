@@ -1,6 +1,6 @@
 <header class="dm-c-siteHeader dm-u-clearfix">
 
-	<div class="dm-l-col--50 dm-u-padding--m">
+	<div class="dm-l-col--50 dm-u-padding--m dm-u-paddingBottom--0">
 
 		<h1 class="dm-l-width--50 dm-u-paddingTop--s">
 			<a href="/" class="dm-u-bg--none">
@@ -10,7 +10,7 @@
 
 	</div>
 
-	<div class="dm-l-col--50 dm-u-padding--m">
+	<div class="dm-l-col--50 dm-u-padding--m dm-u-paddingBottom--0">
 
 		<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/nav.php"); echo "\n"; ?>
 

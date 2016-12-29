@@ -37,13 +37,30 @@ http://superfriend.ly/
 			@include dm-u-marginBottom--xs;
 		}
 
+		&:before {
+			@include dm-u-display--block;
+			@include dm-u-marginBottom--l;
+
+			// improvisations
+			content: "";
+			width: 50px;
+			height: 5px;
+			background: $silverRust;
+
+		}
+
 	}
+
+
+
+
+	// site nav
 
 	&-c-siteNav {
 
 		@include dm-u-marginBottom--m;
 		@include dm-u-font--sans;		
-		@include dm-u-uppercase;		
+		@include dm-u-uppercase;	
 
 		@media screen and (min-width: 850px) {			
 			//@include dm-u-marginLeft--m;
@@ -55,20 +72,37 @@ http://superfriend.ly/
 		@media screen and (min-width: 1054px) {			
 			@include dm-u-marginLeft--m;
 
-			// improvisationser
+			// improvisations
 			width: 73%;
 		}
 
-		&_item {
-			@include dm-u-text--s;
-			@include dm-u-align--right;
-
-			&--active {
-				display: inline-block;
-				background: $sandstone;
-				color: #fff;
-			}
+		ul {
+			@include dm-u-bullets--none;
 		}
+		
+			&_item {
+				@include dm-u-text--s;
+				@include dm-u-align--right;
+				@include dm-u-marginBottom--xs;
+
+				// improvisations 
+				font-size: 12px;
+				font-size: 1.2rem;
+
+				a,
+				mark {
+					@include dm-u-display--inlineBlock;
+					@include dm-u-bg--none;
+					@include dm-u-padding--xs;
+				}
+
+				&--active a,
+				&--active mark {
+					background: $sandstone;
+					color: #fff;
+				}
+
+			}
 
 	}
 
