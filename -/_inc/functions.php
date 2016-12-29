@@ -21,7 +21,9 @@ function parseList($file, $num, $type){
     for($i = 0; $i < $articlesLength; $i++){
 
         // convert tags to array
-        $tags = $articles[$i]['tags'];
+        if(!empty($articles[$i]['tags'])){
+            $tags = $articles[$i]['tags'];
+        }
 
         // Open entry
         echo "\t" . '<article class="hentry dm-dp-textBlurb">'. "\n\t\t";
@@ -30,29 +32,42 @@ function parseList($file, $num, $type){
         echo '<header class="dm-dp-textBlurb_header">' . "\n\t\t\t";
 
         // print headline link to slug
-        if(strpos($articles[$i]['slug'], 'http://') !== false){
-            echo '<h1 class="entry-title dm-dp-textBlurb_title"><a href="' . $ARTICLES_DIRECTORY . $articles[$i]['slug'] .'/">' . $articles[$i]['title'] . '</a></h1>'. "\n\t\t\t";  
-        }else{
-            echo '<h1 class="entry-title dm-dp-textBlurb_title"><a href="' . $articles[$i]['slug'] .'">' . $articles[$i]['title'] . '</a></h1>'. "\n\t\t\t"; 
+        if(!empty($articles[$i]['title']) && !empty($articles[$i]['slug'])){
+            if(strpos($articles[$i]['slug'], 'http://') !== false){
+                echo '<h1 class="entry-title dm-dp-textBlurb_title"><a href="' . $ARTICLES_DIRECTORY . $articles[$i]['slug'] .'/">' . $articles[$i]['title'] . '</a></h1>'. "\n\t\t\t";  
+            }else{
+                echo '<h1 class="entry-title dm-dp-textBlurb_title"><a href="' . $articles[$i]['slug'] .'">' . $articles[$i]['title'] . '</a></h1>'. "\n\t\t\t"; 
+            }
         }
 
         /// print timestamp
-        echo '<time class="published dm-dp-textBlurb_time" datetime="' . $articles[$i]['date'] . '">' . date('M d, Y' , strtotime($articles[$i]['date'])) . '</time>' . "\n\t\t";
+        if(!empty($articles[$i]['date'])){
+            echo '<time class="published dm-dp-textBlurb_time" datetime="' . $articles[$i]['date'] . '">' . date('M d, Y' , strtotime($articles[$i]['date'])) . '</time>' . "\n\t\t";
+        }
 
         // close article header
         echo '</header>' . "\n\t\t";
 
         if($type == 'full'){
+
+            if(!empty($articles[$i]['dek'])){
         
-	        // print dek
-	        echo '<div class="entry-summary dm-dp-textBlurb_dek">' . $articles[$i]['dek'] . '</div>' . "\n\t\t";                  
+    	        // print dek
+    	        echo '<div class="entry-summary dm-dp-textBlurb_dek">' . $articles[$i]['dek'] . '</div>' . "\n\t\t";                  
+
+            }
 
 	        // print tags
-	        echo '<ul class="tags dm-dp-textBlurb_tags">' . "\n\t\t";
-	        for($j=0; $j < sizeof($tags); $j++){
-	            echo "\t" . '<li class="dm-dp-textBlurb_tags_item">' . $tags[$j] . "</li>\n\t\t";
-	        }
-	        echo '</ul>';
+            if(isset($tags)){
+
+    	        echo '<ul class="tags dm-dp-textBlurb_tags">' . "\n\t\t";
+
+    	        for($j=0; $j < sizeof($tags); $j++){
+    	            echo "\t" . '<li class="dm-dp-textBlurb_tags_item">' . $tags[$j] . "</li>\n\t\t";
+    	        }
+    	        echo '</ul>';
+
+            }
 
 	    }
 
@@ -82,10 +97,14 @@ function parseQuotes($file, $num) {
         echo "\t" . '<blockquote class="dm-dp-quote">'. "\n\t\t";
 
         // print quote
-        echo '<p>' . $quotes[$randomQuotes[$i]]['quote'] . '</p>' . "\n\t\t";
+        if(!empty($quotes[$randomQuotes[$i]]['quote'])){
+            echo '<p>' . $quotes[$randomQuotes[$i]]['quote'] . '</p>' . "\n\t\t";
+        }
 
         // print attribution
-        echo '<address class="dm-dp-quote_attribution"><strong>' . $quotes[$randomQuotes[$i]]['person'] . '</strong>, ' . $quotes[$randomQuotes[$i]]['role'] . "</address>" . "\n\t\t";
+        if(!empty($quotes[$randomQuotes[$i]]['person']) && !empty($quotes[$randomQuotes[$i]]['role'])){
+            echo '<address class="dm-dp-quote_attribution"><strong>' . $quotes[$randomQuotes[$i]]['person'] . '</strong>, ' . $quotes[$randomQuotes[$i]]['role'] . "</address>" . "\n\t\t";
+        }
 
         // close article header
         echo '</blockquote>' . "\n\t\t";

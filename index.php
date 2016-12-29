@@ -55,28 +55,6 @@
 
         <h1 class="dm-u-move--offscreen">Quotes about Dan</h1>
 
-        <?php /* ?>
-    	<blockquote class="dm-dp-quote">
-    		<p>Few designers can capture a brand&rsquo;s essence and deliver a design that takes that brand to a new level. Dan did that at the pitch meeting.</p>
-			<address class="dm-dp-quote_attribution"><strong>Rob Walker</strong>, Former Digital Marketing Manager, Crayola</address>
-    	</blockquote>
-
-    	<blockquote class="dm-dp-quote">
-    		<p>I promise that Dan Mall is more inspiring and talented than you.</p>
-			<address class="dm-dp-quote_attribution"><strong>Chris Matthews</strong>, Strategy, Apple</address>
-    	</blockquote>
-
-    	<blockquote class="dm-dp-quote">
-    		<p>Dan is an amazing teacher and mentor to everyone he works with&mdash;no matter the discipline or level. My only regret about working with Dan is that it didn&rsquo;t last longer.</p>
-			<address class="dm-dp-quote_attribution"><strong>Karina Elise</strong>, Creative Lead, Google</address>
-    	</blockquote>
-
-    	<blockquote class="dm-dp-quote">
-    		<p>Dan certainly has one of the best minds for design in our industry, but he takes it so much further in his unparalleled grace and his seamless collaboration with his team and his clients.</p>
-			<address class="dm-dp-quote_attribution"><strong>Mike Kenny</strong>, Former Director of User Experience, Code &amp; Theory</address>
-    	</blockquote>
-        <?php */ ?>
-
         <?php parseQuotes($_SERVER["DOCUMENT_ROOT"].'/quotes.json', 4); ?>
 
     </section><!-- #testimonials -->
