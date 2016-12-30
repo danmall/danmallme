@@ -81,6 +81,9 @@ http://superfriend.ly/
 			&--small {
 				@include dm-l-col--50;
 				@include dm-u-paddingRight--m;
+
+				// improvisations
+				min-height: 130px;
 			}
 			
 			&_header {
@@ -98,6 +101,17 @@ http://superfriend.ly/
 				.dm-dp-textBlurb--small & {
 					@include dm-u-text--s;
 				}
+			}
+
+			&_badge {
+				@include dm-u-font--sans;
+				@include dm-u-uppercase;
+				@include dm-u-display--inlineBlock;
+				@include dm-u-marginBottom--xs;
+
+				// improvisations
+				background: $turbo;
+				padding: 4px;
 			}
 
 			&_time,

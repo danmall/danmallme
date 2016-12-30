@@ -1,5 +1,29 @@
 [
 	{
+		"title"		: 	"REVOLVE Conference",
+		"slug"		:	"http://lanyrd.com/2017/revolveconf/",
+		"date"		:	"2017-10-25",
+		"location"	:	"Charleston, <abbr title=\"South Carolina\">SC</abbr>"
+	},
+	{
+		"title"		: 	"An Event Apart",
+		"slug"		:	"https://aneventapart.com/event/boston-2017",
+		"date"		:	"2017-05-15",
+		"location"	:	"Boston, <abbr title=\"Massachusetts\">MA</abbr>"
+	},
+	{
+		"title"		: 	"O&rsquo;Reilly Design Conference",
+		"slug"		:	"http://conferences.oreilly.com/design/ux-interaction-iot-us",
+		"date"		:	"2017-03-19",
+		"location"	:	"San Francisco, <abbr title=\"California\">CA</abbr>"
+	},
+	{
+		"title"		: 	"Owner Summit",
+		"slug"		:	"http://bureauofdigital.com/owner-summit-2017/",
+		"date"		:	"2017-02-20",
+		"location"	:	"San Diego, <abbr>CA</abbr>"
+	},
+	{
 		"title"		: 	"UIE&rsquo;s &ldquo;All You Can Learn&rdquo; Library",
 		"slug"		:	"https://aycl.uie.com/virtual_seminars/so_what_do_i_make",
 		"date"		:	"2016-10-20",
@@ -67,7 +91,7 @@
 		"location"	:	"Lake Tahoe, <abbr title=\"California\">CA</abbr>"
 	},
 	{
-		"title"		: 	"GAiN: Global Adventist Internet Network",
+		"title"		: 	"GAiN",
 		"slug"		:	"http://gain.adventist.org/2016/",
 		"date"		:	"2016-02-24",
 		"location"	:	"Washington, <abbr title=\"District of Columbia\">DC</abbr>"
@@ -283,7 +307,7 @@
 		"type"		:	"Webinar"
 	},
 	{
-		"title"		: 	"SXSW: Jeffrey Zeldman&rsquo;s Awesome Internet Design Panel",
+		"title"		: 	"SXSW: Zeldman&rsquo;s Awesome Internet Panel",
 		"slug"		:	"https://www.youtube.com/watch?v=DSUIvacY4XA",
 		"video"		:	true,
 		"date"		:	"2011-03-11",
@@ -297,7 +321,7 @@
 		"type"		:	"Jury"
 	},
 	{
-		"title"		: 	"Flash Intensive, for School of Visual Arts",
+		"title"		: 	"Flash Intensive, for <abbr title=\"School of Visual Arts\">SVA</abbr>",
 		"date"		:	"2011-02-05",
 		"location"	:	"New York City"
 	},
