@@ -282,7 +282,7 @@
 		"location"	:	"San Francisco, <abbr>CA</abbr>"
 	},
 	{
-		"title"		: 	"DPM Philly Event: Colaborating for the Win",
+		"title"		: 	"DPM Philly: Collaborating for the Win",
 		"slug"		:	"https://dpmphilly.ticketleap.com/a-dpm-philly-event-collaborating-for-the-win/details",
 		"date"		:	"2014-09-09",
 		"location"	:	"Philadelphia, <abbr>PA</abbr>"
@@ -453,7 +453,7 @@
 		"location"	:	"Austin, <abbr>TX</abbr>"
 	},
 	{
-		"title"		: 	"Art Directors Club 90th Annual Awards Interactive",
+		"title"		: 	"Art Directors Club 90",
 		"slug"		:	"https://www.youtube.com/watch?v=DSUIvacY4XA",
 		"video"		:	true,
 		"date"		:	"2011-02-23",
@@ -475,7 +475,7 @@
 		"location"	:	"New York City"
 	},
 	{
-		"title"		: 	"SXSW: Is WordPress Killing Web Design?",
+		"title"		: 	"SXSW",
 		"date"		:	"2010-03-12",
 		"location"	:	"Austin, <abbr>TX</abbr>"
 	},
