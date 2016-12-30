@@ -24,6 +24,41 @@
 		"location"	:	"San Diego, <abbr>CA</abbr>"
 	},
 	{
+		"title"		: 	"O&rsquo;Reilly Design Podcast",
+		"slug"		:	"https://www.oreilly.com/ideas/dan-mall-on-designing-with-friends",
+		"audio"		:	true,
+		"date"		:	"2016-12-08",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"Motion and Meaning",
+		"slug"		:	"http://motionandmeaning.io/episode12.html",
+		"audio"		:	true,
+		"date"		:	"2016-11-21",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"Increasing Agency Profit with Value-Based Pricing",
+		"slug"		:	"https://jasonswenk.com/value-based-pricing/",
+		"audio"		:	true,
+		"date"		:	"2016-11-16",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"Yonder",
+		"slug"		:	"http://www.yonder.io/post/2016/11/11/episode-8-dan-mall",
+		"audio"		:	true,
+		"date"		:	"2016-11-11",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"Ask a Freelancer",
+		"slug"		:	"http://cushionapp.com/ask-a-freelancer/episode-008/",
+		"audio"		:	true,
+		"date"		:	"2016-10-25",
+		"type"		:	"Podcast"
+	},
+	{
 		"title"		: 	"UIE&rsquo;s &ldquo;All You Can Learn&rdquo; Library",
 		"slug"		:	"https://aycl.uie.com/virtual_seminars/so_what_do_i_make",
 		"date"		:	"2016-10-20",
@@ -109,6 +144,13 @@
 		"location"	:	"New York City"
 	},
 	{
+		"title"		: 	"Design Details",
+		"slug"		:	"https://spec.fm/podcasts/design-details/23251",
+		"audio"		:	true,
+		"date"		:	"2015-12-28",
+		"type"		:	"Podcast"
+	},
+	{
 		"title"		: 	"JS Open Day NYC, by Microsoft",
 		"slug"		:	"https://channel9.msdn.com/Blogs/raw-tech/Responsive-Web-Design-with-Daniel-Mall",
 		"video"		:	true,
@@ -143,6 +185,41 @@
 		"location"	:	"Philadelphia, <abbr>PA</abbr>"
 	},
 	{
+		"title"		: 	"CTRL+CLICK CAST",
+		"slug"		:	"http://ctrlclickcast.com/episodes/professionalism",
+		"audio"		:	true,
+		"date"		:	"2015-08-13",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"Unfinished Business",
+		"slug"		:	"https://stuffandnonsense.co.uk/blog/about/unfinished-business-114-fair-cop-guv-with-dan-edwards-and-daniel-mall",
+		"audio"		:	true,
+		"date"		:	"2015-08-10",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"The Start",
+		"slug"		:	"http://thestart.fm/interviews/the-dad-designer",
+		"audio"		:	true,
+		"date"		:	"2015-07-22",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"The Bureau Briefing",
+		"slug"		:	"http://bureauofdigital.com/radio/bureau-briefing/",
+		"audio"		:	true,
+		"date"		:	"2015-07-08",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"Design Edu Today",
+		"slug"		:	"http://designedu.today/episodes/dan-mall.php",
+		"audio"		:	true,
+		"date"		:	"2015-06-09",
+		"type"		:	"Podcast"
+	},
+	{
 		"title"		: 	"An Event Apart",
 		"date"		:	"2015-06-08",
 		"location"	:	"San Diego, <abbr>CA</abbr>"
@@ -151,6 +228,13 @@
 		"title"		: 	"Creative Director Camp",
 		"date"		:	"2015-06-01",
 		"location"	:	"Philadelphia, <abbr>PA</abbr>"
+	},
+	{
+		"title"		: 	"BizCraft",
+		"slug"		:	"http://unmatchedstyle.com/news/bizcraft-episode-49-interview-dan-mall.php",
+		"audio"		:	true,
+		"date"		:	"2015-05-11",
+		"type"		:	"Podcast"
 	},
 	{
 		"title"		: 	"Future of Web Design",
@@ -219,6 +303,12 @@
 		"location"	:	"Washington <abbr>DC</abbr>"
 	},
 	{
+		"title"		: 	"Web Friends",
+		"slug"		:	"http://webfriends.io/season/2/episode/3/",
+		"date"		:	"2014-06-20",
+		"type"		:	"Podcast"
+	},
+	{
 		"title"		: 	"Design Deliverables for a Post-Comp Era, for Typecast",
 		"slug"		:	"http://typecast.com/seminars/post-comp",
 		"date"		:	"2014-06-05",
@@ -237,9 +327,30 @@
 		"location"	:	"Boston, <abbr title=\"Massachusetts\">MA</abbr>"
 	},
 	{
+		"title"		: 	"Let&rsquo;s Make Mistakes",
+		"slug"		:	"https://soundcloud.com/lets-make-mistakes/132-the-price-of-doing-business",
+		"audio"		:	true,
+		"date"		:	"2014-04-16",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"Pencil vs. Pixel",
+		"slug"		:	"https://www.youtube.com/watch?v=mkoazSdC6q0",
+		"video"		:	true,
+		"date"		:	"2014-03-10",
+		"type"		:	"Podcast"
+	},
+	{
 		"title"		: 	"RWD Summit",
 		"date"		:	"2014-04-01",
 		"type"		:	"Online"
+	},
+	{
+		"title"		: 	"The Bitchcast",
+		"slug"		:	"http://thebitchwhocodes.com/2013/10/04/the-bitchcast-with-special-guest-daniel-mall/",
+		"audio"		:	true,
+		"date"		:	"2013-10-04",
+		"type"		:	"Podcast"
 	},
 	{
 		"title"		: 	"Smashing Conference",
@@ -262,6 +373,13 @@
 		"location"	:	"Austin, <abbr>TX</abbr>"
 	},
 	{
+		"title"		: 	"Happy Monday Podcast",
+		"slug"		:	"http://www.happymondaypodcast.com/episodes/20-episode21-dan-mall",
+		"audio"		:	true,
+		"date"		:	"2013-05-05",
+		"type"		:	"Podcast>"
+	},
+	{
 		"title"		: 	"FITC",
 		"date"		:	"2013-04-20",
 		"location"	:	"Toronto, Canada"
@@ -270,6 +388,27 @@
 		"title"		: 	"RWD Summit",
 		"date"		:	"2013-04-16",
 		"type"		:	"Online"
+	},
+	{
+		"title"		: 	"Non Breaking Space Show",
+		"slug"		:	"http://goodstuff.fm/nbsp/31",
+		"audio"		:	true,
+		"date"		:	"2013-04-12",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"The Gently Mad",
+		"slug"		:	"http://thegentlymad.com/episodes/003-dan-mall/",
+		"audio"		:	true,
+		"date"		:	"2013-01-31",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"BizCraft",
+		"slug"		:	"http://unmatchedstyle.com/news/bizcraft-episode-14.php",
+		"audio"		:	true,
+		"date"		:	"2012-12-19",
+		"type"		:	"Podcast"
 	},
 	{
 		"title"		: 	"AIGA Jacksonville",
