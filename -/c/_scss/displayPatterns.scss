@@ -77,6 +77,11 @@ http://superfriend.ly/
 		&-textBlurb {
 
 			@include dm-u-marginBottom--xxl;
+
+			&--small {
+				@include dm-l-col--50;
+				@include dm-u-paddingRight--m;
+			}
 			
 			&_header {
 				@include dm-u-display--flex;
@@ -89,9 +94,15 @@ http://superfriend.ly/
 				@include dm-u-text--m;
 				@include dm-u-leading--m;
 				@include dm-u-font--normal;	
+
+				.dm-dp-textBlurb--small & {
+					@include dm-u-text--s;
+				}
 			}
 
-			&_time {
+			&_time,
+			&_location,
+			&_type {
 				@include dm-u-text--xs;
 				@include dm-u-font--sans;
 				@include dm-u-uppercase;
@@ -235,18 +246,14 @@ http://superfriend.ly/
 		// vertically separated nav
 
 		&-vertSepNav {
+			
+			@include dm-u-bullets--none;	
+			@include dm-u-margin--xs;
 
-			ul {
-				@include dm-u-bullets--none;	
-				@include dm-u-margin--xs;
+			// improvisations
+			border-top: 1px solid $cloudy;
 
-				// improvisations
-				border-top: 1px solid $cloudy;
-			}
-
-			&--noBorders ul {
-				@include dm-u-bullets--none;	
-				@include dm-u-margin--xs;
+			&--noBorders {
 
 				// improvisations
 				border: none;
@@ -271,10 +278,6 @@ http://superfriend.ly/
 
 					&--active {
 						@include dm-u-font--bold;
-					}
-
-					.dm-dp-vertSepNav--noBorders & {
-						border-bottom: none;
 					}
 				}
 

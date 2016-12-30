@@ -5,11 +5,19 @@
 }
 segmentURL($_SERVER['REQUEST_URI']);*/
 
-function parseList($file, $num, $type){
+function getTotalItems($file){
+    $items = json_decode(file_get_contents($file), true);        
+    return sizeof($items);
+}
+
+function parseList($file, $num, $type, $displayStyle){
 
 	// $type = 'full' or 'abridged'
 
+    // $displayStyle = 'small' or 'large'
+
 	$articles = json_decode(file_get_contents($file), true);
+
 	if($num == 'all'){
 		$articlesLength = sizeof($articles);	
 	}else{
@@ -26,27 +34,45 @@ function parseList($file, $num, $type){
         }
 
         // Open entry
-        echo "\t" . '<article class="hentry dm-dp-textBlurb">'. "\n\t\t";
+        if(isset($displayStyle)){
+            if($displayStyle == 'small'){
+                echo "\t" . '<article class="hentry dm-dp-textBlurb dm-dp-textBlurb--small">'. "\n\t\t";
+            }else{
+                echo "\t" . '<article class="hentry dm-dp-textBlurb">'. "\n\t\t";
+            }
+        }
 
         // create article header
         echo '<header class="dm-dp-textBlurb_header">' . "\n\t\t\t";
 
         // print headline link to slug
-        if(!empty($articles[$i]['title']) && !empty($articles[$i]['slug'])){
+        if(!empty($articles[$i]['slug'])){
             if(strpos($articles[$i]['slug'], 'http://') !== false){
                 echo '<h1 class="entry-title dm-dp-textBlurb_title"><a href="' . $ARTICLES_DIRECTORY . $articles[$i]['slug'] .'/">' . $articles[$i]['title'] . '</a></h1>'. "\n\t\t\t";  
             }else{
                 echo '<h1 class="entry-title dm-dp-textBlurb_title"><a href="' . $articles[$i]['slug'] .'">' . $articles[$i]['title'] . '</a></h1>'. "\n\t\t\t"; 
             }
+        }else{
+            echo '<h1 class="entry-title dm-dp-textBlurb_title">' . $articles[$i]['title'] . '</h1>'. "\n\t\t\t";
         }
 
-        /// print timestamp
+        // print timestamp
         if(!empty($articles[$i]['date'])){
             echo '<time class="published dm-dp-textBlurb_time" datetime="' . $articles[$i]['date'] . '">' . date('M d, Y' , strtotime($articles[$i]['date'])) . '</time>' . "\n\t\t";
         }
 
         // close article header
         echo '</header>' . "\n\t\t";
+
+        /// print location
+        if(!empty($articles[$i]['location'])){
+            echo '<div class="dm-dp-textBlurb_location">' . $articles[$i]['location'] . '</div>' . "\n\t\t";
+        }
+
+        /// print location
+        if(!empty($articles[$i]['type'])){
+            echo '<div class="dm-dp-textBlurb_type">' . $articles[$i]['type'] . '</div>' . "\n\t\t";
+        }
 
         if($type == 'full'){
 

@@ -50,6 +50,24 @@
 			<a href="/articles/">Articles</a>
 		</li>
 		<?php } ?>
+
+
+
+		<?php if(strstr($_SERVER['REQUEST_URI'], '/speaking/')) { ?>
+	        <?php if($_SERVER['REQUEST_URI'] == '/speaking/') { ?>  
+	        <li class="dm-c-siteNav_item dm-c-siteNav_item--active">
+	        	<mark>Speaking &amp; Podcasts</mark>
+	        </li>        	        
+	        <?php } else { ?>
+	        <li class="dm-c-siteNav_item dm-c-siteNav_item--active">
+	        	<a href="/speaking/">Speaking &amp; Podcasts</a>
+	        </li>
+	        <?php } ?>
+		<?php } else { ?>
+		<li class="dm-c-siteNav_item">
+			<a href="/speaking/">Speaking &amp; Podcasts</a>
+		</li>
+		<?php } ?>
 		
 		
 

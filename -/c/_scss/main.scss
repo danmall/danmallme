@@ -35,6 +35,7 @@ http://superfriend.ly/
 			@include dm-u-font--normal;
 			@include dm-u-text--l;
 			@include dm-u-marginBottom--xs;
+			@include dm-u-leading--s;
 		}
 
 		&:before {
@@ -83,17 +84,21 @@ http://superfriend.ly/
 			&_item {
 				@include dm-u-text--s;
 				@include dm-u-align--right;
-				@include dm-u-marginBottom--xs;
+				//@include dm-u-marginBottom--xs;
 
 				// improvisations 
-				font-size: 12px;
-				font-size: 1.2rem;
+				font-size: 10px;
+				font-size: 1rem;
+				margin-bottom: 5px;
 
 				a,
 				mark {
 					@include dm-u-display--inlineBlock;
 					@include dm-u-bg--none;
-					@include dm-u-padding--xs;
+					//@include dm-u-padding--xs;
+
+					// improvisations
+					padding: 6px;
 				}
 
 				&--active a,

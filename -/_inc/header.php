@@ -1,8 +1,8 @@
-<header class="dm-c-siteHeader dm-u-clearfix">
+<header class="dm-c-siteHeader dm-u-clearfix dm-u-marginBottom--0 dm-u-paddingBottom--0">
 
-	<div class="dm-l-col--50 dm-u-padding--m dm-u-paddingBottom--0">
+	<div class="dm-l-col--33 dm-u-padding--m dm-u-paddingBottom--0 dm-u-marginBottom--0">
 
-		<h1 class="dm-l-width--50 dm-u-paddingTop--s">
+		<h1 class="dm-l-width--100 dm-u-paddingTop--s dm-u-marginBottom--0">
 			<a href="/" class="dm-u-bg--none">
 				<?php require($_SERVER["DOCUMENT_ROOT"]."/i/d.svg"); echo "\n"; ?>
 			</a>
@@ -10,7 +10,7 @@
 
 	</div>
 
-	<div class="dm-l-col--50 dm-u-padding--m dm-u-paddingBottom--0">
+	<div class="dm-l-col--66 dm-u-padding--m dm-u-paddingBottom--0 dm-u-paddingLeft--0">
 
 		<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/nav.php"); echo "\n"; ?>
 

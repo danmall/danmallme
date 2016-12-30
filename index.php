@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>Dan Mall / Creative Director & Advisor</title>
+    <title>Dan Mall / Creative Director &amp; Advisor</title>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?> 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
 
@@ -28,6 +28,12 @@
 
 	    <p class="dm-u-text--s dm-u-font--sans">I&rsquo;m <strong>Dan Mall</strong>, a creative director and advisor from Philly.  I&rsquo;m the director of <a href="http://superfriend.ly/">SuperFriendly</a>, a design collaborative that brings exquisite creative direction &amp; design to the world&rsquo;s most important and interesting organizations. I&rsquo;m an enthralled husband &amp; dad and co-founder of <a href="http://typedia.com/">Typedia</a> (an encyclopedia for typefaces) and <a href="http://businessology.biz/">Businessology</a> (a podcast and workshop series teaching designers how to run better businesses). You can find me on Twitter at <a href="http://twitter.com/danielmall">@danielmall</a>.</p>
 
+        <ul class="dm-dp-vertSepNav">
+            <li class="dm-dp-vertSepNav_item"><a href="/about/">About</a>
+            <li class="dm-dp-vertSepNav_item"><a href="/articles/">Articles</a>
+            <li class="dm-dp-vertSepNav_item"><a href="/contact/">Contact</a>
+        </ul>
+
         <?php // require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/nav.php"); echo "\n"; ?>
 
 	</section><!-- #preamble -->
@@ -38,14 +44,14 @@
 
     	<h1 class="dm-u-text--m">I wrote a book.</h1>
 
+        <!-- todo: insert PD book image with AJAX -->
         <div class="dm-c-pricingDesignContainer">
             <?php require($_SERVER["DOCUMENT_ROOT"]."/i/home/pricing-design-cover-outlined.svg"); echo "\n"; ?>
         </div>
 
     	<p>Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec id elit non mi porta gravida at eget metus.</p>
-    	<p>Nulla vitae elit libero, a pharetra augue. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo.</p>
 
-    	<!-- todo: insert PD book image with AJAX -->
+    	<p>Nulla vitae elit libero, a pharetra augue. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo.</p>
 
     </section><!-- #pricing-design -->
 
@@ -88,7 +94,7 @@
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </li>
             <li>
-                <h2 class="dm-u-text--s">Growing your product team in smarts &amp; skills.</h2>
+                <h2 class="dm-u-text--s">Speak at your event.</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </li>

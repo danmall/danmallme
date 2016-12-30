@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>Articles by Dan Mall</title>
+    <title>Dan Mall&rsquo;s Speaking Schedule, Speaking History, and Podcasts</title>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?> 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
 
@@ -26,8 +26,10 @@
     <header class="dm-c-pageHeader" role="banner">
 
         <h1 class="dm-c-pageHeader_title">
-            Articles<sup class="dm-u-text--s dm-u-marginLeft--xs"><?php echo getTotalItems('articles.json'); ?></sup>
+            Speaking &amp; Podcasts<sup class="dm-u-text--s dm-u-marginLeft--xs"><?php echo getTotalItems('speaking.json'); ?></sup>
         </h1>
+
+        <p>I&rsquo;ve been very fortunate to speak for and with many people about the things that keep me professionally interested. Below, you&rsquo;ll find an assortment of talks and podcasts I&rsquo;ve participated in over the last decade. If you&rsquo;d like me to speak at a public or private event about design process, running a successful agency, or how to build great digital products, please <a href="/contact/">get in touch</a>.</p>
 
         <?php /* ?>
         <nav role="navigation">
@@ -46,9 +48,11 @@
 
     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
 
+    <!-- TODO: world map -->
+
     <main role="main" class="dm-c-articlesList dm-u-padding--m">
 
-        <?php parseList('articles.json', 'all', 'full', 'large'); ?>
+        <?php parseList('speaking.json', 'all', 'full', 'small'); ?>
 
     </main>
 
