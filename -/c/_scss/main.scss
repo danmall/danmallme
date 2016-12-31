@@ -31,6 +31,19 @@ http://superfriend.ly/
 
 		@include dm-u-padding--m;
 
+		&:before {
+			@include dm-u-display--block;
+			@include dm-u-marginBottom--l;
+			@include dm-u-marginLeft--m;
+
+			// improvisations
+			content: "";
+			background: $silverRust;
+			height: 60px;
+			width: 3px;
+			margin-top: -50px;
+		}
+
 		&_title {
 			@include dm-u-font--normal;
 			@include dm-u-text--l;
@@ -38,16 +51,12 @@ http://superfriend.ly/
 			@include dm-u-leading--s;
 		}
 
-		&:before {
-			@include dm-u-display--block;
-			@include dm-u-marginBottom--l;
+		
 
-			// improvisations
-			content: "";
-			width: 50px;
-			height: 5px;
-			background: $silverRust;
-
+		&_date {
+			@include dm-u-font--sans;
+			@include dm-u-text--s;
+			@include dm-u-font--normal;
 		}
 
 	}

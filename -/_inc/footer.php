@@ -1,4 +1,4 @@
-<footer class="dm-c-siteFooter">
+<footer role="complementary" class="dm-c-siteFooter">
 
 	<div class="dm-c-siteFooter_copyright">
 		<p>&copy; 2005 &ndash; <?php echo date('Y'); ?> Dan Mall, a Philly jawn.Thou shalt not steal.</p>

@@ -212,6 +212,117 @@ http://superfriend.ly/
 			}
 		}
 
+		// opening lines
+
+		&-openingLines {
+			@include dm-u-uppercase;
+
+			// improvisations
+			font-size: 90%;
+		}
+
+
+		// text passage
+
+		&-textPassage {
+
+			p {
+				@include dm-u-marginBottom--0;
+
+				// improvisations
+				text-indent: 1.5em;
+
+				&:first-child {
+					text-indent: 0;
+				}
+			}
+
+			ul {
+				@include dm-u-bullets--none;
+				@include dm-u-marginLeft--0;
+				@include dm-u-marginTop--s;
+
+				// improvisations
+				font-size: 15px;
+				font-size: 1.5rem;
+
+				li {
+					@include dm-u-marginLeft--s;
+					@include dm-u-marginBottom--xs
+					@include dm-u-pos--relative;
+
+					&:before {
+						@include dm-u-pos--absolute;
+
+						content: "";
+						display: inline-block;
+						width: 0.5rem;
+						height: 0.5rem;
+						background: $wistful;
+						top: 0.8rem;
+						left: -1.4rem;
+
+					}
+					
+				}
+
+			}
+
+			ol {
+				@include dm-u-bullets--none;
+				@include dm-u-marginLeft--0;
+				@include dm-u-marginTop--s;
+
+				// improvisations
+				font-size: 15px;
+				font-size: 1.5rem;
+				counter-reset: section; 
+
+				li {
+					@include dm-u-marginLeft--m;
+					@include dm-u-marginBottom--xs;
+					@include dm-u-pos--relative;
+
+					&:before {
+						@include dm-u-font--sans;
+						@include dm-u-align--right;
+						@include dm-u-pos--absolute;
+						
+						// improvisations
+						counter-increment: section;
+  						content: counter(section);
+  						color: $wistful;
+  						font-size: 12px;
+  						font-size: 1.2rem;
+  						left: -2.3rem;
+  						top: 0.3rem;
+					}
+
+					// Thanks Chris Coyier! https://css-tricks.com/useful-nth-child-recipies/
+					&:nth-child(-n+9):before {
+						content: "0" counter(section);
+					}
+
+				}
+			}
+
+			blockquote {
+				@include dm-u-marginTop--m;
+				@include dm-u-marginBottom--m;
+
+				p {
+					border-left: 3px solid $armadillo;
+					span {
+						@include dm-u-padding--xs;
+						@include dm-u-paddingLeft--0;
+						background: $armadillo;
+						color: #fff;
+					}
+				}
+			}
+
+		}
+
 
 
 
