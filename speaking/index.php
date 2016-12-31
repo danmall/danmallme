@@ -29,7 +29,7 @@
             Speaking &amp; Podcasts<sup class="dm-u-text--s dm-u-marginLeft--xs"><?php echo getTotalItems('speaking.json'); ?></sup>
         </h1>
 
-        <p>I&rsquo;ve been very fortunate to speak for and with many people about the things that keep me professionally interested. Below, you&rsquo;ll find an assortment of talks and podcasts I&rsquo;ve participated in over the last decade. If you&rsquo;d like me to speak at a public or private event or on a podcast about design process, running a successful agency, or how to build great digital products, please <a href="/contact/">get in touch</a>.</p>
+        <p>I&rsquo;ve been very fortunate to speak for and with many people about the things that keep me professionally interested. Below, you&rsquo;ll find an assortment of talks and podcasts I&rsquo;ve done over the last decade. If you&rsquo;d like me to speak at a public or private event or on a podcast about design process, running a successful agency, or how to build great digital products, please <a href="/contact/">get in touch</a>.</p>
 
         <?php /* ?>
         <nav role="navigation">

@@ -73,7 +73,7 @@
 
     	<h1 class="dm-dp-boxedHeadline dm-u-marginBottom--xl">Latest Articles</h1>
 
-        <?php parseList($_SERVER["DOCUMENT_ROOT"].'/articles/articles.json', 5, 'abridged'); ?>
+        <?php parseList($_SERVER["DOCUMENT_ROOT"].'/articles/articles.json', 5, 'abridged', 'large'); ?>
 
     	<p class="dm-dp-seeAll">
             <a class="dm-dp-seeAll_link" href="/articles/">See all Articles</a>
@@ -85,21 +85,21 @@
 
     <section id="hire-me" class="dm-u-padding--m">
 
-        <h1 class="dm-dp-pointerHeadline">Hire me to help with</h1>
+        <h1 class="dm-dp-pointerHeadline">Hire me to</h1>
 
         <ol class="dm-u-bullets--none dm-u-marginLeft--0">
             <li>
-                <h2 class="dm-u-text--s">Making a digital product your organization can only dream of.</h2>
+                <h2 class="dm-u-text--s">Make a digital product your organization can only dream of.</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </li>
             <li>
-                <h2 class="dm-u-text--s">Speak at your event.</h2>
+                <h2 class="dm-u-text--s">Speak to your team or at your event.</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </li>
             <li>
-                <h2 class="dm-u-text--s">Taking your agency to the next level.</h2>
+                <h2 class="dm-u-text--s">Take your agency to the next level.</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </li>
