@@ -36,7 +36,15 @@ function parseList($file, $num, $type, $displayStyle){
         // Open entry
         if(isset($displayStyle)){
             if($displayStyle == 'small'){
-                echo "\t" . '<article class="hentry dm-dp-textBlurb dm-dp-textBlurb--small">'. "\n\t\t";
+                if(!empty($articles[$i]['audio']) || !empty($articles[$i]['video'])){
+                    if(isset($articles[$i]['audio'])){
+                        echo "\t" . '<article class="hentry dm-dp-textBlurb dm-dp-textBlurb--audio dm-dp-textBlurb--small">'. "\n\t\t";
+                    }else if($articles[$i]['video']){
+                        echo "\t" . '<article class="hentry dm-dp-textBlurb dm-dp-textBlurb--video dm-dp-textBlurb--small">'. "\n\t\t";
+                    }
+                }else{
+                    echo "\t" . '<article class="hentry dm-dp-textBlurb dm-dp-textBlurb--small">'. "\n\t\t";
+                }
             }else{
                 echo "\t" . '<article class="hentry dm-dp-textBlurb">'. "\n\t\t";
             }
@@ -57,10 +65,10 @@ function parseList($file, $num, $type, $displayStyle){
 
         // print headline link to slug
         if(!empty($articles[$i]['slug'])){
-            if(strpos($articles[$i]['slug'], 'http://') !== false){
-                echo '<h1 class="entry-title dm-dp-textBlurb_title"><a href="' . $ARTICLES_DIRECTORY . $articles[$i]['slug'] .'/">' . $articles[$i]['title'] . '</a></h1>'. "\n\t\t\t";  
-            }else{
+            if((strpos($articles[$i]['slug'], 'http://') !== false) || (strpos($articles[$i]['slug'], 'https://') !== false)){
                 echo '<h1 class="entry-title dm-dp-textBlurb_title"><a href="' . $articles[$i]['slug'] .'">' . $articles[$i]['title'] . '</a></h1>'. "\n\t\t\t"; 
+            }else{
+                echo '<h1 class="entry-title dm-dp-textBlurb_title"><a href="' . $ARTICLES_DIRECTORY . $articles[$i]['slug'] .'/">' . $articles[$i]['title'] . '</a></h1>'. "\n\t\t\t";
             }
         }else{
             echo '<h1 class="entry-title dm-dp-textBlurb_title">' . $articles[$i]['title'] . '</h1>'. "\n\t\t\t";
@@ -79,7 +87,7 @@ function parseList($file, $num, $type, $displayStyle){
             echo '<div class="dm-dp-textBlurb_location">' . $articles[$i]['location'] . '</div>' . "\n\t\t";
         }
 
-        /// print location
+        /// print type
         if(!empty($articles[$i]['type'])){
             echo '<div class="dm-dp-textBlurb_type">' . $articles[$i]['type'] . '</div>' . "\n\t\t";
         }

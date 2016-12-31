@@ -212,9 +212,13 @@ sup {
 }
 
 ::selection { 
-	background: #ffe400; 
+	background: #ffe400;
+	background: $orange; 
+	color: #fff;
 }
 
 ::-moz-selection { 
 	background: #ffe400;
+	background: $orange;
+	color: #fff;
 }

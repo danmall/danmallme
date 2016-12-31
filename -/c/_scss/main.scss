@@ -150,6 +150,74 @@ http://superfriend.ly/
 	}
 
 
+
+
+	// comments
+
+	&-c-comments {
+		@include dm-u-padding--m;
+	}
+
+
+
+	// up next
+
+	&-c-upNext {
+		@include dm-u-margin--m;
+		@include dm-u-paddingTop--m;
+
+		// improvisations
+		border-top: 1px solid $silverRust;
+
+		&_kicker {
+			@include dm-u-font--sans;
+			@include dm-u-uppercase;
+
+			// improvisations
+			font-size: $spacing * 1.5px;
+			color: $cloudy;
+		}
+
+		&_title {
+			@include dm-u-text--l;
+			@include dm-u-leading--s;
+			@include dm-u-font--normal;
+
+			a {
+				@include dm-u-bg--none;
+			}
+
+			&_lastWord {
+				@include dm-u-display--inlineBlock;
+				@include dm-u-pos--relative;
+
+				// improvisations
+				white-space: nowrap;
+				padding-right: $xxl * 1px;
+
+				&:after {
+					@include dm-u-pos--absolute;
+					@include dm-u-marginLeft--s;
+
+					// improvisations
+					content: "";
+					width: 40px;
+					height: 3px;
+					background: $orange;
+					display: block;
+					top: 0.6em;
+					right: 0;
+				}
+
+			}
+		}
+
+	}
+
+
+
+
+
 	// siteFooter
 
 	&-c-siteFooter {
