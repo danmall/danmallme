@@ -21,12 +21,16 @@
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
 
-    <section id="preamble" class="dm-u-padding--m dm-u-marginBottom--xs">
+    <section id="preamble" class="dm-c-preamble">
 
 	    <h1 class="dm-u-marginBottom--xs">Dan Mall</h1>
 	    <h2 class="dm-u-text--m">Creative Director &amp; Advisor</h2>
 
-	    <p class="dm-u-text--s dm-u-font--sans">I&rsquo;m <strong>Dan Mall</strong>, a creative director and advisor from Philly.  I&rsquo;m the director of <a href="http://superfriend.ly/">SuperFriendly</a>, a design collaborative that brings exquisite creative direction &amp; design to the world&rsquo;s most important and interesting organizations. I&rsquo;m an enthralled husband &amp; dad and co-founder of <a href="http://typedia.com/">Typedia</a> (an encyclopedia for typefaces) and <a href="http://businessology.biz/">Businessology</a> (a podcast and workshop series teaching designers how to run better businesses). You can find me on Twitter at <a href="http://twitter.com/danielmall">@danielmall</a>.</p>
+	    <p class="dm-u-text--s dm-u-font--sans">I&rsquo;m <strong>Dan Mall</strong>, a creative director and advisor from Philly.  I&rsquo;m the founder and director of <a href="http://superfriend.ly/">SuperFriendly</a>, a design collaborative that brings exquisite creative direction and design to the world&rsquo;s most important and interesting organizations. I&rsquo;m also the co-founder and <abbr title="Chief Executive Officer">CEO</abbr> of <a href="http://superbooked.com/">SuperBooked</a>, a service that helps you find work with a little help from your friends.</p>
+
+        <p class="dm-dp-seeAll dm-u-text--s">
+            <a class="dm-dp-seeAll_link" href="/about/">Find out more about me</a>
+        </p>
 
         <ul class="dm-dp-vertSepNav">
             <li class="dm-dp-vertSepNav_item"><a href="/about/">About</a>
@@ -42,7 +46,7 @@
 
     <section id="pricing-design" class="dm-u-padding--m dm-u-clearfix">
 
-    	<h1 class="dm-u-text--m">I wrote a book.</h1>
+    	<h1 class="dm-u-text--m dm-u-font--normal">I wrote a book.</h1>
 
         <!-- todo: insert PD book image with AJAX -->
         <div class="dm-c-pricingDesignContainer">
@@ -57,7 +61,7 @@
 
 
 
-    <section id="testimonials" class="dm-c-testimonials">
+    <section id="testimonials" class="dm-c-testimonials dm-u-clearfix">
 
         <h1 class="dm-u-move--offscreen">Quotes about Dan</h1>
 
@@ -75,7 +79,7 @@
 
         <?php parseList($_SERVER["DOCUMENT_ROOT"].'/articles/articles.json', 5, 'abridged', 'large'); ?>
 
-    	<p class="dm-dp-seeAll">
+    	<p class="dm-dp-seeAll dm-dp-sepChunk">
             <a class="dm-dp-seeAll_link" href="/articles/">See all Articles</a>
         </p>
 
@@ -83,27 +87,38 @@
 
 
 
-    <section id="hire-me" class="dm-u-padding--m">
+    <section id="hire-me" class="dm-c-hireMe">
 
         <h1 class="dm-dp-pointerHeadline">Hire me to</h1>
 
-        <ol class="dm-u-bullets--none dm-u-marginLeft--0">
-            <li>
-                <h2 class="dm-u-text--s">Make a digital product your organization can only dream of.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            </li>
-            <li>
-                <h2 class="dm-u-text--s">Speak to your team or at your event.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            </li>
-            <li>
-                <h2 class="dm-u-text--s">Take your agency to the next level.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            </li>
-        </ol>
+        <div class="dm-dp-textPassage">
+            <ol>
+                <li class="dm-c-hireMe_step">
+                    <h2 class="dm-u-text--s dm-u-marginBottom--0">Make a digital product your organization can only dream of.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <p class="dm-dp-seeAll dm-u-text--s">
+                        <a class="dm-dp-seeAll_link" href="http://superfriend.ly/">Visit SuperFriendly</a>
+                    </p>
+                </li>
+                <li class="dm-c-hireMe_step">
+                    <h2 class="dm-u-text--s dm-u-marginBottom--0">Speak to your team or at your event.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <p class="dm-dp-seeAll dm-u-text--s">
+                        <a class="dm-dp-seeAll_link" href="/contact/">Contact me about speaking</a>
+                    </p>
+                </li>
+                <li class="dm-c-hireMe_step">
+                    <h2 class="dm-u-text--s dm-u-marginBottom--0">Take your agency to the next level.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <p class="dm-dp-seeAll dm-u-text--s">
+                        <a class="dm-dp-seeAll_link" href="/contact/">Contact me about coaching</a>
+                    </p>
+                </li>
+            </ol>
+        </div>
 
         
 

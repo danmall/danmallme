@@ -43,24 +43,29 @@ http://superfriend.ly/
 		// pointer headline
 
 		&-pointerHeadline {
-			@include dm-u-text--s;
-			@include dm-u-font--sans;
-			@include dm-u-uppercase;
-			@include dm-u-align--center;
-			@include dm-u-padding--xs;
-			@include dm-u-paddingBottom--l;
-			@include dm-u-pos--relative;
 
-			
-			// improvisations
-			background: $shipGray;
-			color: #fff;			
-			width: 60%;
-			margin: 0 auto 2em;
+			@include dm-u-text--m;
 
-			// Thanks Clippy! (No, not that Clippy. This Clippy.) http://bennettfeely.com/clippy/
-			-webkit-clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%);
-			clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%);
+			@media screen and (min-width: 999px){
+				@include dm-u-text--s;
+				@include dm-u-font--sans;
+				@include dm-u-uppercase;
+				@include dm-u-align--center;
+				@include dm-u-padding--xs;
+				@include dm-u-paddingBottom--l;
+				@include dm-u-pos--relative;
+
+				
+				// improvisations
+				background: $shipGray;
+				color: #fff;			
+				width: 60%;
+				margin: 0 auto 2em;
+
+				// Thanks Clippy! (No, not that Clippy. This Clippy.) http://bennettfeely.com/clippy/
+				-webkit-clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%);
+				clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%);
+			}
 
 			
 		}
@@ -186,21 +191,28 @@ http://superfriend.ly/
 		// quote
 
 		&-quote {
-			@include dm-u-text--m;
 			@include dm-u-marginBottom--xl;
+			//@include dm-u-paddingRight--m;
+
+			p {
+				// improvisations
+				font-size: 14px;
+				font-size: 1.4rem;
+			}
 
 			&_attribution {
 				@include dm-u-font--sans;
 				@include dm-u-fontStyle--normal;
 				
 				// improvisations
-				font-size: 12px;
-				font-size: 1.2rem;
+				font-size: 11px;
+				font-size: 1.1rem;
 				//margin-top: -1em;
 
 				&:before {
 					// improvisations
 					content: "—";
+					margin-left: -0.4em;
 				}
 			}
 
@@ -212,16 +224,7 @@ http://superfriend.ly/
 		&-seeAll {
 			@include dm-u-font--sans;
 
-			&:before {
-				@include dm-u-display--block;
-				@include dm-u-marginBottom--xl;
-
-				// improvisations
-				content: "";
-				width: 50px;
-				height: 5px;
-				background: $silverRust;
-			}
+			
 
 			&_link {
 
@@ -338,6 +341,14 @@ http://superfriend.ly/
 
 				}
 			}
+
+				li {
+
+					p {
+						text-indent: 0;
+					}
+
+				}
 
 			blockquote {
 				@include dm-u-marginTop--m;
@@ -460,6 +471,23 @@ http://superfriend.ly/
 				@include dm-u-text--s;
 				@include dm-u-marginBottom--xs;
 				@include dm-u-move--offscreen;									
+			}
+
+		}
+
+
+
+		&-sepChunk {
+			
+			&:before {
+				@include dm-u-display--block;
+				@include dm-u-marginBottom--xl;
+
+				// improvisations
+				content: "";
+				width: 50px;
+				height: 5px;
+				background: $silverRust;
 			}
 
 		}

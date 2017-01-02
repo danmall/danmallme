@@ -120,6 +120,23 @@ http://superfriend.ly/
 
 	}
 
+
+
+	// preamble
+
+	&-c-preamble {
+
+		@include dm-u-padding--m;
+		@include dm-u-marginBottom--xs;
+
+		// improvisations
+		background: $sandstone;
+
+	}
+
+
+
+
 	// testimonials
 
 	&-c-testimonials {
@@ -147,6 +164,34 @@ http://superfriend.ly/
 			}
 		}
 
+	}
+
+
+
+
+	// hire me
+
+	&-c-hireMe {
+
+		@include dm-u-padding--m;
+
+		// improvisations
+
+		&_step {
+
+
+			.dm-dp-seeAll {
+
+				@include dm-u-marginTop--s;
+				@include dm-u-marginBottom--m;
+
+				// improvisations
+				font-size: 14px;
+				font-size: 1.4rem;
+			}
+
+
+		}
 	}
 
 

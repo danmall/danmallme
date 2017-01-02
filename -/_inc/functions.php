@@ -137,6 +137,10 @@ function parseQuotes($file, $num) {
 
     for($i = 0; $i < sizeof($randomQuotes); $i++){
 
+        /*if(($i == 0) || ($i == 2)) {
+            echo "\t" . '<div class="dm-l-col--50">'. "\n\t\t";    
+        }*/
+
         // Open entry
         echo "\t" . '<blockquote class="dm-dp-quote">'. "\n\t\t";
 
@@ -152,6 +156,10 @@ function parseQuotes($file, $num) {
 
         // close article header
         echo '</blockquote>' . "\n\t\t";
+
+        /*if(($i == 1) || ($i == 3)) {
+            echo '</div>' . "\n\t\t";
+        }*/
 
     }
     
