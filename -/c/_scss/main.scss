@@ -411,8 +411,7 @@ http://superfriend.ly/
 	Page Specific: Articles
 -------------------------------------------*/
 
-.dm-page--articles,
-.dm-page--speakingPodcasts {
+.dm-page--landing {
 
 	.dm-dp-textBlurb {
 
@@ -524,6 +523,17 @@ http://superfriend.ly/
 }
 
 
+/*-------------------------------------------    
+	Page Specific: Contact
+-------------------------------------------*/
 
+.dm-c-contactChunk {
 
+	@include dm-u-paddingRight--xl;
+
+	@media screen and (min-width: 760px) {
+		@include dm-l-col--50;
+	}
+
+}
 

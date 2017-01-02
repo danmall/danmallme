@@ -26,10 +26,8 @@
     <header class="dm-c-pageHeader" role="banner">
 
         <h1 class="dm-c-pageHeader_title">
-            Contact Dan Mall
+            Contact
         </h1>
-
-        <p class="dm-u-text--m">The best ways to get in touch with me are to send a direct message to <a href="http://twitter.com/danmall">@danmall</a> on Twitter or to email <a href="mailto:dan@danmall.me">dan@danmall.me</a>.</p>
 
         <?php /* ?>
         <nav role="navigation">
@@ -48,37 +46,48 @@
 
     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
 
-    <!-- TODO: world map -->
-
     <main role="main" class="dm-c-articlesList dm-u-padding--m">
 
-        <h2 class="dm-u-text--s">To inquire about agency coaching</h2>
+        <p class="dm-u-text--m">The best ways to get in touch with me are to send a direct message to <a href="http://twitter.com/danmall">@danmall</a> on Twitter or to email <a href="mailto:dan@danmall.me">dan@danmall.me</a>.</p>
 
-        <p class="dm-u-text--14">Please include information about:</p>
-        <ul class="dm-u-text--14">
-            <li>How many people you employ</li>
-            <li>Your annual revenue</li>
-            <li>What goals you&rsquo;d like help meeting (increased revenue, more qualified leads, etc.)</li>
-        </ul>
+        <div class="dm-c-contactChunk">
+
+            <h2 class="dm-u-text--s">To inquire about agency coaching</h2>
+
+            <p class="dm-u-text--14">Please include information about:</p>
+            <ul class="dm-u-text--14">
+                <li>How many people you employ</li>
+                <li>Your annual revenue</li>
+                <li>What goals you&rsquo;d like help meeting (increased revenue, more qualified leads, etc.)</li>
+            </ul>
+
+        </div><!-- .dm-c-contactChunk -->
 
 
+        <div class="dm-u-clearfix">
 
-        <h2 class="dm-u-text--s dm-u-marginTop--xl">To have me speak at your event</h2>
+            <div class="dm-c-contactChunk">
 
-        <p class="dm-u-text--14">Please include information about:</p>
-        <ul class="dm-u-text--14">
-            <li>The date(s) of your event</li>
-            <li>Your honorarium for speakers</li>
-            <li>What topics you&rsquo;d like for me to speak about</li>
-            <li>
-                Information about your audience
-                <ul class="dm-u-text--12">
-                    <li>How many people are you expecting?</li>
-                    <li>What is their background?</li>
-                    <li>What is their experience level with the topics being presented?</li>
+                <h2 class="dm-u-text--s">To have me speak at your event</h2>
+
+                <p class="dm-u-text--14">Please include information about:</p>
+                <ul class="dm-u-text--14">
+                    <li>The date(s) of your event</li>
+                    <li>Your honorarium for speakers</li>
+                    <li>What topics you&rsquo;d like for me to speak about</li>
+                    <li>
+                        Information about your audience
+                        <ul class="dm-u-text--12">
+                            <li>How many people are you expecting?</li>
+                            <li>What is their background?</li>
+                            <li>What is their experience level with the topics being presented?</li>
+                        </ul>
+                    </li>
                 </ul>
-            </li>
-        </ul>
+
+            </div><!-- .dm-c-contactChunk -->
+
+        </div><!-- .dm-u-clearfix -->
 
 
 
