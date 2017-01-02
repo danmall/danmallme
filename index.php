@@ -50,12 +50,18 @@
 
         <!-- todo: insert PD book image with AJAX -->
         <div class="dm-c-pricingDesignContainer">
-            <?php require($_SERVER["DOCUMENT_ROOT"]."/i/home/pricing-design-cover-outlined.svg"); echo "\n"; ?>
+            <a href="https://abookapart.com/products/pricing-design">
+                <?php require($_SERVER["DOCUMENT_ROOT"]."/i/home/pricing-design-cover-outlined.svg"); echo "\n"; ?>
+            </a>
         </div>
 
-    	<p>Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec id elit non mi porta gravida at eget metus.</p>
+        <div class="dm-dp-textPassage">
 
-    	<p>Nulla vitae elit libero, a pharetra augue. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo.</p>
+        	<p><span class="dm-dp-openingLines">Many freelancers and agencies</span> either under-charge for their services or overcharge to the point where their prospective customers are forced to look elsewhere for help. When asked to justify their prices, they awkwardly mumble a fictional hourly rate multiplied by an ill-informed estimate of hours. There&rsquo;s a better way.</p>
+
+            <p>Together with <cite>A Book Apart</cite>, I wrote <cite><a href="https://abookapart.com/products/pricing-design">Pricing Design</a></cite>, a guide for helping you speak confidently with your customers about the value you&rsquo;ll deliver, questions to help you uncover that value, and a hefty case study to show you what it all looks like in practice.</p>
+
+        </div><!-- .dm-dp-textPassage -->
 
     </section><!-- #pricing-design -->
 
@@ -94,25 +100,22 @@
         <div class="dm-dp-textPassage">
             <ol>
                 <li class="dm-c-hireMe_step">
-                    <h2 class="dm-u-text--s dm-u-marginBottom--0">Make a digital product your organization can only dream of.</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <h2 class="dm-u-text--s dm-u-marginBottom--0">Run an important project your organization needs to get off the ground.</h2>
+                    <p>Through my design collaborative SuperFriendly, I build specialized teams of experts that ship the highest quality products and teach you to level up your skills as we progress.</p>
                     <p class="dm-dp-seeAll dm-u-text--s">
                         <a class="dm-dp-seeAll_link" href="http://superfriend.ly/">Visit SuperFriendly</a>
                     </p>
                 </li>
                 <li class="dm-c-hireMe_step">
                     <h2 class="dm-u-text--s dm-u-marginBottom--0">Speak to your team or at your event.</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <p>I&rsquo;ve been <a href="/speaking-podcasts/">speaking at conferences</a> and privately with in-house product teams for over a decade about design process and how to better collaborate with your team members.</p>
                     <p class="dm-dp-seeAll dm-u-text--s">
                         <a class="dm-dp-seeAll_link" href="/contact/">Contact me about speaking</a>
                     </p>
                 </li>
                 <li class="dm-c-hireMe_step">
                     <h2 class="dm-u-text--s dm-u-marginBottom--0">Take your agency to the next level.</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <p>Most of my professional experience exists in client service, so I&rsquo;ve seen many ups and downs of what agencies do right and wrong. I can help you how more narrowly position your agency to attract more qualified leads and learn pricing strategies that win premium projects.</p>
                     <p class="dm-dp-seeAll dm-u-text--s">
                         <a class="dm-dp-seeAll_link" href="/contact/">Contact me about coaching</a>
                     </p>
