@@ -384,6 +384,22 @@ http://superfriend.ly/
 		}
 
 
+		&-lineTo--down {
+
+			&:after {
+				@include dm-u-display--block;
+
+				// improvisations
+				content: "";
+				width: 1px;
+				height: 70px;
+				background: $silverRust;
+				margin: 1em auto -3em;
+			}
+
+		}
+
+
 
 
 
@@ -478,7 +494,7 @@ http://superfriend.ly/
 
 
 		&-sepChunk {
-			
+
 			&:before {
 				@include dm-u-display--block;
 				@include dm-u-marginBottom--xl;
@@ -490,6 +506,15 @@ http://superfriend.ly/
 				background: $silverRust;
 			}
 
+		}
+
+
+		&-contentBox {
+			@include dm-u-padding--m;
+			@include dm-u-paddingTop--xl;
+
+			// improvisations
+			border: 1px solid $silverRust;
 		}
 
 

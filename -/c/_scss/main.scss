@@ -72,6 +72,7 @@ http://superfriend.ly/
 		@include dm-u-font--sans;		
 		@include dm-u-uppercase;	
 
+		/*
 		@media screen and (min-width: 850px) {			
 			//@include dm-u-marginLeft--m;
 
@@ -84,7 +85,7 @@ http://superfriend.ly/
 
 			// improvisations
 			width: 73%;
-		}
+		} */
 
 		ul {
 			@include dm-u-bullets--none;
@@ -365,7 +366,7 @@ http://superfriend.ly/
 /*-------------------------------------------    
 	Page Specific: Articles
 -------------------------------------------*/
-
+/*
 .dm-page--articles {
 
 	@media screen and (min-width: 520px) {
@@ -460,4 +461,4 @@ http://superfriend.ly/
 
 	}
 
-}
+}*/

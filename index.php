@@ -108,7 +108,7 @@
                 </li>
                 <li class="dm-c-hireMe_step">
                     <h2 class="dm-u-text--s dm-u-marginBottom--0">Speak to your team or at your event.</h2>
-                    <p>I&rsquo;ve been <a href="/speaking-podcasts/">speaking at conferences</a> and privately with in-house product teams for over a decade about design process and how to better collaborate with your team members.</p>
+                    <p>I&rsquo;ve been <a href="/speaking-podcasts/">speaking publicly at conferences</a> and privately with in-house product teams for over a decade about design process and how to better collaborate with your team members.</p>
                     <p class="dm-dp-seeAll dm-u-text--s">
                         <a class="dm-dp-seeAll_link" href="/contact/">Contact me about speaking</a>
                     </p>
