@@ -16,7 +16,7 @@
 </head>
 
 
-<body class="dm-page--articles">
+<body class="dm-page--articleDetail">
     <!--[if lt IE 7]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
@@ -35,7 +35,7 @@
 
     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
 
-    <main role="main" class="dm-u-padding--m dm-dp-textPassage">
+    <main role="main" class="dm-c-articleWell dm-dp-textPassage">
 
         <p><span class="dm-dp-openingLines">Lorem ipsum dolor</span> sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -91,21 +91,19 @@
         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+        <section id="up-next" class="dm-c-upNext">
+
+            <h1 class="dm-c-upNext_kicker">Up Next</h1>
+
+            <h2 class="dm-c-upNext_title">
+                <a href="/articles/on-creative-direction/">
+                    On Creative <span class="dm-c-upNext_title_lastWord">Direction</span>
+                </a>
+            </h2>
+
+        </section><!-- .dm-c-upNext -->
+
     </main>
-
-
-    <section id="up-next" class="dm-c-upNext">
-
-        <h1 class="dm-c-upNext_kicker">Up Next</h1>
-
-        <h2 class="dm-c-upNext_title">
-            <a href="/articles/on-creative-direction/">
-                On Creative <span class="dm-c-upNext_title_lastWord">Direction</span>
-            </a>
-        </h2>
-
-    </section><!-- .dm-c-upNext -->
-
 
 
 

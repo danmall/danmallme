@@ -45,6 +45,21 @@ http://superfriend.ly/
 	font-size: $xxl/10 + rem;
 }
 
+@mixin dm-u-text--12 {
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
+@mixin dm-u-text--14 {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+@mixin dm-u-text--20 {
+	font-size: 20px;
+	font-size: 2rem;
+}
+
 
 // leading
 
