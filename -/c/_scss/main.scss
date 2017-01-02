@@ -150,9 +150,135 @@ http://superfriend.ly/
 
 		@include dm-u-padding--m;
 		@include dm-u-marginBottom--xs;
+		@include dm-u-pos--relative;
+		min-height: 404px;
 
 		// improvisations
 		background: $sandstone;
+
+		&_name {
+			@include dm-u-pos--absolute;
+			@include dm-u-marginBottom--xs;
+
+			// improvisations
+			width: 100%;
+			height: 350px;
+			top: 0;
+			left: 0;
+			overflow: hidden;
+
+
+			&--dan,
+			&--mall {
+				@include dm-u-phark;
+				@include dm-u-pos--absolute;
+				
+				// improvisations
+				background-size: 100%;
+				height: 300px;
+				width: 300px;
+				z-index: 2;
+			}
+
+			&--dan {
+				background-image: url(/i/dan.svg);
+				top: -20px;
+				left: -30px;
+			}
+
+			&--mall {
+				background-image: url(/i/mall.svg);
+				top: 75px;
+				left: 10px;
+				width: 335px;
+				-webkit-filter: drop-shadow(-8px -8px 24px rgba(0, 0, 0, 0.2));
+            	filter: drop-shadow(-8px -8px 24px rgba(0, 0, 0, 0.2));
+			}
+		}
+
+		&_dan {
+			@include dm-u-pos--absolute;
+			@include dm-u-display--block;
+			
+			// improvisations
+			transform: scale(0.7);
+			width: 307px;
+			height: 432px;
+			background: transparent url(/-/i/dan.png) no-repeat 0 0;
+			left: 2px;
+			left: 50%;
+			z-index: 3;
+			margin-left: -153px;
+			top: 23px;
+		}
+
+		&_circle {
+			@include dm-u-pos--absolute;
+			
+			// improvisations
+			transform: scale(0.7);
+			left: 50%;
+			z-index: 1;
+			margin-left: -160px;
+			top: 117px;
+
+			&_inner {
+				@include dm-u-pos--relative;
+				@include dm-u-display--block;
+			
+				// improvisations
+				width: 321px;
+				height: 321px;
+				border-radius: 321px;
+				background: #61564b;
+				left: 5px;
+			}
+			
+		}
+
+		&_tagline {
+			@include dm-u-text--m;
+
+			// improvisations
+			height: 1.3em;
+
+
+			&_term {
+				@include dm-u-font--sans;
+				@include dm-u-font--normal;
+				@include dm-u-display--inlineBlock;
+				@include dm-u-padding--xs;
+				@include dm-u-paddingLeft--s;
+				@include dm-u-paddingRight--s;
+				@include dm-u-pos--absolute;
+
+				// improvisations
+				color: #fff;
+				background: $orange;
+				top: 320px;
+				left: 50%;
+				z-index: 5;
+				margin-left: -150px;
+				box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.2);
+
+				&--alt {
+					background: $green;
+					left: 180px;
+					left: 50%;
+					top: 363px;
+					margin-left: 20px;
+					z-index: 4;
+				}
+			}
+		}
+
+		&_intro {
+			@include dm-u-text--s;
+			@include dm-u-font--sans;
+
+			// improvisations
+			color: #fff;
+		}
 
 	}
 

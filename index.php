@@ -23,24 +23,43 @@
 
     <section id="preamble" class="dm-c-preamble">
 
-	    <h1 class="dm-u-marginBottom--xs">Dan Mall</h1>
-	    <h2 class="dm-u-text--m">Creative Director &amp; Advisor</h2>
+	    <h1 class="dm-c-preamble_name">
+            <div class="dm-c-preamble_name--dan">Dan</div>
+            <div class="dm-c-preamble_name--mall">Mall</div>
+        </h1>
 
-	    <p class="dm-u-text--s dm-u-font--sans">I&rsquo;m <strong>Dan Mall</strong>, a creative director and advisor from Philly.  I&rsquo;m the founder and director of <a href="http://superfriend.ly/">SuperFriendly</a>, a design collaborative that brings exquisite creative direction and design to the world&rsquo;s most important and interesting organizations. I&rsquo;m also the co-founder and <abbr title="Chief Executive Officer">CEO</abbr> of <a href="http://superbooked.com/">SuperBooked</a>, a service that helps you find work with a little help from your friends.</p>
+
+            <div class="dm-c-preamble_dan"></div>
+            <div class="dm-c-preamble_circle">
+                <div class="dm-c-preamble_circle_inner"></div>
+            </div>
+
+	    <h2 class="dm-c-preamble_tagline">
+            <div class="dm-c-preamble_tagline_term">Creative Director</div>
+            <div class="dm-u-move--offscreen"> &amp; </div>
+            <div class="dm-c-preamble_tagline_term dm-c-preamble_tagline_term--alt">Advisor</div>
+        </h2>
+        
+        <?php // require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/nav.php"); echo "\n"; ?>
+
+	</section><!-- #preamble -->
+
+    <div class="dm-u-padding--m">
+
+        <p class="">I&rsquo;m <strong>Dan Mall</strong>, a creative director and advisor from Philly.  I&rsquo;m the founder and director of <a href="http://superfriend.ly/">SuperFriendly</a>, a design collaborative that brings exquisite creative direction and design to the world&rsquo;s most important and interesting organizations. I&rsquo;m also the co-founder and <abbr title="Chief Executive Officer">CEO</abbr> of <a href="http://superbooked.com/">SuperBooked</a>, a service that helps you find work with a little help from your friends.</p>
 
         <p class="dm-dp-seeAll dm-u-text--s">
             <a class="dm-dp-seeAll_link" href="/about/">Find out more about me</a>
         </p>
 
         <ul class="dm-dp-vertSepNav">
-            <li class="dm-dp-vertSepNav_item"><a href="/about/">About</a>
-            <li class="dm-dp-vertSepNav_item"><a href="/articles/">Articles</a>
-            <li class="dm-dp-vertSepNav_item"><a href="/contact/">Contact</a>
+            <li class="dm-dp-vertSepNav_item"><a href="/about/">About</a></li>
+            <li class="dm-dp-vertSepNav_item"><a href="/articles/">Articles</a></li>
+            <li class="dm-dp-vertSepNav_item"><a href="/contact/">Contact</a></li>
         </ul>
 
-        <?php // require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/nav.php"); echo "\n"; ?>
+    </div>
 
-	</section><!-- #preamble -->
 
 
 
@@ -100,7 +119,7 @@
         <div class="dm-dp-textPassage">
             <ol>
                 <li class="dm-c-hireMe_step">
-                    <h2 class="dm-u-text--s dm-u-marginBottom--0">Run an important project your organization needs to get off the ground.</h2>
+                    <h2 class="dm-u-text--s dm-u-marginBottom--0">Run an important project your organization needs to launch.</h2>
                     <p>Through my design collaborative SuperFriendly, I build specialized teams of experts that ship the highest quality products and teach you to level up your skills as we progress.</p>
                     <p class="dm-dp-seeAll dm-u-text--s">
                         <a class="dm-dp-seeAll_link" href="http://superfriend.ly/">Visit SuperFriendly</a>

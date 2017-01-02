@@ -607,6 +607,18 @@ http://superfriend.ly/
 */
 
 
+/*-------------------------------------------    
+    Phark
+-------------------------------------------*/
+
+@mixin dm-u-phark {
+	display: block; 
+	text-indent: -9999px; 
+	background-position: 0 0; 
+	background-repeat: no-repeat; 
+	background-color: transparent;
+}
+
 
 /*-------------------------------------------    
     Backgrounds
