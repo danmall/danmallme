@@ -39,8 +39,6 @@
             <div class="dm-u-move--offscreen"> &amp; </div>
             <div class="dm-c-preamble_tagline_term dm-c-preamble_tagline_term--alt">Advisor</div>
         </h2>
-        
-        <?php // require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/nav.php"); echo "\n"; ?>
 
 	</section><!-- #preamble -->
 
@@ -53,8 +51,9 @@
         </p>
 
         <ul class="dm-dp-vertSepNav">
-            <li class="dm-dp-vertSepNav_item"><a href="/about/">About</a></li>
+            <?php /* ?><li class="dm-dp-vertSepNav_item"><a href="/about/">About</a></li><?php */ ?>
             <li class="dm-dp-vertSepNav_item"><a href="/articles/">Articles</a></li>
+            <li class="dm-dp-vertSepNav_item"><a href="/speaking-podcasts/">Speaking &amp; Podcasts</a></li>
             <li class="dm-dp-vertSepNav_item"><a href="/contact/">Contact</a></li>
         </ul>
 

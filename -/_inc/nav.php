@@ -16,7 +16,7 @@
 		<?php */ ?>
 
 
-
+		<?php /* ?>
 		<?php if(strstr($_SERVER['REQUEST_URI'], '/about/')) { ?>
 	        <?php if($_SERVER['REQUEST_URI'] == '/about/') { ?>  
 	        <li class="dm-c-siteNav_item dm-c-siteNav_item--active">
@@ -32,6 +32,7 @@
 			<a href="/about/">About</a>
 		</li>
 		<?php } ?>
+		<?php */ ?>
 
 
 
