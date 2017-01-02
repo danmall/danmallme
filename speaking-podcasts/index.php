@@ -16,7 +16,7 @@
 </head>
 
 
-<body class="dm-page--speakingPodcasts">
+<body class="dm-page--speakingPodcasts dm-page--landing">
     <!--[if lt IE 7]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
@@ -28,8 +28,6 @@
         <h1 class="dm-c-pageHeader_title">
             Speaking &amp; Podcasts<sup class="dm-u-text--s dm-u-marginLeft--xs"><?php echo getTotalItems('speaking.json'); ?></sup>
         </h1>
-
-        <p>I&rsquo;ve been very fortunate to speak for and with many people about the things that keep me professionally interested. Below, you&rsquo;ll find an assortment of talks and podcasts I&rsquo;ve done over the last decade. If you&rsquo;d like me to speak at a public or private event or on a podcast about design process, running a successful agency, or how to build great digital products, please <a href="/contact/">get in touch</a>.</p>
 
         <?php /* ?>
         <nav role="navigation">
@@ -51,6 +49,8 @@
     <!-- TODO: world map -->
 
     <main role="main" class="dm-c-articlesList dm-u-padding--m">
+
+        <p class="dm-c-speakingIntro">I&rsquo;ve been very fortunate to speak for and with many people about the things that keep me professionally interested. Below, you&rsquo;ll find an assortment of talks and podcasts I&rsquo;ve done over the last decade. If you&rsquo;d like me to speak at a public or private event or on a podcast about design process, running a successful agency, or how to build great digital products, please <a href="/contact/">get in touch</a>.</p>
 
         <?php parseList('speaking.json', 'all', 'full', 'small'); ?>
 

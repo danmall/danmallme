@@ -411,7 +411,8 @@ http://superfriend.ly/
 	Page Specific: Articles
 -------------------------------------------*/
 
-.dm-page--articles {
+.dm-page--articles,
+.dm-page--speakingPodcasts {
 
 	.dm-dp-textBlurb {
 
@@ -423,6 +424,10 @@ http://superfriend.ly/
 			// improvisations
 			min-height: 260px;
 
+			&--small {
+				min-height: 150px;
+			}
+
 		}
 
 		@media screen and (min-width: 1200px) {
@@ -430,6 +435,21 @@ http://superfriend.ly/
 
 			// improvisations
 			min-height: 280px;
+
+			&--small {
+				min-height: 150px;
+			}
+
+		}
+
+		&--small {
+			@media screen and (min-width: 643px) {
+				@include dm-l-col--33;
+			}
+
+			@media screen and (min-width: 1237px) {
+				@include dm-l-col--25;
+			}
 		}
 
 	}
@@ -488,3 +508,22 @@ http://superfriend.ly/
 	}
 
 }
+
+
+/*-------------------------------------------    
+	Page Specific: Speaking
+-------------------------------------------*/
+
+.dm-c-speakingIntro {
+	@include dm-u-text--s;
+	@include dm-u-marginBottom--xl;
+
+	@media screen and (min-width: 1020px){
+		@include dm-u-text--m;
+	}
+}
+
+
+
+
+
