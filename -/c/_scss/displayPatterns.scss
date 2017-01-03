@@ -66,26 +66,26 @@ http://superfriend.ly/
 
 			@include dm-u-text--m;
 
-			@media screen and (min-width: 999px){
-				@include dm-u-text--s;
-				@include dm-u-font--sans;
-				@include dm-u-uppercase;
-				@include dm-u-align--center;
-				@include dm-u-padding--xs;
-				@include dm-u-paddingBottom--l;
-				@include dm-u-pos--relative;
+			// @media screen and (min-width: 999px){
+			// 	@include dm-u-text--s;
+			// 	@include dm-u-font--sans;
+			// 	@include dm-u-uppercase;
+			// 	@include dm-u-align--center;
+			// 	@include dm-u-padding--xs;
+			// 	@include dm-u-paddingBottom--l;
+			// 	@include dm-u-pos--relative;
 
 				
-				// improvisations
-				background: $shipGray;
-				color: #fff;			
-				width: 60%;
-				margin: 0 auto 2em;
+			// 	// improvisations
+			// 	background: $shipGray;
+			// 	color: #fff;			
+			// 	width: 60%;
+			// 	margin: 0 auto 2em;
 
-				// Thanks Clippy! (No, not that Clippy. This Clippy.) http://bennettfeely.com/clippy/
-				-webkit-clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%);
-				clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%);
-			}
+			// 	// Thanks Clippy! (No, not that Clippy. This Clippy.) http://bennettfeely.com/clippy/
+			// 	-webkit-clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%);
+			// 	clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%);
+			// }
 
 			
 		}
@@ -218,6 +218,15 @@ http://superfriend.ly/
 				// improvisations
 				font-size: 14px;
 				font-size: 1.4rem;
+				text-indent: -0.4em;
+
+				&:before {
+					content: "“";
+				}
+
+				&:after {
+					content: "”";
+				}
 			}
 
 			&_attribution {

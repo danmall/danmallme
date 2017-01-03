@@ -114,7 +114,7 @@
 
 
 
-    <section id="hire-me" class="dm-c-hireMe dm-u-clear--both">
+    <section id="hire-me" class="dm-c-hireMe dm-u-clear--both dm-u-clearfix">
 
         <h1 class="dm-dp-pointerHeadline">Hire me to</h1>
 
