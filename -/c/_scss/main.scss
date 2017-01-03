@@ -183,13 +183,15 @@ http://superfriend.ly/
 			&--dan {
 				background-image: url(/i/dan.svg);
 				top: -20px;
-				left: -30px;
+				left: 50%;
+				margin-left: -200px;
 			}
 
 			&--mall {
 				background-image: url(/i/mall.svg);
 				top: 75px;
-				left: 10px;
+				left: 50%;
+				margin-left: -160px;
 				width: 335px;
 				-webkit-filter: drop-shadow(-8px -8px 24px rgba(0, 0, 0, 0.2));
             	filter: drop-shadow(-8px -8px 24px rgba(0, 0, 0, 0.2));
