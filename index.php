@@ -29,10 +29,10 @@
         </h1>
 
 
-            <div class="dm-c-preamble_dan"></div>
-            <div class="dm-c-preamble_circle">
-                <div class="dm-c-preamble_circle_inner"></div>
-            </div>
+        <div class="dm-c-preamble_dan"></div>
+        <div class="dm-c-preamble_circle">
+            <div class="dm-c-preamble_circle_inner"></div>
+        </div>
 
 	    <h2 class="dm-c-preamble_tagline">
             <div class="dm-c-preamble_tagline_term">Creative Director</div>
@@ -42,13 +42,15 @@
 
 	</section><!-- #preamble -->
 
-    <div class="dm-u-padding--m">
+    <section class="dm-c-intro">
 
         <p class="">I&rsquo;m <strong>Dan Mall</strong>, a creative director and advisor from Philly.  I&rsquo;m the founder and director of <a href="http://superfriend.ly/">SuperFriendly</a>, a design collaborative that brings exquisite creative direction and design to the world&rsquo;s most important and interesting organizations. I&rsquo;m also the co-founder and <abbr title="Chief Executive Officer">CEO</abbr> of <a href="http://superbooked.com/">SuperBooked</a>, a service that helps you find work with a little help from your friends.</p>
 
+        <?php /* ?>
         <p class="dm-dp-seeAll dm-u-text--s">
             <a class="dm-dp-seeAll_link" href="/about/">Find out more about me</a>
         </p>
+        <?php */ ?>
 
         <ul class="dm-dp-vertSepNav">
             <?php /* ?><li class="dm-dp-vertSepNav_item"><a href="/about/">About</a></li><?php */ ?>
@@ -57,7 +59,7 @@
             <li class="dm-dp-vertSepNav_item"><a href="/contact/">Contact</a></li>
         </ul>
 
-    </div>
+    </section>
 
 
 
@@ -68,7 +70,7 @@
 
         <!-- todo: insert PD book image with AJAX -->
         <div class="dm-c-pricingDesignContainer">
-            <a href="https://abookapart.com/products/pricing-design">
+            <a class="dm-u-bg--none" href="https://abookapart.com/products/pricing-design">
                 <?php require($_SERVER["DOCUMENT_ROOT"]."/i/home/pricing-design-cover-outlined.svg"); echo "\n"; ?>
             </a>
         </div>

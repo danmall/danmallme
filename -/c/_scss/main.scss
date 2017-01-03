@@ -273,14 +273,15 @@ http://superfriend.ly/
 				}
 			}
 		}
+	}
 
-		&_intro {
-			@include dm-u-text--s;
-			@include dm-u-font--sans;
+	&-c-intro {
 
-			// improvisations
-			color: #fff;
-		}
+		@include dm-u-padding--m;
+
+        .dm-dp-vertSepNav {
+        	@include dm-u-margin--0;
+        }
 
 	}
 
@@ -597,31 +598,10 @@ http://superfriend.ly/
 		}
 
 
-/*-------------------------------------------    
-	Page Specific: Home
--------------------------------------------*/
-
-.dm-page--home {
-
-	.dm-c-siteNav {
-		@include dm-l-width--100;
-		@include dm-u-margin--0;
-		@include dm-u-padding--0;
-	}
-
-}
-
-	.dm-c-pricingDesignContainer {
-		//@include dm-l-col--50;
-		@include dm-u-marginBottom--l;
-
-		// improvisations
-		border: 1px solid $silverRust;
-	}
 
 
 /*-------------------------------------------    
-	Page Specific: Landings
+	Template Specific: Landings
 -------------------------------------------*/
 
 .dm-page--landing,
@@ -726,7 +706,7 @@ http://superfriend.ly/
 
 
 /*-------------------------------------------    
-	Page Specific: Article Detail
+	Template Specific: Article Detail
 -------------------------------------------*/
 
 .dm-page--articleDetail {
@@ -753,6 +733,106 @@ http://superfriend.ly/
 }
 
 
+
+/*-------------------------------------------    
+	Page Specific: Home
+-------------------------------------------*/
+
+.dm-page--home {
+
+	.dm-c-siteNav {
+		@include dm-l-width--100;
+		@include dm-u-margin--0;
+		@include dm-u-padding--0;
+	}
+
+}
+
+	.dm-c-pricingDesignContainer {
+		//@include dm-l-col--50;
+		@include dm-u-marginBottom--l;
+
+		// improvisations
+		border: 1px solid $silverRust;
+	}
+
+
+@media screen and (min-width: 891px){
+
+	.dm-c-preamble {
+		@include dm-u-margin--m;
+	}
+
+		.dm-c-preamble_name {
+			width: 50%;
+		}
+
+		.dm-c-preamble_dan,
+		.dm-c-preamble_circle,
+		.dm-c-preamble_tagline_term {
+			left: 25%;
+		}
+
+	.dm-c-intro {
+		@include dm-u-pos--absolute;
+		@include dm-u-paddingRight--xl;
+		@include dm-u-font--sans;
+
+		// improvisations
+		top: 4em;
+		left: 50%;
+		width: 45%;
+		color: #fff;
+
+		a {
+			color: #fff;
+		}
+
+		.dm-dp-vertSepNav {
+
+			// improvisations
+			border: none;
+
+			li {
+				@include dm-u-display--inlineBlock;
+
+				// improvisations
+				border: none;
+
+				&:before {
+					@include dm-u-display--inlineBlock;
+					@include dm-u-marginRight--s;
+
+					// improvisations
+					content: "/";
+					color: $cloudy;
+				}
+
+				&:first-child:before {
+					@include dm-u-marginRight--0;
+
+					// improvisations
+					content: "";
+				}
+
+				a {
+					@include dm-u-display--inlineBlock;	
+				}
+			}
+
+		}
+
+	}
+
+}
+
+@media screen and (min-width: 1092px){ 
+	.dm-c-intro {
+		p {
+			@include dm-u-text--20;
+		}
+	}
+}
 
 
 /*-------------------------------------------    
