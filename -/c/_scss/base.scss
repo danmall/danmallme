@@ -41,6 +41,10 @@ html {
 body { 
 	font: normal 62.5%/1.5 $mainFontStack;
 	color: $textColor; 
+
+	&.breveNewsBook-loaded {
+		font-family: $wfSerifStack;
+	}
 }
 
 
@@ -73,6 +77,17 @@ h6,
 .h6 { 
 	@include dm-u-text--m;
 	margin: 0 0 1em; 
+}
+
+.breveNewsBold-loaded {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: 'BreveNews-Bold';
+	}
 }
 
 p, 
@@ -136,12 +151,21 @@ table {
     }
 
 
-em { 
+em,
+cite { 
 	font-style: italic; 
+
+	.breveNewsBookItalic-loaded & {
+		font-family: "BreveNews-BookItalic";
+	}
 }
 
 strong { 
 	font-weight: bold; 
+
+	.breveNewsBold-loaded & {
+		font-family: "BreveNews-Bold";
+	}
 }
 
 mark { 

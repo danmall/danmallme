@@ -92,10 +92,12 @@ http://superfriend.ly/
 
 @mixin dm-u-font--sans {
 	font-family: $sansSerifStack;
+	font-family: $wfSansSerifStack;
 }
 
 @mixin dm-u-font--serif {
 	font-family: $serifStack;
+	font-family: $wfSerifStack;
 }
 
 

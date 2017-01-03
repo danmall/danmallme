@@ -97,10 +97,20 @@ http://superfriend.ly/
 
 		&-font--sans {
 			font-family: $sansSerifStack;
+			font-family: $wfSansSerifStack;
+
+			.firmeBook-loaded &  {
+				font-family: $wfSansSerifStack;				
+			}
 		}
 
 		&-font--serif {
 			font-family: $serifStack;
+			font-family: $wfSerifStack;
+
+			.breveNewsBook-loaded &  {
+				font-family: $wfSerifStack;				
+			}
 		}
 
 

@@ -27,38 +27,39 @@ module.exports = function(grunt) {
 			}
 		},
 
-		/*concat: {   
+		concat: {   
 		    dist: {
 		        src: [
-		        	'www/-/j/libs/*.js',
-		            'www/-/j/_source/*.js' // All JS in the _source folder		            
+		        	'-/j/libs/*.js',
+		            '-/j/_source/*.js' // All JS in the _source folder		            
 		            //'js/global.js'  // This specific file
 		        ],
-		        dest: 'www/-/j/project.js'
+		        dest: '-/j/danmall.js'
 		    }
-		},*/
+		},
 
-		/*uglify: {
+		uglify: {
 		    build: {
-		        src: 'www/-/j/project.js',
-		        dest: 'www/-/j/project.min.js'
+		        src: '-/j/danmall.js',
+		        dest: '-/j/danmall.min.js'
 		    }
-		},*/
+		},
 
 		watch: {
 			sass: { 
 				files: ['-/c/_scss/*.scss'],
 				//tasks: ['sass', 'embed']
 				tasks: ['sass']
-			}
-			/*scripts: {
-		        files: ['www/-/j/_source/*.js'],
+			},
+			scripts: {
+		        files: ['-/j/_source/*.js'],
 		        //tasks: ['concat', 'uglify', 'embed'],
+		        tasks: ['concat', 'uglify'],
 		        options: {
 		            spawn: false,
 		        },
-		    },
-		    html: {
+		    }
+		    /*html: {
 		    	files: ['index.uncompressed.php', 'terms/index.uncompressed.php'],
 		    	tasks: ['embed']
 		    }*/
@@ -69,15 +70,16 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-compass');
 	grunt.loadNpmTasks('grunt-sass');
 	grunt.loadNpmTasks('grunt-contrib-watch');
-	//grunt.loadNpmTasks('grunt-contrib-uglify');
-	//grunt.loadNpmTasks('grunt-contrib-concat');
+	grunt.loadNpmTasks('grunt-contrib-uglify');
+	grunt.loadNpmTasks('grunt-contrib-concat');
 	//grunt.loadNpmTasks('grunt-embed');
 	//grunt.loadNpmTasks('grunt-criticalcss');
 
 	// Task configuration
+	grunt.registerTask('default', ['sass', 'concat', 'uglify', 'watch']);
 	//grunt.registerTask('default', ['sass', 'concat', 'uglify', 'embed', 'watch']);
 	//grunt.registerTask('default', ['sass', 'embed', 'watch']);
 	//grunt.registerTask('default', ['sass', 'watch', 'criticalcss']);
-	grunt.registerTask('default', ['sass', 'watch']);
+	//grunt.registerTask('default', ['sass', 'watch']);
 
 }

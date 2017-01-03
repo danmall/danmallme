@@ -12,6 +12,7 @@ http://superfriend.ly/
 
 @import 'variables.scss';
 @import 'mixins.scss';
+@import 'fonts.scss';
 @import 'utilities.scss';
 @import 'layout.scss';
 @import 'displayPatterns.scss';
@@ -429,8 +430,8 @@ http://superfriend.ly/
 		} 
 
 		@media screen and (min-width: 1072px) {
-			@include dm-u-paddingRight--xl;
-			padding-left: 5%;
+			@include dm-u-paddingRight--l;
+			padding-left: 10%;
 		} 
 
 	}
@@ -451,7 +452,7 @@ http://superfriend.ly/
 		} 
 
 		@media screen and (min-width: 1072px) {
-			padding-left: 5%;
+			padding-left: 10%;
 		} 
 
 	}
@@ -745,7 +746,7 @@ http://superfriend.ly/
 	.dm-c-pageHeader {
 
 		@media screen and (min-width: 1072px) {
-			padding-left: 5%;
+			padding-left: 10%;
 		} 
 
 		&_title {
