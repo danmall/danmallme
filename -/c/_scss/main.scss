@@ -286,6 +286,19 @@ http://superfriend.ly/
 	}
 
 
+	// pricing design
+
+	&-c-pricingDesign {
+		@include dm-u-padding--m;
+	}
+
+
+	// articles
+
+	&-c-articlesListWrap {
+		@include dm-u-padding--m;
+		@include dm-u-clear--both;
+	}
 
 
 	// testimonials
@@ -345,6 +358,7 @@ http://superfriend.ly/
 		}
 	}
 
+	&-c-articlesListWrap,
 	&-c-articlesList {
 
 		@media screen and (min-width: 1020px) {
@@ -746,7 +760,49 @@ http://superfriend.ly/
 		@include dm-u-padding--0;
 	}
 
+	@media screen and (min-width: 520px){
+
+		.dm-dp-textBlurb {
+			@include dm-l-col--50;
+			@include dm-u-paddingRight--l;
+
+			// improvisations
+			min-height: 110px;
+		}
+
+	}
+
+	@media screen and (min-width: 749px){
+
+		#carbonads {
+			@include dm-u-float--right;
+			@include dm-l-width--33;
+			@include dm-u-pos--relative;
+
+			// improvisations
+			top: 8em;
+		}
+
+		.dm-c-articlesList {
+			@include dm-u-float--left;
+			@include dm-l-width--66;
+		}
+
+		.dm-dp-textBlurb {
+			//@include dm-l-col--33;
+		}
+
+	}
+
+	@media screen and (min-width: 1020px) {
+		.dm-c-articlesListWrap {
+		    width: 100%;
+		}
+	}
+
 }
+
+
 
 	.dm-c-pricingDesignContainer {
 		//@include dm-l-col--50;
@@ -755,6 +811,20 @@ http://superfriend.ly/
 		// improvisations
 		border: 1px solid $silverRust;
 	}
+
+
+
+
+@media screen and (min-width: 700px){
+
+	.dm-c-pricingDesign {
+		@include dm-l-col--50;
+	}
+
+	.dm-c-testimonials {
+		@include dm-l-col--50;
+	}
+}
 
 
 @media screen and (min-width: 891px){
@@ -824,6 +894,10 @@ http://superfriend.ly/
 
 	}
 
+	.dm-c-pricingDesign_headline {
+		@include dm-u-text--xxl;
+	}
+
 }
 
 @media screen and (min-width: 1092px){ 
@@ -833,6 +907,96 @@ http://superfriend.ly/
 		}
 	}
 }
+
+
+@media screen and (min-width: 1100px){ 
+
+	.dm-c-preamble_name {
+		left: -5%;
+	}
+
+	.dm-c-preamble_dan,
+	.dm-c-preamble_circle,
+	.dm-c-preamble_tagline_term {
+		left: 20%;
+	}
+
+	.dm-c-pricingDesign {
+		@include dm-u-float--left;
+		@include dm-u-pos--relative;
+		width: 39%;
+
+		.dm-dp-textPassage {
+			width: 55%;
+		}
+	}
+
+		.dm-c-pricingDesignContainer {
+			@include dm-u-pos--absolute;
+			top: 12em;
+			right: -48px;
+			width: 50%;
+			border: none;
+			z-index: 2;
+			box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.05);
+		}
+
+	.dm-c-testimonials {
+		@include dm-u-float--left;
+		@include dm-u-pos--relative;
+
+		// improvisations
+		width: 36%;	
+		top: $spacing * -8px;
+		z-index: 1;
+		padding-left: 72px;
+		padding-right: 72px;
+	}
+
+		.dm-dp-quote {
+			p {
+				@include dm-u-text--s;
+			}
+		}
+
+	.dm-page--home {
+
+		.dm-c-articlesListWrap {
+			@include dm-u-float--left;
+			@include dm-u-paddingTop--0;
+			width: 25%;
+			clear: none;
+		}
+
+		#carbonads {
+			@include dm-u-float--none;
+			@include dm-l-width--100;
+			@include dm-u-pos--static;
+		}
+
+		.dm-c-articlesList {
+			@include dm-u-float--none;
+			@include dm-l-width--100;
+		}
+
+		.dm-dp-textBlurb {
+			@include dm-l-width--100;
+			@include dm-u-float--none;
+
+			// improvisations
+			min-height: 0;
+		}
+
+	}
+
+}
+
+@media screen and (min-width: 1020px) {
+	.dm-c-articlesListWrap {
+	    width: 100%;
+	}
+}
+
 
 
 /*-------------------------------------------    

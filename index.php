@@ -64,9 +64,9 @@
 
 
 
-    <section id="pricing-design" class="dm-u-padding--m dm-u-clearfix">
+    <section id="pricing-design" class="dm-c-pricingDesign dm-u-clearfix">
 
-    	<h1 class="dm-u-text--m dm-u-font--normal">I wrote a book.</h1>
+    	<h1 class="dm-c-pricingDesign_headline dm-u-text--m dm-u-font--normal">I wrote a book.</h1>
 
         <!-- todo: insert PD book image with AJAX -->
         <div class="dm-c-pricingDesignContainer">
@@ -96,16 +96,17 @@
     </section><!-- #testimonials -->
 
 
-
-    <section id="articles" class="dm-u-padding--m">
+    <section id="articles" class="dm-c-articlesListWrap">
 
         <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
 
     	<h1 class="dm-dp-boxedHeadline dm-u-marginBottom--xl">Latest Articles</h1>
 
-        <?php parseList($_SERVER["DOCUMENT_ROOT"].'/articles/articles.json', 5, 'abridged', 'large'); ?>
+        <div class="dm-c-articlesList">
+            <?php parseList($_SERVER["DOCUMENT_ROOT"].'/articles/articles.json', 5, 'abridged', 'large'); ?>
+        </div>
 
-    	<p class="dm-dp-seeAll dm-dp-sepChunk">
+    	<p class="dm-dp-seeAll dm-dp-sepChunk dm-u-clear--both">
             <a class="dm-dp-seeAll_link" href="/articles/">See all Articles</a>
         </p>
 
@@ -113,7 +114,7 @@
 
 
 
-    <section id="hire-me" class="dm-c-hireMe">
+    <section id="hire-me" class="dm-c-hireMe dm-u-clear--both">
 
         <h1 class="dm-dp-pointerHeadline">Hire me to</h1>
 
