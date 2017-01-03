@@ -868,7 +868,15 @@ http://superfriend.ly/
 		color: #fff;
 
 		a {
+			padding: 4px;
 			color: #fff;
+			//background: rgba(0, 0, 0, 0.2);
+
+			&:hover,
+			&:focus {
+				background: $orange;
+			}
+
 		}
 
 		.dm-dp-vertSepNav {
@@ -900,6 +908,8 @@ http://superfriend.ly/
 
 				a {
 					@include dm-u-display--inlineBlock;	
+					border-bottom: 1px solid $orange;
+					padding: 0.1em 0.4em;
 				}
 			}
 
