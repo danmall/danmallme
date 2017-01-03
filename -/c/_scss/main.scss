@@ -898,7 +898,22 @@ http://superfriend.ly/
 		@include dm-u-text--xxl;
 	}
 
+	.dm-dp-quote {
+		p {
+			@include dm-u-text--20;
+		}
+	}
+
 }
+
+
+@media screen and (min-width: 1020px) {
+	.dm-c-articlesListWrap {
+	    width: 100%;
+	}
+}
+
+
 
 @media screen and (min-width: 1092px){ 
 	.dm-c-intro {
@@ -958,6 +973,7 @@ http://superfriend.ly/
 				@include dm-u-text--s;
 			}
 		}
+		
 
 	.dm-page--home {
 
@@ -991,11 +1007,7 @@ http://superfriend.ly/
 
 }
 
-@media screen and (min-width: 1020px) {
-	.dm-c-articlesListWrap {
-	    width: 100%;
-	}
-}
+
 
 
 

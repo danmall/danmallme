@@ -39,6 +39,24 @@ http://superfriend.ly/
 			}
 			*/
 
+			@media screen and (min-width: 1100px) {
+				@include dm-u-uppercase;
+				@include dm-u-text--xs;
+				@include dm-u-display--inlineBlock;
+				@include dm-u-padding--xs;
+				@include dm-u-pos--relative;
+				@include dm-u-marginBottom--s;
+
+				// improvisations
+				background: $purple;
+				color: #fff;
+				padding-left: 48px;
+				padding-right: 16px;
+				left: -48px;
+				z-index: 2;
+
+			}
+
 		}
 
 
