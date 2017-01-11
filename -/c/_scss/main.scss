@@ -280,6 +280,12 @@ http://superfriend.ly/
 
 		@include dm-u-padding--m;
 
+		.firmeBook-loaded &_name {
+			@include dm-u-uppercase;
+
+			font-family: $wfSansSerifStack;
+		}
+
         .dm-dp-vertSepNav {
         	@include dm-u-margin--0;
         }
@@ -291,6 +297,17 @@ http://superfriend.ly/
 
 	&-c-pricingDesign {
 		@include dm-u-padding--m;
+
+		&_headline {
+			@include dm-u-text--xl;
+			@include dm-u-font--normal;
+
+			.breveTitleBold-loaded & {
+				font-family: "BreveTitle-Bold";
+				letter-spacing: -0.3px;
+			}
+
+		}
 	}
 
 
@@ -346,7 +363,7 @@ http://superfriend.ly/
 		border: 15px solid #f2f2f2;
 
 		.dm-dp-pointerHeadline {
-			@include dm-u-padding--m;
+			@include dm-u-padding--s;
 			@include dm-u-marginBottom--0;
 			background: #f2f2f2;
 		}
@@ -356,6 +373,39 @@ http://superfriend.ly/
 		}
 
 		&_step {
+			@include dm-u-pos--relative;
+
+			// improvisations
+
+
+			.dm-c-hireMe ol & {
+				margin-left: 0;
+
+				&:before {
+					@include dm-u-pos--absolute;
+					@include dm-u-text--xxl;
+
+					// improvisations
+					top: -0.45em;
+					left: -0.2em;
+					opacity: 0.15;
+					font-size: 112px;
+				}
+			}
+
+
+			&_headline {
+				@include dm-u-text--s; 
+				@include dm-u-marginBottom--0;
+
+				.breveTitleBold-loaded & {
+					@include dm-u-text--20;
+					@include dm-u-leading--m;
+					font-family: "BreveTitle-Bold";
+				}
+			}
+
+
 
 
 			.dm-dp-seeAll {
@@ -548,7 +598,14 @@ http://superfriend.ly/
 		// improvisations
 		border-top: 5px solid $sandstone;
 
-		&_copyright {
+		&_copyright { 
+
+			@include dm-u-marginBottom--xxl;
+
+			p {
+				@include dm-u-text--14;
+				@include dm-u-marginBottom--xs;
+			}
 
 			@media screen and (min-width: 687px){
 				@include dm-l-col--66;

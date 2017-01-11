@@ -44,7 +44,7 @@
 
     <section class="dm-c-intro">
 
-        <p class="">I&rsquo;m <strong>Dan Mall</strong>, a creative director and advisor from Philly.  I&rsquo;m the founder and director of <a href="http://superfriend.ly/">SuperFriendly</a>, a design collaborative that brings exquisite creative direction and design to the world&rsquo;s most important and interesting organizations. I&rsquo;m also the co-founder and <abbr title="Chief Executive Officer">CEO</abbr> of <a href="http://superbooked.com/">SuperBooked</a>, a service that helps you find work with a little help from your friends.</p>
+        <p class="">I&rsquo;m <strong class="dm-c-intro_name">Dan Mall</strong>, a creative director and advisor from Philly.  I&rsquo;m the founder and director of <a href="http://superfriend.ly/">SuperFriendly</a>, a design collaborative that brings exquisite creative direction and design to the world&rsquo;s most important and interesting organizations. I&rsquo;m also the co-founder and <abbr title="Chief Executive Officer">CEO</abbr> of <a href="http://superbooked.com/">SuperBooked</a>, a service that helps you find work with a little help from your friends.</p>
 
         <?php /* ?>
         <p class="dm-dp-seeAll dm-u-text--s">
@@ -66,7 +66,7 @@
 
     <section id="pricing-design" class="dm-c-pricingDesign dm-u-clearfix">
 
-    	<h1 class="dm-c-pricingDesign_headline dm-u-text--m dm-u-font--normal">I wrote a book.</h1>
+    	<h1 class="dm-c-pricingDesign_headline">I wrote a book.</h1>
 
         <!-- todo: insert PD book image with AJAX -->
         <div class="dm-c-pricingDesignContainer">
@@ -121,21 +121,21 @@
         <div class="dm-dp-textPassage">
             <ol>
                 <li class="dm-c-hireMe_step">
-                    <h2 class="dm-u-text--s dm-u-marginBottom--0">Run an important project your organization needs to launch.</h2>
+                    <h2 class="dm-c-hireMe_step_headline">Run an important project your organization needs to launch.</h2>
                     <p>Through my design collaborative SuperFriendly, I build specialized teams of experts that ship the highest quality products and teach you to level up your skills as we progress.</p>
                     <p class="dm-dp-seeAll dm-u-text--s">
                         <a class="dm-dp-seeAll_link" href="http://superfriend.ly/">Visit SuperFriendly</a>
                     </p>
                 </li>
                 <li class="dm-c-hireMe_step">
-                    <h2 class="dm-u-text--s dm-u-marginBottom--0">Speak to your team or at your event.</h2>
+                    <h2 class="dm-c-hireMe_step_headline">Speak to your team or at your event.</h2>
                     <p>I&rsquo;ve been <a href="/speaking-podcasts/">speaking publicly at conferences</a> and privately with in-house product teams for over a decade about design process and how to better collaborate with your team members.</p>
                     <p class="dm-dp-seeAll dm-u-text--s">
                         <a class="dm-dp-seeAll_link" href="/contact/">Contact me about speaking</a>
                     </p>
                 </li>
                 <li class="dm-c-hireMe_step">
-                    <h2 class="dm-u-text--s dm-u-marginBottom--0">Take your agency to the next level.</h2>
+                    <h2 class="dm-c-hireMe_step_headline">Take your agency to the next level.</h2>
                     <p>Most of my professional experience exists in client service, so I&rsquo;ve seen many ups and downs of what agencies do right and wrong. I can help you how more narrowly position your agency to attract more qualified leads and learn pricing strategies that win premium projects.</p>
                     <p class="dm-dp-seeAll dm-u-text--s">
                         <a class="dm-dp-seeAll_link" href="/contact/">Contact me about coaching</a>
