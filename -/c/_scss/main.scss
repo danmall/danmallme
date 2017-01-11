@@ -1022,6 +1022,19 @@ http://superfriend.ly/
 		@include dm-u-pos--relative;
 		width: 39%;
 
+		&_headline {
+			@include dm-u-leading--xs;
+			font-size: 72px;
+			font-size: 7.2rem;
+			margin-top: -0.1em;
+			margin-bottom: 0.5em;
+
+			.breveTitleBold-loaded & {
+				letter-spacing: -1px;
+			}
+
+		}
+
 		.dm-dp-textPassage {
 			width: 55%;
 		}
@@ -1079,6 +1092,7 @@ http://superfriend.ly/
 		.dm-dp-textBlurb {
 			@include dm-l-width--100;
 			@include dm-u-float--none;
+			@include dm-u-marginBottom--m;
 
 			// improvisations
 			min-height: 0;
@@ -1105,8 +1119,8 @@ http://superfriend.ly/
 			// improvisations
 			background: $armadillo;
 			color: #fff;
-			top: 2em;
-			left: -204px;
+			top: 3em;
+			left: -210px;
 			min-width: 224px;
 			-webkit-clip-path: polygon(0% 0%, 80% 0%, 100% 50%, 80% 100%, 0% 100%);
 			clip-path: polygon(0% 0%, 80% 0%, 100% 50%, 80% 100%, 0% 100%);
@@ -1116,11 +1130,12 @@ http://superfriend.ly/
 			@include dm-l-col--33;
 			@include dm-u-margin--0;
 			@include dm-u-paddingLeft--l;
-
-			&:nth-child(-n+9):before {
-				content: "";
-			}
+			
 		}
+
+			ol .dm-c-hireMe_step:before {
+				left: 0;
+			}
 	}
 
 }
