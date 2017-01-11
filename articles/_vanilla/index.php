@@ -26,7 +26,7 @@
     <header class="dm-c-pageHeader" role="banner">
 
         <h1 class="dm-c-pageHeader_title">
-            Article Title Goes Here
+            Article Title Goes Here Second Line
         </h1>
 
         <h2 class="dm-c-pageHeader_date">December 5, 2016 at 9:02 <abbr title="Ante Meridien">AM</abbr></h2>
@@ -56,6 +56,18 @@
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <h1 id="some-headline-1">Some headline 1 <a class="dm-dp-anchorLink" href="#some-headline-1">#</a></h1>
+
+        <h2 id="some-headline-2">Some headline 2 <a class="dm-dp-anchorLink" href="#some-headline-2">#</a></h2>
+
+        <h3 id="some-headline-3">Some headline 3 <a class="dm-dp-anchorLink" href="#some-headline-3">#</a></h3>
+
+        <h4 id="some-headline-4">Some headline 4 <a class="dm-dp-anchorLink" href="#some-headline-4">#</a></h4>
+
+        <h5 id="some-headline-5">Some headline 5 <a class="dm-dp-anchorLink" href="#some-headline-5">#</a></h5>
+
+        <h6 id="some-headline-6">Some headline 6 <a class="dm-dp-anchorLink" href="#some-headline-6">#</a></h6>
 
         <ol>
             <li>Integer posuere erat a ante venenatis dapibus posuere velit aliquet</li>

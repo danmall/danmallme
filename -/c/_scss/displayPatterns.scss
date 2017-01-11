@@ -176,6 +176,12 @@ http://superfriend.ly/
 				// improvisations
 				background: $turbo;
 				padding: 4px;
+
+				.firmeBook-loaded & {
+					@include dm-u-text--10;
+					@include dm-u-paddingLeft--xs;
+					@include dm-u-paddingRight--xs;
+				}
 			}
 
 			&_time,
@@ -214,6 +220,10 @@ http://superfriend.ly/
 
 					// improvisations
 					color: $silverRust;
+
+					.firmeBook-loaded & {
+						@include dm-u-text--12;
+					}
 
 					&:before {
 						content: "#";
@@ -288,6 +298,13 @@ http://superfriend.ly/
 		}	
 
 
+		// anchor links 
+
+		&-anchorLink {
+			color: $cloudy;
+		}
+
+
 		// see all
 
 		&-seeAll {
@@ -335,6 +352,30 @@ http://superfriend.ly/
 
 		&-textPassage {
 
+			h1 {
+				@include dm-u-text--l;
+			}
+
+			h2 {
+				@include dm-u-text--m;
+			}
+
+			h3 {
+				@include dm-u-text--s;
+			}
+
+			h4,
+			h5,
+			h6 {
+				.firmeBold-loaded & {
+					@include dm-u-text--s;
+					@include dm-u-font--sans;
+
+					// improvisations
+					font-family: "Firme-Bold";
+				}
+			}
+
 			p {
 				@include dm-u-marginBottom--0;
 
@@ -343,6 +384,15 @@ http://superfriend.ly/
 
 				&:first-child {
 					text-indent: 0;
+				}
+
+				& + h1,
+				& + h2,
+				& + h3,
+				& + h4,
+				& + h5,
+				& + h6 {
+					@include dm-u-marginTop--m;
 				}
 			}
 
@@ -438,6 +488,13 @@ http://superfriend.ly/
 					@include dm-u-text--m;
 					@include dm-u-marginBottom--s;
 					@include dm-u-leading--m;
+
+					.breveNewsBookItalic-loaded & {
+						@include dm-u-fontStyle--normal;
+
+						// improvisations
+						font-family: "BreveNews-BookItalic";
+					}
 				}
 
 				address {

@@ -47,9 +47,19 @@ http://superfriend.ly/
 
 		&_title {
 			@include dm-u-font--normal;
-			@include dm-u-text--l;
+			@include dm-u-text--xl;
 			@include dm-u-marginBottom--xs;
 			@include dm-u-leading--s;
+
+			.breveTitleBold-loaded & {
+				font-family: "BreveTitle-Bold";
+			}
+
+			&_count {
+				@include dm-u-text--m;
+				@include dm-u-font--sans;
+				@include dm-u-marginLeft--xs;
+			}
 		}
 
 		
@@ -113,6 +123,10 @@ http://superfriend.ly/
 				font-size: 1rem;
 				margin-bottom: 5px;
 
+				.firmeBook-loaded & {
+					@include dm-u-text--12;
+				}
+
 				@media screen and (min-width: 700px) {
 					@include dm-u-display--inlineBlock;
 					@include dm-u-marginLeft--s;
@@ -127,10 +141,17 @@ http://superfriend.ly/
 				mark {
 					@include dm-u-display--inlineBlock;
 					@include dm-u-bg--none;
-					//@include dm-u-padding--xs;
+					@include dm-u-padding--xs;
 
 					// improvisations
-					padding: 6px;
+					//padding: 6px;
+
+					@media screen and (min-width: 700px) {
+						.firmeBook-loaded & {
+							@include dm-u-paddingLeft--s;
+							@include dm-u-paddingRight--s;
+						}
+					}
 				}
 
 				&--active a,
@@ -515,7 +536,7 @@ http://superfriend.ly/
 		@include dm-u-margin--m;
 		@include dm-u-marginLeft--0;
 		@include dm-u-marginTop--xl;
-		@include dm-u-paddingTop--m;
+		@include dm-u-paddingTop--l;
 
 		// improvisations
 		border-top: 1px solid $silverRust;
@@ -542,6 +563,10 @@ http://superfriend.ly/
 			// improvisations
 			font-size: $spacing * 1.5px;
 			color: $cloudy;
+
+			.firmeBold-loaded & {
+				font-family: "Firme-Bold";
+			}
 		}
 
 		&_title {
@@ -552,6 +577,14 @@ http://superfriend.ly/
 			a {
 				@include dm-u-bg--none;
 			}
+
+			.breveTitleBold-loaded & {
+				font-family: "BreveTitle-Bold";
+			}
+
+			@media screen and (min-width: 720px) {
+				@include dm-u-text--xl;
+			} 
 
 			&_lastWord {
 				@include dm-u-display--inlineBlock;
@@ -761,12 +794,12 @@ http://superfriend.ly/
 				@include dm-u-pos--fixed;
 
 				// improvisations
-				top: 1.1em;
-				left: 100px;
+				top: 0.8em;
+				left: 112px;
 				z-index: 2;
 
 				&:before {
-					@include dm-u-pos--absolute
+					@include dm-u-pos--absolute;
 
 					// improvisations;
 					content: "";
@@ -802,17 +835,40 @@ http://superfriend.ly/
 
 	.dm-c-pageHeader {
 
+		@media screen and (min-width: 1020px) {
+
+			// improvisations
+			width: 76%;
+
+		}
+
 		@media screen and (min-width: 1072px) {
 			padding-left: 10%;
 		} 
 
 		&_title {
 			@include dm-u-pos--static;
+			@include dm-u-leading--s;
 
 			@media screen and (min-width: 720px) {
-				@include dm-u-text--xl;
+				@include dm-u-text--xxl;
+			}
+
+			@media screen and (min-width: 1072px) {
+				font-size: 64px;
+				font-size: 6.4rem;
 			}
 		}
+
+		&_date {
+			@include dm-u-font--sans;
+			@include dm-u-text--s;
+
+			@media screen and (min-width: 720px) {
+				@include dm-u-text--m;
+			}
+		}
+
 	}
 
 }

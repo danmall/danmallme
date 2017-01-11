@@ -26,7 +26,7 @@
     <header class="dm-c-pageHeader" role="banner">
 
         <h1 class="dm-c-pageHeader_title">
-            Articles<sup class="dm-u-text--s dm-u-marginLeft--xs"><?php echo getTotalItems('articles.json'); ?></sup>
+            Articles<sup class="dm-c-pageHeader_title_count"><?php echo getTotalItems('articles.json'); ?></sup>
         </h1>
 
         <?php /* ?>

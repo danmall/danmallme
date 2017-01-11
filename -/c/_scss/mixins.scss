@@ -45,6 +45,11 @@ http://superfriend.ly/
 	font-size: $xxl/10 + rem;
 }
 
+@mixin dm-u-text--10 {
+	font-size: 10px;
+	font-size: 1rem;
+}
+
 @mixin dm-u-text--12 {
 	font-size: 12px;
 	font-size: 1.2rem;

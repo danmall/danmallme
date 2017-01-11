@@ -844,5 +844,68 @@
 		"tags"	:	[			
 			"conferences"
 		]
+    },
+    {
+        "title"	: 	"Blueless",
+		"slug"	:	"http://v2.danielmall.com/archives/2010/05/11/blueless.php",
+        "dek"	:	"Imagine that the world&rsquo;s most popular monitor makers decided to revolutionize crt monitors. From now on, monitors would ship without the color Blue.",
+        "date"	:	"2010-05-11 05:39:00",
+		"tags"	:	[			
+			"industry"
+		]
+    },
+    {
+        "title"	: 	"Adobe vs. Apple",
+		"slug"	:	"http://v2.danielmall.com/archives/2010/05/14/adobe_vs_apple.php",
+        "dek"	:	"I&rsquo;m ready to speak plainly about Apple&rsquo;s stance toward Flash.",
+        "date"	:	"2010-05-14 09:34:00",
+		"tags"	:	[			
+			"industry"
+		]
+    },
+    {
+        "title"	: 	"Life/Design",
+		"slug"	:	"http://v2.danielmall.com/archives/2010/04/26/lifedesign.php",
+        "dek"	:	"Two weeks ago, I had the pleasure of having lunch with Dave Dawson, a new friend of mine. As we talked about the industry, I shared my philosophy about staying inspired as a designer.",
+        "date"	:	"2010-04-26 06:42:00",
+		"tags"	:	[			
+			"design"
+		]
+    },
+    {
+        "title"	: 	"Enhanced",
+		"slug"	:	"http://v2.danielmall.com/archives/2010/04/04/enhanced.php",
+        "dek"	:	"When properly progressively enhancing a page, you&rsquo;ll often have the need to modify your layout to accommodate the new features. Here&rsquo;s a little technique I&rsquo;ve been using to handle this.",
+        "date"	:	"2010-04-04 17:44:00",
+		"tags"	:	[			
+			"code"
+		]
+    },
+    {
+        "title"	: 	"YouTube &amp; Vimeo Photoshop Templates",
+		"slug"	:	"http://v2.danielmall.com/archives/2009/12/17/youtube_vimeo_photoshop_templates.php",
+        "dek"	:	"A quick Photoshop template I created for YouTube and Vimeo videos.",
+        "date"	:	"2009-12-17 17:46:00",
+		"tags"	:	[			
+			"design"
+		]
+    },
+    {
+        "title"	: 	"URL ABC",
+		"slug"	:	"http://v2.danielmall.com/archives/2009/12/04/url_abc.php",
+        "dek"	:	"Go to the address bar in your favorite browser, and type one letter. Start with &ldquo;a&rdquo;, end with &ldquo;z.&rdquo;",
+        "date"	:	"2009-12-04 13:04:00",
+		"tags"	:	[			
+			"personal"
+		]
+    },
+    {
+        "title"	: 	"Typedia",
+		"slug"	:	"http://v2.danielmall.com/archives/2009/08/24/typedia.php",
+        "dek"	:	"Three years ago, we decided to build Wikipedia for typefaces. Today, it&rsquo;s live. We&rsquo;re calling it Typedia.",
+        "date"	:	"2009-08-24 10:30:00",
+		"tags"	:	[			
+			"typography"
+		]
     }
 ]
