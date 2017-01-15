@@ -2,12 +2,12 @@
   "name": "starter-files",
   "version": "0.1.0",
   "devDependencies": {
-    "grunt"                 :   "~0.4.4", 
-    "grunt-contrib-compass" :   "latest",
-    "grunt-contrib-concat"  :   "latest",
-    "grunt-contrib-uglify"  :   "latest",
-    "grunt-contrib-watch"   :   "latest",
-    "grunt-criticalcss"     :   "latest",
-    "grunt-sass"            :   "latest"
+    "grunt": "^0.4.5",
+    "grunt-contrib-compass": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-criticalcss": "latest",
+    "grunt-sass": "latest"
   }
 }
