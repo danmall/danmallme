@@ -932,7 +932,7 @@
     {
         "title"	: 	"Mozilla Makeover",
 		"slug"	:	"http://v2.danielmall.com/archives/2009/03/11/mozilla_makeover.php",
-        "dek"	:	"The Mozilla Foundation has engaged us to redesign mozilla.org. This process is a unique one; for the first time, we're employing a design by community scenario, where our designs are open to the scrutiny of the public.",
+        "dek"	:	"The Mozilla Foundation has engaged us to redesign mozilla.org. This process is a unique one; for the first time, we&rsquo;re employing a design by community scenario, where our designs are open to the scrutiny of the public.",
         "date"	:	"2009-03-11 19:12:00",
 		"tags"	:	[			
 			"design",
@@ -1154,7 +1154,7 @@
 		]
     },
     {
-        "title"	: 	"What's Next?",
+        "title"	: 	"What&rsquo;s Next?",
 		"slug"	:	"http://v2.danielmall.com/archives/2007/09/12/whats_next.php",
         "dek"	:	"What would you like for me to write about?",
         "date"	:	"2007-09-12 09:00:00",
@@ -1191,5 +1191,605 @@
 		"tags"	:	[			
 			"code"
 		]
+    },
+    {
+        "title"	: 	"Mile Marking",
+		"slug"	:	"http://v2.danielmall.com/archives/2007/07/10/mile_marking.php",
+        "dek"	:	"Is blogging the same as online journaling? Hardly. But where does that leave online journaling?",
+        "date"	:	"2007-07-10 01:14:00",
+		"tags"	:	[			
+			"industry"
+		]
+    },
+    {
+        "title"	: 	"Hi Phone",
+		"slug"	:	"http://v2.danielmall.com/archives/2007/06/30/hi_phone.php",
+        "dek"	:	"Goodbye weekend.",
+        "date"	:	"2007-06-30 22:36:00",
+		"tags"	:	[			
+			"personal",
+			"apple",
+			"iphone"
+		]
+    },
+    {
+        "title"	: 	"An Apology to the Scored or My Life without IMAP",
+		"slug"	:	"http://v2.danielmall.com/archives/2007/06/22/an_apology_to_the_scorned_or_my_life_without_imap.php",
+        "dek"	:	"As you may or may not have seen, I took this site down last week while I switched hosts. Now it&rsquo;s back up.",
+        "date"	:	"2007-06-22 00:56:00",
+		"tags"	:	[			
+			"this site",
+			"email",
+			"imap"
+		]
+    },
+    {
+        "title"	: 	"Cameo",
+		"slug"	:	"http://v2.danielmall.com/archives/2007/06/22/an_apology_to_the_scorned_or_my_life_without_imap.php",
+        "dek"	:	"This week was great for my ego.",
+        "date"	:	"2007-05-30 01:05:00",
+		"tags"	:	[			
+			"personal",
+			"net magazine"
+		]
+    },
+    {
+        "title"	: 	"Launch Pad",
+		"slug"	:	"http://v2.danielmall.com/archives/2007/05/28/launch_pad.php",
+        "dek"	:	"Here&rsquo;s the #1 tip I give people when they ask me how to jump-start their web careers.",
+        "date"	:	"2007-05-28 13:06:00",
+		"tags"	:	[			
+			"code",
+			"industry"
+		]
+    },
+    {
+        "title"	: 	"Soft Serve",
+		"slug"	:	"http://v2.danielmall.com/archives/2007/04/20/soft_serve.php",
+        "dek"	:	"I&rsquo;ve recently gotten a lot of email, asking about specifying font sizes in css. Here&rsquo;s my attempt to answer that, or at least give you the low-down on my approach.",
+        "date"	:	"2007-04-20 15:37:00",
+		"tags"	:	[			
+			"code",
+			"typography"
+		]
+    },
+    {
+        "title"	: 	"Aftermath",
+		"slug"	:	"http://v2.danielmall.com/archives/2007/03/23/aftermath.php",
+        "dek"	:	"I&rsquo;m a little late to the SXSW round-up, but I have to get it out: I&rsquo;m actually a bit depressed that it&rsquo;s over.",
+        "date"	:	"2007-03-23 01:01:00",
+		"tags"	:	[			
+			"conferences",
+			"sxsw"
+		]
+    },
+    {
+        "title"	: 	"Introducing swfIR",
+		"slug"	:	"http://v2.danielmall.com/archives/2007/02/27/introducing_swfir.php",
+        "dek"	:	"Over a year in the works, I&rsquo;m proud to announce the unveiling of a project that has been very close to me.",
+        "date"	:	"2007-02-27 00:07:00",
+		"tags"	:	[			
+			"flash"
+		]
+    },
+    {
+        "title"	: 	"Comhaltas Ceolt&oacute;ir&iacute; &Eacute;ireann",
+		"slug"	:	"http://v2.danielmall.com/archives/2007/03/23/aftermath.php",
+        "dek"	:	"It&rsquo;s a big month for Happy Cog. First, we launched our new site. Now we&rsquo;ve launched a brand new project that we can be proud of.",
+        "date"	:	"2007-02-20 11:36:00",
+		"tags"	:	[			
+			"design",
+			"work",
+			"launch"
+		]
+    },
+    {
+        "title"	: 	"The Agency Formerly (and Currently) Known as Happy Cog",
+		"slug"	:	"http://v2.danielmall.com/archives/2007/02/07/the_agency_formerly_and_currently_known_as_happy_cog.php",
+        "dek"	:	"Today, the Happy Cog site gets a long overdue refresh.",
+        "date"	:	"2007-02-07 10:36:00",
+		"tags"	:	[			
+			"design",
+			"work",
+			"launch"
+		]
+    },
+    {
+        "title"	: 	"Fixed. Fluid. Elastic.",
+		"slug"	:	"http://v2.danielmall.com/archives/2007/01/08/fixed_fluid_elastic.php",
+        "dek"	:	"Just wanted to settle a quick misconception about the terminology concerning certain css layouts.",
+        "date"	:	"2007-01-08 01:48:00",
+		"tags"	:	[			
+			"code"			
+		]
+    },
+    {
+        "title"	: 	"Flash Photography",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/12/20/flash_photography.php",
+        "dek"	:	"I&rsquo;ve recently (again) become enamored with photography portfolios, especially those done with Flash.",
+        "date"	:	"2006-12-20 01:03:00",
+		"tags"	:	[			
+			"flash",
+			"photography"		
+		]
+    },
+    {
+        "title"	: 	"I Love My Job",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/12/06/i_love_my_job.php",
+        "dek"	:	"Did I mention that I love my job?",
+        "date"	:	"2006-12-06 15:16:00",
+		"tags"	:	[			
+			"personal",
+			"work"
+		]
+    },
+    {
+        "title"	: 	"Flash Course 4: Smarter Current States",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/11/28/flash_course_4_smarter_current_states.php",
+        "dek"	:	"A couple of quick tips as to how you can enhance a barebones Flash navigation into a &ldquo;You are here&rdquo; roadmap.",
+        "date"	:	"2006-11-28 01:08:00",
+		"tags"	:	[			
+			"flash",
+			"navigation"
+		]
+    },
+    {
+        "title"	: 	"The Future of Slice and Dice",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/11/12/the_future_of_slice_and_dice.php",
+        "dek"	:	"The designer for a new website build was kind enough to pre-cut all of the images. And therein lay the problem.",
+        "date"	:	"2006-11-12 00:59:00",
+		"tags"	:	[			
+			"design",
+			"web standards"
+		]
+    },
+    {
+        "title"	: 	"Think Pink",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/10/05/think_pink.php",
+        "dek"	:	"I&rsquo;ve never considered myself very active in social issues, but this is one I&rsquo;d like to bring to the forefront.",
+        "date"	:	"2006-10-05 14:48:00",
+		"tags"	:	[			
+			"breast cancer"
+		]
+    },
+    {
+        "title"	: 	"Happy Cog Philadelphia",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/11/12/the_future_of_slice_and_dice.php",
+        "dek"	:	"Well, the secret is out: I&rsquo;ve left the old digs and have been working for a new boss. Today marks the official grand opening of Happy Cog Philadelphia.",
+        "date"	:	"2006-10-03 15:20:00",
+		"tags"	:	[			
+			"personal",
+			"work"
+		]
+    },
+    {
+        "title"	: 	"Sleuthing",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/09/19/sleuthing.php",
+        "dek"	:	"A midnight mystery for you all: which one of these sites is the original and which is the imposter?",
+        "date"	:	"2006-09-19 23:54:00",
+		"tags"	:	[			
+			"design",
+			"stealing"
+		]
+    },
+    {
+        "title"	: 	"Typobituaries",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/08/22/typobituaries.php",
+        "dek"	:	"Certain fonts should be retired. Here are some that just don&rsquo;t make the cut.",
+        "date"	:	"2006-08-22 16:39:00",
+		"tags"	:	[			
+			"typography",
+			"satire"
+		]
+    },
+    {
+        "title"	: 	"The Overwhelmed Bookshelf",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/07/23/the_overwhelmed_bookshelf.php",
+        "dek"	:	"My bookshelf has given up on me. My brain will soon follow.",
+        "date"	:	"2006-07-23 11:11:00",
+		"tags"	:	[			
+			"books"
+		]
+    },
+    {
+        "title"	: 	"Grandpa",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/06/26/grandpa.php",
+        "dek"	:	"My grandfather was a strong man.",
+        "date"	:	"2006-06-26 11:35:00",
+		"tags"	:	[			
+			"personal"
+		]
+    },
+    {
+        "title"	: 	"Done!",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/06/19/done.php",
+        "dek"	:	"After 4 long years, as of June 17, 2006, school is finally over with!",
+        "date"	:	"2006-06-19 00:32:00",
+		"tags"	:	[			
+			"personal"
+		]
+    },
+    {
+        "title"	: 	"Calling All Developers: We need a Switcheroo",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/06/09/calling_all_developers_we_need_a_switcheroo.php",
+        "dek"	:	"There&rsquo;s still one thing we can&rsquo;t test for backward and forward compatibility: the Flash player.",
+        "date"	:	"2006-06-09 02:35:00",
+		"tags"	:	[			
+			"flash"
+		]
+    },
+    {
+        "title"	: 	"Senior Project",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/06/07/senior_project.php",
+        "dek"	:	"This weekend marks the culmination of 20 weeks worth of work, namely my senior project for the digital media program at Drexel University.",
+        "date"	:	"2006-06-07 00:23:00",
+		"tags"	:	[			
+			"personal",
+			"school",
+			"drexel"
+		]
+    },
+    {
+        "title"	: 	"Well Educated CSS",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/05/17/well_educated_css.php",
+        "dek"	:	"Few designers take advantage of the <code>&lt;body&gt;</code> tag. Like most tags, it can receive <code>id</code> and <code>class</code> attributes.",
+        "date"	:	"2006-05-17 02:11:00",
+		"tags"	:	[			
+			"css",
+			"code"
+		]
+    },
+    {
+        "title"	: 	"IE Sandwich Hack",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/04/13/ie_sandwich_hack.php",
+        "dek"	:	"While trying to debug some CSS on a site we were working on, Pixelworthy partners-in-crime Michael and Mark helped me to devise a new way to handle ie. I call it the IE Sandwich Hack.",
+        "date"	:	"2006-04-13 00:25:00",
+		"tags"	:	[			
+			"css",
+			"code"
+		]
+    },
+    {
+        "title"	: 	"Graphic Noise",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/04/06/graphic_noise.php",
+        "dek"	:	"",
+        "date"	:	"2006-04-06 03:05:00",
+		"tags"	:	[			
+			"screenprinting"
+		]
+    },
+    {
+        "title"	: 	"Indecent Exposure",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/05/17/well_educated_css.php",
+        "dek"	:	"In honor of the first ever annual naked day, my site has decided to slip into something more comfortable.",
+        "date"	:	"2006-04-05 01:46:00",
+		"tags"	:	[			
+			"this site",
+			"css",
+			"html",
+			"web standards"
+		]
+    },
+    {
+        "title"	: 	"Flash Course 3: ActionScript",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/04/03/flash_course_3_actionscript.php",
+        "dek"	:	"Understanding the concept of Actionscript can make you a dangerous designer or developer, especially if you understand and practice the separation of content, presentation, and behavior.",
+        "date"	:	"2006-04-03 01:45:00",
+		"tags"	:	[			
+			"flash",
+			"actionscript"
+		]
+    },
+    {
+        "title"	: 	"Flash Course 2: The Timeline",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/02/16/flash_course_2_the_timeline.php",
+        "dek"	:	"The timeline is one of the most basic tools in Flash. There are instances where timeline animation is more appropriate than programmed animation.",
+        "date"	:	"2006-02-16 01:20:00",
+		"tags"	:	[			
+			"flash"
+		]
+    },
+    {
+        "title"	: 	"South by Southworthy",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/02/13/south_by_southworthy.php",
+        "dek"	:	"The gang is super excited about SXSW. For some of us, it&rsquo;s the very first time over to the cool kids&rsquo; table. Others are seasoned veterans. But we&rsquo;re all stoked.",
+        "date"	:	"2006-02-13 23:52:00",
+		"tags"	:	[			
+			"sxsw",
+			"conferences"
+		]
+    },
+    {
+        "title"	: 	"Flash Course 1: Intro to Flash",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/02/07/flash_course_1_intro_to_flash.php",
+        "dek"	:	"Let&rsquo;s examine some practical and appropriate applications of Flash.",
+        "date"	:	"2006-02-07 01:07:00",
+		"tags"	:	[			
+			"flash"
+		]
+    },
+    {
+        "title"	: 	"Four Things",
+		"slug"	:	"http://v2.danielmall.com/archives/2006/01/26/four_things.php",
+        "dek"	:	"Four&hellip;",
+        "date"	:	"2006-01-26 00:14:00",
+		"tags"	:	[			
+			"miscellaneous"
+		]
+    },
+    {
+        "title"	: 	"The Christmas Type",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/12/29/the_christmas_type.php",
+        "dek"	:	"In wrapping my Christmas presents this year, I realized that I never picked up any tags to write names on, so I decided to improvise.",
+        "date"	:	"2005-12-29 00:52:00",
+		"tags"	:	[			
+			"typography"
+		]
+    },
+    {
+        "title"	: 	"About FACE",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/12/21/about_face.php",
+        "dek"	:	"While FACE certainly a testament to the great things that the technology can now do, I&rsquo;m not so sure that promotion for the use of FACE is such a great idea.",
+        "date"	:	"2005-12-21 22:28:00",
+		"tags"	:	[			
+			"code"
+		]
+    },
+    {
+        "title"	: 	"A Prelude Apart",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/12/04/a_prelude_apart.php",
+        "dek"	:	"In preparation for an event apart, I&rsquo;ve got some stuff to share with the class.",
+        "date"	:	"2005-12-04 17:30:00",
+		"tags"	:	[			
+			"design",
+			"conferences"
+		]
+    },
+    {
+        "title"	: 	"The Amazon Circular",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/12/01/the_amazon_circular.php",
+        "dek"	:	"My online world is colliding with real life. I just received a circular from Amazon in the mail this morning.",
+        "date"	:	"2005-12-01 11:34:00",
+		"tags"	:	[			
+			"miscellaneous"
+		]
+    },
+    {
+        "title"	: 	"Swept Under the Rug",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/11/21/swept_under_the_rug.php",
+        "dek"	:	"I&rsquo;ve been meaning to get to it for a while, and I&rsquo;ve finally had the time to make some changes under the hood of this site.",
+        "date"	:	"2005-11-21 01:24:00",
+		"tags"	:	[			
+			"this site"
+		]
+    },
+    {
+        "title"	: 	"Pipe Down",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/11/01/pipe_down.php",
+        "dek"	:	"Some sites contain different approaches to what I would typically do, and, more importantly, arguably go against what could be considered best practices. One of the most common examples is the use of the vertical bar, or the pipe.",
+        "date"	:	"2005-11-01 00:40:00",
+		"tags"	:	[			
+			"code",
+			"css"
+		]
+    },
+    {
+        "title"	: 	"Too Much, Too Fast",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/10/17/too_much_too_fast.php",
+        "dek"	:	"I&rsquo;m taking a class called &ldquo;Digital Storytelling &amp; Cultural Production.&rdquo; I have to say that it looks like a very promising (but busy) upcoming couple of weeks.",
+        "date"	:	"2005-10-17 23:44:00",
+		"tags"	:	[			
+			"blogging"
+		]
+    },
+    {
+        "title"	: 	"A Better Beta",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/10/10/a_better_beta.php",
+        "dek"	:	"The Firefox I once knew and loved is lost to me. Please come home, Firefox.",
+        "date"	:	"2005-10-10 23:17:00",
+		"tags"	:	[			
+			"software"
+		]
+    },
+    {
+        "title"	: 	"Fix Your Face",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/09/27/fix_your_face.php",
+        "dek"	:	"Short of being a lesson in kerning, here&rsquo;s a little tip in making your typography look just a little bit better.",
+        "date"	:	"2005-09-27 00:55:00",
+		"tags"	:	[			
+			"typography"
+		]
+    },
+    {
+        "title"	: 	"Always and for Never",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/09/17/always_and_for_never.php",
+        "dek"	:	"Some rules on the way to ultimate success in life.",
+        "date"	:	"2005-09-17 00:41:00",
+		"tags"	:	[			
+			"dogma"
+		]
+    },
+    {
+        "title"	: 	"A Man of Many Faces",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/09/01/a_man_of_many_faces.php",
+        "dek"	:	"There&rsquo;s one thing that I&rsquo;m most eager to do: organize my jumbled typeface collection.",
+        "date"	:	"2005-09-01 11:05:00",
+		"tags"	:	[			
+			"typography"
+		]
+    },
+    {
+        "title"	: 	"The Trouble with Free",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/08/29/the_trouble_with_free.php",
+        "dek"	:	"Well, it&rsquo;s no Mike Davidson contest, but here&rsquo;s your chance to benefit from my misfortune and get your very own iTunes free download.",
+        "date"	:	"2005-08-29 00:22:00",
+		"tags"	:	[			
+			"giveaways"
+		]
+    },
+    {
+        "title"	: 	"The Art of Voicemail",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/08/26/the_art_of_voicemail.php",
+        "dek"	:	"To all message-leavers: please consider the following points when faced with leaving a message on a person&rsquo;s voicemail.",
+        "date"	:	"2005-08-26 00:52:00",
+		"tags"	:	[			
+			"etiquette"
+		]
+    },
+    {
+        "title"	: 	"Listed Apart",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/08/23/listed_apart.php",
+        "dek"	:	"There have been a lot of mixed reactions about every portion of the new <cite>A List Apart</cite>, most prominently the design, followed by the markup, information architecture, and content.",
+        "date"	:	"2005-08-23 20:38:00",
+		"tags"	:	[			
+			"design",
+			"industry"
+		]
+    },
+    {
+        "title"	: 	"I Blogged Your Girlfriend",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/08/21/i_blogged_your_girlfriend.php",
+        "dek"	:	"Graphic tees are about as popular as bad teeth. They&rsquo;re all around us, and you can&rsquo;t ever miss them. I will admit, they do appeal to the designer in me.",
+        "date"	:	"2005-08-21 23:51:00",
+		"tags"	:	[			
+			"blogging"
+		]
+    },
+    {
+        "title"	: 	"CoMAD",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/08/16/comad.php",
+        "dek"	:	"Drexel University&rsquo;s design college, the College of Media Arts &amp; Design or CoMAD, has long been in need of a modern website to represent the excellent instruction that goes on everyday.",
+        "date"	:	"2005-08-16 00:46:00",
+		"tags"	:	[			
+			"design",
+			"work",
+			"launch"
+		]
+    },
+    {
+        "title"	: 	"Using Your Powers for Evil",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/08/12/using_your_powers_for_evil.php",
+        "dek"	:	"I have a confession to make: in the past, I have used my powers for evil. It&rsquo;s not something I&rsquo;m proud of, but I won&rsquo;t deny it.",
+        "date"	:	"2005-08-12 00:10:00",
+		"tags"	:	[			
+			"design"
+		]
+    },
+    {
+        "title"	: 	"Featured!",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/08/09/featured.php",
+        "dek"	:	"The kind folks over at CSS-Mania have deemed my site worthy of their gallery.",
+        "date"	:	"2005-08-09 10:34:00",
+		"tags"	:	[			
+			"this site",
+			"awards"
+		]
+    },
+    {
+        "title"	: 	"Ensuring Safe Blogging",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/08/08/ensure_safe_blogging.php",
+        "dek"	:	"According to today&rsquo;s Metro (a free newspaper distributed at train stations), here&rsquo;s how you can ensure safe blogging.",
+        "date"	:	"2005-08-08 23:53:00",
+		"tags"	:	[			
+			"blogging"
+		]
+    },
+    {
+        "title"	: 	"I&rsquo;m Back",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/08/06/im_back.php",
+        "dek"	:	"After almost 3 months of apparently disappearing, you can finally see why.",
+        "date"	:	"2005-08-06 10:31:00",
+		"tags"	:	[			
+			"personal",
+			"this site"
+		]
+    },
+    {
+        "title"	: 	"First Grade Typesetters",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/05/26/first-grade_typesetters.php",
+        "dek"	:	"Think back to the first time you were introduced to the alphabet. Remember that chart that was hanging over the chalkboard that you always used for reference?",
+        "date"	:	"2005-05-26 22:55:00",
+		"tags"	:	[			
+			"typography"
+		]
+    },
+    {
+        "title"	: 	"What Typeface are You?",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/05/19/what_typeface_are_you.php",
+        "dek"	:	"Fontshop just published their I Am gallery. You&rsquo;re encouraged to design and upload a 150×150 GIF or JPEG with the subject matter of which typeface embodies you.",
+        "date"	:	"2005-05-19 00:12:00",
+		"tags"	:	[			
+			"typography"
+		]
+    },
+    {
+        "title"	: 	"A Musical Baton",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/05/16/a_musical_baton.php",
+        "dek"	:	"Unexpectedly thrown into a form of virtual chain mail, here&rsquo;s my response to Stan&rsquo;s nomination.",
+        "date"	:	"2005-05-16 22:58:00",
+		"tags"	:	[			
+			"music"
+		]
+    },
+    {
+        "title"	: 	"Programming Like a Designer, Part 2",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/05/11/programming_like_a_designer_part_2.php",
+        "dek"	:	"A play-by-play of my 2-column setup.",
+        "date"	:	"2005-05-11 23:26:00",
+		"tags"	:	[			
+			"design",
+			"code"
+		]
+    },
+    {
+        "title"	: 	"Electronic Ink Jobs",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/05/06/electronic_ink_jobs.php",
+        "dek"	:	"Electronic Ink, a user-centered design firm in Philadelphia, is looking for a few good people.",
+        "date"	:	"2005-05-06 11:02:00",
+		"tags"	:	[			
+			"jobs"
+		]
+    },
+    {
+        "title"	: 	"Programming Like a Designer, Part 1",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/05/05/programming_like_a_designer_part_1.php",
+        "dek"	:	"The term &ldquo;programming&rdquo; may cause you to cringe, especially if you&rsquo;re comfortable inside your usual design tools, but it can effectively take your designs to the next level.",
+        "date"	:	"2005-05-05 00:14:00",
+		"tags"	:	[			
+			"code",
+			"design"
+		]
+    },
+    {
+        "title"	: 	"Getting Started",
+		"slug"	:	"http://v2.danielmall.com/archives/2005/05/01/getting_started.php",
+        "dek"	:	"Pretend that I&rsquo;ve already given you the typical welcome speech.",
+        "date"	:	"2005-05-01 01:06:00",
+		"tags"	:	[			
+			"personal",
+			"this site"
+		]
     }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
