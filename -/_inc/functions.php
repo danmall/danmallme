@@ -87,6 +87,11 @@ function parseList($file, $num, $type, $displayStyle){
             echo '<div class="dm-dp-textBlurb_location">' . $articles[$i]['location'] . '</div>' . "\n\t\t";
         }
 
+        /// print source
+        if(!empty($articles[$i]['source'])){
+            echo '<div class="dm-dp-textBlurb_source">' . $articles[$i]['source'] . '</div>' . "\n\t\t";
+        }
+
         /// print type
         if(!empty($articles[$i]['type'])){
             echo '<div class="dm-dp-textBlurb_type">' . $articles[$i]['type'] . '</div>' . "\n\t\t";

@@ -26,7 +26,12 @@
     <header class="dm-c-pageHeader" role="banner">
 
         <h1 class="dm-c-pageHeader_title">
-            Articles<sup class="dm-c-pageHeader_title_count"><?php echo getTotalItems('articles.json'); ?></sup>
+            Articles<sup class="dm-c-pageHeader_title_count"><?php 
+                $articlesTotal = getTotalItems('articles.json'); 
+                $trackbacksTotal = getTotalItems('trackbacks.json'); 
+                echo $articlesTotal + $trackbacksTotal;
+            ?>                
+            </sup>
         </h1>
 
         <?php /* ?>
@@ -49,6 +54,10 @@
     <main role="main" class="dm-c-articlesList dm-u-padding--m">
 
         <?php parseList('articles.json', 'all', 'full', 'large'); ?>
+
+        <h2 class="dm-u-clear--both dm-u-font--sans dm-u-text--xl">Trackbacks</h2>
+
+        <?php parseList('trackbacks.json', 'all', 'full', 'small'); ?>
 
     </main>
 

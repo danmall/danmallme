@@ -186,6 +186,7 @@ http://superfriend.ly/
 
 			&_time,
 			&_location,
+			&_source,
 			&_type {
 				@include dm-u-text--xs;
 				@include dm-u-font--sans;
@@ -197,6 +198,14 @@ http://superfriend.ly/
 
 				.firmeBook-loaded & {
 					@include dm-u-text--12;
+				}
+			}
+
+			&_source {
+				text-transform: none;
+				letter-spacing: 0;
+				.firmeBook-loaded & {
+					@include dm-u-text--14;
 				}
 			}
 
