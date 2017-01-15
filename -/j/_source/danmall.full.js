@@ -61,6 +61,9 @@ var Site = function(){
             ),
             firmeBold = new FontFaceObserver(
                 'Firme-Bold', { weight: 800 }
+            ),
+            breveTitleBold = new FontFaceObserver(
+                'BreveTitle-Bold', { weight: 400 }
             );
 
         breveNewsBook
@@ -95,6 +98,13 @@ var Site = function(){
             .check()
             .then(function(){
                 document.body.className += " firmeBold-loaded";
+            }
+        );
+
+        breveTitleBold
+            .check()
+            .then(function(){
+                document.body.className += " breveTitleBold-loaded";
             }
         );
 

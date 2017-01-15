@@ -26,7 +26,7 @@
     <header class="dm-c-pageHeader" role="banner">
 
         <h1 class="dm-c-pageHeader_title">
-            Speaking &amp; Podcasts<sup class="dm-u-text--s dm-u-marginLeft--xs"><?php echo getTotalItems('speaking.json'); ?></sup>
+            Speaking &amp; Podcasts<sup class="dm-c-pageHeader_title_count"><?php echo getTotalItems('speaking.json'); ?></sup>
         </h1>
 
         <?php /* ?>

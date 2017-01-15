@@ -26,6 +26,14 @@ http://superfriend.ly/
 			@include dm-u-text--m;
 			@include dm-u-font--sans;
 
+			.firmeBold-loaded & {
+				@include dm-u-uppercase;
+				@include dm-u-text--s;
+
+				//improvisations
+				font-family: "Firme-Bold";
+			}
+
 			/*
 			@media screen and (min-width: 945px){				
 				@include dm-u-text--s;
@@ -40,12 +48,11 @@ http://superfriend.ly/
 			*/
 
 			@media screen and (min-width: 1100px) {
-				@include dm-u-uppercase;
 				@include dm-u-text--xs;
 				@include dm-u-display--inlineBlock;
 				@include dm-u-padding--xs;
 				@include dm-u-pos--relative;
-				@include dm-u-marginBottom--s;
+				@include dm-u-marginBottom--xl;
 
 				// improvisations
 				background: $purple;
@@ -54,6 +61,10 @@ http://superfriend.ly/
 				padding-right: 16px;
 				left: -48px;
 				z-index: 2;
+
+				.firmeBold-loaded & {
+					@include dm-u-text--12;
+				}
 
 			}
 
@@ -123,6 +134,10 @@ http://superfriend.ly/
 				@include dm-u-leading--m;
 				@include dm-u-font--normal;
 
+				.breveTitleBold-loaded & {
+					font-family: "BreveTitle-Bold";
+				}
+
 				.dm-dp-textBlurb--audio & {
 					&:before {
 						@include dm-u-display--inlineBlock;
@@ -161,6 +176,12 @@ http://superfriend.ly/
 				// improvisations
 				background: $turbo;
 				padding: 4px;
+
+				.firmeBook-loaded & {
+					@include dm-u-text--10;
+					@include dm-u-paddingLeft--xs;
+					@include dm-u-paddingRight--xs;
+				}
 			}
 
 			&_time,
@@ -173,6 +194,10 @@ http://superfriend.ly/
 
 				// improvisations 
 				color: $cloudy;
+
+				.firmeBook-loaded & {
+					@include dm-u-text--12;
+				}
 			}
 
 			&_dek {
@@ -196,6 +221,10 @@ http://superfriend.ly/
 					// improvisations
 					color: $silverRust;
 
+					.firmeBook-loaded & {
+						@include dm-u-text--12;
+					}
+
 					&:before {
 						content: "#";
 						margin-right: 0.1em;
@@ -215,10 +244,14 @@ http://superfriend.ly/
 			//@include dm-u-paddingRight--m;
 
 			p {
+				@include dm-u-text--20;
+				@include dm-u-leading--m;
+
 				// improvisations
-				font-size: 14px;
-				font-size: 1.4rem;
+				//font-size: 14px;
+				//font-size: 1.4rem;
 				text-indent: -0.4em;
+				letter-spacing: -0.2px;
 
 				&:before {
 					content: "“";
@@ -232,10 +265,11 @@ http://superfriend.ly/
 			&_attribution {
 				@include dm-u-font--sans;
 				@include dm-u-fontStyle--normal;
+				@include dm-u-text--s;
 				
 				// improvisations
-				font-size: 11px;
-				font-size: 1.1rem;
+				// font-size: 11px;
+				// font-size: 1.1rem;
 				//margin-top: -1em;
 
 				&:before {
@@ -243,15 +277,42 @@ http://superfriend.ly/
 					content: "—";
 					margin-left: -0.4em;
 				}
+
+				strong {
+
+					.firmeBold-loaded & {
+						font-family: "Firme-Bold";
+					}
+
+				}
+
+				cite {
+
+					.firmeBook-loaded & {
+						font-family: "Firme-Book";
+					}
+
+				}
 			}
 
 		}	
+
+
+		// anchor links 
+
+		&-anchorLink {
+			color: $cloudy;
+		}
 
 
 		// see all
 
 		&-seeAll {
 			@include dm-u-font--sans;
+
+			.firmeBook-loaded & {
+				@include dm-u-text--m;
+			}
 
 			
 
@@ -291,6 +352,30 @@ http://superfriend.ly/
 
 		&-textPassage {
 
+			h1 {
+				@include dm-u-text--l;
+			}
+
+			h2 {
+				@include dm-u-text--m;
+			}
+
+			h3 {
+				@include dm-u-text--s;
+			}
+
+			h4,
+			h5,
+			h6 {
+				.firmeBold-loaded & {
+					@include dm-u-text--s;
+					@include dm-u-font--sans;
+
+					// improvisations
+					font-family: "Firme-Bold";
+				}
+			}
+
 			p {
 				@include dm-u-marginBottom--0;
 
@@ -299,6 +384,15 @@ http://superfriend.ly/
 
 				&:first-child {
 					text-indent: 0;
+				}
+
+				& + h1,
+				& + h2,
+				& + h3,
+				& + h4,
+				& + h5,
+				& + h6 {
+					@include dm-u-marginTop--m;
 				}
 			}
 
@@ -394,6 +488,13 @@ http://superfriend.ly/
 					@include dm-u-text--m;
 					@include dm-u-marginBottom--s;
 					@include dm-u-leading--m;
+
+					.breveNewsBookItalic-loaded & {
+						@include dm-u-fontStyle--normal;
+
+						// improvisations
+						font-family: "BreveNews-BookItalic";
+					}
 				}
 
 				address {

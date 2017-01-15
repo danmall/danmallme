@@ -34,7 +34,7 @@
 	{
 		"title"	: 	"Voting for Trump is Unbiblical",
 		"slug"	:	"http://v3.danielmall.com/articles/voting-for-trump-is-unbiblical/",
-		"dek"	:	"Measuring Trump against the Bible’s criteria for leaders.",
+		"dek"	:	"Measuring Trump against the Bible&rsquo;s criteria for leaders.",
 		"date"	:	"2016-10-09 17:30:00",
 		"tags"	:	[
 			"united states",
@@ -843,6 +843,353 @@
         "date"	:	"2010-06-24 01:45:00",
 		"tags"	:	[			
 			"conferences"
+		]
+    },
+    {
+        "title"	: 	"Blueless",
+		"slug"	:	"http://v2.danielmall.com/archives/2010/05/11/blueless.php",
+        "dek"	:	"Imagine that the world&rsquo;s most popular monitor makers decided to revolutionize crt monitors. From now on, monitors would ship without the color Blue.",
+        "date"	:	"2010-05-11 05:39:00",
+		"tags"	:	[			
+			"industry"
+		]
+    },
+    {
+        "title"	: 	"Adobe vs. Apple",
+		"slug"	:	"http://v2.danielmall.com/archives/2010/05/14/adobe_vs_apple.php",
+        "dek"	:	"I&rsquo;m ready to speak plainly about Apple&rsquo;s stance toward Flash.",
+        "date"	:	"2010-05-14 09:34:00",
+		"tags"	:	[			
+			"industry"
+		]
+    },
+    {
+        "title"	: 	"Life/Design",
+		"slug"	:	"http://v2.danielmall.com/archives/2010/04/26/lifedesign.php",
+        "dek"	:	"Two weeks ago, I had the pleasure of having lunch with Dave Dawson, a new friend of mine. As we talked about the industry, I shared my philosophy about staying inspired as a designer.",
+        "date"	:	"2010-04-26 06:42:00",
+		"tags"	:	[			
+			"design"
+		]
+    },
+    {
+        "title"	: 	"Enhanced",
+		"slug"	:	"http://v2.danielmall.com/archives/2010/04/04/enhanced.php",
+        "dek"	:	"When properly progressively enhancing a page, you&rsquo;ll often have the need to modify your layout to accommodate the new features. Here&rsquo;s a little technique I&rsquo;ve been using to handle this.",
+        "date"	:	"2010-04-04 17:44:00",
+		"tags"	:	[			
+			"code",
+			"javascript",
+			"progressive enhancement"
+		]
+    },
+    {
+        "title"	: 	"YouTube &amp; Vimeo Photoshop Templates",
+		"slug"	:	"http://v2.danielmall.com/archives/2009/12/17/youtube_vimeo_photoshop_templates.php",
+        "dek"	:	"A quick Photoshop template I created for YouTube and Vimeo videos.",
+        "date"	:	"2009-12-17 17:46:00",
+		"tags"	:	[			
+			"design"
+		]
+    },
+    {
+        "title"	: 	"URL ABC",
+		"slug"	:	"http://v2.danielmall.com/archives/2009/12/04/url_abc.php",
+        "dek"	:	"Go to the address bar in your favorite browser, and type one letter. Start with &ldquo;a&rdquo;, end with &ldquo;z.&rdquo;",
+        "date"	:	"2009-12-04 13:04:00",
+		"tags"	:	[			
+			"personal"
+		]
+    },
+    {
+        "title"	: 	"Typedia",
+		"slug"	:	"http://v2.danielmall.com/archives/2009/08/24/typedia.php",
+        "dek"	:	"Three years ago, we decided to build Wikipedia for typefaces. Today, it&rsquo;s live. We&rsquo;re calling it Typedia.",
+        "date"	:	"2009-08-24 10:30:00",
+		"tags"	:	[			
+			"typography",
+			"launch"
+		]
+    },
+    {
+        "title"	: 	"Cogs &amp; Spaceships",
+		"slug"	:	"http://v2.danielmall.com/archives/2009/07/16/cogs_and_spaceships.php",
+        "dek"	:	"Tomorrow is my last day at Happy Cog.",
+        "date"	:	"2009-07-16 09:43:00",
+		"tags"	:	[			
+			"personal"
+		]
+    },
+    {
+        "title"	: 	"Curating",
+		"slug"	:	"http://v2.danielmall.com/archives/2009/05/04/curating.php",
+        "dek"	:	"Even as the web grows larger, most web presences have no such curator position, no one who really oversees and evaluates the important of content and what should be presented front and center.",
+        "date"	:	"2009-05-04 06:35:00",
+		"tags"	:	[			
+			"design"
+		]
+    },
+    {
+        "title"	: 	"Mozilla Makeover",
+		"slug"	:	"http://v2.danielmall.com/archives/2009/03/11/mozilla_makeover.php",
+        "dek"	:	"The Mozilla Foundation has engaged us to redesign mozilla.org. This process is a unique one; for the first time, we're employing a design by community scenario, where our designs are open to the scrutiny of the public.",
+        "date"	:	"2009-03-11 19:12:00",
+		"tags"	:	[			
+			"design",
+			"work"
+		]
+    },
+    {
+        "title"	: 	"MICA",
+		"slug"	:	"http://v2.danielmall.com/archives/2009/03/10/mica.php",
+        "dek"	:	"Over the last year, I&rsquo;ve had the chance to participate in a wonderful project: the website redesign for the Maryland Institute College of Art. To date, it&rsquo;s been one of my favorite projects ever.",
+        "date"	:	"2009-03-10 11:27:00",
+		"tags"	:	[			
+			"flash",
+			"higher ed",
+			"design",
+			"launch",
+			"work"
+		]
+    },
+    {
+        "title"	: 	"Plans",
+		"slug"	:	"http://v2.danielmall.com/archives/2009/02/28/plans.php",
+        "dek"	:	"These are tough times, and it&rsquo;s not always clear on how to deal with it. ",
+        "date"	:	"2009-02-28 22:30:00",
+		"tags"	:	[			
+			"industry"
+		]
+    },
+    {
+        "title"	: 	"A Stronger, Faster Wheel",
+		"slug"	:	"http://v2.danielmall.com/archives/2009/01/20/a_stronger_faster_wheel.php",
+        "dek"	:	"I love reusable solutions. But, sometimes, they just don&rsquo;t cut it.",
+        "date"	:	"2009-01-20 07:12:00",
+		"tags"	:	[			
+			"code"
+		]
+    },
+    {
+        "title"	: 	"Subversion Client Roundup",
+		"slug"	:	"http://v2.danielmall.com/archives/2008/11/25/subversion_client_roundup.php",
+        "dek"	:	"I drank the Subversion Kool-Aid; I&rsquo;m sold. But I&rsquo;m not a developer. I&rsquo;m a designer, and I use svn like one. ",
+        "date"	:	"2008-11-25 14:49:00",
+		"tags"	:	[			
+			"code",
+			"version control",
+			"svn"
+		]
+    },
+    {
+        "title"	: 	"Strike",
+		"slug"	:	"http://v2.danielmall.com/archives/2008/11/07/strike.php",
+        "dek"	:	"I passed a homeless man on the street today. He asked me to buy him some chips; I ignored him.",
+        "date"	:	"2008-11-07 15:48:00",
+		"tags"	:	[			
+			"personal"
+		]
+    },
+    {
+        "title"	: 	"I Want to Be a Blessing",
+		"slug"	:	"http://v2.danielmall.com/archives/2008/10/30/i_want_to_be_a_blessing.php",
+        "dek"	:	"I&rsquo;ll never forget some of the last words he said to me. &ldquo;I want to be a blessing.&rdquo;",
+        "date"	:	"2008-10-30 19:56:00",
+		"tags"	:	[			
+			"personal"
+		]
+    },
+    {
+        "title"	: 	"Housing Prevents AIDS. Housing Saves Lives.",
+		"slug"	:	"http://v2.danielmall.com/archives/2008/10/20/housing_works.php",
+        "dek"	:	"Every once in a while, you get to be involved in something amazing.",
+        "date"	:	"2008-10-20 21:13:00",
+		"tags"	:	[			
+			"design",
+			"work",
+			"launch"
+		]
+    },
+    {
+        "title"	: 	"In Your Dreams",
+		"slug"	:	"http://v2.danielmall.com/archives/2008/09/09/in_your_dreams.php",
+        "dek"	:	"What have you always wanted to work on?",
+        "date"	:	"2008-09-09 08:41:00",
+		"tags"	:	[			
+			"design",
+			"wishlist"
+		]
+    },
+    {
+        "title"	: 	"Speaking of Speaking&hellip;",
+		"slug"	:	"http://v2.danielmall.com/archives/2008/08/13/speaking_of_speaking.php",
+        "dek"	:	"I&rsquo;ve been really privileged to be invited to speak at a few upcoming events. If you haven&rsquo;t gotten enough of me yet, here&rsquo;s where you can find me for the last half of this year&hellip;",
+        "date"	:	"2008-08-13 08:25:00",
+		"tags"	:	[			
+			"conferences"
+		]
+    },
+    {
+        "title"	: 	"The Dark Knight",
+		"slug"	:	"http://v2.danielmall.com/archives/2008/07/20/the_dark_knight.php",
+        "dek"	:	"As a movie, <cite>The Dark Knight</cite> was spectacular. As a sequel, it was fantastic. As a work of art, Heath Ledger&rsquo;s finest performance. But as a Batman story, it was a let-down.",
+        "date"	:	"2008-07-20 20:05:00",
+		"tags"	:	[			
+			"personal",
+			"batman",
+			"comics"
+		]
+    },
+    {
+        "title"	: 	"Flash Cache",
+		"slug"	:	"http://v2.danielmall.com/archives/2008/07/06/flash_cache.php",
+        "dek"	:	"Having trouble seeing the most current version every time you update a Flash movie? Here&rsquo;s a quick tip to help you get over that.",
+        "date"	:	"2008-07-06 12:30:00",
+		"tags"	:	[			
+			"flash"
+		]
+    },
+    {
+        "title"	: 	"Down in Front",
+		"slug"	:	"http://v2.danielmall.com/archives/2008/06/16/down_in_front.php",
+        "dek"	:	"A local college has made the mistake of hiring me to teach a web design class.",
+        "date"	:	"2008-06-16 09:35:00",
+		"tags"	:	[			
+			"industry",
+			"teaching"
+		]
+    },
+    {
+        "title"	: 	"Holy Matrimony",
+		"slug"	:	"http://v2.danielmall.com/archives/2008/05/23/holy_matrimony.php",
+        "dek"	:	"My wedding was probably the most memorable day of my life. I&rsquo;m writing about it so that, years later, I can still look back on this and remember how great it was for my wife and me.",
+        "date"	:	"2008-05-23 02:05:00",
+		"tags"	:	[			
+			"personal"
+		]
+    },
+    {
+        "title"	: 	"Just Married",
+		"slug"	:	"http://v2.danielmall.com/archives/2008/04/30/just_married.php",
+        "dek"	:	"Sorry I haven&rsquo;t been writing much lately. Been busy!",
+        "date"	:	"2008-04-30 21:14:00",
+		"tags"	:	[			
+			"personal"
+		]
+    },
+    {
+        "title"	: 	"The Tyranny of a Blank Page",
+		"slug"	:	"http://v2.danielmall.com/archives/2008/03/13/the_tyranny_of_a_blank_page.php",
+        "dek"	:	"Whether on a computer or my sketchbook, an empty canvas is difficult to face.",
+        "date"	:	"2008-03-13 19:22:00",
+		"tags"	:	[			
+			"design"
+		]
+    },
+    {
+        "title"	: 	"Ahhhh-stin",
+		"slug"	:	"http://v2.danielmall.com/archives/2008/03/06/ahhhh-stin.php",
+        "dek"	:	"It&rsquo;s that time of year again, when dreams of barbecue and geeking out can happen in the same 6-block radius. It&rsquo;s SXSW!",
+        "date"	:	"2008-03-06 20:41:00",
+		"tags"	:	[			
+			"conferences"
+		]
+    },
+    {
+        "title"	: 	"Figaro",
+		"slug"	:	"http://v2.danielmall.com/archives/2008/02/11/figaro.php",
+        "dek"	:	"Hiring a good designer is like hiring someone to cut your hair.",
+        "date"	:	"2008-02-11 16:24:00",
+		"tags"	:	[			
+			"industry",
+			"extended metaphor"
+		]
+    },
+    {
+        "title"	: 	"Sum",
+		"slug"	:	"http://v2.danielmall.com/archives/2008/01/22/sum.php",
+        "dek"	:	"I get a lot of email about it, especially from aspiring designers, so I&rsquo;d like to talk about the process of building a website from start to finish.",
+        "date"	:	"2008-01-22 23:53:00",
+		"tags"	:	[			
+			"industry",
+			"process"
+		]
+    },
+    {
+        "title"	: 	"Design by Comfort",
+		"slug"	:	"http://v2.danielmall.com/archives/2007/12/09/design_by_comfort.php",
+        "dek"	:	" Even now, as the title of designer graces my business card, this inferiority complex hasn&rsquo;t completely dissipated, but I have found a few tricks to quell it.",
+        "date"	:	"2007-12-09 02:46:00",
+		"tags"	:	[			
+			"design"
+		]
+    },
+    {
+        "title"	: 	"Fogbugz",
+		"slug"	:	"http://v2.danielmall.com/archives/2007/10/30/fogbugz.php",
+        "dek"	:	"I&rsquo;ve had the pleasure of helping the Fog Creek team redesign the FogBugz site.",
+        "date"	:	"2007-10-30 23:11:00",
+		"tags"	:	[			
+			"design",
+			"work",
+			"launch"
+		]
+    },
+    {
+        "title"	: 	"Tweet",
+		"slug"	:	"http://v2.danielmall.com/archives/2007/10/21/tweet.php",
+        "dek"	:	"I finally caved and joined twitter, but I&rsquo;m not sure how much longer I&rsquo;ll keep it up.",
+        "date"	:	"2007-10-21 23:01:00",
+		"tags"	:	[			
+			"industry"
+		]
+    },
+    {
+        "title"	: 	"The Mutant Abbracroym Dilemma",
+		"slug"	:	"http://v2.danielmall.com/archives/2007/09/25/the_mutant_abbracronym_dilemna.php",
+        "dek"	:	"How would you most semantically mark up the word &ldquo;MySQL&rdquo;?",
+        "date"	:	"2007-09-25 15:00:00",
+		"tags"	:	[			
+			"code"
+		]
+    },
+    {
+        "title"	: 	"What's Next?",
+		"slug"	:	"http://v2.danielmall.com/archives/2007/09/12/whats_next.php",
+        "dek"	:	"What would you like for me to write about?",
+        "date"	:	"2007-09-12 09:00:00",
+		"tags"	:	[			
+			"this site",
+			"writing"
+		]
+    },
+    {
+        "title"	: 	"Pick Me",
+		"slug"	:	"http://v2.danielmall.com/archives/2007/08/21/pick_me.php",
+        "dek"	:	"This year is especially exciting for me, as I&rsquo;ve finally decided to man up and submit a panel idea to SXSW.",
+        "date"	:	"2007-08-21 14:51:00",
+		"tags"	:	[			
+			"conferences"
+		]
+    },
+    {
+        "title"	: 	"Turkey",
+		"slug"	:	"http://v2.danielmall.com/archives/2007/08/21/pick_me.php",
+        "dek"	:	"Good friend and aspiring dancer Kevin Cornell is featured in &ldquo;The Comic Issue&rdquo; of Philadelphia&rsquo;s citypaper. Go vote for his cartoon!",
+        "date"	:	"2007-08-09 13:45:00",
+		"tags"	:	[			
+			"miscellaneous",
+			"friends",
+			"kevin cornell"
+		]
+    },
+    {
+        "title"	: 	"State (S)election",
+		"slug"	:	"http://v2.danielmall.com/archives/2007/07/20/state_selection.php",
+        "dek"	:	"Every once in a while, I have to build something that sucks. It&rsquo;s usually nothing more than a bore. Here&rsquo;s hoping you don&rsquo;t have to.",
+        "date"	:	"2007-07-20 00:31:00",
+		"tags"	:	[			
+			"code"
 		]
     }
 ]
