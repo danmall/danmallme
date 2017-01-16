@@ -72,6 +72,12 @@
 		"source"	:	"Shopify"
 	},
 	{
+		"title"		: 	"Designing the Unseen",
+		"slug"		:	"https://blog.prototypr.io/designing-the-unseen-f3126fc8c95b#.8h4se8dlc",
+		"date"		:	"2016-04-25",
+		"source"	:	"Prototypr"
+	},
+	{
 		"title"		: 	"Step into my studio and get a behind the scenes look on a project",
 		"slug"		:	"http://www.verse-co.com/journal/2016/3/13/step-into-my-studio",
 		"date"		:	"2016-03-31",
@@ -82,6 +88,12 @@
 		"slug"		:	"http://www.underconsideration.com/quipsologies/archives/january_2016/arminvit_29.php",
 		"date"		:	"2016-01-12",
 		"source"	:	"Under Consideration"
+	},
+	{
+		"title"		: 	"Of Patterns And Power: Web Standards Then & Now",
+		"slug"		:	"http://www.zeldman.com/2016/01/05/13913/",
+		"date"		:	"2016-01-05",
+		"source"	:	"Zeldman.com"
 	},
 	{
 		"title"		: 	"Issue #196",
