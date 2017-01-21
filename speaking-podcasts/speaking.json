@@ -163,13 +163,20 @@
 		"location"	:	"Amsterdam"
 	},
 	{
+		"title"		: 	"Radio Free Europe/Radio Liberty",
+		"slug"		:	"https://responsivewebdesign.com/podcast/rferl/",
+		"audio"		:	true,
+		"date"		:	"2015-10-12",
+		"type"		:	"Podcast"
+	},
+	{
 		"title"		: 	"Digital Project Management Summit",
 		"date"		:	"2015-10-12",
 		"location"	:	"Philadelphia, <abbr>PA</abbr>"
 	},
 	{
 		"title"		: 	"Epicurrence #2",
-		"date"		:	"2015-10-12",
+		"date"		:	"2015-10-09",
 		"location"	:	"North Shore, Oahu, <abbr title=\"Hawaii\">HI</abbr>"
 	},
 	{
@@ -312,6 +319,7 @@
 		"title"		: 	"Design Deliverables, for Typecast",
 		"slug"		:	"http://typecast.com/seminars/post-comp",
 		"date"		:	"2014-06-05",
+		"video"		:	"true",
 		"type"		:	"Webinar"
 	},
 	{

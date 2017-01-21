@@ -1,5 +1,17 @@
 [
 	{
+		"title"		: 	"Smashing Magazine Case Study",
+		"slug"		:	"https://sarasoueidan.com/case-studies/smashing-magazine/",
+		"date"		:	"2017-01-21",
+		"source"	:	"Sara Soueidan"
+	},
+	{
+		"title"		: 	"Becoming a Better Designer",
+		"slug"		:	"https://antonsten.com/becoming-better-designer/",
+		"date"		:	"2017-01-19",
+		"source"	:	"Anton Sten"
+	},
+	{
 		"title"		: 	"The Tactical Deployment Of Fun",
 		"slug"		:	"http://www.thatwasclutch.com/blog/2017/1/13/the-tactical-deployment-of-fun",
 		"date"		:	"2017-01-13",
@@ -28,7 +40,7 @@
 		"slug"		:	"https://timkadlec.com/2017/01/what-i-read-in-2016/",
 		"date"		:	"2017-01-03",
 		"source"	:	"Tim Kadlec"
-	},
+	},	
 	{
 		"title"		: 	"Insisting on Core Development Principles",
 		"slug"		:	"http://alistapart.com/article/insisting-on-core-development-principles",
@@ -66,6 +78,13 @@
 		"source"	:	"Freelance Advocate"
 	},
 	{
+		"title"		: 	"Teamwork is harder than you think",
+		"slug"		:	"https://stackingbricks.simplecast.fm/episodes/41854-ep24-teamwork-is-harder-than-you-think-part-2-of-a-series",
+		"date"		:	"2016-07-08",
+		"audio"		:	true,
+		"source"	:	"Stacking Bricks Podcast"
+	},
+	{
 		"title"		: 	"7 Tips to Calculate Your Freelance Rate",
 		"slug"		:	"https://www.shopify.com/partners/blog/108488326-7-tips-to-calculate-your-freelance-rate",
 		"date"		:	"2016-05-10",
@@ -82,6 +101,12 @@
 		"slug"		:	"http://www.verse-co.com/journal/2016/3/13/step-into-my-studio",
 		"date"		:	"2016-03-31",
 		"source"	:	"Verse"
+	},
+	{
+		"title"		: 	"Content &amp; Display Patterns with Expressive CSS",
+		"slug"		:	"http://johnpolacek.com/content-display-patterns/",
+		"date"		:	"2016-03-01",
+		"source"	:	"John Polacek"
 	},
 	{
 		"title"		: 	"Quipsology No. 29",
@@ -111,6 +136,7 @@
 		"title"		: 	"Style Guides with Jeremy Keith",
 		"slug"		:	"http://styleguides.io/podcast/jeremy-keith/",
 		"date"		:	"2015-04-30",
+		"audio"		:	true,
 		"source"	:	"StyleGuides.io"
 	},
 	{
