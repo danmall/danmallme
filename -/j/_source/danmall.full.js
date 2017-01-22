@@ -17,7 +17,7 @@ var Site = function(){
         addJSFlag();
         //initGoogleAnalytics();
         observeFonts();
-        // initialAnimation();
+        initialAnimation();
         // initButtonAnimation();
         // ajaxLoadImages();
 
@@ -108,6 +108,223 @@ var Site = function(){
             }
         );
 
+    }
+
+    var initialAnimation = function(){
+
+        // ---- HOME -------
+
+        // preamble
+        TweenLite.to(
+            document.querySelectorAll('.dm-c-preamble'), 
+            1.4, //duration
+            {
+                clipPath            :   'inset(0 0.01% 0 0)',
+                delay               :   0.5,
+                ease                :   Quint.easeInOut,
+                onComplete          :   eraseClipPath,
+                onCompleteParams    :   ['.dm-c-preamble']
+            }
+        );
+
+        // _name--dan
+        TweenLite.to(
+            document.querySelectorAll('.dm-c-preamble_name--dan'), 
+            1.4, //duration
+            {
+                clipPath    :   'inset(0 0.01% 0 0)',
+                delay       :   1,
+                ease        :   Quint.easeInOut
+            }
+        );
+
+        // _name--mall
+        TweenLite.to(
+            document.querySelectorAll('.dm-c-preamble_name--mall'), 
+            1.4, //duration
+            {
+                clipPath    :   'inset(0 0.01% 0 0)',
+                delay       :   1.1,
+                ease        :   Quint.easeInOut,
+                onComplete  :   addMallShadow
+            }
+        ); 
+
+        // dm-c-preamble_circle
+        TweenLite.to(
+            document.querySelectorAll('.dm-c-preamble_circle'), 
+            1.4, //duration
+            {
+                transform   :   'scale(0.7)',
+                delay       :   1.1,
+                ease        :   Quint.easeInOut
+            }
+        );      
+
+        // .dm-c-preamble_dan
+        TweenLite.to(
+            document.querySelectorAll('.dm-c-preamble_dan'), 
+            1, //duration
+            {
+                clipPath    :   'inset(0.1% 0.1% 0 0)',
+                delay       :   1.3,
+                ease        :   Quint.easeInOut
+            }
+        );
+
+        // _name--dan
+        TweenLite.to(
+            document.querySelectorAll('.dm-c-preamble_tagline_term'), 
+            1.4, //duration
+            {
+                clipPath    :   'inset(0 0.01% 0 0)',
+                delay       :   1.3,
+                ease        :   Quint.easeInOut
+            }
+        );
+
+        // dm-c-intro
+        TweenLite.to(
+            document.querySelectorAll('.dm-c-intro'), 
+            1.4, //duration
+            {
+                opacity     :   '1',
+                delay       :   1.5,
+                ease        :   Quint.easeInOut
+            }
+        );
+
+        // .dm-c-testimonials
+        TweenLite.to(
+            document.querySelectorAll('.dm-c-testimonials'), 
+            1.25, //duration
+            {
+                clipPath    :   'inset(0 0.1% 0 0)',
+                delay       :   1.7,
+                ease        :   Quint.easeInOut
+            }
+        );
+
+        // .dm-c-preamble_dan
+        TweenMax.staggerTo(
+            document.querySelectorAll('.dm-dp-quote'), 
+            1, 
+            {
+                opacity: 1,
+                delay: 2
+            }, 
+            1
+        );
+
+        // dm-c-pricingDesign
+        TweenMax.to(
+            document.querySelectorAll('.dm-c-pricingDesign'), 
+            1.6, 
+            {
+                opacity: 1,
+                delay: 2.5
+            }
+        );
+
+        // dm-c-pricingDesign
+        TweenMax.to(
+            document.querySelectorAll('.dm-page--home .dm-c-articlesListWrap'), 
+            1.6, 
+            {
+                opacity: 1,
+                delay: 3
+            }
+        );
+
+        // .dm-c-pricingDesignContainer
+        TweenLite.to(
+            document.querySelectorAll('.dm-c-pricingDesignContainer'), 
+            1.2, //duration
+            {
+                clipPath            :   'inset(0 0.01% 0 0)',
+                delay               :   3.7,
+                ease                :   Quint.easeInOut
+            }
+        );
+
+        // .dm-c-articlesListWrap .dm-dp-boxedHeadline
+        TweenLite.to(
+            document.querySelectorAll('.dm-c-articlesListWrap .dm-dp-boxedHeadline'), 
+            1.2, //duration
+            {
+                clipPath            :   'inset(0 0.01% 0 0)',
+                delay               :   3.9,
+                ease                :   Quint.easeInOut
+            }
+        );
+
+
+        //  ------- ARTICLES + SPEAKING LANDING -------
+
+        // .dm-page--articles .dm-c-articlesList
+        for(i=0; i<=20; i++){
+            TweenMax.to(
+                [
+                    document.querySelectorAll('.dm-page--articles .dm-dp-textBlurb:nth-of-type(' + i + ')'),
+                    document.querySelectorAll('.dm-page--speakingPodcasts .dm-dp-textBlurb:nth-of-type(' + i + ')'),
+                ],
+                1, 
+                {
+                    opacity: 1,
+                    delay: 0.2*i
+                }
+            );
+        }
+
+
+
+        //  ------------ ARTICLE DETAIL -------------
+
+        // .dm-page--articleDetail .dm-c-pageHeader
+        TweenLite.to(
+            document.querySelectorAll('.dm-page--articleDetail .dm-c-pageHeader'), 
+            2, //duration
+            {
+                opacity             :   1,
+                ease                :   Quint.easeInOut
+            }
+        );
+
+        // .dm-page--articleDetail .dm-c-articleWell
+        TweenLite.to(
+            document.querySelectorAll('.dm-page--articleDetail .dm-c-articleWell'), 
+            2, //duration
+            {
+                opacity             :   1,
+                delay               :   0.5,
+                ease                :   Quint.easeInOut
+            }
+        );
+
+
+
+    }
+
+    function addMallShadow() {
+        var _mall = document.querySelector('.dm-c-preamble_name--mall');
+        
+        if (_mall.classList) {
+          _mall.classList.add('dm-j-mallShadow');
+        } else {
+          _mall.className += ' dm-j-mallShadow';
+        }
+
+        eraseClipPath('.dm-c-preamble_name--mall');
+    }
+
+    function eraseClipPath($el) {
+        var _el = document.querySelector($el);
+        
+        if (_el.classList) {
+          _el.classList.add('dm-j-eraseClipPath');
+        } else {
+          _el.className += ' dm-j-eraseClipPath';
+        }
     }
 
     /*var initialAnimation = function(){
