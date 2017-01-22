@@ -1,0 +1,529 @@
+/*
+*************************************************
+
+DANMALL.ME
+Critical Path Screen Styles
+
+Created by the epic SuperFriendly team.
+http://superfriend.ly/
+
+*************************************************
+*/
+
+@import 'variables.scss';
+@import 'mixins.scss';
+//@import 'fonts.scss';
+@import 'utilities.scss';
+@import 'layout.scss';
+@import 'base.scss';
+
+
+
+.dm {
+
+	&-svg-siteLogo {
+		width: 70px;
+	}
+
+	&-c-siteNav {
+
+		@include dm-u-marginBottom--m;
+		@include dm-u-font--sans;		
+		@include dm-u-uppercase;	
+
+		ul {
+			@include dm-u-bullets--none;
+			@include dm-u-align--right;
+
+			@media screen and (min-width: 700px) {
+				@include dm-u-marginTop--l;
+			}
+
+		}
+		
+			&_item {
+				@include dm-u-text--s;
+				@include dm-u-align--right;
+				//@include dm-u-marginBottom--xs;
+
+				// improvisations 
+				font-size: 10px;
+				font-size: 1rem;
+				margin-bottom: 5px;
+
+				.firmeBook-loaded & {
+					@include dm-u-text--12;
+				}
+
+				@media screen and (min-width: 700px) {
+					@include dm-u-display--inlineBlock;
+					@include dm-u-marginLeft--s;
+					@include dm-u-marginBottom--xl;
+				}
+
+				@media screen and (min-width: 780px) {
+					@include dm-u-marginLeft--l;
+				}
+
+				a,
+				mark {
+					@include dm-u-display--inlineBlock;
+					@include dm-u-bg--none;
+					@include dm-u-padding--xs;
+
+					// improvisations
+					//padding: 6px;
+
+					@media screen and (min-width: 700px) {
+						.firmeBook-loaded & {
+							@include dm-u-paddingLeft--s;
+							@include dm-u-paddingRight--s;
+						}
+					}
+				}
+
+				&--active a,
+				&--active mark {
+					background: $sandstone;
+					color: #fff;
+				}
+
+			}
+
+	}
+
+	// preamble
+
+	&-c-preamble {
+
+		@include dm-u-padding--m;
+		@include dm-u-marginBottom--xs;
+		@include dm-u-pos--relative;
+		min-height: 404px;
+
+		// improvisations
+		background: $sandstone;
+
+		&_name {
+			@include dm-u-pos--absolute;
+			@include dm-u-marginBottom--xs;
+
+			// improvisations
+			width: 100%;
+			height: 350px;
+			top: 0;
+			left: 0;
+			overflow: hidden;
+
+
+			&--dan,
+			&--mall {
+				@include dm-u-phark;
+				@include dm-u-pos--absolute;
+				
+				// improvisations
+				background-size: 100%;
+				height: 300px;
+				width: 300px;
+				z-index: 2;
+			}
+
+			&--dan {
+				background-image: url(/i/dan.svg);
+				top: -20px;
+				left: 50%;
+				margin-left: -200px;
+			}
+
+			&--mall {
+				background-image: url(/i/mall.svg);
+				top: 75px;
+				left: 50%;
+				margin-left: -160px;
+				width: 335px;
+				-webkit-filter: drop-shadow(-8px -8px 24px rgba(0, 0, 0, 0.2));
+            	filter: drop-shadow(-8px -8px 24px rgba(0, 0, 0, 0.2));
+			}
+		}
+
+		&_dan {
+			@include dm-u-pos--absolute;
+			@include dm-u-display--block;
+			
+			// improvisations
+			transform: scale(0.7);
+			width: 307px;
+			height: 432px;
+			background: transparent url(/-/i/dan.png) no-repeat 0 0;
+			left: 2px;
+			left: 50%;
+			z-index: 3;
+			margin-left: -153px;
+			top: 23px;
+		}
+
+		&_circle {
+			@include dm-u-pos--absolute;
+			
+			// improvisations
+			transform: scale(0.7);
+			left: 50%;
+			z-index: 1;
+			margin-left: -160px;
+			top: 117px;
+
+			&_inner {
+				@include dm-u-pos--relative;
+				@include dm-u-display--block;
+			
+				// improvisations
+				width: 321px;
+				height: 321px;
+				border-radius: 321px;
+				background: #61564b;
+				left: 5px;
+			}
+			
+		}
+
+		&_tagline {
+			@include dm-u-text--m;
+
+			// improvisations
+			height: 1.3em;
+
+
+			&_term {
+				@include dm-u-font--sans;
+				@include dm-u-font--normal;
+				@include dm-u-display--inlineBlock;
+				@include dm-u-padding--xs;
+				@include dm-u-paddingLeft--s;
+				@include dm-u-paddingRight--s;
+				@include dm-u-pos--absolute;
+
+				// improvisations
+				color: #fff;
+				background: $orange;
+				top: 320px;
+				left: 50%;
+				z-index: 5;
+				margin-left: -150px;
+				box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.2);
+
+				&--alt {
+					background: $green;
+					left: 180px;
+					left: 50%;
+					top: 363px;
+					margin-left: 20px;
+					z-index: 4;
+				}
+			}
+		}
+	}
+
+	&-c-pageHeader {
+
+		@include dm-u-padding--m;
+
+		&:before {
+			@include dm-u-display--block;
+			@include dm-u-marginBottom--l;
+			@include dm-u-marginLeft--m;
+
+			// improvisations
+			content: "";
+			background: $silverRust;
+			height: 60px;
+			width: 3px;
+			margin-top: -50px;
+		}
+
+		&_title {
+			@include dm-u-font--normal;
+			@include dm-u-text--xl;
+			@include dm-u-marginBottom--xs;
+			@include dm-u-leading--s;
+
+			.breveTitleBold-loaded & {
+				font-family: "BreveTitle-Bold";
+			}
+
+			&_count {
+				@include dm-u-text--m;
+				@include dm-u-font--sans;
+				@include dm-u-marginLeft--xs;
+			}
+		}
+
+		
+
+		&_date {
+			@include dm-u-font--sans;
+			@include dm-u-text--s;
+			@include dm-u-font--normal;
+		}
+
+	}
+
+}
+
+@media screen and (min-width: 891px){
+
+	.dm-c-preamble {
+		@include dm-u-margin--m;
+	}
+
+		.dm-c-preamble_name {
+			width: 50%;
+		}
+
+		.dm-c-preamble_dan,
+		.dm-c-preamble_circle,
+		.dm-c-preamble_tagline_term {
+			left: 25%;
+		}
+
+	.dm-c-intro {
+		@include dm-u-pos--absolute;
+		@include dm-u-paddingRight--xl;
+		@include dm-u-font--sans;
+
+		// improvisations
+		top: 4em;
+		left: 50%;
+		width: 45%;
+		color: #fff;
+
+		a {
+			padding: 4px;
+			color: #fff;
+			//background: rgba(0, 0, 0, 0.2);
+
+			&:hover,
+			&:focus {
+				background: $orange;
+			}
+
+		}
+
+	}
+
+}
+
+@media screen and (min-width: 1020px) {
+
+	padding-top: 65px;
+
+	.dm-c-siteHeader {
+		@include dm-u-pos--fixed;
+
+		// improvisations
+		width: 100%;
+		background: rgba(255, 255, 255, 0.93);
+		height: 120px;
+		top: -2em;
+		left: 0;
+		z-index: 1;
+	}
+
+		.dm-svg-siteLogo {
+			@include dm-u-padding--0;
+
+			// improvisations
+			width: 40px;
+		}
+
+	.dm-c-pageHeader {
+
+		&_title {
+			@include dm-u-pos--fixed;
+
+			// improvisations
+			top: 0.8em;
+			left: 112px;
+			z-index: 2;
+
+			&:before {
+				@include dm-u-pos--absolute;
+
+				// improvisations;
+				content: "";
+				background: $silverRust;
+				height: 40px;
+				width: 2px;
+				left: -0.6em;
+				top: 0;
+			}
+
+		}
+
+		&:before {
+			@include dm-u-hide;
+		}
+
+	}
+
+}
+
+@media screen and (min-width: 1092px){ 
+	.dm-c-intro {
+		p {
+			@include dm-u-text--20;
+		}
+	}
+}
+
+
+.dm-page--articleDetail {
+
+	@media screen and (min-width: 1020px) {
+		padding-top: 115px;
+	}
+
+	.dm-c-pageHeader {
+
+		@media screen and (min-width: 1020px) {
+
+			// improvisations
+			width: 76%;
+
+		}
+
+		@media screen and (min-width: 1072px) {
+			padding-left: 10%;
+		} 
+
+		&_title {
+			@include dm-u-pos--static;
+			@include dm-u-leading--s;
+
+			@media screen and (min-width: 720px) {
+				@include dm-u-text--xxl;
+			}
+
+			@media screen and (min-width: 1072px) {
+				font-size: 64px;
+				font-size: 6.4rem;
+			}
+		}
+
+		&_date {
+			@include dm-u-font--sans;
+			@include dm-u-text--s;
+
+			@media screen and (min-width: 720px) {
+				@include dm-u-text--m;
+			}
+		}
+
+	}
+
+}
+
+.dm-page--landing,
+.dm-page--articleDetail {
+
+	@media screen and (min-width: 1020px) {
+
+		padding-top: 65px;
+
+		.dm-c-siteHeader {
+			@include dm-u-pos--fixed;
+
+			// improvisations
+			width: 100%;
+			background: rgba(255, 255, 255, 0.93);
+			height: 120px;
+			top: -2em;
+			left: 0;
+			z-index: 1;
+		}
+
+			.dm-svg-siteLogo {
+				@include dm-u-padding--0;
+
+				// improvisations
+				width: 40px;
+			}
+
+		.dm-c-pageHeader {
+
+			&_title {
+				@include dm-u-pos--fixed;
+
+				// improvisations
+				top: 0.8em;
+				left: 112px;
+				z-index: 2;
+
+				&:before {
+					@include dm-u-pos--absolute;
+
+					// improvisations;
+					content: "";
+					background: $silverRust;
+					height: 40px;
+					width: 2px;
+					left: -0.6em;
+					top: 0;
+				}
+
+			}
+
+			&:before {
+				@include dm-u-hide;
+			}
+
+		}
+
+	}
+
+}
+
+.dm-page--articleDetail {
+
+	@media screen and (min-width: 1020px) {
+		padding-top: 115px;
+	}
+
+	.dm-c-pageHeader {
+
+		@media screen and (min-width: 1020px) {
+
+			// improvisations
+			width: 76%;
+
+		}
+
+		@media screen and (min-width: 1072px) {
+			padding-left: 10%;
+		} 
+
+		&_title {
+			@include dm-u-pos--static;
+			@include dm-u-leading--s;
+
+			@media screen and (min-width: 720px) {
+				@include dm-u-text--xxl;
+			}
+
+			@media screen and (min-width: 1072px) {
+				font-size: 64px;
+				font-size: 6.4rem;
+			}
+		}
+
+		&_date {
+			@include dm-u-font--sans;
+			@include dm-u-text--s;
+
+			@media screen and (min-width: 720px) {
+				@include dm-u-text--m;
+			}
+		}
+
+	}
+
+}

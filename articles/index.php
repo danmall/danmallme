@@ -3,7 +3,7 @@
 <head>    
     <title>Articles by Dan Mall</title>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?> 
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>    
 
     <!-- Thanks Jeremy! https://adactio.com/journal/9881  -->
     <meta name="twitter:card" content="summary" />

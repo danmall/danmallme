@@ -1,4 +1,4 @@
-<a class="dm-dp-vertSepNav_trigger" href="#nav">Skip to navigation</a>
+<a class="dm-dp-vertSepNav_trigger dm-u-move--offscreen" href="#nav">Skip to navigation</a>
 
 <nav id="nav" class="dm-c-siteNav">
 
