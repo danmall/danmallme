@@ -17,7 +17,7 @@ var Site = function(){
         addJSFlag();
         //initGoogleAnalytics();
         observeFonts();
-        // initialAnimation();
+        initialAnimation();
         // initButtonAnimation();
         // ajaxLoadImages();
 
@@ -108,6 +108,80 @@ var Site = function(){
             }
         );
 
+    }
+
+    var initialAnimation = function(){
+
+        // ---- HOME -------
+
+        // preamble
+        TweenLite.to(
+            document.querySelectorAll('.dm-c-preamble'), 
+            1.4, //duration
+            {
+                clipPath    :   'inset(0 0.01% 0 0)',
+                delay       :   0.5,
+                ease        :   Quint.easeInOut
+            }
+        );
+
+        // _name--dan
+        TweenLite.to(
+            document.querySelectorAll('.dm-c-preamble_name--dan'), 
+            1.4, //duration
+            {
+                clipPath    :   'inset(0 0.01% 0 0)',
+                delay       :   1,
+                ease        :   Quint.easeInOut
+            }
+        );
+
+        // _name--mall
+        TweenLite.to(
+            document.querySelectorAll('.dm-c-preamble_name--mall'), 
+            1.4, //duration
+            {
+                clipPath    :   'inset(0 0.01% 0 0)',
+                delay       :   1.1,
+                ease        :   Quint.easeInOut,
+                onComplete  :   addMallShadow
+            }
+        ); 
+
+        // dm-c-preamble_circle
+        TweenLite.to(
+            document.querySelectorAll('.dm-c-preamble_circle'), 
+            1.4, //duration
+            {
+                transform   :   'scale(0.7)',
+                delay       :   1.1,
+                ease        :   Quint.easeInOut
+            }
+        );      
+
+        // .dm-c-preamble_dan
+        TweenLite.to(
+            document.querySelectorAll('.dm-c-preamble_dan'), 
+            1, //duration
+            {
+                clipPath    :   'inset(0.1% 0.1% 0 0)',
+                delay       :   1.3,
+                ease        :   Quint.easeInOut
+            }
+        );
+
+
+    }
+
+    function addMallShadow() {
+        //document.querySelectorAll('.dm-c-preamble_name--mall').style.webkitClipPath = 'none';
+        var _mall = document.querySelector('.dm-c-preamble_name--mall');
+        
+        if (_mall.classList) {
+          _mall.classList.add('mallShadow');
+        } else {
+          _mall.className += ' mallShadow';
+        }
     }
 
     /*var initialAnimation = function(){
