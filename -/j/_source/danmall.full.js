@@ -194,6 +194,69 @@ var Site = function(){
             }
         );
 
+        // .dm-c-testimonials
+        TweenLite.to(
+            document.querySelectorAll('.dm-c-testimonials'), 
+            1.25, //duration
+            {
+                clipPath    :   'inset(0 0.1% 0 0)',
+                delay       :   1.7,
+                ease        :   Quint.easeInOut
+            }
+        );
+
+        // .dm-c-preamble_dan
+        TweenMax.staggerTo(
+            document.querySelectorAll('.dm-dp-quote'), 
+            1, 
+            {
+                opacity: 1,
+                delay: 2
+            }, 
+            1
+        );
+
+        // dm-c-pricingDesign
+        TweenMax.to(
+            document.querySelectorAll('.dm-c-pricingDesign'), 
+            1.6, 
+            {
+                opacity: 1,
+                delay: 2.5
+            }
+        );
+
+        // dm-c-pricingDesign
+        TweenMax.to(
+            document.querySelectorAll('.dm-page--home .dm-c-articlesListWrap'), 
+            1.6, 
+            {
+                opacity: 1,
+                delay: 3
+            }
+        );
+
+        // .dm-c-pricingDesignContainer
+        TweenLite.to(
+            document.querySelectorAll('.dm-c-pricingDesignContainer'), 
+            1.2, //duration
+            {
+                clipPath            :   'inset(0 0.01% 0 0)',
+                delay               :   3.7,
+                ease                :   Quint.easeInOut
+            }
+        );
+
+        // .dm-c-articlesListWrap .dm-dp-boxedHeadline
+        TweenLite.to(
+            document.querySelectorAll('.dm-c-articlesListWrap .dm-dp-boxedHeadline'), 
+            1.2, //duration
+            {
+                clipPath            :   'inset(0 0.01% 0 0)',
+                delay               :   3.9,
+                ease                :   Quint.easeInOut
+            }
+        );
 
     }
 

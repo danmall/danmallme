@@ -1263,15 +1263,36 @@ http://superfriend.ly/
 		transform: scale(0); // original = 0.7
 	}
 
+	.dm-c-testimonials {
+		clip-path: inset(0 100% 0 0);
+	}
+
+	.dm-dp-quote,
+	.dm-c-pricingDesign,
+	&.dm-page--home .dm-c-articlesListWrap {
+		opacity: 0;
+	}
+
+	.dm-c-pricingDesignContainer {
+		clip-path: inset(0 100% 0 0);
+	}
+
+	.dm-c-articlesListWrap .dm-dp-boxedHeadline {
+		clip-path: inset(0 100% 0 0);
+	}
+
+
+
+	.dm-j-mallShadow {
+		-webkit-transition: filter 2s;
+		transition: filter 2s;
+		-webkit-filter: drop-shadow(-8px -8px 24px rgba(0, 0, 0, 0.2)) !important;
+	    filter: drop-shadow(-8px -8px 24px rgba(0, 0, 0, 0.2)) !important;
+	}
+
+	.dm-j-eraseClipPath {
+		clip-path: none !important;	
+	}
+
 }
 
-.dm-j-mallShadow {
-	-webkit-transition: filter 2s;
-	transition: filter 2s;
-	-webkit-filter: drop-shadow(-8px -8px 24px rgba(0, 0, 0, 0.2)) !important;
-    filter: drop-shadow(-8px -8px 24px rgba(0, 0, 0, 0.2)) !important;
-}
-
-.dm-j-eraseClipPath {
-	clip-path: none !important;	
-}
