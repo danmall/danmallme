@@ -561,8 +561,10 @@ http://superfriend.ly/
 			@include dm-u-uppercase;
 
 			// improvisations
-			font-size: $spacing * 1.5px;
+			//font-size: $spacing * 1.5px;
 			color: $cloudy;
+
+			@include dm-u-text--14;
 
 			.firmeBold-loaded & {
 				font-family: "Firme-Bold";

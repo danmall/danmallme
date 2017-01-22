@@ -35,73 +35,77 @@
 
     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
 
-    <main role="main" class="dm-c-articleWell dm-dp-textPassage">
+    <main role="main" class="dm-c-articleWell">
 
-        <p><span class="dm-dp-openingLines">Lorem ipsum dolor</span> sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. <a href="#">Duis aute irure dolor</a> in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="dm-dp-textPassage">
 
-        <ul>
-            <li>Integer posuere erat a ante venenatis dapibus posuere velit aliquet</li>
-            <li>Sed posuere consectetur est at lobortis. Vestibulum id ligula</li>
-            <li>Porta felis euismod semper</li>
-        </ul>
+            <p><span class="dm-dp-openingLines">Lorem ipsum dolor</span> sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. <a href="#">Duis aute irure dolor</a> in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <ul>
+                <li>Integer posuere erat a ante venenatis dapibus posuere velit aliquet</li>
+                <li>Sed posuere consectetur est at lobortis. Vestibulum id ligula</li>
+                <li>Porta felis euismod semper</li>
+            </ul>
 
-        <h1 id="some-headline-1">Some headline 1 <a class="dm-dp-anchorLink" href="#some-headline-1">#</a></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-        <h2 id="some-headline-2">Some headline 2 <a class="dm-dp-anchorLink" href="#some-headline-2">#</a></h2>
+            <h1 id="some-headline-1">Some headline 1 <a class="dm-dp-anchorLink" href="#some-headline-1">#</a></h1>
 
-        <h3 id="some-headline-3">Some headline 3 <a class="dm-dp-anchorLink" href="#some-headline-3">#</a></h3>
+            <h2 id="some-headline-2">Some headline 2 <a class="dm-dp-anchorLink" href="#some-headline-2">#</a></h2>
 
-        <h4 id="some-headline-4">Some headline 4 <a class="dm-dp-anchorLink" href="#some-headline-4">#</a></h4>
+            <h3 id="some-headline-3">Some headline 3 <a class="dm-dp-anchorLink" href="#some-headline-3">#</a></h3>
 
-        <h5 id="some-headline-5">Some headline 5 <a class="dm-dp-anchorLink" href="#some-headline-5">#</a></h5>
+            <h4 id="some-headline-4">Some headline 4 <a class="dm-dp-anchorLink" href="#some-headline-4">#</a></h4>
 
-        <h6 id="some-headline-6">Some headline 6 <a class="dm-dp-anchorLink" href="#some-headline-6">#</a></h6>
+            <h5 id="some-headline-5">Some headline 5 <a class="dm-dp-anchorLink" href="#some-headline-5">#</a></h5>
 
-        <ol>
-            <li>Integer posuere erat a ante venenatis dapibus posuere velit aliquet</li>
-            <li>Sed posuere consectetur est at lobortis. Vestibulum id ligula</li>
-            <li>Porta felis euismod semper</li>
-            <li>Integer <a href="#">posuere erat a</a> ante venenatis dapibus posuere velit aliquet</li>
-            <li>Sed posuere consectetur est at lobortis. Vestibulum id ligula</li>
-            <li>Porta felis euismod semper</li>
-            <li><strong>Integer posuere erat</strong> a ante venenatis dapibus posuere velit aliquet</li>
-            <li>Sed posuere consectetur est at lobortis. Vestibulum id ligula</li>
-            <li>Porta felis euismod semper</li>
-            <li>Integer <em>posuere erat a ante venenatis</em> dapibus posuere velit aliquet</li>
-            <li>Sed posuere consectetur est at lobortis. Vestibulum id ligula</li>
-            <li>Porta felis euismod semper</li>
-        </ol>
+            <h6 id="some-headline-6">Some headline 6 <a class="dm-dp-anchorLink" href="#some-headline-6">#</a></h6>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <ol>
+                <li>Integer posuere erat a ante venenatis dapibus posuere velit aliquet</li>
+                <li>Sed posuere consectetur est at lobortis. Vestibulum id ligula</li>
+                <li>Porta felis euismod semper</li>
+                <li>Integer <a href="#">posuere erat a</a> ante venenatis dapibus posuere velit aliquet</li>
+                <li>Sed posuere consectetur est at lobortis. Vestibulum id ligula</li>
+                <li>Porta felis euismod semper</li>
+                <li><strong>Integer posuere erat</strong> a ante venenatis dapibus posuere velit aliquet</li>
+                <li>Sed posuere consectetur est at lobortis. Vestibulum id ligula</li>
+                <li>Porta felis euismod semper</li>
+                <li>Integer <em>posuere erat a ante venenatis</em> dapibus posuere velit aliquet</li>
+                <li>Sed posuere consectetur est at lobortis. Vestibulum id ligula</li>
+                <li>Porta felis euismod semper</li>
+            </ol>
 
-        <blockquote>
-            <p>As you grow older, you will discover that you have two hands, one for helping yourself, the other for helping others.</p>
-            <address>Audrey Hepburn</address>
-        </blockquote>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <blockquote>
+                <p>As you grow older, you will discover that you have two hands, one for helping yourself, the other for helping others.</p>
+                <address>Audrey Hepburn</address>
+            </blockquote>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        </div>
 
         <section id="up-next" class="dm-c-upNext">
 
