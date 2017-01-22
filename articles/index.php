@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>Articles by Dan Mall</title>
+    <title>Articles &amp; Trackbacks by Dan Mall</title>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?> 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>    
 
@@ -26,7 +26,7 @@
     <header class="dm-c-pageHeader" role="banner">
 
         <h1 class="dm-c-pageHeader_title">
-            Articles<sup class="dm-c-pageHeader_title_count"><?php 
+            Articles &amp; Trackbacks<sup class="dm-c-pageHeader_title_count"><?php 
                 $articlesTotal = getTotalItems('articles.json'); 
                 $trackbacksTotal = getTotalItems('trackbacks.json'); 
                 echo $articlesTotal + $trackbacksTotal;
