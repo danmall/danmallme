@@ -1265,10 +1265,13 @@ http://superfriend.ly/
 
 }
 
-.mallShadow {
+.dm-j-mallShadow {
 	-webkit-transition: filter 2s;
 	transition: filter 2s;
 	-webkit-filter: drop-shadow(-8px -8px 24px rgba(0, 0, 0, 0.2)) !important;
     filter: drop-shadow(-8px -8px 24px rgba(0, 0, 0, 0.2)) !important;
-    clip-path: none !important;
+}
+
+.dm-j-eraseClipPath {
+	clip-path: none !important;	
 }

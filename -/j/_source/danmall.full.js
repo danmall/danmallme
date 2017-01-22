@@ -119,9 +119,11 @@ var Site = function(){
             document.querySelectorAll('.dm-c-preamble'), 
             1.4, //duration
             {
-                clipPath    :   'inset(0 0.01% 0 0)',
-                delay       :   0.5,
-                ease        :   Quint.easeInOut
+                clipPath            :   'inset(0 0.01% 0 0)',
+                delay               :   0.5,
+                ease                :   Quint.easeInOut,
+                onComplete          :   eraseClipPath,
+                onCompleteParams    :   ['.dm-c-preamble']
             }
         );
 
@@ -170,17 +172,50 @@ var Site = function(){
             }
         );
 
+        // _name--dan
+        TweenLite.to(
+            document.querySelectorAll('.dm-c-preamble_tagline_term'), 
+            1.4, //duration
+            {
+                clipPath    :   'inset(0 0.01% 0 0)',
+                delay       :   1.3,
+                ease        :   Quint.easeInOut
+            }
+        );
+
+        // dm-c-intro
+        TweenLite.to(
+            document.querySelectorAll('.dm-c-intro'), 
+            1.4, //duration
+            {
+                opacity     :   '1',
+                delay       :   1.5,
+                ease        :   Quint.easeInOut
+            }
+        );
+
 
     }
 
     function addMallShadow() {
-        //document.querySelectorAll('.dm-c-preamble_name--mall').style.webkitClipPath = 'none';
         var _mall = document.querySelector('.dm-c-preamble_name--mall');
         
         if (_mall.classList) {
-          _mall.classList.add('mallShadow');
+          _mall.classList.add('dm-j-mallShadow');
         } else {
-          _mall.className += ' mallShadow';
+          _mall.className += ' dm-j-mallShadow';
+        }
+
+        eraseClipPath('.dm-c-preamble_name--mall');
+    }
+
+    function eraseClipPath($el) {
+        var _el = document.querySelector($el);
+        
+        if (_el.classList) {
+          _el.classList.add('dm-j-eraseClipPath');
+        } else {
+          _el.className += ' dm-j-eraseClipPath';
         }
     }
 
