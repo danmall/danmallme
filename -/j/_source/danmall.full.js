@@ -278,6 +278,31 @@ var Site = function(){
 
 
 
+        //  ------------ ARTICLE DETAIL -------------
+
+        // .dm-page--articleDetail .dm-c-pageHeader
+        TweenLite.to(
+            document.querySelectorAll('.dm-page--articleDetail .dm-c-pageHeader'), 
+            2, //duration
+            {
+                opacity             :   1,
+                ease                :   Quint.easeInOut
+            }
+        );
+
+        // .dm-page--articleDetail .dm-c-articleWell
+        TweenLite.to(
+            document.querySelectorAll('.dm-page--articleDetail .dm-c-articleWell'), 
+            2, //duration
+            {
+                opacity             :   1,
+                delay               :   0.5,
+                ease                :   Quint.easeInOut
+            }
+        );
+
+
+
     }
 
     function addMallShadow() {
