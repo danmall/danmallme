@@ -2,7 +2,7 @@
 
 	<div class="dm-l-col--33 dm-u-padding--m dm-u-paddingBottom--0 dm-u-marginBottom--0">
 
-		<h1 class="dm-l-width--100 dm-u-paddingTop--s dm-u-marginBottom--0">
+		<h1 class="dm-c-siteLogo">
 			<a href="/" class="dm-u-bg--none">
 				<?php require($_SERVER["DOCUMENT_ROOT"]."/i/d.svg"); echo "\n"; ?>
 			</a>

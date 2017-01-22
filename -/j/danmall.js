@@ -73,7 +73,6 @@ var Site = function(){
         //initGoogleAnalytics();
         observeFonts();
         initialAnimation();
-        // initButtonAnimation();
         // ajaxLoadImages();
 
         
@@ -298,7 +297,9 @@ var Site = function(){
             {
                 clipPath            :   'inset(0 0.01% 0 0)',
                 delay               :   3.7,
-                ease                :   Quint.easeInOut
+                ease                :   Quint.easeInOut,
+                onComplete          :   eraseClipPath,
+                onCompleteParams    :   ['.dm-c-pricingDesignContainer']
             }
         );
 
@@ -382,87 +383,7 @@ var Site = function(){
         }
     }
 
-    /*var initialAnimation = function(){
-
-        var 
-            elements = document.querySelectorAll('.screen'),
-            DELAY = .25, // in seconds
-            ANIMATION_DURATION = 1.6, // in seconds
-            EASING = 'Quint.easeInOut';
-
-        Array.prototype.forEach.call(elements, function(el, i){
-            var shield = document.createElement('div');
-            shield.className = 'shield';
-            shield.setAttribute('data-delay', i*DELAY);
-
-            el.appendChild(shield);
-
-            // turn off shield class on body for first run
-            if(i == 0){
-                if(document.body.classList){
-                    document.body.classList.remove('shield');
-                } else {
-                    document.body.className = document.body.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
-                }
-            }
-
-            TweenLite.to(
-                shield,                     // target
-                ANIMATION_DURATION,         // duration in seconds
-                {      
-                    width: 0,
-                    ease: EASING,
-                    delay: shield.getAttribute('data-delay'),
-                    onComplete: function(){
-                        shield.parentNode.removeChild(shield);
-                    }
-                }
-            );
-
-        });
-
-
-    }
-
-    var initButtonAnimation = function(){
-
-        var urls = document.querySelectorAll('.url');
-
-        Array.prototype.forEach.call(urls, function(el, i){
-            var animationLayer = document.createElement('div');
-            animationLayer.className = 'animationLayer';
-            el.appendChild(animationLayer);
-
-            var 
-                urlLink = el.querySelector('a'),
-                ANIMATION_DURATION = 0.5, // in seconds
-                EASING = 'Quint.easeInOut';
-
-            urlLink.addEventListener('mouseover', function(){
-                TweenLite.to(
-                    animationLayer,             // target
-                    ANIMATION_DURATION,         // duration in seconds
-                    {      
-                        width: '100%',
-                        ease: EASING
-                    }
-                );
-            });
-
-            urlLink.addEventListener('mouseout', function(){
-                TweenLite.to(
-                    animationLayer,             // target
-                    ANIMATION_DURATION,         // duration in seconds
-                    {      
-                        width: '0',
-                        ease: EASING
-                    }
-                );
-            });
-
-        });
-
-    }
+    /*
 
     var ajaxLoadImages = function(){
         var lazyImages = document.querySelectorAll('.lazy-image');
@@ -474,79 +395,7 @@ var Site = function(){
 
     }
 
-    var initMoodpikLinks = function(){
-        var moodpikLinks = document.querySelectorAll('.caseStudy--moodpik section a');
-        var counter = 1;
-
-        Array.prototype.forEach.call(moodpikLinks, function(el, i){
-            el.className += 'moodpikColor' + counter;
-
-            if(counter < 4){
-                counter++;
-            }else{
-                counter = 1;
-            }
-            
-        });
-    }
-
-    var initMoodpikHeader = function(){
-
-        var 
-            moodpikBars = document.querySelectorAll('.moodpikLogo-bar'),
-            ANIMATION_DURATION = 1,
-            EASING = 'Quint.easeInOut';
-
-        Array.prototype.forEach.call(moodpikBars, function(el, i){
-
-            // reset heights
-            el.style.height = 0;
-
-            // remove initial JS class
-            if(i == 0){   
-                if(document.body.classList){
-                    document.body.classList.remove('hideBars');
-                }
-            }
-
-            // animate bars
-            TweenLite.to(
-                el,                         // target
-                ANIMATION_DURATION,         // duration in seconds
-                {      
-                    height: el.getAttribute('data-height') + 'px',
-                    ease: EASING,
-                    delay: i*0.25
-                }
-            );
-
-        });
-
-    }
-
-    var initHeadingDarkening = function(){
-
-        var 
-            sfAcademyHeading = document.querySelector('.academy-heading'),
-            promoVideo = document.querySelector('.promo-video');
-
-        promoVideo.onplay = function(){
-            if (sfAcademyHeading.classList){
-              sfAcademyHeading.classList.add('faded');
-            }else{
-              sfAcademyHeading.className += ' ' + 'faded';
-            }
-        }
-
-        promoVideo.onpause = function(){
-            if (sfAcademyHeading.classList){
-              sfAcademyHeading.classList.remove('faded');
-            }else{
-              sfAcademyHeading.className = sfAcademyHeading.className.replace(new RegExp('(^|\\b)' + className.split('faded').join('|') + '(\\b|$)', 'gi'), ' ');
-            }
-        }
-
-    }*/
+    */
 
 
 }

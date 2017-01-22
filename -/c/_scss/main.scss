@@ -72,6 +72,21 @@ http://superfriend.ly/
 
 	}
 
+	&-c-siteLogo {
+		@include dm-l-width--100;
+		@include dm-u-paddingTop--s;
+		@include dm-u-marginBottom--0;
+
+		& a:hover,
+		& a:focus {
+			background: #fff;
+			box-shadow: none;
+			
+				.cls-1 {
+					fill: $orange;
+				}
+		}
+	}
 
 		&-svg-siteLogo {
 			width: 70px;
@@ -151,6 +166,10 @@ http://superfriend.ly/
 							@include dm-u-paddingLeft--s;
 							@include dm-u-paddingRight--s;
 						}
+					}
+
+					&:focus {
+						background: $orange;
 					}
 				}
 
