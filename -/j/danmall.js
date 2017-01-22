@@ -313,6 +313,26 @@ var Site = function(){
             }
         );
 
+
+        //  ------- ARTICLES + SPEAKING LANDING -------
+
+        // .dm-page--articles .dm-c-articlesList
+        for(i=0; i<=20; i++){
+            TweenMax.to(
+                [
+                    document.querySelectorAll('.dm-page--articles .dm-dp-textBlurb:nth-of-type(' + i + ')'),
+                    document.querySelectorAll('.dm-page--speakingPodcasts .dm-dp-textBlurb:nth-of-type(' + i + ')'),
+                ],
+                1, 
+                {
+                    opacity: 1,
+                    delay: 0.2*i
+                }
+            );
+        }
+
+
+
     }
 
     function addMallShadow() {
