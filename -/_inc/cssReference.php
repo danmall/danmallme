@@ -17,4 +17,8 @@
 
     <?php 
 		} 
-    ?>   
+    ?>
+
+
+    <!-- Mint -->
+    <script src="http://stats.danielmall.com/mint/?js"></script>   

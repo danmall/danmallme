@@ -11,7 +11,7 @@
     <meta name="twitter:url" property="og:url" content="http://<?php echo $_SERVER['SERVER_NAME']; ?>/articles/" />
     <meta name="twitter:title" property="og:title" content="Articles by Dan Mall" />
     <meta name="twitter:description" property="og:description" content="Articles by Dan Mall" />
-    <meta name="twitter:image" property="og:image" content="http://<?php echo $_SERVER['SERVER_NAME']; ?>/articles/thumb.png" />
+    <meta name="twitter:image" property="og:image" content="http://<?php echo $_SERVER['SERVER_NAME']; ?>/i/d.png" />
 
 </head>
 

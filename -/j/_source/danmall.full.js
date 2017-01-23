@@ -15,7 +15,7 @@ var Site = function(){
     this.init = function(){
 
         addJSFlag();
-        //initGoogleAnalytics();
+        initGoogleAnalytics();
         observeFonts();
         initialAnimation();
         // ajaxLoadImages();
@@ -34,7 +34,7 @@ var Site = function(){
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-65148309-1', 'auto');
+      ga('create', 'UA-90621097-1', 'auto');
       ga('send', 'pageview');
 
     }
@@ -309,10 +309,12 @@ var Site = function(){
     function addMallShadow() {
         var _mall = document.querySelector('.dm-c-preamble_name--mall');
         
-        if (_mall.classList) {
-          _mall.classList.add('dm-j-mallShadow');
-        } else {
-          _mall.className += ' dm-j-mallShadow';
+        if(_mall){
+            if (_mall.classList) {
+              _mall.classList.add('dm-j-mallShadow');
+            } else {
+              _mall.className += ' dm-j-mallShadow';
+            }
         }
 
         eraseClipPath('.dm-c-preamble_name--mall');
@@ -321,11 +323,14 @@ var Site = function(){
     function eraseClipPath($el) {
         var _el = document.querySelector($el);
         
-        if (_el.classList) {
-          _el.classList.add('dm-j-eraseClipPath');
-        } else {
-          _el.className += ' dm-j-eraseClipPath';
+        if(_el){
+            if (_el.classList) {
+              _el.classList.add('dm-j-eraseClipPath');
+            } else {
+              _el.className += ' dm-j-eraseClipPath';
+            }
         }
+
     }
 
     /*
