@@ -716,6 +716,21 @@ http://superfriend.ly/
 		.carbon-img {
 			@include dm-u-float--left;
 			@include dm-u-bg--none;
+			@include dm-u-marginRight--xs;
+			@include dm-u-marginBottom--xs;
+
+			// improvistations
+			border: 3px solid transparent;
+
+			&:focus {
+				border: 3px solid $orange;
+				box-shadow: none;
+				background: none;
+			}
+
+			img {
+				margin: 0;
+			}
 		}
 
 		.carbon-text {
@@ -726,6 +741,10 @@ http://superfriend.ly/
 			// improvisations
 			font-size: 12px;
 			font-size: 1.2rem;
+
+			.firmeBook-loaded & {
+				@include dm-u-text--14;
+			}
 		}
 
 		.carbon-poweredby {
@@ -734,6 +753,10 @@ http://superfriend.ly/
 			@include dm-u-font--sans;
 			@include dm-u-bg--none;
 			@include dm-u-marginTop--xs;
+
+			.firmeBook-loaded & {
+				@include dm-u-text--12;
+			}
 		}
 
 

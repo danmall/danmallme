@@ -254,7 +254,7 @@ var Site = function(){
             1.2, //duration
             {
                 clipPath            :   'inset(0 0.01% 0 0)',
-                delay               :   3.9,
+                delay               :   4.1,
                 ease                :   Quint.easeInOut
             }
         );
