@@ -18,6 +18,7 @@ var Site = function(){
         initGoogleAnalytics();
         observeFonts();
         initialAnimation();
+        initArticleAnchorOffsets();
         // ajaxLoadImages();
 
         
@@ -306,6 +307,7 @@ var Site = function(){
 
     }
 
+
     function addMallShadow() {
         var _mall = document.querySelector('.dm-c-preamble_name--mall');
         
@@ -331,6 +333,55 @@ var Site = function(){
             }
         }
 
+    }
+
+
+    var initArticleAnchorOffsets = function(){
+
+        // ported from http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header
+        var _anchors = document.querySelectorAll('.dm-dp-anchorLink');
+
+        for(i = 0; i < _anchors.length; i++){
+            _anchors[i].addEventListener('click', function(e){
+
+                if(window.innerWidth >= 1020){
+
+                  var 
+                    _target = this.getAttribute('href'),
+                    _coords = getCoords(document.querySelector(_target)),
+                    _scrollToY = _coords.top-130;
+
+                  window.scrollTo(0, _scrollToY);
+
+                  // thanks Lea Verou! http://lea.verou.me/2011/05/change-url-hash-without-page-jump/
+                  history.pushState(null, null, _target);
+                  e.preventDefault();
+
+                }
+
+                
+            });
+        }
+
+    }
+
+    // http://stackoverflow.com/questions/5598743/finding-elements-position-relative-to-the-document
+    function getCoords(elem) { // crossbrowser version
+        var box = elem.getBoundingClientRect();
+
+        var body = document.body;
+        var docEl = document.documentElement;
+
+        var scrollTop = window.pageYOffset || docEl.scrollTop || body.scrollTop;
+        var scrollLeft = window.pageXOffset || docEl.scrollLeft || body.scrollLeft;
+
+        var clientTop = docEl.clientTop || body.clientTop || 0;
+        var clientLeft = docEl.clientLeft || body.clientLeft || 0;
+
+        var top  = box.top +  scrollTop - clientTop;
+        var left = box.left + scrollLeft - clientLeft;
+
+        return { top: Math.round(top), left: Math.round(left) };
     }
 
     /*

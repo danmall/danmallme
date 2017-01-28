@@ -13,6 +13,9 @@
     <meta name="twitter:description" property="og:description" content="Lorem ipsum dolor sit amet" />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/thumb.png" />
 
+    <style type="text/css">
+    </style>
+    
 </head>
 
 
@@ -128,23 +131,28 @@
         <div class="main">
             
             <div id="disqus_thread"></div>
-
             <script>
-                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-                var disqus_shortname = 'danielmall'; // required: replace example with your forum shortname
-                // The following are highly recommended additional parameters. Remove the slashes in front to use.
-                var disqus_identifier = 'on-creative-direction';
-                var disqus_url = 'http://danielmall.com/articles/on-creative-direction/';
-                var disqus_developer = 1;
-                /* * * DON'T EDIT BELOW THIS LINE * * */
-                (function() {
-                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                /**
+                 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                 */
+                
+                var disqus_config = function () {
+                    this.page.url = 'http://danmall.me/articles/<?php echo getArticleSlug(); ?>';
+                    this.page.identifier = '<?php echo getArticleSlug(); ?>';
+                    //this.page.title = 'a unique title for each page where Disqus is present';
+                };
+                
+                (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+                    var d = document, s = d.createElement('script');
+                    
+                    s.src = '//danielmall.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+                    
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
                 })();
             </script>
-            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-            <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
             
         </div><!-- /.main -->
         

@@ -502,6 +502,10 @@ http://superfriend.ly/
 			ol li {
 				&:before {
 					top: 0.7em;
+
+					.firmeBook-loaded & {
+						top: 0.5em;
+					}
 				}
 			}
 

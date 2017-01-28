@@ -170,4 +170,13 @@ function parseQuotes($file, $num) {
     
 }
 
+function getArticleSlug(){
+
+    // taken from http://stackoverflow.com/questions/19541080/url-get-last-part-in-php
+    $link = $_SERVER['PHP_SELF'];
+    $link_array = explode('/',$link);
+    $folder = sizeof($link_array);
+    return $link_array[$folder-2];
+}
+
 ?>

@@ -361,19 +361,19 @@ http://superfriend.ly/
 
 		&-textPassage {
 
-			h1 {
+			h1, 
+			h2 {
 				@include dm-u-text--l;
 			}
 
-			h2 {
+			h3 {
 				@include dm-u-text--m;
 			}
 
-			h3 {
+			h4 {
 				@include dm-u-text--s;
 			}
 
-			h4,
 			h5,
 			h6 {
 				.firmeBold-loaded & {
@@ -400,7 +400,9 @@ http://superfriend.ly/
 				& + h3,
 				& + h4,
 				& + h5,
-				& + h6 {
+				& + h6,
+				& + img,
+				& + svg {
 					@include dm-u-marginTop--m;
 				}
 			}
