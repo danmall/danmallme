@@ -21,6 +21,10 @@
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
 
+    <script>
+        document.write('<div class="dm-js-pageShield"></div>');
+    </script>
+
     <section id="preamble" class="dm-c-preamble">
 
 	    <h1 class="dm-c-preamble_name">
@@ -52,7 +56,7 @@
         </p>
         <?php */ ?>
 
-        <ul class="dm-dp-vertSepNav">
+        <ul class="dm-dp-vertSepNav dm-c-homepageNav">
             <?php /* ?><li class="dm-dp-vertSepNav_item"><a href="/about/">About</a></li><?php */ ?>
             <li class="dm-dp-vertSepNav_item"><a href="/articles/">Articles</a></li>
             <li class="dm-dp-vertSepNav_item"><a href="/speaking-podcasts/">Speaking &amp; Podcasts</a></li>
@@ -70,7 +74,7 @@
 
         <!-- todo: insert PD book image with AJAX -->
         <div class="dm-c-pricingDesignContainer">
-            <a class="dm-u-bg--none dm-u-boxShadow--none" href="https://abookapart.com/products/pricing-design">
+            <a class="dm-c-pricingDesignContainer_link" href="https://abookapart.com/products/pricing-design">
                 <?php require($_SERVER["DOCUMENT_ROOT"]."/i/home/pricing-design-cover-outlined.svg"); echo "\n"; ?>
             </a>
         </div>
