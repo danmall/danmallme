@@ -20,53 +20,43 @@ http://superfriend.ly/
 
 
 		&-text--xs {
-			font-size: $xs + px;
-			font-size: $xs/10 + rem;
+			@include dm-u-text--xs;
 		}
 
 		&-text--s {
-			font-size: $s + px;
-			font-size: $s/10 + rem;
+			@include dm-u-text--s;
 		}
 
 		&-text--m {
-			font-size: $m + px;
-			font-size: $m/10 + rem;
+			@include dm-u-text--m;
 		}
 
 		&-text--l {
-			font-size: $l + px;
-			font-size: $l/10 + rem;
+			@include dm-u-text--l;
 		}
 
 		&-text--xl {
-			font-size: $xl + px;
-			font-size: $xl/10 + rem;
+			@include dm-u-text--xl;
 		}
 
 		&-text--xxl {
-			font-size: $xxl + px;
-			font-size: $xxl/10 + rem;
+			@include dm-u-text--xxl;
 		}
 
 		&-text--10 {
-			font-size: 10px;
-			font-size: 1rem;
+			@include dm-u-text--10;
 		}
 
 		&-text--12 {
-			font-size: 12px;
-			font-size: 1.2rem;
+			@include dm-u-text--12;
 		}
 
 		&-text--14 {
-			font-size: 14px;
-			font-size: 1.4rem;
+			@include dm-u-text--14;
 		}
 
 		&-text--20 {
-			font-size: 20px;
-			font-size: 2rem;
+			@include dm-u-text--20;
 		}
 
 
@@ -74,48 +64,38 @@ http://superfriend.ly/
 		// leading
 
 		&-leading--xs {
-			line-height: 1;
+			@include dm-u-leading--xs;
 		}
 
 		&-leading--s {
-			line-height: 1.2;
+			@include dm-u-leading--s;
 		}
 
 		&-leading--m {
-			line-height: 1.4;
+			@include dm-u-leading--m;
 		}
 
 		&-leading--l {
-			line-height: 1.6;
+			@include dm-u-leading--l;
 		}
 
 		&-leading--xl {
-			line-height: 1.8;
+			@include dm-u-leading--xl;
 		}
 
 		&-leading--xxl {
-			line-height: 2;
+			@include dm-u-leading--xxl;
 		}
 
 
 		// font style
 
 		&-font--sans {
-			font-family: $sansSerifStack;
-			font-family: $wfSansSerifStack;
-
-			.firmeBook-loaded &  {
-				font-family: $wfSansSerifStack;				
-			}
+			@include dm-u-font--sans;
 		}
 
 		&-font--serif {
-			font-family: $serifStack;
-			font-family: $wfSerifStack;
-
-			.breveNewsBook-loaded &  {
-				font-family: $wfSerifStack;				
-			}
+			@include dm-u-font--serif;
 		}
 
 
@@ -123,20 +103,20 @@ http://superfriend.ly/
 		// font weight
 
 		&-font--bold {
-			font-weight: bold;
+			@include dm-u-font--bold;
 		}
 
 		&-font--normal {
-			font-weight: normal;
+			@include dm-u-font--normal;
 		}
 
 		&-font--italic,
 		&-fontStyle--italic {
-			font-style: italic;
+			@include dm-u-fontStyle--italic;
 		}
 
 		&-fontStyle--normal {
-			font-style: normal;
+			@include dm-u-fontStyle--normal;
 		}
 
 
@@ -144,23 +124,22 @@ http://superfriend.ly/
 		// bullets
 
 		&-bullets {
-			list-style: disc;	
+			@include dm-u-bullets;
 		}
 
 		&-bullets--none {
-			list-style: none;	
+			@include dm-u-bullets--none;
 		}
 
 
 		// other text styles
 
 		&-uppercase {
-			text-transform: uppercase;
-			letter-spacing: 0.1em;
+			@include dm-u-uppercase;
 		}
 
 		&-letterspace--in {
-			letter-spacing: -1px;
+			@include dm-u-letterspace--in;
 		}
 
 
@@ -172,15 +151,15 @@ http://superfriend.ly/
 		-------------------------------------------*/
 
 		&-align--left {
-			text-align: left;
+			@include dm-u-align--left;
 		}
 
 		&-align--right {
-			text-align: right;
+			@include dm-u-align--right;
 		}
 
 		&-align--center {
-			text-align: center;
+			@include dm-u-align--center;
 		}
 
 
@@ -192,31 +171,31 @@ http://superfriend.ly/
 		// margin shorthand
 
 		&-margin--0 {
-			margin: 0
+			@include dm-u-margin--0;
 		}
 
 		&-margin--xs {
-			margin: $spacing + px;
+			@include dm-u-margin--xs;
 		}
 
 		&-margin--s {
-			margin: ($spacing * 2) + px;
+			@include dm-u-margin--s;
 		}
 
 		&-margin--m {
-			margin: ($spacing * 3) + px;
+			@include dm-u-margin--m;
 		}
 
 		&-margin--l {
-			margin: ($spacing * 4) + px;
+			@include dm-u-margin--l;
 		}
 
 		&-margin--xl {
-			margin: ($spacing * 5) + px;
+			@include dm-u-margin--xl;
 		}
 
 		&-margin--xxl {
-			margin: ($spacing * 6) + px;
+			@include dm-u-margin--xxl;
 		}
 
 
@@ -224,93 +203,93 @@ http://superfriend.ly/
 		// marginTop
 
 		&-marginTop--0 {
-			margin-top: 0;
+			@include dm-u-marginTop--0;
 		}
 
 		&-marginTop--xs {
-			margin-top: $spacing + px;
+			@include dm-u-marginTop--xs;
 		}
 
 		&-marginTop--s {
-			margin-top: ($spacing * 2) + px;
+			@include dm-u-marginTop--s;
 		}
 
 		&-marginTop--m {
-			margin-top: ($spacing * 3) + px;
+			@include dm-u-marginTop--m;
 		}
 
 		&-marginTop--l {
-			margin-top: ($spacing * 4) + px;
+			@include dm-u-marginTop--l;
 		}
 
 		&-marginTop--xl {
-			margin-top: ($spacing * 5) + px;
+			@include dm-u-marginTop--xl;
 		}
 
 		&-marginTop--xxl {
-			margin-top: ($spacing * 6) + px;
+			@include dm-u-marginTop--xxl;
 		}
 
 
 		// marginRight
 
 		&-marginRight--0 {
-			margin-right: 0;
+			@include dm-u-marginRight--0;
 		}
 
 		&-marginRight--xs {
-			margin-right: $spacing + px;
+			@include dm-u-marginRight--xs;
 		}
 
 		&-marginRight--s {
-			margin-right: ($spacing * 2) + px;
+			@include dm-u-marginRight--s;
 		}
 
 		&-marginRight--m {
-			margin-right: ($spacing * 3) + px;
+			@include dm-u-marginRight--m;
 		}
 
 		&-marginRight--l {
-			margin-right: ($spacing * 4) + px;
+			@include dm-u-marginRight--l;
 		}
 
 		&-marginRight--xl {
-			margin-right: ($spacing * 5) + px;
+			@include dm-u-marginRight--xl;
 		}
 
 		&-marginRight--xxl {
-			margin-right: ($spacing * 6) + px;
+			@include dm-u-marginRight--xxl;
 		}
 
 
 		// marginBottom
 
 		&-marginBottom--0 {
-			margin-bottom: 0;
+			@include dm-u-marginBottom--0;
 		}
 
 		&-marginBottom--xs {
-			margin-bottom: $spacing + px;
+			@include dm-u-marginBottom--xs;
 		}
 
 		&-marginBottom--s {
-			margin-bottom: ($spacing * 2) + px;
+			@include dm-u-marginBottom--s;
 		}
 
 		&-marginBottom--m {
-			margin-bottom: ($spacing * 3) + px;
+			@include dm-u-marginBottom--m;
 		}
 
 		&-marginBottom--l {
-			margin-bottom: ($spacing * 4) + px;
+			@include dm-u-marginBottom--l;
 		}
 
 		&-marginBottom--xl {
-			margin-bottom: ($spacing * 5) + px;
+			@include dm-u-marginBottom--xl;
 		}
 
 		&-marginBottom--xxl {
-			margin-bottom: ($spacing * 6) + px;
+			@include dm-u-marginBottom--xxl;
 		}
 
 
@@ -318,31 +297,31 @@ http://superfriend.ly/
 		// marginLeft
 
 		&-marginLeft--0 {
-			margin-left: 0;
+			@include dm-u-marginLeft--0;
 		}
 
 		&-marginLeft--xs {
-			margin-left: $spacing + px;
+			@include dm-u-marginLeft--xs;
 		}
 
 		&-marginLeft--s {
-			margin-left: ($spacing * 2) + px;
+			@include dm-u-marginLeft--s;
 		}
 
 		&-marginLeft--m {
-			margin-left: ($spacing * 3) + px;
+			@include dm-u-marginLeft--m;
 		}
 
 		&-marginLeft--l {
-			margin-left: ($spacing * 4) + px;
+			@include dm-u-marginLeft--l;
 		}
 
 		&-marginLeft--xl {
-			margin-left: ($spacing * 5) + px;
+			@include dm-u-marginLeft--xl;
 		}
 
 		&-marginLeft--xxl {
-			margin-left: ($spacing * 6) + px;
+			@include dm-u-marginLeft--xxl;
 		}
 
 
@@ -354,31 +333,31 @@ http://superfriend.ly/
 		// padding shorthand
 
 		&-padding--0 {
-			padding: 0;
+			@include dm-u-padding--0;
 		}
 
 		&-padding--xs {
-			padding: $spacing + px;
+			@include dm-u-padding--xs;
 		}
 
 		&-padding--s {
-			padding: ($spacing * 2) + px;
+			@include dm-u-padding--s;
 		}
 
 		&-padding--m {
-			padding: ($spacing * 3) + px;
+			@include dm-u-padding--m;
 		}
 
 		&-padding--l {
-			padding: ($spacing * 4) + px;
+			@include dm-u-padding--l;
 		}
 
 		&-padding--xl {
-			padding: ($spacing * 5) + px;
+			@include dm-u-padding--xl;
 		}
 
 		&-padding--xxl {
-			padding: ($spacing * 6) + px;
+			@include dm-u-padding--xxl;
 		}
 
 
@@ -386,93 +365,93 @@ http://superfriend.ly/
 		// paddingTop
 
 		&-paddingTop--0 {
-			padding-top: 0;
+			@include dm-u-paddingTop--0;
 		}
 
 		&-paddingTop--xs {
-			padding-top: $spacing + px;
+			@include dm-u-paddingTop--xs;
 		}
 
 		&-paddingTop--s {
-			padding-top: ($spacing * 2) + px;
+			@include dm-u-paddingTop--s;
 		}
 
 		&-paddingTop--m {
-			padding-top: ($spacing * 3) + px;
+			@include dm-u-paddingTop--m;
 		}
 
 		&-paddingTop--l {
-			padding-top: ($spacing * 4) + px;
+			@include dm-u-paddingTop--l;
 		}
 
 		&-paddingTop--xl {
-			padding-top: ($spacing * 5) + px;
+			@include dm-u-paddingTop--xl;
 		}
 
 		&-paddingTop--xxl {
-			padding-top: ($spacing * 6) + px;
+			@include dm-u-paddingTop--xxl;
 		}
 
 
 		// paddingRight
 
 		&-paddingRight--0 {
-			padding-right: 0;
+			@include dm-u-paddingRight--0;
 		}
 
 		&-paddingRight--xs {
-			padding-right: $spacing + px;
+			@include dm-u-paddingRight--xs;
 		}
 
 		&-paddingRight--s {
-			padding-right: ($spacing * 2) + px;
+			@include dm-u-paddingRight--s;
 		}
 
 		&-paddingRight--m {
-			padding-right: ($spacing * 3) + px;
+			@include dm-u-paddingRight--m;
 		}
 
 		&-paddingRight--l {
-			padding-right: ($spacing * 4) + px;
+			@include dm-u-paddingRight--l;
 		}
 
 		&-paddingRight--xl {
-			padding-right: ($spacing * 5) + px;
+			@include dm-u-paddingRight--xl;
 		}
 
 		&-paddingRight--xxl {
-			padding-right: ($spacing * 6) + px;
+			@include dm-u-paddingRight--xxl;
 		}
 
 
 		// paddingBottom
 
 		&-paddingBottom--0 {
-			padding-bottom: 0;
+			@include dm-u-paddingBottom--0;
 		}
 
 		&-paddingBottom--xs {
-			padding-bottom: $spacing + px;
+			@include dm-u-paddingBottom--xs;
 		}
 
 		&-paddingBottom--s {
-			padding-bottom: ($spacing * 2) + px;
+			@include dm-u-paddingBottom--s;
 		}
 
 		&-paddingBottom--m {
-			padding-bottom: ($spacing * 3) + px;
+			@include dm-u-paddingBottom--m;
 		}
 
 		&-paddingBottom--l {
-			padding-bottom: ($spacing * 4) + px;
+			@include dm-u-paddingBottom--l;
 		}
 
 		&-paddingBottom--xl {
-			padding-bottom: ($spacing * 5) + px;
+			@include dm-u-paddingBottom--xl;
 		}
 
 		&-paddingBottom--xxl {
-			padding-bottom: ($spacing * 6) + px;
+			@include dm-u-paddingBottom--xxl;
 		}
 
 
@@ -480,31 +459,31 @@ http://superfriend.ly/
 		// paddingLeft
 
 		&-paddingLeft--0 {
-			padding-left: 0;
+			@include dm-u-paddingLeft--0;
 		}
 
 		&-paddingLeft--xs {
-			padding-left: $spacing + px;
+			@include dm-u-paddingLeft--xs;
 		}
 
 		&-paddingLeft--s {
-			padding-left: ($spacing * 2) + px;
+			@include dm-u-paddingLeft--s;
 		}
 
 		&-paddingLeft--m {
-			padding-left: ($spacing * 3) + px;
+			@include dm-u-paddingLeft--m;
 		}
 
 		&-paddingLeft--l {
-			padding-left: ($spacing * 4) + px;
+			@include dm-u-paddingLeft--l;
 		}
 
 		&-paddingLeft--xl {
-			padding-left: ($spacing * 5) + px;
+			@include dm-u-paddingLeft--xl;
 		}
 
 		&-paddingLeft--xxl {
-			padding-left: ($spacing * 6) + px;
+			@include dm-u-paddingLeft--xxl;
 		}
 
 
@@ -516,30 +495,30 @@ http://superfriend.ly/
 		-------------------------------------------*/
 		
 		&-hide {
-			display: none;
+			@include dm-u-hide;
 		}
 
 		&-show,
 		&-block {
-			display: block;
+			@include dm-u-show;
 		}
 
 		&-display {
 
 			&--block {
-				display: block;
+				@include dm-u-display--block;
 			}
 
 			&--inlineBlock {
-				display: inline-block;
+				@include dm-u-display--inlineBlock;
 			}
 
 			&--inline {
-				display: inline;
+				@include dm-u-display--inline;
 			}
 
 			&--flex {
-				display: flex;
+				@include dm-u-display--flex;
 			}
 
 		}
@@ -550,19 +529,19 @@ http://superfriend.ly/
 		-------------------------------------------*/
 
 		&-pos--absolute {
-			position: absolute;
+			@include dm-u-pos--absolute;
 		}
 
 		&-pos--relative {
-			position: relative;
+			@include dm-u-pos--relative;
 		}
 
 		&-pos--static {
-			position: static;
+			@include dm-u-pos--static;
 		}
 
 		&-pos--fixed {
-			position: fixed;
+			@include dm-u-pos--fixed;
 		}
 
 
@@ -572,15 +551,11 @@ http://superfriend.ly/
 		-------------------------------------------*/
 
 		&-move--offscreen {
-			@include dm-u-pos--absolute;
-			@include dm-u-show;
-			left: -99999px;
+			@include dm-u-move--offscreen;
 		}
 
 		&-move--onscreen {
-			@include dm-u-pos--absolute;
-			@include dm-u-show;
-			left: 0;
+			@include dm-u-move--onscreen;
 		}
 
 
@@ -589,27 +564,27 @@ http://superfriend.ly/
 		-------------------------------------------*/
 
 		&-float--left {
-			float: left;
+			@include dm-u-float--left;
 		}
 
 		&-float--right {
-			float: right;
+			@include dm-u-float--right;
 		}
 
 		&-float--none {
-			float: none;
+			@include dm-u-float--none;
 		}
 
 		&-clear--left {
-			clear: left;
+			@include dm-u-clear--left;
 		}
 
 		&-clear--right {
-			clear: right;
+			@include dm-u-clear--right;
 		}
 
 		&-clear--both {
-			clear: both;
+			@include dm-u-clear--both;
 		}
 
 		/* Easy Clearing - http://www.positioniseverything.net/easyclearing.html */ 
@@ -627,11 +602,7 @@ http://superfriend.ly/
 		-------------------------------------------*/
 
 		&-phark {
-			display: block; 
-			text-indent: -9999px; 
-			background-position: 0 0; 
-			background-repeat: no-repeat; 
-			background-color: transparent;
+			@include dm-u-phark;
 		}
 
 
@@ -641,7 +612,7 @@ http://superfriend.ly/
 		-------------------------------------------*/
 
 		&-bg--none {
-			background: none;
+			@include dm-u-bg--none;
 		}
 
 
@@ -649,7 +620,7 @@ http://superfriend.ly/
 		    Box Shadow
 		-------------------------------------------*/
 		&-boxShadow--none {
-			box-shadow: none;
+			@include dm-u-boxShadow--none;
 		}
 
 	}

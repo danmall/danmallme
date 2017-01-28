@@ -179,6 +179,10 @@ http://superfriend.ly/
 					color: $orange;
 				}
 
+				a:active {
+					color: #fff;
+				}
+
 				&--active a,
 				&--active mark {
 					background: $sandstone;
