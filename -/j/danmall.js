@@ -81,6 +81,12 @@ var Site = function(){
 
     var addJSFlag = function(){
         document.body.className += " js";
+
+        // remove shield
+        if(document.querySelector('.dm-js-pageShield')){
+            document.body.removeChild(document.querySelector('.dm-js-pageShield'));
+        }
+        
     }
 
     var initGoogleAnalytics = function(){
@@ -410,7 +416,7 @@ var Site = function(){
 
                   // thanks Lea Verou! http://lea.verou.me/2011/05/change-url-hash-without-page-jump/
                   history.pushState(null, null, _target);
-                  
+
                   e.preventDefault();
 
                 }

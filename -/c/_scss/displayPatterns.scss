@@ -615,6 +615,12 @@ http://superfriend.ly/
 						@include dm-u-display--block;
 						@include dm-u-padding--xs;
 						@include dm-u-paddingLeft--0;
+						@include dm-u-boxShadow--none;
+
+						&:hover {
+							@include dm-u-boxShadow--none;
+							color: $orange;							
+						}
 					}
 
 					mark {

@@ -28,6 +28,10 @@
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
 
+    <script>
+        document.write('<div class="dm-js-pageShield"></div>');
+    </script>
+
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 
     <header class="dm-c-pageHeader" role="banner">

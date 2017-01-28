@@ -73,6 +73,18 @@ http://superfriend.ly/
 
 	}
 
+	&-js-pageShield {
+		@include dm-u-pos--fixed;
+
+		// improvisations
+		background: #fff;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		z-index: 9999;
+	}
+
 	&-c-siteLogo {
 		@include dm-l-width--100;
 		@include dm-u-paddingTop--s;
@@ -348,6 +360,18 @@ http://superfriend.ly/
 
 	}
 
+		&-c-homepageNav {
+
+			@media screen and (min-width: 891px){
+				.dm-dp-vertSepNav_item a {
+					&:hover {
+						color: #fff;
+					}
+				}
+			}
+
+		}
+
 
 	// pricing design
 
@@ -365,6 +389,29 @@ http://superfriend.ly/
 
 		}
 	}
+
+		&-c-pricingDesignContainer {
+
+			&_link {
+				@include dm-u-bg--none;
+				@include dm-u-boxShadow--none;
+			}
+
+			&_link:hover {
+				@include dm-u-boxShadow--none;
+			}
+
+			a {
+				&:hover {
+					@include dm-u-boxShadow--none;	
+				}
+			}
+
+		}
+
+			&-svg-pricingDesign {
+				@include dm-u-margin--0;
+			}
 
 
 	// articles
