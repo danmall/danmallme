@@ -355,6 +355,7 @@ var Site = function(){
 
                   // thanks Lea Verou! http://lea.verou.me/2011/05/change-url-hash-without-page-jump/
                   history.pushState(null, null, _target);
+                  
                   e.preventDefault();
 
                 }

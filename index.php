@@ -70,7 +70,7 @@
 
         <!-- todo: insert PD book image with AJAX -->
         <div class="dm-c-pricingDesignContainer">
-            <a class="dm-u-bg--none" href="https://abookapart.com/products/pricing-design">
+            <a class="dm-u-bg--none dm-u-boxShadow--none" href="https://abookapart.com/products/pricing-design">
                 <?php require($_SERVER["DOCUMENT_ROOT"]."/i/home/pricing-design-cover-outlined.svg"); echo "\n"; ?>
             </a>
         </div>

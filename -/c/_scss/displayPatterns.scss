@@ -330,9 +330,10 @@ http://superfriend.ly/
 			
 
 			&_link {
+				@include dm-u-bg--none;
+				@include dm-u-boxShadow--none;
 
 				// improvisations
-				background: none;
 				color: $orange;
 
 				&:after {

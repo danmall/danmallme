@@ -76,7 +76,9 @@
 	},
 	{
 		"title"		: 	"Mirror Conference",
+		"slug"		:	"https://www.youtube.com/watch?v=20AYrrNHGaE",
 		"date"		:	"2016-09-23",
+		"video"		:	true,
 		"location"	:	"Braga, Portugal"
 	},
 	{

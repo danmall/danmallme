@@ -13,6 +13,7 @@ http://superfriend.ly/
 @import 'variables.scss';
 @import 'mixins.scss';
 @import 'fonts.scss';
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 @import 'utilities.scss';
 @import 'layout.scss';
 @import 'displayPatterns.scss';
@@ -186,6 +187,11 @@ http://superfriend.ly/
 				&--active a,
 				&--active mark {
 					background: $sandstone;
+					color: #fff;
+				}
+
+				&--active a:hover {
+					background: $orange;
 					color: #fff;
 				}
 
@@ -611,6 +617,11 @@ http://superfriend.ly/
 
 			a {
 				@include dm-u-bg--none;
+				@include dm-u-boxShadow--none;
+
+				&:hover {
+					color: $orange;
+				}
 			}
 
 			.breveTitleBold-loaded & {
