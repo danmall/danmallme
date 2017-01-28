@@ -157,9 +157,14 @@ http://superfriend.ly/
 					@include dm-u-display--inlineBlock;
 					@include dm-u-bg--none;
 					@include dm-u-padding--xs;
+					@include dm-u-boxShadow--none;
 
 					// improvisations
 					//padding: 6px;
+
+					&:focus {
+						background: $orange;
+					}
 
 					@media screen and (min-width: 700px) {
 						.firmeBook-loaded & {
@@ -167,10 +172,11 @@ http://superfriend.ly/
 							@include dm-u-paddingRight--s;
 						}
 					}
+					
+				}
 
-					&:focus {
-						background: $orange;
-					}
+				a:hover {
+					color: $orange;
 				}
 
 				&--active a,
@@ -722,9 +728,14 @@ http://superfriend.ly/
 			@include dm-u-bg--none;
 			@include dm-u-marginRight--xs;
 			@include dm-u-marginBottom--xs;
+			@include dm-u-boxShadow--none;
 
 			// improvistations
 			border: 3px solid transparent;
+
+			&:hover {
+				@include dm-u-boxShadow--none;
+			}
 
 			&:focus {
 				border: 3px solid $orange;
@@ -741,10 +752,16 @@ http://superfriend.ly/
 			//@include dm-u-text--xs;
 			@include dm-u-font--sans;
 			@include dm-u-bg--none;
+			@include dm-u-boxShadow--none;
 
 			// improvisations
 			font-size: 12px;
 			font-size: 1.2rem;
+
+			&:hover {
+				@include dm-u-boxShadow--none;
+				color: $orange;
+			}
 
 			.firmeBook-loaded & {
 				@include dm-u-text--14;
@@ -757,6 +774,12 @@ http://superfriend.ly/
 			@include dm-u-font--sans;
 			@include dm-u-bg--none;
 			@include dm-u-marginTop--xs;
+			@include dm-u-boxShadow--none;
+
+			&:hover {
+				@include dm-u-boxShadow--none;
+				color: $orange;
+			}
 
 			.firmeBook-loaded & {
 				@include dm-u-text--12;

@@ -311,6 +311,10 @@ http://superfriend.ly/
 
 		&-anchorLink {
 			color: $cloudy;
+
+			&:hover {
+				color: #000;
+			}
 		}
 
 
