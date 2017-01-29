@@ -102,6 +102,10 @@ http://superfriend.ly/
 	}
 
 		&-svg-siteLogo {
+			@include dm-u-margin--0;
+			@include dm-u-display--inline;
+
+			// improvisatins
 			width: 70px;
 		}
 
