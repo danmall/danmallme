@@ -36,14 +36,14 @@ module.exports = function(grunt) {
 		            '-/j/_source/*.js' // All JS in the _source folder		            
 		            //'js/global.js'  // This specific file
 		        ],
-		        dest: '-/j/danmall.js'
+		        dest: '-/j/danmall.max.js'
 		    }
 		},
 
 		uglify: {
 		    build: {
-		        src: '-/j/danmall.js',
-		        dest: '-/j/danmall.min.js'
+		        src: '-/j/danmall.max.js',
+		        dest: '-/j/danmall.js'
 		    }
 		},
 
