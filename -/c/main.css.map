@@ -1,6 +1,6 @@
 {
 	"version": 3,
-	"file": "main.min.css",
+	"file": "main.css",
 	"sources": [
 		"_scss/main.scss",
 		"_scss/variables.scss",

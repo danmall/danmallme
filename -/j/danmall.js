@@ -154,7 +154,7 @@ var Site = function(){
                 document.body.className += " firmeBook-loaded";
             }
         );
-
+            
         firmeBold
             .check()
             .then(function(){

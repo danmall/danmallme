@@ -179,4 +179,12 @@ function getArticleSlug(){
     return $link_array[$folder-2];
 }
 
+
+// modified from http://particletree.com/notebook/automatically-version-your-css-and-javascript-files/
+function autoVer($url){
+    $path = pathinfo($url);
+    $ver = '.'.filemtime($_SERVER['DOCUMENT_ROOT'].$url).'.';
+    return $path['dirname'].'/'.str_replace('.', $ver, $path['basename']);
+}
+
 ?>
