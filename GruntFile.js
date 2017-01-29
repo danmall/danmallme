@@ -21,8 +21,8 @@ module.exports = function(grunt) {
 					sourceMap: true
 				},
 			  	files: {                         // Dictionary of files
-			    	'-/c/main.min.css'			: 	'-/c/_scss/main.scss',       // 'destination': 'source'
-			    	'-/c/critical.min.css'			: 	'-/c/_scss/critical.scss'       // 'destination': 'source'
+			    	'-/c/main.css'			: 	'-/c/_scss/main.scss',       // 'destination': 'source'
+			    	'-/c/critical.css'			: 	'-/c/_scss/critical.scss'       // 'destination': 'source'
 			    	//'/-/c/project-enhanced.css'	: 	'www/-/c/_scss/enhanced.scss',       // 'destination': 'source'
 			    	//'/-/c/ie.css'			: 	'www/-/c/_scss/ie.scss'       // 'destination': 'source'
 			  	}

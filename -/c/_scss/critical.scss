@@ -51,10 +51,6 @@ http://superfriend.ly/
 				font-size: 1rem;
 				margin-bottom: 5px;
 
-				.firmeBook-loaded & {
-					@include dm-u-text--12;
-				}
-
 				@media screen and (min-width: 700px) {
 					@include dm-u-display--inlineBlock;
 					@include dm-u-marginLeft--s;
@@ -73,13 +69,6 @@ http://superfriend.ly/
 
 					// improvisations
 					//padding: 6px;
-
-					@media screen and (min-width: 700px) {
-						.firmeBook-loaded & {
-							@include dm-u-paddingLeft--s;
-							@include dm-u-paddingRight--s;
-						}
-					}
 				}
 
 				&--active a,
@@ -245,10 +234,6 @@ http://superfriend.ly/
 			@include dm-u-text--xl;
 			@include dm-u-marginBottom--xs;
 			@include dm-u-leading--s;
-
-			.breveTitleBold-loaded & {
-				font-family: "BreveTitle-Bold";
-			}
 
 			&_count {
 				@include dm-u-text--m;
