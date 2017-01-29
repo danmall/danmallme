@@ -344,6 +344,8 @@ var Site = function(){
 
     var initArticleAnchorOffsets = function(){
 
+        var _OFFSET = 130;
+
         // ported from http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header
         var _anchors = document.querySelectorAll('.dm-dp-anchorLink');
 
@@ -355,7 +357,7 @@ var Site = function(){
                   var 
                     _target = this.getAttribute('href'),
                     _coords = getCoords(document.querySelector(_target)),
-                    _scrollToY = _coords.top-130;
+                    _scrollToY = _coords.top-_OFFSET;
 
                   window.scrollTo(0, _scrollToY);
 
@@ -366,8 +368,30 @@ var Site = function(){
 
                 }
 
-                
             });
+        }
+
+        // Executed on page load with URL containing an anchor tag.
+        window.onload = function(){
+
+            if(location.href.split("#")[1]) {
+
+                console.log(location.href.split("#")[1]);
+                
+                if(window.innerWidth >= 1020){
+
+                    var 
+                        _target = location.href.split("#")[1],
+                        _coords = getCoords(document.querySelector('#' + _target)),
+                        _scrollToY = _coords.top-_OFFSET;
+
+                    setTimeout(function(){ window.scrollTo(0, _scrollToY) }, 200);
+
+                    return false;
+
+                }
+            }
+
         }
 
     }
