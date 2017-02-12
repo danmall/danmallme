@@ -349,6 +349,10 @@ http://superfriend.ly/
 					background: $sandstone;
 					top: -0.2em;
 				}
+
+				&:hover:after {
+					background: black;
+				}
 			}
 		}
 

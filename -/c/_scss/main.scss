@@ -1373,6 +1373,8 @@ http://superfriend.ly/
 
 .js {
 
+	// original animation
+	/*
 	.dm-c-intro {
 		opacity: 0;
 	}
@@ -1431,6 +1433,21 @@ http://superfriend.ly/
 
 	.dm-j-eraseClipPath {
 		clip-path: none !important;	
+	}
+
+	*/
+
+
+	.dm-j-preambleShield {
+		@include dm-u-pos--absolute;
+
+		// improvisations
+		width: 100%;
+		height: 100%;
+		top: 0;
+		right: 0;
+		background: white;
+
 	}
 
 }

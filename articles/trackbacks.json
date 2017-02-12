@@ -1,5 +1,12 @@
 [
 	{
+		"title"		: 	"What&rsquo;s Your Mission?",
+		"slug"		:	"http://funsize.co/hustle/whats-your-mission-with-dan-mall",
+		"date"		:	"2017-02-09",
+		"source"	:	"Hustle",
+		"audio"		:	true
+	},
+	{
 		"title"		: 	"10 Ideas Worth Sharing This Week",
 		"slug"		:	"https://medium.com/an-idea-for-you/10-ideas-worth-sharing-this-week-7f14c342e39f#.ap6cwt6dq",
 		"date"		:	"2017-01-21",
@@ -139,6 +146,13 @@
 		"source"	:	"Geekadelphia"
 	},
 	{
+		"title"		: 	"&lsquo;Fair cop guv&rsquo; with Dan Edwards and Dan Mall",
+		"slug"		:	"http://www.unfinished.bz/114",
+		"date"		:	"2015-04-07",
+		"source"	:	"Unfinished Business",
+		"audio"		:	true
+	},
+	{
 		"title"		: 	"Style Guides with Jeremy Keith",
 		"slug"		:	"http://styleguides.io/podcast/jeremy-keith/",
 		"date"		:	"2015-04-30",
@@ -158,6 +172,13 @@
 		"source"	:	"WebDevStudios"
 	},
 	{
+		"title"		: 	"&lsquo;Seventeen coats of bullshit&rsquo; with Dan Mall and Jeffrey Zeldman",
+		"slug"		:	"http://www.unfinished.bz/105",
+		"date"		:	"2015-04-07",
+		"source"	:	"Unfinished Business",
+		"audio"		:	true
+	},
+	{
 		"title"		: 	"A Good Primer on Pricing",
 		"slug"		:	"https://www.reddit.com/r/freelance/comments/31bt9l/a_good_primer_on_pricing/?st=ixyqymh4&amp;sh=6f831347",
 		"date"		:	"2015-04-04",
@@ -168,6 +189,12 @@
 		"slug"		:	"http://technical.ly/philly/2015/02/12/dan-mall-superfriendly-how-i-work/",
 		"date"		:	"2015-02-12",
 		"source"	:	"Technically Philly"
+	},
+	{
+		"title"		: 	"Responsive Web Design with Adobe Photoshop",
+		"slug"		:	"http://amzn.to/2lyDzFi",
+		"date"		:	"2015-01-25",
+		"source"	:	"Amazon"
 	},
 	{
 		"title"		: 	"Studio Visit: Getting Tacos with Dan Mall of SuperFriendly",
