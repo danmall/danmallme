@@ -17,6 +17,7 @@ var Site = function(){
         addJSFlag();
         initGoogleAnalytics();
         observeFonts();
+        //initialAnimationOriginal();
         initialAnimation();
         initArticleAnchorOffsets();
         // ajaxLoadImages();
@@ -116,7 +117,56 @@ var Site = function(){
 
     }
 
-    var initialAnimation = function(){
+    var initialAnimation = function() {
+
+        var 
+            _preamble                   =   document.querySelector('.dm-c-preamble'), 
+            _circle                     =   document.querySelector('.dm-c-preamble_circle'),
+            _intro                      =   document.querySelector('.dm-c-intro'),
+            _dan                        =   document.querySelector('.dm-c-preamble_name--dan'),
+            _mall                       =   document.querySelector('.dm-c-preamble_name--mall'),
+            _danHead                    =   document.querySelector('.dm-c-preamble_dan'),
+            _tagline                    =   document.querySelectorAll('.dm-c-preamble_tagline_term'),
+            _testimonials               =   document.querySelector('.dm-c-testimonials'), 
+            _quotes                     =   document.querySelectorAll('.dm-dp-quote'),
+            _pricingDesign              =   document.querySelector('.dm-c-pricingDesign'),
+            _homeArticles               =   document.querySelectorAll('.dm-page--home .dm-c-articlesListWrap'), 
+            _pdBook                     =   document.querySelector('.dm-c-pricingDesignContainer'), 
+            _latestArticlesHeadline     =   document.querySelectorAll('.dm-c-articlesListWrap .dm-dp-boxedHeadline');
+
+
+        // creating animation elements
+        var _preambleShield = document.createElement('div');
+        _preambleShield.setAttribute('class','dm-j-preambleShield');
+        _preamble.append(_preambleShield);
+
+        var _testimonialsShield = document.createElement('div');
+        _testimonialsShield.setAttribute('class','dm-j-testimonialsShield');
+        _testimonials.append(_testimonialsShield);
+
+        // initialize
+        TweenMax.fromTo(_preambleShield, 1, { width: '100%' }, { width: 0, ease: Expo.easeInOut, delay: 1, onComplete: removePreambleShield });
+        TweenMax.fromTo(_dan, 1.3, { autoAlpha: 0, x: '-=20px' }, { autoAlpha: 1, x: '+=20px', ease: Power2.easeInOut, delay: 1.2 } );
+        TweenMax.fromTo(_mall, 1.3, { autoAlpha: 0, x: '-=20px' }, { autoAlpha: 1, x: '+=20px', ease: Power2.easeInOut, delay: 1.5 } );
+        TweenMax.fromTo(_circle, 1.3, { scale: 0 }, { scale: 0.7, ease: Elastic.easeOut.config(1, 0.8), delay: 2 });
+        TweenMax.fromTo(_danHead, 1.75, { height: 0, top: '120px' }, { height: '432px', top: '23px', ease: Expo.easeInOut, delay: 1.5 } );
+        TweenMax.fromTo(_intro, 1.5, { autoAlpha: 0, x: '-=20px' }, { autoAlpha: 1, x: '+=20px', ease: Expo.easeInOut, delay: 2 } );
+
+        TweenMax.set(_tagline, { autoAlpha: 0 });
+        TweenMax.staggerTo(_tagline, 1.25, { autoAlpha: 1, x: '+=20px', ease: Expo.easeInOut, delay: 2 }, 0.25 );
+        //TweenMax.fromTo(_testimonials, 1, { scaleX: 0 }, { scaleX: 1 } );
+
+        //TweenMax.fromTo(_quotes, 1, { autoAlpha: 0 }, { autoAlpha: 0 } );
+        //TweenMax.fromTo(_pdBook, 1, { autoAlpha: 0 }, { autoAlpha: 0 } );
+
+        function removePreambleShield(){
+            _preamble.removeChild(_preambleShield);
+        }
+
+
+    }
+
+    var initialAnimationOriginal = function(){
 
         // ---- HOME -------
 
