@@ -130,9 +130,9 @@ var Site = function(){
             _testimonials               =   document.querySelector('.dm-c-testimonials'), 
             _quotes                     =   document.querySelectorAll('.dm-dp-quote'),
             _pricingDesign              =   document.querySelector('.dm-c-pricingDesign'),
-            _homeArticles               =   document.querySelectorAll('.dm-page--home .dm-c-articlesListWrap'), 
+            _homeArticles               =   document.querySelector('.dm-page--home .dm-c-articlesListWrap'), 
             _pdBook                     =   document.querySelector('.dm-c-pricingDesignContainer'), 
-            _latestArticlesHeadline     =   document.querySelectorAll('.dm-c-articlesListWrap .dm-dp-boxedHeadline');
+            _latestArticlesHeadline     =   document.querySelector('.dm-c-articlesListWrap .dm-dp-boxedHeadline');
 
 
         // creating animation elements
@@ -153,14 +153,25 @@ var Site = function(){
         TweenMax.fromTo(_intro, 1.5, { autoAlpha: 0, x: '-=20px' }, { autoAlpha: 1, x: '+=20px', ease: Expo.easeInOut, delay: 2 } );
 
         TweenMax.set(_tagline, { autoAlpha: 0 });
-        TweenMax.staggerTo(_tagline, 1.25, { autoAlpha: 1, x: '+=20px', ease: Expo.easeInOut, delay: 2 }, 0.25 );
-        //TweenMax.fromTo(_testimonials, 1, { scaleX: 0 }, { scaleX: 1 } );
+        TweenMax.staggerTo(_tagline, 1.25, { autoAlpha: 1, x: '+=10px', ease: Expo.easeInOut, delay: 2 }, 0.25 );
 
+        TweenMax.set(_quotes, { autoAlpha: 0 });
+        TweenMax.fromTo(_testimonialsShield, 1.1, { width: 0 }, { width: '100%', ease: Expo.easeInOut, delay: 2, onComplete: setTestimonialBackground } );
         //TweenMax.fromTo(_quotes, 1, { autoAlpha: 0 }, { autoAlpha: 0 } );
-        //TweenMax.fromTo(_pdBook, 1, { autoAlpha: 0 }, { autoAlpha: 0 } );
+        TweenMax.staggerTo(_quotes, 1.25, { autoAlpha: 1, x: '+=10px', ease: Expo.easeInOut, delay: 2.7 }, 0.25 );
+
+        TweenMax.fromTo(_pdBook, 1.5, { autoAlpha: 0, x: '-=10px' }, { autoAlpha: 1, x: '+=10px', ease: Expo.easeInOut, delay: 3 } );
+
+        TweenMax.fromTo(_pricingDesign, 1, { autoAlpha: 0 }, { autoAlpha: 1, delay: 3 } );
+        TweenMax.fromTo(_homeArticles, 1, { autoAlpha: 0 }, { autoAlpha: 1, delay: 3.4 } );
 
         function removePreambleShield(){
             _preamble.removeChild(_preambleShield);
+        }
+
+        function setTestimonialBackground(){
+            TweenMax.set(_testimonials, { backgroundColor: '#f6f4e8' });
+            _testimonials.removeChild(_testimonialsShield);
         }
 
 

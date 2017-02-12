@@ -1213,7 +1213,10 @@ http://superfriend.ly/
 	.dm-c-pricingDesign {
 		@include dm-u-float--left;
 		@include dm-u-pos--relative;
+
+		// improvisations
 		width: 39%;
+		z-index: 3;
 
 		&_headline {
 			@include dm-u-leading--xs;
@@ -1239,7 +1242,7 @@ http://superfriend.ly/
 			right: -48px;
 			width: 50%;
 			border: none;
-			z-index: 2;
+			z-index: 3;
 			box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.05);
 		}
 
@@ -1267,8 +1270,12 @@ http://superfriend.ly/
 		.dm-c-articlesListWrap {
 			@include dm-u-float--left;
 			@include dm-u-paddingTop--0;
+			@include dm-u-pos--relative;
+
+			// improvisations
 			width: 25%;
 			clear: none;
+			z-index: 2;
 		}
 
 		#carbonads {
@@ -1449,6 +1456,23 @@ http://superfriend.ly/
 		background: white;
 
 	}
+
+
+	.dm-c-testimonials {
+		background: none;
+	}
+
+	.dm-j-testimonialsShield {
+		@include dm-u-pos--absolute;
+
+		// improvisations
+		width: 0;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background: $ecru;
+	}
+
 
 }
 
