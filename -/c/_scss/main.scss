@@ -1457,20 +1457,23 @@ http://superfriend.ly/
 
 	}
 
+	@media screen and (min-width: 1100px){
 
-	.dm-c-testimonials {
-		background: none;
-	}
+		.dm-c-testimonials {
+			background: none;
+		}
 
-	.dm-j-testimonialsShield {
-		@include dm-u-pos--absolute;
+		.dm-j-testimonialsShield {
+			@include dm-u-pos--absolute;
 
-		// improvisations
-		width: 0;
-		height: 100%;
-		top: 0;
-		left: 0;
-		background: $ecru;
+			// improvisations
+			width: 0;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background: $ecru;
+		}
+
 	}
 
 	&.dm-page--articles .dm-dp-textBlurb:nth-of-type(-n+20),
