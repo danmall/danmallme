@@ -135,7 +135,9 @@ var Site = function(){
             _pdBook                     =   document.querySelector(".dm-c-pricingDesignContainer"), 
             _latestArticlesHeadline     =   document.querySelector(".dm-c-articlesListWrap .dm-dp-boxedHeadline"),
             _articleBlurbs              =   document.querySelectorAll(".dm-page--articles .dm-dp-textBlurb"),
-            _speakingBlurbs             =   document.querySelectorAll(".dm-page--speakingPodcasts .dm-dp-textBlurb");
+            _speakingBlurbs             =   document.querySelectorAll(".dm-page--speakingPodcasts .dm-dp-textBlurb"),
+            _articleHeader              =   document.querySelectorAll(".dm-page--articleDetail .dm-c-pageHeader"),
+            _articleWell                =   document.querySelectorAll(".dm-page--articleDetail .dm-c-articleWell");
 
 
         // creating animation elements
@@ -188,6 +190,9 @@ var Site = function(){
             }
 
         }
+
+        TweenMax.fromTo(_articleHeader, 2, { autoAlpha: 0 }, { autoAlpha: 1, delay: 1 } );
+        TweenMax.fromTo(_articleWell, 2, { autoAlpha: 0 }, { autoAlpha: 1, delay: 1.5 } );
 
     }
 
