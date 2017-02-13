@@ -15,6 +15,11 @@
 		"type"		:	"Developer"
 	},
 	{
+		"title"		: 	"Mark Boulton",
+		"slug"		:	"http://markboulton.co.uk/",
+		"type"		:	"Designer"
+	},
+	{
 		"title"		: 	"Cennydd Bowles",
 		"slug"		:	"https://www.cennydd.com/",
 		"type"		:	"Designer"
@@ -553,6 +558,11 @@
 		"title"		: 	"Mary van Ogtrop",
 		"slug"		:	"http://www.maryvanogtrop.com/",
 		"type"		:	"Writer"
+	},
+	{
+		"title"		: 	"Khoi Vinh",
+		"slug"		:	"https://www.subtraction.com/",
+		"type"		:	"Designer"
 	},
 	{
 		"title"		: 	"Allison Wagner",
