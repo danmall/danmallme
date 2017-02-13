@@ -1473,6 +1473,11 @@ http://superfriend.ly/
 		background: $ecru;
 	}
 
+	&.dm-page--articles .dm-dp-textBlurb:nth-of-type(-n+20),
+	&.dm-page--speakingPodcasts .dm-dp-textBlurb:nth-of-type(-n+20) {
+		opacity: 0;
+	}
+
 
 }
 
