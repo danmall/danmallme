@@ -60,6 +60,7 @@
             <?php /* ?><li class="dm-dp-vertSepNav_item"><a href="/about/">About</a></li><?php */ ?>
             <li class="dm-dp-vertSepNav_item"><a href="/articles/">Articles</a></li>
             <li class="dm-dp-vertSepNav_item"><a href="/speaking-podcasts/">Speaking &amp; Podcasts</a></li>
+            <li class="dm-dp-vertSepNav_item"><a href="/blogroll/">Blogroll</a></li>
             <li class="dm-dp-vertSepNav_item"><a href="/contact/">Contact</a></li>
         </ul>
 
