@@ -69,6 +69,23 @@
 			<a href="/speaking-podcasts/">Speaking &amp; Podcasts</a>
 		</li>
 		<?php } ?>
+
+
+		<?php if(strstr($_SERVER['REQUEST_URI'], '/blogroll/')) { ?>
+	        <?php if($_SERVER['REQUEST_URI'] == '/blogroll/') { ?>  
+	        <li class="dm-c-siteNav_item dm-c-siteNav_item--active">
+	        	<mark>Blogroll</mark>
+	        </li>        	        
+	        <?php } else { ?>
+	        <li class="dm-c-siteNav_item dm-c-siteNav_item--active">
+	        	<a href="/blogroll/">Blogroll</a>
+	        </li>
+	        <?php } ?>
+		<?php } else { ?>
+		<li class="dm-c-siteNav_item">
+			<a href="/blogroll/">Blogroll</a>
+		</li>
+		<?php } ?>
 		
 		
 
