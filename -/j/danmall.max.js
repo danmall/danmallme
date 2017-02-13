@@ -74,6 +74,7 @@ var Site = function(){
         observeFonts();
         //initialAnimationOriginal();
         initialAnimation();
+        animateArticles();
         initArticleAnchorOffsets();
         // ajaxLoadImages();
 
@@ -84,21 +85,21 @@ var Site = function(){
         document.body.className += " js";
 
         // remove shield
-        if(document.querySelector('.dm-js-pageShield')){
-            document.body.removeChild(document.querySelector('.dm-js-pageShield'));
+        if(document.querySelector(".dm-js-pageShield")){
+            document.body.removeChild(document.querySelector(".dm-js-pageShield"));
         }
         
     }
 
     var initGoogleAnalytics = function(){
         
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
 
-      ga('create', 'UA-90621097-1', 'auto');
-      ga('send', 'pageview');
+      ga("create", "UA-90621097-1", "auto");
+      ga("send", "pageview");
 
     }
 
@@ -110,22 +111,22 @@ var Site = function(){
 
         var 
             breveNewsBook = new FontFaceObserver(
-                'BreveNews-Book', { weight: 400 }
+                "BreveNews-Book", { weight: 400 }
             ),
             breveNewsBookItalic = new FontFaceObserver(
-                'BreveNews-BookItalic', { weight: 400, style: 'italic'}
+                "BreveNews-BookItalic", { weight: 400, style: "italic"}
             ),
             breveNewsBold = new FontFaceObserver(
-                'BreveNews-Bold', { weight: 800 }
+                "BreveNews-Bold", { weight: 800 }
             ),
             firmeBook = new FontFaceObserver(
-                'Firme-Book', { weight: 400 }
+                "Firme-Book", { weight: 400 }
             ),
             firmeBold = new FontFaceObserver(
-                'Firme-Bold', { weight: 800 }
+                "Firme-Bold", { weight: 800 }
             ),
             breveTitleBold = new FontFaceObserver(
-                'BreveTitle-Bold', { weight: 400 }
+                "BreveTitle-Bold", { weight: 400 }
             );
 
         breveNewsBook
@@ -175,49 +176,93 @@ var Site = function(){
     var initialAnimation = function() {
 
         var 
-            _preamble                   =   document.querySelector('.dm-c-preamble'), 
-            _circle                     =   document.querySelector('.dm-c-preamble_circle'),
-            _intro                      =   document.querySelector('.dm-c-intro'),
-            _dan                        =   document.querySelector('.dm-c-preamble_name--dan'),
-            _mall                       =   document.querySelector('.dm-c-preamble_name--mall'),
-            _danHead                    =   document.querySelector('.dm-c-preamble_dan'),
-            _tagline                    =   document.querySelectorAll('.dm-c-preamble_tagline_term'),
-            _testimonials               =   document.querySelector('.dm-c-testimonials'), 
-            _quotes                     =   document.querySelectorAll('.dm-dp-quote'),
-            _pricingDesign              =   document.querySelector('.dm-c-pricingDesign'),
-            _homeArticles               =   document.querySelectorAll('.dm-page--home .dm-c-articlesListWrap'), 
-            _pdBook                     =   document.querySelector('.dm-c-pricingDesignContainer'), 
-            _latestArticlesHeadline     =   document.querySelectorAll('.dm-c-articlesListWrap .dm-dp-boxedHeadline');
+            _preamble                   =   document.querySelector(".dm-c-preamble"), 
+            _circle                     =   document.querySelector(".dm-c-preamble_circle"),
+            _intro                      =   document.querySelector(".dm-c-intro"),
+            _dan                        =   document.querySelector(".dm-c-preamble_name--dan"),
+            _mall                       =   document.querySelector(".dm-c-preamble_name--mall"),
+            _danHead                    =   document.querySelector(".dm-c-preamble_dan"),
+            _tagline                    =   document.querySelectorAll(".dm-c-preamble_tagline_term"),
+            _testimonials               =   document.querySelector(".dm-c-testimonials"), 
+            _quotes                     =   document.querySelectorAll(".dm-dp-quote"),
+            _pricingDesign              =   document.querySelector(".dm-c-pricingDesign"),
+            _homeArticles               =   document.querySelector(".dm-page--home .dm-c-articlesListWrap"), 
+            _pdBook                     =   document.querySelector(".dm-c-pricingDesignContainer"), 
+            _latestArticlesHeadline     =   document.querySelector(".dm-c-articlesListWrap .dm-dp-boxedHeadline"),
+            _articleBlurbs              =   document.querySelectorAll(".dm-page--articles .dm-dp-textBlurb"),
+            _speakingBlurbs             =   document.querySelectorAll(".dm-page--speakingPodcasts .dm-dp-textBlurb");
 
 
         // creating animation elements
-        var _preambleShield = document.createElement('div');
-        _preambleShield.setAttribute('class','dm-j-preambleShield');
-        _preamble.append(_preambleShield);
-
-        var _testimonialsShield = document.createElement('div');
-        _testimonialsShield.setAttribute('class','dm-j-testimonialsShield');
-        _testimonials.append(_testimonialsShield);
-
-        // initialize
-        TweenMax.fromTo(_preambleShield, 1, { width: '100%' }, { width: 0, ease: Expo.easeInOut, delay: 1, onComplete: removePreambleShield });
-        TweenMax.fromTo(_dan, 1.3, { autoAlpha: 0, x: '-=20px' }, { autoAlpha: 1, x: '+=20px', ease: Power2.easeInOut, delay: 1.2 } );
-        TweenMax.fromTo(_mall, 1.3, { autoAlpha: 0, x: '-=20px' }, { autoAlpha: 1, x: '+=20px', ease: Power2.easeInOut, delay: 1.5 } );
-        TweenMax.fromTo(_circle, 1.3, { scale: 0 }, { scale: 0.7, ease: Elastic.easeOut.config(1, 0.8), delay: 2 });
-        TweenMax.fromTo(_danHead, 1.75, { height: 0, top: '120px' }, { height: '432px', top: '23px', ease: Expo.easeInOut, delay: 1.5 } );
-        TweenMax.fromTo(_intro, 1.5, { autoAlpha: 0, x: '-=20px' }, { autoAlpha: 1, x: '+=20px', ease: Expo.easeInOut, delay: 2 } );
-
-        TweenMax.set(_tagline, { autoAlpha: 0 });
-        TweenMax.staggerTo(_tagline, 1.25, { autoAlpha: 1, x: '+=20px', ease: Expo.easeInOut, delay: 2 }, 0.25 );
-        //TweenMax.fromTo(_testimonials, 1, { scaleX: 0 }, { scaleX: 1 } );
-
-        //TweenMax.fromTo(_quotes, 1, { autoAlpha: 0 }, { autoAlpha: 0 } );
-        //TweenMax.fromTo(_pdBook, 1, { autoAlpha: 0 }, { autoAlpha: 0 } );
-
-        function removePreambleShield(){
-            _preamble.removeChild(_preambleShield);
+        if(_preamble){
+            var _preambleShield = document.createElement("div");
+            _preambleShield.setAttribute("class","dm-j-preambleShield");
+            _preamble.append(_preambleShield);
         }
 
+        if(_testimonials){
+            var _testimonialsShield = document.createElement("div");
+            _testimonialsShield.setAttribute("class","dm-j-testimonialsShield");
+            _testimonials.append(_testimonialsShield);
+        }
+
+        // initialize homepage animation
+        if(hasClass(document.body, "dm-page--home")){
+
+            TweenMax.fromTo(_preambleShield, 1, { width: "100%" }, { width: 0, ease: Expo.easeInOut, delay: 1, onComplete: removePreambleShield });
+            TweenMax.fromTo(_dan, 1.3, { autoAlpha: 0, x: "-=20px" }, { autoAlpha: 1, x: "+=20px", ease: Power2.easeInOut, delay: 1.2 } );
+            TweenMax.fromTo(_mall, 1.3, { autoAlpha: 0, x: "-=20px" }, { autoAlpha: 1, x: "+=20px", ease: Power2.easeInOut, delay: 1.5 } );
+            TweenMax.fromTo(_circle, 1.3, { scale: 0 }, { scale: 0.7, ease: Elastic.easeOut.config(1, 0.8), delay: 2 });
+            TweenMax.fromTo(_danHead, 1.75, { height: 0, top: "120px" }, { height: "432px", top: "23px", ease: Expo.easeInOut, delay: 1.5 } );
+            TweenMax.fromTo(_intro, 1.5, { autoAlpha: 0, x: "-=20px" }, { autoAlpha: 1, x: "+=20px", ease: Expo.easeInOut, delay: 2 } );
+
+            TweenMax.set(_tagline, { autoAlpha: 0 });
+            TweenMax.staggerTo(_tagline, 1.25, { autoAlpha: 1, x: "+=10px", ease: Expo.easeInOut, delay: 2 }, 0.25 );
+
+            TweenMax.set(_quotes, { autoAlpha: 0 });
+            TweenMax.fromTo(_testimonialsShield, 1.1, { width: 0 }, { width: "100%", ease: Expo.easeInOut, delay: 2, onComplete: setTestimonialBackground } );
+            //TweenMax.fromTo(_quotes, 1, { autoAlpha: 0 }, { autoAlpha: 0 } );
+            TweenMax.staggerTo(_quotes, 1.25, { autoAlpha: 1, x: "+=10px", ease: Expo.easeInOut, delay: 2.7 }, 0.25 );
+
+            TweenMax.fromTo(_pdBook, 1.5, { autoAlpha: 0, x: "-=10px" }, { autoAlpha: 1, x: "+=10px", ease: Expo.easeInOut, delay: 3 } );
+
+            TweenMax.fromTo(_pricingDesign, 1, { autoAlpha: 0 }, { autoAlpha: 1, delay: 3 } );
+            TweenMax.fromTo(_homeArticles, 1, { autoAlpha: 0 }, { autoAlpha: 1, delay: 3.4 } );
+
+            function removePreambleShield(){
+                if(_preamble){
+                    _preamble.removeChild(_preambleShield);
+                }
+            }
+
+            function setTestimonialBackground(){
+                if(_testimonials){
+                    TweenMax.set(_testimonials, { backgroundColor: "#f6f4e8" });
+                    _testimonials.removeChild(_testimonialsShield);
+                }
+            }
+
+        }
+
+    }
+
+    var animateArticles = function(){
+
+        // articles + speaking page 
+        for(z = 0; z <= 20; z++){
+            TweenMax.to(
+                [
+                    document.querySelectorAll(".dm-page--articles .dm-dp-textBlurb:nth-of-type(" + z + ")"),
+                    document.querySelectorAll(".dm-page--speakingPodcasts .dm-dp-textBlurb:nth-of-type(" + z + ")"),
+                ],
+                1, 
+                {
+                    opacity: 1,
+                    delay: 0.2*z
+                }
+            );
+            
+        }
 
     }
 
@@ -227,23 +272,23 @@ var Site = function(){
 
         // preamble
         TweenLite.to(
-            document.querySelectorAll('.dm-c-preamble'), 
+            document.querySelectorAll(".dm-c-preamble"), 
             1.4, //duration
             {
-                clipPath            :   'inset(0 0.01% 0 0)',
+                clipPath            :   "inset(0 0.01% 0 0)",
                 delay               :   0.5,
                 ease                :   Quint.easeInOut,
                 onComplete          :   eraseClipPath,
-                onCompleteParams    :   ['.dm-c-preamble']
+                onCompleteParams    :   [".dm-c-preamble"]
             }
         );
 
         // _name--dan
         TweenLite.to(
-            document.querySelectorAll('.dm-c-preamble_name--dan'), 
+            document.querySelectorAll(".dm-c-preamble_name--dan"), 
             1.4, //duration
             {
-                clipPath    :   'inset(0 0.01% 0 0)',
+                clipPath    :   "inset(0 0.01% 0 0)",
                 delay       :   1,
                 ease        :   Quint.easeInOut
             }
@@ -251,10 +296,10 @@ var Site = function(){
 
         // _name--mall
         TweenLite.to(
-            document.querySelectorAll('.dm-c-preamble_name--mall'), 
+            document.querySelectorAll(".dm-c-preamble_name--mall"), 
             1.4, //duration
             {
-                clipPath    :   'inset(0 0.01% 0 0)',
+                clipPath    :   "inset(0 0.01% 0 0)",
                 delay       :   1.1,
                 ease        :   Quint.easeInOut,
                 onComplete  :   addMallShadow
@@ -263,10 +308,10 @@ var Site = function(){
 
         // dm-c-preamble_circle
         TweenLite.to(
-            document.querySelectorAll('.dm-c-preamble_circle'), 
+            document.querySelectorAll(".dm-c-preamble_circle"), 
             1.4, //duration
             {
-                transform   :   'scale(0.7)',
+                transform   :   "scale(0.7)",
                 delay       :   1.1,
                 ease        :   Quint.easeInOut
             }
@@ -274,10 +319,10 @@ var Site = function(){
 
         // .dm-c-preamble_dan
         TweenLite.to(
-            document.querySelectorAll('.dm-c-preamble_dan'), 
+            document.querySelectorAll(".dm-c-preamble_dan"), 
             1, //duration
             {
-                clipPath    :   'inset(0.1% 0.1% 0 0)',
+                clipPath    :   "inset(0.1% 0.1% 0 0)",
                 delay       :   1.3,
                 ease        :   Quint.easeInOut
             }
@@ -285,10 +330,10 @@ var Site = function(){
 
         // _name--dan
         TweenLite.to(
-            document.querySelectorAll('.dm-c-preamble_tagline_term'), 
+            document.querySelectorAll(".dm-c-preamble_tagline_term"), 
             1.4, //duration
             {
-                clipPath    :   'inset(0 0.01% 0 0)',
+                clipPath    :   "inset(0 0.01% 0 0)",
                 delay       :   1.3,
                 ease        :   Quint.easeInOut
             }
@@ -296,10 +341,10 @@ var Site = function(){
 
         // dm-c-intro
         TweenLite.to(
-            document.querySelectorAll('.dm-c-intro'), 
+            document.querySelectorAll(".dm-c-intro"), 
             1.4, //duration
             {
-                opacity     :   '1',
+                opacity     :   "1",
                 delay       :   1.5,
                 ease        :   Quint.easeInOut
             }
@@ -307,10 +352,10 @@ var Site = function(){
 
         // .dm-c-testimonials
         TweenLite.to(
-            document.querySelectorAll('.dm-c-testimonials'), 
+            document.querySelectorAll(".dm-c-testimonials"), 
             1.25, //duration
             {
-                clipPath    :   'inset(0 0.1% 0 0)',
+                clipPath    :   "inset(0 0.1% 0 0)",
                 delay       :   1.7,
                 ease        :   Quint.easeInOut
             }
@@ -318,7 +363,7 @@ var Site = function(){
 
         // .dm-c-preamble_dan
         TweenMax.staggerTo(
-            document.querySelectorAll('.dm-dp-quote'), 
+            document.querySelectorAll(".dm-dp-quote"), 
             1, 
             {
                 opacity: 1,
@@ -329,7 +374,7 @@ var Site = function(){
 
         // dm-c-pricingDesign
         TweenMax.to(
-            document.querySelectorAll('.dm-c-pricingDesign'), 
+            document.querySelectorAll(".dm-c-pricingDesign"), 
             1.6, 
             {
                 opacity: 1,
@@ -339,7 +384,7 @@ var Site = function(){
 
         // dm-c-pricingDesign
         TweenMax.to(
-            document.querySelectorAll('.dm-page--home .dm-c-articlesListWrap'), 
+            document.querySelectorAll(".dm-page--home .dm-c-articlesListWrap"), 
             1.6, 
             {
                 opacity: 1,
@@ -349,23 +394,23 @@ var Site = function(){
 
         // .dm-c-pricingDesignContainer
         TweenLite.to(
-            document.querySelectorAll('.dm-c-pricingDesignContainer'), 
+            document.querySelectorAll(".dm-c-pricingDesignContainer"), 
             1.2, //duration
             {
-                clipPath            :   'inset(0 0.01% 0 0)',
+                clipPath            :   "inset(0 0.01% 0 0)",
                 delay               :   3.7,
                 ease                :   Quint.easeInOut,
                 onComplete          :   eraseClipPath,
-                onCompleteParams    :   ['.dm-c-pricingDesignContainer']
+                onCompleteParams    :   [".dm-c-pricingDesignContainer"]
             }
         );
 
         // .dm-c-articlesListWrap .dm-dp-boxedHeadline
         TweenLite.to(
-            document.querySelectorAll('.dm-c-articlesListWrap .dm-dp-boxedHeadline'), 
+            document.querySelectorAll(".dm-c-articlesListWrap .dm-dp-boxedHeadline"), 
             1.2, //duration
             {
-                clipPath            :   'inset(0 0.01% 0 0)',
+                clipPath            :   "inset(0 0.01% 0 0)",
                 delay               :   4.1,
                 ease                :   Quint.easeInOut
             }
@@ -378,8 +423,8 @@ var Site = function(){
         for(i=0; i<=20; i++){
             TweenMax.to(
                 [
-                    document.querySelectorAll('.dm-page--articles .dm-dp-textBlurb:nth-of-type(' + i + ')'),
-                    document.querySelectorAll('.dm-page--speakingPodcasts .dm-dp-textBlurb:nth-of-type(' + i + ')'),
+                    document.querySelectorAll(".dm-page--articles .dm-dp-textBlurb:nth-of-type(" + i + ")"),
+                    document.querySelectorAll(".dm-page--speakingPodcasts .dm-dp-textBlurb:nth-of-type(" + i + ")"),
                 ],
                 1, 
                 {
@@ -395,7 +440,7 @@ var Site = function(){
 
         // .dm-page--articleDetail .dm-c-pageHeader
         TweenLite.to(
-            document.querySelectorAll('.dm-page--articleDetail .dm-c-pageHeader'), 
+            document.querySelectorAll(".dm-page--articleDetail .dm-c-pageHeader"), 
             2, //duration
             {
                 opacity             :   1,
@@ -405,7 +450,7 @@ var Site = function(){
 
         // .dm-page--articleDetail .dm-c-articleWell
         TweenLite.to(
-            document.querySelectorAll('.dm-page--articleDetail .dm-c-articleWell'), 
+            document.querySelectorAll(".dm-page--articleDetail .dm-c-articleWell"), 
             2, //duration
             {
                 opacity             :   1,
@@ -420,17 +465,17 @@ var Site = function(){
 
 
     function addMallShadow() {
-        var _mall = document.querySelector('.dm-c-preamble_name--mall');
+        var _mall = document.querySelector(".dm-c-preamble_name--mall");
         
         if(_mall){
             if (_mall.classList) {
-              _mall.classList.add('dm-j-mallShadow');
+              _mall.classList.add("dm-j-mallShadow");
             } else {
-              _mall.className += ' dm-j-mallShadow';
+              _mall.className += " dm-j-mallShadow";
             }
         }
 
-        eraseClipPath('.dm-c-preamble_name--mall');
+        eraseClipPath(".dm-c-preamble_name--mall");
     }
 
     function eraseClipPath($el) {
@@ -438,9 +483,9 @@ var Site = function(){
         
         if(_el){
             if (_el.classList) {
-              _el.classList.add('dm-j-eraseClipPath');
+              _el.classList.add("dm-j-eraseClipPath");
             } else {
-              _el.className += ' dm-j-eraseClipPath';
+              _el.className += " dm-j-eraseClipPath";
             }
         }
 
@@ -452,15 +497,15 @@ var Site = function(){
         var _OFFSET = 130;
 
         // ported from http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header
-        var _anchors = document.querySelectorAll('.dm-dp-anchorLink');
+        var _anchors = document.querySelectorAll(".dm-dp-anchorLink");
 
         for(i = 0; i < _anchors.length; i++){
-            _anchors[i].addEventListener('click', function(e){
+            _anchors[i].addEventListener("click", function(e){
 
                 if(window.innerWidth >= 1020){
 
                   var 
-                    _target = this.getAttribute('href'),
+                    _target = this.getAttribute("href"),
                     _coords = getCoords(document.querySelector(_target)),
                     _scrollToY = _coords.top-_OFFSET;
 
@@ -487,7 +532,7 @@ var Site = function(){
 
                     var 
                         _target = location.href.split("#")[1],
-                        _coords = getCoords(document.querySelector('#' + _target)),
+                        _coords = getCoords(document.querySelector("#" + _target)),
                         _scrollToY = _coords.top-_OFFSET;
 
                     setTimeout(function(){ window.scrollTo(0, _scrollToY) }, 200);
@@ -523,16 +568,30 @@ var Site = function(){
     /*
 
     var ajaxLoadImages = function(){
-        var lazyImages = document.querySelectorAll('.lazy-image');
+        var lazyImages = document.querySelectorAll(".lazy-image");
 
         Array.prototype.forEach.call(lazyImages, function(el, i){
-            var src = el.getAttribute('data-src');
-            el.setAttribute('src', src);
+            var src = el.getAttribute("data-src");
+            el.setAttribute("src", src);
         });
 
     }
 
     */
+
+    function hasClass(el, className){
+        if (el.classList){
+            if(el.classList.contains(className)){
+                return true;
+            }
+        } else {
+          if(new RegExp('(^| )' + className + '( |$)', 'gi').test(el.className)){
+            return true;
+          }
+        }
+
+        return false;
+    }
 
 
 }
@@ -543,7 +602,7 @@ var Site = function(){
     Initial Actions
 -------------------------------------------*/
 
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener("DOMContentLoaded", function () {
 
     var danmall = new Site();
     danmall.init();
