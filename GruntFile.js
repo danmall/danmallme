@@ -47,7 +47,7 @@ module.exports = function(grunt) {
 		    }
 		},
 
-		watch: {
+		watch: {			
 			sass: { 
 				files: ['-/c/_scss/*.scss'],
 				//tasks: ['sass', 'embed']
@@ -58,8 +58,8 @@ module.exports = function(grunt) {
 		        //tasks: ['concat', 'uglify', 'embed'],
 		        tasks: ['concat', 'uglify'],
 		        options: {
-		            spawn: false,
-		        },
+		            spawn: false
+		        }
 		    }
 		    /*html: {
 		    	files: ['index.uncompressed.php', 'terms/index.uncompressed.php'],

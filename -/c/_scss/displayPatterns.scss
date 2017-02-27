@@ -304,6 +304,24 @@ http://superfriend.ly/
 				}
 			}
 
+		}
+
+
+		// article section
+
+		&-articleSection {
+			@include dm-u-marginTop--xxl;
+
+			p:first-child:before {
+				@include dm-u-display--block;
+				@include dm-u-align--center;
+				@include dm-u-marginBottom--l;
+				@include dm-u-text--m;
+
+				// improvisations
+				content: "\273c";
+				color: $cloudy;
+			}
 		}	
 
 
@@ -392,6 +410,30 @@ http://superfriend.ly/
 					// improvisations
 					font-family: "Firme-Bold";
 				}
+			}
+
+			.dm-u-text--xs {
+				@include dm-u-text--xs;
+			}
+
+			.dm-u-text--s {
+				@include dm-u-text--s;
+			}
+
+			.dm-u-text--m {
+				@include dm-u-text--m;
+			}
+
+			.dm-u-text--l {
+				@include dm-u-text--l;
+			}
+
+			.dm-u-text--xl {
+				@include dm-u-text--xl;
+			}
+
+			.dm-u-text--xxl {
+				@include dm-u-text--xxl;
 			}
 
 			p {

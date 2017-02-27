@@ -102,17 +102,32 @@ http://superfriend.ly/
 
 		// font weight
 
-		&-font--bold {
-			@include dm-u-font--bold;
-		}
-
 		&-font--normal {
 			@include dm-u-font--normal;
 		}
 
+		&-font--bold {
+			@include dm-u-font--bold;
+		}
+
+		.breveNewsBold-loaded &-font--bold {
+			@include dm-u-font--normal;
+
+			// improvisations
+			font-family: "BreveNews-Bold";
+		}		
+
 		&-font--italic,
 		&-fontStyle--italic {
 			@include dm-u-fontStyle--italic;
+		}
+
+		.breveNewsBookItalic-loaded &-font--italic,
+		.breveNewsBookItalic-loaded &-fontStyle--italic {
+			@include dm-u-fontStyle--normal;
+
+			// improvisations
+			font-family: "BreveNews-BookItalic";
 		}
 
 		&-fontStyle--normal {
