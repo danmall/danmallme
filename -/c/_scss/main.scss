@@ -18,6 +18,7 @@ http://superfriend.ly/
 @import 'layout.scss';
 @import 'displayPatterns.scss';
 @import 'base.scss';
+@import 'prism.scss';
 
 
 
@@ -595,6 +596,14 @@ http://superfriend.ly/
 			padding-left: 10%;
 		} 
 
+	}
+
+
+	// codeBlock
+
+	&-c-codeBlock {
+		@include dm-u-text--s;
+		@include dm-u-paddingLeft--m;
 	}
 
 
