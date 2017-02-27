@@ -58,19 +58,50 @@
 
             <p>The first part of this process was about building design tools in code. In order to replicate my Photoshop/Sketch workflow where I&rsquo;m able to move quickly, I need the same options in code. Prolific designer Milton Glaser <a href="http://brendandawes.com/blog/Glaser">said</a>, &ldquo;I move things around until they look right,&rdquo; Hey, I do that too! Because that&rsquo;s most of what I do in Photoshop and Sketch, I need a way to do that in code.</p>
 
-            <p>I started to build some &ldquo;move around&rdquo; tools. I&rsquo;m a big fan of how developer <a href="http://twitter.com/csswizardry">Harry Roberts</a> <a href="http://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/">suggests organizing CSS</a> for maximum maintainability, and I just wrapped a project with <a href="http://twitter.com/brad_frost">Brad Frost</a> and <a href="http://twitter.com/frostyweather">Ian Frost</a> where we came up with a similar <a href="http://bradfrost.com/blog/post/css-architecture-for-design-systems/">CSS architecture</a>. I also wanted to try out the <a href="https://spec.fm/specifics/8-pt-grid">8-point grid</a> that all the kids are raving about.</p>
+            <p>I started to build some &ldquo;move around&rdquo; tools. I&rsquo;m a big fan of how <a href="http://twitter.com/csswizardry">Harry Roberts</a> <a href="http://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/">suggests organizing <abbr title="Cascading Style HSeets">CSS</abbr></a> for maximum maintainability, and I just wrapped a project with <a href="http://twitter.com/brad_frost">Brad Frost</a> and <a href="http://twitter.com/frostyweather">Ian Frost</a> where we used with a similar <a href="http://bradfrost.com/blog/post/css-architecture-for-design-systems/"><abbr>CSS</abbr> architecture</a>. I also wanted to try out the <a href="https://spec.fm/specifics/8-pt-grid">8-point grid</a> that all the kids are raving about.</p>
 
-            <p>So I wrote a few things down. First, a variable so that I can change spacing globally if the 8-pt thing doesn&rsquo;t work out.</p>
+            <p>So I wrote a few things down. First, <a href="#">some variables</a> so that I can change spacing globally if the 8-pt thing doesn&rsquo;t work out.</p>
 
             <pre class="dm-c-codeBlock"><code class="language-css">
-$spacing: 8;
+$spacing            :       8;
+
+$xs                 :       $spacing;
+$s                  :       $spacing * 2;
+$m                  :       $spacing * 3;
+$l                  :       $spacing * 4;
+$xl                 :       $spacing * 5;
+$xxl                :       $spacing * 6;
             </code></pre>
 
-            <p class="dm-u-textIndent--0">Next, some spacing mixins:</p>
+            <p class="dm-u-textIndent--0">Next, <a href="#">some spacing mixins</a>:</p>
 
             <pre class="dm-c-codeBlock"><code class="language-css">
+@mixin dm-u-margin--0 {
+    margin: 0;
+}
+
 @mixin dm-u-margin--xs {
-    margin: $spacing + px;
+    margin: $xs + px;
+}
+
+@mixin dm-u-margin--s {
+    margin: $s + px;
+}
+
+@mixin dm-u-margin--m {
+    margin: $m + px;
+}
+
+@mixin dm-u-margin--l {
+    margin: $l + px;
+}
+
+@mixin dm-u-margin--xl {
+    margin: $xl + px;
+}
+
+@mixin dm-u-margin--xxl {
+    margin: $xxl + px;
 }
             </code></pre>
 
@@ -82,6 +113,39 @@ $spacing: 8;
                 <li>I made <a href="#">a lot of individual mixins</a> for margins (top, right, bottom, left) and padding. Seems like overkill, but comes in really handy.</li>      
             </ul>
 
+            <p>I also duplicated those mixins in a <a href="#"><code>uilities.scss</code></a> file so that I could use them in both <abbr title="HyperText Markup Language">HTML</abbr> and <abbr>CSS</abbr>:</p>
+
+            <pre class="dm-c-codeBlock"><code class="language-css">
+.dm-u-margin--0 {
+    @include dm-u-margin--0;
+}
+
+.dm-u-margin--xs {
+    @include dm-u-margin--xs;
+}
+
+.dm-u-margin--s {
+    @include dm-u-margin--s;
+}
+
+.dm-u-margin--m {
+    @include dm-u-margin--m;
+}
+
+.dm-u-margin--l {
+    @include dm-u-margin--l;
+}
+
+.dm-u-margin--xl {
+    @include dm-u-margin--xl;
+}
+
+.dm-u-margin--xxl {
+    @include dm-u-margin--xxl;
+}
+            </code></pre>
+
+            <p>It&rsquo;s not as <abbr title="Don&rsquo;t repeat yourself">DRY</abbr> as I&rsquo;d like to be, but I&rsquo;m happy to trade principle for the pragmatism of moving quickly in code.</p>
 
         </div>
 

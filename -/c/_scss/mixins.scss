@@ -181,31 +181,31 @@ http://superfriend.ly/
 // margin shorthand
 
 @mixin dm-u-margin--0 {
-	margin: 0
+	margin: 0;
 }
 
 @mixin dm-u-margin--xs {
-	margin: $spacing + px;
+	margin: $xs + px;
 }
 
 @mixin dm-u-margin--s {
-	margin: ($spacing * 2) + px;
+	margin: $s + px;
 }
 
 @mixin dm-u-margin--m {
-	margin: ($spacing * 3) + px;
+	margin: $m + px;
 }
 
 @mixin dm-u-margin--l {
-	margin: ($spacing * 4) + px;
+	margin: $l + px;
 }
 
 @mixin dm-u-margin--xl {
-	margin: ($spacing * 5) + px;
+	margin: $xl + px;
 }
 
 @mixin dm-u-margin--xxl {
-	margin: ($spacing * 6) + px;
+	margin: $xxl + px;
 }
 
 
@@ -217,27 +217,27 @@ http://superfriend.ly/
 }
 
 @mixin dm-u-marginTop--xs {
-	margin-top: $spacing + px;
+	margin-top: $xs + px;
 }
 
 @mixin dm-u-marginTop--s {
-	margin-top: ($spacing * 2) + px;
+	margin-top: $s + px;
 }
 
 @mixin dm-u-marginTop--m {
-	margin-top: ($spacing * 3) + px;
+	margin-top: $m + px;
 }
 
 @mixin dm-u-marginTop--l {
-	margin-top: ($spacing * 4) + px;
+	margin-top: $l + px;
 }
 
 @mixin dm-u-marginTop--xl {
-	margin-top: ($spacing * 5) + px;
+	margin-top: $xl + px;
 }
 
 @mixin dm-u-marginTop--xxl {
-	margin-top: ($spacing * 6) + px;
+	margin-top: $xxl + px;
 }
 
 
@@ -248,27 +248,27 @@ http://superfriend.ly/
 }
 
 @mixin dm-u-marginRight--xs {
-	margin-right: $spacing + px;
+	margin-right: $xs + px;
 }
 
 @mixin dm-u-marginRight--s {
-	margin-right: ($spacing * 2) + px;
+	margin-right: $s + px;
 }
 
 @mixin dm-u-marginRight--m {
-	margin-right: ($spacing * 3) + px;
+	margin-right: $m + px;
 }
 
 @mixin dm-u-marginRight--l {
-	margin-right: ($spacing * 4) + px;
+	margin-right: $l + px;
 }
 
 @mixin dm-u-marginRight--xl {
-	margin-right: ($spacing * 5) + px;
+	margin-right: $xl + px;
 }
 
 @mixin dm-u-marginRight--xxl {
-	margin-right: ($spacing * 6) + px;
+	margin-right: $xxl + px;
 }
 
 
@@ -279,27 +279,27 @@ http://superfriend.ly/
 }
 
 @mixin dm-u-marginBottom--xs {
-	margin-bottom: $spacing + px;
+	margin-bottom: $xs + px;
 }
 
 @mixin dm-u-marginBottom--s {
-	margin-bottom: ($spacing * 2) + px;
+	margin-bottom: $s + px;
 }
 
 @mixin dm-u-marginBottom--m {
-	margin-bottom: ($spacing * 3) + px;
+	margin-bottom: $m + px;
 }
 
 @mixin dm-u-marginBottom--l {
-	margin-bottom: ($spacing * 4) + px;
+	margin-bottom: $l + px;
 }
 
 @mixin dm-u-marginBottom--xl {
-	margin-bottom: ($spacing * 5) + px;
+	margin-bottom: $xl + px;
 }
 
 @mixin dm-u-marginBottom--xxl {
-	margin-bottom: ($spacing * 6) + px;
+	margin-bottom: $xxl + px;
 }
 
 
@@ -311,27 +311,27 @@ http://superfriend.ly/
 }
 
 @mixin dm-u-marginLeft--xs {
-	margin-left: $spacing + px;
+	margin-left: $xs + px;
 }
 
 @mixin dm-u-marginLeft--s {
-	margin-left: ($spacing * 2) + px;
+	margin-left: $s + px;
 }
 
 @mixin dm-u-marginLeft--m {
-	margin-left: ($spacing * 3) + px;
+	margin-left: $m + px;
 }
 
 @mixin dm-u-marginLeft--l {
-	margin-left: ($spacing * 4) + px;
+	margin-left: $l + px;
 }
 
 @mixin dm-u-marginLeft--xl {
-	margin-left: ($spacing * 5) + px;
+	margin-left: $xl + px;
 }
 
 @mixin dm-u-marginLeft--xxl {
-	margin-left: ($spacing * 6) + px;
+	margin-left: $xxl + px;
 }
 
 
@@ -348,27 +348,27 @@ http://superfriend.ly/
 }
 
 @mixin dm-u-padding--xs {
-	padding: $spacing + px;
+	padding: $xs + px;
 }
 
 @mixin dm-u-padding--s {
-	padding: ($spacing * 2) + px;
+	padding: $s + px;
 }
 
 @mixin dm-u-padding--m {
-	padding: ($spacing * 3) + px;
+	padding: $m + px;
 }
 
 @mixin dm-u-padding--l {
-	padding: ($spacing * 4) + px;
+	padding: $l + px;
 }
 
 @mixin dm-u-padding--xl {
-	padding: ($spacing * 5) + px;
+	padding: $xl + px;
 }
 
 @mixin dm-u-padding--xxl {
-	padding: ($spacing * 6) + px;
+	padding: $xxl + px;
 }
 
 
@@ -380,27 +380,27 @@ http://superfriend.ly/
 }
 
 @mixin dm-u-paddingTop--xs {
-	padding-top: $spacing + px;
+	padding-top: $xs + px;
 }
 
 @mixin dm-u-paddingTop--s {
-	padding-top: ($spacing * 2) + px;
+	padding-top: $s + px;
 }
 
 @mixin dm-u-paddingTop--m {
-	padding-top: ($spacing * 3) + px;
+	padding-top: $m + px;
 }
 
 @mixin dm-u-paddingTop--l {
-	padding-top: ($spacing * 4) + px;
+	padding-top: $l + px;
 }
 
 @mixin dm-u-paddingTop--xl {
-	padding-top: ($spacing * 5) + px;
+	padding-top: $xl + px;
 }
 
 @mixin dm-u-paddingTop--xxl {
-	padding-top: ($spacing * 6) + px;
+	padding-top: $xxl + px;
 }
 
 
@@ -411,27 +411,27 @@ http://superfriend.ly/
 }
 
 @mixin dm-u-paddingRight--xs {
-	padding-right: $spacing + px;
+	padding-right: $xs + px;
 }
 
 @mixin dm-u-paddingRight--s {
-	padding-right: ($spacing * 2) + px;
+	padding-right: $s + px;
 }
 
 @mixin dm-u-paddingRight--m {
-	padding-right: ($spacing * 3) + px;
+	padding-right: $m + px;
 }
 
 @mixin dm-u-paddingRight--l {
-	padding-right: ($spacing * 4) + px;
+	padding-right: $l + px;
 }
 
 @mixin dm-u-paddingRight--xl {
-	padding-right: ($spacing * 5) + px;
+	padding-right: $xl + px;
 }
 
 @mixin dm-u-paddingRight--xxl {
-	padding-right: ($spacing * 6) + px;
+	padding-right: $xxl + px;
 }
 
 
@@ -442,27 +442,27 @@ http://superfriend.ly/
 }
 
 @mixin dm-u-paddingBottom--xs {
-	padding-bottom: $spacing + px;
+	padding-bottom: $xs + px;
 }
 
 @mixin dm-u-paddingBottom--s {
-	padding-bottom: ($spacing * 2) + px;
+	padding-bottom: $s + px;
 }
 
 @mixin dm-u-paddingBottom--m {
-	padding-bottom: ($spacing * 3) + px;
+	padding-bottom: $m + px;
 }
 
 @mixin dm-u-paddingBottom--l {
-	padding-bottom: ($spacing * 4) + px;
+	padding-bottom: $l + px;
 }
 
 @mixin dm-u-paddingBottom--xl {
-	padding-bottom: ($spacing * 5) + px;
+	padding-bottom: $xl + px;
 }
 
 @mixin dm-u-paddingBottom--xxl {
-	padding-bottom: ($spacing * 6) + px;
+	padding-bottom: $xxl + px;
 }
 
 
@@ -474,27 +474,27 @@ http://superfriend.ly/
 }
 
 @mixin dm-u-paddingLeft--xs {
-	padding-left: $spacing + px;
+	padding-left: $xs + px;
 }
 
 @mixin dm-u-paddingLeft--s {
-	padding-left: ($spacing * 2) + px;
+	padding-left: $s + px;
 }
 
 @mixin dm-u-paddingLeft--m {
-	padding-left: ($spacing * 3) + px;
+	padding-left: $m + px;
 }
 
 @mixin dm-u-paddingLeft--l {
-	padding-left: ($spacing * 4) + px;
+	padding-left: $l + px;
 }
 
 @mixin dm-u-paddingLeft--xl {
-	padding-left: ($spacing * 5) + px;
+	padding-left: $xl + px;
 }
 
 @mixin dm-u-paddingLeft--xxl {
-	padding-left: ($spacing * 6) + px;
+	padding-left: $xxl + px;
 }
 
 
