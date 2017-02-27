@@ -416,6 +416,10 @@ http://superfriend.ly/
 				}
 			}
 
+			.dm-u-textIndent--0 {
+				@include dm-u-textIndent--0;
+			}
+
 			ul {
 				@include dm-u-bullets--none;
 				@include dm-u-marginLeft--0;
@@ -529,6 +533,11 @@ http://superfriend.ly/
 					}
 				}
 				
+			}
+
+			.dm-c-codeBlock {
+				@include dm-u-marginTop--s;
+				@include dm-u-marginBottom--m;
 			}
 
 		}
