@@ -397,6 +397,9 @@ http://superfriend.ly/
 
 		&-c-pricingDesignContainer {
 
+			// seasoning
+			max-width: 350px;
+
 			&_link {
 				@include dm-u-bg--none;
 				@include dm-u-boxShadow--none;
