@@ -88,7 +88,7 @@ h6,
 	h6 {
 		@include dm-u-font--normal;
 
-		// improvisations
+		// seasoning
 		font-family: 'BreveNews-Bold';
 	}
 }
@@ -161,7 +161,7 @@ cite {
 	.breveNewsBookItalic-loaded & {
 		@include dm-u-fontStyle--normal;
 
-		// improvisations
+		// seasoning
 		font-family: "BreveNews-BookItalic";
 	}
 }
@@ -172,7 +172,7 @@ strong {
 	.breveNewsBold-loaded & {
 		@include dm-u-font--normal;
 
-		// improvisations
+		// seasoning
 		font-family: "BreveNews-Bold";
 	}
 }

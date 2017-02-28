@@ -41,7 +41,7 @@ http://superfriend.ly/
 				@include dm-u-display--inlineBlock;
 				@include dm-u-padding--xs;
 
-				// improvisations
+				// seasoning
 				background: $sandstone;
 				color: #fff;
 			}
@@ -54,7 +54,7 @@ http://superfriend.ly/
 				@include dm-u-pos--relative;
 				@include dm-u-marginBottom--xl;
 
-				// improvisations
+				// seasoning
 				background: $purple;
 				color: #fff;
 				padding-left: 48px;
@@ -87,7 +87,7 @@ http://superfriend.ly/
 			// 	@include dm-u-pos--relative;
 
 				
-			// 	// improvisations
+			// 	// seasoning
 			// 	background: $shipGray;
 			// 	color: #fff;			
 			// 	width: 60%;
@@ -118,14 +118,14 @@ http://superfriend.ly/
 				@include dm-l-col--50;
 				@include dm-u-paddingRight--m;
 
-				// improvisations
+				// seasoning
 				min-height: 140px;
 			}
 			
 			&_header {
 				@include dm-u-display--flex;
 
-				// improvisations
+				// seasoning
 				flex-direction: column-reverse;
 			}
 
@@ -142,7 +142,7 @@ http://superfriend.ly/
 					&:before {
 						@include dm-u-display--inlineBlock;
 
-						// improvisations
+						// seasoning
 						content: "";
 						background: transparent url(/i/mic.svg) no-repeat 0 0;
 						width: 16px;
@@ -154,7 +154,7 @@ http://superfriend.ly/
 					&:before {
 						@include dm-u-display--inlineBlock;
 
-						// improvisations
+						// seasoning
 						content: "";
 						background: transparent url(/i/video.svg) no-repeat 0 0;
 						width: 22px;
@@ -173,7 +173,7 @@ http://superfriend.ly/
 				@include dm-u-display--inlineBlock;
 				@include dm-u-marginBottom--xs;
 
-				// improvisations
+				// seasoning
 				background: $turbo;
 				padding: 4px;
 
@@ -193,7 +193,7 @@ http://superfriend.ly/
 				@include dm-u-uppercase;
 				@include dm-u-marginBottom--xs;
 
-				// improvisations 
+				// seasoning 
 				color: $cloudy;
 
 				.firmeBook-loaded & {
@@ -227,7 +227,7 @@ http://superfriend.ly/
 					@include dm-u-uppercase;
 					@include dm-u-marginRight--s;
 
-					// improvisations
+					// seasoning
 					color: $silverRust;
 
 					.firmeBook-loaded & {
@@ -256,7 +256,7 @@ http://superfriend.ly/
 				@include dm-u-text--20;
 				@include dm-u-leading--m;
 
-				// improvisations
+				// seasoning
 				//font-size: 14px;
 				//font-size: 1.4rem;
 				text-indent: -0.4em;
@@ -276,13 +276,13 @@ http://superfriend.ly/
 				@include dm-u-fontStyle--normal;
 				@include dm-u-text--s;
 				
-				// improvisations
+				// seasoning
 				// font-size: 11px;
 				// font-size: 1.1rem;
 				//margin-top: -1em;
 
 				&:before {
-					// improvisations
+					// seasoning
 					content: "—";
 					margin-left: -0.4em;
 				}
@@ -318,7 +318,7 @@ http://superfriend.ly/
 				@include dm-u-marginBottom--l;
 				@include dm-u-text--m;
 
-				// improvisations
+				// seasoning
 				content: "\273c";
 				color: $cloudy;
 			}
@@ -351,7 +351,7 @@ http://superfriend.ly/
 				@include dm-u-bg--none;
 				@include dm-u-boxShadow--none;
 
-				// improvisations
+				// seasoning
 				color: $orange;
 
 				&:after {
@@ -359,7 +359,7 @@ http://superfriend.ly/
 					@include dm-u-display--inlineBlock;		
 					@include dm-u-pos--relative;
 
-					// improvisations
+					// seasoning
 
 					content: "";
 					width: 30px;
@@ -379,7 +379,7 @@ http://superfriend.ly/
 		&-openingLines {
 			@include dm-u-uppercase;
 
-			// improvisations
+			// seasoning
 			font-size: 90%;
 		}
 
@@ -407,7 +407,7 @@ http://superfriend.ly/
 					@include dm-u-text--s;
 					@include dm-u-font--sans;
 
-					// improvisations
+					// seasoning
 					font-family: "Firme-Bold";
 				}
 			}
@@ -439,7 +439,7 @@ http://superfriend.ly/
 			p {
 				@include dm-u-marginBottom--0;
 
-				// improvisations
+				// seasoning
 				text-indent: 1.5em;
 
 				&:first-child {
@@ -467,7 +467,7 @@ http://superfriend.ly/
 				@include dm-u-marginLeft--0;
 				@include dm-u-marginTop--s;
 
-				// improvisations
+				// seasoning
 				font-size: 15px;
 				font-size: 1.5rem;
 
@@ -498,7 +498,7 @@ http://superfriend.ly/
 				@include dm-u-marginLeft--0;
 				@include dm-u-marginTop--s;
 
-				// improvisations
+				// seasoning
 				font-size: 15px;
 				font-size: 1.5rem;
 				counter-reset: section; 
@@ -513,7 +513,7 @@ http://superfriend.ly/
 						@include dm-u-align--right;
 						@include dm-u-pos--absolute;
 						
-						// improvisations
+						// seasoning
 						counter-increment: section;
   						content: counter(section);
   						color: $wistful;
@@ -545,7 +545,7 @@ http://superfriend.ly/
 				@include dm-u-paddingLeft--xl;
 				@include dm-u-fontStyle--italic;
 
-				// improvisations
+				// seasoning
 				background: transparent url(/i/openQuotationMarks.svg) no-repeat 0 0;
 				//background: transparent url('data:image/svg+xml;%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.7 27.4"%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:#ff6407;}%3C/style%3E%3C/defs%3E%3Ctitle%3EopenQuotationMarks%3C/title%3E%3Cpath class="cls-1" d="M6 12.7c5.2 0 9.8 2.4 9.8 7.3a7.39 7.39 0 0 1-7.7 7.4c-5.5 0-8.1-4.5-8.1-8.9 0-8.4 9.4-16.9 12.5-18.5h1zM24.9 12.7c5.2 0 9.8 2.4 9.8 7.3a7.39 7.39 0 0 1-7.7 7.4c-5.5 0-8.1-4.5-8.1-8.9 0-8.4 9.4-16.9 12.5-18.5h1z"/%3E%3C/svg%3E') no-repeat 0 0;
 				background-size: $m * 1px;
@@ -558,7 +558,7 @@ http://superfriend.ly/
 					.breveNewsBookItalic-loaded & {
 						@include dm-u-fontStyle--normal;
 
-						// improvisations
+						// seasoning
 						font-family: "BreveNews-BookItalic";
 					}
 				}
@@ -590,7 +590,7 @@ http://superfriend.ly/
 			&:after {
 				@include dm-u-display--block;
 
-				// improvisations
+				// seasoning
 				content: "";
 				width: 1px;
 				height: 70px;
@@ -625,7 +625,7 @@ http://superfriend.ly/
 					@include dm-u-marginRight--xs;				
 					@include dm-u-font--normal;				
 
-					// improvisations
+					// seasoning
 					color: $silverRust;
 					content: "/";
 				}
@@ -652,12 +652,12 @@ http://superfriend.ly/
 			@include dm-u-bullets--none;	
 			@include dm-u-margin--xs;
 
-			// improvisations
+			// seasoning
 			border-top: 1px solid $cloudy;
 
 			&--noBorders {
 
-				// improvisations
+				// seasoning
 				border: none;
 			}
 
@@ -706,7 +706,7 @@ http://superfriend.ly/
 				@include dm-u-display--block;
 				@include dm-u-marginBottom--xl;
 
-				// improvisations
+				// seasoning
 				content: "";
 				width: 50px;
 				height: 5px;
@@ -720,7 +720,7 @@ http://superfriend.ly/
 			@include dm-u-padding--m;
 			@include dm-u-paddingTop--xl;
 
-			// improvisations
+			// seasoning
 			border: 1px solid $silverRust;
 		}
 

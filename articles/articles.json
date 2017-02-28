@@ -1,5 +1,16 @@
 [
 	{
+		"title"	: 	"Cooking with Design Systems",
+		"slug"	:	"cooking-with-design-systems",
+		"dek"	:	"Design systems make deciding in the browser much easier if you have the right ingredients.",
+		"date"	:	"2017-02-28 00:06:00",
+		"tags"	:	[
+			"css",
+			"design systems",
+			"component libraries"
+		]
+	},
+	{
 		"title"	: 	"Investments",
 		"slug"	:	"http://v3.danielmall.com/articles/investments/",
 		"dek"	:	"Using an investment framework to help evaluate what&rsquo;s worth doing.",

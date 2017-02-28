@@ -39,7 +39,7 @@ http://superfriend.ly/
 			@include dm-u-marginBottom--l;
 			@include dm-u-marginLeft--m;
 
-			// improvisations
+			// seasoning
 			content: "";
 			background: $silverRust;
 			height: 60px;
@@ -77,7 +77,7 @@ http://superfriend.ly/
 	&-js-pageShield {
 		@include dm-u-pos--fixed;
 
-		// improvisations
+		// seasoning
 		background: #fff;
 		top: 0;
 		left: 0;
@@ -125,14 +125,14 @@ http://superfriend.ly/
 		@media screen and (min-width: 850px) {			
 			//@include dm-u-marginLeft--m;
 
-			// improvisations
+			// seasoning
 			width: 73%;
 		}
 
 		@media screen and (min-width: 1054px) {			
 			@include dm-u-marginLeft--m;
 
-			// improvisations
+			// seasoning
 			width: 73%;
 		} */
 
@@ -151,7 +151,7 @@ http://superfriend.ly/
 				@include dm-u-align--right;
 				//@include dm-u-marginBottom--xs;
 
-				// improvisations 
+				// seasoning 
 				font-size: 10px;
 				font-size: 1rem;
 				margin-bottom: 5px;
@@ -177,7 +177,7 @@ http://superfriend.ly/
 					@include dm-u-padding--xs;
 					@include dm-u-boxShadow--none;
 
-					// improvisations
+					// seasoning
 					//padding: 6px;
 
 					&:focus {
@@ -227,14 +227,14 @@ http://superfriend.ly/
 		@include dm-u-pos--relative;
 		min-height: 404px;
 
-		// improvisations
+		// seasoning
 		background: $sandstone;
 
 		&_name {
 			@include dm-u-pos--absolute;
 			@include dm-u-marginBottom--xs;
 
-			// improvisations
+			// seasoning
 			width: 100%;
 			height: 350px;
 			top: 0;
@@ -247,7 +247,7 @@ http://superfriend.ly/
 				@include dm-u-phark;
 				@include dm-u-pos--absolute;
 				
-				// improvisations
+				// seasoning
 				background-size: 100%;
 				height: 300px;
 				width: 300px;
@@ -276,7 +276,7 @@ http://superfriend.ly/
 			@include dm-u-pos--absolute;
 			@include dm-u-display--block;
 			
-			// improvisations
+			// seasoning
 			transform: scale(0.7);
 			width: 307px;
 			height: 432px;
@@ -291,7 +291,7 @@ http://superfriend.ly/
 		&_circle {
 			@include dm-u-pos--absolute;
 			
-			// improvisations
+			// seasoning
 			transform: scale(0.7);
 			left: 50%;
 			z-index: 1;
@@ -302,7 +302,7 @@ http://superfriend.ly/
 				@include dm-u-pos--relative;
 				@include dm-u-display--block;
 			
-				// improvisations
+				// seasoning
 				width: 321px;
 				height: 321px;
 				border-radius: 321px;
@@ -315,7 +315,7 @@ http://superfriend.ly/
 		&_tagline {
 			@include dm-u-text--m;
 
-			// improvisations
+			// seasoning
 			height: 1.3em;
 
 
@@ -328,7 +328,7 @@ http://superfriend.ly/
 				@include dm-u-paddingRight--s;
 				@include dm-u-pos--absolute;
 
-				// improvisations
+				// seasoning
 				color: #fff;
 				background: $orange;
 				top: 320px;
@@ -434,7 +434,7 @@ http://superfriend.ly/
 		@include dm-u-padding--m;
 		@include dm-u-paddingTop--xl;
 
-		// improvisations
+		// seasoning
 		background: $ecru;
 
 		& .dm-dp-quote {
@@ -442,7 +442,7 @@ http://superfriend.ly/
 				@include dm-u-display--block;
 				@include dm-u-marginTop--xl;
 
-				// improvisations
+				// seasoning
 				content: "";
 				width: 50px;
 				height: 5px;
@@ -467,7 +467,7 @@ http://superfriend.ly/
 		@include dm-u-margin--s;
 		@include dm-u-marginBottom--xl;
 
-		// improvisations
+		// seasoning
 		border: 15px solid #f2f2f2;
 
 		.dm-dp-pointerHeadline {
@@ -483,7 +483,7 @@ http://superfriend.ly/
 		&_step {
 			@include dm-u-pos--relative;
 
-			// improvisations
+			// seasoning
 
 
 			.dm-c-hireMe ol & {
@@ -493,7 +493,7 @@ http://superfriend.ly/
 					@include dm-u-pos--absolute;
 					@include dm-u-text--xxl;
 
-					// improvisations
+					// seasoning
 					top: -0.45em;
 					left: -0.2em;
 					opacity: 0.15;
@@ -521,7 +521,7 @@ http://superfriend.ly/
 				@include dm-u-marginTop--s;
 				@include dm-u-marginBottom--m;
 
-				// improvisations
+				// seasoning
 				font-size: 14px;
 				font-size: 1.4rem;
 			}
@@ -546,7 +546,7 @@ http://superfriend.ly/
 
 		@include dm-u-padding--m;
 
-		// improvisations
+		// seasoning
 		max-width: 800px;
 
 		@media screen and (min-width: 720px) {
@@ -632,7 +632,7 @@ http://superfriend.ly/
 	&-c-comments {
 		@include dm-u-padding--m;
 
-		// improvisations
+		// seasoning
 		max-width: 800px;
 
 		@media screen and (min-width: 1020px) {
@@ -655,7 +655,7 @@ http://superfriend.ly/
 		@include dm-u-marginTop--xl;
 		@include dm-u-paddingTop--l;
 
-		// improvisations
+		// seasoning
 		border-top: 1px solid $silverRust;
 		// max-width: 800px;
 
@@ -666,7 +666,7 @@ http://superfriend.ly/
 		@media screen and (min-width: 1072px) {
 			@include dm-u-padding--0;
 
-			// improvisations
+			// seasoning
 
 			padding-top: $spacing * 6px;
 			padding-bottom: $spacing * 5px;
@@ -677,7 +677,7 @@ http://superfriend.ly/
 			@include dm-u-font--sans;
 			@include dm-u-uppercase;
 
-			// improvisations
+			// seasoning
 			//font-size: $spacing * 1.5px;
 			color: $cloudy;
 
@@ -714,7 +714,7 @@ http://superfriend.ly/
 				@include dm-u-display--inlineBlock;
 				@include dm-u-pos--relative;
 
-				// improvisations
+				// seasoning
 				white-space: nowrap;
 				padding-right: $xxl * 1px;
 
@@ -722,7 +722,7 @@ http://superfriend.ly/
 					@include dm-u-pos--absolute;
 					@include dm-u-marginLeft--s;
 
-					// improvisations
+					// seasoning
 					content: "";
 					width: 40px;
 					height: 3px;
@@ -752,7 +752,7 @@ http://superfriend.ly/
 		@include dm-u-paddingTop--m;
 		@include dm-u-marginBottom--xl;
 
-		// improvisations
+		// seasoning
 		border-top: 5px solid $sandstone;
 
 		&_copyright { 
@@ -792,7 +792,7 @@ http://superfriend.ly/
 	@include dm-u-padding--xs;
 	@include dm-u-marginBottom--s;
 
-	// improvisations
+	// seasoning
 	background: $alabaster;
 
 	.dm-page--landing &, 
@@ -802,7 +802,7 @@ http://superfriend.ly/
 
 			@include dm-u-pos--fixed;
 
-			// improvisations
+			// seasoning
 			right: 0;
 			top: 130px;
 			width: 24%;
@@ -847,7 +847,7 @@ http://superfriend.ly/
 			@include dm-u-bg--none;
 			@include dm-u-boxShadow--none;
 
-			// improvisations
+			// seasoning
 			font-size: 12px;
 			font-size: 1.2rem;
 
@@ -896,7 +896,7 @@ http://superfriend.ly/
 			@include dm-l-col--50;
 			@include dm-u-paddingRight--xl;
 
-			// improvisations
+			// seasoning
 			min-height: 260px;
 
 			&--small {
@@ -908,7 +908,7 @@ http://superfriend.ly/
 		@media screen and (min-width: 1200px) {
 			@include dm-l-col--33;
 
-			// improvisations
+			// seasoning
 			min-height: 280px;
 
 			&--small {
@@ -936,7 +936,7 @@ http://superfriend.ly/
 		.dm-c-siteHeader {
 			@include dm-u-pos--fixed;
 
-			// improvisations
+			// seasoning
 			width: 100%;
 			background: rgba(255, 255, 255, 0.93);
 			height: 120px;
@@ -948,7 +948,7 @@ http://superfriend.ly/
 			.dm-svg-siteLogo {
 				@include dm-u-padding--0;
 
-				// improvisations
+				// seasoning
 				width: 40px;
 			}
 
@@ -957,7 +957,7 @@ http://superfriend.ly/
 			&_title {
 				@include dm-u-pos--fixed;
 
-				// improvisations
+				// seasoning
 				top: 0.8em;
 				left: 112px;
 				z-index: 2;
@@ -965,7 +965,7 @@ http://superfriend.ly/
 				&:before {
 					@include dm-u-pos--absolute;
 
-					// improvisations;
+					// seasoning;
 					content: "";
 					background: $silverRust;
 					height: 40px;
@@ -1001,7 +1001,7 @@ http://superfriend.ly/
 
 		@media screen and (min-width: 1020px) {
 
-			// improvisations
+			// seasoning
 			width: 76%;
 
 		}
@@ -1057,7 +1057,7 @@ http://superfriend.ly/
 			@include dm-l-col--50;
 			@include dm-u-paddingRight--l;
 
-			// improvisations
+			// seasoning
 			min-height: 110px;
 		}
 
@@ -1070,7 +1070,7 @@ http://superfriend.ly/
 			@include dm-l-width--33;
 			@include dm-u-pos--relative;
 
-			// improvisations
+			// seasoning
 			top: 8em;
 		}
 
@@ -1099,7 +1099,7 @@ http://superfriend.ly/
 		//@include dm-l-col--50;
 		@include dm-u-marginBottom--l;
 
-		// improvisations
+		// seasoning
 		border: 1px solid $silverRust;
 	}
 
@@ -1139,7 +1139,7 @@ http://superfriend.ly/
 		@include dm-u-paddingRight--xl;
 		@include dm-u-font--sans;
 
-		// improvisations
+		// seasoning
 		top: 4em;
 		left: 50%;
 		width: 45%;
@@ -1159,20 +1159,20 @@ http://superfriend.ly/
 
 		.dm-dp-vertSepNav {
 
-			// improvisations
+			// seasoning
 			border: none;
 
 			li {
 				@include dm-u-display--inlineBlock;
 
-				// improvisations
+				// seasoning
 				border: none;
 
 				&:before {
 					@include dm-u-display--inlineBlock;
 					@include dm-u-marginRight--s;
 
-					// improvisations
+					// seasoning
 					content: "/";
 					color: $cloudy;
 				}
@@ -1180,7 +1180,7 @@ http://superfriend.ly/
 				&:first-child:before {
 					@include dm-u-marginRight--0;
 
-					// improvisations
+					// seasoning
 					content: "";
 				}
 
@@ -1241,7 +1241,7 @@ http://superfriend.ly/
 		@include dm-u-float--left;
 		@include dm-u-pos--relative;
 
-		// improvisations
+		// seasoning
 		width: 39%;
 		z-index: 3;
 
@@ -1277,7 +1277,7 @@ http://superfriend.ly/
 		@include dm-u-float--left;
 		@include dm-u-pos--relative;
 
-		// improvisations
+		// seasoning
 		width: 36%;	
 		top: $spacing * -8px;
 		z-index: 1;
@@ -1299,7 +1299,7 @@ http://superfriend.ly/
 			@include dm-u-paddingTop--0;
 			@include dm-u-pos--relative;
 
-			// improvisations
+			// seasoning
 			width: 25%;
 			clear: none;
 			z-index: 2;
@@ -1321,7 +1321,7 @@ http://superfriend.ly/
 			@include dm-u-float--none;
 			@include dm-u-marginBottom--m;
 
-			// improvisations
+			// seasoning
 			min-height: 0;
 		}
 
@@ -1332,7 +1332,7 @@ http://superfriend.ly/
 		@include dm-u-paddingTop--m;
 		@include dm-u-paddingBottom--l;
 
-		// improvisations
+		// seasoning
 		border-left-width: 200px;
 		top: -12em;
 
@@ -1343,7 +1343,7 @@ http://superfriend.ly/
 			@include dm-u-uppercase;
 			@include dm-u-text--s;
 
-			// improvisations
+			// seasoning
 			background: $armadillo;
 			color: #fff;
 			top: 3em;
@@ -1475,7 +1475,7 @@ http://superfriend.ly/
 	.dm-j-preambleShield {
 		@include dm-u-pos--absolute;
 
-		// improvisations
+		// seasoning
 		width: 100%;
 		height: 100%;
 		top: 0;
@@ -1493,7 +1493,7 @@ http://superfriend.ly/
 		.dm-j-testimonialsShield {
 			@include dm-u-pos--absolute;
 
-			// improvisations
+			// seasoning
 			width: 0;
 			height: 100%;
 			top: 0;

@@ -46,7 +46,7 @@ http://superfriend.ly/
 				@include dm-u-align--right;
 				//@include dm-u-marginBottom--xs;
 
-				// improvisations 
+				// seasoning 
 				font-size: 10px;
 				font-size: 1rem;
 				margin-bottom: 5px;
@@ -67,7 +67,7 @@ http://superfriend.ly/
 					@include dm-u-bg--none;
 					@include dm-u-padding--xs;
 
-					// improvisations
+					// seasoning
 					//padding: 6px;
 				}
 
@@ -90,14 +90,14 @@ http://superfriend.ly/
 		@include dm-u-pos--relative;
 		min-height: 404px;
 
-		// improvisations
+		// seasoning
 		background: $sandstone;
 
 		&_name {
 			@include dm-u-pos--absolute;
 			@include dm-u-marginBottom--xs;
 
-			// improvisations
+			// seasoning
 			width: 100%;
 			height: 350px;
 			top: 0;
@@ -110,7 +110,7 @@ http://superfriend.ly/
 				@include dm-u-phark;
 				@include dm-u-pos--absolute;
 				
-				// improvisations
+				// seasoning
 				background-size: 100%;
 				height: 300px;
 				width: 300px;
@@ -139,7 +139,7 @@ http://superfriend.ly/
 			@include dm-u-pos--absolute;
 			@include dm-u-display--block;
 			
-			// improvisations
+			// seasoning
 			transform: scale(0.7);
 			width: 307px;
 			height: 432px;
@@ -154,7 +154,7 @@ http://superfriend.ly/
 		&_circle {
 			@include dm-u-pos--absolute;
 			
-			// improvisations
+			// seasoning
 			transform: scale(0.7);
 			left: 50%;
 			z-index: 1;
@@ -165,7 +165,7 @@ http://superfriend.ly/
 				@include dm-u-pos--relative;
 				@include dm-u-display--block;
 			
-				// improvisations
+				// seasoning
 				width: 321px;
 				height: 321px;
 				border-radius: 321px;
@@ -178,7 +178,7 @@ http://superfriend.ly/
 		&_tagline {
 			@include dm-u-text--m;
 
-			// improvisations
+			// seasoning
 			height: 1.3em;
 
 
@@ -191,7 +191,7 @@ http://superfriend.ly/
 				@include dm-u-paddingRight--s;
 				@include dm-u-pos--absolute;
 
-				// improvisations
+				// seasoning
 				color: #fff;
 				background: $orange;
 				top: 320px;
@@ -221,7 +221,7 @@ http://superfriend.ly/
 			@include dm-u-marginBottom--l;
 			@include dm-u-marginLeft--m;
 
-			// improvisations
+			// seasoning
 			content: "";
 			background: $silverRust;
 			height: 60px;
@@ -275,7 +275,7 @@ http://superfriend.ly/
 		@include dm-u-paddingRight--xl;
 		@include dm-u-font--sans;
 
-		// improvisations
+		// seasoning
 		top: 4em;
 		left: 50%;
 		width: 45%;
@@ -304,7 +304,7 @@ http://superfriend.ly/
 	.dm-c-siteHeader {
 		@include dm-u-pos--fixed;
 
-		// improvisations
+		// seasoning
 		width: 100%;
 		background: rgba(255, 255, 255, 0.93);
 		height: 120px;
@@ -316,7 +316,7 @@ http://superfriend.ly/
 		.dm-svg-siteLogo {
 			@include dm-u-padding--0;
 
-			// improvisations
+			// seasoning
 			width: 40px;
 		}
 
@@ -325,7 +325,7 @@ http://superfriend.ly/
 		&_title {
 			@include dm-u-pos--fixed;
 
-			// improvisations
+			// seasoning
 			top: 0.8em;
 			left: 112px;
 			z-index: 2;
@@ -333,7 +333,7 @@ http://superfriend.ly/
 			&:before {
 				@include dm-u-pos--absolute;
 
-				// improvisations;
+				// seasoning;
 				content: "";
 				background: $silverRust;
 				height: 40px;
@@ -371,7 +371,7 @@ http://superfriend.ly/
 
 		@media screen and (min-width: 1020px) {
 
-			// improvisations
+			// seasoning
 			width: 76%;
 
 		}
@@ -417,7 +417,7 @@ http://superfriend.ly/
 		.dm-c-siteHeader {
 			@include dm-u-pos--fixed;
 
-			// improvisations
+			// seasoning
 			width: 100%;
 			background: rgba(255, 255, 255, 0.93);
 			height: 120px;
@@ -429,7 +429,7 @@ http://superfriend.ly/
 			.dm-svg-siteLogo {
 				@include dm-u-padding--0;
 
-				// improvisations
+				// seasoning
 				width: 40px;
 			}
 
@@ -438,7 +438,7 @@ http://superfriend.ly/
 			&_title {
 				@include dm-u-pos--fixed;
 
-				// improvisations
+				// seasoning
 				top: 0.8em;
 				left: 112px;
 				z-index: 2;
@@ -446,7 +446,7 @@ http://superfriend.ly/
 				&:before {
 					@include dm-u-pos--absolute;
 
-					// improvisations;
+					// seasoning;
 					content: "";
 					background: $silverRust;
 					height: 40px;
@@ -477,7 +477,7 @@ http://superfriend.ly/
 
 		@media screen and (min-width: 1020px) {
 
-			// improvisations
+			// seasoning
 			width: 76%;
 
 		}

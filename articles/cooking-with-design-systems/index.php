@@ -9,8 +9,8 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@danmall" />
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
-    <meta name="twitter:title" property="og:title" content="Vanilla" />
-    <meta name="twitter:description" property="og:description" content="Lorem ipsum dolor sit amet" />
+    <meta name="twitter:title" property="og:title" content="Cooking with Design Systems" />
+    <meta name="twitter:description" property="og:description" content="Design systems make deciding in the browser much easier if you have the right ingredients." />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/thumb.png" />
 
     <style type="text/css">
@@ -36,7 +36,7 @@
             Cooking with Design Systems
         </h1>
 
-        <h2 class="dm-c-pageHeader_date">February 27, 2017 at 11:54 <abbr title="Post Meridien">PM</abbr></h2>
+        <h2 class="dm-c-pageHeader_date">February 28, 2017 at 12:06 <abbr title="Ante Meridien">AM</abbr></h2>
 
     </header><!-- .page-header -->
 
@@ -347,7 +347,36 @@ $xxl                :       $spacing * 6;
 &lt;h1 class="dm-dp-bigTitle"&gt;Cooking up Design Systems&lt;/h1&gt;
                 </code></pre>
 
-                <p>Now we&rsquo;re cooking!</p>
+                <p>In my stylesheet, I&rsquo;ll create a new rule for my new display pattern, but instead of writing custom declarations, I&rsquo;ll instead use my existing mixins, cut-and-pasted directly from my markup. Again, I want to <em>use what&rsquo;s already in my design system</em>, keeping things as <abbr>DRY</abbr> as I can. That rule would look like this:</p>
+
+                <pre class="dm-c-codeBlock"><code class="language-scss">
+.dm-dp-bigTitle {
+    @include dm-u-text--xl;
+    @include dm-u-paddingLeft--m;
+    @include dm-u-marginBottom--l;
+}
+                </code></pre>
+
+                <p>That way, I&rsquo;ll almost always know at a glance as I skim my stylesheet what parts use the design system I&rsquo;ve established and what parts deviate.</p>
+
+                <p>Last thing: I like to leave some space at the bottom of every rule for &ldquo;seasoning.&rdquo; In cooking, there&rsquo;s this phrase called &ldquo;season to taste,&rdquo; which means that you can continue to add spices and herbs if a dish doesn&rsquo;t taste perfect when it&rsquo;s done cooking. It might not be part of the recipe, but you need it in this specific instance. In the case of code, that might be applying a background color to an element or adding a particular animation:</p>
+
+                <pre class="dm-c-codeBlock"><code class="language-scss">
+.dm-dp-bigTitle {
+    @include dm-u-text--xl;
+    @include dm-u-paddingLeft--m;
+    @include dm-u-marginBottom--l;
+
+    // seasoning
+    background-color: gold;
+}
+                </code></pre>
+
+                <p>Again, you can quickly visually identify what parts of this block are part of the design system, and which is some extra seasoning. After noticing that you&rsquo;re writing <code>background-color: gold;</code> 4 or 5 different times, then you can consider adding it permanently to your design system as a utility and/or mixin.</p>
+
+                <p>Hopefully, this example showed how you can bring some of the <abbr title="User Interface">UI</abbr> decision-making process you previously did in a graphics editor into the browser, as long as you have the right code approach to support it.</p>
+
+                <p>Now you&rsquo;re cooking!</p>
 
             </section><!-- .dm-dp-asteriskSplit -->
 
