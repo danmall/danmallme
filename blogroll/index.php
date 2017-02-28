@@ -11,7 +11,7 @@
     <meta name="twitter:url" property="og:url" content="http://<?php echo $_SERVER['SERVER_NAME']; ?>/blogroll/" />
     <meta name="twitter:title" property="og:title" content="Dan Mall&rsquo;s Blogroll" />
     <meta name="twitter:description" property="og:description" content="Blogroll" />
-    <meta name="twitter:image" property="og:image" content="http://<?php echo $_SERVER['SERVER_NAME']; ?>/i/d.png" />
+    <meta name="twitter:image" property="og:image" content="http://<?php echo $_SERVER['SERVER_NAME']; ?>/i/dan-headshot.jpg" />
 
 </head>
 
