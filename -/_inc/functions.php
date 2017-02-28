@@ -51,12 +51,14 @@ function parseList($file, $num, $type, $displayStyle){
         }
 
         // coming up badge
-        if(!empty($articles[$i]['date'])){
-            $date_now = new DateTime();
-            $date2    = new DateTime($articles[$i]['date']);
+        if($displayStyle == 'small'){
+            if(!empty($articles[$i]['date'])){
+                $date_now = new DateTime();
+                $date2    = new DateTime($articles[$i]['date']);
 
-            if ($date_now < $date2) {
-                echo '<div class="dm-dp-textBlurb_badge">Coming Up</div>';
+                if ($date_now < $date2) {
+                    echo '<div class="dm-dp-textBlurb_badge">Coming Up</div>';
+                }
             }
         }
 
