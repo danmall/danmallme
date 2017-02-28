@@ -1,3 +1,7 @@
+<?php 
+header("HTTP/1.1 301 Moved Permanently"); 
+header("Location: http://v3.danielmall.com/articles/day-one-without-iphone/"); 
+?>
 <?php
 	/* This will give an error. Note the output
 	 * above, which is before the header() call */

@@ -1,3 +1,7 @@
+<?php 
+header("HTTP/1.1 301 Moved Permanently"); 
+header("Location: http://danmall.me/"); 
+?>
 <?php
     $page = 'home';
     require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n";

@@ -1,3 +1,7 @@
+<?php 
+header("HTTP/1.1 301 Moved Permanently"); 
+header("Location: http://v3.danielmall.com/articles/now-with-responsive/"); 
+?>
 <?php
 
     function assignTypeface(){

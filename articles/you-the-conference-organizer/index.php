@@ -1,3 +1,7 @@
+<?php 
+header("HTTP/1.1 301 Moved Permanently"); 
+header("Location: http://v3.danielmall.com/articles/you-the-conference-organizer/"); 
+?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>
