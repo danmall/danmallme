@@ -141,7 +141,7 @@
                 </li>
                 <li class="dm-c-hireMe_step">
                     <h2 class="dm-c-hireMe_step_headline">Take your agency to the next level.</h2>
-                    <p>Most of my professional experience exists in client service, so I&rsquo;ve seen many ups and downs of what agencies do right and wrong. I can help you how more narrowly position your agency to attract more qualified leads and learn pricing strategies that win premium projects.</p>
+                    <p>Most of my professional experience exists in client service, so I&rsquo;ve seen many ups and downs of what agencies do right and wrong. I can help you more narrowly position your agency to attract more qualified leads and learn pricing strategies that win premium projects.</p>
                     <p class="dm-dp-seeAll dm-u-text--s">
                         <a class="dm-dp-seeAll_link" href="/contact/">Contact me about coaching</a>
                     </p>
