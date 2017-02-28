@@ -1,0 +1,653 @@
+/*
+*************************************************
+
+DANMALL.ME
+Utilities
+
+Created by the epic SuperFriendly team.
+http://superfriend.ly/
+
+*************************************************
+*/
+
+.dm {
+
+	&-u {
+
+		/*-------------------------------------------    
+		    Text
+		-------------------------------------------*/
+
+
+		&-text--xs {
+			@include dm-u-text--xs;
+		}
+
+		&-text--s {
+			@include dm-u-text--s;
+		}
+
+		&-text--m {
+			@include dm-u-text--m;
+		}
+
+		&-text--l {
+			@include dm-u-text--l;
+		}
+
+		&-text--xl {
+			@include dm-u-text--xl;
+		}
+
+		&-text--xxl {
+			@include dm-u-text--xxl;
+		}
+
+		&-text--10 {
+			@include dm-u-text--10;
+		}
+
+		&-text--12 {
+			@include dm-u-text--12;
+		}
+
+		&-text--14 {
+			@include dm-u-text--14;
+		}
+
+		&-text--20 {
+			@include dm-u-text--20;
+		}
+
+
+
+		// leading
+
+		&-leading--xs {
+			@include dm-u-leading--xs;
+		}
+
+		&-leading--s {
+			@include dm-u-leading--s;
+		}
+
+		&-leading--m {
+			@include dm-u-leading--m;
+		}
+
+		&-leading--l {
+			@include dm-u-leading--l;
+		}
+
+		&-leading--xl {
+			@include dm-u-leading--xl;
+		}
+
+		&-leading--xxl {
+			@include dm-u-leading--xxl;
+		}
+
+
+		// font style
+
+		&-font--sans {
+			@include dm-u-font--sans;
+		}
+
+		&-font--serif {
+			@include dm-u-font--serif;
+		}
+
+
+
+		// font weight
+
+		&-font--normal {
+			@include dm-u-font--normal;
+		}
+
+		&-font--bold {
+			@include dm-u-font--bold;
+		}
+
+		.breveNewsBold-loaded &-font--bold {
+			@include dm-u-font--normal;
+
+			// seasoning
+			font-family: "BreveNews-Bold";
+		}		
+
+		&-font--italic,
+		&-fontStyle--italic {
+			@include dm-u-fontStyle--italic;
+		}
+
+		.breveNewsBookItalic-loaded &-font--italic,
+		.breveNewsBookItalic-loaded &-fontStyle--italic {
+			@include dm-u-fontStyle--normal;
+
+			// seasoning
+			font-family: "BreveNews-BookItalic";
+		}
+
+		&-fontStyle--normal {
+			@include dm-u-fontStyle--normal;
+		}
+
+
+
+		// bullets
+
+		&-bullets {
+			@include dm-u-bullets;
+		}
+
+		&-bullets--none {
+			@include dm-u-bullets--none;
+		}
+
+
+		// other text styles
+
+		&-uppercase {
+			@include dm-u-uppercase;
+		}
+
+		&-letterspace--in {
+			@include dm-u-letterspace--in;
+		}
+
+
+
+
+
+		/*-------------------------------------------    
+		    Alignments
+		-------------------------------------------*/
+
+		&-align--left {
+			@include dm-u-align--left;
+		}
+
+		&-align--right {
+			@include dm-u-align--right;
+		}
+
+		&-align--center {
+			@include dm-u-align--center;
+		}
+
+
+
+		/*-------------------------------------------    
+		    Margins     
+		-------------------------------------------*/
+
+		// margin shorthand
+
+		&-margin--0 {
+			@include dm-u-margin--0;
+		}
+
+		&-margin--xs {
+			@include dm-u-margin--xs;
+		}
+
+		&-margin--s {
+			@include dm-u-margin--s;
+		}
+
+		&-margin--m {
+			@include dm-u-margin--m;
+		}
+
+		&-margin--l {
+			@include dm-u-margin--l;
+		}
+
+		&-margin--xl {
+			@include dm-u-margin--xl;
+		}
+
+		&-margin--xxl {
+			@include dm-u-margin--xxl;
+		}
+
+
+
+		// marginTop
+
+		&-marginTop--0 {
+			@include dm-u-marginTop--0;
+		}
+
+		&-marginTop--xs {
+			@include dm-u-marginTop--xs;
+		}
+
+		&-marginTop--s {
+			@include dm-u-marginTop--s;
+		}
+
+		&-marginTop--m {
+			@include dm-u-marginTop--m;
+		}
+
+		&-marginTop--l {
+			@include dm-u-marginTop--l;
+		}
+
+		&-marginTop--xl {
+			@include dm-u-marginTop--xl;
+		}
+
+		&-marginTop--xxl {
+			@include dm-u-marginTop--xxl;
+		}
+
+
+		// marginRight
+
+		&-marginRight--0 {
+			@include dm-u-marginRight--0;
+		}
+
+		&-marginRight--xs {
+			@include dm-u-marginRight--xs;
+		}
+
+		&-marginRight--s {
+			@include dm-u-marginRight--s;
+		}
+
+		&-marginRight--m {
+			@include dm-u-marginRight--m;
+		}
+
+		&-marginRight--l {
+			@include dm-u-marginRight--l;
+		}
+
+		&-marginRight--xl {
+			@include dm-u-marginRight--xl;
+		}
+
+		&-marginRight--xxl {
+			@include dm-u-marginRight--xxl;
+		}
+
+
+		// marginBottom
+
+		&-marginBottom--0 {
+			@include dm-u-marginBottom--0;
+		}
+
+		&-marginBottom--xs {
+			@include dm-u-marginBottom--xs;
+		}
+
+		&-marginBottom--s {
+			@include dm-u-marginBottom--s;
+		}
+
+		&-marginBottom--m {
+			@include dm-u-marginBottom--m;
+		}
+
+		&-marginBottom--l {
+			@include dm-u-marginBottom--l;
+		}
+
+		&-marginBottom--xl {
+			@include dm-u-marginBottom--xl;
+		}
+
+		&-marginBottom--xxl {
+			@include dm-u-marginBottom--xxl;
+		}
+
+
+
+		// marginLeft
+
+		&-marginLeft--0 {
+			@include dm-u-marginLeft--0;
+		}
+
+		&-marginLeft--xs {
+			@include dm-u-marginLeft--xs;
+		}
+
+		&-marginLeft--s {
+			@include dm-u-marginLeft--s;
+		}
+
+		&-marginLeft--m {
+			@include dm-u-marginLeft--m;
+		}
+
+		&-marginLeft--l {
+			@include dm-u-marginLeft--l;
+		}
+
+		&-marginLeft--xl {
+			@include dm-u-marginLeft--xl;
+		}
+
+		&-marginLeft--xxl {
+			@include dm-u-marginLeft--xxl;
+		}
+
+
+
+		/*-------------------------------------------    
+		    Paddings     
+		-------------------------------------------*/
+
+		// padding shorthand
+
+		&-padding--0 {
+			@include dm-u-padding--0;
+		}
+
+		&-padding--xs {
+			@include dm-u-padding--xs;
+		}
+
+		&-padding--s {
+			@include dm-u-padding--s;
+		}
+
+		&-padding--m {
+			@include dm-u-padding--m;
+		}
+
+		&-padding--l {
+			@include dm-u-padding--l;
+		}
+
+		&-padding--xl {
+			@include dm-u-padding--xl;
+		}
+
+		&-padding--xxl {
+			@include dm-u-padding--xxl;
+		}
+
+
+
+		// paddingTop
+
+		&-paddingTop--0 {
+			@include dm-u-paddingTop--0;
+		}
+
+		&-paddingTop--xs {
+			@include dm-u-paddingTop--xs;
+		}
+
+		&-paddingTop--s {
+			@include dm-u-paddingTop--s;
+		}
+
+		&-paddingTop--m {
+			@include dm-u-paddingTop--m;
+		}
+
+		&-paddingTop--l {
+			@include dm-u-paddingTop--l;
+		}
+
+		&-paddingTop--xl {
+			@include dm-u-paddingTop--xl;
+		}
+
+		&-paddingTop--xxl {
+			@include dm-u-paddingTop--xxl;
+		}
+
+
+		// paddingRight
+
+		&-paddingRight--0 {
+			@include dm-u-paddingRight--0;
+		}
+
+		&-paddingRight--xs {
+			@include dm-u-paddingRight--xs;
+		}
+
+		&-paddingRight--s {
+			@include dm-u-paddingRight--s;
+		}
+
+		&-paddingRight--m {
+			@include dm-u-paddingRight--m;
+		}
+
+		&-paddingRight--l {
+			@include dm-u-paddingRight--l;
+		}
+
+		&-paddingRight--xl {
+			@include dm-u-paddingRight--xl;
+		}
+
+		&-paddingRight--xxl {
+			@include dm-u-paddingRight--xxl;
+		}
+
+
+		// paddingBottom
+
+		&-paddingBottom--0 {
+			@include dm-u-paddingBottom--0;
+		}
+
+		&-paddingBottom--xs {
+			@include dm-u-paddingBottom--xs;
+		}
+
+		&-paddingBottom--s {
+			@include dm-u-paddingBottom--s;
+		}
+
+		&-paddingBottom--m {
+			@include dm-u-paddingBottom--m;
+		}
+
+		&-paddingBottom--l {
+			@include dm-u-paddingBottom--l;
+		}
+
+		&-paddingBottom--xl {
+			@include dm-u-paddingBottom--xl;
+		}
+
+		&-paddingBottom--xxl {
+			@include dm-u-paddingBottom--xxl;
+		}
+
+
+
+		// paddingLeft
+
+		&-paddingLeft--0 {
+			@include dm-u-paddingLeft--0;
+		}
+
+		&-paddingLeft--xs {
+			@include dm-u-paddingLeft--xs;
+		}
+
+		&-paddingLeft--s {
+			@include dm-u-paddingLeft--s;
+		}
+
+		&-paddingLeft--m {
+			@include dm-u-paddingLeft--m;
+		}
+
+		&-paddingLeft--l {
+			@include dm-u-paddingLeft--l;
+		}
+
+		&-paddingLeft--xl {
+			@include dm-u-paddingLeft--xl;
+		}
+
+		&-paddingLeft--xxl {
+			@include dm-u-paddingLeft--xxl;
+		}
+
+
+
+		/*-------------------------------------------    
+		    Text Indent
+		-------------------------------------------*/
+
+		&-textIndent--0 {
+			@include dm-u-textIndent--0;
+		}
+
+
+		
+
+
+		/*-------------------------------------------    
+		    Display     
+		-------------------------------------------*/
+		
+		&-hide {
+			@include dm-u-hide;
+		}
+
+		&-show,
+		&-block {
+			@include dm-u-show;
+		}
+
+		&-display {
+
+			&--block {
+				@include dm-u-display--block;
+			}
+
+			&--inlineBlock {
+				@include dm-u-display--inlineBlock;
+			}
+
+			&--inline {
+				@include dm-u-display--inline;
+			}
+
+			&--flex {
+				@include dm-u-display--flex;
+			}
+
+		}
+
+
+		/*-------------------------------------------    
+		    Positioning
+		-------------------------------------------*/
+
+		&-pos--absolute {
+			@include dm-u-pos--absolute;
+		}
+
+		&-pos--relative {
+			@include dm-u-pos--relative;
+		}
+
+		&-pos--static {
+			@include dm-u-pos--static;
+		}
+
+		&-pos--fixed {
+			@include dm-u-pos--fixed;
+		}
+
+
+
+		/*-------------------------------------------    
+		    Moving
+		-------------------------------------------*/
+
+		&-move--offscreen {
+			@include dm-u-move--offscreen;
+		}
+
+		&-move--onscreen {
+			@include dm-u-move--onscreen;
+		}
+
+
+		/*-------------------------------------------    
+		    Floating & Clearing
+		-------------------------------------------*/
+
+		&-float--left {
+			@include dm-u-float--left;
+		}
+
+		&-float--right {
+			@include dm-u-float--right;
+		}
+
+		&-float--none {
+			@include dm-u-float--none;
+		}
+
+		&-clear--left {
+			@include dm-u-clear--left;
+		}
+
+		&-clear--right {
+			@include dm-u-clear--right;
+		}
+
+		&-clear--both {
+			@include dm-u-clear--both;
+		}
+
+		/* Easy Clearing - http://www.positioniseverything.net/easyclearing.html */ 
+		&-clearfix:after {
+			content: "."; 
+			display: block; 
+			height: 0; 
+			clear: both; 
+			visibility: hidden;
+		}
+
+
+		/*-------------------------------------------    
+		    Phark
+		-------------------------------------------*/
+
+		&-phark {
+			@include dm-u-phark;
+		}
+
+
+
+		/*-------------------------------------------    
+		    Backgrounds
+		-------------------------------------------*/
+
+		&-bg--none {
+			@include dm-u-bg--none;
+		}
+
+
+		/*-------------------------------------------    
+		    Box Shadow
+		-------------------------------------------*/
+		&-boxShadow--none {
+			@include dm-u-boxShadow--none;
+		}
+
+	}
+
+}

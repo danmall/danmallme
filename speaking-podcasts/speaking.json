@@ -1,0 +1,544 @@
+[
+	{
+		"title"		: 	"REVOLVE Conference",
+		"slug"		:	"http://lanyrd.com/2017/revolveconf/",
+		"date"		:	"2017-10-25",
+		"location"	:	"Charleston, <abbr title=\"South Carolina\">SC</abbr>"
+	},
+	{
+		"title"		: 	"An Event Apart",
+		"slug"		:	"https://aneventapart.com/event/washington-dc-2017",
+		"date"		:	"2017-07-10",
+		"location"	:	"Washington, <abbr title=\"District of Columbia\">DC</abbr>"
+	},
+	{
+		"title"		: 	"An Event Apart",
+		"slug"		:	"https://aneventapart.com/event/boston-2017",
+		"date"		:	"2017-05-15",
+		"location"	:	"Boston, <abbr title=\"Massachusetts\">MA</abbr>"
+	},
+	{
+		"title"		: 	"O&rsquo;Reilly Design Conference",
+		"slug"		:	"http://conferences.oreilly.com/design/ux-interaction-iot-us",
+		"date"		:	"2017-03-22",
+		"location"	:	"San Francisco, <abbr title=\"California\">CA</abbr>"
+	},
+	{
+		"title"		: 	"Owner Summit",
+		"slug"		:	"http://bureauofdigital.com/owner-summit-2017/",
+		"date"		:	"2017-02-20",
+		"location"	:	"San Diego, <abbr>CA</abbr>"
+	},
+	{
+		"title"		: 	"Hustle",
+		"slug"		:	"http://funsize.co/hustle/whats-your-mission-with-dan-mall",
+		"date"		:	"2017-02-09",
+		"type"		:	"Podcast",
+		"audio"		:	true
+	},
+	{
+		"title"		: 	"O&rsquo;Reilly Design Podcast",
+		"slug"		:	"https://www.oreilly.com/ideas/dan-mall-on-designing-with-friends",
+		"audio"		:	true,
+		"date"		:	"2016-12-08",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"Motion and Meaning",
+		"slug"		:	"http://motionandmeaning.io/episode12.html",
+		"audio"		:	true,
+		"date"		:	"2016-11-21",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"Increasing Agency Profit with Value-Based Pricing",
+		"slug"		:	"https://jasonswenk.com/value-based-pricing/",
+		"audio"		:	true,
+		"date"		:	"2016-11-16",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"Yonder",
+		"slug"		:	"http://www.yonder.io/post/2016/11/11/episode-8-dan-mall",
+		"audio"		:	true,
+		"date"		:	"2016-11-11",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"Ask a Freelancer",
+		"slug"		:	"http://cushionapp.com/ask-a-freelancer/episode-008/",
+		"audio"		:	true,
+		"date"		:	"2016-10-25",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"UIE&rsquo;s &ldquo;All You Can Learn&rdquo; Library",
+		"slug"		:	"https://aycl.uie.com/virtual_seminars/so_what_do_i_make",
+		"date"		:	"2016-10-20",
+		"type"		:	"Webinar"
+	},
+	{
+		"title"		: 	"AIGA Design Conference",
+		"date"		:	"2016-10-17",
+		"location"	:	"Las Vegas, <abbr title=\"Nevada\">NV</abbr>"
+	},
+	{
+		"title"		: 	"An Event Apart",
+		"date"		:	"2016-10-03",
+		"location"	:	"Orlando, <abbr title=\"Florida\">FL</abbr>"
+	},
+	{
+		"title"		: 	"Mirror Conference",
+		"slug"		:	"https://www.youtube.com/watch?v=20AYrrNHGaE",
+		"date"		:	"2016-09-23",
+		"video"		:	true,
+		"location"	:	"Braga, Portugal"
+	},
+	{
+		"title"		: 	"From the Front",
+		"date"		:	"2016-09-15",
+		"location"	:	"Bologna, Italy"
+	},
+	{
+		"title"		: 	"Pixel Up!",
+		"date"		:	"2016-09-12",
+		"location"	:	"Johannesburg, South Africa"
+	},
+	{
+		"title"		: 	"Vine offsite",
+		"date"		:	"2016-07-07",
+		"location"	:	"New York City"
+	},
+	{
+		"title"		: 	"Refresh Philly",
+		"date"		:	"2016-05-12",
+		"location"	:	"Philadelphia, <abbr title=\"Pennsylvania\">PA</abbr>"
+	},
+	{
+		"title"		: 	"99u",
+		"slug"		:	"http://99u.com/videos/54185/dan-mall-replacing-the-internship-with-apprenticeship",
+		"video"		:	true,
+		"date"		:	"2016-05-06",
+		"location"	:	"New York City"
+	},
+	{
+		"title"		: 	"Generate Conference",
+		"slug"		:	"https://www.youtube.com/watch?v=tuvgYHDCU7w&amp;index=12&amp;list=PLb_ziuDPiUzaagmsc8ult7gZgk3Laka87",
+		"video"		:	true,
+		"date"		:	"2016-04-22",
+		"location"	:	"New York City"
+	},
+	{
+		"title"		: 	"Smashing Conference",
+		"slug"		:	"https://vimeo.com/162935382",
+		"video"		:	true,
+		"date"		:	"2016-04-04",
+		"location"	:	"San Francisco, <abbr title=\"California\">CA</abbr>"
+	},
+	{
+		"title"		: 	"Epicurrence: The Montues",
+		"date"		:	"2016-03-06",
+		"location"	:	"Lake Tahoe, <abbr title=\"California\">CA</abbr>"
+	},
+	{
+		"title"		: 	"GAiN",
+		"slug"		:	"http://gain.adventist.org/2016/",
+		"date"		:	"2016-02-24",
+		"location"	:	"Washington, <abbr title=\"District of Columbia\">DC</abbr>"
+	},
+	{
+		"title"		: 	"Owner Summit",
+		"date"		:	"2016-02-08",
+		"location"	:	"Atlanta, <abbr title=\"Georgia\">GA</abbr>"
+	},
+	{
+		"title"		: 	"Design+Agency, by Invision",
+		"slug"		:	"https://www.youtube.com/watch?v=mR2u6SzmMbw",
+		"video"		:	true,
+		"date"		:	"2016-01-28",
+		"location"	:	"New York City"
+	},
+	{
+		"title"		: 	"Design Details",
+		"slug"		:	"https://spec.fm/podcasts/design-details/23251",
+		"audio"		:	true,
+		"date"		:	"2015-12-28",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"JS Open Day NYC, by Microsoft",
+		"slug"		:	"https://channel9.msdn.com/Blogs/raw-tech/Responsive-Web-Design-with-Daniel-Mall",
+		"video"		:	true,
+		"date"		:	"2015-12-15",
+		"location"	:	"New York City"
+	},
+	{
+		"title"		: 	"dsgnday",
+		"date"		:	"2015-11-13",
+		"location"	:	"Amsterdam"
+	},
+	{
+		"title"		: 	"Radio Free Europe/Radio Liberty",
+		"slug"		:	"https://responsivewebdesign.com/podcast/rferl/",
+		"audio"		:	true,
+		"date"		:	"2015-10-12",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"Digital Project Management Summit",
+		"date"		:	"2015-10-12",
+		"location"	:	"Philadelphia, <abbr>PA</abbr>"
+	},
+	{
+		"title"		: 	"Epicurrence #2",
+		"date"		:	"2015-10-09",
+		"location"	:	"North Shore, Oahu, <abbr title=\"Hawaii\">HI</abbr>"
+	},
+	{
+		"title"		: 	"Build Right: Maker Series",
+		"slug"		:	"https://vimeo.com/album/3704344/video/177133790",
+		"video"		:	true,
+		"date"		:	"2015-10-01",
+		"location"	:	"Dayton, <abbr title=\"Ohio\">OH</abbr>"
+	},
+	{
+		"title"		: 	"99u Local: Philadelphia",
+		"date"		:	"2015-09-14",
+		"location"	:	"Philadelphia, <abbr>PA</abbr>"
+	},
+	{
+		"title"		: 	"CTRL+CLICK CAST",
+		"slug"		:	"http://ctrlclickcast.com/episodes/professionalism",
+		"audio"		:	true,
+		"date"		:	"2015-08-13",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"Unfinished Business",
+		"slug"		:	"https://stuffandnonsense.co.uk/blog/about/unfinished-business-114-fair-cop-guv-with-dan-edwards-and-daniel-mall",
+		"audio"		:	true,
+		"date"		:	"2015-08-10",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"The Start",
+		"slug"		:	"http://thestart.fm/interviews/the-dad-designer",
+		"audio"		:	true,
+		"date"		:	"2015-07-22",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"The Bureau Briefing",
+		"slug"		:	"http://bureauofdigital.com/radio/bureau-briefing/",
+		"audio"		:	true,
+		"date"		:	"2015-07-08",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"Design Edu Today",
+		"slug"		:	"http://designedu.today/episodes/dan-mall.php",
+		"audio"		:	true,
+		"date"		:	"2015-06-09",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"An Event Apart",
+		"date"		:	"2015-06-08",
+		"location"	:	"San Diego, <abbr>CA</abbr>"
+	},
+	{
+		"title"		: 	"Creative Director Camp",
+		"date"		:	"2015-06-01",
+		"location"	:	"Philadelphia, <abbr>PA</abbr>"
+	},
+	{
+		"title"		: 	"BizCraft",
+		"slug"		:	"http://unmatchedstyle.com/news/bizcraft-episode-49-interview-dan-mall.php",
+		"audio"		:	true,
+		"date"		:	"2015-05-11",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"Future of Web Design",
+		"slug"		:	"https://futureinsights-1.wistia.com/medias/h85fko1l19",
+		"video"		:	true,
+		"date"		:	"2015-04-27",
+		"location"	:	"London"
+	},
+	{
+		"title"		: 	"Unfinished Business",
+		"slug"		:	"http://www.unfinished.bz/114",
+		"date"		:	"2015-04-07",
+		"type"		:	"Podcast",
+		"audio"		:	true
+	},
+	{
+		"title"		: 	"Web Sherpa Summit",
+		"date"		:	"2015-04-23",
+		"type"		:	"Online"
+	},
+	{
+		"title"		: 	"An Event Apart",
+		"date"		:	"2015-02-16",
+		"location"	:	"Atlanta, <abbr>GA</abbr>"
+	},
+	{
+		"title"		: 	"Creative Mornings PHL",
+		"slug"		:	"https://creativemornings.com/talks/dan-mall",
+		"video"		:	true,
+		"date"		:	"2015-01-23",
+		"location"	:	"Philadelphia, <abbr>PA</abbr>"
+	},
+	{
+		"title"		: 	"Owner Summit",
+		"date"		:	"2015-01-08",
+		"location"	:	"Austin, <abbr title=\"Texas\">TX</abbr>"
+	},
+	{
+		"title"		: 	"An Event Apart",
+		"date"		:	"2015-11-17",
+		"location"	:	"San Francisco, <abbr>CA</abbr>"
+	},
+	{
+		"title"		: 	"Build Right: Maker Series",
+		"slug"		:	"https://seesparkbox.com/foundry/maker_series_recap_dan_mall",
+		"date"		:	"2014-10-30",
+		"location"	:	"Dayton, <abbr>OH</abbr>"
+	},
+	{
+		"title"		: 	"The Businessology Roadshow",
+		"date"		:	"2014-10-23",
+		"location"	:	"San Francisco, <abbr>CA</abbr>"
+	},
+	{
+		"title"		: 	"DPM Philly: Collaborating for the Win",
+		"slug"		:	"https://dpmphilly.ticketleap.com/a-dpm-philly-event-collaborating-for-the-win/details",
+		"date"		:	"2014-09-09",
+		"location"	:	"Philadelphia, <abbr>PA</abbr>"
+	},
+	{
+		"title"		: 	"Digital Biz Summit",
+		"date"		:	"2014-08-20",
+		"type"		:	"Online"
+	},
+	{
+		"title"		: 	"The Businessology Roadshow",
+		"date"		:	"2014-08-19",
+		"type"		:	"Online"
+	},
+	{
+		"title"		: 	"An Event Apart",
+		"date"		:	"2014-07-21",
+		"location"	:	"Washington <abbr>DC</abbr>"
+	},
+	{
+		"title"		: 	"Web Friends",
+		"slug"		:	"http://webfriends.io/season/2/episode/3/",
+		"date"		:	"2014-06-20",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"Design Deliverables, for Typecast",
+		"slug"		:	"http://typecast.com/seminars/post-comp",
+		"date"		:	"2014-06-05",
+		"video"		:	"true",
+		"type"		:	"Webinar"
+	},
+	{
+		"title"		: 	"Beyond Tellerand",
+		"slug"		:	"https://vimeo.com/101875373",
+		"video"		:	true,
+		"date"		:	"2014-05-19",
+		"location"	:	"D&uuml;sseldorf, Germany"
+	},
+	{
+		"title"		: 	"An Event Apart",
+		"date"		:	"2014-04-28",
+		"location"	:	"Boston, <abbr title=\"Massachusetts\">MA</abbr>"
+	},
+	{
+		"title"		: 	"Let&rsquo;s Make Mistakes",
+		"slug"		:	"https://soundcloud.com/lets-make-mistakes/132-the-price-of-doing-business",
+		"audio"		:	true,
+		"date"		:	"2014-04-16",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"Pencil vs. Pixel",
+		"slug"		:	"https://www.youtube.com/watch?v=mkoazSdC6q0",
+		"video"		:	true,
+		"date"		:	"2014-03-10",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"RWD Summit",
+		"date"		:	"2014-04-01",
+		"type"		:	"Online"
+	},
+	{
+		"title"		: 	"The Bitchcast",
+		"slug"		:	"http://thebitchwhocodes.com/2013/10/04/the-bitchcast-with-special-guest-daniel-mall/",
+		"audio"		:	true,
+		"date"		:	"2013-10-04",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"Smashing Conference",
+		"date"		:	"2013-09-09",
+		"location"	:	"Freiburg, Germany"
+	},
+	{
+		"title"		: 	"Digital Biz Summit",
+		"date"		:	"2013-08-20",
+		"type"		:	"Online"
+	},
+	{
+		"title"		: 	"Interlink Conference",
+		"date"		:	"2013-06-05",
+		"location"	:	"Vancouver, Canada"
+	},
+	{
+		"title"		: 	"Artifact Conference",
+		"date"		:	"2013-05-13",
+		"location"	:	"Austin, <abbr>TX</abbr>"
+	},
+	{
+		"title"		: 	"Happy Monday Podcast",
+		"slug"		:	"http://www.happymondaypodcast.com/episodes/20-episode21-dan-mall",
+		"audio"		:	true,
+		"date"		:	"2013-05-05",
+		"type"		:	"Podcast>"
+	},
+	{
+		"title"		: 	"FITC",
+		"date"		:	"2013-04-20",
+		"location"	:	"Toronto, Canada"
+	},
+	{
+		"title"		: 	"RWD Summit",
+		"date"		:	"2013-04-16",
+		"type"		:	"Online"
+	},
+	{
+		"title"		: 	"Non Breaking Space Show",
+		"slug"		:	"http://goodstuff.fm/nbsp/31",
+		"audio"		:	true,
+		"date"		:	"2013-04-12",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"The Gently Mad",
+		"slug"		:	"http://thegentlymad.com/episodes/003-dan-mall/",
+		"audio"		:	true,
+		"date"		:	"2013-01-31",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"BizCraft",
+		"slug"		:	"http://unmatchedstyle.com/news/bizcraft-episode-14.php",
+		"audio"		:	true,
+		"date"		:	"2012-12-19",
+		"type"		:	"Podcast"
+	},
+	{
+		"title"		: 	"AIGA Jacksonville",
+		"date"		:	"2012-11-15",
+		"location"	:	"Jacksonville, <abbr title=\"Florida\">FL</abbr>"
+	},
+	{
+		"title"		: 	"Web Design Day",
+		"date"		:	"2012-10-26",
+		"location"	:	"Pittsburgh, <abbr>PA</abbr>"
+	},
+	{
+		"title"		: 	"Circles Conference",
+		"date"		:	"2012-09-20",
+		"location"	:	"Grapevine, <abbr>TX</abbr>"
+	},
+	{
+		"title"		: 	"Reasons to be Creative",
+		"date"		:	"2012-09-03",
+		"location"	:	"Brighton, <abbr title=\"United Kingdom\">UK</abbr>"
+	},
+	{
+		"title"		: 	"Atlanta Web Design Group",
+		"date"		:	"2012-07-26",
+		"location"	:	"Atlanta, <abbr>GA</abbr>"
+	},
+	{
+		"title"		: 	"New Adventures in Web Design",
+		"date"		:	"2012-07-26",
+		"location"	:	"Nottingham, <abbr>UK</abbr>"
+	},
+	{
+		"title"		: 	"Responsive Web Design, for AIGA &amp; Adobe",
+		"date"		:	"2011-07-27",
+		"type"		:	"Webinar"
+	},
+	{
+		"title"		: 	"SXSW: Zeldman&rsquo;s Awesome Internet Panel",
+		"slug"		:	"https://www.youtube.com/watch?v=DSUIvacY4XA",
+		"video"		:	true,
+		"date"		:	"2011-03-11",
+		"location"	:	"Austin, <abbr>TX</abbr>"
+	},
+	{
+		"title"		: 	"Art Directors Club 90",
+		"slug"		:	"https://www.youtube.com/watch?v=DSUIvacY4XA",
+		"video"		:	true,
+		"date"		:	"2011-02-23",
+		"type"		:	"Jury"
+	},
+	{
+		"title"		: 	"Flash Intensive, for <abbr title=\"School of Visual Arts\">SVA</abbr>",
+		"date"		:	"2011-02-05",
+		"location"	:	"New York City"
+	},
+	{
+		"title"		: 	"Miami Ad School",
+		"date"		:	"2010-12-01",
+		"location"	:	"Brooklyn, <abbr>NY</abbr>"
+	},
+	{
+		"title"		: 	"Future of Web Design",
+		"date"		:	"2010-11-15",
+		"location"	:	"New York City"
+	},
+	{
+		"title"		: 	"SXSW",
+		"date"		:	"2010-03-12",
+		"location"	:	"Austin, <abbr>TX</abbr>"
+	},
+	{
+		"title"		: 	"Flashpitt",
+		"date"		:	"2009-10-16",
+		"location"	:	"Pittsburgh, <abbr>PA</abbr>"
+	},
+	{
+		"title"		: 	"An Event Apart",
+		"date"		:	"2009-06-22",
+		"location"	:	"Boston, <abbr>MA</abbr>"
+	},
+	{
+		"title"		: 	"Future of Web Design",
+		"date"		:	"2008-11-03",
+		"location"	:	"New York City"
+	},
+	{
+		"title"		: 	"The University of the Arts",
+		"date"		:	"2008-09-05",
+		"location"	:	"Philadelphia, <abbr>PA</abbr>"
+	},
+	{
+		"title"		: 	"Refresh DC",
+		"date"		:	"2008-06-19",
+		"location"	:	"Washington <abbr>DC</abbr>"
+	}
+
+]
+
+
+
+
+
+

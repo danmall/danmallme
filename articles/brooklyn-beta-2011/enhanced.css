@@ -1,7 +1,0 @@
-#you-the-conference-organizer { min-height: 417px; }
-	
-	.slide { position: absolute; top: 0; left: 0; display: none; }
-	
-	#title { display: block; }
-		#title footer { margin-top: 50px; }
-		#title footer.desktop { padding-top: 60px; background: transparent url(arrow-keys.png) no-repeat 50% 0; margin-top: 50px; }	

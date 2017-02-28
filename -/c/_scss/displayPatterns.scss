@@ -1,0 +1,730 @@
+/*
+*************************************************
+
+DANMALL.ME
+Display Patterns
+
+Created by the epic SuperFriendly team.
+http://superfriend.ly/
+
+*************************************************
+*/
+
+.dm {
+
+	&-dp {
+
+		/*-------------------------------------------    
+			Headlines     
+		-------------------------------------------*/
+
+
+		// boxed headline
+
+		&-boxedHeadline {
+
+			@include dm-u-text--m;
+			@include dm-u-font--sans;
+
+			.firmeBold-loaded & {
+				@include dm-u-uppercase;
+				@include dm-u-text--s;
+
+				//improvisations
+				font-family: "Firme-Bold";
+			}
+
+			/*
+			@media screen and (min-width: 945px){				
+				@include dm-u-text--s;
+				@include dm-u-uppercase;
+				@include dm-u-display--inlineBlock;
+				@include dm-u-padding--xs;
+
+				// seasoning
+				background: $sandstone;
+				color: #fff;
+			}
+			*/
+
+			@media screen and (min-width: 1100px) {
+				@include dm-u-text--xs;
+				@include dm-u-display--inlineBlock;
+				@include dm-u-padding--xs;
+				@include dm-u-pos--relative;
+				@include dm-u-marginBottom--xl;
+
+				// seasoning
+				background: $purple;
+				color: #fff;
+				padding-left: 48px;
+				padding-right: 16px;
+				left: -48px;
+				z-index: 2;
+
+				.firmeBold-loaded & {
+					@include dm-u-text--12;
+				}
+
+			}
+
+		}
+
+
+		// pointer headline
+
+		&-pointerHeadline {
+
+			@include dm-u-text--m;
+
+			// @media screen and (min-width: 999px){
+			// 	@include dm-u-text--s;
+			// 	@include dm-u-font--sans;
+			// 	@include dm-u-uppercase;
+			// 	@include dm-u-align--center;
+			// 	@include dm-u-padding--xs;
+			// 	@include dm-u-paddingBottom--l;
+			// 	@include dm-u-pos--relative;
+
+				
+			// 	// seasoning
+			// 	background: $shipGray;
+			// 	color: #fff;			
+			// 	width: 60%;
+			// 	margin: 0 auto 2em;
+
+			// 	// Thanks Clippy! (No, not that Clippy. This Clippy.) http://bennettfeely.com/clippy/
+			// 	-webkit-clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%);
+			// 	clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%);
+			// }
+
+			
+		}
+
+
+
+
+		/*-------------------------------------------    
+		    Text     
+		-------------------------------------------*/
+
+		// blurb
+
+		&-textBlurb {
+
+			@include dm-u-marginBottom--xxl;
+
+			&--small {
+				@include dm-l-col--50;
+				@include dm-u-paddingRight--m;
+
+				// seasoning
+				min-height: 140px;
+			}
+			
+			&_header {
+				@include dm-u-display--flex;
+
+				// seasoning
+				flex-direction: column-reverse;
+			}
+
+			&_title {
+				@include dm-u-text--m;
+				@include dm-u-leading--m;
+				@include dm-u-font--normal;
+
+				.breveTitleBold-loaded & {
+					font-family: "BreveTitle-Bold";
+				}
+
+				.dm-dp-textBlurb--audio & {
+					&:before {
+						@include dm-u-display--inlineBlock;
+
+						// seasoning
+						content: "";
+						background: transparent url(/i/mic.svg) no-repeat 0 0;
+						width: 16px;
+						height: 14px;
+					}
+				}
+
+				.dm-dp-textBlurb--video & {
+					&:before {
+						@include dm-u-display--inlineBlock;
+
+						// seasoning
+						content: "";
+						background: transparent url(/i/video.svg) no-repeat 0 0;
+						width: 22px;
+						height: 12px;
+					}
+				}	
+
+				.dm-dp-textBlurb--small & {
+					@include dm-u-text--s;
+				}
+			}
+
+			&_badge {
+				@include dm-u-font--sans;
+				@include dm-u-uppercase;
+				@include dm-u-display--inlineBlock;
+				@include dm-u-marginBottom--xs;
+
+				// seasoning
+				background: $turbo;
+				padding: 4px;
+
+				.firmeBook-loaded & {
+					@include dm-u-text--10;
+					@include dm-u-paddingLeft--xs;
+					@include dm-u-paddingRight--xs;
+				}
+			}
+
+			&_time,
+			&_location,
+			&_source,
+			&_type {
+				@include dm-u-text--xs;
+				@include dm-u-font--sans;
+				@include dm-u-uppercase;
+				@include dm-u-marginBottom--xs;
+
+				// seasoning 
+				color: $cloudy;
+
+				.firmeBook-loaded & {
+					@include dm-u-text--12;
+				}
+			}
+
+			&_source {
+				text-transform: none;
+				letter-spacing: 0;
+				.firmeBook-loaded & {
+					@include dm-u-text--14;
+				}
+			}
+
+			&_dek {
+				@include dm-u-text--s;
+				@include dm-u-marginBottom--xs;
+			}
+
+			&_tags {
+
+				@include dm-u-marginLeft--0;
+				@include dm-u-leading--s;
+
+				&_item {
+					@include dm-u-text--xs;
+					@include dm-u-display--inline;
+					@include dm-u-text--xs;
+					@include dm-u-font--sans;
+					@include dm-u-uppercase;
+					@include dm-u-marginRight--s;
+
+					// seasoning
+					color: $silverRust;
+
+					.firmeBook-loaded & {
+						@include dm-u-text--12;
+					}
+
+					&:before {
+						content: "#";
+						margin-right: 0.1em;
+					}
+				}
+				
+			}
+
+		}	
+
+
+
+		// quote
+
+		&-quote {
+			@include dm-u-marginBottom--xl;
+			//@include dm-u-paddingRight--m;
+
+			p {
+				@include dm-u-text--20;
+				@include dm-u-leading--m;
+
+				// seasoning
+				//font-size: 14px;
+				//font-size: 1.4rem;
+				text-indent: -0.4em;
+				letter-spacing: -0.2px;
+
+				&:before {
+					content: "“";
+				}
+
+				&:after {
+					content: "”";
+				}
+			}
+
+			&_attribution {
+				@include dm-u-font--sans;
+				@include dm-u-fontStyle--normal;
+				@include dm-u-text--s;
+				
+				// seasoning
+				// font-size: 11px;
+				// font-size: 1.1rem;
+				//margin-top: -1em;
+
+				&:before {
+					// seasoning
+					content: "—";
+					margin-left: -0.4em;
+				}
+
+				strong {
+
+					.firmeBold-loaded & {
+						font-family: "Firme-Bold";
+					}
+
+				}
+
+				cite {
+
+					.firmeBook-loaded & {
+						font-family: "Firme-Book";
+					}
+
+				}
+			}
+
+		}
+
+
+		// article section
+
+		&-asteriskSplit {
+			@include dm-u-marginTop--xxl;
+
+			p:first-child:before {
+				@include dm-u-display--block;
+				@include dm-u-align--center;
+				@include dm-u-marginBottom--l;
+				@include dm-u-text--m;
+
+				// seasoning
+				content: "\273c";
+				color: $cloudy;
+			}
+		}	
+
+
+		// anchor links 
+
+		&-anchorLink {
+			color: $cloudy;
+
+			&:hover {
+				color: #000;
+			}
+		}
+
+
+		// see all
+
+		&-seeAll {
+			@include dm-u-font--sans;
+
+			.firmeBook-loaded & {
+				@include dm-u-text--m;
+			}
+
+			
+
+			&_link {
+				@include dm-u-bg--none;
+				@include dm-u-boxShadow--none;
+
+				// seasoning
+				color: $orange;
+
+				&:after {
+					@include dm-u-marginLeft--xs;
+					@include dm-u-display--inlineBlock;		
+					@include dm-u-pos--relative;
+
+					// seasoning
+
+					content: "";
+					width: 30px;
+					height: 2px;
+					background: $sandstone;
+					top: -0.2em;
+				}
+
+				&:hover:after {
+					background: black;
+				}
+			}
+		}
+
+		// opening lines
+
+		&-openingLines {
+			@include dm-u-uppercase;
+
+			// seasoning
+			font-size: 90%;
+		}
+
+
+		// text passage
+
+		&-textPassage {
+
+			h1, 
+			h2 {
+				@include dm-u-text--l;
+			}
+
+			h3 {
+				@include dm-u-text--m;
+			}
+
+			h4 {
+				@include dm-u-text--s;
+			}
+
+			h5,
+			h6 {
+				.firmeBold-loaded & {
+					@include dm-u-text--s;
+					@include dm-u-font--sans;
+
+					// seasoning
+					font-family: "Firme-Bold";
+				}
+			}
+
+			.dm-u-text--xs {
+				@include dm-u-text--xs;
+			}
+
+			.dm-u-text--s {
+				@include dm-u-text--s;
+			}
+
+			.dm-u-text--m {
+				@include dm-u-text--m;
+			}
+
+			.dm-u-text--l {
+				@include dm-u-text--l;
+			}
+
+			.dm-u-text--xl {
+				@include dm-u-text--xl;
+			}
+
+			.dm-u-text--xxl {
+				@include dm-u-text--xxl;
+			}
+
+			p {
+				@include dm-u-marginBottom--0;
+
+				// seasoning
+				text-indent: 1.5em;
+
+				&:first-child {
+					text-indent: 0;
+				}
+
+				& + h1,
+				& + h2,
+				& + h3,
+				& + h4,
+				& + h5,
+				& + h6,
+				& + img,
+				& + svg {
+					@include dm-u-marginTop--m;
+				}
+			}
+
+			.dm-u-textIndent--0 {
+				@include dm-u-textIndent--0;
+			}
+
+			ul {
+				@include dm-u-bullets--none;
+				@include dm-u-marginLeft--0;
+				@include dm-u-marginTop--s;
+
+				// seasoning
+				font-size: 15px;
+				font-size: 1.5rem;
+
+				li {
+					@include dm-u-marginLeft--s;
+					@include dm-u-marginBottom--xs
+					@include dm-u-pos--relative;
+
+					&:before {
+						@include dm-u-pos--absolute;
+
+						content: "";
+						display: inline-block;
+						width: 0.5rem;
+						height: 0.5rem;
+						background: $wistful;
+						top: 0.8rem;
+						left: -1.4rem;
+
+					}
+					
+				}
+
+			}
+
+			ol {
+				@include dm-u-bullets--none;
+				@include dm-u-marginLeft--0;
+				@include dm-u-marginTop--s;
+
+				// seasoning
+				font-size: 15px;
+				font-size: 1.5rem;
+				counter-reset: section; 
+
+				li {
+					@include dm-u-marginLeft--m;
+					@include dm-u-marginBottom--xs;
+					@include dm-u-pos--relative;
+
+					&:before {
+						@include dm-u-font--sans;
+						@include dm-u-align--right;
+						@include dm-u-pos--absolute;
+						
+						// seasoning
+						counter-increment: section;
+  						content: counter(section);
+  						color: $wistful;
+  						font-size: 12px;
+  						font-size: 1.2rem;
+  						left: -2.3rem;
+  						top: 0.3rem;
+					}
+
+					// Thanks Chris Coyier! https://css-tricks.com/useful-nth-child-recipies/
+					&:nth-child(-n+9):before {
+						content: "0" counter(section);
+					}
+
+				}
+			}
+
+				li {
+
+					p {
+						text-indent: 0;
+					}
+
+				}
+
+			blockquote {
+				@include dm-u-marginTop--m;
+				@include dm-u-marginBottom--m;
+				@include dm-u-paddingLeft--xl;
+				@include dm-u-fontStyle--italic;
+
+				// seasoning
+				background: transparent url(/i/openQuotationMarks.svg) no-repeat 0 0;
+				//background: transparent url('data:image/svg+xml;%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.7 27.4"%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:#ff6407;}%3C/style%3E%3C/defs%3E%3Ctitle%3EopenQuotationMarks%3C/title%3E%3Cpath class="cls-1" d="M6 12.7c5.2 0 9.8 2.4 9.8 7.3a7.39 7.39 0 0 1-7.7 7.4c-5.5 0-8.1-4.5-8.1-8.9 0-8.4 9.4-16.9 12.5-18.5h1zM24.9 12.7c5.2 0 9.8 2.4 9.8 7.3a7.39 7.39 0 0 1-7.7 7.4c-5.5 0-8.1-4.5-8.1-8.9 0-8.4 9.4-16.9 12.5-18.5h1z"/%3E%3C/svg%3E') no-repeat 0 0;
+				background-size: $m * 1px;
+
+				p {
+					@include dm-u-text--m;
+					@include dm-u-marginBottom--s;
+					@include dm-u-leading--m;
+
+					.breveNewsBookItalic-loaded & {
+						@include dm-u-fontStyle--normal;
+
+						// seasoning
+						font-family: "BreveNews-BookItalic";
+					}
+				}
+
+				address {
+					@include dm-u-text--s;	
+					@include dm-u-font--sans;
+					@include dm-u-fontStyle--normal;
+
+					&:before {
+						margin-left: -0.5em;
+						content: "— ";
+						color: $orange;
+					}
+				}
+				
+			}
+
+			.dm-c-codeBlock {
+				@include dm-u-marginTop--s;
+				@include dm-u-marginBottom--m;
+			}
+
+		}
+
+
+		&-lineTo--down {
+
+			&:after {
+				@include dm-u-display--block;
+
+				// seasoning
+				content: "";
+				width: 1px;
+				height: 70px;
+				background: $silverRust;
+				margin: 1em auto -3em;
+			}
+
+		}
+
+
+
+
+
+		/*-------------------------------------------    
+		    Navigation     
+		-------------------------------------------*/
+
+
+		// inlineNav 
+
+		&-inlineNav {
+
+			@include dm-u-bullets--none;
+			@include dm-u-marginLeft--0;
+			//@include dm-u-padding--xs;
+
+			&_item {
+				@include dm-u-display--inlineBlock;
+
+				&:after {
+					@include dm-u-marginLeft--xs;
+					@include dm-u-marginRight--xs;				
+					@include dm-u-font--normal;				
+
+					// seasoning
+					color: $silverRust;
+					content: "/";
+				}
+
+				&:last-child:after {
+					content: "";
+					@include dm-u-margin--0;
+				}
+
+				&--active {
+					@include dm-u-font--bold;
+				}
+
+			}
+
+		}
+
+
+
+		// vertically separated nav
+
+		&-vertSepNav {
+			
+			@include dm-u-bullets--none;	
+			@include dm-u-margin--xs;
+
+			// seasoning
+			border-top: 1px solid $cloudy;
+
+			&--noBorders {
+
+				// seasoning
+				border: none;
+			}
+
+				&_item {
+
+					border-bottom: 1px solid $cloudy;
+
+					a {
+						@include dm-u-bg--none;
+						@include dm-u-display--block;
+						@include dm-u-padding--xs;
+						@include dm-u-paddingLeft--0;
+						@include dm-u-boxShadow--none;
+
+						&:hover {
+							@include dm-u-boxShadow--none;
+							color: $orange;							
+						}
+					}
+
+					mark {
+						@include dm-u-display--block;
+						@include dm-u-padding--xs;
+						@include dm-u-paddingLeft--0;
+					}
+
+					&--active {
+						@include dm-u-font--bold;
+					}
+				}
+
+
+			&_trigger {
+				@include dm-u-text--s;
+				@include dm-u-marginBottom--xs;
+				@include dm-u-move--offscreen;									
+			}
+
+		}
+
+
+
+		&-sepChunk {
+
+			&:before {
+				@include dm-u-display--block;
+				@include dm-u-marginBottom--xl;
+
+				// seasoning
+				content: "";
+				width: 50px;
+				height: 5px;
+				background: $silverRust;
+			}
+
+		}
+
+
+		&-contentBox {
+			@include dm-u-padding--m;
+			@include dm-u-paddingTop--xl;
+
+			// seasoning
+			border: 1px solid $silverRust;
+		}
+
+
+	}
+
+}

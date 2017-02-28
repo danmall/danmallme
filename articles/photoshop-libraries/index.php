@@ -1,1 +1,0 @@
-<?php  header( 'Location: /articles/creative-cloud-libraries/' ) ;  ?>

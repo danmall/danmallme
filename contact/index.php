@@ -1,117 +1,103 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
-<head>
+<head>    
     <title>Contact Dan Mall</title>
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?> 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
-    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/jsReferenceHead.php"); echo "\n"; ?>
+
+    <!-- Thanks Jeremy! https://adactio.com/journal/9881  -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@danmall" />
+    <meta name="twitter:url" property="og:url" content="http://<?php echo $_SERVER['SERVER_NAME']; ?>/contact/" />
+    <meta name="twitter:title" property="og:title" content="Contact Dan Mall" />
+    <meta name="twitter:description" property="og:description" content="Contact Dan Mall" />
+    <meta name="twitter:image" property="og:image" content="http://<?php echo $_SERVER['SERVER_NAME']; ?>/i/dan-headshot.jpg" />
+
 </head>
 
-<body class="contact" id="contact-landing">	
-	
-	<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
-	
-	<div class="wrap">
-	
-	    <section id="content">
 
-	        <div class="main">
+<body class="dm-page--contact dm-page--landing">
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
 
-        	    <header>
-            	    <h1 class="contact-heading">Contact Me</h1>
-            	</header>
-            	
-            	<p>I&rsquo;m all ears. <span class="m-hide">Well, not <em>all</em> ears, because I&rsquo;d probably look something like <a id="all-ears" href="http://www.insidefurniture.com/insidefurniture/images/2008/02/21/all_ears.jpg">this</a>. That would be strange.</span></p>
-            	
-            	<?php if(isset ($_GET['error'])) { ?> 
-            	<div class="error">
-            	    <p>Something seems to have gone wrong. Please try again.</p>
-            	</div><!-- .error -->
-            	<?php } ?>
-                
-                <form id="contact-form" method="post" action="/contact/script/">
-                    
-                    <script>
-                	document.write('<div id="all-ears-container"><img src="/i/all-ears.jpg" /></div>');
-                	</script>
-                    
-                    <div>
-                        <label for="contact-name">Name <em>(required)</em></label>
-                        <input type="text" id="contact-name" name="contact-name" required />
-                    </div>
-                    
-                    <div>
-                        <label for="contact-email">Email Address <em>(required)</em></label>
-                        <input type="text" id="contact-email" name="contact-email" required />
-                    </div>
-            
-                    <div>
-                        <label for="contact-website">Website</label>
-                        <input type="text" id="contact-website" name="contact-website" value="http://" />
-                    </div>
-                    
-                    <div>
-                        <label for="contact-subject">Subject <em>(required)</em></label>
-                        <select id="contact-subject" name="contact-subject" required>
-                            <option value="">Please select a subject&hellip;</option>
-                			<option value="You&rsquo;d be perfect for a project I have!">You&rsquo;d be perfect for a project I have!</option>
-                			<option value="I&rsquo;d like you to write about&hellip;">I&rsquo;d like you to write about&hellip;</option>
-                			<option value="I&rsquo;d like you to speak at my conference/school/company">I&rsquo;d like you to speak at my conference/school/company</option>
-                			<option value="I&rsquo;m having a problem viewing your site">I&rsquo;m having a problem viewing your site</option>
-                			<option value="Just saying hello">Just saying hello</option>
-                			<option value="Other">Other</option>
-                        </select>
-                    </div>
+    <script>
+        document.write('<div class="dm-js-pageShield"></div>');
+    </script>
 
-                    <div>
-                        <label for="contact-message">Comment <em>(required)</em></label>
-                        <textarea id="contact-message" name="contact-message" cols="70" rows="10" required></textarea>
-                    </div>
-                    
-                    <div>
-                        <label for="contact-test">Prove you&rsquo;re human: what color is grass? <em>(required)</em></label>
-                        <input type="text" id="contact-test" name="contact-test" required />
-                    </div>
+    <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 
-                    <div class="submit">
-                        <input class="button" type="submit" value="Show your love" />
-                    </div>
+    <header class="dm-c-pageHeader" role="banner">
 
-                </form>
+        <h1 class="dm-c-pageHeader_title">
+            Contact
+        </h1>
 
-            	
-            	
-            </div><!-- .main -->
-            
-            
-            <div class="sub">
-                
-                <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/carbon.php"); echo "\n"; ?>
-                
-                <header>
-                    <h1 class="sidebar-heading">Find me elsewhere</h1>
-                </header>
-                
-                <ul class="no-marker">
-                    <li id="twitter"><a href="http://twitter.com/danielmall">Twitter</a></li>
-                    <li id="dribbble"><a href="http://dribbble.com/players/danielmall">Dribbble</a></li>
-                    <li id="flickr"><a href="http://flickr.com/people/danielmall">Flickr</a></li>
-                    <?php /* ?><li id="cargo"><a href="http://cargocollective.com/danielmall">Cargo Collective</a></li>
-                    <li id="forrst"><a href="http://forrst.com/people/danielmall">Forrst</a></li><?php */ ?>
-                    <li id="linkedin"><a href="http://www.linkedin.com/in/danielmall">LinkedIn</a></li>
-                    <li id="readernaut"><a href="http://readernaut.com/danielmall/">Readernaut</a></li>
+        <?php /* ?>
+        <nav role="navigation">
+            <ul class="dm-dp-inlineNav dm-u-font--sans dm-u-text--s">
+                <li class="dm-dp-inlineNav_item dm-dp-inlineNav_item--active">
+                    <mark>On this site</mark>
+                </li>
+                <li class="dm-dp-inlineNav_item">
+                    <a href="#elsewhere">Elsewhere</a>
+                </li>
+            </ul>
+        </nav><!-- .page-nav -->
+        <?php */ ?>
+
+    </header><!-- .page-header -->
+
+    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
+
+    <main role="main" class="dm-c-articlesList dm-u-padding--m">
+
+        <p class="dm-u-text--m">The best ways to get in touch with me are to send a direct message to <a href="http://twitter.com/danmall">@danmall</a> on Twitter or to email <a href="mailto:dan@danmall.me">dan@danmall.me</a>.</p>
+
+        <div class="dm-c-contactChunk">
+
+            <h2 class="dm-u-text--s">To inquire about agency coaching</h2>
+
+            <p class="dm-u-text--14">Please include information about:</p>
+            <ul class="dm-u-text--14">
+                <li>How many people you employ</li>
+                <li>Your annual revenue</li>
+                <li>What goals you&rsquo;d like help meeting (increased revenue, more qualified leads, etc.)</li>
+            </ul>
+
+        </div><!-- .dm-c-contactChunk -->
+
+
+        <div class="dm-u-clearfix">
+
+            <div class="dm-c-contactChunk">
+
+                <h2 class="dm-u-text--s">To have me speak at your event</h2>
+
+                <p class="dm-u-text--14">Please include information about:</p>
+                <ul class="dm-u-text--14">
+                    <li>The date(s) of your event</li>
+                    <li>Your honorarium for speakers</li>
+                    <li>What topics you&rsquo;d like for me to speak about</li>
+                    <li>
+                        Information about your audience
+                        <ul class="dm-u-text--12">
+                            <li>How many people are you expecting?</li>
+                            <li>What is their background?</li>
+                            <li>What is their experience level with the topics being presented?</li>
+                        </ul>
+                    </li>
                 </ul>
-                
-                <small>Icons by the illustrious <a href="http://komodomedia.com/">Rogie King</a></small>
-                
-            </div><!-- .sub -->
-	
-	
-    		<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/footer.php"); echo "\n"; ?>
-	
-	
-    	</section><!-- #content -->
-	
-	</div><!-- .wrap -->
-	
-<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/close.php"); echo "\n"; ?>
+
+            </div><!-- .dm-c-contactChunk -->
+
+        </div><!-- .dm-u-clearfix -->
+
+
+
+    </main>
+
+    
+<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/footer.php"); echo "\n"; ?>    
+
+<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/close.php"); echo "\n"; ?>    

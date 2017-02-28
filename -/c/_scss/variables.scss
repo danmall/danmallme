@@ -1,25 +1,59 @@
-/* fonts */
-$serifStack: 'Stag Web', Georgia, 'Times New Roman', serif;
-$sansStack: 'Trebuchet MS', Arial, sans-serif;
+/*-------------------------------------------    
+    Definitions: Colors     
+-------------------------------------------*/
+
+$orange				:		#ff6407;
+$green				:		#6ed13d;
+$purple				:		#a654d1;
+$alabaster			:		#f8f7f7;
+$ecru				:		#f6f4e8;
+$silverRust			:		#cac2b8;
+$cloudy				:		#aea89e;
+$sandstone			:		#796b5e;
+$armadillo			:		#3e3730;
+$shipGray			:		#343139;
+$turbo				:		#ffe400;
+$wistful			:		#a1acd0;
+$cornflowerBlue		:		#68a3e4;
 
 
-/* colors */
-$green: #73ae08; 
-$blackSubstitute: #231f20;
+
+/*-------------------------------------------    
+    Definitions: Fonts     
+-------------------------------------------*/
+
+$serifStack			:		Georgia, 'Times New Roman', serif;
+$wfSerifStack		:		'BreveNews-Book', Georgia, 'Times New Roman', serif;
+$sansSerifStack		:		Helvetica, Arial, sans-serif;
+$wfSansSerifStack	:		'Firme-Book', Helvetica, Arial, sans-serif;
 
 
-/* measurements */
-$testBreakpoint: 800px;
-$mediumPx: 481px;
-$largePx: 960px;
-$xlPx: 1280px;
-$homeRowsWidth: 500px;
-$originalLayout: 800px;
+
+/*-------------------------------------------    
+    Definitions: Units     
+-------------------------------------------*/
+
+$spacing			:		8;				// https://spec.fm/specifics/8-pt-grid
+
+$xs 				:		$spacing;
+$s 					:		$spacing * 2;
+$m 					:		$spacing * 3;
+$l 					:		$spacing * 4;
+$xl 				:		$spacing * 5;
+$xxl 				:		$spacing * 6;
 
 
-/* assignments */
-$fontStack: $serifStack;
-$navLinkHover: $green;
+/*-------------------------------------------    
+    Double assignments     
+-------------------------------------------*/
+
+// colors
+
+$mainActiveColor	:		$orange;
+$textColor			:		$shipGray;
+$codeColor			:		$cornflowerBlue;
 
 
-$becca: #639;
+//typography
+
+$mainFontStack		: 		$serifStack;

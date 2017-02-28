@@ -1,72 +1,19 @@
-<div id="masthead-wrap" class="masthead-wrap-active">
-        
-    <section id="masthead" role="banner" class="clearfix">
-        <header class="masthead-inner clearfix">
-            <?php /* if($_SERVER['REQUEST_URI'] == '/') { ?>            
-            <img src="/-/s/dmall-website-logo5.svg" class="logo-new" />\
-            <?php } else { ?>
-            <h1 class="logo"><a class="phark phark-link logo-link" href="/">Daniel Mall</a></h1>
-            <?php } */ ?>
+<header class="dm-c-siteHeader dm-u-clearfix dm-u-marginBottom--0 dm-u-paddingBottom--0">
 
-            <?php if($page == 'home') { ?>            
-            <img src="/-/s/dmall-website-logo5.svg" class="logo-new" />
-            <?php } else { ?>
-            <h1 class="logo"><a class="phark phark-link logo-link" href="/">Daniel Mall</a></h1>
-            <?php } ?>
+	<div class="dm-l-col--33 dm-u-padding--m dm-u-paddingBottom--0 dm-u-marginBottom--0">
 
-        	<nav id="main-nav" class="main-nav">
-            	<ul class="no-marker">
-            	    <?php if(strstr($_SERVER['REQUEST_URI'], '/work/')) { ?>
-            	        <?php if($_SERVER['REQUEST_URI'] == '/work/') { ?>  
-            	        <li class="main-nav-item"><mark>Work</mark></li>        	        
-            	        <?php } else { ?>
-            	        <li class="main-nav-item current"><a href="/work/">Work</a></li>
-            	        <?php } ?>
-            		<?php } else { ?>
-            		<li class="main-nav-item"><a href="/work/">Work</a></li>
-            		<?php } ?>
-            		
-            		<?php if(strstr($_SERVER['REQUEST_URI'], '/articles/')) { ?>
-            	        <?php if($_SERVER['REQUEST_URI'] == '/articles/') { ?>
-            		    <li class="main-nav-item"><mark>Articles</mark></li>
-            		    <?php } else { ?>
-            		    <li class="main-nav-item current"><a href="/articles/">Articles</a></li>
-            		    <?php } ?>       		
-            		<?php } else { ?>
-            		<li class="main-nav-item"><a href="/articles/">Articles</a></li>
-            		<?php } ?>        		
+		<h1 class="dm-c-siteLogo">
+			<a href="/" class="dm-u-bg--none dm-u-boxShadow--none">
+				<?php require($_SERVER["DOCUMENT_ROOT"]."/i/d.svg"); echo "\n"; ?>
+			</a>
+		</h1>
 
-            		<?php /* ?><li class="main-nav-item"><a href="http://links.danielmall.com/">Links</a></li><?php */?>
-            		
-            		<?php if($_SERVER['REQUEST_URI'] == '/about/') { ?>
-            		<li class="main-nav-item"><mark>About</mark></li>
-            		<?php } else { ?>
-            		<li class="main-nav-item"><a href="/about/">About</a></li>
-            		<?php } ?>
-            		
-            		<?php if($_SERVER['REQUEST_URI'] == '/contact/') { ?>
-            		<li class="main-nav-item"><mark>Contact</mark></li>
-            		<?php } else { ?>
-            		<li class="main-nav-item"><a href="/contact/">Contact</a></li>
-            		<?php } ?>
-            	</ul>
-            </nav><!-- .main-nav -->
+	</div>
 
-        </header><!-- .masthead-inner -->
+	<div class="dm-l-col--66 dm-u-padding--m dm-u-paddingBottom--0 dm-u-paddingLeft--0">
 
-        <?php /* ?>
-    	<form id="site-search" action="#" method="post">
+		<?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/nav.php"); echo "\n"; ?>
 
-    		<p>
-    			<label for="site-search-box">Search this site</label>
-    			<input type="text" class="filled" id="site-search-box" value="Semantic Flash" />
-    		</p>
-    		<p class="submit"><input type="image" src="/i/widgets/search.gif" alt="Search" /></p>
+	</div>
 
-    	</form><php */ ?>
-
-
-    </section><!-- #masthead -->
-    
-
-</div><!-- #masthead-wrap -->
+</header>

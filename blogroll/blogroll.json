@@ -1,0 +1,604 @@
+[
+	{
+		"title"		: 	"Evan Anthony",
+		"slug"		:	"http://evananthony.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Joshua Blankenship",
+		"slug"		:	"http://joshuablankenship.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Benjamin Bojko",
+		"slug"		:	"http://benjaminbojko.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Mark Boulton",
+		"slug"		:	"http://markboulton.co.uk/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Cennydd Bowles",
+		"slug"		:	"https://www.cennydd.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Zander Brimijoin",
+		"slug"		:	"http://redpaperheart.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Jennifer Brook",
+		"slug"		:	"http://jenniferbrook.co/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Andy Budd",
+		"slug"		:	"http://www.andybudd.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Chris Cashdollar",
+		"slug"		:	"http://www.chriscashdollar.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Dave Chau",
+		"slug"		:	"http://holyloly.blogspot.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Frank Chimero",
+		"slug"		:	"http://www.frankchimero.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Josh Clark",
+		"slug"		:	"https://bigmedium.com/",
+		"type"		:	"Strategist"
+	},
+	{
+		"title"		: 	"Andy Clarke",
+		"slug"		:	"https://stuffandnonsense.co.uk/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Matt Cook",
+		"slug"		:	"http://www.mattecook.com/",
+		"type"		:	"Producer"
+	},
+	{
+		"title"		: 	"Scott Cook",
+		"slug"		:	"http://scottcookdesign.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Kevin Cornell",
+		"slug"		:	"http://www.bearskinrug.co.uk/",
+		"type"		:	"Illustrator"
+	},
+	{
+		"title"		: 	"Chris Coyier",
+		"slug"		:	"http://chriscoyier.net/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Ian Coyle",
+		"slug"		:	"http://www.iancoyle.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Geof Crowl",
+		"slug"		:	"http://www.geofcrowl.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Liz Danzico",
+		"slug"		:	"http://bobulate.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Dave Dawson",
+		"slug"		:	"http://www.iamdavedawson.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Anna Debenham",
+		"slug"		:	"http://www.maban.co.uk/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Dan DeLauro",
+		"slug"		:	"http://dandelauro.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Sarah Drasner",
+		"slug"		:	"http://sarahdrasnerdesign.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Ryan Essmaker",
+		"slug"		:	"http://ryan.is/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Tina Essmaker",
+		"slug"		:	"http://tina.is/",
+		"type"		:	"Writer"
+	},
+	{
+		"title"		: 	"Derek Featherstone",
+		"slug"		:	"http://simplyaccessible.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Jacob Fentress",
+		"slug"		:	"http://jacobfentress.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Meagan Fisher",
+		"slug"		:	"http://owltastic.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Abby Fretz",
+		"slug"		:	"http://abbyfretz.com/",
+		"type"		:	"Producer"
+	},
+	{
+		"title"		: 	"Brad Frost",
+		"slug"		:	"http://bradfrost.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Ian Frost",
+		"slug"		:	"http://ianfrostweather.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Dave Gray",
+		"slug"		:	"http://www.xplaner.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Claudio Guglieri",
+		"slug"		:	"http://www.guglieri.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Aaron Gustafson",
+		"slug"		:	"https://www.aaron-gustafson.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Jonnie Hallman",
+		"slug"		:	"http://destroytoday.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Kristina Halvorsen",
+		"slug"		:	"http://braintraffic.com/",
+		"type"		:	"Strategist"
+	},
+	{
+		"title"		: 	"Naz Hamid",
+		"slug"		:	"http://nazhamid.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Seth Hannah",
+		"slug"		:	"http://sethhannah.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"G. Jason Head",
+		"slug"		:	"http://www.jasonhead.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Val Head",
+		"slug"		:	"http://valhead.com/",
+		"type"		:	"Animator"
+	},
+	{
+		"title"		: 	"Marc Hemeon",
+		"slug"		:	"http://hemeon.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Jessica Hische",
+		"slug"		:	"http://jessicahische.is/",
+		"type"		:	"Illustrator"
+	},
+	{
+		"title"		: 	"Brian Hoff",
+		"slug"		:	"http://www.brianhoffdesign.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Kevin M. Hoffman",
+		"slug"		:	"http://www.kevinmhoffman.com/",
+		"type"		:	"Strategist"
+	},
+	{
+		"title"		: 	"Ayaka Ito",
+		"slug"		:	"http://www.ayakaito.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Bryn Jackson",
+		"slug"		:	"https://bryn.io/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Patrick Johnson",
+		"slug"		:	"http://pbj.me/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Robert Jolly",
+		"slug"		:	"https://jollypm.com/",
+		"type"		:	"Project Manager"
+	},
+	{
+		"title"		: 	"Keegan Jones",
+		"slug"		:	"http://keeg.co/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Nick Jones",
+		"slug"		:	"http://www.narrowdesign.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Tim Kadlec",
+		"slug"		:	"https://timkadlec.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Jeremy Keith",
+		"slug"		:	"https://adactio.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Duane King",
+		"slug"		:	"http://kingduane.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Rogie King",
+		"slug"		:	"http://rog.ie/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Erin Kissane",
+		"slug"		:	"http://incisive.nu/",
+		"type"		:	"Writer"
+	},
+	{
+		"title"		: 	"Cameron Koczon",
+		"slug"		:	"http://fictivecameron.com/",
+		"type"		:	"Strategist"
+	},
+	{
+		"title"		: 	"Jamie Kosoy",
+		"slug"		:	"http://arbitrary.io/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Braden Kowitz",
+		"slug"		:	"http://kowitz.co/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Bryan Le",
+		"slug"		:	"http://shapelayer.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Ahava Leibtag",
+		"slug"		:	"http://ahamediagroup.com/",
+		"type"		:	"Strategist"
+	},
+	{
+		"title"		: 	"Tal Leming",
+		"slug"		:	"https://typesupply.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Mark Likosky",
+		"slug"		:	"http://www.marklikosky.com/",
+		"type"		:	"Photographer"
+	},
+	{
+		"title"		: 	"Brian Lovin",
+		"slug"		:	"http://www.brianlovin.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Josh Luciano",
+		"slug"		:	"http://joshluciano.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Jenn Lukas",
+		"slug"		:	"http://jennlukas.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Ethan Marcotte",
+		"slug"		:	"https://ethanmarcotte.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Patrick Marsceill",
+		"slug"		:	"http://patrickmarsceill.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Jason Santa Maria",
+		"slug"		:	"http://jasonsantamaria.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Lisa Maria Martin",
+		"slug"		:	"http://thefutureislikepie.com/",
+		"type"		:	"Strategist"
+	},
+	{
+		"title"		: 	"Karen McGrane",
+		"slug"		:	"https://karenmcgrane.com/",
+		"type"		:	"Strategist"
+	},
+	{
+		"title"		: 	"Felipe Memoria",
+		"slug"		:	"http://www.fmemoria.com.br/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Rina Miele",
+		"slug"		:	"http://www.honeydesign.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Shane Mielke",
+		"slug"		:	"http://www.shanemielke.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Wilson Miner",
+		"slug"		:	"http://wilsonminer.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Cameron Moll",
+		"slug"		:	"http://cameronmoll.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Jonathan Moore",
+		"slug"		:	"http://jonathanmoore.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Stacey Mulcahy",
+		"slug"		:	"http://thebitchwhocodes.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Rachel Nabors",
+		"slug"		:	"http://rachelnabors.com/",
+		"type"		:	"Animator"
+	},
+	{
+		"title"		: 	"Conor O&rsquo;Hollaren",
+		"slug"		:	"https://www.dotconor.com/",
+		"type"		:	"Strategist"
+	},
+	{
+		"title"		: 	"Able Parris",
+		"slug"		:	"http://www.ableparris.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Heydon Pickering",
+		"slug"		:	"http://www.heydonworks.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Victor Piniero",
+		"slug"		:	"http://victorpineiro.com/",
+		"type"		:	"Strategist"
+	},
+	{
+		"title"		: 	"Brijan Powell",
+		"slug"		:	"http://www.wontfeint.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Jay Quercia",
+		"slug"		:	"http://www.jayquercia.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Jarrod Riddle",
+		"slug"		:	"http://www.lifeislottery.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Joe Rinaldi",
+		"slug"		:	"http://www.thatwasclutch.com/",
+		"type"		:	"Strategist"
+	},
+	{
+		"title"		: 	"Harry Roberts",
+		"slug"		:	"https://csswizardry.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Eli Rousso",
+		"slug"		:	"http://elirousso.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Dan Rubin",
+		"slug"		:	"http://danrubin.is/",
+		"type"		:	"Photographer"
+	},
+	{
+		"title"		: 	"Dave Rupert",
+		"slug"		:	"http://daverupert.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Greg Sarault",
+		"slug"		:	"http://gregsarault.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Daniel Scheibel",
+		"slug"		:	"http://redpaperheart.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Jon Schlossberg",
+		"slug"		:	"http://www.jschlossberg.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Yaron Schoen",
+		"slug"		:	"http://yaronschoen.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Dustin Senos",
+		"slug"		:	"http://dustinsenos.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Kevin Sharon",
+		"slug"		:	"http://kevinsharon.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Heather Shaw",
+		"slug"		:	"http://heathershaw.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Dave Shea",
+		"slug"		:	"http://daveshea.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Na&iuml;m Sheriff",
+		"slug"		:	"http://naimsheriff.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Chris Shiflett",
+		"slug"		:	"http://shiflett.org/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Matt D. Smith",
+		"slug"		:	"http://mds.is/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Matthew Smith",
+		"slug"		:	"http://matthewsmith.cc/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Dave Soderberg",
+		"slug"		:	"http://davesoderberg.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Sara Soueidan",
+		"slug"		:	"https://sarasoueidan.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Jared Spool",
+		"slug"		:	"https://www.uie.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Jonathan Stark",
+		"slug"		:	"https://jonathanstark.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Kyle Steed",
+		"slug"		:	"http://www.kylesteed.com/",
+		"type"		:	"Illustrator"
+	},
+	{
+		"title"		: 	"Greg Storey",
+		"slug"		:	"http://www.airbagindustries.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Jon Suh",
+		"slug"		:	"https://jonsuh.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Nicole Sullivan",
+		"slug"		:	"http://www.stubbornella.org/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Mary van Ogtrop",
+		"slug"		:	"http://www.maryvanogtrop.com/",
+		"type"		:	"Writer"
+	},
+	{
+		"title"		: 	"Khoi Vinh",
+		"slug"		:	"https://www.subtraction.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Allison Wagner",
+		"slug"		:	"http://alliwagner.com/",
+		"type"		:	"Developer"
+	},
+	{
+		"title"		: 	"Trent Walton",
+		"slug"		:	"https://twitter.com/trentwalton",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Seth Weisfeld",
+		"slug"		:	"http://www.seth-weisfeld.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Rob Weychert",
+		"slug"		:	"http://robweychert.com/",
+		"type"		:	"Designer"
+	},
+	{
+		"title"		: 	"Carolyn Wood",
+		"slug"		:	"http://pixelingo.com/",
+		"type"		:	"Writer"
+	},
+	{
+		"title"		: 	"Jeffrey Zeldman",
+		"slug"		:	"http://www.zeldman.com/",
+		"type"		:	"Designer"
+	}
+
+]
+
+
+
+
+
+

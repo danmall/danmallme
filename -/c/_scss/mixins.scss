@@ -1,0 +1,734 @@
+/*
+*************************************************
+
+DANMALL.ME
+Mixins
+
+Created by the epic SuperFriendly team.
+http://superfriend.ly/
+
+*************************************************
+*/
+
+/*-------------------------------------------    
+    Text
+-------------------------------------------*/
+
+
+@mixin dm-u-text--xs {
+	font-size: $xs + px;
+	font-size: $xs/10 + rem;
+}
+
+@mixin dm-u-text--s {
+	font-size: $s + px;
+	font-size: $s/10 + rem;
+}
+
+@mixin dm-u-text--m {
+	font-size: $m + px;
+	font-size: $m/10 + rem;
+}
+
+@mixin dm-u-text--l {
+	font-size: $l + px;
+	font-size: $l/10 + rem;
+}
+
+@mixin dm-u-text--xl {
+	font-size: $xl + px;
+	font-size: $xl/10 + rem;
+}
+
+@mixin dm-u-text--xxl {
+	font-size: $xxl + px;
+	font-size: $xxl/10 + rem;
+}
+
+@mixin dm-u-text--10 {
+	font-size: 10px;
+	font-size: 1rem;
+}
+
+@mixin dm-u-text--12 {
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
+@mixin dm-u-text--14 {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+@mixin dm-u-text--20 {
+	font-size: 20px;
+	font-size: 2rem;
+}
+
+
+// leading
+
+@mixin dm-u-leading--xs {
+	line-height: 1;
+}
+
+@mixin dm-u-leading--s {
+	line-height: 1.2;
+}
+
+@mixin dm-u-leading--m {
+	line-height: 1.4;
+}
+
+@mixin dm-u-leading--l {
+	line-height: 1.6;
+}
+
+@mixin dm-u-leading--xl {
+	line-height: 1.8;
+}
+
+@mixin dm-u-leading--xxl {
+	line-height: 2;
+}
+
+
+// font style
+
+@mixin dm-u-font--sans {
+	font-family: $sansSerifStack;
+	font-family: $wfSansSerifStack;
+}
+
+@mixin dm-u-font--serif {
+	font-family: $serifStack;
+	font-family: $wfSerifStack;
+}
+
+
+
+// font weight
+
+@mixin dm-u-font--bold {
+	font-weight: bold;
+}
+
+@mixin dm-u-font--normal {
+	font-weight: normal;
+}
+
+@mixin dm-u-font--italic {
+	font-style: italic;
+}
+
+@mixin dm-u-fontStyle--italic {
+	font-style: italic;
+}
+
+@mixin dm-u-fontStyle--normal {
+	font-style: normal;
+}
+
+
+
+// bullets
+
+@mixin dm-u-bullets {
+	list-style: disc;	
+}
+
+@mixin dm-u-bullets--none {
+	list-style: none;	
+}
+
+
+// other text styles
+
+@mixin dm-u-uppercase {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+@mixin dm-u-letterspace--in {
+	letter-spacing: -1px;
+}
+
+
+
+/*-------------------------------------------    
+    Alignments
+-------------------------------------------*/
+
+@mixin dm-u-align--left {
+	text-align: left;
+}
+
+@mixin dm-u-align--right {
+	text-align: right;
+}
+
+@mixin dm-u-align--center {
+	text-align: center;
+}
+
+
+
+
+/*-------------------------------------------    
+    Margins     
+-------------------------------------------*/
+
+// margin shorthand
+
+@mixin dm-u-margin--0 {
+	margin: 0;
+}
+
+@mixin dm-u-margin--xs {
+	margin: $xs + px;
+}
+
+@mixin dm-u-margin--s {
+	margin: $s + px;
+}
+
+@mixin dm-u-margin--m {
+	margin: $m + px;
+}
+
+@mixin dm-u-margin--l {
+	margin: $l + px;
+}
+
+@mixin dm-u-margin--xl {
+	margin: $xl + px;
+}
+
+@mixin dm-u-margin--xxl {
+	margin: $xxl + px;
+}
+
+
+
+// marginTop
+
+@mixin dm-u-marginTop--0 {
+	margin-top: 0;
+}
+
+@mixin dm-u-marginTop--xs {
+	margin-top: $xs + px;
+}
+
+@mixin dm-u-marginTop--s {
+	margin-top: $s + px;
+}
+
+@mixin dm-u-marginTop--m {
+	margin-top: $m + px;
+}
+
+@mixin dm-u-marginTop--l {
+	margin-top: $l + px;
+}
+
+@mixin dm-u-marginTop--xl {
+	margin-top: $xl + px;
+}
+
+@mixin dm-u-marginTop--xxl {
+	margin-top: $xxl + px;
+}
+
+
+// marginRight
+
+@mixin dm-u-marginRight--0 {
+	margin-right: 0;
+}
+
+@mixin dm-u-marginRight--xs {
+	margin-right: $xs + px;
+}
+
+@mixin dm-u-marginRight--s {
+	margin-right: $s + px;
+}
+
+@mixin dm-u-marginRight--m {
+	margin-right: $m + px;
+}
+
+@mixin dm-u-marginRight--l {
+	margin-right: $l + px;
+}
+
+@mixin dm-u-marginRight--xl {
+	margin-right: $xl + px;
+}
+
+@mixin dm-u-marginRight--xxl {
+	margin-right: $xxl + px;
+}
+
+
+// marginBottom
+
+@mixin dm-u-marginBottom--0 {
+	margin-bottom: 0;
+}
+
+@mixin dm-u-marginBottom--xs {
+	margin-bottom: $xs + px;
+}
+
+@mixin dm-u-marginBottom--s {
+	margin-bottom: $s + px;
+}
+
+@mixin dm-u-marginBottom--m {
+	margin-bottom: $m + px;
+}
+
+@mixin dm-u-marginBottom--l {
+	margin-bottom: $l + px;
+}
+
+@mixin dm-u-marginBottom--xl {
+	margin-bottom: $xl + px;
+}
+
+@mixin dm-u-marginBottom--xxl {
+	margin-bottom: $xxl + px;
+}
+
+
+
+// marginLeft
+
+@mixin dm-u-marginLeft--0 {
+	margin-left: 0;
+}
+
+@mixin dm-u-marginLeft--xs {
+	margin-left: $xs + px;
+}
+
+@mixin dm-u-marginLeft--s {
+	margin-left: $s + px;
+}
+
+@mixin dm-u-marginLeft--m {
+	margin-left: $m + px;
+}
+
+@mixin dm-u-marginLeft--l {
+	margin-left: $l + px;
+}
+
+@mixin dm-u-marginLeft--xl {
+	margin-left: $xl + px;
+}
+
+@mixin dm-u-marginLeft--xxl {
+	margin-left: $xxl + px;
+}
+
+
+
+
+/*-------------------------------------------    
+    Paddings     
+-------------------------------------------*/
+
+// padding shorthand
+
+@mixin dm-u-padding--0 {
+	padding: 0;
+}
+
+@mixin dm-u-padding--xs {
+	padding: $xs + px;
+}
+
+@mixin dm-u-padding--s {
+	padding: $s + px;
+}
+
+@mixin dm-u-padding--m {
+	padding: $m + px;
+}
+
+@mixin dm-u-padding--l {
+	padding: $l + px;
+}
+
+@mixin dm-u-padding--xl {
+	padding: $xl + px;
+}
+
+@mixin dm-u-padding--xxl {
+	padding: $xxl + px;
+}
+
+
+
+// paddingTop
+
+@mixin dm-u-paddingTop--0 {
+	padding-top: 0;
+}
+
+@mixin dm-u-paddingTop--xs {
+	padding-top: $xs + px;
+}
+
+@mixin dm-u-paddingTop--s {
+	padding-top: $s + px;
+}
+
+@mixin dm-u-paddingTop--m {
+	padding-top: $m + px;
+}
+
+@mixin dm-u-paddingTop--l {
+	padding-top: $l + px;
+}
+
+@mixin dm-u-paddingTop--xl {
+	padding-top: $xl + px;
+}
+
+@mixin dm-u-paddingTop--xxl {
+	padding-top: $xxl + px;
+}
+
+
+// paddingRight
+
+@mixin dm-u-paddingRight--0 {
+	padding-right: 0;
+}
+
+@mixin dm-u-paddingRight--xs {
+	padding-right: $xs + px;
+}
+
+@mixin dm-u-paddingRight--s {
+	padding-right: $s + px;
+}
+
+@mixin dm-u-paddingRight--m {
+	padding-right: $m + px;
+}
+
+@mixin dm-u-paddingRight--l {
+	padding-right: $l + px;
+}
+
+@mixin dm-u-paddingRight--xl {
+	padding-right: $xl + px;
+}
+
+@mixin dm-u-paddingRight--xxl {
+	padding-right: $xxl + px;
+}
+
+
+// paddingBottom
+
+@mixin dm-u-paddingBottom--0 {
+	padding-bottom: 0;
+}
+
+@mixin dm-u-paddingBottom--xs {
+	padding-bottom: $xs + px;
+}
+
+@mixin dm-u-paddingBottom--s {
+	padding-bottom: $s + px;
+}
+
+@mixin dm-u-paddingBottom--m {
+	padding-bottom: $m + px;
+}
+
+@mixin dm-u-paddingBottom--l {
+	padding-bottom: $l + px;
+}
+
+@mixin dm-u-paddingBottom--xl {
+	padding-bottom: $xl + px;
+}
+
+@mixin dm-u-paddingBottom--xxl {
+	padding-bottom: $xxl + px;
+}
+
+
+
+// paddingLeft
+
+@mixin dm-u-paddingLeft--0 {
+	padding-left: 0;
+}
+
+@mixin dm-u-paddingLeft--xs {
+	padding-left: $xs + px;
+}
+
+@mixin dm-u-paddingLeft--s {
+	padding-left: $s + px;
+}
+
+@mixin dm-u-paddingLeft--m {
+	padding-left: $m + px;
+}
+
+@mixin dm-u-paddingLeft--l {
+	padding-left: $l + px;
+}
+
+@mixin dm-u-paddingLeft--xl {
+	padding-left: $xl + px;
+}
+
+@mixin dm-u-paddingLeft--xxl {
+	padding-left: $xxl + px;
+}
+
+
+/*-------------------------------------------    
+    Indent     
+-------------------------------------------*/
+
+@mixin dm-u-textIndent--0 {
+	text-indent: 0;
+}
+
+
+
+/*-------------------------------------------    
+    Display     
+-------------------------------------------*/
+
+@mixin dm-u-hide {
+	display: none;
+}
+
+@mixin dm-u-show {
+	display: block;
+}
+
+@mixin dm-u-block {
+	display: block;
+}
+
+@mixin dm-u-display--block {
+	display: block;
+}
+
+@mixin dm-u-display--inlineBlock {
+	display: inline-block;
+}
+
+@mixin dm-u-display--inline {
+	display: inline;
+}
+
+@mixin dm-u-display--flex {
+	display: flex;
+}
+
+
+
+
+/*-------------------------------------------    
+    Positioning
+-------------------------------------------*/
+
+@mixin dm-u-pos--absolute {
+	position: absolute;
+}
+
+@mixin dm-u-pos--relative {
+	position: relative;
+}
+
+@mixin dm-u-pos--static {
+	position: static;
+}
+
+@mixin dm-u-pos--fixed {
+	position: fixed;
+}
+
+
+
+/*-------------------------------------------    
+    Moving
+-------------------------------------------*/
+
+@mixin dm-u-move--offscreen {
+	@include dm-u-pos--absolute;
+	@include dm-u-show;
+	left: -99999px;
+}
+
+@mixin dm-u-move--onscreen {
+	@include dm-u-pos--absolute;
+	@include dm-u-show;
+	left: 0;
+}
+
+
+/*-------------------------------------------    
+    Floating & Clearing
+-------------------------------------------*/
+
+@mixin dm-u-float--left {
+	float: left;
+}
+
+@mixin dm-u-float--right {
+	float: right;
+}
+
+@mixin dm-u-float--none {
+	float: none;
+}
+
+@mixin dm-u-clear--left {
+	clear: left;
+}
+
+@mixin dm-u-clear--right {
+	clear: right;
+}
+
+@mixin dm-u-clear--both {
+	clear: both;
+}
+
+
+/* Easy Clearing - http://www.positioniseverything.net/easyclearing.html */ 
+/* 
+@mixin dm-u-clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+*/
+
+
+/*-------------------------------------------    
+    Phark
+-------------------------------------------*/
+
+@mixin dm-u-phark {
+	display: block; 
+	text-indent: -9999px; 
+	background-position: 0 0; 
+	background-repeat: no-repeat; 
+	background-color: transparent;
+}
+
+
+/*-------------------------------------------    
+    Backgrounds
+-------------------------------------------*/
+
+@mixin dm-u-bg--none {
+	background: none;
+}
+
+
+
+/*-------------------------------------------    
+    Box Shadow
+-------------------------------------------*/
+
+@mixin dm-u-boxShadow--none {
+	box-shadow: none;
+}
+
+
+
+/*-------------------------------------------    
+    Widths
+-------------------------------------------*/
+
+@mixin dm-l-width--100 {
+	width: 100%;
+}
+
+@mixin dm-l-width--75 {
+	width: 75%;
+}
+
+@mixin dm-l-width--66 {
+	width: 66.66666666667%;
+}
+
+@mixin dm-l-width--50 {
+	width: 50%;
+}
+
+@mixin dm-l-width--33 {
+	width: 33.333333333333%;
+}
+
+@mixin dm-l-width--25 {
+	width: 25%;
+}
+
+@mixin dm-l-width--20 {
+	width: 20%;
+}
+
+@mixin dm-l-maxWidth--1000 {
+	max-width: 1000px;
+}
+
+
+
+/*-------------------------------------------    
+    Columns
+-------------------------------------------*/
+
+@mixin dm-l-col--100 {
+	@include dm-u-float--left;
+	@include dm-l-width--100;
+}
+
+@mixin dm-l-col--75 {
+	@include dm-u-float--left;
+	@include dm-l-width--75;
+}
+
+@mixin dm-l-col--66 {
+	@include dm-u-float--left;
+	@include dm-l-width--66;
+}
+
+@mixin dm-l-col--50 {
+	@include dm-u-float--left;
+	@include dm-l-width--50;
+}
+
+@mixin dm-l-col--33 {
+	@include dm-u-float--left;
+	@include dm-l-width--33;
+}
+
+@mixin dm-l-col--25 {
+	@include dm-u-float--left;
+	@include dm-l-width--25;
+}
+
+@mixin dm-l-col--20 {
+	@include dm-u-float--left;
+	@include dm-l-width--20;
+}
