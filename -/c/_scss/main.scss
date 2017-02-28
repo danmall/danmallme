@@ -599,6 +599,24 @@ http://superfriend.ly/
 	}
 
 
+	// article image
+
+	&-c-articleImage {
+		@include dm-u-padding--m;
+		@include dm-l-maxWidth--1000;
+
+		@media screen and (min-width: 1020px) {
+			width: 76%;
+		} 
+
+		@media screen and (min-width: 1072px) {
+			@include dm-u-paddingRight--l;
+			padding-left: 5%;
+		} 
+
+	}
+
+
 	// codeBlock
 
 	&-c-codeBlock {
