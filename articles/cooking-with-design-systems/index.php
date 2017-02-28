@@ -225,7 +225,7 @@
 
                 <p>Then, I started to build some &ldquo;move around&rdquo; tools. I&rsquo;m a big fan of how <a href="http://twitter.com/csswizardry">Harry Roberts</a> <a href="http://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/" title="&ldquo;BEMIT: Taking the BEM Naming Convention a Step Further,&rdquo; by Harry Roberts">suggests organizing <abbr title="Cascading Style Sheets">CSS</abbr></a> for maximum maintainability, and I just wrapped a project with <a href="http://twitter.com/brad_frost">Brad Frost</a> and <a href="http://twitter.com/frostyweather">Ian Frost</a> where we used with a similar <a href="http://bradfrost.com/blog/post/css-architecture-for-design-systems/"><abbr>CSS</abbr> architecture</a>. I also wanted to try out the <a href="https://spec.fm/specifics/8-pt-grid">8-point grid</a> that all the kids are raving about.</p>
 
-                <p>I created <a href="#">some variables</a> so that I can change spacing globally if the 8-pt thing doesn&rsquo;t work out.</p>
+                <p>I created <a href="https://github.com/danmall/danielmallcom/blob/master/-/c/_scss/variables.scss">some variables</a> so that I can change spacing globally if the 8-pt thing doesn&rsquo;t work out.</p>
 
                 <pre class="dm-c-codeBlock"><code class="language-scss">
 $spacing            :       8;
@@ -238,7 +238,7 @@ $xl                 :       $spacing * 5;
 $xxl                :       $spacing * 6;
                 </code></pre>
 
-                <p class="dm-u-textIndent--0">Next, <a href="#">some spacing mixins</a>:</p>
+                <p class="dm-u-textIndent--0">Next, some spacing mixins:</p>
 
                 <pre class="dm-c-codeBlock"><code class="language-scss">
 @mixin dm-u-margin--0 {
@@ -275,10 +275,10 @@ $xxl                :       $spacing * 6;
                 <ul>
                     <li><code>dm-</code> is my namespace for the site. (Stands for &ldquo;Dan Mall.&rdquo;)</li>
                     <li><code>u-</code> stands for &ldquo;utility.&rdquo; More on this later.</li>
-                    <li>I made <a href="#">a lot of individual mixins</a> for margins (top, right, bottom, left) and padding. Seems like overkill, but comes in really handy.</li>      
+                    <li>I made <a href="https://github.com/danmall/danielmallcom/blob/master/-/c/_scss/mixins.scss">a lot of individual mixins</a> for margins (top, right, bottom, left) and padding. Seems like overkill, but comes in really handy.</li>      
                 </ul>
 
-                <p>I also duplicated those mixins in a <a href="#"><code>utilities.scss</code></a> file so that I could use them in both <abbr>HTML</abbr> and <abbr>CSS</abbr>:</p>
+                <p>I also duplicated those mixins in a <a href="https://github.com/danmall/danielmallcom/blob/master/-/c/_scss/utilities.scss"><code>utilities.scss</code></a> file so that I could use them in both <abbr>HTML</abbr> and <abbr>CSS</abbr>:</p>
 
                 <pre class="dm-c-codeBlock"><code class="language-scss">
 .dm-u-margin--0 {
@@ -326,13 +326,13 @@ $xxl                :       $spacing * 6;
 &lt;h1 class="dm-u-text--xl dm-u-paddingLeft--m dm-u-marginBottom--l"&gt;Cooking up Design Systems&lt;/h1&gt;
                 </code></pre>
 
-                <p>This style of coding certainly isn&rsquo;t new; many framework like <a href="http://tachyons.io/">Tachyons</a> or <a href="http://johnpolacek.github.io/expressive-css/">Expressive <abbr>CSS</abbr></a> have suggested this for a long time. The biggest criticism of this approach is that it isn&rsquo;t much better than writing inline styles, and you lose a lot of the benefits of the cascade that made <abbr>CSS</abbr> so powerful in the first place. True, at first glance, it doesn&rsquo;t look much different than:</p>
+                <p>This style of coding certainly isn&rsquo;t new; many framework like <a href="http://tachyons.io/">Tachyons</a>, <a href="https://acss.io/">Atomic <abbr>CSS</abbr></a>, or <a href="http://johnpolacek.github.io/expressive-css/">Expressive <abbr>CSS</abbr></a> have suggested this for a long time. The biggest criticism of this approach is that it isn&rsquo;t much better than writing inline styles, and you lose a lot of the benefits of the cascade that made <abbr>CSS</abbr> so powerful in the first place. True, at first glance, it doesn&rsquo;t look much different than:</p>
 
                 <pre class="dm-c-codeBlock"><code class="language-html">
 &lt;h1 style="font-size: 40px; padding-left: 24px; margin-bottom: 32px;"&gt;Cooking up Design Systems&lt;/h1&gt;
                 </code></pre>
 
-                <p class="dm-u-textIndent--0">But I&rsquo;d argue that there are still a few:</p>
+                <p class="dm-u-textIndent--0">But I&rsquo;d argue that there are still a few benefits:</p>
 
                 <ul>
                     <li><strong>Visual consistency.</strong> If you&rsquo;re using class names instead of inline styles and are using something like the 8-pt grid, you know you won&rsquo;t ever have a situation where one headline has 16px of padding and another has 17px. You&rsquo;re using your design system!</li>
