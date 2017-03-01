@@ -166,6 +166,13 @@
 		"type"		:	"Podcast"
 	},
 	{
+		"title"		: 	"User Defenders",
+		"slug"		:	"http://userdefenders.com/podcast/013/",
+		"audio"		:	true,
+		"date"		:	"2015-12-10",
+		"type"		:	"Podcast"
+	},
+	{
 		"title"		: 	"JS Open Day NYC, by Microsoft",
 		"slug"		:	"https://channel9.msdn.com/Blogs/raw-tech/Responsive-Web-Design-with-Daniel-Mall",
 		"video"		:	true,
