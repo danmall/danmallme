@@ -1,5 +1,17 @@
 [
 	{
+		"title"		: 	"Issue #248",
+		"slug"		:	"http://us4.campaign-archive2.com/?u=559bc631fe5294fc66f5f7f89&amp;id=c0f1a8bdbb&amp;e=c50ca1b32a",
+		"date"		:	"2017-03-03",
+		"source"	:	"Responsive Design Weekly"
+	},
+	{
+		"title"		: 	"Some Thursday Reads",
+		"slug"		:	"https://css-tricks.com/some-thursday-reads/",
+		"date"		:	"2017-03-02",
+		"source"	:	"<abbr>CSS</abbr> Tricks"
+	},
+	{
 		"title"		: 	"studio.zeldman is people",
 		"slug"		:	"https://studio.zeldman.com/about/",
 		"date"		:	"2017-03-01",
