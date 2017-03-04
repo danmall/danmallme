@@ -552,9 +552,23 @@ http://superfriend.ly/
 		// seasoning
 		max-width: 800px;
 
+		&_footer {
+			@include dm-u-marginTop--xxl;
+
+			p {
+				@include dm-u-text--14;
+				@include dm-u-fontStyle--BreveItalic;
+			}
+
+		}
+
 		@media screen and (min-width: 720px) {
 			p {
 				@include dm-u-text--20;
+			}
+
+			&_footer p {
+				@include dm-u-text--14;
 			}
 
 			ul,

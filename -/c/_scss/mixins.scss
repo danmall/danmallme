@@ -121,8 +121,18 @@ http://superfriend.ly/
 	font-style: italic;
 }
 
+@mixin dm-u-font--BreveItalic {
+	font-family: "BreveNews-BookItalic";
+	font-style: normal;
+}
+
 @mixin dm-u-fontStyle--italic {
 	font-style: italic;
+}
+
+@mixin dm-u-fontStyle--BreveItalic {
+	font-family: "BreveNews-BookItalic";
+	font-style: normal;
 }
 
 @mixin dm-u-fontStyle--normal {
