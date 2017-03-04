@@ -46,16 +46,6 @@
 
         <div class="dm-dp-textPassage dm-c-articleWell">
 
-            <!-- <p><span class="dm-dp-openingLines">In building design systems</span>, style guides, and component libraries more and more for clients, the word <em>comprehensive</em> comes up a lot. On the surface, the word really means &ldquo;complete,&rdquo; but its etymology hints as something more useful in this context. It&rsquo;s derived from the latin <dfn lang="la">comprehendere</dfn>, which means to &ldquo;grasp mentally.&rdquo; And so, in designing this site, I set out to create a comprehensive design system, which means a system that I could grasp mentally. For me, that means knowing the system well enough that I deviate from it as little as possible.</p>
-
-            <p>A few things factored into this:</p>
-
-            <ol>
-                <li>A good design system teaches you how to use it; otherwise, it&rsquo;s just a component library.</li>
-                <li>In order to better <a href="https://the-pastry-box-project.net/dan-mall/2012-september-12">decide in the browser</a>&mdash;that is, make interface decisions in code&mdash;I need the same tools in code that I&rsquo;d have if I was making interface decisions in a <abbr title="Graphical User Interface">GUI</abbr>.</li>
-                <li>Certainly not a new analogy, but this process really underscored for me the idea that a good design system is like jazz. There are themes that I&rsquo;ll come back to over and over, but there are also times where I&rsquo;ll need to improvise. What makes the improvisations so special in a jazz song is that they&rsquo;re grounded by the theme; a song of all improvisations would be really tough to listen to, because there&rsquo;s no anchor.</li>
-            </ol> -->
-
             <p><span class="dm-dp-openingLines">A great design system should</span> equip you to quickly and confidently create delicious user experiences. Creating a great design system is a lot like stocking a very specific kind of kitchen.</p>
 
             <p>Let&rsquo;s say I run a food truck. I have a small kitchen in said truck, so I need to be judicious in what ingredients I stock. To determine the right ingredients to bring along, I can ask myself a few simple questions:</p>
@@ -377,6 +367,10 @@ $xxl                :       $spacing * 6;
                 <p>Hopefully, this example showed how you can bring some of the <abbr title="User Interface">UI</abbr> decision-making process you previously did in a graphics editor into the browser, as long as you have the right code approach to support it.</p>
 
                 <p>Now you&rsquo;re cooking!</p>
+
+                <footer class="dm-c-articleWell_footer">
+                    <p>Also syndicated to <a href="https://medium.com/@danielmall/cooking-with-design-systems-6bf05799e37a#.ga3zc4esq">Medium</a>.</p>
+                </footer>
 
             </section><!-- .dm-dp-asteriskSplit -->
 

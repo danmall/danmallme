@@ -312,7 +312,7 @@ http://superfriend.ly/
 		&-asteriskSplit {
 			@include dm-u-marginTop--xxl;
 
-			p:first-child:before {
+			> p:first-child:before {
 				@include dm-u-display--block;
 				@include dm-u-align--center;
 				@include dm-u-marginBottom--l;
