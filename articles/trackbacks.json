@@ -36,6 +36,12 @@
 		"source"	:	"Adactio"
 	},
 	{
+		"title"		: 	"What is Lean UX?",
+		"slug"		:	"https://www.oreilly.com/ideas/what-is-lean-ux",
+		"date"		:	"2017-03-01",
+		"source"	:	"O&rsquo;Reilly Ideas"
+	},
+	{
 		"title"		: 	"Issue #114",
 		"slug"		:	"http://designweekly.atomic.io/issue/114",
 		"date"		:	"2017-03-01",
