@@ -1,5 +1,23 @@
 [
 	{
+		"title"		: 	"Atomic Design&mdash;where science and design collide",
+		"slug"		:	"https://medium.com/antonsten/atomic-design-where-science-and-design-collide-7e223c6439d0#.i8qp56e57",
+		"date"		:	"2017-03-13",
+		"source"	:	"Medium"
+	},
+	{
+		"title"		: 	"Collective #295",
+		"slug"		:	"https://tympanus.net/codrops/collective/collective-295/",
+		"date"		:	"2017-03-14",
+		"source"	:	"Codrops"
+	},
+	{
+		"title"		: 	"Smashing Newsletter #177",
+		"slug"		:	"http://us1.campaign-archive2.com/?u=16b832d9ad4b28edf261f34df&id=1b04caa467&e=b6582b3402",
+		"date"		:	"2017-03-07",
+		"source"	:	"Smashing Magazine"
+	},
+	{
 		"title"		: 	"Performance Budget",
 		"slug"		:	"http://beenanner.github.io/sitespeed.io/documentation/sitespeed.io/performance-budget/",
 		"date"		:	"2017-03-06",
@@ -118,6 +136,12 @@
 		"slug"		:	"https://timkadlec.com/2017/01/what-i-read-in-2016/",
 		"date"		:	"2017-01-03",
 		"source"	:	"Tim Kadlec"
+	},
+	{
+		"title"		: 	"Before dive into React",
+		"slug"		:	"http://alves.im/blog/before-dive-into-react.html",
+		"date"		:	"2016-12-21",
+		"source"	:	"Henrique Alves"
 	},	
 	{
 		"title"		: 	"Insisting on Core Development Principles",
@@ -267,6 +291,12 @@
 		"source"	:	"Amazon"
 	},
 	{
+		"title"		: 	"Web Developer Reading List: Clients, Contracts and Portfolios",
+		"slug"		:	"http://thenewcode.com/973/Web-Developer-Reading-List-Clients-Contracts-and-Portfolios",
+		"date"		:	"2015-01-06",
+		"source"	:	"The New Code"
+	},
+	{
 		"title"		: 	"Studio Visit: Getting Tacos with Dan Mall of SuperFriendly",
 		"slug"		:	"http://www.thephillyegotist.com/news/local/2014/december/10/studio-visit-getting-tacos-dan-mall-superfriendlyco#jD0vYxS4FGeOY2hR.99",
 		"date"		:	"2014-12-10",
@@ -309,12 +339,6 @@
 		"source"	:	"WSOL"
 	},
 	{
-		"title"		: 	"Interview: Shane Mielke",
-		"slug"		:	"https://thefwa.com/digital-pioneers/shane-mielke",
-		"date"		:	"2014-05-30",
-		"source"	:	"The FWA"
-	},
-	{
 		"title"		: 	"Responsive Web Design is Hard/Easy",
 		"slug"		:	"http://yourmajesty.co/hok/2014/05/05/responsive-web-design-is-hard-easy",
 		"date"		:	"2014-05-05",
@@ -325,6 +349,12 @@
 		"slug"		:	"https://aneventapart.com/news/post/aea-resources-hot-links-from-an-event-apart-boston",
 		"date"		:	"2014-05-04",
 		"source"	:	"An Event Apart"
+	},	
+	{
+		"title"		: 	"Interview: Shane Mielke",
+		"slug"		:	"http://idarchive.com/interview/shane-mielke/",
+		"date"		:	"2014-02-01",
+		"source"	:	"Interactive Design Archive"
 	},
 	{
 		"title"		: 	"Inside the TechCrunch Redesign with Dan Mall",
