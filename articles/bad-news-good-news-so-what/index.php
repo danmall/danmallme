@@ -10,7 +10,7 @@
     <meta name="twitter:site" content="@danmall" />
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
     <meta name="twitter:title" property="og:title" content="Bad News. Good News. So What?" />
-    <meta name="twitter:description" property="og:description" content="A simple framework for storytelling." />
+    <meta name="twitter:description" property="og:description" content="A simple framework for effective storytelling." />
     <meta name="twitter:image" property="og:image" content="http://danmall.me/i/d.png" />
     <?php /* ?><meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>thumb.png" /><?php */ ?>
     
@@ -44,9 +44,7 @@
 
         <div class="dm-dp-textPassage dm-c-articleWell">
 
-            <?php /* ?>
-            <iframe class="dm-u-marginBottom--l" src="https://spoken.co/t/2527241/embed" frameborder="0" width="100%" height="84" style="max-width:400px;"></iframe>
-            <?php */ ?>
+            <iframe class="dm-u-marginBottom--l" src="https://spoken.co/t/2548687/embed" frameborder="0" width="100%" height="84" style="max-width:400px;"></iframe>
 
             <p><span class="dm-dp-openingLines">My father-in-law</span> (a retired pastor) shared with me a simple framework he crafted from many years of preaching sermons week after week. Every good story has these three components:</p>
 
@@ -59,12 +57,11 @@
             <p>Most people don&rsquo;t know how to tell a good story, but that&rsquo;s easily solved with this simple trick. You&rsquo;ll soon have your listeners hanging on your every word!</p>
 
             <p>(See how I just used that framework? 😉 )</p>
-
-            <?php /* ?>
+            
             <footer class="dm-c-articleWell_footer">
-                <p>Also syndicated to <a href="https://medium.com/@danielmall/cooking-with-design-systems-6bf05799e37a#.ga3zc4esq">Medium</a>.</p>
+                <p>Also syndicated to <a href="https://medium.com/@danielmall/bad-news-good-news-so-what-9849e272aa0c">Medium</a>.</p>
             </footer>
-            <?php */ ?>
+            
 
         </div>
 
