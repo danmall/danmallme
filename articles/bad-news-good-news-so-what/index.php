@@ -11,10 +11,8 @@
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
     <meta name="twitter:title" property="og:title" content="Bad News. Good News. So What?" />
     <meta name="twitter:description" property="og:description" content="A simple framework for storytelling." />
-    <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>thumb.png" />
-
-    <style type="text/css">
-    </style>
+    <meta name="twitter:image" property="og:image" content="http://danmall.me/i/d.png" />
+    <?php /* ?><meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>thumb.png" /><?php */ ?>
     
 </head>
 
@@ -45,6 +43,10 @@
     <main role="main">
 
         <div class="dm-dp-textPassage dm-c-articleWell">
+
+            <?php /* ?>
+            <iframe class="dm-u-marginBottom--l" src="https://spoken.co/t/2527241/embed" frameborder="0" width="100%" height="84" style="max-width:400px;"></iframe>
+            <?php */ ?>
 
             <p><span class="dm-dp-openingLines">My father-in-law</span> (a retired pastor) shared with me a simple framework he crafted from many years of preaching sermons week after week. Every good story has these three components:</p>
 
