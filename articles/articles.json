@@ -1,5 +1,16 @@
 [
 	{
+		"title"	: 	"Bad News. Good News. So What?",
+		"slug"	:	"bad-news-good-news-so-what",
+		"dek"	:	"A simple framework for storytelling.",
+		"date"	:	"2017-03-30 06:06:00",
+		"tags"	:	[
+			"storytelling",
+			"speaking",
+			"pitching"
+		]
+	},
+	{
 		"title"	: 	"Cooking with Design Systems",
 		"slug"	:	"cooking-with-design-systems",
 		"dek"	:	"Design systems make deciding in the browser much easier if you have the right ingredients.",

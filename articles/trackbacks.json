@@ -1,15 +1,51 @@
 [
 	{
-		"title"		: 	"Atomic Design&mdash;where science and design collide",
-		"slug"		:	"https://medium.com/antonsten/atomic-design-where-science-and-design-collide-7e223c6439d0#.i8qp56e57",
-		"date"		:	"2017-03-13",
+		"title"		: 	"Highlights from O&rsquo;Reilly Design 2017",
+		"slug"		:	"https://medium.com/@udanium/highlights-from-oreilly-design-2017-19d84eb6e795",
+		"date"		:	"2017-03-26",
 		"source"	:	"Medium"
+	},
+	{
+		"title"		: 	"Skvulp uke 12",
+		"slug"		:	"http://blog.makingwaves.no/skvulp/12-17/",
+		"date"		:	"2017-03-24",
+		"source"	:	"Making Waves"
+	},
+	{
+		"title"		: 	"Highlights from the O&rsquo;Reilly Design Conference",
+		"slug"		:	"https://techmodelblog.wordpress.com/2017/03/22/highlights-from-the-oreilly-design-conference-in-san-francisco-2017/",
+		"date"		:	"2017-03-22",
+		"source"	:	"Tech Model"
+	},
+	{
+		"title"		: 	"Meet The Next Smashing Magazine",
+		"slug"		:	"https://next.smashingmagazine.com/2017/03/a-little-surprise-is-waiting-for-you-here--meet-the-next-smashing-magazine/",
+		"date"		:	"2017-03-16",
+		"source"	:	"Smashing Magazine"
+	},
+	{
+		"title"		: 	"Special - Mirror Conf",
+		"slug"		:	"http://10web.pt/in-english/especial-mirror-conf",
+		"date"		:	"2017-03-15",
+		"source"	:	"10web"
 	},
 	{
 		"title"		: 	"Collective #295",
 		"slug"		:	"https://tympanus.net/codrops/collective/collective-295/",
 		"date"		:	"2017-03-14",
 		"source"	:	"Codrops"
+	},
+	{
+		"title"		: 	"Atomic Design&mdash;where science and design collide",
+		"slug"		:	"https://medium.com/antonsten/atomic-design-where-science-and-design-collide-7e223c6439d0#.i8qp56e57",
+		"date"		:	"2017-03-13",
+		"source"	:	"Medium"
+	},
+	{
+		"title"		: 	"Instagram&rsquo;s Journey from Data to Knowledge",
+		"slug"		:	"https://medium.theuxblog.com/instagrams-journey-from-data-to-knowledge-ea201c709f3d",
+		"date"		:	"2017-03-12",
+		"source"	:	"UXBlog"
 	},
 	{
 		"title"		: 	"Smashing Newsletter #177",
@@ -90,6 +126,12 @@
 		"source"	:	"All You Can Learn Blog"
 	},
 	{
+		"title"		: 	"The Business And Performance Art Of Freelancing",
+		"slug"		:	"http://mathys-potestio.com/business-performance-art-freelancing/",
+		"date"		:	"2017-02-08",
+		"source"	:	"The Creative Party"
+	},
+	{
 		"title"		: 	"10 Ideas Worth Sharing This Week",
 		"slug"		:	"https://medium.com/an-idea-for-you/10-ideas-worth-sharing-this-week-7f14c342e39f#.ap6cwt6dq",
 		"date"		:	"2017-01-21",
@@ -142,6 +184,12 @@
 		"slug"		:	"http://alves.im/blog/before-dive-into-react.html",
 		"date"		:	"2016-12-21",
 		"source"	:	"Henrique Alves"
+	},
+	{
+		"title"		: 	"Design Systems in 2016 and how to make your own",
+		"slug"		:	"https://uxplanet.org/design-systems-in-2016-5415a660b29",
+		"date"		:	"2016-12-18",
+		"source"	:	"UX Planet"
 	},	
 	{
 		"title"		: 	"Insisting on Core Development Principles",
@@ -161,6 +209,12 @@
 		"slug"		:	"https://abookapart.com/blogs/press/a-few-of-our-faves-october",
 		"date"		:	"2016-10-30",
 		"source"	:	"A Book Apart"
+	},
+	{
+		"title"		: 	"Learning Atomic Design",
+		"slug"		:	"http://ygoto3.com/posts/smashing-conference-whistler-and-atomic-design/",
+		"date"		:	"2016-10-11",
+		"source"	:	"Ygoto3"
 	},
 	{
 		"title"		: 	"Presenting Design",
@@ -439,6 +493,12 @@
 		"slug"		:	"https://the-pastry-box-project.net/baker/dan-mall",
 		"date"		:	"2012-02-05",
 		"source"	:	"The Pastry Box"
+	},
+	{
+		"title"		: 	"Everything About Liz",
+		"slug"		:	"http://dis.bobulate.com/about/",
+		"date"		:	"2010-09-30",
+		"source"	:	"Bobulate"
 	}
 ]
 
