@@ -54,9 +54,9 @@
 
             <p>We review anywhere from dozens to hundreds of existing products to get a good lay of the land for what the organization makes regularly and supports. This might be walking through products in person or on a screenshare with a product owner, asking questions and exploring as many of the hidden crevasses as possible. It also could be clicking through public or private apps ourselves, inventorying what&rsquo;s common.</p>
 
-            <p>Simultaneously, we&rsquo;ll also do an <a href=“http://bradfrost.com/blog/post/interface-inventory/“>interface inventory</a>, taking note of the frequency of usage of common components.</p> 
+            <p>Simultaneously, we&rsquo;ll also do an <a href="http://bradfrost.com/blog/post/interface-inventory/">interface inventory</a>, taking note of the frequency of usage of common components.</p> 
 
-            <p>We&rsquo;ll then try and reverse-engineer where our <a href=“https://en.wikipedia.org/wiki/Pareto_principle”>Pareto principle</a> comes into play: what 20% can we design and build that can assuage 80% of the wheel reinvention pain?<?php /* ?>What <a href=“https://bigmedium.com/ideas/boring-design-systems.html”>boring stuff</a> can we start with?<?php */ ?></p>
+            <p>We&rsquo;ll then try and reverse-engineer where our <a href="https://en.wikipedia.org/wiki/Pareto_principle">Pareto principle</a> comes into play: what 20% can we design and build that can assuage 80% of the wheel reinvention pain?<?php /* ?>What <a href=“https://bigmedium.com/ideas/boring-design-systems.html”>boring stuff</a> can we start with?<?php */ ?></p>
 
         </div>
 
@@ -172,8 +172,8 @@
 
             <footer class="dm-c-articleWell_footer dm-dp-sepChunk">
                 <ol class="dm-c-footnotes">
-                    <li id="fn1">I&rsquo;m talking specifically about products that are being built from scratch or reimagined. However, it&rsquo;s entirely possible that you may have a product already built that&rsquo;s clearly a good foundation for a design system. If that&rsquo;s the case, no need to pilot; instead, extract and abstract the appropriate components and patterns you need. Mobile designer <a href="https://twitter.com/bigmediumjosh">Josh Clark</a> describes this in more detail in his article, <a href="https://bigmedium.com/ideas/boring-design-systems.html">The Most Exciting Design Systems are Boring</a>. <a href="#fn1-source">&#8617;</a></li>
-                    <li id="fn2">In his article, <a href="https://medium.com/eightshapes-llc/patterns-components-2ce778cbe4e8">Patterns &#8800; Components</a>, systems designer <a href="https://twitter.com/nathanacurtis">Nathan Curtis</a> describes the difference between a pattern and a component, which is why they&rsquo;re separate items in this article. <a href="#fn2-source">&#8617;</a></li>                    
+                    <li id="fn1">I&rsquo;m talking specifically about products that are being built from scratch or reimagined. However, it&rsquo;s entirely possible that you may have a product already built that&rsquo;s clearly a good foundation for a design system. If that&rsquo;s the case, no need to pilot; instead, extract and abstract the appropriate components and patterns you need. Mobile designer <a href="https://twitter.com/bigmediumjosh">Josh Clark</a> describes this in more detail in his article, &ldquo;<a href="https://bigmedium.com/ideas/boring-design-systems.html">The Most Exciting Design Systems are Boring</a>.&rdquo; <a href="#fn1-source">&#8617;</a></li>
+                    <li id="fn2">In his article, &ldquo;<a href="https://medium.com/eightshapes-llc/patterns-components-2ce778cbe4e8">Patterns &#8800; Components</a>,&rdquo; systems designer <a href="https://twitter.com/nathanacurtis">Nathan Curtis</a> describes the difference between a pattern and a component, which is why they&rsquo;re separate items in this article. <a href="#fn2-source">&#8617;</a></li>                    
                     <li>Thanks to <a href="http://bradfrost.com/">Brad Frost</a> and <a href="https://bigmedium.com/">Josh Clark</a> for helping inspire this insight and reviewing this article.</li>
                 </ol>
                 <?php /* ?><p class="dm-u-textIndent--0 dm-u-marginTop--m">Also syndicated to <a href="https://medium.com/@danielmall/cooking-with-design-systems-6bf05799e37a#.ga3zc4esq">Medium</a>.</p><?php */ ?>
