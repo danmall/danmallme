@@ -74,7 +74,7 @@
 
             <ol>
                 <li><strong>Potential for common components.</strong> Does this pilot have many components that can be reused in other products?</li>
-                <li id="fn2-source"><strong>Potential for common <a href="https://medium.com/eightshapes-llc/patterns-components-2ce778cbe4e8">patterns</a> <sup><a href="#fn2">2</a></sup> .</strong> Does this pilot have many patterns that can be reused in other products?</li>
+                <li id="fn2-source"><strong>Potential for common patterns <sup><a href="#fn2">2</a></sup> .</strong> Does this pilot have many patterns that can be reused in other products?</li>
                 <li><strong>High-value elements.</strong> Even if uncommon, is there a component or pattern with high-business value that is the heart of this project? We&rsquo;re talking elements that are integral to a flow or audience that has unusually high value for the organization.</li>
                 <li><strong>Technical feasibility.</strong> How simple is a technical implementation of the design system? Is a large refactor required?</li>
                 <li><strong>Available champion.</strong> Will someone working on this product see it through and celebrate/evangelize using the design system (and even contributing back to it)?</li>
