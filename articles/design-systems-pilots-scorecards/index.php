@@ -46,7 +46,9 @@
 
         <div class="dm-dp-textPassage dm-c-articleWell">
 
-            <p><span class="dm-dp-openingLines">Pilots are one of</span> the best ways to put your design system through its paces, especially before the design system even gets to a <var>v1</var>. Here is how my teams and I identify great pilot candidates.</p> 
+            <p><span class="dm-dp-openingLines">Pilots are one of</span> the best ways to put your design system through its paces, especially before the design system even gets to a <var>v1</var>. Like television pilots help test audience reactions to a series concept without investing significant resources to create the whole thing, application pilots are a good foundation for ensuring your design system&rsquo;s design and code are battle-tested.</p> 
+
+            <p>Here is how my teams and I identify great pilot candidates.</p> 
 
             <p>First, we want to know what kinds of digital products a design system should help our client to make. We&rsquo;ll ask them to tee up as many product presentations as they can muster. They&rsquo;ll usually do this by either generating a list of product owners that tend to be early adopters/risk takers, or they&rsquo;ll issue an open call for willing participants.</p>
 
@@ -66,19 +68,19 @@
 
         <div class="dm-dp-textPassage dm-c-articleWell">
 
-            <p>There&rsquo;s a sweet spot for great pilot candidates after planning has begun but before anything gets designed or built. If a product isn&rsquo;t far enough along in planning, we likely don&rsquo;t know enough about it to say whether it&rsquo;ll make for a good pilot or not. But if it&rsquo;s already in the process of being created or recreated, it&rsquo;s probably too far along to be able to integrate parts&mdash;read: component design, patterns, and/or working code&mdash;from the design system without some amount of refactor, which teams in need of a design system often can&rsquo;t afford.</p>
+            <p id="fn1-source">There&rsquo;s a sweet spot for great pilot candidates after planning for the pilot has begun but before it gets designed or built. If a product isn&rsquo;t far enough along in planning, we likely don&rsquo;t know enough about it to say whether it&rsquo;ll make for a good pilot or not. But if it&rsquo;s already in the process of being created or recreated <sup><a href="#fn1">1</a></sup> , it&rsquo;s probably too far along to be able to integrate parts&mdash;read: component design, patterns, and/or working code&mdash;from the design system without some amount of refactor, which teams in need of a design system often can&rsquo;t afford.</p>
 
             <p>Once we find a some good potential candidates in that sweet spot, there&rsquo;s a set of criteria we use to determine a pilot&rsquo;s potential efficacy:</p>
 
             <ol>
-                <li><strong>Potential for common components.</strong> Does this pilot have many components that can be reused?</li>
-                <li><strong>Potential for common <a href="https://medium.com/eightshapes-llc/patterns-components-2ce778cbe4e8">patterns</a>.</strong> Does this pilot have many patterns&mdash;solutions that can be used in such a way that you can use this it a million times over without ever doing it the same way twice&mdash;that can be reused?</li>
-                <li><strong>High value components.</strong> Even if uncommon, is there a high-powered component that is the heart of this project?</li>
+                <li><strong>Potential for common components.</strong> Does this pilot have many components that can be reused in other products?</li>
+                <li id="fn2-source"><strong>Potential for common <a href="https://medium.com/eightshapes-llc/patterns-components-2ce778cbe4e8">patterns</a> <sup><a href="#fn2">2</a></sup> .</strong> Does this pilot have many patterns that can be reused in other products?</li>
+                <li><strong>High-value elements.</strong> Even if uncommon, is there a component or pattern with high-business value that is the heart of this project? We&rsquo;re talking elements that are integral to a flow or audience that has unusually high value for the organization.</li>
                 <li><strong>Technical feasibility.</strong> How simple is a technical implementation of the design system? Is a large refactor required?</li>
-                <li><strong>Available champion.</strong> Will someone working on this product see it through and celebrate/evangelize the work?</li>
+                <li><strong>Available champion.</strong> Will someone working on this product see it through and celebrate/evangelize using the design system (and even contributing back to it)?</li>
                 <li><strong>Scope.</strong> Is this work accomplishable in our pilot timeframe of [3&ndash;4 weeks] (insert your timing here)?</li>
                 <li><strong>Technical independence.</strong> Is the work decoupled enough from other legacy design and code that there are clear start and end points?</li>
-                <li><strong>Marketing potential.</strong> Will this work excited others to use the design system?</li>
+                <li><strong>Marketing potential.</strong> Will this work excite others to use the design system?</li>
             </ol>
 
             <p>You might already see where we could go with this. Using a simple point system where <var>1</var> indicates a low match and <var>10</var> indicates high efficacy, you could create a Pilot Scorecard that shows you which products to tackle in priority order:</p>
@@ -110,7 +112,7 @@
                         <td headers="criteria2 product3">4</td>
                     </tr>
                     <tr>
-                        <th class="dm-u-align--left" scope="row" id="criteria3">High value components</th>
+                        <th class="dm-u-align--left" scope="row" id="criteria3">High-value elements</th>
                         <td headers="criteria3 product1">8</td>
                         <td headers="criteria3 product2">3</td>
                         <td headers="criteria3 product3">2</td>
@@ -164,12 +166,16 @@
 
         <div class="dm-dp-textPassage dm-c-articleWell">
 
-            <p>Starting with pilots before you have anything in your design system allows <a href="https://bigmedium.com/ideas/boring-design-systems.html#inventionhappensintheproducts">invention to happen in the products</a>. Once the pilots are built, as Josh says, you can extract the patterns into the design sytem to seed it. In the next pass, you can <a href="/articles/cooking-with-design-systems/">cook with your new ingredients</a> to make sure you have the right pieces in your design system.</p>
+            <p>Starting with pilots before you have anything in your design system allows <a href="https://bigmedium.com/ideas/boring-design-systems.html#inventionhappensintheproducts">invention to happen in the products</a>. In the next pass of using your design system, you can <a href="/articles/cooking-with-design-systems/">cook with your new ingredients</a> to make sure you have the right pieces in place.</p>
 
             <p>Have you used pilots in your design systems journeys? How have they helped you?</p>
 
-            <footer class="dm-c-articleWell_footer">
-                <p>Thanks to <a href="http://bradfrost.com/">Brad Frost</a> and <a href="https://bigmedium.com/">Josh Clark</a> for helping inspire this insight.</p>
+            <footer class="dm-c-articleWell_footer dm-dp-sepChunk">
+                <ol class="dm-c-footnotes">
+                    <li id="fn1">I&rsquo;m talking specifically about products that are being built from scratch or reimagined. However, it&rsquo;s entirely possible that you may have a product already built that&rsquo;s clearly a good foundation for a design system. If that&rsquo;s the case, no need to pilot; instead, extract and abstract the appropriate components and patterns you need. Mobile designer <a href="https://twitter.com/bigmediumjosh">Josh Clark</a> describes this in more detail in his article, <a href="https://bigmedium.com/ideas/boring-design-systems.html">The Most Exciting Design Systems are Boring</a>. <a href="#fn1-source">&#8617;</a></li>
+                    <li id="fn2">In his article, <a href="https://medium.com/eightshapes-llc/patterns-components-2ce778cbe4e8">Patterns &#8800; Components</a>, systems designer <a href="https://twitter.com/nathanacurtis">Nathan Curtis</a> describes the difference between a pattern and a component, which is why they&rsquo;re separate items in this article. <a href="#fn2-source">&#8617;</a></li>                    
+                    <li>Thanks to <a href="http://bradfrost.com/">Brad Frost</a> and <a href="https://bigmedium.com/">Josh Clark</a> for helping inspire this insight and reviewing this article.</li>
+                </ol>
                 <?php /* ?><p class="dm-u-textIndent--0 dm-u-marginTop--m">Also syndicated to <a href="https://medium.com/@danielmall/cooking-with-design-systems-6bf05799e37a#.ga3zc4esq">Medium</a>.</p><?php */ ?>
             </footer>
 

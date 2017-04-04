@@ -641,6 +641,16 @@ http://superfriend.ly/
 		@include dm-u-paddingLeft--m;
 	}
 
+	&-c-footnotes {
+		li {
+			@include dm-u-text--14;
+			@include dm-u-fontStyle--BreveItalic;
+
+			&:before {
+				top: 0.21em !important;
+			}
+		}
+	}
 
 
 
