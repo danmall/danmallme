@@ -145,12 +145,18 @@ textarea.empty:-moz-placeholder {
 }
 
 table { 
-
+	border-collapse: collapse;
+	width: 100%;
 }
     
+    th,
     td { 
     	padding: 0.25em 1em; 
     	border-top: 1px solid #aaa; 
+    }
+
+    td {
+    	text-align: right;
     }
 
 
