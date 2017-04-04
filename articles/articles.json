@@ -1,5 +1,14 @@
 [
 	{
+		"title"	: 	"Design Systems: Pilots &amp; Scorecards",
+		"slug"	:	"design-systems-pilots-scorecards",
+		"dek"	:	"Pilots are a great way to start a design system.",
+		"date"	:	"2017-04-03 00:05:00",
+		"tags"	:	[
+			"design systems"
+		]
+	},
+	{
 		"title"	: 	"Bad News. Good News. So What?",
 		"slug"	:	"bad-news-good-news-so-what",
 		"dek"	:	"A simple framework for effective storytelling.",
