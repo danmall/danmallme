@@ -10,7 +10,7 @@
     <meta name="twitter:site" content="@danmall" />
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
     <meta name="twitter:title" property="og:title" content="Design Systems: Pilots &amp; Scorecards" />
-    <meta name="twitter:description" property="og:description" content="Design systems make deciding in the browser much easier if you have the right ingredients." />
+    <meta name="twitter:description" property="og:description" content="Pilots are a great way to start a design system." />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>thumb.png" />
 
     <style type="text/css">
@@ -36,7 +36,7 @@
             Design Systems: Pilots &amp; Scorecards
         </h1>
 
-        <h2 class="dm-c-pageHeader_date">April 3, 2017 at 11:14 <abbr title="Post Meridien">PM</abbr></h2>
+        <h2 class="dm-c-pageHeader_date">April 4, 2017 at 12:05 <abbr title="Ante Meridien">AM</abbr></h2>
 
     </header><!-- .page-header -->
 
@@ -168,12 +168,10 @@
 
             <p>Have you used pilots in your design systems journeys? How have they helped you?</p>
 
-
-            <?php /* ?>
             <footer class="dm-c-articleWell_footer">
-                <p>Also syndicated to <a href="https://medium.com/@danielmall/cooking-with-design-systems-6bf05799e37a#.ga3zc4esq">Medium</a>.</p>
+                <p>Thanks to <a href="http://bradfrost.com/">Brad Frost</a> and <a href="https://bigmedium.com/">Josh Clark</a> for helping inspire this insight.</p>
+                <?php /* ?><p class="dm-u-textIndent--0 dm-u-marginTop--m">Also syndicated to <a href="https://medium.com/@danielmall/cooking-with-design-systems-6bf05799e37a#.ga3zc4esq">Medium</a>.</p><?php */ ?>
             </footer>
-            <?php */ ?>
 
         </div>
 
