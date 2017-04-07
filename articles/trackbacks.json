@@ -1,5 +1,23 @@
 [
 	{
+		"title"		: 	"Design Systems: Pilots &amp; Scorecards",
+		"slug"		:	"http://bradfrost.com/blog/link/design-systems-pilots-scorecards/",
+		"date"		:	"2017-04-06",
+		"source"	:	"Brad Frost"
+	},
+	{
+		"title"		: 	"Design Systems: Pilots &amp; Scorecards",
+		"slug"		:	"https://bigmedium.com/ideas/links/design-systems-pilots-scorecards.html",
+		"date"		:	"2017-04-04",
+		"source"	:	"Big Medium"
+	},
+	{
+		"title"		: 	"The Most Exciting Design Systems are Boring",
+		"slug"		:	"https://bigmedium.com/ideas/boring-design-systems.html",
+		"date"		:	"2017-04-03",
+		"source"	:	"Big Medium"
+	},
+	{
 		"title"		: 	"Highlights from O&rsquo;Reilly Design 2017",
 		"slug"		:	"https://medium.com/@udanium/highlights-from-oreilly-design-2017-19d84eb6e795",
 		"date"		:	"2017-03-26",
@@ -10,13 +28,19 @@
 		"slug"		:	"http://blog.makingwaves.no/skvulp/12-17/",
 		"date"		:	"2017-03-24",
 		"source"	:	"Making Waves"
-	},
+	},	
 	{
 		"title"		: 	"Highlights from the O&rsquo;Reilly Design Conference",
 		"slug"		:	"https://techmodelblog.wordpress.com/2017/03/22/highlights-from-the-oreilly-design-conference-in-san-francisco-2017/",
 		"date"		:	"2017-03-22",
 		"source"	:	"Tech Model"
 	},
+	{
+		"title"		: 	"Grow Volume 3: Building a Profitable Web Design Business",
+		"slug"		:	"https://www.shopify.com/partners/blog/free-ebook-grow-volume-3",
+		"date"		:	"2017-03-20",
+		"source"	:	"Shopify"
+	},	
 	{
 		"title"		: 	"Meet The Next Smashing Magazine",
 		"slug"		:	"https://next.smashingmagazine.com/2017/03/a-little-surprise-is-waiting-for-you-here--meet-the-next-smashing-magazine/",
@@ -319,6 +343,12 @@
 		"slug"		:	"https://business.tutsplus.com/tutorials/how-to-get-hired-advice-from-creative-directors--cms-23803",
 		"date"		:	"2015-04-20",
 		"source"	:	"Tutsplus"
+	},
+	{
+		"title"		: 	"3 things you need to be a creative director",
+		"slug"		:	"https://medium.com/@petesena/3-things-you-need-to-be-a-creative-director-798f7ec3a5d9",
+		"date"		:	"2015-04-17",
+		"source"	:	"Medium"
 	},
 	{
 		"title"		: 	"Getting Small with Modular Design as QA",
