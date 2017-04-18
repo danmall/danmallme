@@ -24,6 +24,12 @@
 		"location"	:	"Boston, <abbr title=\"Massachusetts\">MA</abbr>"
 	},
 	{
+		"title"		: 	"Philly ETE 2017",
+		"slug"		:	"http://2017.phillyemergingtech.com/",
+		"date"		:	"2017-04-18",
+		"location"	:	"Philadelphia, PA"
+	},
+	{
 		"title"		: 	"O&rsquo;Reilly Design Conference",
 		"slug"		:	"https://www.oreilly.com/ideas/new-design-skills-from-coding-to-agile-process-and-more",
 		"date"		:	"2017-03-22",
