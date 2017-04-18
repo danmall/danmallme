@@ -1,5 +1,17 @@
 [
 	{
+		"title"		: 	"Let&rsquo;s Define Exactly What Atomic <abbr title=\"Cascading Style Sheets\">CSS</abbr> is",
+		"slug"		:	"https://css-tricks.com/lets-define-exactly-atomic-css/",
+		"date"		:	"2017-04-10",
+		"source"	:	"CSS-Tricks"
+	},
+	{
+		"title"		: 	"Smashing Conference SF: 2017",
+		"slug"		:	"https://medium.theuxblog.com/smashing-conference-sf-2017-b34b617da688",
+		"date"		:	"2017-04-10",
+		"source"	:	"Medium"
+	},
+	{
 		"title"		: 	"Design Systems: Pilots &amp; Scorecards",
 		"slug"		:	"http://bradfrost.com/blog/link/design-systems-pilots-scorecards/",
 		"date"		:	"2017-04-06",
@@ -16,6 +28,12 @@
 		"slug"		:	"https://bigmedium.com/ideas/boring-design-systems.html",
 		"date"		:	"2017-04-03",
 		"source"	:	"Big Medium"
+	},
+	{
+		"title"		: 	"Talking Shop with Dan Mall",
+		"slug"		:	"https://cushionapp.com/talking-shop/dan-mall",
+		"date"		:	"2017-03-28",
+		"source"	:	"Cushion"
 	},
 	{
 		"title"		: 	"Highlights from O&rsquo;Reilly Design 2017",
@@ -296,6 +314,12 @@
 		"source"	:	"Verse"
 	},
 	{
+		"title"		: 	"Element Collages&hellip; are FUN!",
+		"slug"		:	"https://cloudfour.com/thinks/element-collages-are-fun/",
+		"date"		:	"2016-03-03",
+		"source"	:	"Cloud Four"
+	},
+	{
 		"title"		: 	"Content &amp; Display Patterns with Expressive CSS",
 		"slug"		:	"http://johnpolacek.com/content-display-patterns/",
 		"date"		:	"2016-03-01",
@@ -343,6 +367,12 @@
 		"slug"		:	"https://business.tutsplus.com/tutorials/how-to-get-hired-advice-from-creative-directors--cms-23803",
 		"date"		:	"2015-04-20",
 		"source"	:	"Tutsplus"
+	},
+	{
+		"title"		: 	"Getting Started with Modules and Modular Front-End Development",
+		"slug"		:	"https://www.toptal.com/ux/getting-started-with-modular-front-end-development",
+		"date"		:	"2015-04-18",
+		"source"	:	"Toptal"
 	},
 	{
 		"title"		: 	"3 things you need to be a creative director",
@@ -435,6 +465,12 @@
 		"source"	:	"An Event Apart"
 	},	
 	{
+		"title"		: 	"Dan Mall (and Element Collages) To The Rescue!",
+		"slug"		:	"https://www.aztekweb.com/blog/post/Dan-Mall-(and-Element-Collages)-to-the-Rescue!",
+		"date"		:	"2014-02-01",
+		"source"	:	"Aztek"
+	},
+	{
 		"title"		: 	"Interview: Shane Mielke",
 		"slug"		:	"http://idarchive.com/interview/shane-mielke/",
 		"date"		:	"2014-02-01",
@@ -451,6 +487,12 @@
 		"slug"		:	"http://us4.campaign-archive2.com/?u=559bc631fe5294fc66f5f7f89&amp;id=9d52a58343&amp;e=c50ca1b32a",
 		"date"		:	"2013-10-18",
 		"source"	:	"Responsive Design Weekly"
+	},
+	{
+		"title"		: 	"The Element Collage",
+		"slug"		:	"https://www.amazeelabs.com/en/blog/element-collage",
+		"date"		:	"2013-08-07",
+		"source"	:	"Amazee Labs"
 	},
 	{
 		"title"		: 	"Responsive Web Design: 6 Experts, 4 Questions",
@@ -481,6 +523,12 @@
 		"slug"		:	"http://brettharned.com/2013/05/19/no-project-managers-a-qa-with-jay-fanelli-of-full-stop-and-united-pixelworkers/",
 		"date"		:	"2013-05-19",
 		"source"	:	"Brett Harned"
+	},
+	{
+		"title"		: 	"Visual design explorations",
+		"slug"		:	"https://clearleft.com/posts/110",
+		"date"		:	"2013-03-08",
+		"source"	:	"Clearleft"
 	},
 	{
 		"title"		: 	"Dan Mall on The Businessology Show",
