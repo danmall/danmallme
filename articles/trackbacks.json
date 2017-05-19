@@ -1,5 +1,59 @@
 [
 	{
+		"title"		: 	"Weekly roundup: Tips for organizing your calendar",
+		"slug"		:	"http://blog.rescuetime.com/2017/05/11/weekly-roundup-organizing-your-calendar/",
+		"date"		:	"2017-05-11",
+		"source"	:	"RescueTime"
+	},
+	{
+		"title"		: 	"Atomic Design in Practice — Does It Work?",
+		"slug"		:	"https://blog.prototypr.io/atomic-design-in-practice-does-it-work-9655bacb49d7",
+		"date"		:	"2017-05-09",
+		"source"	:	"Prototypr"
+	},
+	{
+		"title"		: 	"Goodbye Yellow Brick Road: A Freelancer&rsquo;s Retrospective",
+		"slug"		:	"https://medium.com/@chuckborowicz/goodbye-yellow-brick-road-a-freelancers-retrospective-edd7d1080205",
+		"date"		:	"2017-05-01",
+		"source"	:	"Medium"
+	},
+	{
+		"title"		: 	"Why I Left My Day Job for Independence",
+		"slug"		:	"http://heydesigner.com/left-day-job-independence-dan-mall/",
+		"date"		:	"2017-04-27",
+		"source"	:	"HeyDesigner"
+	},
+	{
+		"title"		: 	"Dan Mall",
+		"slug"		:	"http://unmatchedstyle.com/gallery/dan-mall.php",
+		"date"		:	"2017-04-26",
+		"source"	:	"Unmatched Style"
+	},
+	{
+		"title"		: 	"Atomic Design in Practice - Does It Work?",
+		"slug"		:	"http://www.browserlondon.com/blog/2017/04/atomic-design-in-practice-does-it-work/",
+		"date"		:	"2017-04-25",
+		"source"	:	"Browser"
+	},
+	{
+		"title"		: 	"Freelance.tv",
+		"slug"		:	"https://www.designernews.co/stories/82861-freelancetv",
+		"date"		:	"2017-04-25",
+		"source"	:	"Designer News"
+	},
+	{
+		"title"		: 	"Dan Mall",
+		"slug"		:	"http://www.swiss-miss.com/2017/04/dan-mall.html",
+		"date"		:	"2017-04-25",
+		"source"	:	"swissmiss"
+	},
+	{
+		"title"		: 	"My Problem with The Problem with Atomic CSS",
+		"slug"		:	"https://medium.com/@johnpolacek/my-problem-with-the-problem-with-atomic-css-f09467874427",
+		"date"		:	"2017-04-18",
+		"source"	:	"Medium"
+	},
+	{
 		"title"		: 	"Let&rsquo;s Define Exactly What Atomic <abbr title=\"Cascading Style Sheets\">CSS</abbr> is",
 		"slug"		:	"https://css-tricks.com/lets-define-exactly-atomic-css/",
 		"date"		:	"2017-04-10",
@@ -16,6 +70,13 @@
 		"slug"		:	"http://bradfrost.com/blog/link/design-systems-pilots-scorecards/",
 		"date"		:	"2017-04-06",
 		"source"	:	"Brad Frost"
+	},
+	{
+		"title"		: 	"Selling Design Sytems, by Laura Elizabeth",
+		"slug"		:	"https://vimeo.com/214120678",
+		"date"		:	"2017-04-04",
+		"source"	:	"Smashing Conference",
+		"video"		:	true
 	},
 	{
 		"title"		: 	"Design Systems: Pilots &amp; Scorecards",
@@ -517,6 +578,12 @@
 		"slug"		:	"http://responsivedesignweekly.com/interview/responsive-interview-with-daniel-mall/",
 		"date"		:	"2013-05-30",
 		"source"	:	"Responsive Design Newsletter"
+	},
+	{
+		"title"		: 	"Tools vs Materials",
+		"slug"		:	"http://travisswicegood.com/2013/05/20/tools-vs-materials/",
+		"date"		:	"2013-05-20",
+		"source"	:	"Travis Swicegood"
 	},
 	{
 		"title"		: 	"No Project Managers! A Q&amp;A with Jay Fanelli of Full Stop and United Pixelworkers",
