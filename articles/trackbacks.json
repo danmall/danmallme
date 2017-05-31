@@ -1,5 +1,29 @@
 [
 	{
+		"title"		: 	"Animation in Design Systems &amp; Process",
+		"slug"		:	"https://www.slideshare.net/valhead/animation-in-design-systems-and-process-val-head",
+		"date"		:	"2017-05-26",
+		"source"	:	"Val Head"
+	},
+	{
+		"title"		: 	"Getting a seat at the table: talking internships, apprenticeships &amp; mentorships with Dan Mall",
+		"slug"		:	"https://www.jovoto.com/blog/creatives/internships-apprenticeships-mentorships-dan-mall/",
+		"date"		:	"2017-05-23",
+		"source"	:	"Jovoto"
+	},
+	{
+		"title"		: 	"10 People Every Aspiring Designer Should Follow on Twitter",
+		"slug"		:	"https://www.rookieup.com/blog/10-people-every-aspiring-designer-follow-twitter/",
+		"date"		:	"2017-05-22",
+		"source"	:	"RookieUp"
+	},
+	{
+		"title"		: 	"Design Systems Are a Language. Product Is a Conversation",
+		"slug"		:	"https://medium.com/@marcintreder/design-systems-are-a-language-and-thats-changing-software-development-forever-ae914a197de",
+		"date"		:	"2017-05-19",
+		"source"	:	"UXPin"
+	},
+	{
 		"title"		: 	"Weekly roundup: Tips for organizing your calendar",
 		"slug"		:	"http://blog.rescuetime.com/2017/05/11/weekly-roundup-organizing-your-calendar/",
 		"date"		:	"2017-05-11",
@@ -46,6 +70,12 @@
 		"slug"		:	"http://www.swiss-miss.com/2017/04/dan-mall.html",
 		"date"		:	"2017-04-25",
 		"source"	:	"swissmiss"
+	},
+	{
+		"title"		: 	"Why Every Project Should be a Design Systems Project",
+		"slug"		:	"https://blog.prototypr.io/why-every-project-should-be-a-design-systems-project-9adeae141088",
+		"date"		:	"2017-04-24",
+		"source"	:	"Prototypr.io"
 	},
 	{
 		"title"		: 	"My Problem with The Problem with Atomic CSS",
@@ -281,6 +311,12 @@
 		"slug"		:	"https://timkadlec.com/2017/01/what-i-read-in-2016/",
 		"date"		:	"2017-01-03",
 		"source"	:	"Tim Kadlec"
+	},
+	{
+		"title"		: 	"How to Annotate and Document UX Deliverables",
+		"slug"		:	"http://www.uxbooth.com/articles/how-to-annotate-and-document-ux-deliverables/",
+		"date"		:	"2017-01-03",
+		"source"	:	"UX Booth"
 	},
 	{
 		"title"		: 	"Before dive into React",
