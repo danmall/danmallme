@@ -1,5 +1,35 @@
 [
 	{
+		"title"		: 	"The Future of Design Tools is not Prototyping. Introducing UXPin Systems.",
+		"slug"		:	"https://medium.com/@marcintreder/the-future-of-design-tools-is-not-prototyping-introducing-uxpin-systems-2c937e7ca567",
+		"date"		:	"2017-06-13",
+		"source"	:	"UXPin"
+	},	
+	{
+		"title"		: 	"Lead Your Organization Into The Age of Experience",
+		"slug"		:	"https://www.uie.com/brainsparks/2017/06/07/lead-your-organization-into-the-age-of-experience/",
+		"date"		:	"2017-06-07",
+		"source"	:	"UIE"
+	},
+	{
+		"title"		: 	"Frontend United Conference Athens 2017",
+		"slug"		:	"https://engineering.skroutz.gr//blog/frontend-united-2017-athens/",
+		"date"		:	"2017-06-05",
+		"source"	:	"Skroutz"
+	},
+	{
+		"title"		: 	"Your Tools Don&rsquo;t Define You",
+		"slug"		:	"https://medium.com/user-defenders/your-tools-dont-define-you-you-do-ceb3cb3ad3e0",
+		"date"		:	"2017-06-05",
+		"source"	:	"User Defenders"
+	},
+	{
+		"title"		: 	"The Value of Apprenticeships",
+		"slug"		:	"https://www.trendhunter.com/keynote/superfriendly-academy",
+		"date"		:	"2017-05-31",
+		"source"	:	"Trend Hunter"
+	},
+	{
 		"title"		: 	"Animation in Design Systems &amp; Process",
 		"slug"		:	"https://www.slideshare.net/valhead/animation-in-design-systems-and-process-val-head",
 		"date"		:	"2017-05-26",
