@@ -1,5 +1,11 @@
 [
 	{
+		"title"		: 	"UI22",
+		"slug"		:	"https://ui.uie.com/",
+		"date"		:	"2017-11-13",
+		"location"	:	"Boston, <abbr title=\"Massachusetts\">MA</abbr>"
+	},
+	{
 		"title"		: 	"REVOLVE Conference",
 		"slug"		:	"http://lanyrd.com/2017/revolveconf/",
 		"date"		:	"2017-10-25",
@@ -10,6 +16,19 @@
 		"slug"		:	"https://aneventapart.com/event/washington-dc-2017",
 		"date"		:	"2017-07-10",
 		"location"	:	"Washington, <abbr title=\"District of Columbia\">DC</abbr>"
+	},
+	{
+		"title"		: 	"Designers + Geeks: Purpose &times; Design",
+		"slug"		:	"https://www.eventbrite.com/e/designers-geeks-purpose-x-design-tickets-34875671071",
+		"date"		:	"2017-06-22",
+		"location"	:	"New York City"
+	},
+	{
+		"title"		: 	"What is Your Hourly Rate?",
+		"slug"		:	"https://goodstuff.fm/nbsp/122",
+		"date"		:	"2017-06-22",
+		"type"		:	"Podcast",
+		"audio"		:	true
 	},
 	{
 		"title"		: 	"Frontend United",
