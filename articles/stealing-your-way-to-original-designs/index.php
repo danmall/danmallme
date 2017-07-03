@@ -14,6 +14,11 @@
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>thumb.png" />
 
     <style type="text/css">
+
+        .dm-u-background--gray {
+            background: #f0f0f0;
+        }
+
     </style>
     
 </head>
@@ -79,9 +84,11 @@
 
             <p>Once you can confidently imitate any style you come across, you can start to tweak the elements to feel more custom to the way you need to use it. This step has the least parameters and needs the least guidelines, because it&rsquo;s up to your imagination and the amount of changes you&rsquo;re willing to try.</p>
 
+            <p>I&rsquo;m a firm believer in the idea that <a href="https://www.biblegateway.com/passage/?search=Ecclesiastes%201:9">there&rsquo;s nothing new under the sun</a>. Said differently, <a href="http://everythingisaremix.info/watch-the-series/">everything is a remix</a>. Freed from the pressure that all things designers do need to be original works of art, I can instead focus my efforts on what sources to combine in a unique way that my audience is less accustomed to.</p>
+
             <h2 id="invent">3: Invent <a class="dm-dp-anchorLink" href="#invent">#</a></h2>
 
-            <p>Pablo Picasso is well known for his original Cubist work, but most people don&rsquo;t know that he was an excellent classical artist first. He could draw and paint photorealism as well as any of the great masters, but it wasn&rsquo;t until he got that down that he ventured into his own unknown stylistic territory.  </p>
+            <p>Pablo Picasso is well known for his original Cubist work, but most people don&rsquo;t know that he was an excellent classical artist first. He could draw and paint photorealism as well as any of the great masters, but it wasn&rsquo;t until he got that down that he ventured into his own unknown stylistic territory.</p>
 
             <p>In his Wall Street Journal article, <cite><a href="https://www.wsj.com/articles/SB10001424052748703989304575503730101860838">The Genius of the Tinkerer</a></cite>, author Steven Johnson describes a concept he calls <em>the adjacent possible</em>. He tells the story of a young orthopedic surgeon who, while diving in the Great Barrier Reef, observes a species of coral that seem to be able to heal itself as it breaks. Years later, while operating on a patient, he recalls this coral and its amazing bonding powers. Several years and patents later, his method is the leading way that orthopedic surgeons around the world help their patients mend their broken bones.</p>
 
@@ -114,7 +121,7 @@
 
         </div>
 
-        <div class="dm-c-articleImage dm-u-clearfix" style="background: #f0f0f0;">
+        <div class="dm-c-articleImage dm-u-clearfix dm-u-background--gray">
 
             <div class="dm-l-col--50 dm-u-paddingRight--l">
 
@@ -152,17 +159,233 @@
         </div><!-- .dm-c-articleImage -->
 
 
-
         <div class="dm-dp-textPassage dm-c-articleWell">
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>The first I&rsquo;ll do is stub out each section by simply copying and pasting from my source material into a single document. (I&rsquo;m using Photoshop for this example because it&rsquo;s where I&rsquo;m fastest, but you can use any design app you prefer.) This sets me up with something to imitate.</p>
 
         </div>
+
+
+        <div class="dm-c-articleImage dm-u-clearfix dm-u-background--gray">
+
+            <a href="stub.png"><img src="stub.png" alt="Stubbing out sections using sample" /></a>
+           
+        </div><!-- .dm-c-articleImage -->
+
+
+        <div class="dm-dp-textPassage dm-u-clearfix dm-c-articleWell">
+
+            <img src="witness.jpg" style="margin-left: auto; margin-right: auto;" alt="" />
+
+            <p>Next, I&rsquo;ll trace over my stubbed-out version with simple shapes to get a feel for how it could work together. I&rsquo;ll also start to remix a bit by choosing some new colors. I own this Nike Witness shirt and thought these colors would work well for this subject matter.</p>
+
+        </div>
+
+
+        <div class="dm-c-articleImage dm-u-clearfix dm-u-background--gray">
+
+            <a href="blocked-out.png"><img src="blocked-out.png" alt="Tracing over stubbed-out version" /></a>
+           
+        </div><!-- .dm-c-articleImage -->
+
+
+
+        <div class="dm-dp-textPassage dm-u-clearfix dm-c-articleWell">
+
+            <p>Now I&rsquo;ll fill in some text content by tracing over the text of the original stubs, but trying to unify them by remixing them with the same typeface. I decide on <a href="https://fonts.google.com/specimen/PT+Sans">PT Sans</a> and <a href="https://fonts.google.com/specimen/PT+Mono">PT Mono</a> and use this stage to start working out some sizing of headlines and body copy.</p>
+
+        </div>
+
+
+        <div class="dm-c-articleImage dm-u-clearfix dm-u-background--gray">
+
+            <a href="filled-in.png"><img src="filled-in.png" alt="Filling in text content" /></a>
+           
+        </div><!-- .dm-c-articleImage -->
+
+
+        <div class="dm-dp-textPassage dm-u-clearfix dm-c-articleWell">
+
+            <p>Now that I have a good approximation of all my content, I&rsquo;ll start to draw a grid to be able to organize that content appropriately. My approach to grids has always been to start with content and use the least amount of columns possible. Looking at the Locations section, that&rsquo;s a pretty good candidate for 4 equal-width columns, so I&rsquo;ll start there.</p>
+
+            <p>However, as I look at the top hero and <abbr title="Frequently Asked Questions">FAQ</abbr> areas, I realize that some of those headings need to start in the middle of a column, so I&rsquo;ll split the 4-column grid into 8 columns instead.</p>
+
+            <p>I&rsquo;ve written about using an <a href="https://spec.fm/specifics/8-pt-grid">8-point grid</a> <a href="/articles/cooking-with-design-systems/">before</a>&mdash;which I&rsquo;m using increasingly more in my own work&mdash;so all my spacings and type sizes here are a multiple of 8.</p>
+
+        </div>
+
+
+        <div class="dm-c-articleImage dm-u-clearfix dm-u-background--gray">
+
+            <div class="dm-l-col--50 dm-u-paddingRight--l">
+
+                <figure class="dm-u-marginBottom--l">
+                    <a href="grid4.png"><img src="grid4.png" alt="" /></a>
+                    <figcaption class="dm-u-text--s dm-u-fontStyle--italic">A 4-column grid</figcaption>
+                </figure>
+
+            </div>
+
+            <div class="dm-l-col--50 dm-u-paddingRight--l">
+
+                <figure class="dm-u-marginBottom--l">
+                    <a href="grid8.png"><img src="grid8.png" alt="" /></a>
+                    <figcaption class="dm-u-text--s dm-u-fontStyle--italic">An 8-column grid</figcaption>
+                </figure>        
+
+            </div>
+           
+        </div><!-- .dm-c-articleImage -->
+
+        <div class="dm-dp-textPassage dm-u-clearfix dm-c-articleWell">
+
+            <p>That 8-column grid is looking pretty good everywhere except for the Pricing table. That section contains 5 specific areas:</p>
+
+            <ol>
+                <li>Features</li>
+                <li>Basic</li>
+                <li>Pro</li>
+                <li>Teams</li>
+                <li>Corporate</li>
+            </ol>
+
+            <p>5 sections over 8 columns doesn&rsquo;t divide evenly, so I&rsquo;ll need another split. By subdividing into 16 columns, that&rsquo;ll let me do a 4-column feature listing and 3 columns for each of the plans. 16 columns it is.</p>
+
+        </div>
+
+
+        <div class="dm-c-articleImage dm-u-clearfix dm-u-background--gray">
+
+            <div class="dm-l-col--50 dm-u-paddingRight--l">
+
+                <figure class="dm-u-marginBottom--l">
+                    <a href="grid16.png"><img src="grid16.png" alt="" /></a>
+                    <figcaption class="dm-u-text--s dm-u-fontStyle--italic">A 16-column grid</figcaption>
+                </figure>
+
+            </div>
+
+            <div class="dm-l-col--50 dm-u-paddingRight--l">
+
+                <figure class="dm-u-marginBottom--l">
+                    <a href="grid16-realigned.png"><img src="grid16-realigned.png" alt="" /></a>
+                    <figcaption class="dm-u-text--s dm-u-fontStyle--italic">All content realigned to the new 16-column grid</figcaption>
+                </figure>        
+
+            </div>
+           
+        </div><!-- .dm-c-articleImage -->
+
+
+        <div class="dm-dp-textPassage dm-u-clearfix dm-c-articleWell">
+
+            <p>I&rsquo;m ready to start inserting more of my content into this shell, specifically my own copy and artwork. The key to stealing in a way that leads to something original is that your result needs to be unrecognizable from the source material as much as possible. Take the hero unit for example.</p>
+
+        </div>
+
+
+        <div class="dm-c-articleImage dm-u-clearfix dm-u-background--gray">
+
+            <a href="hero1.png"><img src="hero1.png" alt="Hero unit" /></a>
+           
+        </div><!-- .dm-c-articleImage -->
+
+
+        <div class="dm-dp-textPassage dm-u-clearfix dm-c-articleWell">
+
+            <p>It&rsquo;s easy to compare this to the original source and tell where it came from. Flipping the orientation of elements is a really useful way to to get around that. Let&rsquo;s move the main headline and the call to action to the opposite side of the screen.</p>
+
+        </div>
+
+        <div class="dm-c-articleImage dm-u-clearfix dm-u-background--gray">
+
+            <a href="hero2-flip.png"><img src="hero2-flip.png" alt="Hero unit flipped" /></a>
+           
+        </div><!-- .dm-c-articleImage -->
+
+
+        <div class="dm-dp-textPassage dm-u-clearfix dm-c-articleWell">
+
+            <p>Let&rsquo;s add our own artwork.</p>
+
+        </div>
+
+        <div class="dm-c-articleImage dm-u-clearfix dm-u-background--gray">
+
+            <a href="hero3-artwork.png"><img src="hero3-artwork.png" alt="Hero unit with artwork" /></a>
+           
+        </div><!-- .dm-c-articleImage -->
+
+
+         <div class="dm-dp-textPassage dm-u-clearfix dm-c-articleWell">
+
+            <p>The artwork goes a long way into making this feel original, but there&rsquo;s still one more thing we need to do. That notched-out call to action is such a unique piece that it&rsquo;s become signature to the original source. It still feels like someone could identify the source from that element.</p>
+
+            <p>Instead of notching it out, let&rsquo;s do a colorblocked overlap call-to-action. Once I do that, I realize the opportunity to mirror that visual language on the top left with the logo. Given that the original source is so flat, I&rsquo;ll add a subtle drop shadow to give those elements some depth.</p>
+
+            <p>You can see that, with just a few moves, I&rsquo;ve moved this away from an interface I&rsquo;ve stolen to something that feels way more original.</p>
+
+        </div>
+
+        <div class="dm-c-articleImage dm-u-clearfix dm-u-background--gray">
+
+            <a href="hero4-overlap.png"><img src="hero4-overlap.png" alt="Hero unit with overlapped button and logo" /></a>
+           
+        </div><!-- .dm-c-articleImage -->
+
+
+        <div class="dm-dp-textPassage dm-u-clearfix dm-c-articleWell">
+
+            <p>If I take that approach to each element of this page&mdash;just a few moves each to distinguish it from its original source&mdash;I can easily go from a design I&rsquo;ve stolen to an original version I&rsquo;ve invented on my own.</p>
+
+        </div>
+
+        <div class="dm-c-articleImage dm-u-clearfix dm-u-background--gray">
+
+            <a href="invent.png"><img src="invent.png" alt="Invented comp" /></a>
+           
+        </div><!-- .dm-c-articleImage -->
+
+
+        <div class="dm-dp-textPassage dm-u-clearfix dm-c-articleWell">
+
+            <p>And lastly, a side-by-side comparison for effect.</p>
+
+        </div>
+
+        <div class="dm-c-articleImage dm-u-clearfix dm-u-background--gray">
+
+            <div class="dm-l-col--50 dm-u-paddingRight--l">
+
+                <figure class="dm-u-marginBottom--l">
+                    <a href="stub.png"><img src="stub.png" alt="" /></a>
+                    <figcaption class="dm-u-text--s dm-u-fontStyle--italic">The original stubbed out sources</figcaption>
+                </figure>        
+
+            </div>
+
+            <div class="dm-l-col--50 dm-u-paddingRight--l">
+
+                <figure class="dm-u-marginBottom--l">
+                    <a href="invent.png"><img src="invent.png" alt="" /></a>
+                    <figcaption class="dm-u-text--s dm-u-fontStyle--italic">The final invention</figcaption>
+                </figure>
+
+            </div>
+           
+        </div><!-- .dm-c-articleImage -->
+
+
+        <div class="dm-dp-textPassage dm-u-clearfix dm-c-articleWell">
+
+            <p>I hope this was a useful primer in showing you how to steal you way to an original design. In the words of English philosopher <abbr>C.E.M.</abbr> Joad, &ldquo;Creativity is knowing how to hide your sources.&rdquo; The more obscure your references, the more more sources you combine, the more moves away from the original you can take, the more original your design will become.</p>
+
+            <p>For those that want to dissect the final source file in more detail, you can <a href="spaceZzzz.psd.zip">download the <abbr title="Photoshop Document">PSD</abbr> (51.2MB) here</a>.</p>
+
+            <p>Good luck with your stealing!</p>
+
+        </div>
+
 
         <div class="dm-c-articleWell">
 
