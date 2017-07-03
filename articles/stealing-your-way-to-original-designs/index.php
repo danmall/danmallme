@@ -279,7 +279,7 @@
 
         <div class="dm-dp-textPassage dm-u-clearfix dm-c-articleWell">
 
-            <p>I&rsquo;m ready to start inserting more of my content into this shell, specifically my own copy and artwork. The key to stealing in a way that leads to something original is that your result needs to be unrecognizable from the source material as much as possible. Take the hero unit for example.</p>
+            <p id="fn1-source">I&rsquo;m ready to start inserting more of my content into this shell, specifically my own copy and artwork <sup><a href="#fn1">1</a></sup> . The key to stealing in a way that leads to something original is that your result needs to be unrecognizable from the source material as much as possible. Take the hero unit for example.</p>
 
         </div>
 
@@ -383,6 +383,12 @@
             <p>For those that want to dissect the final source file in more detail, you can <a href="spaceZzzz.psd.zip">download the <abbr title="Photoshop Document">PSD</abbr> (51.2MB) here</a>.</p>
 
             <p>Good luck with your stealing!</p>
+
+            <footer class="dm-c-articleWell_footer dm-dp-sepChunk">
+                <ol class="dm-c-footnotes">
+                    <li id="fn1">The wonderful artwork in this comp was graciously borrowed from artists publishing their work on the web. Credits: <a href="https://www.nasa.gov/mission_pages/shuttle/shuttlemissions/sts122/multimedia/rollout/index.html">NASA STS-122 Rollout</a>, <a href="https://www.pinterest.com/pin/AaxAk5hKXolZVKy7QqcpUNMlh6Unnst_gQdWUSyXLZDgog2BGskQ5OE/">Space/The Beast Below</a>, <a href="http://josephbiwald.deviantart.com/art/Kasai-500924393">Kasai</a> by JosephBiwald, <a href="http://conceptships.blogspot.ca/2015/07/boxxx-3w-by-beeple.html">BOXXX-3W</a> by beeple, <a href="http://retro-futurism.livejournal.com/729408.html">Pioneers Again</a> by Morris Scott Dollens, and <a href="http://pixelschumi.cgsociety.org/art/waterfall-cinema-station-4d-matte-photoshop-painting-vue-stations-1119577">Waterfall Stations</a> by Christian Schumann.</li>
+                </ol>                
+            </footer>
 
         </div>
 
