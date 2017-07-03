@@ -175,7 +175,7 @@
 
         <div class="dm-dp-textPassage dm-c-articleWell">
 
-            <p>The first I&rsquo;ll do is stub out each section by simply copying and pasting from my source material into my gray box document. (I&rsquo;m using Photoshop for this example because it&rsquo;s where I&rsquo;m fastest, but you can use any design app you prefer.) This sets me up with something to imitate.</p>
+            <p>I&rsquo;ll stub out each section by simply copying and pasting from my source material into my gray box document. (I&rsquo;m using Photoshop for this example because it&rsquo;s where I&rsquo;m fastest, but you can use any design app you prefer.) This sets me up with something to imitate and remix.</p>
 
         </div>
 
@@ -206,7 +206,7 @@
 
         <div class="dm-dp-textPassage dm-u-clearfix dm-c-articleWell">
 
-            <p>Now I&rsquo;ll fill in some text content by tracing over the text of the original stubs, but trying to unify them by remixing them with the same typeface. I decide on <a href="https://fonts.google.com/specimen/PT+Sans">PT Sans</a> and <a href="https://fonts.google.com/specimen/PT+Mono">PT Mono</a> and use this stage to start working out some sizing of headlines and body copy.</p>
+            <p>Now I&rsquo;ll fill in some text content by tracing over the text of the original stubs, but trying to unify them by remixing them with the same typeface. I decide on <a href="https://fonts.google.com/specimen/PT+Sans">PT Sans</a> and <a href="https://fonts.google.com/specimen/PT+Mono">PT Mono</a> and use this stage to start working out some sizing of headlines and body copy to rough out my typographic hierarchy.</p>
 
         </div>
 
@@ -220,7 +220,7 @@
 
         <div class="dm-dp-textPassage dm-u-clearfix dm-c-articleWell">
 
-            <p>Now that I have a good approximation of all my content, I&rsquo;ll start to draw a grid to be able to organize that content appropriately. My approach to grids has always been to start with content and use the least amount of columns possible. Looking at the Locations section, that&rsquo;s a pretty good candidate for 4 equal-width columns, so I&rsquo;ll start there.</p>
+            <p>Now that I have a good approximation of all my content, I&rsquo;ll start to draw a grid so I can organize that content appropriately. My approach to grids has always been to <a href="http://www.markboulton.co.uk/journal/a-richer-canvas">start with content</a> and use the least amount of columns possible. Looking at the Locations section, that&rsquo;s a pretty good candidate for 4 equal-width columns, so I&rsquo;ll start there.</p>
 
             <p>However, as I look at the top hero and <abbr title="Frequently Asked Questions">FAQ</abbr> areas, I realize that some of those headings need to start in the middle of a column, so I&rsquo;ll split the 4-column grid into 8 columns instead.</p>
 
