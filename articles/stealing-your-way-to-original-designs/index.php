@@ -115,9 +115,23 @@
                     <li>Contact details </li>
                 </ol>
 
-                <p>Next, I&rsquo;ll start to choose a few reference sources to imitate. This is key:  be sure to choose sources far away from what you&rsquo;re designing. If you&rsquo;re designing a bank site, don&rsquo;t choose another bank site as reference, especially within the same competitive set. Since we may be modeling this after Airbnb, using Airbnb as a reference is probably too close to feel original. One trick I often use is to start smaller. Rather than try to use a whole page as a reference, I&rsquo;ll pick a few different designs to source different elements from.</p>
+                <p>To start, I&rsquo;ll block out these main sections with a few <a href="http://v3.jasonsantamaria.com/archive/2004/05/24/grey_box_method.php">gray boxes</a>.</p>
 
             </section>
+
+        </div>
+
+
+        <div class="dm-c-articleImage dm-u-clearfix dm-u-background--gray">
+
+            <a href="gray-boxes.png"><img src="gray-boxes.png" alt="Gray boxes for page sections" /></a>
+           
+        </div><!-- .dm-c-articleImage -->
+
+
+        <div class="dm-dp-textPassage dm-u-clearfix dm-c-articleWell">
+
+                <p>Next, I&rsquo;ll start to choose a few reference sources to imitate. This is key:  be sure to choose sources far away from what you&rsquo;re designing. If you&rsquo;re designing a bank site, don&rsquo;t choose another bank site as reference, especially within the same competitive set. Since we may be modeling this after Airbnb, using Airbnb as a reference is probably too close to feel original. One trick I often use is to start smaller. Rather than try to use a whole page as a reference, I&rsquo;ll pick a few different designs to source different elements from.</p>
 
         </div>
 
@@ -161,7 +175,7 @@
 
         <div class="dm-dp-textPassage dm-c-articleWell">
 
-            <p>The first I&rsquo;ll do is stub out each section by simply copying and pasting from my source material into a single document. (I&rsquo;m using Photoshop for this example because it&rsquo;s where I&rsquo;m fastest, but you can use any design app you prefer.) This sets me up with something to imitate.</p>
+            <p>The first I&rsquo;ll do is stub out each section by simply copying and pasting from my source material into my gray box document. (I&rsquo;m using Photoshop for this example because it&rsquo;s where I&rsquo;m fastest, but you can use any design app you prefer.) This sets me up with something to imitate.</p>
 
         </div>
 
