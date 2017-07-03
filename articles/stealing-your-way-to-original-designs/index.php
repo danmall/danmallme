@@ -392,7 +392,7 @@
 
         <div class="dm-dp-textPassage dm-u-clearfix dm-c-articleWell">
 
-            <p>I hope this was a useful primer in showing you how to steal you way to an original design. In the words of English philosopher <abbr>C.E.M.</abbr> Joad, &ldquo;Creativity is knowing how to hide your sources.&rdquo; The more obscure your references, the more more sources you combine, the more moves away from the original you can take, the more original your design will become.</p>
+            <p>I hope this was a useful primer in showing you how to steal you way to an original design. In the words of English philosopher <abbr>C.E.M.</abbr> Joad, &ldquo;Creativity is knowing how to hide your sources.&rdquo; The more obscure your references, the more sources you combine, the more moves away from the original you can take, the more original your design will become.</p>
 
             <p>For those that want to dissect the final source file in more detail, you can <a href="spaceZzzz.psd.zip">download the <abbr title="Photoshop Document">PSD</abbr> (51.2MB) here</a>.</p>
 
