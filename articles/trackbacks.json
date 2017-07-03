@@ -1,12 +1,42 @@
 [
 	{
-		"title"		: 	"The Future of Design Tools is not Prototyping. Introducing UXPin Systems.",
+		"title"		: 	"How to Meaningfully Use Your Mornings: Daily Rituals of Successful Creatives",
+		"slug"		:	"http://www.core77.com//posts/67208/How-to-Meaningfully-Use-Your-Mornings-Daily-Rituals-of-Successful-Creatives",
+		"date"		:	"2017-06-30",
+		"source"	:	"Core77"
+	},
+	{
+		"title"		: 	"How to Meaningfully Use Your Mornings: Daily Rituals of Successful Creatives",
+		"slug"		:	"http://www.coroflot.com/blog/67256/How-to-Meaningfully-Use-Your-Mornings-Daily-Rituals-of-Successful-Creatives",
+		"date"		:	"2017-06-30",
+		"source"	:	"Coroflot"
+	},
+	{
+		"title"		: 	"On Design Systems: Dan Mall Of SuperFriendly",
+		"slug"		:	"https://bigmedium.com/ideas/links/dan-mall-on-design-systems.html",
+		"date"		:	"2017-06-28",
+		"source"	:	"Big Medium"
+	},
+	{
+		"title"		: 	"The Tools I Use",
+		"slug"		:	"https://aneventapart.com/news/post/dan-mall-the-tools-i-use",
+		"date"		:	"2017-06-28",
+		"source"	:	"An Event Apart"
+	},	
+	{
+		"title"		: 	"How to get paid on time as a freelancer",
+		"slug"		:	"https://www.letssail.co/blog/get-paid-on-time",
+		"date"		:	"2017-06-26",
+		"source"	:	"Sail"
+	},	
+	{
+		"title"		: 	"The Future of Design Tools is not Prototyping. Introducing UXPin Systems",
 		"slug"		:	"https://www.uxpin.com/studio/design-systems/future-design-tools-isnt-prototyping-introducing-systems-uxpin/",
 		"date"		:	"2017-06-13",
 		"source"	:	"UXPin"
 	},	
 	{
-		"title"		: 	"The Future of Design Tools is not Prototyping. Introducing UXPin Systems.",
+		"title"		: 	"The Future of Design Tools is not Prototyping. Introducing UXPin Systems",
 		"slug"		:	"https://medium.com/@marcintreder/the-future-of-design-tools-is-not-prototyping-introducing-uxpin-systems-2c937e7ca567",
 		"date"		:	"2017-06-13",
 		"source"	:	"UXPin (Medium)"
@@ -457,6 +487,12 @@
 		"slug"		:	"http://johnpolacek.com/content-display-patterns/",
 		"date"		:	"2016-03-01",
 		"source"	:	"John Polacek"
+	},
+	{
+		"title"		: 	"Patterns in Learning Experience Design",
+		"slug"		:	"http://www.knanthony.com/blog/patterns-in-learning-experience-design/",
+		"date"		:	"2016-02-23",
+		"source"	:	"Kristin Anthony"
 	},
 	{
 		"title"		: 	"Quipsology No. 29",

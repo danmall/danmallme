@@ -10,7 +10,7 @@
     <meta name="twitter:site" content="@danmall" />
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
     <meta name="twitter:title" property="og:title" content="Stealing Your Way to Original Designs" />
-    <meta name="twitter:description" property="og:description" content="Pilots are a great way to start a design system." />
+    <meta name="twitter:description" property="og:description" content="There&rsquo;s nothing new under the sun." />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>thumb.png" />
 
     <style type="text/css">
@@ -41,7 +41,7 @@
             Stealing Your Way to Original Designs
         </h1>
 
-        <h2 class="dm-c-pageHeader_date">July 2, 2017 at 11:20 <abbr title="Ante Meridien">AM</abbr></h2>
+        <h2 class="dm-c-pageHeader_date">July 3, 2017 at 6:01 <abbr title="Ante Meridien">AM</abbr></h2>
 
     </header><!-- .page-header -->
 

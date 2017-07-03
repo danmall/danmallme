@@ -1,5 +1,18 @@
 [
 	{
+		"title"	: 	"Stealing Your Way to Original Designs",
+		"slug"	:	"stealing-your-way-to-original-designs",
+		"dek"	:	"There&rsquo;s nothing new under the sun.",
+		"date"	:	"2017-07-03 06:01:00",
+		"tags"	:	[
+			"design",
+			"originality",
+			"creativity",
+			"remix",
+			"inspiration"
+		]
+	},
+	{
 		"title"	: 	"Design Systems: Pilots &amp; Scorecards",
 		"slug"	:	"design-systems-pilots-scorecards",
 		"dek"	:	"Pilots are a great way to start a design system.",
