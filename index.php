@@ -108,7 +108,7 @@
     	<h1 class="dm-dp-boxedHeadline dm-u-marginBottom--xl">Latest Articles</h1>
 
         <div class="dm-c-articlesList">
-            <?php parseList($_SERVER["DOCUMENT_ROOT"].'/articles/articles.json', 4, 'abridged', 'large'); ?>
+            <?php parseList($_SERVER["DOCUMENT_ROOT"].'/articles/articles.json', 3, 'abridged', 'large'); ?>
         </div>
 
     	<p class="dm-dp-seeAll dm-dp-sepChunk dm-u-clear--both">
