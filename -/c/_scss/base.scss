@@ -241,10 +241,11 @@ b {
 abbr, 
 abbr[title], 
 acronym { 
+	border: none; 
 	font-size: 75%; 
 	letter-spacing: 0.2em; 
 	text-transform: uppercase; 
-	border: none; 
+	text-decoration: none;	
 }
 
 code,

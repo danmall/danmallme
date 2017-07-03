@@ -18,6 +18,13 @@
 		"location"	:	"Washington, <abbr title=\"District of Columbia\">DC</abbr>"
 	},
 	{
+		"title"		: 	"The Great Debate: Time &amp; Materials Versus Value Pricing",
+		"slug"		:	"http://bureauofdigital.com/blog/2017/6/27/the-great-debate-time-materials-versus-value-pricing",
+		"date"		:	"2017-06-27",
+		"video"		:	true,
+		"type"		:	"online"
+	},
+	{
 		"title"		: 	"Designers + Geeks: Purpose &times; Design",
 		"slug"		:	"https://www.eventbrite.com/e/designers-geeks-purpose-x-design-tickets-34875671071",
 		"date"		:	"2017-06-22",
