@@ -401,6 +401,9 @@
             <footer class="dm-c-articleWell_footer dm-dp-sepChunk">
                 <ol class="dm-c-footnotes">
                     <li id="fn1">The wonderful artwork in this comp was graciously borrowed from artists publishing their work on the web. Credits: <a href="https://www.nasa.gov/mission_pages/shuttle/shuttlemissions/sts122/multimedia/rollout/index.html">NASA STS-122 Rollout</a>, <a href="https://www.pinterest.com/pin/AaxAk5hKXolZVKy7QqcpUNMlh6Unnst_gQdWUSyXLZDgog2BGskQ5OE/">Space/The Beast Below</a>, <a href="http://josephbiwald.deviantart.com/art/Kasai-500924393">Kasai</a> by JosephBiwald, <a href="http://conceptships.blogspot.ca/2015/07/boxxx-3w-by-beeple.html">BOXXX-3W</a> by beeple, <a href="http://retro-futurism.livejournal.com/729408.html">Pioneers Again</a> by Morris Scott Dollens, and <a href="http://pixelschumi.cgsociety.org/art/waterfall-cinema-station-4d-matte-photoshop-painting-vue-stations-1119577">Waterfall Stations</a> by Christian Schumann.</li>
+                    <li>Also <a href="https://medium.com/@danielmall/stealing-your-way-to-original-designs-49291150c999">syndicated to Medium</a>.</li>
+                    <li>Designer <a href="http://twitter.com/RossFloate">Ross Floate</a> wrote <cite><a href="https://rossfloate.com/2017/07/06/pretty-urls-make-graves/">Pretty <abbr title="Uniform Resource Locator">URL</abbr>s Make Graves</a></cite>, a rebuttal to this article.</li>
+                    <li>Developer <a href="http://twitter.com/markhuot">Mark Huot</a> used these files as an exercise to learn more about React. Follow along on <a href="https://github.com/markhuot/interplanetary">the interplanetary Github repo</a>.</li>
                 </ol>                
             </footer>
 
