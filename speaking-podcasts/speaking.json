@@ -39,9 +39,10 @@
 	},
 	{
 		"title"		: 	"Frontend United",
-		"slug"		:	"https://frontendunited.org/",
+		"slug"		:	"https://www.youtube.com/watch?v=CCy9T92R7Xk",
 		"date"		:	"2017-05-26",
-		"location"	:	"Athens, Greece"
+		"location"	:	"Athens, Greece",
+		"video"		:	true
 	},
 	{
 		"title"		: 	"Louder Than Ten",
