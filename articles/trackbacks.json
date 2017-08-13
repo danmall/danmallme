@@ -1,5 +1,65 @@
 [
 	{
+		"title"		: 	"Summer Listening: 5 Revolve Conference Speaker Interview Podcasts",
+		"slug"		:	"https://www.marketing-mentor.com/blogs/news/summer-listening-5-revolve-conference-speaker-interview-podcasts",
+		"date"		:	"2017-08-11",
+		"source"	:	"Marketing Mentor"
+	},
+	{
+		"title"		: 	"Design Your Leadership to Live Beyond You",
+		"slug"		:	"https://medium.com/@freshtilledsoil/design-your-leadership-to-live-beyond-you-18319368f08",
+		"date"		:	"2017-08-02",
+		"source"	:	"Richard Banfield"
+	},
+	{
+		"title"		: 	"Dan Mall - &ldquo;Stealing Your way to Original Designs&rdquo; (also features a great breakdown of a design process)",
+		"slug"		:	"https://www.reddit.com/r/web_design/comments/6oeod6/dan_mall_stealing_your_way_to_original_designs/",
+		"date"		:	"2017-07-20",
+		"source"	:	"Reddit"
+	},
+	{
+		"title"		: 	"Dann Petty&mdash;Freelancer",
+		"slug"		:	"https://interfacelovers.com/interviews/dann-petty",
+		"date"		:	"2017-07-16",
+		"source"	:	"Interface Lovers"
+	},
+	{
+		"title"		: 	"Stealing Your Way to Original Designs",
+		"slug"		:	"http://www.webdesignernews.com/comment/stealing-your-way-to-original-designs",
+		"date"		:	"2017-07-12",
+		"source"	:	"Webdesigner News"
+	},
+	{
+		"title"		: 	"Stealing Your Way to Original Designs",
+		"slug"		:	"https://www.designernews.co/stories/85401-stealing-your-way-to-original-designs",
+		"date"		:	"2017-07-12",
+		"source"	:	"Designer News"
+	},
+	{
+		"title"		: 	"Day One at An Event Apart DC",
+		"slug"		:	"http://www.uxbooth.com/articles/day-one-an-event-apart-dc-2017/",
+		"date"		:	"2017-07-11",
+		"source"	:	"UX Booth"
+	},
+	{
+		"title"		: 	"Issue 143",
+		"slug"		:	"http://uxdesignweekly.com/issue-143/",
+		"date"		:	"2017-07-10",
+		"source"	:	"UX Design Weekly"
+	},
+	{
+		"title"		: 	"Design Resources",
+		"slug"		:	"http://designresources.party/",
+		"date"		:	"2017-07-10",
+		"source"	:	"Design Resources"
+	},
+	{
+		"title"		: 	"07.06.17",
+		"slug"		:	"http://www.accesspublicrelations.net/design/page/2/",
+		"date"		:	"2017-07-06",
+		"source"	:	"Creative Inspiration &amp; Resources"
+	},
+	{
 		"title"		: 	"How to Meaningfully Use Your Mornings: Daily Rituals of Successful Creatives",
 		"slug"		:	"http://www.core77.com//posts/67208/How-to-Meaningfully-Use-Your-Mornings-Daily-Rituals-of-Successful-Creatives",
 		"date"		:	"2017-06-30",
@@ -620,6 +680,12 @@
 		"slug"		:	"https://blog.wsol.com/using-element-collages-to-improve-the-design-process",
 		"date"		:	"2014-08-22",
 		"source"	:	"WSOL"
+	},
+	{
+		"title"		: 	"Speaking Up",
+		"slug"		:	"https://medium.com/@samkap/speaking-up-25c29576574",
+		"date"		:	"2014-08-04",
+		"source"	:	"Sam Kapila"
 	},
 	{
 		"title"		: 	"Responsive Web Design is Hard/Easy",
