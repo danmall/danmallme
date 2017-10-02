@@ -1,5 +1,29 @@
 [
 	{
+		"title"		: 	"About Face: How About.com Changed its Design Process and became Dotdash",
+		"slug"		:	"https://medium.com/user-interface-22/about-face-how-about-com-changed-its-design-process-and-became-dotdash-e211260f8a8e",
+		"date"		:	"2017-09-07",
+		"source"	:	"User Interface 22"
+	},
+	{
+		"title"		: 	"How A Book Apart Became an Iconic Publisher in the Design Industry",
+		"slug"		:	"https://envato.com/blog/book-apart-became-iconic-publisher-design-industry/",
+		"date"		:	"2017-08-29",
+		"source"	:	"Envato"
+	},
+	{
+		"title"		: 	"Design &amp; Vulnerability",
+		"slug"		:	"http://owltastic.com/design-vulnerability/",
+		"date"		:	"2017-08-25",
+		"source"	:	"Owltastic"
+	},
+	{
+		"title"		: 	"Pricing Strategy 101: Discover the right way to charge what you&rsquo;re worth",
+		"slug"		:	"https://streamtime.net/blog/pricing-strategy-101-discover-the-right-way-to-charge-what-youre-worth/",
+		"date"		:	"2017-08-17",
+		"source"	:	"Streamtime"
+	},
+	{
 		"title"		: 	"Summer Listening: 5 Revolve Conference Speaker Interview Podcasts",
 		"slug"		:	"https://www.marketing-mentor.com/blogs/news/summer-listening-5-revolve-conference-speaker-interview-podcasts",
 		"date"		:	"2017-08-11",
@@ -130,6 +154,12 @@
 		"slug"		:	"https://www.slideshare.net/valhead/animation-in-design-systems-and-process-val-head",
 		"date"		:	"2017-05-26",
 		"source"	:	"Val Head"
+	},
+	{
+		"title"		: 	"Having really specific things to work on empowers designers more than it makes them feel constrained",
+		"slug"		:	"http://attackthefront.com/2016/having-really-specific-things-to-work-on/",
+		"date"		:	"2017-05-23",
+		"source"	:	"Attack the Front"
 	},
 	{
 		"title"		: 	"Getting a seat at the table: talking internships, apprenticeships &amp; mentorships with Dan Mall",
