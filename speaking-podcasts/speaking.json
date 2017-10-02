@@ -12,6 +12,19 @@
 		"location"	:	"Charleston, <abbr title=\"South Carolina\">SC</abbr>"
 	},
 	{
+		"title"		: 	"Dribbble Hang Time Boston",
+		"slug"		:	"https://dribbble.com/hangtime",
+		"date"		:	"2017-10-04",
+		"location"	:	"Boston, <abbr title=\"Massachusetts\">MA</abbr>"
+	},
+	{
+		"title"		: 	"Marketing Mentor Podcast &amp; Interview with Dan Mall",
+		"slug"		:	"https://2017.revolveconference.com/podcasts/marketing-mentor-podcast-interview-with-dan-mall/",
+		"date"		:	"2017-09-27",
+		"type"		:	"Podcast",
+		"audio"		:	true
+	},
+	{
 		"title"		: 	"An Event Apart",
 		"slug"		:	"https://aneventapart.com/event/washington-dc-2017",
 		"date"		:	"2017-07-10",
