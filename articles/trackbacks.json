@@ -1,5 +1,29 @@
 [
 	{
+		"title"		: 	"The ultimate guide to productivity in the workplace and doing more meaningful work",
+		"slug"		:	"http://blog.rescuetime.com/productivity-in-the-workplace/",
+		"date"		:	"2017-10-17",
+		"source"	:	"RescueTime"
+	},
+	{
+		"title"		: 	"13 Examples of the Best Email Newsletters From Around the Web",
+		"slug"		:	"http://www.business2community.com/email-marketing/13-examples-best-email-newsletters-around-web-01831746#mDBD5vyEeHrsQZEp.97",
+		"date"		:	"2017-10-17",
+		"source"	:	"Business2Community"
+	},
+	{
+		"title"		: 	"Hang Time Wrap‑Up",
+		"slug"		:	"https://dribbble.com/stories/2017/10/13/hang-time-wrap-up",
+		"date"		:	"2017-10-13",
+		"source"	:	"Dribbble"
+	},
+	{
+		"title"		: 	"Insights for Aspiring Product Designers",
+		"slug"		:	"https://medium.com/@whitespacecrew/insights-for-aspiring-product-designers-2e8ed4f97ade",
+		"date"		:	"2017-10-06",
+		"source"	:	"Whitespace"
+	},
+	{
 		"title"		: 	"About Face: How About.com Changed its Design Process and became Dotdash",
 		"slug"		:	"https://medium.com/user-interface-22/about-face-how-about-com-changed-its-design-process-and-became-dotdash-e211260f8a8e",
 		"date"		:	"2017-09-07",
