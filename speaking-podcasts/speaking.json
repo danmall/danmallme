@@ -32,6 +32,13 @@
 		"audio"		:	true
 	},
 	{
+		"title"		: 	"Friends Talk Frontend",
+		"slug"		:	"https://simplecast.com/s/7d929415",
+		"date"		:	"2017-07-14",
+		"type"		:	"Podcast",
+		"audio"		:	true
+	},
+	{
 		"title"		: 	"An Event Apart",
 		"slug"		:	"https://aneventapart.com/event/washington-dc-2017",
 		"date"		:	"2017-07-10",
