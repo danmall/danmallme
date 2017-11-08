@@ -1,9 +1,39 @@
 [
 	{
+		"title"		: 	"An Event Apart",
+		"slug"		:	"https://aneventapart.com/event/orlando-2018",
+		"date"		:	"2018-10-08",
+		"location"	:	"Orlando, <abbr title=\"Florida\">FL</abbr>"
+	},
+	{
+		"title"		: 	"An Event Apart",
+		"slug"		:	"https://aneventapart.com/event/washington-dc-2018",
+		"date"		:	"2018-07-30",
+		"location"	:	"Washington <abbr title=\"District of Columbia\">DC</abbr>"
+	},
+	{
+		"title"		: 	"Smashing Conference",
+		"slug"		:	"https://smashingconf.com/toronto-2018/",
+		"date"		:	"2018-06-26",
+		"location"	:	"Toronto"
+	},
+	{
+		"title"		: 	"Generate Conference",
+		"slug"		:	"https://www.generateconf.com/new-york",
+		"date"		:	"2018-04-26",
+		"location"	:	"New York"
+	},
+	{
 		"title"		: 	"UI22",
 		"slug"		:	"https://ui.uie.com/",
 		"date"		:	"2017-11-13",
 		"location"	:	"Boston, <abbr title=\"Massachusetts\">MA</abbr>"
+	},
+	{
+		"title"		: 	"Rethinking Full Stack: Cost and Compromise",
+		"slug"		:	"https://gymnasium.github.io/cms/events/rethinking_full_stack/",
+		"date"		:	"2017-11-09",
+		"type"		:	"online"
 	},
 	{
 		"title"		: 	"REVOLVE Conference",
