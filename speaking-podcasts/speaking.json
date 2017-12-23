@@ -24,6 +24,12 @@
 		"location"	:	"New York"
 	},
 	{
+		"title"		: 	"LoopConf",
+		"slug"		:	"https://loopconf.com/",
+		"date"		:	"2018-02-21",
+		"location"	:	"Salt Lake City"
+	},
+	{
 		"title"		: 	"UI22",
 		"slug"		:	"https://ui.uie.com/",
 		"date"		:	"2017-11-13",
