@@ -1,5 +1,35 @@
 [
 	{
+		"title"		: 	"How to price your design project",
+		"slug"		:	"http://www.creativebloq.com/news/how-to-price-your-design-project",
+		"date"		:	"2017-12-05",
+		"source"	:	"Creative Bloq"
+	},
+	{
+		"title"		: 	"Design Systems Handbook",
+		"slug"		:	"https://www.designbetter.co/design-systems-handbook",
+		"date"		:	"2017-11-28",
+		"source"	:	"InVision"
+	},
+	{
+		"title"		: 	"How execs like Elon Musk and Richard Branson get more done in 24 hours than the rest of us",
+		"slug"		:	"http://www.businessinsider.com/how-execs-get-more-done-in-24-hours-than-the-rest-of-us-2017-11",
+		"date"		:	"2017-11-21",
+		"source"	:	"Business Insider"
+	},
+	{
+		"title"		: 	"Elon Musk Has 24 Hours in a Day. So Do You. Here&rsquo;s How He Gets More Done",
+		"slug"		:	"https://www.inc.com/jory-mackay/elon-musk-has-24-hours-in-a-day-so-do-you-heres-how-he-gets-more-done.html",
+		"date"		:	"2017-11-21",
+		"source"	:	"Inc"
+	},
+	{
+		"title"		: 	"Generate New York is back for 2018",
+		"slug"		:	"http://www.creativebloq.com/news/generate-new-york-is-back-for-2018",
+		"date"		:	"2017-11-16",
+		"source"	:	"Creative Bloq"
+	},
+	{
 		"title"		: 	"The ultimate guide to productivity in the workplace and doing more meaningful work",
 		"slug"		:	"http://blog.rescuetime.com/productivity-in-the-workplace/",
 		"date"		:	"2017-10-17",
