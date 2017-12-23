@@ -123,7 +123,7 @@
                     </tr>
                     <tr>
                         <td class="dm-u-align--center">JavaScript</td>
-                        <td class="dm-u-align--center">2:00pm&ndash;5:00am</td>
+                        <td class="dm-u-align--center">2:00pm&ndash;5:00pm</td>
                     </tr>
                     <tr>
                         <th rowspan="5" scope="row" class="dm-u-align--left dm-u-font--bold">Tuesday</th>
@@ -143,7 +143,7 @@
                     </tr>
                     <tr>
                         <td class="dm-u-align--center">JavaScript</td>
-                        <td class="dm-u-align--center">2:00pm&ndash;5:00am</td>
+                        <td class="dm-u-align--center">2:00pm&ndash;5:00pm</td>
                     </tr>
                     <tr>
                         <th rowspan="5" scope="row" class="dm-u-align--left dm-u-font--bold">Wednesday</th>
@@ -163,7 +163,7 @@
                     </tr>
                     <tr>
                         <td class="dm-u-align--center">JavaScript</td>
-                        <td class="dm-u-align--center">2:00pm&ndash;5:00am</td>
+                        <td class="dm-u-align--center">2:00pm&ndash;5:00pm</td>
                     </tr>
                     <tr>
                         <th rowspan="5" scope="row" class="dm-u-align--left dm-u-font--bold">Thursday</th>
@@ -183,7 +183,7 @@
                     </tr>
                     <tr>
                         <td class="dm-u-align--center">JavaScript</td>
-                        <td class="dm-u-align--center">2:00pm&ndash;5:00am</td>
+                        <td class="dm-u-align--center">2:00pm&ndash;5:00pm</td>
                     </tr>
                     <tr>
                         <th rowspan="5" scope="row" class="dm-u-align--left dm-u-font--bold">Friday</th>
@@ -203,7 +203,7 @@
                     </tr>
                     <tr>
                         <td class="dm-u-align--center">JavaScript</td>
-                        <td class="dm-u-align--center">2:00pm&ndash;5:00am</td>
+                        <td class="dm-u-align--center">2:00pm&ndash;5:00pm</td>
                     </tr>
                 </tbody>
             </table>
@@ -245,7 +245,7 @@
                     </tr>
                     <tr>
                         <td colspan="2" class="dm-u-align--center">JavaScript</td>
-                        <td class="dm-u-align--center">2:00pm&ndash;5:00am</td>
+                        <td class="dm-u-align--center">2:00pm&ndash;5:00pm</td>
                     </tr>
                 </tbody>
             </table>
