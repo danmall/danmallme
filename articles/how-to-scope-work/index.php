@@ -14,6 +14,15 @@
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/thumb.png" />
 
     <style type="text/css">
+
+        .dm-dp-tableWrapper {
+            overflow-x: scroll;
+        }
+
+        .dm-dp-tableWrapper table {
+            min-width: 440px;
+        }
+
     </style>
     
 </head>
@@ -70,185 +79,191 @@
 
             <p>Let&rsquo;s take the simple example from earlier: building a website in 5 days. If it&rsquo;s a 5-page website, our basic math skills (5 pages &divide; 5 days) tell us that we need to average building about 1 page per day. So far, our workload would look like this:</p>
 
-            <table class="dm-u-marginTop--l">
-                <thead>
-                    <tr>
-                        <th>&nbsp;</th>
-                        <th scope="col" class="dm-u-font--bold">Workload</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row" class="dm-u-align--left dm-u-font--bold">Monday</th>
-                        <td class="dm-u-align--center">1 page</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" class="dm-u-align--left dm-u-font--bold">Tuesday</th>
-                        <td class="dm-u-align--center">1 page</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" class="dm-u-align--left dm-u-font--bold">Wednesday</th>
-                        <td class="dm-u-align--center">1 page</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" class="dm-u-align--left dm-u-font--bold">Thursday</th>
-                        <td class="dm-u-align--center">1 page</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" class="dm-u-align--left dm-u-font--bold">Friday</th>
-                        <td class="dm-u-align--center">1 page</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="dm-dp-tableWrapper">
+                <table class="dm-u-marginTop--l">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th scope="col" class="dm-u-font--bold">Workload</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="dm-u-align--left dm-u-font--bold">Monday</th>
+                            <td class="dm-u-align--center">1 page</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="dm-u-align--left dm-u-font--bold">Tuesday</th>
+                            <td class="dm-u-align--center">1 page</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="dm-u-align--left dm-u-font--bold">Wednesday</th>
+                            <td class="dm-u-align--center">1 page</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="dm-u-align--left dm-u-font--bold">Thursday</th>
+                            <td class="dm-u-align--center">1 page</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="dm-u-align--left dm-u-font--bold">Friday</th>
+                            <td class="dm-u-align--center">1 page</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
             <p>But we can break that down even further, because building a page has three components to it: <abbr title="HyperText Marktup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, and JavaScript. So, let&rsquo;s divide a typical 9am&ndash;5pm workday into four parts (because lunch is incredibly important too, kids):</p>
 
-            <table class="dm-u-marginTop--l">
-                <tbody>
-                    <tr>
-                        <th rowspan="5" scope="row" class="dm-u-align--left dm-u-font--bold">Monday</th>
-                        <td colspan="2" class="dm-u-align--center">Page 1</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">HTML</td>
-                        <td class="dm-u-align--center">9:00am&ndash;11:00am</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">CSS</td>
-                        <td class="dm-u-align--center">11:00am&ndash;1:00pm</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">Lunch</td>
-                        <td class="dm-u-align--center">1:00pm&ndash;2:00pm</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">JavaScript</td>
-                        <td class="dm-u-align--center">2:00pm&ndash;5:00pm</td>
-                    </tr>
-                    <tr>
-                        <th rowspan="5" scope="row" class="dm-u-align--left dm-u-font--bold">Tuesday</th>
-                        <td colspan="2" class="dm-u-align--center">Page 2</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">HTML</td>
-                        <td class="dm-u-align--center">9:00am&ndash;11:00am</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">CSS</td>
-                        <td class="dm-u-align--center">11:00am&ndash;1:00pm</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">Lunch</td>
-                        <td class="dm-u-align--center">1:00pm&ndash;2:00pm</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">JavaScript</td>
-                        <td class="dm-u-align--center">2:00pm&ndash;5:00pm</td>
-                    </tr>
-                    <tr>
-                        <th rowspan="5" scope="row" class="dm-u-align--left dm-u-font--bold">Wednesday</th>
-                        <td colspan="2" class="dm-u-align--center">Page 3</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">HTML</td>
-                        <td class="dm-u-align--center">9:00am&ndash;11:00am</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">CSS</td>
-                        <td class="dm-u-align--center">11:00am&ndash;1:00pm</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">Lunch</td>
-                        <td class="dm-u-align--center">1:00pm&ndash;2:00pm</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">JavaScript</td>
-                        <td class="dm-u-align--center">2:00pm&ndash;5:00pm</td>
-                    </tr>
-                    <tr>
-                        <th rowspan="5" scope="row" class="dm-u-align--left dm-u-font--bold">Thursday</th>
-                        <td colspan="2" class="dm-u-align--center">Page 4</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">HTML</td>
-                        <td class="dm-u-align--center">9:00am&ndash;11:00am</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">CSS</td>
-                        <td class="dm-u-align--center">11:00am&ndash;1:00pm</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">Lunch</td>
-                        <td class="dm-u-align--center">1:00pm&ndash;2:00pm</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">JavaScript</td>
-                        <td class="dm-u-align--center">2:00pm&ndash;5:00pm</td>
-                    </tr>
-                    <tr>
-                        <th rowspan="5" scope="row" class="dm-u-align--left dm-u-font--bold">Friday</th>
-                        <td colspan="2" class="dm-u-align--center">Page 5</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">HTML</td>
-                        <td class="dm-u-align--center">9:00am&ndash;11:00am</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">CSS</td>
-                        <td class="dm-u-align--center">11:00am&ndash;1:00pm</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">Lunch</td>
-                        <td class="dm-u-align--center">1:00pm&ndash;2:00pm</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">JavaScript</td>
-                        <td class="dm-u-align--center">2:00pm&ndash;5:00pm</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="dm-dp-tableWrapper">
+                <table class="dm-u-marginTop--l">
+                    <tbody>
+                        <tr>
+                            <th rowspan="5" scope="row" class="dm-u-align--left dm-u-font--bold">Monday</th>
+                            <td colspan="2" class="dm-u-align--center">Page 1</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">HTML</td>
+                            <td class="dm-u-align--center">9:00am&ndash;11:00am</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">CSS</td>
+                            <td class="dm-u-align--center">11:00am&ndash;1:00pm</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">Lunch</td>
+                            <td class="dm-u-align--center">1:00pm&ndash;2:00pm</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">JavaScript</td>
+                            <td class="dm-u-align--center">2:00pm&ndash;5:00pm</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="5" scope="row" class="dm-u-align--left dm-u-font--bold">Tuesday</th>
+                            <td colspan="2" class="dm-u-align--center">Page 2</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">HTML</td>
+                            <td class="dm-u-align--center">9:00am&ndash;11:00am</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">CSS</td>
+                            <td class="dm-u-align--center">11:00am&ndash;1:00pm</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">Lunch</td>
+                            <td class="dm-u-align--center">1:00pm&ndash;2:00pm</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">JavaScript</td>
+                            <td class="dm-u-align--center">2:00pm&ndash;5:00pm</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="5" scope="row" class="dm-u-align--left dm-u-font--bold">Wednesday</th>
+                            <td colspan="2" class="dm-u-align--center">Page 3</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">HTML</td>
+                            <td class="dm-u-align--center">9:00am&ndash;11:00am</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">CSS</td>
+                            <td class="dm-u-align--center">11:00am&ndash;1:00pm</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">Lunch</td>
+                            <td class="dm-u-align--center">1:00pm&ndash;2:00pm</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">JavaScript</td>
+                            <td class="dm-u-align--center">2:00pm&ndash;5:00pm</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="5" scope="row" class="dm-u-align--left dm-u-font--bold">Thursday</th>
+                            <td colspan="2" class="dm-u-align--center">Page 4</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">HTML</td>
+                            <td class="dm-u-align--center">9:00am&ndash;11:00am</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">CSS</td>
+                            <td class="dm-u-align--center">11:00am&ndash;1:00pm</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">Lunch</td>
+                            <td class="dm-u-align--center">1:00pm&ndash;2:00pm</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">JavaScript</td>
+                            <td class="dm-u-align--center">2:00pm&ndash;5:00pm</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="5" scope="row" class="dm-u-align--left dm-u-font--bold">Friday</th>
+                            <td colspan="2" class="dm-u-align--center">Page 5</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">HTML</td>
+                            <td class="dm-u-align--center">9:00am&ndash;11:00am</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">CSS</td>
+                            <td class="dm-u-align--center">11:00am&ndash;1:00pm</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">Lunch</td>
+                            <td class="dm-u-align--center">1:00pm&ndash;2:00pm</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">JavaScript</td>
+                            <td class="dm-u-align--center">2:00pm&ndash;5:00pm</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
             <p>This is much better! The specificity here can help to assess if this is a realistic plan. But we can break it down even further.</p>
 
             <p>Let&rsquo;s say the first page has 4 different sections. We can average the time to write the markup for each section, for example:</p>
 
-            <table class="dm-u-marginTop--l">
-                <tbody>
-                    <tr>
-                        <th rowspan="9" scope="row" class="dm-u-align--left dm-u-font--bold">Monday</th>
-                        <td colspan="3" class="dm-u-align--center">Page 1</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="4" class="dm-u-align--center">HTML</td>
-                        <td class="dm-u-align--center">Section 1</td>
-                        <td class="dm-u-align--center">9:00am&ndash;9:30am</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">Section 2</td>
-                        <td class="dm-u-align--center">9:30am&ndash;10:00am</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">Section 3</td>
-                        <td class="dm-u-align--center">10:00am&ndash;10:30am</td>
-                    </tr>
-                    <tr>
-                        <td class="dm-u-align--center">Section 4</td>
-                        <td class="dm-u-align--center">10:30am&ndash;11:00am</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" class="dm-u-align--center">CSS</td>
-                        <td class="dm-u-align--center">11:00am&ndash;1:00pm</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" class="dm-u-align--center">Lunch</td>
-                        <td class="dm-u-align--center">1:00pm&ndash;2:00pm</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" class="dm-u-align--center">JavaScript</td>
-                        <td class="dm-u-align--center">2:00pm&ndash;5:00pm</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="dm-dp-tableWrapper">
+                <table class="dm-u-marginTop--l">
+                    <tbody>
+                        <tr>
+                            <th rowspan="9" scope="row" class="dm-u-align--left dm-u-font--bold">Monday</th>
+                            <td colspan="3" class="dm-u-align--center">Page 1</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="4" class="dm-u-align--center">HTML</td>
+                            <td class="dm-u-align--center">Section 1</td>
+                            <td class="dm-u-align--center">9:00am&ndash;9:30am</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">Section 2</td>
+                            <td class="dm-u-align--center">9:30am&ndash;10:00am</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">Section 3</td>
+                            <td class="dm-u-align--center">10:00am&ndash;10:30am</td>
+                        </tr>
+                        <tr>
+                            <td class="dm-u-align--center">Section 4</td>
+                            <td class="dm-u-align--center">10:30am&ndash;11:00am</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="dm-u-align--center">CSS</td>
+                            <td class="dm-u-align--center">11:00am&ndash;1:00pm</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="dm-u-align--center">Lunch</td>
+                            <td class="dm-u-align--center">1:00pm&ndash;2:00pm</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="dm-u-align--center">JavaScript</td>
+                            <td class="dm-u-align--center">2:00pm&ndash;5:00pm</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
             <p>You can continue to break down each task further if it&rsquo;s useful to do so, but, even at this level, you can realistically assess the work. Can you write a section of <abbr>HTML</abbr> in 30 minutes? If yes, great! You&rsquo;re on schedule and will make your timeline. If not, what can you adjust or reorder to make it work?</p>
 
