@@ -1,5 +1,15 @@
 [
 	{
+		"title"	: 	"How to Scope Work",
+		"slug"	:	"how-to-scope-work",
+		"dek"	:	"A skill that separates the amateurs from the professionals.",
+		"date"	:	"2017-12-23 09:31:00",
+		"tags"	:	[
+			"professionalism",
+			"soft skills"
+		]
+	},
+	{
 		"title"	: 	"Stealing Your Way to Original Designs",
 		"slug"	:	"stealing-your-way-to-original-designs",
 		"dek"	:	"There&rsquo;s nothing new under the sun.",

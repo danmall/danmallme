@@ -10,7 +10,7 @@
     <meta name="twitter:site" content="@danmall" />
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
     <meta name="twitter:title" property="og:title" content="How to Scope Work" />
-    <meta name="twitter:description" property="og:description" content="Lorem ipsum dolor sit amet" />
+    <meta name="twitter:description" property="og:description" content="A skill that separates the amateurs from the professionals." />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/thumb.png" />
 
     <style type="text/css">
@@ -36,7 +36,7 @@
             How to Scope Work
         </h1>
 
-        <h2 class="dm-c-pageHeader_date">December 23, 2017 at 4:11 <abbr title="Post Meridien">PM</abbr></h2>
+        <h2 class="dm-c-pageHeader_date">December 23, 2017 at 9:31 <abbr title="Ante Meridien">AM</abbr></h2>
 
     </header><!-- .page-header -->
 
@@ -58,7 +58,7 @@
 
             <p>Good scoping is often a case of simple arithmetic; by the time you were 8 or 9 years old, you&rsquo;ve had the skills to scope well. So why is it so difficult? You&rsquo;re mostly fighting the psychology of it all.</p>
 
-            <p>If I asked you if you could build a website (of any given complexity) in 6 months, I&rsquo;d bet your answer would be, &ldquo;Probably.&rdquo; That&rsquo;s the <a href="https://en.wikipedia.org/wiki/Valence_effect">valence effect</a> at play: your tendency to think that more good will happen to you than bad. Throw a little <a href="https://en.wikipedia.org/wiki/Parkinson%27s_law">Parkinson&rsquo;s law</a> in there (the adage that work expands to fill the time available for its completion) and that explains why you&rsquo;ve taken way longer on every project than you should have had&mdash;and felt good about it to boot. The reality is closer to <a href="https://en.wikipedia.org/wiki/Hofstadter%27s_law">Hofstadter&rsquo;s law</a>: it always takes longer than you expect (even when you take into account Hofstadter&rsquo;s law). Rather than relying on gut feelings, we can use math to figure out if you&rsquo;ll meet your deadlines.</p>
+            <p>If I asked you if you could build a website (of any given complexity) in 6 months, I&rsquo;d bet your answer would be, &ldquo;Probably.&rdquo; That&rsquo;s the <a href="https://en.wikipedia.org/wiki/Valence_effect">valence effect</a> at play: your tendency to think that more good will happen to you than bad. Throw a little <a href="https://en.wikipedia.org/wiki/Parkinson%27s_law">Parkinson&rsquo;s law</a> in there (the adage that work expands to fill the time available for its completion) and that explains why you&rsquo;ve taken way longer on every project than you should have&mdash;and felt good about it to boot. The reality is closer to <a href="https://en.wikipedia.org/wiki/Hofstadter%27s_law">Hofstadter&rsquo;s law</a>: it always takes longer than you expect (even when you take into account Hofstadter&rsquo;s law). Rather than relying on gut feelings, we can use math to figure out if you&rsquo;ll meet your deadlines.</p>
 
             <h2 id="budgeting">Budgeting time <a class="dm-dp-anchorLink" href="#budgeting-time">#</a></h2>
 
