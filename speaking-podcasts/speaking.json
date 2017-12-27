@@ -39,7 +39,8 @@
 		"title"		: 	"Rethinking Full Stack: Cost and Compromise",
 		"slug"		:	"https://gymnasium.github.io/cms/events/rethinking_full_stack/",
 		"date"		:	"2017-11-09",
-		"type"		:	"online"
+		"type"		:	"online",
+		"video"		:	true
 	},
 	{
 		"title"		: 	"REVOLVE Conference",
