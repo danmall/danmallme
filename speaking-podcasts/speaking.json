@@ -24,10 +24,22 @@
 		"location"	:	"New York"
 	},
 	{
+		"title"		: 	"Winter Work Week",
+		"slug"		:	"https://www.winterworkweek.com/",
+		"date"		:	"2018-02-26",
+		"location"	:	"Yosemite,<abbr title=\"California\">CA</abbr>"
+	},
+	{
 		"title"		: 	"LoopConf",
 		"slug"		:	"https://loopconf.com/",
 		"date"		:	"2018-02-21",
-		"location"	:	"Salt Lake City"
+		"location"	:	"Salt Lake City, <abbr title=\"Utah\">UT</abbr>"
+	},
+	{
+		"title"		: 	"UXPin Design Systems Virtual Summit 2018",
+		"slug"		:	"https://www.uxpin.com/design-systems-virtual-summit-2018",
+		"date"		:	"2018-02-13",
+		"type"		:	"online"
 	},
 	{
 		"title"		: 	"UI22",
