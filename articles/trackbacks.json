@@ -1,9 +1,33 @@
 [
 	{
+		"title"		: 	"Design Systems Virtual Summit 2018",
+		"slug"		:	"https://newsvally.com/design-systems-virtual-summit-2018",
+		"date"		:	"2018-01-12",
+		"source"	:	"News Vally"
+	},
+	{
+		"title"		: 	"Design Systems Virtual Summit 2018",
+		"slug"		:	"http://onthewebit.com/design-systems-virtual-summit-2018/",
+		"date"		:	"2018-01-12",
+		"source"	:	"On the Web IT"
+	},
+	{
+		"title"		: 	"Favourite 5 books read in 2017",
+		"slug"		:	"https://medium.com/@edparry/favourite-5-books-i-read-in-2017-d63e9bf6f88",
+		"date"		:	"2017-12-29",
+		"source"	:	"Medium"
+	},
+	{
 		"title"		: 	"How to price your design project",
 		"slug"		:	"http://www.creativebloq.com/news/how-to-price-your-design-project",
 		"date"		:	"2017-12-05",
 		"source"	:	"Creative Bloq"
+	},
+	{
+		"title"		: 	"Super8: Eight intriguing articles from December",
+		"slug"		:	"https://www.august.com.au/blog/super8-eight-intriguing-articles-from-december-2/",
+		"date"		:	"2017-12-02",
+		"source"	:	"August"
 	},
 	{
 		"title"		: 	"Design Systems Handbook",
