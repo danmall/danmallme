@@ -6,6 +6,11 @@
 		"location"	:	"Orlando, <abbr title=\"Florida\">FL</abbr>"
 	},
 	{
+		"title"		: 	"Frontend Conference",
+		"date"		:	"2018-08-30",
+		"location"	:	"Zurich"
+	},
+	{
 		"title"		: 	"An Event Apart",
 		"slug"		:	"https://aneventapart.com/event/washington-dc-2018",
 		"date"		:	"2018-07-30",
@@ -22,12 +27,6 @@
 		"slug"		:	"https://www.generateconf.com/new-york",
 		"date"		:	"2018-04-26",
 		"location"	:	"New York"
-	},
-	{
-		"title"		: 	"Winter Work Week",
-		"slug"		:	"https://www.winterworkweek.com/",
-		"date"		:	"2018-02-26",
-		"location"	:	"Yosemite,<abbr title=\"California\">CA</abbr>"
 	},
 	{
 		"title"		: 	"LoopConf",
