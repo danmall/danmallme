@@ -41,6 +41,13 @@
 		"type"		:	"online"
 	},
 	{
+		"title"		: 	"Lessons for Leaders: The Heartbeat Interview",
+		"slug"		:	"https://blog.knowyourcompany.com/watch-our-lessons-for-leaders-the-heartbeat-interview-%EF%B8%8F-with-dan-mall-founder-of-superfriendly-f0d7f87ab173",
+		"date"		:	"2018-02-08",
+		"type"		:	"podcast",
+		"audio"		:	true
+	},
+	{
 		"title"		: 	"UI22",
 		"slug"		:	"https://ui.uie.com/",
 		"date"		:	"2017-11-13",
