@@ -30,7 +30,7 @@
     <header class="dm-c-pageHeader" role="banner">
 
         <h1 class="dm-c-pageHeader_title">
-            Articles &amp; Trackbacks<sup class="dm-c-pageHeader_title_count"><?php 
+            <a href="#articles">Articles</a> &amp; <a href="#trackbacks">Trackbacks</a><sup class="dm-c-pageHeader_title_count"><?php 
                 $articlesTotal = getTotalItems('articles.json'); 
                 $trackbacksTotal = getTotalItems('trackbacks.json'); 
                 echo $articlesTotal + $trackbacksTotal;
@@ -57,9 +57,11 @@
 
     <main role="main" class="dm-c-articlesList dm-u-padding--m">
 
+        <h2 id="articles" class="dm-u-clear--both dm-u-font--sans dm-u-text--xl dm-u-opacity--0">Articles</h2>
+
         <?php parseList('articles.json', 'all', 'full', 'large'); ?>
 
-        <h2 class="dm-u-clear--both dm-u-font--sans dm-u-text--xl">Trackbacks</h2>
+        <h2 id="trackbacks" class="dm-u-clear--both dm-u-font--sans dm-u-text--xl">Trackbacks</h2>
 
         <?php parseList('trackbacks.json', 'all', 'full', 'small'); ?>
 

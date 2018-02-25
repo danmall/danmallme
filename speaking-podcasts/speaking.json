@@ -6,6 +6,11 @@
 		"location"	:	"Orlando, <abbr title=\"Florida\">FL</abbr>"
 	},
 	{
+		"title"		: 	"Frontend Conference",
+		"date"		:	"2018-08-30",
+		"location"	:	"Zurich"
+	},
+	{
 		"title"		: 	"An Event Apart",
 		"slug"		:	"https://aneventapart.com/event/washington-dc-2018",
 		"date"		:	"2018-07-30",
@@ -24,12 +29,6 @@
 		"location"	:	"New York"
 	},
 	{
-		"title"		: 	"Winter Work Week",
-		"slug"		:	"https://www.winterworkweek.com/",
-		"date"		:	"2018-02-26",
-		"location"	:	"Yosemite,<abbr title=\"California\">CA</abbr>"
-	},
-	{
 		"title"		: 	"LoopConf",
 		"slug"		:	"https://loopconf.com/",
 		"date"		:	"2018-02-21",
@@ -40,6 +39,13 @@
 		"slug"		:	"https://www.uxpin.com/design-systems-virtual-summit-2018",
 		"date"		:	"2018-02-13",
 		"type"		:	"online"
+	},
+	{
+		"title"		: 	"Lessons for Leaders: The Heartbeat Interview",
+		"slug"		:	"https://blog.knowyourcompany.com/watch-our-lessons-for-leaders-the-heartbeat-interview-%EF%B8%8F-with-dan-mall-founder-of-superfriendly-f0d7f87ab173",
+		"date"		:	"2018-02-08",
+		"type"		:	"podcast",
+		"audio"		:	true
 	},
 	{
 		"title"		: 	"UI22",

@@ -8,6 +8,6 @@
     "grunt-contrib-uglify": "latest",
     "grunt-contrib-watch": "latest",
     "grunt-criticalcss": "latest",
-    "grunt-sass": "latest"
+    "grunt-sass": "^2.1.0"
   }
 }

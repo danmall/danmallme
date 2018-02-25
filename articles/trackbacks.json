@@ -1,5 +1,29 @@
 [
 	{
+		"title"		: 	"A Comprehensive Guide to User Experience Design",
+		"slug"		:	"http://www.horizzoninfotech.com/archives/a-comprehensive-guide-to-user-experience-design/",
+		"date"		:	"2018-02-10",
+		"source"	:	"Horizzon Infortech"
+	},
+	{
+		"title"		: 	"Lessons for Leaders: The Heartbeat Interview with Dan Mall",
+		"slug"		:	"https://blog.knowyourcompany.com/watch-our-lessons-for-leaders-the-heartbeat-interview-%EF%B8%8F-with-dan-mall-founder-of-superfriendly-f0d7f87ab173",
+		"date"		:	"2018-02-08",
+		"source"	:	"Know Your Company"
+	},
+	{
+		"title"		: 	"Kill the Chaos: Invest in a Design System",
+		"slug"		:	"https://www.viget.com/newsletter/invest-design-system/",
+		"date"		:	"2018-01-19",
+		"source"	:	"Viget"
+	},
+	{
+		"title"		: 	"How to Scope Work",
+		"slug"		:	"https://wdrl.info/archive/213/how-to-scope-work-an-article-by-dan-mall",
+		"date"		:	"2018-01-19",
+		"source"	:	"WDRL"
+	},
+	{
 		"title"		: 	"Design Systems Virtual Summit 2018",
 		"slug"		:	"https://newsvally.com/design-systems-virtual-summit-2018",
 		"date"		:	"2018-01-12",
@@ -667,6 +691,12 @@
 		"slug"		:	"http://www.underconsideration.com/quipsologies/archives/january_2016/arminvit_29.php",
 		"date"		:	"2016-01-12",
 		"source"	:	"Under Consideration"
+	},
+	{
+		"title"		: 	"Pricing Design by Dan Mall",
+		"slug"		:	"http://mds.is/pricing-design/",
+		"date"		:	"2016-01-11",
+		"source"	:	"MDS"
 	},
 	{
 		"title"		: 	"Responsive Web Design: Patterns &amp; Principles",
