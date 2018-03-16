@@ -17,13 +17,10 @@
 	
 	<div class="dm-c-siteFooter_github">
 
-		<p> <?php
-			// outputs e.g. danmallme was last modified: March 14 2018.
-			
-			$filename = 'index.php';
-			if (file_exists($filename)) {
-				echo " Was last modified: " . date ( "F d Y", filemtime($filename));
-			}
+		<p>
+			<?php
+			// outputs e.g. 'Last modified: March 12,2018.'
+			echo "Last updated: " . date ("F d Y ", getlastmod());
 			?>
 					
 		</p>	
