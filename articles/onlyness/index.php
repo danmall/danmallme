@@ -108,7 +108,7 @@
 
             <blockquote><p class="dm-u-text--m">This is the only <strong>lifestyle brand</strong> that <strong>gives practical, real-world advice and ideas</strong> for <strong>the roll-up-your-sleeves crowd and those looking for inspiration</strong> who want to <strong>reinvigorate their home life with small victories</strong> during a time when <strong>food and home trends feel unattainable.</strong></p></blockquote>
 
-            <p>You can simultaneously see different themes emerging in each, but there are also more than a few common threads among them too.</p>
+            <p>You can simultaneously see different themes emerging in each, but there are also more than a few common threads among them too. This type of clarity and insight can lead to unique strategy for any brand.</p>
 
             <p>Next time you start work with a new client&mdash;or heck, maybe you use your own business or employer as a test&mdash;feel free to give this a shot to see if it gives you a new perspective. Good luck!</p>
 

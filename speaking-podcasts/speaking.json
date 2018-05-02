@@ -29,6 +29,27 @@
 		"location"	:	"New York"
 	},
 	{
+		"title"		: 	"&ldquo;Which New Skills Should Designers Pursue?&rdquo; for UIE&rsquo;s All You Can Learn Library",
+		"slug"		:	"https://aycl.uie.com/virtual_seminars/which_new_skills_should_designers_pursue",
+		"date"		:	"2018-04-23",
+		"type"		:	"webinar",
+		"video"		:	true
+	},
+	{
+		"title"		: 	"&ldquo;Art directing for the web,&rdquo; on Unfinished Business",
+		"slug"		:	"https://stuffandnonsense.co.uk/blog/unfinished-business-art-directing-for-the-web-with-dan-mall",
+		"date"		:	"2018-04-09",
+		"type"		:	"podcast",
+		"audio"		:	true
+	},
+	{
+		"title"		: 	"&ldquo;But what I really want to do is creative direct,&rdquo; on The Big Web Show",
+		"slug"		:	"http://5by5.tv/bigwebshow/173",
+		"date"		:	"2018-03-19",
+		"type"		:	"podcast",
+		"audio"		:	true
+	},
+	{
 		"title"		: 	"LoopConf",
 		"slug"		:	"https://loopconf.com/",
 		"date"		:	"2018-02-21",
@@ -38,7 +59,8 @@
 		"title"		: 	"UXPin Design Systems Virtual Summit 2018",
 		"slug"		:	"https://www.uxpin.com/design-systems-virtual-summit-2018",
 		"date"		:	"2018-02-13",
-		"type"		:	"online"
+		"type"		:	"online",
+		"video"		:	true
 	},
 	{
 		"title"		: 	"Lessons for Leaders: The Heartbeat Interview",
@@ -215,10 +237,11 @@
 		"type"		:	"Podcast"
 	},
 	{
-		"title"		: 	"UIE&rsquo;s &ldquo;All You Can Learn&rdquo; Library",
+		"title"		: 	"&ldquo;So&hellip;what do I make?&rdquo; for UIE&rsquo;s All You Can Learn Library",
 		"slug"		:	"https://aycl.uie.com/virtual_seminars/so_what_do_i_make",
 		"date"		:	"2016-10-20",
-		"type"		:	"Webinar"
+		"type"		:	"Webinar",
+		"video"		:	true
 	},
 	{
 		"title"		: 	"AIGA Design Conference",
