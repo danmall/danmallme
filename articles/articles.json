@@ -1,5 +1,16 @@
 [
 	{
+		"title"	: 	"The Only-ness Statement",
+		"slug"	:	"onlyness",
+		"dek"	:	"A simple brand exercises that speaks volumes.",
+		"date"	:	"2018-05-02 05:55:00",
+		"tags"	:	[
+			"branding",
+			"positioning",
+			"workshop"
+		]
+	},
+	{
 		"title"	: 	"How to Scope Work",
 		"slug"	:	"how-to-scope-work",
 		"dek"	:	"A skill that separates the amateurs from the professionals.",
