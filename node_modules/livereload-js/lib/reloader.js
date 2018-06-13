@@ -2,14 +2,22 @@
   var IMAGE_STYLES, Reloader, numberOfMatchingSegments, pathFromUrl, pathsMatch, pickBestMatch, splitUrl;
 
   splitUrl = function(url) {
-    var hash, index, params;
+    var comboSign, hash, index, params;
     if ((index = url.indexOf('#')) >= 0) {
       hash = url.slice(index);
       url = url.slice(0, index);
     } else {
       hash = '';
     }
-    if ((index = url.indexOf('?')) >= 0) {
+    comboSign = url.indexOf('??');
+    if (comboSign >= 0) {
+      if (comboSign + 1 !== url.lastIndexOf('?')) {
+        index = url.lastIndexOf('?');
+      }
+    } else {
+      index = url.indexOf('?');
+    }
+    if (index >= 0) {
       params = url.slice(index);
       url = url.slice(0, index);
     } else {
@@ -117,24 +125,28 @@
           return;
         }
       }
-      if (options.liveCSS) {
-        if (path.match(/\.css$/i)) {
-          if (this.reloadStylesheet(path)) {
-            return;
-          }
-        }
-      }
-      if (options.liveImg) {
-        if (path.match(/\.(jpe?g|png|gif)$/i)) {
-          this.reloadImages(path);
+      if (options.liveCSS && path.match(/\.css(?:\.map)?$/i)) {
+        if (this.reloadStylesheet(path)) {
           return;
         }
+      }
+      if (options.liveImg && path.match(/\.(jpe?g|png|gif)$/i)) {
+        this.reloadImages(path);
+        return;
+      }
+      if (options.isChromeExtension) {
+        this.reloadChromeExtension();
+        return;
       }
       return this.reloadPage();
     };
 
     Reloader.prototype.reloadPage = function() {
       return this.window.document.location.reload();
+    };
+
+    Reloader.prototype.reloadChromeExtension = function() {
+      return this.window.chrome.runtime.reload();
     };
 
     Reloader.prototype.reloadImages = function(path) {
@@ -266,10 +278,14 @@
           this.reattachStylesheetLink(match.object);
         }
       } else {
-        this.console.log("LiveReload will reload all stylesheets because path '" + path + "' did not match any specific one");
-        for (_l = 0, _len3 = links.length; _l < _len3; _l++) {
-          link = links[_l];
-          this.reattachStylesheetLink(link);
+        if (this.options.reloadMissingCSS) {
+          this.console.log("LiveReload will reload all stylesheets because path '" + path + "' did not match any specific one. To disable this behavior, set 'options.reloadMissingCSS' to 'false'.");
+          for (_l = 0, _len3 = links.length; _l < _len3; _l++) {
+            link = links[_l];
+            this.reattachStylesheetLink(link);
+          }
+        } else {
+          this.console.log("LiveReload will not reload path '" + path + "' because the stylesheet was not found on the page and 'options.reloadMissingCSS' was set to 'false'.");
         }
       }
       return true;
