@@ -765,6 +765,21 @@ http://superfriend.ly/
 	}
 
 
+	// tableWrapper
+
+	&-c-tableWrapper {
+
+		// custom
+		overflow-x: scroll;
+		max-width: 1200px;
+
+		&_table {
+			min-width: 600px;
+		}
+
+	}
+
+
 
 
 
