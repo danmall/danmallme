@@ -1,5 +1,5 @@
 (function() {
-  var Connector, LiveReload, Options, Reloader, Timer,
+  var Connector, LiveReload, Options, ProtocolError, Reloader, Timer,
     __hasProp = {}.hasOwnProperty;
 
   Connector = require('./connector').Connector;
@@ -9,6 +9,8 @@
   Options = require('./options').Options;
 
   Reloader = require('./reloader').Reloader;
+
+  ProtocolError = require('./protocol').ProtocolError;
 
   exports.LiveReload = LiveReload = (function() {
     function LiveReload(window) {
@@ -121,11 +123,12 @@
     };
 
     LiveReload.prototype.performReload = function(message) {
-      var _ref, _ref1;
+      var _ref, _ref1, _ref2;
       this.log("LiveReload received reload request: " + (JSON.stringify(message, null, 2)));
       return this.reloader.reload(message.path, {
         liveCSS: (_ref = message.liveCSS) != null ? _ref : true,
         liveImg: (_ref1 = message.liveImg) != null ? _ref1 : true,
+        reloadMissingCSS: (_ref2 = message.reloadMissingCSS) != null ? _ref2 : true,
         originalPath: message.originalPath || '',
         overrideURL: message.overrideURL || '',
         serverURL: "http://" + this.options.host + ":" + this.options.port
