@@ -1,5 +1,17 @@
 [
 	{
+		"title"	: 	"Distinct Design Systems",
+		"slug"	:	"distinct-design-systems",
+		"dek"	:	"What makes a design system better than any other?",
+		"date"	:	"2018-06-13 23:04:00",
+		"tags"	:	[
+			"design systems",
+			"positioning",
+			"identity",
+			"principles"
+		]
+	},
+	{
 		"title"	: 	"The Only-ness Statement",
 		"slug"	:	"onlyness",
 		"dek"	:	"A simple brand exercises that speaks volumes.",
