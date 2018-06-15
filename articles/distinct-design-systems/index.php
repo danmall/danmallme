@@ -1446,6 +1446,13 @@
 
             <p>By focusing on this kind of specificity, I think we&rsquo;ll see a lot more innovative and interesting design systems pop up in the near future. I sure hope so!</p>
 
+
+            <footer class="dm-c-articleWell_footer dm-dp-sepChunk">
+                <ol class="dm-c-footnotes">
+                    <li id="fn1">Also <a href="https://medium.com/@danielmall/distinct-design-systems-3c1ec8e69e5b">syndicated to Medium</a>.</li>
+                </ol>                
+            </footer>
+
         </div>
 
         <section id="up-next" class="dm-c-upNext">
