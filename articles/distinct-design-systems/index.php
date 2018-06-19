@@ -529,8 +529,8 @@
                         </tr>
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Dueling-Picklist">Dueling Picklist</th>
-                            <td headers="Dueling-Picklist carbon">&bull;</td>
-                            <td headers="Dueling-Picklist lightning">&nbsp;</td>
+                            <td headers="Dueling-Picklist carbon">&nbsp;</td>
+                            <td headers="Dueling-Picklist lightning">&bull;</td>
                             <td headers="Dueling-Picklist usds">&nbsp;</td>
                             <td headers="Dueling-Picklist atlassian">&nbsp;</td>
                             <td headers="Dueling-Picklist quickbooks">&nbsp;</td>
@@ -539,8 +539,8 @@
                         </tr>
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Dynamic-Icons">Dynamic Icons</th>
-                            <td headers="Dynamic-Icons carbon">&bull;</td>
-                            <td headers="Dynamic-Icons lightning">&nbsp;</td>
+                            <td headers="Dynamic-Icons carbon">&nbsp;</td>
+                            <td headers="Dynamic-Icons lightning">&bull;</td>
                             <td headers="Dynamic-Icons usds">&nbsp;</td>
                             <td headers="Dynamic-Icons atlassian">&nbsp;</td>
                             <td headers="Dynamic-Icons quickbooks">&nbsp;</td>
@@ -550,7 +550,7 @@
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Dynamic-Menu">Dynamic Menu</th>
                             <td headers="Dynamic-Menu carbon">&nbsp;</td>
-                            <td headers="Dynamic-Menu lightning">&nbsp;</td>
+                            <td headers="Dynamic-Menu lightning">&bull;</td>
                             <td headers="Dynamic-Menu usds">&nbsp;</td>
                             <td headers="Dynamic-Menu atlassian">&nbsp;</td>
                             <td headers="Dynamic-Menu quickbooks">&nbsp;</td>
@@ -579,8 +579,8 @@
                         </tr>
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Expandable-Section">Expandable Section</th>
-                            <td headers="Expandable-Section carbon">&bull;</td>
-                            <td headers="Expandable-Section lightning">&nbsp;</td>
+                            <td headers="Expandable-Section carbon">&nbsp;</td>
+                            <td headers="Expandable-Section lightning">&bull;</td>
                             <td headers="Expandable-Section usds">&nbsp;</td>
                             <td headers="Expandable-Section atlassian">&nbsp;</td>
                             <td headers="Expandable-Section quickbooks">&nbsp;</td>
@@ -619,8 +619,8 @@
                         </tr>
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Feeds">Feeds</th>
-                            <td headers="Feeds carbon">&bull;</td>
-                            <td headers="Feeds lightning">&nbsp;</td>
+                            <td headers="Feeds carbon">&nbsp;</td>
+                            <td headers="Feeds lightning">&bull;</td>
                             <td headers="Feeds usds">&nbsp;</td>
                             <td headers="Feeds atlassian">&nbsp;</td>
                             <td headers="Feeds quickbooks">&nbsp;</td>
@@ -630,7 +630,7 @@
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="File-Selector/Uploader">File Selector/Uploader</th>
                             <td headers="File-Selector/Uploader carbon">&bull;</td>
-                            <td headers="File-Selector/Uploader lightning">&nbsp;</td>
+                            <td headers="File-Selector/Uploader lightning">&bull;</td>
                             <td headers="File-Selector/Uploader usds">&nbsp;</td>
                             <td headers="File-Selector/Uploader atlassian">&nbsp;</td>
                             <td headers="File-Selector/Uploader quickbooks">&nbsp;</td>
@@ -639,8 +639,8 @@
                         </tr>
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Files">Files</th>
-                            <td headers="Files carbon">&bull;</td>
-                            <td headers="Files lightning">&nbsp;</td>
+                            <td headers="Files carbon">&nbsp;</td>
+                            <td headers="Files lightning">&bull;</td>
                             <td headers="Files usds">&nbsp;</td>
                             <td headers="Files atlassian">&nbsp;</td>
                             <td headers="Files quickbooks">&nbsp;</td>
@@ -670,8 +670,8 @@
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Footers">Footers</th>
                             <td headers="Footers carbon">&nbsp;</td>
-                            <td headers="Footers lightning">&bull;</td>
-                            <td headers="Footers usds">&nbsp;</td>
+                            <td headers="Footers lightning">&nbsp;</td>
+                            <td headers="Footers usds">&bull;</td>
                             <td headers="Footers atlassian">&bull;</td>
                             <td headers="Footers quickbooks">&nbsp;</td>
                             <td headers="Footers futurelearn">&nbsp;</td>
@@ -681,7 +681,7 @@
                             <th scope="row" class="dm-u-align--left" id="Form">Form</th>
                             <td headers="Form carbon">&bull;</td>
                             <td headers="Form lightning">&bull;</td>
-                            <td headers="Form usds">&nbsp;</td>
+                            <td headers="Form usds">&bull;</td>
                             <td headers="Form atlassian">&nbsp;</td>
                             <td headers="Form quickbooks">&bull;</td>
                             <td headers="Form futurelearn">&bull;</td>
@@ -689,18 +689,18 @@
                         </tr>
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Global-Header">Global Header</th>
-                            <td headers="Global-Header carbon">&bull;</td>
+                            <td headers="Global-Header carbon">&nbsp;</td>
                             <td headers="Global-Header lightning">&bull;</td>
-                            <td headers="Global-Header usds">&nbsp;</td>
-                            <td headers="Global-Header atlassian">&bull;</td>
-                            <td headers="Global-Header quickbooks">&nbsp;</td>
+                            <td headers="Global-Header usds">&bull;</td>
+                            <td headers="Global-Header atlassian">&nbsp;</td>
+                            <td headers="Global-Header quickbooks">&bull;</td>
                             <td headers="Global-Header futurelearn">&nbsp;</td>
                             <td headers="Global-Header polaris">&nbsp;</td>
                         </tr>
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Global-Navigation">Global Navigation</th>
-                            <td headers="Global-Navigation carbon">&bull;</td>
-                            <td headers="Global-Navigation lightning">&nbsp;</td>
+                            <td headers="Global-Navigation carbon">&nbsp;</td>
+                            <td headers="Global-Navigation lightning">&bull;</td>
                             <td headers="Global-Navigation usds">&nbsp;</td>
                             <td headers="Global-Navigation atlassian">&nbsp;</td>
                             <td headers="Global-Navigation quickbooks">&nbsp;</td>
@@ -710,8 +710,8 @@
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Grids">Grids</th>
                             <td headers="Grids carbon">&nbsp;</td>
-                            <td headers="Grids lightning">&bull;</td>
-                            <td headers="Grids usds">&nbsp;</td>
+                            <td headers="Grids lightning">&nbsp;</td>
+                            <td headers="Grids usds">&bull;</td>
                             <td headers="Grids atlassian">&nbsp;</td>
                             <td headers="Grids quickbooks">&nbsp;</td>
                             <td headers="Grids futurelearn">&nbsp;</td>
@@ -729,8 +729,8 @@
                         </tr>
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Icons">Icons</th>
-                            <td headers="Icons carbon">&bull;</td>
-                            <td headers="Icons lightning">&nbsp;</td>
+                            <td headers="Icons carbon">&nbsp;</td>
+                            <td headers="Icons lightning">&bull;</td>
                             <td headers="Icons usds">&nbsp;</td>
                             <td headers="Icons atlassian">&nbsp;</td>
                             <td headers="Icons quickbooks">&nbsp;</td>
@@ -739,8 +739,8 @@
                         </tr>
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Illustration">Illustration</th>
-                            <td headers="Illustration carbon">&bull;</td>
-                            <td headers="Illustration lightning">&nbsp;</td>
+                            <td headers="Illustration carbon">&nbsp;</td>
+                            <td headers="Illustration lightning">&bull;</td>
                             <td headers="Illustration usds">&nbsp;</td>
                             <td headers="Illustration atlassian">&nbsp;</td>
                             <td headers="Illustration quickbooks">&nbsp;</td>
@@ -760,8 +760,8 @@
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Labels">Labels</th>
                             <td headers="Labels carbon">&nbsp;</td>
-                            <td headers="Labels lightning">&bull;</td>
-                            <td headers="Labels usds">&nbsp;</td>
+                            <td headers="Labels lightning">&nbsp;</td>
+                            <td headers="Labels usds">&bull;</td>
                             <td headers="Labels atlassian">&nbsp;</td>
                             <td headers="Labels quickbooks">&nbsp;</td>
                             <td headers="Labels futurelearn">&nbsp;</td>
@@ -769,17 +769,17 @@
                         </tr>
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Link">Link</th>
-                            <td headers="Link carbon">&nbsp;</td>
+                            <td headers="Link carbon">&bull;</td>
                             <td headers="Link lightning">&nbsp;</td>
                             <td headers="Link usds">&nbsp;</td>
                             <td headers="Link atlassian">&nbsp;</td>
                             <td headers="Link quickbooks">&bull;</td>
                             <td headers="Link futurelearn">&nbsp;</td>
-                            <td headers="Link polaris">&nbsp;</td>
+                            <td headers="Link polaris">&bull;</td>
                         </tr>
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="List">List</th>
-                            <td headers="List carbon">&nbsp;</td>
+                            <td headers="List carbon">&bull;</td>
                             <td headers="List lightning">&nbsp;</td>
                             <td headers="List usds">&nbsp;</td>
                             <td headers="List atlassian">&nbsp;</td>
@@ -789,8 +789,8 @@
                         </tr>
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="List-Builder">List Builder</th>
-                            <td headers="List-Builder carbon">&bull;</td>
-                            <td headers="List-Builder lightning">&nbsp;</td>
+                            <td headers="List-Builder carbon">&nbsp;</td>
+                            <td headers="List-Builder lightning">&bull;</td>
                             <td headers="List-Builder usds">&nbsp;</td>
                             <td headers="List-Builder atlassian">&nbsp;</td>
                             <td headers="List-Builder quickbooks">&nbsp;</td>
@@ -800,8 +800,8 @@
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Loading/Spinners">Loading/Spinners</th>
                             <td headers="Loading/Spinners carbon">&bull;</td>
-                            <td headers="Loading/Spinners lightning">&nbsp;</td>
-                            <td headers="Loading/Spinners usds">&bull;</td>
+                            <td headers="Loading/Spinners lightning">&bull;</td>
+                            <td headers="Loading/Spinners usds">&nbsp;</td>
                             <td headers="Loading/Spinners atlassian">&bull;</td>
                             <td headers="Loading/Spinners quickbooks">&bull;</td>
                             <td headers="Loading/Spinners futurelearn">&nbsp;</td>
@@ -811,16 +811,16 @@
                             <th scope="row" class="dm-u-align--left" id="Logos-in Product">Logos in Product</th>
                             <td headers="Logos-in Product carbon">&nbsp;</td>
                             <td headers="Logos-in Product lightning">&nbsp;</td>
-                            <td headers="Logos-in Product usds">&bull;</td>
-                            <td headers="Logos-in Product atlassian">&nbsp;</td>
+                            <td headers="Logos-in Product usds">&nbsp;</td>
+                            <td headers="Logos-in Product atlassian">&bull;</td>
                             <td headers="Logos-in Product quickbooks">&nbsp;</td>
                             <td headers="Logos-in Product futurelearn">&nbsp;</td>
                             <td headers="Logos-in Product polaris">&nbsp;</td>
                         </tr>
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Lookups">Lookups</th>
-                            <td headers="Lookups carbon">&bull;</td>
-                            <td headers="Lookups lightning">&nbsp;</td>
+                            <td headers="Lookups carbon">&nbsp;</td>
+                            <td headers="Lookups lightning">&bull;</td>
                             <td headers="Lookups usds">&nbsp;</td>
                             <td headers="Lookups atlassian">&nbsp;</td>
                             <td headers="Lookups quickbooks">&nbsp;</td>
@@ -829,8 +829,8 @@
                         </tr>
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Lozenges">Lozenges</th>
-                            <td headers="Lozenges carbon">&bull;</td>
-                            <td headers="Lozenges lightning">&nbsp;</td>
+                            <td headers="Lozenges carbon">&nbsp;</td>
+                            <td headers="Lozenges lightning">&bull;</td>
                             <td headers="Lozenges usds">&nbsp;</td>
                             <td headers="Lozenges atlassian">&nbsp;</td>
                             <td headers="Lozenges quickbooks">&nbsp;</td>
@@ -839,8 +839,8 @@
                         </tr>
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Map">Map</th>
-                            <td headers="Map carbon">&bull;</td>
-                            <td headers="Map lightning">&nbsp;</td>
+                            <td headers="Map carbon">&nbsp;</td>
+                            <td headers="Map lightning">&bull;</td>
                             <td headers="Map usds">&nbsp;</td>
                             <td headers="Map atlassian">&nbsp;</td>
                             <td headers="Map quickbooks">&nbsp;</td>
@@ -849,8 +849,8 @@
                         </tr>
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Menus">Menus</th>
-                            <td headers="Menus carbon">&bull;</td>
-                            <td headers="Menus lightning">&nbsp;</td>
+                            <td headers="Menus carbon">&nbsp;</td>
+                            <td headers="Menus lightning">&bull;</td>
                             <td headers="Menus usds">&nbsp;</td>
                             <td headers="Menus atlassian">&bull;</td>
                             <td headers="Menus quickbooks">&nbsp;</td>
@@ -860,8 +860,8 @@
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Modal">Modal</th>
                             <td headers="Modal carbon">&bull;</td>
-                            <td headers="Modal lightning">&nbsp;</td>
-                            <td headers="Modal usds">&bull;</td>
+                            <td headers="Modal lightning">&bull;</td>
+                            <td headers="Modal usds">&nbsp;</td>
                             <td headers="Modal atlassian">&bull;</td>
                             <td headers="Modal quickbooks">&bull;</td>
                             <td headers="Modal futurelearn">&nbsp;</td>
@@ -871,8 +871,8 @@
                             <th scope="row" class="dm-u-align--left" id="Multi-select">Multi-select</th>
                             <td headers="Multi-select carbon">&nbsp;</td>
                             <td headers="Multi-select lightning">&nbsp;</td>
-                            <td headers="Multi-select usds">&bull;</td>
-                            <td headers="Multi-select atlassian">&nbsp;</td>
+                            <td headers="Multi-select usds">&nbsp;</td>
+                            <td headers="Multi-select atlassian">&bull;</td>
                             <td headers="Multi-select quickbooks">&nbsp;</td>
                             <td headers="Multi-select futurelearn">&nbsp;</td>
                             <td headers="Multi-select polaris">&nbsp;</td>
@@ -880,17 +880,27 @@
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Notification">Notification</th>
                             <td headers="Notification carbon">&bull;</td>
-                            <td headers="Notification lightning">&nbsp;</td>
+                            <td headers="Notification lightning">&bull;</td>
                             <td headers="Notification usds">&nbsp;</td>
-                            <td headers="Notification atlassian">&bull;</td>
-                            <td headers="Notification quickbooks">&nbsp;</td>
+                            <td headers="Notification atlassian">&nbsp;</td>
+                            <td headers="Notification quickbooks">&bull;</td>
                             <td headers="Notification futurelearn">&nbsp;</td>
                             <td headers="Notification polaris">&nbsp;</td>
                         </tr>
                         <tr>
+                            <th scope="row" class="dm-u-align--left" id="overflow-menu">Overflow Menu</th>
+                            <td headers="overflow-menu carbon">&bull;</td>
+                            <td headers="overflow-menu lightning">&nbsp;</td>
+                            <td headers="overflow-menu usds">&nbsp;</td>
+                            <td headers="overflow-menu atlassian">&nbsp;</td>
+                            <td headers="overflow-menu quickbooks">&nbsp;</td>
+                            <td headers="overflow-menu futurelearn">&nbsp;</td>
+                            <td headers="overflow-menu polaris">&nbsp;</td>
+                        </tr>
+                        <tr>
                             <th scope="row" class="dm-u-align--left" id="Page-Headers">Page Headers</th>
-                            <td headers="Page-Headers carbon">&bull;</td>
-                            <td headers="Page-Headers lightning">&nbsp;</td>
+                            <td headers="Page-Headers carbon">&nbsp;</td>
+                            <td headers="Page-Headers lightning">&bull;</td>
                             <td headers="Page-Headers usds">&nbsp;</td>
                             <td headers="Page-Headers atlassian">&nbsp;</td>
                             <td headers="Page-Headers quickbooks">&nbsp;</td>
@@ -899,10 +909,10 @@
                         </tr>
                         <tr>
                             <th scope="row" class="dm-u-align--left" id="Pagination">Pagination</th>
-                            <td headers="Pagination carbon">&nbsp;</td>
+                            <td headers="Pagination carbon">&bull;</td>
                             <td headers="Pagination lightning">&nbsp;</td>
-                            <td headers="Pagination usds">&bull;</td>
-                            <td headers="Pagination atlassian">&nbsp;</td>
+                            <td headers="Pagination usds">&nbsp;</td>
+                            <td headers="Pagination atlassian">&bull;</td>
                             <td headers="Pagination quickbooks">&nbsp;</td>
                             <td headers="Pagination futurelearn">&nbsp;</td>
                             <td headers="Pagination polaris">&bull;</td>
@@ -1449,7 +1459,8 @@
 
             <footer class="dm-c-articleWell_footer dm-dp-sepChunk">
                 <ol class="dm-c-footnotes">
-                    <li id="fn1">Also <a href="https://medium.com/@danielmall/distinct-design-systems-3c1ec8e69e5b">syndicated to Medium</a>.</li>
+                    <li id="fn1">Special thanks to Stephanie Rewis for her <a href="https://twitter.com/stefsull/status/1008777023198597120">eagle-eye <abbr title="Quality Assurance">QA</abbr> skills</a>.</li>
+                    <li id="fn2">Also <a href="https://medium.com/@danielmall/distinct-design-systems-3c1ec8e69e5b">syndicated to Medium</a>.</li>
                 </ol>                
             </footer>
 
