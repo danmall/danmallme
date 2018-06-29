@@ -1,5 +1,16 @@
 [
 	{
+		"title"	: 	"Smashing Conference Toronto 2018",
+		"slug"	:	"smashing-conference-toronto-2018",
+		"dek"	:	"Reflections from a speaker about doing a new (kind of) talk.",
+		"date"	:	"2018-06-29 15:06:00",
+		"tags"	:	[
+			"conference",
+			"speaking",
+			"teaching"
+		]
+	},
+	{
 		"title"	: 	"Distinct Design Systems",
 		"slug"	:	"distinct-design-systems",
 		"dek"	:	"What makes a design system better than any other?",
