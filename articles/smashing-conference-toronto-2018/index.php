@@ -74,6 +74,12 @@
 
             <p>All this is to say: thanks to Vitaly and the Smashing Magazine and Smashing Conference crew for challenging the typical format. I learned a lot about how I can be a better speaker.</p>
 
+            <footer class="dm-c-articleWell_footer dm-dp-sepChunk">
+                <ol class="dm-c-footnotes">
+                    <li id="fn1">Originally posted as <a href="https://twitter.com/danmall/status/1012031461556391936">a Twitter thread</a>.</li>
+                </ol>                
+            </footer>
+
         </div>
 
         <section id="up-next" class="dm-c-upNext">
