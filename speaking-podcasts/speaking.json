@@ -532,7 +532,7 @@
 		"type"		:	"Webinar"
 	},
 	{
-		"title"		: 	"Beyond Tellerand",
+		"title"		: 	"Beyond Tellerrand",
 		"slug"		:	"https://vimeo.com/101875373",
 		"video"		:	true,
 		"date"		:	"2014-05-19",
