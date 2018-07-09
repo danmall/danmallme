@@ -52,7 +52,7 @@
 
         <div class="dm-dp-textPassage">
 
-            <p><span class="dm-dp-openingLines">Creating an Only-ness Statement</span> is one of my favorite exercises to do with new clients. I first came across it in my friend <a href="https://twitter.com/jpostendorf">J&auml;n Paul Ostendorf</a>&rsquo;s <a href="https://issuu.com/forge5/docs/forge_brandworkbook-40pg">Brand Formation Workbook</a>, who found it in <a href="http://www.martyneumeier.com/">Marty Neumeier</a>&rsquo;s book <a href="https://amzn.to/2HGJIej">Zag</a>.</p>
+            <p><span class="dm-dp-openingLines">Creating an Only-ness Statement</span> is one of my favorite exercises to do with new clients. I first came across it in my friend <a href="https://twitter.com/jpostendorf">J&auml;n Paul Ostendorf</a>&rsquo;s <a href="https://amzn.to/2NAUGB6">Brand Formation Workbook</a>, who found it in <a href="http://www.martyneumeier.com/">Marty Neumeier</a>&rsquo;s book <a href="https://amzn.to/2HGJIej">Zag</a>.</p>
 
             <p>It&rsquo;s a simple premise: every brand on the planet should be able to say what it&rsquo;s the only one of. Marty suggests this simple format:</p>
 

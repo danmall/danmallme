@@ -1,5 +1,15 @@
 [
 	{
+		"title"	: 	"Illustrators",
+		"slug"	:	"illustrators",
+		"dek"	:	"Need to hire an illustrator? Look no further.",
+		"date"	:	"2018-07-09 06:48:00",
+		"tags"	:	[
+			"illustration",
+			"diversity"
+		]
+	},
+	{
 		"title"	: 	"Smashing Conference Toronto 2018",
 		"slug"	:	"smashing-conference-toronto-2018",
 		"dek"	:	"Reflections from a speaker about doing a new (kind of) talk.",
