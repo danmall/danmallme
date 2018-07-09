@@ -12,6 +12,22 @@
     <meta name="twitter:title" property="og:title" content="Illustrators" />
     <meta name="twitter:description" property="og:description" content="Need to hire an illustrator? Look no further." />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/thumb.png" />
+
+    <style>
+
+        .dm-c-illustrationRow {
+            margin-bottom: 2em;            
+        }
+
+        .dm-c-illustrationBlock {
+            padding-right: 3em;
+        }
+
+            .dm-c-illustrationBlock_heading {
+                font-size: 16px !important;
+            }
+
+    </style>
     
 </head>
 
@@ -48,7 +64,22 @@
             <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I&#39;d like to hire a woman and/or person of color for an illustration project, preferably someone who could use the 💰 for some quick, fun work. I have a short list already, but anyone I shouldn&#39;t miss? (Feel free to nominate yourself too!)</p>&mdash; Dan Mall (@danmall) <a href="https://twitter.com/danmall/status/1014212273248890880?ref_src=twsrc%5Etfw">July 3, 2018</a></blockquote>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-            <p>I was <em>flooded</em> with lots of links to the portfolios of amazing illustrators. If you&rsquo;re looking to hire an illustrator, look no further: here are all the people that replied and/or were recommended.</p>
+            <p class="dm-u-marginBottom--xl">I was <em>flooded</em> with lots of links to the portfolios of amazing illustrators. If you&rsquo;re looking to hire an illustrator, look no further: here are all the people that replied and/or were recommended.</p>
+
+            <div class="dm-c-illustrationRow dm-u-clearfix dm-u-marginTop--xl">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="http://jessicapaoli.com/">
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/jessica-paoli.gif" />
+                            <noscript><img alt="" src="illustrations/jessica-paoli.gif" /></noscript>
+                            Jessica Paoli
+                        </a>
+                    </h1>
+                </div>
+                <div class="dm-l-col--50">
+                    <h1 class="dm-c-illustrationBlock_heading"><a href="https://nick-trujillo.myportfolio.com/">Nick Trujillo</a></h1>
+                </div>
+            </div>
 
             <ol>                
                 <li><a href="http://jessicapaoli.com/">Jessica Paoli</a></li>
