@@ -21,6 +21,7 @@ var Site = function(){
         initialAnimation();
         animateArticles();
         initArticleAnchorOffsets();
+        lazyLoad();
         // ajaxLoadImages();
 
         
@@ -541,6 +542,14 @@ var Site = function(){
         }
 
         return false;
+    }
+
+    var lazyLoad = function(){
+
+        var myLazyLoad = new LazyLoad({
+            elements_selector: ".dm-js-lazy"
+        });
+
     }
 
 
