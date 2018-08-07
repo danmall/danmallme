@@ -1,5 +1,11 @@
 [
 	{
+		"title"		: 	"Owner Summit 2019",
+		"slug"		:	"https://bureauofdigital.com/event/owner-summit-2019",
+		"date"		:	"2019-02-10",
+		"location"	:	"Austin"
+	},
+	{
 		"title"		: 	"Awwwards Conference",
 		"slug"		:	"https://conference.awwwards.com/new-york/",
 		"date"		:	"2018-11-15",

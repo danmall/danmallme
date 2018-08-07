@@ -1,5 +1,41 @@
 [
 	{
+		"title"		: 	"Designing A Modular System With Sarah Federman",
+		"slug"		:	"https://ctrlclickcast.com/episodes/designing-a-modular-system",
+		"date"		:	"2018-07-19",
+		"source"	:	"CTRL+CLICK CAST"
+	},
+	{
+		"title"		: 	"Learning from Smashing Conference and making a demo",
+		"slug"		:	"https://medium.com/@senning/learning-from-smashing-conference-and-making-a-demo-96cc6ae3eed8",
+		"date"		:	"2018-07-12",
+		"source"	:	"Senning Luk"
+	},
+	{
+		"title"		: 	"Maintain a Professional Network Throughout Your UX Career",
+		"slug"		:	"https://medium.com/@jessicaivins/maintain-a-professional-network-throughout-your-ux-career-d2ec5ee976e0",
+		"date"		:	"2018-07-10",
+		"source"	:	"Jessica Ivins"
+	},
+	{
+		"title"		: 	"Design System Fundamentals",
+		"slug"		:	"https://hackdesign.org/lessons/96-design-system-fundamentals",
+		"date"		:	"2018-07-05",
+		"source"	:	"Hack Design"
+	},
+	{
+		"title"		: 	"Many illustrators design and work remotely",
+		"slug"		:	"https://remotedesignteam.com/2018/07/many-illustrators-design-and-work-remotely/",
+		"date"		:	"2018-07-04",
+		"source"	:	"Remote Design Team"
+	},
+	{
+		"title"		: 	"Workshop experience at Smashing Conf",
+		"slug"		:	"https://medium.com/@armenzg/workshop-experience-at-smashing-conf-896f69d42c16",
+		"date"		:	"2018-06-27",
+		"source"	:	"Armen Zambrano"
+	},
+	{
 		"title"		: 	"Distinct Design Systems",
 		"slug"		:	"https://heydesigner.com/distinct-design-systems/",
 		"date"		:	"2018-06-17",
@@ -41,6 +77,12 @@
 		"slug"		:	"https://www.viget.com/newsletter/invest-design-system/",
 		"date"		:	"2018-01-19",
 		"source"	:	"Viget"
+	},
+	{
+		"title"		: 	"Should you hire a junior designer for your startup?",
+		"slug"		:	"https://uxdesign.cc/should-you-hire-a-junior-designer-for-your-startup-9c6aa9660941",
+		"date"		:	"2018-01-19",
+		"source"	:	"UX Collective"
 	},
 	{
 		"title"		: 	"How to Scope Work",
@@ -694,6 +736,12 @@
 		"source"	:	"Verse"
 	},
 	{
+		"title"		: 	"Concepting Methods",
+		"slug"		:	"http://teaching.aminalhazwani.com/concepting-methods/",
+		"date"		:	"2016-03-31",
+		"source"	:	"Amin Al Hazwani"
+	},
+	{
 		"title"		: 	"Element Collages&hellip; are FUN!",
 		"slug"		:	"https://cloudfour.com/thinks/element-collages-are-fun/",
 		"date"		:	"2016-03-03",
@@ -959,6 +1007,12 @@
 		"source"	:	"Gizmodo UK"
 	},
 	{
+		"title"		: 	"How I Learned to Stop Worrying and Love the Deliverable",
+		"slug"		:	"http://interactions.acm.org/archive/view/september-october-2012/how-i-learned-to-stop-worrying-and-love-the-deliverable",
+		"date"		:	"2012-09-05",
+		"source"	:	"Association for Computing Machinery"
+	},
+	{
 		"title"		: 	"An Interview with Dan Mall",
 		"slug"		:	"http://theindustry.cc/2012/08/13/an-interview-with-dan-mall/",
 		"date"		:	"2012-08-13",
@@ -983,31 +1037,21 @@
 		"source"	:	"The Pastry Box"
 	},
 	{
+		"title"		: 	"Invisible Deliverables",
+		"slug"		:	"http://blog.mobnia.com/invisible-deliverables/",
+		"date"		:	"2011-06-23",
+		"source"	:	"Mobnia"
+	},
+	{
+		"title"		: 	"Invisible Deliverables",
+		"slug"		:	"http://v1.methodandcraft.com/articles/invisible-deliverables",
+		"date"		:	"2011-02-28",
+		"source"	:	"Method &amp; Craft"
+	},
+	{
 		"title"		: 	"Everything About Liz",
 		"slug"		:	"http://dis.bobulate.com/about/",
 		"date"		:	"2010-09-30",
 		"source"	:	"Bobulate"
 	}
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
