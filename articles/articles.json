@@ -1,5 +1,18 @@
 [
 	{
+		"title"	: 	"Designer + Developer Workflow",
+		"slug"	:	"designer-developer-workflow",
+		"dek"	:	"A real view into at what collaborative workflow looks like.",
+		"date"	:	"2018-08-08 22:31:00",
+		"tags"	:	[
+			"collaboration",
+			"workflow",
+			"design",
+			"development",
+			"teaching"
+		]
+	},
+	{
 		"title"	: 	"Illustrators",
 		"slug"	:	"illustrators",
 		"dek"	:	"Need to hire an illustrator? Look no further.",
