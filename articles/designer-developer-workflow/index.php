@@ -119,7 +119,7 @@
 
             <p>And lots more! In fact, we barely even finish the page we&rsquo;re working on, mostly because we&rsquo;re talking through what we&rsquo;re doing rather than solely doing the work. If there&rsquo;s enough interest, we may do a few more of these so you can see it all come to fruition.</p>
 
-            <p>For more info, please check out Brad&rsquo;s thoughts about all of this in <a href="#">BRAD&rsquo;S POST TITLE GOES HERE</a>.</p>
+            <p>For more info, please check out Brad&rsquo;s thoughts about all of this in his post, <a href="http://bradfrost.com/blog/post/designer-developer-workflow">Designer + Developer Workflow</a>.</p>
 
             <p>We&rsquo;d love to hear any feedback you might have about all this. Is this a new kind of workflow for you? Is this how you&rsquo;ve worked for years? Interested in working this way at your company but not sure where to start? Let us know what questions you have, and thanks for reading and watching!</p>
 
