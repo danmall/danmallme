@@ -69,6 +69,25 @@
 
 
 
+    <section class="dm-c-skillshare">
+
+        <a class="dm-c-skillshare_block" href="http://skl.sh/superfriendly">
+
+            <div class="dm-c-skillshare_text">
+
+                <?php require($_SERVER["DOCUMENT_ROOT"]."/i/home/skillshare.svg"); echo "\n"; ?>
+
+                <h1 class="dm-c-skillshare_headline">I made an online class for designers about <span class="dm-c-skillshare_headline_link">creating design systems</span>.</h1>
+
+            </div>
+
+        </a>
+
+    </section>
+
+
+
+
     <section id="pricing-design" class="dm-c-pricingDesign dm-u-clearfix">
 
     	<h1 class="dm-c-pricingDesign_headline">I wrote a book.</h1>
