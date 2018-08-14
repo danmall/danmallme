@@ -199,6 +199,7 @@ var Site = function(){
             _mall                       =   document.querySelector(".dm-c-preamble_name--mall"),
             _danHead                    =   document.querySelector(".dm-c-preamble_dan"),
             _tagline                    =   document.querySelectorAll(".dm-c-preamble_tagline_term"),
+            _skillshare                 =   document.querySelector(".dm-c-skillshare"),
             _testimonials               =   document.querySelector(".dm-c-testimonials"), 
             _quotes                     =   document.querySelectorAll(".dm-dp-quote"),
             _pricingDesign              =   document.querySelector(".dm-c-pricingDesign"),
@@ -216,6 +217,12 @@ var Site = function(){
             var _preambleShield = document.createElement("div");
             _preambleShield.setAttribute("class","dm-j-preambleShield");
             _preamble.append(_preambleShield);
+        }
+
+        if(_skillshare){
+            var _skillshareShield = document.createElement("div");
+            _skillshareShield.setAttribute("class","dm-j-skillshareShield");
+            _skillshare.append(_skillshareShield);
         }
 
         if(_testimonials){
@@ -236,6 +243,8 @@ var Site = function(){
 
             TweenMax.set(_tagline, { autoAlpha: 0 });
             TweenMax.staggerTo(_tagline, 1.25, { autoAlpha: 1, x: "+=10px", ease: Expo.easeInOut, delay: 2 }, 0.25 );
+
+            TweenMax.fromTo(_skillshareShield, 1.1, { width: "100%" }, { width: 0, ease: Expo.easeInOut, delay: 1.5 } );
 
             TweenMax.set(_quotes, { autoAlpha: 0 });
             TweenMax.fromTo(_testimonialsShield, 1.1, { width: 0 }, { width: "100%", ease: Expo.easeInOut, delay: 2, onComplete: setTestimonialBackground } );
