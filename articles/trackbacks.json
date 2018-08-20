@@ -1,5 +1,35 @@
 [
 	{
+		"title"		: 	"Don't write 1,000 words a day 🙅‍♀️ - (StartupWatching #155)",
+		"slug"		:	"http://archive.startupwatching.com/issues/don-t-write-1-000-words-a-day-startupwatching-155-129803",
+		"date"		:	"2018-08-16",
+		"source"	:	"Startup Watching"
+	},
+	{
+		"title"		: 	"Agile development: why and how to use it in your web and app workflow",
+		"slug"		:	"https://www.creativebloq.com/features/agile-development-why-and-how-to-use-it-in-your-web-and-app-workflow",
+		"date"		:	"2018-08-14",
+		"source"	:	"Creative Bloq"
+	},
+	{
+		"title"		: 	"Tools for Testing Web Color Accessiblity",
+		"slug"		:	"https://jpreardon.com/2018/08/11/tools-for-testing-web-color-accessibility/",
+		"date"		:	"2018-08-11",
+		"source"	:	"JP Reardon"
+	},
+	{
+		"title"		: 	"Designer + Developer Workflow",
+		"slug"		:	"https://heydesigner.com/designer-developer-workflow/",
+		"date"		:	"2018-08-10",
+		"source"	:	"Hey Designer"
+	},
+	{
+		"title"		: 	"The secrets and science of a productive four day workweek",
+		"slug"		:	"https://plan.io/blog/four-day-workweek/",
+		"date"		:	"2018-08-06",
+		"source"	:	"Planio"
+	},
+	{
 		"title"		: 	"Designing A Modular System With Sarah Federman",
 		"slug"		:	"https://ctrlclickcast.com/episodes/designing-a-modular-system",
 		"date"		:	"2018-07-19",
@@ -34,6 +64,12 @@
 		"slug"		:	"https://medium.com/@armenzg/workshop-experience-at-smashing-conf-896f69d42c16",
 		"date"		:	"2018-06-27",
 		"source"	:	"Armen Zambrano"
+	},
+	{
+		"title"		: 	"The freelance business growth dilemma",
+		"slug"		:	"https://medium.com/swlh/the-freelance-business-growth-dilemma-5d60dda21a8d",
+		"date"		:	"2018-06-18",
+		"source"	:	"The Startup"
 	},
 	{
 		"title"		: 	"Distinct Design Systems",
