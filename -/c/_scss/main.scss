@@ -436,6 +436,11 @@ http://superfriend.ly/
 				background-color: $skillshareColor; 
 				background-image: url(/-/i/dan-skillshare.jpg);
 				background-repeat: no-repeat;
+
+				@media screen and (min-width: 1000px) {
+					background-size: contain;
+					background-position: right bottom;
+				}
 			}
 
 		}
