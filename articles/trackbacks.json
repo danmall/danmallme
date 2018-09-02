@@ -1,5 +1,11 @@
 [
 	{
+		"title"		: 	"Collective #425",
+		"slug"		:	"https://bricktowntom.com/08/collective-425.html",
+		"date"		:	"2018-08-20",
+		"source"	:	"Bricktowntoms Market Place"
+	},
+	{
 		"title"		: 	"Don't write 1,000 words a day 🙅‍♀️ - (StartupWatching #155)",
 		"slug"		:	"http://archive.startupwatching.com/issues/don-t-write-1-000-words-a-day-startupwatching-155-129803",
 		"date"		:	"2018-08-16",
@@ -764,6 +770,12 @@
 		"slug"		:	"https://blog.prototypr.io/designing-the-unseen-f3126fc8c95b#.8h4se8dlc",
 		"date"		:	"2016-04-25",
 		"source"	:	"Prototypr"
+	},
+	{
+		"title"		: 	"Pattern Tables",
+		"slug"		:	"https://maketh.co.za/the-pattern-table-fb19f27341c8",
+		"date"		:	"2016-04-20",
+		"source"	:	"Maketh"
 	},
 	{
 		"title"		: 	"Step into my studio and get a behind the scenes look on a project",

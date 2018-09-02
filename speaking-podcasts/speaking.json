@@ -25,8 +25,17 @@
 	},
 	{
 		"title"		: 	"Frontend Conference",
+		"slug"		:	"https://vimeo.com/287855630/1959f99cf5",
 		"date"		:	"2018-08-30",
+		"video"		:	true,
 		"location"	:	"Zurich"
+	},
+	{
+		"title"		: 	"Dan Mall on Optimizing Your Day, Pricing, The Hollywood Business Model, SuperBooked and More",
+		"slug"		:	"https://thestrongweb.com/dan-mall",
+		"date"		:	"2018-08-17",
+		"type"		:	"podcast",
+		"audio"		:	true
 	},
 	{
 		"title"		: 	"An Event Apart",
