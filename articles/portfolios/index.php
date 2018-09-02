@@ -37,7 +37,7 @@
             A Portfolio Hiring Managers Can&rsquo;t&nbsp;Deny
         </h1>
 
-        <h2 class="dm-c-pageHeader_date">September 02, 2018 at 09:45 <abbr title="Ante Meridien">AM</abbr></h2>
+        <h2 class="dm-c-pageHeader_date">September 02, 2018 at 04:32 <abbr title="Post Meridien">PM</abbr></h2>
 
     </header><!-- .page-header -->
 
@@ -110,6 +110,8 @@
                 <li>Referencing some extra research you did, like info from a podcast or a trade magazine</li>
                 <li>Pictures of you attending that company&rsquo;s events, evidence of you being a longtime customer, or other things that may distinguish you from other candidates</li>
             </ul>
+
+            <p>The intention here is to answer some of the questions the hiring manager might have before they even ask it. For example, they may think, &ldquo;How would Dan would handle working on Nike+, which has both digital and physical components?&ldquo; I answer that&mdash;in advance, in my portfolio, before they actually ask me&mdash;in my portfolio piece for Crayola, which has both digital and physical components. They might wonder, &ldquo;Would Dan work well on a large team like ours?&rdquo; Which I answer in portfolio pieces about working with different team sizes. They might be curious as to whether or not I&rsquo;d even like working there, to which my sneaker fetish callouts would answer that it&rsquo;d be a slice of heaven for me. You get the idea.</p>
 
             <p>While this isn&rsquo;t a plug-and-play template, I hope this gives you a starting point for how to spruce up your portfolio to say the right things to the people you want to hire you. Happy job hunting!</p>
 
