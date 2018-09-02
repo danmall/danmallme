@@ -1,5 +1,15 @@
 [
 	{
+		"title"	: 	"A Portfolio Hiring Managers Can&rsquo;t Deny",
+		"slug"	:	"portfolios",
+		"dek"	:	"Tell &rsquo;em exactly what they want to hear before they even ask.",
+		"date"	:	"2018-09-02 14:32:00",
+		"tags"	:	[
+			"portfolios",
+			"hiring"
+		]
+	},
+	{
 		"title"	: 	"Designer + Developer Workflow",
 		"slug"	:	"designer-developer-workflow",
 		"dek"	:	"A real view into at what collaborative workflow looks like.",

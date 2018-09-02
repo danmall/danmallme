@@ -472,7 +472,7 @@ http://superfriend.ly/
 				font-size: 1.5rem;
 
 				li {
-					@include dm-u-marginLeft--s;
+					@include dm-u-marginLeft--l;
 					@include dm-u-marginBottom--xs
 					@include dm-u-pos--relative;
 
@@ -485,7 +485,7 @@ http://superfriend.ly/
 						height: 0.5rem;
 						background: $wistful;
 						top: 0.8rem;
-						left: -1.4rem;
+						left: -1.6rem;
 
 					}
 					
@@ -504,7 +504,7 @@ http://superfriend.ly/
 				counter-reset: section; 
 
 				li {
-					@include dm-u-marginLeft--m;
+					@include dm-u-marginLeft--l;
 					@include dm-u-marginBottom--xs;
 					@include dm-u-pos--relative;
 
