@@ -10,7 +10,7 @@
     <meta name="twitter:site" content="@danmall" />
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
     <meta name="twitter:title" property="og:title" content="A Portfolio Hiring Managers Can&rsquo;t Deny" />
-    <meta name="twitter:description" property="og:description" content="Lorem ipsum dolor sit amet" />
+    <meta name="twitter:description" property="og:description" content="Tell &rsquo;em exactly what they want to hear before they even ask." />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/thumb.png" />
 
     <style type="text/css">
