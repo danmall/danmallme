@@ -1164,7 +1164,8 @@ http://superfriend.ly/
 
 		&_title {
 			@include dm-u-pos--static;
-			@include dm-u-leading--s;
+			@include dm-u-leading--xs;
+			@include dm-u-marginBottom--xs;
 
 			@media screen and (min-width: 720px) {
 				@include dm-u-text--xxl;
