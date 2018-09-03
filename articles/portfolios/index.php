@@ -98,7 +98,7 @@
             <p>The important bits:</p>
 
             <ol>
-                <li><strong>An opening statement,</strong> addressed to a particular person, introducing yourself and stating clearly why you&rsquo;d be a great fit for the position.</li>
+                <li><strong>An opening statement,</strong> addressed to a particular person, introducing myself and stating clearly why I&rsquo;d be a great fit for the position.</li>
                 <li><strong>A collection of my work,</strong> specifically tailored to speak to this particular job description. For example, this job description uses specific phrases like &ldquo;product presentation&ldquo; and &ldquo;retail business targets,&rdquo; so I used those same phrases in talking about my work.</li>
                 <li><strong>Something special about me</strong> professionally or personally that sets me above everyone else applying for this job. I&rsquo;m not just another designer; I&rsquo;m a designer that&rsquo;s also a sneakerhead.</li>
             </ol>
@@ -114,6 +114,19 @@
             <p>The intention here is to answer some of the questions the hiring manager might have before they even ask it. For example, they may think, &ldquo;How would Dan would handle working on Nike+, which has both digital and physical components?&ldquo; I answer that&mdash;in advance, in my portfolio, before they actually ask me&mdash;in my portfolio piece for Crayola, which has both digital and physical components. They might wonder, &ldquo;Would Dan work well on a large team like ours?&rdquo; Which I answer in portfolio pieces about working with different team sizes. They might be curious as to whether or not I&rsquo;d even like working there, to which my sneaker fetish callouts would answer that it&rsquo;d be a slice of heaven for me. You get the idea.</p>
 
             <p>While this isn&rsquo;t a plug-and-play template, I hope this gives you a starting point for how to spruce up your portfolio to say the right things to the people you want to hire you. Happy job hunting!</p>
+
+            <h2 id="related-reading">Related reading <a class="dm-dp-anchorLink" href="#related-reading">#</a></h2>
+
+            <p>Though I don&rsquo;t necessarily agree with everything in these articles, there&rsquo;s lots of good stuff to think about:</p>
+
+            <ul>
+                <li><a href="http://www.vanschneider.com/the-most-important-page-on-your-portfolio">The Most Important Page on Your Portfolio</a>, by Tobias van Schneider</li>
+                <li><a href="http://v3.danielmall.com/articles/how-to-get-the-work-you-want/">How to Get the Work You Want</a>, by Dan Mall</li>
+                <li><a href="https://skillcrush.com/2015/03/12/impressive-tech-portfolio/">How to Build an Impressive Portfolio When You&rsquo;re New to Tech</a>, by Randle Browning on Skillcrush&rsquo;s <cite>The Hard Refresh</cite></li>
+                <li><a href="https://www.creativebloq.com/advice/the-dos-and-donts-of-perfect-portfolios">The dos and don&rsquo;ts of perfect portfolios</a>, by Tobias van Schneider on <cite>Creative Bloq</cite></li>
+                <li><a href="https://www.creativebloq.com/design/make-perfect-portfolio-1132903">How to create a web design portfolio</a> on <cite>Creative Bloq</cite></li>
+                <li><a href="https://www.smashingmagazine.com/2013/06/workflow-design-develop-modern-portfolio-website/">My (Simple) Workflow To Design And Develop A Portfolio Website</a>, by Adham Dannaway on <cite>Smashing Magazine</cite></li>
+            </ul>
 
             <footer class="dm-c-articleWell_footer dm-dp-sepChunk">
                 <ol class="dm-c-footnotes">
