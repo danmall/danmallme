@@ -85,7 +85,7 @@
                 <li><strong>How well would the candidate fit in here?</strong> Are they like everyone else on the team? If not, is the difference one that will make everyone here better or make everyone here feel awkward?</li>
             </ul>
 
-            <p>Though the specific criteria will likely vary, it can often be summarized like this: <strong>how easily can I already see this person working here?</strong> A great portfolio answers that questions as clearly possible <em>before</em> any in-person interviews.</p>
+            <p>Though the specific criteria will likely vary, it can often be summarized like this: <strong>how easily can I already see this person working here?</strong> A great portfolio answers that question as clearly as possible <em>before</em> any in-person interviews.</p>
 
             <p>What could that portfolio look like?</p>
 
