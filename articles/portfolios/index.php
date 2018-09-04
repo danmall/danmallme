@@ -11,11 +11,10 @@
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
     <meta name="twitter:title" property="og:title" content="A Portfolio Hiring Managers Can&rsquo;t Deny" />
     <meta name="twitter:description" property="og:description" content="Tell &rsquo;em exactly what they want to hear before they even ask." />
-    <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/thumb.png" />
+    <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>thumb.png" />
 
-    <style type="text/css">
-        
-    </style>
+    <!-- Webmentions -->
+    <link rel="pingback" href="https://webmention.io/webmention?forward=<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
 
 </head>
 
@@ -156,7 +155,38 @@
     <section id="comments" class="dm-c-comments">      
             
         <div class="main">
+
+            <!-- ====== WEBMENTIONS ======= -->
+            <!-- https://gist.github.com/aaronpk/6207445 -->
+
+            <span id="webmention-count" style="display: none;"></span>
+
+            <?php 
+                /*
+                echo '<div style="display: none;">';
+                $json = file_get_contents('https://webmention.io/api/links.jf2?target=http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']);
+                $obj = json_decode($json);
+                //echo $obj;
+                echo '</div>';
+                */
+            ?>
             
+
+            <script type="text/javascript">
+                function loadWebmentions(data){
+                    var webmentionCount = document.querySelector('#webmention-count');
+                    if(webmentionCount){
+                        webmentionCount.innerHTML = data.count + " mentions";
+                    }
+                    //document.getElementById("webmention-count").innerHTML = data.count + " mentions";
+                }
+            </script>
+            <script type="text/javascript" src="http://webmention.io/api/count?jsonp=loadWebmentions&amp;target=<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>"></script>
+
+
+
+            
+            <!-- ====== DISQUS ======= -->
             <div id="disqus_thread"></div>
             <script>
                 /**
