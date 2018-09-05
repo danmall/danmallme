@@ -6,6 +6,12 @@
 		"location"	:	"Austin"
 	},
 	{
+		"title"		: 	"Clarity Conference",
+		"slug"		:	"https://www.clarityconf.com/2018",
+		"date"		:	"2018-12-11",
+		"location"	:	"New York City"
+	},
+	{
 		"title"		: 	"Awwwards Conference",
 		"slug"		:	"https://conference.awwwards.com/new-york/",
 		"date"		:	"2018-11-15",
