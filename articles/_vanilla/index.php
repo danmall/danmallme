@@ -44,7 +44,7 @@
 
         <div class="dm-dp-textPassage">
 
-            <p><span class="dm-dp-openingLines">Lorem ipsum dolor</span> sit amet, consectetur adipisicing elit, sed do eiusmod
+            <p><span class="dm-dp-openingLines"><b class="dm-dp-dropCap">L</b>orem ipsum dolor</span> sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat. <a href="#">Duis aute irure dolor</a> in reprehenderit in voluptate velit esse

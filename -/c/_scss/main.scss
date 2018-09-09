@@ -1047,6 +1047,8 @@ http://superfriend.ly/
 .dm-page--landing,
 .dm-page--articleDetail {
 
+
+
 	.dm-dp-textBlurb {
 
 		@media screen and (min-width: 520px) {
@@ -1154,6 +1156,11 @@ http://superfriend.ly/
 -------------------------------------------*/
 
 .dm-page--articleDetail {
+
+	#carbonads {
+		@include dm-u-clear--both;
+	}
+	
 
 	@media screen and (min-width: 1020px) {
 		padding-top: 115px;
