@@ -655,7 +655,7 @@ http://superfriend.ly/
 		@include dm-u-padding--m;
 
 		// seasoning
-		max-width: 800px;
+		//max-width: 800px;
 
 		&_footer {
 			@include dm-u-marginTop--xxl;
@@ -709,6 +709,7 @@ http://superfriend.ly/
 			}
 		}
 
+		/*
 		@media screen and (min-width: 1020px) {
 			width: 76%;
 		} 
@@ -717,6 +718,7 @@ http://superfriend.ly/
 			@include dm-u-paddingRight--l;
 			padding-left: 10%;
 		} 
+		*/
 
 	}
 
@@ -942,8 +944,8 @@ http://superfriend.ly/
 	// seasoning
 	background: $alabaster;
 
-	.dm-page--landing &, 
-	.dm-page--articleDetail & {
+	.dm-page--landing &/*, 
+	.dm-page--articleDetail &*/ {
 
 		@media screen and (min-width: 1020px) {
 
@@ -956,6 +958,10 @@ http://superfriend.ly/
 
 		}
 
+	}
+
+	.dm-c-articleWell & {
+		@include dm-u-marginTop--m;
 	}
 }
 
@@ -1081,6 +1087,17 @@ http://superfriend.ly/
 
 	}
 
+	@media screen and (min-width: 720px) {
+
+		.dm-svg-siteLogo {
+			@include dm-u-padding--0;
+
+			// seasoning
+			width: 40px;
+		}
+
+	}
+
 	@media screen and (min-width: 1020px) {
 
 		padding-top: 65px;
@@ -1096,13 +1113,6 @@ http://superfriend.ly/
 			left: 0;
 			z-index: 1;
 		}
-
-			.dm-svg-siteLogo {
-				@include dm-u-padding--0;
-
-				// seasoning
-				width: 40px;
-			}
 
 		.dm-c-pageHeader {
 
@@ -1151,6 +1161,15 @@ http://superfriend.ly/
 
 	.dm-c-pageHeader {
 
+		@media screen and (min-width: 720px) {
+			
+			&:before {
+				@include dm-u-hide;
+			}
+
+		}
+
+		/*
 		@media screen and (min-width: 1020px) {
 
 			// seasoning
@@ -1162,6 +1181,8 @@ http://superfriend.ly/
 			padding-left: 10%;
 		} 
 
+		*/
+
 		&_title {
 			@include dm-u-pos--static;
 			@include dm-u-leading--xs;
@@ -1169,6 +1190,7 @@ http://superfriend.ly/
 
 			@media screen and (min-width: 720px) {
 				@include dm-u-text--xxl;
+				@include dm-u-align--center;
 			}
 
 			@media screen and (min-width: 1072px) {
@@ -1183,6 +1205,7 @@ http://superfriend.ly/
 
 			@media screen and (min-width: 720px) {
 				@include dm-u-text--m;
+				@include dm-u-align--center;
 			}
 		}
 

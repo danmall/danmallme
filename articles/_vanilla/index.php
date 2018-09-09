@@ -40,8 +40,6 @@
 
     </header><!-- .page-header -->
 
-    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
-
     <main role="main" class="dm-c-articleWell">
 
         <div class="dm-dp-textPassage">
@@ -52,6 +50,8 @@
             consequat. <a href="#">Duis aute irure dolor</a> in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
 
             <ul>
                 <li>Integer posuere erat a ante venenatis dapibus posuere velit aliquet</li>
