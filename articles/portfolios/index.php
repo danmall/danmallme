@@ -39,17 +39,19 @@
         <h2 class="dm-c-pageHeader_date">September 02, 2018 at 04:32 <abbr title="Post Meridien">PM</abbr></h2>
 
     </header><!-- .page-header -->
-
-    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
-
+    
     <main role="main" class="dm-c-articleWell">
 
         <div class="dm-dp-textPassage">
 
 
             <p>
-                <span class="dm-dp-openingLines">For designers and developers</span>, one thing stands high above r&eacute;sum&eacute;s, cover letters, and university degrees: the esteemed portfolio. A great portfolio can get you a high-paying, life-restoring job, even if you don’t have much or any schooling. The converse is also true: you may have many degrees and lots of experience listed on a r&eacute;sum&eacute;, but unless you can demonstrate it through a portfolio, that great job opportunity may still pass you by. 
+                <span class="dm-dp-openingLines"><b class="dm-dp-dropCap">F</b>or designers and developers</span>, one thing stands high above r&eacute;sum&eacute;s, cover letters, and university degrees: the esteemed portfolio. A great portfolio can get you a high-paying, life-restoring job, even if you don’t have much or any schooling. The converse is also true: you may have many degrees and lots of experience listed on a r&eacute;sum&eacute;, but unless you can demonstrate it through a portfolio, that great job opportunity may still pass you by. 
             </p>
+
+            <div class="dm-c-carbonWrap">
+                <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
+            </div>
 
             <p>What makes for a good portfolio? In a sentence, <strong>a portfolio that has the highest likelihood of landing a job indicates you already have the skills to do what you&rsquo;ll be hired to do.</strong> Will you be expected to design inventive user interfaces for senior citizens? That&rsquo;s what should be in your portfolio. Is that potential job expecting that you&rsquo;ll build React apps using Redux and LotusNotes? Time to break out that &ldquo;Domino for Dummies&rdquo; book.</p> 
 
