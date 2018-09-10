@@ -93,11 +93,14 @@ http://superfriend.ly/
 
 		&-articleGrid {
 
-			@media screen and (min-width: 840px) {
+			@media screen and (min-width: 1248px) {
 				display: grid;
 				max-width: 1248px;
+				max-width: 1404px;
 				margin: 0 auto;
 				grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+				align-self: start;
+				grid-template-rows: auto;
 				grid-template-areas: 
 						". dm-c-pageHeader dm-c-pageHeader dm-c-pageHeader dm-c-pageHeader dm-c-pageHeader dm-c-pageHeader ."
 						". . dm-c-articleWell dm-c-articleWell dm-c-articleWell dm-c-articleWell . ."
@@ -105,10 +108,77 @@ http://superfriend.ly/
 			}
 
 			&--main {
-				@media screen and (min-width: 840px) {
-					grid-column: 2 / span 6;
 
-				}				
+				@media screen and (min-width: 840px) {
+					// seasoning
+					padding-left: 10%;
+					padding-right: 10%;
+				}
+
+				@media screen and (min-width: 1248px) {
+					grid-column: 2 / span 6;
+					@include dm-u-paddingLeft--0;
+					@include dm-u-paddingRight--0;
+				}
+
+			}
+
+			&--sidenote {
+
+				//@include dm-u-move--offscreen;
+				@include dm-u-pos--fixed;
+				@include dm-u-padding--l;
+
+				// seasoning				
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				opacity: 0;
+				z-index: 1;
+
+				p {
+					font-size: 13px !important;
+					@include dm-u-fontStyle--BreveItalic;
+
+					@media screen and (min-width: 1248px) {
+						font-size: 14px !important;
+					}
+
+					@media screen and (max-width: 1248px) {
+						color: #fff;
+					}
+
+				}
+
+				a {
+					@media screen and (max-width: 1248px) {
+						color: #fff;
+					}
+				}
+				
+
+				@media screen and (min-width: 1248px) {
+
+					@include dm-u-pos--static;
+					@include dm-u-display--block;
+					@include dm-u-padding--0;
+					@include dm-u-float--right;
+
+					// seasoning
+					//width: 312px;
+					//margin-right: -352px;
+					opacity: 1;
+					width: 40%;
+					margin-right: -48%;
+					transform: translateY(6px);
+
+				}
+
+
+				@media screen and (max-width: 1248px) {
+					background: rgba(62, 55, 48, 0.9);
+				}
+
 			}
 
 		}

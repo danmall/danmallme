@@ -56,13 +56,25 @@
 
                 <p>What makes for a good portfolio? In a sentence, <strong>a portfolio that has the highest likelihood of landing a job indicates you already have the skills to do what you&rsquo;ll be hired to do.</strong> Will you be expected to design inventive user interfaces for senior citizens? That&rsquo;s what should be in your portfolio. Is that potential job expecting that you&rsquo;ll build React apps using Redux and LotusNotes? Time to break out that &ldquo;Domino for Dummies&rdquo; book.</p> 
 
-                <p id="fn1-source">Many designers and developers think of a portfolio as a simple way to collect the things they&rsquo;ve worked on over the last few years of their careers. While that might make your mama proud, it&rsquo;s a distraction from the fact that a portfolio has a job to do—namely, to get you a job <sup><a href="#fn1">1</a></sup> <sup><a href="#fn2">2</a></sup>.</p> 
+                <p>Many designers and developers think of a portfolio as a simple way to collect the things they&rsquo;ve worked on over the last few years of their careers. While that might make your mama proud, it&rsquo;s a distraction from the fact that a portfolio has a job to do—namely, to get you a job. <sup class="dm-c-sidenotes--link"><a href="#note1">1</a></sup></p>
+
+                <aside id="note1" class="dm-c-sidenotes dm-l-articleGrid--sidenote">
+
+                    <p>If you do want to collect your work somewhere, call it a &ldquo;time capsule&rdquo; or &ldquo;archive.&rdquo; And while those might <strong>help</strong> to get you a job, there are much better ways to land your dream gig than by just putting a random smattering of work in a place.</p>
+
+                </aside>
 
                 <p>Therefore, the first step in crafting a great portfolio is identifying what job you&rsquo;re actually trying to get. Half of that is identifying the company you&rsquo;d like to work for; the other half is identifying the specific job you want at that company. Once you know those things, you can create a specific message that addresses why you&rsquo;d be a great fit for <em>that</em> job at <em>that</em> company.</p>
 
                 <p>You might already see the conundrum with that approach: even with the same title, every job is at least slightly different from company to company. A <a href="https://www.zocdoc.com/about/careers-list/?job_id=Senior-Product-Designer-464419">Senior Product Designer job at online medical care appointment booking service Zocdoc</a> is different than a <a href="https://www.plated.com/careers?gh_jid=1169776">Senior Product Designer job at meal kit service Plated</a>. There&rsquo;s certainly overlap in the details: both companies are in New York, involve interdisciplinary collaboration, and require facilitation as well as execution skills. But the big stuff couldn&rsquo;t be more different. Plated is looking for a designer to &ldquo;help them craft beautiful and engaging experiences that help people transform dinnertime.&rdquo; Zocdoc is looking for a designer to help create &ldquo;the next generation of patient and provider experiences to help us transform healthcare.&rdquo;</p>
 
-                <p id="fn3-source">How could one portfolio possibly communicate both messages clearly? There probably aren&rsquo;t many designers out there that already have the skills and experience to rethink meals <em>and</em> transform healthcare. Hiring managers know this. At best, a singular portfolio would probably only be able to abstract the messages to say, &ldquo;I&rsquo;m good at creating experiences.&rdquo; See how much more watered down that is? By generalizing, you put the onus on the person evaluating your portfolio to draw their own conceptual line between your experience and their needs. A good portfolio would do that work for them. <sup><a href="#fn3">3</a></sup></p>
+                <p>How could one portfolio possibly communicate both messages clearly? There probably aren&rsquo;t many designers out there that already have the skills and experience to rethink meals <em>and</em> transform healthcare. Hiring managers know this. At best, a singular portfolio would probably only be able to abstract the messages to say, &ldquo;I&rsquo;m good at creating experiences.&rdquo; See how much more watered down that is? By generalizing, you put the onus on the person evaluating your portfolio to draw their own conceptual line between your experience and their needs. A good portfolio would do that work for them. <sup class="dm-c-sidenotes--link"><a href="#note2">2</a></sup></p>
+
+                <aside id="note2" class="dm-c-sidenotes dm-l-articleGrid--sidenote">
+
+                    <p>Remember, most managers don&rsquo;t have training in being managers. No one ever taught them <a href="http://v3.danielmall.com/articles/interviewing-designers/">how to interview designers</a> or developers. The easier you make their jobs&mdash;finding and landing qualified candidates&mdash;by presenting yourself as the person they&rsquo;ve been looking for, the better the outcome for you.</p>
+
+                </aside>
 
                 <p>Which brings us to this potentially unpopular guideline for portfolios: <strong>every job you apply for should have its own portfolio.</strong> That&rsquo;s right: if you&rsquo;re applying for 4 jobs, you should have 4 different portfolios. A great portfolio shows the hiring manager why you&rsquo;re perfect for <em>that</em> job, and perhaps that job <a href="/onlyness/">only</a>. That means it may be a bad fit if you tried to reuse the same portfolio for another another job without at least significant modifications.</p>
 
@@ -119,7 +131,13 @@
 
                 <p>(<em>Note: this section was added September 7, 2018, five days after the article&rsquo;s initial publishing.</em>)</p>
 
-                <p>In response to this article, design Fedor Shkliarau <a href="https://twitter.com/shkliarau/status/1037003567608066048" title="A Twitter conversation between Fedor Shkliarau and Dan Mall">pointed out</a> that this may be more of a cover letter than a portfolio. Through that discussion, we arrived at the best term for something like this is <strong>a proposal</strong>. After I <a href="http://v3.danielmall.com/articles/prequalifying-clients/">prequalify clients</a> for <a href="http://superfriend.ly/">SuperFriendly</a> projects, I&rsquo;ll often put together a collection&mdash;whether that&rsquo;s a short email of links or a 100-page, beautifully-designed <abbr title="Portable Document Format">PDF</abbr>&mdash;of past work that&rsquo;s contextualized to the particular problem they&rsquo;re asking us to help them solve.</p>
+                <p>In response to this article, design Fedor Shkliarau <a href="https://twitter.com/shkliarau/status/1037003567608066048" title="A Twitter conversation between Fedor Shkliarau and Dan Mall">pointed out</a> that this may be more of a cover letter than a portfolio <sup class="dm-c-sidenotes--link"><a href="#note3">3</a></sup> . Through that discussion, we arrived at the best term for something like this is <strong>a proposal</strong>. After I <a href="http://v3.danielmall.com/articles/prequalifying-clients/">prequalify clients</a> for <a href="http://superfriend.ly/">SuperFriendly</a> projects, I&rsquo;ll often put together a collection&mdash;whether that&rsquo;s a short email of links or a 100-page, beautifully-designed <abbr title="Portable Document Format">PDF</abbr>&mdash;of past work that&rsquo;s contextualized to the particular problem they&rsquo;re asking us to help them solve.</p>
+
+                <aside id="note3" class="dm-c-sidenotes dm-l-articleGrid--sidenote">
+
+                    <p>For the pedants among us, you&rsquo;re right that the definition of &ldquo;portfolio&rdquo; is literally &ldquo;a collection of past work, used to demonstrate ability.&rdquo; However, for designers and developers, the connotation of the word has been elevated to often be the sole determinant in whether or not one is awarded a job. Though I believe we could use a new word to represent this idea, &ldquo;portfolio&rdquo; is the word our industry currently uses, so it seems more pragmatic in the short-term to clarify its intent as opposed to getting people to change what word they use.</p>
+
+                </aside>
 
                 <p>A good portfolio is no different. In fact, it may even be easier to put together than a services inquiry. With a services inquiry, I sometimes know very little about the company, and all I have to rely on for my response is a short conversation I may have had with a client. With a portfolio for an agency, you have all of their past work to look at to determine what&rsquo;s important to them. With a portfolio for a startup or product shop, you can look at the product(s) they make to understand what kind of company they are. For both, you can also research some of the people who work there to find out what qualities and skills they posses that landed them their jobs.</p>
 
@@ -146,13 +164,7 @@
                 </ul>
 
                 <footer class="dm-c-articleWell_footer dm-dp-sepChunk">
-                    <ol class="dm-c-footnotes">
-                        <li id="fn1">If you do want to collect your work somewhere, call it a &ldquo;time capsule&rdquo; or &ldquo;archive.&rdquo; And while those might <strong>help</strong> to get you a job, there are much better ways to land your dream gig than by just putting a random smattering of work in a place. <a href="#fn1-source" title="Back to footnote source #1">&#8617;</a></li>
-                        <li id="fn2">For the pedants among us, you&rsquo;re right that the definition of &ldquo;portfolio&rdquo; is literally &ldquo;a collection of past work, used to demonstrate ability.&rdquo; However, for designers and developers, the connotation of the word has been elevated to often be the sole determinant in whether or not one is awarded a job. Though I believe we could use a new word to represent this idea, &ldquo;portfolio&rdquo; is the word our industry currently uses, so it seems more pragmatic in the short-term to clarify its intent as opposed to getting people to change what word they use. <a href="#fn1-source" title="Back to footnote source #2">&#8617;</a></li>          
-                        <li id="fn2">Remember, most managers don&rsquo;t have training in being managers. No one ever taught them <a href="http://v3.danielmall.com/articles/interviewing-designers/">how to interview designers</a> or developers. The easier you make their jobs&mdash;finding and landing qualified candidates&mdash;by presenting yourself as the person they&rsquo;ve been looking for, the better the outcome for you. <a href="#fn3-source" title="Back to footnote source #3">&#8617;</a></li>
-                        <li>Also <a href="https://medium.com/@danielmall/a-portfolio-hiring-managers-cant-deny-94ad33f794c3">syndicated to Medium</a>.</li>          
-                    </ol>
-
+                    <p class="dm-c-footnotes">Also <a href="https://medium.com/@danielmall/a-portfolio-hiring-managers-cant-deny-94ad33f794c3">syndicated to Medium</a>.</p>
                 </footer>
 
             </div>

@@ -755,6 +755,10 @@ http://superfriend.ly/
 		@include dm-u-paddingLeft--m;
 	}
 
+
+
+	// footnotes
+
 	&-c-footnotes {
 		li {
 			@include dm-u-text--14;
@@ -764,6 +768,16 @@ http://superfriend.ly/
 				top: 0.21em !important;
 			}
 		}
+	}
+
+	&-c-sidenotes {
+
+		&--link {
+			@media screen and (min-width: 1248px) {
+				@include dm-u-move--offscreen;
+			}
+		}
+		
 	}
 
 

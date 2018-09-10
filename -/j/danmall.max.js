@@ -93,6 +93,7 @@ var Site = function(){
         initArticleAnchorOffsets();
         lazyLoad();
         // ajaxLoadImages();
+        initSidenotes();
 
         
     }
@@ -521,6 +522,29 @@ var Site = function(){
 
     }
 
+    var initSidenotes = function(){
+
+        var _sidenotesLinks = document.querySelectorAll(".dm-c-sidenotes--link");
+        if(_sidenotesLinks) {            
+            for(i = 0; i < _sidenotesLinks.length; i++){
+                _sidenotesLinks[i].addEventListener("click", function(e){
+                    var _target = document.querySelector(this.querySelector('a').getAttribute("href"));
+                    if(_target.style.opacity == 0){
+                        TweenMax.to(_target, 1, { opacity: 1 });
+                        _target.style.zIndex = "1000";
+                    }else{
+                        TweenMax.to(_target, 1, { opacity: 0 });
+                        _target.style.zIndex = "1";
+                    }
+                    return false;
+                });
+
+            }
+
+        }
+
+    }
+
 
     var initArticleAnchorOffsets = function(){
 
@@ -556,7 +580,7 @@ var Site = function(){
 
             if(location.href.split("#")[1]) {
 
-                console.log(location.href.split("#")[1]);
+                //console.log(location.href.split("#")[1]);
                 
                 if(window.innerWidth >= 1020){
 
