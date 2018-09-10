@@ -524,17 +524,30 @@ var Site = function(){
 
     var initSidenotes = function(){
 
-        var _sidenotesLinks = document.querySelectorAll(".dm-c-sidenotes--link");
+        var 
+            _sidenotesLinks     =       document.querySelectorAll(".dm-c-sidenotes--link"),
+            _sidenoteOpen       =       null;
+
         if(_sidenotesLinks) {            
             for(i = 0; i < _sidenotesLinks.length; i++){
                 _sidenotesLinks[i].addEventListener("click", function(e){
                     var _target = document.querySelector(this.querySelector('a').getAttribute("href"));
+
+                    // hide any other notes open
+                    if(_sidenoteOpen){
+                        TweenMax.to(_sidenoteOpen, 1, { opacity: 0 });
+                        _sidenoteOpen = null;
+                    }
+
+                    // show
                     if(_target.style.opacity == 0){
                         TweenMax.to(_target, 1, { opacity: 1 });
                         _target.style.zIndex = "1000";
-                    }else{
+                        _sidenoteOpen = _target;
+                    }else{ // hide
                         TweenMax.to(_target, 1, { opacity: 0 });
                         _target.style.zIndex = "1";
+                        _sidenoteOpen = null;
                     }
                     return false;
                 });
