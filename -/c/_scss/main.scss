@@ -32,6 +32,8 @@ http://superfriend.ly/
 
 	&-c-pageHeader {
 
+		grid-area: dm-c-pageHeader;
+
 		@include dm-u-padding--m;
 
 		&:before {
@@ -652,10 +654,15 @@ http://superfriend.ly/
 
 	&-c-articleWell {
 
+		grid-area: dm-c-articleWell;
+
 		@include dm-u-padding--m;
 
 		// seasoning
 		//max-width: 800px;
+		max-width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
 
 		&_footer {
 			@include dm-u-marginTop--xxl;

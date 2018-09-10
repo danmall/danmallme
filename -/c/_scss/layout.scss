@@ -85,6 +85,35 @@ http://superfriend.ly/
 			@include dm-l-col--20;
 		}
 
+
+
+		/*-------------------------------------------    
+		    Article Grid
+		-------------------------------------------*/
+
+		&-articleGrid {
+
+			@media screen and (min-width: 840px) {
+				display: grid;
+				max-width: 1248px;
+				margin: 0 auto;
+				grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+				grid-template-areas: 
+						". dm-c-pageHeader dm-c-pageHeader dm-c-pageHeader dm-c-pageHeader dm-c-pageHeader dm-c-pageHeader ."
+						". . dm-c-articleWell dm-c-articleWell dm-c-articleWell dm-c-articleWell . ."
+						
+			}
+
+			&--main {
+				@media screen and (min-width: 840px) {
+					grid-column: 2 / span 6;
+
+				}				
+			}
+
+		}
+
+
 	}
 
 }
