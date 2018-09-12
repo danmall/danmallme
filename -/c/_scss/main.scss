@@ -932,6 +932,9 @@ http://superfriend.ly/
 			@include dm-u-font--sans;
 			@include dm-u-bg--none;
 			@include dm-u-boxShadow--none;
+			@include dm-u-paddingTop--xs;
+			@include dm-u-display--block;
+
 
 			// seasoning
 			font-size: 12px;

@@ -19,8 +19,8 @@
     <style type="text/css">
 
         body {
-            --articlePrimaryColor: blue;
-            --articlePrimaryColorHover: #e5e6fd;
+            /*--articlePrimaryColor: blue;
+            --articlePrimaryColorHover: #e5e6fd;*/
         }
 
     </style>
