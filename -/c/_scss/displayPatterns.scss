@@ -383,6 +383,29 @@ http://superfriend.ly/
 			font-size: 90%;
 		}
 
+		// drop cap
+		&-dropCap {
+			font-size: $spacing * 8px;
+			@include dm-u-font--sans;
+			@include dm-u-padding--m;
+			@include dm-u-leading--xs;
+			@include dm-u-float--left;
+			@include dm-u-display--block;
+			background: var(--articlePrimaryColor, $sandstone);
+			color: $white;
+			@include dm-u-align--center;
+			@include dm-u-paddingLeft--xl;
+			@include dm-u-paddingRight--xl;
+			@include dm-u-marginRight--m;
+			@include dm-u-marginBottom--m;
+
+			.firmeBold-loaded & {
+
+				// seasoning
+				font-family: "Firme-Bold";
+			}
+		}
+
 
 		// text passage
 

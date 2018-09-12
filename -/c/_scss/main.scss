@@ -21,58 +21,19 @@ http://superfriend.ly/
 @import 'prism.scss';
 
 
+// --- components ----
+@import 'components/comments.scss';
+@import 'components/pageHeader.scss';
+@import 'components/pullquote.scss';
+@import 'components/siteLogo.scss';
+
+
 
 /*-------------------------------------------    
 	Components
 -------------------------------------------*/
 
-.dm {
-
-	// pageHeader
-
-	&-c-pageHeader {
-
-		@include dm-u-padding--m;
-
-		&:before {
-			@include dm-u-display--block;
-			@include dm-u-marginBottom--l;
-			@include dm-u-marginLeft--m;
-
-			// seasoning
-			content: "";
-			background: $silverRust;
-			height: 60px;
-			width: 3px;
-			margin-top: -50px;
-		}
-
-		&_title {
-			@include dm-u-font--normal;
-			@include dm-u-text--xl;
-			@include dm-u-marginBottom--xs;
-			@include dm-u-leading--s;
-
-			.breveTitleBold-loaded & {
-				font-family: "BreveTitle-Bold";
-			}
-
-			&_count {
-				@include dm-u-text--m;
-				@include dm-u-font--sans;
-				@include dm-u-marginLeft--xs;
-			}
-		}
-
-		
-
-		&_date {
-			@include dm-u-font--sans;
-			@include dm-u-text--s;
-			@include dm-u-font--normal;
-		}
-
-	}
+.dm {	
 
 	&-js-pageShield {
 		@include dm-u-pos--fixed;
@@ -85,32 +46,6 @@ http://superfriend.ly/
 		height: 100vh;
 		z-index: 9999;
 	}
-
-	&-c-siteLogo {
-		@include dm-l-width--100;
-		@include dm-u-paddingTop--s;
-		@include dm-u-marginBottom--0;
-
-		& a:hover,
-		& a:focus {
-			background: #fff;
-			box-shadow: none;
-			
-				.cls-1 {
-					fill: $orange;
-				}
-		}
-	}
-
-		&-svg-siteLogo {
-			@include dm-u-margin--0;
-			@include dm-u-display--inline;
-
-			// improvisatins
-			width: 70px;
-		}
-
-
 
 
 	// site nav
@@ -652,10 +587,15 @@ http://superfriend.ly/
 
 	&-c-articleWell {
 
+		grid-area: dm-c-articleWell;
+
 		@include dm-u-padding--m;
 
 		// seasoning
-		max-width: 800px;
+		//max-width: 800px;
+		max-width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
 
 		&_footer {
 			@include dm-u-marginTop--xxl;
@@ -709,6 +649,7 @@ http://superfriend.ly/
 			}
 		}
 
+		/*
 		@media screen and (min-width: 1020px) {
 			width: 76%;
 		} 
@@ -717,6 +658,7 @@ http://superfriend.ly/
 			@include dm-u-paddingRight--l;
 			padding-left: 10%;
 		} 
+		*/
 
 	}
 
@@ -725,8 +667,9 @@ http://superfriend.ly/
 
 	&-c-articleImage {
 		@include dm-u-padding--m;
-		@include dm-l-maxWidth--1000;
+		//@include dm-l-maxWidth--1000;
 
+		/*
 		@media screen and (min-width: 1020px) {
 			width: 76%;
 		} 
@@ -734,7 +677,7 @@ http://superfriend.ly/
 		@media screen and (min-width: 1072px) {
 			@include dm-u-paddingRight--l;
 			padding-left: 5%;
-		} 
+		}*/
 
 	}
 
@@ -744,7 +687,14 @@ http://superfriend.ly/
 	&-c-codeBlock {
 		@include dm-u-text--s;
 		@include dm-u-paddingLeft--m;
+
+		//seasoning
+		max-width: 654px;
 	}
+
+
+
+	// footnotes
 
 	&-c-footnotes {
 		li {
@@ -757,26 +707,15 @@ http://superfriend.ly/
 		}
 	}
 
+	&-c-sidenotes {
 
-
-	// comments
-
-	&-c-comments {
-		@include dm-u-padding--m;
-
-		// seasoning
-		max-width: 800px;
-
-		@media screen and (min-width: 1020px) {
-			width: 76%;
-		} 
-
-		@media screen and (min-width: 1072px) {
-			padding-left: 10%;
-		} 
-
+		&--link {
+			@media screen and (min-width: 1248px) {
+				@include dm-u-move--offscreen;
+			}
+		}
+		
 	}
-
 
 
 	// up next
@@ -942,8 +881,8 @@ http://superfriend.ly/
 	// seasoning
 	background: $alabaster;
 
-	.dm-page--landing &, 
-	.dm-page--articleDetail & {
+	.dm-page--landing &/*, 
+	.dm-page--articleDetail &*/ {
 
 		@media screen and (min-width: 1020px) {
 
@@ -956,6 +895,10 @@ http://superfriend.ly/
 
 		}
 
+	}
+
+	.dm-c-articleWell & {
+		@include dm-u-marginTop--m;
 	}
 }
 
@@ -993,6 +936,9 @@ http://superfriend.ly/
 			@include dm-u-font--sans;
 			@include dm-u-bg--none;
 			@include dm-u-boxShadow--none;
+			@include dm-u-paddingTop--xs;
+			@include dm-u-display--block;
+
 
 			// seasoning
 			font-size: 12px;
@@ -1026,6 +972,24 @@ http://superfriend.ly/
 			}
 		}
 
+.dm-c-carbonWrap {
+
+	grid-area: dm-c-carbonWrap;
+
+	@include dm-u-pos--relative;
+
+	&:before {
+		content: "";
+		width: 100%;
+		height: 4px;
+		@include dm-u-pos--absolute;
+		background: #e5e5e5;
+		top: 45%;
+		left: 0;
+		@include dm-u-display--block;
+	}
+}
+
 
 // Disqus
 
@@ -1040,6 +1004,8 @@ http://superfriend.ly/
 
 .dm-page--landing,
 .dm-page--articleDetail {
+
+
 
 	.dm-dp-textBlurb {
 
@@ -1081,6 +1047,17 @@ http://superfriend.ly/
 
 	}
 
+	@media screen and (min-width: 720px) {
+
+		.dm-svg-siteLogo {
+			@include dm-u-padding--0;
+
+			// seasoning
+			width: 40px;
+		}
+
+	}
+
 	@media screen and (min-width: 1020px) {
 
 		padding-top: 65px;
@@ -1094,15 +1071,8 @@ http://superfriend.ly/
 			height: 120px;
 			top: -2em;
 			left: 0;
-			z-index: 1;
+			z-index: 2;
 		}
-
-			.dm-svg-siteLogo {
-				@include dm-u-padding--0;
-
-				// seasoning
-				width: 40px;
-			}
 
 		.dm-c-pageHeader {
 
@@ -1145,12 +1115,44 @@ http://superfriend.ly/
 
 .dm-page--articleDetail {
 
+	#carbonads {
+		@include dm-u-clear--both;
+		@include dm-u-pos--relative;
+
+		// seasoning
+		max-width: 460px;
+		margin-left: auto;
+		margin-right: auto;
+
+		@media screen and (min-width: 500px) {
+
+			@include dm-u-marginTop--xl;
+			@include dm-u-marginBottom--xl;
+
+			// seasoning
+			background: $white;
+			border-left: 20px solid #fff;
+			border-right: 20px solid #fff;
+		}
+
+	}
+	
+
 	@media screen and (min-width: 1020px) {
 		padding-top: 115px;
 	}
 
 	.dm-c-pageHeader {
 
+		@media screen and (min-width: 720px) {
+			
+			&:before {
+				@include dm-u-hide;
+			}
+
+		}
+
+		/*
 		@media screen and (min-width: 1020px) {
 
 			// seasoning
@@ -1162,6 +1164,8 @@ http://superfriend.ly/
 			padding-left: 10%;
 		} 
 
+		*/
+
 		&_title {
 			@include dm-u-pos--static;
 			@include dm-u-leading--xs;
@@ -1169,6 +1173,7 @@ http://superfriend.ly/
 
 			@media screen and (min-width: 720px) {
 				@include dm-u-text--xxl;
+				@include dm-u-align--center;
 			}
 
 			@media screen and (min-width: 1072px) {
@@ -1183,6 +1188,7 @@ http://superfriend.ly/
 
 			@media screen and (min-width: 720px) {
 				@include dm-u-text--m;
+				@include dm-u-align--center;
 			}
 		}
 

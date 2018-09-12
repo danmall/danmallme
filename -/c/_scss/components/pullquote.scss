@@ -1,0 +1,62 @@
+/*
+*************************************************
+
+DANMALL.ME
+Pullquote component
+
+Created by the epic SuperFriendly team.
+http://superfriend.ly/
+
+*************************************************
+*/
+
+.dm {
+	&-c {
+		&-pullquote {
+
+			.dm-dp-textPassage & {
+
+				@include dm-u-padding--0;
+				@include dm-u-paddingTop--l;
+				@include dm-u-paddingBottom--s;
+				@include dm-u-float--left;								
+
+				// seasoning
+				background: none;
+				border-top: 1px solid var(--articlePrimaryColor, $sandstone);
+				border-top-width: $spacing * 2px;
+				border-bottom: 1px solid $sandstone;				
+
+				@media screen and (min-width: 600px) {
+					@include dm-u-marginRight--l;
+					@include dm-u-marginTop--m;
+					@include dm-u-paddingBottom--0;
+
+					// seasoning
+					width: 50%;
+					border-bottom: none;
+
+				}
+
+				@media screen and (min-width: 1248px) {
+					@include dm-u-margin--xl;
+					@include dm-u-align--right;
+
+					// seasoning
+					margin-left: -25%;
+				}
+
+				&_text {
+					@include dm-u-leading--s;
+
+					.breveTitleBold-loaded & {
+						font-family: "BreveTitle-Bold";
+					}
+
+				}
+
+			}			
+
+		}
+	}
+}

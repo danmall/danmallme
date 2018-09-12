@@ -27,7 +27,7 @@
 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 
-    <header class="dm-c-pageHeader" role="banner">
+    <header class="dm-c-pageHeader dm-l-articleGrid--main" role="banner">
 
         <h1 class="dm-c-pageHeader_title">
             <a href="#articles">Articles</a> &amp; <a href="#trackbacks">Trackbacks</a><sup class="dm-c-pageHeader_title_count"><?php 

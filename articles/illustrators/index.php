@@ -43,7 +43,9 @@
 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 
-    <header class="dm-c-pageHeader" role="banner">
+    <div class="dm-l-articleGrid">
+
+        <header class="dm-c-pageHeader dm-l-articleGrid--main" role="banner">
 
         <h1 class="dm-c-pageHeader_title">
             Illustrators
@@ -53,11 +55,9 @@
 
     </header><!-- .page-header -->
 
-    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
-
     <main role="main" class="dm-c-articleWell">
 
-        <div class="dm-dp-textPassage">
+        <div class="dm-dp-textPassage dm-l-articleGrid--main">
 
             <p><span class="dm-dp-openingLines">Last week</span>, I tweeted about trying to find an illustrator:</p>
 
@@ -65,6 +65,10 @@
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
             <p class="dm-u-marginBottom--xl">I was <em>flooded</em> with lots of links to the portfolios of amazing illustrators. If you&rsquo;re looking to hire an illustrator, look no further: here are all the people that replied and/or were recommended. What amazing talent!</p>
+
+            <div class="dm-c-carbonWrap">
+                    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
+                </div><!-- .dm-c-carbonWrap -->
 
             <div class="dm-c-illustrationRow dm-u-clearfix dm-u-marginTop--xl">
                 <div class="dm-c-illustrationBlock dm-l-col--50">                    
@@ -631,6 +635,8 @@
         </section><!-- .dm-c-upNext -->
 
     </main>
+
+    </div><!-- .dm-l-articleGrid -->
 
 
 

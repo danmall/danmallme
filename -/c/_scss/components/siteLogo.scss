@@ -1,0 +1,39 @@
+/*
+*************************************************
+
+DANMALL.ME
+Site Logo component
+
+Created by the epic SuperFriendly team.
+http://superfriend.ly/
+
+*************************************************
+*/
+
+.dm {
+	&-c {
+		&-siteLogo {
+			@include dm-l-width--100;
+			@include dm-u-paddingTop--s;
+			@include dm-u-marginBottom--0;
+
+			& a:hover,
+			& a:focus {
+				background: #fff;
+				box-shadow: none;
+				
+					.cls-1 {
+						fill: $orange;
+					}
+			}
+		}			
+	}
+
+		&-svg-siteLogo {
+			@include dm-u-margin--0;
+			@include dm-u-display--inline;
+
+			// improvisatins
+			width: 70px;
+		}
+}
