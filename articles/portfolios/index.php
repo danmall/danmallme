@@ -61,7 +61,7 @@
 
                 <div class="dm-c-carbonWrap">
                     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
-                </div>
+                </div><!-- .dm-c-carbonWrap -->
 
                 <p>What makes for a good portfolio? In a sentence, <strong>a portfolio that has the highest likelihood of landing a job indicates you already have the skills to do what you&rsquo;ll be hired to do.</strong> Will you be expected to design inventive user interfaces for senior citizens? That&rsquo;s what should be in your portfolio. Is that potential job expecting that you&rsquo;ll build React apps using Redux and LotusNotes? Time to break out that &ldquo;Domino for Dummies&rdquo; book.</p> 
 
@@ -195,6 +195,8 @@
             </section><!-- .dm-c-upNext -->
 
         </main>
+
+    </div><!-- .dm-l-articleGrid -->
 
     </div><!-- .dm-l-articleGrid -->
 

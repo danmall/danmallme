@@ -30,7 +30,9 @@
 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 
-    <header class="dm-c-pageHeader" role="banner">
+    <div class="dm-l-articleGrid">
+
+        <header class="dm-c-pageHeader dm-l-articleGrid--main" role="banner">
 
         <h1 class="dm-c-pageHeader_title">
             Article Title Goes Here Second Line
@@ -42,7 +44,7 @@
 
     <main role="main" class="dm-c-articleWell">
 
-        <div class="dm-dp-textPassage">
+        <div class="dm-dp-textPassage dm-l-articleGrid--main">
 
             <p><span class="dm-dp-openingLines"><b class="dm-dp-dropCap">L</b>orem ipsum dolor</span> sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -52,7 +54,9 @@
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
             <div class="dm-c-carbonWrap">
-                <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
+                <div class="dm-c-carbonWrap">
+                    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
+                </div><!-- .dm-c-carbonWrap -->
             </div>
 
             <ul>
@@ -147,6 +151,8 @@
         </section><!-- .dm-c-upNext -->
 
     </main>
+
+    </div><!-- .dm-l-articleGrid -->
 
 
 

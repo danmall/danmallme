@@ -34,7 +34,9 @@
 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 
-    <header class="dm-c-pageHeader" role="banner">
+    <div class="dm-l-articleGrid">
+
+        <header class="dm-c-pageHeader dm-l-articleGrid--main" role="banner">
 
         <h1 class="dm-c-pageHeader_title">
             A new calendar approach for 2017
@@ -44,11 +46,13 @@
 
     </header><!-- .page-header -->
 
-    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
+    <div class="dm-c-carbonWrap">
+                    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
+                </div><!-- .dm-c-carbonWrap -->
 
     <main role="main" class="dm-c-articleWell">
 
-        <div class="dm-dp-textPassage">
+        <div class="dm-dp-textPassage dm-l-articleGrid--main">
 
 
             <p>
@@ -275,6 +279,8 @@
         </section><!-- .dm-c-upNext -->
 
     </main>
+
+    </div><!-- .dm-l-articleGrid -->
 
 
 

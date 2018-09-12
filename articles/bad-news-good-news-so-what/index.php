@@ -28,44 +28,46 @@
 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 
-    <header class="dm-c-pageHeader" role="banner">
+    <div class="dm-l-articleGrid">
 
-        <h1 class="dm-c-pageHeader_title">
-            Bad News. Good News. So What?
-        </h1>
+        <header class="dm-c-pageHeader dm-l-articleGrid--main" role="banner">
 
-        <h2 class="dm-c-pageHeader_date">March 30, 2017 at 6:06 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h1 class="dm-c-pageHeader_title">
+                Bad News. Good News. So What?
+            </h1>
 
-    </header><!-- .page-header -->
+            <h2 class="dm-c-pageHeader_date">March 30, 2017 at 6:06 <abbr title="Ante Meridien">AM</abbr></h2>
 
-    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
+        </header><!-- .page-header -->
 
-    <main role="main">
+        <main role="main" class="dm-c-articleWell">
 
-        <div class="dm-dp-textPassage dm-c-articleWell">
+            <div class="dm-dp-textPassage dm-l-articleGrid--main">
 
-            <iframe class="dm-u-marginBottom--l" src="https://spoken.co/t/2548687/embed" frameborder="0" width="100%" height="84" style="max-width:400px;"></iframe>
+                <iframe class="dm-u-marginBottom--l" src="https://spoken.co/t/2548687/embed" frameborder="0" width="100%" height="84" style="max-width:400px;"></iframe>
 
-            <p><span class="dm-dp-openingLines">My father-in-law</span> (a retired pastor) shared with me a simple framework he crafted from many years of preaching sermons week after week. Every good story has these three components:</p>
+                <p><span class="dm-dp-openingLines">My father-in-law</span> (a retired pastor) shared with me a simple framework he crafted from many years of preaching sermons week after week. Every good story has these three components:</p>
 
-            <ol>
-                <li>Bad news.</li>
-                <li>Good news. </li>
-                <li>So what?</li>
-            </ol>
+                <ol>
+                    <li>Bad news.</li>
+                    <li>Good news. </li>
+                    <li>So what?</li>
+                </ol>
 
-            <p>Most people don&rsquo;t know how to tell a good story, but that&rsquo;s easily solved with this simple trick. You&rsquo;ll soon have your listeners hanging on your every word!</p>
+                <div class="dm-c-carbonWrap">
+                    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
+                </div><!-- .dm-c-carbonWrap -->
 
-            <p>(See how I just used that framework? 😉 )</p>
-            
-            <footer class="dm-c-articleWell_footer">
-                <p>Also syndicated to <a href="https://medium.com/@danielmall/bad-news-good-news-so-what-9849e272aa0c">Medium</a>.</p>
-            </footer>
-            
+                <p>Most people don&rsquo;t know how to tell a good story, but that&rsquo;s easily solved with this simple trick. You&rsquo;ll soon have your listeners hanging on your every word!</p>
 
-        </div>
+                <p>(See how I just used that framework? 😉 )</p>
+                
+                <footer class="dm-c-articleWell_footer">
+                    <p>Also syndicated to <a href="https://medium.com/@danielmall/bad-news-good-news-so-what-9849e272aa0c">Medium</a>.</p>
+                </footer>                
 
-        <div class="dm-c-articleWell">
+            </div>
+
 
             <section id="up-next" class="dm-c-upNext">
 
@@ -79,9 +81,9 @@
 
             </section><!-- .dm-c-upNext -->
 
-        </div><!-- .dm-c-articleWell -->
+        </main>
 
-    </main>
+    </div><!-- .dm-l-articleGrid -->
 
 
 

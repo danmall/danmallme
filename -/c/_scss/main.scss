@@ -667,8 +667,9 @@ http://superfriend.ly/
 
 	&-c-articleImage {
 		@include dm-u-padding--m;
-		@include dm-l-maxWidth--1000;
+		//@include dm-l-maxWidth--1000;
 
+		/*
 		@media screen and (min-width: 1020px) {
 			width: 76%;
 		} 
@@ -676,7 +677,7 @@ http://superfriend.ly/
 		@media screen and (min-width: 1072px) {
 			@include dm-u-paddingRight--l;
 			padding-left: 5%;
-		} 
+		}*/
 
 	}
 
@@ -686,6 +687,9 @@ http://superfriend.ly/
 	&-c-codeBlock {
 		@include dm-u-text--s;
 		@include dm-u-paddingLeft--m;
+
+		//seasoning
+		max-width: 654px;
 	}
 
 
