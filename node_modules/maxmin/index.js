@@ -10,10 +10,6 @@ function format(size) {
 }
 
 module.exports = function (max, min, useGzip) {
-	if (max == null || min == null) {
-		throw new Error('`max` and `min` required');
-	}
-
 	var ret = format(typeof max === 'number' ? max : max.length) + arrow + format(typeof min === 'number' ? min : min.length);
 
 	if (useGzip === true && typeof min !== 'number') {

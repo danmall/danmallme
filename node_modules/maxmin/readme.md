@@ -9,7 +9,7 @@ Useful for logging the difference between original and minified file in e.g. a b
 
 ## Install
 
-```sh
+```
 $ npm install --save maxmin
 ```
 
@@ -17,30 +17,28 @@ $ npm install --save maxmin
 ## Usage
 
 ```js
-var maxmin = require('maxmin');
+const maxmin = require('maxmin');
 
-var max = 'function smoothRangeRandom(min,max){var num=Math.floor(Math.random()*(max-min+1)+min);return this.prev=num===this.prev?++num:num};';
+const max = 'function smoothRangeRandom(min,max){var num=Math.floor(Math.random()*(max-min+1)+min);return this.prev=num===this.prev?++num:num};';
 
-var min = '(function(b,c){var a=Math.floor(Math.random()*(c-b+1)+b);return this.a=a===this.a?++a:a})()';
+const min = '(function(b,c){var a=Math.floor(Math.random()*(c-b+1)+b);return this.a=a===this.a?++a:a})()';
 
 console.log(maxmin(max, min, true));
-//=> 130 B → 91 B → 53 B (gzip)
+//=> '130 B → 91 B → 53 B (gzip)'
 ```
 
 ## API
 
-### maxmin(max, min, useGzip)
+### maxmin(max, min, [useGzip])
 
 #### max
 
-*Required*  
 Type: `string`, `buffer`, `number`
 
 Original string or its size in bytes.
 
 #### min
 
-*Required*  
 Type: `string`, `buffer`, `number`
 
 Minified string or its size in bytes.
