@@ -21,60 +21,17 @@ http://superfriend.ly/
 @import 'prism.scss';
 
 
+// --- components ----
+@import 'components/pageHeader.scss';
+@import 'components/siteLogo.scss';
+
+
 
 /*-------------------------------------------    
 	Components
 -------------------------------------------*/
 
-.dm {
-
-	// pageHeader
-
-	&-c-pageHeader {
-
-		grid-area: dm-c-pageHeader;
-
-		@include dm-u-padding--m;
-
-		&:before {
-			@include dm-u-display--block;
-			@include dm-u-marginBottom--l;
-			@include dm-u-marginLeft--m;
-
-			// seasoning
-			content: "";
-			background: $silverRust;
-			height: 60px;
-			width: 3px;
-			margin-top: -50px;
-		}
-
-		&_title {
-			@include dm-u-font--normal;
-			@include dm-u-text--xl;
-			@include dm-u-marginBottom--xs;
-			@include dm-u-leading--s;
-
-			.breveTitleBold-loaded & {
-				font-family: "BreveTitle-Bold";
-			}
-
-			&_count {
-				@include dm-u-text--m;
-				@include dm-u-font--sans;
-				@include dm-u-marginLeft--xs;
-			}
-		}
-
-		
-
-		&_date {
-			@include dm-u-font--sans;
-			@include dm-u-text--s;
-			@include dm-u-font--normal;
-		}
-
-	}
+.dm {	
 
 	&-js-pageShield {
 		@include dm-u-pos--fixed;
@@ -87,32 +44,6 @@ http://superfriend.ly/
 		height: 100vh;
 		z-index: 9999;
 	}
-
-	&-c-siteLogo {
-		@include dm-l-width--100;
-		@include dm-u-paddingTop--s;
-		@include dm-u-marginBottom--0;
-
-		& a:hover,
-		& a:focus {
-			background: #fff;
-			box-shadow: none;
-			
-				.cls-1 {
-					fill: $orange;
-				}
-		}
-	}
-
-		&-svg-siteLogo {
-			@include dm-u-margin--0;
-			@include dm-u-display--inline;
-
-			// improvisatins
-			width: 70px;
-		}
-
-
 
 
 	// site nav
