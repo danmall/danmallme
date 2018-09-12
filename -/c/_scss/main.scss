@@ -24,6 +24,7 @@ http://superfriend.ly/
 // --- components ----
 @import 'components/comments.scss';
 @import 'components/pageHeader.scss';
+@import 'components/pullquote.scss';
 @import 'components/siteLogo.scss';
 
 
@@ -965,6 +966,9 @@ http://superfriend.ly/
 		}
 
 .dm-c-carbonWrap {
+
+	grid-area: dm-c-carbonWrap;
+
 	@include dm-u-pos--relative;
 
 	&:before {
@@ -1060,7 +1064,7 @@ http://superfriend.ly/
 			height: 120px;
 			top: -2em;
 			left: 0;
-			z-index: 1;
+			z-index: 2;
 		}
 
 		.dm-c-pageHeader {

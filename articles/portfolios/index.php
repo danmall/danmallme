@@ -80,6 +80,10 @@
 
                 <p>Whenever I mention this Multiple Portfolio Strategy&trade; to designers and developers looking for new jobs, they scoff. It&rsquo;s difficult enough to create one portfolio; tripling or quadrupling that effort seems virtually impossible. But let&rsquo;s appropriately qualify expectations: you&rsquo;re looking for a hiring manager to agree to pay you tens&mdash;or even hundreds&mdash;of thousands of dollars a year, based on something you whip together in a weekend? A good portfolio is an <a href="http://v3.danielmall.com/articles/investments/">investment</a>: the larger initial loss you can take in terms of how much effort you can put it, the larger the potential for gain at the end of that process.</p>
 
+                <blockquote class="dm-c-pullquote">
+                    <p class="dm-c-pullquote_text">How easily can I already see this person working here? A great portfolio answers that question as clearly possible before any in-person interviews.</p>
+                </blockquote>
+
                 <p>My favorite recent example of these guidelines in action is <a href="https://www.francineforspotify.com/">the site Francine Tamakloe put together to apply at Spotify</a>. This site speaks directly to the role music has played in her life. She uses Spotify&rsquo;s typographic style and gradient color palette. She frames her work style via song lyrics and embeds a Spotify player of each song nearby. I don&rsquo;t know the details, but <a href="https://twitter.com/tamakloeee">her Twitter bio</a> says she&rsquo;s now &ldquo;hustlin&rsquo; at Spotify,&rdquo; and I can imagine this site played a big part in that.</p>
 
                 <p>Imagine if she wanted to work at Apple too. A simple &ldquo;Find &amp; Replace&rdquo; from &ldquo;Spotify&rdquo; to &ldquo;Apple&rdquo; wouldn&rsquo;t really do the trick. This is a &ldquo;go big or go home&rdquo; approach. So many designers and developers think of their portfolios as &ldquo;one size fits all,&rdquo; and then are baffled as to why they can&rsquo;t land any job, much less their dream one.</p>
