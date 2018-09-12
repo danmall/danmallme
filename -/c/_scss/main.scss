@@ -22,6 +22,7 @@ http://superfriend.ly/
 
 
 // --- components ----
+@import 'components/comments.scss';
 @import 'components/pageHeader.scss';
 @import 'components/siteLogo.scss';
 
@@ -710,27 +711,6 @@ http://superfriend.ly/
 		}
 		
 	}
-
-
-
-	// comments
-
-	&-c-comments {
-		@include dm-u-padding--m;
-
-		// seasoning
-		max-width: 800px;
-
-		@media screen and (min-width: 1020px) {
-			width: 76%;
-		} 
-
-		@media screen and (min-width: 1072px) {
-			padding-left: 10%;
-		} 
-
-	}
-
 
 
 	// up next

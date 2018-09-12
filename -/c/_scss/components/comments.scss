@@ -1,0 +1,33 @@
+/*
+*************************************************
+
+DANMALL.ME
+Comments component
+
+Created by the epic SuperFriendly team.
+http://superfriend.ly/
+
+*************************************************
+*/
+
+.dm {
+	&-c {
+		&-comments {
+			@include dm-u-padding--m;
+
+			// seasoning
+			max-width: 800px;
+			margin: 0 auto;
+
+			/*
+			@media screen and (min-width: 1020px) {
+				width: 76%;
+			} 
+
+			@media screen and (min-width: 1072px) {
+				padding-left: 10%;
+			} */
+
+		}		
+	}
+}
