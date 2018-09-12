@@ -37,6 +37,9 @@ http://superfriend.ly/
 				@include dm-u-marginBottom--xs;
 				@include dm-u-leading--s;
 
+				// seasoning
+				//color: var(--articlePrimaryColor, $shipGray);
+
 				.breveTitleBold-loaded & {
 					font-family: "BreveTitle-Bold";
 				}

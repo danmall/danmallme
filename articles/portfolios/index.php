@@ -16,6 +16,15 @@
     <!-- Webmentions -->
     <link rel="pingback" href="https://webmention.io/webmention?forward=<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
 
+    <style type="text/css">
+
+        body {
+            --articlePrimaryColor: blue;
+            --articlePrimaryColorHover: #e5e6fd;
+        }
+
+    </style>
+
 </head>
 
 

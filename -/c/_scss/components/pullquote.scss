@@ -23,7 +23,7 @@ http://superfriend.ly/
 
 				// seasoning
 				background: none;
-				border-top: 1px solid $sandstone;
+				border-top: 1px solid var(--articlePrimaryColor, $sandstone);
 				border-top-width: $spacing * 2px;
 				border-bottom: 1px solid $sandstone;				
 

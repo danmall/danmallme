@@ -391,7 +391,7 @@ http://superfriend.ly/
 			@include dm-u-leading--xs;
 			@include dm-u-float--left;
 			@include dm-u-display--block;
-			background: $sandstone;
+			background: var(--articlePrimaryColor, $sandstone);
 			color: $white;
 			@include dm-u-align--center;
 			@include dm-u-paddingLeft--xl;
