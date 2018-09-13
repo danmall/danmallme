@@ -94,6 +94,7 @@ var Site = function(){
         lazyLoad();
         // ajaxLoadImages();
         initSidenotes();
+        initFluidVids();
 
         
     }
@@ -554,6 +555,29 @@ var Site = function(){
 
             }
 
+        }
+
+    }
+
+
+    var initFluidVids = function() {        
+
+        // hide video players for a minute
+        var _videos = document.querySelectorAll('.dm-c-video');
+        for(var i = 0; i < _videos.length; i++){
+            _videos[i].style.opacity = 0;
+        }
+
+        window.onload = function(){
+            fluidvids.init({
+                selector: ['iframe', 'object'], // runs querySelectorAll()
+                players: ['www.youtube.com', 'player.vimeo.com'] // players to support
+            });
+
+            for(var j = 0; j < _videos.length; j++){
+                TweenMax.to(_videos[j], 1, { opacity: 1 });
+                //_videos[j].style.opacity = 0;
+            }
         }
 
     }

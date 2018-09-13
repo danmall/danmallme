@@ -26,6 +26,7 @@ http://superfriend.ly/
 @import 'components/pageHeader.scss';
 @import 'components/pullquote.scss';
 @import 'components/siteLogo.scss';
+@import 'components/video.scss';
 
 
 
@@ -1188,6 +1189,13 @@ http://superfriend.ly/
 
 			@media screen and (min-width: 720px) {
 				@include dm-u-text--m;
+				@include dm-u-align--center;
+			}
+		}
+
+		&_dek {
+
+			@media screen and (min-width: 720px) {
 				@include dm-u-align--center;
 			}
 		}

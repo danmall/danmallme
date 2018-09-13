@@ -1,0 +1,20 @@
+/*
+*************************************************
+
+DANMALL.ME
+Video component
+
+Created by the epic SuperFriendly team.
+http://superfriend.ly/
+
+*************************************************
+*/
+
+.dm {
+	&-c {
+		&-video {
+			@include dm-u-marginTop--l;
+			@include dm-u-marginBottom--l;
+		}					
+	}
+}

@@ -57,6 +57,10 @@ http://superfriend.ly/
 				@include dm-u-font--normal;
 			}
 
+			&_dek {
+				@include dm-u-fontStyle--italic;
+			}
+
 		}
 	}
 }
