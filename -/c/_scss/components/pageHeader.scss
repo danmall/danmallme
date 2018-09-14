@@ -44,6 +44,10 @@ http://superfriend.ly/
 					font-family: "BreveTitle-Bold";
 				}
 
+				.dm-page--articleDetail--dark & {
+					color: #fff;
+				}
+
 				&_count {
 					@include dm-u-text--m;
 					@include dm-u-font--sans;
@@ -55,6 +59,19 @@ http://superfriend.ly/
 				@include dm-u-font--sans;
 				@include dm-u-text--s;
 				@include dm-u-font--normal;
+
+				.dm-page--articleDetail--dark & {
+					color: $cloud;
+				}
+
+			}
+
+			&_dek {
+				@include dm-u-fontStyle--italic;
+
+				.dm-page--articleDetail--dark & {
+					color: $cloud;
+				}
 			}
 
 		}

@@ -127,16 +127,6 @@
 
                 <p>We&rsquo;d love to hear any feedback you might have about all this. Is this a new kind of workflow for you? Is this how you&rsquo;ve worked for years? Interested in working this way at your company but not sure where to start? Let us know what questions you have, and thanks for reading and watching!</p>
 
-
-                <script>
-                    document.addEventListener("DOMContentLoaded", function(event) { 
-                      fluidvids.init({
-                          selector: ['iframe', 'object'], // runs querySelectorAll()
-                          players: ['www.youtube.com', 'player.vimeo.com'] // players to support
-                        });
-                    });
-                </script> 
-
             </div>
 
             <section id="up-next" class="dm-c-upNext">

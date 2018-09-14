@@ -26,6 +26,7 @@ http://superfriend.ly/
 @import 'components/pageHeader.scss';
 @import 'components/pullquote.scss';
 @import 'components/siteLogo.scss';
+@import 'components/video.scss';
 
 
 
@@ -768,8 +769,12 @@ http://superfriend.ly/
 				@include dm-u-bg--none;
 				@include dm-u-boxShadow--none;
 
+				.dm-page--articleDetail--dark & {
+					color: #fff;
+				}
+
 				&:hover {
-					color: $orange;
+					color: var(--articlePrimaryColor, $orange);
 				}
 			}
 
@@ -797,7 +802,7 @@ http://superfriend.ly/
 					content: "";
 					width: 40px;
 					height: 3px;
-					background: $orange;
+					background: var(--articlePrimaryColor, $orange);
 					display: block;
 					top: 0.6em;
 					right: 0;
@@ -987,6 +992,10 @@ http://superfriend.ly/
 		top: 45%;
 		left: 0;
 		@include dm-u-display--block;
+
+		.dm-page--articleDetail--dark & {
+			opacity: 0.2;
+		}
 	}
 }
 
@@ -1115,6 +1124,10 @@ http://superfriend.ly/
 
 .dm-page--articleDetail {
 
+	&--dark {
+		background: $dune;
+	}
+
 	#carbonads {
 		@include dm-u-clear--both;
 		@include dm-u-pos--relative;
@@ -1133,6 +1146,7 @@ http://superfriend.ly/
 			background: $white;
 			border-left: 20px solid #fff;
 			border-right: 20px solid #fff;
+
 		}
 
 	}
@@ -1192,8 +1206,23 @@ http://superfriend.ly/
 			}
 		}
 
+		&_dek {
+
+			@media screen and (min-width: 720px) {
+				@include dm-u-align--center;
+			}
+		}
+
 	}
 
+}
+
+
+.dm-page--articleDetail--dark #carbonads {
+	@media screen and (min-width: 500px) {
+		background: $dune;	
+		border-color: $dune;
+	}
 }
 
 

@@ -404,6 +404,10 @@ http://superfriend.ly/
 				// seasoning
 				font-family: "Firme-Bold";
 			}
+
+			.dm-page--articleDetail--dark & {
+				color: $dune;
+			}
 		}
 
 
@@ -506,7 +510,8 @@ http://superfriend.ly/
 						display: inline-block;
 						width: 0.5rem;
 						height: 0.5rem;
-						background: $wistful;
+						//background: $wistful;
+						background: var(--articlePrimaryColor, $wistful);
 						top: 0.8rem;
 						left: -1.6rem;
 
@@ -539,7 +544,8 @@ http://superfriend.ly/
 						// seasoning
 						counter-increment: section;
   						content: counter(section);
-  						color: $wistful;
+  						//color: $wistful;
+  						color: var(--articlePrimaryColor, $wistful);
   						font-size: 12px;
   						font-size: 1.2rem;
   						left: -2.3rem;
@@ -570,8 +576,11 @@ http://superfriend.ly/
 
 				// seasoning
 				background: transparent url(/i/openQuotationMarks.svg) no-repeat 0 0;
-				//background: transparent url('data:image/svg+xml;%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.7 27.4"%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:#ff6407;}%3C/style%3E%3C/defs%3E%3Ctitle%3EopenQuotationMarks%3C/title%3E%3Cpath class="cls-1" d="M6 12.7c5.2 0 9.8 2.4 9.8 7.3a7.39 7.39 0 0 1-7.7 7.4c-5.5 0-8.1-4.5-8.1-8.9 0-8.4 9.4-16.9 12.5-18.5h1zM24.9 12.7c5.2 0 9.8 2.4 9.8 7.3a7.39 7.39 0 0 1-7.7 7.4c-5.5 0-8.1-4.5-8.1-8.9 0-8.4 9.4-16.9 12.5-18.5h1z"/%3E%3C/svg%3E') no-repeat 0 0;
 				background-size: $m * 1px;
+
+				.dm-page--articleDetail--dark & {
+					background-image: url(/i/openQuotationMarks--white.svg);
+				}
 
 				p {
 					@include dm-u-text--m;
@@ -603,6 +612,27 @@ http://superfriend.ly/
 			.dm-c-codeBlock {
 				@include dm-u-marginTop--s;
 				@include dm-u-marginBottom--m;
+			}
+
+			.dm-page--articleDetail--dark & {
+				h1,
+				h2,
+				h3,
+				h4,
+				h5,
+				h6,
+				a,
+				strong {
+					color: #fff;
+				}		
+				
+				
+				
+				p,
+				ol,
+				ul {
+					color: $cloud;
+				}
 			}
 
 		}
