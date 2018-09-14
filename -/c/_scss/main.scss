@@ -846,6 +846,16 @@ http://superfriend.ly/
 		// seasoning
 		border-top: 5px solid $sandstone;
 
+		.dm-page--articleDetail--dark & {
+			border-color: $armadillo;
+		}
+
+		a {
+			.dm-page--articleDetail--dark & {
+				color: #fff;
+			}
+		}
+
 		&_copyright { 
 
 			@include dm-u-marginBottom--xxl;
@@ -853,6 +863,10 @@ http://superfriend.ly/
 			p {
 				@include dm-u-text--14;
 				@include dm-u-marginBottom--xs;
+
+				.dm-page--articleDetail--dark & {
+					color: $cloud;
+				}
 			}
 
 			@media screen and (min-width: 687px){
