@@ -47,15 +47,15 @@
 
     </header><!-- .page-header -->
 
-    <div class="dm-c-carbonWrap">
-                    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
-                </div><!-- .dm-c-carbonWrap -->
+    <main role="main" class="dm-c-articleWell">
 
-    <main role="main">
-
-        <div class="dm-dp-textPassage dm-c-articleWell">
+        <div class="dm-dp-textPassage dm-l-articleGrid--main">
 
             <p><span class="dm-dp-openingLines">I have a framework</span> that I find very helpful in teaching <a href="http://superfriend.ly/academy/">my apprentices</a> how to design. It&rsquo;s 3 steps:</p>
+
+            <div class="dm-c-carbonWrap">
+                <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
+            </div><!-- .dm-c-carbonWrap -->
 
             <ol>
                 <li><a href="#imitate">Imitate</a></li>
