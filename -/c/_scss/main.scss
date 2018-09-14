@@ -116,6 +116,10 @@ http://superfriend.ly/
 					// seasoning
 					//padding: 6px;
 
+					.dm-page--articleDetail--dark & {
+						color: #fff;
+					}
+
 					&:focus {
 						background: $orange;
 					}

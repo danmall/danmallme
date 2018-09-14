@@ -21,6 +21,10 @@ http://superfriend.ly/
 			& a:focus {
 				background: #fff;
 				box-shadow: none;
+
+				.dm-page--articleDetail--dark & {
+					background: none;
+				}
 				
 					.cls-1 {
 						fill: $orange;
@@ -35,5 +39,11 @@ http://superfriend.ly/
 
 			// improvisatins
 			width: 70px;
+
+			.dm-page--articleDetail--dark & {
+				.siteLogo-fill {
+					fill: #fff;
+				}
+			}
 		}
 }
