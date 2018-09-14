@@ -117,7 +117,9 @@ http://superfriend.ly/
 					//padding: 6px;
 
 					.dm-page--articleDetail--dark & {
-						color: #fff;
+						@media screen and (max-width: 1020px){
+							color: #fff;
+						}
 					}
 
 					&:focus {

@@ -42,7 +42,9 @@ http://superfriend.ly/
 
 			.dm-page--articleDetail--dark & {
 				.siteLogo-fill {
-					fill: #fff;
+					@media screen and (max-width: 1020px) {
+						fill: #fff;
+					}
 				}
 			}
 		}
