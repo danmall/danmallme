@@ -19,9 +19,7 @@
     <style type="text/css">
 
         body {
-            /*--articlePrimaryColor: #1e7db2;*/
             --articlePrimaryColor: #45BAFB;
-            /*--articlePrimaryColorHover: #21506a;*/
             --articlePrimaryColorHover: #245C7C;            
         }
 
@@ -53,7 +51,7 @@
                 How to Be Good at Work
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">September 12, 2018 at 04:32 <abbr title="Post Meridien">PM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">September 14, 2018 at 11:19 <abbr title="Ante Meridien">AM</abbr></h2>
 
             <p class="dm-c-pageHeader_dek">(The following is a modified transcript of a talk I gave at Frontend Conference Zurich.)</p>
 

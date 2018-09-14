@@ -1,5 +1,20 @@
 [
 	{
+		"title"	: 	"How to Be Good at Work",
+		"slug"	:	"how-to-be-good-at-work",
+		"dek"	:	"A modified transcript from my talk at Frontend Conference Zurich.",
+		"date"	:	"2018-09-14 11:19:00",
+		"tags"	:	[
+			"soft skills",
+			"boundaries",
+			"books",
+			"accountability",
+			"motivation",
+			"life",
+			"culture"
+		]
+	},
+	{
 		"title"	: 	"A Portfolio Hiring Managers Can&rsquo;t Deny",
 		"slug"	:	"portfolios",
 		"dek"	:	"Tell &rsquo;em exactly what they want to hear before they even ask.",
