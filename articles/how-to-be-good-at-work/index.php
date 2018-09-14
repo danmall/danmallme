@@ -19,12 +19,10 @@
     <style type="text/css">
 
         body {
-            /*--articlePrimaryColor: blue;
-            --articlePrimaryColorHover: #e5e6fd;*/
-        }
-
-        .dm-c-boundariesBook {
-            max-width: 300px;
+            /*--articlePrimaryColor: #1e7db2;*/
+            --articlePrimaryColor: #45BAFB;
+            /*--articlePrimaryColorHover: #21506a;*/
+            --articlePrimaryColorHover: #245C7C;            
         }
 
     </style>
@@ -32,7 +30,7 @@
 </head>
 
 
-<body class="dm-page--articleDetail">
+<body class="dm-page--articleDetail dm-page--articleDetail--dark">
     <!--[if lt IE 7]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
@@ -108,14 +106,14 @@
                 <p>Others are more difficult to identify. When your parent guilt trips you into visiting to be a good son or daughter, they&rsquo;re crossing your emotional boundaries. Luckily, like building stronger or taller fences, we can practice strengthening our boundaries and there are great resources to help us do this.</p>
 
                 <div class="dm-c-articleImage">
-                    <img src="boundaries-coping.png" alt="&ldquo;Boundaries,&rdquo; by Dr. Henry Cloud and Dr. John Townsend and &ldquo;Coping with Infuriating, Mean, Critical People&rdquo; by Nina Brown" />
+                    <img src="boundaries-coping2.png" alt="&ldquo;Boundaries,&rdquo; by Dr. Henry Cloud and Dr. John Townsend and &ldquo;Coping with Infuriating, Mean, Critical People&rdquo; by Nina Brown" />
                 </div>
 
                 <p>One of the my favorites is the aptly-titled <cite><a href="https://amzn.to/2NEVvfi" title="Buy &ldquo;Boundaries&rdquo; on Amazon">Boundaries</a></cite> by psychologists Dr. Henry Cloud and Dr. John Townsend. In it are great nuggets like, &ldquo;Boundaries let the good in and keep the bad out.&rdquo; This book defines boundaries and gives examples&mdash;allegory-style&mdash;of how to put them into practice <sup class="dm-c-sidenotes--link"><a href="#note1">1</a></sup> .</p>
 
                 <aside id="note1" class="dm-c-sidenotes dm-l-articleGrid--sidenote">
 
-                    <p>If you&rsquo;d prefer a variation that&rsquo;s specific to organizations as opposed to personal relationships, there&rsquo;s <cite>Boundaries for Leaders</cite>, which offers practical advice on how to manage teams, coach direct reports, and instill an organization with strong values and culture.</p>
+                    <p>If you&rsquo;d prefer a variation that&rsquo;s specific to organizations as opposed to personal relationships, there&rsquo;s <cite><a href="https://amzn.to/2p6cGbF" title="Buy &ldquo;Boundaries for Leaders&ldquo; on Amazon">Boundaries for Leaders</a></cite>, which offers practical advice on how to manage teams, coach direct reports, and instill an organization with strong values and culture.</p>
 
                 </aside>
 
@@ -156,7 +154,7 @@
 
                 <p>When now-Senator Corey Booker was mayor of Newark, <abbr title="New Jersey">NJ</abbr>, he helped realize unprecedented violent crime reduction and increased affordable housing in the city all while reducing the city budget deficit.</p>
 
-                <p>I was fortunate to hear him speak at <a href="https://brooklynbeta.org/2012/">Brooklyn Beta in 2012</a>f. During the <abbr title="Question and Answer">Q&amp;A</abbr> session, someone asked how he and his team are able to achieve such incredible results. He responded by saying that they all hold each other accountable and proceeded to share his formula for accountability. There are 3 parts:</p>
+                <p>I was fortunate to hear him speak at <a href="https://brooklynbeta.org/2012/">Brooklyn Beta in 2012</a>. During the <abbr title="Question and Answer">Q&amp;A</abbr> session, someone asked how he and his team are able to achieve such incredible results. He responded by saying that they all hold each other accountable and proceeded to share his formula for accountability. There are 3 parts:</p>
 
                 <ol>
                     <li><strong>Stated standards</strong>. Having stated standards is the foundation of accountability. One can only be held accountable if both parties agree to the same standard.</li>
@@ -292,7 +290,7 @@
                 <p>The things discussed above are techniques to cover your own butt. Creating accountability, making commitments, and finding motivation are all foundational to creating a culture of work where everyone&rsquo;s boundaries are respected. But that stuff just makes teams functional; it&rsquo;s not what makes things great. I&rsquo;ve heard <abbr title="Vice President">VP</abbr> of Design Education for InVision <a href="http://aarronwalter.com/">Aarron Walter</a> likes to say, &ldquo;No one settles for a meal that&rsquo;s edible. They want it to be delicious!&rdquo;</p>
 
                 <div class="dm-c-articleImage">
-                    <?php include 'self.svg'; ?>
+                    <?php include 'self2.svg'; ?>
                 </div>
 
                 <p>Teams where everyone is selfish are the making for dysfunction. That&rsquo;s probably not news to you. Most teams, though, end up with self-centered team members. People aren&rsquo;t selfish in a malicious way; it&rsquo;s just that everyone&rsquo;s looking out for themselves, because who else would?</p>
