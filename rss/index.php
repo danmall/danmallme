@@ -5,7 +5,7 @@
     $rssfeed = '<?xml version="1.0" encoding="ISO-8859-1"?>' . "\n";
     $rssfeed .= '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">'  . "\n\t";
     $rssfeed .= '<channel>' . "\n\t\t";
-    $rssfeed .= '<title>DanMall.me</title>' . "\n\t\t";
+    $rssfeed .= '<title>DanMall.me Excerpts</title>' . "\n\t\t";
     $rssfeed .= '<atom:link href="http://danmall.me/rss/" rel="self" type="application/rss+xml" />' . "\n\t\t";
     $rssfeed .= '<link>http://danmall.me/</link>' . "\n\t\t";
     $rssfeed .= '<description>Posts from DanMall.me</description>' . "\n\t\t";
