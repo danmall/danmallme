@@ -174,6 +174,8 @@
                     <li><a href="https://www.creativebloq.com/design/make-perfect-portfolio-1132903">How to create a web design portfolio</a> on <cite>Creative Bloq</cite></li>
                     <li><a href="https://www.smashingmagazine.com/2013/06/workflow-design-develop-modern-portfolio-website/">My (Simple) Workflow To Design And Develop A Portfolio Website</a>, by Adham Dannaway on <cite>Smashing Magazine</cite></li>
                     <li>Designer Matthew Smith writes about <a href="http://mattymatt.co/im-joining-louise-fili/">his experience in trying to get a job at esteemed graphic design studio</a> <a href="https://www.louisefili.com/">Louise Fili</a>.</li>
+                    <li><a href="https://99u.adobe.com/articles/59595/the-first-five-years-what-should-be-in-your-portfolio-2">The First Five Years: What Should be in your Portfolio?</a>, by Mitch Goldstein on <cite>99u</cite></li>
+                    <li><a href="http://www.vanschneider.com/portfolios-not-getting-job-want">Why Your Portfolio&rsquo;s Not Getting You The Job You Want</a>, by Tobias van Schneider</li>
                 </ul>
 
                 <footer class="dm-c-articleWell_footer dm-dp-sepChunk">

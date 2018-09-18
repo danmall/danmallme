@@ -98,7 +98,7 @@
 
                 <section class="dm-dp-asteriskSplit">
 
-                    <p>Chris, Dave, and I would love any comments or feedback you have about how we can make this better for everyone involved (including everyone sitting on the sidelines, watching all this unfold). If you have any questions, <a href="https://twitter.com/danmall">tweet at me</a>, either publicly or privately.</p>
+                    <p>Chris, Dave, and I would love any comments or feedback you have about how we can make this better for everyone involved (including those sitting on the sidelines, watching all this unfold). If you have any questions, <a href="https://twitter.com/danmall">tweet at me</a>, either publicly or privately.</p>
 
                     <p>Let&rsquo;s make something great!</p>
 
@@ -111,8 +111,8 @@
                 <h1 class="dm-c-upNext_kicker">Up Next</h1>
 
                 <h2 class="dm-c-upNext_title">
-                    <a href="/articles/portfolios/">
-                        A Portfolio Hiring Managers Can&rsquo;t <span class="dm-c-upNext_title_lastWord">Deny</span>
+                    <a href="/articles/how-to-be-good-at-work/">
+                        How to Be Good at <span class="dm-c-upNext_title_lastWord">Work</span>
                     </a>
                 </h2>
 
