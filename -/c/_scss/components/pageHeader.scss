@@ -31,6 +31,12 @@ http://superfriend.ly/
 				margin-top: -50px;
 			}
 
+			&--withImage {
+				&:before {
+					@include dm-u-hide;
+				}
+			}
+
 			&_title {
 				@include dm-u-font--normal;
 				@include dm-u-text--xl;
