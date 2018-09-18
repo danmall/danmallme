@@ -58,7 +58,7 @@
                 Work With Me to Redesign the Shop Talk Show&nbsp;Website
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">September 18, 2018 at 09:21 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">September 18, 2018 at 09:38 <abbr title="Ante Meridien">AM</abbr></h2>
 
         </header><!-- .page-header -->        
     

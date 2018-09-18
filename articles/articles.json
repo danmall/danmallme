@@ -1,5 +1,19 @@
 [
 	{
+		"title"	: 	"Work With Me to Redesign the Shop Talk Show Website",
+		"slug"	:	"redesign-shop-talk-show",
+		"dek"	:	"An opportunity for someone who might not have it otherwise.",
+		"date"	:	"2018-09-18 09:38:00",
+		"tags"	:	[
+			"redesign",
+			"design",
+			"projects",
+			"work",
+			"working in public",
+			"shop talk show"
+		]
+	},
+	{
 		"title"	: 	"How to Be Good at Work",
 		"slug"	:	"how-to-be-good-at-work",
 		"dek"	:	"A modified transcript from my talk at Frontend Conference Zurich.",
