@@ -8,7 +8,7 @@
     <!-- Thanks Jeremy! https://adactio.com/journal/9881  -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@danmall" />
-    <meta name="twitter:url" property="og:url" content="http://<?php echo $_SERVER['SERVER_NAME']; ?>/articles/" />
+    <meta name="twitter:url" property="og:url" content="http://<?php echo $_SERVER['SERVER_NAME']; ?>/speaking-podcasts/" />
     <meta name="twitter:title" property="og:title" content="Dan Mall" />
     <meta name="twitter:description" property="og:description" content="Speaking Schedule, Speaking History, and Podcasts" />
     <meta name="twitter:image" property="og:image" content="http://<?php echo $_SERVER['SERVER_NAME']; ?>/i/dan-headshot.jpg" />
