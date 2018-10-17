@@ -1,5 +1,11 @@
 [
 	{
+		"title"		: 	"An Event Apart",
+		"slug"		:	"https://aneventapart.com/event/seattle-2019",
+		"date"		:	"2019-03-04",
+		"location"	:	"Seattle"
+	},
+	{
 		"title"		: 	"Owner Summit 2019",
 		"slug"		:	"https://bureauofdigital.com/event/owner-summit-2019",
 		"date"		:	"2019-02-10",
@@ -22,6 +28,13 @@
 		"slug"		:	"https://smashingconf.com/ny-2018/",
 		"date"		:	"2018-10-23",
 		"location"	:	"New York City"
+	},
+	{
+		"title"		: 	"Thunder Nerds: Dan Mall – An Event Apart Orlando 2018",
+		"slug"		:	"https://www.thundernerds.io/2018/10/dan-mall-an-event-apart-orlando-2018/",
+		"date"		:	"2018-10-10",
+		"type"		:	"podcast",
+		"audio"		:	true
 	},
 	{
 		"title"		: 	"An Event Apart",
