@@ -1,9 +1,46 @@
 [
 	{
+		"title"		: 	"Weekend Reading — Fixed objects will move",
+		"slug"		:	"https://labnotes.org/weekend-reading-fixed-objects-will-move/",
+		"date"		:	"2018-10-13",
+		"source"	:	"Labnotes"
+	},
+	{
+		"title"		: 	"15 secrets and tips to set you up for massive freelance success",
+		"slug"		:	"https://medium.com/@jesseddy/15-secrets-and-tips-to-set-you-up-for-massive-freelance-success-2f29521810a1",
+		"date"		:	"2018-09-27",
+		"source"	:	"Jess Eddy"
+	},
+	{
+		"title"		: 	"Superfriends!",
+		"slug"		:	"http://jackywinter.givesyouthe.biz/f3bda97c",
+		"date"		:	"2018-09-21",
+		"source"	:	"Jackie Winter Gives You the Biz",
+		"audio"		:	true
+	},
+	{
+		"title"		: 	"Content First, Design Second: Prototyping with Words and Adobe XD",
+		"slug"		:	"https://blog.prototypr.io/content-first-design-second-prototyping-with-words-and-adobe-xd-c4c07cac21ef",
+		"date"		:	"2018-09-19",
+		"source"	:	"Prototypr.io"
+	},
+	{
+		"title"		: 	"When do Personal Projects Lose Meaning When applying to Jobs?",
+		"slug"		:	"https://old.reddit.com/r/webdev/comments/9graxs/when_do_personal_projects_lose_meaning_when/",
+		"date"		:	"2018-09-18",
+		"source"	:	"Reddit"
+	},
+	{
 		"title"		: 	"Developing a brand toolkit",
 		"slug"		:	"http://jenniferhards.com/brand-toolkit.html",
 		"date"		:	"2018-09-12",
 		"source"	:	"Jennifer Hards"
+	},
+	{
+		"title"		: 	"UX Design Weekly: Issue 202",
+		"slug"		:	"http://uxdesignweekly.com/issue-202/",
+		"date"		:	"2018-09-10",
+		"source"	:	"UX Design Weekly"
 	},
 	{
 		"title"		: 	"Collective #425",
@@ -42,10 +79,17 @@
 		"source"	:	"Planio"
 	},
 	{
+		"title"		: 	"Positioning &amp; Pricing Your Agency for Growth",
+		"slug"		:	"https://bureauofdigital.com/blog/2018/7/31/positioning-pricing-your-agency-for-growth",
+		"date"		:	"2018-07-31",
+		"source"	:	"Bureau of Digital"
+	},
+	{
 		"title"		: 	"Designing A Modular System With Sarah Federman",
 		"slug"		:	"https://ctrlclickcast.com/episodes/designing-a-modular-system",
 		"date"		:	"2018-07-19",
-		"source"	:	"CTRL+CLICK CAST"
+		"source"	:	"CTRL+CLICK CAST",
+		"audio"		:	true
 	},
 	{
 		"title"		: 	"Learning from Smashing Conference and making a demo",
