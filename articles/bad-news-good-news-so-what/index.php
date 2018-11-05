@@ -11,6 +11,7 @@
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
     <meta name="twitter:title" property="og:title" content="Bad News. Good News. So What?" />
     <meta name="twitter:description" property="og:description" content="A simple framework for effective storytelling." />
+    <meta name="description" content="A simple framework for effective storytelling." />
     <meta name="twitter:image" property="og:image" content="http://danmall.me/i/d.png" />
     <?php /* ?><meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>thumb.png" /><?php */ ?>
     

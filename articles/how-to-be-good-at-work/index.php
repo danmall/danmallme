@@ -11,6 +11,7 @@
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
     <meta name="twitter:title" property="og:title" content="How to Be Good at Work" />
     <meta name="twitter:description" property="og:description" content="A modified transcript from my talk at Frontend Conference Zurich." />
+    <meta name="description" content="A modified transcript from my talk at Frontend Conference Zurich." />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>thumb.png" />
 
     <!-- Webmentions -->

@@ -11,6 +11,7 @@
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
     <meta name="twitter:title" property="og:title" content="Cooking with Design Systems" />
     <meta name="twitter:description" property="og:description" content="Design systems make deciding in the browser much easier if you have the right ingredients." />
+    <meta name="description" content="Design systems make deciding in the browser much easier if you have the right ingredients." />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>thumb.png" />
 
     <style type="text/css">
