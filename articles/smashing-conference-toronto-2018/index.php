@@ -11,6 +11,7 @@
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
     <meta name="twitter:title" property="og:title" content="Smashing Conference Toronto 2018" />
     <meta name="twitter:description" property="og:description" content="Reflections from a speaker about doing a new (kind of) talk." />
+    <meta name="description" content="Reflections from a speaker about doing a new (kind of) talk." />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/thumb.png" />
     
 </head>

@@ -11,6 +11,7 @@
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
     <meta name="twitter:title" property="og:title" content="How to Scope Work" />
     <meta name="twitter:description" property="og:description" content="A skill that separates the amateurs from the professionals." />
+    <meta name="description" content="A skill that separates the amateurs from the professionals." />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/thumb.png" />
 
     <style type="text/css">

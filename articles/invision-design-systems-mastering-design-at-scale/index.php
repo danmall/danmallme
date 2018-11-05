@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>&ldquo;Work With Me to Redesign the Shop Talk Show Website,&rdquo; an article by Dan Mall</title>
+    <title>&ldquo;Design Systems: Mastering Design at Scale,&rdquo; an article by Dan Mall</title>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?> 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
 
@@ -9,9 +9,9 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@danmall" />
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
-    <meta name="twitter:title" property="og:title" content="Work With Me to Redesign the Shop Talk Show Website" />
-    <meta name="twitter:description" property="og:description" content="An opportunity for someone who might not have it otherwise." />
-    <meta name="description" content="An opportunity for someone who might not have it otherwise." />
+    <meta name="twitter:title" property="og:title" content="Design Systems: Mastering Design at Scale" />
+    <meta name="twitter:description" property="og:description" content="A video series in partnership with InVision." />
+    <meta name="description" content="A video series in partnership with InVision." />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>thumb.png" />
 
     <!-- Webmentions -->
@@ -20,8 +20,8 @@
     <style type="text/css">
 
         body {
-            /*--articlePrimaryColor: blue;
-            --articlePrimaryColorHover: #e5e6fd;*/
+            --articlePrimaryColor: #EB023D;
+            --articlePrimaryColorHover: #FFADC1;
         }
 
     </style>
@@ -40,14 +40,11 @@
 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 
-    <figure class="dm-c-imageObject">
-        <div class="dm-c-imageObject_imageWrap" style="background: #fff;">
-            <script>
-            document.write('<img class="dm-c-imageObject_image dm-js-lazy" width="1200" height="400" data-src="shoptalkshow--mosaic2.png" alt="A cryptic Shop Talk Show website" />');
-            </script>
-            <noscript>
-                <img class="dm-c-imageObject_image" width="1200" height="400" src="shoptalkshow--mosaic2.png" alt="A cryptic Shop Talk Show website" />
-            </noscript>
+    <figure class="dm-c-imageObject dm-u-marginLeft--m dm-u-marginRight--m">
+        <div class="dm-c-imageObject_imageWrap dm-u-padding--xl" style="background: #EB023D;">
+            <div class="dm-c-video" style="max-width: 1000px; margin: 8em auto;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rbE53XUtVw0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div><!-- .dm-c-imageObject_imageWrap -->            
     </figure><!-- .dm-c-imageObject -->
 
@@ -56,10 +53,10 @@
         <header class="dm-c-pageHeader dm-c-pageHeader--withImage dm-l-articleGrid--main" role="banner">
 
             <h1 class="dm-c-pageHeader_title">
-                Work With Me to Redesign the Shop Talk Show&nbsp;Website
+                Design Systems: Mastering Design at&nbsp;Scale
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">September 18, 2018 at 09:38 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">November 6, 2018 at xx:xx <abbr title="Ante Meridien">AM</abbr></h2>
 
         </header><!-- .page-header -->        
     
@@ -68,42 +65,13 @@
             <div class="dm-dp-textPassage dm-l-articleGrid--main">
 
                 <p>
-                    <span class="dm-dp-openingLines"><b class="dm-dp-dropCap">O</b>n <a href="https://shoptalkshow.com/episodes/329-dan-mall-building-portfolio/">Episode 329</a></span> of <a href="https://shoptalkshow.com/">Shop Talk Show</a>, I joined <a href="https://chriscoyier.net/">Chris Coyier</a> and <a href="https://daverupert.com/">Dave Rupert</a> to talk about the role <a href="/articles/portfolios/">portfolios</a> have in getting a ful-time job, and how you can increase your odds of getting a job. We talked about many things, one of which was the all-time popular objection: &ldquo;But I don&rsquo;t have anything good to put in my portfolio!&rdquo; So, we&rsquo;re putting our money where our mouth is and looking for an up-and-coming new designer to work with me to redesign the Shop Talk Show website!
-                </p>
+                    <span class="dm-dp-openingLines"><b class="dm-dp-dropCap">F</b>or the last few years</span>, the majority of my work has been with organizations that either need help creating a design system or need help evolving one. I've been fortunate to do that with with my superfriends and colleagues <a href="http://bigmedium.com/">Josh Clark</a> and <a href="http://bradfrost.com/">Brad Frost</a>.  We've worked both individually and collectively with organizations like <a href="https://bigmedium.com/projects/unity-design-system-exxonmobil.html">ExxonMobil</a>, the <a href="http://superfriend.ly/helped/seventh-day-adventist-church/">General Conference of Seventh-day Adventists</a>, athenahealth, Target, <abbr>IQVIA</abbr>, the Cosmopolitan of Las Vegas, Progressive Insurance, Rescue.org, and more. Now, we&rsquo;ve partnered with our superfriends at InVision to share some of our learnings with the world. We&rsquo;re proud to to announce <a href="#">Design Systems: Mastering Design at Scale</a>!</p>
 
                 <div class="dm-c-carbonWrap">
                     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
                 </div><!-- .dm-c-carbonWrap -->
 
-                <p>Here&rsquo;s the deal: I&rsquo;ll <a href="http://v3.danielmall.com/articles/on-creative-direction/">creative direct</a> it, you design it. That means I&rsquo;ll be providing oversight, ideas, inspiration, and guidance while you do the actual pixel-pushing in Sketch/Photoshop/Figma/whatever to make the screens we&rsquo;ll all need. Chris and Dave act as clients, but will also be coding what we come up with.</p>
-
-                <p>We want this to be an opportunity for a designer who might have have something like it otherwise. If you have lots of portfolio pieces, this probably isn&rsquo;t the gig for you. If you work full-time as a designer somewhere, this probably isn&rsquo;t the gig for you.</p>
-
-                <p>Some criteria for our ideal designer:</p>
-
-                <ul>                    
-                    <li>You&rsquo;re in an underrepresented group in this field.</li>
-                    <li>You&rsquo;re looking to change careers from whatever you&rsquo;re currently doing into becoming a full-time designer.</li>
-                    <li>You need an opportunity like this project to break into the field, because you&rsquo;ve had a difficult time getting someone to hire you to do design work for them.</li>
-                    <li>You have some tolerance for hard work and transparency. Chris, Dave, and I all have an affinity for <a href="https://chriscoyier.net/2012/09/23/working-in-public/">working in public</a>, so that&rsquo;ll likely be some part of this. Be prepared for some amount of live-streaming conversations, posting work before it&rsquo;s done, and being able to publicly track the progress of this work.</li>
-                    <li>You&rsquo;re a Shop Talk Show listener (at have least listened to an episode or two).</li>
-                </ul>
-
-                <p>Still here? Great! We&rsquo;re taking applications for this opportunity until about October 1, at which time we&rsquo;ll sort through the applications to see if there&rsquo;s a good fit. Without further ado&hellip;</p>
-
-                <section class="dm-dp-asteriskSplit">
-
-                    <p class="dm-u-align--center"><strong><a href="http://shoptalkshow.superfriend.ly/">Apply here!</a></strong></p>
-
-                </section><!-- .dm-dp-asteriskSplit -->
-
-                <section class="dm-dp-asteriskSplit">
-
-                    <p>Chris, Dave, and I would love any comments or feedback you have about how we can make this better for everyone involved (including those sitting on the sidelines, watching all this unfold). If you have any questions, <a href="https://twitter.com/danmall">tweet at me</a>, either publicly or privately.</p>
-
-                    <p>Let&rsquo;s make something great!</p>
-
-                </section><!-- .dm-dp-asteriskSplit -->
+                <p>We&rsquo;ll be releasing a few more episodes over the coming months on topics like getting buy-in, collaboration, governance, and more. Enjoy!</p>
 
             </div>
 
@@ -112,8 +80,8 @@
                 <h1 class="dm-c-upNext_kicker">Up Next</h1>
 
                 <h2 class="dm-c-upNext_title">
-                    <a href="/articles/how-to-be-good-at-work/">
-                        How to Be Good at <span class="dm-c-upNext_title_lastWord">Work</span>
+                    <a href="/articles/redesign-shop-talk-show/">
+                        Work With Me to Redesign the Shop Talk Show <span class="dm-c-upNext_title_lastWord">Website</span>
                     </a>
                 </h2>
 
