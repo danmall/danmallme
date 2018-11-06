@@ -43,7 +43,10 @@
     <figure class="dm-c-imageObject dm-u-marginLeft--m dm-u-marginRight--m">
         <div class="dm-c-imageObject_imageWrap dm-u-padding--xl" style="background: #EB023D;">
             <div class="dm-c-video" style="max-width: 1000px; margin: 8em auto;">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/rbE53XUtVw0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <video width="1920" height="1080" controls>
+                  <source src="trailer.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
             </div>
         </div><!-- .dm-c-imageObject_imageWrap -->            
     </figure><!-- .dm-c-imageObject -->
@@ -56,7 +59,7 @@
                 Design Systems: Mastering Design at&nbsp;Scale
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">November 6, 2018 at xx:xx <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">November 6, 2018 at 10:00 <abbr title="Ante Meridien">AM</abbr></h2>
 
         </header><!-- .page-header -->        
     
@@ -65,7 +68,7 @@
             <div class="dm-dp-textPassage dm-l-articleGrid--main">
 
                 <p>
-                    <span class="dm-dp-openingLines"><b class="dm-dp-dropCap">F</b>or the last few years</span>, the majority of my work has been with organizations that either need help creating a design system or need help evolving one. I've been fortunate to do that with with my superfriends and colleagues <a href="http://bigmedium.com/">Josh Clark</a> and <a href="http://bradfrost.com/">Brad Frost</a>.  We've worked both individually and collectively with organizations like <a href="https://bigmedium.com/projects/unity-design-system-exxonmobil.html">ExxonMobil</a>, the <a href="http://superfriend.ly/helped/seventh-day-adventist-church/">General Conference of Seventh-day Adventists</a>, athenahealth, Target, <abbr>IQVIA</abbr>, the Cosmopolitan of Las Vegas, Progressive Insurance, Rescue.org, and more. Now, we&rsquo;ve partnered with our superfriends at InVision to share some of our learnings with the world. We&rsquo;re proud to to announce <a href="#">Design Systems: Mastering Design at Scale</a>!</p>
+                    <span class="dm-dp-openingLines"><b class="dm-dp-dropCap">F</b>or the last few years</span>, the majority of my work has been with organizations that either need help creating a design system or need help evolving one. I've been fortunate to do that with with my superfriends and colleagues <a href="http://bigmedium.com/">Josh Clark</a> and <a href="http://bradfrost.com/">Brad Frost</a>.  We've worked both individually and collectively with organizations like <a href="https://bigmedium.com/projects/unity-design-system-exxonmobil.html">ExxonMobil</a>, the <a href="http://superfriend.ly/helped/seventh-day-adventist-church/">General Conference of Seventh-day Adventists</a>, athenahealth, Target, <abbr>IQVIA</abbr>, the Cosmopolitan of Las Vegas, Progressive Insurance, Rescue.org, and more. Now, we&rsquo;ve partnered with our superfriends at InVision to share some of our learnings with the world. We&rsquo;re proud to to announce <a href="https://invs.io/2AN0mnb">Design Systems: Mastering Design at Scale</a>!</p>
 
                 <div class="dm-c-carbonWrap">
                     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
