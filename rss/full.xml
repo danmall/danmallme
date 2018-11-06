@@ -5,8 +5,26 @@
 	<link rel="alternate" type="text/html" href="http://danmall.me/" />
 	<link rel="self" type="application/atom+xml" href="http://danmall.me/rss/full.xml" />
 	<id>http://danmall.me/rss/full.xml</id>
-	<updated>2018-09-18T09:38:00Z</updated>
+	<updated>2018-11-06T10:00:00Z</updated>
 	<rights>Copyright © 2018, Dan Mall</rights>
+
+	<entry>
+		<title><![CDATA[Design Systems: Mastering Design at Scale]]></title>
+		<description><![CDATA[A video series in partnership with InVision.]]></description>
+		<link rel="alternate" type="text/html" href="http://danmall.me/articles/invision-design-systems-mastering-design-at-scale/" />
+		<id>http://danmall.me/articles/invision-design-systems-mastering-design-at-scale/</id>
+		<published>2018-11-06T10:00:00Z</published>
+		<updated>2018-11-06T10:0:00Z</updated>
+		<author>
+			<name>Dan Mall</name>
+			<uri>http://danmall.me/</uri>
+		</author>
+		<content type="html" xml:base="http://danmall.me/articles/" xml:lang="en"><![CDATA[
+<p>For the last few years, the majority of my work has been with organizations that either need help creating a design system or need help evolving one. I've been fortunate to do that with with my superfriends and colleagues <a href="http://bigmedium.com/">Josh Clark</a> and <a href="http://bradfrost.com/">Brad Frost</a>.  We've worked both individually and collectively with organizations like <a href="https://bigmedium.com/projects/unity-design-system-exxonmobil.html">ExxonMobil</a>, the <a href="http://superfriend.ly/helped/seventh-day-adventist-church/">General Conference of Seventh-day Adventists</a>, athenahealth, Target, <abbr>IQVIA</abbr>, the Cosmopolitan of Las Vegas, Progressive Insurance, Rescue.org, and more. Now, we&rsquo;ve partnered with our superfriends at InVision to share some of our learnings with the world. We&rsquo;re proud to to announce <a href="https://invs.io/2AN0mnb">Design Systems: Mastering Design at Scale</a>!
+
+<p>We&rsquo;ll be releasing a few more episodes over the coming months on topics like getting buy-in, collaboration, governance, and more. Enjoy!</p>
+		]]></content>
+	</entry>
 
 	<entry>
 		<title><![CDATA[Work With Me to Redesign the Shop Talk Show Website]]></title>

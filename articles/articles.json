@@ -1,5 +1,18 @@
 [
 	{
+		"title"	: 	"Design Systems: Mastering Design at Scale",
+		"slug"	:	"invision-design-systems-mastering-design-at-scale",
+		"dek"	:	"A video series in partnership with InVision",
+		"date"	:	"2018-11-06 10:00:00",
+		"tags"	:	[
+			"design systems",
+			"video",
+			"class",
+			"series",
+			"invision"
+		]
+	},
+	{
 		"title"	: 	"Work With Me to Redesign the Shop Talk Show Website",
 		"slug"	:	"redesign-shop-talk-show",
 		"dek"	:	"An opportunity for someone who might not have it otherwise.",
