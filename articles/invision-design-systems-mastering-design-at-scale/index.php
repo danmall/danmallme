@@ -40,6 +40,7 @@
 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 
+    <?php /* ?>
     <figure class="dm-c-imageObject dm-u-marginLeft--m dm-u-marginRight--m">
         <div class="dm-c-imageObject_imageWrap dm-u-padding--xl" style="background: #EB023D;">
             <div class="dm-c-video" style="max-width: 1000px; margin: 8em auto;">
@@ -47,6 +48,15 @@
                   <source src="trailer.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                 </video>
+            </div>
+        </div><!-- .dm-c-imageObject_imageWrap -->            
+    </figure><!-- .dm-c-imageObject -->
+    <?php */ ?>
+
+    <figure class="dm-c-imageObject dm-u-marginLeft--m dm-u-marginRight--m">
+        <div class="dm-c-imageObject_imageWrap dm-u-padding--xl" style="background: #EB023D;">
+            <div class="dm-c-video" style="max-width: 1000px; margin: 8em auto;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Z-3ygFVPBFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div><!-- .dm-c-imageObject_imageWrap -->            
     </figure><!-- .dm-c-imageObject -->
