@@ -1,5 +1,65 @@
 [
 	{
+		"title"		: 	"Awwwards NY Digital Thinkers Conference",
+		"slug"		:	"https://www.nectarestudio.com/en/awwwards-ny-digital-thinkers-conference/",
+		"date"		:	"2018-11-22",
+		"source"	:	"Nectare Studio"
+	},
+	{
+		"title"		: 	"Product Disrupt Half-Monthly, Nov 2018",
+		"slug"		:	"https://mailchi.mp/57243f6f9691/product-disrupt-half-monthly-nov-2018-part-1",
+		"date"		:	"2018-11-15",
+		"source"	:	"Product Disrupt"
+	},
+	{
+		"title"		: 	"Pricing freelance research &amp; design services",
+		"slug"		:	"http://anthropologizing.com/2018/11/14/pricing-freelance-research-design-services/",
+		"date"		:	"2018-11-14",
+		"source"	:	"Anthropologizing"
+	},
+	{
+		"title"		: 	"Pixels of the Week – November 11, 2018",
+		"slug"		:	"https://stephaniewalter.design/blog/pixels-of-the-week-november-11-2018/",
+		"date"		:	"2018-11-11",
+		"source"	:	"Stephanie Walter"
+	},
+	{
+		"title"		: 	"SmashingConf New York 2018: That&rsquo;s What It Was Like",
+		"slug"		:	"https://www.smashingmagazine.com/2018/11/smashing-ny-roundup/",
+		"date"		:	"2018-11-02",
+		"source"	:	"Smashing Magazine"
+	},
+	{
+		"title"		: 	"Conference",
+		"slug"		:	"http://imaginaryterrain.com/classes/1809/220/assignments/conference/",
+		"date"		:	"2018-10-31",
+		"source"	:	"American University"
+	},
+	{
+		"title"		: 	"From The Heart(beat) ❤️: Leadership lessons I wished I&rsquo;d learned earlier",
+		"slug"		:	"https://blog.knowyourcompany.com/from-the-heart-beat-%EF%B8%8F-leadership-lessons-i-wished-id-learned-earlier-1e5403fe163a",
+		"date"		:	"2018-10-31",
+		"source"	:	"Know Your Company"
+	},
+	{
+		"title"		: 	"10 Pieces Of Information You Should Have On Your Freelance Website",
+		"slug"		:	"https://flyerheroes.com/10-pieces-of-information-you-should-have-on-your-freelance-website/",
+		"date"		:	"2018-10-30",
+		"source"	:	"FlyerHeroes"
+	},
+	{
+		"title"		: 	"Pricing Design",
+		"slug"		:	"https://blog.prototypr.io/pricing-design-45541ae07934",
+		"date"		:	"2018-10-28",
+		"source"	:	"Prototypr"
+	},
+	{
+		"title"		: 	"CSS-Tricks Chronicle XXXIV",
+		"slug"		:	"https://css-tricks.com/css-tricks-chronicle-xxxiv/",
+		"date"		:	"2018-10-26",
+		"source"	:	"CSS Tricks"
+	},
+	{
 		"title"		: 	"Weekend Reading — Fixed objects will move",
 		"slug"		:	"https://labnotes.org/weekend-reading-fixed-objects-will-move/",
 		"date"		:	"2018-10-13",
@@ -874,6 +934,12 @@
 		"slug"		:	"http://dirtystylus.com/2016/01/06/responsive-web-design-patterns-principles/",
 		"date"		:	"2016-01-06",
 		"source"	:	"dirtystylus"
+	},
+	{
+		"title"		: 	"Content display patterns",
+		"slug"		:	"http://www.informationdesign.org/content-display-patterns/",
+		"date"		:	"2016-01-05",
+		"source"	:	"InfoDesign"
 	},
 	{
 		"title"		: 	"Of Patterns And Power: Web Standards Then &amp; Now",
