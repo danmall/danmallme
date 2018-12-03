@@ -1,5 +1,17 @@
 [
 	{
+		"title"	: 	"Passing the SuperBooked Baton",
+		"slug"	:	"passing-the-superbooked-baton",
+		"dek"	:	"New leadership for SuperBooked.",
+		"date"	:	"2018-12-03 11:45:00",
+		"tags"	:	[
+			"superbooked",
+			"startup",
+			"personal",
+			"product"
+		]
+	},
+	{
 		"title"	: 	"Design Systems: Mastering Design at Scale",
 		"slug"	:	"invision-design-systems-mastering-design-at-scale",
 		"dek"	:	"A video series in partnership with InVision",
