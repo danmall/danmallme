@@ -45,7 +45,7 @@
                 Passing the SuperBooked Baton
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">November 30, 2018 at 10:31 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">December 3, 2018 at 11:45 <abbr title="Ante Meridien">AM</abbr></h2>
 
         </header><!-- .page-header -->
 
