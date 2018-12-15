@@ -1,5 +1,41 @@
 [
 	{
+		"title"		: 	"Who Are Design Systems For?",
+		"slug"		:	"https://matthewstrom.com/writing/who-are-design-systems-for",
+		"date"		:	"2018-12-13",
+		"source"	:	"Matthew Str&ouml;m"
+	},
+	{
+		"title"		: 	"A Look Back At The Smashing Conference NYC 2018",
+		"slug"		:	"https://www.troyweb.com/blog-list/2018/12/11/a-look-back-at-the-smashing-conference-nyc-2018",
+		"date"		:	"2018-12-11",
+		"source"	:	"Troy Web Consulting"
+	},
+	{
+		"title"		: 	"Awwwards Conference Learnin&rsquo;s",
+		"slug"		:	"https://viastudio.com/awwwards-conference-learnins/",
+		"date"		:	"2018-12-10",
+		"source"	:	"VIA Studio"
+	},
+	{
+		"title"		: 	"Just-in-time Design",
+		"slug"		:	"https://medium.com/@ilikescience/just-in-time-design-6a8489fbb8a6",
+		"date"		:	"2018-12-06",
+		"source"	:	"Medium"
+	},
+	{
+		"title"		: 	"Escaping the hot dog factory",
+		"slug"		:	"https://blog.prototypr.io/escaping-the-hot-dog-factory-13f33ea179c3",
+		"date"		:	"2018-11-27",
+		"source"	:	"Prototypr"
+	},
+	{
+		"title"		: 	"Awwwards Design Thinkers Conference 2018",
+		"slug"		:	"https://hike.one/update/awwwards-design-thinkers-conference-2018",
+		"date"		:	"2018-11-26",
+		"source"	:	"Hike One"
+	},
+	{
 		"title"		: 	"Awwwards NY Digital Thinkers Conference",
 		"slug"		:	"https://www.nectarestudio.com/en/awwwards-ny-digital-thinkers-conference/",
 		"date"		:	"2018-11-22",

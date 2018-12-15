@@ -1,5 +1,17 @@
 [
 	{
+		"title"		: 	"Smashing Conference",
+		"slug"		:	"https://smashingconf.com/toronto-2019/",
+		"date"		:	"2019-06-25",
+		"location"	:	"Toronto"
+	},
+	{
+		"title"		: 	"An Event Apart",
+		"slug"		:	"https://aneventapart.com/event/boston-2019",
+		"date"		:	"2019-05-06",
+		"location"	:	"Boston"
+	},
+	{
 		"title"		: 	"An Event Apart",
 		"slug"		:	"https://aneventapart.com/event/seattle-2019",
 		"date"		:	"2019-03-04",
@@ -10,6 +22,12 @@
 		"slug"		:	"https://bureauofdigital.com/event/owner-summit-2019",
 		"date"		:	"2019-02-10",
 		"location"	:	"Austin"
+	},
+	{
+		"title"		: 	"Designer + Developer Collaboration workshop",
+		"slug"		:	"https://designdevjan2019.splashthat.com/",
+		"date"		:	"2019-01-15",
+		"location"	:	"Philadelphia"
 	},
 	{
 		"title"		: 	"Clarity Conference",
