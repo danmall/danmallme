@@ -5,8 +5,65 @@
 	<link rel="alternate" type="text/html" href="http://danmall.me/" />
 	<link rel="self" type="application/atom+xml" href="http://danmall.me/rss/full.xml" />
 	<id>http://danmall.me/rss/full.xml</id>
-	<updated>2018-12-03T11:45:00Z</updated>
+	<updated>2018-12-18T09:47:00Z</updated>
 	<rights>Copyright © 2018, Dan Mall</rights>
+
+	<entry>
+		<title><![CDATA[Clients by Brand Color]]></title>
+		<description><![CDATA[Celebrating clients over the years.]]></description>
+		<link rel="alternate" type="text/html" href="http://danmall.me/articles/clients-by-brand-color/" />
+		<id>http://danmall.me/articles/clients-by-brand-color/</id>
+		<published>2018-12-18T09:47:00Z</published>
+		<updated>2018-12-18T09:47:00Z</updated>
+		<author>
+			<name>Dan Mall</name>
+			<uri>http://danmall.me/</uri>
+		</author>
+		<content type="html" xml:base="http://danmall.me/articles/" xml:lang="en"><![CDATA[
+<p>As I&rsquo;m getting ready to close up shop for the year and recharge for 2019, I&rsquo;m in a reflective mood. Every year, I&rsquo;m incredibly privileged to work with clients that pay me to do something I enjoy, and this year was no exception.</p>                
+
+<p>After <a href="http://superfriend.ly/">SuperFriendly</a>&rsquo;s first year of business in 2012, I published <a href="http://v3.danielmall.com/articles/superfriendly-annual-report-2012/">an annual report</a> that looked at workload, clients, and tasks at a high level. Visualizing data in aggregate like this has always helped me be intentional what I&rsquo;m currently doing and what I might want to change moving forward.</p>
+
+<p>2019 will mark year seven for SuperFriendly. As a <a href="https://www.adventist.org/en/">Seventh-day Adventist</a>, I&rsquo;m a big believer in the value of cycles of seven, which often bring completeness and wholeness. It seems like an appropriate time for some more reflection.</p>
+
+<p>Here&rsquo;s a rough breakdown of the distribution of work per year. Clients are represented by their main brand color (at the time of working with them) and roughly sequenced by where the work occurred during the year.</p>
+
+<h2>2018</h2>    
+<img src="2018.svg" alt="SuperFriendly client work for 2018" /> 
+
+<h2>2017</h2>    
+<img src="2017.svg" alt="SuperFriendly client work for 2017" /> 
+
+<h2>2016</h2>    
+<img src="2016.svg" alt="SuperFriendly client work for 2016" /> 
+
+<h2>2015</h2>    
+<img src="2015.svg" alt="SuperFriendly client work for 2015" /> 
+
+<h2>2014</h2>    
+<img src="2014.svg" alt="SuperFriendly client work for 2014" /> 
+
+<h2>2013</h2>    
+<img src="2013.svg" alt="SuperFriendly client work for 2013" /> 
+
+<h2>2012</h2>    
+<img src="2012.svg" alt="SuperFriendly client work for 2012" />
+
+<p>A few things I noticed when doing this exercise:</p>
+
+<ul>
+    <li>I&rsquo;ve long followed the mantra that no single client should be responsible for 50% of revenue, but I also apply that in terms of attention. I&rsquo;m pleased to say that that&rsquo;s held through since day 1. The closest we&rsquo;ve gotten (in terms of attention, not revenue) are a 38% client in 2012, a 32% clients in 2013, and a 37% client in 2015.</li>
+    <li>The number of clients per year is slowly dwindling, which I&rsquo;m happy about. We&rsquo;re able to do better work for a smaller number of clients with revenue and profit still increasing. We had 17 clients in 2012, while 2018 wrapped up with 11 clients.</li>
+    <li>Attention seems to be normalizing over the years. In 2012, we had a lot of little projects and one gigantic project. This past year, the distribution seems much more even.</li>
+    <li>Though you wouldn&rsquo;t be able to tell by the scale of these graphs, we&rsquo;re spending less time overall on work. The number of hours we&rsquo;ve put in this past year is about 8% lower than we did in 2012, which makes sense if you compare that with the fact that we worked with 6 less clients. But that also means we&rsquo;re spending a little more time with each client.</li>
+    <li>Revenue is up 51% from 2012, while profit is down 32%. Hmm, that&rsquo;s definitely something to fix for 2019.</li>
+</ul>
+
+<p>What did you learn about your business over the last year? What more can I tell you about mine?</p>
+
+<p>Happy holidays, superfriends, and see you all in 2019!</p>
+		]]></content>
+	</entry>
 
 	<entry>
 		<title><![CDATA[Passing the SuperBooked Baton]]></title>

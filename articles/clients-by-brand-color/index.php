@@ -13,11 +13,6 @@
     <meta name="twitter:description" property="og:description" content="Celebrating clients over the years." />
     <meta name="description" content="Celebrating clients over the years." />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/thumb.png" />
-    <style type="text/css">
-        td {
-            text-align: center;
-        }
-    </style>
     
 </head>
 
@@ -41,7 +36,7 @@
                 Clients by Brand Color
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">December 18, 2018 at 9:25 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">December 18, 2018 at 9:47 <abbr title="Ante Meridien">AM</abbr></h2>
 
         </header><!-- .page-header -->
 

@@ -1,5 +1,19 @@
 [
 	{
+		"title"	: 	"Clients by Brand Color",
+		"slug"	:	"clients-by-brand-color",
+		"dek"	:	"Celebrating clients over the years.",
+		"date"	:	"2018-12-18 09:47:00",
+		"tags"	:	[
+			"superfriendly",
+			"analytics",
+			"graphs",
+			"charts",
+			"data",
+			"reflection"
+		]
+	},
+	{
 		"title"	: 	"Passing the SuperBooked Baton",
 		"slug"	:	"passing-the-superbooked-baton",
 		"dek"	:	"New leadership for SuperBooked.",
