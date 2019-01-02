@@ -100,7 +100,7 @@
 
                 <p>As one who didn&rsquo;t travel much as a kid, I feel very fortunate every year I get to visit other places in the world. In 2018, I took both work and non-work trips to Cambridge, MA; Chicago, IL; Greensboro, NC; Salt Lake City, UT;  Las Vegas, NV; Faroe Islands; New York, NY; Seattle, WA; Toronto, Ontario; Marin County, CA; Cayman Islands; Washington DC; Strathmere, NJ; Mayfield, OH; Brooklyn, NY; Paris, France; Zurich, Switzerland; Orlando, FL; and Houston, TX. </p>
 
-                <p>I&rsquo;m looking forward to visiting more amazing places in 2019.  So far, I&rsquo;ve got trips lined up to Chicago, IL; Austin, TX; Seattle, WA; Boston, MA; and Toronto, Ontario, and likely adding Scotland, New Zealand, Japan, and China to the list.</p>
+                <p>I&rsquo;m looking forward to visiting more amazing places in 2019.  So far, I&rsquo;ve got trips lined up to Chicago, IL; Austin, TX; Seattle, WA; Boston, MA; and Toronto, Ontario, and likely adding Scotland, Los Angeles, New Zealand, Japan, and China to the list.</p>
 
                 <h2>Conferences, workshops, and training</h2>
 
