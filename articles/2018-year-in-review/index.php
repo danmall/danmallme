@@ -92,9 +92,7 @@
 
                 <p>I really indulged my sneaker fetish this year. </p>
 
-                <p>I added these to my collection: Jordan 1 Mid University Gold; Jordan 1 Retro High OG Top 3; Air Max 97 JDI; Nike Acronym x Air Presto Mid ‘Racer Pink’; Nike Acronym x Air Presto Mid Dynamic Yellow; Nike Acronym x Air Presto Mid Cool Grey; Jordan 1 "Homage to Home"; Jordan 1 Mid Royal Splatter; Puma Roma; Nike Air Safari ‘OG’ 2018; Jordan 1 Black/White RE2PECT; Nike SF Air Force 1; Jordan 1 Ret Hi NYC; and Air Jordan 1 Retro High. </p>
-
-                <p>-I'm also lucky that my brother <a href="https://twitter.com/jahwnie">Jon Mall</a> has the same shoe size, so we traded a few and I got these: Nike Air Max 270, Nike Free RN Flyknit, Adidas High-</p>
+                <p>I added these to my collection: Jordan 1 Mid University Gold; Jordan 1 Retro High OG Top 3; Air Max 97 JDI; Nike Acronym x Air Presto Mid Racer Pink; Nike Acronym x Air Presto Mid Dynamic Yellow; Nike Acronym x Air Presto Mid Cool Grey; Jordan 1 &ldquo;Homage to Home&rdquo;; Jordan 1 Mid Royal Splatter; Puma Roma; Nike Air Safari OG 2018; Jordan 1 Black/White RE2PECT; Nike SF Air Force 1; Jordan 1 Ret Hi NYC; and Air Jordan 1 Retro High.</p>
 
                 <p>I&rsquo;ve got a side project or two that I'd like to do around my sneaker collection. Maybe 2019 will be the year. Probably not though. </p>
 
@@ -122,7 +120,7 @@
 
                 <h2>Books</h2>
 
-                <p>I did a decent amount of reading in 2018. I read or started to read <a href="https://amzn.to/2BVdMgt">Getting to Yes</a> by Roger Fisher; <a href="https://amzn.to/2VnlWai">Principles: Life and Work</a> by Ray Dalio; <a href="https://amzn.to/2Ru8X7x">Batman: Nightwalker</a> by Marie Lu; <a href="https://amzn.to/2SyPIXC">The Art of Screen Time</a> by Anya Kamenetz; <a href="https://amzn.to/2SyPIXC">I Will Teach You to Be Rich</a> by Ramit Sethi; <a href="https://amzn.to/2SseY1M">It Doesn’t Have to be Crazy at Work</a> by Jason Fried and David Heinemeier Hansson; Batman Vol 1–7 by Tom King; <a href="https://amzn.to/2SwMJ29">Artemis</a> by Andy Weir; <a href="https://amzn.to/2SCV98h">The Snowball System</a> by Mo Bunnell; <a href="https://amzn.to/2CM4qoP">The Spaceship Next Door</a> by Gene Doucett; and <a href="https://amzn.to/2Sy3bPs">To Sell is Human</a> by Daniel H. Pink. That feels pretty inadequate compared to Em&rsquo;s goal of 100 books every year, but I&rsquo;ll settle for about one per month.</p>
+                <p>I did a decent amount of reading in 2018. I read or started to read <cite><a href="https://amzn.to/2BVdMgt">Getting to Yes</a></cite> by Roger Fisher; <cite><a href="https://amzn.to/2VnlWai">Principles: Life and Work</a></cite> by Ray Dalio; <cite><a href="https://amzn.to/2Ru8X7x">Batman: Nightwalker</a></cite> by Marie Lu; <cite><a href="https://amzn.to/2SyPIXC">The Art of Screen Time</a></cite> by Anya Kamenetz; <cite><a href="https://amzn.to/2SyPIXC">I Will Teach You to Be Rich</a></cite> by Ramit Sethi; <cite><a href="https://amzn.to/2SseY1M">It Doesn&rsquo;t Have to be Crazy at Work</a></cite> by Jason Fried and David Heinemeier Hansson; <cite>Batman Vol 1–7</cite> by Tom King; <cite><a href="https://amzn.to/2SwMJ29">Artemis</a></cite> by Andy Weir; <cite><a href="https://amzn.to/2SCV98h">The Snowball System</a> by Mo Bunnell; <a href="https://amzn.to/2CM4qoP">The Spaceship Next Door</a></cite> by Gene Doucett; and <cite><a href="https://amzn.to/2Sy3bPs">To Sell is Human</a></cite> by Daniel H. Pink. That feels pretty inadequate compared to Em&rsquo;s goal of 100 books every year, but I&rsquo;ll settle for about one per month.</p>
 
                 <h2>Miscellany</h2>
                 <ul><li>We got 2 orange tabby kittens: Nala and Simba. They&rsquo;re annoying, but  the kids love them.
