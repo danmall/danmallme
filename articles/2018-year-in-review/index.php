@@ -44,7 +44,7 @@
 
             <div class="dm-dp-textPassage dm-l-articleGrid--main">
             
-                <p><span class="dm-dp-openingLines">I didn&rsquo;t think</span> I was one for year-end round-ups, but reading <a href="https://daverupert.com/2018/12/twenty-eighteen/">Dave Rupert's</a> made me want to do one of my own. </p>
+                <p><span class="dm-dp-openingLines">I didn&rsquo;t think</span> I was one for year-end round-ups, but reading <a href="https://daverupert.com/2018/12/twenty-eighteen/">Dave Rupert</a>&rsquo;s made me want to do one of my own. </p>
 
                 <div class="dm-c-carbonWrap">
                     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
