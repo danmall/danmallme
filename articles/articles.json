@@ -1,5 +1,16 @@
 [
 	{
+		"title"	: 	"2018 Year in Review",
+		"slug"	:	"2018-year-in-review",
+		"dek"	:	"The ups and downs of 2018.",
+		"date"	:	"2019-01-02 11:00:00",
+		"tags"	:	[
+			"superfriendly",
+			"personal",
+			"reflection"
+		]
+	},
+	{
 		"title"	: 	"Clients by Brand Color",
 		"slug"	:	"clients-by-brand-color",
 		"dek"	:	"Celebrating clients over the years.",
