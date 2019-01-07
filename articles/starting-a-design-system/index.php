@@ -68,7 +68,7 @@
                 </li><li>Tables
                 </li></ul>
 
-                <p>It&rsquo;s tempting to add everything that you think <i>might</i> go in a design system or <i>should</i> go into a design system, but try to resist that urge for now. Only include the components that <i>already</i> exist in all of the sites and apps. A good design system should be <a href="https://bigmedium.com/ideas/boring-design-systems.html#solvedproblemsandsettledscience">a collection of your organization&rsquo;s best institutional knowledge</a>.</p>
+                <p>It&rsquo;s tempting to add everything that you think <em>might</em> go in a design system or <em>should</em> go into a design system, but try to resist that urge for now. Only include the components that <em>already</em> exist in all of the sites and apps. A good design system should be <a href="https://bigmedium.com/ideas/boring-design-systems.html#solvedproblemsandsettledscience">a collection of your organization&rsquo;s best institutional knowledge</a>.</p>
 
                 <p>If you don&rsquo;t use buttons a lot in those products, don&rsquo;t include them! Front-end designer <a href="bradfrost.com">Brad Frost</a> is fond of saying, &ldquo;A design system is the story of how your organization makes products.&rdquo; If your products don&rsquo;t have lots of buttons in them, including buttons as a prominent element tells the wrong story about what you do and make. This focus is key to making sure your design system remains <a href="/articles/distinct-design-systems/">distinct</a>.</p>
 

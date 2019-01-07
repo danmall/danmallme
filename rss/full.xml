@@ -5,8 +5,66 @@
 	<link rel="alternate" type="text/html" href="http://danmall.me/" />
 	<link rel="self" type="application/atom+xml" href="http://danmall.me/rss/full.xml" />
 	<id>http://danmall.me/rss/full.xml</id>
-	<updated>2019-01-02T11:00:00Z</updated>
+	<updated>2019-01-07T09:20:00Z</updated>
 	<rights>Copyright © 2019, Dan Mall</rights>
+
+
+	<entry>
+		<title><![CDATA[Starting a Design System]]></title>
+		<description><![CDATA[What are the first steps?]]></description>
+		<link rel="alternate" type="text/html" href="http://danmall.me/articles/starting-a-design-system/" />
+		<id>http://danmall.me/articles/starting-a-design-system/</id>
+		<published>2019-01-07T09:20:00Z</published>
+		<updated>2019-01-07T09:20:00Z</updated>
+		<author>
+			<name>Dan Mall</name>
+			<uri>http://danmall.me/</uri>
+		</author>
+		<content type="html" xml:base="http://danmall.me/articles/" xml:lang="en"><![CDATA[
+<p>Designer Zack Aronson asks an interesting question:</p>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/danmall?ref_src=twsrc%5Etfw">@danmall</a> Watched the first 3 InVision Design System videos, thanks for doing those, been truly insightful. Any tool advice for a small design team (3 people) to get started on a design system? Sketch templates? Code templates?</p>&mdash; Zack Aronson (@ZackAronson) <a href="https://twitter.com/ZackAronson/status/1082006920138055680?ref_src=twsrc%5Etfw">January 6, 2019</a></blockquote>
+
+<p>There are a lot of <a href="https://publication.design.systems/">great articles about design systems</a>, but I&rsquo;m not sure I&rsquo;ve seen much written about how to start one.</p>
+
+<p>When <a href="http://superfriend.ly/">SuperFriendly</a> works with clients to create design systems, the first thing we&rsquo;ll do is an audit of the existing digital landscape. Do you have a public-facing website? A native mobile app? Some microsites? An intranet? </p>
+
+<p>Of all of those, what are some interface elements that all of them have? Some common answers tend to include:</p>
+
+<ul><li>Navigation
+</li><li>Buttons
+</li><li>Headings
+</li><li>Lists
+</li><li>Paragraphs
+</li><li>Forms
+</li><li>Tables
+</li></ul>
+
+<p>It&rsquo;s tempting to add everything that you think <em>might</em> go in a design system or <em>should</em> go into a design system, but try to resist that urge for now. Only include the components that <em>already</em> exist in all of the sites and apps. A good design system should be <a href="https://bigmedium.com/ideas/boring-design-systems.html#solvedproblemsandsettledscience">a collection of your organization&rsquo;s best institutional knowledge</a>.</p>
+
+<p>If you don&rsquo;t use buttons a lot in those products, don&rsquo;t include them! Front-end designer <a href="bradfrost.com">Brad Frost</a> is fond of saying, &ldquo;A design system is the story of how your organization makes products.&rdquo; If your products don&rsquo;t have lots of buttons in them, including buttons as a prominent element tells the wrong story about what you do and make. This focus is key to making sure your design system remains <a href="http://danmall.me/articles/distinct-design-systems/">distinct</a>.</p>
+
+<p>Zach: if I were advising your 3-person design team, I&rsquo;d suggest that each of you pick a component that&rsquo;s already used frequently in your products. Looking at <a href="https://www.echo.com/">your site</a>, those 3 components might be:</p>
+
+<ol><li>Navigation
+</li><li>Primary Heading
+</li><li>Footer
+</li></ol>
+
+<p>Pick the best version of each of these. That might be the footer from an intranet and a navigation and footer from main website. And &ldquo;best&rdquo; might mean from a <abbr title="User Interface">UI</abbr> design perspective, or that the markup is top-notch, or that it&rsquo;s built modularly&hellip; you decide.</p>
+
+<p>Next step: put those 3 components somewhere. That could be a custom website you build, like <a href="https://material.io">Material Design</a> or <a href="https://polaris.shopify.com">Polaris</a>. But it could also be a wiki somewhere within your firewall. Or a Github repository. The important thing is that it contains: </p>
+
+<ul><li>At least some front-end code you need to implement this component (because <a href="http://bradfrost.com/blog/post/your-sketch-library-is-not-a-design-system/">a Sketch library is not a design system</a>)
+</li><li>Some guidelines on how (and how not) to use this component
+</li><li>A <abbr title="Uniform Resource Locator">URL</abbr> that you can send to someone
+</li></ul>
+
+<p>Congratulations on launching <code>v1</code> of your design system! That&rsquo;s right: <code>v1</code> of a design system can just be 3 components. Heck, it can be only 1 component! If that 1 component saves you some time on your next project and makes everything that much more consistent from both a design and code standpoint, you&rsquo;re experiencing the full benefits of a design system.</p>
+
+		]]></content>
+	</entry>
+
 	
 	<entry>
 		<title><![CDATA[Clients by Brand Color]]></title>
