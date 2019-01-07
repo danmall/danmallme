@@ -1,5 +1,15 @@
 [
 	{
+		"title"	: 	"Starting a Design System",
+		"slug"	:	"starting-a-design-system",
+		"dek"	:	"What are the first steps?",
+		"date"	:	"2019-01-07 09:20:00",
+		"tags"	:	[
+			"design systems",
+			"process"
+		]
+	},
+	{
 		"title"	: 	"2018 Year in Review",
 		"slug"	:	"2018-year-in-review",
 		"dek"	:	"The ups and downs of 2018.",
