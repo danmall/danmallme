@@ -44,7 +44,7 @@
 
 <p>If you don&rsquo;t use buttons a lot in those products, don&rsquo;t include them! Front-end designer <a href="bradfrost.com">Brad Frost</a> is fond of saying, &ldquo;A design system is the story of how your organization makes products.&rdquo; If your products don&rsquo;t have lots of buttons in them, including buttons as a prominent element tells the wrong story about what you do and make. This focus is key to making sure your design system remains <a href="http://danmall.me/articles/distinct-design-systems/">distinct</a>.</p>
 
-<p>Zach: if I were advising your 3-person design team, I&rsquo;d suggest that each of you pick a component that&rsquo;s already used frequently in your products. Looking at <a href="https://www.echo.com/">your site</a>, those 3 components might be:</p>
+<p>Zack: if I were advising your 3-person design team, I&rsquo;d suggest that each of you pick a component that&rsquo;s already used frequently in your products. Looking at <a href="https://www.echo.com/">your site</a>, those 3 components might be:</p>
 
 <ol><li>Navigation
 </li><li>Primary Heading
