@@ -12,7 +12,7 @@
     <meta name="twitter:title" property="og:title" content="Starting a Design System" />
     <meta name="twitter:description" property="og:description" content="What are the first steps?" />
     <meta name="description" content="What are the first steps?" />
-    <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/thumb.png" />
+    <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>thumb.png" />
     
 </head>
 
