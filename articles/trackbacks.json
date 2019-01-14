@@ -1,5 +1,65 @@
 [
 	{
+		"title"		: 	"Designgineering Chronicles [WiH]: Month 5.5-6.5",
+		"slug"		:	"https://notlaura.com/designgineering-chronicles-month-5-5-6-5/",
+		"date"		:	"2019-01-12",
+		"source"	:	"Lara Schenck"
+	},
+	{
+		"title"		: 	"Multi-Line Inline Gradient",
+		"slug"		:	"https://css-tricks.com/multi-line-inline-gradient/",
+		"date"		:	"2019-01-03",
+		"source"	:	"CSS Tricks"
+	},
+	{
+		"title"		: 	"2018",
+		"slug"		:	"http://bradfrost.com/blog/post/2018/",
+		"date"		:	"2018-12-31",
+		"source"	:	"Brad Frost"
+	},
+	{
+		"title"		: 	"Twenty Eighteen",
+		"slug"		:	"https://daverupert.com/2018/12/twenty-eighteen/",
+		"date"		:	"2018-12-26",
+		"source"	:	"Dave Rupert"
+	},
+	{
+		"title"		: 	"The 6 things every design systems pilot project needs to be successful",
+		"slug"		:	"https://www.invisionapp.com/inside-design/the-6-things-every-design-systems-pilot-project-needs-to-be-successful/",
+		"date"		:	"2018-12-20",
+		"source"	:	"Inside Design"
+	},
+	{
+		"title"		: 	"Clarity 2018",
+		"slug"		:	"https://weareadjacent.com/blog/clarity-2018/",
+		"date"		:	"2018-12-19",
+		"source"	:	"Adjacent"
+	},
+	{
+		"title"		: 	"State of Design Systems 2018",
+		"slug"		:	"https://www.figma.com/blog/state-of-design-systems-2018/",
+		"date"		:	"2018-12-19",
+		"source"	:	"Figma"
+	},
+	{
+		"title"		: 	"The Best User Experience Design Links of 2018",
+		"slug"		:	"https://medium.com/@kennycheny/the-best-user-experience-design-links-of-2018-3e2ed9dd9502",
+		"date"		:	"2018-12-17",
+		"source"	:	"Kenny Chen"
+	},
+	{
+		"title"		: 	"Legends of Web Design",
+		"slug"		:	"http://chuckkillorin.com/art239/final-practical/",
+		"date"		:	"2018-12-14",
+		"source"	:	"Chuck Killorin"
+	},
+	{
+		"title"		: 	"Here&rsquo;s what you missed at Clarity 2018",
+		"slug"		:	"https://medium.com/@sodisays/heres-what-you-missed-at-clarity-2018-8c1d788282ae",
+		"date"		:	"2018-12-14",
+		"source"	:	"Stedman Halliday"
+	},
+	{
 		"title"		: 	"Who Are Design Systems For?",
 		"slug"		:	"https://matthewstrom.com/writing/who-are-design-systems-for",
 		"date"		:	"2018-12-13",
@@ -16,6 +76,12 @@
 		"slug"		:	"https://viastudio.com/awwwards-conference-learnins/",
 		"date"		:	"2018-12-10",
 		"source"	:	"VIA Studio"
+	},
+	{
+		"title"		: 	"Starting strong: applying atomic design and choosing a pilot",
+		"slug"		:	"https://www.invisionapp.com/inside-design/starting-strong-applying-atomic-design-and-choosing-a-pilot/",
+		"date"		:	"2018-12-09",
+		"source"	:	"Inside Design"
 	},
 	{
 		"title"		: 	"Just-in-time Design",
@@ -331,6 +397,12 @@
 		"slug"		:	"http://www.creativebloq.com/news/generate-new-york-is-back-for-2018",
 		"date"		:	"2017-11-16",
 		"source"	:	"Creative Bloq"
+	},
+	{
+		"title"		: 	"Content Design and UI Mapping in a nutshell",
+		"slug"		:	"https://medium.com/@wolframnagel/content-design-and-ui-mapping-in-a-nutshell-7dce5634afff",
+		"date"		:	"2017-11-11",
+		"source"	:	"Wolfram Nagel"
 	},
 	{
 		"title"		: 	"The ultimate guide to productivity in the workplace and doing more meaningful work",
