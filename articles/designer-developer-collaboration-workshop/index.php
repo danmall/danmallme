@@ -21,6 +21,12 @@
             --articlePrimaryColorHover: #FFADC1;
         }
 
+        .dm-c-imageObject_image {
+            max-width: 1200px;
+            display: block;
+            margin: 0 auto;
+        }
+
     </style>
     
 </head>
@@ -39,7 +45,12 @@
 
     <figure class="dm-c-imageObject dm-u-marginLeft--m dm-u-marginRight--m">
         <div class="dm-c-imageObject_imageWrap">
-            
+            <script>
+            document.write('<img class="dm-c-imageObject_image dm-js-lazy" data-src="hero.png" alt="Brad Frost &amp; Dan Mall teaching a collaboration workshop" />');
+            </script>
+            <noscript>
+                <img class="dm-c-imageObject_image dm-js-lazy" src="hero.png" alt="Brad Frost &amp; Dan Mall teaching a collaboration workshop" />
+            </noscript>
         </div><!-- .dm-c-imageObject_imageWrap -->            
     </figure><!-- .dm-c-imageObject -->
 
@@ -51,7 +62,7 @@
                 Designer + Developer Collaboration Workshop
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">January 16, 2019 at 9:25 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">January 16, 2019 at 12:43 <abbr title="Post Meridien">PM</abbr></h2>
 
         </header><!-- .page-header -->
 
@@ -73,8 +84,8 @@
                     <li>Reducing reliance on handoff tools</li>
                     <li>Front-end design</li>
                     <li>Shia LeBouf</li>
-                    <li>Principles like &ldquo;minimum viable artifacts,&rdquo; &ldquo;death to approvals,&rdquo; &ldquo;anticipation,&rdquo; and more</li>
-                    <li>Atomic design</li>
+                    <li>Principles like &ldquo;<a href="https://bigmedium.com/ideas/only-one-deliverable-matters.html">minimum viable artifacts</a>,&rdquo; &ldquo;death to approvals,&rdquo; &ldquo;anticipation,&rdquo; and more</li>
+                    <li><a href="http://atomicdesign.bradfrost.com/">Atomic design</a></li>
                     <li>Spot comping</li>
                 </ul>
 
