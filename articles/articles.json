@@ -1,5 +1,17 @@
 [
 	{
+		"title"	: 	"Designer + Developer Collaboration Workshop",
+		"slug"	:	"designer-developer-collaboration-workshop",
+		"dek"	:	"Recapping our Philly workshop.",
+		"date"	:	"2019-01-16 12:43:00",
+		"tags"	:	[
+			"collaboration",
+			"process",
+			"invision",
+			"brad frost"
+		]
+	},
+	{
 		"title"	: 	"Starting a Design System",
 		"slug"	:	"starting-a-design-system",
 		"dek"	:	"What are the first steps?",

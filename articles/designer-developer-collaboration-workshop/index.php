@@ -10,9 +10,9 @@
     <meta name="twitter:site" content="@danmall" />
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
     <meta name="twitter:title" property="og:title" content="Designer + Developer Collaboration Workshop" />
-    <meta name="twitter:description" property="og:description" content="What are the first steps?" />
-    <meta name="description" content="What are the first steps?" />
-    <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>thumb.jpg" />
+    <meta name="twitter:description" property="og:description" content="Recapping our Philly workshop." />
+    <meta name="description" content="WRecapping our Philly workshop." />
+    <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>thumb.png" />
 
     <style type="text/css">
 
@@ -145,8 +145,8 @@
                 <h1 class="dm-c-upNext_kicker">Up Next</h1>
 
                 <h2 class="dm-c-upNext_title">
-                    <a href="/articles/2018-year-in-review//">
-                        2018 Year in <span class="dm-c-upNext_title_lastWord">Review</span>
+                    <a href="/articles/starting-a-design-system/">
+                        Starting a Design <span class="dm-c-upNext_title_lastWord">System</span>
                     </a>
                 </h2>
 
