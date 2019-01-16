@@ -21,8 +21,12 @@
             --articlePrimaryColorHover: #FFADC1;
         }
 
-        .dm-c-imageObject_image {
+        .dm-c-imageObject_imageWrap {
             max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .dm-c-imageObject_image {            
             display: block;
             margin: 0 auto;
         }
