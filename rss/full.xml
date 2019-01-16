@@ -5,8 +5,88 @@
 	<link rel="alternate" type="text/html" href="http://danmall.me/" />
 	<link rel="self" type="application/atom+xml" href="http://danmall.me/rss/full.xml" />
 	<id>http://danmall.me/rss/full.xml</id>
-	<updated>2019-01-07T09:20:00Z</updated>
+	<updated>2019-01-16T12:43:00Z</updated>
 	<rights>Copyright © 2019, Dan Mall</rights>
+
+
+	<entry>
+		<title><![CDATA[Starting a Design System]]></title>
+		<description><![CDATA[What are the first steps?]]></description>
+		<link rel="alternate" type="text/html" href="http://danmall.me/articles/starting-a-design-system/" />
+		<id>http://danmall.me/articles/starting-a-design-system/</id>
+		<published>2019-01-16T12:43:00Z</published>
+		<updated>2019-01-16T12:43:00Z</updated>
+		<author>
+			<name>Dan Mall</name>
+			<uri>http://danmall.me/</uri>
+		</author>
+		<content type="html" xml:base="http://danmall.me/articles/" xml:lang="en"><![CDATA[
+<p><a href="http://bradfrost.com/">Brad</a> and I hosted our first public <a href="https://designdevjan2019.splashthat.com/">designer + developer collaboration workshop</a> yesterday. After sleeping on it, I declare it a resounding success!</p>              
+
+                <p>We&rsquo;ve done this type of workshop before with our clients, but this was the first time we&rsquo;ve hosted it publicly. Many thanks to our friends at <a href="https://www.invisionapp.com">InVision</a> for producing it so flawlessly.</p>
+
+                <p>We covered:</p>
+
+                <ul>
+                    <li>Reducing reliance on handoff tools</li>
+                    <li>Front-end design</li>
+                    <li>Shia LeBouf</li>
+                    <li>Principles like &ldquo;<a href="https://bigmedium.com/ideas/only-one-deliverable-matters.html">minimum viable artifacts</a>,&rdquo; &ldquo;death to approvals,&rdquo; &ldquo;anticipation,&rdquo; and more</li>
+                    <li><a href="http://atomicdesign.bradfrost.com/">Atomic design</a></li>
+                    <li>Spot comping</li>
+                </ul>
+
+                <p>At the end of the day, we did a recap exercise to see what the attendees got from the day. Here&rsquo;s what they said:</p>
+
+                <h2 class="dm-u-text--m">From what I learned at this workshop, I&rsquo;m going to stop&hellip;</h2>
+
+                <ul>
+                    <li>Trying to make perfect comps</li>
+                    <li>Hoarding designs and keeping them to myself until they&rsquo;re &ldquo;ready&rdquo;</li>
+                    <li>Over-engineering</li>
+                    <li>Writing handoff documentation</li>
+                    <li>Designing for approvals</li>
+                    <li>Wasting time on design details that don&rsquo;t matter right now</li>
+                </ul>
+
+                <h2 class="dm-u-text--m">From what I learned at this workshop, I&rsquo;m going to start&hellip;</h2>
+
+                <ul>
+                    <li>Relying more on a <a href="http://bradfrost.com/blog/post/a-frontend-workshop-environment/">front-end workshop environment</a></li>
+                    <li>Doing more cross-team collaboration sessions</li>
+                    <li>Involving developers earlier in the process</li>
+                    <li>Getting into the browser earlier</li>
+                    <li>Prototyping more</li>
+                    <li>Being a more inclusive design partner</li>
+                    <li>Using <a href="https://storybook.js.org/">Storybook</a></li>
+                    <li>Working with more placeholders</li>
+                    <li>Carving out time for collaboration</li>
+                    <li>Complaining more about closed-door design reviews</li>
+                    <li>Working at lower fidelity</li>
+                    <li>Sharing ideas earlier</li>
+                    <li>Letting developers prototype and wireframe</li>
+                    <li>Changing the physical space to allow for better collaboration</li>
+                    <li>Iterating faster on design</li>
+                    <li>Making design a team sport</li>
+                    <li>Working at a component level instead of a page level</li>
+                </ul>
+
+                <h2 class="dm-u-text--m">From what I learned at this workshop, I&rsquo;m going to continue&hellip;</h2>
+
+                <ul>
+                    <li>Involving developers in the design process</li>
+                    <li>Sending devs screenshots frequently</li>
+                    <li>Being present throughout the entire process</li>
+                    <li>Asking questions of the dev team</li>
+                    <li>Focusing on shipping to production as fast as possible</li>
+                </ul>
+
+                <p>Special thanks to <a href="http://ianfrostweather.com/">Ian Frost</a> for being an excellent teaching assistant, troubleshooter, and all-around good guy.</p>
+
+                <p>If you want us to bring this workshop to your company or your city, <a href="http://danmall.com/contact/">let us know</a>!</p>
+
+		]]></content>
+	</entry>
 
 
 	<entry>
