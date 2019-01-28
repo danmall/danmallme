@@ -1,9 +1,39 @@
 [
 	{
+		"title"		: 	"Notes from Clarity Conf 2018",
+		"slug"		:	"https://notlaura.com/notes-from-clarity-conf-2018/",
+		"date"		:	"2019-01-27",
+		"source"	:	"Lara Schenck"
+	},
+	{
+		"title"		: 	"Everything You Need To Know BEFORE You Design A Great Album Cover",
+		"slug"		:	"https://blog.dozmia.com/how-to-design-an-album-cover/",
+		"date"		:	"2019-01-26",
+		"source"	:	"Dozmia Blog"
+	},
+	{
+		"title"		: 	"Authors Answer: What are you up to now?",
+		"slug"		:	"https://abookapart.com/blogs/press/authors-answer-what-are-you-up-to-now",
+		"date"		:	"2019-01-22",
+		"source"	:	"A Book Apart"
+	},
+	{
+		"title"		: 	"Preventing Widows in Responsive Layouts",
+		"slug"		:	"https://workingconcept.com/blog/preventing-widows-responsive-layouts",
+		"date"		:	"2019-01-21",
+		"source"	:	"Working Concept"
+	},
+	{
 		"title"		: 	"Designgineering Chronicles [WiH]: Month 5.5-6.5",
 		"slug"		:	"https://notlaura.com/designgineering-chronicles-month-5-5-6-5/",
 		"date"		:	"2019-01-12",
 		"source"	:	"Lara Schenck"
+	},
+	{
+		"title"		: 	"Freelancing Resources",
+		"slug"		:	"http://wefreelancing.com/",
+		"date"		:	"2019-01-10",
+		"source"	:	"We Freelancing"
 	},
 	{
 		"title"		: 	"Multi-Line Inline Gradient",
