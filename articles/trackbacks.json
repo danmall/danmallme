@@ -1,5 +1,11 @@
 [
 	{
+		"title"		: 	"Come to An Event Apart in 2019 ",
+		"slug"		:	"https://css-tricks.com/come-to-an-event-apart-in-2019/",
+		"date"		:	"2019-02-07",
+		"source"	:	"CSS Tricks"
+	},
+	{
 		"title"		: 	"Notes from Clarity Conf 2018",
 		"slug"		:	"https://notlaura.com/notes-from-clarity-conf-2018/",
 		"date"		:	"2019-01-27",
@@ -160,6 +166,12 @@
 		"slug"		:	"https://www.smashingmagazine.com/2018/11/smashing-ny-roundup/",
 		"date"		:	"2018-11-02",
 		"source"	:	"Smashing Magazine"
+	},
+	{
+		"title"		: 	"Collaborative Exercises for Defining Your Brand Strategy",
+		"slug"		:	"https://atendesigngroup.com/blog/collaborative-exercises-defining-your-brand-strategy",
+		"date"		:	"2018-11-02",
+		"source"	:	"Aten"
 	},
 	{
 		"title"		: 	"Conference",
@@ -687,6 +699,12 @@
 		"source"	:	"swissmiss"
 	},
 	{
+		"title"		: 	"Dan Mall (and Element Collages) to the Rescue!",
+		"slug"		:	"https://www.aztekweb.com/blog/post/dan-mall-and-element-collages-to-the-rescue/",
+		"date"		:	"2017-04-24",
+		"source"	:	"Aztek"
+	},
+	{
 		"title"		: 	"Why Every Project Should be a Design Systems Project",
 		"slug"		:	"https://blog.prototypr.io/why-every-project-should-be-a-design-systems-project-9adeae141088",
 		"date"		:	"2017-04-24",
@@ -1090,6 +1108,12 @@
 		"slug"		:	"http://css-weekly.com/issue-196/",
 		"date"		:	"2016-01-05",
 		"source"	:	"CSS Weekly"
+	},
+	{
+		"title"		: 	"5 Tips for Making More Money as a Freelance Designer",
+		"slug"		:	"https://www.webfx.com/blog/web-design/more-money-as-a-freelance-designer/",
+		"date"		:	"2015-12-15",
+		"source"	:	"WebFX"
 	},
 	{
 		"title"		: 	"99U Local Series Curates Creative Talks For You And You And You",
