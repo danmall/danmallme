@@ -47,7 +47,7 @@
                 Break-Even Points for Value Pricing
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">February 19, 2018 at 9:11 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">February 19, 2018 at 9:12 <abbr title="Ante Meridien">AM</abbr></h2>
 
         </header><!-- .page-header -->
 
@@ -63,7 +63,7 @@
 
                 <p><strong>&ldquo;At what point does this project pay for itself?&rdquo;</strong></p>
 
-                <p>Great answers I've heard:</p>
+                <p>Great answers I&rsquo;ve heard:</p>
 
                 <ul>
                     <li>When 100 more students enroll.</li>
@@ -72,7 +72,7 @@
                     <li>When people prefer us over our top competitor.</li>
                 </ul>
 
-                <p>Answers I&rsquo;ve heard that make me think they're not ready for a project (at least not with <a href="http://superfriend.ly/">SuperFriendly</a>):</p>
+                <p>Answers I&rsquo;ve heard that make me think they&rsquo;re not ready for a project (at least not with <a href="http://superfriend.ly/">SuperFriendly</a>):</p>
 
                 <ul>
                     <li>I don&rsquo;t know.</li>

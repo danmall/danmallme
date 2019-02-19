@@ -1,5 +1,15 @@
 [
 	{
+		"title"	: 	"Break-Even Points for Value Pricing",
+		"slug"	:	"break-even-points-value-pricing/",
+		"dek"	:	"Understanding client expectations for results will help you create great pricing options.",
+		"date"	:	"2019-02-19T09:12:00Z",
+		"tags"	:	[
+			"pricing",
+			"value pricing"
+		]
+	},
+	{
 		"title"	: 	"Designer + Developer Collaboration Workshop",
 		"slug"	:	"designer-developer-collaboration-workshop",
 		"dek"	:	"Recapping our Philly workshop.",

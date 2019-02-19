@@ -5,8 +5,60 @@
 	<link rel="alternate" type="text/html" href="http://danmall.me/" />
 	<link rel="self" type="application/atom+xml" href="http://danmall.me/rss/full.xml" />
 	<id>http://danmall.me/rss/full.xml</id>
-	<updated>2019-01-16T12:43:00Z</updated>
+	<updated>2019-02-19T09:12:00Z</updated>
 	<rights>Copyright © 2019, Dan Mall</rights>
+
+
+
+	<entry>
+		<title><![CDATA[Break-Even Points for Value Pricing ]]></title>
+		<description><![CDATA[Understanding client expectations for results will help you create great pricing options.]]></description>
+		<link rel="alternate" type="text/html" href="http://danmall.me/articles/break-even-points-value-pricing/" />
+		<id>http://danmall.me/articles/break-even-points-value-pricing/</id>
+		<published>2019-02-19T09:12:00Z</published>
+		<updated>2019-02-19T09:12:00Z</updated>
+		<author>
+			<name>Dan Mall</name>
+			<uri>http://danmall.me/</uri>
+		</author>
+		<content type="html" xml:base="http://danmall.me/articles/" xml:lang="en"><![CDATA[
+<p>When <a href="https://abookapart.com/products/pricing-design">value pricing</a>&mdash;pricing work based on the value it brings your customer&mdash;here&rsquo;s a question I typically ask:</p>
+
+<p><strong>&ldquo;At what point does this project pay for itself?&rdquo;</strong></p>
+
+<p>Great answers I&rsquo;ve heard:</p>
+
+<ul>
+	<li>When 100 more students enroll.</li>
+	<li>When we get an average of 5 more leads a month.</li>
+	<li>When we add 1,000 more people to or mailing list.</li>
+	<li>When people prefer us over our top competitor.</li>
+</ul>
+
+<p>Answers I&rsquo;ve heard that make me think they&rsquo;re not ready for a project (at least not with <a href="http://superfriend.ly/">SuperFriendly</a>):</p>
+
+<ul>
+	<li>I don&rsquo;t know.</li>
+	<li>Why is that any of your business?</li>
+	<li>There&rsquo;s no way we can quantify that.</li>
+</ul>
+
+<p>Smart clients know what change they&rsquo;re looking for, even if they don&rsquo;t know how to achieve it. (That&rsquo;s why they&rsquo;re hiring help.) Sometimes I&rsquo;ll try to help them <em>articulate</em> the value, but I don&rsquo;t try to <em>define</em> it for them. That&rsquo;s like going to a mechanic, and then deciding which part of your car you want to fix.</p> 
+
+<p>In my experience, clients that don&rsquo;t initially know what they want turn into clients that stretch out rounds of review and aren&rsquo;t happy with the final result. Even when we&rsquo;ve delivered something that might work for them, they can&rsquo;t tell, because they don&rsquo;t know what the right thing is.</p>
+
+<p>But clients that know what they want from the start? They know <em>way</em> early on if we&rsquo;re on track or off course, because they know the destination.</p> 
+
+<p>A client that knows what they want knows where the project pays for itself, where it breaks even. And that&rsquo;s the first price ceiling. If they have a $5,000 budget and expect 1000 more signups, they&rsquo;ll think they overpaid if you try to charge them $10,000 and they get 1,000 more signups (whether or not that&rsquo;s accurate).</p>
+
+<p>But what if you&rsquo;re confident than you could get them 2,000 signups? Then you may be able to charge $10,000 because you&rsquo;re delivering twice the results they&rsquo;re expecting. Here&rsquo;s the kicker: that&rsquo;s still a break-even price, even though it&rsquo;s double their stated budget.</p>
+
+<p><strong>You can confidently price over any stated budget if you can demonstrate that you will deliver more value than their break-even metric.</strong> The more you understand the break-even point, the more liberty you have to assess and communicate the multiples of value you can deliver.</p>
+
+<p>When you value price, every price you give a client should be at least a break-even price. Better yet, every price you give a client should be a &ldquo;they got a deal&rdquo; price.</p>
+
+		]]></content>
+	</entry>
 
 
 	<entry>
