@@ -1,9 +1,21 @@
 [
 	{
 		"title"		: 	"An Event Apart",
+		"slug"		:	"https://aneventapart.com/event/denver-2019",
+		"date"		:	"2019-10-28",
+		"location"	:	"Denver"
+	},
+	{
+		"title"		: 	"An Event Apart",
 		"slug"		:	"https://aneventapart.com/event/boston-2019",
 		"date"		:	"2019-05-06",
 		"location"	:	"Boston"
+	},
+	{
+		"title"		: 	"Epicurrence",
+		"slug"		:	"https://www.epicurrence.com/",
+		"date"		:	"2019-03-21",
+		"location"	:	"Breckenridge, <abbr title=\"Colorado\">CO</abbr>"
 	},
 	{
 		"title"		: 	"An Event Apart",
@@ -16,6 +28,13 @@
 		"slug"		:	"https://bureauofdigital.com/event/owner-summit-2019",
 		"date"		:	"2019-02-10",
 		"location"	:	"Austin"
+	},
+	{
+		"title"		: 	"Design Driven",
+		"slug"		:	"https://designdriven.biz/episodes/dan-mall-superfriendly/",
+		"date"		:	"2019-02-05",
+		"type"		:	"podcast",
+		"audio"		:	true
 	},
 	{
 		"title"		: 	"Designer + Developer Collaboration workshop",
