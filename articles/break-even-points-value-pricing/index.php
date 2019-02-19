@@ -12,7 +12,7 @@
     <meta name="twitter:title" property="og:title" content="Break-Even Points for Value Pricing" />
     <meta name="twitter:description" property="og:description" content="Understanding client expectations for results will help you create great pricing options." />
     <meta name="description" content="Understanding client expectations for results will help you create great pricing options." />
-    <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/thumb.png" />
+    <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/breakEven.png" />
     
 </head>
 
@@ -28,6 +28,17 @@
 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 
+    <figure class="dm-c-imageObject">
+        <div class="dm-c-imageObject_imageWrap" style="background: #fff;">
+            <script>
+            document.write('<img class="dm-c-imageObject_image dm-js-lazy" width="1200" height="450" data-src="breakEven.svg" alt="Trading knowledge work for money" />');
+            </script>
+            <noscript>
+                <img class="dm-c-imageObject_image" width="1200" height="450" src="breakEven.svg" alt="Trading knowledge work for money" />
+            </noscript>
+        </div><!-- .dm-c-imageObject_imageWrap -->            
+    </figure><!-- .dm-c-imageObject -->
+
     <div class="dm-l-articleGrid">
 
         <header class="dm-c-pageHeader dm-l-articleGrid--main" role="banner">
@@ -36,7 +47,7 @@
                 Break-Even Points for Value Pricing
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">February 19, 2018 at 8:52 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">February 19, 2018 at 9:11 <abbr title="Ante Meridien">AM</abbr></h2>
 
         </header><!-- .page-header -->
 
@@ -90,8 +101,8 @@
                 <h1 class="dm-c-upNext_kicker">Up Next</h1>
 
                 <h2 class="dm-c-upNext_title">
-                    <a href="/articles/passing-the-superbooked-baton/">
-                        Passing the SuperBooked <span class="dm-c-upNext_title_lastWord">Baton</span>
+                    <a href="/articles/designer-developer-collaboration-workshop/">
+                        Designer + Developer Collaboration <span class="dm-c-upNext_title_lastWord">Workshop</span>
                     </a>
                 </h2>
 
