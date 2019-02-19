@@ -80,7 +80,7 @@
                     <li>There&rsquo;s no way we can quantify that.</li>
                 </ul>
 
-                <p>Smart clients know what change they&rsquo;re looking for, even if they don&rsquo;t know how to achieve it. (That&rsquo;s why they&rsquo;re hiring help.) Sometimes I&rsquo;ll try to help them <em>articulate</em> the value, but I don&rsquo;t try to <em>define</em> it for them. That&rsquo;s like going to a mechanic, and then deciding which part of your car you want to fix.</p> 
+                <p>Smart clients know what change they&rsquo;re looking for, even if they don&rsquo;t know how to achieve it. (That&rsquo;s why they&rsquo;re hiring help.) Sometimes I&rsquo;ll try to help them <em>articulate</em> the value, but I don&rsquo;t try to <em>define</em> it for them. That&rsquo;s like going to a mechanic without a specific repair in mind and asking them to find a part of your car to fix.</p> 
 
                 <p>In my experience, clients that don&rsquo;t initially know what they want turn into clients that stretch out rounds of review and aren&rsquo;t happy with the final result. Even when we&rsquo;ve delivered something that might work for them, they can&rsquo;t tell, because they don&rsquo;t know what the right thing is.</p>
 
@@ -88,7 +88,7 @@
 
                 <p>A client that knows what they want knows where the project pays for itself, where it breaks even. And that&rsquo;s the first price ceiling. If they have a $5,000 budget and expect 1000 more signups, they&rsquo;ll think they overpaid if you try to charge them $10,000 and they get 1,000 more signups (whether or not that&rsquo;s accurate).</p>
 
-                <p>But what if you&rsquo;re confident than you could get them 2,000 signups? Then you may be able to charge $10,000 because you&rsquo;re delivering twice the results they&rsquo;re expecting. Here&rsquo;s the kicker: that&rsquo;s still a break-even price, even though it&rsquo;s double their stated budget.</p>
+                <p>But what if you&rsquo;re confident than you could get them 2,000 signups? Then they may accept a $10,000 price because you&rsquo;re delivering twice the results they&rsquo;re expecting. Here&rsquo;s the kicker: that&rsquo;s still a break-even price, even though it&rsquo;s double their stated budget.</p>
 
                 <p><strong>You can confidently price over any stated budget if you can demonstrate that you will deliver more value than their break-even metric.</strong> The more you understand the break-even point, the more liberty you have to assess and communicate the multiples of value you can deliver.</p>
 
