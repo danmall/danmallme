@@ -128,7 +128,7 @@
 
                 <h2 id="naptime">Naptime <a class="dm-dp-anchorLink" href="#naptime">#</a></h2>
 
-                <p>Official instructions are to nap for 3 &ndash; 6 hours after the procedure, because there&rsquo;s really nothing else you could do anyway. The night before, I stayed up late the night and woke up early so I&rsquo;d be tired enough to nap. The LASIK office recommended Tylenol PM&mdash;or Valium&rdquo;but I&rsquo;m usually a good sleeper, so I decide to go cold turkey.</p>
+                <p>Official instructions are to nap for 3 &ndash; 6 hours after the procedure, because there&rsquo;s really nothing else you could do anyway. The night before, I stayed up late the night and woke up early so I&rsquo;d be tired enough to nap. The LASIK office recommended Tylenol PM&mdash;or Valium&mdash;but I&rsquo;m usually a good sleeper, so I decide to go cold turkey.</p>
 
                 <p>Em helps me carefully tape sleep shields on my eyes so I wouldn&rsquo;t accidentally rub my eyes in my sleep. She put a glass of water on my nightstand and leaves me so I can try to get some rest. I start listening to a boring finance audiobook. Unfortunately, my eyes are still burning, which is keeping me awake. Also, the boring finance audiobook&mdash;<cite><a href="https://yourmoneyoryourlife.com/book/">Your Money or Your Life</a></cite>&mdash;turns out to be really interesting, so I&rsquo;m actually paying attention instead of zoning out.</p>
 
@@ -168,14 +168,14 @@
 
                 <h2 id="two-days-in">Two days in <a class="dm-dp-anchorLink" href="#two-days-in">#</a></h2>
 
-                <p>I&rsquo;m writing this post on two day after the procedure. I&rsquo;m following the eye drops routine pretty religiously, as I&rsquo;ve read that sticking to that increases the speed of recovery significantly. If my eyes itch, I&rsquo;m supposed to use artificial tears, as itchiness is a symptom of dryness. The LASIK office suggested that I use artifical tears as often as I want, so I&rsquo;m making liberal use of that. The worst of it is that my left eye still feels <em>slightly</em> sandy every few hours, kinda like I have a dirty contact lens in. But, it goes away immediately when I use the eyedrops.</p>
+                <p>I&rsquo;m writing this post on two day after the procedure. I&rsquo;m following the eye drops routine pretty religiously, as I&rsquo;ve read that sticking to that increases the speed of recovery significantly. If my eyes itch, I&rsquo;m supposed to use artificial tears, as itchiness is a symptom of dryness. The LASIK office suggested that I use artificial tears as often as I want, so I&rsquo;m making liberal use of that. The worst of it is that my left eye still feels <em>slightly</em> sandy every few hours, kinda like I have a dirty contact lens in. But, it goes away immediately when I use the eyedrops.</p>
 
                 <p>I switched to sleeping in ski goggles last night instead of sleep shields, as it&rsquo;s a little more comfortable and still keeps me from accidentally rubbing my eyes. And my co-workers seem to be fine with me joining calls with video either turned off or turn on while I&rsquo;m wearing sunglasses.</p>
 
 
                 <h2 id="life-changing">Life changing <a class="dm-dp-anchorLink" href="#life-changing">#</a></h2>
 
-                <p>The biggest thing I heard from people who&rsquo;ve had this done previously is that it was life-changing to be able to wake up and immediately see clearly. I didn&rsquo;t really experience that this morning, partly because I&rsquo;ve heard it so much that I think it got overhyped and partly because I&rsquo;ve fallen asleep with contacts enough times to have experienced and remembered waking up with perfect vision.</p>
+                <p>The biggest thing I heard from people who&rsquo;ve had this done previously is that it was life-changing to be able to wake up and immediately see clearly. I didn&rsquo;t really experience that this morning, partly because I&rsquo;ve heard it so much that I think it got over-hyped and partly because I&rsquo;ve fallen asleep with contacts enough times to have experienced and remembered waking up with perfect vision.</p>
 
                 <p>What&rsquo;s been more impactful for me so far is where I realize my previous habits and aren&rsquo;t necessary anymore. I don&rsquo;t have to take my contacts out before bed. I don&rsquo;t have to pack 2 weeks&rsquo; worth of extra contacts in a suitcase when I travel just in case I get stuck somewhere. I don&rsquo;t have to constantly carry around microfiber cloths to wipe dirty glasses. I don&rsquo;t have to worry about getting a contact knocked in my weekly basketball game. These are tiny things, but I think they&rsquo;re what I&rsquo;ll enjoy most.</p>
 
