@@ -9,5 +9,6 @@
     "grunt-contrib-watch": "^1.1.0",
     "grunt-criticalcss": "latest",
     "grunt-sass": "^2.1.0"
-  }
+  },
+  "dependencies": {}
 }

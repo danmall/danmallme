@@ -34,19 +34,6 @@ http://superfriend.ly/
 				font-family: "Firme-Bold";
 			}
 
-			/*
-			@media screen and (min-width: 945px){				
-				@include dm-u-text--s;
-				@include dm-u-uppercase;
-				@include dm-u-display--inlineBlock;
-				@include dm-u-padding--xs;
-
-				// seasoning
-				background: $sandstone;
-				color: #fff;
-			}
-			*/
-
 			@media screen and (min-width: 1100px) {
 				@include dm-u-text--xs;
 				@include dm-u-display--inlineBlock;
@@ -76,27 +63,6 @@ http://superfriend.ly/
 		&-pointerHeadline {
 
 			@include dm-u-text--m;
-
-			// @media screen and (min-width: 999px){
-			// 	@include dm-u-text--s;
-			// 	@include dm-u-font--sans;
-			// 	@include dm-u-uppercase;
-			// 	@include dm-u-align--center;
-			// 	@include dm-u-padding--xs;
-			// 	@include dm-u-paddingBottom--l;
-			// 	@include dm-u-pos--relative;
-
-				
-			// 	// seasoning
-			// 	background: $shipGray;
-			// 	color: #fff;			
-			// 	width: 60%;
-			// 	margin: 0 auto 2em;
-
-			// 	// Thanks Clippy! (No, not that Clippy. This Clippy.) http://bennettfeely.com/clippy/
-			// 	-webkit-clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%);
-			// 	clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%);
-			// }
 
 			
 		}
