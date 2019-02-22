@@ -28,13 +28,13 @@
 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 
-    <figure class="dm-c-imageObject">
-        <div class="dm-c-imageObject_imageWrap" style="background: #fff;">
+    <figure class="dm-c-imageObject dm-c-laserEyeHero">
+        <div class="dm-c-imageObject_imageWrap" style="background: transparent url(grain.png) repeat 0 0;">
             <script>
-            document.write('<img class="dm-c-imageObject_image dm-js-lazy" width="1200" height="450" data-src="breakEven.svg" alt="Trading knowledge work for money" />');
+            document.write('<img class="dm-c-imageObject_image dm-js-lazy" width="678" height="488" data-src="eye.png" alt="Lasers and eyes" />');
             </script>
             <noscript>
-                <img class="dm-c-imageObject_image" width="1200" height="450" src="breakEven.svg" alt="Trading knowledge work for money" />
+                <img class="dm-c-imageObject_image" width="678" height="488" src="eye.png" alt="Lasers and eyes" />
             </noscript>
         </div><!-- .dm-c-imageObject_imageWrap -->            
     </figure><!-- .dm-c-imageObject -->
