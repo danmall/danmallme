@@ -1,7 +1,17 @@
 [
 	{
+		"title"	: 	"My Experience with Laser Eye Surgery",
+		"slug"	:	"my-experience-with-laser-eye-surgery",
+		"dek"	:	"A play-by-play.",
+		"date"	:	"2019-02-22T16:12:00Z",
+		"tags"	:	[
+			"personal",
+			"surgery"
+		]
+	},
+	{
 		"title"	: 	"Break-Even Points for Value Pricing",
-		"slug"	:	"break-even-points-value-pricing/",
+		"slug"	:	"break-even-points-value-pricing",
 		"dek"	:	"Understanding client expectations for results will help you create great pricing options.",
 		"date"	:	"2019-02-19T09:12:00Z",
 		"tags"	:	[

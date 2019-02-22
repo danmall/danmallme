@@ -12,7 +12,7 @@
     <meta name="twitter:title" property="og:title" content="My Experience with Laser Eye Surgery" />
     <meta name="twitter:description" property="og:description" content="A play-by-play." />
     <meta name="description" content="A play-by-play." />
-    <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/breakEven.png" />
+    <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/thumb.png" />
     
 </head>
 
@@ -47,7 +47,7 @@
                 My Experience with Laser Eye&nbsp;Surgery
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">February 22, 2019 at 9:12 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">February 22, 2019 at 4:12 <abbr title="Post Meridien">PM</abbr></h2>
 
         </header><!-- .page-header -->
 
