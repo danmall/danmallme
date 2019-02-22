@@ -61,7 +61,7 @@
                     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
                 </div><!-- .dm-c-carbonWrap -->
 
-                <p>In my <a href="/articles/2018-year-in-review/">2018 Year in Review</a>, I mentioned wanting to investigate being done with glasses and contacts for good. So a month ago, I quickly Google-search for the closest laser eye surgery place<sup class="dm-c-sidenotes--link"><a href="#note1">1</a></sup> and go in for a consultation. After a brief eye exam, they tell me I&rsquo;m eligible for the procedure.</p>
+                <p>In my <a href="/articles/2018-year-in-review/">2018 Year in Review</a>, I mentioned wanting to investigate being done with glasses and contacts for good. So a month ago, I quickly Google-search for the closest laser eye surgery place<sup class="dm-c-sidenotes--link"><a href="#note1">1</a></sup> and go in for a consultation. After a brief eye exam, they tell me that my -2.5 left eye prescription and -3.25 right eye prescription make me eligible for the procedure.</p>
 
                 <aside id="note1" class="dm-c-sidenotes dm-l-articleGrid--sidenote">
 
@@ -79,7 +79,9 @@
 
                 <h2 id="surgery-time">Surgery time <a class="dm-dp-anchorLink" href="#surgery-time">#</a></h2>
 
-                <p>They call in a few eye drop prescriptions to my pharmacy and tell me not to wear contacts for at least 3 days before the procedure. Eye drops in bag and glasses on my face, Em and the kids ride with me to the LASIK office. I arrive around 1:30<abbr title="Post Meridien">PM</abbr>. I fill out some paperwork, pay, sit for about an hour, then the doctor calls me in. He says, &ldquo;Time to take your glasses off for the last time&rdquo;&mdash;a bit melodramatic but I&rsquo;m lovin&rsquo; it&mdash;and administers a few numbing drops.</p>
+                <p>They call in a few eye drop prescriptions to my pharmacy and tell me not to wear contacts for at least 3 days before the procedure. Eye drops in bag and glasses on my face, Em and the kids ride with me to the LASIK office. I arrive around 1:30<abbr title="Post Meridien">PM</abbr>. I fill out some paperwork, pay, and schedule a follow up appointment for the next day. I ask if I&rsquo;ll be able to drive myself, to which they answer a resounding, &ldquo;Absolutely.&rdquo;</p>
+                
+                <p>I sit for about an hour, then the doctor calls me in. He says, &ldquo;Time to take your glasses off for the last time&rdquo;&mdash;a bit melodramatic but I&rsquo;m lovin&rsquo; it&mdash;and administers a few numbing drops.</p>
 
                 <p>While waiting for the drops to take effect, he asks me about my left eyelid, which droops down a little lower than my right. He asks me if it had always been that way, which I confirm. He mentions it won&rsquo;t be a problem at all, but that if it affects my vision in the future, I might want to get it lifted. I silently acquiesce, as he&rsquo;s not the first doctor to mention that to me.</p>
 
@@ -141,7 +143,41 @@
 
                 <p>I start the recommended eye drop routine: a steroid eyedrop and an antibiotic one every 2 hours. I eventually feel stable enough to throw some sunglasses on and venture out into the kitchen. Em and the kids have kindly turned of most of the lights in the house, and they&rsquo;re hanging out in the basement so I&rsquo;d have a quiet upstairs all to myself. I look slowly toward a light, then stop myself, as my eyes seem too sensitive for that. I warm up a bowl of leftover pasta and eat it in the dark dining room, mostly to get used to being awake. My vision seems clear, but I do see some spots and too much light doesn&rsquo;t feel great. My eyes still sting, especially my left eye, which feels scratched (though I can&rsquo;t tell if that&rsquo;s just the power of suggestion from my worries about the procedure).</p>
 
-                <p>Em and the kids come upstairs to read stories, pray, and get to bed. I say goodnight to the kids, and hang out in bed with Em. We talk for a while, mostly about my surprisingly interesting finance book. An hour or two of engaging conversation later, I realize I haven&rsquo;t thought about my eyes once, and that they don&rsquo;t sting as much.</p>
+                <p>Em and the kids come upstairs to read stories, pray, and get to bed. I say goodnight to the kids, and hang out in bed with Em. We talk for a while, mostly about my surprisingly interesting finance book. An hour or two of engaging conversation later, I realize I haven&rsquo;t thought about my eyes once, and that, now that I am thinking about them, they don&rsquo;t sting as much. One of a many benefits to having a riveting wife.</p>
+
+                <p>Even though the pain is decreasing, I still can&rsquo;t really look at light without wincing. I can&rsquo;t fathom how I&rsquo;m supposed to drive myself to a follow-up appt just 12 hours from now. I do my final round of eye drops for the night, tape my sleep shields on, and get ready for bed. I took a nap just a few hours ago, but I&rsquo;m still tired from the tenseness of it all, so I&rsquo;m looking forward to sleep.</p>
+
+                
+                
+                
+                <h2 id="the-next-morning">The next morning <a class="dm-dp-anchorLink" href="#the-next-morning">#</a></h2>
+
+                <p>I intentionally wake up at 5:30<abbr title="Ante Meridien">AM</abbr> (just about my usual waketime) because I want a few hours to get acclimated before having to drive to a 9<abbr>AM</abbr> follow-up appointment. My vision is blurry, but largely because I still have the sleep shields on. I walk to the bathroom, take off the sleep shields, and look around. <strong>Things are pretty clear.</strong> Also, almost no pain at all. Wow.</p>
+
+                <p>I turn the light on but brace myself. No light sensitivity.</p>
+
+                <p>I walk around the house. Life looks pretty good.</p>
+
+                <p>My care instructions say I should wear sunglasses indoors for a week, not because of light sensitivity, but as protection for my eyes so they don&rsquo;t accidentally get bummed or so I don&rsquo;t unintentionally rub them. I pop on sunglasses, marveling at the obvious difference from feeling so rough the night before and so good now.</p>
+
+                <p>I drive myself to my follow-up appointment with no issues. They test my eyesight: <strong>20/15 in each eye, 20/20 together,</strong> just 18 hours after the procedure.</p>
+
+                <p>We&rsquo;re seriously living in the future.</p>
+
+
+
+                <h2 id="two-days-in">Two days in <a class="dm-dp-anchorLink" href="#two-days-in">#</a></h2>
+
+                <p>I&rsquo;m writing this post on two day after the procedure. I&rsquo;m following the eye drops routine pretty religiously, as I&rsquo;ve read that sticking to that increases the speed of recovery significantly. If my eyes itch, I&rsquo;m supposed to use artificial tears, as itchiness is a symptom of dryness. The LASIK office suggested that I use artifical tears as often as I want, so I&rsquo;m making liberal use of that. The worst of it is that my left eye still feels <em>slightly</em> sandy every few hours, kinda like I have a dirty contact lens in. But, it goes away immediately when I use the eyedrops.</p>
+
+                <p>I switched to sleeping in ski goggles last night instead of sleep shields, as it&rsquo;s a little more comfortable and still keeps me from accidentally rubbing my eyes. And my co-workers seem to be fine with me joining calls with video either turned off or turn on while I&rsquo;m wearing sunglasses.</p>
+
+
+                <h2 id="life-changing">Life changing <a class="dm-dp-anchorLink" href="#life-changing">#</a></h2>
+
+                <p>The biggest thing I heard from people who&rsquo;ve had this done previously is that it was life-changing to be able to wake up and immediately see clearly. I didn&rsquo;t really experience that this morning, partly because I&rsquo;ve heard it so much that I think it got overhyped and partly because I&rsquo;ve fallen asleep with contacts enough times to have experienced and remembered waking up with perfect vision.</p>
+
+                <p>What&rsquo;s been more impactful for me so far is where I realize my previous habits and aren&rsquo;t necessary anymore. I don&rsquo;t have to take my contacts out before bed. I don&rsquo;t have to pack 2 weeks&rsquo; worth of extra contacts in a suitcase when I travel just in case I get stuck somewhere. I don&rsquo;t have to constantly carry around microfiber cloths to wipe dirty glasses. I don&rsquo;t have to worry about getting a contact knocked in my weekly basketball game. These are tiny things, but I think they&rsquo;re what I&rsquo;ll enjoy most.</p>
 
                 
 
