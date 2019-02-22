@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>&ldquo;Break-Even Points for Value Pricing,&rdquo; an article by Dan Mall</title>
+    <title>&ldquo;My Experience with Laser Eye Surgery,&rdquo; an article by Dan Mall</title>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?> 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
 
@@ -9,9 +9,9 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@danmall" />
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
-    <meta name="twitter:title" property="og:title" content="Break-Even Points for Value Pricing" />
-    <meta name="twitter:description" property="og:description" content="Understanding client expectations for results will help you create great pricing options." />
-    <meta name="description" content="Understanding client expectations for results will help you create great pricing options." />
+    <meta name="twitter:title" property="og:title" content="My Experience with Laser Eye Surgery" />
+    <meta name="twitter:description" property="og:description" content="A play-by-play." />
+    <meta name="description" content="A play-by-play." />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/breakEven.png" />
     
 </head>
@@ -44,10 +44,10 @@
         <header class="dm-c-pageHeader dm-l-articleGrid--main" role="banner">
 
             <h1 class="dm-c-pageHeader_title">
-                Break-Even Points for Value Pricing
+                Day 0 and Day 1 of Laser Eye Surgery
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">February 19, 2018 at 9:12 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">February 22, 2019 at 9:12 <abbr title="Ante Meridien">AM</abbr></h2>
 
         </header><!-- .page-header -->
 
@@ -55,44 +55,25 @@
 
             <div class="dm-dp-textPassage dm-l-articleGrid--main">
 
-                <p><span class="dm-dp-openingLines">When <a href="https://abookapart.com/products/pricing-design">value pricing</a></span>&mdash;pricing work based on the value it brings your customer&mdash;here&rsquo;s a question I typically ask:</p>
+                <p><span class="dm-dp-openingLines">I started wearing glasses</span> in 1995, and I switched to contacts in 1999. Two days ago&mdash;twenty years later&mdash;I got laser eye surgery. Here&rsquo;s the play-by-play.</p>
 
                 <div class="dm-c-carbonWrap">
                     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
                 </div><!-- .dm-c-carbonWrap -->
 
-                <p><strong>&ldquo;At what point does this project pay for itself?&rdquo;</strong></p>
+                <p>In my <a href="/articles/2018-year-in-review/">2018 Year in Review</a>, I mentioned wanting to investigate being done with glasses and contacts for good. So a month ago, I quickly Google-searched for the closest laser eye surgery place<sup class="dm-c-sidenotes--link"><a href="#note1">1</a></sup> and went in for a consultation. After a brief eye exam, they told me I was eligible for the procedure.</p>
 
-                <p>Great answers I&rsquo;ve heard:</p>
+                <aside id="note1" class="dm-c-sidenotes dm-l-articleGrid--sidenote">
 
-                <ul>
-                    <li>When 100 more students enroll.</li>
-                    <li>When we get an average of 5 more leads a month.</li>
-                    <li>When we add 1,000 more people to or mailing list.</li>
-                    <li>When people prefer us over our top competitor.</li>
-                </ul>
+                    <p>This article is more about my experience than it is a review of the place I got the surgery done. If you&rsquo;re curious about how I picked, it was mostly based on a combination what was close by and reading great reviews on Google and Facebook.</p>
 
-                <p>Answers I&rsquo;ve heard that make me think they&rsquo;re not ready for a project (at least not with <a href="http://superfriend.ly/">SuperFriendly</a>):</p>
+                </aside>
 
-                <ul>
-                    <li>I don&rsquo;t know.</li>
-                    <li>Why is that any of your business?</li>
-                    <li>There&rsquo;s no way we can quantify that.</li>
-                </ul>
+                <p>Eyes naturally change over time, so apparently about 5% of patients need an enhancement after a few years. They gave me two different prices: $3,902 for the surgery with a lifetime plan that covers enhancements for life and $2,611 that only covers enhancements for 2 years after the initial surgery. They also offered a $200 incentive on each plan if I did the procedure before the end of the month.</p>
 
-                <p>Smart clients know what change they&rsquo;re looking for, even if they don&rsquo;t know how to achieve it. (That&rsquo;s why they&rsquo;re hiring help.) Sometimes I&rsquo;ll try to help them <em>articulate</em> the value, but I don&rsquo;t try to <em>define</em> it for them. That&rsquo;s like going to a mechanic without a specific repair in mind and asking them to find a part of your car to fix.</p> 
+                <p>I didn&rsquo;t have enough time to do the procedure and recover for some upcoming travel, so I put it off a few weeks, which gave me some additional time to think about it. <a href="https://abookapart.com/products/pricing-design">Knowing a little bit about how people set prices</a>, the $200 incentive clued me in to the possibility that they might need the business more than I wanted to have unassisted perfect vision. A week ago, I called back to schedule the procedure, and I told them that I&rsquo;d love to do the lifetime plan but that I didn&rsquo;t really want to spend more than $3,000 on this. After a brief hold, they said that, in addition to the original $200 discount they offered, they could do an additional $500 off for local customers, bringing the total to $3,202. I accepted their clearly-fabricated but still-gracious additional discount and picked a date.</p>
 
-                <p>In my experience, clients that don&rsquo;t initially know what they want turn into clients that stretch out rounds of review and aren&rsquo;t happy with the final result. Even when we&rsquo;ve delivered something that might work for them, they can&rsquo;t tell, because they don&rsquo;t know what the right thing is.</p>
-
-                <p>But clients that know what they want from the start? They know <em>way</em> early on if we&rsquo;re on track or off course, because they know the destination.</p> 
-
-                <p>A client that knows what they want knows where the project pays for itself, where it breaks even. And that&rsquo;s the first price ceiling. If they have a $5,000 budget and expect 1000 more signups, they&rsquo;ll think they overpaid if you try to charge them $10,000 and they get 1,000 more signups (whether or not that&rsquo;s accurate).</p>
-
-                <p>But what if you&rsquo;re confident than you could get them 2,000 signups? Then they may accept a $10,000 price because you&rsquo;re delivering twice the results they&rsquo;re expecting. Here&rsquo;s the kicker: that&rsquo;s still a break-even price, even though it&rsquo;s double their stated budget.</p>
-
-                <p><strong>You can confidently price over any stated budget if you can demonstrate that you will deliver more value than their break-even metric.</strong> The more you understand the break-even point, the more liberty you have to assess and communicate the multiples of value you can deliver.</p>
-
-                <p>When you value price, every price you give a client should be at least a break-even price. Better yet, every price you give a client should be a &ldquo;they got a deal&rdquo; price.</p>
+                <p>They called in a few eye drop prescriptions to my pharmacy and told me to not wear contacts</p>
 
             </div>
 
@@ -101,8 +82,8 @@
                 <h1 class="dm-c-upNext_kicker">Up Next</h1>
 
                 <h2 class="dm-c-upNext_title">
-                    <a href="/articles/designer-developer-collaboration-workshop/">
-                        Designer + Developer Collaboration <span class="dm-c-upNext_title_lastWord">Workshop</span>
+                    <a href="/articles/break-even-points-value-pricing/">
+                     Break-Even Points for Value <span class="dm-c-upNext_title_lastWord">Pricing</span>
                     </a>
                 </h2>
 

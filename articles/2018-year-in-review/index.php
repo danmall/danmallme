@@ -82,9 +82,9 @@
 
                 <p>I played basketball just about every Monday night. It&rsquo;s a competitively friendly full court run for 2 hours. Looking forward to continuing that again in 2019.</p>
 
-                <p>I also made more of a concerted effort to lift or do some form of calisthenics a few times a week. I'm less regular during busy work weeks, but I was going at least once or twice a week for a good stretch. Rather than do an intense program, <a href="https://twitter.com/octaviusanewman">Octavius Newman</a> turned me on to Jim Wendler&rsquo;s <a href="https://www.lift.net/workout-routines/wendler-5-3-1/">5/3/1 workout</a>, which is more about a slow and methodical way to build strength over a long term. This is much more my speed and pace, as I tend to get discouraged over workout programs if I lose my regularity about them.</p>
+                <p>I also made more of a concerted effort to lift or do some form of calisthenics a few times a week. I&rsquo;m less regular during busy work weeks, but I was going at least once or twice a week for a good stretch. Rather than do an intense program, <a href="https://twitter.com/octaviusanewman">Octavius Newman</a> turned me on to Jim Wendler&rsquo;s <a href="https://www.lift.net/workout-routines/wendler-5-3-1/">5/3/1 workout</a>, which is more about a slow and methodical way to build strength over a long term. This is much more my speed and pace, as I tend to get discouraged over workout programs if I lose my regularity about them.</p>
 
-                <p>I&rsquo;m getting tired of contacts every day like I&rsquo;ve had for the last 24 years, so I&rsquo;d like to investigate laser eye surgery for 2019.</p>
+                <p>I&rsquo;m getting tired of contacts every day like I&rsquo;ve had for the last 20 years, so I&rsquo;d like to investigate laser eye surgery for 2019.</p>
 
                 <p>I&rsquo;ve also had the idea for a few years to get the same or similar tattoo as my <a href="http://v2.danielmall.com/archives/2006/06/26/grandpa.php">grandfather</a> had from his time in the Filipino navy. After a conversation about tattoos with <a href="https://trentwalton.com/">Trent Walton</a> earlier this year, I think 2019 is the year that I make this happen.</p>
 
