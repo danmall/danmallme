@@ -42,7 +42,7 @@
                 Typography in Design Systems 
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">March 17, 2018 at 5:17 <abbr title="Post Meridien">PM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">March 17, 2019 at 5:17 <abbr title="Post Meridien">PM</abbr></h2>
 
         </header><!-- .page-header -->
 
