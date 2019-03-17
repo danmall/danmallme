@@ -1,5 +1,17 @@
 [
 	{
+		"title"	: 	"Typography in Design Systems",
+		"slug"	:	"typography-in-design-systems",
+		"dek"	:	"A typographic system that optimizes for guessability.",
+		"date"	:	"2019-03-17T17:17:00Z",
+		"tags"	:	[
+			"typography",
+			"design systems",
+			"css",
+			"design"
+		]
+	},
+	{
 		"title"	: 	"My Experience with Laser Eye Surgery",
 		"slug"	:	"my-experience-with-laser-eye-surgery",
 		"dek"	:	"A play-by-play.",
