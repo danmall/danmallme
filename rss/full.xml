@@ -122,17 +122,17 @@
 
 <pre><code class="language-scss">
 @mixin text-preset-1 {
-font-size: 40px;
-font-weight: 300;    
-line-height: 56px;
+    font-size: 40px;
+    font-weight: 300;    
+    line-height: 56px;
 }
 
 @mixin text-preset-7 {
-font-size: 12px;
-font-weight: 300;    
-letter-spacing: 1px;
-line-height: 20px;
-text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 300;    
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-transform: uppercase;
 }
 </code></pre>
 
@@ -140,20 +140,20 @@ text-transform: uppercase;
 
 <pre><code class="language-scss">
 .caption {
-@include text-preset-7;
+    @include text-preset-7;
 }
 
 .tabs_title {
-@include text-preset-7;
+    @include text-preset-7;
 }
 
 .kicker {
-@include text-preset-7;
+    @include text-preset-7;
 }
 
 @mixin text-preset-7--bold {
-@include text-preset-7;
-font-weight: 700;
+    @include text-preset-7;
+    font-weight: 700;
 }
 </code></pre>
 
@@ -165,9 +165,9 @@ font-weight: 700;
 
 <h2 id="so-far-so-good">So far, so good <a href="#so-far-so-good">#</a></h2>
 
-	<p>To date, we&rsquo;ve built about 45 <a href="http://danmall.me/articles/design-systems-pilots-scorecards/">pilots</a> utilizing over 80 <a href="http://atomicdesign.bradfrost.com/">atoms, molecules, and organisms</a>, and the typographic system of 7 presets has held up without having to have added to it. That&rsquo;s not to say we don&rsquo;t have outliers, but so far, I only count twice that we&rsquo;ve had to make something custom.</p>
+<p>To date, we&rsquo;ve built about 45 <a href="http://danmall.me/articles/design-systems-pilots-scorecards/">pilots</a> utilizing over 80 <a href="http://atomicdesign.bradfrost.com/">atoms, molecules, and organisms</a>, and the typographic system of 7 presets has held up without having to have added to it. That&rsquo;s not to say we don&rsquo;t have outliers, but so far, I only count twice that we&rsquo;ve had to make something custom.</p>
 
-	<p>What kinds of typographic systems have you found useful?</p>
+<p>What kinds of typographic systems have you found useful?</p>
 		]]></content>
 	</entry>
 
