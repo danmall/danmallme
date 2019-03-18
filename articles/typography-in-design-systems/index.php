@@ -98,7 +98,7 @@
 
                 <h3 id="institutional-knowledge">Institutional knowledge <a class="dm-dp-anchorLink" href="#institutional-knowledge">#</a></h3>
 
-                <p>Ever since I stumbled across Andy Clarke&rsquo;s <a href="https://stuffandnonsense.co.uk/blog/star-wars-styling">Star Wars styling</a>, I&rsquo;ve wanted to try something similar. One of the design systems we&rsquo;re building right now is for a major airline, so my first thought was to tie the typographic system back to a piece of institutional knowledge: in this case, the fleet. Even if designers and developers aren&rsquo;t already familiar, this could be a nice way to get some engrained knowledge about the compan&rsquo;s main offerings. Here&rsquo;s the first pass at that.</p>
+                <p>Ever since I stumbled across Andy Clarke&rsquo;s <a href="https://stuffandnonsense.co.uk/blog/star-wars-styling">Star Wars styling</a>, I&rsquo;ve wanted to try something similar. One of the design systems we&rsquo;re building right now is for a major airline, so my first thought was to tie the typographic system back to a piece of institutional knowledge: in this case, the fleet. Even if designers and developers aren&rsquo;t already familiar, this could be a nice way to get some engrained knowledge about the company&rsquo;s main offerings. Here&rsquo;s the first pass at that.</p>
 
                 <div class="dm-c-articleImage">
 
