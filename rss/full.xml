@@ -57,7 +57,7 @@
 
 <p>The <a href="https://www.amazon.com/gp/browse.html/ref=s9_acss_bw_cg_JanSH_1a1_w?node=18379216011&amp;pf_rd_m=ATVPDKIKX0DER&amp;pf_rd_s=merchandised-search-top-1&amp;pf_rd_r=KXMR7XYNJE17P9D30QDN&amp;pf_rd_t=101&pf_rd_p=f674e2d6-ee8c-4e74-b263-44e37c320640&amp;pf_rd_i=6563140011">Amazon Echo</a> was the first voice-controlled personal assistant I purchased. The thing that most impressed me was how well it catered to things I <em>guessed</em> I could do with it, even if I didn&rsquo;t <em>know</em> I could.</p>
 
-<p>Coming to terms with the fact that there likely isn&rsquo;t a wholly intuitive typographic system I could employe and that there likely will be <em>some</em> sort of learning curve actually gives me a bit of leeway. I started to think about systems that could have high guessability.</p>
+<p>Coming to terms with the fact that there likely isn&rsquo;t a wholly intuitive typographic system I could employ and that there likely will be <em>some</em> sort of learning curve actually gives me a bit of leeway. I started to think about systems that could have high guessability.</p>
 
 <p>I explored what kind of guessability I could achieve when drawing upon institutional knowledge, popular knowledge, and common knowledge.</p>
 
@@ -98,7 +98,7 @@
 
 <h3 id="common-knowledge">Common knowledge <a href="#common-knowledge">#</a></h3>
 
-<p>I&rsquo;ve long been a believer that <a href="http://danmall.me/articles/cooking-with-design-systems/">design systems should contain the smallest number of elements that help you design the greatest variety of interfaces</a>. So, I set out to create the smallest number of unique typographic styles that any interface in this system might need. Staring with the <a href="https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two">magical number seven, plus or minus two</a>, I challenged myself to create 7 and only 7 typographic styles. I think of them as &ldquo;presets,&rdquo; a default combination that acts as a starter to be modified.</p>
+<p>I&rsquo;ve long been a believer that <a href="http://danmall.me/articles/cooking-with-design-systems/">design systems should contain the smallest number of elements that help you design the greatest variety of interfaces</a>. So, I set out to create the smallest number of unique typographic styles that any interface in this system might need. Starting with the <a href="https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two">magical number seven, plus or minus two</a>, I challenged myself to create 7 and only 7 typographic styles. I think of them as &ldquo;presets,&rdquo; a default combination that acts as a starter to be modified.</p>
 
 <p>I also tried not to be too clever about the names. There are 7 presets, named 1 through 7. The common knowledge here is that anyone that knows how to count gets this system. These are the atomic typographic units from which all the system&rsquo;s typography stems.</p>
 
