@@ -29,7 +29,7 @@
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/header.php"); echo "\n"; ?>
 
     <figure class="dm-c-imageObject" style="max-width: 1230px; overflow: hidden; display: block; margin: 0 auto;">
-        <video width="1230" height="375" autoplay loop="true" muted>
+        <video width="1230" height="375" autoplay loop muted playsinline>
             <source src="typography-title.mp4" type="video/mp4" />
         </video>
     </figure><!-- .dm-c-imageObject -->
