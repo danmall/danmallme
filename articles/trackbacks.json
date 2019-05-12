@@ -1,6 +1,54 @@
 [
 	{
-		"title"		: 	"Come to An Event Apart in 2019 ",
+		"title"		: 	"Design Systems — Chapter 4, Perceptual Patterns Summary by Alla Kholmatova",
+		"slug"		:	"https://uxplanet.org/design-systems-chapter-4-perceptual-patterns-summary-by-alla-kholmatova-80a52cb06d46",
+		"date"		:	"2019-05-05",
+		"source"	:	"UX Planet"
+	},
+	{
+		"title"		: 	"Design Systems - The State of the Web",
+		"slug"		:	"https://www.youtube.com/watch?time_continue=2&v=jpmeWXISU5E",
+		"date"		:	"2019-05-01",
+		"source"	:	"Google Chrome Developers"
+	},
+	{
+		"title"		: 	"Managing an Agency/Team",
+		"slug"		:	"https://anchor.fm/creativeamchats/episodes/03-Managing-an-AgencyTeam-e3j2fc",
+		"date"		:	"2019-03-28",
+		"source"	:	"Creative AM Chats"
+	},
+	{
+		"title"		: 	"5 mental strategies for reaching your long term goals",
+		"slug"		:	"https://blog.rescuetime.com/mental-strategies-long-term-goals/",
+		"date"		:	"2019-03-28",
+		"source"	:	"RescueTime"
+	},
+	{
+		"title"		: 	"Everything I know about freelancing",
+		"slug"		:	"https://andyadams.org/everything-i-know-about-freelancing/",
+		"date"		:	"2019-03-28",
+		"source"	:	"Andy Adams"
+	},
+	{
+		"title"		: 	"Naming Font Sizes in Design Systems",
+		"slug"		:	"https://davidyeiser.com/post/rec89ePYNHVSbJAI2/naming-font-sizes-in-design-systems",
+		"date"		:	"2019-03-26",
+		"source"	:	"David Yeiser"
+	},
+	{
+		"title"		: 	"Week notes #2",
+		"slug"		:	"https://blog.nocturnalmonkey.com/week-notes-2/",
+		"date"		:	"2019-03-24",
+		"source"	:	"Nocturnal Monkey"
+	},
+	{
+		"title"		: 	"How to Become a More Productive Software Engineer (Productivity Tips &amp; Workflows)",
+		"slug"		:	"https://plan.io/blog/become-a-productive-software-engineer/",
+		"date"		:	"2019-03-12",
+		"source"	:	"Planio"
+	},
+	{
+		"title"		: 	"Come to An Event Apart in 2019",
 		"slug"		:	"https://css-tricks.com/come-to-an-event-apart-in-2019/",
 		"date"		:	"2019-02-07",
 		"source"	:	"CSS Tricks"
@@ -1301,12 +1349,18 @@
 		"slug"		:	"http://brettharned.com/2013/05/19/no-project-managers-a-qa-with-jay-fanelli-of-full-stop-and-united-pixelworkers/",
 		"date"		:	"2013-05-19",
 		"source"	:	"Brett Harned"
-	},
+	},	
 	{
 		"title"		: 	"Visual design explorations",
 		"slug"		:	"https://clearleft.com/posts/110",
 		"date"		:	"2013-03-08",
 		"source"	:	"Clearleft"
+	},
+	{
+		"title"		: 	"The One Person You Can Convince to Be a Public Speaker",
+		"slug"		:	"http://ladiesintech.com/the-one-person-you-can-convince-to-be-a-public-speaker/",
+		"date"		:	"2013-02-05",
+		"source"	:	"Ladies In Tech"
 	},
 	{
 		"title"		: 	"Web Design and Mobile Trends for 2013 eBook: download it for free!",
