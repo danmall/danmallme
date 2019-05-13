@@ -1,5 +1,18 @@
 [
 	{
+		"title"	: 	"Avengers: Endgame",
+		"slug"	:	"avengers-endgame",
+		"dek"	:	"My review. Major spoilers included.",
+		"date"	:	"2019-05-13T02:04:00Z",
+		"tags"	:	[
+			"movies",
+			"comics",
+			"culture",
+			"marvel",
+			"avengers"
+		]
+	},
+	{
 		"title"	: 	"Typography in Design Systems",
 		"slug"	:	"typography-in-design-systems",
 		"dek"	:	"A typographic system that optimizes for guessability.",
