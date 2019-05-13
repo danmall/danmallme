@@ -80,10 +80,10 @@
     <figure class="dm-c-imageObject dm-c-laserEyeHero">
         <div class="dm-c-imageObject_imageWrap" style="background: #1e1e20;">
             <script>
-            document.write('<img class="dm-c-imageObject_image dm-js-lazy" width="380" height="571" data-src="infinity-gauntlet-vertical.jpg" alt="" />');
+            document.write('<img class="dm-c-imageObject_image dm-js-lazy" width="380" height="571" data-src="infinity-gauntlet-vertical.jpg" alt="Avengers: Endgame" />');
             </script>
             <noscript>
-                <img class="dm-c-imageObject_image" width="678" height="488" src="eye.png" alt="Lasers and eyes" />
+                <img class="dm-c-imageObject_image" width="380" height="571" src="infinity-gauntlet-vertical.jpg" alt="Avengers: Endgame" />
             </noscript>
         </div><!-- .dm-c-imageObject_imageWrap -->            
     </figure><!-- .dm-c-imageObject -->
@@ -96,7 +96,7 @@
                 Avengers: Endgame
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">May 13, 2019 at 9:12 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">May 13, 2019 at 2:04 <abbr title="Ante Meridien">AM</abbr></h2>
 
         </header><!-- .page-header -->
 
