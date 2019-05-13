@@ -190,15 +190,19 @@
 
                 <p>While these are exciting movies with some new characters, there are also some old ones too. The conceivable return of Black Widow, Thor, Black Panther, Guardians, Ant-Man, the Wasp, Captain Marvel, Doctor Strange, and Spider-Man doesn&rsquo;t exactly feel new; it still seems like a continuation.</p>
 
-                <p>I like when things end on a high note. Despite my nitpicky time travel quibbble, <cite>Endgame</cite> was a high note. We saw characters like Iron Man way more than characters like Ant-Man, and that&rsquo;s ok; we can still end it there. I think that&rsquo;d be a lot more fitting than getting sick of Scott Lang because there&rsquo;s two more with of him. I&rsquo;d rather leave wanting more of these stories than feeling like it was too much. Let&rsquo;s close this book and move on to a new one. The idea of a multiverse could give us that.</p>
+                <p>I like when things end on a high note. Despite my nitpicky time travel quibbble, <cite>Endgame</cite> was a high note. We saw characters like Iron Man way more than characters like Vision, and that&rsquo;s ok; we can still end it there. I think that&rsquo;d be a lot more fitting than getting sick of Scott Lang because there&rsquo;s two more movies with him in it. I&rsquo;d rather leave wanting more of these stories than feeling like it was too much. Let&rsquo;s close this book and move on to a new one. The idea of a multiverse could give us that.</p>
 
                 <p>Let&rsquo;s leave these characters in this universe. They beat Thanos. All the snapped are (regrettably) unsnapped and back. Good on them. The end.</p>
 
-                <p>And let&rsquo;s turn our attention to a different universe. One where Kamala Khan is Ms. Marvel instead of Carol Danvers as Captain Marvel. One where Miles Morales is Spider-Man instead of Peter Parker. Even though we saw a graceful transition from a Steve Rogers Captain America to a Sam Wilson Captain America, the multiverse gives us a pass to not need a graceful transition. New place, new stories. &rsquo;Nuff said. </p>
+                <p>And let&rsquo;s turn our attention to a different universe for the next decade. One where Kamala Khan is Ms. Marvel instead of Carol Danvers as Captain Marvel. One where Miles Morales is Spider-Man instead of Peter Parker. Even though we saw a graceful transition from a Steve Rogers Captain America to a Sam Wilson Captain America, the multiverse gives us a pass to not need a graceful transition. New place, new stories. &rsquo;Nuff said. </p>
 
                 <h2 id="wrapping-up">Wrapping up <a class="dm-dp-anchorLink" href="#wrapping-up">#</a></h2>
 
                 <p>I hope you enjoyed my little &ldquo;what if?&rdquo; exercise into what <cite>Endgame</cite> could have been. Over a decade with these characters has been more than enjoyable. It&rsquo;s allowed and inspired us to dream up even more new stories, and that&rsquo;s the real success of the <abbr>MCU</abbr>.</p>
+
+                <footer class="dm-c-articleWell_footer dm-dp-sepChunk">
+                    <p class="dm-c-footnotes">Thanks to <a href="https://twitter.com/octaviusanewman">Octavius A. Newman</a> and <a href="https://twitter.com/joerinaldi">Joe Rinaldi</a> for always nerding out about this stuff. I&rsquo;m sure a lot these ideas were shaped by them, even if I don&rsquo;t realize it.</p>
+                </footer>
                 
 
                 <script>
@@ -225,8 +229,8 @@
                 <h1 class="dm-c-upNext_kicker">Up Next</h1>
 
                 <h2 class="dm-c-upNext_title">
-                    <a href="/articles/break-even-points-value-pricing/">
-                     Break-Even Points for Value <span class="dm-c-upNext_title_lastWord">Pricing</span>
+                    <a href="/articles/typography-in-design-systems/">
+                     Typography in Design <span class="dm-c-upNext_title_lastWord">Systems</span>
                     </a>
                 </h2>
 
