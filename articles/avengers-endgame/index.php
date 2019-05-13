@@ -200,6 +200,14 @@
 
                 <p>I hope you enjoyed my little &ldquo;what if?&rdquo; exercise into what <cite>Endgame</cite> could have been. Over a decade with these characters has been more than enjoyable. It&rsquo;s allowed and inspired us to dream up even more new stories, and that&rsquo;s the real success of the <abbr>MCU</abbr>.</p>
 
+                <h2 id="enjoy">You might also enjoy: <a class="dm-dp-anchorLink" href="#enjoy">#</a></h2>
+
+                <ul>
+                    <li><a href="https://podcasts.apple.com/us/podcast/one-shot-avengers-endgame-spoiler-movie-review/id1086523223?i=1000436474999">One Shot | Avengers: Endgame - (Spoiler) Movie Review</a>, from Comic Book Junto</li>
+                    <li><a href="https://podcasts.apple.com/us/podcast/episode-184-avengers-endgame-review/id982406413?i=1000436730615">Episode 184: Avengers Endgame Review</a>, from A.C.M.G. presents Talk Time Live</li>
+                    <li><a href="https://podcasts.apple.com/us/podcast/smodcast/id215010467?i=1000437431295">414: Markus and McFeely Make Mine Marvel!</a>, from SModcast</li>
+                </ul>
+
                 <footer class="dm-c-articleWell_footer dm-dp-sepChunk">
                     <p class="dm-c-footnotes">Thanks to <a href="https://twitter.com/octaviusanewman">Octavius A. Newman</a> and <a href="https://twitter.com/joerinaldi">Joe Rinaldi</a> for always nerding out about this stuff. I&rsquo;m sure a lot these ideas were shaped by them, even if I don&rsquo;t realize it.</p>
                 </footer>
