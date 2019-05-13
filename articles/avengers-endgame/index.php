@@ -167,9 +167,9 @@
 
                 <h2 id="time-travel-is-disrespectful">Time travel is disrespectful <a class="dm-dp-anchorLink" href="#time-travel-is-disrespectful">#</a></h2>
 
-                <p>Few things make comic book fans groan as much as <a href="https://en.wikipedia.org/wiki/Retroactive_continuity">retcons</a>. The late 90s and early aughts were where many of us stopped reading comics, and I think it&rsquo;s no coincidence that that time was also rampant with retcons&mdash;from Spider-Man clones to the real story of Wolverine claws to teenage Iron Man and much more.</p>
+                <p>Few things make comic book fans groan as much as <a href="https://en.wikipedia.org/wiki/Retroactive_continuity">retcons</a>. It&rsquo;s the ultimate case of &ldquo;that thing you thought happened didn&rsquo;t actually happen.&rdquo; The late 90s and early aughts were where many of us stopped reading comics, and I think it&rsquo;s no coincidence that that time was also rampant with retcons&mdash;from Spider-Man clones to the real story of Wolverine claws to teenage Iron Man and much more.</p>
 
-                <p>Time travel is a close second to retcons.</p>
+                <p>Time travel is a close second to retcons. While it&rsquo;s not exactly &ldquo;that thing you thought happened didn&rsquo;t actually happen,&rdquo; it&rsquo;s a close &ldquo;that thing happened but we&rsquo;re gonna make it so it didn&rsquo;t.&ldquo;</p>
 
                 <p>One of the reasons <cite>Infinity War</cite> was so great was because of the the impact of The Decimation, more commonly known as &ldquo;the snap.&rdquo; Thanos erases half the population of the entire universe, and that&rsquo;s how the movie ends?! What drama! It left viewers reeling, myself included, just plain shocked and in disbelief that any movie&mdash;much less part 1 of the end of this phase of the <abbr>MCU</abbr>&mdash;could end like that.</p>
 
