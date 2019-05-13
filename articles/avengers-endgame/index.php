@@ -184,11 +184,13 @@
 
                 <h2 id="if-not-time-travel-then-what-else">If not time travel, then what else? <a class="dm-dp-anchorLink" href="#if-not-time-travel-then-what-else">#</a></h2>
 
-                <p>When I heard this was the last chapter in this phase of the <abbr>MCU</abbr>, I was hoping that meant everything new. New characters, new storylines, new everything. Then I saw the <a href="https://comicbook.com/marvel/2018/04/13/marvel-cinematic-universe-phase-4-movies-list/">phase 4 movie list</a>:</p>
+                <p><del>When I heard this was the last chapter in this phase of the <abbr>MCU</abbr>, I was hoping that meant everything new. New characters, new storylines, new everything. Then I saw the <a href="https://comicbook.com/marvel/2018/04/13/marvel-cinematic-universe-phase-4-movies-list/">phase 4 movie list</a>:</del></p>
 
                 <img src="phase4.png" alt="The MCU Phase 4 movie list" />
 
-                <p>While these are exciting movies with some new characters, there are also some old ones too. The conceivable return of Black Widow, Thor, Black Panther, Guardians, Ant-Man, the Wasp, Captain Marvel, Doctor Strange, and Spider-Man doesn&rsquo;t exactly feel new; it still seems like a continuation.</p>
+                <p><del>While these are exciting movies with some new characters, there are also some old ones too. The conceivable return of Black Widow, Thor, Black Panther, Guardians, Ant-Man, the Wasp, Captain Marvel, Doctor Strange, and Spider-Man doesn&rsquo;t exactly feel new; it still seems like a continuation.</del></p>
+
+                <p class="dm-dp-articleUpdate"><ins><strong>Updated at May 13, 2019 at 10:08am (8 hours after initially publishing):</strong> <a href="https://twitter.com/ddemaree/status/1127924088155062275">David Demaree points out</a></ins> that this is a fan-generated list, not an official <abbr>MCU</abbr> release schedule, which I didn&rsquo;t realize. That changes things! It means that a continuation isn&rsquo;t as guaranteed as I thought. Here&rsquo;s hoping Marvel actually does pursue a new chapter.</p>
 
                 <p>I like when things end on a high note. Despite my nitpicky time travel quibble, <cite>Endgame</cite> was a high note. We saw characters like Iron Man way more than characters like Vision, and that&rsquo;s ok; we can still end it there. I think that&rsquo;d be a lot more fitting than getting sick of Scott Lang because there&rsquo;s two more movies with him in it. I&rsquo;d rather leave wanting more of these stories than feeling like it was too much. Let&rsquo;s close this book and move on to a new one. The idea of a multiverse could give us that.</p>
 

@@ -376,6 +376,17 @@ http://superfriend.ly/
 			}
 		}
 
+		&-articleUpdate {
+			@include dm-u-padding--m;
+			@include dm-u-marginTop--m;
+			margin-bottom: 24px !important;
+			border: 1px dotted rgba(0, 0, 0, 0.2);
+
+			.dm-page--articleDetail--dark & {
+				border-color: rgba(255, 255, 255, 0.5);
+			}
+		}
+
 
 		// text passage
 
@@ -618,6 +629,8 @@ http://superfriend.ly/
 			}
 
 		}
+
+		
 
 
 
