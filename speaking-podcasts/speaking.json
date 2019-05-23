@@ -6,6 +6,12 @@
 		"location"	:	"Denver"
 	},
 	{
+		"title"		: 	"Smashing Conference",
+		"slug"		:	"https://smashingconf.com/ny-2019/",
+		"date"		:	"2019-10-15",
+		"location"	:	"New York City"
+	},
+	{
 		"title"		: 	"Artifact Conference",
 		"slug"		:	"https://artifactconf.com/",
 		"date"		:	"2019-09-30",
@@ -22,6 +28,19 @@
 		"slug"		:	"https://dribbble.com/hangtimes/2019",
 		"date"		:	"2019-06-06",
 		"location"	:	"New York City"
+	},
+	{
+		"title"		: 	"Bluecadet Talks",
+		"slug"		:	"https://www.eventbrite.com/e/putting-the-design-in-design-systems-tickets-62270783590",
+		"date"		:	"2019-05-30",
+		"location"	:	"Philadelphia, <abbr title=\"Pennsylvania\">PA</abbr>"
+	},
+	{
+		"title"		: 	"Pricing Design with guest Dan Mall",
+		"slug"		:	"https://www.ditchinghourly.com/episodes/pricing-design-with-guest-dan-mall",
+		"date"		:	"2019-05-10",
+		"type"		:	"podcast",
+		"audio"		:	true
 	},
 	{
 		"title"		: 	"An Event Apart",
