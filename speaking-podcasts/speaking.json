@@ -12,6 +12,12 @@
 		"location"	:	"New York City"
 	},
 	{
+		"title"		: 	"Asbury Agile",
+		"slug"		:	"http://www.asburyagile.com/",
+		"date"		:	"2019-10-04",
+		"location"	:	"Asbury Park, <abbr title=\"New Jersey\">NJ</abbr>"
+	},
+	{
 		"title"		: 	"Artifact Conference",
 		"slug"		:	"https://artifactconf.com/",
 		"date"		:	"2019-09-30",
