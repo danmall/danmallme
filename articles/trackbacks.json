@@ -1,5 +1,41 @@
 [
 	{
+		"title"		: 	"How to Fix Your Tech Interview to Increase Diversity",
+		"slug"		:	"https://www.diversifytech.co/blog/how-to-fix-tech-interview-to-increase-diversity",
+		"date"		:	"2019-06-19",
+		"source"	:	"Diversify Tech"
+	},
+	{
+		"title"		: 	"Good vibes and high fives at Dribbble&rsquo;s Hang Time NYC",
+		"slug"		:	"https://dribbble.com/stories/2019/06/14/good-vibes-and-high-fives-at-dribbble-s-hang-time-nyc",
+		"date"		:	"2019-06-14",
+		"source"	:	"Dribbble"
+	},
+	{
+		"title"		: 	"Kick-start your typography system in Figma",
+		"slug"		:	"https://www.figma.com/blog/kick-start-your-typography-system-in-figma/",
+		"date"		:	"2019-06-06",
+		"source"	:	"Figma"
+	},
+	{
+		"title"		: 	"Collective #425",
+		"slug"		:	"https://bricktowntom.com/06/collective-425.html",
+		"date"		:	"2019-06-02",
+		"source"	:	"Bricktowntom&rsquo;s Market Place"
+	},
+	{
+		"title"		: 	"Looking back at An Event Apart Boston 2019",
+		"slug"		:	"https://www.inuse.se/blogg/looking-back-an-event-apart-boston-2019/",
+		"date"		:	"2019-05-22",
+		"source"	:	"Alexander Skogberg"
+	},
+	{
+		"title"		: 	"Inside InVision&rsquo;s Content Strategy",
+		"slug"		:	"http://digitaluncovered.com/inside-invisions-content-strategy/",
+		"date"		:	"2019-05-18",
+		"source"	:	"Digital Uncovered"
+	},
+	{
 		"title"		: 	"Design Systems — Chapter 4, Perceptual Patterns Summary by Alla Kholmatova",
 		"slug"		:	"https://uxplanet.org/design-systems-chapter-4-perceptual-patterns-summary-by-alla-kholmatova-80a52cb06d46",
 		"date"		:	"2019-05-05",
