@@ -6,22 +6,41 @@
 		"location"	:	"Denver"
 	},
 	{
+		"title"		: 	"Smashing Conference",
+		"slug"		:	"https://smashingconf.com/ny-2019/",
+		"date"		:	"2019-10-15",
+		"location"	:	"New York City"
+	},
+	{
+		"title"		: 	"Asbury Agile",
+		"slug"		:	"http://www.asburyagile.com/",
+		"date"		:	"2019-10-04",
+		"location"	:	"Asbury Park, <abbr title=\"New Jersey\">NJ</abbr>"
+	},
+	{
 		"title"		: 	"Artifact Conference",
 		"slug"		:	"https://artifactconf.com/",
 		"date"		:	"2019-09-30",
 		"location"	:	"Austin"
 	},
 	{
-		"title"		: 	"Webstock",
-		"slug"		:	"https://www.webstock.org.nz/19/",
-		"date"		:	"2019-06-26",
-		"location"	:	"Wellington, New Zealand"
-	},
-	{
-		"title"		: 	"Dribbble Hangtime",
+		"title"		: 	"Dribbble Hang Time",
 		"slug"		:	"https://dribbble.com/hangtimes/2019",
 		"date"		:	"2019-06-06",
 		"location"	:	"New York City"
+	},
+	{
+		"title"		: 	"Bluecadet Talks",
+		"slug"		:	"https://www.eventbrite.com/e/putting-the-design-in-design-systems-tickets-62270783590",
+		"date"		:	"2019-05-30",
+		"location"	:	"Philadelphia, <abbr title=\"Pennsylvania\">PA</abbr>"
+	},
+	{
+		"title"		: 	"Pricing Design with guest Dan Mall",
+		"slug"		:	"https://www.ditchinghourly.com/episodes/pricing-design-with-guest-dan-mall",
+		"date"		:	"2019-05-10",
+		"type"		:	"podcast",
+		"audio"		:	true
 	},
 	{
 		"title"		: 	"An Event Apart",
@@ -53,6 +72,13 @@
 		"date"		:	"2019-02-05",
 		"type"		:	"podcast",
 		"audio"		:	true
+	},
+	{
+		"title"		: 	"Interview: Founder of SuperFriendly Dan Mall, Sharing Culture &amp; Our Myopic Tech Society",
+		"slug"		:	"https://www.awwwards.com/interview-founder-of-superfriendly-dan-mall-talks-sharing-culture-our-myopic-tech-society.html",
+		"date"		:	"2019-01-29",
+		"type"		:	"video",
+		"video"		:	true
 	},
 	{
 		"title"		: 	"Designer + Developer Collaboration workshop",
