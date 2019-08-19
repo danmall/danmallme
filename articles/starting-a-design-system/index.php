@@ -1,3 +1,4 @@
+<?php header("Location: https://superfriendlydesign.systems/articles/starting-a-design-system/", true, 301); ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
