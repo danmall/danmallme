@@ -1,5 +1,53 @@
 [
 	{
+		"title"		: 	"Sci-Fi, Funky Art, &amp; Life Savers",
+		"slug"		:	"https://medium.com/another-design-newsletter/sci-fi-funky-art-life-savers-1ff411e928d6",
+		"date"		:	"2018-09-09",
+		"source"	:	"Another Design Newsletter"
+	},
+	{
+		"title"		: 	"063 – Pricing websites with Corey Dodd",
+		"slug"		:	"https://agencyhighway.com/podcast/063-pricing-websites/",
+		"date"		:	"2018-09-01",
+		"source"	:	"Agency Highway"
+	},
+	{
+		"title"		: 	"Goal Setting: How to Achieve Long Term Goals",
+		"slug"		:	"https://www.careercliff.com/goal-setting-how-to-achieve-long-term-goals/",
+		"date"		:	"2019-08-29",
+		"source"	:	"Career Cliff"
+	},
+	{
+		"title"		: 	"20 web design books recommended by the pros",
+		"slug"		:	"https://www.godaddy.com/garage/web-design-books/",
+		"date"		:	"2019-08-17",
+		"source"	:	"GoDaddy"
+	},
+	{
+		"title"		: 	"What the Web Needs Now (and how ARTIFACT is here for it)",
+		"slug"		:	"https://css-tricks.com/what-the-web-needs-now-and-how-artifact-is-here-for-it/",
+		"date"		:	"2019-07-19",
+		"source"	:	"CSS-Tricks"
+	},
+	{
+		"title"		: 	"What are UX Designer Skills? The 12 Essentials",
+		"slug"		:	"https://trydesignlab.com/blog/what-are-user-experience-design-skills-12-essentials/",
+		"date"		:	"2019-06-26",
+		"source"	:	"Design Lab"
+	},
+	{
+		"title"		: 	"5 Lessons about Design",
+		"slug"		:	"https://blog.prototypr.io/5-lessons-about-design-ac2fe0005357",
+		"date"		:	"2019-06-24",
+		"source"	:	"Prototypr.io"
+	},
+	{
+		"title"		: 	"Re: The technical side of design systems",
+		"slug"		:	"https://johanronsse.be/2019/06/22/re-the-technical-side-of-design-systems/",
+		"date"		:	"2019-06-22",
+		"source"	:	"Johan Ronsse"
+	},
+	{
 		"title"		: 	"How to Fix Your Tech Interview to Increase Diversity",
 		"slug"		:	"https://www.diversifytech.co/blog/how-to-fix-tech-interview-to-increase-diversity",
 		"date"		:	"2019-06-19",
@@ -402,6 +450,12 @@
 		"slug"		:	"https://remotedesignteam.com/2018/07/many-illustrators-design-and-work-remotely/",
 		"date"		:	"2018-07-04",
 		"source"	:	"Remote Design Team"
+	},
+	{
+		"title"		: 	"002 – Pricing websites with Corey Dodd",
+		"slug"		:	"https://agencyhighway.com/podcast/002-pricing-websites-corey-dodd/",
+		"date"		:	"2018-07-01",
+		"source"	:	"Agency Highway"
 	},
 	{
 		"title"		: 	"Workshop experience at Smashing Conf",
