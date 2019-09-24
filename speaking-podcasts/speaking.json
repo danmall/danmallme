@@ -1,5 +1,11 @@
 [
 	{
+		"title"		: 	"Webconf.asia",
+		"slug"		:	"https://2019.webconf.asia/",
+		"date"		:	"2019-11-20",
+		"location"	:	"Hong Kong"
+	},
+	{
 		"title"		: 	"An Event Apart",
 		"slug"		:	"https://aneventapart.com/event/denver-2019",
 		"date"		:	"2019-10-28",
@@ -22,6 +28,17 @@
 		"slug"		:	"https://artifactconf.com/",
 		"date"		:	"2019-09-30",
 		"location"	:	"Austin"
+	},
+	{
+		"title"		: 	"Design Systems Slack <abbr title=\"Ask Me Anything\">AMA</abbr>",
+		"date"		:	"2019-09-25",
+		"type"		:	"online"
+	},
+	{
+		"title"		: 	"Designer News <abbr title=\"Ask Me Anything\">AMA</abbr>",
+		"slug"		:	"https://www.designernews.co/stories/104383-im-dan-mall-ask-me-anything",
+		"date"		:	"2019-09-05",
+		"type"		:	"online"
 	},
 	{
 		"title"		: 	"Dribbble Hang Time",
