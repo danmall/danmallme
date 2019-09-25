@@ -1,5 +1,16 @@
 [
 	{
+		"title"	: 	"Communication Arts Interactive 2020",
+		"slug"	:	"commarts-interactive-2020",
+		"dek"	:	"A rundown of the kind of work I want to see awarded in this year&rsquo;s competition.",
+		"date"	:	"2019-09-25T06:12:00Z",
+		"tags"	:	[
+			"awards",
+			"jury",
+			"industry"
+		]
+	},
+	{
 		"title"	: 	"Avengers: Endgame",
 		"slug"	:	"avengers-endgame",
 		"dek"	:	"My review. Major spoilers included.",
