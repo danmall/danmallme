@@ -38,7 +38,7 @@
                 Communication Arts Interactive 2020
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">September 25, 2019 at 9:12 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">September 25, 2019 at 6:12 <abbr title="Ante Meridien">AM</abbr></h2>
 
         </header><!-- .page-header -->
 
