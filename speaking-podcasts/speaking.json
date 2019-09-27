@@ -18,6 +18,12 @@
 		"location"	:	"New York City"
 	},
 	{
+		"title"		: 	"PhillyCHI",
+		"slug"		:	"https://www.eventbrite.com/e/design-systems-with-dan-mall-registration-74083974161",
+		"date"		:	"2019-10-08",
+		"location"	:	"Philadelphia, <abbr title=\"Pennsylvania\">PA</abbr>"
+	},
+	{
 		"title"		: 	"Asbury Agile",
 		"slug"		:	"http://www.asburyagile.com/",
 		"date"		:	"2019-10-04",
