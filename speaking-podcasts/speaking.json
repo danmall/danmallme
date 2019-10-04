@@ -24,6 +24,12 @@
 		"location"	:	"Philadelphia, <abbr title=\"Pennsylvania\">PA</abbr>"
 	},
 	{
+		"title"		: 	"Growing Accessibility and Inclusion Through Design Systems",
+		"slug"		:	"https://www.levelaccess.com/webinar-a11y-and-design-systems/",
+		"date"		:	"2019-10-08",
+		"type"		:	"online"
+	},
+	{
 		"title"		: 	"Asbury Agile",
 		"slug"		:	"http://www.asburyagile.com/",
 		"date"		:	"2019-10-04",
