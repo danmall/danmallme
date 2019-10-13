@@ -1,5 +1,18 @@
 [
 	{
+		"title"	: 	"The Hot Potato Process",
+		"slug"	:	"hot-potato-process",
+		"dek"	:	"A better way for designers and developers to truly work together",
+		"date"	:	"2019-10-13T08:07:00Z",
+		"tags"	:	[
+			"process",
+			"collaboration",
+			"design",
+			"development",
+			"brad frost"
+		]
+	},
+	{
 		"title"	: 	"Communication Arts Interactive 2020",
 		"slug"	:	"commarts-interactive-2020",
 		"dek"	:	"A rundown of the kind of work I want to see awarded in this year&rsquo;s competition.",
