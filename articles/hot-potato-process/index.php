@@ -11,7 +11,7 @@
     <meta name="twitter:site" content="@danmall" />
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
     <meta name="twitter:title" property="og:title" content="The Hot Potato Process" />
-    <meta name="twitter:description" property="og:description" content="A better way for designers and developers to truly work together.." />
+    <meta name="twitter:description" property="og:description" content="A better way for designers and developers to truly work together." />
     <meta name="description" content="A better way for designers and developers to truly work together." />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/og.png" />
     
