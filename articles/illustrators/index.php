@@ -81,7 +81,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="https://nick-trujillo.myportfolio.com/">
                             Nick Trujillo
@@ -102,7 +102,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="https://www.gracesandford.com/">
                             Grace Sanford
@@ -123,7 +123,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="https://www.instagram.com/werkitang/">
                             Angela Martinez
@@ -144,7 +144,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="http://amikacooper.com/">
                             Amika Cooper
@@ -165,7 +165,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="https://www.keelin-g.com/">
                             Keelin Gorlewski
@@ -186,7 +186,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="http://waiau.ca/">
                             Wai Au
@@ -207,7 +207,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="http://shaunalynn.com/">
                             Shauna Lynn
@@ -228,7 +228,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="http://www.shoemakermedical.com/">
                             Shoemaker Medical
@@ -249,7 +249,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="http://www.jacquelynarends.com/">
                             Jacquelyn Arends
@@ -270,7 +270,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="https://www.tidawanart.com/">
                             Tidawan Thaipinnarong
@@ -291,7 +291,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="http://sarahhanna.co/">
                             Sarah Hanna
@@ -312,7 +312,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="https://www.ajwilldesign.com/">
                             Aaron J. Williams
@@ -333,7 +333,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="https://portfolio.blkmkt.net/">
                             BLK MKT
@@ -354,7 +354,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="http://www.o-fishel.com/">
                             Daniel Fishel
@@ -375,7 +375,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="http://www.rayagolden.com/">
                             Raya Golden
@@ -385,9 +385,8 @@
                     </h1>
                 </div>
             </div>
-
-            <ol>
-                <div class="dm-c-illustrationRow dm-u-clearfix">
+            
+            <div class="dm-c-illustrationRow dm-u-clearfix">
                 <div class="dm-c-illustrationBlock dm-l-col--50">                    
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="http://shannon-wright.com/">
@@ -397,7 +396,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="https://rikyo.artstation.com/">
                             Chris House
@@ -417,7 +416,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="http://www.connie-beckham.com/">
                             Connie Beckham
@@ -437,7 +436,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="https://miimows.artstation.com/">
                             Del Northern
@@ -457,7 +456,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="https://www.behance.net/yuzach">
                             Yulia Sokolova
@@ -477,7 +476,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="http://www.saraarielwong.com/">
                             Sara Wong
@@ -497,7 +496,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="http://www.beenamistry.com/">
                             Beena Mistry
@@ -517,7 +516,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="http://karenyoojin.com/">
                             Karen Hong
@@ -537,7 +536,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="https://www.ashlwong.com/">
                             Ashley Wong
@@ -557,7 +556,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="https://dribbble.com/anahill">
                             Ana Hill
@@ -577,7 +576,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="http://www.jeanniephan.com/">
                             Jeannie Phan
@@ -598,7 +597,7 @@
                         </a>
                     </h1>
                 </div>
-                <div class="dm-l-col--50">
+                <div class="dm-c-illustrationBlock dm-l-col--50">
                     <h1 class="dm-c-illustrationBlock_heading">
                         <a href="http://galaxiablack.com/">
                             Eden Black
