@@ -618,6 +618,372 @@
                             <noscript><img alt="" src="illustrations/vashti-harrison.png" /></noscript>
                         </a>
                     </h1>
+                </div>
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://melody.dev/">
+                            Melody ✨
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/melody.dev.png" />
+                            <noscript><img alt="" src="illustrations/melody.dev.png" /></noscript>
+                        </a>
+                    </h1>
+                </div>                
+            </div>
+
+            <div class="dm-c-illustrationRow dm-u-clearfix">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="http://el_beas.dribbble.com/">
+                            Diego Beas Sevilla
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/el-beas.jpg" />
+                            <noscript><img alt="" src="illustrations/el-beas.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="http://studiograson.com/">
+                            Studio Grason
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/studio-grason.jpg" />
+                            <noscript><img alt="" src="illustrations/studio-grason.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>                
+            </div>
+
+            <div class="dm-c-illustrationRow dm-u-clearfix">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://www.instagram.com/rqdesigns/">
+                            Razan
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/razandesigns.jpg" />
+                            <noscript><img alt="" src="illustrations/razandesigns.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://daikonbaby.format.com/">
+                            Daikonbaby
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/daikonbaby.png" />
+                            <noscript><img alt="" src="illustrations/daikonbaby.png" /></noscript>
+                        </a>
+                    </h1>
+                </div>                
+            </div>
+
+            <div class="dm-c-illustrationRow dm-u-clearfix">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://www.rasillustration.com/">
+                            Ras
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/ras.jpg" />
+                            <noscript><img alt="" src="illustrations/ras.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://www.etsy.com/uk/shop/AbiStevens">
+                            Abi Stevens
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/abistevens.jpg" />
+                            <noscript><img alt="" src="illustrations/abistevens.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>                
+            </div>
+
+            <div class="dm-c-illustrationRow dm-u-clearfix">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="http://leandromassai.com/">
+                            Massai
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/massai.png" />
+                            <noscript><img alt="" src="illustrations/massai.png" /></noscript>
+                        </a>
+                    </h1>
+                </div>
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://dribbble.com/gbmillz">
+                            Fawale Gbolahan
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/fawale-gbolahan.png" />
+                            <noscript><img alt="" src="illustrations/fawale-gbolahan.png" /></noscript>
+                        </a>
+                    </h1>
+                </div>                
+            </div>
+
+            <div class="dm-c-illustrationRow dm-u-clearfix">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://www.instagram.com/shinji_akhirah/">
+                            Shinji Akhirah
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/shinji-akhirah.jpg" />
+                            <noscript><img alt="" src="illustrations/shinji-akhirah.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://www.instagram.com/altsvm/">
+                            SVM
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/svm.jpg" />
+                            <noscript><img alt="" src="illustrations/svm.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>                
+            </div>
+
+            <div class="dm-c-illustrationRow dm-u-clearfix">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="http://morganljohnson.com/">
+                            Morgan L. Johnson
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/morgan-l-johnson.gif" />
+                            <noscript><img alt="" src="illustrations/morgan-l-johnson.gif" /></noscript>
+                        </a>
+                    </h1>
+                </div>
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://daniellearrington.myportfolio.com/digital-illustration">
+                            Danielle Arrington
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/danielle-arrington.png" />
+                            <noscript><img alt="" src="illustrations/danielle-arrington.png" /></noscript>
+                        </a>
+                    </h1>
+                </div>                
+            </div>
+
+            <div class="dm-c-illustrationRow dm-u-clearfix">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://www.rommelruiz.com/">
+                            Rommel Ruiz
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/rommelruiz.jpg" />
+                            <noscript><img alt="" src="illustrations/rommelruiz.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="http://mariojacome.dribbble.com/">
+                            Mario Jacome
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/mariojacome.gif" />
+                            <noscript><img alt="" src="illustrations/mariojacome.gif" /></noscript>
+                        </a>
+                    </h1>
+                </div>                
+            </div>
+
+            <div class="dm-c-illustrationRow dm-u-clearfix">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://www.elisacox.com/">
+                            Elisa Cox
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/elisa-cox.gif" />
+                            <noscript><img alt="" src="illustrations/elisa-cox.gif" /></noscript>
+                        </a>
+                    </h1>
+                </div>
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://www.sierratuazon.com/">
+                            Sierra Tuazon
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/sierra-tuazon.jpg" />
+                            <noscript><img alt="" src="illustrations/sierra-tuazon.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>                
+            </div>
+
+            <div class="dm-c-illustrationRow dm-u-clearfix">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://dribbble.com/maximilianopena">
+                            Maximiliano Pena
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/maximiliano-pena.jpg" />
+                            <noscript><img alt="" src="illustrations/maximiliano-pena.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="http://catalina-williams.com/">
+                            Catalina Williams
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/catalina-williams.png" />
+                            <noscript><img alt="" src="illustrations/catalina-williams.png" /></noscript>
+                        </a>
+                    </h1>
+                </div>                
+            </div>
+
+            <div class="dm-c-illustrationRow dm-u-clearfix">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://sonyalei.com/">
+                            Sonya Han
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/sonya-han.png" />
+                            <noscript><img alt="" src="illustrations/sonya-han.png" /></noscript>
+                        </a>
+                    </h1>
+                </div>
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://dribbble.com/poojadav">
+                            Pooja Jadav
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/pooja-jadav.jpg" />
+                            <noscript><img alt="" src="illustrations/pooja-jadav.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>                
+            </div>
+
+            <div class="dm-c-illustrationRow dm-u-clearfix">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://dribbble.com/andreeamica">
+                            Andreea Mica
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/andreea-mica.jpg" />
+                            <noscript><img alt="" src="illustrations/andreea-mica.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="http://www.heyheysu.com/">
+                            Hyesu Lee
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/hyesu-lee.jpg" />
+                            <noscript><img alt="" src="illustrations/hyesu-lee.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>                
+            </div>
+
+            <div class="dm-c-illustrationRow dm-u-clearfix">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://drawnbyjaime.com/">
+                            Drawn by Jaime
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/drawn-by-jaime.jpg" />
+                            <noscript><img alt="" src="illustrations/drawn-by-jaime.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://www.samjophan.com/home">
+                            Samantha Jo Phan
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/samantha-jo-phan.png" />
+                            <noscript><img alt="" src="illustrations/samantha-jo-phan.png" /></noscript>
+                        </a>
+                    </h1>
+                </div>                
+            </div>
+
+            <div class="dm-c-illustrationRow dm-u-clearfix">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://fawashah.co.uk/">
+                            Fawa Shah
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/fawa-shah.jpg" />
+                            <noscript><img alt="" src="illustrations/fawa-shah.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://dribbble.com/TurgayMutlay">
+                            Turgay Mutlay
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/turgay-mutlay.jpg" />
+                            <noscript><img alt="" src="illustrations/turgay-mutlay.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>                
+            </div>
+
+            <div class="dm-c-illustrationRow dm-u-clearfix">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://www.behance.net/agnesefranchini">
+                            Agnese Franchini
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/agnese-franchini.jpg" />
+                            <noscript><img alt="" src="illustrations/agnese-franchini.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://lenikauffman.com/">
+                            Leni Kauffman
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/leni-kauffman.jpeg" />
+                            <noscript><img alt="" src="illustrations/leni-kauffman.jpeg" /></noscript>
+                        </a>
+                    </h1>
+                </div>                
+            </div>
+
+            <div class="dm-c-illustrationRow dm-u-clearfix">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://tomekahgeorge.com/">
+                            Tomekah George
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/tomekah-george.jpg" />
+                            <noscript><img alt="" src="illustrations/tomekah-george.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://linol.tumblr.com/">
+                            Linol
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/linol.png" />
+                            <noscript><img alt="" src="illustrations/linol.png" /></noscript>
+                        </a>
+                    </h1>
+                </div>                
+            </div>
+
+            <div class="dm-c-illustrationRow dm-u-clearfix">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://www.instagram.com/isabeljoylopez/">
+                            Isabel Lopez
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/isabel-lopez.jpg" />
+                            <noscript><img alt="" src="illustrations/isabel-lopez.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://dribbble.com/hellofrommandy">
+                            Amanda Chong
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/amanda-chong.png" />
+                            <noscript><img alt="" src="illustrations/amanda-chong.png" /></noscript>
+                        </a>
+                    </h1>
+                </div>                
+            </div>
+
+            <div class="dm-c-illustrationRow dm-u-clearfix">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://www.behance.net/Protagolism">
+                            Olga Protasova
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/olga-protasova.jpg" />
+                            <noscript><img alt="" src="illustrations/olga-protasova.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="http://www.ajdimarucot.com/">
+                            AJ DiMarucot
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/aj-dimarucot.jpg" />
+                            <noscript><img alt="" src="illustrations/aj-dimarucot.jpg" /></noscript>
+                        </a>
+                    </h1>
                 </div>                
             </div>
 
