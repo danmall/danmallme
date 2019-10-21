@@ -986,6 +986,60 @@
                 </div>                
             </div>
 
+            <div class="dm-c-illustrationRow dm-u-clearfix">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="http://www.turntopage84.com/">
+                            Jag Nagra
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/jag-nagra.jpg" />
+                            <noscript><img alt="" src="illustrations/jag-nagra.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://www.artofchuckstyles.com">
+                            Chuck Styles
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/chuck-styles.webp" />
+                            <noscript><img alt="" src="illustrations/chuck-styles.webp" /></noscript>
+                        </a>
+                    </h1>
+                </div>                
+            </div>
+
+            <div class="dm-c-illustrationRow dm-u-clearfix">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://meanzchan.com/">
+                            Meanz Chan
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/meanz-chan.png" />
+                            <noscript><img alt="" src="illustrations/meanz-chan.png" /></noscript>
+                        </a>
+                    </h1>
+                </div>
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="http://www.samiaahmed.com/index.html">
+                            Samia Ahmed
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/samia-ahmed.jpg" />
+                            <noscript><img alt="" src="illustrations/samia-ahmed.jpg" /></noscript>
+                        </a>
+                    </h1>
+                </div>                
+            </div>
+
+            <div class="dm-c-illustrationRow dm-u-clearfix">
+                <div class="dm-c-illustrationBlock dm-l-col--50">                    
+                    <h1 class="dm-c-illustrationBlock_heading">
+                        <a href="https://www.arterndesign.com/">
+                            Giulia Giovannini
+                            <img class="dm-js-lazy" alt="" data-src="illustrations/giulia-giovannini.gif" />
+                            <noscript><img alt="" src="illustrations/giulia-giovannini.gif" /></noscript>
+                        </a>
+                    </h1>
+                </div>                               
+            </div>
+
         </div>
 
         <section id="up-next" class="dm-c-upNext">
