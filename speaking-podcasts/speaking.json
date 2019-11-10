@@ -1,11 +1,5 @@
 [
 	{
-		"title"		: 	"Webconf.asia",
-		"slug"		:	"https://2019.webconf.asia/",
-		"date"		:	"2019-11-20",
-		"location"	:	"Hong Kong"
-	},
-	{
 		"title"		: 	"An Event Apart",
 		"slug"		:	"https://aneventapart.com/event/denver-2019",
 		"date"		:	"2019-10-28",
