@@ -30,10 +30,11 @@
 		"location"	:	"Denver, <abbr title=\"Colorado\">CO</abbr>"
 	},
 	{
-		"title"		: 	"Smashing Conference",
-		"slug"		:	"https://smashingconf.com/ny-2019/",
+		"title"		: 	"Smashing Conference: Designer vs. Developer!",
+		"slug"		:	"https://vimeo.com/367846576",
 		"date"		:	"2019-10-15",
-		"location"	:	"New York City"
+		"location"	:	"New York City",
+		"video"		:	true
 	},
 	{
 		"title"		: 	"PhillyCHI",
