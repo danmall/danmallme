@@ -1,9 +1,33 @@
 [
 	{
 		"title"		: 	"An Event Apart",
+		"slug"		:	"https://aneventapart.com/event/orlando-2020",
+		"date"		:	"2020-10-05",
+		"location"	:	"Orlando, <abbr title=\"Florida\">FL</abbr>"
+	},
+	{
+		"title"		: 	"An Event Apart",
+		"slug"		:	"https://aneventapart.com/event/seattle-2020",
+		"date"		:	"2020-05-11",
+		"location"	:	"Seattle, <abbr title=\"Washington\">WA</abbr>"
+	},
+	{
+		"title"		: 	"An Event Apart",
+		"slug"		:	"https://aneventapart.com/event/washington-dc-2020",
+		"date"		:	"2020-04-13",
+		"location"	:	"Washington <abbr title=\"District of Columbia\">DC</abbr>"
+	},
+	{
+		"title"		: 	"Creative South",
+		"slug"		:	"https://www.creativesouth.com/",
+		"date"		:	"2020-04-02",
+		"location"	:	"Columbus, <abbr title=\"Georgia\">GA</abbr>"
+	},
+	{
+		"title"		: 	"An Event Apart",
 		"slug"		:	"https://aneventapart.com/event/denver-2019",
 		"date"		:	"2019-10-28",
-		"location"	:	"Denver"
+		"location"	:	"Denver, <abbr title=\"Colorado\">CO</abbr>"
 	},
 	{
 		"title"		: 	"Smashing Conference",
@@ -69,7 +93,7 @@
 		"title"		: 	"An Event Apart",
 		"slug"		:	"https://aneventapart.com/event/boston-2019",
 		"date"		:	"2019-05-06",
-		"location"	:	"Boston"
+		"location"	:	"Boston, <abbr title=\"Massachusetts\">MA</abbr>"
 	},
 	{
 		"title"		: 	"Epicurrence",
@@ -81,13 +105,13 @@
 		"title"		: 	"An Event Apart",
 		"slug"		:	"https://aneventapart.com/event/seattle-2019",
 		"date"		:	"2019-03-04",
-		"location"	:	"Seattle"
+		"location"	:	"Seattle, <abbr title=\"Washington\">WA</abbr>"
 	},
 	{
 		"title"		: 	"Owner Summit 2019",
 		"slug"		:	"https://bureauofdigital.com/event/owner-summit-2019",
 		"date"		:	"2019-02-10",
-		"location"	:	"Austin"
+		"location"	:	"Austin, <abbr title=\"Texas\">TX</abbr>"
 	},
 	{
 		"title"		: 	"Design Driven",
@@ -107,7 +131,7 @@
 		"title"		: 	"Designer + Developer Collaboration workshop",
 		"slug"		:	"https://designdevjan2019.splashthat.com/",
 		"date"		:	"2019-01-15",
-		"location"	:	"Philadelphia"
+		"location"	:	"Philadelphia, , <abbr title=\"Pennsylvania\">PA</abbr>"
 	},
 	{
 		"title"		: 	"Clarity Conference",
