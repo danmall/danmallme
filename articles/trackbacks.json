@@ -1,5 +1,11 @@
 [
 	{
+		"title"		: 	"The Technical Side of Design Systems by Brad Frost",
+		"slug"		:	"https://adactio.com/journal/16214",
+		"date"		:	"2018-12-10",
+		"source"	:	"Adactio"
+	},
+	{
 		"title"		: 	"Braintactics #116",
 		"slug"		:	"https://mailchi.mp/34f00155e16a/believe-you-can-change-the-web-is-not-dying-the-hot-potato-process-bringing-figma-to-life-and-new-typography",
 		"date"		:	"2018-11-10",
