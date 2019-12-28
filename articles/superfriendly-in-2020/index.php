@@ -38,7 +38,7 @@
                 SuperFriendly in 2020
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">December 23, 2019 at 8:07 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">December 28, 2019 at 2:50 <abbr title="Post Meridien">PM</abbr></h2>
 
         </header><!-- .page-header -->
 
@@ -256,7 +256,6 @@
                 <p>(Dividing each of those things by four gives us our 2020 Q1 <a href="https://www.whatmatters.com/faqs/okr-meaning-definition-example">OKRs</a>.)</p>
 
                 <p>Honestly, those feel like really easy metrics to hit. I&rsquo;m hopeful that we&rsquo;ll reach those number much earlier than the end of the year and be able to set our sights on more ambitious things.</p>
-                
 
             </div>
 
