@@ -264,8 +264,8 @@
                 <h1 class="dm-c-upNext_kicker">Up Next</h1>
 
                 <h2 class="dm-c-upNext_title">
-                    <a href="/articles/commarts-interactive-2020/">
-                        Communication Arts Interactive: <span class="dm-c-upNext_title_lastWord">2020</span>
+                    <a href="/articles/hot-potato-process/">
+                        The Hot Potato <span class="dm-c-upNext_title_lastWord">Process</span>
                     </a>
                 </h2>
 
