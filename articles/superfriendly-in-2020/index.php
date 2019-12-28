@@ -54,7 +54,7 @@
                     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
                 </div><!-- .dm-c-carbonWrap -->
 
-                <p>And boy, it did. The end of 2019 showed bore plenty of fruits of that labor. We&rsquo;ve seen a 1,000% increase in the amout of leads in our pipeline compared to what we had at this time last year.</p>
+                <p>And boy, it did. The end of 2019 bore plenty of fruits of that labor. We&rsquo;ve seen a 1,000% increase in the amout of leads in our pipeline compared to what we had at this time last year.</p>
 
                 <p>In order to figure out how to set up well for a great 2020, I found it useful to look back at how SuperFriendly has done thus far. (I shared a more detailed version of this with the team and thought it could be helpful to share some of this publicly in case it helps any other agency owner out there.)</p>
 
