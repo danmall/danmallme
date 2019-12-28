@@ -6,6 +6,12 @@
 		"location"	:	"Orlando, <abbr title=\"Florida\">FL</abbr>"
 	},
 	{
+		"title"		: 	"Awwwards Conference",
+		"slug"		:	"https://conference.awwwards.com/toronto/",
+		"date"		:	"2020-07-14",
+		"location"	:	"Toronto"
+	},
+	{
 		"title"		: 	"An Event Apart",
 		"slug"		:	"https://aneventapart.com/event/seattle-2020",
 		"date"		:	"2020-05-11",
