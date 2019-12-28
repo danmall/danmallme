@@ -60,10 +60,10 @@
 
                 <h2 id="time-spent">Time spent <a class="dm-dp-anchorLink" href="#time-spent">#</a></h2>
 
-                <p>At the end of 2012, I shared some data about <a href="http://v3.danielmall.com/articles/superfriendly-annual-report-2012/">how I spent my time</a> as an owner of a new agency that was still primarily responsible for the majority of production work. Nowadays, I&rsquo;m much less involved. Here&rsquo;s a comparison of how 2019 compared to 2012. <sup class="dm-c-sidenotes--link"><a href="#note1">1</a></sup></p>
+                <p>At the end of 2012, I shared some data about <a href="http://v3.danielmall.com/articles/superfriendly-annual-report-2012/">how I spent my time</a> in year one as an owner of a new agency that was still primarily responsible for the majority of production work. Nowadays, at the close of year seven, I&rsquo;m much less involved. Here&rsquo;s a comparison of how 2019 compared to 2012. <sup class="dm-c-sidenotes--link"><a href="#note1">1</a></sup></p>
 
-                <object class="dm-u-marginTop--xl dm-u-marginBottom--xl" role="img" aria-label="2012 vs. 2019" aria-describedby="2012v2019" type="image/svg+xml" data="2012v2019.svg">
-                    <table id="2012v2019">
+                <object class="dm-u-marginTop--xl dm-u-marginBottom--xl" role="img" aria-label="2012 vs. 2019" aria-describedby="table--2012v2019" type="image/svg+xml" data="2012v2019.svg">
+                    <table id="table--2012v2019">
                         <caption>2012 vs. 2019</caption>
                         <tr>
                             <th>&nbsp;</th>
@@ -83,9 +83,9 @@
                     </table>
                 </object>
 
-                <object class="dm-u-marginTop--xl dm-u-marginBottom--xl" role="img" aria-label="Hours per Task" aria-describedby="hours-per-task-2012 hours-per-task-2019" type="image/svg+xml" data="hours-per-task.svg">
+                <object class="dm-u-marginTop--xl dm-u-marginBottom--xl" role="img" aria-label="Hours per Task" aria-describedby="table--hours-per-task-2012 table--hours-per-task-2019" type="image/svg+xml" data="hours-per-task.svg">
 
-                    <table id="hours-per-task-2012">                    
+                    <table id="table--hours-per-task-2012">                    
                         <caption>Hours Spent per Task in 2012</caption>
                         <tr>
                             <th>Task</th>
@@ -124,7 +124,7 @@
                         </tr>
                     </table>
 
-                    <table id="hours-per-task-2019">
+                    <table id="table--hours-per-task-2019">
                         <caption>Hours Spent per Task in 2019</caption>
                         <tr>
                             <th>Task</th>
@@ -178,15 +178,15 @@
 
                 <ul>
                     <li>Though I&rsquo;m still involved in project work a bit, my project time tends to be spent significantly more on direction than actual design and coding work. That said, we&rsquo;ve made some pretty major changes that will now further remove me from both direction and production work in 2020, so I&rsquo;ll be really curious to see how this graph changes over the next year.</li>
-                    <li>I&rsquo;ve been a fan of Cameron Moll&rsquo;s <a href="https://medium.com/come-in-we-re-hiring/the-minimum-vacation-policy-15f6c3b922f">Minimum Vacation Policy</a> since he wrote about it, and I&rsquo;ve been trying to put it into effect more and more each year. My general premise was to pick 2 days at the beginning of each month that I was going to take off, not really to do anything specific but really just to not work and give myself a break. That didn&rsquo;t really go as planned,as I instead took longer breaks in big chunks, but I&rsquo;m still pleased to see that I averaged 21 days of vacation in 2019 which computes to about 2 days per month.</li>
+                    <li>I&rsquo;ve been a fan of Cameron Moll&rsquo;s <a href="https://medium.com/come-in-we-re-hiring/the-minimum-vacation-policy-15f6c3b922f">Minimum Vacation Policy</a> since he wrote about it, and I&rsquo;ve been trying to put it into effect more and more each year. My general premise was to pick 2 days at the beginning of each month that I was going to take off, not to do anything specific but really just to give myself a break and time to recharge. That didn&rsquo;t really go as planned,as I instead took longer breaks in big chunks, but I&rsquo;m still pleased to see that I averaged 21 days of vacation in 2019 which computes to about 2 days per month.</li>
                 </ul>
 
                 <h2 id="profit">Profit <a class="dm-dp-anchorLink" href="#profit">#</a></h2>
 
                 <p>Our profit has really fluctuated over the years and is generally trending downwards. A major focus for 2020 is to at least level this out, if not trend upwards. A profit of 58% would do the trick, but it&rsquo;s a touch too ambitious to be realistic. We&rsquo;re shooting for 50%.</p>
 
-                <object class="dm-u-marginTop--xl dm-u-marginBottom--xl" role="img" aria-label="SuperFriendly Profit" aria-describedby="profit" type="image/svg+xml" data="profit.svg">
-                    <table id="profit">
+                <object class="dm-u-marginTop--xl dm-u-marginBottom--xl" role="img" aria-label="SuperFriendly Profit" aria-describedby="table--profit" type="image/svg+xml" data="profit.svg">
+                    <table id="table--profit">
                         <caption>SuperFriendly Profit</caption>
                         <tr>
                             <th scope="col">Year</th>
@@ -227,24 +227,35 @@
                     </table>
                 </object>
 
-                <h2 id="distributed-teams">Distributed teams <a class="dm-dp-anchorLink" href="#distributed-teams">#</a></h2>
 
-                <p>The first piece of pushback we often get about The Hot Potato Process is that it seems ideal only for co-located teams. But, as <a href="https://www.nytimes.com/2017/02/15/us/remote-workers-work-from-home.html">increasingly more people are working remotely</a>, good processes should adapt to all the different ways that people work; the Hot Potato Process is no exception to that.</p>
 
-                <p>If you can&rsquo;t sit together in person, use video chat and other real-time synchronous tools to simulate working together in a co-located way. My teams will often <a href="https://twitter.com/danmall/status/1100082226346250240">leave a Zoom chat open for a few hours</a> as a proxy for being in the same office together, even if we&rsquo;re not talking to each other the whole time.</p>
+                <h2 id="purpose-driven-goals">Purpose-driven goals <a class="dm-dp-anchorLink" href="#purpose-driven-goals">#</a></h2>
 
-                <aside id="note1" class="dm-c-sidenotes dm-l-articleGrid--sidenote">
-                    <p>For more great tips on remote working, see Mandy Brown&rsquo;s excellent article, &ldquo;<a href="http://stet.editorially.com/articles/making-remote-teams-work/">Making remote teams work</a>.&rdquo;</p>
+                <p>As I reflect on and continue to refine <a href="https://superfriendlydesign.systems/purpose/">SuperFriendly&rsquo;s purpose</a>, I&rsquo;ve realized that a grand opportunity is to <strong>create better opportunities for creative people to flourish</strong>. Against that criteria, I think it&rsquo;s important to continually evaluate how many opportunities we&rsquo;re creating, for whom, and how good those opportunities are. A quick rundown:</p>
+
+                <ul>
+                    <li>In 2019, we worked with <strong><a href="https://superfriendlydesign.systems/articles/thanks-2019-superfriends/">23 different SuperFriends</a></strong>.</li>
+                    <li>We paid those 23 SuperFriends a total of <strong>$325,000</strong> (an average of just over <strong>$14,000 each</strong>).</li>
+                    <li>Of the 23 SuperFriends, <strong>8 are women</strong> and <strong>15 are men</strong>.</li>
+                    <li>Of the 23 SuperFriends, <strong>6 are people of color</strong> and <strong>17 are white</strong>.</li>
+                </ul>
+
+                <p>Choosing a growth rate of around 20% <sup class="dm-c-sidenotes--link"><a href="#note2">2</a></sup>, I&rsquo;ve set these goals for 2020: </p>
+
+                <aside id="note2" class="dm-c-sidenotes dm-l-articleGrid--sidenote">
+                    <p>In general, I tend to use 20% as standard benchmark, because I learned from Tim Kadlec&rsquo;s <a href="https://timkadlec.com/2014/01/fast-enough/">Fast Enough</a> that a 20% difference is when a change is noticeable</p>
                 </aside>
 
-                <h2 id="recordings-bridge-time-zones">Use recordings to bridge time zone gaps <a class="dm-dp-anchorLink" href="#recordings-bridge-time-zones">#</a></h2>
+                <ol>
+                    <li>Work with <strong>30 different SuperFriends</strong>.</li>
+                    <li>Pay all SuperFriends a total of <strong>$500,000</strong> (an average of just under <strong>$17,000 each</strong>).</li>
+                    <li>Of the 30 SuperFriends, let&rsquo;s work with <strong>at least 15 women</strong>.</li>
+                    <li>Of the 30 SuperFriends, let&rsquo;s work with <strong>at least 15 people of color</strong>.</li>
+                </ol>
 
-                <p>If you can&rsquo;t work at the same time due to time zones not lining up, you can record yourself working and send it to your collaborator. Your collaborator can then work alongside your recording while making their own recording. Then continue to pass recordings back and forth. Tools like <a href="https://www.voxer.com/">Voxer</a>, <a href="https://www.marcopolo.me/">Marco Polo</a>, and other walkie-talkie- and intercom-like apps help to make asynchronous collaboration feel a bit closer to synchronous collaboration.</p>
+                <p>(Dividing each of those things by four gives us our 2020 Q1 <a href="https://www.whatmatters.com/faqs/okr-meaning-definition-example">OKRs</a>.)</p>
 
-                <h2 id="working-together">Working together means working together <a class="dm-dp-anchorLink" href="#working-together">#</a></h2>
-
-                <p>If you can&rsquo;t sit together in person or trade recordings or approximate these kinds of approaches, you might have to come to terms with the fact that you&rsquo;re not truly working together.</p> 
-
+                <p>Honestly, those feel like really easy metrics to hit. I&rsquo;m hopeful that we&rsquo;ll reach those number much earlier than the end of the year and be able to set our sights on more ambitious things.</p>
                 
 
             </div>
