@@ -1,5 +1,20 @@
 [
 	{
+		"title"	: 	"SuperFriendly in 2020",
+		"slug"	:	"superfriendly-in-2020",
+		"dek"	:	"Looking forward to a new kind of year for SuperFriendly by looking back at the past few years.",
+		"date"	:	"2019-12-28T14:50:00Z",
+		"tags"	:	[
+			"superfriendly",
+			"agency",
+			"reflection",
+			"data",
+			"working in public",
+			"annual report",
+			"business"
+		]
+	},
+	{
 		"title"	: 	"The Hot Potato Process",
 		"slug"	:	"hot-potato-process",
 		"dek"	:	"A better way for designers and developers to truly work together",
