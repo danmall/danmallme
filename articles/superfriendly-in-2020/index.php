@@ -255,7 +255,7 @@
 
                 <p>(Dividing each of those things by four gives us our 2020 Q1 <a href="https://www.whatmatters.com/faqs/okr-meaning-definition-example">OKRs</a>.)</p>
 
-                <p>Honestly, those feel like really easy metrics to hit. I&rsquo;m hopeful that we&rsquo;ll reach those number much earlier than the end of the year and be able to set our sights on more ambitious things.</p>
+                <p>Honestly, those feel like really easy metrics to hit. I&rsquo;m hopeful that we&rsquo;ll reach those numbers much earlier than the end of the year and be able to set our sights on more ambitious things.</p>
 
             </div>
 
