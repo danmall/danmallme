@@ -77,8 +77,8 @@
                         </tr>
                         <tr>
                             <th scope="row">2019</th>
-                            <td>1,984</td>
-                            <td>38</td>
+                            <td>2,040</td>
+                            <td>39</td>
                         </tr>
                     </table>
                 </object>
@@ -153,8 +153,8 @@
                         </tr>
                         <tr>
                             <td>Vacation</td>
-                            <td>168</td>
-                            <td>8%</td>
+                            <td>224</td>
+                            <td>11%</td>
                         </tr>
                         <tr>
                             <td>Admin</td>
@@ -178,7 +178,7 @@
 
                 <ul>
                     <li>Though I&rsquo;m still involved in project work a bit, my project time tends to be spent significantly more on direction than actual design and coding work. That said, we&rsquo;ve made some pretty major changes that will now further remove me from both direction and production work in 2020, so I&rsquo;ll be really curious to see how this graph changes over the next year.</li>
-                    <li>I&rsquo;ve been a fan of Cameron Moll&rsquo;s <a href="https://medium.com/come-in-we-re-hiring/the-minimum-vacation-policy-15f6c3b922f">Minimum Vacation Policy</a> since he wrote about it, and I&rsquo;ve been trying to put it into effect more and more each year. My general premise was to pick 2 days at the beginning of each month that I was going to take off, not to do anything specific but really just to give myself a break and time to recharge. That didn&rsquo;t really go as planned, as I instead took longer breaks in big chunks, but I&rsquo;m still pleased to see that I averaged 21 days of vacation in 2019 which computes to about 2 days per month.</li>
+                    <li>I&rsquo;ve been a fan of Cameron Moll&rsquo;s <a href="https://medium.com/come-in-we-re-hiring/the-minimum-vacation-policy-15f6c3b922f">Minimum Vacation Policy</a> since he wrote about it, and I&rsquo;ve been trying to put it into effect more and more each year. My general premise was to pick 2 days at the beginning of each month that I was going to take off, not to do anything specific but really just to give myself a break and time to recharge. That didn&rsquo;t really go as planned, as I instead took longer breaks in big chunks, but I&rsquo;m still pleased to see that I averaged 28 days of vacation in 2019 which computes to a little more than 2 days per month.</li>
                 </ul>
 
                 <h2 id="profit">Profit <a class="dm-dp-anchorLink" href="#profit">#</a></h2>
@@ -243,7 +243,7 @@
                 <p>Choosing a growth rate of around 20% <sup class="dm-c-sidenotes--link"><a href="#note2">2</a></sup>, I&rsquo;ve set these goals for 2020: </p>
 
                 <aside id="note2" class="dm-c-sidenotes dm-l-articleGrid--sidenote">
-                    <p>In general, I tend to use 20% as standard benchmark, because I learned from Tim Kadlec&rsquo;s <a href="https://timkadlec.com/2014/01/fast-enough/">Fast Enough</a> that a 20% difference is when a change is noticeable</p>
+                    <p>In general, I tend to use 20% as standard benchmark, because I learned from Tim Kadlec&rsquo;s <a href="https://timkadlec.com/2014/01/fast-enough/">Fast Enough</a> that a 20% difference is when a change is noticeable.</p>
                 </aside>
 
                 <ol>
