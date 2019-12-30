@@ -54,7 +54,7 @@
                     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
                 </div><!-- .dm-c-carbonWrap -->
 
-                <p>And boy, it did. The end of 2019 showed bore plenty of fruits of that labor. We&rsquo;ve seen a 1,000% increase in the amout of leads in our pipeline compared to what we had at this time last year.</p>
+                <p>And boy, it did. The end of 2019 bore plenty of fruits of that labor. We&rsquo;ve seen a 1,000% increase in the amout of leads in our pipeline compared to what we had at this time last year.</p>
 
                 <p>In order to figure out how to set up well for a great 2020, I found it useful to look back at how SuperFriendly has done thus far. (I shared a more detailed version of this with the team and thought it could be helpful to share some of this publicly in case it helps any other agency owner out there.)</p>
 
@@ -178,7 +178,7 @@
 
                 <ul>
                     <li>Though I&rsquo;m still involved in project work a bit, my project time tends to be spent significantly more on direction than actual design and coding work. That said, we&rsquo;ve made some pretty major changes that will now further remove me from both direction and production work in 2020, so I&rsquo;ll be really curious to see how this graph changes over the next year.</li>
-                    <li>I&rsquo;ve been a fan of Cameron Moll&rsquo;s <a href="https://medium.com/come-in-we-re-hiring/the-minimum-vacation-policy-15f6c3b922f">Minimum Vacation Policy</a> since he wrote about it, and I&rsquo;ve been trying to put it into effect more and more each year. My general premise was to pick 2 days at the beginning of each month that I was going to take off, not to do anything specific but really just to give myself a break and time to recharge. That didn&rsquo;t really go as planned,as I instead took longer breaks in big chunks, but I&rsquo;m still pleased to see that I averaged 21 days of vacation in 2019 which computes to about 2 days per month.</li>
+                    <li>I&rsquo;ve been a fan of Cameron Moll&rsquo;s <a href="https://medium.com/come-in-we-re-hiring/the-minimum-vacation-policy-15f6c3b922f">Minimum Vacation Policy</a> since he wrote about it, and I&rsquo;ve been trying to put it into effect more and more each year. My general premise was to pick 2 days at the beginning of each month that I was going to take off, not to do anything specific but really just to give myself a break and time to recharge. That didn&rsquo;t really go as planned, as I instead took longer breaks in big chunks, but I&rsquo;m still pleased to see that I averaged 21 days of vacation in 2019 which computes to about 2 days per month.</li>
                 </ul>
 
                 <h2 id="profit">Profit <a class="dm-dp-anchorLink" href="#profit">#</a></h2>
@@ -255,7 +255,7 @@
 
                 <p>(Dividing each of those things by four gives us our 2020 Q1 <a href="https://www.whatmatters.com/faqs/okr-meaning-definition-example">OKRs</a>.)</p>
 
-                <p>Honestly, those feel like really easy metrics to hit. I&rsquo;m hopeful that we&rsquo;ll reach those number much earlier than the end of the year and be able to set our sights on more ambitious things.</p>
+                <p>Honestly, those feel like really easy metrics to hit. I&rsquo;m hopeful that we&rsquo;ll reach those numbers much earlier than the end of the year and be able to set our sights on more ambitious things.</p>
 
             </div>
 
