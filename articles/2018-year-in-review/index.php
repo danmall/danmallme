@@ -127,7 +127,7 @@
                 </li><li>We&rsquo;ve been inviting friends over semi-regularly for board games and/or karaoke. They&rsquo;re a ton of fun and laughs; more of this in 2019.
                 </li><li>I attended more funerals and viewings than I cared to this year (or ever), including one for my uncle who was the patriarch of our large extended family, as well as for my former college roommate who passed away from Hodgkin's lymphoma. Fuck cancer.
                 </li><li>I was <a href="https://twitter.com/danmall/status/915520902607106048">randomly selected for screening at airports</a> 4 times in 2018. 
-                </li><li>I wrote <a href="http://danmall.me/articles/">11 blog posts</a> in 2018. That's down up from 5 in 2017, down from 12 in 2016, and on par with 11 in 2015. 
+                </li><li>I wrote <a href="http://danmall.me/articles/">11 blog posts</a> in 2018. That&rsquo;s up from 5 in 2017, down from 12 in 2016, and on par with 11 in 2015. 
                 </li></ul>
 
                 <h2>Clearing my plate for 2019</h2>
