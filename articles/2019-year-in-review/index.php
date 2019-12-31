@@ -37,7 +37,7 @@
                 2019 Year in Review
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">December 31, 2019 at 11:00 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">December 31, 2019 at 6:51 <abbr title="Post Meridien">PM</abbr></h2>
 
         </header><!-- .page-header -->
 
@@ -55,13 +55,13 @@
 
                 <p>As we ring in the new year and new decade, it seems like a good time to for me to look back at the last year and decade and take inventory.</p>
 
-                <p>In 2009, Em and I left Philly where she had lived for over a decade and I had lived for most almost two decades to try on New York as one of our first big adventures as a married couple.</p>
+                <p>In 2009, <a href="http://emilymall.me/">Em</a > and I left Philly where she had lived for over a decade and I had lived for most almost two decades to try on New York as one of our first big adventures as a married couple.</p>
 
                 <p>I <a href="http://v2.danielmall.com/archives/2009/07/16/cogs_and_spaceships.php">left a dream job</a> at <a href="https://www.happycog.com/">Happy Cog</a>, turned down a dream offer from Facebook, a took another dream job at <a href="https://www.bigspaceship.com/">Big Spaceship</a>. (And yes, I know how privileged I am to have any one of those things, much less all three. I don&rsquo;t take any of it for granted. I have nothing but extreme gratitude in my heart for all of those opportunities and do my best to pass it on and provide the same opportunities for as many others as possible.)</p>
 
                 <p>On this day in 2009, I awoke to 7 missed calls from my Mom, saying my Grandma passed away peacefully in her sleep. I miss her terribly every day, but the hundreds of memories I have of her make me smile every time I think of her.</p>
 
-                <p>In the decade since, I&rsquo;ve moved back to Philly with renewed fervor for the city, created two spectacular daughters, <a href="https://superfriendlydesign.systems/">started an agency</a>, <a href="https://abookapart.com/products/pricing-design">wrote a book</a>, ate some delicious food, and traveled around the world.</p>
+                <p>In the decade since, we&rsquo;ve moved back to Philly with renewed fervor for the city, <a href="http://v3.danielmall.com/articles/leaving-four24/">quit my band</a>, created two spectacular daughters, <a href="http://v3.danielmall.com/articles/introducing-superfriendly/">started an agency</a>, started (and left) <a href="http://www.businessology.biz/">a podcast</a>, <a href="https://abookapart.com/products/pricing-design">wrote a book</a>, started (and left) <a href="https://superbooked.com/">a <abbr title="Software as a Service">SaaS</abbr> product</a>, ate some delicious food, and traveled around the world.</p>
                 
                 <p>I live an incredibly blessed life, and I guard it relentlessly.</p>
 
@@ -71,11 +71,9 @@
 
                 <p role="text">Em and I celebrated our 11th anniversary in 2019! We were going to throw a big bash called the <span aria-hidden="true">Ma11 Ba11</span><span class="dm-u-move--offscreen"> Mall Ball</span>&mdash;get it?&mdash;but then we realized that it would really stress out these two introverts to plan and throw a giant party and that we&rsquo;d much rather travel together. So we spent a long weekend in Cuba instead!</p>
 
-                <h2 id="kids">Kids <a class="dm-dp-anchorLink" href="#kids">#</a></h2>
+                <h2 id="kids-family">Kids &amp; family <a class="dm-dp-anchorLink" href="#kids-family">#</a></h2>
 
-                <img src="kids.jpg" alt="Sidda &amp; Charlie Mall" />
-
-                <p>Sidda and Charlie are now 8 years old and 6 years old respectively. They&rsquo;re getting to those ages where there&rsquo;s lots to share about them, but I&rsquo;m also increasingly more inclined to keep their personal details private. Suffice it to say that the older they get, the more I&rsquo;m enjoying being their dad.</p>
+                <p>Overall, our family had lots of fun adventures together in 2019. Sidda and Charlie are now 8 years old and 6 years old respectively. There&rsquo;s lots of interesting things to share about them, but I&rsquo;m also increasingly more inclined to keep their personal details private. Suffice it to say that the older they get, the more I&rsquo;m enjoying being their dad. And the more the four of us grow together,the deeper and more interesting and exciting our family relationship gets. It&rsquo;s easy at times and difficult at times, and I&rsquo;m lucky to be a part of all of it.</p>
 
                 <h2 id="max">Max <a class="dm-dp-anchorLink" href="#max">#</a></h2>
 
@@ -172,7 +170,7 @@
                     <li>Orlando, <abbr title="Florida">FL</abbr></li>
                 </ol>
 
-                <p>All of my international trips this year were the first times in each of those locations. I had already previously been to every <abbr title="United States">U.S.</abbr> city I visited this year. There are a lot of places in the <abbr>U.S.</abbr> I haven&rsquo;t been, and I feel myself getting the itch for an road trip around the country. Perhaps that&rsquo;s in the cards for the next few years.</p>
+                <p>All of my international trips this year were the first times in each of those locations, and were all leisure trips with Em and friends. I had already previously been to every <abbr title="United States">U.S.</abbr> city I visited this year (except Breckenridge). There are a lot of places in the <abbr>U.S.</abbr> I haven&rsquo;t been, and I feel myself getting the itch for an road trip around the country. Perhaps that&rsquo;s in the cards for the next few years.</p>
 
                 <h2 id="videos-photos">Videos &amp; photos <a class="dm-dp-anchorLink" href="#videos-photos">#</a></h2>
 
@@ -263,8 +261,8 @@
                 <h1 class="dm-c-upNext_kicker">Up Next</h1>
 
                 <h2 class="dm-c-upNext_title">
-                    <a href="/articles/clients-by-brand-color/">
-                        Clients by Brand <span class="dm-c-upNext_title_lastWord">Color</span>
+                    <a href="/articles/superfriendly-in-2020/">
+                        SuperFriendly in <span class="dm-c-upNext_title_lastWord">2020</span>
                     </a>
                 </h2>
 
