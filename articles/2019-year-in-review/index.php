@@ -37,7 +37,7 @@
                 2019 Year in Review
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">December 31, 2019 at 11:00 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">December 31, 2019 at 6:51 <abbr title="Post Meridien">PM</abbr></h2>
 
         </header><!-- .page-header -->
 
