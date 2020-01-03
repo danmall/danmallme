@@ -5,6 +5,8 @@
     <?php /* <meta name="viewport" content="width=device-width;initial-scale=1" /> */ ?>
 	<meta name="viewport" content="width=device-width" />
 
+    <!-- RSS Feeds -->
 	<link rel="alternate" type="application/rss+xml" title="Dan Mall&rsquo;s RSS Feed" href="http://danmall.me/rss/" />
+    <link rel="alternate" type="application/rss+xml" title="Dan Mall&rsquo;s RSS Feed (Full Posts)" href="http://danmall.me/rss/full.xml" />
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->

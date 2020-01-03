@@ -1,6 +1,7 @@
 <?php
     
-    header("Content-Type: application/rss+xml; charset=ISO-8859-1");
+	header("Content-Type: application/rss+xml; charset=ISO-8859-1");
+	//header('Content-type: application/xml');
 
     $rssfeed = '<?xml version="1.0" encoding="ISO-8859-1"?>' . "\n";
     $rssfeed .= '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">'  . "\n\t";
