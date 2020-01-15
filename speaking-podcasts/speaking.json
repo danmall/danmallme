@@ -24,12 +24,6 @@
 		"location"	:	"Washington <abbr title=\"District of Columbia\">DC</abbr>"
 	},
 	{
-		"title"		: 	"Creative South",
-		"slug"		:	"https://www.creativesouth.com/",
-		"date"		:	"2020-04-02",
-		"location"	:	"Columbus, <abbr title=\"Georgia\">GA</abbr>"
-	},
-	{
 		"title"		: 	"An Event Apart",
 		"slug"		:	"https://aneventapart.com/event/denver-2019",
 		"date"		:	"2019-10-28",
