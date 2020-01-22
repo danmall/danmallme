@@ -24,6 +24,20 @@
 		"location"	:	"Washington <abbr title=\"District of Columbia\">DC</abbr>"
 	},
 	{
+		"title"		: 	"The Super Orchestrator",
+		"slug"		:	"https://rootspodcast.design/podcast/danmall",
+		"date"		:	"2020-01-16",
+		"type"		:	"podcast",
+		"audio"		:	true
+	},
+	{
+		"title"		: 	"Reunited with Dan Mall",
+		"slug"		:	"http://www.businessology.biz/show/96/",
+		"date"		:	"2020-01-15",
+		"type"		:	"podcast",
+		"audio"		:	true
+	},
+	{
 		"title"		: 	"An Event Apart",
 		"slug"		:	"https://aneventapart.com/event/denver-2019",
 		"date"		:	"2019-10-28",
