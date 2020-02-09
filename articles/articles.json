@@ -1,5 +1,17 @@
 [
 	{
+		"title"	: 	"Better Webcam Video",
+		"slug"	:	"better-webcam-video",
+		"dek"	:	"Stepping up quality for video calls.",
+		"date"	:	"2020-02-09T12:55:00Z",
+		"tags"	:	[
+			"personal",
+			"video",
+			"equipment",
+			"meetings"
+		]
+	},
+	{
 		"title"	: 	"2019 Year in Review",
 		"slug"	:	"2019-year-in-review",
 		"dek"	:	"The ups and downs of 2019.",
