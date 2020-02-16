@@ -1,68 +1,74 @@
 [
 	{
+		"title"		: 	"Link Pack #33",
+		"slug"		:	"https://www.swiss-miss.com/2020/02/link-pack-33.html",
+		"date"		:	"2020-02-14",
+		"source"	:	"Swiss-miss"
+	},
+	{
 		"title"		: 	"The Technical Side of Design Systems by Brad Frost",
 		"slug"		:	"https://adactio.com/journal/16214",
-		"date"		:	"2018-12-10",
+		"date"		:	"2019-12-10",
 		"source"	:	"Adactio"
 	},
 	{
 		"title"		: 	"Braintactics #116",
 		"slug"		:	"https://mailchi.mp/34f00155e16a/believe-you-can-change-the-web-is-not-dying-the-hot-potato-process-bringing-figma-to-life-and-new-typography",
-		"date"		:	"2018-11-10",
+		"date"		:	"2019-11-10",
 		"source"	:	"Braintactics"
 	},
 	{
 		"title"		: 	"Asbury Agile Speakers Tackle Job Insecurity, Stress at October Conference",
 		"slug"		:	"https://njtechweekly.com/asbury-agile-speakers-tackle-job-insecurity-stress-at-october-conference/",
-		"date"		:	"2018-11-08",
+		"date"		:	"2019-11-08",
 		"source"	:	"NJ Tech Weekly"
 	},
 	{
 		"title"		: 	"Smashing Podcast Episode 1 With Andy Clarke: What Is Art Direction?",
 		"slug"		:	"https://www.smashingmagazine.com/2019/11/smashing-podcast-episode-1/",
-		"date"		:	"2018-11-05",
+		"date"		:	"2019-11-05",
 		"source"	:	"Smashing Magazine"
 	},
 	{
 		"title"		: 	"Technically speaking: Three things we learned at Asbury Agile",
 		"slug"		:	"https://jkdesign.com/blog/technically-speaking-three-things-we-learned-at-asbury-agile/",
-		"date"		:	"2018-10-09",
+		"date"		:	"2019-10-09",
 		"source"	:	"JK Design"
 	},
 	{
 		"title"		: 	"How to make your website more sustainable",
 		"slug"		:	"https://cambridgecleantech.org.uk/2019/10/09/how-to-make-your-website-more-sustainable-chris-butterworth/",
-		"date"		:	"2018-10-09",
+		"date"		:	"2019-10-09",
 		"source"	:	"Cambridge Clean Tech"
 	},
 	{
 		"title"		: 	"Finding Your Professional Path",
 		"slug"		:	"https://www.antonsten.com/professional-path/",
-		"date"		:	"2018-10-04",
+		"date"		:	"2019-10-04",
 		"source"	:	"Anton Sten"
 	},
 	{
 		"title"		: 	"Awards That Look Beyond the Flashy",
 		"slug"		:	"https://css-tricks.com/awards-that-look-beyond-the-flashy/",
-		"date"		:	"2018-10-03",
+		"date"		:	"2019-10-03",
 		"source"	:	"CSS-Tricks"
 	},
 	{
 		"title"		: 	"A recap of Artifact Conf 2019",
 		"slug"		:	"https://gomakethings.com/a-recap-of-artifact-conf-2019/",
-		"date"		:	"2018-10-03",
+		"date"		:	"2019-10-03",
 		"source"	:	"Go Make Things"
 	},
 	{
 		"title"		: 	"Sci-Fi, Funky Art, &amp; Life Savers",
 		"slug"		:	"https://medium.com/another-design-newsletter/sci-fi-funky-art-life-savers-1ff411e928d6",
-		"date"		:	"2018-09-09",
+		"date"		:	"2019-09-09",
 		"source"	:	"Another Design Newsletter"
 	},
 	{
 		"title"		: 	"063 – Pricing websites with Corey Dodd",
 		"slug"		:	"https://agencyhighway.com/podcast/063-pricing-websites/",
-		"date"		:	"2018-09-01",
+		"date"		:	"2019-09-01",
 		"source"	:	"Agency Highway"
 	},
 	{
