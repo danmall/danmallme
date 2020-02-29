@@ -11,8 +11,8 @@
     <meta name="twitter:site" content="@danmall" />
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
     <meta name="twitter:title" property="og:title" content="Weeknotes: February 23&ndash;March 1, 2020" />
-    <meta name="twitter:description" property="og:description" content="Stepping up quality for video calls." />
-    <meta name="description" content="Stepping up quality for video calls." />
+    <meta name="twitter:description" property="og:description" content="Highlights from February 23 to February 29, 2020." />
+    <meta name="description" content="Highlights from February 23 to February 29, 2020." />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/thumb.png" />
     
 </head>
