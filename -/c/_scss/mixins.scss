@@ -673,6 +673,13 @@ http://superfriend.ly/
 }
 
 
+/*-------------------------------------------    
+    Wrapping
+-------------------------------------------*/
+@mixin dm-u-wrap--none {
+	white-space: nowrap;
+}
+
 
 /*-------------------------------------------    
     Widths
@@ -750,3 +757,5 @@ http://superfriend.ly/
 	@include dm-u-float--left;
 	@include dm-l-width--20;
 }
+
+
