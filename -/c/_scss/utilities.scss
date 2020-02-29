@@ -656,6 +656,13 @@ http://superfriend.ly/
 			@include dm-u-boxShadow--none;
 		}
 
+		/*-------------------------------------------    
+		    Don't wrap
+		-------------------------------------------*/
+		&-wrap--none {
+			@include dm-u-wrap--none;
+		}
+
 	}
 
 }
