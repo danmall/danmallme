@@ -66,7 +66,7 @@
                     <li>Talked to three prospective clients</li>
                     <li>Caught up with <a href="https://www.afyia.design/index.html">Afyia Smith</a> about the new <a href="https://shoptalkshow.com/">Shop Talk Show</a> site</li>                    
                     <li>Sat in on a working session between <a href="https://www.sushiandrobots.com/">Jina Anne</a> and <a href="https://ianfrostweather.com/">Ian Frost</a> about building a prototype for a current client</li>
-                    <li>Chatted with <a href="https://twitter.com/jessiofhall/">Jessi Hall</a>, <a href="https://twitter.com/crystalvitelli">Crystal Vitelli</a>, and Joe Rinaldi about how to improve the way we do value pricing</li>
+                    <li>Chatted with <a href="https://twitter.com/jessiofhall/">Jessi Hall</a>, <a href="https://twitter.com/crystalvitelli">Crystal Vitelli</a>, and Joe Rinaldi about how to improve the way we do <a href="https://abookapart.com/products/pricing-design">value pricing</a></li>
                     <li>Recorded a podcast episode for a soon-to-debut podcast</li>
                     <li>Interviewed a strategist</li>
                     <li>Weekly business development chat with Joe Rinaldi</li>
