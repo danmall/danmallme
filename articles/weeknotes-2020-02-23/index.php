@@ -13,7 +13,7 @@
     <meta name="twitter:title" property="og:title" content="Weeknotes: February 23&ndash;February 29, 2020" />
     <meta name="twitter:description" property="og:description" content="Highlights from the week." />
     <meta name="description" content="Highlights from the week." />
-    <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/thumb.png" />
+    <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/thumb2.png" />
     
 </head>
 
