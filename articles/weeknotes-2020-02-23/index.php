@@ -14,6 +14,16 @@
     <meta name="twitter:description" property="og:description" content="Highlights from the week." />
     <meta name="description" content="Highlights from the week." />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>thumb2.png" />
+
+    <style type="text/css">
+
+        @media screen and (max-width: 800px){
+            .dm-c-pageHeader_title .dm-u-wrap--none {
+                white-space: normal;
+            }
+        }
+
+    </style>
     
 </head>
 
@@ -34,7 +44,7 @@
         <header class="dm-c-pageHeader dm-l-articleGrid--main" role="banner">
 
             <h1 class="dm-c-pageHeader_title">
-                Weeknotes: February 23&ndash;<span class="dm-u-wrap--none">February 29, 2020</span>  
+                Weeknotes: <span class="dm-u-wrap--none">February 23</span>&ndash;<span class="dm-u-wrap--none">February 29, 2020</span>  
             </h1>
 
             <h2 class="dm-c-pageHeader_date">February 29, 2020 at 3:43 <abbr title="Post Meridien">PM</abbr></h2>
