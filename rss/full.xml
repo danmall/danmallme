@@ -5,9 +5,65 @@
 	<link rel="alternate" type="text/html" href="http://danmall.me/" />
 	<link rel="self" type="application/atom+xml" href="http://danmall.me/rss/full.xml" />
 	<id>http://danmall.me/rss/full.xml</id>
-	<updated>2020-02-29T15:43:00Z</updated>
+	<updated>2020-03-07T22:15:00Z</updated>
 	<rights>Copyright © 2020, Dan Mall</rights>
 
+
+
+	<entry>
+		<title><![CDATA[Weeknotes: March 1&ndash;March 7, 2020]]></title>
+		<description><![CDATA[Highlights from the week.]]></description>
+		<link rel="alternate" type="text/html" href="http://danmall.me/articles/weeknotes-2020-03-01/" />
+		<id>http://danmall.me/articles/weeknotes-2020-03-01/</id>
+		<published>2020-03-07T22:15:00Z</published>
+		<updated>2020-03-07T22:15:00Z</updated>
+		<author>
+			<name>Dan Mall</name>
+			<uri>http://danmall.me/</uri>
+		</author>
+		<content type="html" xml:base="http://danmall.me/articles/" xml:lang="en"><![CDATA[
+<h2 id="work">Work <a class="dm-dp-anchorLink" href="#work">#</a></h2>
+
+<ol>
+	<li>Braintrust meeting for client project</li>
+	<li>Talked to <a href="https://bradfrost.com/">Brad Frost</a> about new potential project</li>
+	<li>Interviewed new content strategist with <a href="https://twitter.com/jessiofhall/">Jessi Hall</a></li>
+	<li>Client presentation for recommendations</li>
+	<li>Business development check-ins with <a href="https://twitter.com/joerinaldi">Joe Rinaldi</a></li>
+	<li>Talked project strategy with <a href="http://www.geofcrowl.com/">Geof Crowl</a></li>
+	<li>Started new blog post draft for <a href="https://superfriendlydesign.systems/">SuperFriendly</a> site</li>
+	<li>Team retrospective on year-long design system project</li>
+	<li>Pitched new project to existing client</li>
+	<li>Project check-in with <a href="https://www.sushiandrobots.com/">Jina Anne</a></li>
+	<li>Chat with <a href="https://www.afyia.design/">Afyia Smith</a> about <a href="https://shoptalkshow.com/">Shop Talk Show</a> site</li>
+	<li>Scheming with <a href="https://blankenship.xyz/">Joshua Blankenship</a> &amp; <a href="https://www.mattecook.com/">Matt Cook</a></li>
+	<li>Prepped with <a href="https://bigmedium.com/">Big Medium</a> team about upcoming project deliverables</li>
+	<li>Contract negotiations with a new hire</li>
+	<li>Created 2 drafts of an infrastructure diagram for a client</li>
+	<li>Lunch with <a href="http://dealtdev.com/">Kevin Deal</a></li>
+	<li>Studio meeting about how we better could onboard SuperFriends with Jessi Hall, <a href="https://twitter.com/crystalvitelli">Crystal Vitelli</a>, and Joe Rinaldi</li>
+</ol>
+
+<h2 id="personal">Personal <a class="dm-dp-anchorLink" href="#personal">#</a></h2>
+
+<ol>
+	<li>Hosted a friend of <a href="https://twitter.com/siddaleemall">Sidda</a>&rsquo;s for a playdate</li>
+	<li>Played in the weekly Monday night basketball game</li>
+	<li>Accidentally went back to <a href="https://serpicoonsouth.com/">Serpico</a> with <a href="http://emilymall.me/">Em</a></li>
+	<li>Tried out a new babysitter</li>
+	<li>Drove Em to the airport</li>
+	<li>Solo parented for a few days while Em was out of town</li>
+	<li>Posted a 50th picture to <a href="http://photos.danmall.me/">my photography site</a></li>
+	<li>Talked to my therapist about openness and playfulness</li>                    
+	<li>Dropped off dry cleaning</li>
+	<li>Picked up prescriptions</li>                    
+	<li>Ate burgers with the kids</li>
+	<li>Bought supplies for some crafts</li>
+	<li>Went grocery shopping for fruits and veggies</li> 
+	<li>Tried out a new system for sorting mail in the house</li> 
+</ol>		
+		]]></content>
+	</entry>
 
 
 
