@@ -78,7 +78,7 @@
                     <li>Contract negotiations with a new hire</li>
                     <li>Created 2 drafts of an infrastructure diagram for a client</li>
                     <li>Lunch with <a href="http://dealtdev.com/">Kevin Deal</a></li>
-                    <li>Studio meeting about how we better could onboard SuperFriends with Jessi Hall, <a href="https://twitter.com/crystalvitelli">Crystal Vitelli</a>, and Joe Rinaldi</li>
+                    <li>Studio meeting about how we could better onboard SuperFriends with Jessi Hall, <a href="https://twitter.com/crystalvitelli">Crystal Vitelli</a>, and Joe Rinaldi</li>
                 </ol>
 
                 <h2 id="personal">Personal <a class="dm-dp-anchorLink" href="#personal">#</a></h2>
