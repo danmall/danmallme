@@ -5,8 +5,50 @@
 	<link rel="alternate" type="text/html" href="http://danmall.me/" />
 	<link rel="self" type="application/atom+xml" href="http://danmall.me/rss/full.xml" />
 	<id>http://danmall.me/rss/full.xml</id>
-	<updated>2020-03-07T22:15:00Z</updated>
+	<updated>2020-03-16T10:47:00Z</updated>
 	<rights>Copyright © 2020, Dan Mall</rights>
+
+
+
+	<entry>
+		<title><![CDATA[Weeknotes: March 8&ndash;March 14, 2020]]></title>
+		<description><![CDATA[Highlights from the week.]]></description>
+		<link rel="alternate" type="text/html" href="http://danmall.me/articles/weeknotes-2020-03-08/" />
+		<id>http://danmall.me/articles/weeknotes-2020-03-08/</id>
+		<published>2020-03-16T10:47:00Z</published>
+		<updated>2020-03-16T10:47:00Z</updated>
+		<author>
+			<name>Dan Mall</name>
+			<uri>http://danmall.me/</uri>
+		</author>
+		<content type="html" xml:base="http://danmall.me/articles/" xml:lang="en"><![CDATA[
+<h2 id="work">Work <a href="#work">#</a></h2>
+
+<ol>
+	<li>Continued to write a blog post for the <a href="https://superfriendlydesign.systems/">SuperFriendly</a> site</li>
+	<li>More scheming with <a href="https://twitter.com/blankenship/">Joshua Blankenship</a> and <a href="https://twitter.com/mattecook">Matt Cook</a></li>
+	<li>Finalized infrastructure diagram for a client</li>
+	<li>Prepping with panel members for an upcoming <a href="https://www.phillychi.acm.org/">PhillyCHI</a> meetup called <a href="https://www.eventbrite.com/e/so-you-want-to-be-a-successful-ux-practitioner-registration-98794056683">So, You Want to Be a Successful UX Practitioner?</a></li>
+	<li>Coaching meeting with <a href="https://twitter.com/jessiofhall/">Jessi Hall</a>, <a href="https://twitter.com/abbyfretz">Abby Fretz</a>, <a href="http://www.geofcrowl.com/">Geof Crowl</a>, and <a href="https://plasticmind.com/">Jesse Gardner</a></li>                
+	<li>Finished first draft of a syllabus for an upcoming class I&rsquo;ll be teaching</li>
+	<li>Reviewed an <abbr title="Statement of Work">SOW</abbr> for an upcoming project</li>
+	<li>Studio meeting about upcoming capacity with Jessi Hall, <a href="https://twitter.com/crystalvitelli">Crystal Vitelli</a>, and <a href="https://twitter.com/joerinaldi">Joe Rinaldi</a></li>
+	<li>New project discussion with Jessi Hall, <a href="https://bigmedium.com/">Josh Clark</a>, and <a href="https://bradfrost.com/">Brad Frost</a></li>
+	<li>Business development check-in meeting with Joe Rinaldi</li>
+</ol>
+
+<h2 id="personal">Personal <a href="#personal">#</a></h2>
+
+<ol>
+	<li><a href="https://twitter.com/Jahwnie">Jon Mall</a> and I <a href="https://twitter.com/danmall/status/1238617097447620609">got tattoos</a> in memory of our grandfather</li>
+	<li>I shot photos at <a href="https://www.instagram.com/p/B9o_xD3p-FK/">Portland Head Light</a> and <a href="https://www.instagram.com/p/B9w_Nn1JZ60/">Old Orchard Beach</a></li>
+	<li>Ate at <a href="https://www.mistralprinceton.com/">Mistral</a> with <a href="http://emilymall.me/">Em</a> and Jeff and Sharon Clark</li>
+	<li>Ate at <a href="http://www.miyakerestaurants.com/miyake">Miyake</a>, <a href="http://www.forestreet.biz/">Fore Street</a>, and <a href="https://www.fiveguys.com/">Five Guys</a> with Jon Mall</li>
+	<li>Coronavirus news got real. <a href="https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/">Social distancing</a> is the recommended containment strategy. The kids&rsquo; school is closed.</li> 
+	<li>Slept an average of 6 hours and 9 minutes per night. Average bedtime: 10:45pm. Average wake up time: 5:53am.</li>
+</ol>		
+		]]></content>
+	</entry>
 
 
 
@@ -22,7 +64,7 @@
 			<uri>http://danmall.me/</uri>
 		</author>
 		<content type="html" xml:base="http://danmall.me/articles/" xml:lang="en"><![CDATA[
-<h2 id="work">Work <a class="dm-dp-anchorLink" href="#work">#</a></h2>
+<h2 id="work">Work <a href="#work">#</a></h2>
 
 <ol>
 	<li>Braintrust meeting for client project</li>
@@ -44,7 +86,7 @@
 	<li>Studio meeting about how we better could onboard SuperFriends with Jessi Hall, <a href="https://twitter.com/crystalvitelli">Crystal Vitelli</a>, and Joe Rinaldi</li>
 </ol>
 
-<h2 id="personal">Personal <a class="dm-dp-anchorLink" href="#personal">#</a></h2>
+<h2 id="personal">Personal <a href="#personal">#</a></h2>
 
 <ol>
 	<li>Hosted a friend of <a href="https://twitter.com/siddaleemall">Sidda</a>&rsquo;s for a playdate, and sent <a href="https://twitter.com/charlottemall">Charlie</a> to one of her friend&rsquo;s houses for a playdate</li>
