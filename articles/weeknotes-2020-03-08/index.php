@@ -79,6 +79,7 @@
                 <ol>
                     <li><a href="https://twitter.com/Jahwnie">Jon Mall</a> and I <a href="https://twitter.com/danmall/status/1238617097447620609">got tattoos</a> in memory of our grandfather</li>
                     <li>I shot photos at <a href="https://www.instagram.com/p/B9o_xD3p-FK/">Portland Head Light</a> and <a href="https://www.instagram.com/p/B9w_Nn1JZ60/">Old Orchard Beach</a></li>
+                    <li>Pooped in the woods</li>
                     <li>Ate at <a href="https://www.mistralprinceton.com/">Mistral</a> with <a href="http://emilymall.me/">Em</a> and Jeff and Sharon Clark</li>
                     <li>Ate at <a href="http://www.miyakerestaurants.com/miyake">Miyake</a>, <a href="http://www.forestreet.biz/">Fore Street</a>, and <a href="https://www.fiveguys.com/">Five Guys</a> with Jon Mall</li>
                     <li>Coronavirus news got real. <a href="https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/">Social distancing</a> is the recommended containment strategy. The kids&rsquo; school is closed.</li> 
