@@ -5,8 +5,53 @@
 	<link rel="alternate" type="text/html" href="http://danmall.me/" />
 	<link rel="self" type="application/atom+xml" href="http://danmall.me/rss/full.xml" />
 	<id>http://danmall.me/rss/full.xml</id>
-	<updated>2020-03-16T10:47:00Z</updated>
+	<updated>2020-03-21T21:20:00Z</updated>
 	<rights>Copyright © 2020, Dan Mall</rights>
+
+
+	<entry>
+		<title><![CDATA[Weeknotes: March 15&ndash;March 21, 2020]]></title>
+		<description><![CDATA[Highlights from the week.]]></description>
+		<link rel="alternate" type="text/html" href="http://danmall.me/articles/weeknotes-2020-03-15/" />
+		<id>http://danmall.me/articles/weeknotes-2020-03-05/</id>
+		<published>2020-03-21T21:20:00Z</published>
+		<updated>2020-03-21T21:20:00Z</updated>
+		<author>
+			<name>Dan Mall</name>
+			<uri>http://danmall.me/</uri>
+		</author>
+		<content type="html" xml:base="http://danmall.me/articles/" xml:lang="en"><![CDATA[
+<h2 id="work">Work <a href="#work">#</a></h2>
+
+<ol>
+	<li>Published <a href="https://superfriendlydesign.systems/articles/making-design-systems-public/">Making Design Systems Public</a></li>
+	<li>Talked to <a href="https://www.finamoredesign.com/">Troy Finamore</a> about the class I&rsquo;ll be teaching soon</li>
+	<li>Talked to <a href="https://twitter.com/megasheppy">Megan Shuffle</a> about an upcoming project</li>
+	<li>Drexel online class briefing</li>
+	<li>Three meetings over five hours with a client to wrap up a project by making final recommendations and help them write user stories against those recommendations</li>
+	<li>Work on new SuperFriendly site section for our new design systems podcast</li>
+	<li>Talked to <a href="https://www.afyia.design/">Afyia Smith</a> about <a href="https://shoptalkshow.com/">Shop Talk Show</a> site</li>
+	<li>Worked on a new section of the <a href="https://superfriendlydesign.systems/">SuperFriendly site</a></li>
+	<li>Sorted through all the <a href="https://twitter.com/superfriendlyco/status/1240705305886912515">COVID-19 illustrator applicants</a></li>
+	<li>Interviewed a new prospective tech director</li>
+	<li>Talked to <a href="https://twitter.com/tpitre">TJ Pitre</a> about a new project</li>
+	<li>Business development check-in meeting with <a href="https://twitter.com/joerinaldi">Joe Rinaldi</a></li>
+</ol>
+
+<h2 id="personal">Personal <a href="#personal">#</a></h2>
+
+<ol>
+	<li>Watched <cite>Jumanji: The Next Level</cite>, <cite>Split</cite>, and <cite>Onward</cite> (<a href="https://twitter.com/danmall/status/1236736228940275717">again</a>)</li>
+	<li>Slow-cooked <a href="https://www.allrecipes.com/recipe/18032/slow-cooker-lemon-garlic-chicken-ii/">lemon garlic chicken</a> and <a href="https://thestayathomechef.com/slow-cooker-beef-short-ribs/">beef short ribs</a></li>
+	<li><a href="https://twitter.com/danmall/status/1241130099585560576">Reverse-seared steaks for the first time</a></li>
+	<li>Talked to my therapist</li>
+	<li>Took the family for a hike at the Delaware Water Gap</li>
+	<li>Publicly announced <a href="https://twitter.com/superfriendlyco/status/1240705305886912515">an idea</a> to help illustrators affected by COVID-19</li>
+	<li>Slept an average of 6 hours and 38 minutes per night. Average bedtime: 10:25pm. Average wake up time: 6:16am.</li>
+</ol>		
+		]]></content>
+	</entry>
+
 
 
 
