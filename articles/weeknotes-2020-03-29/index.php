@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>&ldquo;Weeknotes: March 22&ndash;March 28, 2020,&rdquo; an article by Dan Mall</title>
+    <title>&ldquo;Weeknotes: March 29&ndash;April 4, 2020,&rdquo; an article by Dan Mall</title>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?> 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
 
@@ -10,7 +10,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@danmall" />
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
-    <meta name="twitter:title" property="og:title" content="Weeknotes: March 22&ndash;March 28, 2020" />
+    <meta name="twitter:title" property="og:title" content="Weeknotes: March 29&ndash;April 4, 2020" />
     <meta name="twitter:description" property="og:description" content="Highlights from the week." />
     <meta name="description" content="Highlights from the week." />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>thumb.png" />
@@ -44,10 +44,10 @@
         <header class="dm-c-pageHeader dm-l-articleGrid--main" role="banner">
 
             <h1 class="dm-c-pageHeader_title">
-                Weeknotes: <span class="dm-u-wrap--none">March 22</span>&ndash;<span class="dm-u-wrap--none">March 28, 2020</span>  
+                Weeknotes: <span class="dm-u-wrap--none">March 29</span>&ndash;<span class="dm-u-wrap--none">April 4, 2020</span>  
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">April 3, 2020 at 5:45 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">April 4, 2020 at 8:51 <abbr title="Ante Meridien">AM</abbr></h2>
 
         </header><!-- .page-header -->
 
@@ -62,33 +62,27 @@
                 <h2 id="work">Work <a class="dm-dp-anchorLink" href="#work">#</a></h2>
 
                 <ol>
-                    <li>Worked on launch strategy for a new podcast</li>
-                    <li>Onboarded illustrators for <a href="https://superfriendlydesign.systems/covid19/">COVID-19 initiative</a></li>
-                    <li>Posted feedback to <a href="https://www.afyia.design/">Afyia Smith</a> on <a href="https://shoptalkshow.com/">Shop Talk Show</a> site revisions</li>
-                    <li>Strategized with <a href="https://twitter.com/jessiofhall/">Jessi Hall</a>, <a href="https://twitter.com/crystalvitelli">Crystal Vitelli</a>, <a href="https://twitter.com/joerinaldi">Joe Rinaldi</a>, and <a href="https://twitter.com/LeslieSCamacho">Leslie Camacho</a> about what <a href="https://superfriendlydesign.systems/">SuperFriendly</a> could do to help those affected by COVID-19</li>
-                    <li>Crystal Vitelli, Joe Rinaldi, and I onboarded <a href="http://nicole-hampton.com/">Nicole Hampton</a>, <a href="http://isabelsousa.com/">Isa Sousa</a>, <a href="https://bigmedium.com/">Josh Clark</a>, and <a href="https://southleft.com/">TJ Pitre</a> to a new project </li>
-                    <li>Published <a href="https://superfriendlydesign.systems/articles/superfriendly-covid19/">SuperFriendly + COVID-19</a></li>
-                    <li>Talked about a new project with <a href="https://twitter.com/megasheppy?lang=en">Megan Shuffle</a>, <a href="https://feather.ca/">Derek Featherstone</a>, and Joe Rinaldi</li>
-                    <li>Ran through SuperFriendly roadmap with Leslie Camacho</li>
-                    <li>Weekly business development check-ins with Joe Rinaldi</li>
-                    <li>Talked to a prospective client with Joe Rinaldi</li>
-                    <li>Talked to a new prospective client with Joe Rinaldi and Jessi Hall</li>
-                    <li>Mapped out a new strategy and dashboard for all SuperFriendly accounts</li>
-                    <li>Prepped thoughts for upcoming SuperFriendly all-hands meetings</li>
-                    <li>Joined 2 project braintrust meetings</li>                    
-                    <li>Held 1-on-1 coaching sessions with SuperFriendly Directors <a href="https://isabelsousa.com/">Isa Sousa</a> and <a href="https://www.antonsten.com/">Anton Sten</a></li>
-                    <li>Chatted with <a href="https://twitter.com/twatson">Tom Watson</a> about <a href="https://glass.photo/">Glass</a></li>
-                    <li>Talked to <a href="http://www.geofcrowl.com/">Geof Crowl</a> with Megan Shuffle about a new project</li>
-                    <li>Recorded podcast episode with <a href="https://twitter.com/kimwms_">Kim Williams</a> from <a href="https://www.minted.com/">Minted</a></li>
-                    <li>Studio meeting about capacity and account strategy with Jessi Hall, Crystal Vitelli, Joe Rinaldi, Leslie Camacho</li>
+                    <li>Signed a new project with an existing client</li>
+                    <li>Signed a new project with a new client</li>
+                    <li>Conducted 2 sessions of SuperFriendly all-hands meetings about a COVID-19 response</li>
+                    <li>Scheduled a remote workshop with new client</li>
+                    <li>Interviewed a new potential Director</li>
+                    <li>Talked to <a href="https://jervo.org/">Jervis Thompson</a > about upcoming class</li>
+                    <li>Launched <a href="https://superfriendlydesign.systems/covid19/">COVID-19 illustrator project</a></li>
+                    <li>Attended <a href="http://www.zeldman.com/">Jeffrey Zeldman</a>&rsquo;s <a href="https://interactiondesign.sva.edu/curriculum/mfa-program#selling-design">SVA class</a > as a guest speaker</li>
+                    <li>Attended COVID-19 briefing meeting with influencers</li>
+                    <li>Attended <a href="https://twitter.com/USDResponse/status/1244738873676009472">US Digital Response COVID-19 webinar</a></li>
+                    <li>Finishing touches on new podcast launch for next week</li>
+                    <li>Weekly business development check-ins with <a href="https://twitter.com/joerinaldi">Joe Rinaldi</a></li>
+                    <li>Studio meeting with <a href="https://twitter.com/jessiofhall/">Jessi Hall</a>, <a href="https://twitter.com/crystalvitelli">Crystal Vitelli</a>, and Joe Rinaldi</li>                    
                 </ol>
 
                 <h2 id="personal">Personal <a class="dm-dp-anchorLink" href="#personal">#</a></h2>
 
                 <ol>
-                    <li>More reverse-searing steaks</li>
-                    <li>Took the family for a hike at <a href="https://www.nps.gov/dewa/planyourvisit/buttermilk-falls-trail.htm">Buttermilk Falls</a></li>
-                    <li>Slept an average of 7 hours and 0 minutes per night. Average bedtime: 10:16pm. Average wake up time: 6:02am.</li>
+                    <li>Changed schedule to have family/school time in the mornings and only work afternoons from 1pm&ndash;6pm. I worked 26 hours this week as opposed to my typical 35&ndash;40. Feels a bit weird but I can also see how this could work just fine even after things get back to &ldquo;normal.&rdquo;</li>
+                    <li>Talked to therapist about stress</li>
+                    <li>Slept an average of 5 hours and 58 minutes per night. Average bedtime: 10:37pm. Average wake up time: 5:24am.</li>
                 </ol>
 
             </div>
@@ -98,8 +92,8 @@
                 <h1 class="dm-c-upNext_kicker">Up Next</h1>
 
                 <h2 class="dm-c-upNext_title">
-                    <a href="/articles/weeknotes-2020-03-15/">
-                    Weeknotes: March 15&ndash;March 21, <span class="dm-c-upNext_title_lastWord">2020</span>
+                    <a href="/articles/weeknotes-2020-03-22/">
+                    Weeknotes: March 22&ndash;March 28, <span class="dm-c-upNext_title_lastWord">2020</span>
                     </a>
                 </h2>
 
