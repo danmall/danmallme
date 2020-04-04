@@ -47,7 +47,7 @@
                 Weeknotes: <span class="dm-u-wrap--none">March 29</span>&ndash;<span class="dm-u-wrap--none">April 4, 2020</span>  
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">April 3, 2020 at 5:45 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">April 4, 2020 at 8:51 <abbr title="Ante Meridien">AM</abbr></h2>
 
         </header><!-- .page-header -->
 
@@ -73,16 +73,16 @@
                     <li>Attended COVID-19 briefing meeting with influencers</li>
                     <li>Attended <a href="https://twitter.com/USDResponse/status/1244738873676009472">US Digital Response COVID-19 webinar</a></li>
                     <li>Finishing touches on new podcast launch for next week</li>
-                    <li>Weekly business development check-ins with Joe Rinaldi</li>
-                    <li>Studio meeting with Jessi Hall, Crystal Vitelli, Joe Rinaldi, Leslie Camacho</li>                    
+                    <li>Weekly business development check-ins with <a href="https://twitter.com/joerinaldi">Joe Rinaldi</a></li>
+                    <li>Studio meeting with <a href="https://twitter.com/jessiofhall/">Jessi Hall</a>, <a href="https://twitter.com/crystalvitelli">Crystal Vitelli</a>, and Joe Rinaldi</li>                    
                 </ol>
 
                 <h2 id="personal">Personal <a class="dm-dp-anchorLink" href="#personal">#</a></h2>
 
                 <ol>
-                    <li>Changed schedule to have family/school time in the mornings and only work afternoons from 1pm&ndash;6pm</li>
+                    <li>Changed schedule to have family/school time in the mornings and only work afternoons from 1pm&ndash;6pm. I worked 26 hours this week as opposed to my typical 35&ndash;40. Feels a bit weird but I can also see how this could work just fine even after things get back to &ldquo;normal.&rdquo;</li>
                     <li>Talked to therapist about stress</li>
-                    <li>Slept an average of 7 hours and 0 minutes per night. Average bedtime: 10:16pm. Average wake up time: 6:02am.</li>
+                    <li>Slept an average of 5 hours and 58 minutes per night. Average bedtime: 10:37pm. Average wake up time: 5:24am.</li>
                 </ol>
 
             </div>
@@ -92,8 +92,8 @@
                 <h1 class="dm-c-upNext_kicker">Up Next</h1>
 
                 <h2 class="dm-c-upNext_title">
-                    <a href="/articles/weeknotes-2020-03-08/">
-                    Weeknotes: March 8&ndash;March 14, <span class="dm-c-upNext_title_lastWord">2020</span>
+                    <a href="/articles/weeknotes-2020-03-22/">
+                    Weeknotes: March 22&ndash;March 28, <span class="dm-c-upNext_title_lastWord">2020</span>
                     </a>
                 </h2>
 
