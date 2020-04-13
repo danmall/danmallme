@@ -47,7 +47,7 @@
                 Weeknotes: <span class="dm-u-wrap--none">April 5</span>&ndash;<span class="dm-u-wrap--none">April 11, 2020</span>  
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">April 13, 2020 at 8:51 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">April 13, 2020 at 5:32 <abbr title="Post Meridien">PM</abbr></h2>
 
         </header><!-- .page-header -->
 
