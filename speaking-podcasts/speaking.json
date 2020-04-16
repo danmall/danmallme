@@ -15,12 +15,14 @@
 		"title"		: 	"Hi-Res: Episode 139",
 		"slug"		:	"https://podcasts.apple.com/us/podcast/139-dan-mall/id991081339?i=1000471401603",
 		"date"		:	"2020-04-13",
+		"type"		:	"podcast",
 		"audio"		:	true
 	},
 	{
 		"title"		: 	"Let&rsquo;s Learn Design Systems",
 		"slug"		:	"https://www.learnwithjason.dev/let-s-learn-design-systems",
 		"date"		:	"2020-04-09",
+		"type"		:	"video",
 		"video"		:	true
 	},
 	{
