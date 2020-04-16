@@ -12,19 +12,19 @@
 		"location"	:	"Toronto"
 	},
 	{
-		"title"		: 	"An Event Apart",
-		"slug"		:	"https://aneventapart.com/event/seattle-2020",
-		"date"		:	"2020-05-11",
-		"location"	:	"Seattle, <abbr title=\"Washington\">WA</abbr>"
-	},
-	{
-		"title"		: 	"An Event Apart",
-		"slug"		:	"https://aneventapart.com/event/washington-dc-2020",
+		"title"		: 	"Hi-Res: Episode 139",
+		"slug"		:	"https://podcasts.apple.com/us/podcast/139-dan-mall/id991081339?i=1000471401603",
 		"date"		:	"2020-04-13",
-		"location"	:	"Washington <abbr title=\"District of Columbia\">DC</abbr>"
+		"audio"		:	true
 	},
 	{
-		"title"		: 	"The Super Orchestrator",
+		"title"		: 	"Let&rsquo;s Learn Design Systems",
+		"slug"		:	"https://www.learnwithjason.dev/let-s-learn-design-systems",
+		"date"		:	"2020-04-09",
+		"video"		:	true
+	},
+	{
+		"title"		: 	"Roots Podcast: The Super Orchestrator",
 		"slug"		:	"https://rootspodcast.design/podcast/danmall",
 		"date"		:	"2020-01-16",
 		"type"		:	"podcast",
