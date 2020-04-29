@@ -427,7 +427,7 @@
 		"type"		:	"Podcast"
 	},
 	{
-		"title"		: 	"Ask a Freelancer",
+		"title"		: 	"Ask a Freelancer: &ldquo;Next Stop: Freelance&rdquo;",
 		"slug"		:	"http://cushionapp.com/ask-a-freelancer/episode-008/",
 		"audio"		:	true,
 		"date"		:	"2016-10-25",
