@@ -12,6 +12,18 @@
 		"location"	:	"Toronto"
 	},
 	{
+		"title"		: 	"An Evening with Dan Mall from SuperFriendly",
+		"slug"		:	"https://jacksonville.aiga.org/event/an-evening-with-dan-mall-from-superfriendly/",
+		"date"		:	"2020-05-01",
+		"location"	:	"Online"
+	},
+	{
+		"title"		: 	"So, You Want to Be a Successful UX Practitioner?",
+		"slug"		:	"https://www.eventbrite.com/e/so-you-want-to-be-a-successful-ux-practitioner-registration-98794056683",
+		"date"		:	"2020-04-29",
+		"location"	:	"Online"
+	},
+	{
 		"title"		: 	"Hi-Res: Episode 139",
 		"slug"		:	"https://podcasts.apple.com/us/podcast/139-dan-mall/id991081339?i=1000471401603",
 		"date"		:	"2020-04-13",
