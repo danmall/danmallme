@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>&ldquo;Weeknotes: April 12&ndash;April 18, 2020,&rdquo; an article by Dan Mall</title>
+    <title>&ldquo;Weeknotes: May 3&ndash;May 9, 2020,&rdquo; an article by Dan Mall</title>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?> 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
 
@@ -10,7 +10,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@danmall" />
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
-    <meta name="twitter:title" property="og:title" content="Weeknotes: April 12&ndash;April 18, 2020" />
+    <meta name="twitter:title" property="og:title" content="Weeknotes: May 3&ndash;May, 2020" />
     <meta name="twitter:description" property="og:description" content="Highlights from the week." />
     <meta name="description" content="Highlights from the week." />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>thumb.png" />
@@ -44,10 +44,10 @@
         <header class="dm-c-pageHeader dm-l-articleGrid--main" role="banner">
 
             <h1 class="dm-c-pageHeader_title">
-                Weeknotes: <span class="dm-u-wrap--none">April 2</span>&ndash;<span class="dm-u-wrap--none">April 18, 2020</span>  
+                Weeknotes: <span class="dm-u-wrap--none">May 3</span>&ndash;<span class="dm-u-wrap--none">May 9, 2020</span>  
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">April 18, 2020 at 5:32 <abbr title="Post Meridien">PM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">May 9, 2020 at 5:24 <abbr title="Post Meridien">PM</abbr></h2>
 
         </header><!-- .page-header -->
 
@@ -62,26 +62,26 @@
                 <h2 id="work">Work <a class="dm-dp-anchorLink" href="#work">#</a></h2>
 
                 <ol>
-                    <li>Articulated strategy for client response teams</li>
-                    <li>Interviewed a new director</li>
-                    <li>Helped with forms documentation for client design system reference site</li>
-                    <li>Ramped up response teams that I&rsquo;m directing</li>
-                    <li>Held 1-on-1 coaching sessions with SuperFriendly Director <a href="https://twitter.com/tpitre">TJ Pitre</a></li>
-                    <li>Interviewed new Producer candidate with <a href="https://twitter.com/jessiofhall/">Jessi Hall</a> and <a href="https://twitter.com/crystalvitelli">Crystal Vitelli</a></li>
-                    <li>Talked with <a href="https://blankenship.xyz/">Joshua Blankenship</a ></li>
-                    <li>Weekly business development check-ins with <a href="https://twitter.com/joerinaldi">Joe Rinaldi</a></li>
-                    <li>Publicly announced new SuperFriendly podcast (<a href="https://superfriendlydesign.systems/podcasts/get-it-out-of-your-system/">Get it Out Of Your System</a>)</li>
-                    <li>Talked to <a href="https://ianfrostweather.com/">Ian Frost</a> about putting together a proof-of-concept for a client</li>
-                    <li>Talked to TJ Pitre about working on a new project together</li>
-                    <li>Brainstormed with <a href="http://abbyfretz.com/">Abby Fretz</a> and <a href="http://www.geofcrowl.com/">Geof Crowl</a> about some new ideas for an existing client</li>
-                    <li>Did <a href="https://www.youtube.com/watch?v=QGAX7FsOOJE&feature=youtu.be">Let&rsquo;s Learn Design Systems! livestream</a> with <a href="https://lengstorf.com/">Jason Lengstorf</a></li>
-                    <li>Attended <a href="https://info.usertesting.com/webinar-consumer-impacts-covid19-thank-you.html">UserTesting.com COVID-19 user insights webinar</a ></li>
-                    <li>Quarterly planning with <a href="https://bigmedium.com/">Josh Clark</a> and <a href="https://bradfrost.com/">Brad Frost</a></li>
-                    <li>Talked with <a href="https://www.keahukahuanui.com/">Keahu Kahuanui</a> about our project</li>
-                    <li>Taught <a href="https://twitter.com/danielmall/status/1248593612532744193">the first week</a> of <a href="https://superfriendlydesign.systems/classes/design-systems-101/">my Design Systems Drexel Westphal class</a></li>
-                    <li>Attended <a href="https://www.youtube.com/watch?v=t6i8oywMiVw&feature=youtu.be">Design Systems AMA</a> with <a href="https://www.sushiandrobots.com/">Jina Anne</a> and <a href="http://mina.codes/">Mina Markham</a></li>
-                    <li>Reviewed a new account dashboard plan with Crystal Vitelli and <a href="https://www.glimmering.com/">Leslie Camacho</a></li>
-                    <li>Studio meeting with Jessi Hall, Crystal Vitelli, and Joe Rinaldi</li>
+                    <li>Worked on <a href="https://superfriendlydesign.systems/">SuperFriendly</a> Q2 2020 <abbr title="Objectives &amp; Key Results">OKR</abbr>s</li>
+                    <li>Schemed with <a href="https://www.designembraced.com/">Ant Goodwin</a></li>
+                    <li>Talked with <a href="https://www.julyfivedesign.com/">Lauren Deal, Kevin Deal</a>, and <a href="https://dontaebenn.myportfolio.com/">Dontae Benn</a> about agency growth</li>
+                    <li>Did WordPress admin training for a new side project</li>
+                    <li>Met with <a href="https://twitter.com/jessiofhall/">Jessi Hall</a>, <a href="https://twitter.com/crystalvitelli">Crystal Vitelli</a>, and <a href="https://twitter.com/joerinaldi">Joe Rinaldi</a> about ending a project well</li>
+                    <li>Roundtable conversation with all SuperFriendly Directors about effective remote management techniques</li>
+                    <li>1-on-1s with Jessi Hall, Crystal Vitelli, <a href="https://twitter.com/tpitre">TJ Pitre</a>, <a href="https://www.antonsten.com/">Anton Sten</a>, and <a href="http://www.geofcrowl.com/">Geof Crowl</a></li>
+                    <li>Project planning with <a href="https://twitter.com/gregsarault">Greg Sarault</a></li>
+                    <li>Weekly business development check-ins with Joe Rinaldi</li>
+                    <li>Worked on soon-to-debut product checkout flow</li>
+                    <li>Talked to <a href="https://www.sherlocklegal.com/">Matt Sherlock</a> about subcontractor agreements for SuperFriendly executive producers</li>
+                    <li>Interviewed 2 new developers</li>
+                    <li>Talked to a student about career paths</li>
+                    <li>Happy hour with fellow <cite><a href="https://abookapart.com/">A Book Apart</a></cite> authors</li>
+                    <li>Catch up with <a href="http://nicole-hampton.com/">Nicole Hampton</a></li>
+                    <li>Talked cash reserves with financial advisor</li>
+                    <li>Taught Drexel Design Systems class about accessibility and deviating from a system with special guest <a href="https://feather.ca/">Derek Featherstone</a></li>
+                    <li>Published new article to SuperFriendly site: <a href="https://superfriendlydesign.systems/articles/useful-sections-design-system-reference-site/">Useful Sections for a Design System Reference Site</a></li>
+                    <li><a href="https://www.eventbrite.com/o/designsystems-30064836922">Design Systems <abbr title="Ask Me Anything">AMA</abbr></a> with <a href="https://www.sushiandrobots.com/">Jina Anne</a></li>
+                    <li>Studio meeting about Braintrusts with Crystal Vitelli and Joe Rinaldi</li>
                 </ol>
 
                 
@@ -89,13 +89,11 @@
                 <h2 id="personal">Personal <a class="dm-dp-anchorLink" href="#personal">#</a></h2>
 
                 <ol>
-                    <li>Was extra irritable and cranky this week</li>
-                    <li>Downloaded and played some of the <a href="https://store.na.square-enix-games.com/en_US/product/562671/final-fantasy-vii-remake-1st-class-edition-ps4">Final Fantasy VII remake</a></li>
-                    <li>Played some <a href="https://thatgamecompany.com/journey/">Journey</a> with Sidda</li>
-                    <li>Watched a few episodes of <a href="https://www.sho.com/billions">Billions</a> season 1</li>
-                    <li>Started watching <a href="https://www.history.com/shows/hatfields-and-mccoys/season-1">Hatfields &amp; McCoys</a></li>
-                    <li>Did an impromptu concert with <a href="http://emilymall.me/">Em</a> and the kids on Facebook Live</li>
-                    <li>Slept an average of 5 hours and 36 minutes per night. Average bedtime: 10:24pm. Average wake up time: 5:31am.</li>
+                    <li>Watched <cite><a href="https://www.espn.com/nba/story/_/id/28973557/the-last-dance-updates-untold-story-michael-jordan-chicago-bulls">The Last Dance</a></cite>, episodes 5 and 6</li>
+                    <li>Watched <cite><a href="https://www.netflix.com/title/80228244">Waco</a></cite>, episodes 1 &ndash; 4</li>
+                    <li>Finished reading <cite><a href="https://amzn.to/2WiLtnu">Delivering Happiness: A Path to Profits, Passion, and Purpose</a></cite> by Tony Hsieh and <cite><a href="https://amzn.to/2WFgEZ3">Your Money Made Simple: The Key to Financial Freedom</a></cite> by Russ Crosson</li>
+                    <li>Played Monopoly with the kids</li>
+                    <li>Slept an average of 5 hours and 56 minutes per night. Average bedtime: 10:52pm. Average wake up time: 5:59am.</li>
                 </ol>
 
             </div>
@@ -105,8 +103,8 @@
                 <h1 class="dm-c-upNext_kicker">Up Next</h1>
 
                 <h2 class="dm-c-upNext_title">
-                    <a href="/articles/weeknotes-2020-03-29/">
-                    Weeknotes: March 29&ndash;April 4, <span class="dm-c-upNext_title_lastWord">2020</span>
+                    <a href="/articles/weeknotes-2020-04-05/">
+                    Weeknotes: April 5&ndash;April 11, <span class="dm-c-upNext_title_lastWord">2020</span>
                     </a>
                 </h2>
 
