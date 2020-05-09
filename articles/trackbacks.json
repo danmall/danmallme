@@ -1,5 +1,17 @@
 [
 	{
+		"title"		: 	"A new normal for design",
+		"slug"		:	"https://www.abstract.com/blog/overheard-may-2020/",
+		"date"		:	"2020-05-07",
+		"source"	:	"Abstract"
+	},
+	{
+		"title"		: 	"Remote Product Development: Why Teams Should Design and Code Together, Anywhere",
+		"slug"		:	"https://dockyard.com/blog/2020/05/04/remote-product-development-why-teams-should-design-and-code-together-anywhere",
+		"date"		:	"2020-05-04",
+		"source"	:	"Dockyard"
+	},
+	{
 		"title"		: 	"CalDigit TS3 Plus Dock",
 		"slug"		:	"https://chriscoyier.net/2020/04/02/caldigit-ts3-plus-dock/",
 		"date"		:	"2020-04-02",
@@ -160,6 +172,12 @@
 		"slug"		:	"https://www.youtube.com/watch?time_continue=2&v=jpmeWXISU5E",
 		"date"		:	"2019-05-01",
 		"source"	:	"Google Chrome Developers"
+	},
+	{
+		"title"		: 	"Totally Incomplete and Utterly Unfinished List of “Non White Male” Designers to Follow and Listen to",
+		"slug"		:	"https://medium.com/@mento_coach/totally-incomplete-and-utterly-unfinished-list-of-non-white-male-designers-to-follow-and-listen-to-6c20408d4a2",
+		"date"		:	"2019-04-11",
+		"source"	:	"PEERS"
 	},
 	{
 		"title"		: 	"Managing an Agency/Team",
