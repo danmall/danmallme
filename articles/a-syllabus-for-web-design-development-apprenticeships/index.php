@@ -56,32 +56,82 @@
                 <p>As I write this information for the first time, I&rsquo;m realizing in hindsight how valuable documenting this earlier would have been for me and even moreso for my apprentices. I&rsquo;m partially writing all of this down as a resource for myself in case I ever bring the apprenticeship back again.</p>
                 
                 <p lang="fr">C&lsquo;est la vie.</p> 
-
-                <h2 id="objective">Objective <a class="dm-dp-anchorLink" href="#objective">#</a></h2>
                 
-                <p>To unlock a new way of life for the apprentice through gaining knowledge of web design and/or web development and the accompanying industry.</p>
+                <div class="dm-dp-asteriskSplit">
+
+                    <h2 id="objective">Objective <a class="dm-dp-anchorLink" href="#objective">#</a></h2>
+                    
+                    <p>To unlock a new way of life for the apprentice through gaining knowledge of web design and/or web development and the accompanying industry.</p>
+
+                </div>
+                
+                <div class="dm-dp-asteriskSplit">
+
+                    <h2 id="prerequisites">Prerequisites <a class="dm-dp-anchorLink" href="#prerequisites">#</a></h2>
+
+                    <p>Computer proficiency. As little prior knowledge about design and development is preferred, as most of it would likely have to be untaught. If you can already make a design or development portfolio, you&rsquo;re over-qualified for this apprenticeship.</p>                
+
+                </div>
+
+                
+                <div class="dm-dp-asteriskSplit">
+
+                    <h2 id="required-materials">Required Materials <a class="dm-dp-anchorLink" href="#required-materials">#</a></h2>
+
+                    <ul>
+                        <li>Laptop</li>
+                    </ul>
+
+                </div>
 
 
-                <h2 id="prerequisites">Prerequisites <a class="dm-dp-anchorLink" href="#prerequisites">#</a></h2>
+                
+                <div class="dm-dp-asteriskSplit">
 
-                <p>Computer proficiency. As little prior knowledge about design and development is preferred, as most of it would likely have to be untaught. If you can already make a design or development portfolio, you&rsquo;re over-qualified for this apprenticeship.</p>                
+                    <h2 id="attendance-policy">Attendance Policy <a class="dm-dp-anchorLink" href="#attendance-policy">#</a></h2>
 
+                    <p>At the beginning of the apprenticeship, in-person attendance at SuperFriendly <abbr title="Headquarters">HQ</abbr> 4&ndash;5 days a week from 10<abbr title="Ante meridien">am</abbr>&ndash;4<abbr title="Post meridien">pm</abbr> is required. During the second and third units of the apprenticeship, in-person attendance can decrease and independent remote work can increase.</p>
 
-                <h2 id="required-materials">Required Materials <a class="dm-dp-anchorLink" href="#required-materials">#</a></h2>
+                    <p>(Because so much of the learning was designed to be passive, I could never figure out how to make a remote apprenticeship work as well as an in-person one, so to date it has never been an option that I offered.)</p>
 
-                <ul>
-                    <li>Laptop</li>
-                </ul>
+                </div>
 
+                
+                <div class="dm-dp-asteriskSplit">
 
-                <h2 id="attendance-policy">Attendance Policy <a class="dm-dp-anchorLink" href="#attendance-policy">#</a></h2>
-
-                <p>At the beginning of the apprenticeship, in-person attendance at SuperFriendly <abbr title="Headquarters">HQ</abbr> 4&ndash;5 days a week from 10<abbr title="Ante meridien">am</abbr>&ndash;4<abbr title="Post meridien">pm</abbr> is required. During the second and third units of the apprenticeship, in-person attendance can decrease and independent remote work can increase.</p>
-
-                <p>(Because so much of the learning was designed to be passive, I could never figure out how to make a remote apprenticeship work as well as an in-person one, so to date it has never been an option that I offered.)</p>
+                    <h2 id="calendar">Calendar <a class="dm-dp-anchorLink" href="#calendar">#</a></h2>
 
 
-                <h2 id="calendar">Calendar <a class="dm-dp-anchorLink" href="#calendar">#</a></h2>
+                    <h3 id="day1">Day 1: <a href="https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm">How the internet works</a> <a class="dm-dp-anchorLink" href="#day1">#</a></h2>
+
+                    <h4>Conversation</h4>
+
+                    <ul>
+                        <li>Web browsers</li>
+                        <li>Internet protocols, IP addresses, and <abbr title="Uniform Resource Locator">URL</abbr>s</li>
+                        <li>Clients and servers</li>
+                    </ul>
+
+
+
+                    <h3 id="day2">Day 2: Introduction to <abbr title="HyperText Markup Language">HTML</abbr> <a class="dm-dp-anchorLink" href="#day2">#</a></h2>
+
+                    <h4>Conversation</h4>
+
+                    <ul>
+                        <li>Tags, attributes, and values</li>
+                        <li>Semantics</li>
+                        <li><abbr title="eXtensible Markup Language">XML</abbr></li>
+                        <li>The anatomy of a web page</li>
+                    </ul>
+
+                    <h4>Assignment</h4>
+                    <p>Create a r&eacute;sum&eacute; and bio in <abbr>HTML</abbr></p>
+
+                    <h4>Recommended reading</h4>
+
+                </div>
+
 
 
                 <h1>Questions to answer</h1>     
