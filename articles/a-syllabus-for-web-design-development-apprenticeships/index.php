@@ -96,13 +96,30 @@
 
                 </div>
 
+
+                <div class="dm-dp-asteriskSplit">
+
+                    <h2 id="methodology">Methodology <a class="dm-dp-anchorLink" href="#methodology">#</a></h2>
+                    
+                    <p>Every assignment comes with a conversation covering these kinds of questions:</p>
+
+                    <ul>
+                        <li>What was easy?</li>
+                        <li>What was difficult?</li>
+                        <li>What did you learn?</li>
+                    </ul>
+
+                    <p>The answers to these questions help shape the individual learning and direction each apprenticeship takes.</p>
+
+                </div>
+
                 
                 <div class="dm-dp-asteriskSplit">
 
                     <h2 id="calendar">Calendar <a class="dm-dp-anchorLink" href="#calendar">#</a></h2>
 
 
-                    <h3 id="day1">Day 1: <a href="https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm">How the internet works</a> <a class="dm-dp-anchorLink" href="#day1">#</a></h2>
+                    <h3 id="day1">Day 1: How the internet generally works <a class="dm-dp-anchorLink" href="#day1">#</a></h3>
 
                     <h4>Conversation</h4>
 
@@ -112,9 +129,16 @@
                         <li>Clients and servers</li>
                     </ul>
 
+                    <h4>Suggested Reading</h4>
+
+                    <ul>
+                        <li><a href="https://amzn.to/35NDouj"><cite>Designing with Web Standards, 3rd Edition</cite></a>, by Jeffrey Zeldman and Ethan Marcotte: chapters 1&ndash;4</li>
+                        <li><a href="https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm">How Does the Internet Work?</a></li>
+                    </ul>
 
 
-                    <h3 id="day2">Day 2: Introduction to <abbr title="HyperText Markup Language">HTML</abbr> <a class="dm-dp-anchorLink" href="#day2">#</a></h2>
+
+                    <h3 id="day2">Day 2: Introduction to <abbr title="HyperText Markup Language">HTML</abbr> <a class="dm-dp-anchorLink" href="#day2">#</a></h3>
 
                     <h4>Conversation</h4>
 
@@ -128,7 +152,127 @@
                     <h4>Assignment</h4>
                     <p>Create a r&eacute;sum&eacute; and bio in <abbr>HTML</abbr></p>
 
-                    <h4>Recommended reading</h4>
+                    <h4>Suggested Reading</h4>
+
+                    <ul>
+                        <li><cite>Designing with Web Standards</cite>: chapters 5&ndash;8</li>
+                        <li><a href="https://amzn.to/2YQCADs"><cite>Learning Web Design</cite></a>, by Jennifer Niederst Robbins: chapters 4&ndash;10</li>
+                        <li><a href="https://amzn.to/3fAoEDy"><cite>HTML &amp; CSS: Design and Build Websites</cite></a>, by Jon Duckett: chapters 1&ndash;10</li>
+                    </ul>
+
+
+
+                    <h3 id="day3">Day 3: How the tech industry works <a class="dm-dp-anchorLink" href="#day3">#</a></h3>
+
+                    <h4>Conversation</h4>
+
+                    <ul>
+                        <li>Career paths</li>
+                    </ul>
+
+
+
+                    <h3 id="day4">Day 4: Introduction to <abbr title="Cascading Style Sheets">CSS</abbr> <a class="dm-dp-anchorLink" href="#day4">#</a></h3>
+
+                    <h4>Conversation</h4>
+
+                    <ul>
+                        <li>Block and inline elements</li>
+                        <li>Anatomy of <abbr>CSS</abbr> rules</li>
+                        <li>Specificity</li>
+                        <li>The box model</li>
+                    </ul>
+
+                    <h4>Assignment</h4>
+                    <p>Style your r&eacute;sum&eacute; and bio</p>
+
+                    <h4>Suggested Reading</h4>
+
+
+
+
+                    <h3 id="day5">Day 5: More <abbr>CSS</abbr> <a class="dm-dp-anchorLink" href="#day5">#</a></h3>
+
+                    <h4>Conversation</h4>
+
+                    <ul>
+                        <li>
+                            Layout techniques:
+                            <ul>
+                                <li>Floats</li>
+                                <li>Positioning</li>
+                                <li>Flexbox</li>
+                                <li><abbr>CSS</abbr> Grid</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h4>Assignment</h4>
+                    <p>Find a layout in a magazine and replicate it with <abbr>CSS</abbr></p>
+
+
+
+                    <h3 id="day6">Day 6: Introduction to design and design tools <a class="dm-dp-anchorLink" href="#day6">#</a></h3>
+
+                    <h4>Conversation</h4>
+
+                    <ul>
+                        <li>The difference between art and design</li>
+                        <li>Tool rundown in design tools of choice (Sketch, Photoshop, Figma, etc.)</li>
+                    </ul>
+
+                    <h4>Assignment</h4>
+                    <p>Choose a website on <a href="https://www.siteinspire.com/">siteInspire</a> and replicate it in your design tool of choice pixel-for-pixel</p>
+
+                    
+
+
+                    <h3 id="day8">Day 8: Redesign <a class="dm-dp-anchorLink" href="#day8">#</a></h3>
+
+                    <h4>Conversation</h4>
+
+                    <ul>
+                        <li>What makes a digital product &ldquo;better?&rdquo;</li>
+                    </ul>
+
+                    <h4>Assignment</h4>
+                    <p>Redesign your copied site to make it better</p>
+
+                    <h4>Suggested Reading</h4>
+
+                    <ul>
+                        <li><cite><a href="https://amzn.to/3cl6djX">Steal Like an Artist</a></cite>, by Austin Kleon</li>
+                        <li><a href="/articles/stealing-your-way-to-original-designs/">Stealing Your Way to Original Designs</a></li>
+                    </ul>
+
+
+
+                    <h3 id="day10">Days 10&ndash;15: Copy and redesign <a class="dm-dp-anchorLink" href="#day10">#</a></h3>
+
+                    <h4>Assignment</h4>
+                    <p>Same as previous assignment with more complex original sources each time</p>
+
+
+
+
+                    <h3 id="day16">Days 16&ndash;23: JavaScript <a class="dm-dp-anchorLink" href="#day16">#</a></h3>
+
+                    <h4>Conversation</h4>
+                    <ul>
+                        <li>Client-side vs. server-side applications</li>
+                        <li>
+                            Basic programming concepts
+                            <ul>
+                                <li>Variables</li>
+                                <li>Conditionals</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h4>Assignment</h4>
+                    <p>Build a rock-paper-scissors game</p>
+
+
 
                 </div>
 
