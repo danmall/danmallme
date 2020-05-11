@@ -18,6 +18,12 @@
 		"location"	:	"Online"
 	},
 	{
+		"title"		: 	"Bureau of Digital Design Systems Q&amp;A",
+		"slug"		:	"https://bureauofdigital.com/event/design-systems-qa",
+		"date"		:	"2020-05-19",
+		"location"	:	"Online"
+	},
+	{
 		"title"		: 	"Design Systems AMA",
 		"slug"		:	"https://www.eventbrite.com/e/30min-ama-with-jina-anne-featuring-dan-mall-tickets-103266647322#",
 		"date"		:	"2020-05-08",
