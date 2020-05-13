@@ -12,6 +12,12 @@
 		"location"	:	"Toronto"
 	},
 	{
+		"title"		: 	"An Event Apart: Online Together",
+		"slug"		:	"https://aneventapart.com/event/online-0620",
+		"date"		:	"2020-06-15",
+		"location"	:	"Online"
+	},
+	{
 		"title"		: 	"SmashingConf Live",
 		"slug"		:	"https://smashingconf.com/live/",
 		"date"		:	"2020-06-09",
