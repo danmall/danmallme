@@ -31,9 +31,10 @@
 	},
 	{
 		"title"		: 	"Design Systems AMA",
-		"slug"		:	"https://www.eventbrite.com/e/30min-ama-with-jina-anne-featuring-dan-mall-tickets-103266647322#",
+		"slug"		:	"https://www.youtube.com/watch?v=NA5obCUoc1o",
 		"date"		:	"2020-05-08",
-		"location"	:	"Online"
+		"location"	:	"Online",
+		"video"		:	true
 	},
 	{
 		"title"		: 	"An Evening with Dan Mall from SuperFriendly",
