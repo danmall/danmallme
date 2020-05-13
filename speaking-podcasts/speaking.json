@@ -37,9 +37,10 @@
 	},
 	{
 		"title"		: 	"An Evening with Dan Mall from SuperFriendly",
-		"slug"		:	"https://jacksonville.aiga.org/event/an-evening-with-dan-mall-from-superfriendly/",
+		"slug"		:	"https://www.facebook.com/watch/?v=2676560255964391",
 		"date"		:	"2020-05-01",
-		"location"	:	"Online"
+		"location"	:	"Online",
+		"video"		:	true
 	},
 	{
 		"title"		: 	"So, You Want to Be a Successful UX Practitioner?",
