@@ -1,5 +1,17 @@
 [
 	{
+		"title"	: 	"A CEO&rsquo;s COVID-19 Calendar",
+		"slug"	:	"ceo-covid19-calendar",
+		"dek"	:	"A daily routine for a COVID-19 world.",
+		"date"	:	"2020-05-14T19:47:00Z",
+		"tags"	:	[
+			"schedule",
+			"covid19",
+			"ceo",
+			"leadership"
+		]
+	},
+	{
 		"title"	: 	"Weeknotes: May 3&ndash;May 9, 2020",
 		"slug"	:	"weeknotes-2020-05-03",
 		"dek"	:	"Highlights from the week.",
