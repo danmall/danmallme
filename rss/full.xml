@@ -5,8 +5,57 @@
 	<link rel="alternate" type="text/html" href="http://danmall.me/" />
 	<link rel="self" type="application/atom+xml" href="http://danmall.me/rss/full.xml" />
 	<id>http://danmall.me/rss/full.xml</id>
-	<updated>2020-04-13T17:32:00Z</updated>
+	<updated>2020-05-14T19:47:00Z</updated>
 	<rights>Copyright © 2020, Dan Mall</rights>
+
+
+
+	<entry>
+		<title><![CDATA[A CEO&rsquo;s COVID-19 Calendar ]]></title>
+		<description><![CDATA[A daily routine for a COVID-19 world.]]></description>
+		<link rel="alternate" type="text/html" href="http://danmall.me/articles/ceo-covid19-calendar/" />
+		<id>http://danmall.me/articles/ceo-covid19-calendar/</id>
+		<published>2020-05-14T19:47:00Z</published>
+		<updated>2020-05-14T19:47:00Z</updated>
+		<author>
+			<name>Dan Mall</name>
+			<uri>http://danmall.me/</uri>
+		</author>
+		<content type="html" xml:base="http://danmall.me/articles/" xml:lang="en"><![CDATA[
+<p>I&rsquo;ve previously written about <a href="https://superyesmore.com/a-new-calendar-approach-for-2017-19258660a431179c7fa3b281b2fe4ab7">how I manage my calendar</a> in order to be productive. Here&rsquo;s an update to that.</p>         
+
+<p>Why update? A few things have changed since I made that original schedule:</p>
+
+<ul>
+	<li>I&rsquo;ve really embraced being <a href="https://superfriendlydesign.systems/">SuperFriendly</a>&rsquo;s <abbr>CEO</abbr> lately, as opposed to being a practitioner that&rsquo;s the de facto <abbr>CEO</abbr> of a sole proprietorship. That means my focus has changed from trying to create great work myself to creating an ideal environment for others to do great work. As I transition from <a href="http://www.paulgraham.com/makersschedule.html">being primarily a maker to being primarily a manager</a>, I no longer have to protect certain time in the same way.</li>
+	<li>Related to the previous point, I haven&rsquo;t been working actively on any SuperFriendly project myself in about 6 months (with a few small exceptions from time to time). I hinted at this at the end of 2019 in my thoughts about <a href="http://danmall.me/articles/superfriendly-in-2020/">what was in store for SuperFriendly in 2020</a> and in <a href="http://danmall.me/articles/2019-year-in-review/#work">my personal 2019 year in review</a>, but I think my season of being a creative director, designer, and developer for clients is officially over. I&rsquo;ll still be practicing my design and development skills to keep them somewhat sharp, but that&rsquo;ll mostly be on internal and personal projects. I don&rsquo;t know if I&rsquo;ll ever return to client work, but I&rsquo;m currently <em>much</em> more interested and energized by the design challenges that growing a business and growing teams bring. My calendar should reflect that shift in priorities.</li>
+	<li>In an attempt to have an intentional balance of both isolated work and meetings times, I previously time blocked time for both each day: 2 hours for meetings, 3 &frac12; hours for isolated work. But it was too easy to those 3 &frac12; work hours to turn into 2 or 1 because a meeting would run long, I&rsquo;d be distracted by something else, or it was just hard to task <a href="http://v3.danielmall.com/articles/switch-creative-block/">switch</a> fast enough.</li>
+	<li>A global pandemic happened (and is still happening). My kids are home all day. The type of work that SuperFriendly is doing has changed, our approach to work as changed, and our pace of work changed.</li>
+</ul>               
+
+<p>Here&rsquo;s what my new schedule looks like.</p>
+
+<div class="dm-u-marginTop--m dm-u-marginBottom--m">
+	<a href="http://danmall.me/articles/ceo-covid19-calendar/dmall-calendar-2020.svg"><img src="http://danmall.me/articles/ceo-covid19-calendar/dmall-calendar-2020.svg" alt="Dan Mall&rsquo;s 2020 daily schedule" /></a>
+</div>
+
+<p>Some details:</p>
+
+<ul>
+	<li>With the exception of an hour or so of mission work when I wake up, I spend the morning with my kids, getting them ready for the day and doing their school Zoom calls and schoolwork. This also gives my wife the first half of the day to have <a href="http://emilymall.me/2020/05/05/the-12-week-artists-way-challenge-week-1/">her own flow time</a>.</li>
+	<li>
+		Rather than trying to make time for both isolated work and meetings every day, I&rsquo;ve consolidated and limited meetings to Tuesdays and Fridays and given myself Mondays, Tuesdays, and Thursdays for isolated work. Moving from hourly blocking to daily blocking gives me more focused time for each type of task. It&rsquo;s also easier to remember that &ldquo;Tuesday is meeting day&rdquo; rather than &ldquo;1:30&ndash;2:30 is meeting time.&rdquo;
+		<ul>
+			<li>Across Tuesdays and Fridays, I&rsquo;ve given myself up to 10 meetings slots of 50 minutes each. This means I can spend time with up to 10 SuperFriends weekly in 1-on-1s, which <a href="https://twitter.com/danmall/status/1233860402481631233">my weeknotes</a> show me is increasingly more of a priority for me. I&rsquo;m hoping to keep the limit of the people I directly manage in the 6&ndash;8 range that former Intel <abbr>CEO</abbr> Andy Grove suggested in his legendary book, <cite><a href="https://amzn.to/2LqYjdh">High Output Management</a></cite>.</li>
+			<li>Even though I don&rsquo;t need flow time to design and develop things for clients, I still highly value protecting this time. Since I&rsquo;ve switched to this kind of schedule, I&rsquo;ve used this flow time for creating new products and services ideas for SuperFriendly, writing, reading, giving myself space for some thinking, and more.</li>
+		</ul>
+	</li>
+	<li>Exercise time has completely disappeared. With COVID-19, my regular 1&ndash;2 times a week of basketball is non-existent, which was the majority of my exercise. I don&rsquo;t know where to put that yet, though I suspect it may be something I do some mornings with the kids.</li>
+</ul>
+
+<p>My previous system worked really well for me until it didn&rsquo;t. So far, I&rsquo;m liking this system a lot. Even if things go &ldquo;back to normal&rdquo; and the kids go <a href="https://6abc.com/pennsylvania-schools-reopen-closed-pa-will-in-fall/6175049/">back to school in the fall</a>, I may still keep this schedule, or something similar to it. I&rsquo;ve found very little difference in productivity in currently working 25&ndash;30 hours per week as opposed to my previous 35&ndash;45 hours per week. In fact, I may be <em>more</em> productive now&mdash;and happier with what I&rsquo;m doing too.</p>
+		]]></content>
+	</entry>
 
 
 	<entry>
