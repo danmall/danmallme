@@ -102,6 +102,7 @@
                     <li>Started reading <cite><a href="https://amzn.to/3e2Poel">Stiff</a></cite> and <cite><a href="https://amzn.to/2X7xEYf">The Challenger Sale</a></cite></li>
                     <li>Painted the kids&rsquo; rooms</li>
                     <li>Watched Jeff Bartlett&rsquo;s new film, <cite><a href="https://portfolio.jeffbartlettmedia.com/Choosing-to-Live">Choosing to Live</a></cite></li>
+                    <li>Slept an average of 7 hours and 22 minutes per night. Average bedtime: 10:00pm. Average wake up time: 5:55am.</li>
                 </ol>
 
 
