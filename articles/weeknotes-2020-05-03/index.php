@@ -10,7 +10,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@danmall" />
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
-    <meta name="twitter:title" property="og:title" content="Weeknotes: May 3&ndash;May, 2020" />
+    <meta name="twitter:title" property="og:title" content="Weeknotes: May 3&ndash;May 9, 2020" />
     <meta name="twitter:description" property="og:description" content="Highlights from the week." />
     <meta name="description" content="Highlights from the week." />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>thumb.png" />
