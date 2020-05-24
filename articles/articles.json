@@ -1,6 +1,16 @@
 [
 	{
-		"title"	: 	"Weeknotes: May 10&ndash;May 11, 2020",
+		"title"	: 	"Weeknotes: May 17&ndash;May 23, 2020",
+		"slug"	:	"weeknotes-2020-05-17",
+		"dek"	:	"Highlights from the week.",
+		"date"	:	"2020-05-24T07:21:00Z",
+		"tags"	:	[
+			"personal",
+			"weeknotes"
+		]
+	},
+	{
+		"title"	: 	"Weeknotes: May 10&ndash;May 16, 2020",
 		"slug"	:	"weeknotes-2020-05-10",
 		"dek"	:	"Highlights from the week.",
 		"date"	:	"2020-05-18T10:24:00Z",
