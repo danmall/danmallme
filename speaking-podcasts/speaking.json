@@ -84,6 +84,13 @@
 		"location"	:	"Denver, <abbr title=\"Colorado\">CO</abbr>"
 	},
 	{
+		"title"		: 	"Superman: The Movie Retrospective for Comic Book Junto",
+		"slug"		:	"https://www.youtube.com/watch?v=-74Bp4lGrT0",
+		"date"		:	"2019-10-17",
+		"type"		:	"video",
+		"video"		:	true
+	},
+	{
 		"title"		: 	"Smashing Conference: Designer vs. Developer!",
 		"slug"		:	"https://vimeo.com/367846576",
 		"date"		:	"2019-10-15",

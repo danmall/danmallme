@@ -1,5 +1,35 @@
 [
 	{
+		"title"		: 	"Effective Onboarding, Design Ecosystems and Why Design Thinking Still Matters",
+		"slug"		:	"https://userfirstdesign.wordpress.com/2020/05/16/effective-onboarding-design-ecosystems-and-why-design-thinking-still-matters/",
+		"date"		:	"2020-05-16",
+		"source"	:	"user first design"
+	},
+	{
+		"title"		: 	"It Only Matters If We Use It — Let&rsquo;s Learn Design Systems, Part 3",
+		"slug"		:	"https://www.netlify.com/blog/2020/05/13/it-only-matters-if-we-use-it-lets-learn-design-systems-part-3/",
+		"date"		:	"2020-05-13",
+		"source"	:	"Netlify"
+	},
+	{
+		"title"		: 	"Treat It Like Trash — Let&rsquo;s Learn Design Systems, Part 2",
+		"slug"		:	"https://www.netlify.com/blog/2020/05/12/treat-it-like-trash-lets-learn-design-systems-part-2/",
+		"date"		:	"2020-05-12",
+		"source"	:	"Netlify"
+	},
+	{
+		"title"		: 	"Intention vs. Drift — Let&rsquo;s Learn Design Systems, Part 1",
+		"slug"		:	"https://www.netlify.com/blog/2020/05/11/intention-vs.-drift-lets-learn-design-systems-part-1/",
+		"date"		:	"2020-05-11",
+		"source"	:	"Netlify"
+	},
+	{
+		"title"		: 	"Why you should write a book (yes, you)",
+		"slug"		:	"https://abookapart.com/blogs/press/why-you-should-write-a-book",
+		"date"		:	"2020-05-11",
+		"source"	:	"A Book Apart"
+	},
+	{
 		"title"		: 	"A new normal for design",
 		"slug"		:	"https://www.abstract.com/blog/overheard-may-2020/",
 		"date"		:	"2020-05-07",
