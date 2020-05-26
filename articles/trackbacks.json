@@ -12,6 +12,12 @@
 		"source"	:	"Dockyard"
 	},
 	{
+		"title"		: 	"Canon DSLR as a web cam",
+		"slug"		:	"https://surfthedream.com.au/canon-50d-as-a-web-cam/",
+		"date"		:	"2020-04-01",
+		"source"	:	"Surf the Dream"
+	},	
+	{
 		"title"		: 	"CalDigit TS3 Plus Dock",
 		"slug"		:	"https://chriscoyier.net/2020/04/02/caldigit-ts3-plus-dock/",
 		"date"		:	"2020-04-02",
@@ -564,6 +570,12 @@
 		"slug"		:	"https://uxplanet.org/resources-to-improve-your-typography-6f3cfea0bd3b",
 		"date"		:	"2018-05-30",
 		"source"	:	"UX Planet"
+	},
+	{
+		"title"		: 	"Switching to value based pricing",
+		"slug"		:	"https://compassofdesign.com/articles/switching-to-value-based-pricing",
+		"date"		:	"2018-05-14",
+		"source"	:	"Compass of Design"
 	},
 	{
 		"title"		: 	"Specialize",
