@@ -12,22 +12,36 @@
 		"location"	:	"Toronto"
 	},
 	{
+		"title"		: 	"An Event Apart: Online Together",
+		"slug"		:	"https://aneventapart.com/event/online-0620",
+		"date"		:	"2020-06-15",
+		"location"	:	"Online"
+	},
+	{
 		"title"		: 	"SmashingConf Live",
 		"slug"		:	"https://smashingconf.com/live/",
 		"date"		:	"2020-06-09",
 		"location"	:	"Online"
 	},
 	{
-		"title"		: 	"Design Systems AMA",
-		"slug"		:	"https://www.eventbrite.com/e/30min-ama-with-jina-anne-featuring-dan-mall-tickets-103266647322#",
-		"date"		:	"2020-05-08",
+		"title"		: 	"Bureau of Digital Design Systems Q&amp;A",
+		"slug"		:	"https://bureauofdigital.com/event/design-systems-qa",
+		"date"		:	"2020-05-19",
 		"location"	:	"Online"
 	},
 	{
+		"title"		: 	"Design Systems AMA",
+		"slug"		:	"https://www.youtube.com/watch?v=NA5obCUoc1o",
+		"date"		:	"2020-05-08",
+		"location"	:	"Online",
+		"video"		:	true
+	},
+	{
 		"title"		: 	"An Evening with Dan Mall from SuperFriendly",
-		"slug"		:	"https://jacksonville.aiga.org/event/an-evening-with-dan-mall-from-superfriendly/",
+		"slug"		:	"https://www.facebook.com/watch/?v=2676560255964391",
 		"date"		:	"2020-05-01",
-		"location"	:	"Online"
+		"location"	:	"Online",
+		"video"		:	true
 	},
 	{
 		"title"		: 	"So, You Want to Be a Successful UX Practitioner?",

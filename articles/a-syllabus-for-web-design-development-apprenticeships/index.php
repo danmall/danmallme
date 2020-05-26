@@ -45,7 +45,7 @@
 
             <div class="dm-dp-textPassage dm-l-articleGrid--main">
             
-                <p><span class="dm-dp-openingLines">From 2012&ndash;2019</span>, I ran a 9-month apprenticeship for people new to design and development that wanted to make their way into the tech industry. I&rsquo;ve previously written about <a href="http://v3.danielmall.com/articles/apprenticeships-superfriendly-academy/"><em>why</em> apprenticeships are valuable</a>; here are the details about <em>how</em> I ran them.</p>
+                <p><span class="dm-dp-openingLines">From 2012&ndash;2019</span>, I ran a 9-month apprenticeship at <a href="https://superfriendlydesign.systems/">SuperFriendly</a> for people new to design and development that wanted to make their way into the tech industry. I&rsquo;ve previously written about <a href="http://v3.danielmall.com/articles/apprenticeships-superfriendly-academy/"><em>why</em> apprenticeships are valuable</a> and <a href="http://v3.danielmall.com/articles/apprenticeships-superfriendly-academy/#academy"><em>what</em> format I used</a>; here are the details about <em>how</em> I ran them.</p>
 
                 <div class="dm-c-carbonWrap">
                     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
@@ -56,12 +56,14 @@
                 <p>As I write this information for the first time, I&rsquo;m realizing in hindsight how valuable documenting this earlier would have been for me and even moreso for my apprentices. I&rsquo;m partially writing all of this down as a resource for myself in case I ever bring the apprenticeship back again.</p>
                 
                 <p lang="fr">C&lsquo;est la vie.</p> 
+
+                <p>The final 3 months of my apprenticeship focused on preparing the apprentice for a job elsewhere, so, in terms of describing a replicable format, I&rsquo;ll focus the syllabus specifically on the first 6 months (180 days).</p>
                 
                 <div class="dm-dp-asteriskSplit">
 
                     <h2 id="objective">Objective <a class="dm-dp-anchorLink" href="#objective">#</a></h2>
                     
-                    <p>To unlock a new way of life for the apprentice through gaining knowledge of web design and/or web development and the accompanying industry.</p>
+                    <p>To unlock a new way of life for the apprentice through emergently gaining knowledge of web design and/or web development and the accompanying industry.</p>
 
                 </div>
                 
@@ -116,7 +118,7 @@
                 
                 <div class="dm-dp-asteriskSplit">
 
-                    <h2 id="calendar">Calendar <a class="dm-dp-anchorLink" href="#calendar">#</a></h2>
+                    <h2 id="calendar">Calendar for basic training <a class="dm-dp-anchorLink" href="#calendar">#</a></h2>
 
 
                     <h3 id="day1">Day 1: How the internet generally works <a class="dm-dp-anchorLink" href="#day1">#</a></h3>
@@ -129,7 +131,7 @@
                         <li>Clients and servers</li>
                     </ul>
 
-                    <h4>Suggested Reading</h4>
+                    <h4>Suggested Reading &amp; Resources</h4>
 
                     <ul>
                         <li><a href="https://amzn.to/35NDouj"><cite>Designing with Web Standards, 3rd Edition</cite></a>, by Jeffrey Zeldman and Ethan Marcotte: chapters 1&ndash;4</li>
@@ -152,7 +154,7 @@
                     <h4>Assignment</h4>
                     <p>Create a r&eacute;sum&eacute; and bio in <abbr>HTML</abbr></p>
 
-                    <h4>Suggested Reading</h4>
+                    <h4>Suggested Reading &amp; Resources</h4>
 
                     <ul>
                         <li><cite>Designing with Web Standards</cite>: chapters 5&ndash;8</li>
@@ -186,7 +188,7 @@
                     <h4>Assignment</h4>
                     <p>Style your r&eacute;sum&eacute; and bio</p>
 
-                    <h4>Suggested Reading</h4>
+                    <h4>Suggested Reading &amp; Resources</h4>
 
 
 
@@ -212,17 +214,24 @@
 
 
 
-                    <h3 id="day6">Day 6: Introduction to design and design tools <a class="dm-dp-anchorLink" href="#day6">#</a></h3>
+                    <h3 id="day6">Day 6&ndash;7: Introduction to design and design tools <a class="dm-dp-anchorLink" href="#day6">#</a></h3>
 
                     <h4>Conversation</h4>
 
                     <ul>
-                        <li>The difference between art and design</li>
+                        <li>What is &ldquo;design?&rdquo;</li>
+                        <li>What&rsquo;s the difference between &ldquo;art&ldquo; and &ldquo;design?&rdquo;</li>
                         <li>Tool rundown in design tools of choice (Sketch, Photoshop, Figma, etc.)</li>
                     </ul>
 
                     <h4>Assignment</h4>
                     <p>Choose a website on <a href="https://www.siteinspire.com/">siteInspire</a> and replicate it in your design tool of choice pixel-for-pixel</p>
+
+
+                    <h4>Suggested Reading &amp; Resources</h4>
+                    <ul>
+                        <li><a href="https://articles.uie.com/design_rendering_intent/">Design is the Rendering of Intent</a></li>
+                    </ul>
 
                     
 
@@ -238,7 +247,7 @@
                     <h4>Assignment</h4>
                     <p>Redesign your copied site to make it better</p>
 
-                    <h4>Suggested Reading</h4>
+                    <h4>Suggested Reading &amp; Resources</h4>
 
                     <ul>
                         <li><cite><a href="https://amzn.to/3cl6djX">Steal Like an Artist</a></cite>, by Austin Kleon</li>
@@ -273,19 +282,71 @@
                     <p>Build a rock-paper-scissors game</p>
 
 
+                    <h3 id="day24">Days 24&ndash;30: <abbr title="Document Object Model">DOM</abbr> Scripting <a class="dm-dp-anchorLink" href="#day24">#</a></h3>
+
+                    <h4>Conversation</h4>
+                    <ul>
+                        <li>Progressive enhancement vs. graceful degradation</li>
+                        <li><abbr>DOM</abbr> traversal and manipulation</li>
+                        <li><code>document.querySelector</code></li>
+                    </ul>
+
+                    <h4>Assignment</h4>
+                    <p>Build a progressively-enhanced dropdown menu or modal</p>
+
+                    <h4>Suggested Reading &amp; Resources</h4>
+
+                    <ul>
+                        <li><a href="https://alistapart.com/article/understandingprogressiveenhancement/">Understanding Progressive Enhancement</a></li>
+                        <li><a href="https://alistapart.com/article/javascript-for-web-designers/">JavaScript for Web Designers: DOM Scripting</a></li>
+                        <li><a href="https://domscripting.com/blog/display/41">Hijax</a></li>
+                    </ul>
+
+
 
                 </div>
 
 
+                <div class="dm-dp-asteriskSplit">
 
-                <h1>Questions to answer</h1>     
-
-                <ul>
-                    <li>When you put an apprentice on a project, what’s the balance of time between them watching you work and asking questions, vs. them working on their own and asking you questions on an as-needed basis?</li>
-                    <li>Do you happen to have any apprentice exit interview questions/topics you used for your apprentices? Quincy's last day is Monday and while I have some things I'd like to talk about, I wanted to see if you had topics you like to get into.</li>
-                </ul>
+                    <h2 id="days1-30">Days 1&ndash;30 <a class="dm-dp-anchorLink" href="#days1-30">#</a></h2>
+                    
+                    <p>The first month is basic training: dipping toes into the foundational skills in being a web professional. Whether intending to concentrate on design or development, every apprentice starts with an introduction to both design and code as understanding both of these things are crucial to being a competent web professional. This first month is intended to provide exposure, not necessarily build proficiency.</p>
 
 
+                    <h2 id="days31-90">Days 31&ndash;90 <a class="dm-dp-anchorLink" href="#days31-90">#</a></h2>
+
+                    <p>After the first month, an apprentice is encouraged to choose an area of focus between design and development. Learning much more follows the interests of the apprentice, so there&rsquo;s less of a stated curriculum available as it shifts to being more self-directed.</p>
+
+                    <ul>
+                        <li>For those more interested in design, we do more copying and remixing assignments. The assignments progressively increase in complexity and intend to increase fluency with design tools and design solutions. The design apprentice should grow more confident solving challenges like drawing more attention to a particular piece of content, knowing if a design is accomplishing its job, shifting the mood of any particular design, and more.</li>
+                        <li>For those more interested in development, each assignment intends for the apprentice to build more and better than they could before. If the first assignment is to build 1 unstyled web page, the final assignment before moving on to real project work may be to build a fully-functioning, multi-page website with both client-side and server-side logic. Every assignment between builds up to that point, and the path taken for each assignment is to both reinforce good skills as well as address weaknesses that could use more practice from the previous assignments.</li>
+                    </ul>
+
+                    <h2 id="day90">Day 90 <a class="dm-dp-anchorLink" href="#day90">#</a></h2>
+
+                    <p>Every 90 days, each apprentice does an evaluation. We go through <a href="https://docs.google.com/document/d/1ac35UED5359vEUVGFlYdsDbKE3dtIvd0mvb-wlXNRXw/edit?usp=sharing">a review sheet</a> as a way to calibrate how closely their plan of study matches against what they want to as well as their strengths and weaknesses.</p>
+
+
+
+                    <h2 id="days91-180">Days 91&ndash;180 <a class="dm-dp-anchorLink" href="#days91-180">#</a></h2>
+
+                    <p>After the first 3 months, a pre-defined syllabus is almost impossible to use. Apprentices are usually ready to join real projects with larger teams, and lessons learned are a direct result of the specific projects available and greatly vary from apprentice to apprentice. Because of this inevitable variation, it&rsquo;s important that both the mentor and apprentice be continually focused on the specific skills the apprentice wants to advance. Some apprentices enter with stronger back-end skills than front-end skills or a stronger ability to execute user interface designs rather than present well in a meeting. That&rsquo;s an advantage of the apprenticeship model of learning rather than following a more structured learning plan like a online course or university major, so the apprenticeship style should be utilized to its advantage.</p>
+                    
+                    <p>All assignments tend to give the apprentice some sphere of ownership, although that ownership is very limited in earlier days and much more broader as they approach the end of their apprentice. For example, an apprentice who is new to real project work may only be in charge of the footer&rsquo;s design or code, while an apprentice at the end of their apprenticeship may be in charge of designing or developing a whole section of a site or app or even the entire thing.</p>
+
+
+                    <h2 id="day180">Day 180 <a class="dm-dp-anchorLink" href="#day180">#</a></h2>
+
+                    <p>If paced well&mdash;which is the responsibility of both the mentor <em>and</em> the apprentice&mdash;the end of this 180-day period should give the apprentice at least 3 examples (read: <a href="/articles/portfolios/">portfolio pieces</a>) that show the broadest scope of what that apprentice can confidently handle on a project.</p>
+
+                </div>
+
+                <div class="dm-dp-asteriskSplit">
+
+                    <p>Hopefully this gives you a good sense of what went into the first 6 months of the SuperFriendly apprenticeship. If you&rsquo;re considering starting one of your one, or even if you have an existing, you&rsquo;re more than welcome to take any parts of what I&rsquo;ve done here and integrate or remix it into your curriculum. But if you do, please share that publicly too!</p>
+
+                </div>
 
             </div>
 
