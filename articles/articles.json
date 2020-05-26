@@ -1,5 +1,18 @@
 [
 	{
+		"title"	: 	"A Syllabus for Web Design &amp; Web Development Apprenticeships",
+		"slug"	:	"syllabus-for-web-design-development-apprenticeships",
+		"dek"	:	"An intentional way to teach web design and web development from scratch.",
+		"date"	:	"2020-05-26T07:10:00Z",
+		"tags"	:	[
+			"apprenticeships",
+			"learning",
+			"teaching",
+			"curriculum",
+			"syllabus"
+		]
+	},
+	{
 		"title"	: 	"Weeknotes: May 17&ndash;May 23, 2020",
 		"slug"	:	"weeknotes-2020-05-17",
 		"dek"	:	"Highlights from the week.",

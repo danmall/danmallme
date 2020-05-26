@@ -11,9 +11,9 @@
     <meta name="twitter:site" content="@danmall" />
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
     <meta name="twitter:title" property="og:title" content="A Syllabus for Web Design &amp; Web Development Apprenticeships" />
-    <meta name="twitter:description" property="og:description" content="Stepping up quality for video calls." />
-    <meta name="description" content="Stepping up quality for video calls." />
-    <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/thumb.png" />
+    <meta name="twitter:description" property="og:description" content="An intentional way to teach web design and web development from scratch." />
+    <meta name="description" content="An intentional way to teach web design and web development from scratch." />
+    <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/thumb.jpg" />
     
 </head>
 
@@ -37,7 +37,7 @@
                 A Syllabus for Web Design &amp; Web Development Apprenticeships
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">May 10, 2020 at 12:55 <abbr title="Post Meridien">PM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">May 26, 2020 at 7:10 <abbr title="Ante Meridien">AM</abbr></h2>
 
         </header><!-- .page-header -->
 
@@ -71,7 +71,10 @@
 
                     <h2 id="prerequisites">Prerequisites <a class="dm-dp-anchorLink" href="#prerequisites">#</a></h2>
 
-                    <p>Computer proficiency. As little prior knowledge about design and development is preferred, as most of it would likely have to be untaught. If you can already make a design or development portfolio, you&rsquo;re over-qualified for this apprenticeship.</p>                
+                    <ul>
+                        <li><strong>Computer proficiency.</strong> As little prior knowledge about design and development is preferred, as most of it would likely have to be untaught. If you can already make a design or development portfolio, you&rsquo;re over-qualified for this apprenticeship.</li>
+                        <li>Because this apprenticeship focuses on those <em>interested</em> in getting into tech, I host a several-week <strong>prelude</strong> to the apprenticeship. I ask each prospective apprentice to come to the office for 2&ndash;4 hours per day. I assign various reading and watching, from books to online articles to conference talks to YouTube videos. I also encourage them to observe the work that&rsquo;s currently happening in the office and to take notes on words and acronyms that sound unfamiliar, and we spend time discussing what&rsquo;s happening and why. If this is going to be a full-time career, I want the apprentice to have the chance to see what that could look like and try to envision themselves in that role. For many apprentices, it will be their first time in a desk job and/or sitting in front of a computer for an extended amount of time.</li>
+                    </ul>
 
                 </div>
 
@@ -94,7 +97,7 @@
 
                     <p>At the beginning of the apprenticeship, in-person attendance at SuperFriendly <abbr title="Headquarters">HQ</abbr> 4&ndash;5 days a week from 10<abbr title="Ante meridien">am</abbr>&ndash;4<abbr title="Post meridien">pm</abbr> is required. During the second and third units of the apprenticeship, in-person attendance can decrease and independent remote work can increase.</p>
 
-                    <p>(Because so much of the learning was designed to be passive, I could never figure out how to make a remote apprenticeship work as well as an in-person one, so to date it has never been an option that I offered.)</p>
+                    <p>(Because so much of the learning comes from passive observation, reflection, and real-time discussion, I haven&rsquo;t yet figured out how to make a remote apprenticeship work as well as an in-person one, so to date it has never been an option that I offered.)</p>
 
                 </div>
 
@@ -134,7 +137,7 @@
                     <h4>Suggested Reading &amp; Resources</h4>
 
                     <ul>
-                        <li><a href="https://amzn.to/35NDouj"><cite>Designing with Web Standards, 3rd Edition</cite></a>, by Jeffrey Zeldman and Ethan Marcotte: chapters 1&ndash;4</li>
+                        <li><cite><a href="https://amzn.to/35NDouj">Designing with Web Standards, 3rd Editionx</a></cite>, by Jeffrey Zeldman and Ethan Marcotte: chapters 1&ndash;4</li>
                         <li><a href="https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm">How Does the Internet Work?</a></li>
                     </ul>
 
@@ -158,8 +161,10 @@
 
                     <ul>
                         <li><cite>Designing with Web Standards</cite>: chapters 5&ndash;8</li>
-                        <li><a href="https://amzn.to/2YQCADs"><cite>Learning Web Design</cite></a>, by Jennifer Niederst Robbins: chapters 4&ndash;10</li>
-                        <li><a href="https://amzn.to/3fAoEDy"><cite>HTML &amp; CSS: Design and Build Websites</cite></a>, by Jon Duckett: chapters 1&ndash;10</li>
+                        <li><cite><a href="https://amzn.to/2YQCADs">Learning Web Design</a></cite>, by Jennifer Niederst Robbins: chapters 4&ndash;10</li>
+                        <li><cite><a href="https://amzn.to/3fAoEDy">HTML &amp; CSS: Design and Build Websites</a></cite>, by Jon Duckett: chapters 1&ndash;10</li>
+                        <li><cite><a href="https://abookapart.com/products/html5-for-web-designers"><abbr>HTML5</abbr> for Web Designers</a></cite>, by Jeremy Keith</li>
+                        <li><cite><a href="https://amzn.to/2yxlDmA">Web Standards Solutions: The Markup and Style Handbook</a></cite>, by Dan Cederholm</li>
                     </ul>
 
 
@@ -190,6 +195,10 @@
 
                     <h4>Suggested Reading &amp; Resources</h4>
 
+                    <ul>
+                        <li><cite>HTML &amp; CSS: Design and Build Websites</cite>, by Jon Duckett: chapters 10&ndash;14</li>
+                        <li><cite>Learning Web Design</cite>, by Jennifer Niederst Robbins: chapters 11&ndash;13</li>                        
+                    </ul>
 
 
 
@@ -211,6 +220,14 @@
 
                     <h4>Assignment</h4>
                     <p>Find a layout in a magazine and replicate it with <abbr>CSS</abbr></p>
+
+                    <h4>Suggested Reading &amp; Resources</h4>
+
+                    <ul>
+                        <li><cite>HTML &amp; CSS: Design and Build Websites</cite>, by Jon Duckett: chapter 15</li>
+                        <li><cite>Learning Web Design</cite>, by Jennifer Niederst Robbins: chapters 15&ndash;16</li>
+                        <li><cite>Designing with Web Standards</cite>: chapter 9</li>
+                    </ul>
 
 
 
@@ -281,6 +298,11 @@
                     <h4>Assignment</h4>
                     <p>Build a rock-paper-scissors game</p>
 
+                    <h4>Suggested reading &amp; resources</h4>
+                    <ul>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">JavaScript basics</a></li>
+                    </ul>
+
 
                     <h3 id="day24">Days 24&ndash;30: <abbr title="Document Object Model">DOM</abbr> Scripting <a class="dm-dp-anchorLink" href="#day24">#</a></h3>
 
@@ -300,6 +322,7 @@
                         <li><a href="https://alistapart.com/article/understandingprogressiveenhancement/">Understanding Progressive Enhancement</a></li>
                         <li><a href="https://alistapart.com/article/javascript-for-web-designers/">JavaScript for Web Designers: DOM Scripting</a></li>
                         <li><a href="https://domscripting.com/blog/display/41">Hijax</a></li>
+                        <li><cite><a href="https://domscripting.com/book/"><abbr>DOM</abbr> Scripting</a></cite>, by Jeremy Keith</li>
                     </ul>
 
 
@@ -316,12 +339,54 @@
 
                     <h2 id="days31-90">Days 31&ndash;90 <a class="dm-dp-anchorLink" href="#days31-90">#</a></h2>
 
-                    <p>After the first month, an apprentice is encouraged to choose an area of focus between design and development. Learning much more follows the interests of the apprentice, so there&rsquo;s less of a stated curriculum available as it shifts to being more self-directed.</p>
+                    <p>After the first month, an apprentice is encouraged to choose an area of focus between design and development. Learning much more follows the interests of the apprentice, so there&rsquo;s less of a stated curriculum available as it shifts to being more self-directed. Learning includes topics that broadly address professionalism, such as:</p>
 
                     <ul>
-                        <li>For those more interested in design, we do more copying and remixing assignments. The assignments progressively increase in complexity and intend to increase fluency with design tools and design solutions. The design apprentice should grow more confident solving challenges like drawing more attention to a particular piece of content, knowing if a design is accomplishing its job, shifting the mood of any particular design, and more.</li>
-                        <li>For those more interested in development, each assignment intends for the apprentice to build more and better than they could before. If the first assignment is to build 1 unstyled web page, the final assignment before moving on to real project work may be to build a fully-functioning, multi-page website with both client-side and server-side logic. Every assignment between builds up to that point, and the path taken for each assignment is to both reinforce good skills as well as address weaknesses that could use more practice from the previous assignments.</li>
+                        <li><a href="/articles/how-to-scope-work/">Scoping work</a></li>
+                        <li><a href="https://abookapart.com/products/pricing-design">Pricing</a></li>
+                        <li>Writing proposals and pitches</li>
+                        <li>Project management methodologies</li>
                     </ul>
+
+
+
+
+                    <h3 id="design-concentration">Design concentration <a class="dm-dp-anchorLink" href="#design-concentration">#</a></h3>
+
+                    <p>For those more interested in design, we do more copying and remixing assignments. The assignments progressively increase in complexity and intend to increase fluency with design tools and design solutions. The design apprentice should grow more confident solving challenges like drawing more attention to a particular piece of content, knowing if a design is accomplishing its job, shifting the mood of any particular design, and more.</p>
+
+                    <p>Typical topics covered within this time period may include the following as they&rsquo;re of interest to the apprentice:</p>
+
+                    <ul>
+                        <li>Typography</li>
+                        <li>Art history movements</li>
+                        <li>Illustration</li>
+                        <li>Branding</li>                        
+                        <li>Image formats &amp; optimization</li>
+                        <li><abbr title="Two dimensional">2D</abbr> &amp; <abbr title="Three dimensional">3D</abbr> Animation</li>
+                        <li><abbr>3D</abbr> modeling</li>
+                        <li>Motion graphics</li>
+                    </ul>
+
+
+
+                    <h3 id="development-concentration">Development concentration <a class="dm-dp-anchorLink" href="#development-concentration">#</a></h3>
+
+                    <p>For those more interested in development, each assignment intends for the apprentice to build more and better than they could before.</p>
+
+                    <p>If the first assignment is to build 1 unstyled web page, the final assignment before moving on to real project work may be to build a fully-functioning, multi-page website with both client-side and server-side logic. Every assignment between builds up to that point, and the path taken for each assignment is to both reinforce good skills as well as address weaknesses that could use more practice from the previous assignments.</p>
+
+                    <p>Typical topics covered within this time period may include the following as they&rsquo;re of interest to the apprentice:</p>
+
+                    <ul>
+                        <li><abbr>CSS</abbr> animation</li>
+                        <li>Content management systems</li>
+                        <li>Flexbox and <abbr>CSS</abbr> grid</li>
+                        <li>Package management</li>
+                        <li>Image formats &amp; optimization</li>
+                        <li><abbr title="Application programming interface">API</abbr>s</li>
+                    </ul>
+
 
                     <h2 id="day90">Day 90 <a class="dm-dp-anchorLink" href="#day90">#</a></h2>
 
@@ -355,8 +420,8 @@
                 <h1 class="dm-c-upNext_kicker">Up Next</h1>
 
                 <h2 class="dm-c-upNext_title">
-                    <a href="/articles/superfriendly-in-2020/">
-                        SuperFriendly in <span class="dm-c-upNext_title_lastWord">2020</span>
+                    <a href="/articles/weeknotes-2020-05-17/">
+                        Weeknotes: May 17&ndash;May 23, <span class="dm-c-upNext_title_lastWord">2020</span>
                     </a>
                 </h2>
 
