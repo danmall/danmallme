@@ -216,6 +216,7 @@
                                 <li><abbr>CSS</abbr> Grid</li>
                             </ul>
                         </li>
+                        <li>Responsive design</li>
                     </ul>
 
                     <h4>Assignment</h4>
@@ -227,6 +228,7 @@
                         <li><cite>HTML &amp; CSS: Design and Build Websites</cite>, by Jon Duckett: chapter 15</li>
                         <li><cite>Learning Web Design</cite>, by Jennifer Niederst Robbins: chapters 15&ndash;16</li>
                         <li><cite>Designing with Web Standards</cite>: chapter 9</li>
+                        <li><cite><a href="https://abookapart.com/products/responsive-web-design">Responsive Web Design</a></cite>, by Ethan Marcotte</li>
                     </ul>
 
 
@@ -381,9 +383,9 @@
                     <ul>
                         <li><abbr>CSS</abbr> animation</li>
                         <li>Content management systems</li>
-                        <li>Flexbox and <abbr>CSS</abbr> grid</li>
                         <li>Package management</li>
                         <li>Image formats &amp; optimization</li>
+                        <li>Performance</li>
                         <li><abbr title="Application programming interface">API</abbr>s</li>
                     </ul>
 
