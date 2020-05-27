@@ -411,7 +411,7 @@
 
                 <div class="dm-dp-asteriskSplit">
 
-                    <p>Hopefully this gives you a good sense of what went into the first 6 months of the SuperFriendly apprenticeship. If you&rsquo;re considering starting one of your one, or even if you have an existing, you&rsquo;re more than welcome to take any parts of what I&rsquo;ve done here and integrate or remix it into your curriculum. But if you do, please share that publicly too!</p>
+                    <p>Hopefully this gives you a good sense of what went into the first 6 months of the SuperFriendly apprenticeship. If you&rsquo;re considering starting one of your own, or even if you have an existing one, you&rsquo;re more than welcome to take any parts of what I&rsquo;ve done here and integrate or remix it into your curriculum. But if you do, please share that publicly too!</p>
 
                 </div>
 
