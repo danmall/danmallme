@@ -1,11 +1,5 @@
 [	
 	{
-		"title"		: 	"Awwwards Conference",
-		"slug"		:	"https://conference.awwwards.com/toronto/",
-		"date"		:	"2020-07-14",
-		"location"	:	"Toronto"
-	},
-	{
 		"title"		: 	"Bureau of Digital Design Systems Q&amp;A",
 		"slug"		:	"https://bureauofdigital.com/event/design-systems-qa",
 		"date"		:	"2020-05-19",
