@@ -1,27 +1,9 @@
-[
-	{
-		"title"		: 	"An Event Apart",
-		"slug"		:	"https://aneventapart.com/event/orlando-2020",
-		"date"		:	"2020-10-05",
-		"location"	:	"Orlando, <abbr title=\"Florida\">FL</abbr>"
-	},
+[	
 	{
 		"title"		: 	"Awwwards Conference",
 		"slug"		:	"https://conference.awwwards.com/toronto/",
 		"date"		:	"2020-07-14",
 		"location"	:	"Toronto"
-	},
-	{
-		"title"		: 	"An Event Apart: Online Together",
-		"slug"		:	"https://aneventapart.com/event/online-0620",
-		"date"		:	"2020-06-15",
-		"location"	:	"Online"
-	},
-	{
-		"title"		: 	"SmashingConf Live",
-		"slug"		:	"https://smashingconf.com/live/",
-		"date"		:	"2020-06-09",
-		"location"	:	"Online"
 	},
 	{
 		"title"		: 	"Bureau of Digital Design Systems Q&amp;A",
