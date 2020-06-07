@@ -197,10 +197,11 @@
 		"audio"		:	true
 	},
 	{
-		"title"		: 	"An Event Apart",
-		"slug"		:	"https://aneventapart.com/event/orlando-2018",
+		"title"		: 	"&ldquo;Till Launch Do Us Part&rdquo; at An Event Apart",
+		"slug"		:	"https://aneventapart.com/news/post/till-launch-do-us-part-by-dan-mall-aea-video",
 		"date"		:	"2018-10-08",
-		"location"	:	"Orlando, <abbr title=\"Florida\">FL</abbr>"
+		"location"	:	"Orlando, <abbr title=\"Florida\">FL</abbr>",
+		"video"		:	true
 	},
 	{
 		"title"		: 	"Frontend Conference",
