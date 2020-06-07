@@ -535,6 +535,14 @@ http://superfriend.ly/
 					}
 
 				}
+
+				ul li:before,
+				ul li:nth-child(-n+9):before {
+					content: "";
+					top: 0.8rem;
+					left: -1.6rem;
+				}
+
 			}
 
 				li {
