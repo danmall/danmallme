@@ -23,3 +23,7 @@
 
     <!-- Mint -->
     <script src="http://stats.danielmall.com/mint/?js"></script>   
+
+    <!-- Fathom - beautiful, simple website analytics -->
+    <script src="https://cdn.usefathom.com/script.js" site="GZXIEMXW" defer></script>
+    <!-- / Fathom -->
