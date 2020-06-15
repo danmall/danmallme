@@ -91,7 +91,7 @@
 
                 <ol>
                     <li>Set up my new <a href="https://www.synology.com/en-us/products/DS218+">Synology DiskStation DS218+</a> drive for better backups. Many thanks to <a href="https://chrislea.com/">Chris Lea</a> for sharing his knowledge and experience about network drives with me.</li>
-                    <li>Did <a href="https://www.delawarerivertubing.com/">Delaware River Tubing</a> with <a href="http://emilymall.me/">Emily Mall</a> and Sharon &amp; Jeff Clark</li>
+                    <li>Did <a href="https://www.delawarerivertubing.com/">Delaware River Tubing</a> with <a href="http://emilymall.me/">Emily Mall</a> and Sharon &amp; Jeff Clark. Lost my GoPro HERO8 Black in the water while getting out of the tube.</li>
                     <li>Slept an average of 6 hours and 54 minutes per night. Average bedtime: 10:41pm. Average wake up time: 6:29am.</li>
                 </ol>
 
