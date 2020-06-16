@@ -1,5 +1,11 @@
 [	
 	{
+		"title"		: 	"Clarity Conference",
+		"slug"		:	"https://www.clarityconf.com/2020",
+		"date"		:	"2020-09-03",
+		"location"	:	"Online"
+	},
+	{
 		"title"		: 	"Bureau of Digital Design Systems Q&amp;A",
 		"slug"		:	"https://bureauofdigital.com/event/design-systems-qa",
 		"date"		:	"2020-05-19",
