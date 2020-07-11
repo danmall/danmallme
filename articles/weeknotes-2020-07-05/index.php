@@ -79,9 +79,9 @@
                     <li>Onboarded Director and Producers for new account team</li>
                     <li>Weekly SuperFriendly Systems team meeting with Lauren Deal, Crystal Vitelli, Nikki Loffredo, <a href="https://dontaebenn.myportfolio.com/">Dontae Benn</a>, <a href="https://www.sherlocklegal.com/">Matt Sherlock</a>, and Joe Rinaldi</li>
                     <li>Client team sync with Jessi Hall, <a href="https://bigmedium.com/">Josh Clark</a>, and <a href="https://bradfrost.com/">Brad Frost</a></li>
-                    <li>Monthly Snack n&rsquo; Learn led by Crystal about &ldquo;Projects That Didn&rsquo;t Go Well&rdquo;</li>
+                    <li>Monthly SuperFriendly Snack n&rsquo; Learn led by Crystal about &ldquo;Projects That Didn&rsquo;t Go Well&rdquo;</li>
                     <li>Talked with <a href="https://www.clarityconf.com/">Clarity Conference</a> organizers and <a href="https://twitter.com/Michelephant">Michelle Morrison</a> from <a href="https://dropbox.design/">Dropbox Design</a></li>
-                    <li>Schemed with <a href="https://www.linkedin.com/in/marci-pasenello-38b0461a/">Marci Pasanello</ah>, <a href="https://www.linkedin.com/in/mickyteng/">Micky Teng</a>, <a href="http://www.nickhahn.com/">Nick Hahn</a>, and <a href="https://www.linkedin.com/in/zthauer/">Zach Haeur</a> from <a href="https://www.invisionapp.com/">Invision</a> with Joe Rinaldi</li>
+                    <li>Schemed with <a href="https://www.linkedin.com/in/marci-pasenello-38b0461a/">Marci Pasanello</a>, <a href="https://www.linkedin.com/in/mickyteng/">Micky Teng</a>, <a href="http://www.nickhahn.com/">Nick Hahn</a>, and <a href="https://www.linkedin.com/in/zthauer/">Zach Hauer</a> from <a href="https://www.invisionapp.com/">Invision</a> with Joe Rinaldi</li>
                     <li>Talked development approach with Lauren Deal and <a href="https://twitter.com/k_deal2/">Kevin Deal</a></li>
                     <li>1-on-1 with Crystal Vitelli</li>
                     <li>Talked Universal Role Expectations with <a href="https://www.seerinteractive.com/about/team/emily-meekins/">Emily Meekins</a> from <a href="https://www.seerinteractive.com/">Seer Interactive</a> with Crystal Vitelli</li>
