@@ -62,6 +62,7 @@
                 <h2 id="work">Work <a class="dm-dp-anchorLink" href="#work">#</a></h2>
 
                 <ol>
+                    <li>Worked 33 hours this week</li>
                     <li>Commissioned a series of illustrations to do a &ldquo;<a href="https://twitter.com/superfriendlyco/status/1281238530149085185">Real Heroes Wear Masks</a>&rdquo; campaign across social channels. <a href="https://twitter.com/octaviusanewman">Octavius A. Newman</a> art directed it and <a href="https://bbsketch.com/store">M. Brian Bowens</a> illustrated it.</li>
                     <li>New schedule planning and team model workshopping</li>
                     <li>Client chat with account team (<a href="https://twitter.com/abbyfretz">Abby Fretz</a>, <a href="https://twitter.com/courtney271">Courtney Bradford</a>, and <a href="https://twitter.com/tpitre">TJ Pitre</a> )</li>
