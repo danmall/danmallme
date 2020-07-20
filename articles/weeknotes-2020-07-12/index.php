@@ -89,7 +89,7 @@
                     <li>Superpowers meeting with new account team</li>
                     <li>Working session with Crystal Vitelli</li>
                     <li>AIGA Portfolio Festival private reviews</li>
-                    <li>Help prep existing client to sell <abbr title="Chief Technology Officer">CTO</abbr> on design systems</li>
+                    <li>Helped prep existing client to sell <abbr title="Chief Technology Officer">CTO</abbr> on design systems</li>
                     <li>Talked to <a href="https://www.glimmering.com/">Leslie Camacho</a> about new side project</li>
                 </ol>
 
