@@ -88,7 +88,7 @@
                 <h1 class="dm-c-upNext_kicker">Up Next</h1>
 
                 <h2 class="dm-c-upNext_title">
-                    <a href="/articles/starting-a-design-system/">
+                    <a href="/articles/weeknotes-2020-05-03/">
                         Weeknotes: May 3&ndash;May 9, <span class="dm-c-upNext_title_lastWord">2020</span>
                     </a>
                 </h2>
