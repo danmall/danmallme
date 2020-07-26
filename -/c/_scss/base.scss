@@ -163,7 +163,8 @@ table {
 
 em,
 dfn,
-cite { 
+cite,
+i { 
 	font-style: italic; 
 
 	.breveNewsBookItalic-loaded & {
@@ -237,10 +238,6 @@ svg {
 
 a img { 
 	border: none; 
-}
-
-i { 
-	font-style: normal; 
 }
 
 b { 
