@@ -93,6 +93,7 @@
                 <h3 id="watched">Watched <a class="dm-dp-anchorLink" href="#watched">#</a></h3>
 
                 <ol>
+                    <li><a href="https://www.netflix.com/title/81038963">The Old Guard</a></li>
                     <li>Season 1 of <a href="https://www.netflix.com/title/80244565">Indian Matchmaking</a></li>
                     <li>An episode of <a href="https://www.hbomax.com/series/urn:hbo:series:GXqxL8AG86YC9JwEAAAJw">Craftopia</a></li>
                     <li>The return of the <a href="https://www.nba.com/">NBA</a></li>
