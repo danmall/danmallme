@@ -139,7 +139,9 @@
 
                 <ol>
                     <li><cite><a href="https://www.dccomics.com/comics/superman-lois-and-clark-2015/superman-lois-and-clark-1">Superman: Lois &amp; Clark #1</a></cite></li>
-                    <li>&ldquo;<a href="https://academy.nobl.io/the-difference-between-autonomy-and-independence/">Autonomy isn&rsquo;t the same as independence.</a> Autonomy means that you have free will and that you can stand behind your actions and their values. In other words, no one is forcing you to do something you disagree with. Independence means you don&rsquo;t need or accept help, resources, or care from others. You function without others. Spot the difference? Autonomy doesn&rsquo;t even require independence. You can absolutely be autonomous <em>and</em> dependent on others for help and support. You can act in accordance to your beliefs, with free will, and still exchange support and care.&rdquo;</li>
+                    <li><cite><a href="https://www.barnesandnoble.com/w/the-adventures-of-sherlock-holmes-doyle-arthur-conan/1131661677?ean=9781402794612">The Adventures of Sherlock Holmes (Classic Starts Series)</a></cite></li>
+                    <li>Chapters 1&ndash;3 of <cite><a href="https://www.goodreads.com/book/show/2998.The_Secret_Garden?from_search=true&from_srp=true&qid=wmw1Pk65Ga&rank=1">The Secret Garden</></cite></li>
+                    <li><a href="https://academy.nobl.io/the-difference-between-autonomy-and-independence/">Autonomy isn&rsquo;t the same as independence.</a></li>
                     <li><a href="https://hbr.org/2011/04/strategies-for-learning-from-failure">Not all failures are created equal</a>.</li>
                     <li><a href="https://slashpurpose.org/">/purpose</a> suggests that &ldquo;the world would be a better place if the people trying to shape it spoke openly and plainly about their vision for the future.&rdquo;</li>
                     <li><a href="https://slackscheduler.com/">/schedule</a> has been incredibly helpful for me in writing messages during my early morning work hours without having them posted until more overlapping business hours.</li>
