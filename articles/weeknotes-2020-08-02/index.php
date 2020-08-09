@@ -47,7 +47,7 @@
                 Weeknotes: <span class="dm-u-wrap--none">August 2</span>&ndash;<span class="dm-u-wrap--none">August 8, 2020</span>  
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">August 9, 2020 at 7:10 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">August 9, 2020 at 7:44 <abbr title="Ante Meridien">AM</abbr></h2>
 
         </header><!-- .page-header -->
 
@@ -154,8 +154,8 @@
                 <h1 class="dm-c-upNext_kicker">Up Next</h1>
 
                 <h2 class="dm-c-upNext_title">
-                    <a href="/articles/weeknotes-2020-07-19/">
-                    Weeknotes: July 19&ndash;July 25, <span class="dm-c-upNext_title_lastWord">2020</span>
+                    <a href="/articles/weeknotes-2020-07-26/">
+                    Weeknotes: July 26&ndash;August 1, <span class="dm-c-upNext_title_lastWord">2020</span>
                     </a>
                 </h2>
 
