@@ -5,8 +5,77 @@
 	<link rel="alternate" type="text/html" href="http://danmall.me/" />
 	<link rel="self" type="application/atom+xml" href="http://danmall.me/rss/full.xml" />
 	<id>http://danmall.me/rss/full.xml</id>
-	<updated>2020-07-25T07:44:00Z</updated>
+	<updated>2020-08-01T16:59:00Z</updated>
 	<rights>Copyright © 2020, Dan Mall</rights>
+
+
+	<entry>
+		<title><![CDATA[Weeknotes: July 26&ndash;August 1, 2020]]></title>
+		<description><![CDATA[Highlights from the week.]]></description>
+		<link rel="alternate" type="text/html" href="http://danmall.me/articles/weeknotes-2020-07-26/" />
+		<id>http://danmall.me/articles/weeknotes-2020-07-26/</id>
+		<published>2020-08-01T16:59:00Z</published>
+		<updated>2020-08-01T16:59:00Z</updated>
+		<author>
+			<name>Dan Mall</name>
+			<uri>http://danmall.me/</uri>
+		</author>
+		<content type="html" xml:base="http://danmall.me/articles/" xml:lang="en"><![CDATA[
+<h2 id="work">Work <a href="#work">#</a></h2>
+
+<ol>
+	<li>Worked 42 hours</li>
+	<li>Wrote <a href="https://superfriendlydesign.systems/">SuperFriendly</a> role definitions</li>
+	<li>Drafted new blog post</li>
+	<li>Two working sessions with <a href="https://twitter.com/crystalvitelli">Crystal Vitelli</a></li>
+	<li>1-on-1 with <a href="https://www.linkedin.com/in/nikki-loffredo-5a8b1945/">Nikki Loffredo</a></li>
+	<li>1-on-1 with <a href="https://www.mattecook.com/">Matt Cook</a></li>
+	<li>Biz dev check-in with <a href="https://twitter.com/joerinaldi">Joe Rinaldi</a>       </li>
+	<li>Worked on client roadmap</li>
+	<li>Systems team meeting with Crystal Vitelli, <a href="https://www.julyfivedesign.com/">Lauren Deal</a>, Nikki Loffredo, <a href="https://dontaebenn.myportfolio.com/">Dontae Benn</a>, <a href="https://www.sherlocklegal.com/">Matt Sherlock</a>, and Joe Rinaldi</li>
+	<li>Review new product items with <a href="https://lesliecamacho.com/">Leslie Camacho</a> and <a href="https://carbonology.in/">Mike Carbone</a></li>
+	<li>Talked course teaser with <a href="https://www.creative-curls.com/">Jenn Piatkowski</a> and <a href="https://www.joshluciano.com/">Josh Luciano</a></li>
+	<li>Built new resource landing page</li>
+	<li>Talked to <a href="https://www.instagram.com/ckscheinfeld/">Caroline Scheinfeld</a> about course production</li>
+	<li>Recorded <a href="https://open.spotify.com/show/6LX8aWFopaonoSZ282Mbap">Service Design Show</a> podcast episode with <a href="https://twitter.com/marcfonteijn">Marc Fonteijn</a></li>
+	<li>Interviewed a front-end developer</li>
+	<li>Caught up with <a href="https://robharr.com/">Rob Harr</a></li>
+	<li>Talked about <a href="https://www.vocatioschool.org/">Vocatio Career Prep High School</a> with <a href="https://twitter.com/ChristinaFaith">Christina Faith</a></li>
+</ol>
+
+<h2 id="personal">Personal <a href="#personal">#</a></h2>
+
+<ol>
+	<li>Pulled a work-related all-nighter for the first time in years.</li>
+	<li>Played some <a href="https://www.nintendo.com/games/detail/donkey-kong-country-tropical-freeze-switch/">Donkey Kong Country&trade;: Tropical Freeze</a> with <a href="https://twitter.com/siddaleemall">Sidda</a></li>
+	<li>Celebrated National Chili Dog Day</li>
+	<li>Slept an average of 6 hours and 31 minutes per night. Average bedtime: 12:26am. Average wake up time: 7:29am.</li>
+</ol>
+
+
+<h3 id="watched">Watched <a href="#watched">#</a></h3>
+
+<ol>
+	<li>Season 1 of <a href="https://www.netflix.com/title/80244565">Indian Matchmaking</a></li>
+	<li>An episode of <a href="https://www.hbomax.com/series/urn:hbo:series:GXqxL8AG86YC9JwEAAAJw">Craftopia</a></li>
+	<li>The return of the <a href="https://www.nba.com/">NBA</a></li>
+</ol>
+
+<h3 id="read">Notable reads <a href="#read">#</a></h3>
+
+<ol>
+	<li><cite><a href="https://amzn.to/3hXBo7l">Shark Tales: How I Turned $1,000 into a Billion Dollar Business</a></cite>, by Barbara Corcoran</li>
+	<li><a href="https://www.playstation.com/en-us/games/ghost-of-tsushima-ps4/">Ghosts of Tsushima</a> for PS4 looks amazing.</li>
+	<li>I learned that <a href="https://www.choosemyplate.gov/eathealthy/brief-history-usda-food-guides">the &ldquo;food pyramid&rdquo; I was taught as a kid is now the &ldquo;healthy plate.&rdquo;</a></li>
+	<li>Though I still haven&rsquo;t used it myself, I continue to be amazed at <a href="https://webflow.com/discover/popular">the kinds of sites that can be made with Webflow</a>.</li>
+	<li><a href="https://www.spotifycodes.com/index.html">Spotify Codes</a> offer a way for users to share and discover the amazing content on Spotify.</li>
+	<li><a href="https://snazzymaps.com/">Snazzy Maps</a> is a repository of different styles for Google Maps aimed towards web designers and developers. </li>
+	<li>I&rsquo;m sad to have just missed <a href="https://huedesignsummit.com/">Hue Design Summit</a>!</li>
+	<li><a href="https://www.tennessean.com/story/opinion/2020/07/16/digital-civil-rights-revolution-fallon-wilson-black-tech/5437769002/">We need a digital civil rights revolution to close the digital divide</a>.</li>
+	<li><a href="https://dangerouslyawesome.com/">Alex Hillman</a> launched <a href="https://stackingthebricks.com/tinymba/">The Tiny MBA</a> this week, and I can&rsquo;t read it soon enough.</li>
+</ol>
+		]]></content>
+	</entry>
 
 
 

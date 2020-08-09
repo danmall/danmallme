@@ -37,7 +37,7 @@
             Support Systems for Learning
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">July 12, 2020 at 7:10 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">August 2, 2020 at 7:10 <abbr title="Ante Meridien">AM</abbr></h2>
 
         </header><!-- .page-header -->
 
@@ -45,7 +45,7 @@
 
             <div class="dm-dp-textPassage dm-l-articleGrid--main">
             
-                <p><span class="dm-dp-openingLines">As we </span> at <a href="https://superfriendlydesign.systems/">SuperFriendly</a> work with more new as well as more junior SuperFriends, I&rsquo;m recognizing the need for different ways to support how people learn and grow. It&rsquo;s become more apparent to me that we need different ways to support people as they learn.</p>
+                <p><span class="dm-dp-openingLines">As we </span> at <a href="https://superfriendlydesign.systems/">SuperFriendly</a> work with more new as well as more junior SuperFriends, I&rsquo;m recognizing the need for different ways to support how people learn and grow.</p>
 
                 <div class="dm-c-carbonWrap">
                     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
@@ -56,7 +56,7 @@
                 <ol>
                     <li><a href="#knowledge-transfer">Knowledge Transfer</a></li>
                     <li><a href="#knowledge-seeking">Knowledge Seeking</a></li>
-                    <li><a href="#principles">Principles</a></li>
+                    <li><a href="#purpose">Purpose</a></li>
                     <li><a href="#stories-examples">Stories &amp; Examples</a></li>
                     <li><a href="#coaching">Coaching</a></li>
                     <li><a href="#modeling">Modeling</a></li>
@@ -75,14 +75,14 @@
 
                     <h3 id="how-knowledge-transfer-happens">How It Currently Happens at SuperFriendly</h3>
 
-                    <p>This type of learning happens most naturally on projects. In order to do good work, SuperFriends need information about the client, which happens early in projects mostly through sales and onboarding conversations.</p>
+                    <p>In order to do good work, SuperFriends need information about the client, which happens early in projects mostly through sales and onboarding conversations.</p>
 
                     <p>We also hold monthly Snack n&rsquo; Learns&mdash;a cross-time-zone version of <a href="https://blog.hubspot.com/service/lunch-and-learn">Lunch and Learns</a>&mdash;open to all SuperFriends across a variety of topics.</p>
 
 
                     <h3 id="assessment-knowledge-transfer">My Subjective Assessment</h3>
 
-                    <p><strong>Below average.</strong> We currently don&rsquo;t do much yet to help SuperFriends patch skill gaps through knowledge transfer. One of the biggest criticisms of our <a href="http://v3.danielmall.com/articles/apprenticeships-superfriendly-academy/">apprenticeship</a> from former apprentices is that it focused too heavily on developing <a href="https://www.leadersedge.com/brokerage-ops/the-new-power-skills">power skills</a> and professionalism more than it did hard skills of craft. If someone isn&rsquo;t strong enough at a skill like, say, data analysis, all we do now is say they&rsquo;re unqualified and suggest they try to get better. We&rsquo;ve started to try and correct that in small ways by doing things like purchasing online courses and conference/workshop tickets for SuperFriends.</p>
+                    <p><strong>Below average.</strong> We currently don&rsquo;t do much yet to help SuperFriends patch skill gaps through knowledge transfer. One of the biggest criticisms of our <a href="http://v3.danielmall.com/articles/apprenticeships-superfriendly-academy/">apprenticeship</a> from former apprentices is that it focused too heavily on developing <a href="https://www.leadersedge.com/brokerage-ops/the-new-power-skills">power skills</a> and professionalism more than it did hard skills of craft. If someone isn&rsquo;t strong enough at a skill like, say, <abbr title="User interface">UI</abbr> design or data analysis, all we do now is say they&rsquo;re unqualified and suggest they try to get better. We&rsquo;ve started to try and correct that in small ways by doing things like purchasing online courses and conference/workshop tickets for SuperFriends.</p>
 
 
                     <h3 id="better-job-knowledge-transfer">How We Can Do a Better Job</h3>
@@ -104,7 +104,7 @@
 
                     <h3 id="definition-knowledge-seeking">Definition</h3>
 
-                    <p>Knowledge seeking is the typical <i lang="la">modus operandi</i> of the self-starter. Self-starters are generally good at finding their own solutions, as opposed to having those solutions given to them. That means a lot of reading, watching videos, exploring, and general insatiable curiosity as compared to the expectation of being taught by someone else. One of my hypotheses in starting the apprenticeship was that it&rsquo;s possible to teach someone how to be a self-starter as opposed to it being a character or personality trait. I evaluated that by looking at how much the capacity for knowledge seeking changed over time.</p>
+                    <p>Knowledge seeking is the typical <i lang="la">modus operandi</i> of the self-starter. Self-starters are generally good at finding their own solutions, as opposed to having those solutions given to them. That means a lot of reading, watching videos, exploring, and general insatiable curiosity as compared to the expectation of being taught by someone else. One of my hypotheses in starting the apprenticeship was that it&rsquo;s not ironic to <em>teach</em> someone how to be a self-starter as opposed to it being a character or personality trait. I evaluated that by looking at how much the capacity for knowledge seeking changed over time.</p>
 
 
                     <h3 id="how-knowledge-seeking-happens">How It Currently Happens at SuperFriendly</h3>
@@ -114,38 +114,54 @@
 
                     <h3 id="assessment-knowledge-seeking">My Subjective Assessment</h3>
 
-                    <p>I wonder if it&rsquo;s counterintuitive to try and support knowledge seeking. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque a asperiores dolore optio repudiandae. Iure, quisquam iusto quidem voluptas eveniet rem, architecto laudantium incidunt nulla ipsa corporis tenetur similique aut?</p>
+                    <p><strong>Average.</strong> I wonder if it&rsquo;s counterintuitive to try and <em>support</em> knowledge seeking. Is that the same thing as saying to someone, &ldquo;Figure it out on your own?&ldquo; Is that a good thing or a bad thing? Probably both.</p>
 
 
                     <h3 id="better-job-knowledge-seeking">How We Can Do a Better Job</h3>
 
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque a asperiores dolore optio repudiandae. Iure, quisquam iusto quidem voluptas eveniet rem, architecto laudantium incidunt nulla ipsa corporis tenetur similique aut?</p>
+                    <p>We currently don&rsquo;t do a great job of setting expectations for each role. If we can better articulate those, perhaps we can work on supporting what&rsquo;s expected and then encouraging more knowledge seeking for anything extracurricular.</p>
 
                 </div>
 
 
                 <div class="dm-dp-asteriskSplit">
 
-                    <h2 id="principles">Principles <a class="dm-dp-anchorLink" href="#principles">#</a></h2>                    
+                    <h2 id="purpose">Purpose <a class="dm-dp-anchorLink" href="#purpose">#</a></h2>                    
 
-                    <h3 id="definition-principles">Definition</h3>
+                    <h3 id="definition-purpose">Definition</h3>
 
-                    <p>People need purpose. Drive. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque a asperiores dolore optio repudiandae. Iure, quisquam iusto quidem voluptas eveniet rem, architecto laudantium incidunt nulla ipsa corporis tenetur similique aut?</p>
-
-
-                    <h3 id="how-principles-happens">How It Currently Happens at SuperFriendly</h3>
-
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque a asperiores dolore optio repudiandae. Iure, quisquam iusto quidem voluptas eveniet rem, architecto laudantium incidunt nulla ipsa corporis tenetur similique aut?</p>
+                    <p>As Daniel Pink articulates in his book <cite>Drive</cite>, &ldquo;autonomous people working toward mastery perform at very high levels, but those who do so in the service of some greater objective can achieve even more.&rdquo;</p>
 
 
-                    <h3 id="assessment-principles">My Subjective Assessment</h3>
+                    <h3 id="how-purpose-happens">How It Currently Happens at SuperFriendly</h3>
 
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque a asperiores dolore optio repudiandae. Iure, quisquam iusto quidem voluptas eveniet rem, architecto laudantium incidunt nulla ipsa corporis tenetur similique aut?</p>
+                    <p>One of our interview questions for both new and seasoned SuperFriends at the beginning of each project is, &ldquo;What do you want and need out of your work right now?&rdquo; Historically, the answers have ranged from:</p>
+
+                    <ul>
+                        <li>Money</li>
+                        <li>Distraction</li>
+                        <li>Some sort of impact in the world</li>
+                        <li>Opportunity to work on a specific kind of project or with a specific kind of client</li>
+                        <li>Learn a new skill</li>
+                        <li>Opportunity to hone a current skill</li>
+                        <li>Learn directly from a person with specific experience</li>
+                    </ul>
+
+                    <p>Our job on the SuperFriendly side and the Directors and Producers on the account becomes to help prioritize this outcome for this person.</p>
 
 
-                    <h3 id="better-job-principles">How We Can Do a Better Job</h3>
+                    <h3 id="assessment-purpose">My Subjective Assessment</h3>
 
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque a asperiores dolore optio repudiandae. Iure, quisquam iusto quidem voluptas eveniet rem, architecto laudantium incidunt nulla ipsa corporis tenetur similique aut?</p>
+                    <p><strong>Above average.</strong> We regularly have new SuperFriends that say things like, &ldquo;No one&rsquo;s ever asked me what my personal goals are for a project.&rdquo;</p>
+
+                    <p>We also start every new project with a &ldquo;Superpowers Meeting,&rdquo; where, in front of the whole team, the Executive Producer reads out why each person was chosen for this work, what they bring to it, and what they want to get out of it. This is the first step in making everyone on the team accountable for each of their teammates&rsquo;s stated goals.</p>
+
+
+                    <h3 id="better-job-purpose">How We Can Do a Better Job</h3>
+
+                    <p>Make the goals more present <em>throughout</em> the project, not just in the beginning. Projects start with a lot of momentum around personal goals, but that tends to wane as a project gets going and everyone is in the weeds.</p>
+
+                    <p>User Manuals</p>
 
                 </div>
 
@@ -156,7 +172,7 @@
 
                     <h3 id="definition-examples">Definition</h3>
 
-                    <p>People need purpose. Drive. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque a asperiores dolore optio repudiandae. Iure, quisquam iusto quidem voluptas eveniet rem, architecto laudantium incidunt nulla ipsa corporis tenetur similique aut?</p>
+                    <p>Sounds like. Seer. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque a asperiores dolore optio repudiandae. Iure, quisquam iusto quidem voluptas eveniet rem, architecto laudantium incidunt nulla ipsa corporis tenetur similique aut?</p>
 
 
                     <h3 id="how-examples-happens">How It Currently Happens at SuperFriendly</h3>
