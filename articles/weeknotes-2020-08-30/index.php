@@ -114,8 +114,8 @@
                 <h1 class="dm-c-upNext_kicker">Up Next</h1>
 
                 <h2 class="dm-c-upNext_title">
-                    <a href="/articles/weeknotes-2020-07-26/">
-                    Weeknotes: July 26&ndash;August 1, <span class="dm-c-upNext_title_lastWord">2020</span>
+                    <a href="/articles/weeknotes-2020-08-02/">
+                    Weeknotes: August 2&ndash;August 8, <span class="dm-c-upNext_title_lastWord">2020</span>
                     </a>
                 </h2>
 
