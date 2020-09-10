@@ -11,6 +11,13 @@
 		"location"	:	"Online"
 	},
 	{
+		"title"		: 	"How to put a price on service design / Service Design Show, Episode #107",
+		"slug"		:	"https://www.youtube.com/watch?v=jtaPFGBnsts",
+		"date"		:	"2020-08-20",
+		"type"		:	"podcast",
+		"audio"		:	true
+	},
+	{
 		"title"		: 	"Ladies that UX ATL",
 		"slug"		:	"https://www.meetup.com/Ladies-That-UX-ATL/events/267834099/",
 		"date"		:	"2020-07-16",
