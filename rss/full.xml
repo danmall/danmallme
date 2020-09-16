@@ -5,10 +5,77 @@
 	<link rel="alternate" type="text/html" href="http://danmall.me/" />
 	<link rel="self" type="application/atom+xml" href="http://danmall.me/rss/full.xml" />
 	<id>http://danmall.me/rss/full.xml</id>
-	<updated>2020-09-05T06:04:00Z</updated>
+	<updated>2020-09-16T01:17:00Z</updated>
 	<rights>Copyright © 2020, Dan Mall</rights>
 
 
+	<entry>
+		<title><![CDATA[Weeknotes: September 6&ndash;September 12, 2020]]></title>
+		<description><![CDATA[Highlights from the week.]]></description>
+		<link rel="alternate" type="text/html" href="http://danmall.me/articles/weeknotes-2020-09-06/" />
+		<id>http://danmall.me/articles/weeknotes-2020-09-06/</id>
+		<published>2020-09-16T01:17:00Z</published>
+		<updated>2020-09-16T01:17:00Z</updated>
+		<author>
+			<name>Dan Mall</name>
+			<uri>http://danmall.me/</uri>
+		</author>
+		<content type="html" xml:base="http://danmall.me/articles/" xml:lang="en"><![CDATA[
+<h2 id="work">Work <a href="#work">#</a></h2>
+
+<ol>
+	<li>Worked 27 hours</li>
+	<li>Announced <a href="https://www.usearcade.com/">Arcade</a></li>
+	<li>Kicked off new project with <a href="https://www.creative-curls.com/">Jenn Piatkowski</a></li>
+	<li>Kicked off <a href="https://www.juliafernandez.design/">Julia Fernandez</a>&rsquo;s <a href="https://twitter.com/superfriendlyco/status/1303422092868833281">internship</a></li>
+	<li>Caught up with <a href="https://dontaebenn.myportfolio.com/">Dontae Benn</a></li>
+	<li>Biz dev check-ins with <a href="https://twitter.com/joerinaldi">Joe Rinaldi</a></li>
+	<li>1-on-1 with <a href="https://www.mattecook.com/">Matt Cook</a></li>
+	<li>Talked design systems with <a href="https://lauragriffee.com/">Laura Griffee</a></li>
+	<li>Talked career growth with <a href="https://www.linkedin.com/in/ahmad-kazi-ab1942123/">Ahmad Kazi</a></li>
+	<li>Arcade team meeting with <a href="https://carbonology.in/">Mike Carbone</a> and <a href="https://lesliecamacho.com/">Leslie Camacho</a></li>
+	<li>Prep meeting with team 🤖⚡️</li>
+	<li>Weekly Systems team meeting</li>
+	<li>Caught up with <a href="http://www.patrice-embry.com/">Patrice Embry</a></li>
+	<li>1-on-1 with <a href="https://isabelsousa.com/">Isa Sousa</a></li>
+	<li>Monthly Snack n&rsquo; Learn by <a href="https://twitter.com/jackieeer">Jacqueline Velasquez-Ross</a></li>
+	<li>New account planning with <a href="https://bradfrost.com/">Brad Frost</a> and Joe Rinaldi</li>
+	<li>Hosted SuperFriendly orientation for <a href="http://jordicastellsart.com/">Jordi Castells</a></li>
+	<li>Talked design systems with <a href="http://www.cbaezdesign.com/">Carlos Baez</a></li>
+	<li>Talked design systems with <a href="https://www.mikeaparicio.com/">Mike Aparicio</a></li>
+	<li>Talked to Andy Kim from <a href="https://give.vocatioschool.org/">Vocatio School</a></li>
+	<li><a href="https://www.clarityconf.com/">Clarity</a> Mentorship Circles Planning with <a href="https://www.julyfivedesign.com/">Lauren Deal</a>, Dontae Benn, and <a href="https://dropbox.design/">Dropbox Design</a> team</li></li>
+</ol>
+
+<h2 id="personal">Personal <a href="#personal">#</a></h2>
+
+<ol>
+	<li>My kids started virtual school. It&rsquo;s a mess! But we&rsquo;re figuring it out.</li>
+	<li>The kids and I found YouTube clips of their favorite movies and shows and overdubbed them performing the audio. So silly and so much fun!</li>
+	<li>Slept an average of 7 hours and 10 minutes per night. Average bedtime: 11:52pm. Average wake up time: 7:27am.</li>
+</ol>
+
+
+<h3 id="watched">Watched <a href="#watched">#</a></h3>
+
+<ol>
+	<li><cite><a href="https://www.warnerbros.com/movies/edge-tomorrow">Live Die Repeat: Edge of Tomorrow</a></cite> (again)</li>
+	<li>NBA playoffs</li>
+</ol>
+
+<h3 id="read">Notable reads <a href="#read">#</a></h3>
+
+<ol>
+	<li>Amazon design systems architect Danny Banks transcribed his talk, &ldquo;<a href="https://dbanks.design/blog/multi-platform/">An Introduction to Multi-Platform Design Systems</a>.&rdquo;</li>
+	<li>Author Blair Enns shares <a href="https://www.winwithoutpitching.com/magic-email/">The Magic Email</a>, a simple template that you can use to raise deals from the dead.</li>
+	<li><a href="https://www.kodlian.com/apps/icon-slate">Icon Slate</a> continues to be my favorite tool for creating favicons.</li>
+	<li><a href="https://typewknd.com/">TypeWknd</a> is a brand-new, online-only type conference for those who see, draw, make, study, and sell type.</li>
+	<li><a href="https://statamic.com/">Statamic</a> creator <a href="https://jackmcdade.com/">Jack McDade</a>&rsquo;s upcoming course <a href="https://radicaldesigncourse.com/">Radical Design</a> looks awesome.</li>
+</ol>
+		]]></content>
+	</entry>
+	
+	
 	<entry>
 		<title><![CDATA[Weeknotes: August 30&ndash;September 5, 2020]]></title>
 		<description><![CDATA[Highlights from the week.]]></description>
