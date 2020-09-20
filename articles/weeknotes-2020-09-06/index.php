@@ -1,7 +1,7 @@
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/functions.php"); echo "\n"; ?>
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/doctype.php"); echo "\n"; ?>
 <head>    
-    <title>&ldquo;Weeknotes: September 6&ndash;September 17, 2020,&rdquo; an article by Dan Mall</title>
+    <title>&ldquo;Weeknotes: September 6&ndash;September 12, 2020,&rdquo; an article by Dan Mall</title>
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/meta.php"); echo "\n"; ?> 
     <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/cssReference.php"); echo "\n"; ?>
 
