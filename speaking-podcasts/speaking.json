@@ -1,5 +1,18 @@
 [	
 	{
+		"title"		: 	"Design Ops Summit",
+		"slug"		:	"https://rosenfeldmedia.com/designopssummit2020/",
+		"date"		:	"2020-10-12",
+		"location"	:	"Online"
+	},
+	{
+		"title"		: 	"StackYack: Dan Mall on Collaboration",
+		"slug"		:	"https://stackyack.tv/post/dan-mall-on-collaboration",
+		"date"		:	"2020-10-09",
+		"type"		:	"podcast",
+		"audio"		:	true
+	},
+	{
 		"title"		: 	"UX+",
 		"date"		:	"2020-09-12",
 		"location"	:	"Online"
