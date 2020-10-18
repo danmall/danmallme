@@ -5,10 +5,71 @@
 	<link rel="alternate" type="text/html" href="http://danmall.me/" />
 	<link rel="self" type="application/atom+xml" href="http://danmall.me/rss/full.xml" />
 	<id>http://danmall.me/rss/full.xml</id>
-	<updated>2020-09-28T13:36:00Z</updated>
+	<updated>2020-10-18T17:09:00Z</updated>
 	<rights>Copyright © 2020, Dan Mall</rights>
 
 
+	<entry>
+		<title><![CDATA[Weeknotes: October 11&ndash;October 17, 2020]]></title>
+		<description><![CDATA[Highlights from the week.]]></description>
+		<link rel="alternate" type="text/html" href="http://danmall.me/articles/weeknotes-2020-10-11/" />
+		<id>http://danmall.me/articles/weeknotes-2020-10-11/</id>
+		<published>2020-10-18T17:09:00Z</published>
+		<updated>2020-10-18T17:09:00Z</updated>
+		<author>
+			<name>Dan Mall</name>
+			<uri>http://danmall.me/</uri>
+		</author>
+		<content type="html" xml:base="http://danmall.me/articles/" xml:lang="en"><![CDATA[
+<h2 id="work">Work <a href="#work">#</a></h2>
+
+<ol>
+	<li>Worked 47 hours</li>
+	<li>Taught &ldquo;<a href="https://twitter.com/danmall/status/1316443930251198465">Design Systems &amp; Design Ops</a>&rdquo; workshop at <a href="https://rosenfeldmedia.com/designopssummit2020/">Design Ops Summit</a> over 3 days</li>
+	<li>Caught up with <a href="https://twitter.com/Uszynski32">Ed Uszynski</a> about <a href="https://www.familylife.com/">FamilyLife</a></li>
+	<li>Talk to <a href="https://twitter.com/RumoreHigh">Katie High</a> and <a href="https://twitter.com/chrisfree">Chris Free</a> from <a href="https://chromatichq.com/">Chromatic</a> with <a href="https://twitter.com/JoeRinaldi">Joe Rinaldi</a></li>
+	<li>Caught up with <a href="https://bradfrost.com/">Brad Frost</a>      </li>
+	<li>Biz dev catch ups with <a href="https://twitter.com/crystalvitelli">Crystal Vitelli</a> and Joe Rinaldi</li>
+	<li>Quarterly planning with <a href="https://bigmedium.com/">Josh Clark</a> and Brad Frost</li>
+	<li>Caught up with <a href="http://www.jennyjohannesson.com/">Jenny Johannesson</a></li>
+	<li>Working session with Crystal Vitelli</li>
+	<li>Talked to new prospective client with Joshua Blankenship and Matt Cook</li>
+	<li>Check-in with <a href="https://www.juliafernandez.design/">Julia Fernandez</a> about her <a href="https://superfriendlydesign.systems/">SuperFriendly</a> internship</li>
+	<li><a href="https://www.usearcade.com/">Arcade</a> research readout</li>
+	<li>Caught up with <a href="http://mattspiel.com/">Matt Spiel</a></li>
+	<li>Account planning with <a href="http://nicole-hampton.com/">Nicole Hampton</a> and Joe Rinaldi</li>
+</ol>
+
+<h2 id="personal">Personal <a href="#personal">#</a></h2>
+
+<ol>
+	<li>Celebrated my nephew&rsquo;s 2nd birthday</li>
+	<li>I pre-ordered the <a href="https://www.apple.com/iphone-12/">iPhone 12</a> for <a href="http://emilymall.me/">Em</a>.</li>
+	<li>Ate at <a href="http://ookasushi.com/willow-grove.html">OOKA</a></li>
+	<li>Slept an average of 5 hours and 30 minutes per night. Average time in bed: 6 hours and 40 minutes. Average bedtime: 9:55pm. Average wake up time: 4:36am.</li>
+</ol>
+
+
+<h3 id="watched">Watched <a href="#watched">#</a></h3>
+
+<ol>
+	<li><a href="https://itunes.apple.com/us/movie/alexander-and-the-terrible-horrible-no-good-very-bad-day/id921038048">Alexander and the Terrible, Horrible, No Good, Very Bad Day</a></li>
+	<li><a href="https://www.hbo.com/movies/xmen-first-class">X-Men: First Class</a> (again)</li>
+	<li><a href="https://www.disneyplus.com/movies/x-men-days-of-future-past/12X4W0gKaZr4">X-Men: Days of Future Past</a> (again)</li>
+</ol>
+
+<h3 id="read">Notable reads <a href="#read">#</a></h3>
+
+<ol>
+	<li><a href="https://twitter.com/nathanacurtis/">Nathan Curtis</a> published an epic article about <a href="https://medium.com/eightshapes-llc/naming-tokens-in-design-systems-9e86c7444676">naming tokens in design systems</a>.</li>
+	<li><a href="https://twitter.com/kristyt/">Kristy Tillman</a> launched <a href="https://www.madeinthefuturefellowship.com/">Made in the Future</a>, a career-building curriculum-based fellowship for talented underrepresented emerging design professionals.</li>
+	<li><a href="https://hbr.org/1987/07/crafting-strategy">Crafting Strategy</a> by <a href="https://mintzberg.org/">Henry Mintzberg</a> is one of the best articles I&rsquo;ve ever read about the importance of emergent strategy.</li>
+	<li><a href="https://elements.envato.com/fright-night-vintage-horror-font-SZT4DN">Fright Night</a> is a fantastic typeface to use this October for any of your Halloween-related design needs.</li>
+</ol>
+		]]></content>
+	</entry>
+	
+	
 	<entry>
 		<title><![CDATA[Weeknotes: September 20&ndash;September 26, 2020]]></title>
 		<description><![CDATA[Highlights from the week.]]></description>
