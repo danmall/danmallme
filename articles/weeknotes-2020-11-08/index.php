@@ -63,7 +63,7 @@
                 
                 <ol>
                     <li>Worked 29 hours</li>
-                    <li>Ran a content workshop for <a href="https://www.ronblue.com/">RonaldBlueTrust</a> team with <a href="https://twitter.com/crystalvitelli?lang=en">Crystal Vitelli</a>, <a href="https://www.familylife.com/podcast/guest/brian-goins/">Brian Goins</a>, and <a href="https://twitter.com/uszynski32?lang=en">Ed Uszynski</a></li>
+                    <li>Ran a content workshop for <a href="https://www.ronblue.com/">RonaldBlueTrust</a> team with <a href="https://twitter.com/crystalvitelli?lang=en">Crystal Vitelli</a>, <a href="https://www.familylife.com/podcast/guest/brian-goins/">Brian Goins</a>, and <a href="https://twitter.com/uszynski32">Ed Uszynski</a></li>
                     <li>Schemed with <a href="https://twitter.com/louisrosenfeld">Lou Rosenfeld</a></li>
                     <li>1-on-1 with <a href="https://www.mattecook.com/">Matt Cook</a></li>
                     <li>Working session with Crystal Vitelli</li>
@@ -83,7 +83,7 @@
                     <li>Talked pricing strategies with folks from <a href="https://www.fostercommerce.com/">Foster Commerce</a> and <a href="https://twitter.com/iamlaurendeal/">Lauren Deal</a></li>
                     <li>Pitched a new prospective client with Dan Arbello, Katie High, Jessi Hall, and Joe Rinaldi</li>
                     <li>1-on-1 with <a href="https://www.juliafernandez.design/">Julia Fernandez</a></li>
-                    <li>Talked client service strategies with <a href="https://twitter.com/andrewmeyer8?lang=en">Drew Meyer</a></li>
+                    <li>Talked client service strategies with <a href="https://twitter.com/andrewmeyer8">Drew Meyer</a></li>
                 </ol>
 
                 <h2 id="personal">Personal <a class="dm-dp-anchorLink" href="#personal">#</a></h2>
