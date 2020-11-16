@@ -90,6 +90,7 @@
 
                 <ol>
                     <li>Found out our mortgage loan was approved! Looks like we&rsquo;re moving soon!</li>
+                    <li>We hired an exterminator to help us get rid of mice. The day after he came to lay traps, we found 5 dead ones, 2 of which our dog Max caught.</li>
                     <li>Kids had a day off of school for teachers&rsquo; inservice</li>
                     <li>Took the fam for a hike at <a href="https://www.dcnr.pa.gov/StateParks/FindAPark/TylerStatePark/Pages/default.aspx">Tyler State Park</a></li>
                     <li>Played racquetball with <a href="http://emilymall.me/">Em</a></li>
