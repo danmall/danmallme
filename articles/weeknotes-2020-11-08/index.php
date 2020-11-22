@@ -77,7 +77,7 @@
                     <li>Wrote an email newsletter about <a href="https://mailchi.mp/superfriend.ly/starting-a-design-system-by-yourself">starting a design system by yourself</a></li>
                     <li>Schemed with <a href="https://www.joshluciano.com/">Josh Luciano</a></li>
                     <li>Recorded a <a href="https://www.loom.com/">Loom</a> for the Arcade team about handoff files</li>
-                    <li>Prepped for sales calls with <a href="https://twitter.com/RumoreHigh">Katie High</a>, <a href="https://twitter.com/chrisfree?lang=en">Chris Free</a>, <a href="http://danarbello.com/">Dan Arbello</a, ><a href="https://twitter.com/jessiofhall/">Jessi Hall</a>, Crystal Vitelli, and Joe Rinaldi</li>
+                    <li>Prepped for sales calls with <a href="https://twitter.com/RumoreHigh">Katie High</a>, <a href="https://twitter.com/chrisfree?lang=en">Chris Free</a>, <a href="http://danarbello.com/">Dan Arbello</a>, <a href="https://twitter.com/jessiofhall/">Jessi Hall</a>, Crystal Vitelli, and Joe Rinaldi</li>
                     <li>Ran a design system workshop for some <a href="https://slack.com/">Slack</a> product folks</li>
                     <li>Talked to a new prospective client with <a href="https://twitter.com/natalievi">Natalie Armendariz</a>, <a href="https://twitter.com/favoriteshape">Anthony Armendariz</a>, <a href="https://twitter.com/makiqui?lang=en">Mari Chamoun</a>, Dan Arbello, and Joe Rinaldi</li>
                     <li>Talked pricing strategies with folks from <a href="https://www.fostercommerce.com/">Foster Commerce</a> and <a href="https://twitter.com/iamlaurendeal/">Lauren Deal</a></li>
