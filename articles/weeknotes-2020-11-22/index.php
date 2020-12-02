@@ -47,7 +47,7 @@
                 Weeknotes: <span class="dm-u-wrap--none">November 22</span>&ndash;<span class="dm-u-wrap--none">November 28, 2020</span>  
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">December 1, 2020 at 6:17 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">December 2, 2020 at 5:10 <abbr title="Ante Meridien">AM</abbr></h2>
 
         </header><!-- .page-header -->
 
@@ -59,7 +59,7 @@
                     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
                 </div><!-- .dm-c-carbonWrap -->
 
-                <h2 id="work">Themes <a class="dm-dp-anchorLink" href="#themes">#</a></h2>
+                <h2 id="themes">Themes <a class="dm-dp-anchorLink" href="#themes">#</a></h2>
 
                 <ul>
                     <li>When I focus on a smaller number of things, I work more. When I have a lot of little things to do, I work less. I wonder if lots of little things fatigue me, as opposed to a smaller number of big things.</li>
@@ -93,6 +93,7 @@
                 <ol>
                     <li>Did a bunch of yardwork and cleaned the outside of the house windows (for the first time&hellip; ever)</li>      
                     <li>Cooked a Thanksgiving meal with the fam: 2 <a href="https://diethood.com/roast-chicken-recipe/">Easy Roast Chickens</a>, <a href="https://www.spendwithpennies.com/make-ahead-turkey-stuffing-recipe/">Make Ahead Corn Stuffing</a>, <a href="https://www.thekitchn.com/mashed-sweet-potatoes-22956026">Mashed Sweet Potatoes</a>, and <a href="https://www.thechunkychef.com/sheet-pan-oven-roasted-vegetables/">Sheet Pan Mustard Roasted Vegetables</a>. We even made a silly behind-the-scenes video of the process.</li> 
+                    <li>I intended to play <a href="https://www.playstation.com/en-us/games/ghost-of-tsushima/">Ghosts of Tsushima</a>. As of right now, it still sits unopened in its original packaging.</li>
                     <li>Slept an average of 6 hours and 6 minutes per night. Average time in bed: 6 hours and 45 minutes. Average bedtime: 10:44pm. Average wake up time: 4:42am.</li>
                 </ol>
 
@@ -130,8 +131,8 @@
                 <h1 class="dm-c-upNext_kicker">Up Next</h1>
 
                 <h2 class="dm-c-upNext_title">
-                    <a href="/articles/weeknotes-2020-11-08/">
-                    Weeknotes: November 8&ndash;November 14, <span class="dm-c-upNext_title_lastWord">2020</span>
+                    <a href="/articles/weeknotes-2020-11-15/">
+                    Weeknotes: November 15&ndash;November 21, <span class="dm-c-upNext_title_lastWord">2020</span>
                     </a>
                 </h2>
 
