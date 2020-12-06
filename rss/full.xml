@@ -5,8 +5,98 @@
 	<link rel="alternate" type="text/html" href="http://danmall.me/" />
 	<link rel="self" type="application/atom+xml" href="http://danmall.me/rss/full.xml" />
 	<id>http://danmall.me/rss/full.xml</id>
-	<updated>2020-12-02T05:10:00Z</updated>
+	<updated>2020-12-06T07:30:00Z</updated>
 	<rights>Copyright © 2020, Dan Mall</rights>
+
+
+	<entry>
+		<title><![CDATA[Weeknotes: November 29&ndash;December 5, 2020]]></title>
+		<description><![CDATA[Highlights from the week.]]></description>
+		<link rel="alternate" type="text/html" href="http://danmall.me/articles/weeknotes-2020-11-29/" />
+		<id>http://danmall.me/articles/weeknotes-2020-11-29/</id>
+		<published>2020-12-06T07:30:00Z</published>
+		<updated>2020-12-06T07:30:00Z</updated>
+		<author>
+			<name>Dan Mall</name>
+			<uri>http://danmall.me/</uri>
+		</author>
+		<content type="html" xml:base="http://danmall.me/articles/" xml:lang="en"><![CDATA[
+<h2 id="themes">Themes <a href="#themes">#</a></h2>
+
+<ul>
+	<li>
+		Here&rsquo;s how I felt about the things I did this week:
+		<ul>
+			<li>38% 👍🏽</li>
+			<li>57% 👊🏽</li>
+			<li>5% 👎🏽</li>
+		</ul>
+	</li>
+	<li>Since it officially turned December, I feel myself quickly moving into reflective mode for the year and starting to make plans for 2021.</li>
+</ul>
+
+<h2 id="work">Work <a href="#work">#</a></h2>
+
+<ol>
+	<li>Worked 36 hours</li>
+	<li>Sent out <a href="https://mailchi.mp/superfriend.ly/make-design-systems-people-want-to-use">an email newsletter</a> about the &ldquo;<a href="https://superfriendlydesign.systems/classes/make-design-systems-people-want-to-use/">Make Design Systems People Want to Use</a>&rdquo; course</li>
+	<li>Debugged some Mailchimp email newsletter signup weirdness</li>
+	<li>Talked email lists with <a href="https://twitter.com/crystalvitelli">Crystal Vitelli</a>, <a href="https://www.linkedin.com/in/nikki-loffredo-5a8b1945/">Nikki Loffredo</a>, and <a href="https://twitter.com/tpitre">TJ Pitre</a></li>
+	<li>Attended my first meeting as a board member of <a href="https://give.vocatioschool.org/">Vocatio Career Prep High School</a></li>
+	<li>Started designing and coding a new internal <a href="https://superfriendlydesign.systems/">SuperFriendly</a> project (used <a href="https://www.11ty.dev/">Eleventy</a> for the first time)</li>
+	<li>Recorded an upcoming podcast episode</li>
+	<li>Workshopped with Crystal Vitelli</li>
+	<li>Sales call with prospective client with <a href="https://twitter.com/iamlaurendeal/">Lauren Deal</a>, <a href="https://celsowhite.com/">Celso White</a>, <a href="https://www.babygrand.co/">Baby Grand</a>, and <a href="https://twitter.com/joerinaldi">Joe Rinaldi</a></li>
+	<li>Biz dev check-ins with Crystal Vitelli and Joe Rinaldi</li>
+	<li>Caught up with <a href="https://www.hilaryfenton.com/">Hilary Fenton</a></li>
+	<li>Wrote <a href="/articles/weeknotes-2020-11-22/">weeknotes</a></li>
+	<li>Workshopping prospective client team structure with Crystal Vitelli and Joe Rinaldi</li>
+	<li>Talked prospective client tech discovery process with <a href="https://www.vagabondcollective.com/">Nicole Hampton</a>, <a href="https://bradfrost.com/">Brad Frost</a>, <a href="https://timshelburne.com/">Tim Shelburne</a>, and Joe Rinaldi</li>
+	<li>Attended the <a href="https://www.notion.so/Practical-Innovation-Summit-Tokens-e3d2d33c8d0246949261abdb72b75247">Practical Innovation Summit: Tokens</a> with the <a href="https://www.usearcade.com/">Arcade team</a></li>
+	<li>Wrote new client statement of work</li>
+	<li>Workshopped client content with Lauren Deal, Crystal Vitelli, and <a href="https://www.mattecook.com/">Matt Cook</a></li>
+	<li>1-on-1 with <a href="https://isabelsousa.com/">Isa Sousa</a></li>
+	<li>1-on-1 with <a href="https://www.juliafernandez.design/">Julia Fernandez</a></li>
+	<li>New project scoping with <a href="https://feather.ca/">Derek Featherstone</a></li>
+	<li>Account planning with <a href="https://twitter.com/jessiofhall/">Jessi Hall</a> and <a href="https://bigmedium.com/">Josh Clark</a></li>
+	<li>Talked to client tech team about what handoff should look like with Lauren Deal and Crystal Vitelli</li>
+	<li>Schemed with <a href="https://twitter.com/K_Deal2">Kevin Deal</a></li>
+	<li>Schemed with <a href="https://www.afyiasmith.com/">Afyia Smith</a></li>
+	<li>Schemed with <a href="https://appropriateinc.com/">Margot Bloomstein</a></li>
+	<li>Caught up with <a href="https://lesliecamacho.com/">Leslie Camacho</a></li>
+</ol>
+
+<h2 id="personal">Personal <a href="#personal">#</a></h2>
+
+<ol>
+	<li><a href="https://twitter.com/charlottemall">Charlie</a> turned 7!</li>
+	<li>My parents celebrated their 38th anniversary. Happy anniversary, Mom &amp; Dad!</li>
+	<li>Buying a new house is equal parts exciting and boring. I spent a lot of time this week on the phone and on email get homeowners insurance quotes and filling out/signing documents.</li>
+	<li>Slept an average of 6 hours and 18 minutes per night. Average time in bed: 7 hours and 15 minutes. Average bedtime: 9:58pm. Average wake up time: 5:10am.</li>
+</ol>
+
+
+<h3 id="watched">Watched <a href="#watched">#</a></h3>
+
+<ol>
+	<li><cite><a href="https://www.disneyplus.com/movies/d2-the-mighty-ducks/t92qLjllJsbr">D2: The Mighty Ducks</a></cite> (again)</li>
+	<li><cite><a href="https://www.disneyplus.com/movies/d3-the-mighty-ducks/60MKBZyPVXSC">D3: The Mighty Ducks</a></cite> (again)</li>
+	<li><cite><a href="https://www.amazon.com/Mission-Impossible-Fallout-Tom-Cruise/dp/B07FSQDJKG">Mission: Impossible - Fallout</a></cite> (again)</li>
+	<li><cite><a href="https://www.disneyplus.com/series/the-mandalorian/3jLIGMDYINqD">The Mandalorian</a></cite>, season 2, episodes 2&ndash;6</li>
+</ol>
+
+<h3 id="read">Notable reads <a href="#read">#</a></h3>
+
+<ol>
+	<li><cite>Captain Britain (1976) <a href="https://www.marvel.com/comics/issue/62513/captain_britain_1976_1">#1</a>&ndash;<a href="https://www.marvel.com/comics/issue/62514/captain_britain_1976_2">2</a></cite></li>
+	<li><cite>Marvel Team-Up <a href="https://www.marvel.com/comics/issue/19687/marvel_team-up_1972_65">#65</a>&ndash;<a href="https://www.marvel.com/comics/issue/19688/marvel_team-up_1972_66">#66</a></cite></li>
+	<li><cite>Excalibur (1988) <a href="https://www.marvel.com/comics/issue/8562/excalibur_1988_1">#1</a></cite></li>
+	<li><cite>Marauders (2019) <a href="https://www.marvel.com/comics/issue/78405/marauders_2019_11">#11</a></cite></li>
+	<li><cite>Excalibur (2019) <a href="https://www.marvel.com/comics/issue/78392/excalibur_2019_11">#11</a></cite></li>
+	<li><a href="https://codeopinion.com/the-complexity-of-caching/">Avoid caching if you can</a>.</li>
+</ol>
+		]]></content>
+	</entry>
 
 
 	<entry>
