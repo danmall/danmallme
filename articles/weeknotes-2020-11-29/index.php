@@ -62,9 +62,15 @@
                 <h2 id="themes">Themes <a class="dm-dp-anchorLink" href="#themes">#</a></h2>
 
                 <ul>
-                    <li>When I focus on a smaller number of things, I work more. When I have a lot of little things to do, I work less. I wonder if lots of little things fatigue me, as opposed to a smaller number of big things.</li>
-                    <li>I tend to work more when I&rsquo;m enjoying myself or am excited about something. This week, I was excited about launching the course, and I started on a side project I&rsquo;ve been mulling over in my head for months.</li>
-                    <li>I tend to see holiday weeks as weeks I can focus on my own things. I wonder if that means I see &ldquo;normal&rdquo; weeks as ones where I&rsquo;m obligated to do something instead of pursuing. I&rsquo;d like to figure out how to carve out more time each week to work on the stuff I want to.</li>
+                    <li>
+                        Here&rsquo;s how I felt about the things I did this week:
+                        <ul>
+                            <li>38% 👍🏽</li>
+                            <li>57% 👊🏽</li>
+                            <li>5% 👎🏽</li>
+                        </ul>
+                    </li>
+                    <li>Since it officially turned December, I feel myself quickly moving into reflective mode for the year and starting to make plans for 2021.</li>
                 </ul>
                 
                 <h2 id="work">Work <a class="dm-dp-anchorLink" href="#work">#</a></h2>
@@ -90,6 +96,7 @@
                     <li>1-on-1 with <a href="https://isabelsousa.com/">Isa Sousa</a></li>
                     <li>1-on-1 with <a href="https://www.juliafernandez.design/">Julia Fernandez</a></li>
                     <li>New project scoping with <a href="https://feather.ca/">Derek Featherstone</a></li>
+                    <li>Account planning with <a href="https://twitter.com/jessiofhall/">Jessi Hall</a> and <a href="https://bigmedium.com/">Josh Clark</a></li>
                     <li>Talked to client tech team about what handoff should look like with Lauren Deal and Crystal Vitelli</li>
                     <li>Schemed with <a href="https://twitter.com/K_Deal2">Kevin Deal</a></li>
                     <li>Schemed with <a href="https://www.afyiasmith.com/">Afyia Smith</a></li>
