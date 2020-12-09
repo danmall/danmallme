@@ -48,7 +48,7 @@
 
     <section class="dm-c-intro">
 
-        <p class="">I&rsquo;m <strong class="dm-c-intro_name">Dan Mall</strong>, a creative director and advisor from Philly.  I&rsquo;m the founder and director of <a href="http://superfriend.ly/">SuperFriendly</a>, a design collaborative that brings exquisite creative direction and design to the world&rsquo;s most important and interesting organizations. I&rsquo;m also the co-founder and <abbr title="Chief Executive Officer">CEO</abbr> of <a href="http://superbooked.com/">SuperBooked</a>, a service that helps you find work with a little help from your friends.</p>
+        <p class="">I&rsquo;m <strong class="dm-c-intro_name">Dan Mall</strong>, a creative director and advisor from Philly.  I&rsquo;m the founder and director of <a href="http://superfriend.ly/">SuperFriendly</a>, a design collaborative that brings exquisite creative direction and design to the world&rsquo;s most important and interesting organizations. I&rsquo;m also the co-founder and <abbr title="Chief Executive Officer">CEO</abbr> of <a href="https://www.usearcade.com/">Arcade</a>, a fun way to create, edit, and manage design tokens for enterprise teams.</p>
 
         <?php /* ?>
         <p class="dm-dp-seeAll dm-u-text--s">
