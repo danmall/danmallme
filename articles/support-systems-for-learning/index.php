@@ -45,7 +45,7 @@
 
             <div class="dm-dp-textPassage dm-l-articleGrid--main">
             
-                <p><span class="dm-dp-openingLines">As we </span> at <a href="https://superfriendlydesign.systems/">SuperFriendly</a> work with more new as well as more junior SuperFriends, I&rsquo;m recognizing the need for different ways to support how people learn and grow.</p>
+                <p><span class="dm-dp-openingLines">As we </span> at <a href="https://superfriendlydesign.systems/">SuperFriendly</a> work with newer and/or more junior SuperFriends, I&rsquo;m recognizing the need for different ways to support how people learn and grow.</p>
 
                 <div class="dm-c-carbonWrap">
                     <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&amp;serve=CVYD42T&amp;placement=danielmallcom" id="_carbonads_js"></script>
@@ -70,7 +70,7 @@
 
                     <h3 id="definition-knowledge-transfer">Definition</h3>
 
-                    <p>This is probably the most common form, the one that most think of when they think of &ldquo;learning.&rdquo; Knowledge transfer is the idea that someone possesses information that you don&rsquo;t, and you get that information by someone bestowing to you. The education system is primarily built on this type of learning, where experienced teachers bestow their knowledge upon eager students.</p>
+                    <p>This is probably the most common form&mdash;more commonly known as &ldquo;teaching&rdquo;&mdash;that most think of when they think of &ldquo;learning.&rdquo; Knowledge transfer is the idea that someone possesses information that you don&rsquo;t, and you get that information by someone bestowing to you. The education system is primarily built on this type of learning, where experienced teachers bestow their knowledge upon eager students.</p>
 
 
                     <h3 id="how-knowledge-transfer-happens">How It Currently Happens at SuperFriendly</h3>
@@ -82,7 +82,7 @@
 
                     <h3 id="assessment-knowledge-transfer">My Subjective Assessment</h3>
 
-                    <p><strong>Below average.</strong> We currently don&rsquo;t do much yet to help SuperFriends patch skill gaps through knowledge transfer. One of the biggest criticisms of our <a href="http://v3.danielmall.com/articles/apprenticeships-superfriendly-academy/">apprenticeship</a> from former apprentices is that it focused too heavily on developing <a href="https://www.leadersedge.com/brokerage-ops/the-new-power-skills">power skills</a> and professionalism more than it did hard skills of craft. If someone isn&rsquo;t strong enough at a skill like, say, <abbr title="User interface">UI</abbr> design or data analysis, all we do now is say they&rsquo;re unqualified and suggest they try to get better. We&rsquo;ve started to try and correct that in small ways by doing things like purchasing online courses and conference/workshop tickets for SuperFriends.</p>
+                    <p><strong>Below average.</strong> We currently don&rsquo;t do much yet to help SuperFriends patch skill gaps through knowledge transfer. One of the biggest criticisms of our <a href="http://v3.danielmall.com/articles/apprenticeships-superfriendly-academy/">apprenticeship</a> from former apprentices is that it focused too heavily on developing <a href="https://www.leadersedge.com/brokerage-ops/the-new-power-skills">power skills</a> and professionalism more than it did skills of craft. If someone isn&rsquo;t strong enough at a skill like, say, <abbr title="User interface">UI</abbr> design or data analysis, all we do now is say they&rsquo;re unqualified and suggest they try to get better. We&rsquo;ve started to try and correct that in small ways by doing things like purchasing online courses and conference/workshop tickets for SuperFriends.</p>
 
 
                     <h3 id="better-job-knowledge-transfer">How We Can Do a Better Job</h3>
@@ -109,7 +109,7 @@
 
                     <h3 id="how-knowledge-seeking-happens">How It Currently Happens at SuperFriendly</h3>
 
-                    <p>For better or worse&mdash;probably worse&mdash;we&rsquo;re drawn to people who do their own knowledge seeking. Those who have a lot of experience with knowledge seeking tend to be more self-sufficient than others. We don&rsquo;t really &ldquo;support&rdquo; knowledge seeking as much as we try to continually encourage it.</p>
+                    <p>For better or worse&mdash;probably worse&mdash;our industry is drawn to people who do their own knowledge seeking. Those who have a lot of experience with knowledge seeking tend to be more self-sufficient than others. We don&rsquo;t really &ldquo;support&rdquo; knowledge seeking as much as we try to continually encourage it.</p>
 
 
                     <h3 id="assessment-knowledge-seeking">My Subjective Assessment</h3>
@@ -158,10 +158,11 @@
 
 
                     <h3 id="better-job-purpose">How We Can Do a Better Job</h3>
-
-                    <p>Make the goals more present <em>throughout</em> the project, not just in the beginning. Projects start with a lot of momentum around personal goals, but that tends to wane as a project gets going and everyone is in the weeds.</p>
-
-                    <p>User Manuals</p>
+                    
+                    <ul>
+                        <li>Make the goals more present <em>throughout</em> the project, not just in the beginning. Projects start with a lot of momentum around personal goals, but that tends to wane as a project gets going and everyone is in the weeds.</li>
+                        <li>User Manuals</li>
+                    </ul>
 
                 </div>
 
