@@ -1,6 +1,16 @@
 [
 	{
-		"title"	: 	"Weeknotes: November 29&ndash;December 6, 2020",
+		"title"	: 	"Weeknotes: December 6&ndash;December 12, 2020",
+		"slug"	:	"weeknotes-2020-12-06",
+		"dek"	:	"Highlights from the week.",
+		"date"	:	"2020-12-13T07:57:00Z",
+		"tags"	:	[
+			"personal",
+			"weeknotes"
+		]
+	},
+	{
+		"title"	: 	"Weeknotes: November 29&ndash;December 5, 2020",
 		"slug"	:	"weeknotes-2020-11-29",
 		"dek"	:	"Highlights from the week.",
 		"date"	:	"2020-12-06T07:30:00Z",
