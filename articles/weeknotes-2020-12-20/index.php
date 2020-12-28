@@ -47,7 +47,7 @@
                 Weeknotes: <span class="dm-u-wrap--none">December 20</span>&ndash;<span class="dm-u-wrap--none">December 26, 2020</span>  
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">December 28, 2020 at 6:12 <abbr title="Ante Meridien">AM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">December 28, 2020 at 5:52 <abbr title="Ante Meridien">AM</abbr></h2>
 
         </header><!-- .page-header -->
 
@@ -74,7 +74,7 @@
                     <li>Cooked Christmas dinner of <a href="https://cafedelites.com/bloomin-onion-garlic-bread-pull-apart-bread/">pull-apart cheesy bread</a>, <a href="https://www.dinneratthezoo.com/green-bean-bundles/">bacon-wrapped green beans</a>, <a href="https://www.recipegirl.com/candy-cane-caprese-board/">candy cane caprese</a>, <a href="https://www.chelseasmessyapron.com/candied-pecan-pear-pomegranate-salad/">pear pomegranate winter salad</a>, and <a href="https://www.epicurious.com/recipes/food/views/vinegar-braised-chicken-and-onions-51143420">vinegar-braised, slow-cooked chicken and onions</a></li>
                     <li start="4">Adulting and nesting! Bought <a href="https://onsentowel.com/products/onsen-bath-towel">Onsen Bath Towels</a> and <a href="https://www.frontgate.com/resort-cotton-bath-towels/bath/bath-towels-guest-towels/155771?listIndex=0&amp;uniqueId=155771">Frontgate Resort Cotton Bath Towels</a></li>
                     <li>Bought a rug</li>
-                    <li>Bought a PS5</li>
+                    <li>Ordered a PS5</li>
                     <li>I think I&rsquo;ll throw in on <a href="https://www.xmasffa.com/optin1607843860701">the editing competition</a> from <a href="https://www.instagram.com/jordhammond/">@jordhammond</a> and <a href="https://www.instagram.com/mindz.eye/">@mindz.eye</a></li>
                     <li>Slept an average of 5 hours and 54 minutes per night. Average time in bed: 6 hours and 35 minutes. Average bedtime: 11:13pm. Average wake up time: 5:44am.</li>
                 </ol>
