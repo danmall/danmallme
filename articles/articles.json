@@ -1,5 +1,20 @@
 [
 	{
+		"title"	: 	"SuperFriendly 2020 Wrap-Up",
+		"slug"	:	"superfriendly-2020-wrap-up",
+		"dek"	:	"A look back at SuperFriendly in 2020.",
+		"date"	:	"2020-12-31T16:04:00Z",
+		"tags"	:	[
+			"superfriendly",
+			"agency",
+			"reflection",
+			"data",
+			"working in public",
+			"annual report",
+			"business"
+		]
+	},
+	{
 		"title"	: 	"Weeknotes: December 20&ndash;December 26, 2020",
 		"slug"	:	"weeknotes-2020-12-20",
 		"dek"	:	"Highlights from the week.",
