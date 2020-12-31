@@ -397,6 +397,14 @@ http://superfriend.ly/
 				@include dm-u-text--l;
 			}
 
+			h2,
+			h3,
+			h4 {
+				.breveTitleBold-loaded & {
+					font-family: "BreveTitle-Bold";
+				}
+			}
+
 			h3 {
 				@include dm-u-text--m;
 			}
