@@ -13,7 +13,7 @@
     <meta name="twitter:title" property="og:title" content="SuperFriendly 2020 Wrap-Up" />
     <meta name="twitter:description" property="og:description" content="A look back at SuperFriendly in 2020." />
     <meta name="description" content="A look back at SuperFriendly in 2020." />
-    <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/og.png" />
+    <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>thumb.png" />
 
     <style type="text/css">
 
