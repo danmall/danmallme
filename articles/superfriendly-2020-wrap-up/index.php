@@ -11,8 +11,8 @@
     <meta name="twitter:site" content="@danmall" />
     <meta name="twitter:url" property="og:url" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>" />
     <meta name="twitter:title" property="og:title" content="SuperFriendly 2020 Wrap-Up" />
-    <meta name="twitter:description" property="og:description" content="Looking forward to a new kind of year for SuperFriendly by looking back at the past few years." />
-    <meta name="description" content="Looking forward to a new kind of year for SuperFriendly by looking back at the past few years. p" />
+    <meta name="twitter:description" property="og:description" content="A look back at SuperFriendly in 2020." />
+    <meta name="description" content="A look back at SuperFriendly in 2020." />
     <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/og.png" />
 
     <style type="text/css">
@@ -46,7 +46,7 @@
                 SuperFriendly 2020 Wrap-Up
             </h1>
 
-            <h2 class="dm-c-pageHeader_date">December 31, 2020 at 2:50 <abbr title="Post Meridien">PM</abbr></h2>
+            <h2 class="dm-c-pageHeader_date">December 31, 2020 at 4:04 <abbr title="Post Meridien">PM</abbr></h2>
 
         </header><!-- .page-header -->
 
@@ -142,53 +142,7 @@
                     <li>A web application for the State of Maine</li>
                     <li>An annual report for the <a href="https://www.steveandalex.org/">Steven &amp; Alexandra Cohen Foundation</a></li>
                     <li>Work you&rsquo;ll see soon for <a href="https://www.familylife.com/">FamilyLife</a>, <a href="https://www.twilio.com/">Twilio</a>, the <a href="https://faithandliberty.org/">Faith &amp; Liberty Discovery Center</a>, <a href="https://www.point72.com/">Point72</a>, and more</li>
-                </ul>
-                
-                <?php /* ?>
-                <table id="table--projects">
-                    <caption>SuperFriendly Projects</caption>
-                    <tr>
-                        <th scope="col">Year</th>
-                        <th scope="col">Projects</th>
-                    </tr>
-                    <tr>
-                        <th scope="row">2012</th>
-                        <td>8</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2013</th>
-                        <td>12</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2014</th>
-                        <td>9</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2015</th>
-                        <td>5</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2016</th>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2017</th>
-                        <td>8</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2018</th>
-                        <td>9</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2019</th>
-                        <td>9</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2020</th>
-                        <td>19</td>
-                    </tr>
-                </table>
-                <?php */ ?>
+                </ul>               
 
 
                 <h3 id="revenue-profit">Revenue &amp; Profit <a class="dm-dp-anchorLink" href="#revenue-profit">#</a></h3>
