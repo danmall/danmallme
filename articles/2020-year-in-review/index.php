@@ -13,7 +13,7 @@
     <meta name="twitter:title" property="og:title" content="2020 Year in Review" />
     <meta name="twitter:description" property="og:description" content="The ups and downs of 2020." />
     <meta name="description" content="The ups and downs of 2020." />
-    <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>/thumb.png" />
+    <meta name="twitter:image" property="og:image" content="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>thumb.png" />
     
 </head>
 
