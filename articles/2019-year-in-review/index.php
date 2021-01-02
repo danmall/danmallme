@@ -191,14 +191,14 @@
 
                 <p>In my shooting even while taking these courses, my images improved dramatically. As a designer, I&rsquo;m pretty experienced at taking even the worst images and making them look good. I realized that the photos I was taking weren&rsquo;t good; I was just good and making them look good afterwards. But with the tips I picked up over the last two years, the images coming out of my camera <em>start</em> at a much higher level, so I&rsquo;m working with significantly better source imagery, which is candy for a designer.</p>
 
-                <p>Unlike my video work, I&rsquo;m able to create photos that I really like, which incentives me to shoot and post more. I created <a href="http://photos.danmall.me/">a little site where I&rsquo;ll be posting my photos</a>, and you can also follow me on my public Instagram account <a href="https://www.instagram.com/danmallphotos/">@danmallphotos</a> dedicated to my photography journey. I&rsquo;m excited about doing a <a href="https://jeffbartlettmedia.com/workshops/canadian-rockies/">one-day workshop in the Canadian Rockies with Jeff Barlett</a> in a few weeks and am determined to take a few more trips like this throughout the year to practice photography even more.</p>
+                <p>Unlike my video work, I&rsquo;m able to create photos that I really like, which incentives me to shoot and post more. I created <a href="http://photos.danmall.me/">a little site where I&rsquo;ll be posting my photos</a>, and you can also follow me on my public Instagram account <a href="https://www.instagram.com/danmallphotos/">@danmallphotos</a> dedicated to my photography journey. I&rsquo;m excited about doing a <a href="https://jeffbartlettmedia.com/workshops/canadian-rockies/">one-day workshop in the Canadian Rockies with Jeff Bartlett</a> in a few weeks and am determined to take a few more trips like this throughout the year to practice photography even more.</p>
 
                 <h2 id="sole-man">Sole man <a class="dm-dp-anchorLink" href="#sole-man">#</a></h2>
 
                 <p>I added a few sneakers to the collection in 2019:</p>
 
                 <ol>
-                    <li>Nike Acronym x Air Presot Mid &ldquo;Multicolor&rdquo;</li>
+                    <li>Nike Acronym x Air Presto Mid &ldquo;Multicolor&rdquo;</li>
                     <li>Air Jordan 1 High FlyEase &ldquo;Black Toe&rdquo;</li>
                     <li>Air Jordan 1 Retro High OG &ldquo;All Star &mdash; Chameleon&rdquo;</li>
                     <li>Air Jordan 1 Mid SE GS &ldquo;Newspaper&rdquo;</li>

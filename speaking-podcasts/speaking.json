@@ -1,5 +1,25 @@
 [	
 	{
+		"title"		: 	"Freelance Founders",
+		"slug"		:	"https://www.freelancefounders.com/",
+		"date"		:	"2021-01-27",
+		"location"	:	"online"
+	},
+	{
+		"title"		: 	"Exploring design systems for services / Service Design Show, Episode #116",
+		"slug"		:	"https://www.youtube.com/watch?v=FJ2ppNwT6Ts",
+		"date"		:	"2020-12-24",
+		"type"		:	"podcast",
+		"video"		:	true
+	},
+	{
+		"title"		: 	"Putting Your Components in Context with Dan Mall",
+		"slug"		:	"https://podcasts.apple.com/us/podcast/episode-003-putting-your-components-in-context-dan/id1531717094?i=1000495559139",
+		"date"		:	"2020-10-21",
+		"location"	:	"The Object-Oriented UX Podcast",
+		"audio"		:	true		
+	},
+	{
 		"title"		: 	"Design Ops Summit",
 		"slug"		:	"https://rosenfeldmedia.com/designopssummit2020/",
 		"date"		:	"2020-10-12",
@@ -14,6 +34,7 @@
 	},
 	{
 		"title"		: 	"UX+",
+		"slug"		:	"https://2020.uxpl.us/",
 		"date"		:	"2020-09-12",
 		"location"	:	"Online"
 	},
@@ -28,7 +49,7 @@
 		"slug"		:	"https://www.youtube.com/watch?v=jtaPFGBnsts",
 		"date"		:	"2020-08-20",
 		"type"		:	"podcast",
-		"audio"		:	true
+		"video"		:	true
 	},
 	{
 		"title"		: 	"Ladies that UX ATL",
@@ -38,9 +59,10 @@
 	},
 	{
 		"title"		: 	"AIGA Portfolio Festival",
-		"slug"		:	"https://my.aiga.org/s/lt-event?id=a1U1H000006X5Y7UAK&site=a0d1H00000FaopaQAB#/Welcome",
+		"slug"		:	"https://www.facebook.com/watch/live/?v=582084159146389",
 		"date"		:	"2020-07-14",
-		"location"	:	"Online"
+		"location"	:	"Online",
+		"video"		:	true
 	},
 	{
 		"title"		: 	"Bureau of Digital Design Systems Q&amp;A",

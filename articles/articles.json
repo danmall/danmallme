@@ -1,5 +1,16 @@
 [
 	{
+		"title"	: 	"2020 Year in Review",
+		"slug"	:	"2020-year-in-review",
+		"dek"	:	"The ups and downs of 2020.",
+		"date"	:	"2021-01-02T08:07:00Z",
+		"tags"	:	[
+			"superfriendly",
+			"personal",
+			"reflection"
+		]
+	},
+	{
 		"title"	: 	"SuperFriendly 2020 Wrap-Up",
 		"slug"	:	"superfriendly-2020-wrap-up",
 		"dek"	:	"A look back at SuperFriendly in 2020.",
