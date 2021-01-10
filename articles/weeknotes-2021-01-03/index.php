@@ -135,8 +135,8 @@
                 <h1 class="dm-c-upNext_kicker">Up Next</h1>
 
                 <h2 class="dm-c-upNext_title">
-                    <a href="/articles/weeknotes-2020-12-20/">
-                    Weeknotes: December 20&ndash;December 26, <span class="dm-c-upNext_title_lastWord">2020</span>
+                    <a href="/articles/2020-year-in-review/">
+                    2020 Year in <span class="dm-c-upNext_title_lastWord">Review</span>
                     </a>
                 </h2>
 
