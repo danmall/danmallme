@@ -5,8 +5,90 @@
 	<link rel="alternate" type="text/html" href="http://danmall.me/" />
 	<link rel="self" type="application/atom+xml" href="http://danmall.me/rss/full.xml" />
 	<id>http://danmall.me/rss/full.xml</id>
-	<updated>2021-01-02T08:07:00Z</updated>
+	<updated>2021-01-10T14:46:00Z</updated>
 	<rights>Copyright © 2021, Dan Mall</rights>
+
+
+	<entry>
+		<title><![CDATA[Weeknotes: January 3&ndash;January 9, 2021]]></title>
+		<description><![CDATA[Highlights from the week.]]></description>
+		<link rel="alternate" type="text/html" href="http://danmall.me/articles/weeknotes-2021-01-03/" />
+		<id>http://danmall.me/articles/weeknotes-2021-01-03/</id>
+		<published>2021-01-10T14:46:00Z</published>
+		<updated>2021-01-10T14:46:00Z</updated>
+		<author>
+			<name>Dan Mall</name>
+			<uri>http://danmall.me/</uri>
+		</author>
+		<content type="html" xml:base="http://danmall.me/articles/" xml:lang="en"><![CDATA[
+<h2 id="work">Work</h2>
+
+<ol>
+	<li>Worked 29 hours</li>
+	<li>Designed some new <abbr title="User Interface">UI</abbr> for <a href="https://www.usearcade.com/">Arcade</a></li>
+	<li>Created intro trailer for my <a href="https://www.awwwards.com/academy/course/make-design-systems-people-want-to-use">Awwwards design system course</a></li>
+	<li>1-on-1 with <a href="https://www.mattecook.com/">Matt Cook</a></li>
+	<li>Working session with <a href="https://twitter.com/crystalvitelli">Crystal Vitelli</a></li>
+	<li>Talked Superpowers Meeting with <a href="https://linacalin.com/">Lina Calin</a> and <a href="https://twitter.com/abbyfretz">Abby Fretz</a></li>
+	<li>Monthly Directors&rsquo; Roundtable</li>
+	<li>Biz dev meeting with Crystal Vitelli and <a href="https://twitter.com/joerinaldi">Joe Rinaldi</a></li>
+	<li>Cutting graphics for client course</li>
+	<li>Talked SuperFriendly accounts with <a href="https://twitter.com/jessiofhall/">Jessi Hall</a> and <a href="https://bigmedium.com/">Josh Clark</a></li>
+	<li>Weekly Arcade team meeting</li>
+	<li>Schemed with <a href="https://www.sarasoueidan.com/">Sara Soueidan</a> and Joe Rinaldi</li>
+	<li>Schemed with <a href="https://www.amandabuck.com/">Amanda Buck</a></li>
+	<li>Client handoff meeting</li>
+	<li>Schemed with a new designer SuperFriend</li>
+	<li>Attended the first open SuperFriendly Opportunities conversation hosted by Joe Rinaldi</li>
+	<li>Schemed with <a href="https://www.angelyoung.design/">Angel Young</a></li>
+</ol>
+
+<h2 id="personal">Personal <a href="#personal">#</a></h2>
+
+<ol>
+	<li>Made steak chimichurri with <a href="https://twitter.com/gregsarault">Greg</a> and his family</li>
+	<li>Got some rooms in the new house painted</li>
+	<li><a href="https://www.bbc.com/news/world-us-canada-55575260">Insurrectionists stormed the U.S. Capitol</a>.</li>
+	<li>Second session with new therapist. It was meh.</li>
+	<li>Regular 6-month allergist checkup</li>
+	<li>Finally got around to doing some cable management and hiding all the wires on my desk</li>
+	<li>Ordered Lebanese food for my dad&rsquo;s 65th birthday</li>
+	<li>Slept an average of 6 hours and 39 minutes per night. Average time in bed: 7 hours and 24 minutes. Average bedtime: 9:44pm. Average wake up time: 4:41am.</li>
+</ol>
+
+
+<h3 id="watched">Watched</h3>
+
+<ol>
+	<li><cite><a href="https://www.disneyplus.com/movies/aladdin/2SngByljXESE">Aladdin</a></cite> (again)</li>
+	<li><cite><a href="https://www.disneyplus.com/movies/soul/77zlWrb9vRYp">Soul</a></cite></li>
+	<li><cite><a href="https://www.disneyplus.com/movies/marvel-studios-captain-america-the-winter-soldier/TVme5whcowSy">Captain America: Winter Solider</a></cite> (again)</li>
+	<li><cite><a href="https://www.disneyplus.com/movies/10-things-i-hate-about-you/10OzquDiTIJB">10 Things I Hate About You</a></cite> (again)</li>
+</ol>
+
+<h3 id="read">Notable reads</h3>
+
+<ol>
+	<li><cite><a href="https://www.marvel.com/comics/issue/84381/excalibur_2019_13">Excalibur (2019) #13</a></cite></li>
+	<li><cite><a href="https://www.marvel.com/comics/issue/84427/x-men_2019_13">X-Men (2019) #13</a></cite></li>
+	<li><cite><a href="https://www.marvel.com/comics/issue/84338/x_of_swords_stasis_2020_1">X-Men: X of Swords: Stasis #1</a></cite></li>
+	<li><cite><a href="https://www.marvel.com/comics/issue/84428/x-men_2019_14">X-Men #14</a></cite></li>
+	<li><cite><a href="https://www.marvel.com/comics/issue/90082/marauders_2019_14">Marauders (2019) #14</a></cite></li>
+	<li><cite><a href="https://www.marvel.com/comics/issue/90083/marauders_2019_15">Marauders (2019) #15</a></cite></li>
+	<li><cite><a href="https://www.marvel.com/comics/issue/84382/excalibur_2019_14">Excalibur #14</a></cite></li>
+	<li><cite><a href="https://www.marvel.com/comics/issue/78730/wolverine_2020_7">Wolverine (2020) #7</a></cite></li>
+	<li><cite><a href="https://www.marvel.com/comics/issue/90132/x-force_2019_14">X-Force (2019) #14 </a></cite></li>
+	<li><cite><a href="https://www.marvel.com/comics/issue/85945/hellions_2020_6">Hellions (2020) #6</a></cite></li>
+	<li><cite><a href="https://www.marvel.com/comics/issue/78658/cable_2020_6">Cable #6 (2020)</a></cite></li>
+	<li><cite><a href="https://www.marvel.com/comics/issue/84429/x-men_2019_15">X-Men (2019) #15</a></cite></li>
+	<li><cite><a href="https://www.marvel.com/comics/issue/84383/excalibur_2019_15">Excalibur (2019) #15</a></cite></li>
+	<li><cite><a href="https://www.marvel.com/comics/issue/84339/x_of_swords_destruction_2020_1">X-Men: X of Swords: Destruction #1</a></cite></li>
+	<li>More of <cite><a href="https://amzn.to/37RfnVx">DisneyWar</a></cite> by James Stewart</li>
+	<li>A few lessons of <a href="https://www.masterclass.com/classes/brandon-mcmillan-teaches-dog-training">Brandon McMillan&rsquo;s Dog Training MasterClass</a></li>
+	<li>Alex Trebek&rsquo;s final episodes of <cite>Jeopardy!</cite> <a href="https://www.latimes.com/entertainment-arts/tv/story/2021-01-04/alex-trebek-jeopardy-last-episodes-airing">aired this week</a>.</li>
+</ol>
+		]]></content>
+	</entry>
 
 	
 	<entry>

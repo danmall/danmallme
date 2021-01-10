@@ -109,7 +109,7 @@
 
                 <h2 class="dm-c-upNext_title">
                     <a href="/articles/weeknotes-2020-12-13/">
-                    Weeknotes: December 13&ndash;December 20, <span class="dm-c-upNext_title_lastWord">2020</span>
+                    Weeknotes: December 13&ndash;December 19, <span class="dm-c-upNext_title_lastWord">2020</span>
                     </a>
                 </h2>
 
