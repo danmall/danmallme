@@ -1,5 +1,16 @@
 [
 	{
+		"title"	: 	"My Typical Day",
+		"slug"	:	"my-typical-day",
+		"dek"	:	"Wake up to bedtime.",
+		"date"	:	"2021-01-10T16:21:00Z",
+		"tags"	:	[
+			"schedule",
+			"personal",
+			"work"
+		]
+	},
+	{
 		"title"	: 	"Weeknotes: January 3&ndash;January 9, 2020",
 		"slug"	:	"weeknotes-2021-01-03",
 		"dek"	:	"Highlights from the week.",
