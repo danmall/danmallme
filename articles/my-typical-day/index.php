@@ -71,6 +71,8 @@
                 
                 <p>Check out <a href="https://chriscoyier.net/2021/01/08/my-typical-day/">Chris Coyier&rsquo;s typical day</a>.</p>
 
+                <p>Also tagging <a href="https://juliafernandez.design/">Julia Fernandez</a>, <a href="https://www.sarasoueidan.com/">Sara Soueidan</a>, <a href="https://carbonemike.com/">Mike Carbone</a>, <a href="https://daverupert.com/">Dave Rupert</a>, and <a href="https://v6.robweychert.com/">Rob Weychert</a>.</p>
+
             </div>
 
             <section id="up-next" class="dm-c-upNext">
