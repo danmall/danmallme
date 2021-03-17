@@ -1,5 +1,11 @@
 [	
 	{
+		"title"		: 	"Creative Directions",
+		"slug"		:	"https://www.rgd.ca/creative-directions/general-info",
+		"date"		:	"2021-05-04",
+		"location"	:	"online"
+	},
+	{
 		"title"		: 	"&rdquo;Make Design Systems People Want to Use&rdquo; Smashing Conference workshop",
 		"slug"		:	"https://smashingconf.com/online-workshops/workshops/dan-mall",
 		"date"		:	"2021-05-03",
