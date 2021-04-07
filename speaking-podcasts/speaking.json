@@ -12,6 +12,18 @@
 		"location"	:	"online"
 	},
 	{
+		"title"		: 	"Design To Be, Episode 11: Creating boundaries and psychological safety",
+		"slug"		:	"https://open.spotify.com/episode/3SHqm7026LTsaclu8ESz1X",
+		"date"		:	"2021-04-06",
+		"type"		:	"podcast"
+	},
+	{
+		"title"		: 	"Thunder Nerds: SuperFriendly Design Systems with Dan Mall",
+		"slug"		:	"https://www.youtube.com/watch?v=LwS7F_w3NW0",
+		"date"		:	"2021-04-06",
+		"video"		:	true
+	},
+	{
 		"title"		: 	"Learn Design Systems with Dan Mall Dribbble workshop",
 		"slug"		:	"https://dribbble.com/learn/mall-workshops",
 		"date"		:	"2021-03-10",
