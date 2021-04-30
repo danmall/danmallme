@@ -22,7 +22,13 @@
 	for($i = 0; $i < $articlesLength; $i++){
 		$rssfeed .= '<item>' . "\n\t\t\t";
 		$rssfeed .= '<title>' . json_encode(htmlspecialchars_decode(str_replace(array('&rsquo;', '&quot;', '&ldquo;', '&rdquo;', '&amp;', '&ndash;', '&mdash;', '&hellip;', '&oacute;', '&iacute;', '&eacute;', '&Eacute;'), array("'", '"', '"', '"', 'and', '-', '-', '...', 'o', 'i', 'e', 'E'), $articles[$i]['title'])), true) . '</title>' . "\n\t\t\t";
-		$rssfeed .= '<link>http://danmall.me' . $ARTICLES_DIRECTORY . $articles[$i]['slug'] . '</link>' . "\n\t\t\t";
+
+		if(strpos($articles[$i]['slug'], 'http') !== false){
+			$rssfeed .= '<link>' . $articles[$i]['slug'] . '</link>' . "\n\t\t\t";
+		}else{
+			$rssfeed .= '<link>http://danmall.me' . $ARTICLES_DIRECTORY . $articles[$i]['slug'] . '</link>' . "\n\t\t\t";
+		}
+
 		$rssfeed .= '<guid isPermaLink="false">http://danmall.me' . $ARTICLES_DIRECTORY . ((int)$articlesLength - (int)$i) . '</guid>' . "\n\t\t\t";
 
 		// crazy special characters function: https://www.webdeveloper.com/forum/d/260941-re-converting-html-rsquo-to-xml-acceptable-character

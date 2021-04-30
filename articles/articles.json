@@ -1,5 +1,15 @@
 [
 	{
+		"title"	: 	"Play with Arcade",
+		"slug"	:	"https://danmall.com/articles/play-with-arcade/",
+		"dek"	:	"Our new design token manager is now officially open to the public.",
+		"date"	:	"2021-04-26T09:30:00Z",
+		"tags"	:	[
+			"arcade",
+			"design tokens"
+		]
+	},
+	{
 		"title"	: 	"Support Systems for Learning",
 		"slug"	:	"https://danmall.com/essays/support-systems-for-learning/",
 		"dek"	:	"Defining and examining 10 different ways people learn.",
