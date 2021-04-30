@@ -1,15 +1,41 @@
 [	
 	{
+		"title"		: 	"Design at Scale",
+		"slug"		:	"https://rosenfeldmedia.com/design-at-scale-2021/cohorts/design-systems-and-designops/",
+		"date"		:	"2021-06-14",
+		"source"	:	"Rosenfeld Media"
+	},
+	{
+		"title"		: 	"Creative Leadership Summit",
+		"slug"		:	"https://howdesignlive.com/design-leadership-summit-apply-to-attend",
+		"date"		:	"2021-05-11",
+		"source"	:	"HOW Design"
+	},
+	{
 		"title"		: 	"Creative Directions",
 		"slug"		:	"https://www.rgd.ca/creative-directions/general-info",
 		"date"		:	"2021-05-04",
-		"location"	:	"online"
+		"source"	:	"Association of Registered Graphic Designers"
 	},
 	{
-		"title"		: 	"&rdquo;Make Design Systems People Want to Use&rdquo; Smashing Conference workshop",
+		"title"		: 	"&rdquo;Make Design Systems People Want to Use&rdquo; workshop",
 		"slug"		:	"https://smashingconf.com/online-workshops/workshops/dan-mall",
 		"date"		:	"2021-05-03",
-		"location"	:	"online"
+		"source"	:	"Smashing Conference"		
+	},
+	{
+		"title"		: 	"Creating boundaries and psychological safety",
+		"slug"		:	"https://open.spotify.com/episode/3SHqm7026LTsaclu8ESz1X",
+		"date"		:	"2021-04-06",
+		"source"	:	"Design To Be",
+		"audio"		:	true
+	},
+	{
+		"title"		: 	"SuperFriendly Design Systems with Dan Mall",
+		"slug"		:	"https://www.youtube.com/watch?v=LwS7F_w3NW0",
+		"date"		:	"2021-04-01",
+		"source"	:	"Thunder Nerds",
+		"video"		:	true
 	},
 	{
 		"title"		: 	"Learn Design Systems with Dan Mall Dribbble workshop",
