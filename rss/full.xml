@@ -5,8 +5,283 @@
 	<link rel="alternate" type="text/html" href="http://danmall.me/" />
 	<link rel="self" type="application/atom+xml" href="http://danmall.me/rss/full.xml" />
 	<id>http://danmall.me/rss/full.xml</id>
-	<updated>2021-01-18T02:47:00Z</updated>
+	<updated>2021-05-10T05:56:00Z</updated>
 	<rights>Copyright © 2021, Dan Mall</rights>
+
+
+	<entry>
+		<title><![CDATA[Weeknotes: May 2&ndash;May 8, 2021]]></title>
+		<description><![CDATA[Highlights from the week.]]></description>
+		<link rel="alternate" type="text/html" href="https://danmall.com/weeknotes/2021-05-02/" />
+		<id>https://danmall.com/weeknotes/2021-05-02/</id>
+		<published>2021-05-10T05:56:00Z</published>
+		<updated>2021-05-10T05:56:00Z</updated>
+		<author>
+			<name>Dan Mall</name>
+			<uri>http://danmall.me/</uri>
+		</author>
+		<content type="html" xml:base="http://danmall.me/articles/" xml:lang="en"><![CDATA[
+<h2 id="work">Work</h2>
+<ol>
+	<li>Talked to <a href="https://bigmedium.com/">Josh Clark</a> about a new project</li>
+	<li>Caught up on email/Slack (or tried to) after being out of the office for a week</li>
+	<li>First aiming session with <a href="https://www.patrice-embry.com/">Patrice Embry</a>, <a href="https://twitter.com/crystalvitelli">Crystal Vitelli</a>, and <a href="https://twitter.com/joerinaldi">Joe Rinaldi</a></li>
+	<li>Taught days 1 and 2 (of 4) of <a href="https://smashingconf.com/online-workshops/workshops/dan-mall/">my design systems workshop for Smashing Conference</a></li>
+	<li>Talked to <a href="https://www.mynameisjoshsilverman.com/">Josh Silverman</a> about a new project</li>
+	<li>Caught up with <a href="https://www.notion.so/Hi-I-m-Ewart-6db8abc9e2de4f9d86bbdc5b9315bfb8">Ewart Jackson</a></li>
+	<li>Aiming sessions for <a href="https://linacalin.com/">Lina Calin</a> and <a href="https://blankenship.xyz/">Joshua Blankenship</a> with Crystal Vitelli</li>
+	<li>Caught up with <a href="https://twitter.com/ChristinaFaith">Christina Faith</a></li>
+	<li>Gave a talk—“Show Them the Future”—at <a href="https://www.rgd.ca/creative-directions/general-info">RGD Creative Directions</a></li>
+	<li>Fireside chat about money and pricing at RGD Creative Diretions with <a href="https://twitter.com/onthechase">Julian Brown</a></li>
+	<li>Weekly meeting with <a href="https://jansix.at/">Jan Six</a>, <a href="https://carbonemike.com/">Mike Carbone</a>, and <a href="https://lesliecamacho.com/">Leslie Camacho</a> at <a href="https://usearcade.com/">Arcade</a></li>
+	<li>Gave Arcade demo to <a href="https://twitter.com/nathanacurtis/">Nathan Curtis</a></li>
+	<li>Gave Arcade demo to <a href="https://twitter.com/jina">Jina Anne</a></li>
+	<li>Designed landing page for client pitch</li>
+	<li>Wrote up weekly and monthly strategy and new <abbr title="Minimum Viable Product">MVP</abbr> document for Arcade</li>
+	<li>Caught up with <a href="https://twitter.com/freyjacqui">Jaqcui Frey</a></li>
+	<li>Arcade strategy conversation with Mike Carbone and Leslie Camacho</li>
+	<li>Weekly SuperFriendly Opportunities call</li>
+	<li>Weekly client account status meeting</li>
+	<li>Client pitch with <a href="https://www.afyiasmith.com/">Afyia Smith</a>, <a href="https://twitter.com/iamlaurendeal/">Lauren Deal</a>, Josh Clark, and Joe Rinaldi</li>
+	<li>Talked NFTs with Patrice Embry, <a href="https://acolangelo.com/">Anthony Colangelo</a>, and <a href="https://twitter.com/russelq">Russel Quadros</a></li>
+	<li>Aiming session with Lauren Deal and <a href="https://twitter.com/tpitre">TJ Pitre</a></li>
+</ol>
+<h2 id="personal">Personal</h2>
+<ol>
+	<li>Kids sold their art at a local craft fair</li>
+	<li>New plaster finished for pool</li>
+	<li><a href="https://twitter.com/danmall/status/1390760533431816192">Got my hair cut</a></li>
+</ol>
+<h3 id="watched">Watched</h3>
+<ol>
+	<li><cite><a href="https://www.aetv.com/specials/biography-macho-man-randy-savage">Biography: “Macho Man” Randy Savage</a></cite></li>
+	<li><cite><a href="https://www.dreamworks.com/movies/shrek">Shrek</a></cite> (again)</li>
+</ol>
+<h3 id="notable-reads">Notable Reads</h3>
+<ol>
+	<li><cite><a href="https://amzn.to/3y25fnW">The Effective Executive</a></cite> by Peter Drucker</li>
+	<li><cite><a href="https://amzn.to/2R0CxDA">Spider-Man: The Darkest Hours</a></cite> by Jim Butcher</li>
+	<li>Started <cite><a href="https://amzn.to/3vU6aVU">Great Demo</a></cite> by Peter E. Cohen</li>
+	<li><a href="https://ohnotype.co/">OH no Type Company</a> might be my new favorite type foundry.</li>
+	<li><a href="https://www.nytimes.com/2021/04/19/well/mind/covid-mental-health-languishing.html">There’s a Name for the Blah You’re Feeling: It’s Called Languishing</a> (hat tip: Joe Rinaldi)</li>
+</ol>
+		]]></content>
+	</entry>
+
+
+	<entry>
+		<title><![CDATA[Play with Arcade]]></title>
+		<description><![CDATA[Our new design token manager is now officially open to the public.]]></description>
+		<link rel="alternate" type="text/html" href="https://danmall.com/articles/play-with-arcade/" />
+		<id>https://danmall.com/articles/play-with-arcade/</id>
+		<published>2021-04-26T09:30:00Z</published>
+		<updated>2021-04-26T09:30:00Z</updated>
+		<author>
+			<name>Dan Mall</name>
+			<uri>http://danmall.me/</uri>
+		</author>
+		<content type="html" xml:base="http://danmall.me/articles/" xml:lang="en"><![CDATA[
+<p><span class="dm-dp-initialText">I used to laugh</span> quietly to myself when <a href="https://superfriendlydesign.systems/">SuperFriendly</a> clients came to us, asking to license our design system product. “We’re a services company,” we’d politely reply. “We don’t have a design system product to license to you.”</p>
+<p>Inevitably, the next question would be, “Do you have a product you would recommend to us?”</p>
+<p>When we dug further, many of those requests seemed to be specifically around <i><a href="https://superfriendlydesign.systems/glossary/#token">design tokens</a></i>, a concept pioneered by design systems evangelist <a href="https://twitter.com/jina/">Jina Anne</a> during her time at Salesforce, working on the <a href="https://www.lightningdesignsystem.com/">Lightning Design System</a>. Of course, clients wouldn’t be asking for design tokens by name; they’d instead be looking for solutions that helped them “scale their brand,” “create a source of truth,” and other aspirations like that.</p>
+<p>As much as we had—and have—great relationships with many friends building tools for the design system space, none of them really seemed to accomplish (or accomplish well) what these clients were asking for. So, like many services companies that see the same unsolved problem over and over again, we figured we might as well be the ones to try and solve it.</p>
+<p>I built an embarrasingly simple proof-of-concept. I showed it to my friends <a href="https://twitter.com/LeslieSCamacho/">Leslie Camacho</a> and <a href="https://twitter.com/mikecarbone/">Mike Carbone</a>, and we decided to officially start <a href="https://usearcade.com/">Arcade</a> together in June 2020. For the last 10 months, we’ve been quietly building Arcade and using it on our own products—this site is actually <a href="https://api.usearcade.com/api/public/projects/603aa3d6806c0f0017cb65a5/exports/css/live">powered by Arcade</a>.</p>
+<p>Today, we’ve launched <a href="https://usearcade.com/">a brand new site</a> and are ready to open up Arcade to a small number of teams to kick the tires and see how well a tool like Arcade serves their needs. The early access fee is $2500, and we’re looking specifically for teams that already understand and use design tokens, are open to our opinions on how to better manage brand decisions, and have a well-rounded, cross-disciplinary team of at least one designer, one engineer, and one product manager.</p>
+<p>Does that sound like your team? Is Arcade the kind of solution you’ve been looking for? Head over to <a href="https://usearcade.com/">usearcade.com</a> and apply for early access!</p>
+<p>You can read more about Arcade from other perspectives:</p>
+<ul>
+	<li>“<a href="https://carbonemike.com/eat-design-tokens-for-breakfast">Eat Design Tokens for Breakfast</a>,” by Mike Carbone</li>
+	<li>“<a href="https://lesliecamacho.com/insights/arcade-confidence">Arcade is looking for teams who want to scale brand decisions with confidence!</a>” by Leslie Camacho</li>
+</ul>
+<p><a href="https://twitter.com/usearcade">Talk to us about this article on Twitter</a>!</p>
+		]]></content>
+	</entry>
+
+
+	<entry>
+		<title><![CDATA[Support Systems for Learning]]></title>
+		<description><![CDATA[Defining and examining 10 different ways people learn.]]></description>
+		<link rel="alternate" type="text/html" href="https://danmall.com/essays/support-systems-for-learning/" />
+		<id>https://danmall.com/essays/support-systems-for-learning/</id>
+		<published>2021-04-25T18:10:00Z</published>
+		<updated>2021-04-25T18:10:00Z</updated>
+		<author>
+			<name>Dan Mall</name>
+			<uri>http://danmall.me/</uri>
+		</author>
+		<content type="html" xml:base="http://danmall.me/articles/" xml:lang="en"><![CDATA[
+<p>As we at <a href="https://superfriendlydesign.systems/">SuperFriendly</a> work with newer and/or more junior SuperFriends, I’m recognizing the need for different ways to support how people learn and grow. Learning comes in many different forms, and <em>I’m</em> learning that people need help with a lot of them. Learning can’t just be something a professional does in their own time <em>outside</em> of work; it has to be an integral part of the work itself.</p>
+<p>Here are some specific <em>support systems</em> we’re trying to invest in more:</p>
+<ol>
+	<li><a href="#knowledge-transfer">Knowledge Transfer</a></li>
+	<li><a href="#knowledge-seeking">Knowledge Seeking</a></li>
+	<li><a href="#purpose">Purpose</a></li>
+	<li><a href="#stories-examples">Stories &amp; Examples</a></li>
+	<li><a href="#mentorship">Mentorship</a></li>
+	<li><a href="#coaching">Coaching</a></li>
+	<li><a href="#modeling">Modeling</a></li>
+	<li><a href="#direction">Direction</a></li>
+	<li><a href="#accountability-partners">Accountability Partners</a></li>
+	<li><a href="#practice">Practice</a></li>
+</ol>
+<hr>
+<h2 id="knowledge-transfer">Knowledge Transfer</h2>
+<h3 id="definition-knowledge-transfer">Definition</h3>
+<p>This is probably the most common form—more commonly known as “teaching”—that most think of when they think of “learning.” Knowledge transfer is the idea that someone possesses information that you don’t, and you get that information by them bestowing it to you. The education system is primarily built on this type of learning, where experienced teachers bestow their knowledge upon eager students.</p>
+<h3 id="how-knowledge-transfer-happens">How It Currently Happens at SuperFriendly</h3>
+<p>In order to do good work, SuperFriends need information about the client, which happens early in projects mostly through sales and onboarding conversations. So, they’re being “taught” the information they need to do the work they’re hired for.</p>
+<p>We also hold monthly Snack ’n’ Learns—a cross-time-zone version of <a href="https://blog.hubspot.com/service/lunch-and-learn">Lunch and Learns</a>—open to all SuperFriends across a variety of topics, some directly applicable to SuperFriendly projects like a panel about demos of things we’re all working on and others much more broad like an overview of <a href="https://en.wikipedia.org/wiki/Network_effect">network effects</a>.</p>
+<h3 id="assessment-knowledge-transfer">My Subjective Assessment</h3>
+<p><strong>C- (average).</strong> We currently don’t do much yet to help SuperFriends patch skill gaps through knowledge transfer. One of the biggest criticisms of our <a href="http://v3.danielmall.com/articles/apprenticeships-superfriendly-academy/">apprenticeship</a> from former apprentices is that it focused too heavily on developing <a href="https://www.leadersedge.com/brokerage-ops/the-new-power-skills">power skills</a> and professionalism more than it did skills of craft. If someone isn’t strong enough at a skill like, say, <abbr title="User interface">UI</abbr> design or data analysis, all we do now is assess that they’re underqualified, suggest they try to get better, and don’t match them to a project yet. We’ve started to try and correct that in small ways by doing things like purchasing online courses and conference/workshop tickets for SuperFriends.</p>
+<h3 id="better-job-knowledge-transfer">How We Can Do a Better Job</h3>
+<ul>
+	<li>We’ve been creating a few libraries that SuperFriends can access at any time. Purchasing an online course should mean that all SuperFriends can utilize it (provided that the license allows for that). We’ve also started the process of collecting the Snack ’n’ Learn sessions into a curriculum that will eventually becoming a “SuperFriendly Fundamentals Library” that we can use to onboard new SuperFriends.</li>
+	<li>We’ve started conversations with people who we can hire to act as consultants for the team of SuperFriends. They wouldn’t be on the team itself or be client-facing; their roles would be purely to support filling in knowledge gaps that SuperFriends need to do their work.</li>
+	<li>For the last year, we’ve been trying a pairing system for every discipline on a project (design, engineering, producing, etc.) That’s working well in theory, but we still have a lot of kinks to work out in how to allow ample room for this style of work, as well as what kinds of expectations to have about each person in the pair. We’re continuing to tweak this dynamic from project to project and pair to pair to see what feels most useful, and I’m very hopeful that this will be extremely fruitful very soon for all involved.</li>
+</ul>
+<hr>
+<h2 id="knowledge-seeking">Knowledge Seeking</h2>
+<h3 id="definition-knowledge-seeking">Definition</h3>
+<p>Knowledge seeking is the typical <i lang="la">modus operandi</i> of the self-starter. Self-starters are generally good at finding their own solutions, as opposed to having those solutions given to them or mandated. That means a lot of reading, watching videos, exploring, and generally an insatiable curiosity as compared to the expectation of being taught by someone else. One of my hypotheses in starting the apprenticeship was that it’s not ironic to <em>teach</em> someone how to be a self-starter as opposed to it being a character or personality trait. I evaluated that by looking at how much the capacity for knowledge seeking—and confidence in it—changed over time.</p>
+<h3 id="how-knowledge-seeking-happens">How It Currently Happens at SuperFriendly</h3>
+<p>For better or worse—probably worse—our industry is drawn to people who do their own knowledge seeking as a matter of habit. Those who have a lot of experience with knowledge seeking tend to be more self-sufficient than others. We don’t really “support” knowledge seeking as much as we try to continually encourage it.</p>
+<h3 id="assessment-knowledge-seeking">My Subjective Assessment</h3>
+<p><strong>D (below average).</strong> I don’t know if it’s counterintuitive to try and <em>support</em> knowledge seeking, but I <em>do</em> know that we don’t explicitly encourage it or show SuperFriends exactly how there’s space for it on projects. It always seems to feel like something extra. That’s not great.</p>
+<h3 id="better-job-knowledge-seeking">How We Can Do a Better Job</h3>
+<ul>
+	<li>Reward knowledge seeking as part of the work. I’m not quite sure what good rewards are for this. Financial incentive? Public and private praise? Something else?</li>
+	<li>Explicitly <em>discourage</em> the idea that knowledge seeking should only happen outside of work time.</li>
+	<li>Build time and space into project plans specifically for knowledge seeking.</li>
+</ul>
+<hr>
+<h2 id="purpose">Purpose</h2>
+<h3 id="definition-purpose">Definition</h3>
+<p>As Daniel Pink articulates in his book <cite><a href="https://www.danpink.com/books/drive/">Drive</a></cite>, “autonomous people working toward mastery perform at very high levels, but those who do so in the service of some greater objective can achieve even more.”</p>
+<h3 id="how-purpose-happens">How It Currently Happens at SuperFriendly</h3>
+<p>One of our interview questions for both new and seasoned SuperFriends at the beginning of each project is, “What do you want and need out of your work right now in the season of life you’re in?” Historically, the answers have ranged from:</p>
+<ul>
+	<li>Money</li>
+	<li>Distraction</li>
+	<li>Some sort of impact in the world</li>
+	<li>Opportunity to work on a specific kind of project or with a specific kind of client</li>
+	<li>Learn a new skill</li>
+	<li>Chance to hone a current skill</li>
+	<li>Learn directly from a person with specific experience</li>
+</ul>
+<p>Our job on the SuperFriendly side and the Directors and Producers on the account becomes to help prioritize these outcomes for each individual SuperFriends.</p>
+<h3 id="assessment-purpose">My Subjective Assessment</h3>
+<p><strong>B+ (above average).</strong> We regularly have new SuperFriends that say things like, “Wow, no one’s ever asked me what my personal goals are for a project.”</p>
+<p>We also start every new project with a “Superpowers Session,” where, in front of the whole team, a Producer reads out why each person was chosen for this work, what they bring to it, and also what they want to get out of it. This is the first step in making everyone on the team accountable for each of their teammates’ stated goals.</p>
+<h3 id="better-job-purpose">How We Can Do a Better Job</h3>
+<ul>
+	<li>Make SuperFriends’ goals more present <em>throughout</em> a project, not just in the beginning. Projects start with a lot of momentum around personal goals, but that tends to wane as a project gets going and everyone is in the weeds.</li>
+	<li>Normalize the idea that projects are about everyone’s professional <em>and</em> personal goals being met, not just our clients’ briefs. One thing I’ve been trying to say and signal lately is, “SuperFriendly is about SuperFriends, not clients.” Just yesterday, I had a conversation with a long-time SuperFriend who said to me, “I love the idea that we participate in a way we <em>want</em> to, but I don’t think that conversation can always be completely decoupled from how things might functionally get done.” It made me realize there’s still a lot of work to be done to get SuperFriends to accept the idea that projects aren’t just things where clients pay us to do whatever they want as a dry transaction. Instead, like grad school, I think of projects as great vehicles to explore professional and interpersonal theses, and clients get the tremendous benefit of the effects of that exploration.</li>
+	<li>One idea of we’ve been talking about for a long time but haven’t yet implemented is to encourage SuperFriends to create their own “<a href="https://www.manualof.me/">user manuals</a>” to guide others on how to best work with them. I imagine that these manuals would contain some semblance of how a SuperFriend would want to grow and <em>why</em> they do what they do, and that would be integral to how people can relate to and interact with them.</li>
+</ul>
+<hr>
+<h2 id="stories-examples">Stories &amp; Examples</h2>
+<h3 id="definition-examples">Definition</h3>
+<p>Rather than talking about a concept abstractly, one way to help people learn is to tell and/or show them how it’s happened before in an applied way. Sharing stories and examples can go a long way toward making vague ideas concrete.</p>
+<h3 id="how-examples-happens">How It Currently Happens at SuperFriendly</h3>
+<p>Not a lot. One of the biggest strengths of <a href="https://hrdailyadvisor.blr.com/2018/04/18/hollywood-model-work/">the Hollywood model</a> is also its weakness: solitude. SuperFriends working on a project don’t know how a previous project went, because they weren’t there. That means stories have to be <em>actively</em> shared, because they’re almost impossible to passively stumble upon.</p>
+<p>We have dedicated <a href="https://slack.com/">Slack</a> channels for our most common disciplines: Directors, Producers, designers, and developers. Each has its own level of activity.</p>
+<ul>
+	<li>Our Producers channel is <em>incredibly</em> active. On the third Wednesday of every month, a different Producer will host an asychronous roundtable. They post a series of questions and prompts around a given topic, and as other Producers have time throughout the day, they’ll post their responses in threads for others to read and catch up on as they have a chance. Topics have ranged from onboarding techniques to meeting etiquette to flexibility, and lots more. Inevitably, those threads contain Producers saying different versions of, ”Here’s how I’ve dealt with or experienced that on my projects.”</li>
+	<li>Our Directors channel is a ghost town (and I say that without judgment). We had a monthly roundtable Zoom call, but fewer and fewer showed up each month, I think as a combination of little incentive, busy schedules, and not knowing what to talk about.</li>
+	<li>Our designers and developers channels have a steady buzz going, but they’re mostly functional. Lots of link sharing and debugging conversation, less story sharing.</li>
+	<li>We’ve had two Snack ’n’ Learns that specifically share stories and examples. Our head of operations <a href="https://twitter.com/crystalvitelli">Crystal Vitelli</a> presented to our SuperFriends on “Things that Didn’t Go Well,” where she shared a few projects that went south and all the factors that led to that from contractual ambiguity to unstated expectations and lots more. We also had a panel discussion to talk about how Directors and Producers work together and how different that dynamic is from project to project, with lots of examples as proof points.</li>
+</ul>
+<h3 id="assessment-examples">My Subjective Assessment</h3>
+<p><strong>F (failing).</strong> We do a really poor job of sharing our stories both internally and externally. <a href="https://superfriendlydesign.systems/helped/">Case studies</a> are an attempt, but they’re too time-consuming and difficult to create regularly and honestly trend more towards marketing pieces for prospective clients than helpful guides for SuperFriends.</p>
+<p>We don’t as of yet have many good places for interproject and interdisciplinary sharing, and that constantly ails and irks me.</p>
+<h3 id="better-job-examples">How We Can Do a Better Job</h3>
+<ul>
+	<li>More Snack ’n’ Learns that scrutinize past projects for the good, the bad, and the ugly</li>
+	<li>I’ve been entertaining the thought for a while that I could just randomly record short <a href="https://www.loom.com/">Looms</a> every now and again of me talking through past projects to post to teams on Slack. Over time, we could build up a collection of these that SuperFriends could watch when they need to. I think the only thing stopping me from doing this is that I haven’t spent time to think about a good format for these and I’m scared of rambling and being incoherent in them.</li>
+</ul>
+<hr>
+<h2 id="mentorship">Mentorship</h2>
+<h3 id="definition-modeling">Definition</h3>
+<p>People often think of mentorship as general guidance, but it’s actually a specific kind of guidance. In <cite>The Odyssey</cite>, Mentor was the person that Odysseus placed in charge of his whole estate—including guidance of his son Telemachus—while Odysseus went off to fight in the Trojan War. Mentor himself actually did a very poor job of all of that, but the goddess of wisdom Athena often transformed into Mentor to work with Telemachus to great success.</p>
+<p>In <cite><a href="https://www.theatlantic.com/business/archive/2017/10/the-odyssey-mentorship/542676/">The Odyssey’s Millennia-Old Model of Mentorship</a></cite>, Harvard classics professor Gregory Nagy points out that Athena’s intention as Mentor was to instill <i lang="el">menos</i> into Telemachus, which <a href="https://www.behindthename.com/element/menos">translates into something like</a> “mind, strength, courage, and force.” So, like Athena did through the guise of Mentor, <strong>mentorship is the act of giving someone else mental, heroic strength from the foundation of wisdom</strong>.</p>
+<h3 id="how-modeling-happens">How It Currently Happens at SuperFriendly</h3>
+<p>If there’s one thing SuperFriends do, it’s talk. Especially as a company that started <a href="https://toni.org/2010/03/08/5-reasons-why-your-company-should-be-distributed/">distributed</a> in 2012, meetings abound, and delivering mental strength is a core ingredient of those meetings, both internally with SuperFriends only as well as externally with clients.</p>
+<h3 id="assessment-modeling">My Subjective Assessment</h3>
+<p><strong>A- (excellent).</strong> Mentorship was built into the foundation of SuperFriendly from the beginning, and it persists almost a decade later at a larger scale.</p>
+<h3 id="better-job-modeling">How We Can Do a Better Job</h3>
+<p>Counterintuitively, we can do a better job overall by focusing <em>less</em> on mentorship. One thing that’s become abundantly clear is that mentorship alone isn’t enough. We can leave mentorship where it is and dial up some of the other things.</p>
+<hr>
+<h2 id="coaching">Coaching</h2>
+<h3 id="definition-coaching">Definition</h3>
+<p>In <cite><a href="https://www.coachingperformance.com/">Coaching for Performance</a></cite>, author Sir John Whitmore says <strong>coaching is unlocking people’s potential to maximize their own performance.</strong> I like that definition a lot, and I love that he takes the idea even further. He says, “Coaching is much bigger than coaching. It is a way of being that the whole world needs to get to, where the core theme is compassion for all people.”</p>
+<h3 id="how-coaching-happens">How It Currently Happens at SuperFriendly</h3>
+<p>We have a principle that “everyone at SuperFriendly gets a coach.” If you’re a junior designer, you get paired with a more senior designer. Same for developers. Directors and Producers coach everyone on their team. Directors do 1-on-1s with me, and Producers do 1-on-1s with Crystal. Crystal and I have <a href="https://twitter.com/jenniferdary">Jen Dary</a> as a coach, and Jen and her team at <a href="https://www.beplucky.com/">Plucky</a> also coach 2 different SuperFriends every quarter.</p>
+<h3 id="assessment-coaching">My Subjective Assessment</h3>
+<p><strong>A- (excellent).</strong> I think our coaching philosophy program is strong.</p>
+<h3 id="better-job-coaching">How We Can Do a Better Job</h3>
+<p>More rigor and regularity for more SuperFriends.</p>
+<hr>
+<h2 id="modeling">Modeling</h2>
+<h3 id="definition-modeling">Definition</h3>
+<p>Modeling is about intentionally providing behavior for others to observe and imitate.</p>
+<h3 id="how-modeling-happens">How It Currently Happens at SuperFriendly</h3>
+<p>Currently, modeling doesn’t happen as much as we need it to. There’s more mentorship happening than modeling, which has led to a culture of, “Do as I say, not as I do.”</p>
+<p>This is also another area where SuperFriendly’s business model works against us. Even our most seasoned SuperFriends don’t always understand well enough what makes a SuperFriendly project different than other kinds of projects because their insight into a volume of SuperFriendly projects is limited. That makes it more difficult for modeling to happen if SuperFriends are unsure which behaviors to model for others. This is one of my biggest responsibilities and failure as SuperFriendly’s <abbr title="Chief Executive Officer">CEO</abbr>.</p>
+<h3 id="assessment-modeling">My Subjective Assessment</h3>
+<p><strong>F (failing).</strong> In addition to providing <a href="#stories-examples">Stories &amp; Examples</a>, modeling is our biggest gap area.</p>
+<h3 id="better-job-modeling">How We Can Do a Better Job</h3>
+<ul>
+	<li>Our friends at <a href="https://www.seerinteractive.com/">Seer Interactive</a> were kind enough to walk us through their Universal Role Expectations documents for their employees. Among the many excellent things in those documents, my absolute favorite was the column labeled “Sights/Sounds,” which makes clear what an role expectation actually looks and sounds like in real life. For example, an expectation on thought leadership said, “Uses email, chat, and team meetings to ask and answer industry questions and participates in conversations.” The Sights/Sounds column for that expectation says, “I learned how to create this custom report to show me X, and you might also want to use this report and generate others like it. I can show you how.” I love how specific and actionable that is. There’s definitely a version of this in SuperFriendly’s very near future.</li>
+	<li>One of my most recent conundrums is that <a href="http://danmall.me/articles/superfriendly-in-2020/">I no longer work on any SuperFriendly projects myself</a>, but I’m one of the most likely candidates to provide useful modeling for our SuperFriends. How can I model good SuperFriend behavior without actually working on projects? I’m stumped about this one.</li>
+</ul>
+<hr>
+<h2 id="direction">Direction</h2>
+<h3 id="definition-direction">Definition</h3>
+<p>Directing someone is aiming them; it’s giving them a direction, a specific path to tread. A major part of direction is specifically telling someone what to do, and, by virtue of that, signaling to them what <em>not</em> to do and what they can ignore.</p>
+<h3 id="how-direction-happens">How It Currently Happens at SuperFriendly</h3>
+<p>Following the Hollywood model, every SuperFriendly project has a Director as a key role on the project. The Director’s job is to set and reinforce a vision for the project and make sure each SuperFriend knows how the part they play contributes to the overall vision.</p>
+<h3 id="assessment-direction">My Subjective Assessment</h3>
+<p><strong>C (average).</strong> We provide the space for direction on every project by having a reserved spot for a Director, but providing direction is a tricky dynamic on a SuperFriendly project. Directing is hard, because it’s not <em>just</em> telling someone what to do; getting them to do it is the other half. Because most SuperFriends are independent freelancers, the idea of any kind of manager or boss or someeone telling them what to do that’s not a client is different than it looks at a full-time job. Because of a combination of factors, it’s all too easy for Directors to default more to <a href="#mentorship">mentoring</a> or <a href="#coaching">coaching</a> than directing.</p>
+<h3 id="better-job-direction">How We Can Do a Better Job</h3>
+<p>We can definitely provide better role definition for Directors. It’s an ambiguous job, and part of the job is to actually manage ambiguity, but we’re starting to develop a rubric for different ways Directors can operate. Over the next few weeks and months, SuperFriendly will be documenting and delivering more of this clarity for our Directors.</p>
+<hr>
+<h2 id="accountability-partners">Accountability Partners</h2>
+<h3 id="definition-accountability-partners">Definition</h3>
+<p>Accountability comes from defining standards, having a way to measure whether that standard is being met, and implementing positive and/or negative consequences based on whether the standards are met. (I’ve previously written <a href="http://v3.danielmall.com/articles/accountability/">more about accountability before</a>.)</p>
+<p><a href="https://nanowrimo.org/">NaNoWriMo</a> (which stands for “National Novel Writing Month”) is one of my favorite examples of accountability. The challenge is to write 50,000 words of a novel within the 30 days of November. That’s a daunting enough task for any aspiring novelist, but the simple fact that you know others are doing it with you is extremely motivating for just under 1 million writers that have participated. The positive and negative consequences are simple but effective: once you sign up, you feel embarrassed if you can’t make the commitment you agreed to and you feel amazing if you can.</p>
+<h3 id="how-accountability-partners-happens">How It Currently Happens at SuperFriendly</h3>
+<p>We don’t have anything intentional set up to encourage an accountability partner program, but a few instances of it have cropped up organically. In our apprenticeship program, multiple apprentices at the same skill level within the same cohort have used each other for motivation. And some SuperFriends have taken advantage of our community to proactively reach out to others at the same skill level on other projects for camaraderie and support.</p>
+<h3 id="assessment-accountability-partners">My Subjective Assessment</h3>
+<p><strong>C (average).</strong> That fact that we haven’t set anything up specifically for this but it’s happening anyway is a promising sign.</p>
+<h3 id="better-job-accountability-partners">How We Can Do a Better Job</h3>
+<ul>
+	<li>Set up an accountability program! That might look like pairing folks together for a period of time with the explicit charge of holding each other accountable, and supporting them in that effort.</li>
+	<li>Not exactly directly related, but this brings up the fact that we’ve never explicitly defined our skill levels. That’s definitely a thing that’s on our to-do list for the next few months that I think can have a big impact.</li>
+</ul>
+<hr>
+<h2 id="practice">Practice</h2>
+<h3 id="definition-practice-experience">Definition</h3>
+<p>In my opinion, practice is the most important thing on this list for us to support. Practice is the actual application of all of these methods. Without practice, all of these other systems remain purely theoretical exercises.</p>
+<p>The late basketball player Kobe Bryant was a student of the game. He unapologetically <a href="https://www.ibtimes.com/kobe-bryant-explains-why-he-stole-michael-jordans-moves-3126228">studied and stole all of Michael Jordan’s moves</a>. But what separated Kobe from all the rest? It wasn’t his talent, even though he was extremely talented. It was his work ethic; <a href="https://www.inc.com/matt-given/this-1-quote-from-kobe-bryant-is-all-you-need-to-know-about-his-success.html">Kobe practiced more than everyone else</a>. That’s why he was better.</p>
+<h3 id="how-practice-experience-happens">How It Currently Happens at SuperFriendly</h3>
+<p>It happens by default. Even though we do provide advisory services to our clients, we’re not just a strategy consultancy. We implement and execute on the work we advise on. That means there are plenty of opportunities for practice.</p>
+<h3 id="assessment-practice-experience">My Subjective Assessment</h3>
+<p><strong>B (above average).</strong> The question here isn’t whether or not we practice, but <em>what</em> we’re practicing. If it was just about practicing a craft like design or coding, I’d give us an A. But sometimes the thing we should be practicing isn’t obvious. In a scenario where most would design a web page, I want our SuperFriends to practice the discernment that maybe designing a book or an instruction manual would be more useful. What I’d love our SuperFriends to practice more is flexible decision making, not always executing on pre-determined decisions.</p>
+<h3 id="better-job-practice-experience">How We Can Do a Better Job</h3>
+<p>Create safer spaces through all of the other support systems in order to allow SuperFriends to practice many other things that support their craft.</p>
+<hr>
+<p>One quick nuance to point out: I often get confused about the different between mentorship, coaching, modeling, and direction. Here’s a cheat sheet I made for myself about what I think the distinctions are:</p>
+<ul>
+	<li><strong>Mentorship</strong> is telling people how you’ve done it.</li>
+	<li><strong>Coaching</strong> is helping people do it their own way.</li>
+	<li><strong>Modeling</strong> is showing people how you’d do it.</li>
+	<li><strong>Direction</strong> is telling people what they should do.</li>
+</ul>
+<p>Since I’ve decided to grow SuperFriendly, I’ve had to be more explicit about how we can support all of our SuperFriends. As you can see, we definitely don’t have all of this in place, but making a list like this gives us some standards to meet. I have a hypothesis that the best projects contain every one of these support systems.</p>
+<p>If your company does any or all of these support systems well, I’d love to hear about it so we can start implementing the same things to create a better experience for our SuperFriends.</p>
+<p><a href="https://twitter.com/danmall">Talk to me about this essay on Twitter!</a></p>
+		]]></content>
+	</entry>
 
 
 	<entry>

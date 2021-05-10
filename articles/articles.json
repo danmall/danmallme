@@ -1,5 +1,15 @@
 [
 	{
+		"title"	: 	"Weeknotes: May 2 &ndash; May 8, 2020",
+		"slug"	:	"https://danmall.com/weeknotes/2021-05-02/",
+		"dek"	:	"Highlights from the week.",
+		"date"	:	"2021-05-10T05:56:00Z",
+		"tags"	:	[
+			"personal",
+			"weeknotes"
+		]
+	},
+	{
 		"title"	: 	"Play with Arcade",
 		"slug"	:	"https://danmall.com/articles/play-with-arcade/",
 		"dek"	:	"Our new design token manager is now officially open to the public.",
