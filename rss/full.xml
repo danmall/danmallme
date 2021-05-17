@@ -5,8 +5,80 @@
 	<link rel="alternate" type="text/html" href="http://danmall.me/" />
 	<link rel="self" type="application/atom+xml" href="http://danmall.me/rss/full.xml" />
 	<id>http://danmall.me/rss/full.xml</id>
-	<updated>2021-05-10T05:56:00Z</updated>
+	<updated>2021-05-17T08:43:00Z</updated>
 	<rights>Copyright © 2021, Dan Mall</rights>
+	
+	
+	<entry>
+		<title><![CDATA[Weeknotes: May 9&ndash;May 15, 2021]]></title>
+		<description><![CDATA[Highlights from the week.]]></description>
+		<link rel="alternate" type="text/html" href="https://danmall.com/weeknotes/2021-05-09/" />
+		<id>https://danmall.com/weeknotes/2021-05-09/</id>
+		<published>2021-05-17T08:43:00Z</published>
+		<updated>2021-05-17T08:43:00Z</updated>
+		<author>
+			<name>Dan Mall</name>
+			<uri>http://danmall.me/</uri>
+		</author>
+		<content type="html" xml:base="http://danmall.me/articles/" xml:lang="en"><![CDATA[
+<h2 id="work">Work</h2>
+<ol>
+	<li>Worked 31 hours</li>
+	<li>Wrote <a href="/weeknotes/2021-05-02/">last week’s weeknotes</a></li>
+	<li>Arcade API workshop with <a href="https://carbonemike.com/">Mike Carbone</a></li>
+	<li>Weekly aiming session with <a href="https://www.patrice-embry.com/">Patrice Embry</a>, <a href="https://twitter.com/crystalvitelli">Crystal Vitelli</a>, and <a href="https://twitter.com/joerinaldi">Joe Rinaldi</a></li>
+	<li>Taught days 3 and 4 (of 4) of <a href="https://smashingconf.com/online-workshops/workshops/dan-mall/">my design systems workshop for Smashing Conference</a></li>
+	<li>Spoke at <a href="https://howdesignlive.com/design-leadership">HOW Creative Leadership Summit</a></li>
+	<li>Schemed with <a href="https://twitter.com/iamlaurendeal/">Lauren Deal</a> and <a href="https://bigmedium.com/">Josh Clark</a> about what to do about an account wrinkle</li>
+	<li>Made more updates to SuperFriendly playbook</li>
+	<li>Monthly check-in with <a href="https://www.linkedin.com/in/nikki-loffredo-5a8b1945/">Nikki Loffredo</a></li>
+	<li>Emailed client to do an account reset</li>
+	<li>Weekly aiming session for <a href="https://linacalin.com/">Lina Calin</a> and <a href="https://blankenship.xyz/">Joshua Blankenship</a> with Crystal Vitelli</li>
+	<li>Weekly workshopping with Crystal Vitelli</li>
+	<li>Created new Project Value Sheet for client project approach</li>
+	<li>Wrote client workshop brief</li>
+	<li>Talk to <a href="https://www.linkedin.com/in/patmurdock/">Pat Murdock</a> about new initiative</li>
+	<li>Workshopped new <a href="https://usearcade.com/">Arcade demo</a> with <a href="https://juliafernandez.design/">Julia Fernandez</a>, <a href="https://jansix.at/">Jan Six</a>, Mike Carbone, and <a href="https://lesliecamacho.com/">Leslie Camacho</a></li>
+	<li>Wrote and posted vision thoughts for new <a href="https://diagnostic.superfriendlydesign.systems/">Design System Diagnostic</a> project</li>
+	<li>Attended the “Getting Unstuck” Snack ’n’ Learn from <a href="https://twitter.com/jenniferdary">Jen Dary</a></li>
+	<li>Weekly check-in with Julia Fernandez</li>
+	<li>Weekly client status call with Lauren Deal and Lina Calin</li>
+	<li>Helped prep a SuperFriend for an upcoming interview</li>
+	<li>Created <a href="https://github.com/SuperFriendly/project-hub">project hub</a> for new client</li>
+	<li>Contract negotiations with book publisher</li>
+	<li>Eating meeting with new project team</li>
+	<li>Schemed with <a href="https://twitter.com/mattkenefick">Matt Kenefick</a> about a new project</li>
+	<li>Schemed with <a href="https://www.afyiasmith.com/">Afyia Smith</a> about a new product</li>
+	<li>Caught up with <a href="https://twitter.com/jponch">Jared Ponchot</a></li>
+	<li>Preliminary interview for an upcoming podcast episode</li>
+</ol>
+<h2 id="personal">Personal</h2>
+<ol>
+	<li>The kids and I took <a href="http://emilymall.me/">Em</a> to <a href="http://zamaphilly.com/">Zama</a> for Mother’s Day</li>
+	<li>Took the kids to swimming lessons</li>
+	<li>Started talking to a new therapist</li>
+	<li>Met my new niece</li>
+	<li>Had my nephew over for a sleepover this weekend</li>
+	<li>Slept an average of 6 hours and 26 minutes per night. Average time in bed: 6 hours and 43 minutes. Average bedtime: 10:59pm. Average wake up time: 5:38am.</li>
+</ol>
+<h3 id="watched">Watched</h3>
+<ol>
+	<li><cite><a href="https://www.amazon.com/Coming-America-Eddie-Murphy/dp/B001K387BU">Coming to America</a></cite></li>
+	<li>Started <cite><a href="https://www.amazon.com/Other-Dream-Team-Sarunas-Marciulionis/dp/B00AQD91TW">The Other Dream Team</a></cite></li>
+	<li><cite><a href="https://www.disneyplus.com/movies/star-wars-the-phantom-menace-episode-i/2ezYynkgW1AH">Star Wars: The Phantom Menace (Episode 1)</a></cite> (again)</li>
+</ol>
+<h3 id="notable-reads-%26-listens">Notable Reads &amp; Listens</h3>
+<ol>
+	<li><cite><a href="https://amzn.to/3y25fnW">The Effective Executive</a></cite> by Peter Drucker</li>
+	<li>Finished <cite><a href="https://amzn.to/2R0CxDA">Spider-Man: The Darkest Hours</a></cite> by Jim Butcher</li>
+	<li><cite><a href="https://podcasts.apple.com/us/podcast/the-dream-team-tapes-kobe-lebron-the-redeem-team/id1498713408">The Dream Team Tapes</a></cite>, season 1, episodes 1 – 7</li>
+	<li><a href="https://www.productplan.com/glossary/daci/">DACI Decision-Making Framework</a></li>
+	<li>Stark’s <a href="https://www.getstark.co/library/">Public Library</a> looks like an incredible resource.</li>
+	<li>Eyes peeled for Yoon Ahn’s <a href="https://www.highsnobiety.com/p/ambush-nike-dunk-high-royal-blue-release-date-price/">AMBUSH x Nike Dunk High</a>.</li>
+	<li><a href="https://inneractproject.org/">Inneract Project</a> empowers underrepresented youth through design education and links them to opportunities to explore design in career and life.</li>
+</ol>
+		]]></content>
+	</entry>
 
 
 	<entry>
