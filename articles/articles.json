@@ -1,5 +1,46 @@
 [
 	{
+		"title"	: 	"Weeknotes: May 23 &ndash; May 29, 2020",
+		"slug"	:	"https://danmall.com/weeknotes/2021-05-23/",
+		"dek"	:	"Highlights from the week.",
+		"date"	:	"2021-05-30T13:40:00Z",
+		"tags"	:	[
+			"personal",
+			"weeknotes"
+		]
+	},
+	{
+		"title"	: 	"Building Momentum",
+		"slug"	:	"https://danmall.com/articles/building-momentum/",
+		"dek"	:	"What should you do when you feel like your projects are going slower than you’d like?",
+		"date"	:	"2021-05-23T08:59:00Z",
+		"tags"	:	[
+			"projects",
+			"workflow",
+			"process"
+		]
+	},
+	{
+		"title"	: 	"Weeknotes: May 16 &ndash; May 22, 2020",
+		"slug"	:	"https://danmall.com/weeknotes/2021-05-16/",
+		"dek"	:	"Highlights from the week.",
+		"date"	:	"2021-05-23T07:02:00Z",
+		"tags"	:	[
+			"personal",
+			"weeknotes"
+		]
+	},
+	{
+		"title"	: 	"Weeknotes: May 9 &ndash; May 15, 2020",
+		"slug"	:	"https://danmall.com/weeknotes/2021-05-09/",
+		"dek"	:	"Highlights from the week.",
+		"date"	:	"2021-05-17T08:43:00Z",
+		"tags"	:	[
+			"personal",
+			"weeknotes"
+		]
+	},
+	{
 		"title"	: 	"Weeknotes: May 2 &ndash; May 8, 2020",
 		"slug"	:	"https://danmall.com/weeknotes/2021-05-02/",
 		"dek"	:	"Highlights from the week.",
