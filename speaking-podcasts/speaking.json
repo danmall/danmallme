@@ -1,9 +1,16 @@
 [	
 	{
+		"title"		: 	"How to start your own design agency",
+		"slug"		:	"https://thefutur.com/podcast/start-your-own-design-agency",
+		"date"		:	"2021-06-23",
+		"source"	:	"The Futur"
+	},
+	{
 		"title"		: 	"Design at Scale",
 		"slug"		:	"https://rosenfeldmedia.com/design-at-scale-2021/cohorts/design-systems-and-designops/",
 		"date"		:	"2021-06-14",
-		"source"	:	"Rosenfeld Media"
+		"source"	:	"Rosenfeld Media",
+		"audio"		:	true
 	},
 	{
 		"title"		: 	"Creative Leadership Summit",
