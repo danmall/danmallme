@@ -1,5 +1,23 @@
 [	
 	{
+		"title"		: 	"Be a Better Partner to Developers workshop",
+		"slug"		:	"https://www.clarityconf.com/event/2021",
+		"date"		:	"2021-10-26",
+		"location"	:	"online"
+	},
+	{
+		"title"		: 	"Learn Design Systems with Dan Mall Dribbble workshop",
+		"slug"		:	"https://dribbble.com/learn/mall-workshops",
+		"date"		:	"2021-10-06",
+		"location"	:	"online"
+	},
+	{
+		"title"		: 	"Design Ops Summit",
+		"slug"		:	"https://rosenfeldmedia.com/designopssummit2021/cohorts/make-design-systems-people-want-to-use/",
+		"date"		:	"2021-10-05",
+		"location"	:	"Online"
+	},
+	{
 		"title"		: 	"How to start your own design agency",
 		"slug"		:	"https://thefutur.com/podcast/start-your-own-design-agency",
 		"date"		:	"2021-06-23",
