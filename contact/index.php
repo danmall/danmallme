@@ -53,6 +53,8 @@
     <main role="main" class="dm-c-articlesList dm-u-padding--m">
 
         <p class="dm-u-text--m">The best ways to get in touch with me are to send a direct message to <a href="http://twitter.com/danmall">@danmall</a> on Twitter or to email <a href="mailto:dan@superfriend.ly">dan@superfriend.ly</a>.</p>
+        
+        <?php /* ?>
 
         <div class="dm-c-contactChunk">
 
@@ -93,7 +95,7 @@
 
         </div><!-- .dm-u-clearfix -->
 
-
+        <?php */ ?>
 
     </main>
 
