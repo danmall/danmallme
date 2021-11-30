@@ -1,5 +1,17 @@
 [	
 	{
+		"title"		: 	"How Designers can be Better Partners",
+		"slug"		:	"https://zeroheight.com/blog/s02e08-dan-mall/",
+		"date"		:	"2021-11-29",
+		"source"	:	"Zeroheight",
+		"audio"		:	true
+	},
+	{
+		"title"		: 	"Flexible Business Models",
+		"date"		:	"2021-11-05",
+		"source"	:	"Bureau of Digital"
+	},
+	{
 		"title"		: 	"Be a Better Partner to Developers workshop",
 		"slug"		:	"https://www.clarityconf.com/event/2021",
 		"date"		:	"2021-10-26",
