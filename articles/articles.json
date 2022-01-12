@@ -1,6 +1,52 @@
 [
 	{
-		"title"	: 	"Weeknotes: May 23 &ndash; May 29, 2020",
+		"title"	: 	"2021 Year in Review",
+		"slug"	:	"https://danmall.com/articles/2021-year-in-review/",
+		"dek"	:	"The ups and downs of 2021.",
+		"date"	:	"2022-01-12T05:36:00",
+		"tags"	:	[
+			"personal",
+			"reflection"
+		]
+	},
+	{
+		"title"	: 	"SuperFriendly 2021 Wrap-Up",
+		"slug"	:	"https://danmall.com/articles/superfriendly-2021-wrap-up/",
+		"dek"	:	"SuperFriendly&rsquo;s worst year to date and one of my biggest professional failures. Time for a big change.",
+		"date"	:	"2022-01-10T12:29:00",
+		"tags"	:	[
+			"superfriendly",
+			"agency",
+			"reflection",
+			"data",
+			"working in public",
+			"annual report",
+			"business"
+		]
+	},
+	{
+		"title"	: 	"It&rsquo;s Easier to Revise than Create",
+		"slug"	:	"https://danmall.com/articles/its-easier-to-revise-than-create/",
+		"dek"	:	"How to hack starting from scratch to make something great.",
+		"date"	:	"2021-06-06T09:17:00Z",
+		"tags"	:	[
+			"projects",
+			"workflow",
+			"process"
+		]
+	},
+	{
+		"title"	: 	"Weeknotes: May 30 &ndash; June 5, 2021",
+		"slug"	:	"https://danmall.com/weeknotes/2021-05-23/",
+		"dek"	:	"Highlights from the week.",
+		"date"	:	"2021-06-08T08:50:00Z",
+		"tags"	:	[
+			"personal",
+			"weeknotes"
+		]
+	},
+	{
+		"title"	: 	"Weeknotes: May 23 &ndash; May 29, 2021",
 		"slug"	:	"https://danmall.com/weeknotes/2021-05-23/",
 		"dek"	:	"Highlights from the week.",
 		"date"	:	"2021-05-30T13:40:00Z",
@@ -21,7 +67,7 @@
 		]
 	},
 	{
-		"title"	: 	"Weeknotes: May 16 &ndash; May 22, 2020",
+		"title"	: 	"Weeknotes: May 16 &ndash; May 22, 2021",
 		"slug"	:	"https://danmall.com/weeknotes/2021-05-16/",
 		"dek"	:	"Highlights from the week.",
 		"date"	:	"2021-05-23T07:02:00Z",
@@ -31,7 +77,7 @@
 		]
 	},
 	{
-		"title"	: 	"Weeknotes: May 9 &ndash; May 15, 2020",
+		"title"	: 	"Weeknotes: May 9 &ndash; May 15, 2021",
 		"slug"	:	"https://danmall.com/weeknotes/2021-05-09/",
 		"dek"	:	"Highlights from the week.",
 		"date"	:	"2021-05-17T08:43:00Z",
@@ -72,7 +118,7 @@
 		]
 	},
 	{
-		"title"	: 	"Weeknotes: January 10&ndash;January 16, 2020",
+		"title"	: 	"Weeknotes: January 10&ndash;January 16, 2021",
 		"slug"	:	"weeknotes-2021-01-10",
 		"dek"	:	"Highlights from the week.",
 		"date"	:	"2021-01-18T02:47:00Z",
@@ -93,7 +139,7 @@
 		]
 	},
 	{
-		"title"	: 	"Weeknotes: January 3&ndash;January 9, 2020",
+		"title"	: 	"Weeknotes: January 3&ndash;January 9, 2021",
 		"slug"	:	"weeknotes-2021-01-03",
 		"dek"	:	"Highlights from the week.",
 		"date"	:	"2021-01-10T14:46:00Z",
