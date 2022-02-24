@@ -1,5 +1,17 @@
 [	
 	{
+		"title"		: 	"Dubai&rsquo;s UX Design Conference",
+		"slug"		:	"https://www.duxdconference.com/",
+		"date"		:	"2022-05-16",
+		"location"	:	"Dubai, UAE"
+	},
+	{
+		"title"		: 	"Designer/Developer Collaboration Workshop",
+		"slug"		:	"https://dribbble.com/learn/mall-frost-workshops",
+		"date"		:	"2022-03-09",
+		"source"	:	"Dribbble"
+	},
+	{
 		"title"		: 	"How Designers can be Better Partners",
 		"slug"		:	"https://zeroheight.com/blog/s02e08-dan-mall/",
 		"date"		:	"2021-11-29",
