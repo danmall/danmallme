@@ -6,6 +6,12 @@
 		"location"	:	"Dubai, UAE"
 	},
 	{
+		"title"		: 	"Leading Design",
+		"slug"		:	"https://leadingdesign.com/conferences/new-york-2022/",
+		"date"		:	"2022-03-16",
+		"location"	:	"New York"
+	},
+	{
 		"title"		: 	"Designer/Developer Collaboration Workshop",
 		"slug"		:	"https://dribbble.com/learn/mall-frost-workshops",
 		"date"		:	"2022-03-09",
