@@ -1,9 +1,17 @@
 [	
 	{
-		"title"		: 	"Dubai&rsquo;s UX Design Conference",
-		"slug"		:	"https://www.duxdconference.com/",
-		"date"		:	"2022-05-16",
-		"location"	:	"Dubai, UAE"
+		"title"		: 	"Choosing Impact Over Scale",
+		"slug"		:	"https://www.youtube.com/watch?v=bDdEPxcayHk",
+		"date"		:	"2022-06-27",
+		"source"	:	"design MBA",
+		"video"		:	true
+	},
+	{
+		"title"		: 	"Creativity, Building SuperFriendly, and Design Systems with Dan Mall",
+		"slug"		:	"https://www.technicallyspeakinghw.com/episodes/creativity-building-superfriendly-and-design-systems-with-dan-mall",
+		"date"		:	"2022-05-10",
+		"source"	:	"Technically Speaking",
+		"audio"		:	true
 	},
 	{
 		"title"		: 	"Leading Design",
